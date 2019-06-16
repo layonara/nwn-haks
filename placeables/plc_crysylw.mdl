@@ -1,0 +1,1094 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: PLC_crysYLW
+filedependancy CrystalYLW.max
+newmodel PLC_crysYLW
+setsupermodel PLC_crysYLW NULL
+classification Character
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom PLC_crysYLW
+node dummy PLC_crysYLW
+  parent NULL
+endnode
+node dummy CRYSBLU_hand
+  parent PLC_crysYLW
+  position 0.00398926 -0.505197 0.934402
+  orientation 0 0 0 0
+  wirecolor 0.777344 0.777344 0.777344
+endnode
+node dummy CRYSBLU_head
+  parent PLC_crysYLW
+  position 0 0 1.25
+  orientation 0 0 0 0
+  wirecolor 0.777344 0.777344 0.777344
+endnode
+node dummy CRYSBLU_head_hit
+  parent PLC_crysYLW
+  position 0 0 1.58685
+  orientation 0 0 0 0
+  wirecolor 0.777344 0.777344 0.777344
+endnode
+node dummy CRYSBLU_impact
+  parent PLC_crysYLW
+  position 0.00398926 0.0109997 0.868134
+  orientation 0 0 0 0
+  wirecolor 0.777344 0.777344 0.777344
+endnode
+node dummy CRYSBLU_ground
+  parent PLC_crysYLW
+  position -0.00363281 0.00698791 0
+  orientation 0 0 0 0
+  wirecolor 0.777344 0.777344 0.777344
+endnode
+node emitter ChunkyWood118
+  parent PLC_crysYLW
+  position 0 0 0.712937
+  orientation 0 0 0 0
+  wirecolor 0.722656 0.722656 0.722656
+    colorStart 0.482353 0.454902 0.317647
+    colorEnd 0.584314 0.552941 0.407843
+    alphaStart 1
+    alphaEnd 1
+    sizeStart 0.1
+    sizeEnd 0.1
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 24
+    birthrate 3
+    spawnType 0
+    lifeExp 0.75
+    mass 3
+    spread 1.22173
+    particleRot 2.9
+    velocity 8
+    randvel 0.3
+    fps 0
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 89
+    ysize 40
+    bounce 1
+    bounce_co 0.5
+    loop 0
+    update Explosion
+    render Normal
+    Blend Normal
+    update_sel 2
+    render_sel 1
+    blend_sel 1
+    deadspace 0
+    opacity 0.5
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 1
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_cloud02
+    xgrid 5
+    ygrid 5
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+    chunkName PLC_Chunk_S02
+endnode
+node emitter ChunkyWood119
+  parent PLC_crysYLW
+  position 0 0 0.606715
+  orientation 0 0 0 0
+  wirecolor 0.722656 0.722656 0.722656
+    colorStart 1 1 1
+    colorEnd 1 1 1
+    alphaStart 1
+    alphaEnd 1
+    sizeStart 0.1
+    sizeEnd 0.1
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 24
+    birthrate 3
+    spawnType 0
+    lifeExp 0.75
+    mass 3
+    spread 1.22173
+    particleRot 5
+    velocity 8
+    randvel 0.3
+    fps 0
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 89
+    ysize 40
+    bounce 1
+    bounce_co 0.5
+    loop 0
+    update Explosion
+    render Normal
+    Blend Normal
+    update_sel 2
+    render_sel 1
+    blend_sel 1
+    deadspace 0
+    opacity 0.5
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_cloud02
+    xgrid 5
+    ygrid 5
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+    chunkName PLC_Chunk_S01
+endnode
+node emitter fire!70
+  parent PLC_crysYLW
+  position 0 0 0.532671
+  orientation -1 0 0 -1.5708
+  wirecolor 0.722656 0.722656 0.722656
+    colorStart 0.627451 0.6 0.478431
+    colorEnd 0.941177 0.901961 0.721569
+    alphaStart 1
+    alphaEnd 0
+    sizeStart 4
+    sizeEnd 1
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 24
+    birthrate 10
+    spawnType 0
+    lifeExp 2.5
+    mass 0.09
+    spread 2.96706
+    particleRot 0.5
+    velocity 2
+    randvel 0.5
+    fps 10
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 20
+    ysize 40
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Explosion
+    render Normal
+    Blend Normal
+    update_sel 2
+    render_sel 1
+    blend_sel 1
+    deadspace 0
+    opacity 0.5
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0.2
+    blastLength 1
+    twosidedtex 1
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_smoke01
+    xgrid 4
+    ygrid 4
+    affectedByWind 0
+    m_isTinted 1
+    renderorder 0
+    Splat 0
+endnode
+node trimesh damage33
+  parent PLC_crysYLW
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 0.554688 0.554688 0.554688
+  ambient 0.0705882 0 1
+  diffuse 1 0.501961 0.643137
+  specular 0 0 0
+  shininess 24
+  bitmap NULL
+  render 0
+  Shadow 0
+  beaming 0
+  transparencyhint 0
+  tilefade 0
+  rotatetexture 0
+  verts 12
+    -0.195415 -0.186216 0
+    -0.195415 0.186216 0
+    0.195415 0.186216 0
+    0.195415 -0.186216 0
+    -0.195415 -0.186216 0.5
+    0.195415 -0.186216 0.5
+    0.195415 0.186216 0.5
+    -0.195415 0.186216 0.5
+    0.103944 -0.0990513 0.25
+    -0.103944 -0.0990513 0.25
+    0.103944 0.0990513 0.25
+    -0.103944 0.0990513 0.25
+  faces 20
+    0 1 2  1  0 0 0  0
+    2 3 0  1  0 0 0  0
+    4 5 6  1  0 0 0  0
+    6 7 4  1  0 0 0  0
+    0 3 8  1  0 0 0  0
+    8 9 0  1  0 0 0  0
+    9 8 5  1  0 0 0  0
+    5 4 9  1  0 0 0  0
+    3 2 10  1  0 0 0  0
+    10 8 3  1  0 0 0  0
+    8 10 6  1  0 0 0  0
+    6 5 8  1  0 0 0  0
+    2 1 11  1  0 0 0  0
+    11 10 2  1  0 0 0  0
+    10 11 7  1  0 0 0  0
+    7 6 10  1  0 0 0  0
+    1 0 9  1  0 0 0  0
+    9 11 1  1  0 0 0  0
+    11 9 4  1  0 0 0  0
+    4 7 11  1  0 0 0  0
+  tverts 1
+    0 0 0
+endnode
+node trimesh Crystal
+  parent damage33
+  position 0 0 0.843563
+  orientation 0 0 0 0
+  wirecolor 0.113281 0.113281 0.113281
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  selfillumcolor 1 1 1
+  bitmap crystalYlw
+  verts 14
+    0 0 -0.327709
+    -0.201922 0 0
+    -0.100961 -0.17487 0
+    0.100961 -0.17487 0
+    0.201922 0 0
+    0.100961 0.17487 0
+    -0.100961 0.17487 0
+    -0.330506 0 0.504247
+    -0.165253 -0.286227 0.504247
+    0.165253 -0.286227 0.504247
+    0.330506 0 0.504247
+    0.165253 0.286227 0.504247
+    -0.165253 0.286227 0.504247
+    0 0 0.765279
+  faces 24
+    0 2 1  0  2 59 58  1
+    0 3 2  0  3 57 56  1
+    0 4 3  0  49 51 50  1
+    0 5 4  0  4 53 52  1
+    0 6 5  0  5 55 54  1
+    0 1 6  0  0 1 6  1
+    1 8 7  0  14 17 16  2
+    1 2 8  0  14 15 17  2
+    2 9 8  0  25 28 27  2
+    2 3 9  0  25 26 28  2
+    3 10 9  0  9 43 42  2
+    3 4 10  0  9 41 43  2
+    4 11 10  0  10 46 45  2
+    4 5 11  0  10 44 46  2
+    5 12 11  0  11 48 47  2
+    5 6 12  0  11 12 48  2
+    6 7 12  0  19 20 21  2
+    6 1 7  0  19 18 20  2
+    13 7 8  0  39 8 38  0
+    13 8 9  0  37 35 36  0
+    13 9 10  0  24 22 23  0
+    13 10 11  0  31 29 30  0
+    13 11 12  0  34 32 33  0
+    13 12 7  0  40 13 7  0
+  tverts 60
+    1.01918 0.972073 -5.1194e+006
+    1.01918 0.028677 -5.1194e+006
+    0.0030771 -0.0408632 -1.02388e+007
+    1.009 0.951691 0.0866234
+    1.01797 1.00126 -2.5597e+006
+    1.02899 0.985507 0.601075
+    0.104765 0.028677 -5.1194e+006
+    0.0180186 0.97098 -2.13332e+006
+    0.00425074 0.0328766 -3.19999e+006
+    0.0197035 0.0202152 -2.40546e+006
+    0.981023 0.988375 -2.06183e+006
+    0.0130457 0.0159202 -0.209981
+    0.98214 0.0159202 0.340478
+    1.02271 0.97098 -2.13332e+006
+    0.00628465 0.0134954 -1.11021e+006
+    0.986956 0.0134954 -1.11021e+006
+    0.00620149 0.997795 -1.11022e+006
+    0.987216 0.997795 -1.11021e+006
+    0.00788653 0.997795 -1.44328e+006
+    0.982288 0.997795 -1.44328e+006
+    0.00757369 0.03451 -1.44328e+006
+    0.983252 0.03451 -1.44328e+006
+    0.0125446 0.0174503 -6.39997e+006
+    1.01723 0.0174503 -6.39997e+006
+    1.01836 0.997986 -6.39997e+006
+    0.983514 0.991836 -0.364949
+    0.00842464 0.991836 0.246
+    0.983602 0.0397343 0.559475
+    0.0081304 0.0397342 -0.440526
+    0.980769 0.958206 -3.19999e+006
+    0.0192308 0.958206 -3.19999e+006
+    0.0199275 -0.00333224 -3.19999e+006
+    0.000506695 0.0159563 1.83245
+    1.00264 0.0159563 1.83245
+    1.00193 0.996348 3.1155
+    1.01398 0.954329 11.5636
+    0.0186269 0.954329 11.5636
+    0.0193235 -0.00720908 8.6126
+    1.01121 0.0328766 -3.19999e+006
+    1.0105 0.957713 -3.19999e+006
+    0.0156734 -0.0288796 -2.13332e+006
+    0.972068 0.0202152 -2.40546e+006
+    0.0173607 0.988375 -2.40546e+006
+    0.973124 0.988375 -2.40546e+006
+    0.0116062 0.988375 -2.06183e+006
+    0.981912 0.0419543 -2.06183e+006
+    0.0113622 0.0419544 -2.06183e+006
+    0.0116638 0.994693 0.24147
+    0.982537 0.994693 -0.659522
+    -0.00031418 -0.0298286 -5.1194e+006
+    0.0017874 0.975002 -5.1194e+006
+    1.05734 0.975002 -5.1194e+006
+    0.023116 0.0423211 -2.5597e+006
+    1.01587 0.0423211 -2.5597e+006
+    0.0289854 -0.031401 -0.245957
+    0.0289854 0.985507 -0.245957
+    1.0112 0.0386474 0.913377
+    0.0981586 0.0386474 0.913377
+    -0.00175398 1.00256 -1.02388e+007
+    1.03681 1.00256 -1.02388e+007
+endnode
+node emitter OmenEmitter01
+  parent Crystal
+  position 0 0 0.13537
+  orientation 0 0 0 0
+  wirecolor 0.601563 0.601563 0.601563
+    colorStart 1 1 1
+    colorEnd 0.996078 0.886275 0.376471
+    alphaStart 1
+    alphaEnd 1
+    sizeStart 0.02
+    sizeEnd 0.04
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 0
+    birthrate 150
+    spawnType 0
+    lifeExp 1.5
+    mass 0
+    spread 0
+    particleRot 0
+    velocity 0
+    randvel 0
+    fps 0
+    random 0
+    inherit 0
+    inherit_local 1
+    inherit_part 0
+    inheritvel 0
+    xsize 250
+    ysize 250
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Fountain
+    render Motion_Blur
+    Blend Lighten
+    update_sel 1
+    render_sel 7
+    blend_sel 3
+    deadspace 0.174533
+    opacity 0.5
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 1
+    p2p 1
+    p2p_sel 2
+    p2p_type Gravity
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0.4
+    grav 5
+    threshold 0
+    texture fxpa_Dot01
+    xgrid 1
+    ygrid 1
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+node reference OmenRef01
+  parent OmenEmitter01
+  position 0 0 0
+  orientation -1 0 0 -1.5708
+  wirecolor 0.0351563 0.0351563 0.0351563
+    refModel fx_ref
+    reattachable 0
+endnode
+node light AuroraLight01
+  parent Crystal
+  position 0 0 0.306437
+  orientation 0 0 0 0
+  wirecolor 0.601563 0.601563 0.601563
+    radius 4
+    multiplier 1.5
+    color 1 0.8 0
+    ambientOnly 1
+    nDynamicType 1
+    affectDynamic 1
+    shadow 0
+    lightpriority 3
+    lensflares 0
+    fadingLight 0
+endnode
+node emitter shell
+  parent Crystal
+  position 0 0 0.13358
+  orientation 0 0 0 0
+  wirecolor 0.601563 0.601563 0.601563
+    colorStart 0.976471 0.839216 0.196078
+    colorEnd 1 1 1
+    alphaStart 0.9
+    alphaEnd 0
+    sizeStart 0.5
+    sizeEnd 2
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 0
+    birthrate 20
+    spawnType 0
+    lifeExp 1.1
+    mass 0
+    spread 6.28319
+    particleRot 0
+    velocity 1
+    randvel 0.1
+    fps 0
+    random 0
+    inherit 0
+    inherit_local 1
+    inherit_part 0
+    inheritvel 0
+    xsize 0
+    ysize 0
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Fountain
+    render Normal
+    Blend Lighten
+    update_sel 1
+    render_sel 1
+    blend_sel 3
+    deadspace 0
+    opacity 0.5
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_flare
+    xgrid 1
+    ygrid 1
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+endmodelgeom PLC_crysYLW
+
+#MAXANIM ASCII
+newanim damage PLC_crysYLW
+  length 0.133333
+  transtime 0
+  animroot PLC_crysYLW
+node dummy PLC_crysYLW
+  parent NULL
+endnode
+node dummy CRYSBLU_hand
+  parent PLC_crysYLW
+endnode
+node dummy CRYSBLU_head
+  parent PLC_crysYLW
+endnode
+node dummy CRYSBLU_head_hit
+  parent PLC_crysYLW
+endnode
+node dummy CRYSBLU_impact
+  parent PLC_crysYLW
+endnode
+node dummy CRYSBLU_ground
+  parent PLC_crysYLW
+endnode
+node emitter ChunkyWood118
+  parent PLC_crysYLW
+endnode
+node emitter ChunkyWood119
+  parent PLC_crysYLW
+endnode
+node emitter fire!70
+  parent PLC_crysYLW
+endnode
+node trimesh damage33
+  parent PLC_crysYLW
+    positionkey
+      0  0 0 0
+      0.0333333  0 0 0.0244581
+      0.133333  0 0 0
+    endlist
+    orientationkey
+      0  0 0 0 0
+      0.0333333  -0.371336 0.928463 -0.00810258 0.0469942
+      0.1  0.599949 -0.799969 -0.0104721 0.0436326
+      0.133333  0 0 0 0
+    endlist
+endnode
+node trimesh Crystal
+  parent damage33
+endnode
+node emitter OmenEmitter01
+  parent Crystal
+endnode
+node reference OmenRef01
+  parent OmenEmitter01
+endnode
+node light AuroraLight01
+  parent Crystal
+endnode
+node emitter shell
+  parent Crystal
+endnode
+node trimesh pwk_crysylw
+  parent PLC_crysYLW
+endnode
+doneanim damage PLC_crysYLW
+
+#MAXANIM ASCII
+newanim die PLC_crysYLW
+  length 0.166667
+  transtime 0
+  animroot PLC_crysYLW
+node dummy PLC_crysYLW
+  parent NULL
+endnode
+node dummy CRYSBLU_hand
+  parent PLC_crysYLW
+endnode
+node dummy CRYSBLU_head
+  parent PLC_crysYLW
+endnode
+node dummy CRYSBLU_head_hit
+  parent PLC_crysYLW
+endnode
+node dummy CRYSBLU_impact
+  parent PLC_crysYLW
+endnode
+node dummy CRYSBLU_ground
+  parent PLC_crysYLW
+endnode
+node emitter ChunkyWood118
+  parent PLC_crysYLW
+endnode
+node emitter ChunkyWood119
+  parent PLC_crysYLW
+endnode
+node emitter fire!70
+  parent PLC_crysYLW
+endnode
+node trimesh damage33
+  parent PLC_crysYLW
+    positionkey
+      0  0 0 0
+      0.166667  0 0 -7.3333
+    endlist
+    orientationkey
+      0  0 0 0 0
+    endlist
+endnode
+node trimesh Crystal
+  parent damage33
+endnode
+node emitter OmenEmitter01
+  parent Crystal
+endnode
+node reference OmenRef01
+  parent OmenEmitter01
+endnode
+node light AuroraLight01
+  parent Crystal
+endnode
+node emitter shell
+  parent Crystal
+endnode
+node trimesh pwk_crysylw
+  parent PLC_crysYLW
+endnode
+event 0  detonate
+event 0  detonate
+event 0  detonate
+doneanim die PLC_crysYLW
+
+#MAXANIM ASCII
+newanim dead PLC_crysYLW
+  length 0.0333333
+  transtime 0
+  animroot PLC_crysYLW
+node dummy PLC_crysYLW
+  parent NULL
+endnode
+node dummy CRYSBLU_hand
+  parent PLC_crysYLW
+endnode
+node dummy CRYSBLU_head
+  parent PLC_crysYLW
+endnode
+node dummy CRYSBLU_head_hit
+  parent PLC_crysYLW
+endnode
+node dummy CRYSBLU_impact
+  parent PLC_crysYLW
+endnode
+node dummy CRYSBLU_ground
+  parent PLC_crysYLW
+endnode
+node emitter ChunkyWood118
+  parent PLC_crysYLW
+endnode
+node emitter ChunkyWood119
+  parent PLC_crysYLW
+endnode
+node emitter fire!70
+  parent PLC_crysYLW
+endnode
+node trimesh damage33
+  parent PLC_crysYLW
+    positionkey
+      0  0 0 -7.3333
+      0.0333333  0 0 -7.3333
+    endlist
+endnode
+node trimesh Crystal
+  parent damage33
+endnode
+node emitter OmenEmitter01
+  parent Crystal
+endnode
+node reference OmenRef01
+  parent OmenEmitter01
+endnode
+node light AuroraLight01
+  parent Crystal
+endnode
+node emitter shell
+  parent Crystal
+endnode
+node trimesh pwk_crysylw
+  parent PLC_crysYLW
+endnode
+doneanim dead PLC_crysYLW
+
+#MAXANIM ASCII
+newanim on PLC_crysYLW
+  length 0.966667
+  transtime 0
+  animroot PLC_crysYLW
+node dummy PLC_crysYLW
+  parent NULL
+endnode
+node dummy CRYSBLU_hand
+  parent PLC_crysYLW
+endnode
+node dummy CRYSBLU_head
+  parent PLC_crysYLW
+endnode
+node dummy CRYSBLU_head_hit
+  parent PLC_crysYLW
+endnode
+node dummy CRYSBLU_impact
+  parent PLC_crysYLW
+endnode
+node dummy CRYSBLU_ground
+  parent PLC_crysYLW
+endnode
+node emitter ChunkyWood118
+  parent PLC_crysYLW
+endnode
+node emitter ChunkyWood119
+  parent PLC_crysYLW
+endnode
+node emitter fire!70
+  parent PLC_crysYLW
+endnode
+node trimesh damage33
+  parent PLC_crysYLW
+endnode
+node trimesh Crystal
+  parent damage33
+endnode
+node emitter OmenEmitter01
+  parent Crystal
+    orientationkey
+      0  0 0 0 0
+      0.5  0 -1 0 3.15905
+      0.966667  0 0 0 6.28319
+    endlist
+    birthratekey
+      0  150
+      0.966667  150
+    endlist
+endnode
+node reference OmenRef01
+  parent OmenEmitter01
+endnode
+node light AuroraLight01
+  parent Crystal
+    radiuskey
+      0  4
+      0.966667  4
+    endlist
+endnode
+node emitter shell
+  parent Crystal
+    birthratekey
+      0  20
+      0.966667  20
+    endlist
+endnode
+node trimesh pwk_crysylw
+  parent PLC_crysYLW
+endnode
+doneanim on PLC_crysYLW
+
+#MAXANIM ASCII
+newanim off PLC_crysYLW
+  length 0.0333333
+  transtime 0
+  animroot PLC_crysYLW
+node dummy PLC_crysYLW
+  parent NULL
+endnode
+node dummy CRYSBLU_hand
+  parent PLC_crysYLW
+endnode
+node dummy CRYSBLU_head
+  parent PLC_crysYLW
+endnode
+node dummy CRYSBLU_head_hit
+  parent PLC_crysYLW
+endnode
+node dummy CRYSBLU_impact
+  parent PLC_crysYLW
+endnode
+node dummy CRYSBLU_ground
+  parent PLC_crysYLW
+endnode
+node emitter ChunkyWood118
+  parent PLC_crysYLW
+endnode
+node emitter ChunkyWood119
+  parent PLC_crysYLW
+endnode
+node emitter fire!70
+  parent PLC_crysYLW
+endnode
+node trimesh damage33
+  parent PLC_crysYLW
+endnode
+node trimesh Crystal
+  parent damage33
+endnode
+node emitter OmenEmitter01
+  parent Crystal
+    birthratekey
+      0  0
+      0.0333333  0
+    endlist
+endnode
+node reference OmenRef01
+  parent OmenEmitter01
+endnode
+node light AuroraLight01
+  parent Crystal
+    radiuskey
+      0  0
+      0.0333333  0
+    endlist
+endnode
+node emitter shell
+  parent Crystal
+    birthratekey
+      0  0
+      0.0333333  0
+    endlist
+endnode
+node trimesh pwk_crysylw
+  parent PLC_crysYLW
+endnode
+doneanim off PLC_crysYLW
+
+#MAXANIM ASCII
+newanim on2off PLC_crysYLW
+  length 0.0333333
+  transtime 0
+  animroot PLC_crysYLW
+node dummy PLC_crysYLW
+  parent NULL
+endnode
+node dummy CRYSBLU_hand
+  parent PLC_crysYLW
+endnode
+node dummy CRYSBLU_head
+  parent PLC_crysYLW
+endnode
+node dummy CRYSBLU_head_hit
+  parent PLC_crysYLW
+endnode
+node dummy CRYSBLU_impact
+  parent PLC_crysYLW
+endnode
+node dummy CRYSBLU_ground
+  parent PLC_crysYLW
+endnode
+node emitter ChunkyWood118
+  parent PLC_crysYLW
+endnode
+node emitter ChunkyWood119
+  parent PLC_crysYLW
+endnode
+node emitter fire!70
+  parent PLC_crysYLW
+endnode
+node trimesh damage33
+  parent PLC_crysYLW
+    positionkey
+      0  0 0 0
+      0.0333333  0 0 0
+    endlist
+    orientationkey
+      0  0 0 0 0
+      0.0333333  0 0 0 0
+    endlist
+endnode
+node trimesh Crystal
+  parent damage33
+endnode
+node emitter OmenEmitter01
+  parent Crystal
+    birthratekey
+      0  150
+      0.0333333  0
+    endlist
+endnode
+node reference OmenRef01
+  parent OmenEmitter01
+endnode
+node light AuroraLight01
+  parent Crystal
+    radiuskey
+      0  4
+      0.0333333  0
+    endlist
+endnode
+node emitter shell
+  parent Crystal
+    birthratekey
+      0  20
+      0.0333333  0
+    endlist
+endnode
+node trimesh pwk_crysylw
+  parent PLC_crysYLW
+endnode
+doneanim on2off PLC_crysYLW
+
+#MAXANIM ASCII
+newanim off2on PLC_crysYLW
+  length 0.0333333
+  transtime 0
+  animroot PLC_crysYLW
+node dummy PLC_crysYLW
+  parent NULL
+endnode
+node dummy CRYSBLU_hand
+  parent PLC_crysYLW
+endnode
+node dummy CRYSBLU_head
+  parent PLC_crysYLW
+endnode
+node dummy CRYSBLU_head_hit
+  parent PLC_crysYLW
+endnode
+node dummy CRYSBLU_impact
+  parent PLC_crysYLW
+endnode
+node dummy CRYSBLU_ground
+  parent PLC_crysYLW
+endnode
+node emitter ChunkyWood118
+  parent PLC_crysYLW
+endnode
+node emitter ChunkyWood119
+  parent PLC_crysYLW
+endnode
+node emitter fire!70
+  parent PLC_crysYLW
+endnode
+node trimesh damage33
+  parent PLC_crysYLW
+endnode
+node trimesh Crystal
+  parent damage33
+endnode
+node emitter OmenEmitter01
+  parent Crystal
+    birthratekey
+      0  0
+      0.0333333  150
+    endlist
+endnode
+node reference OmenRef01
+  parent OmenEmitter01
+endnode
+node light AuroraLight01
+  parent Crystal
+    radiuskey
+      0  0
+      0.0333333  6
+    endlist
+endnode
+node emitter shell
+  parent Crystal
+    birthratekey
+      0  0
+      0.0333333  20
+    endlist
+endnode
+node trimesh pwk_crysylw
+  parent PLC_crysYLW
+endnode
+doneanim off2on PLC_crysYLW
+
+#MAXANIM ASCII
+newanim default PLC_crysYLW
+  length 0
+  transtime 0.25
+  animroot PLC_crysYLW
+node dummy PLC_crysYLW
+  parent NULL
+endnode
+node dummy CRYSBLU_hand
+  parent PLC_crysYLW
+endnode
+node dummy CRYSBLU_head
+  parent PLC_crysYLW
+endnode
+node dummy CRYSBLU_head_hit
+  parent PLC_crysYLW
+endnode
+node dummy CRYSBLU_impact
+  parent PLC_crysYLW
+endnode
+node dummy CRYSBLU_ground
+  parent PLC_crysYLW
+endnode
+node emitter ChunkyWood118
+  parent PLC_crysYLW
+endnode
+node emitter ChunkyWood119
+  parent PLC_crysYLW
+endnode
+node emitter fire!70
+  parent PLC_crysYLW
+endnode
+node trimesh damage33
+  parent PLC_crysYLW
+endnode
+node trimesh Crystal
+  parent damage33
+endnode
+node emitter OmenEmitter01
+  parent Crystal
+endnode
+node reference OmenRef01
+  parent OmenEmitter01
+endnode
+node light AuroraLight01
+  parent Crystal
+endnode
+node emitter shell
+  parent Crystal
+endnode
+node trimesh pwk_crysylw
+  parent PLC_crysYLW
+endnode
+doneanim default PLC_crysYLW
+donemodel PLC_crysYLW

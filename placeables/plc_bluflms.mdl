@@ -1,0 +1,384 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: PLC_BluFlmS
+filedependancy BlueFlame Small.max
+newmodel PLC_BluFlmS
+setsupermodel PLC_BluFlmS NULL
+classification Character
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom PLC_BluFlmS
+node dummy PLC_BluFlmS
+  parent NULL
+endnode
+node dummy BluFlmS_hand
+  parent PLC_BluFlmS
+  position 0 -0.5052 0.934402
+  orientation 0 0 0 0
+  wirecolor 0.0351563 0.0351563 0.0351563
+endnode
+node emitter Flame
+  parent PLC_BluFlmS
+  position 0 0 0.112567
+  orientation 0 0 1 -0.516453
+  wirecolor 0.0351563 0.0351563 0.0351563
+    colorStart 0.384314 0.196078 1
+    colorEnd 0.713726 0.65098 0.921569
+    alphaStart 0.73
+    alphaEnd 0.1
+    sizeStart 0.5
+    sizeEnd 1
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 15
+    birthrate 6
+    spawnType 0
+    lifeExp 2
+    mass 0
+    spread 0.349066
+    particleRot 0
+    velocity 0.1
+    randvel 0
+    fps 24
+    random 1
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 10
+    ysize 10
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Fountain
+    render Normal
+    Blend Lighten
+    update_sel 1
+    render_sel 1
+    blend_sel 3
+    deadspace 0
+    opacity 0.5
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_flame05
+    xgrid 4
+    ygrid 4
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+node emitter Smoke
+  parent PLC_BluFlmS
+  position 0 0 0.652467
+  orientation 0 0 0 0
+  wirecolor 0.0351563 0.0351563 0.0351563
+    colorStart 0.239216 0.215686 0.313726
+    colorEnd 0.239216 0.215686 0.313726
+    alphaStart 0.1
+    alphaEnd 0
+    sizeStart 0.5
+    sizeEnd 1
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 24
+    birthrate 5
+    spawnType 0
+    lifeExp 2
+    mass 0.015
+    spread 0.174533
+    particleRot 0.5
+    velocity 1
+    randvel 0.2
+    fps 10
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 10
+    ysize 10
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Fountain
+    render Normal
+    Blend Normal
+    update_sel 1
+    render_sel 1
+    blend_sel 1
+    deadspace 0
+    opacity 0.5
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_smoke01
+    xgrid 4
+    ygrid 4
+    affectedByWind 1
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+node dummy BluFlmS_ground
+  parent PLC_BluFlmS
+  position -0.00363281 0.0069873 0
+  orientation 0 0 0 0
+  wirecolor 0.0351563 0.0351563 0.0351563
+endnode
+node dummy BluFlmS_head
+  parent PLC_BluFlmS
+  position 0 0 0.777396
+  orientation 0 0 0 0
+  wirecolor 0.0351563 0.0351563 0.0351563
+endnode
+node dummy BluFlmS_head_hit
+  parent PLC_BluFlmS
+  position 0 0 0.295917
+  orientation 0 0 0 0
+  wirecolor 0.0351563 0.0351563 0.0351563
+endnode
+node dummy BluFlmS_impact
+  parent PLC_BluFlmS
+  position 0 0 0.102749
+  orientation 0 0 0 0
+  wirecolor 0.0351563 0.0351563 0.0351563
+endnode
+node trimesh Rectangle123
+  parent PLC_BluFlmS
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 0.554688 0.554688 0.554688
+  ambient 0.2 0.2 0.2
+  diffuse 0.8 0.8 0.8
+  specular 0 0 0
+  shininess 1
+  bitmap NULL
+  render 0
+  Shadow 0
+  beaming 0
+  transparencyhint 0
+  tilefade 0
+  rotatetexture 0
+  verts 8
+    -0.3 -0.3 0.177
+    0.3 -0.3 0.177
+    0.3 0.3 0.177
+    -0.3 0.3 0.177
+    -0.3 -0.3 0
+    0.3 -0.3 0
+    0.3 0.3 0
+    -0.3 0.3 0
+  faces 10
+    0 1 2  1  0 0 0  0
+    3 0 2  1  0 0 0  0
+    4 5 1  1  0 0 0  0
+    1 0 4  1  0 0 0  0
+    5 6 2  1  0 0 0  0
+    2 1 5  1  0 0 0  0
+    7 4 0  1  0 0 0  0
+    0 3 7  1  0 0 0  0
+    6 7 3  1  0 0 0  0
+    3 2 6  1  0 0 0  0
+  tverts 1
+    0 0 0
+endnode
+endmodelgeom PLC_BluFlmS
+
+#MAXANIM ASCII
+newanim off2on PLC_BluFlmS
+  length 0.0333333
+  transtime 0
+  animroot PLC_BluFlmS
+node dummy PLC_BluFlmS
+  parent NULL
+endnode
+node dummy BluFlmS_hand
+  parent PLC_BluFlmS
+endnode
+node emitter Flame
+  parent PLC_BluFlmS
+    birthratekey
+      0  -4
+      0.0333333  6
+    endlist
+endnode
+node emitter Smoke
+  parent PLC_BluFlmS
+    birthratekey
+      0  0
+      0.0333333  5
+    endlist
+    velocity 1.5
+endnode
+node dummy BluFlmS_ground
+  parent PLC_BluFlmS
+endnode
+node dummy BluFlmS_head
+  parent PLC_BluFlmS
+endnode
+node dummy BluFlmS_head_hit
+  parent PLC_BluFlmS
+endnode
+node dummy BluFlmS_impact
+  parent PLC_BluFlmS
+endnode
+node trimesh Rectangle123
+  parent PLC_BluFlmS
+endnode
+doneanim off2on PLC_BluFlmS
+
+#MAXANIM ASCII
+newanim on2off PLC_BluFlmS
+  length 0.0333333
+  transtime 0
+  animroot PLC_BluFlmS
+node dummy PLC_BluFlmS
+  parent NULL
+endnode
+node dummy BluFlmS_hand
+  parent PLC_BluFlmS
+endnode
+node emitter Flame
+  parent PLC_BluFlmS
+    birthratekey
+      0  3
+      0.0333333  -4
+    endlist
+endnode
+node emitter Smoke
+  parent PLC_BluFlmS
+    birthratekey
+      0  5
+      0.0333333  0
+    endlist
+    velocity 0.5
+endnode
+node dummy BluFlmS_ground
+  parent PLC_BluFlmS
+endnode
+node dummy BluFlmS_head
+  parent PLC_BluFlmS
+endnode
+node dummy BluFlmS_head_hit
+  parent PLC_BluFlmS
+endnode
+node dummy BluFlmS_impact
+  parent PLC_BluFlmS
+endnode
+node trimesh Rectangle123
+  parent PLC_BluFlmS
+endnode
+doneanim on2off PLC_BluFlmS
+
+#MAXANIM ASCII
+newanim on PLC_BluFlmS
+  length 0.0333333
+  transtime 0
+  animroot PLC_BluFlmS
+node dummy PLC_BluFlmS
+  parent NULL
+endnode
+node dummy BluFlmS_hand
+  parent PLC_BluFlmS
+endnode
+node emitter Flame
+  parent PLC_BluFlmS
+    birthratekey
+      0  6
+      0.0333333  3
+    endlist
+endnode
+node emitter Smoke
+  parent PLC_BluFlmS
+    birthratekey
+      0  5
+      0.0333333  5
+    endlist
+    velocitykey
+      0.0333333  0.5
+    endlist
+endnode
+node dummy BluFlmS_ground
+  parent PLC_BluFlmS
+endnode
+node dummy BluFlmS_head
+  parent PLC_BluFlmS
+endnode
+node dummy BluFlmS_head_hit
+  parent PLC_BluFlmS
+endnode
+node dummy BluFlmS_impact
+  parent PLC_BluFlmS
+endnode
+node trimesh Rectangle123
+  parent PLC_BluFlmS
+endnode
+doneanim on PLC_BluFlmS
+
+#MAXANIM ASCII
+newanim off PLC_BluFlmS
+  length 0.0333333
+  transtime 0
+  animroot PLC_BluFlmS
+node dummy PLC_BluFlmS
+  parent NULL
+endnode
+node dummy BluFlmS_hand
+  parent PLC_BluFlmS
+endnode
+node emitter Flame
+  parent PLC_BluFlmS
+    birthrate -4
+endnode
+node emitter Smoke
+  parent PLC_BluFlmS
+    birthrate 0
+endnode
+node dummy BluFlmS_ground
+  parent PLC_BluFlmS
+endnode
+node dummy BluFlmS_head
+  parent PLC_BluFlmS
+endnode
+node dummy BluFlmS_head_hit
+  parent PLC_BluFlmS
+endnode
+node dummy BluFlmS_impact
+  parent PLC_BluFlmS
+endnode
+node trimesh Rectangle123
+  parent PLC_BluFlmS
+endnode
+doneanim off PLC_BluFlmS
+donemodel PLC_BluFlmS

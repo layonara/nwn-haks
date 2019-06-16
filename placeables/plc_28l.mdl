@@ -1,0 +1,609 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: PLC_28L
+filedependancy jan6.max
+newmodel PLC_28L
+setsupermodel PLC_28L NULL
+classification Character
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom PLC_28L
+node dummy PLC_28L
+  parent NULL
+endnode
+node emitter BW_EXP12
+  parent PLC_28L
+  position -0.000372759 -0.00276919 0.435399
+  orientation 0 0 0 0
+  wirecolor 0.777344 0.777344 0.777344
+    colorStart 0.482353 0.435294 0.317647
+    colorEnd 0.584314 0.533333 0.407843
+    alphaStart 1
+    alphaEnd 1
+    sizeStart 0.1
+    sizeEnd 0.1
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 24
+    birthrate 20
+    spawnType 0
+    lifeExp 0.75
+    mass 3
+    spread 1.22173
+    particleRot 2.9
+    velocity 8
+    randvel 0.3
+    fps 0
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 89
+    ysize 40
+    bounce 1
+    bounce_co 0.5
+    loop 0
+    update Explosion
+    render Normal
+    Blend Normal
+    update_sel 2
+    render_sel 1
+    blend_sel 1
+    deadspace 0
+    opacity 0.5
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 1
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_cloud02
+    xgrid 5
+    ygrid 5
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+    chunkName PLC_Chunk_S01
+endnode
+node dummy damage21
+  parent PLC_28L
+  position 0 0 0
+  orientation 0.57735 -0.57735 0.57735 -2.0944
+  wirecolor 0.839844 0.839844 0.839844
+endnode
+node trimesh smalltop08
+  parent damage21
+  position 0.00721347 -0.00520859 -0.0148543
+  orientation -0.57735 0.57735 0.57735 -2.0944
+  wirecolor 0.0273438 0.0273438 0.0273438
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  bitmap tdd02_colstn
+  render 1
+  Shadow 1
+  beaming 0
+  transparencyhint 0
+  tilefade 0
+  rotatetexture 0
+  verts 10
+    -0.291918 0.40626 0.446249
+    -0.00191769 0.49626 0.446249
+    -0.471918 0.15626 0.446248
+    -0.471918 -0.15374 0.446248
+    -0.291918 -0.40374 0.446248
+    -0.00191778 -0.50374 0.446248
+    0.298082 -0.40374 0.446248
+    0.478082 -0.15374 0.446248
+    0.478082 0.15626 0.446248
+    0.298082 0.40626 0.446249
+  faces 8
+    2 8 0  0  2 8 0  0
+    1 0 8  0  1 0 8  0
+    9 1 8  0  9 1 8  0
+    8 2 3  0  8 2 3  0
+    3 7 8  0  3 7 8  0
+    7 3 4  0  7 3 4  0
+    4 5 7  0  4 5 7  0
+    6 7 5  0  6 7 5  0
+  tverts 10
+    0.608552 0.413995 2.04037e+007
+    0.492552 0.389505 2.04037e+007
+    0.680552 0.482022 2.04037e+007
+    0.680552 0.566376 2.04037e+007
+    0.608552 0.634403 2.04037e+007
+    0.492552 0.661614 2.04037e+007
+    0.372552 0.634403 2.04037e+007
+    0.300552 0.566376 2.04037e+007
+    0.300552 0.482022 2.04037e+007
+    0.372552 0.413995 2.04037e+007
+endnode
+node trimesh smalltop09
+  parent damage21
+  position -0.145205 -0.00520858 -0.0148543
+  orientation -0.57735 0.57735 -0.57735 -4.18879
+  wirecolor 0.0273438 0.0273438 0.0273438
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  bitmap tdd02_colstn
+  render 1
+  Shadow 1
+  beaming 0
+  transparencyhint 0
+  tilefade 0
+  rotatetexture 0
+  verts 10
+    -0.291918 0.40374 0.44617
+    -0.00191832 0.50374 0.44617
+    -0.471918 0.15374 0.44617
+    -0.471918 -0.15626 0.44617
+    -0.291918 -0.40626 0.44617
+    -0.0019181 -0.49626 0.44617
+    0.298082 -0.40626 0.44617
+    0.478082 -0.15626 0.44617
+    0.478082 0.15374 0.44617
+    0.298082 0.40374 0.44617
+  faces 8
+    2 8 0  0  2 8 0  0
+    1 0 8  0  1 0 8  0
+    9 1 8  0  9 1 8  0
+    8 2 3  0  8 2 3  0
+    3 7 8  0  3 7 8  0
+    7 3 4  0  7 3 4  0
+    4 5 7  0  4 5 7  0
+    6 7 5  0  6 7 5  0
+  tverts 10
+    0.608552 0.414681 2.04026e+007
+    0.492552 0.38747 2.04026e+007
+    0.680552 0.482708 2.04026e+007
+    0.680552 0.567062 2.04026e+007
+    0.608552 0.635089 2.04026e+007
+    0.492552 0.659579 2.04026e+007
+    0.372552 0.635089 2.04026e+007
+    0.300552 0.567062 2.04026e+007
+    0.300552 0.482708 2.04026e+007
+    0.372552 0.414681 2.04026e+007
+endnode
+node trimesh Object1185
+  parent damage21
+  position 0.00721347 -0.00520859 -0.0148543
+  orientation -0.57735 0.57735 0.57735 -2.0944
+  wirecolor 0.0273438 0.0273438 0.0273438
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  bitmap tdd02_colstn
+  render 1
+  Shadow 1
+  beaming 0
+  transparencyhint 0
+  tilefade 0
+  rotatetexture 0
+  verts 20
+    -0.00191734 -0.50374 -0.293752
+    -0.291917 -0.40374 -0.293752
+    -0.471917 -0.15374 -0.293752
+    -0.471917 0.15626 -0.293752
+    -0.291917 0.40626 -0.293751
+    -0.00191725 0.49626 -0.293751
+    -0.291917 0.40626 0.446248
+    -0.00191725 0.49626 0.446248
+    -0.471917 0.15626 0.446248
+    -0.471917 -0.15374 0.446248
+    -0.291917 -0.40374 0.446248
+    -0.00191734 -0.50374 0.446248
+    0.298083 0.40626 -0.293751
+    0.478083 0.15626 -0.293752
+    0.478083 -0.15374 -0.293752
+    0.298083 -0.40374 -0.293752
+    0.298083 -0.40374 0.446248
+    0.478083 -0.15374 0.446248
+    0.478083 0.15626 0.446248
+    0.298083 0.40626 0.446248
+  faces 20
+    5 4 6  1  5 4 6  2
+    5 6 7  1  5 6 7  2
+    4 8 6  1  4 8 6  2
+    4 3 8  1  4 3 8  2
+    3 9 8  1  3 9 8  2
+    3 2 9  1  3 2 9  2
+    2 10 9  1  2 10 9  2
+    2 1 10  1  2 1 10  2
+    1 11 10  1  1 11 10  2
+    1 0 11  1  1 0 11  2
+    0 15 16  1  20 15 16  2
+    0 16 11  1  21 16 22  2
+    15 17 16  1  15 17 16  2
+    15 14 17  1  15 14 17  2
+    14 18 17  1  14 18 17  2
+    14 13 18  1  14 13 18  2
+    13 19 18  1  13 19 18  2
+    13 12 19  1  13 12 19  2
+    12 7 19  1  12 7 19  2
+    12 5 7  1  12 5 7  2
+  tverts 23
+    0.998579 0.699985 1.05555
+    0.903167 0.699985 1.03021
+    0.801778 0.699985 1.00099
+    0.696477 0.699985 1.00477
+    0.595816 0.699985 1.03978
+    0.501434 0.699985 1.04616
+    0.595816 1.03286 1.03978
+    0.501434 1.03286 1.04616
+    0.696477 1.03286 1.00477
+    0.801778 1.03286 1.00099
+    0.903167 1.03286 1.03022
+    0.998579 1.03286 1.05555
+    0.404041 0.699985 1.04042
+    0.303464 0.699985 1.00584
+    0.19828 0.699985 1.00207
+    0.096977 0.699985 1.03086
+    0.096977 1.03286 1.03086
+    0.19828 1.03286 1.00207
+    0.303464 1.03286 1.00584
+    0.404041 1.03286 1.04042
+    -0.00142086 0.699985 1.05555
+    -0.00142086 0.699985 1.05555
+    -0.00142086 1.03286 1.05555
+endnode
+node emitter BW_ExpSmoke23
+  parent PLC_28L
+  position 0.0190143 -0.0451709 1.37573
+  orientation -1 0 0 -1.5708
+  wirecolor 0.777344 0.777344 0.777344
+    colorStart 0.815686 0.803922 0.788235
+    colorEnd 0.52549 0.427451 0.337255
+    alphaStart 1
+    alphaEnd 0
+    sizeStart 4
+    sizeEnd 1
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 24
+    birthrate 10
+    spawnType 0
+    lifeExp 2.5
+    mass 0.09
+    spread 2.96706
+    particleRot 0.5
+    velocity 2
+    randvel 0.5
+    fps 10
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 89
+    ysize 133
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Explosion
+    render Normal
+    Blend Normal
+    update_sel 2
+    render_sel 1
+    blend_sel 1
+    deadspace 0
+    opacity 0.5
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0.2
+    blastLength 1
+    twosidedtex 1
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_smoke01
+    xgrid 4
+    ygrid 4
+    affectedByWind 0
+    m_isTinted 1
+    renderorder 0
+    Splat 0
+endnode
+node dummy 28L_impact
+  parent PLC_28L
+  position 0 0 0.85
+  orientation 0 0 0 0
+  wirecolor 0.652344 0.652344 0.652344
+endnode
+node dummy 28L_ground
+  parent PLC_28L
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 0.878906 0.878906 0.878906
+endnode
+node dummy 28L_hand
+  parent PLC_28L
+  position 0 0 1
+  orientation 0 0 0 0
+  wirecolor 0.335938 0.335938 0.335938
+endnode
+node dummy 28L_head
+  parent PLC_28L
+  position 0 0 2
+  orientation 0 0 0 0
+  wirecolor 0.601563 0.601563 0.601563
+endnode
+node dummy 28L_head_hit
+  parent PLC_28L
+  position 0 0 1.5
+  orientation 0 0 0 0
+  wirecolor 0.0273438 0.0273438 0.0273438
+endnode
+node dummy 28L_pwk_use01
+  parent PLC_28L
+  position 0 0 0.5
+  orientation 0 0 0 0
+  wirecolor 0.878906 0.878906 0.878906
+endnode
+node dummy 28L_pwk_use02
+  parent PLC_28L
+  position 0 0 1.25
+  orientation 0 0 0 0
+  wirecolor 0.0351563 0.0351563 0.0351563
+endnode
+endmodelgeom PLC_28L
+
+#MAXANIM ASCII
+newanim default PLC_28L
+  length 0.0333333
+  transtime 0
+  animroot PLC_28L
+node dummy PLC_28L
+  parent NULL
+endnode
+node trimesh wg05
+  parent PLC_28L
+endnode
+node emitter BW_EXP12
+  parent PLC_28L
+endnode
+node dummy damage21
+  parent PLC_28L
+    positionkey
+      0  0 0 0
+      0.0333333  0 0 0
+    endlist
+endnode
+node trimesh smalltop08
+  parent damage21
+endnode
+node trimesh smalltop09
+  parent damage21
+endnode
+node trimesh Object1185
+  parent damage21
+endnode
+node emitter BW_ExpSmoke23
+  parent PLC_28L
+endnode
+node dummy 28L_impact
+  parent PLC_28L
+endnode
+node dummy 28L_ground
+  parent PLC_28L
+endnode
+node dummy 28L_hand
+  parent PLC_28L
+endnode
+node dummy 28L_head
+  parent PLC_28L
+endnode
+node dummy 28L_head_hit
+  parent PLC_28L
+endnode
+node dummy 28L_pwk_use01
+  parent PLC_28L
+endnode
+node dummy 28L_pwk_use02
+  parent PLC_28L
+endnode
+doneanim default PLC_28L
+
+#MAXANIM ASCII
+newanim die PLC_28L
+  length 0.166667
+  transtime 0
+  animroot PLC_28L
+node dummy PLC_28L
+  parent NULL
+endnode
+node trimesh wg05
+  parent PLC_28L
+endnode
+node emitter BW_EXP12
+  parent PLC_28L
+endnode
+node dummy damage21
+  parent PLC_28L
+    positionkey
+      0  0 0 0
+      0.166667  0 0 -3.93482
+    endlist
+endnode
+node trimesh smalltop08
+  parent damage21
+endnode
+node trimesh smalltop09
+  parent damage21
+endnode
+node trimesh Object1185
+  parent damage21
+endnode
+node emitter BW_ExpSmoke23
+  parent PLC_28L
+endnode
+node dummy 28L_impact
+  parent PLC_28L
+endnode
+node dummy 28L_ground
+  parent PLC_28L
+endnode
+node dummy 28L_hand
+  parent PLC_28L
+endnode
+node dummy 28L_head
+  parent PLC_28L
+endnode
+node dummy 28L_head_hit
+  parent PLC_28L
+endnode
+node dummy 28L_pwk_use01
+  parent PLC_28L
+endnode
+node dummy 28L_pwk_use02
+  parent PLC_28L
+endnode
+event 0  detonate
+doneanim die PLC_28L
+
+#MAXANIM ASCII
+newanim death PLC_28L
+  length 0.0333333
+  transtime 0
+  animroot PLC_28L
+node dummy PLC_28L
+  parent NULL
+endnode
+node trimesh wg05
+  parent PLC_28L
+endnode
+node emitter BW_EXP12
+  parent PLC_28L
+endnode
+node dummy damage21
+  parent PLC_28L
+    positionkey
+      0  0 0 -3.93482
+      0.0333333  0 0 -3.93482
+    endlist
+endnode
+node trimesh smalltop08
+  parent damage21
+endnode
+node trimesh smalltop09
+  parent damage21
+endnode
+node trimesh Object1185
+  parent damage21
+endnode
+node emitter BW_ExpSmoke23
+  parent PLC_28L
+endnode
+node dummy 28L_impact
+  parent PLC_28L
+endnode
+node dummy 28L_ground
+  parent PLC_28L
+endnode
+node dummy 28L_hand
+  parent PLC_28L
+endnode
+node dummy 28L_head
+  parent PLC_28L
+endnode
+node dummy 28L_head_hit
+  parent PLC_28L
+endnode
+node dummy 28L_pwk_use01
+  parent PLC_28L
+endnode
+node dummy 28L_pwk_use02
+  parent PLC_28L
+endnode
+doneanim death PLC_28L
+
+#MAXANIM ASCII
+newanim damage PLC_28L
+  length 0.2
+  transtime 0
+  animroot PLC_28L
+node dummy PLC_28L
+  parent NULL
+endnode
+node trimesh wg05
+  parent PLC_28L
+endnode
+node emitter BW_EXP12
+  parent PLC_28L
+endnode
+node dummy damage21
+  parent PLC_28L
+    positionkey
+      0  0 0 0
+      0.2  0 0 0
+    endlist
+    orientationkey
+      0  0.57735 -0.57735 0.57735 4.18879
+      0.0666667  0.559809 -0.559809 0.610924 4.23842
+      0.1  0.555184 -0.607048 0.568562 4.25058
+      0.133333  0.585566 -0.585566 0.560558 4.16342
+      0.166667  0.597226 -0.548291 0.585404 4.12471
+      0.2  0.57735 -0.57735 0.57735 4.18879
+    endlist
+endnode
+node trimesh smalltop08
+  parent damage21
+endnode
+node trimesh smalltop09
+  parent damage21
+endnode
+node trimesh Object1185
+  parent damage21
+endnode
+node emitter BW_ExpSmoke23
+  parent PLC_28L
+endnode
+node dummy 28L_impact
+  parent PLC_28L
+endnode
+node dummy 28L_ground
+  parent PLC_28L
+endnode
+node dummy 28L_hand
+  parent PLC_28L
+endnode
+node dummy 28L_head
+  parent PLC_28L
+endnode
+node dummy 28L_head_hit
+  parent PLC_28L
+endnode
+node dummy 28L_pwk_use01
+  parent PLC_28L
+endnode
+node dummy 28L_pwk_use02
+  parent PLC_28L
+endnode
+doneanim damage PLC_28L
+donemodel PLC_28L

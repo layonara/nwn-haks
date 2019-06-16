@@ -1,0 +1,147 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: PLC_BSPORES
+filedependancy brown spores.max
+newmodel PLC_BSPORES
+setsupermodel PLC_BSPORES NULL
+classification Effect
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom PLC_BSPORES
+node dummy PLC_BSPORES
+  parent NULL
+endnode
+node dummy BMOLDLG_ground
+  parent PLC_BSPORES
+  position -0.00363281 0.0069873 0
+  orientation 0 0 0 0
+  wirecolor 0.347656 0.347656 0.347656
+endnode
+node dummy BMOLDLG_impact
+  parent PLC_BSPORES
+  position 0.00398437 0.011001 0.0153067
+  orientation 0 0 0 0
+  wirecolor 0.347656 0.347656 0.347656
+endnode
+node dummy BMOLDLG_head_hit
+  parent PLC_BSPORES
+  position 0.00398437 0.0108252 0.126938
+  orientation 0 0 0 0
+  wirecolor 0.347656 0.347656 0.347656
+endnode
+node dummy BMOLDLG_hand
+  parent PLC_BSPORES
+  position -0.00298052 0.0249904 0.472766
+  orientation 0 0 0 0
+  wirecolor 0.347656 0.347656 0.347656
+endnode
+node dummy BMOLDLG_head
+  parent PLC_BSPORES
+  position 0.00398437 0.0108252 0.499138
+  orientation 0 0 0 0
+  wirecolor 0.347656 0.347656 0.347656
+endnode
+node emitter burst
+  parent PLC_BSPORES
+  position 0.0615356 0 0
+  orientation 1 0 0 -1.5708
+  wirecolor 0.601563 0.601563 0.601563
+    colorStart 0.317647 0.305882 0
+    colorEnd 0.262745 0.0431373 0
+    alphaStart 1
+    alphaEnd 0
+    sizeStart 1
+    sizeEnd 3
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 15
+    birthrate 7
+    spawnType 0
+    lifeExp 2.5
+    mass 0
+    spread 6.28319
+    particleRot 0.1
+    velocity 0.2
+    randvel 0.2
+    fps 16
+    random 0
+    inherit 0
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 20
+    ysize 20
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Fountain
+    render Normal
+    Blend Normal
+    update_sel 1
+    render_sel 1
+    blend_sel 1
+    deadspace 0
+    opacity 0.5
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_Smoke01
+    xgrid 4
+    ygrid 4
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 1
+    Splat 0
+endnode
+endmodelgeom PLC_BSPORES
+
+#MAXANIM ASCII
+newanim impact PLC_BSPORES
+  length 3.96667
+  transtime 0.25
+  animroot PLC_BSPORES
+node dummy PLC_BSPORES
+  parent NULL
+endnode
+node dummy BMOLDLG_ground
+  parent PLC_BSPORES
+endnode
+node dummy BMOLDLG_impact
+  parent PLC_BSPORES
+endnode
+node dummy BMOLDLG_head_hit
+  parent PLC_BSPORES
+endnode
+node dummy BMOLDLG_hand
+  parent PLC_BSPORES
+endnode
+node dummy BMOLDLG_head
+  parent PLC_BSPORES
+endnode
+node emitter burst
+  parent PLC_BSPORES
+    birthratekey
+      0  7
+      0.433333  7
+      0.466667  7
+      0.5  -23
+    endlist
+endnode
+event 0.1  detonate
+doneanim impact PLC_BSPORES
+donemodel PLC_BSPORES

@@ -1,0 +1,694 @@
+#MAXMODEL ASCII
+# model: plc_GCA1
+filedependancy plc_GCA1 NULL.mlk
+newmodel plc_GCA1
+setsupermodel plc_GCA1 NULL
+classification Character
+setanimationscale 0
+
+#MAXGEOM ASCII
+beginmodelgeom plc_GCA1
+node dummy plc_GCA1
+  parent NULL
+endnode
+node dummy GCA1_hand
+  parent PLC_GCA1
+  position 0.003989 0.553636 1.705210
+  orientation 0.000000 0.000000 0.000000 0.000000
+endnode
+node dummy GCA1_head
+  parent PLC_GCA1
+  position 0.003989 0.010825 1.569630
+  orientation 0.000000 0.000000 0.000000 0.000000
+endnode
+node dummy GCA1_head_hit
+  parent PLC_GCA1
+  position 0.003989 0.010825 1.088150
+  orientation 0.000000 0.000000 0.000000 0.000000
+endnode
+node dummy GCA1_impact
+  parent PLC_GCA1
+  position 0.003989 0.011000 0.544368
+  orientation 0.000000 0.000000 0.000000 0.000000
+endnode
+node dummy GCA1_ground
+  parent PLC_GCA1
+  position -0.003633 0.006987 0.000000
+  orientation 0.000000 0.000000 0.000000 0.000000
+endnode
+node emitter ChunkyWood143
+  parent PLC_GCA1
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 1
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Normal
+  texture fxpa_cloud02
+  chunkName PLC_Chunk_S01
+  xgrid 5
+  ygrid 5
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position -0.00243408 -0.0134979002 0.606715024
+  orientation 0 0 0 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.100000001
+  sizeEnd 0.100000001
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 24
+  birthrate 2
+  lifeExp 0.75
+  mass 3
+  spread 1.22172999
+  particleRot 5
+  velocity 8
+  randvel 0.300000012
+  fps 0
+  xsize 89
+  ysize 40
+  bounce_co 0.5
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter Chunkssml
+  parent plc_GCA1
+  position -0.000508 0.000818 2.0
+  orientation 0.000000 0.000000 0.000000 0.000000
+    colorStart 1.000000 1.00000 0.00000
+    colorEnd 1.0 1.0 1.0
+    alphaStart 0.900000
+    alphaEnd 0.100000
+    sizeStart 0.040000
+    sizeEnd 0.01000
+    sizeStart_y 0.000000
+    sizeEnd_y 0.000000
+    frameStart 0
+    frameEnd 0
+    birthrate 0
+    spawnType 0
+    lifeExp 64.000000
+    mass 1.000000
+    spread 3.792530
+    particleRot 10.000000
+    velocity 1.000000
+    randvel 1.000000
+    fps 0
+    random 0
+    inherit 0
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 0.000000
+    ysize 0.000000
+    bounce 1
+    bounce_co 0.300000
+    loop 0
+    update Explosion
+    render Normal
+    Blend Normal
+    deadspace 0.000000
+    blurlength 10.000000
+    lightningDelay 0.0
+    lightningRadius 0.000000
+    lightningScale 0.000000
+    blastRadius 0.100000
+    blastLength 0.000000
+    twosidedtex 1
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0.000000
+    p2p_bezier3 0.000000
+    combinetime 0.000000
+    drag 0.000000
+    grav 0.000000
+    threshold 0.000000
+    texture NULL
+    xgrid 0
+    ygrid 0
+    affectedByWind 0
+    m_isTinted 0
+    Splat 0
+endnode
+node emitter fire!91
+  parent PLC_GCA1
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 1
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Normal
+  texture fxpa_smoke01
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 1
+  blastRadius 0.200000003
+  blastLength 1
+  position -0.00243408 -0.0144824004 0.532670975
+  orientation -1 0 0 -1.57079995
+  colorStart 0.44510014 0.44510014 0.0
+  colorEnd 1.0 1.0 1.0
+  alphaStart 0.200000
+  alphaEnd 0.100000
+  sizeStart 4
+  sizeEnd 1
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 24
+  birthrate 10
+  lifeExp 2.5
+  mass 0.0900000036
+  spread 2.96706009
+  particleRot 0.5
+  velocity 2
+  randvel 0.5
+  fps 10
+  xsize 100
+  ysize 99
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+
+
+
+node trimesh Glass
+  parent PLC_GCA1
+  position 0.064356 -0.012158 0.010000
+  orientation 0.000000 0.000000 0.000000 0.000000
+  diffuse 1.000000 1.000000 1.000000
+  ambient 1.000000 1.000000 1.000000
+  specular 0.000000 0.000000 0.000000
+  shininess 1.000000
+  render 1
+  alpha .8
+    bitmap window1
+    verts 18
+     0.015116 0.847394 0.119030 
+     0.099969 0.847393 0.119030 
+     0.057543 -0.001135 0.119030 
+     0.015116 0.433312 3.349799 
+     0.057543 -0.001135 3.472876 
+     0.099969 0.433311 3.349799 
+     0.015116 0.830423 3.011337 
+     0.099969 0.830422 3.011337 
+     0.015116 0.677688 3.226722 
+     0.099969 0.677688 3.226722 
+     0.099969 -0.849664 0.119030 
+     0.099969 -0.435582 3.349799 
+     0.099969 -0.832693 3.011337 
+     0.099969 -0.679958 3.226722 
+     0.015116 -0.849664 0.119030 
+     0.015116 -0.435582 3.349799 
+     0.015116 -0.832693 3.011337 
+     0.015116 -0.679958 3.226722 
+    faces 32
+     0 1 2  1  0 1 2  0
+     3 4 5  1  3 4 5  0
+     0 6 1  1  0 6 1  0
+     6 7 1  1  6 7 1  0
+     6 8 9  1  6 8 9  0
+     6 9 7  1  6 9 7  0
+     8 3 9  1  8 3 9  0
+     3 5 9  1  3 5 9  0
+     1 10 2  1  1 10 2  0
+     5 4 11  1  5 4 11  0
+     1 7 12  1  1 7 12  0
+     1 12 10  1  1 12 10  0
+     7 9 12  1  7 9 12  0
+     9 13 12  1  9 13 12  0
+     9 5 11  1  9 5 11  0
+     9 11 13  1  9 11 13  0
+     10 14 2  1  10 14 2  0
+     11 4 15  1  11 4 15  0
+     10 12 14  1  10 12 14  0
+     12 16 14  1  12 16 14  0
+     12 13 17  1  12 13 17  0
+     12 17 16  1  12 17 16  0
+     13 11 17  1  13 11 17  0
+     11 15 17  1  11 15 17  0
+     14 0 2  1  14 0 2  0
+     15 4 3  1  15 4 3  0
+     14 16 6  1  14 16 6  0
+     14 6 0  1  14 6 0  0
+     16 17 6  1  16 17 6  0
+     17 8 6  1  17 8 6  0
+     17 15 3  1  17 15 3  0
+     17 3 8  1  17 3 8  0
+    tverts 18
+     0.035439 0.001662 0.0 
+     0.035439 0.001662 0.0 
+     0.497637 0.001662 0.0 
+     0.246548 0.965078 0.0 
+     0.497637 0.997741 0.0 
+     0.246548 0.965078 0.0 
+     0.035439 0.860665 0.0 
+     0.035439 0.860665 0.0 
+     0.127879 0.924633 0.0 
+     0.127879 0.924633 0.0 
+     0.959835 0.001662 0.0 
+     0.741505 0.965078 0.0 
+     0.959835 0.860665 0.0 
+     0.874618 0.924633 0.0 
+     0.959835 0.001662 0.0 
+     0.741505 0.965078 0.0 
+     0.959835 0.860665 0.0 
+     0.874617 0.924633 0.0 
+endnode
+
+node trimesh post1
+  parent PLC_GCA1
+  position 0.064356 -0.012158 0.010000
+  orientation 0.000000 0.000000 0.000000 0.000000
+  diffuse 1.000000 1.000000 1.000000
+  ambient 1.000000 1.000000 1.000000
+  specular 0.000000 0.000000 0.000000
+  shininess 1.000000
+  render 1
+    bitmap window1
+    verts 10
+     0.122235 0.860247 0.214886 
+     0.122235 0.663874 0.214886 
+     0.066116 0.775394 0.214886 
+     0.134229 0.860247 2.995382 
+     0.066116 0.775394 2.995382 
+     0.134229 0.663874 2.995382 
+     0.009996 0.663874 0.214886 
+     -0.001998 0.663874 2.995382 
+     0.009996 0.860247 0.214886 
+     -0.001998 0.860247 2.995382 
+    faces 16
+     0 1 2  1  0 1 2  0
+     3 4 5  1  3 4 5  0
+     0 3 1  1  0 3 1  0
+     3 5 1  1  3 5 1  0
+     1 6 2  1  1 6 2  0
+     5 4 7  1  5 4 7  0
+     1 5 7  1  1 5 7  0
+     1 7 6  1  1 7 6  0
+     6 8 2  1  6 8 2  0
+     7 4 9  1  7 4 9  0
+     6 7 8  1  6 7 8  0
+     7 9 8  1  7 9 8  0
+     8 0 2  1  8 0 2  0
+     9 4 3  1  9 4 3  0
+     8 9 3  1  8 9 3  0
+     8 3 0  1  8 3 0  0
+    tverts 10
+     0.013468 0.049379 0.0 
+     0.140109 0.049379 0.0 
+     0.061438 0.049379 0.0 
+     0.013468 0.829045 0.0 
+     0.061438 0.829045 0.0 
+     0.140109 0.829045 0.0 
+     0.140109 0.049379 0.0 
+     0.140109 0.829045 0.0 
+     0.013468 0.049379 0.0 
+     0.013468 0.829045 0.0 
+endnode
+node trimesh post2
+  parent PLC_GCA1
+  position 0.064356 -0.012158 0.010000
+  orientation 0.000000 0.000000 0.000000 0.000000
+  diffuse 1.000000 1.000000 1.000000
+  ambient 1.000000 1.000000 1.000000
+  specular 0.000000 0.000000 0.000000
+  shininess 1.000000
+  render 1
+    bitmap window1
+    verts 10
+     0.122235 -0.677282 0.214886 
+     0.122235 -0.864285 0.214886 
+     0.066115 -0.770784 0.214886 
+     0.134069 -0.675803 2.995382 
+     0.066115 -0.770784 2.995382 
+     0.134069 -0.867244 2.995381 
+     0.009996 -0.864285 0.214886 
+     -0.001838 -0.867244 2.995381 
+     0.009996 -0.677282 0.214886 
+     -0.001838 -0.675803 2.995382 
+    faces 16
+     0 1 2  1  0 1 2  0
+     3 4 5  1  3 4 5  0
+     0 3 1  1  0 3 1  0
+     3 5 1  1  3 5 1  0
+     1 6 2  1  1 6 2  0
+     5 4 7  1  5 4 7  0
+     1 5 7  1  1 5 7  0
+     1 7 6  1  1 7 6  0
+     6 8 2  1  6 8 2  0
+     7 4 9  1  7 4 9  0
+     6 7 8  1  6 7 8  0
+     7 9 8  1  7 9 8  0
+     8 0 2  1  8 0 2  0
+     9 4 3  1  9 4 3  0
+     8 9 3  1  8 9 3  0
+     8 3 0  1  8 3 0  0
+    tverts 10
+     0.869446 0.042816 0.0 
+     0.983434 0.042816 0.0 
+     0.926440 0.042816 0.0 
+     0.868544 0.840959 0.0 
+     0.926440 0.840959 0.0 
+     0.985238 0.840959 0.0 
+     0.983434 0.042816 0.0 
+     0.985238 0.840959 0.0 
+     0.869446 0.042816 0.0 
+     0.868544 0.840959 0.0 
+endnode
+node trimesh framebase
+  parent PLC_GCA1
+  position 0.064356 -0.012158 0.010000
+  orientation 0.000000 0.000000 0.000000 0.000000
+  diffuse 1.000000 1.000000 1.000000
+  ambient 1.000000 1.000000 1.000000
+  specular 0.000000 0.000000 0.000000
+  shininess 1.000000
+  render 1
+    bitmap window1
+    verts 10
+     0.132112 0.864789 0.259730 
+     0.132112 0.864789 0.066479 
+     0.066116 0.864789 0.163105 
+     0.132112 -0.873451 0.259730 
+     0.066116 -0.873451 0.163105 
+     0.132112 -0.873451 0.066479 
+     0.000119 0.864789 0.066479 
+     0.000119 -0.873451 0.066479 
+     0.000119 0.864789 0.259730 
+     0.000119 -0.873451 0.259730 
+    faces 16
+     0 1 2  1  0 1 2  0
+     3 4 5  1  3 4 5  0
+     0 3 1  1  0 3 1  0
+     3 5 1  1  3 5 1  0
+     1 6 2  1  1 6 2  0
+     5 4 7  1  5 4 7  0
+     1 5 7  1  1 5 7  0
+     1 7 6  1  1 7 6  0
+     6 8 2  1  6 8 2  0
+     7 4 9  1  7 4 9  0
+     6 7 8  1  6 7 8  0
+     7 9 8  1  7 9 8  0
+     8 0 2  1  8 0 2  0
+     9 4 3  1  9 4 3  0
+     8 9 3  1  8 9 3  0
+     8 3 0  1  8 3 0  0
+    tverts 10
+     0.019740 0.050583 0.0 
+     0.019740 0.004981 0.0 
+     0.019740 0.027782 0.0 
+     0.978880 0.056220 0.0 
+     0.978880 0.034674 0.0 
+     0.978880 0.013128 0.0 
+     0.019740 0.004981 0.0 
+     0.978880 0.013128 0.0 
+     0.019740 0.050583 0.0 
+     0.978880 0.056220 0.0 
+endnode
+node trimesh frametop
+  parent PLC_GCA1
+  position 0.064356 -0.012158 0.010000
+  orientation 0.000000 0.000000 0.000000 0.000000
+  diffuse 1.000000 1.000000 1.000000
+  ambient 1.000000 1.000000 1.000000
+  specular 0.000000 0.000000 0.000000
+  shininess 1.000000
+  render 1
+    bitmap window1
+    verts 30
+     0.134060 -0.675771 2.990261 
+     0.134060 -0.867265 2.993456 
+     0.066116 -0.761135 2.963105 
+     0.134060 0.664011 2.994742 
+     0.066116 0.758861 2.994742 
+     0.134060 0.859709 2.994741 
+     0.134060 -0.546957 3.142652 
+     0.134060 -0.708646 3.236003 
+     0.134060 -0.278969 3.223933 
+     0.134060 -0.372320 3.385621 
+     0.134060 0.008554 3.289857 
+     0.134060 0.008554 3.476559 
+     0.134060 0.347020 3.205954 
+     0.134060 0.440371 3.367642 
+     0.134060 0.571351 3.107682 
+     0.134060 0.733039 3.201033 
+     -0.001828 -0.867265 2.993456 
+     -0.001828 0.859709 2.994741 
+     -0.001828 -0.708646 3.236003 
+     -0.001828 -0.372320 3.385621 
+     -0.001828 0.008554 3.476559 
+     -0.001828 0.440371 3.367642 
+     -0.001828 0.733039 3.201033 
+     -0.001828 -0.675771 2.990261 
+     -0.001828 0.664011 2.994742 
+     -0.001828 -0.546957 3.142652 
+     -0.001828 -0.278969 3.223933 
+     -0.001828 0.008554 3.289857 
+     -0.001828 0.347020 3.205954 
+     -0.001828 0.571351 3.107682 
+    faces 56
+     0 1 2  1  0 1 2  0
+     3 4 5  1  3 4 5  0
+     0 6 7  1  0 6 7  0
+     0 7 1  1  0 7 1  0
+     6 8 7  1  6 8 7  0
+     8 9 7  1  8 9 7  0
+     8 10 11  1  8 10 11  0
+     8 11 9  1  8 11 9  0
+     10 12 11  1  10 12 11  0
+     12 13 11  1  12 13 11  0
+     12 14 15  1  12 14 15  0
+     12 15 13  1  12 15 13  0
+     14 3 15  1  14 3 15  0
+     3 5 15  1  3 5 15  0
+     1 16 2  1  1 16 2  0
+     5 4 17  1  5 4 17  0
+     1 7 16  1  1 7 16  0
+     7 18 16  1  7 18 16  0
+     7 9 19  1  7 9 19  0
+     7 19 18  1  7 19 18  0
+     9 11 19  1  9 11 19  0
+     11 20 19  1  11 20 19  0
+     11 13 21  1  11 13 21  0
+     11 21 20  1  11 21 20  0
+     13 15 21  1  13 15 21  0
+     15 22 21  1  15 22 21  0
+     15 5 17  1  15 5 17  0
+     15 17 22  1  15 17 22  0
+     16 23 2  1  16 23 2  0
+     17 4 24  1  17 4 24  0
+     16 18 25  1  16 18 25  0
+     16 25 23  1  16 25 23  0
+     18 19 25  1  18 19 25  0
+     19 26 25  1  19 26 25  0
+     19 20 27  1  19 20 27  0
+     19 27 26  1  19 27 26  0
+     20 21 27  1  20 21 27  0
+     21 28 27  1  21 28 27  0
+     21 22 29  1  21 22 29  0
+     21 29 28  1  21 29 28  0
+     22 17 29  1  22 17 29  0
+     17 24 29  1  17 24 29  0
+     23 0 2  1  23 0 2  0
+     24 4 3  1  24 4 3  0
+     23 25 0  1  23 25 0  0
+     25 6 0  1  25 6 0  0
+     25 26 8  1  25 26 8  0
+     25 8 6  1  25 8 6  0
+     26 27 8  1  26 27 8  0
+     27 10 8  1  27 10 8  0
+     27 28 12  1  27 28 12  0
+     27 12 10  1  27 12 10  0
+     28 29 12  1  28 29 12  0
+     29 14 12  1  29 14 12  0
+     29 24 3  1  29 24 3  0
+     29 3 14  1  29 3 14  0
+    tverts 30
+     0.890739 0.852461 0.0 
+     0.985004 0.853278 0.0 
+     0.932760 0.845514 0.0 
+     0.122240 0.846176 0.0 
+     0.065590 0.846176 0.0 
+     0.005357 0.846176 0.0 
+     0.788267 0.907066 0.0 
+     0.867860 0.930944 0.0 
+     0.656346 0.935669 0.0 
+     0.702299 0.977028 0.0 
+     0.499185 0.948626 0.0 
+     0.499185 0.996383 0.0 
+     0.332571 0.931070 0.0 
+     0.286618 0.972429 0.0 
+     0.163736 0.885216 0.0 
+     0.075748 0.910915 0.0 
+     0.985004 0.853278 0.0 
+     0.005357 0.846176 0.0 
+     0.867860 0.930944 0.0 
+     0.702299 0.977028 0.0 
+     0.499185 0.996383 0.0 
+     0.286618 0.972429 0.0 
+     0.075748 0.910915 0.0 
+     0.890739 0.852461 0.0 
+     0.122240 0.846176 0.0 
+     0.788267 0.907066 0.0 
+     0.656346 0.935669 0.0 
+     0.499185 0.948626 0.0 
+     0.332571 0.931070 0.0 
+     0.163736 0.885216 0.0 
+endnode
+endmodelgeom plc_GCA1
+
+newanim die plc_GCA1
+length 2.066670
+transtime 0.000000
+animroot plc_GCA1
+  event 0.000000 detonate
+  event 0.000000 detonate
+  event 0.000000 detonate
+node dummy plc_GCA1
+  parent NULL
+endnode
+node emitter ChunkyWood143
+  parent PLC_GCA1
+endnode
+node emitter fire!91
+  parent plc_GCA1
+endnode
+node emitter Chunkssml
+  parent plc_GCA1
+  birthratekey
+    0.000000  0.000000
+    0.033333  200.000000
+  endlist
+endnode
+node dummy GCA1_ground
+  parent plc_GCA1
+endnode
+node dummy GCA1_hand
+  parent plc_GCA1
+endnode
+node dummy GCA1_head
+  parent plc_GCA1
+endnode
+node dummy GCA1_head_hit
+  parent plc_GCA1
+endnode
+node dummy GCA1_impact
+  parent plc_GCA1
+endnode
+node dummy post1
+  parent PLC_GCA1
+endnode
+node dummy post2
+  parent PLC_GCA1
+endnode
+node dummy frametop
+  parent PLC_GCA1
+endnode
+node dummy framebase
+  parent PLC_GCA1
+endnode
+node trimesh Glass
+  parent plc_GCA1
+endnode
+doneanim die plc_GCA1
+
+
+newanim dead plc_GCA1
+length 0.033333
+transtime 0.000000
+animroot plc_GCA1
+node dummy plc_GCA1
+  parent NULL
+endnode
+node emitter ChunkyWood143
+  parent PLC_GCA1
+endnode
+node emitter fire!91
+  parent plc_GCA1
+endnode
+node emitter Chunkssml
+  parent plc_GCA1
+endnode
+node dummy GCA1_ground
+  parent plc_GCA1
+endnode
+node dummy GCA1_hand
+  parent plc_GCA1
+endnode
+node dummy GCA1_head
+  parent plc_GCA1
+endnode
+node dummy GCA1_head_hit
+  parent plc_GCA1
+endnode
+node dummy GCA1_impact
+  parent plc_GCA1
+endnode
+node dummy post1
+  parent PLC_GCA1
+endnode
+node dummy post2
+  parent PLC_GCA1
+endnode
+node dummy frametop
+  parent PLC_GCA1
+endnode
+node dummy framebase
+  parent PLC_GCA1
+endnode
+node trimesh Glass
+  parent plc_GCA1
+endnode
+doneanim dead plc_GCA1
+
+donemodel plc_GCA1
+

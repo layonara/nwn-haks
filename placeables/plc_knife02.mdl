@@ -1,0 +1,73 @@
+filedependancy Unknown
+newmodel plc_knife02
+setsupermodel plc_knife02 NULL
+classification Character
+setanimationscale 1.0
+beginmodelgeom plc_knife02
+node dummy plc_knife02
+    parent NULL
+endnode
+node trimesh Line310
+    parent plc_knife02
+    position 0.0 0.115 0.03
+    orientation 0.0 0.0 -1.0 -0.401426
+    scale 1.0
+    shininess 1.000000
+    render 1
+    diffuse 1.0 1.0 1.0
+    ambient 1.0 1.0 1.0
+    specular 0.0 0.0 0.0
+    selfillumcolor 0.0 0.0 0.0
+    alpha 1.0
+    bitmap tin01_shp
+    verts 13
+        -0.19 -0.41 0.0
+        -0.16 -0.46 0.0
+        0.0 -0.13 0.0
+        -0.17 -0.29 0.0
+        -0.07 -0.08 0.0
+        0.02 -0.14 0.02
+        -0.08 -0.07 0.02
+        0.14 0.16 0.02
+        0.04 0.23 0.02
+        0.04 0.23 -0.03
+        -0.08 -0.07 -0.03
+        0.02 -0.14 -0.03
+        0.14 0.16 -0.03
+    faces 17
+        0 1 2 1 0 1 2 1
+        3 0 2 1 3 0 2 1
+        4 3 2 1 4 3 2 1
+        5 6 4 1 5 6 7 1
+        4 2 5 1 7 8 5 1
+        7 8 6 1 9 10 6 1
+        6 5 7 1 6 5 9 1
+        9 10 6 1 11 12 6 1
+        6 8 9 1 6 10 11 1
+        11 12 7 1 13 14 9 1
+        7 5 11 1 9 5 13 1
+        12 9 8 1 14 11 10 1
+        8 7 12 1 10 9 14 1
+        6 10 4 1 6 12 7 1
+        2 11 5 1 8 13 5 1
+        4 10 11 1 7 12 13 1
+        4 11 2 1 7 13 8 1
+    tverts 15
+        0.387871 0.40653 0
+        0.455986 0.393461 0
+        0.459359 0.594036 0
+        0.350068 0.459885 0
+        0.357464 0.589773 0
+        0.223893 0.000499 0
+        0.085362 0.000921 0
+        0.152584 0.068554 0
+        0.857391 0.000499 0
+        0.219946 0.228547 0
+        0.103125 0.231385 0
+        0.0005 0.231385 0
+        0.0005 0.000921 0
+        0.306782 0.000499 0
+        0.306783 0.230963 0
+endnode
+endmodelgeom plc_knife02
+donemodel plc_knife02

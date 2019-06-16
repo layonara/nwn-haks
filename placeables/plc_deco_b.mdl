@@ -1,0 +1,42 @@
+# Exported from Wayland's NWN Maxscript v0.3b at 5/17/2003 10:30:09 PM
+# mdl file
+#
+filedependancy Unknown
+newmodel plc_scrawl_a
+setsupermodel plc_scrawl_a NULL
+classification Character
+setanimationscale 1.0
+beginmodelgeom plc_scrawl_a
+node dummy plc_scrawl_a
+    parent NULL
+endnode
+node trimesh spooky
+    parent plc_scrawl_a
+    position 0.0 0.0 0.7
+    orientation -1.0 0.0 0.0 -1.5708
+    scale 1.0
+    render  1
+    shininess  0
+    transparencyhint  1
+    diffuse 1.0 1.0 1.0
+    ambient 1.0 1.0 1.0
+    specular 0.9 0.9 0.9
+    selfillumcolor 0.0 0.0 0.0
+    alpha 1.0
+    bitmap scrawl_1
+    verts 4
+        -0.5 -0.5 0.0
+        0.5 -0.5 0.0
+        -0.5 0.5 0.0
+        0.5 0.5 0.0
+    faces 2
+        2 0 3 1 2 0 3 1
+        1 3 0 1 1 3 0 1
+    tverts 4
+        0.000499547 0.000499785 0
+        0.9995 0.000499547 0
+        0.000499785 0.9995 0
+        0.9995 0.9995 0
+endnode
+endmodelgeom plc_scrawl_a
+donemodel plc_scrawl_a

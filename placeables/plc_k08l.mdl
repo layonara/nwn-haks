@@ -1,0 +1,844 @@
+#Model converted by mdl2ascii
+#For updates/comments check out http://nwn-j3d.sf.net
+filedependancy Unknown
+newmodel plc_k08L
+setsupermodel plc_k08L NULL
+classification Character
+setanimationscale 1.000000
+#MAXGEOM  ASCII
+beginmodelgeom plc_k08L
+node dummy plc_k08L
+  parent NULL
+endnode
+node dummy K08_hand
+  parent plc_k08L
+  position 0.007978 -1.010390 1.868804
+  orientation 0.000000 0.000000 0.000000 0.000000
+endnode
+node dummy K08_head
+  parent plc_k08L
+  position 0.007978 0.021650 4.352600
+  orientation 0.000000 0.000000 0.000000 0.000000
+endnode
+node dummy K08_head_hit
+  parent plc_k08L
+  position 0.007978 0.021650 3.389640
+  orientation 0.000000 0.000000 0.000000 0.000000
+endnode
+node dummy K08_impact
+  parent plc_k08L
+  position 0.007978 0.022002 1.736268
+  orientation 0.000000 0.000000 0.000000 0.000000
+endnode
+node dummy K08_ground
+  parent plc_k08L
+  position -0.007266 0.013974 0.000000
+  orientation 0.000000 0.000000 0.000000 0.000000
+endnode
+node trimesh damage40
+  parent plc_k08L
+  position 0.010550 -0.034340 0.000000
+  orientation 0.000000 0.000000 0.000000 0.000000
+  alpha 1.000000
+  diffuse 1.000000 0.501961 0.643137
+  ambient 0.070588 0.000000 1.000000
+  specular 0.000000 0.900000 0.105882
+  shininess 24.000000
+  render 0
+    bitmap NULL
+    verts 12
+     -0.390830 -0.372432 0.000000
+     -0.390830 0.372432 0.000000
+     0.390830 0.372432 0.000000
+     0.390830 -0.372432 0.000000
+     -0.390830 -0.372432 1.000000
+     0.390830 -0.372432 1.000000
+     0.390830 0.372432 1.000000
+     -0.390830 0.372432 1.000000
+     0.207888 -0.198102 0.500000
+     -0.207888 -0.198102 0.500000
+     0.207888 0.198102 0.500000
+     -0.207888 0.198102 0.500000
+    faces 20
+     0 1 2 1 0 0 0 2
+     2 3 0 1 0 0 0 2
+     4 5 6 1 0 0 0 1
+     6 7 4 1 0 0 0 1
+     0 3 8 1 0 0 0 5
+     8 9 0 1 0 0 0 5
+     9 8 5 1 0 0 0 5
+     5 4 9 1 0 0 0 5
+     3 2 10 1 0 0 0 4
+     10 8 3 1 0 0 0 4
+     8 10 6 1 0 0 0 4
+     6 5 8 1 0 0 0 4
+     2 1 11 1 0 0 0 6
+     11 10 2 1 0 0 0 6
+     10 11 7 1 0 0 0 6
+     7 6 10 1 0 0 0 6
+     1 0 9 1 0 0 0 3
+     9 11 1 1 0 0 0 3
+     11 9 4 1 0 0 0 3
+     4 7 11 1 0 0 0 3
+endnode
+node trimesh Box155715
+  parent damage40
+  position -0.005704 0.026616 0.000000
+  orientation 0.000000 0.000000 0.000000 0.000000
+  diffuse 1.000000 1.000000 1.000000
+  ambient 1.000000 1.000000 1.000000
+  specular 0.000000 0.000000 0.000000
+  shininess 1.000000
+  render 1
+    bitmap PLC_Rck
+    verts 40
+     -0.446450 -0.800000 6.077000
+     0.800000 -0.800000 7.304220
+     -0.800000 -0.800000 7.304220
+     -0.799770 -0.800000 6.604660
+     0.801792 0.448236 1.847652
+     0.801994 -0.800000 1.234028
+     0.801994 0.800000 1.234028
+     0.801964 0.800000 1.322068
+     -0.446444 0.800000 1.853000
+     -0.798006 0.800000 1.234028
+     -0.798038 0.800000 1.327928
+     -0.798006 -0.800000 1.234028
+     -0.798210 0.448234 1.853002
+     -0.912696 -0.924182 0.943928
+     -0.912696 0.924182 0.943928
+     -0.914690 0.924182 0.833316
+     -0.914690 -0.924182 0.833316
+     0.916684 0.924182 0.943928
+     0.914690 0.924182 0.833316
+     0.916684 -0.924182 0.943928
+     0.914690 -0.924182 0.833316
+     -0.798038 -0.800000 1.327936
+     -0.446450 -0.800000 1.853002
+     0.446446 -0.800000 1.853002
+     0.801964 -0.800000 1.322068
+     0.446446 0.800000 1.853000
+     -0.799770 0.800000 6.604660
+     -0.800000 0.800000 7.304220
+     -0.446444 0.800000 6.077000
+     0.800000 0.800000 7.304220
+     -0.799598 0.446384 6.077160
+     0.801792 -0.448240 1.847646
+     0.800230 0.800000 6.605340
+     0.800402 0.446508 6.077700
+     0.446446 0.800000 6.077000
+     -0.798210 -0.448240 1.853000
+     -0.799596 -0.446728 6.076820
+     0.446446 -0.800000 6.077000
+     0.800230 -0.800000 6.605340
+     0.800402 -0.446510 6.077700
+    faces 64
+     0 1 2 1 0 1 2 5
+     2 3 0 1 3 4 5 5
+     4 5 6 1 6 7 8 4
+     6 7 4 1 8 9 6 4
+     8 6 9 1 10 11 12 6
+     9 10 8 1 12 13 10 6
+     11 12 10 1 14 15 16 3
+     13 14 15 1 17 18 19 2
+     15 16 13 1 19 20 17 2
+     14 17 18 1 18 21 22 2
+     18 15 14 1 22 19 18 2
+     17 19 20 1 23 24 25 2
+     20 18 17 1 25 26 23 2
+     19 13 16 1 24 17 20 2
+     16 20 19 1 20 25 24 2
+     21 11 22 1 27 14 28 5
+     23 22 11 1 29 30 31 5
+     5 24 23 1 32 33 29 5
+     11 5 23 1 31 32 29 5
+     10 9 11 1 16 34 14 3
+     25 7 8 1 35 36 10 6
+     26 27 28 1 37 38 39 6
+     29 28 27 1 40 39 38 6
+     11 21 12 1 14 27 15 3
+     2 27 26 1 3 41 42 3
+     26 30 2 1 42 43 3 3
+     8 7 6 1 10 36 11 6
+     31 24 4 1 44 45 6 4
+     32 29 33 1 46 47 48 4
+     1 33 29 1 49 48 47 4
+     34 28 29 1 50 39 40 6
+     29 32 34 1 47 46 51 6
+     8 28 34 1 10 39 50 6
+     34 25 8 1 50 35 10 6
+     21 35 12 1 27 52 15 3
+     22 23 0 1 30 29 0 5
+     3 2 36 1 4 3 53 3
+     30 36 2 1 43 53 3 3
+     37 38 0 1 54 55 0 5
+     1 0 38 1 1 0 55 5
+     30 12 36 1 43 15 53 3
+     36 12 35 1 53 15 52 3
+     4 24 5 1 6 45 7 4
+     39 33 1 1 56 57 49 4
+     1 38 39 1 1 55 58 4
+     4 33 39 1 6 57 59 4
+     0 23 37 1 0 29 54 5
+     39 31 4 1 56 44 6 4
+     0 36 35 1 5 53 52 1
+     0 35 22 1 5 52 28 1
+     3 36 0 1 4 53 5 1
+     38 37 39 1 55 54 58 1
+     37 23 31 1 54 29 60 1
+     37 31 39 1 54 60 58 1
+     25 4 7 1 61 6 9 1
+     34 33 4 1 51 48 6 1
+     34 4 25 1 51 6 61 1
+     32 33 34 1 46 48 51 1
+     26 28 30 1 37 39 62 1
+     30 28 8 1 62 39 10 1
+     30 8 12 1 62 10 63 1
+     12 8 10 1 63 10 13 1
+     23 24 31 1 29 33 64 1
+     35 21 22 1 52 27 28 1
+    tverts 65
+     0.053617 1.061380 0
+     0.402174 1.442450 0
+     0.009180 1.442450 0
+     0.400457 1.442450 0
+     0.400495 1.225220 0
+     0.474734 1.061380 0
+     0.324938 -0.251912 0
+     0.006752 -0.442454 0
+     0.398742 -0.442454 0
+     0.398747 -0.415116 0
+     0.325465 -0.250251 0
+     0.006414 -0.442454 0
+     0.399408 -0.442454 0
+     0.399414 -0.413296 0
+     0.400792 -0.442454 0
+     0.052204 -0.250251 0
+     0.008137 -0.413296 0
+     0.573892 0.015831 0
+     0.992185 0.015831 0
+     0.992185 0.002091 0
+     0.573892 0.002091 0
+     0.572252 0.015831 0
+     0.572252 0.002091 0
+     0.569228 0.015831 0
+     0.993826 0.015831 0
+     0.993826 0.002091 0
+     0.569228 0.002091 0
+     0.400787 -0.413293 0
+     0.474734 -0.250251 0
+     0.327720 -0.250251 0
+     0.053617 -0.250251 0
+     0.009515 -0.442454 0
+     0.402509 -0.442454 0
+     0.402504 -0.415116 0
+     0.008132 -0.442454 0
+     0.051363 -0.250251 0
+     0.006419 -0.415116 0
+     0.399705 1.225230 0
+     0.399744 1.442450 0
+     0.325465 1.061380 0
+     0.006749 1.442450 0
+     0.008467 1.442450 0
+     0.008428 1.225230 0
+     0.052963 1.061530 0
+     0.050715 -0.251914 0
+     0.006748 -0.415116 0
+     0.399039 1.225440 0
+     0.399077 1.442450 0
+     0.324782 1.061750 0
+     0.006417 1.442450 0
+     0.051363 1.061380 0
+     0.473531 1.061380 0
+     0.326881 -0.250251 0
+     0.326295 1.061320 0
+     0.327720 1.061380 0
+     0.402213 1.225440 0
+     0.050872 1.061750 0
+     0.324608 1.061430 0
+     0.476469 1.061750 0
+     0.051047 1.061440 0
+     0.476312 -0.251914 0
+     0.473531 -0.250251 0
+     0.474080 1.061530 0
+     0.473321 -0.250251 0
+     0.233171 -0.402518 0
+endnode
+node trimesh Mesh1836
+  parent damage40
+  position -0.005708 0.026616 0.000000
+  orientation 0.000000 0.000000 0.000000 0.000000
+  diffuse 0.698039 0.698039 0.698039
+  ambient 0.698039 0.698039 0.698039
+  specular 0.000000 0.000000 0.000000
+  shininess 1.000000
+  render 1
+    bitmap PLC_Rck
+    verts 24
+     -0.798006 -0.800000 1.234028
+     -0.798006 0.800000 1.234028
+     -0.939600 0.941592 1.149928
+     -0.939600 -0.941592 1.149928
+     0.801994 0.800000 1.234028
+     0.943586 0.941592 1.149928
+     0.801994 -0.800000 1.234028
+     0.943586 -0.941592 1.149928
+     -0.939600 0.941592 0.945928
+     -0.939600 -0.941592 0.945928
+     0.943586 0.941592 0.945928
+     0.943586 -0.941592 0.945928
+     -0.914690 -0.924182 0.833316
+     -0.914690 0.924182 0.833316
+     -1.181272 1.114406 0.831316
+     -1.181272 -1.114406 0.831316
+     0.914690 0.924182 0.833316
+     1.181272 1.114406 0.831316
+     0.914690 -0.924182 0.833316
+     1.181272 -1.114406 0.831316
+     -1.452964 1.370720 0.002820
+     -1.452964 -1.370720 0.002820
+     1.452964 1.370720 0.002820
+     1.452964 -1.370720 0.002820
+    faces 32
+     0 1 2 1 0 1 2 2
+     2 3 0 1 2 3 0 2
+     1 4 5 1 1 4 5 2
+     5 2 1 1 5 2 1 2
+     4 6 7 1 4 6 7 2
+     7 5 4 1 7 5 4 2
+     6 0 3 1 6 0 3 2
+     3 7 6 1 3 7 6 2
+     3 2 8 1 8 9 10 2
+     8 9 3 1 10 11 8 2
+     2 5 10 1 9 12 13 2
+     10 8 2 1 13 10 9 2
+     5 7 11 1 14 15 16 2
+     11 10 5 1 16 17 14 2
+     7 3 9 1 15 8 11 2
+     9 11 7 1 11 16 15 2
+     12 13 14 1 18 19 20 2
+     14 15 12 1 20 21 18 2
+     13 16 17 1 19 22 23 2
+     17 14 13 1 23 20 19 2
+     16 18 19 1 22 24 25 2
+     19 17 16 1 25 23 22 2
+     18 12 15 1 24 18 21 2
+     15 19 18 1 21 25 24 2
+     15 14 20 1 26 27 28 2
+     20 21 15 1 28 29 26 2
+     14 17 22 1 27 30 31 2
+     22 20 14 1 31 28 27 2
+     17 19 23 1 32 33 34 2
+     23 22 17 1 34 35 32 2
+     19 15 21 1 33 26 29 2
+     21 23 19 1 29 34 33 2
+    tverts 36
+     0.083793 0.342904 0
+     0.083793 0.668883 0
+     0.056578 0.697731 0
+     0.056578 0.314057 0
+     0.391320 0.668883 0
+     0.418535 0.697731 0
+     0.391320 0.342904 0
+     0.418535 0.314057 0
+     0.025881 0.072403 0
+     0.446848 0.072403 0
+     0.446848 0.024928 0
+     0.025881 0.024928 0
+     0.024240 0.072403 0
+     0.024240 0.024928 0
+     0.021216 0.072403 0
+     0.448488 0.072403 0
+     0.448488 0.024928 0
+     0.021216 0.024928 0
+     0.061749 0.317604 0
+     0.061749 0.694184 0
+     0.010511 0.732939 0
+     0.010511 0.278848 0
+     0.413364 0.694184 0
+     0.464602 0.732939 0
+     0.413364 0.317604 0
+     0.464602 0.278848 0
+     0.248399 0.751585 0
+     0.252204 0.315578 0
+     0.071804 0.238642 0
+     0.066690 0.824636 0
+     0.248385 0.753226 0
+     0.066671 0.826841 0
+     0.248359 0.756250 0
+     0.252218 0.313938 0
+     0.071823 0.236438 0
+     0.066635 0.830905 0
+endnode
+node trimesh Mesh1837
+  parent damage40
+  position -0.005704 0.026616 0.304230
+  orientation 0.000000 0.000000 0.000000 0.000000
+  diffuse 1.000000 1.000000 1.000000
+  ambient 1.000000 1.000000 1.000000
+  specular 0.000000 0.000000 0.000000
+  shininess 1.000000
+  render 1
+    bitmap PLC_black00
+    verts 4
+     -0.800000 -0.800000 7.000000
+     0.800000 -0.800000 7.000000
+     0.800000 0.800000 7.000000
+     -0.800000 0.800000 7.000000
+    faces 2
+     0 1 2 1 0 1 2 1
+     2 3 0 1 3 4 0 1
+    tverts 5
+     0.025881 1.516620 0
+     0.448488 1.516620 0
+     0.021216 1.516620 0
+     0.024240 1.516620 0
+     0.446848 1.516620 0
+endnode
+node emitter fire!77
+  parent plc_k08L
+  position 0.007416 0.006790 1.065342
+  orientation -1.000000 0.000000 0.000000 -1.570800
+    colorStart 0.474510 0.454902 0.407843
+    colorEnd 0.819608 0.803922 0.745098
+    alphaStart 1.000000
+    alphaEnd 0.000000
+    sizeStart 8.000000
+    sizeEnd 2.000000
+    sizeStart_y 0.000000
+    sizeEnd_y 0.000000
+    frameStart 0
+    frameEnd 24
+    birthrate 10
+    spawnType 0
+    lifeExp 2.500000
+    mass 0.090000
+    spread 2.967060
+    particleRot 0.500000
+    velocity 2.000000
+    randvel 0.500000
+    fps 10
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 200.000000
+    ysize 198.000000
+    bounce 0
+    bounce_co 0.000000
+    loop 0
+    update Explosion
+    render Normal
+    Blend Normal
+    deadspace 0.000000
+    blurlength 20.000000
+    lightningDelay 0.0
+    lightningRadius 0.000000
+    lightningScale 0.000000
+    blastRadius 0.200000
+    blastLength 1.000000
+    twosidedtex 1
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0.000000
+    p2p_bezier3 0.000000
+    combinetime 0.000000
+    drag 0.000000
+    grav 0.000000
+    threshold 0.000000
+    texture fxpa_smoke01
+    xgrid 4
+    ygrid 4
+    affectedByWind 0
+    m_isTinted 1
+    Splat 0
+endnode
+node emitter ChunkyWood127
+  parent plc_k08L
+  position 0.007416 0.008758 1.213430
+  orientation 0.000000 0.000000 0.000000 0.000000
+    colorStart 1.000000 1.000000 1.000000
+    colorEnd 1.000000 1.000000 1.000000
+    alphaStart 1.000000
+    alphaEnd 1.000000
+    sizeStart 0.200000
+    sizeEnd 0.200000
+    sizeStart_y 0.000000
+    sizeEnd_y 0.000000
+    frameStart 0
+    frameEnd 24
+    birthrate 3
+    spawnType 0
+    lifeExp 0.750000
+    mass 3.000000
+    spread 1.221730
+    particleRot 5.000000
+    velocity 8.000000
+    randvel 0.300000
+    fps 0
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 178.000000
+    ysize 80.000000
+    bounce 1
+    bounce_co 0.500000
+    loop 0
+    update Explosion
+    render Normal
+    Blend Normal
+    deadspace 0.000000
+    blurlength 20.000000
+    lightningDelay 0.0
+    lightningRadius 0.000000
+    lightningScale 0.000000
+    blastRadius 0.000000
+    blastLength 0.000000
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0.000000
+    p2p_bezier3 0.000000
+    combinetime 0.000000
+    drag 0.000000
+    grav 0.000000
+    threshold 0.000000
+    texture fxpa_cloud02
+    xgrid 5
+    ygrid 5
+    affectedByWind 0
+    m_isTinted 0
+    Splat 0
+endnode
+node emitter ChunkyWood128
+  parent plc_k08L
+  position 0.007416 0.006790 1.425874
+  orientation 0.000000 0.000000 0.000000 0.000000
+    colorStart 0.482353 0.435294 0.317647
+    colorEnd 0.584314 0.533333 0.407843
+    alphaStart 1.000000
+    alphaEnd 1.000000
+    sizeStart 0.200000
+    sizeEnd 0.200000
+    sizeStart_y 0.000000
+    sizeEnd_y 0.000000
+    frameStart 0
+    frameEnd 24
+    birthrate 3
+    spawnType 0
+    lifeExp 0.750000
+    mass 3.000000
+    spread 1.221730
+    particleRot 2.900000
+    velocity 8.000000
+    randvel 0.300000
+    fps 0
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 178.000000
+    ysize 80.000000
+    bounce 1
+    bounce_co 0.500000
+    loop 0
+    update Explosion
+    render Normal
+    Blend Normal
+    deadspace 0.000000
+    blurlength 20.000000
+    lightningDelay 0.0
+    lightningRadius 0.000000
+    lightningScale 0.000000
+    blastRadius 0.000000
+    blastLength 0.000000
+    twosidedtex 1
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0.000000
+    p2p_bezier3 0.000000
+    combinetime 0.000000
+    drag 0.000000
+    grav 0.000000
+    threshold 0.000000
+    texture fxpa_cloud02
+    xgrid 5
+    ygrid 5
+    affectedByWind 0
+    m_isTinted 0
+    Splat 0
+endnode
+endmodelgeom plc_k08L
+
+
+newanim damage plc_k08L
+length 0.266666
+transtime 0.500000
+animroot plc_k08L
+node dummy plc_k08L
+  parent NULL
+endnode
+node dummy plc_k08L_pwk
+  parent plc_k08L
+endnode
+node dummy plc_k08L_wg
+  parent plc_k08L_pwk
+endnode
+node dummy K08_pwk_use01
+  parent plc_k08L_pwk
+endnode
+node dummy K08_pwk_use02
+  parent plc_k08L_pwk
+endnode
+node dummy K08_hand
+  parent plc_k08L
+endnode
+node dummy K08_head
+  parent plc_k08L
+endnode
+node dummy K08_head_hit
+  parent plc_k08L
+endnode
+node dummy K08_impact
+  parent plc_k08L
+endnode
+node dummy K08_ground
+  parent plc_k08L
+endnode
+node trimesh damage40
+  parent plc_k08L
+  positionkey
+    0.000000  0.010550 -0.034340 0.000000
+    0.066666  0.010550 -0.034340 0.048916
+    0.266666  0.010550 -0.034340 0.000000
+  endlist
+  orientationkey
+    0.000000  0.000000 0.000000 0.000000 0.000000
+    0.066666  0.371336 -0.928463 0.008103 -0.046994
+    0.200000  -0.599950 0.799969 0.010472 -0.043632
+    0.266666  0.000000 0.000000 0.000000 0.000000
+  endlist
+endnode
+node dummy Box155715
+  parent damage40
+endnode
+node dummy Mesh1836
+  parent damage40
+endnode
+node dummy Mesh1837
+  parent damage40
+endnode
+node emitter fire!77
+  parent plc_k08L
+endnode
+node emitter ChunkyWood127
+  parent plc_k08L
+endnode
+node emitter ChunkyWood128
+  parent plc_k08L
+endnode
+doneanim damage plc_k08L
+
+
+newanim die plc_k08L
+length 0.333334
+transtime 0.000000
+animroot plc_k08L
+  event 0.033333 detonate
+  event 0.033333 detonate
+  event 0.033333 detonate
+node dummy plc_k08L
+  parent NULL
+endnode
+node dummy plc_k08L_pwk
+  parent plc_k08L
+endnode
+node dummy plc_k08L_wg
+  parent plc_k08L_pwk
+endnode
+node dummy K08_pwk_use01
+  parent plc_k08L_pwk
+endnode
+node dummy K08_pwk_use02
+  parent plc_k08L_pwk
+endnode
+node dummy K08_hand
+  parent plc_k08L
+endnode
+node dummy K08_head
+  parent plc_k08L
+endnode
+node dummy K08_head_hit
+  parent plc_k08L
+endnode
+node dummy K08_impact
+  parent plc_k08L
+endnode
+node dummy K08_ground
+  parent plc_k08L
+endnode
+node trimesh damage40
+  parent plc_k08L
+  positionkey
+    0.000000  0.010550 -0.034340 0.000000
+    0.333334  0.010550 -0.034340 -13.902900
+  endlist
+  orientationkey
+    0.000000  0.000000 0.000000 0.000000 0.000000
+  endlist
+endnode
+node dummy Box155715
+  parent damage40
+endnode
+node dummy Mesh1836
+  parent damage40
+endnode
+node dummy Mesh1837
+  parent damage40
+endnode
+node emitter fire!77
+  parent plc_k08L
+endnode
+node emitter ChunkyWood127
+  parent plc_k08L
+endnode
+node emitter ChunkyWood128
+  parent plc_k08L
+endnode
+doneanim die plc_k08L
+
+
+newanim dead plc_k08L
+length 0.066666
+transtime 0.000000
+animroot plc_k08L
+node dummy plc_k08L
+  parent NULL
+endnode
+node dummy plc_k08L_pwk
+  parent plc_k08L
+endnode
+node dummy plc_k08L_wg
+  parent plc_k08L_pwk
+endnode
+node dummy K08_pwk_use01
+  parent plc_k08L_pwk
+endnode
+node dummy K08_pwk_use02
+  parent plc_k08L_pwk
+endnode
+node dummy K08_hand
+  parent plc_k08L
+endnode
+node dummy K08_head
+  parent plc_k08L
+endnode
+node dummy K08_head_hit
+  parent plc_k08L
+endnode
+node dummy K08_impact
+  parent plc_k08L
+endnode
+node dummy K08_ground
+  parent plc_k08L
+endnode
+node trimesh damage40
+  parent plc_k08L
+  positionkey
+    0.000000  0.010550 -0.034340 -13.902900
+    0.066666  0.010550 -0.034340 -13.902900
+  endlist
+endnode
+node dummy Box155715
+  parent damage40
+endnode
+node dummy Mesh1836
+  parent damage40
+endnode
+node dummy Mesh1837
+  parent damage40
+endnode
+node emitter fire!77
+  parent plc_k08L
+endnode
+node emitter ChunkyWood127
+  parent plc_k08L
+endnode
+node emitter ChunkyWood128
+  parent plc_k08L
+endnode
+doneanim dead plc_k08L
+
+
+newanim default plc_k08L
+length 0.000000
+transtime 0.500000
+animroot plc_k08L
+node dummy plc_k08L
+  parent NULL
+endnode
+node dummy plc_k08L_pwk
+  parent plc_k08L
+endnode
+node dummy plc_k08L_wg
+  parent plc_k08L_pwk
+endnode
+node dummy K08_pwk_use01
+  parent plc_k08L_pwk
+endnode
+node dummy K08_pwk_use02
+  parent plc_k08L_pwk
+endnode
+node dummy K08_hand
+  parent plc_k08L
+endnode
+node dummy K08_head
+  parent plc_k08L
+endnode
+node dummy K08_head_hit
+  parent plc_k08L
+endnode
+node dummy K08_impact
+  parent plc_k08L
+endnode
+node dummy K08_ground
+  parent plc_k08L
+endnode
+node trimesh damage40
+  parent plc_k08L
+  positionkey
+    0.000000  0.010550 -0.034340 0.000000
+  endlist
+  orientationkey
+    0.000000  0.000000 0.000000 0.000000 0.000000
+  endlist
+endnode
+node dummy Box155715
+  parent damage40
+endnode
+node dummy Mesh1836
+  parent damage40
+endnode
+node dummy Mesh1837
+  parent damage40
+endnode
+node emitter fire!77
+  parent plc_k08L
+endnode
+node emitter ChunkyWood127
+  parent plc_k08L
+endnode
+node emitter ChunkyWood128
+  parent plc_k08L
+endnode
+doneanim default plc_k08L
+donemodel plc_k08L
+
+

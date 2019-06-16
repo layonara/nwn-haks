@@ -1,0 +1,2106 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: PLC_DD24
+filedependancy Unknown
+newmodel PLC_DD24
+setsupermodel PLC_DD24 NULL
+classification Character
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom PLC_DD24
+node dummy PLC_DD24
+  parent NULL
+endnode
+node dummy I07_hand
+  parent PLC_DD24
+  position 0.00398926 0.0108905 0.31607
+  orientation 0 0 0 0
+  wirecolor 0.695313 0.695313 0.695313
+endnode
+node dummy I07_head
+  parent PLC_DD24
+  position 0.00398926 0.0108252 3.3539
+  orientation 0 0 0 0
+  wirecolor 0.695313 0.695313 0.695313
+endnode
+node dummy I07_head_hit
+  parent PLC_DD24
+  position 0.00398926 0.0108252 0.930091
+  orientation 0 0 0 0
+  wirecolor 0.695313 0.695313 0.695313
+endnode
+node dummy I07_impact
+  parent PLC_DD24
+  position 0.00398926 0.011001 0.581404
+  orientation 0 0 0 0
+  wirecolor 0.695313 0.695313 0.695313
+endnode
+node dummy I07_ground
+  parent PLC_DD24
+  position -0.00363281 0.0069873 0
+  orientation 0 0 0 0
+  wirecolor 0.0351563 0.0351563 0.0351563
+endnode
+node emitter OmenEmitter251
+  parent PLC_DD24
+  position -0.0310755 -0.0706148 0.150135
+  orientation 0 0 1 -0.516453
+  wirecolor 0.0351563 0.0351563 0.0351563
+    colorStart 0.254902 0.254902 0.254902
+    colorEnd 1 1 1
+    alphaStart 0.73
+    alphaEnd 0.1
+    sizeStart 0.5
+    sizeEnd 1
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 15
+    birthrate 6
+    spawnType 0
+    lifeExp 2
+    mass 0
+    spread 0.349066
+    particleRot 0
+    velocity 0.1
+    randvel 0
+    fps 24
+    random 1
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 10
+    ysize 10
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Fountain
+    render Normal
+    Blend Lighten
+    update_sel 1
+    render_sel 1
+    blend_sel 3
+    deadspace 0
+    opacity 0.5
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_flame00
+    xgrid 4
+    ygrid 4
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+node emitter fire!53
+  parent PLC_DD24
+  position -0.0217051 -0.0625643 1.07166
+  orientation 0 0 0 0
+  wirecolor 0.0351563 0.0351563 0.0351563
+    colorStart 0.541176 0.541176 0.541176
+    colorEnd 0.435294 0.435294 0.435294
+    alphaStart 0.1
+    alphaEnd 0
+    sizeStart 0.5
+    sizeEnd 1
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 24
+    birthrate 20
+    spawnType 0
+    lifeExp 3
+    mass 0.035
+    spread 0.174533
+    particleRot 1.5
+    velocity 1
+    randvel 0.2
+    fps 10
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 10
+    ysize 10
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Fountain
+    render Normal
+    Blend Normal
+    update_sel 1
+    render_sel 1
+    blend_sel 1
+    deadspace 0
+    opacity 0.5
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_smoke01
+    xgrid 4
+    ygrid 4
+    affectedByWind 1
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+node emitter ChunkyWood90
+  parent PLC_DD24
+  position 0.0120132 -0.0161478 0.344432
+  orientation 0 0 0 0
+  wirecolor 0.0351563 0.0351563 0.0351563
+    colorStart 1 1 1
+    colorEnd 1 1 1
+    alphaStart 1
+    alphaEnd 1
+    sizeStart 0.1
+    sizeEnd 0.1
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 24
+    birthrate 2
+    spawnType 0
+    lifeExp 0.75
+    mass 3
+    spread 1.22173
+    particleRot 5
+    velocity 8
+    randvel 0.3
+    fps 0
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 89
+    ysize 40
+    bounce 1
+    bounce_co 0.5
+    loop 0
+    update Explosion
+    render Normal
+    Blend Normal
+    update_sel 2
+    render_sel 1
+    blend_sel 1
+    deadspace 0
+    opacity 0.5
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_cloud02
+    xgrid 5
+    ygrid 5
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+    chunkName PLC_Chunk_W01
+endnode
+node trimesh damage19
+  parent PLC_DD24
+  position 0.01358 0.0236911 0
+  orientation 0 0 0 0
+  wirecolor 0.894531 0.894531 0.894531
+  ambient 0.0705882 0 1
+  diffuse 1 0.501961 0.643137
+  specular 0 0 0
+  shininess 24
+  bitmap NULL
+  render 0
+  Shadow 1
+  beaming 0
+  transparencyhint 0
+  tilefade 0
+  rotatetexture 0
+  verts 12
+    -0.195415 -0.186216 0
+    -0.195415 0.186216 0
+    0.195415 0.186216 0
+    0.195415 -0.186216 0
+    -0.195415 -0.186216 0.5
+    0.195415 -0.186216 0.5
+    0.195415 0.186216 0.5
+    -0.195415 0.186216 0.5
+    0.103944 -0.0990513 0.25
+    -0.103944 -0.0990513 0.25
+    0.103944 0.0990513 0.25
+    -0.103944 0.0990513 0.25
+  faces 20
+    0 1 2  1  0 0 0  0
+    2 3 0  1  0 0 0  0
+    4 5 6  1  0 0 0  0
+    6 7 4  1  0 0 0  0
+    0 3 8  1  0 0 0  0
+    8 9 0  1  0 0 0  0
+    9 8 5  1  0 0 0  0
+    5 4 9  1  0 0 0  0
+    3 2 10  1  0 0 0  0
+    10 8 3  1  0 0 0  0
+    8 10 6  1  0 0 0  0
+    6 5 8  1  0 0 0  0
+    2 1 11  1  0 0 0  0
+    11 10 2  1  0 0 0  0
+    10 11 7  1  0 0 0  0
+    7 6 10  1  0 0 0  0
+    1 0 9  1  0 0 0  0
+    9 11 1  1  0 0 0  0
+    11 9 4  1  0 0 0  0
+    4 7 11  1  0 0 0  0
+  tverts 1
+    0 0 0
+endnode
+node trimesh Mesh125
+  parent damage19
+  position -0.0405737 -0.0405664 0.02
+  orientation 0 0 0 0
+  wirecolor 0.898438 0.898438 0.898438
+  ambient 0 0 0
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap PLC_Trans
+  render 1
+  Shadow 1
+  beaming 0
+  transparencyhint 1
+  tilefade 0
+  rotatetexture 0
+  verts 4
+    -0.3663 0.3663 0
+    -0.3663 -0.3663 0
+    0.3663 0.3663 0
+    0.3663 -0.3663 0
+  faces 2
+    0 1 2  1  0 1 2  0
+    3 2 1  1  3 2 1  0
+  tverts 4
+    0.361336 0.227624 0
+    0.361336 0.00909072 0
+    0.743263 0.227624 0
+    0.743263 0.00909066 0
+endnode
+node emitter fire!56
+  parent PLC_DD24
+  position -0.0534914 -0.0816339 0.270388
+  orientation -1 0 0 -1.5708
+  wirecolor 0.347656 0.347656 0.347656
+    colorStart 0.607843 0.568627 0.486275
+    colorEnd 0.819608 0.815686 0.796079
+    alphaStart 1
+    alphaEnd 0
+    sizeStart 4
+    sizeEnd 1
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 24
+    birthrate 10
+    spawnType 0
+    lifeExp 2.5
+    mass 0.09
+    spread 2.96706
+    particleRot 0.5
+    velocity 2
+    randvel 0.5
+    fps 10
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 100
+    ysize 99
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Explosion
+    render Normal
+    Blend Normal
+    update_sel 2
+    render_sel 1
+    blend_sel 1
+    deadspace 0
+    opacity 0.5
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0.2
+    blastLength 1
+    twosidedtex 1
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_smoke01
+    xgrid 4
+    ygrid 4
+    affectedByWind 0
+    m_isTinted 1
+    renderorder 0
+    Splat 0
+endnode
+node emitter ChunkyWood91
+  parent PLC_DD24
+  position 0.0120132 -0.0161478 0.450653
+  orientation 0 0 0 0
+  wirecolor 0.347656 0.347656 0.347656
+    colorStart 0.701961 0.67451 0.603922
+    colorEnd 0.854902 0.847059 0.82353
+    alphaStart 1
+    alphaEnd 1
+    sizeStart 0.1
+    sizeEnd 0.1
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 24
+    birthrate 1
+    spawnType 0
+    lifeExp 0.75
+    mass 3
+    spread 1.22173
+    particleRot 2.9
+    velocity 8
+    randvel 0.3
+    fps 0
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 89
+    ysize 40
+    bounce 1
+    bounce_co 0.5
+    loop 0
+    update Explosion
+    render Normal
+    Blend Normal
+    update_sel 2
+    render_sel 1
+    blend_sel 1
+    deadspace 0
+    opacity 0.5
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 1
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_cloud02
+    xgrid 5
+    ygrid 5
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+    chunkName PLC_Chunk_W02
+endnode
+node trimesh Geom740
+  parent PLC_DD24
+  position 0.238743 0.518294 0.13
+  orientation 0 0 0 0
+  wirecolor 0.695313 0.695313 0.695313
+  ambient 0 0 0
+  diffuse 1 1 1
+  specular 0.05 0.05 0.05
+  shininess 26
+  bitmap TTF01_log01
+  verts 15
+    0.15 0.06 -0.01
+    -0.11 -0.65 0.32
+    -0.03 -0.7 0.22
+    0.05 0.12 0.11
+    -0.23 -0.64 0.27
+    -0.1 0.13 0.05
+    -0.23 -0.68 0.15
+    -0.1 0.09 -0.1
+    -0.11 -0.72 0.11
+    0.05 0.04 -0.14
+    -0.19 -1.13 0.49
+    -0.09 -1.18 0.37
+    -0.34 -1.11 0.43
+    -0.34 -1.16 0.28
+    -0.19 -1.2 0.24
+  faces 20
+    0 1 2  1  0 1 2  0
+    0 3 1  1  0 3 1  0
+    3 4 1  1  4 5 6  0
+    3 5 4  1  4 7 5  0
+    5 6 4  1  7 8 5  0
+    5 7 6  1  7 9 8  0
+    7 8 6  1  9 10 8  0
+    7 9 8  1  9 11 10  0
+    9 2 8  1  11 2 10  0
+    9 0 2  1  11 0 2  0
+    2 10 11  1  2 12 13  0
+    2 1 10  1  2 1 12  0
+    1 12 10  1  6 14 15  0
+    1 4 12  1  6 5 14  0
+    4 13 12  1  5 16 14  0
+    4 6 13  1  5 8 16  0
+    6 14 13  1  8 17 16  0
+    6 8 14  1  8 10 17  0
+    8 11 14  1  10 13 17  0
+    8 2 11  1  10 2 13  0
+  tverts 18
+    0.75 0.000499547 0
+    0.966519 0.5 0
+    0.75 0.5 0
+    0.966519 0.000499547 0
+    -0.0334809 0.000499547 0
+    0.1546 0.5 0
+    -0.0334809 0.5 0
+    0.1546 0.000499547 0
+    0.3454 0.5 0
+    0.3454 0.000499547 0
+    0.533481 0.5 0
+    0.533481 0.000499547 0
+    0.966519 0.9995 0
+    0.75 0.9995 0
+    0.1546 0.9995 0
+    -0.0334809 0.9995 0
+    0.3454 0.9995 0
+    0.533481 0.9995 0
+endnode
+node trimesh Geom734
+  parent PLC_DD24
+  position -0.431257 -0.011706 0.05
+  orientation 0 0 0 0
+  wirecolor 0.0351563 0.0351563 0.0351563
+  ambient 0 0 0
+  diffuse 1 1 1
+  specular 0.05 0.05 0.05
+  shininess 26
+  bitmap TTF01_logend
+  verts 10
+    0.09 0.1 0.01
+    0.13 -0.08 0.06
+    0.11 0.02 0.1
+    0.13 -0.08 -0.06
+    0.11 0.03 -0.09
+    1.02 0.31 0.02
+    1.04 0.24 0.11
+    1.06 0.13 0.06
+    1.06 0.14 -0.05
+    1.04 0.25 -0.08
+  faces 6
+    0 1 2  1  0 1 2  0
+    0 3 1  1  0 3 1  0
+    0 4 3  1  0 4 3  0
+    5 6 7  1  0 2 1  0
+    5 7 8  1  0 1 3  0
+    5 8 9  1  0 3 4  0
+  tverts 5
+    0.447266 0.5 0
+    0.000499725 0.808708 0
+    0.617916 0.9995 0
+    0.000499606 0.191292 0
+    0.617916 0.000499636 0
+endnode
+node trimesh Geom737
+  parent PLC_DD24
+  position -0.631257 0.158294 0.15
+  orientation 0 0 0 0
+  wirecolor 0.0351563 0.0351563 0.0351563
+  ambient 0 0 0
+  diffuse 1 1 1
+  specular 0.05 0.05 0.05
+  shininess 26
+  bitmap TTF01_detail0
+  verts 6
+    0.26 -0.08 0.97
+    0.28 -0.06 0.97
+    0.61 -0.18 2.51
+    0.59 -0.19 2.51
+    0.26 -0.06 0.98
+    0.59 -0.17 2.51
+  faces 6
+    0 1 2  1  0 1 2  0
+    2 3 0  1  2 3 0  0
+    1 4 5  1  1 4 5  0
+    5 2 1  1  5 2 1  0
+    4 0 3  1  4 6 7  0
+    3 5 4  1  7 5 4  0
+  tverts 8
+    1.01918 0.019343 0
+    1.03694 0.0065124 0
+    -0.439659 0.00651234 0
+    -0.457421 0.0193429 0
+    1.01918 0.0188404 0
+    -0.457421 0.0188403 0
+    1.03694 0.0108407 0
+    -0.439659 0.0108406 0
+endnode
+node trimesh Geom738
+  parent PLC_DD24
+  position 0.828743 -0.151706 0.1
+  orientation 0 0 0 0
+  wirecolor 0.527344 0.527344 0.527344
+  ambient 0 0 0
+  diffuse 1 1 1
+  specular 0.05 0.05 0.05
+  shininess 26
+  bitmap TTF01_log01
+  verts 15
+    0 -0.14 0.01
+    -0.72 -0.04 0.11
+    -0.72 -0.12 0.01
+    0 -0.05 0.14
+    -0.72 0.09 0.07
+    0 0.11 0.09
+    -0.72 0.09 -0.06
+    0 0.11 -0.08
+    -0.72 -0.04 -0.1
+    0 -0.05 -0.13
+    -1.44 -0.05 0.14
+    -1.44 -0.14 0.01
+    -1.44 0.11 0.09
+    -1.44 0.11 -0.08
+    -1.44 -0.05 -0.13
+  faces 20
+    0 1 2  1  0 1 2  0
+    0 3 1  1  0 3 1  0
+    3 4 1  1  4 5 6  0
+    3 5 4  1  4 7 5  0
+    5 6 4  1  7 8 5  0
+    5 7 6  1  7 9 8  0
+    7 8 6  1  9 10 8  0
+    7 9 8  1  9 11 10  0
+    9 2 8  1  11 2 10  0
+    9 0 2  1  11 0 2  0
+    2 10 11  1  2 12 13  0
+    2 1 10  1  2 1 12  0
+    1 12 10  1  6 14 15  0
+    1 4 12  1  6 5 14  0
+    4 13 12  1  5 16 14  0
+    4 6 13  1  5 8 16  0
+    6 14 13  1  8 17 16  0
+    6 8 14  1  8 10 17  0
+    8 11 14  1  10 13 17  0
+    8 2 11  1  10 2 13  0
+  tverts 18
+    0.75 0.000499547 0
+    0.966519 0.5 0
+    0.75 0.5 0
+    0.966519 0.000499547 0
+    -0.0334809 0.000499547 0
+    0.1546 0.5 0
+    -0.0334809 0.5 0
+    0.1546 0.000499547 0
+    0.3454 0.5 0
+    0.3454 0.000499547 0
+    0.533481 0.5 0
+    0.533481 0.000499547 0
+    0.966519 0.9995 0
+    0.75 0.9995 0
+    0.1546 0.9995 0
+    -0.0334809 0.9995 0
+    0.3454 0.9995 0
+    0.533481 0.9995 0
+endnode
+node trimesh Geom739
+  parent PLC_DD24
+  position 0.638743 0.208294 0.15
+  orientation 0 0 0 0
+  wirecolor 0.722656 0.722656 0.722656
+  ambient 0 0 0
+  diffuse 1 1 1
+  specular 0.05 0.05 0.05
+  shininess 26
+  bitmap TTF01_detail0
+  verts 6
+    -0.31 -0.09 0.97
+    -0.32 -0.11 0.97
+    -0.64 -0.21 2.51
+    -0.64 -0.19 2.51
+    -0.29 -0.1 0.97
+    -0.62 -0.2 2.51
+  faces 6
+    0 1 2  1  0 1 2  0
+    2 3 0  1  2 3 0  0
+    1 4 5  1  1 4 5  0
+    5 2 1  1  5 2 1  0
+    4 0 3  1  4 6 7  0
+    3 5 4  1  7 5 4  0
+  tverts 8
+    1.01918 0.019343 0
+    1.03694 0.0065124 0
+    -0.439659 0.00651234 0
+    -0.457421 0.0193429 0
+    1.01918 0.0188404 0
+    -0.457421 0.0188403 0
+    1.03694 0.0108407 0
+    -0.439659 0.0108406 0
+endnode
+node trimesh Geom735
+  parent PLC_DD24
+  position -0.431257 -0.011706 0.05
+  orientation 0 0 0 0
+  wirecolor 0.777344 0.777344 0.777344
+  ambient 0 0 0
+  diffuse 1 1 1
+  specular 0.05 0.05 0.05
+  shininess 26
+  bitmap TTF01_log01
+  verts 15
+    0.09 0.1 0.01
+    0.68 0.15 0.09
+    0.67 0.21 0.01
+    0.11 0.02 0.1
+    0.7 0.06 0.05
+    0.13 -0.08 0.06
+    0.7 0.07 -0.04
+    0.13 -0.08 -0.06
+    0.68 0.16 -0.07
+    0.11 0.03 -0.09
+    1.04 0.24 0.11
+    1.02 0.31 0.02
+    1.06 0.13 0.06
+    1.06 0.14 -0.05
+    1.04 0.25 -0.08
+  faces 20
+    0 1 2  1  0 1 2  0
+    0 3 1  1  0 3 1  0
+    3 4 1  1  4 5 6  0
+    3 5 4  1  4 7 5  0
+    5 6 4  1  7 8 5  0
+    5 7 6  1  7 9 8  0
+    7 8 6  1  9 10 8  0
+    7 9 8  1  9 11 10  0
+    9 2 8  1  11 2 10  0
+    9 0 2  1  11 0 2  0
+    2 10 11  1  2 12 13  0
+    2 1 10  1  2 1 12  0
+    1 12 10  1  6 14 15  0
+    1 4 12  1  6 5 14  0
+    4 13 12  1  5 16 14  0
+    4 6 13  1  5 8 16  0
+    6 14 13  1  8 17 16  0
+    6 8 14  1  8 10 17  0
+    8 11 14  1  10 13 17  0
+    8 2 11  1  10 2 13  0
+  tverts 18
+    0.75 0.000499547 0
+    0.966519 0.5 0
+    0.75 0.5 0
+    0.966519 0.000499547 0
+    -0.0334809 0.000499547 0
+    0.1546 0.5 0
+    -0.0334809 0.5 0
+    0.1546 0.000499547 0
+    0.3454 0.5 0
+    0.3454 0.000499547 0
+    0.533481 0.5 0
+    0.533481 0.000499547 0
+    0.966519 0.9995 0
+    0.75 0.9995 0
+    0.1546 0.9995 0
+    -0.0334809 0.9995 0
+    0.3454 0.9995 0
+    0.533481 0.9995 0
+endnode
+node trimesh Geom736
+  parent PLC_DD24
+  position 0.828743 -0.151706 0.1
+  orientation 0 0 0 0
+  wirecolor 0.550781 0.550781 0.550781
+  ambient 0 0 0
+  diffuse 1 1 1
+  specular 0.05 0.05 0.05
+  shininess 26
+  bitmap TTF01_logend
+  verts 10
+    0 -0.14 0.01
+    0 0.11 0.09
+    0 -0.05 0.14
+    0 0.11 -0.08
+    0 -0.05 -0.13
+    -1.44 -0.14 0.01
+    -1.44 -0.05 0.14
+    -1.44 0.11 0.09
+    -1.44 0.11 -0.08
+    -1.44 -0.05 -0.13
+  faces 6
+    0 1 2  1  0 1 2  0
+    0 3 1  1  0 3 1  0
+    0 4 3  1  0 4 3  0
+    5 6 7  1  0 2 1  0
+    5 7 8  1  0 1 3  0
+    5 8 9  1  0 3 4  0
+  tverts 5
+    0.447266 0.5 0
+    0.000499725 0.808708 0
+    0.617916 0.9995 0
+    0.000499606 0.191292 0
+    0.617916 0.000499636 0
+endnode
+node trimesh Geom747
+  parent PLC_DD24
+  position -0.0212563 -0.0817059 0.77
+  orientation 0 0 0 0
+  wirecolor 0.550781 0.550781 0.550781
+  ambient 0 0 0
+  diffuse 1 1 1
+  specular 0.05 0.05 0.05
+  shininess 26
+  bitmap TTF01_metal00
+  verts 47
+    0.01 0 -0.33
+    0.01 -0.26 -0.24
+    -0.16 -0.2 -0.24
+    -0.24 -0.05 -0.24
+    -0.21 0.13 -0.24
+    -0.08 0.24 -0.24
+    0.1 0.24 -0.24
+    0.23 0.13 -0.24
+    0.26 -0.05 -0.24
+    0.18 -0.2 -0.24
+    0.01 -0.4 0
+    -0.24 -0.3 0
+    -0.38 -0.07 0
+    -0.33 0.2 0
+    -0.13 0.37 0
+    0.14 0.37 0
+    0.35 0.2 0
+    0.4 -0.07 0
+    0.26 -0.3 0
+    0.01 -0.32 0.23
+    -0.2 -0.25 0.23
+    -0.3 -0.06 0.23
+    -0.27 0.16 0.23
+    -0.1 0.3 0.23
+    0.12 0.3 0.23
+    0.29 0.16 0.23
+    0.32 -0.06 0.23
+    0.21 -0.25 0.23
+    0.01 -0.43 0.36
+    -0.26 -0.33 0.36
+    -0.41 -0.08 0.36
+    -0.36 0.21 0.36
+    -0.14 0.4 0.36
+    0.15 0.4 0.36
+    0.38 0.21 0.36
+    0.43 -0.08 0.36
+    0.28 -0.33 0.36
+    0.01 -0.35 0.36
+    -0.21 -0.27 0.36
+    -0.33 -0.06 0.36
+    -0.29 0.17 0.36
+    -0.11 0.33 0.36
+    0.13 0.33 0.36
+    0.31 0.17 0.36
+    0.35 -0.06 0.36
+    0.23 -0.27 0.36
+    0.01 0 0.07
+  faces 90
+    0 1 2  1  0 1 2  0
+    0 2 3  1  0 3 4  0
+    0 3 4  1  5 6 7  0
+    0 4 5  1  5 7 8  0
+    0 5 6  1  5 8 9  0
+    0 6 7  1  5 10 11  0
+    0 7 8  1  5 11 12  0
+    0 8 9  1  5 13 14  0
+    0 9 1  1  5 14 15  0
+    1 10 11  1  1 16 17  0
+    1 11 2  1  1 17 2  0
+    2 11 12  1  3 18 19  0
+    2 12 3  1  3 19 4  0
+    3 12 13  1  6 20 21  0
+    3 13 4  1  6 21 7  0
+    4 13 14  1  7 21 22  0
+    4 14 5  1  7 22 8  0
+    5 14 15  1  8 22 23  0
+    5 15 6  1  8 23 9  0
+    6 15 16  1  10 24 25  0
+    6 16 7  1  10 25 11  0
+    7 16 17  1  11 25 26  0
+    7 17 8  1  11 26 12  0
+    8 17 18  1  13 27 28  0
+    8 18 9  1  13 28 14  0
+    9 18 10  1  14 28 29  0
+    9 10 1  1  14 29 15  0
+    19 20 11  1  30 31 17  0
+    11 10 19  1  17 16 30  0
+    20 21 12  1  32 33 19  0
+    12 11 20  1  19 18 32  0
+    21 22 13  1  34 35 21  0
+    13 12 21  1  21 20 34  0
+    22 23 14  1  35 36 22  0
+    14 13 22  1  22 21 35  0
+    23 24 15  1  36 37 23  0
+    15 14 23  1  23 22 36  0
+    24 25 16  1  38 39 25  0
+    16 15 24  1  25 24 38  0
+    25 26 17  1  39 40 26  0
+    17 16 25  1  26 25 39  0
+    26 27 18  1  41 42 28  0
+    18 17 26  1  28 27 41  0
+    27 19 10  1  42 43 29  0
+    10 18 27  1  29 28 42  0
+    28 29 20  1  44 45 31  0
+    20 19 28  1  31 30 44  0
+    29 30 21  1  46 47 33  0
+    21 20 29  1  33 32 46  0
+    30 31 22  1  48 49 35  0
+    22 21 30  1  35 34 48  0
+    31 32 23  1  49 50 36  0
+    23 22 31  1  36 35 49  0
+    32 33 24  1  50 51 37  0
+    24 23 32  1  37 36 50  0
+    33 34 25  1  52 53 39  0
+    25 24 33  1  39 38 52  0
+    34 35 26  1  53 54 40  0
+    26 25 34  1  40 39 53  0
+    35 36 27  1  55 56 42  0
+    27 26 35  1  42 41 55  0
+    36 28 19  1  56 57 43  0
+    19 27 36  1  43 42 56  0
+    37 38 29  1  58 59 60  0
+    29 28 37  1  60 61 58  0
+    38 39 30  1  59 62 63  0
+    30 29 38  1  63 60 59  0
+    39 40 31  1  62 64 65  0
+    31 30 39  1  65 63 62  0
+    40 41 32  1  64 66 67  0
+    32 31 40  1  67 65 64  0
+    41 42 33  1  66 68 69  0
+    33 32 41  1  69 67 66  0
+    42 43 34  1  68 70 71  0
+    34 33 42  1  71 69 68  0
+    43 44 35  1  70 72 73  0
+    35 34 43  1  73 71 70  0
+    44 45 36  1  72 74 75  0
+    36 35 44  1  75 73 72  0
+    45 37 28  1  74 58 61  0
+    28 36 45  1  61 75 74  0
+    38 37 46  1  59 58 76  0
+    39 38 46  1  62 59 76  0
+    40 39 46  1  64 62 76  0
+    41 40 46  1  66 64 76  0
+    42 41 46  1  68 66 76  0
+    43 42 46  1  70 68 76  0
+    44 43 46  1  72 70 76  0
+    45 44 46  1  74 72 76  0
+    37 45 46  1  58 74 76  0
+  tverts 77
+    1.20013 0.999501 0
+    -0.00986792 0.863638 0
+    0.274734 0.863638 0
+    0.041855 0.863638 0
+    0.314746 0.863638 0
+    1.20013 -0.0866403 0
+    0.557494 0.0492221 0
+    0.820166 0.0492221 0
+    1.07998 0.0492221 0
+    1.34002 0.0492221 0
+    0.961102 0.0492221 0
+    1.22091 0.0492221 0
+    1.48358 0.0492221 0
+    1.86251 0.0492221 0
+    2.1354 0.0492221 0
+    2.42 0.0492221 0
+    -0.00986792 0.519622 0
+    0.270177 0.519622 0
+    0.0372974 0.519622 0
+    0.308217 0.519622 0
+    0.550964 0.393238 0
+    0.814685 0.393238 0
+    1.07784 0.393238 0
+    1.34216 0.393238 0
+    0.963234 0.393238 0
+    1.22639 0.393238 0
+    1.49011 0.393238 0
+    1.86904 0.393238 0
+    2.13996 0.393238 0
+    2.42 0.393238 0
+    -0.00986792 0.182644 0
+    0.272218 0.182644 0
+    0.0393382 0.182644 0
+    0.311158 0.182644 0
+    0.553905 0.730216 0
+    0.817169 0.730216 0
+    1.07881 0.730216 0
+    1.34119 0.730216 0
+    0.962264 0.730216 0
+    1.22391 0.730216 0
+    1.48717 0.730216 0
+    1.86609 0.730216 0
+    2.13791 0.730216 0
+    2.42 0.730216 0
+    -0.00986792 0.000499487 0
+    0.269586 0.000499487 0
+    0.0367066 0.000499487 0
+    0.30736 0.000499487 0
+    0.550107 0.912361 0
+    0.813957 0.912361 0
+    1.07756 0.912361 0
+    1.34244 0.912361 0
+    0.96352 0.912361 0
+    1.22712 0.912361 0
+    1.49097 0.912361 0
+    1.86989 0.912361 0
+    2.14055 0.912361 0
+    2.42 0.912361 0
+    0.746694 0.843441 0
+    0.649426 0.807492 0
+    0.628027 0.833387 0
+    0.746694 0.877245 0
+    0.597671 0.716466 0
+    0.564886 0.722336 0
+    0.615645 0.612956 0
+    0.586815 0.596053 0
+    0.694939 0.545394 0
+    0.683553 0.513628 0
+    0.79845 0.545394 0
+    0.809836 0.513628 0
+    0.877743 0.612956 0
+    0.906574 0.596053 0
+    0.895718 0.716466 0
+    0.928503 0.722336 0
+    0.843962 0.807492 0
+    0.865361 0.833387 0
+    0.746694 0.689784 0
+endnode
+node trimesh Mesh107
+  parent PLC_DD24
+  position 0.239584 -0.0096908 0.08652
+  orientation -0.777714 0.4445 0.4445 -1.81959
+  wirecolor 0.582031 0.582031 0.582031
+  ambient 0 0 0
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap PLC_CrpsBksRp
+  verts 12
+    0.00899118 0.0527348 -0.0726974
+    0.045924 -0.0112347 -0.0726974
+    -0.0648744 -0.0752042 -0.0726974
+    -0.0648745 0.0527348 -0.0726974
+    -0.101807 -0.0112347 -0.0726974
+    0.00899119 -0.0752042 -0.0726974
+    0.045924 -0.0112347 0.653103
+    0.00899122 0.0527348 0.653103
+    0.00899123 -0.0752042 0.653103
+    -0.0648744 0.0527348 0.653103
+    -0.101807 -0.0112347 0.653103
+    -0.0648744 -0.0752042 0.653103
+  faces 8
+    0 1 2  1  0 1 2  0
+    3 0 2  1  3 0 2  0
+    4 3 2  1  4 3 2  0
+    1 5 2  1  1 5 2  0
+    6 7 8  1  1 0 6  0
+    7 9 8  1  0 3 6  0
+    9 10 8  1  3 4 6  0
+    10 11 8  1  4 2 6  0
+  tverts 7
+    0.578222 0.110027 0
+    0.605458 0.0555555 0
+    0.517233 0.00108441 0
+    0.517233 0.110027 0
+    0.489997 0.0555556 0
+    0.578222 0.00108441 0
+    0.578222 0.00108438 0
+endnode
+node trimesh Geom745
+  parent PLC_DD24
+  position -0.851257 -0.501706 0
+  orientation 0 0 0 0
+  wirecolor 0.226563 0.226563 0.226563
+  ambient 0 0 0
+  diffuse 1 1 1
+  specular 0.05 0.05 0.05
+  shininess 26
+  bitmap TTF01_plank02
+  verts 6
+    0.92 0.57 3.04
+    0.92 0.5 3.05
+    0.97 0.53 3.03
+    -0.02 0.03 0
+    -0.02 -0.04 0.01
+    0.04 -0.00999993 -0.01
+  faces 7
+    0 1 2  1  0 1 2  0
+    3 4 1  1  3 4 5  0
+    1 0 3  1  5 6 3  0
+    4 5 2  1  4 7 8  0
+    2 1 4  1  8 5 4  0
+    5 3 0  1  7 9 10  0
+    0 2 5  1  10 8 7  0
+  tverts 11
+    0.54651 0.583565 0
+    0.547325 0.551211 0
+    0.574121 0.566682 0
+    1.56214 0.112406 0
+    1.56214 0.179365 0
+    -0.0723424 0.179365 0
+    -0.0723424 0.112406 0
+    1.56214 0.112258 0
+    -0.0723424 0.112258 0
+    1.56214 0.179217 0
+    -0.0723424 0.179217 0
+endnode
+node trimesh Geom746
+  parent PLC_DD24
+  position 0.808743 -0.451706 0
+  orientation 0 0 0 0
+  wirecolor 0.445313 0.445313 0.445313
+  ambient 0 0 0
+  diffuse 1 1 1
+  specular 0.05 0.05 0.05
+  shininess 26
+  bitmap TTF01_plank02
+  verts 6
+    -0.99 0.52 3.16
+    -0.93 0.56 3.17
+    -0.98 0.59 3.15
+    -0.02 -0.04 0
+    0.04 0 0.01
+    -0.02 0.03 -0.01
+  faces 7
+    0 1 2  1  0 1 2  0
+    3 4 1  1  3 4 5  0
+    1 0 3  1  5 6 3  0
+    4 5 2  1  4 7 8  0
+    2 1 4  1  8 5 4  0
+    5 3 0  1  7 9 10  0
+    0 2 5  1  10 8 7  0
+  tverts 11
+    0.425865 0.586645 0
+    0.453476 0.603528 0
+    0.42668 0.618999 0
+    1.03694 0.108715 0
+    1.03694 0.187672 0
+    -0.439659 0.187672 0
+    -0.439659 0.108715 0
+    1.03694 0.108212 0
+    -0.439659 0.108212 0
+    1.03694 0.192 0
+    -0.439659 0.192 0
+endnode
+node trimesh Object527
+  parent PLC_DD24
+  position -0.0212563 -0.0817059 0.77
+  orientation 0 0 0 0
+  wirecolor 0.835938 0.835938 0.835938
+  ambient 0 0 0
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap TTF01_GRAD_R
+  render 1
+  Shadow 1
+  beaming 0
+  transparencyhint 1
+  tilefade 0
+  rotatetexture 0
+  verts 10
+    -0.21 -0.27 0.37
+    0.01 -0.35 0.37
+    0.01 0 0.08
+    -0.33 -0.06 0.37
+    -0.29 0.17 0.37
+    -0.11 0.33 0.37
+    0.13 0.33 0.37
+    0.31 0.17 0.37
+    0.35 -0.06 0.37
+    0.23 -0.27 0.37
+  faces 9
+    0 1 2  1  0 1 2  0
+    3 0 2  1  3 0 2  0
+    4 3 2  1  4 3 2  0
+    5 4 2  1  5 4 2  0
+    6 5 2  1  6 5 2  0
+    7 6 2  1  7 6 2  0
+    8 7 2  1  8 7 2  0
+    9 8 2  1  9 8 2  0
+    1 9 2  1  1 9 2  0
+  tverts 10
+    0.0219892 0.973305 0
+    0.0219892 0.899633 0
+    0.97474 0.924122 0
+    0.0219892 0.955624 0
+    0.0219892 0.905527 0
+    0.0219892 0.943836 0
+    0.0219892 0.917594 0
+    0.0219892 0.92098 0
+    0.0219892 0.937909 0
+    0.0219892 0.930096 0
+endnode
+node trimesh Geom748
+  parent PLC_DD24
+  position 0.00874384 -0.671706 0.15
+  orientation 0 0 0 0
+  wirecolor 0.601563 0.601563 0.601563
+  ambient 0 0 0
+  diffuse 1 1 1
+  specular 0.05 0.05 0.05
+  shininess 26
+  bitmap TTF01_detail0
+  verts 6
+    0.02 0.25 0.95
+    0 0.26 0.94
+    -0.03 0.68 2.51
+    -0.01 0.67 2.51
+    0 0.24 0.95
+    -0.03 0.66 2.51
+  faces 6
+    0 1 2  1  0 1 2  0
+    2 3 0  1  2 3 0  0
+    1 4 5  1  1 4 5  0
+    5 2 1  1  5 2 1  0
+    4 0 3  1  4 6 7  0
+    3 5 4  1  7 5 4  0
+  tverts 8
+    1.01918 0.019343 0
+    1.03694 0.0065124 0
+    -0.439659 0.00651234 0
+    -0.457421 0.0193429 0
+    1.01918 0.0188404 0
+    -0.457421 0.0188403 0
+    1.03694 0.0108407 0
+    -0.439659 0.0108406 0
+endnode
+node trimesh Geom751
+  parent PLC_DD24
+  position 0.238743 0.518294 0.13
+  orientation 0 0 0 0
+  wirecolor 0.601563 0.601563 0.601563
+  ambient 0 0 0
+  diffuse 1 1 1
+  specular 0.05 0.05 0.05
+  shininess 26
+  bitmap TTF01_logend
+  verts 10
+    0.15 0.06 -0.01
+    -0.1 0.13 0.05
+    0.05 0.12 0.11
+    -0.1 0.09 -0.1
+    0.05 0.04 -0.14
+    -0.09 -1.18 0.37
+    -0.19 -1.13 0.49
+    -0.34 -1.11 0.43
+    -0.34 -1.16 0.28
+    -0.19 -1.2 0.24
+  faces 6
+    0 1 2  1  0 1 2  0
+    0 3 1  1  0 3 1  0
+    0 4 3  1  0 4 3  0
+    5 6 7  1  0 2 1  0
+    5 7 8  1  0 1 3  0
+    5 8 9  1  0 3 4  0
+  tverts 5
+    0.447266 0.5 0
+    0.000499725 0.808708 0
+    0.617916 0.9995 0
+    0.000499606 0.191292 0
+    0.617916 0.000499636 0
+endnode
+node trimesh Geom743
+  parent PLC_DD24
+  position -0.041256 0.848294 0
+  orientation 0 0 0 0
+  wirecolor 0.882813 0.882813 0.882813
+  ambient 0 0 0
+  diffuse 1 1 1
+  specular 0.05 0.05 0.05
+  shininess 26
+  bitmap TTF01_plank02
+  verts 6
+    0.04 -1.16 3.24
+    -0.02 -1.13 3.26
+    -0.02 -1.19 3.23
+    0.04 -0.00999998 0
+    -0.02 0.02 0.01
+    -0.02 -0.04 -0.01
+  faces 7
+    0 1 2  1  0 1 2  0
+    3 4 1  1  3 4 5  0
+    1 0 3  1  5 6 3  0
+    4 5 2  1  4 7 8  0
+    2 1 4  1  8 5 4  0
+    5 3 0  1  7 9 10  0
+    0 2 5  1  10 8 7  0
+  tverts 11
+    0.514537 0.396471 0
+    0.48611 0.411942 0
+    0.48611 0.381 0
+    0.974103 0.118145 0
+    0.974103 0.189539 0
+    -0.465 0.189539 0
+    -0.465 0.118145 0
+    0.974103 0.119746 0
+    -0.465 0.119746 0
+    0.974103 0.186309 0
+    -0.465 0.186309 0
+endnode
+endmodelgeom PLC_DD24
+
+#MAXANIM ASCII
+newanim on PLC_DD24
+  length 0.0333333
+  transtime 0
+  animroot PLC_DD24
+node dummy PLC_DD24
+  parent NULL
+endnode
+node dummy I07_hand
+  parent PLC_DD24
+endnode
+node dummy I07_head
+  parent PLC_DD24
+endnode
+node dummy I07_head_hit
+  parent PLC_DD24
+endnode
+node dummy I07_impact
+  parent PLC_DD24
+endnode
+node dummy I07_ground
+  parent PLC_DD24
+endnode
+node emitter OmenEmitter251
+  parent PLC_DD24
+    birthratekey
+      0  6
+      0.0333333  3
+    endlist
+endnode
+node emitter fire!53
+  parent PLC_DD24
+    birthratekey
+      0  20
+      0.0333333  20
+    endlist
+endnode
+node emitter ChunkyWood90
+  parent PLC_DD24
+endnode
+node trimesh damage19
+  parent PLC_DD24
+    positionkey
+      0  0.01358 0.0236911 0
+    endlist
+    orientationkey
+      0  0 0 0 0
+    endlist
+endnode
+node trimesh Mesh125
+  parent damage19
+endnode
+node emitter fire!56
+  parent PLC_DD24
+endnode
+node emitter ChunkyWood91
+  parent PLC_DD24
+endnode
+node trimesh Geom740
+  parent PLC_DD24
+endnode
+node trimesh Geom734
+  parent PLC_DD24
+endnode
+node trimesh Geom737
+  parent PLC_DD24
+endnode
+node trimesh Geom738
+  parent PLC_DD24
+endnode
+node trimesh Geom739
+  parent PLC_DD24
+endnode
+node trimesh Geom735
+  parent PLC_DD24
+endnode
+node trimesh Geom736
+  parent PLC_DD24
+endnode
+node trimesh Geom747
+  parent PLC_DD24
+endnode
+node trimesh Mesh107
+  parent PLC_DD24
+endnode
+node trimesh Geom745
+  parent PLC_DD24
+endnode
+node trimesh Geom746
+  parent PLC_DD24
+endnode
+node trimesh Object527
+  parent PLC_DD24
+endnode
+node trimesh Geom748
+  parent PLC_DD24
+endnode
+node trimesh Geom751
+  parent PLC_DD24
+endnode
+node trimesh Geom743
+  parent PLC_DD24
+endnode
+doneanim on PLC_DD24
+
+#MAXANIM ASCII
+newanim on2off PLC_DD24
+  length 0.0333333
+  transtime 0
+  animroot PLC_DD24
+node dummy PLC_DD24
+  parent NULL
+endnode
+node dummy I07_hand
+  parent PLC_DD24
+endnode
+node dummy I07_head
+  parent PLC_DD24
+endnode
+node dummy I07_head_hit
+  parent PLC_DD24
+endnode
+node dummy I07_impact
+  parent PLC_DD24
+endnode
+node dummy I07_ground
+  parent PLC_DD24
+endnode
+node emitter OmenEmitter251
+  parent PLC_DD24
+    birthratekey
+      0  3
+      0.0333333  -4
+    endlist
+endnode
+node emitter fire!53
+  parent PLC_DD24
+    birthratekey
+      0  20
+      0.0333333  0
+    endlist
+endnode
+node emitter ChunkyWood90
+  parent PLC_DD24
+endnode
+node trimesh damage19
+  parent PLC_DD24
+endnode
+node trimesh Mesh125
+  parent damage19
+endnode
+node emitter fire!56
+  parent PLC_DD24
+endnode
+node emitter ChunkyWood91
+  parent PLC_DD24
+endnode
+node trimesh Geom740
+  parent PLC_DD24
+endnode
+node trimesh Geom734
+  parent PLC_DD24
+endnode
+node trimesh Geom737
+  parent PLC_DD24
+endnode
+node trimesh Geom738
+  parent PLC_DD24
+endnode
+node trimesh Geom739
+  parent PLC_DD24
+endnode
+node trimesh Geom735
+  parent PLC_DD24
+endnode
+node trimesh Geom736
+  parent PLC_DD24
+endnode
+node trimesh Geom747
+  parent PLC_DD24
+endnode
+node trimesh Mesh107
+  parent PLC_DD24
+endnode
+node trimesh Geom745
+  parent PLC_DD24
+endnode
+node trimesh Geom746
+  parent PLC_DD24
+endnode
+node trimesh Object527
+  parent PLC_DD24
+endnode
+node trimesh Geom748
+  parent PLC_DD24
+endnode
+node trimesh Geom751
+  parent PLC_DD24
+endnode
+node trimesh Geom743
+  parent PLC_DD24
+endnode
+doneanim on2off PLC_DD24
+
+#MAXANIM ASCII
+newanim off2on PLC_DD24
+  length 0.0333333
+  transtime 0
+  animroot PLC_DD24
+node dummy PLC_DD24
+  parent NULL
+endnode
+node dummy I07_hand
+  parent PLC_DD24
+endnode
+node dummy I07_head
+  parent PLC_DD24
+endnode
+node dummy I07_head_hit
+  parent PLC_DD24
+endnode
+node dummy I07_impact
+  parent PLC_DD24
+endnode
+node dummy I07_ground
+  parent PLC_DD24
+endnode
+node emitter OmenEmitter251
+  parent PLC_DD24
+    birthratekey
+      0  -4
+      0.0333333  6
+    endlist
+endnode
+node emitter fire!53
+  parent PLC_DD24
+    birthratekey
+      0  0
+      0.0333333  20
+    endlist
+endnode
+node emitter ChunkyWood90
+  parent PLC_DD24
+endnode
+node trimesh damage19
+  parent PLC_DD24
+    positionkey
+      0.0333333  0.01358 0.0236911 0
+    endlist
+    orientationkey
+      0.0333333  0 0 0 0
+    endlist
+endnode
+node trimesh Mesh125
+  parent damage19
+endnode
+node emitter fire!56
+  parent PLC_DD24
+endnode
+node emitter ChunkyWood91
+  parent PLC_DD24
+endnode
+node trimesh Geom740
+  parent PLC_DD24
+endnode
+node trimesh Geom734
+  parent PLC_DD24
+endnode
+node trimesh Geom737
+  parent PLC_DD24
+endnode
+node trimesh Geom738
+  parent PLC_DD24
+endnode
+node trimesh Geom739
+  parent PLC_DD24
+endnode
+node trimesh Geom735
+  parent PLC_DD24
+endnode
+node trimesh Geom736
+  parent PLC_DD24
+endnode
+node trimesh Geom747
+  parent PLC_DD24
+endnode
+node trimesh Mesh107
+  parent PLC_DD24
+endnode
+node trimesh Geom745
+  parent PLC_DD24
+endnode
+node trimesh Geom746
+  parent PLC_DD24
+endnode
+node trimesh Object527
+  parent PLC_DD24
+endnode
+node trimesh Geom748
+  parent PLC_DD24
+endnode
+node trimesh Geom751
+  parent PLC_DD24
+endnode
+node trimesh Geom743
+  parent PLC_DD24
+endnode
+doneanim off2on PLC_DD24
+
+#MAXANIM ASCII
+newanim off PLC_DD24
+  length 0.0333333
+  transtime 0
+  animroot PLC_DD24
+node dummy PLC_DD24
+  parent NULL
+endnode
+node dummy I07_hand
+  parent PLC_DD24
+endnode
+node dummy I07_head
+  parent PLC_DD24
+endnode
+node dummy I07_head_hit
+  parent PLC_DD24
+endnode
+node dummy I07_impact
+  parent PLC_DD24
+endnode
+node dummy I07_ground
+  parent PLC_DD24
+endnode
+node emitter OmenEmitter251
+  parent PLC_DD24
+    birthratekey
+      0  -4
+      0.0333333  -4
+    endlist
+endnode
+node emitter fire!53
+  parent PLC_DD24
+    birthratekey
+      0  0
+      0.0333333  0
+    endlist
+endnode
+node emitter ChunkyWood90
+  parent PLC_DD24
+endnode
+node trimesh damage19
+  parent PLC_DD24
+endnode
+node trimesh Mesh125
+  parent damage19
+endnode
+node emitter fire!56
+  parent PLC_DD24
+endnode
+node emitter ChunkyWood91
+  parent PLC_DD24
+endnode
+node trimesh Geom740
+  parent PLC_DD24
+endnode
+node trimesh Geom734
+  parent PLC_DD24
+endnode
+node trimesh Geom737
+  parent PLC_DD24
+endnode
+node trimesh Geom738
+  parent PLC_DD24
+endnode
+node trimesh Geom739
+  parent PLC_DD24
+endnode
+node trimesh Geom735
+  parent PLC_DD24
+endnode
+node trimesh Geom736
+  parent PLC_DD24
+endnode
+node trimesh Geom747
+  parent PLC_DD24
+endnode
+node trimesh Mesh107
+  parent PLC_DD24
+endnode
+node trimesh Geom745
+  parent PLC_DD24
+endnode
+node trimesh Geom746
+  parent PLC_DD24
+endnode
+node trimesh Object527
+  parent PLC_DD24
+endnode
+node trimesh Geom748
+  parent PLC_DD24
+endnode
+node trimesh Geom751
+  parent PLC_DD24
+endnode
+node trimesh Geom743
+  parent PLC_DD24
+endnode
+doneanim off PLC_DD24
+
+#MAXANIM ASCII
+newanim damage PLC_DD24
+  length 1.06667
+  transtime 0
+  animroot PLC_DD24
+node dummy PLC_DD24
+  parent NULL
+endnode
+node dummy I07_hand
+  parent PLC_DD24
+endnode
+node dummy I07_head
+  parent PLC_DD24
+endnode
+node dummy I07_head_hit
+  parent PLC_DD24
+endnode
+node dummy I07_impact
+  parent PLC_DD24
+endnode
+node dummy I07_ground
+  parent PLC_DD24
+endnode
+node emitter OmenEmitter251
+  parent PLC_DD24
+endnode
+node emitter fire!53
+  parent PLC_DD24
+endnode
+node emitter ChunkyWood90
+  parent PLC_DD24
+endnode
+node trimesh damage19
+  parent PLC_DD24
+    positionkey
+      0  0.01358 0.0236911 0
+      0.0333333  0.01358 0.0236911 0.0244581
+      0.133333  0.01358 0.0236911 0
+      1.06667  0.01358 0.0236911 0
+    endlist
+    orientationkey
+      0  0 0 0 0
+      0.0333333  -0.371336 0.928463 -0.00810258 0.0469942
+      0.1  0.599949 -0.79997 -0.0104721 0.0436326
+      0.133333  0 0 0 0
+      1.06667  0 0 0 0
+    endlist
+endnode
+node trimesh Mesh125
+  parent damage19
+endnode
+node emitter fire!56
+  parent PLC_DD24
+endnode
+node emitter ChunkyWood91
+  parent PLC_DD24
+endnode
+node trimesh Geom740
+  parent PLC_DD24
+endnode
+node trimesh Geom734
+  parent PLC_DD24
+endnode
+node trimesh Geom737
+  parent PLC_DD24
+endnode
+node trimesh Geom738
+  parent PLC_DD24
+endnode
+node trimesh Geom739
+  parent PLC_DD24
+endnode
+node trimesh Geom735
+  parent PLC_DD24
+endnode
+node trimesh Geom736
+  parent PLC_DD24
+endnode
+node trimesh Geom747
+  parent PLC_DD24
+endnode
+node trimesh Mesh107
+  parent PLC_DD24
+endnode
+node trimesh Geom745
+  parent PLC_DD24
+endnode
+node trimesh Geom746
+  parent PLC_DD24
+endnode
+node trimesh Object527
+  parent PLC_DD24
+endnode
+node trimesh Geom748
+  parent PLC_DD24
+endnode
+node trimesh Geom751
+  parent PLC_DD24
+endnode
+node trimesh Geom743
+  parent PLC_DD24
+endnode
+doneanim damage PLC_DD24
+
+#MAXANIM ASCII
+newanim die PLC_DD24
+  length 0.166667
+  transtime 0
+  animroot PLC_DD24
+node dummy PLC_DD24
+  parent NULL
+endnode
+node dummy I07_hand
+  parent PLC_DD24
+endnode
+node dummy I07_head
+  parent PLC_DD24
+endnode
+node dummy I07_head_hit
+  parent PLC_DD24
+endnode
+node dummy I07_impact
+  parent PLC_DD24
+endnode
+node dummy I07_ground
+  parent PLC_DD24
+endnode
+node emitter OmenEmitter251
+  parent PLC_DD24
+endnode
+node emitter fire!53
+  parent PLC_DD24
+endnode
+node emitter ChunkyWood90
+  parent PLC_DD24
+endnode
+node trimesh damage19
+  parent PLC_DD24
+    positionkey
+      0  0.01358 0.0236911 0
+      0.166667  0.01358 0.0236911 -3.77999
+    endlist
+    orientationkey
+      0  0 0 0 0
+    endlist
+endnode
+node trimesh Mesh125
+  parent damage19
+endnode
+node emitter fire!56
+  parent PLC_DD24
+endnode
+node emitter ChunkyWood91
+  parent PLC_DD24
+endnode
+node trimesh Geom740
+  parent PLC_DD24
+endnode
+node trimesh Geom734
+  parent PLC_DD24
+endnode
+node trimesh Geom737
+  parent PLC_DD24
+endnode
+node trimesh Geom738
+  parent PLC_DD24
+endnode
+node trimesh Geom739
+  parent PLC_DD24
+endnode
+node trimesh Geom735
+  parent PLC_DD24
+endnode
+node trimesh Geom736
+  parent PLC_DD24
+endnode
+node trimesh Geom747
+  parent PLC_DD24
+endnode
+node trimesh Mesh107
+  parent PLC_DD24
+endnode
+node trimesh Geom745
+  parent PLC_DD24
+endnode
+node trimesh Geom746
+  parent PLC_DD24
+endnode
+node trimesh Object527
+  parent PLC_DD24
+endnode
+node trimesh Geom748
+  parent PLC_DD24
+endnode
+node trimesh Geom751
+  parent PLC_DD24
+endnode
+node trimesh Geom743
+  parent PLC_DD24
+endnode
+event 0  detonate
+event 0  detonate
+event 0  detonate
+doneanim die PLC_DD24
+
+#MAXANIM ASCII
+newanim dead PLC_DD24
+  length 0.0333333
+  transtime 0
+  animroot PLC_DD24
+node dummy PLC_DD24
+  parent NULL
+endnode
+node dummy I07_hand
+  parent PLC_DD24
+endnode
+node dummy I07_head
+  parent PLC_DD24
+endnode
+node dummy I07_head_hit
+  parent PLC_DD24
+endnode
+node dummy I07_impact
+  parent PLC_DD24
+endnode
+node dummy I07_ground
+  parent PLC_DD24
+endnode
+node emitter OmenEmitter251
+  parent PLC_DD24
+endnode
+node emitter fire!53
+  parent PLC_DD24
+endnode
+node emitter ChunkyWood90
+  parent PLC_DD24
+endnode
+node trimesh damage19
+  parent PLC_DD24
+    positionkey
+      0  0.01358 0.0236911 -3.77999
+      0.0333333  0.01358 0.0236911 -3.77999
+    endlist
+endnode
+node trimesh Mesh125
+  parent damage19
+endnode
+node emitter fire!56
+  parent PLC_DD24
+endnode
+node emitter ChunkyWood91
+  parent PLC_DD24
+endnode
+node trimesh Geom740
+  parent PLC_DD24
+endnode
+node trimesh Geom734
+  parent PLC_DD24
+endnode
+node trimesh Geom737
+  parent PLC_DD24
+endnode
+node trimesh Geom738
+  parent PLC_DD24
+endnode
+node trimesh Geom739
+  parent PLC_DD24
+endnode
+node trimesh Geom735
+  parent PLC_DD24
+endnode
+node trimesh Geom736
+  parent PLC_DD24
+endnode
+node trimesh Geom747
+  parent PLC_DD24
+endnode
+node trimesh Mesh107
+  parent PLC_DD24
+endnode
+node trimesh Geom745
+  parent PLC_DD24
+endnode
+node trimesh Geom746
+  parent PLC_DD24
+endnode
+node trimesh Object527
+  parent PLC_DD24
+endnode
+node trimesh Geom748
+  parent PLC_DD24
+endnode
+node trimesh Geom751
+  parent PLC_DD24
+endnode
+node trimesh Geom743
+  parent PLC_DD24
+endnode
+doneanim dead PLC_DD24
+
+#MAXANIM ASCII
+newanim default PLC_DD24
+  length 0
+  transtime 0.25
+  animroot PLC_DD24
+node dummy PLC_DD24
+  parent NULL
+endnode
+node dummy I07_hand
+  parent PLC_DD24
+endnode
+node dummy I07_head
+  parent PLC_DD24
+endnode
+node dummy I07_head_hit
+  parent PLC_DD24
+endnode
+node dummy I07_impact
+  parent PLC_DD24
+endnode
+node dummy I07_ground
+  parent PLC_DD24
+endnode
+node emitter OmenEmitter251
+  parent PLC_DD24
+endnode
+node emitter fire!53
+  parent PLC_DD24
+endnode
+node emitter ChunkyWood90
+  parent PLC_DD24
+endnode
+node trimesh damage19
+  parent PLC_DD24
+    positionkey
+      0  0.01358 0.0236911 0
+    endlist
+    orientationkey
+      0  0 0 0 0
+    endlist
+endnode
+node trimesh Mesh125
+  parent damage19
+endnode
+node emitter fire!56
+  parent PLC_DD24
+endnode
+node emitter ChunkyWood91
+  parent PLC_DD24
+endnode
+node trimesh Geom740
+  parent PLC_DD24
+endnode
+node trimesh Geom734
+  parent PLC_DD24
+endnode
+node trimesh Geom737
+  parent PLC_DD24
+endnode
+node trimesh Geom738
+  parent PLC_DD24
+endnode
+node trimesh Geom739
+  parent PLC_DD24
+endnode
+node trimesh Geom735
+  parent PLC_DD24
+endnode
+node trimesh Geom736
+  parent PLC_DD24
+endnode
+node trimesh Geom747
+  parent PLC_DD24
+endnode
+node trimesh Mesh107
+  parent PLC_DD24
+endnode
+node trimesh Geom745
+  parent PLC_DD24
+endnode
+node trimesh Geom746
+  parent PLC_DD24
+endnode
+node trimesh Object527
+  parent PLC_DD24
+endnode
+node trimesh Geom748
+  parent PLC_DD24
+endnode
+node trimesh Geom751
+  parent PLC_DD24
+endnode
+node trimesh Geom743
+  parent PLC_DD24
+endnode
+doneanim default PLC_DD24
+donemodel PLC_DD24

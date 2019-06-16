@@ -1,0 +1,85 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: PLC_U02
+filedependancy Unknown
+newmodel PLC_U02
+setsupermodel PLC_U02 NULL
+classification Tile
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom PLC_U02
+node dummy PLC_U02
+  parent NULL
+endnode
+node trimesh Rectangle13
+  parent PLC_U02
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 0.445313 0.445313 0.445313
+  ambient 0.2 0.2 0.2
+  diffuse 0.8 0.8 0.8
+  specular 0 0 0
+  shininess 1
+  bitmap NULL
+  render 0
+  Shadow 0
+  beaming 0
+  transparencyhint 0
+  tilefade 0
+  rotatetexture 0
+  verts 8
+    -0.3 -0.3 0.177
+    0.3 -0.3 0.177
+    0.3 0.3 0.177
+    -0.3 0.3 0.177
+    -0.3 -0.3 0
+    0.3 -0.3 0
+    0.3 0.3 0
+    -0.3 0.3 0
+  faces 10
+    0 1 2  1  0 0 0  0
+    3 0 2  1  0 0 0  0
+    4 5 1  1  0 0 0  0
+    1 0 4  1  0 0 0  0
+    5 6 2  1  0 0 0  0
+    2 1 5  1  0 0 0  0
+    7 4 0  1  0 0 0  0
+    0 3 7  1  0 0 0  0
+    6 7 3  1  0 0 0  0
+    3 2 6  1  0 0 0  0
+  tverts 1
+    0 0 0
+endnode
+node dummy U02_hand
+  parent PLC_U02
+  position 0.00398437 -0.505195 0.934402
+  orientation 0 0 0 0
+  wirecolor 0.0351563 0.0351563 0.0351563
+endnode
+node dummy U02_head
+  parent PLC_U02
+  position 0.00398437 0.0108252 1.21002
+  orientation 0 0 0 0
+  wirecolor 0.0351563 0.0351563 0.0351563
+endnode
+node dummy U02_head_hit
+  parent PLC_U02
+  position 0.00398437 0.0108252 0.533898
+  orientation 0 0 0 0
+  wirecolor 0.0351563 0.0351563 0.0351563
+endnode
+node dummy U02_impact
+  parent PLC_U02
+  position 0.00398437 0.011001 0.250216
+  orientation 0 0 0 0
+  wirecolor 0.570313 0.570313 0.570313
+endnode
+node dummy U02_ground
+  parent PLC_U02
+  position -0.00363281 0.0069873 0
+  orientation 0 0 0 0
+  wirecolor 0.570313 0.570313 0.570313
+endnode
+endmodelgeom PLC_U02
+donemodel PLC_U02

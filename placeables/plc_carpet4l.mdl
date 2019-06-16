@@ -1,0 +1,38 @@
+filedependancy Unknown
+newmodel plc_carpet4L
+setsupermodel plc_carpet4L NULL
+classification Character
+setanimationscale 1.0
+beginmodelgeom plc_carpet4L
+node dummy plc_carpet4L
+    parent NULL
+endnode
+node trimesh Groups02431
+    parent plc_carpet4L
+    position 0.000000 0.000000 0.030000
+    orientation 0.0 0.0 -1.0 -0.715585
+    scale 1.0
+    shininess 26.000000
+    render 1
+    diffuse 1.0 1.0 1.0
+    ambient 1.0 1.0 1.0
+    specular 0.0 0.0 0.0
+    selfillumcolor 0.0 0.0 0.0
+    alpha 1.0
+    bitmap tcn01_cloth01
+    verts 4
+        -3.560000 0.440000 0.000000
+        0.960000 -3.480000 0.000000
+        -0.940000 3.460000 0.000000
+        3.580000 -0.480000 0.000000
+    faces 2
+        0 1 2 1 0 1 2 1
+        3 2 1 1 3 2 1 1
+    tverts 4
+        0.0 1.0 0
+        0.0 0.0 0
+        1.0 1.0 0
+        1.0 0.0 0
+endnode
+endmodelgeom plc_carpet4L
+donemodel plc_carpet4L

@@ -1,0 +1,531 @@
+# Exported from blender at Sunday, 2016-05-15
+filedependancy plc_pcs00_a2.blend
+newmodel plc_pcs00_w3
+setsupermodel plc_pcs00_w3 null
+classification UNKNOWN
+setanimationscale 1.0
+beginmodelgeom plc_pcs00_w3
+node dummy plc_pcs00_w3
+  parent null
+endnode
+node dummy pw3_hand
+  parent plc_pcs00_w3
+  scale 1.0
+  position  0.62500  0.00000  1.35000
+  orientation  1.00000  0.00000  0.00000  0.00000
+  wirecolor 1.0 1.0 1.0
+endnode
+node dummy pw3_head
+  parent plc_pcs00_w3
+  scale 1.0
+  position  0.00000  0.00000  1.40000
+  orientation  1.00000  0.00000  0.00000  0.00000
+  wirecolor 1.0 1.0 1.0
+endnode
+node dummy pw3_head_hit
+  parent plc_pcs00_w3
+  scale 1.0
+  position  0.00000  0.00000  1.60000
+  orientation  1.00000  0.00000  0.00000  0.00000
+  wirecolor 1.0 1.0 1.0
+endnode
+node dummy pw3_impact
+  parent plc_pcs00_w3
+  scale 1.0
+  position  0.00000  0.00000  1.00000
+  orientation  1.00000  0.00000  0.00000  0.00000
+  wirecolor 1.0 1.0 1.0
+endnode
+node trimesh pcs00_w3_door
+  parent plc_pcs00_w3
+  position -0.81000  0.00000  0.00000
+  orientation  1.00000  0.00000  0.00000  0.00000
+  wirecolor 0.0 0.0 0.0
+  ambient 1.0 1.0 1.0
+  diffuse 1.0 1.0 1.0
+  specular 0.0 0.0 0.0
+  bitmap tni02_crate01
+  alpha 1.0
+  shininess 1
+  selfillumcolor 0.0 0.0 0.0
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  transparencyhint 0
+  verts 8
+     1.62957 -0.04000  1.50000
+     1.62956  0.04000  1.50000
+     0.00000  0.04000  1.50000
+     0.00000 -0.04000  1.50000
+     1.62957 -0.04000  0.02000
+     1.62956  0.04000  0.02000
+     0.00000  0.04000  0.02000
+     0.00000 -0.04000  0.02000
+  faces 10
+    3 0 2  1  0 1 2   0
+    3 2 7  1  3 4 5   0
+    2 1 6  1  4 6 0   0
+    7 0 3  1  0 6 4   0
+    1 0 5  1  4 3 0   0
+    2 0 1  1  2 1 7   0
+    2 6 7  1  4 0 5   0
+    1 5 6  1  6 1 0   0
+    4 0 7  1  1 6 0   0
+    0 4 5  1  3 5 0   0
+  tverts 8
+     0.040  0.970
+     0.040  0.531
+     0.068  0.970
+     0.439  0.944
+     0.439  0.970
+     0.040  0.944
+     0.439  0.531
+     0.068  0.531
+endnode
+node trimesh pcs00_w3_bars
+  parent pcs00_w3_door
+  position  0.00000  0.00000  1.10000
+  orientation  1.00000  0.00000  0.00000  0.00000
+  wirecolor 0.0 0.0 0.0
+  ambient 1.0 1.0 1.0
+  diffuse 1.0 1.0 1.0
+  specular 0.0 0.0 0.0
+  bitmap tni02_crate01
+  alpha 1.0
+  shininess 1
+  selfillumcolor 0.0 0.0 0.0
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  transparencyhint 0
+  verts 40
+     0.00000  0.04000  0.10000
+     0.00000  0.04000  0.00000
+     1.40000  0.04000  0.10000
+     1.40000  0.04000  0.00000
+     0.00000  0.08000  0.10000
+     0.00000  0.08000  0.00000
+     1.40000  0.08000  0.10000
+     1.40000  0.08000  0.00000
+     1.50000  0.04000  0.05000
+     1.50000  0.08000  0.05000
+     0.00000  0.04000 -0.70000
+     0.00000  0.04000 -0.80000
+     1.40000  0.04000 -0.70000
+     1.40000  0.04000 -0.80000
+     0.00000  0.08000 -0.70000
+     0.00000  0.08000 -0.80000
+     1.40000  0.08000 -0.70000
+     1.40000  0.08000 -0.80000
+     1.50000  0.04000 -0.75000
+     1.50000  0.08000 -0.75000
+     0.00000 -0.04000  0.10000
+     0.00000 -0.04000  0.00000
+     1.40000 -0.04000  0.10000
+     1.40000 -0.04000  0.00000
+     0.00000 -0.08000  0.10000
+     0.00000 -0.08000  0.00000
+     1.40000 -0.08000  0.10000
+     1.40000 -0.08000  0.00000
+     1.50000 -0.04000  0.05000
+     1.50000 -0.08000  0.05000
+     0.00000 -0.04000 -0.70000
+     0.00000 -0.04000 -0.80000
+     1.40000 -0.04000 -0.70000
+     1.40000 -0.04000 -0.80000
+     0.00000 -0.08000 -0.70000
+     0.00000 -0.08000 -0.80000
+     1.40000 -0.08000 -0.70000
+     1.40000 -0.08000 -0.80000
+     1.50000 -0.04000 -0.75000
+     1.50000 -0.08000 -0.75000
+  faces 52
+     6  9  7  1   0  1  2   0
+     3  1  7  1   3  4  5   0
+     8  3  9  1   6  7  8   0
+     0  2  4  1   3  4  5   0
+     1  0  5  1   9 10 11   0
+     2  8  6  1  12 13 14   0
+    16 19 17  1   0  1  2   0
+    13 11 17  1   3  4  5   0
+    18 13 19  1   6  7  8   0
+    10 12 14  1   3  4  5   0
+    11 10 15  1   9 10 11   0
+    12 18 16  1  12 13 14   0
+    26 27 29  1   0  2  1   0
+    23 27 21  1   3  5  4   0
+    28 29 23  1   6  8  7   0
+    20 24 22  1   3  5  4   0
+    21 25 20  1   9 11 10   0
+    22 26 28  1  12 14 13   0
+    36 37 39  1   0  2  1   0
+    33 37 31  1   3  5  4   0
+    38 39 33  1   6  8  7   0
+    30 34 32  1   3  5  4   0
+    31 35 30  1   9 11 10   0
+    32 36 38  1  12 14 13   0
+     4  6  5  1  11  0  5   0
+     6  7  5  1   0  2  5   0
+     1  5  7  1   4  2  5   0
+     3  7  9  1   7 13  8   0
+     2  6  4  1   4  2  5   0
+     0  4  5  1  10  5 11   0
+     8  9  6  1  13  7 14   0
+    14 16 15  1  11  0  5   0
+    16 17 15  1   0  2  5   0
+    11 15 17  1   4  2  5   0
+    13 17 19  1   7 13  8   0
+    12 16 14  1   4  2  5   0
+    10 14 15  1  10  5 11   0
+    18 19 16  1  13  7 14   0
+    24 25 26  1  11  5  0   0
+    25 27 26  1   5  2  0   0
+    27 25 21  1   5  2  4   0
+    29 27 23  1   8 13  7   0
+    24 26 22  1   5  2  4   0
+    25 24 20  1  11  5 10   0
+    26 29 28  1  14  7 13   0
+    34 35 36  1  11  5  0   0
+    35 37 36  1   5  2  0   0
+    37 35 31  1   5  2  4   0
+    39 37 33  1   8 13  7   0
+    34 36 32  1   5  2  4   0
+    35 34 30  1  11  5 10   0
+    36 39 38  1  14  7 13   0
+  tverts 15
+     0.542  0.491
+     0.510  0.475
+     0.542  0.459
+     0.997  0.476
+     0.542  0.476
+     0.997  0.459
+     0.543  0.380
+     0.543  0.415
+     0.526  0.380
+     0.980  0.491
+     0.980  0.459
+     0.997  0.491
+     0.526  0.451
+     0.526  0.415
+     0.543  0.451
+endnode
+node trimesh pcs00_w3_handle
+  parent pcs00_w3_door
+  position  1.46000  0.14170  1.35844
+  orientation  1.00000  0.00000  0.00000  0.00000
+  wirecolor 1.0 1.0 1.0
+  ambient 1.0 1.0 1.0
+  diffuse 1.0 1.0 1.0
+  specular 0.0 0.0 0.0
+  bitmap tni02_crate01
+  alpha 1.0
+  shininess 11
+  selfillumcolor 0.0 0.0 0.0
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  transparencyhint 0
+  verts 16
+     0.05000 -0.08000 -0.04000
+    -0.20000 -0.08000 -0.02000
+    -0.20000 -0.02000 -0.02000
+     0.05000 -0.02000 -0.04000
+     0.05000 -0.08000  0.04000
+     0.05000 -0.02000  0.04000
+    -0.20000 -0.02000  0.02000
+    -0.20000 -0.08000  0.02000
+     0.05000 -0.20340 -0.04000
+    -0.20000 -0.20340 -0.02000
+    -0.20000 -0.26340 -0.02000
+     0.05000 -0.26340 -0.04000
+     0.05000 -0.20340  0.04000
+     0.05000 -0.26340  0.04000
+    -0.20000 -0.26340  0.02000
+    -0.20000 -0.20340  0.02000
+  faces 24
+     7  6  1   1   0  1  2   0
+     3  0  2   2   3  4  5   0
+     7  0  4   3   6  7  8   0
+     6  5  2   4   6  8  9   0
+     6  7  5   5   5 10  3   0
+     4  0  5   6  11 12  8   0
+    15  9 14   7   0  2  1   0
+    11 10  8   8   3  5  4   0
+    12  8 15   9   8  7  6   0
+    14 10 13  10   6  9  8   0
+    14 13 15  11   5  3 10   0
+    12 13  8  12  11  8 12   0
+     6  2  1   1   1 13  2   0
+     0  1  2   2   4 10  5   0
+     1  0  7   3   9  7  6   0
+     5  3  2   4   8  7  9   0
+     7  4  5   5  10  4  3   0
+     0  3  5   6  12  7  8   0
+     9 10 14   7   2 13  1   0
+    10  9  8   8   5 10  4   0
+     8  9 15   9   7  9  6   0
+    10 11 13  10   9  7  8   0
+    13 12 15  11   3  4 10   0
+    13 11  8  12   8  7 12   0
+  tverts 14
+     0.539  0.317
+     0.539  0.287
+     0.519  0.317
+     0.544  0.287
+     0.514  0.287
+     0.544  0.412
+     0.539  0.412
+     0.509  0.287
+     0.549  0.287
+     0.519  0.412
+     0.514  0.412
+     0.549  0.317
+     0.509  0.317
+     0.519  0.287
+endnode
+node trimesh pcs00_w3_lock
+  parent pcs00_w3_door
+  position  1.36000  0.00000  1.25000
+  orientation  1.00000  0.00000  0.00000  0.00000
+  wirecolor 1.0 1.0 1.0
+  scale 0.8
+  ambient 1.0 1.0 1.0
+  diffuse 1.0 1.0 1.0
+  specular 0.0 0.0 0.0
+  bitmap tni02_crate01
+  alpha 1.0
+  shininess 11
+  selfillumcolor 0.0 0.0 0.0
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  transparencyhint 0
+  verts 16
+     0.16000  0.02560  0.16000
+     0.16000  0.05120  0.16000
+     0.00000  0.02560  0.16000
+     0.00000  0.05120  0.16000
+     0.16000  0.02560  0.00000
+     0.16000  0.05120  0.00000
+     0.00000  0.05120  0.00000
+     0.00000  0.02560  0.00000
+     0.16000 -0.02560  0.16000
+     0.16000 -0.05120  0.16000
+     0.00000 -0.02560  0.16000
+     0.00000 -0.05120  0.16000
+     0.16000 -0.02560  0.00000
+     0.16000 -0.05120  0.00000
+     0.00000 -0.05120  0.00000
+     0.00000 -0.02560  0.00000
+  faces 16
+     3  1  6  1  0 1 2   0
+     2  0  3  2  0 2 3   0
+     1  0  5  3  3 0 4   0
+     2  3  7  4  0 3 2   0
+    11 14  9  5  0 2 1   0
+    11  9  8  6  3 4 2   0
+     9 13  8  7  3 4 0   0
+    10 15 11  8  0 2 3   0
+     1  5  6  1  1 5 2   0
+     3  0  1  2  3 2 4   0
+     0  4  5  3  0 2 4   0
+     3  6  7  4  3 4 2   0
+    14 13  9  5  2 5 1   0
+    10 11  8  6  0 3 2   0
+    13 12  8  7  4 2 0   0
+    15 14 11  8  2 4 3   0
+  tverts 6
+     0.584  0.494
+     0.627  0.494
+     0.584  0.451
+     0.595  0.494
+     0.595  0.451
+     0.627  0.451
+endnode
+endmodelgeom plc_pcs00_w3
+
+# ANIM ASCII
+newanim default plc_pcs00_w3
+  length 0.0
+  transtime 1.0
+  animroot 
+  node dummy plc_pcs00_w3
+    parent null
+  endnode
+  node dummy pw3_hand
+    parent plc_pcs00_w3
+  endnode
+  node dummy pw3_head
+    parent plc_pcs00_w3
+  endnode
+  node dummy pw3_head_hit
+    parent plc_pcs00_w3
+  endnode
+  node dummy pw3_impact
+    parent plc_pcs00_w3
+  endnode
+  node dummy pcs00_w3_door
+    parent plc_pcs00_w3
+    orientation  1.00000  0.00000  0.00000  0.00000
+  endnode
+  node dummy pcs00_w3_bars
+    parent pcs00_w3_door
+  endnode
+  node dummy pcs00_w3_handle
+    parent pcs00_w3_door
+  endnode
+  node dummy pcs00_w3_lock
+    parent pcs00_w3_door
+  endnode
+doneanim default plc_pcs00_w3
+
+newanim off plc_pcs00_w3
+  length 0.0
+  transtime 1.0
+  animroot 
+  node dummy plc_pcs00_w3
+    parent null
+  endnode
+  node dummy pw3_hand
+    parent plc_pcs00_w3
+  endnode
+  node dummy pw3_head
+    parent plc_pcs00_w3
+  endnode
+  node dummy pw3_head_hit
+    parent plc_pcs00_w3
+  endnode
+  node dummy pw3_impact
+    parent plc_pcs00_w3
+  endnode
+  node dummy pcs00_w3_door
+    parent plc_pcs00_w3
+    orientation  0.00000  0.00000  1.00000  1.39626
+  endnode
+  node dummy pcs00_w3_bars
+    parent pcs00_w3_door
+  endnode
+  node dummy pcs00_w3_handle
+    parent pcs00_w3_door
+  endnode
+  node dummy pcs00_w3_lock
+    parent pcs00_w3_door
+  endnode
+doneanim off plc_pcs00_w3
+
+newanim off2on plc_pcs00_w3
+  length 1.0
+  transtime 1.0
+  animroot 
+  node dummy plc_pcs00_w3
+    parent null
+  endnode
+  node dummy pw3_hand
+    parent plc_pcs00_w3
+  endnode
+  node dummy pw3_head
+    parent plc_pcs00_w3
+  endnode
+  node dummy pw3_head_hit
+    parent plc_pcs00_w3
+  endnode
+  node dummy pw3_impact
+    parent plc_pcs00_w3
+  endnode
+  node dummy pcs00_w3_door
+    parent plc_pcs00_w3
+    orientationkey 2
+       0.00000  0.00000  0.00000  1.00000  1.39626
+       1.00000  1.00000  0.00000  0.00000  0.00000
+  endnode
+  node dummy pcs00_w3_bars
+    parent pcs00_w3_door
+  endnode
+  node dummy pcs00_w3_handle
+    parent pcs00_w3_door
+  endnode
+  node dummy pcs00_w3_lock
+    parent pcs00_w3_door
+  endnode
+doneanim off2on plc_pcs00_w3
+
+newanim on plc_pcs00_w3
+  length 0.0
+  transtime 1.0
+  animroot 
+  node dummy plc_pcs00_w3
+    parent null
+  endnode
+  node dummy pw3_hand
+    parent plc_pcs00_w3
+  endnode
+  node dummy pw3_head
+    parent plc_pcs00_w3
+  endnode
+  node dummy pw3_head_hit
+    parent plc_pcs00_w3
+  endnode
+  node dummy pw3_impact
+    parent plc_pcs00_w3
+  endnode
+  node dummy pcs00_w3_door
+    parent plc_pcs00_w3
+    orientation  1.00000  0.00000  0.00000  0.00000
+  endnode
+  node dummy pcs00_w3_bars
+    parent pcs00_w3_door
+  endnode
+  node dummy pcs00_w3_handle
+    parent pcs00_w3_door
+  endnode
+  node dummy pcs00_w3_lock
+    parent pcs00_w3_door
+  endnode
+doneanim on plc_pcs00_w3
+
+newanim on2off plc_pcs00_w3
+  length 1.0
+  transtime 1.0
+  animroot 
+  node dummy plc_pcs00_w3
+    parent null
+  endnode
+  node dummy pw3_hand
+    parent plc_pcs00_w3
+  endnode
+  node dummy pw3_head
+    parent plc_pcs00_w3
+  endnode
+  node dummy pw3_head_hit
+    parent plc_pcs00_w3
+  endnode
+  node dummy pw3_impact
+    parent plc_pcs00_w3
+  endnode
+  node dummy pcs00_w3_door
+    parent plc_pcs00_w3
+    orientationkey 3
+       0.00000  1.00000  0.00000  0.00000  0.00000
+       0.93333  0.00000  0.00000  1.00000  1.48353
+       1.00000  0.00000  0.00000  1.00000  1.39626
+  endnode
+  node dummy pcs00_w3_bars
+    parent pcs00_w3_door
+  endnode
+  node dummy pcs00_w3_handle
+    parent pcs00_w3_door
+    orientationkey 3
+       0.00000  1.00000  0.00000  0.00000  0.00000
+       0.16667  0.00000 -1.00000  0.00000  0.34906
+       0.50000  1.00000  0.00000  0.00000  0.00000
+  endnode
+  node dummy pcs00_w3_lock
+    parent pcs00_w3_door
+  endnode
+doneanim on2off plc_pcs00_w3
+
+donemodel plc_pcs00_w3

@@ -1,0 +1,101 @@
+#Model converted by mdl2ascii
+#For updates/comments check out http://nwn-j3d.sf.net
+filedependancy Unknown
+newmodel PLC_rugc
+setsupermodel PLC_rugc NULL
+classification Character
+setanimationscale 1.000000
+#MAXGEOM  ASCII
+beginmodelgeom PLC_rugc
+node dummy PLC_rugc
+  parent NULL
+endnode
+node trimesh Plane01
+  parent PLC_rugc
+  position 0.064356 -0.012158 0.010000
+  orientation 0.000000 0.000000 0.000000 0.000000
+  diffuse 1.000000 1.000000 1.000000
+  ambient 1.000000 1.000000 1.000000
+  specular 0.000000 0.000000 0.000000
+  shininess 1.000000
+  render 1
+    bitmap rug2_3
+    verts 15
+     -1.187659 2.010853 0.000000 
+     -1.117257 0.843769 0.000000 
+     -0.087659 1.957299 0.000000 
+     -0.017257 0.843769 0.000000 
+     0.024081 -1.933753 0.000000 
+     1.124081 -1.989147 0.000000 
+     -0.042219 -0.987427 0.000000 
+     1.057781 -0.987427 0.000000 
+     -1.181182 -0.021417 0.000000 
+     -0.039582 -0.021417 0.000000 
+     1.082743 0.843769 0.000000 
+     1.012341 2.010853 0.000000 
+     1.060418 -0.021417 0.000000 
+     -1.142219 -0.987427 0.000000 
+     -1.102235 -1.978502 0.000000 
+    faces 16
+     0 1 2  1  0 1 2  0
+     3 2 1  1  3 2 1  0
+     4 5 6  1  4 5 6  0
+     7 6 5  1  7 6 5  0
+     1 8 3  1  1 8 3  0
+     9 3 8  1  9 3 8  0
+     10 11 3  1  10 11 3  0
+     2 3 11  1  2 3 11  0
+     12 10 9  1  12 10 9  0
+     3 9 10  1  3 9 10  0
+     8 13 9  1  8 13 9  0
+     6 9 13  1  6 9 13  0
+     7 12 6  1  7 12 6  0
+     9 6 12  1  9 6 12  0
+     13 14 6  1  13 14 6  0
+     4 6 14  1  4 6 14  0
+    tverts 15
+     0.008532 0.964136 0.0 
+     0.007401 0.813005 0.0 
+     0.235106 0.960384 0.0 
+     0.226296 0.815920 0.0 
+     0.237496 0.435136 0.0 
+     0.448712 0.434071 0.0 
+     0.225691 0.587939 0.0 
+     0.452265 0.590855 0.0 
+     0.007082 0.714758 0.0 
+     0.229545 0.711843 0.0 
+     0.449031 0.815920 0.0 
+     0.450162 0.961220 0.0 
+     0.448440 0.717674 0.0 
+     0.006796 0.585023 0.0 
+     0.010922 0.431368 0.0 
+endnode
+node dummy rugc_hand
+  parent PLC_rugc
+  position 0.003984 0.008213 0.484883
+  orientation 0.000000 0.000000 0.000000 0.000000
+endnode
+node dummy rugc_head
+  parent PLC_rugc
+  position 0.003984 0.010825 0.487122
+  orientation 0.000000 0.000000 0.000000 0.000000
+endnode
+node dummy rugc_head_hit
+  parent PLC_rugc
+  position 0.003984 0.010825 0.005644
+  orientation 0.000000 0.000000 0.000000 0.000000
+endnode
+node dummy rugc_impact
+  parent PLC_rugc
+  position 0.003984 0.011001 0.007419
+  orientation 0.000000 0.000000 0.000000 0.000000
+endnode
+node dummy rugc_ground
+  parent PLC_rugc
+  position -0.003633 0.006987 0.000000
+  orientation 0.000000 0.000000 0.000000 0.000000
+endnode
+endmodelgeom PLC_rugc
+donemodel PLC_rugc
+
+

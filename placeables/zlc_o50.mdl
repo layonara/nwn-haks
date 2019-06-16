@@ -1,0 +1,59 @@
+# Exported from Wayland's NWN Maxscript v0.3 at 10/2/2002 12:09:13 PM
+# mdl file
+#
+filedependancy Unknown
+newmodel zlc_o50
+setsupermodel zlc_o50 NULL
+classification Character
+setanimationscale 1.0
+beginmodelgeom zlc_o50
+node dummy zlc_o50
+    parent NULL
+endnode
+node trimesh Box52
+    parent zlc_o50
+    position -0.0430674 0.012854 0.0
+    orientation 0.0 0.0 1.0 -0.445059
+    scale 1.0
+    shininess 1.000000
+    render 1
+    diffuse 1.0 1.0 1.0
+    ambient 1.0 1.0 1.0
+    specular 0.0 0.0 0.0
+    selfillumcolor 0.0 0.0 0.0
+    alpha 1.0
+    bitmap TIC01_pipe01
+    verts 8
+        -1.1 -1.19 0.5
+        1.69 0.11 0.5
+        1.18 1.2 0.5
+        -1.61 -0.1 0.5
+        -1.02 -1.15 0.0
+        1.61 0.08 0.0
+        1.1 1.17 0.0
+        -1.53 -0.06 0.0
+    faces 10
+        0 1 2 1 0 1 2 1
+        2 3 0 1 2 3 0 1
+        4 5 1 1 4 5 6 5
+        1 0 4 1 6 7 4 5
+        5 6 2 1 5 8 9 4
+        2 1 5 1 9 6 5 4
+        6 7 3 1 4 5 6 6
+        3 2 6 1 6 7 4 6
+        7 4 0 1 5 8 9 3
+        0 3 7 1 9 6 5 3
+    tverts 10
+        0.961245 0.520131 0
+        0.961246 0.9995 0
+        0.799023 0.9995 0
+        0.799023 0.520131 0
+        0.0 0.754569 0
+        0.5 0.754569 0
+        0.5 0.9995 0
+        0.0 0.9995 0
+        0.25 0.754569 0
+        0.25 0.9995 0
+endnode
+endmodelgeom zlc_o50
+donemodel zlc_o50

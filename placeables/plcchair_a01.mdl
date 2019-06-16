@@ -1,0 +1,2434 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Fri Feb 15 20:59:13 2019
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel plcchair_a01
+  classification CHARACTER
+  setsupermodel plcchair_a01 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom plcchair_a01
+node dummy plcchair_a01
+  parent NULL
+endnode
+node dummy a01_ground
+  parent plcchair_a01
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 0.878431 0.776471 0.341176
+endnode
+node dummy a01_hand
+  parent plcchair_a01
+  position 0 -0.5 0.86
+  orientation 0.57735 -0.57735 -0.57735 -4.18879
+  wirecolor 0.109804 0.34902 0.694118
+endnode
+node dummy a01_head
+  parent plcchair_a01
+  position 0 0 0.96
+  orientation 0.57735 -0.57735 -0.57735 -4.18879
+  wirecolor 0.341176 0.878431 0.341176
+endnode
+node dummy a01_head_hit
+  parent plcchair_a01
+  position 0 0.01 0.53
+  orientation 0.57735 -0.57735 -0.57735 -4.18879
+  wirecolor 0.341176 0.878431 0.776471
+endnode
+node dummy a01_impact
+  parent plcchair_a01
+  position 0 0.01 0.51
+  orientation 0.57735 -0.57735 -0.57735 -4.18879
+  wirecolor 0.52549 0.431373 0.0313726
+endnode
+node dummy anim_base
+  parent plcchair_a01
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 0.333333 0.109804 0.694118
+endnode
+node trimesh g_chair_legs_13
+  parent anim_base
+  position -0.36 -0.23 0.74
+  wirecolor 0.214844 0.160156 0.910156
+  bitmap tin01_seat
+  shininess 10
+  specular 0 0 0
+  diffuse 1 1 1
+  ambient 1 1 1
+  orientation 0 0 0 0
+  shadow 1
+  verts 26
+    0.06 -0.05 -0.74
+    -0.01 -0.05 -0.74
+    0.76 -0.05 -0.04
+    0.67 -0.05 -0.04
+    0.76 -0.05 -0.12
+    0.67 -0.05 -0.12
+    0.52 -0.05 -0.36
+    0.48 -0.05 -0.3
+    0.21 -0.05 -0.36
+    0.16 -0.05 -0.3
+    0.06 -0.05 -0.53
+    -0.01 -0.05 -0.53
+    -0.03 -0.02 0
+    0.03 -0.02 0
+    0.66 -0.05 -0.74
+    0.73 -0.05 -0.74
+    -0.04 -0.05 -0.04
+    0.04 -0.05 -0.04
+    -0.04 -0.05 -0.12
+    0.04 -0.05 -0.12
+    0.25 -0.05 -0.3
+    0.57 -0.05 -0.3
+    0.66 -0.05 -0.53
+    0.73 -0.05 -0.53
+    -0.03 0.02 0
+    0.03 0.02 0
+  faces 22
+    2 3 5 1 2 3 5 1
+    5 4 2 1 5 4 2 1
+    4 7 21 1 4 7 19 1
+    20 8 6 1 18 8 6 1
+    8 9 11 1 8 9 11 1
+    11 10 8 1 11 10 8 1
+    10 11 1 1 10 11 1 1
+    1 0 10 1 1 0 10 1
+    19 17 16 1 17 15 14 1
+    16 18 19 1 14 16 17 1
+    20 19 18 1 18 17 16 1
+    18 9 20 1 16 9 18 1
+    23 21 6 1 21 19 6 1
+    6 22 23 1 6 20 21 1
+    15 23 22 1 13 21 20 1
+    22 14 15 1 20 12 13 1
+    4 5 7 1 4 5 7 1
+    7 6 21 1 7 6 19 1
+    6 7 20 1 6 7 18 1
+    9 8 20 1 9 8 18 1
+    25 24 12 1 25 24 22 1
+    12 13 25 1 22 23 25 1
+  tverts 26
+    0.755691 0.508907 0
+    0.732361 0.509544 0
+    0.981066 0.938136 0
+    0.957737 0.938821 0
+    0.98039 0.895055 0
+    0.956371 0.895528 0
+    0.910531 0.734425 0
+    0.901249 0.764546 0
+    0.815941 0.737167 0
+    0.805494 0.767355 0
+    0.756988 0.612832 0
+    0.733659 0.613468 0
+    0.966702 0.502717 0
+    0.990031 0.501986 0
+    0.752687 0.944836 0
+    0.776016 0.944151 0
+    0.752352 0.900429 0
+    0.775553 0.899749 0
+    0.827937 0.766678 0
+    0.925035 0.763848 0
+    0.968113 0.606639 0
+    0.991441 0.605907 0
+    0.789375 0.514069 0
+    0.789375 0.542262 0
+    0.773809 0.514069 0
+    0.773809 0.542262 0
+endnode
+node trimesh g_chair_legs_12
+  parent anim_base
+  position 0.36 -0.23 0.74
+  wirecolor 0.332031 0.96875 0.679688
+  bitmap tin01_seat
+  shininess 10
+  specular 0 0 0
+  diffuse 1 1 1
+  ambient 1 1 1
+  orientation 0 0 0 0
+  shadow 1
+  verts 6
+    0.03 -0.02 0
+    -0.04 -0.02 0
+    -0.05 -0.05 -0.04
+    0.03 0.02 0
+    -0.04 0.02 0
+    -0.05 0.02 -0.04
+  faces 4
+    0 3 4 1 0 2 3 1
+    4 1 0 1 3 1 0 1
+    1 4 5 1 4 5 7 1
+    5 2 1 1 7 6 4 1
+  tverts 8
+    0.807142 0.514069 0
+    0.807142 0.542262 0
+    0.822708 0.514068 0
+    0.822708 0.542262 0
+    0.853213 0.758415 0
+    0.837647 0.758443 0
+    0.860968 0.741881 0
+    0.837634 0.741922 0
+endnode
+node trimesh g_chair_legs_11
+  parent anim_base
+  position -0.33 -0.23 0.74
+  wirecolor 0.425781 0.0429688 0.0976562
+  bitmap tin01_seat
+  shininess 10
+  specular 0 0 0
+  diffuse 1 1 1
+  ambient 1 1 1
+  orientation 0 0 0 0
+  shadow 1
+  verts 8
+    -0.04 -0.05 -0.74
+    -0.04 -0.05 -0.53
+    0 -0.02 0
+    0.01 -0.05 -0.04
+    0 0.02 0
+    0.01 0.02 -0.04
+    -0.04 0.02 -0.74
+    -0.04 0.02 -0.53
+  faces 4
+    5 4 2 1 3 1 0 1
+    2 3 5 1 0 2 3 1
+    1 7 6 1 6 7 5 1
+    6 0 1 1 5 4 6 1
+  tverts 8
+    0.878644 0.988442 0
+    0.894211 0.988443 0
+    0.870877 0.971922 0
+    0.894211 0.971923 0
+    0.925991 0.463948 0
+    0.902657 0.463948 0
+    0.925991 0.567891 0
+    0.902657 0.567891 0
+endnode
+node trimesh g_chair_legs_10
+  parent anim_base
+  position -0.39 -0.23 0.74
+  wirecolor 0.96875 0.972656 0.015625
+  bitmap tin01_seat
+  shininess 10
+  specular 0 0 0
+  diffuse 1 1 1
+  ambient 1 1 1
+  orientation 0 0 0 0
+  shadow 1
+  verts 6
+    0 -0.02 0
+    -0.01 -0.05 -0.04
+    -0.01 -0.05 -0.12
+    0 0.02 0
+    -0.01 0.02 -0.04
+    -0.01 0.02 -0.12
+  faces 4
+    1 0 3 1 2 0 1 1
+    3 4 1 1 1 3 2 1
+    2 1 4 1 4 2 3 1
+    4 5 2 1 3 5 4 1
+  tverts 6
+    0.918224 0.971779 0
+    0.902658 0.971779 0
+    0.925991 0.955284 0
+    0.902658 0.955284 0
+    0.925991 0.910875 0
+    0.902658 0.910875 0
+endnode
+node trimesh g_chair_legs_9
+  parent anim_base
+  position 0 -0.21 0.74
+  wirecolor 0.746094 0.972656 0.644531
+  bitmap tin01_seat
+  shininess 10
+  specular 0 0 0
+  diffuse 1 1 1
+  ambient 1 1 1
+  orientation 0 0 0 0
+  shadow 1
+  verts 26
+    -0.39 0 0
+    -0.33 0 0
+    0.39 0 0
+    0.32 0 0
+    0.31 0 -0.04
+    0.31 0 -0.12
+    0.12 0 -0.3
+    -0.2 0 -0.3
+    -0.11 0 -0.3
+    -0.32 0 -0.04
+    -0.32 0 -0.12
+    -0.3 0 -0.74
+    -0.15 0 -0.36
+    -0.3 0 -0.53
+    0.16 0 -0.36
+    0.3 0 -0.74
+    0.3 0 -0.53
+    -0.37 0 -0.74
+    -0.37 0 -0.53
+    -0.4 0 -0.04
+    -0.4 0 -0.12
+    0.4 0 -0.04
+    0.4 0 -0.12
+    0.37 0 -0.74
+    0.2 0 -0.3
+    0.37 0 -0.53
+  faces 24
+    3 2 21 1 1 0 5 1
+    21 4 3 1 5 4 1 1
+    4 21 22 1 4 5 7 1
+    22 5 4 1 7 6 4 1
+    6 22 24 1 8 7 23 1
+    14 12 8 1 9 11 22 1
+    13 18 7 1 13 12 10 1
+    18 13 11 1 12 13 2 1
+    11 17 18 1 2 3 12 1
+    19 0 1 1 19 14 15 1
+    1 9 19 1 15 18 19 1
+    20 19 9 1 21 19 18 1
+    9 10 20 1 18 20 21 1
+    7 20 10 1 10 21 20 1
+    10 8 7 1 20 22 10 1
+    16 14 24 1 25 9 23 1
+    24 25 16 1 23 24 25 1
+    15 16 25 1 16 25 24 1
+    25 23 15 1 24 17 16 1
+    5 22 6 1 6 7 8 1
+    6 24 14 1 8 23 9 1
+    12 7 8 1 11 10 22 1
+    14 8 6 1 9 22 8 1
+    7 12 13 1 10 11 13 1
+  tverts 26
+    0.751676 0.954512 0
+    0.770468 0.955062 0
+    0.975031 0.509066 0
+    0.998361 0.509702 0
+    0.772988 0.938981 0
+    0.749659 0.938297 0
+    0.774353 0.895688 0
+    0.750401 0.894967 0
+    0.829464 0.764704 0
+    0.819658 0.73473 0
+    0.925228 0.767513 0
+    0.914776 0.7374 0
+    0.997063 0.613627 0
+    0.973734 0.61299 0
+    0.975598 0.961078 0
+    0.956806 0.960527 0
+    0.764019 0.502877 0
+    0.740691 0.502145 0
+    0.954707 0.944309 0
+    0.978035 0.944994 0
+    0.955169 0.899907 0
+    0.97837 0.900587 0
+    0.902291 0.766832 0
+    0.805812 0.764011 0
+    0.73928 0.606067 0
+    0.762608 0.606798 0
+endnode
+node trimesh g_chair_legs_8
+  parent anim_base
+  position 0.39 -0.23 0.74
+  wirecolor 0.566406 0.914062 0.128906
+  bitmap tin01_seat
+  shininess 10
+  specular 0 0 0
+  diffuse 1 1 1
+  ambient 1 1 1
+  orientation 0 0 0 0
+  shadow 1
+  verts 6
+    0 -0.02 0
+    0.01 -0.05 -0.04
+    0.01 -0.05 -0.12
+    0 0.02 0
+    0.01 0.02 -0.04
+    0.01 0.02 -0.12
+  faces 4
+    3 0 1 1 1 0 2 1
+    1 4 3 1 2 3 1 1
+    4 1 2 1 3 2 4 1
+    2 5 4 1 4 5 3 1
+  tverts 6
+    0.843705 0.971666 0
+    0.859271 0.971779 0
+    0.835991 0.955116 0
+    0.859324 0.955285 0
+    0.8361 0.912022 0
+    0.859493 0.911941 0
+endnode
+node trimesh g_chair_legs_7
+  parent anim_base
+  position 0.329167 -0.245 0.215
+  wirecolor 0.417969 0.851562 0.414062
+  bitmap tin01_seat
+  shininess 10
+  specular 0 0 0
+  diffuse 1 1 1
+  ambient 1 1 1
+  orientation 0 0 0 0
+  shadow 1
+  verts 6
+    0.0408333 -0.035 -0.215
+    -0.119167 -0.035 0.225
+    0.0408333 -0.035 -0.005
+    0.0408333 0.035 -0.215
+    -0.129167 0.035 0.225
+    0.0408333 0.035 -0.005
+  faces 4
+    5 4 1 1 5 3 2 1
+    1 2 5 1 2 4 5 1
+    3 5 2 1 1 5 4 1
+    2 0 3 1 4 0 1 1
+  tverts 6
+    0.836973 0.466011 0
+    0.860306 0.466064 0
+    0.836544 0.756752 0
+    0.8602 0.756838 0
+    0.836866 0.569953 0
+    0.8602 0.570007 0
+endnode
+node trimesh g_chair_legs_6
+  parent anim_base
+  position -2.65 0 0.6
+  wirecolor 0.335938 0.707031 0.414062
+  bitmap tin01_seat
+  shininess 10
+  specular 0 0 0
+  diffuse 1 1 1
+  ambient 1 1 1
+  orientation 0 0 0 0
+  shadow 1
+  verts 6
+    2.35 -0.28 -0.6
+    2.5 -0.28 -0.22
+    2.35 -0.28 -0.39
+    2.35 -0.21 -0.6
+    2.5 -0.21 -0.22
+    2.35 -0.21 -0.39
+  faces 4
+    4 1 2 1 3 2 4 1
+    2 5 4 1 4 5 3 1
+    5 2 0 1 5 4 0 1
+    0 3 5 1 0 1 5 1
+  tverts 6
+    0.871225 0.457307 0
+    0.894558 0.457327 0
+    0.871069 0.713822 0
+    0.894519 0.71391 0
+    0.871185 0.56125 0
+    0.894519 0.56127 0
+endnode
+node trimesh g_chair_legs_5
+  parent anim_base
+  position 2.65 0 0.6
+  wirecolor 0.996094 0.230469 0.078125
+  bitmap tin01_seat
+  shininess 10
+  specular 0 0 0
+  diffuse 1 1 1
+  ambient 1 1 1
+  orientation 0 0 0 0
+  shadow 1
+  verts 6
+    -2.49 -0.28 -0.22
+    -2.35 -0.28 -0.6
+    -2.35 -0.28 -0.39
+    -2.49 -0.21 -0.22
+    -2.35 -0.21 -0.6
+    -2.35 -0.21 -0.39
+  faces 4
+    2 0 3 1 4 0 1 1
+    3 5 2 1 1 5 4 1
+    1 2 5 1 2 4 5 1
+    5 4 1 1 5 3 2 1
+  tverts 6
+    0.861132 0.98391 0
+    0.837736 0.983582 0
+    0.861136 0.725727 0
+    0.837802 0.725726 0
+    0.861132 0.82967 0
+    0.837799 0.829669 0
+endnode
+node trimesh g_chair_legs_4
+  parent anim_base
+  position 2.4 0 1.98
+  wirecolor 0.660156 0.488281 0.0898438
+  bitmap tin01_seat
+  shininess 10
+  specular 0 0 0
+  diffuse 1 1 1
+  ambient 1 1 1
+  orientation 0 0 0 0
+  shadow 1
+  verts 6
+    -2.6 -0.28 -1.54
+    -2.77 -0.28 -1.77
+    -2.8 -0.28 -1.36
+    -2.6 -0.21 -1.54
+    -2.77 -0.21 -1.77
+    -2.8 -0.21 -1.36
+  faces 4
+    0 3 4 1 0 1 3 1
+    4 1 0 1 3 2 0 1
+    0 2 5 1 0 4 5 1
+    5 3 0 1 5 1 0 1
+  tverts 6
+    0.925991 0.755752 0
+    0.902657 0.755752 0
+    0.925991 0.567891 0
+    0.902657 0.567891 0
+    0.925991 0.910875 0
+    0.902658 0.910875 0
+endnode
+node trimesh g_chair_legs_3
+  parent anim_base
+  wirecolor 0.777344 0.726562 0.285156
+  bitmap tin01_seat
+  shininess 10
+  specular 0 0 0
+  diffuse 1 1 1
+  ambient 1 1 1
+  orientation 0 0 0 0
+  shadow 1
+  position 0 0 0.6
+  verts 6
+    0.4 -0.28 0.02
+    0.16 -0.28 -0.22
+    0.21 -0.28 -0.16
+    0.16 -0.21 -0.22
+    0.4 -0.21 0.02
+    0.2 -0.21 -0.16
+  faces 4
+    4 2 1 1 1 4 2 1
+    1 5 4 1 2 5 1 1
+    4 0 2 1 1 0 4 1
+    1 3 5 1 2 3 5 1
+  tverts 6
+    0.8361 0.912022 0
+    0.859493 0.911941 0
+    0.837061 0.720166 0
+    0.860452 0.720942 0
+    0.836544 0.756752 0
+    0.8602 0.756838 0
+endnode
+node trimesh g_chair_legs_2_1
+  parent anim_base
+  position -2.3 0 0.22
+  wirecolor 0.625 0.429688 0.601562
+  shadow 1
+  orientation 0 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap tin01_seat
+  verts 6
+    2.42 -0.28 0.22
+    1.98 -0.28 0.4
+    2.19 -0.28 0.22
+    2.42 -0.21 0.22
+    2.19 -0.21 0.22
+    1.98 -0.21 0.4
+  faces 4
+    4 5 1 1 3 1 0 1
+    1 2 4 1 0 2 3 1
+    4 2 0 1 7 6 4 1
+    0 3 4 1 4 5 8 1
+  tverts 9
+    0.870878 0.927514 0
+    0.894211 0.927514 0
+    0.870817 0.772976 0
+    0.894211 0.772594 0
+    0.861188 0.602976 0
+    0.837738 0.602949 0
+    0.861188 0.459317 0
+    0.837854 0.459273 0
+    0.837821 0.493688 0
+endnode
+node trimesh g_chair_legs_2
+  parent anim_base
+  wirecolor 1 0 0
+  bitmap tin01_seat
+  shininess 10
+  specular 0 0 0
+  diffuse 1 1 1
+  ambient 1 1 1
+  orientation 0 0 0 0
+  shadow 1
+  position 0 0 0.6
+  verts 10
+    0.31 -0.28 0.1
+    0.31 -0.28 0.02
+    0.12 -0.28 -0.16
+    -0.32 -0.28 0.1
+    -0.32 -0.28 0.02
+    0.31 -0.21 0.1
+    0.31 -0.21 0.02
+    0.12 -0.21 -0.16
+    -0.32 -0.21 0.1
+    -0.32 -0.21 0.02
+  faces 6
+    0 5 6 1 0 1 3 1
+    6 1 0 1 3 2 0 1
+    1 6 7 1 2 3 5 1
+    7 2 1 1 5 4 2 1
+    9 8 3 1 9 7 6 1
+    3 4 9 1 6 8 9 1
+  tverts 10
+    0.860968 0.741881 0
+    0.837634 0.741922 0
+    0.860934 0.698541 0
+    0.8376 0.698582 0
+    0.860934 0.543645 0
+    0.837483 0.543693 0
+    0.870877 0.971922 0
+    0.894211 0.971923 0
+    0.870878 0.927514 0
+    0.894211 0.927514 0
+endnode
+node trimesh g_chair_legs_1_11
+  parent anim_base
+  position 2.32 0 5.78
+  wirecolor 0.386719 0.0351562 0.207031
+  shadow 1
+  orientation 0 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap tin01_seat
+  verts 8
+    -2.69 0.15 -5.78
+    -2.69 0.15 -5.57
+    -2.71 0.15 -5.04
+    -2.72 0.15 -5.08
+    -2.71 0.22 -5.04
+    -2.69 0.22 -5.78
+    -2.69 0.22 -5.57
+    -2.72 0.22 -5.08
+  faces 4
+    1 6 5 1 2 3 1 1
+    5 0 1 1 1 0 2 1
+    3 2 4 1 6 4 5 1
+    4 7 3 1 5 7 6 1
+  tverts 8
+    0.892657 0.463948 0
+    0.869324 0.463949 0
+    0.892658 0.567891 0
+    0.869324 0.567892 0
+    0.892545 0.971779 0
+    0.869325 0.971779 0
+    0.892658 0.955284 0
+    0.869325 0.955284 0
+endnode
+node trimesh g_chair_legs_1_10
+  parent anim_base
+  position -0.33 0.19 0.74
+  wirecolor 0.585938 0.0390625 0.933594
+  shadow 1
+  orientation 0 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap tin01_seat
+  verts 8
+    0 -0.04 0
+    -0.07 -0.04 -0.04
+    0.01 -0.04 -0.04
+    -0.07 -0.04 -0.12
+    0 0.03 0
+    -0.07 0.03 -0.04
+    -0.07 0.03 -0.12
+    0.01 0.03 -0.04
+  faces 4
+    3 1 5 1 2 0 1 1
+    5 6 3 1 1 3 2 1
+    7 4 0 1 7 5 4 1
+    0 2 7 1 4 6 7 1
+  tverts 8
+    0.892658 0.955284 0
+    0.869325 0.955284 0
+    0.892658 0.910875 0
+    0.869325 0.910875 0
+    0.837657 0.988442 0
+    0.860877 0.988443 0
+    0.837544 0.971922 0
+    0.860877 0.971923 0
+endnode
+node trimesh g_chair_legs_1_9
+  parent anim_base
+  position 0 0.22 0.74
+  wirecolor 0.648438 0.90625 0.976562
+  shadow 1
+  orientation 0 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap tin01_seat
+  verts 26
+    -0.39 0 0
+    -0.33 0 0
+    -0.37 0 -0.74
+    -0.2 0 -0.3
+    -0.37 0 -0.53
+    -0.4 0 -0.04
+    -0.4 0 -0.12
+    -0.32 0 -0.04
+    -0.32 0 -0.12
+    -0.11 0 -0.3
+    0.12 0 -0.3
+    -0.3 0 -0.74
+    -0.15 0 -0.36
+    -0.3 0 -0.53
+    0.16 0 -0.36
+    0.39 0 0
+    0.32 0 0
+    0.31 0 -0.04
+    0.4 0 -0.04
+    0.31 0 -0.12
+    0.4 0 -0.12
+    0.3 0 -0.74
+    0.37 0 -0.74
+    0.2 0 -0.3
+    0.37 0 -0.53
+    0.3 0 -0.53
+  faces 24
+    16 15 18 1 1 0 5 1
+    18 17 16 1 5 4 1 1
+    17 18 20 1 4 5 7 1
+    20 19 17 1 7 6 4 1
+    10 20 23 1 8 7 23 1
+    14 12 9 1 9 11 22 1
+    13 4 3 1 13 12 10 1
+    4 13 11 1 12 13 2 1
+    11 2 4 1 2 3 12 1
+    5 0 1 1 19 14 15 1
+    1 7 5 1 15 18 19 1
+    6 5 7 1 21 19 18 1
+    7 8 6 1 18 20 21 1
+    3 6 8 1 10 21 20 1
+    8 9 3 1 20 22 10 1
+    25 14 23 1 25 9 23 1
+    23 24 25 1 23 24 25 1
+    21 25 24 1 16 25 24 1
+    24 22 21 1 24 17 16 1
+    19 20 10 1 6 7 8 1
+    10 23 14 1 8 23 9 1
+    12 3 9 1 11 10 22 1
+    14 9 10 1 9 22 8 1
+    3 12 13 1 10 11 13 1
+  tverts 26
+    0.750889 0.954512 0
+    0.769681 0.955062 0
+    0.974245 0.509065 0
+    0.997575 0.509702 0
+    0.772202 0.938981 0
+    0.748873 0.938297 0
+    0.773566 0.895688 0
+    0.749614 0.894967 0
+    0.828678 0.764704 0
+    0.818871 0.73473 0
+    0.924442 0.767513 0
+    0.91399 0.7374 0
+    0.996276 0.613626 0
+    0.972947 0.61299 0
+    0.974811 0.961078 0
+    0.956019 0.960526 0
+    0.763233 0.502877 0
+    0.739905 0.502145 0
+    0.95392 0.944309 0
+    0.977249 0.944993 0
+    0.954383 0.899906 0
+    0.977584 0.900587 0
+    0.901504 0.766832 0
+    0.805026 0.764011 0
+    0.738494 0.606067 0
+    0.761822 0.606798 0
+endnode
+node trimesh g_chair_legs_1_8
+  parent anim_base
+  position 0.36 0.19 0.74
+  wirecolor 0.820312 0.191406 0.203125
+  shadow 1
+  orientation 0 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap tin01_seat
+  verts 6
+    0.03 -0.04 0
+    -0.04 -0.04 0
+    -0.05 -0.04 -0.04
+    0.03 0.03 0
+    -0.04 0.03 0
+    -0.05 0.03 -0.04
+  faces 4
+    1 4 5 1 0 1 3 1
+    5 2 1 1 3 2 0 1
+    0 3 4 1 4 6 7 1
+    4 1 0 1 7 5 4 1
+  tverts 8
+    0.894201 0.758402 0
+    0.87098 0.758443 0
+    0.894301 0.741881 0
+    0.870968 0.741922 0
+    0.792854 0.513753 0
+    0.774058 0.513753 0
+    0.792854 0.548583 0
+    0.774058 0.548583 0
+endnode
+node trimesh g_chair_legs_1_7
+  parent anim_base
+  position 0.3975 0.185 0.69
+  wirecolor 0.941406 0.332031 0.480469
+  shadow 1
+  orientation 0 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap tin01_seat
+  verts 6
+    -0.0075 -0.035 0.05
+    0.0025 -0.035 0.01
+    0.0025 -0.035 -0.07
+    -0.0075 0.035 0.05
+    0.0025 0.035 0.01
+    0.0025 0.035 -0.07
+  faces 4
+    3 0 1 1 1 0 2 1
+    1 4 3 1 2 3 1 1
+    4 1 2 1 3 2 4 1
+    2 5 4 1 4 5 3 1
+  tverts 6
+    0.802717 0.971611 0
+    0.825938 0.971779 0
+    0.802657 0.955116 0
+    0.825991 0.955285 0
+    0.802767 0.912022 0
+    0.826159 0.911941 0
+endnode
+node trimesh g_chair_legs_1_6
+  parent anim_base
+  position 0.329167 0.185 0.215
+  wirecolor 0.496094 0.441406 0.203125
+  shadow 1
+  orientation 0 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap tin01_seat
+  verts 6
+    0.0408333 -0.035 -0.215
+    -0.119167 -0.035 0.225
+    0.0408333 -0.035 -0.005
+    0.0408333 0.035 -0.215
+    -0.129167 0.035 0.225
+    0.0408333 0.035 -0.005
+  faces 4
+    5 4 1 1 5 3 2 1
+    1 2 5 1 2 4 5 1
+    3 5 2 1 1 5 4 1
+    2 0 3 1 4 0 1 1
+  tverts 6
+    0.803639 0.46601 0
+    0.826972 0.466064 0
+    0.803211 0.756752 0
+    0.826866 0.756838 0
+    0.803533 0.569953 0
+    0.826866 0.570007 0
+endnode
+node trimesh g_chair_legs_1_5
+  parent anim_base
+  position 2.4 0 1.98
+  wirecolor 0.550781 0 0.816406
+  shadow 1
+  orientation 0 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap tin01_seat
+  verts 6
+    -2.6 0.15 -1.54
+    -2.77 0.15 -1.77
+    -2.8 0.15 -1.36
+    -2.6 0.22 -1.54
+    -2.77 0.22 -1.77
+    -2.8 0.22 -1.36
+  faces 4
+    0 3 4 1 0 1 3 1
+    4 1 0 1 3 2 0 1
+    0 2 5 1 0 4 5 1
+    5 3 0 1 5 1 0 1
+  tverts 6
+    0.892657 0.755752 0
+    0.869324 0.755752 0
+    0.892658 0.567891 0
+    0.869324 0.567892 0
+    0.892658 0.910875 0
+    0.869325 0.910875 0
+endnode
+node trimesh g_chair_legs_1_4
+  parent anim_base
+  position -2.65 0 0.6
+  wirecolor 0.167969 0.179688 0.582031
+  shadow 1
+  orientation 0 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap tin01_seat
+  verts 6
+    2.35 0.15 -0.6
+    2.5 0.15 -0.22
+    2.35 0.15 -0.39
+    2.35 0.22 -0.6
+    2.5 0.22 -0.22
+    2.35 0.22 -0.39
+  faces 4
+    4 1 2 1 3 2 4 1
+    2 5 4 1 4 5 3 1
+    5 2 0 1 5 4 0 1
+    0 3 5 1 0 1 5 1
+  tverts 6
+    0.871225 0.727307 0
+    0.894559 0.727327 0
+    0.871069 0.983822 0
+    0.894519 0.983909 0
+    0.871186 0.83125 0
+    0.894519 0.83127 0
+endnode
+node trimesh g_chair_legs_1_3
+  parent anim_base
+  position 2.65 0 0.6
+  wirecolor 0.105469 0.214844 0.988281
+  shadow 1
+  orientation 0 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap tin01_seat
+  verts 6
+    -2.49 0.15 -0.22
+    -2.35 0.15 -0.6
+    -2.35 0.15 -0.39
+    -2.49 0.22 -0.22
+    -2.35 0.22 -0.6
+    -2.35 0.22 -0.39
+  faces 4
+    2 0 3 1 4 0 1 1
+    3 5 2 1 1 5 4 1
+    1 2 5 1 2 4 5 1
+    5 4 1 1 5 3 2 1
+  tverts 6
+    0.861132 0.71391 0
+    0.837735 0.713582 0
+    0.861135 0.455727 0
+    0.837802 0.455726 0
+    0.861132 0.55967 0
+    0.837798 0.559669 0
+endnode
+node trimesh g_chair_legs_1_2
+  parent anim_base
+  wirecolor 0.152344 0.804688 0.933594
+  position 0 0 0.6
+  shadow 1
+  orientation 0 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap tin01_seat
+  verts 6
+    0.4 0.15 0.02
+    0.16 0.15 -0.22
+    0.21 0.15 -0.16
+    0.16 0.22 -0.22
+    0.4 0.22 0.02
+    0.2 0.22 -0.16
+  faces 4
+    4 2 1 1 1 4 2 1
+    1 5 4 1 2 5 1 1
+    4 0 2 1 1 0 4 1
+    1 3 5 1 2 3 5 1
+  tverts 6
+    0.802767 0.912022 0
+    0.826159 0.911941 0
+    0.803727 0.720166 0
+    0.827119 0.720942 0
+    0.803211 0.756752 0
+    0.826866 0.756838 0
+endnode
+node trimesh g_chair_legs_1_1_1
+  parent anim_base
+  position 2.33 0 0.22
+  wirecolor 0.433594 0.773438 0.667969
+  bitmap tin01_seat
+  shininess 10
+  specular 0 0 0
+  diffuse 1 1 1
+  ambient 1 1 1
+  orientation 0 0 0 0
+  shadow 1
+  verts 6
+    -2.02 0.15 0.4
+    -2.21 0.15 0.22
+    -2.44 0.15 0.22
+    -2.44 0.22 0.22
+    -2.21 0.22 0.22
+    -2.02 0.22 0.4
+  faces 4
+    0 5 4 1 0 1 3 1
+    4 1 0 1 3 2 0 1
+    3 2 1 1 7 6 4 1
+    1 4 3 1 4 5 8 1
+  tverts 9
+    0.894267 0.698541 0
+    0.870934 0.698582 0
+    0.894267 0.543644 0
+    0.870817 0.543693 0
+    0.894521 0.602976 0
+    0.871071 0.602948 0
+    0.894521 0.459317 0
+    0.871188 0.459273 0
+    0.871155 0.493688 0
+endnode
+node trimesh g_chair_legs_1_1
+  parent anim_base
+  wirecolor 1 0 0
+  position 0 0 0.6
+  shadow 1
+  orientation 0 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap tin01_seat
+  verts 10
+    0.31 0.15 0.1
+    0.31 0.15 0.02
+    -0.32 0.15 0.1
+    -0.32 0.15 0.02
+    -0.11 0.15 -0.16
+    -0.32 0.22 0.1
+    -0.32 0.22 0.02
+    -0.11 0.22 -0.16
+    0.31 0.22 0.1
+    0.31 0.22 0.02
+  faces 6
+    6 5 2 1 3 1 0 1
+    2 3 6 1 0 2 3 1
+    7 6 3 1 5 3 2 1
+    3 4 7 1 2 4 5 1
+    0 8 9 1 6 7 9 1
+    9 1 0 1 9 8 6 1
+  tverts 10
+    0.837544 0.971922 0
+    0.860877 0.971923 0
+    0.837544 0.927514 0
+    0.860878 0.927514 0
+    0.837483 0.772975 0
+    0.860878 0.772594 0
+    0.894301 0.741881 0
+    0.870968 0.741922 0
+    0.894267 0.698541 0
+    0.870934 0.698582 0
+endnode
+node trimesh g_chair_legs_1
+  parent anim_base
+  position -0.12 0.17 0.74
+  wirecolor 0.792969 0.753906 0.375
+  bitmap tin01_seat
+  shininess 10
+  specular 0 0 0
+  diffuse 1 1 1
+  ambient 1 1 1
+  orientation 0 0 0 0
+  shadow 1
+  verts 28
+    0.51 -0.02 0
+    0.44 -0.02 0
+    -0.18 -0.02 -0.74
+    -0.25 -0.02 -0.74
+    0.52 -0.02 -0.04
+    0.43 -0.02 -0.04
+    0.52 -0.02 -0.12
+    0.43 -0.02 -0.12
+    0.28 -0.02 -0.36
+    0.24 -0.02 -0.3
+    -0.03 -0.02 -0.36
+    -0.08 -0.02 -0.3
+    -0.18 -0.02 -0.53
+    -0.25 -0.02 -0.53
+    -0.27 -0.02 0
+    -0.21 -0.02 0
+    0.42 -0.02 -0.74
+    0.49 -0.02 -0.74
+    -0.28 -0.02 -0.04
+    -0.2 -0.02 -0.04
+    -0.28 -0.02 -0.12
+    -0.2 -0.02 -0.12
+    0.01 -0.02 -0.3
+    0.33 -0.02 -0.3
+    0.42 -0.02 -0.53
+    0.49 -0.02 -0.53
+    -0.27 0.05 0
+    -0.21 0.05 0
+  faces 26
+    0 1 5 1 0 1 5 1
+    5 4 0 1 5 4 0 1
+    4 5 7 1 4 5 7 1
+    7 6 4 1 7 6 4 1
+    6 9 23 1 6 9 23 1
+    22 10 8 1 22 10 8 1
+    10 11 13 1 10 11 13 1
+    13 12 10 1 13 12 10 1
+    12 13 3 1 12 13 3 1
+    3 2 12 1 3 2 12 1
+    19 15 14 1 19 15 14 1
+    14 18 19 1 14 18 19 1
+    21 19 18 1 21 19 18 1
+    18 20 21 1 18 20 21 1
+    22 21 20 1 22 21 20 1
+    20 11 22 1 20 11 22 1
+    25 23 8 1 25 23 8 1
+    8 24 25 1 8 24 25 1
+    17 25 24 1 17 25 24 1
+    24 16 17 1 24 16 17 1
+    6 7 9 1 6 7 9 1
+    9 8 23 1 9 8 23 1
+    8 9 22 1 8 9 22 1
+    11 10 22 1 11 10 22 1
+    27 26 14 1 29 28 26 1
+    14 15 27 1 26 27 29 1
+  tverts 30
+    0.979722 0.954054 0
+    0.96093 0.954605 0
+    0.756364 0.508609 0
+    0.733034 0.509246 0
+    0.981739 0.937838 0
+    0.95841 0.938523 0
+    0.981063 0.894757 0
+    0.957044 0.89523 0
+    0.911204 0.734127 0
+    0.901922 0.764248 0
+    0.816614 0.73687 0
+    0.806167 0.767057 0
+    0.757662 0.612534 0
+    0.734332 0.613171 0
+    0.755798 0.960623 0
+    0.77459 0.960072 0
+    0.967374 0.50242 0
+    0.990703 0.501688 0
+    0.75336 0.944538 0
+    0.776689 0.943854 0
+    0.753025 0.900132 0
+    0.776226 0.899451 0
+    0.82861 0.76638 0
+    0.925709 0.76355 0
+    0.968786 0.606341 0
+    0.992114 0.605609 0
+    0.807391 0.513753 0
+    0.826187 0.513753 0
+    0.807391 0.548583 0
+    0.826187 0.548583 0
+endnode
+node trimesh g_chair_seat_1_2
+  parent anim_base
+  position 0 0 0.52
+  wirecolor 0.0429688 0.503906 0.304688
+  shadow 1
+  orientation 0 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap tic01_books01
+  verts 6
+    -0.24 -0.21 0
+    -0.24 0.16 0
+    -0.07 -0.21 -0.04
+    -0.07 0.15 -0.04
+    -0.27 -0.21 0
+    -0.27 0.16 0
+  faces 4
+    0 5 1 6 0 3 2 3
+    0 4 5 6 0 1 3 3
+    0 1 3 2 0 2 5 3
+    3 2 0 2 5 4 0 3
+  tverts 6
+    0.0680166 0.718484 0
+    0.0552338 0.718932 0
+    0.0680166 0.536149 0
+    0.0552337 0.53571 0
+    0.117576 0.717376 0
+    0.117576 0.537379 0
+endnode
+node trimesh g_chair_seat_1_1
+  parent anim_base
+  position 0 0 0.52
+  wirecolor 0.683594 0.015625 0.484375
+  shadow 1
+  orientation 0 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap tic01_books01
+  verts 6
+    0.23 -0.21 0
+    0.23 0.16 0
+    0.09 -0.21 -0.04
+    0.09 0.15 -0.04
+    0.27 -0.21 0
+    0.27 0.16 0
+  faces 4
+    4 1 5 10 0 3 2 3
+    4 0 1 10 0 1 3 3
+    2 3 1 2 4 5 3 3
+    1 0 2 2 3 1 4 3
+  tverts 6
+    0.233763 0.718931 0
+    0.220543 0.718655 0
+    0.233763 0.534922 0
+    0.220543 0.535757 0
+    0.176835 0.717376 0
+    0.176835 0.537379 0
+endnode
+node trimesh g_chair_seat_1
+  parent anim_base
+  position 0 0 0.14
+  wirecolor 0.835938 0.300781 0.617188
+  bitmap tic01_books01
+  shininess 10
+  specular 0 0 0
+  diffuse 1 1 1
+  ambient 1 1 1
+  orientation 0 0 0 0
+  shadow 1
+  verts 16
+    -0.26 -0.21 0.4
+    -0.24 -0.21 0.38
+    -0.28 -0.21 0.42
+    -0.26 0.16 0.4
+    -0.24 0.16 0.38
+    -0.28 0.16 0.42
+    0.23 -0.21 0.38
+    0.25 -0.21 0.4
+    0.27 -0.21 0.42
+    0.23 0.16 0.38
+    0.25 0.16 0.4
+    0.27 0.16 0.42
+    -0.07 -0.21 0.34
+    0.09 -0.21 0.34
+    -0.07 0.15 0.34
+    0.09 0.15 0.34
+  faces 14
+    0 4 3 1 0 4 3 3
+    0 1 4 1 0 1 4 3
+    2 3 5 1 2 3 5 3
+    2 0 3 1 2 0 3 3
+    6 10 9 1 6 10 9 3
+    6 7 10 1 6 7 10 3
+    7 11 10 1 7 11 10 3
+    7 8 11 1 7 8 11 3
+    4 1 14 1 4 1 14 3
+    12 14 1 1 12 14 1 3
+    14 12 15 1 14 12 15 3
+    13 15 12 1 13 15 12 3
+    15 13 9 1 15 13 9 3
+    6 9 13 1 6 9 13 3
+  tverts 16
+    0.0586912 0.535416 0
+    0.0695372 0.535863 0
+    0.0486073 0.535416 0
+    0.0586908 0.718637 0
+    0.069537 0.718199 0
+    0.0486069 0.718637 0
+    0.222064 0.535692 0
+    0.233116 0.535416 0
+    0.243138 0.535416 0
+    0.222063 0.71859 0
+    0.233116 0.719425 0
+    0.243138 0.719425 0
+    0.119097 0.536971 0
+    0.178356 0.536971 0
+    0.119096 0.716968 0
+    0.178356 0.716968 0
+endnode
+node trimesh g_chair_back
+  parent anim_base
+  position -0.01 0.25 0.94
+  shadow 1
+  orientation 0 0 0 0
+  wirecolor 0.0235294 0.52549 0.227451
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap tin01_seat
+  verts 16
+    -0.39 -0.02 -0.32
+    0.41 -0.02 -0.32
+    -0.11 0 0.07
+    0.12 0 0.07
+    -0.37 -0.02 -0.08
+    0.38 -0.02 -0.08
+    0.26 -0.01 0.01
+    -0.25 -0.01 0.01
+    -0.11 0.03 0.07
+    0.12 0.03 0.07
+    -0.39 0.01 -0.32
+    -0.37 0.01 -0.08
+    -0.25 0.01 0.01
+    0.41 0.01 -0.32
+    0.38 0.01 -0.08
+    0.26 0.01 0.01
+  faces 26
+    0 1 5 4 0 1 5 1
+    5 4 0 4 5 4 0 1
+    7 5 6 4 7 5 6 1
+    2 7 3 4 2 7 3 1
+    4 5 7 4 4 5 7 1
+    7 6 3 4 7 6 3 1
+    2 3 9 2 8 9 11 1
+    9 8 2 2 11 10 8 1
+    10 0 4 2 13 12 16 1
+    4 11 10 2 16 17 13 1
+    11 4 7 2 17 16 18 1
+    8 12 7 2 15 19 18 1
+    2 8 7 2 14 15 18 1
+    7 12 11 2 18 19 17 1
+    1 13 14 2 20 21 25 1
+    14 5 1 2 25 24 20 1
+    5 14 15 2 24 25 27 1
+    15 6 5 2 27 26 24 1
+    6 15 9 2 26 27 23 1
+    9 3 6 2 23 22 26 1
+    13 10 11 4 29 28 33 1
+    11 14 13 4 33 32 29 1
+    15 12 8 4 34 35 30 1
+    8 9 15 4 30 31 34 1
+    14 11 12 4 32 33 35 1
+    12 15 14 4 35 34 32 1
+  tverts 36
+    0.0493757 0.252539 0
+    0.405682 0.252538 0
+    0.167822 0.454423 0
+    0.286795 0.454578 0
+    0.0623924 0.376347 0
+    0.392549 0.376347 0
+    0.343541 0.423118 0
+    0.1114 0.423117 0
+    0.286607 0.455337 0
+    0.167634 0.454887 0
+    0.286995 0.439692 0
+    0.167706 0.439692 0
+    0.291292 0.19579 0
+    0.275816 0.19579 0
+    0.279038 0.451974 0
+    0.263395 0.451487 0
+    0.291292 0.320281 0
+    0.275816 0.32028 0
+    0.285643 0.387788 0
+    0.271614 0.387305 0
+    0.159782 0.193387 0
+    0.175258 0.193387 0
+    0.171624 0.449985 0
+    0.1871 0.449849 0
+    0.159782 0.31789 0
+    0.175258 0.31789 0
+    0.165425 0.385398 0
+    0.179505 0.384984 0
+    0.398091 0.252981 0
+    0.0417844 0.252981 0
+    0.279957 0.454899 0
+    0.160669 0.455146 0
+    0.0549183 0.37679 0
+    0.385075 0.37679 0
+    0.10393 0.422807 0
+    0.336113 0.422753 0
+endnode
+node trimesh g_chair_bracing
+  parent anim_base
+  position 0 -0.025 0.4075
+  shadow 1
+  orientation 0 0 0 0
+  wirecolor 0.0235294 0.52549 0.227451
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap tin01_seat
+  verts 8
+    0.03 -0.185 0.0025
+    -0.03 -0.185 0.0025
+    0 -0.185 0.0225
+    0.03 0.185 0.0025
+    -0.03 0.185 0.0025
+    0 0.185 0.0225
+    0 -0.185 -0.0275
+    0 0.185 -0.0275
+  faces 8
+    1 5 4 1 1 5 4 1
+    1 2 5 1 1 2 5 1
+    2 3 5 1 2 3 5 1
+    2 0 3 1 2 0 3 1
+    0 7 3 1 6 10 9 1
+    0 6 7 1 6 7 10 1
+    6 4 7 1 7 11 10 1
+    6 1 4 1 7 8 11 1
+  tverts 12
+    0.904428 0.923504 0
+    0.975138 0.923504 0
+    0.939783 0.923504 0
+    0.904427 0.561338 0
+    0.975138 0.561338 0
+    0.939782 0.561338 0
+    0.875138 0.923504 0
+    0.839783 0.923504 0
+    0.804428 0.923504 0
+    0.875138 0.561337 0
+    0.839782 0.561338 0
+    0.804427 0.561338 0
+endnode
+node trimesh g_chair_left_arm
+  parent anim_base
+  position 0.36 -0.02 0.7
+  shadow 1
+  orientation 0 0 0 0
+  wirecolor 0.0235294 0.52549 0.227451
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap plc_rugdmtlbrk
+  verts 12
+    -0.02 -0.19 0
+    -0.02 0.18 0
+    0.01 -0.19 0
+    0.01 0.18 0
+    -0.03 -0.19 -0.02
+    -0.02 -0.19 -0.07
+    -0.03 0.18 -0.02
+    -0.02 0.18 -0.07
+    0.01 -0.19 -0.07
+    0.01 0.18 -0.07
+    0.02 -0.19 -0.02
+    0.02 0.18 -0.02
+  faces 12
+    0 3 1 1 0 3 1 2
+    0 2 3 1 0 2 3 2
+    4 1 6 1 6 5 8 2
+    4 0 1 1 6 4 5 2
+    5 6 7 1 7 8 9 2
+    5 4 6 1 7 6 8 2
+    2 11 3 1 10 15 11 2
+    2 10 11 1 10 14 15 2
+    10 9 11 1 14 13 15 2
+    10 8 9 1 14 12 13 2
+    8 7 9 1 18 17 19 2
+    8 5 7 1 18 16 17 2
+  tverts 20
+    0.565705 0.764612 0
+    0.929886 0.764612 0
+    0.565705 0.738612 0
+    0.929886 0.738611 0
+    0.929887 0.804593 0
+    0.565705 0.804593 0
+    0.929886 0.778593 0
+    0.929886 0.727741 0
+    0.565705 0.778592 0
+    0.565705 0.727741 0
+    0.565705 0.805086 0
+    0.929887 0.805086 0
+    0.565705 0.728234 0
+    0.929886 0.728234 0
+    0.565705 0.779086 0
+    0.929886 0.779085 0
+    0.929886 0.766482 0
+    0.565705 0.766482 0
+    0.929886 0.740482 0
+    0.565705 0.740481 0
+endnode
+node trimesh g_chair_legs
+  parent anim_base
+  position 0 -0.25 0.74
+  shadow 1
+  orientation 0 0 0 0
+  wirecolor 0.0235294 0.52549 0.227451
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap tin01_seat
+  verts 8
+    0.39 0 0
+    0.32 0 0
+    0.4 -0.03 -0.04
+    0.31 -0.03 -0.04
+    -0.39 0 0
+    -0.33 0 0
+    -0.4 -0.03 -0.04
+    -0.32 -0.03 -0.04
+  faces 4
+    0 1 3 1 0 1 3 1
+    3 2 0 1 3 2 0 1
+    7 5 4 1 7 5 4 1
+    4 6 7 1 4 6 7 1
+  tverts 8
+    0.979098 0.958114 0
+    0.960306 0.958665 0
+    0.981066 0.938136 0
+    0.957737 0.938821 0
+    0.755173 0.964683 0
+    0.773965 0.964131 0
+    0.752687 0.944836 0
+    0.776016 0.944151 0
+endnode
+node trimesh g_chair_right_arm
+  parent anim_base
+  position -0.36 -0.02 0.7
+  shadow 1
+  orientation 0 0 0 0
+  wirecolor 0.0235294 0.52549 0.227451
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap plc_rugdmtlbrk
+  verts 12
+    -0.01 -0.19 0
+    -0.01 0.18 0
+    0.01 -0.19 0
+    0.01 0.18 0
+    -0.03 -0.19 -0.02
+    -0.01 -0.19 -0.07
+    -0.03 0.18 -0.02
+    -0.01 0.18 -0.07
+    0.01 -0.19 -0.07
+    0.01 0.18 -0.07
+    0.03 -0.19 -0.02
+    0.03 0.18 -0.02
+  faces 12
+    0 3 1 1 0 3 1 2
+    0 2 3 1 0 2 3 2
+    4 1 6 1 6 5 8 2
+    4 0 1 1 6 4 5 2
+    5 6 7 1 7 8 9 2
+    5 4 6 1 7 6 8 2
+    2 11 3 1 10 15 11 2
+    2 10 11 1 10 14 15 2
+    10 9 11 1 14 13 15 2
+    10 8 9 1 14 12 13 2
+    8 7 9 1 18 17 19 2
+    8 5 7 1 18 16 17 2
+  tverts 20
+    0.565705 0.764612 0
+    0.929886 0.764612 0
+    0.565705 0.738612 0
+    0.929886 0.738611 0
+    0.929887 0.804593 0
+    0.565705 0.804593 0
+    0.929886 0.778593 0
+    0.929886 0.727741 0
+    0.565705 0.778592 0
+    0.565705 0.727741 0
+    0.565705 0.805086 0
+    0.929887 0.805086 0
+    0.565705 0.728234 0
+    0.929886 0.728234 0
+    0.565705 0.779086 0
+    0.929886 0.779085 0
+    0.929886 0.766482 0
+    0.565705 0.766482 0
+    0.929886 0.740482 0
+    0.565705 0.740481 0
+endnode
+node trimesh g_chair_seat
+  parent anim_base
+  position -0.01 -0.03 0.56
+  shadow 1
+  orientation 0 0 0 0
+  wirecolor 0.0235294 0.52549 0.227451
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap tic01_books01
+  verts 12
+    -0.27 -0.18 0
+    -0.27 0.19 0
+    0.28 -0.18 0
+    0.28 0.19 0
+    -0.06 -0.18 -0.08
+    0.1 -0.18 -0.08
+    -0.06 0.18 -0.08
+    0.1 0.18 -0.08
+    -0.26 -0.18 -0.04
+    -0.26 0.19 -0.04
+    0.28 -0.18 -0.04
+    0.28 0.19 -0.04
+  faces 6
+    8 1 9 5 0 3 2 3
+    8 0 1 5 0 1 3 3
+    2 11 3 9 5 6 7 3
+    2 10 11 9 5 4 6 3
+    4 6 7 2 8 10 11 3
+    7 5 4 2 11 9 8 3
+  tverts 12
+    0.0552338 0.718932 0
+    0.0424682 0.718932 0
+    0.0552337 0.53571 0
+    0.0424681 0.53571 0
+    0.233763 0.718931 0
+    0.246468 0.718931 0
+    0.233763 0.534922 0
+    0.246468 0.534922 0
+    0.117576 0.717376 0
+    0.176835 0.717376 0
+    0.117576 0.537379 0
+    0.176835 0.537379 0
+endnode
+node emitter a01_chunkywood1
+  parent plcchair_a01
+  position 0.01 -0.02 0.41
+  alpha 0.5
+  orientation 1 0 0 -6.28319
+  wirecolor 0.52549 0.0235294 0.0235294
+  update Explosion
+  render Normal
+  blend Normal
+  spawntype 0
+  xsize 89
+  ysize 55
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0
+  combinetime 0
+  deadspace 0
+  colorStart 0.482353 0.431373 0.313726
+  colorEnd 0.584314 0.529412 0.403922
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 2
+  lifeExp 0.75
+  mass 3
+  spread 1.22173
+  particleRot 2.9
+  velocity 8
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10
+  loop 0
+  bounce 1
+  m_isTinted 0
+  splat 0
+  affectedByWind 0
+  texture fxpa_cloud01
+  twosidedtex 1
+  xgrid 5
+  ygrid 5
+  fps 0
+  frameStart 0
+  frameEnd 24
+  random 0
+  chunkName plc_chunk_w01
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node emitter a01_chunkywood2
+  parent plcchair_a01
+  position 0.01 -0.02 0.41
+  alpha 0.5
+  orientation 1 0 0 -5.93412
+  wirecolor 0.101961 0.694118 0.101961
+  update Explosion
+  render Normal
+  blend Normal
+  spawntype 0
+  xsize 89
+  ysize 55
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0
+  combinetime 0
+  deadspace 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 2
+  lifeExp 0.75
+  mass 3
+  spread 1.22173
+  particleRot 5
+  velocity 8
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10
+  loop 0
+  bounce 1
+  m_isTinted 0
+  splat 0
+  affectedByWind 0
+  texture fxpa_cloud02
+  twosidedtex 0
+  xgrid 5
+  ygrid 5
+  fps 0
+  frameStart 0
+  frameEnd 24
+  random 0
+  chunkName plc_chunk_w02
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node emitter a01_dust
+  parent plcchair_a01
+  position 0 -0.02 0.4
+  alpha 0.5
+  orientation 1 0 0 -4.71239
+  wirecolor 0.878431 0.776471 0.341176
+  update Explosion
+  render Normal
+  blend Normal
+  spawntype 0
+  xsize 100
+  ysize 99
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0
+  combinetime 0
+  deadspace 0
+  colorStart 0.439216 0.384314 0.239216
+  colorEnd 0.639216 0.603922 0.482353
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 4
+  sizeEnd 1
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 10
+  lifeExp 2.5
+  mass 0.09
+  spread 2.96706
+  particleRot 0.5
+  velocity 2
+  randvel 0.5
+  bounce_co 0
+  blurlength 10
+  loop 0
+  bounce 0
+  m_isTinted 0
+  splat 0
+  affectedByWind 0
+  texture fxpa_smoke01
+  twosidedtex 1
+  xgrid 4
+  ygrid 4
+  fps 10
+  frameStart 0
+  frameEnd 24
+  random 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0.2
+  blastLength 1
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+endmodelgeom plcchair_a01
+
+#MAXANIM ASCII
+newanim damage plcchair_a01
+  length 0.166667
+  transtime 0.5
+  animroot plcchair_a01
+  node dummy plcchair_a01
+    parent NULL
+  endnode
+  node dummy plcchair_a01_pwk
+    parent plcchair_a01
+    #part-number -1
+  endnode
+  node dummy plcchair_pwk
+    parent plcchair_a01_pwk
+    #part-number -1
+  endnode
+  node dummy a01_pwk_use01
+    parent plcchair_pwk
+    #part-number -1
+  endnode
+  node dummy a01_ground
+    parent plcchair_a01
+  endnode
+  node dummy a01_hand
+    parent plcchair_a01
+  endnode
+  node dummy a01_head
+    parent plcchair_a01
+  endnode
+  node dummy a01_head_hit
+    parent plcchair_a01
+  endnode
+  node dummy a01_impact
+    parent plcchair_a01
+  endnode
+  node dummy anim_base
+    parent plcchair_a01
+    positionkey
+      0 0 0 0
+      0.166667 0 0 0
+    endlist
+    orientationkey
+      0 0 0 0 0
+      0.0333333 1 0 0 -0.0872665
+      0.0666667 0.905547 -0.423842 -0.0185053 -0.0963553
+      0.1 -0.729803 -0.679594 -0.0744277 -0.0597794
+      0.133333 -0.669715 0.736176 -0.0976017 -0.0654932
+      0.166667 0 0 0 0
+    endlist
+  endnode
+  node dummy g_chair_legs_13
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_12
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_11
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_10
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_9
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_8
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_7
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_6
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_5
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_4
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_3
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_2_1
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_2
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_11
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_10
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_9
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_8
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_7
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_6
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_5
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_4
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_3
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_2
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_1_1
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_1
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1
+    parent anim_base
+  endnode
+  node dummy g_chair_seat_1_2
+    parent anim_base
+  endnode
+  node dummy g_chair_seat_1_1
+    parent anim_base
+  endnode
+  node dummy g_chair_seat_1
+    parent anim_base
+  endnode
+  node dummy g_chair_back
+    parent anim_base
+  endnode
+  node dummy g_chair_bracing
+    parent anim_base
+  endnode
+  node dummy g_chair_left_arm
+    parent anim_base
+  endnode
+  node dummy g_chair_legs
+    parent anim_base
+  endnode
+  node dummy g_chair_right_arm
+    parent anim_base
+  endnode
+  node dummy g_chair_seat
+    parent anim_base
+  endnode
+  node emitter a01_chunkywood1
+    parent plcchair_a01
+  endnode
+  node emitter a01_chunkywood2
+    parent plcchair_a01
+  endnode
+  node emitter a01_dust
+    parent plcchair_a01
+  endnode
+doneanim damage plcchair_a01
+
+#MAXANIM ASCII
+newanim dead plcchair_a01
+  length 0.0333333
+  transtime 0.25
+  animroot plcchair_a01
+  node dummy plcchair_a01
+    parent NULL
+  endnode
+  node dummy plcchair_a01_pwk
+    parent plcchair_a01
+    #part-number -1
+  endnode
+  node dummy plcchair_pwk
+    parent plcchair_a01_pwk
+    #part-number -1
+  endnode
+  node dummy a01_pwk_use01
+    parent plcchair_pwk
+    #part-number -1
+  endnode
+  node dummy a01_ground
+    parent plcchair_a01
+  endnode
+  node dummy a01_hand
+    parent plcchair_a01
+  endnode
+  node dummy a01_head
+    parent plcchair_a01
+  endnode
+  node dummy a01_head_hit
+    parent plcchair_a01
+  endnode
+  node dummy a01_impact
+    parent plcchair_a01
+  endnode
+  node dummy anim_base
+    parent plcchair_a01
+    positionkey
+      0 0 0 -4
+    endlist
+  endnode
+  node dummy g_chair_legs_13
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_12
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_11
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_10
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_9
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_8
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_7
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_6
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_5
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_4
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_3
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_2_1
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_2
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_11
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_10
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_9
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_8
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_7
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_6
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_5
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_4
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_3
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_2
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_1_1
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_1
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1
+    parent anim_base
+  endnode
+  node dummy g_chair_seat_1_2
+    parent anim_base
+  endnode
+  node dummy g_chair_seat_1_1
+    parent anim_base
+  endnode
+  node dummy g_chair_seat_1
+    parent anim_base
+  endnode
+  node dummy g_chair_back
+    parent anim_base
+  endnode
+  node dummy g_chair_bracing
+    parent anim_base
+  endnode
+  node dummy g_chair_left_arm
+    parent anim_base
+  endnode
+  node dummy g_chair_legs
+    parent anim_base
+  endnode
+  node dummy g_chair_right_arm
+    parent anim_base
+  endnode
+  node dummy g_chair_seat
+    parent anim_base
+  endnode
+  node emitter a01_chunkywood1
+    parent plcchair_a01
+  endnode
+  node emitter a01_chunkywood2
+    parent plcchair_a01
+  endnode
+  node emitter a01_dust
+    parent plcchair_a01
+  endnode
+doneanim dead plcchair_a01
+
+#MAXANIM ASCII
+newanim default plcchair_a01
+  length 0.0333333
+  transtime 0.25
+  animroot plcchair_a01
+  node dummy plcchair_a01
+    parent NULL
+  endnode
+  node dummy plcchair_a01_pwk
+    parent plcchair_a01
+    #part-number -1
+  endnode
+  node dummy plcchair_pwk
+    parent plcchair_a01_pwk
+    #part-number -1
+  endnode
+  node dummy a01_pwk_use01
+    parent plcchair_pwk
+    #part-number -1
+  endnode
+  node dummy a01_ground
+    parent plcchair_a01
+  endnode
+  node dummy a01_hand
+    parent plcchair_a01
+  endnode
+  node dummy a01_head
+    parent plcchair_a01
+  endnode
+  node dummy a01_head_hit
+    parent plcchair_a01
+  endnode
+  node dummy a01_impact
+    parent plcchair_a01
+  endnode
+  node dummy anim_base
+    parent plcchair_a01
+    positionkey
+      0 0 0 0
+    endlist
+    orientationkey
+      0 0 0 0 0
+    endlist
+  endnode
+  node dummy g_chair_legs_13
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_12
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_11
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_10
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_9
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_8
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_7
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_6
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_5
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_4
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_3
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_2_1
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_2
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_11
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_10
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_9
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_8
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_7
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_6
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_5
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_4
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_3
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_2
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_1_1
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_1
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1
+    parent anim_base
+  endnode
+  node dummy g_chair_seat_1_2
+    parent anim_base
+  endnode
+  node dummy g_chair_seat_1_1
+    parent anim_base
+  endnode
+  node dummy g_chair_seat_1
+    parent anim_base
+  endnode
+  node dummy g_chair_back
+    parent anim_base
+  endnode
+  node dummy g_chair_bracing
+    parent anim_base
+  endnode
+  node dummy g_chair_left_arm
+    parent anim_base
+  endnode
+  node dummy g_chair_legs
+    parent anim_base
+  endnode
+  node dummy g_chair_right_arm
+    parent anim_base
+  endnode
+  node dummy g_chair_seat
+    parent anim_base
+  endnode
+  node emitter a01_chunkywood1
+    parent plcchair_a01
+  endnode
+  node emitter a01_chunkywood2
+    parent plcchair_a01
+  endnode
+  node emitter a01_dust
+    parent plcchair_a01
+  endnode
+doneanim default plcchair_a01
+
+#MAXANIM ASCII
+newanim die plcchair_a01
+  length 0.1
+  transtime 0.05
+  event 0 detonate
+  animroot plcchair_a01
+  node dummy plcchair_a01
+    parent NULL
+  endnode
+  node dummy plcchair_a01_pwk
+    parent plcchair_a01
+    #part-number -1
+  endnode
+  node dummy plcchair_pwk
+    parent plcchair_a01_pwk
+    #part-number -1
+  endnode
+  node dummy a01_pwk_use01
+    parent plcchair_pwk
+    #part-number -1
+  endnode
+  node dummy a01_ground
+    parent plcchair_a01
+  endnode
+  node dummy a01_hand
+    parent plcchair_a01
+  endnode
+  node dummy a01_head
+    parent plcchair_a01
+  endnode
+  node dummy a01_head_hit
+    parent plcchair_a01
+  endnode
+  node dummy a01_impact
+    parent plcchair_a01
+  endnode
+  node dummy anim_base
+    parent plcchair_a01
+    positionkey
+      0 0 0 -2
+      0.1 0 0 -3
+    endlist
+  endnode
+  node dummy g_chair_legs_13
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_12
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_11
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_10
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_9
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_8
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_7
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_6
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_5
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_4
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_3
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_2_1
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_2
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_11
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_10
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_9
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_8
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_7
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_6
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_5
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_4
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_3
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_2
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_1_1
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1_1
+    parent anim_base
+  endnode
+  node dummy g_chair_legs_1
+    parent anim_base
+  endnode
+  node dummy g_chair_seat_1_2
+    parent anim_base
+  endnode
+  node dummy g_chair_seat_1_1
+    parent anim_base
+  endnode
+  node dummy g_chair_seat_1
+    parent anim_base
+  endnode
+  node dummy g_chair_back
+    parent anim_base
+  endnode
+  node dummy g_chair_bracing
+    parent anim_base
+  endnode
+  node dummy g_chair_left_arm
+    parent anim_base
+  endnode
+  node dummy g_chair_legs
+    parent anim_base
+  endnode
+  node dummy g_chair_right_arm
+    parent anim_base
+  endnode
+  node dummy g_chair_seat
+    parent anim_base
+  endnode
+  node emitter a01_chunkywood1
+    parent plcchair_a01
+  endnode
+  node emitter a01_chunkywood2
+    parent plcchair_a01
+  endnode
+  node emitter a01_dust
+    parent plcchair_a01
+  endnode
+doneanim die plcchair_a01
+donemodel plcchair_a01

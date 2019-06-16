@@ -1,0 +1,1029 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: gi-p-shelf01
+filedependancy interior placeables02.max
+newmodel gi-p-shelf01
+setsupermodel gi-p-shelf01 NULL
+classification Character
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom gi-p-shelf01
+node dummy gi-p-shelf01
+  parent NULL
+endnode
+node dummy Dummy02
+  parent gi-p-shelf01
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 0.542969 0.542969 0.542969
+endnode
+node trimesh Mesh161
+  parent Dummy02
+  position -0.0536293 0.00940209 2.28784
+  orientation 0.010973 -0.209378 -0.977773 -0.0999545
+  wirecolor 0.605469 0.605469 0.605469
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap PLC_wood256
+  verts 8
+    -0.939715 -0.152025 0.00916397
+    -0.938512 -0.152086 -0.0485382
+    0.891103 -0.331576 0.0475093
+    0.892305 -0.331636 -0.0101929
+    0.938514 0.152086 0.0485381
+    0.939717 0.152026 -0.00916412
+    -0.892303 0.331637 0.0101927
+    -0.891101 0.331576 -0.0475095
+  faces 10
+    0 1 2  1  0 1 2  0
+    3 2 1  1  3 2 1  0
+    4 5 6  1  2 3 0  0
+    7 6 5  1  1 0 3  0
+    0 2 6  1  4 5 6  0
+    6 2 4  1  6 5 7  0
+    3 5 4  1  5 7 7  0
+    4 2 3  1  7 5 5  0
+    7 1 0  1  6 4 4  0
+    0 6 7  1  4 6 6  0
+  tverts 8
+    1.41089 1.33227 0
+    1.41089 1.27456 0
+    -0.410891 1.33227 0
+    -0.410891 1.27456 0
+    0.245353 1.60466 0
+    0.245352 -0.604663 0
+    0.754647 1.60466 0
+    0.754647 -0.604663 0
+endnode
+node trimesh Mesh162
+  parent Dummy02
+  position 0.906371 0.00534744 1.24024
+  orientation 0.579284 -0.099174 -0.80907 -0.0956552
+  wirecolor 0.605469 0.605469 0.605469
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap PLC_wood256
+  verts 8
+    -0.0743305 -0.324008 1.22573
+    0.0054265 -0.330211 1.22632
+    -0.0342847 0.193639 1.25469
+    0.0454723 0.187436 1.25528
+    0.034288 -0.193638 -1.25469
+    0.0743338 0.324008 -1.22573
+    -0.045469 -0.187435 -1.25528
+    -0.00542322 0.330211 -1.22632
+  faces 10
+    0 1 2  1  0 1 2  0
+    3 2 1  1  3 2 1  0
+    4 5 3  1  4 5 6  0
+    3 1 4  1  6 7 4  0
+    0 6 4  1  8 9 10  0
+    4 1 0  1  10 11 8  0
+    2 5 7  1  8 10 9  0
+    3 5 2  1  11 10 8  0
+    2 7 0  1  12 5 13  0
+    6 0 7  1  4 13 5  0
+  tverts 14
+    0.245352 -0.604663 0
+    0.245352 -0.700721 0
+    0.754647 -0.604663 0
+    0.754647 -0.700721 0
+    0.269815 -0.332501 0
+    0.730184 -0.332501 0
+    0.730184 1.3325 0
+    0.269816 1.3325 0
+    -0.410891 1.50727 0
+    -0.410891 -0.5 0
+    -0.490099 -0.5 0
+    -0.490099 1.5 0
+    0.730184 1.66204 0
+    0.269816 1.66204 0
+endnode
+node trimesh Mesh163
+  parent Dummy02
+  position -0.964342 -0.0134433 1.24221
+  orientation 0.137921 0.0188109 -0.990265 -0.112755
+  wirecolor 0.898438 0.898438 0.898438
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap PLC_wood256
+  verts 8
+    -0.0123267 0.282234 -1.23819
+    -0.0702742 -0.234465 -1.2462
+    -0.0671699 -0.273322 1.23843
+    -0.00922251 0.243378 1.24643
+    0.0123316 -0.282234 1.23819
+    0.00922738 -0.243378 -1.24643
+    0.0671748 0.273321 -1.23843
+    0.0702791 0.234465 1.2462
+  faces 10
+    0 1 2  1  0 1 2  0
+    2 3 0  1  2 3 0  0
+    4 1 5  1  4 5 6  0
+    2 1 4  1  7 5 4  0
+    6 0 7  1  6 5 4  0
+    0 3 7  1  5 7 4  0
+    2 4 7  1  8 9 10  0
+    7 3 2  1  10 11 8  0
+    6 7 5  1  0 12 1  0
+    4 5 7  1  13 1 12  0
+  tverts 14
+    0.730184 -0.332501 0
+    0.269816 -0.332501 0
+    0.269816 1.3325 0
+    0.730185 1.3325 0
+    1.41089 1.49459 0
+    1.4901 -0.5 0
+    1.41089 -0.5 0
+    1.4901 1.5 0
+    0.245353 1.70072 0
+    0.245353 1.60466 0
+    0.754647 1.60466 0
+    0.754648 1.70072 0
+    0.730184 1.39948 0
+    0.269816 1.39948 0
+endnode
+node trimesh Mesh164
+  parent Dummy02
+  position -0.0243568 0.00995507 0.230007
+  orientation -0.0170372 -0.216822 -0.976062 -0.0643638
+  wirecolor 0.898438 0.898438 0.898438
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap PLC_wood256
+  verts 8
+    -0.949353 -0.185188 0.026901
+    -0.948284 -0.185306 -0.0499284
+    0.917769 -0.300203 0.0514363
+    0.918838 -0.300321 -0.025393
+    0.948282 0.18482 0.0511168
+    0.949351 0.184702 -0.0257125
+    -0.887909 0.30032 0.025393
+    -0.88684 0.300202 -0.0514363
+  faces 10
+    0 1 2  1  0 1 2  0
+    3 2 1  1  3 2 1  0
+    4 5 6  1  2 3 0  0
+    7 6 5  1  4 0 3  0
+    0 2 4  1  5 6 7  0
+    4 6 0  1  7 8 5  0
+    7 1 0  1  8 5 5  0
+    0 6 7  1  5 8 8  0
+    3 5 4  1  6 7 7  0
+    4 2 3  1  7 6 6  0
+  tverts 9
+    1.41089 -0.231553 0
+    1.41089 -0.308389 0
+    -0.410891 -0.231552 0
+    -0.410891 -0.308389 0
+    1.41089 -0.30839 0
+    0.245353 1.60466 0
+    0.245352 -0.604663 0
+    0.859327 -0.604663 0
+    0.859327 1.60466 0
+endnode
+node trimesh Mesh165
+  parent Dummy02
+  position -0.0243568 0.00995507 0.847327
+  orientation -0.0170372 -0.216822 -0.976062 -0.0643638
+  wirecolor 0.898438 0.898438 0.898438
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap PLC_wood256
+  verts 8
+    -0.949354 -0.185188 0.026901
+    -0.948285 -0.185306 -0.0499284
+    0.917768 -0.300203 0.0514363
+    0.918837 -0.300321 -0.025393
+    0.948281 0.18482 0.0511168
+    0.94935 0.184702 -0.0257125
+    -0.88791 0.30032 0.025393
+    -0.886841 0.300202 -0.0514363
+  faces 10
+    0 1 2  1  0 1 2  0
+    3 2 1  1  3 2 1  0
+    4 5 6  1  2 3 0  0
+    7 6 5  1  4 0 3  0
+    0 2 4  1  5 6 7  0
+    4 6 0  1  7 8 5  0
+    7 1 0  1  8 5 5  0
+    0 6 7  1  5 8 8  0
+    3 5 4  1  6 7 7  0
+    4 2 3  1  7 6 6  0
+  tverts 9
+    1.41089 -0.231553 0
+    1.41089 -0.308389 0
+    -0.410891 -0.231552 0
+    -0.410891 -0.308389 0
+    1.41089 -0.30839 0
+    0.245353 1.60466 0
+    0.245352 -0.604663 0
+    0.859327 -0.604663 0
+    0.859327 1.60466 0
+endnode
+node trimesh Mesh166
+  parent Dummy02
+  position -0.0243568 0.00995507 1.32581
+  orientation -0.0170372 -0.216822 -0.976062 -0.0643638
+  wirecolor 0.898438 0.898438 0.898438
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap PLC_wood256
+  verts 8
+    -0.949353 -0.185188 0.026901
+    -0.948284 -0.185306 -0.0499284
+    0.917769 -0.300203 0.0514363
+    0.918838 -0.300321 -0.025393
+    0.948282 0.18482 0.0511168
+    0.949351 0.184702 -0.0257125
+    -0.887909 0.30032 0.025393
+    -0.88684 0.300202 -0.0514363
+  faces 10
+    0 1 2  1  0 1 2  0
+    3 2 1  1  3 2 1  0
+    4 5 6  1  2 3 0  0
+    7 6 5  1  4 0 3  0
+    0 2 4  1  5 6 7  0
+    4 6 0  1  7 8 5  0
+    7 1 0  1  8 5 5  0
+    0 6 7  1  5 8 8  0
+    3 5 4  1  6 7 7  0
+    4 2 3  1  7 6 6  0
+  tverts 9
+    1.41089 -0.231553 0
+    1.41089 -0.308389 0
+    -0.410891 -0.231552 0
+    -0.410891 -0.308389 0
+    1.41089 -0.30839 0
+    0.245353 1.60466 0
+    0.245352 -0.604663 0
+    0.859327 -0.604663 0
+    0.859327 1.60466 0
+endnode
+node trimesh Mesh167
+  parent Dummy02
+  position -0.0243568 0.00995507 1.69217
+  orientation -0.0170372 -0.216822 -0.976062 -0.0643638
+  wirecolor 0.898438 0.898438 0.898438
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap PLC_wood256
+  verts 8
+    -0.949354 -0.185188 0.026901
+    -0.948285 -0.185306 -0.0499284
+    0.917768 -0.300203 0.0514363
+    0.918837 -0.300321 -0.025393
+    0.948281 0.18482 0.0511168
+    0.94935 0.184702 -0.0257125
+    -0.88791 0.30032 0.025393
+    -0.886841 0.300202 -0.0514363
+  faces 10
+    0 1 2  1  0 1 2  0
+    3 2 1  1  3 2 1  0
+    4 5 6  1  2 3 0  0
+    7 6 5  1  4 0 3  0
+    0 2 4  1  5 6 7  0
+    4 6 0  1  7 8 5  0
+    7 1 0  1  8 5 5  0
+    0 6 7  1  5 8 8  0
+    3 5 4  1  6 7 7  0
+    4 2 3  1  7 6 6  0
+  tverts 9
+    1.41089 -0.231553 0
+    1.41089 -0.308389 0
+    -0.410891 -0.231552 0
+    -0.410891 -0.308389 0
+    1.41089 -0.30839 0
+    0.245353 1.60466 0
+    0.245352 -0.604663 0
+    0.859327 -0.604663 0
+    0.859327 1.60466 0
+endnode
+node emitter ChunkyWood194
+  parent gi-p-shelf01
+  position 0.00110219 -0.0149607 1.32824
+  orientation 0 0 0 0
+  wirecolor 0.347656 0.347656 0.347656
+    colorStart 0.482353 0.435294 0.317647
+    colorEnd 0.584314 0.533333 0.407843
+    alphaStart 1
+    alphaEnd 1
+    sizeStart 0.1
+    sizeEnd 0.1
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 24
+    birthrate 3
+    spawnType 0
+    lifeExp 0.75
+    mass 3
+    spread 1.22173
+    particleRot 2.9
+    velocity 8
+    randvel 0.3
+    fps 0
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 89
+    ysize 40
+    bounce 1
+    bounce_co 0.5
+    loop 0
+    update Explosion
+    render Normal
+    Blend Normal
+    update_sel 2
+    render_sel 1
+    blend_sel 1
+    deadspace 0
+    opacity 0.5
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 1
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_cloud02
+    xgrid 5
+    ygrid 5
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+    chunkName PLC_Chunk_W02
+endnode
+node emitter fire!119
+  parent gi-p-shelf01
+  position 0.00110219 -0.0149607 1.14798
+  orientation -1 0 0 -1.5708
+  wirecolor 0.347656 0.347656 0.347656
+    colorStart 0.47451 0.439216 0.364706
+    colorEnd 0.819608 0.796079 0.709804
+    alphaStart 1
+    alphaEnd 0
+    sizeStart 4
+    sizeEnd 1
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 24
+    birthrate 10
+    spawnType 0
+    lifeExp 2.5
+    mass 0.09
+    spread 2.96706
+    particleRot 0.5
+    velocity 2
+    randvel 0.5
+    fps 10
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 100
+    ysize 99
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Explosion
+    render Normal
+    Blend Normal
+    update_sel 2
+    render_sel 1
+    blend_sel 1
+    deadspace 0
+    opacity 0.5
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0.2
+    blastLength 1
+    twosidedtex 1
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_smoke01
+    xgrid 4
+    ygrid 4
+    affectedByWind 0
+    m_isTinted 1
+    renderorder 0
+    Splat 0
+endnode
+node emitter ChunkyWood195
+  parent gi-p-shelf01
+  position 0.00110219 -0.0149607 1.22202
+  orientation 0 0 0 0
+  wirecolor 0.347656 0.347656 0.347656
+    colorStart 1 1 1
+    colorEnd 1 1 1
+    alphaStart 1
+    alphaEnd 1
+    sizeStart 0.1
+    sizeEnd 0.1
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 24
+    birthrate 3
+    spawnType 0
+    lifeExp 0.75
+    mass 3
+    spread 1.22173
+    particleRot 5
+    velocity 8
+    randvel 0.3
+    fps 0
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 89
+    ysize 40
+    bounce 1
+    bounce_co 0.5
+    loop 0
+    update Explosion
+    render Normal
+    Blend Normal
+    update_sel 2
+    render_sel 1
+    blend_sel 1
+    deadspace 0
+    opacity 0.5
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_cloud02
+    xgrid 5
+    ygrid 5
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+    chunkName PLC_Chunk_W01
+endnode
+node dummy A02_hand01
+  parent gi-p-shelf01
+  position 0.00398787 -0.735385 0.934402
+  orientation 0 0 0 0
+  wirecolor 0.347656 0.347656 0.347656
+endnode
+node dummy A02_head01
+  parent gi-p-shelf01
+  position 0.00398793 0.0108254 2.82981
+  orientation 0 0 0 0
+  wirecolor 0.347656 0.347656 0.347656
+endnode
+node dummy A02_head_hit01
+  parent gi-p-shelf01
+  position 0.00398793 0.0108254 2.31867
+  orientation 0 0 0 0
+  wirecolor 0.347656 0.347656 0.347656
+endnode
+node dummy A02_impact01
+  parent gi-p-shelf01
+  position 0.00398793 0.0109994 0.868134
+  orientation 0 0 0 0
+  wirecolor 0.347656 0.347656 0.347656
+endnode
+node dummy A02_ground01
+  parent gi-p-shelf01
+  position -0.00363414 0.00698754 0
+  orientation 0 0 0 0
+  wirecolor 0.347656 0.347656 0.347656
+endnode
+endmodelgeom gi-p-shelf01
+
+#MAXANIM ASCII
+newanim die gi-p-shelf01
+  length 0.333333
+  transtime 0
+  animroot gi-p-shelf01
+node dummy gi-p-shelf01
+  parent NULL
+endnode
+node dummy Dummy02
+  parent gi-p-shelf01
+    positionkey
+      0.1  0 0 0
+      0.333333  -0.418565 0 -4.13837
+    endlist
+    orientationkey
+      0  0 0 0 0
+      0.0333333  0 0 1 0.10472
+      0.0666667  0 0 0 0
+      0.1  0 0 0 0
+      0.333333  0.773566 0.521424 -0.360156 0.411334
+    endlist
+endnode
+node trimesh Mesh161
+  parent Dummy02
+    positionkey
+      0  -0.0536263 0.00940233 2.28784
+      0.0333333  -0.0219019 -0.0828653 2.28784
+      0.1  -0.0536263 0.00940233 2.28784
+      0.166667  -0.0536263 0.00940233 2.28784
+      0.3  1.4842 0.877466 2.46219
+    endlist
+    orientationkey
+      0  -0.010973 0.209378 0.977773 0.0999545
+      0.0333333  0.010973 -0.209378 -0.977773 0.0249888
+      0.1  -0.010973 0.209378 0.977773 0.0999545
+      0.166667  -0.010973 0.209378 0.977773 0.0999545
+      0.3  -0.142536 -0.880885 0.451359 0.916045
+    endlist
+endnode
+node trimesh Mesh162
+  parent Dummy02
+    positionkey
+      0  0.906375 0.00534783 1.24024
+      0.0333333  0.906375 -0.0521846 1.24024
+      0.1  0.906375 0.00534783 1.24024
+      0.166667  0.906375 0.00534783 1.24024
+    endlist
+    orientationkey
+      0  -0.579284 0.099174 0.80907 0.0956552
+      0.0333333  0.579284 -0.099174 -0.80907 0.0239141
+      0.1  -0.579284 0.099174 0.80907 0.0956552
+      0.166667  -0.579284 0.099174 0.80907 0.0956552
+      0.3  -0.322875 -0.805725 0.496548 0.688814
+    endlist
+endnode
+node trimesh Mesh163
+  parent Dummy02
+    positionkey
+      0  -0.964338 -0.0134429 1.24221
+      0.0333333  -0.964338 0.0602572 1.24221
+      0.1  -0.964338 -0.0134429 1.24221
+      0.166667  -0.964338 -0.0134429 1.24221
+    endlist
+    orientationkey
+      0  -0.137921 -0.0188109 0.990265 0.112755
+      0.0333333  0.137921 0.0188109 -0.990265 0.028189
+      0.1  -0.137921 -0.0188109 0.990265 0.112755
+      0.166667  -0.137921 -0.0188109 0.990265 0.112755
+      0.3  -0.089764 0.866815 0.490484 1.1074
+    endlist
+endnode
+node trimesh Mesh164
+  parent Dummy02
+    positionkey
+      0  -0.0243566 0.00995549 0.230007
+      0.0333333  -0.00319536 0.00995549 0.249342
+      0.1  -0.0243566 0.00995549 0.230007
+      0.166667  -0.0243566 0.00995549 0.230007
+      0.3  0.0192296 0.0582675 0.243915
+    endlist
+    orientationkey
+      0  0.0170372 0.216822 0.976062 0.0643638
+      0.0333333  -0.0170372 -0.216822 -0.976062 0.016091
+      0.1  0.0170372 0.216822 0.976062 0.0643638
+      0.166667  0.0170372 0.216822 0.976062 0.0643638
+      0.3  0.854078 0.270766 0.444114 0.166044
+    endlist
+endnode
+node trimesh Mesh165
+  parent Dummy02
+    positionkey
+      0  -0.0243575 0.00995551 0.847328
+      0.0333333  -0.00319627 0.00995551 0.866663
+      0.1  -0.0243575 0.00995551 0.847328
+      0.166667  -0.0243575 0.00995551 0.847328
+      0.3  0.0192287 0.0582675 0.861236
+    endlist
+    orientationkey
+      0  0.0170372 0.216822 0.976062 0.0643638
+      0.0333333  -0.0170372 -0.216822 -0.976062 0.016091
+      0.1  0.0170372 0.216822 0.976062 0.0643638
+      0.166667  0.0170372 0.216822 0.976062 0.0643638
+      0.3  0.854078 0.270766 0.444114 0.166044
+    endlist
+endnode
+node trimesh Mesh166
+  parent Dummy02
+    positionkey
+      0  -0.0243572 0.00995521 1.32581
+      0.0333333  -0.00319595 0.00995521 1.34514
+      0.1  -0.0243572 0.00995521 1.32581
+      0.166667  -0.0243572 0.00995521 1.32581
+      0.3  0.019229 0.0582672 1.33971
+    endlist
+    orientationkey
+      0  0.0170372 0.216822 0.976062 0.0643638
+      0.0333333  -0.0170372 -0.216822 -0.976062 0.016091
+      0.1  0.0170372 0.216822 0.976062 0.0643638
+      0.166667  0.0170372 0.216822 0.976062 0.0643638
+      0.3  0.854078 0.270766 0.444114 0.166044
+    endlist
+endnode
+node trimesh Mesh167
+  parent Dummy02
+    positionkey
+      0  -0.0243574 0.00995552 1.69217
+      0.0333333  -0.00319616 0.00995552 1.71151
+      0.1  -0.0243574 0.00995552 1.69217
+      0.166667  -0.0243574 0.00995552 1.69217
+      0.3  0.0192288 0.0582675 1.70608
+    endlist
+    orientationkey
+      0  0.0170372 0.216822 0.976062 0.0643638
+      0.0333333  -0.0170372 -0.216822 -0.976062 0.016091
+      0.1  0.0170372 0.216822 0.976062 0.0643638
+      0.166667  0.0170372 0.216822 0.976062 0.0643638
+      0.3  0.854078 0.270766 0.444114 0.166044
+    endlist
+endnode
+node emitter ChunkyWood194
+  parent gi-p-shelf01
+endnode
+node emitter fire!119
+  parent gi-p-shelf01
+endnode
+node emitter ChunkyWood195
+  parent gi-p-shelf01
+endnode
+node dummy A02_hand01
+  parent gi-p-shelf01
+endnode
+node dummy A02_head01
+  parent gi-p-shelf01
+endnode
+node dummy A02_head_hit01
+  parent gi-p-shelf01
+endnode
+node dummy A02_impact01
+  parent gi-p-shelf01
+endnode
+node dummy A02_ground01
+  parent gi-p-shelf01
+endnode
+node trimesh walkm311
+  parent gi-p-shelf01
+endnode
+event 0.1  detonate
+event 0.1  detonate
+event 0.1  detonate
+doneanim die gi-p-shelf01
+
+#MAXANIM ASCII
+newanim dead gi-p-shelf01
+  length 0.0333333
+  transtime 0
+  animroot gi-p-shelf01
+node dummy gi-p-shelf01
+  parent NULL
+endnode
+node dummy Dummy02
+  parent gi-p-shelf01
+    positionkey
+      0  -0.418565 0 -4.13837
+    endlist
+    orientationkey
+      0  0.773566 0.521424 -0.360156 0.411334
+    endlist
+endnode
+node trimesh Mesh161
+  parent Dummy02
+endnode
+node trimesh Mesh162
+  parent Dummy02
+endnode
+node trimesh Mesh163
+  parent Dummy02
+endnode
+node trimesh Mesh164
+  parent Dummy02
+endnode
+node trimesh Mesh165
+  parent Dummy02
+endnode
+node trimesh Mesh166
+  parent Dummy02
+endnode
+node trimesh Mesh167
+  parent Dummy02
+endnode
+node emitter ChunkyWood194
+  parent gi-p-shelf01
+endnode
+node emitter fire!119
+  parent gi-p-shelf01
+endnode
+node emitter ChunkyWood195
+  parent gi-p-shelf01
+endnode
+node dummy A02_hand01
+  parent gi-p-shelf01
+endnode
+node dummy A02_head01
+  parent gi-p-shelf01
+endnode
+node dummy A02_head_hit01
+  parent gi-p-shelf01
+endnode
+node dummy A02_impact01
+  parent gi-p-shelf01
+endnode
+node dummy A02_ground01
+  parent gi-p-shelf01
+endnode
+node trimesh walkm311
+  parent gi-p-shelf01
+endnode
+doneanim dead gi-p-shelf01
+
+#MAXANIM ASCII
+newanim damage gi-p-shelf01
+  length 0.1
+  transtime 0
+  animroot gi-p-shelf01
+node dummy gi-p-shelf01
+  parent NULL
+endnode
+node dummy Dummy02
+  parent gi-p-shelf01
+    positionkey
+      0.1  0 0 0
+    endlist
+    orientationkey
+      0  0 0 0 0
+      0.0333333  0 0 1 0.10472
+      0.0666667  0 0 0 0
+      0.1  0 0 0 0
+    endlist
+endnode
+node trimesh Mesh161
+  parent Dummy02
+    positionkey
+      0  -0.0536263 0.00940233 2.28784
+      0.0333333  -0.0219019 -0.0828653 2.28784
+      0.1  -0.0536263 0.00940233 2.28784
+    endlist
+    orientationkey
+      0  -0.0109729 0.209378 0.977773 0.0999545
+      0.0333333  0.010973 -0.209378 -0.977773 0.0249888
+      0.1  -0.010973 0.209378 0.977773 0.0999545
+    endlist
+endnode
+node trimesh Mesh162
+  parent Dummy02
+    positionkey
+      0  0.906375 0.00534783 1.24024
+      0.0333333  0.906375 -0.0521846 1.24024
+      0.1  0.906375 0.00534783 1.24024
+    endlist
+    orientationkey
+      0  -0.579287 0.0991729 0.809068 0.0956554
+      0.0333333  0.579284 -0.099174 -0.80907 0.0239139
+      0.1  -0.579284 0.099174 0.80907 0.0956554
+    endlist
+endnode
+node trimesh Mesh163
+  parent Dummy02
+    positionkey
+      0  -0.964338 -0.0134429 1.24221
+      0.0333333  -0.964338 0.0602572 1.24221
+      0.1  -0.964338 -0.0134429 1.24221
+    endlist
+    orientationkey
+      0  -0.137921 -0.0188112 0.990265 0.112755
+      0.0333333  0.137921 0.0188109 -0.990265 0.028189
+      0.1  -0.137921 -0.0188109 0.990265 0.112755
+    endlist
+endnode
+node trimesh Mesh164
+  parent Dummy02
+    positionkey
+      0  -0.0243566 0.00995549 0.230007
+      0.0333333  -0.00319536 0.00995549 0.249342
+      0.1  -0.0243566 0.00995549 0.230007
+    endlist
+    orientationkey
+      0  0.0170373 0.216822 0.976062 0.0643638
+      0.0333333  -0.0170372 -0.216822 -0.976062 0.016091
+      0.1  0.0170372 0.216822 0.976062 0.0643638
+    endlist
+endnode
+node trimesh Mesh165
+  parent Dummy02
+    positionkey
+      0  -0.0243575 0.00995551 0.847328
+      0.0333333  -0.00319627 0.00995551 0.866663
+      0.1  -0.0243575 0.00995551 0.847328
+    endlist
+    orientationkey
+      0  0.0170373 0.216822 0.976062 0.0643638
+      0.0333333  -0.0170372 -0.216822 -0.976062 0.016091
+      0.1  0.0170372 0.216822 0.976062 0.0643638
+    endlist
+endnode
+node trimesh Mesh166
+  parent Dummy02
+    positionkey
+      0  -0.0243572 0.00995521 1.32581
+      0.0333333  -0.00319595 0.00995521 1.34514
+      0.1  -0.0243572 0.00995521 1.32581
+    endlist
+    orientationkey
+      0  0.0170373 0.216822 0.976062 0.0643638
+      0.0333333  -0.0170372 -0.216822 -0.976062 0.016091
+      0.1  0.0170372 0.216822 0.976062 0.0643638
+    endlist
+endnode
+node trimesh Mesh167
+  parent Dummy02
+    positionkey
+      0  -0.0243574 0.00995552 1.69217
+      0.0333333  -0.00319616 0.00995552 1.71151
+      0.1  -0.0243574 0.00995552 1.69217
+    endlist
+    orientationkey
+      0  0.0170373 0.216822 0.976062 0.0643638
+      0.0333333  -0.0170372 -0.216822 -0.976062 0.016091
+      0.1  0.0170372 0.216822 0.976062 0.0643638
+    endlist
+endnode
+node emitter ChunkyWood194
+  parent gi-p-shelf01
+endnode
+node emitter fire!119
+  parent gi-p-shelf01
+endnode
+node emitter ChunkyWood195
+  parent gi-p-shelf01
+endnode
+node dummy A02_hand01
+  parent gi-p-shelf01
+endnode
+node dummy A02_head01
+  parent gi-p-shelf01
+endnode
+node dummy A02_head_hit01
+  parent gi-p-shelf01
+endnode
+node dummy A02_impact01
+  parent gi-p-shelf01
+endnode
+node dummy A02_ground01
+  parent gi-p-shelf01
+endnode
+node trimesh walkm311
+  parent gi-p-shelf01
+endnode
+doneanim damage gi-p-shelf01
+
+#MAXANIM ASCII
+newanim default gi-p-shelf01
+  length 0
+  transtime 0.25
+  animroot gi-p-shelf01
+node dummy gi-p-shelf01
+  parent NULL
+endnode
+node dummy Dummy02
+  parent gi-p-shelf01
+endnode
+node trimesh Mesh161
+  parent Dummy02
+    positionkey
+      0  -0.0536263 0.00940233 2.28784
+    endlist
+    orientationkey
+      0  -0.010973 0.209378 0.977773 0.0999545
+    endlist
+endnode
+node trimesh Mesh162
+  parent Dummy02
+    positionkey
+      0  0.906375 0.00534783 1.24024
+    endlist
+    orientationkey
+      0  -0.579284 0.099174 0.80907 0.0956555
+    endlist
+endnode
+node trimesh Mesh163
+  parent Dummy02
+    positionkey
+      0  -0.964338 -0.0134429 1.24221
+    endlist
+    orientationkey
+      0  -0.137921 -0.0188109 0.990265 0.112755
+    endlist
+endnode
+node trimesh Mesh164
+  parent Dummy02
+    positionkey
+      0  -0.0243566 0.00995549 0.230007
+    endlist
+    orientationkey
+      0  0.0170372 0.216822 0.976062 0.0643638
+    endlist
+endnode
+node trimesh Mesh165
+  parent Dummy02
+    positionkey
+      0  -0.0243575 0.00995551 0.847328
+    endlist
+    orientationkey
+      0  0.0170372 0.216822 0.976062 0.0643638
+    endlist
+endnode
+node trimesh Mesh166
+  parent Dummy02
+    positionkey
+      0  -0.0243572 0.00995521 1.32581
+    endlist
+    orientationkey
+      0  0.0170372 0.216822 0.976062 0.0643638
+    endlist
+endnode
+node trimesh Mesh167
+  parent Dummy02
+    positionkey
+      0  -0.0243574 0.00995552 1.69217
+    endlist
+    orientationkey
+      0  0.0170372 0.216822 0.976062 0.0643638
+    endlist
+endnode
+node emitter ChunkyWood194
+  parent gi-p-shelf01
+endnode
+node emitter fire!119
+  parent gi-p-shelf01
+endnode
+node emitter ChunkyWood195
+  parent gi-p-shelf01
+endnode
+node dummy A02_hand01
+  parent gi-p-shelf01
+endnode
+node dummy A02_head01
+  parent gi-p-shelf01
+endnode
+node dummy A02_head_hit01
+  parent gi-p-shelf01
+endnode
+node dummy A02_impact01
+  parent gi-p-shelf01
+endnode
+node dummy A02_ground01
+  parent gi-p-shelf01
+endnode
+node trimesh walkm311
+  parent gi-p-shelf01
+endnode
+doneanim default gi-p-shelf01
+donemodel gi-p-shelf01

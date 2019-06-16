@@ -1,0 +1,97 @@
+filedependancy Unknown
+newmodel plc_hammer1
+setsupermodel plc_hammer1 NULL
+classification Character
+setanimationscale 1.0
+beginmodelgeom plc_hammer1
+node dummy plc_hammer1
+    parent NULL
+endnode
+node trimesh Box2614
+    parent plc_hammer1
+    position -0.183811 0.0107056 0.10155
+    orientation 0.0 0.0 -1.0 -0.113446
+    scale 1.0
+    shininess 1.000000
+    render 1
+    diffuse 1.0 1.0 1.0
+    ambient 1.0 1.0 1.0
+    specular 0.0 0.0 0.0
+    selfillumcolor 0.0 0.0 0.0
+    alpha 1.0
+    bitmap TIN01__metal01
+    verts 8
+        -0.23 -0.16 -0.08
+        -0.21 -0.16 0.13
+        -0.17 0.19 0.13
+        -0.19 0.19 -0.08
+        -0.02 -0.19 -0.1
+        0.0 -0.19 0.1
+        0.04 0.17 0.1
+        0.02 0.17 -0.1
+    faces 10
+        0 1 2 1 0 1 2 1
+        2 3 0 1 2 3 0 1
+        4 5 1 1 0 1 2 5
+        1 0 4 1 2 3 0 5
+        5 6 2 1 0 1 2 4
+        2 1 5 1 2 3 0 4
+        6 7 3 1 0 1 2 6
+        3 2 6 1 2 3 0 6
+        4 7 6 1 0 1 4 4
+        6 5 4 1 4 5 0 4
+    tverts 6
+        0.341772 0.341772 0
+        0.658228 0.341772 0
+        0.658228 0.658228 0
+        0.341772 0.658228 0
+        0.658228 0.154043 0
+        0.341772 0.154043 0
+endnode
+node trimesh Mesh118
+    parent plc_hammer1
+    position -0.183811 0.0107056 0.10155
+    orientation 0.0 0.0 -1.0 -0.113446
+    scale 1.0
+    shininess 1.000000
+    render 1
+    diffuse 0.603922 0.584314 0.592157
+    ambient 0.603922 0.584314 0.592157
+    specular 0.0 0.0 0.0
+    selfillumcolor 0.0 0.0 0.0
+    alpha 1.0
+    bitmap TIN01_shpFLR1
+    verts 8
+        0.01 0.02 -0.03
+        0.02 0.02 0.04
+        0.6 -0.05 -0.03
+        0.59 -0.04 -0.1
+        0.01 -0.04 0.04
+        0.59 -0.11 -0.03
+        0.0 -0.04 -0.03
+        0.59 -0.11 -0.1
+    faces 8
+        0 1 2 1 0 1 2 2
+        2 3 0 1 2 3 0 2
+        1 4 5 1 4 5 6 2
+        5 2 1 1 6 7 4 2
+        4 6 7 1 5 8 9 2
+        7 5 4 1 9 6 5 2
+        7 3 2 1 6 7 10 2
+        2 5 7 1 10 11 6 2
+    tverts 12
+        0.061619 0.9995 0
+        -0.061619 0.9995 0
+        -0.061619 0.000499 0
+        0.061619 0.000499 0
+        0.368381 0.9995 0
+        0.276619 0.9995 0
+        0.276619 0.000499 0
+        0.368381 0.000499 0
+        0.153381 0.9995 0
+        0.153381 0.000499 0
+        0.368381 0.10678 0
+        0.276619 0.10678 0
+endnode
+endmodelgeom plc_hammer1
+donemodel plc_hammer1

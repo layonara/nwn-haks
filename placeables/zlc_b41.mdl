@@ -1,0 +1,40 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: zlc_b41
+filedependancy Unknown
+newmodel zlc_b41
+setsupermodel zlc_b41 NULL
+classification Tile
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom zlc_b41
+node dummy zlc_b41
+  parent NULL
+endnode
+node trimesh blood
+  parent zlc_b41
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 0.425781 0.425781 0.425781
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap bloodstain2
+  verts 4
+    -0.488409 -0.491869 0.0227264
+    0.48841 -0.491869 0.0227264
+    0.488409 0.491869 0.0227264
+    -0.48841 0.491869 0.0227264
+  faces 2
+    0 1 2  1  0 1 2  1
+    2 3 0  1  2 3 0  1
+  tverts 4
+    0.000499576 0.000499815 0
+    0.9995 0.000499576 0
+    0.9995 0.9995 0
+    0.000499815 0.9995 0
+endnode
+endmodelgeom zlc_b41
+donemodel zlc_b41

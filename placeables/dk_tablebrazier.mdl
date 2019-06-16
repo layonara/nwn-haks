@@ -1,0 +1,1020 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: dk_tablebrazier
+filedependancy Unknown
+newmodel dk_tablebrazier
+setsupermodel dk_tablebrazier NULL
+classification Character
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom dk_tablebrazier
+node dummy dk_tablebrazier
+  parent NULL
+endnode
+node emitter fire!06
+  parent dk_tablebrazier
+  position -0.0296 0.00202 1.53338
+  orientation 0 0 0 0
+  wirecolor 0.554688 0.554688 0.554688
+    colorStart 0.376471 0.376471 0.376471
+    colorEnd 0.176471 0.176471 0.176471
+    alphaStart 0.1
+    alphaEnd 0
+    sizeStart 1
+    sizeEnd 2
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 24
+    birthrate 20
+    spawnType 0
+    lifeExp 3
+    mass 0.035
+    spread 0.174533
+    particleRot 1.5
+    velocity 1
+    randvel 0.2
+    fps 10
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 20
+    ysize 20
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Fountain
+    render Normal
+    Blend Normal
+    update_sel 1
+    render_sel 1
+    blend_sel 1
+    deadspace 0
+    opacity 0
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_smoke01
+    xgrid 4
+    ygrid 4
+    affectedByWind 1
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+node dummy I05_hand
+  parent dk_tablebrazier
+  position 0.003989 -0.734873 0.934402
+  orientation 0 0 0 0
+  wirecolor 0.226563 0.226563 0.226563
+endnode
+node dummy I05_head
+  parent dk_tablebrazier
+  position 0.003989 0.010825 2.02631
+  orientation 0 0 0 0
+  wirecolor 0.226563 0.226563 0.226563
+endnode
+node dummy I05_head_hit
+  parent dk_tablebrazier
+  position 0.003989 0.010825 0.874821
+  orientation 0 0 0 0
+  wirecolor 0.226563 0.226563 0.226563
+endnode
+node dummy I05_impact
+  parent dk_tablebrazier
+  position 0.003989 0.011 0.868134
+  orientation 0 0 0 0
+  wirecolor 0.226563 0.226563 0.226563
+endnode
+node dummy I05_ground
+  parent dk_tablebrazier
+  position -0.003633 0.006987 0
+  orientation 0 0 0 0
+  wirecolor 0.226563 0.226563 0.226563
+endnode
+node emitter ChunkyWood87
+  parent dk_tablebrazier
+  position 0.012013 -0.047544 0.712937
+  orientation 0 0 0 0
+  wirecolor 0.226563 0.226563 0.226563
+    colorStart 0.701961 0.67451 0.603922
+    colorEnd 0.854902 0.847059 0.82353
+    alphaStart 1
+    alphaEnd 1
+    sizeStart 0.1
+    sizeEnd 0.1
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 24
+    birthrate 3
+    spawnType 0
+    lifeExp 0.75
+    mass 3
+    spread 1.22173
+    particleRot 2.9
+    velocity 8
+    randvel 0.3
+    fps 0
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 89
+    ysize 40
+    bounce 1
+    bounce_co 0.5
+    loop 0
+    update Explosion
+    render Normal
+    Blend Normal
+    update_sel 2
+    render_sel 1
+    blend_sel 1
+    deadspace 0
+    opacity 0
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 1
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_cloud02
+    xgrid 5
+    ygrid 5
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+node emitter fire!51
+  parent dk_tablebrazier
+  position 0.012013 -0.047544 0.532671
+  orientation -1 0 0 -1.5708
+  wirecolor 0.226563 0.226563 0.226563
+    colorStart 0.607843 0.568627 0.486275
+    colorEnd 0.819608 0.815686 0.796079
+    alphaStart 1
+    alphaEnd 0
+    sizeStart 4
+    sizeEnd 1
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 24
+    birthrate 10
+    spawnType 0
+    lifeExp 2.5
+    mass 0.09
+    spread 2.96706
+    particleRot 0.5
+    velocity 2
+    randvel 0.5
+    fps 10
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 100
+    ysize 99
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Explosion
+    render Normal
+    Blend Normal
+    update_sel 2
+    render_sel 1
+    blend_sel 1
+    deadspace 0
+    opacity 0
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0.2
+    blastLength 1
+    twosidedtex 1
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_smoke01
+    xgrid 4
+    ygrid 4
+    affectedByWind 0
+    m_isTinted 1
+    renderorder 0
+    Splat 0
+endnode
+node emitter ChunkyWood86
+  parent dk_tablebrazier
+  position 0.012013 -0.047544 0.606715
+  orientation 0 0 0 0
+  wirecolor 0.226563 0.226563 0.226563
+    colorStart 1 1 1
+    colorEnd 1 1 1
+    alphaStart 1
+    alphaEnd 1
+    sizeStart 0.1
+    sizeEnd 0.1
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 24
+    birthrate 3
+    spawnType 0
+    lifeExp 0.75
+    mass 3
+    spread 1.22173
+    particleRot 5
+    velocity 8
+    randvel 0.3
+    fps 0
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 89
+    ysize 40
+    bounce 1
+    bounce_co 0.5
+    loop 0
+    update Explosion
+    render Normal
+    Blend Normal
+    update_sel 2
+    render_sel 1
+    blend_sel 1
+    deadspace 0
+    opacity 0
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_cloud02
+    xgrid 5
+    ygrid 5
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+node trimesh damage17
+  parent dk_tablebrazier
+  position 0.01358 -0.007705 0
+  orientation 0 0 0 0
+  wirecolor 0.226563 0.226563 0.226563
+  ambient 0.070588 0 1
+  diffuse 1 0.501961 0.643137
+  specular 0 0 0
+  shininess 24
+  bitmap NULL
+  render 0
+  Shadow 1
+  beaming 0
+  transparencyhint 0
+  tilefade 0
+  rotatetexture 0
+  verts 12
+    -0.195415 -0.186216 0
+    -0.195415 0.186216 0
+    0.195415 0.186216 0
+    0.195415 -0.186216 0
+    -0.195415 -0.186216 0.5
+    0.195415 -0.186216 0.5
+    0.195415 0.186216 0.5
+    -0.195415 0.186216 0.5
+    0.103944 -0.099051 0.25
+    -0.103944 -0.099051 0.25
+    0.103944 0.099051 0.25
+    -0.103944 0.099051 0.25
+  faces 20
+    0 1 2  1  0 0 0  2
+    2 3 0  1  0 0 0  2
+    4 5 6  1  0 0 0  1
+    6 7 4  1  0 0 0  1
+    0 3 8  1  0 0 0  5
+    8 9 0  1  0 0 0  5
+    9 8 5  1  0 0 0  5
+    5 4 9  1  0 0 0  5
+    3 2 10  1  0 0 0  4
+    10 8 3  1  0 0 0  4
+    8 10 6  1  0 0 0  4
+    6 5 8  1  0 0 0  4
+    2 1 11  1  0 0 0  6
+    11 10 2  1  0 0 0  6
+    10 11 7  1  0 0 0  6
+    7 6 10  1  0 0 0  6
+    1 0 9  1  0 0 0  3
+    9 11 1  1  0 0 0  3
+    11 9 4  1  0 0 0  3
+    4 7 11  1  0 0 0  3
+endnode
+node emitter OmenEmitter244
+  parent damage17
+  position -0.013304 0.004408 0.826595
+  orientation 0 0 1 -0.516453
+  wirecolor 0.527344 0.527344 0.527344
+    colorStart 0.254902 0.254902 0.254902
+    colorEnd 1 1 1
+    alphaStart 0.6
+    alphaEnd 0.1
+    sizeStart 0.4
+    sizeEnd 1
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 15
+    birthrate 6
+    spawnType 0
+    lifeExp 2
+    mass 0
+    spread 0.349066
+    particleRot 0
+    velocity 0.1
+    randvel 0
+    fps 24
+    random 1
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 20
+    ysize 20
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Fountain
+    render Normal
+    Blend Lighten
+    update_sel 1
+    render_sel 1
+    blend_sel 3
+    deadspace 0
+    opacity 0
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_flame00
+    xgrid 4
+    ygrid 4
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+node trimesh Cone01
+  parent damage17
+  position -0.013579 0.029381 0.988588
+  orientation 0 0 0 0
+  wirecolor 0.347656 0.347656 0.347656
+  ambient 0.698039 0.698039 0.698039
+  diffuse 0.698039 0.698039 0.698039
+  specular 0 0 0
+  shininess 1
+  bitmap PLC_Rck
+  verts 13
+    0 -0.021676 -0.248581
+    0.179977 -0.333406 0.01181
+    0.359955 -0.021676 0.01181
+    -0.179978 -0.333406 0.01181
+    0.179978 0.290054 0.01181
+    -0.359955 -0.021676 0.01181
+    -0.179977 0.290054 0.01181
+    0.229042 -0.021676 -0.242775
+    0.114521 -0.220032 -0.242775
+    -0.114521 -0.220032 -0.242775
+    -0.229042 -0.021676 -0.242775
+    -0.114521 0.17668 -0.242775
+    0.114521 0.17668 -0.242775
+  faces 18
+    0 1 2  1  0 1 2  2
+    0 3 1  1  0 3 1  2
+    0 2 4  1  0 2 4  2
+    0 5 3  1  0 5 3  2
+    0 6 5  1  0 6 5  2
+    0 4 6  1  0 4 6  2
+    2 1 7  1  7 8 9  3
+    8 7 1  1  10 9 8  3
+    1 3 8  1  11 12 13  3
+    9 8 3  1  14 13 12  3
+    3 5 9  1  12 15 14  3
+    10 9 5  1  16 14 15  3
+    5 6 10  1  15 17 16  3
+    11 10 6  1  18 16 17  3
+    6 4 11  1  17 19 18  3
+    12 11 4  1  20 18 19  3
+    4 2 12  1  19 7 20  3
+    7 12 2  1  9 20 7  3
+  tverts 21
+    0.00848 1.68481 0
+    0.480512 1.84565 0
+    0.480512 1.52398 0
+    0.480512 2.23731 0
+    0.480512 2.20231 0
+    0.480512 1.55898 0
+    0.480512 1.88065 0
+    0.242636 0.93013 0
+    0.239727 1.09677 0
+    0.41641 0.927272 0
+    0.413501 1.09391 0
+    0.257179 0.096923 0
+    0.25427 0.263565 0
+    0.430954 0.094066 0
+    0.428045 0.260707 0
+    0.251362 0.430206 0
+    0.425136 0.427349 0
+    0.248453 0.596847 0
+    0.422228 0.59399 0
+    0.245544 0.763489 0
+    0.419319 0.760631 0
+endnode
+node trimesh Mesh07
+  parent damage17
+  position -0.013579 0.029382 1.00315
+  orientation 0 0 0 0
+  wirecolor 0.582031 0.582031 0.582031
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap PLC_Trans
+  verts 7
+    0 -0.021676 -0.239287
+    0.176449 -0.327294 0.000500016
+    0.352897 -0.021676 0.000500016
+    -0.176449 -0.327294 0.000500016
+    -0.352897 -0.021676 0.000500016
+    -0.176448 0.283942 0.000500016
+    0.176449 0.283942 0.000500016
+  faces 6
+    0 1 2  1  0 1 2  2
+    0 3 1  1  0 3 1  2
+    0 4 3  1  0 4 3  2
+    0 5 4  1  0 5 4  2
+    0 6 5  1  0 6 5  2
+    0 2 6  1  0 2 6  2
+  tverts 7
+    0.550227 0.115942 0
+    0.60446 0.185472 0
+    0.658693 0.115942 0
+    0.495994 0.185472 0
+    0.441761 0.115942 0
+    0.495994 0.046413 0
+    0.60446 0.046413 0
+endnode
+endmodelgeom dk_tablebrazier
+
+#MAXANIM ASCII
+newanim on dk_tablebrazier
+  length 0.0333333
+  transtime 0
+  animroot dk_tablebrazier
+node dummy dk_tablebrazier
+  parent NULL
+endnode
+node emitter fire!06
+  parent dk_tablebrazier
+    birthratekey
+      0  20
+      0.0333333  20
+    endlist
+endnode
+node dummy I05_hand
+  parent dk_tablebrazier
+endnode
+node dummy I05_head
+  parent dk_tablebrazier
+endnode
+node dummy I05_head_hit
+  parent dk_tablebrazier
+endnode
+node dummy I05_impact
+  parent dk_tablebrazier
+endnode
+node dummy I05_ground
+  parent dk_tablebrazier
+endnode
+node emitter ChunkyWood87
+  parent dk_tablebrazier
+endnode
+node emitter fire!51
+  parent dk_tablebrazier
+endnode
+node emitter ChunkyWood86
+  parent dk_tablebrazier
+endnode
+node trimesh damage17
+  parent dk_tablebrazier
+    positionkey
+      0  0.01358 -0.007705 0
+    endlist
+    orientationkey
+      0  0 0 0 0
+    endlist
+endnode
+node emitter OmenEmitter244
+  parent damage17
+    birthratekey
+      0  6
+      0.0333333  3
+    endlist
+endnode
+node trimesh Cone01
+  parent damage17
+endnode
+node trimesh Mesh07
+  parent damage17
+endnode
+node trimesh PLC_I05_wg
+  parent dk_tablebrazier
+endnode
+doneanim on dk_tablebrazier
+
+#MAXANIM ASCII
+newanim on2off dk_tablebrazier
+  length 0.0333333
+  transtime 0
+  animroot dk_tablebrazier
+node dummy dk_tablebrazier
+  parent NULL
+endnode
+node emitter fire!06
+  parent dk_tablebrazier
+    birthratekey
+      0  20
+      0.0333333  0
+    endlist
+endnode
+node dummy I05_hand
+  parent dk_tablebrazier
+endnode
+node dummy I05_head
+  parent dk_tablebrazier
+endnode
+node dummy I05_head_hit
+  parent dk_tablebrazier
+endnode
+node dummy I05_impact
+  parent dk_tablebrazier
+endnode
+node dummy I05_ground
+  parent dk_tablebrazier
+endnode
+node emitter ChunkyWood87
+  parent dk_tablebrazier
+endnode
+node emitter fire!51
+  parent dk_tablebrazier
+endnode
+node emitter ChunkyWood86
+  parent dk_tablebrazier
+endnode
+node trimesh damage17
+  parent dk_tablebrazier
+endnode
+node emitter OmenEmitter244
+  parent damage17
+    birthratekey
+      0  3
+      0.0333333  -4
+    endlist
+endnode
+node trimesh Cone01
+  parent damage17
+endnode
+node trimesh Mesh07
+  parent damage17
+endnode
+node trimesh PLC_I05_wg
+  parent dk_tablebrazier
+endnode
+doneanim on2off dk_tablebrazier
+
+#MAXANIM ASCII
+newanim off2on dk_tablebrazier
+  length 0.0333333
+  transtime 0
+  animroot dk_tablebrazier
+node dummy dk_tablebrazier
+  parent NULL
+endnode
+node emitter fire!06
+  parent dk_tablebrazier
+    birthratekey
+      0  0
+      0.0333333  20
+    endlist
+endnode
+node dummy I05_hand
+  parent dk_tablebrazier
+endnode
+node dummy I05_head
+  parent dk_tablebrazier
+endnode
+node dummy I05_head_hit
+  parent dk_tablebrazier
+endnode
+node dummy I05_impact
+  parent dk_tablebrazier
+endnode
+node dummy I05_ground
+  parent dk_tablebrazier
+endnode
+node emitter ChunkyWood87
+  parent dk_tablebrazier
+endnode
+node emitter fire!51
+  parent dk_tablebrazier
+endnode
+node emitter ChunkyWood86
+  parent dk_tablebrazier
+endnode
+node trimesh damage17
+  parent dk_tablebrazier
+    positionkey
+      0.0333333  0.01358 -0.007705 0
+    endlist
+    orientationkey
+      0.0333333  0 0 0 0
+    endlist
+endnode
+node emitter OmenEmitter244
+  parent damage17
+    birthratekey
+      0  -4
+      0.0333333  6
+    endlist
+endnode
+node trimesh Cone01
+  parent damage17
+endnode
+node trimesh Mesh07
+  parent damage17
+endnode
+node trimesh PLC_I05_wg
+  parent dk_tablebrazier
+endnode
+doneanim off2on dk_tablebrazier
+
+#MAXANIM ASCII
+newanim off dk_tablebrazier
+  length 0.0333333
+  transtime 0
+  animroot dk_tablebrazier
+node dummy dk_tablebrazier
+  parent NULL
+endnode
+node emitter fire!06
+  parent dk_tablebrazier
+    birthratekey
+      0  0
+      0.0333333  0
+    endlist
+endnode
+node dummy I05_hand
+  parent dk_tablebrazier
+endnode
+node dummy I05_head
+  parent dk_tablebrazier
+endnode
+node dummy I05_head_hit
+  parent dk_tablebrazier
+endnode
+node dummy I05_impact
+  parent dk_tablebrazier
+endnode
+node dummy I05_ground
+  parent dk_tablebrazier
+endnode
+node emitter ChunkyWood87
+  parent dk_tablebrazier
+endnode
+node emitter fire!51
+  parent dk_tablebrazier
+endnode
+node emitter ChunkyWood86
+  parent dk_tablebrazier
+endnode
+node trimesh damage17
+  parent dk_tablebrazier
+endnode
+node emitter OmenEmitter244
+  parent damage17
+    birthratekey
+      0  -4
+      0.0333333  -4
+    endlist
+endnode
+node trimesh Cone01
+  parent damage17
+endnode
+node trimesh Mesh07
+  parent damage17
+endnode
+node trimesh PLC_I05_wg
+  parent dk_tablebrazier
+endnode
+doneanim off dk_tablebrazier
+
+#MAXANIM ASCII
+newanim damage dk_tablebrazier
+  length 0.133333
+  transtime 0
+  animroot dk_tablebrazier
+node dummy dk_tablebrazier
+  parent NULL
+endnode
+node emitter fire!06
+  parent dk_tablebrazier
+endnode
+node dummy I05_hand
+  parent dk_tablebrazier
+endnode
+node dummy I05_head
+  parent dk_tablebrazier
+endnode
+node dummy I05_head_hit
+  parent dk_tablebrazier
+endnode
+node dummy I05_impact
+  parent dk_tablebrazier
+endnode
+node dummy I05_ground
+  parent dk_tablebrazier
+endnode
+node emitter ChunkyWood87
+  parent dk_tablebrazier
+endnode
+node emitter fire!51
+  parent dk_tablebrazier
+endnode
+node emitter ChunkyWood86
+  parent dk_tablebrazier
+endnode
+node trimesh damage17
+  parent dk_tablebrazier
+    positionkey
+      0  0.01358 -0.007705 0
+      0.0333333  0.01358 -0.007705 0.024458
+      0.133333  0.01358 -0.007705 0
+    endlist
+    orientationkey
+      0  0 0 0 0
+      0.0333333  -0.371336 0.928463 -0.008103 0.0469942
+      0.1  0.59995 -0.799969 -0.010472 0.0436321
+      0.133333  0 0 0 0
+    endlist
+endnode
+node emitter OmenEmitter244
+  parent damage17
+endnode
+node trimesh Cone01
+  parent damage17
+endnode
+node trimesh Mesh07
+  parent damage17
+endnode
+node trimesh PLC_I05_wg
+  parent dk_tablebrazier
+endnode
+doneanim damage dk_tablebrazier
+
+#MAXANIM ASCII
+newanim die dk_tablebrazier
+  length 0.166667
+  transtime 0
+  animroot dk_tablebrazier
+node dummy dk_tablebrazier
+  parent NULL
+endnode
+node emitter fire!06
+  parent dk_tablebrazier
+endnode
+node dummy I05_hand
+  parent dk_tablebrazier
+endnode
+node dummy I05_head
+  parent dk_tablebrazier
+endnode
+node dummy I05_head_hit
+  parent dk_tablebrazier
+endnode
+node dummy I05_impact
+  parent dk_tablebrazier
+endnode
+node dummy I05_ground
+  parent dk_tablebrazier
+endnode
+node emitter ChunkyWood87
+  parent dk_tablebrazier
+endnode
+node emitter fire!51
+  parent dk_tablebrazier
+endnode
+node emitter ChunkyWood86
+  parent dk_tablebrazier
+endnode
+node trimesh damage17
+  parent dk_tablebrazier
+    positionkey
+      0  0.01358 -0.007705 0
+      0.166667  0.01358 -0.007705 -3.77999
+    endlist
+    orientationkey
+      0  0 0 0 0
+    endlist
+endnode
+node emitter OmenEmitter244
+  parent damage17
+endnode
+node trimesh Cone01
+  parent damage17
+endnode
+node trimesh Mesh07
+  parent damage17
+endnode
+node trimesh PLC_I05_wg
+  parent dk_tablebrazier
+endnode
+event 0  detonate
+event 0  detonate
+event 0  detonate
+doneanim die dk_tablebrazier
+
+#MAXANIM ASCII
+newanim dead dk_tablebrazier
+  length 0.0333333
+  transtime 0
+  animroot dk_tablebrazier
+node dummy dk_tablebrazier
+  parent NULL
+endnode
+node emitter fire!06
+  parent dk_tablebrazier
+endnode
+node dummy I05_hand
+  parent dk_tablebrazier
+endnode
+node dummy I05_head
+  parent dk_tablebrazier
+endnode
+node dummy I05_head_hit
+  parent dk_tablebrazier
+endnode
+node dummy I05_impact
+  parent dk_tablebrazier
+endnode
+node dummy I05_ground
+  parent dk_tablebrazier
+endnode
+node emitter ChunkyWood87
+  parent dk_tablebrazier
+endnode
+node emitter fire!51
+  parent dk_tablebrazier
+endnode
+node emitter ChunkyWood86
+  parent dk_tablebrazier
+endnode
+node trimesh damage17
+  parent dk_tablebrazier
+    positionkey
+      0  0.01358 -0.007705 -3.77999
+      0.0333333  0.01358 -0.007705 -3.77999
+    endlist
+endnode
+node emitter OmenEmitter244
+  parent damage17
+endnode
+node trimesh Cone01
+  parent damage17
+endnode
+node trimesh Mesh07
+  parent damage17
+endnode
+node trimesh PLC_I05_wg
+  parent dk_tablebrazier
+endnode
+doneanim dead dk_tablebrazier
+
+#MAXANIM ASCII
+newanim default dk_tablebrazier
+  length 0
+  transtime 0.25
+  animroot dk_tablebrazier
+node dummy dk_tablebrazier
+  parent NULL
+endnode
+node emitter fire!06
+  parent dk_tablebrazier
+    birthrate 20
+endnode
+node dummy I05_hand
+  parent dk_tablebrazier
+endnode
+node dummy I05_head
+  parent dk_tablebrazier
+endnode
+node dummy I05_head_hit
+  parent dk_tablebrazier
+endnode
+node dummy I05_impact
+  parent dk_tablebrazier
+endnode
+node dummy I05_ground
+  parent dk_tablebrazier
+endnode
+node emitter ChunkyWood87
+  parent dk_tablebrazier
+endnode
+node emitter fire!51
+  parent dk_tablebrazier
+endnode
+node emitter ChunkyWood86
+  parent dk_tablebrazier
+endnode
+node trimesh damage17
+  parent dk_tablebrazier
+    positionkey
+      0  0.01358 -0.007705 0
+    endlist
+    orientationkey
+      0  0 0 0 0
+    endlist
+endnode
+node emitter OmenEmitter244
+  parent damage17
+    birthrate 6
+endnode
+node trimesh Cone01
+  parent damage17
+endnode
+node trimesh Mesh07
+  parent damage17
+endnode
+node trimesh PLC_I05_wg
+  parent dk_tablebrazier
+endnode
+doneanim default dk_tablebrazier
+donemodel dk_tablebrazier

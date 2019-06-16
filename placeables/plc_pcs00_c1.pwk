@@ -1,0 +1,49 @@
+# Exported from blender at Saturday, 2016-05-21
+node dummy pc1_pwk_use01
+  parent plc_pcs00_c1_pwk
+  scale 1.0
+  position -0.80000 -0.80000  0.00000
+  orientation  1.00000  0.00000  0.00000  0.00000
+  wirecolor 1.0 1.0 1.0
+endnode
+node dummy pc1_pwk_use02
+  parent plc_pcs00_c1_pwk
+  scale 1.0
+  position  0.80000  0.80000  0.00000
+  orientation  1.00000  0.00000  0.00000  0.00000
+  wirecolor 1.0 1.0 1.0
+endnode
+node trimesh pcs00_c1_pwk
+  parent plc_pcs00_c1_pwk
+  position  0.00000  0.00000  0.00000
+  orientation  1.00000  0.00000  0.00000  0.00000
+  wirecolor 1.0 1.0 1.0
+  ambient 1.0 1.0 1.0
+  diffuse 0.25 0.0 0.0
+  specular 1.0 1.0 1.0
+  bitmap null
+  alpha 1.0
+  shininess 1
+  verts 8
+     0.44000 -0.44000  0.00000
+    -0.44000 -0.44000  0.00000
+    -0.44000  0.44000  0.00000
+     0.44000  0.44000  0.00000
+     0.44000 -0.44000  2.00000
+    -0.44000 -0.44000  2.00000
+    -0.44000  0.44000  2.00000
+     0.44000  0.44000  2.00000
+  faces 12
+    5 0 4  0  0 0 0   0
+    5 6 1  0  0 0 0   0
+    6 7 2  0  0 0 0   0
+    7 4 3  0  0 0 0   0
+    0 1 3  0  0 0 0   0
+    7 6 4  0  0 0 0   0
+    1 0 5  0  0 0 0   0
+    6 2 1  0  0 0 0   0
+    7 3 2  0  0 0 0   0
+    4 0 3  0  0 0 0   0
+    1 2 3  0  0 0 0   0
+    6 5 4  0  0 0 0   0
+endnode

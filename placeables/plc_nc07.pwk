@@ -1,0 +1,27 @@
+#MAXDOOR ASCII
+# model: PLC_NC07_pwk 
+filedependancy PlaceableObjects01.max
+node trimesh PLC_NC07_wg 
+parent PLC_NC07_pwk
+    position 0.0 0.0 0.0
+    orientation 0.0 0.0 0.0 0.0 
+    diffuse 1.0 1.0 1.0
+    ambient 1.0 1.0 1.0
+    specular 0.0 0.0 0.0
+    selfillumcolor 0.0 0.0 0.0
+    alpha 1.0
+    verts 4
+        5.92607 -0.41377 0.0
+        5.927 6.86629 0.0
+        -1.77112 -0.361582 0.0
+        -1.78131 6.94844 0.0
+    faces 2
+        2 0 3 1 0 0 0 7
+        1 3 0 1 0 0 0 7
+endnode
+node dummy NC07_pwk_use01 
+  parent PLC_NC07_pwk 
+  position 0.0 0.0 0.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.580392 0.101961  
+endnode

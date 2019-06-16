@@ -1,0 +1,115 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: zlc_t27
+filedependancy Unknown
+newmodel zlc_t27
+setsupermodel zlc_t27 NULL
+classification Character
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom zlc_t27
+node dummy zlc_t27
+  parent NULL
+endnode
+node trimesh Cylinder03
+  parent zlc_t27
+  position -2.9898 0.00113324 0.109572
+  orientation -0.57735 0.57735 -0.57735 -4.18879
+  wirecolor 0.445313 0.445313 0.445313
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap plc_rugdmtlbrk
+  verts 8
+    0 0 0
+    -0.0037734 0 0
+    0.0018867 -0.00326786 0
+    0.0018867 0.00326786 0
+    -0.0037734 0 6.03971
+    0.0018867 -0.00326786 6.03971
+    0.0018867 0.00326786 6.03971
+    0 0 6.03971
+  faces 12
+    0 2 1  1  0 2 8  1
+    0 3 2  1  0 3 2  1
+    0 1 3  1  0 1 3  1
+    1 5 4  8  9 5 10  2
+    1 2 5  8  11 2 5  2
+    2 6 5  8  2 6 5  2
+    2 3 6  8  2 3 6  2
+    3 4 6  8  3 4 6  2
+    3 1 4  8  3 1 4  2
+    7 4 5  1  7 12 5  0
+    7 5 6  1  7 5 6  0
+    7 6 4  1  7 6 4  0
+  tverts 13
+    0.744695 0.49417 0
+    0.973468 0.49417 1
+    0.328028 0.49417 1
+    0.661362 0.49417 1
+    0.9737 0.515707 1
+    0.328261 0.515707 1
+    0.661594 0.515707 1
+    0.744928 0.515707 0
+    0.0212287 0.49417 1
+    0.0212287 0.49417 1
+    0.0214614 0.515707 1
+    0.0212287 0.49417 1
+    0.0214614 0.515707 1
+endnode
+endmodelgeom zlc_t27
+
+#MAXANIM ASCII
+newanim default zlc_t27
+  length 0
+  transtime 0
+  animroot zlc_t27
+node dummy zlc_t27
+  parent NULL
+endnode
+node trimesh Cylinder03
+  parent zlc_t27
+endnode
+doneanim default zlc_t27
+
+#MAXANIM ASCII
+newanim off zlc_t27
+  length 0
+  transtime 0
+  animroot zlc_t27
+node dummy zlc_t27
+  parent NULL
+endnode
+node trimesh Cylinder03
+  parent zlc_t27
+endnode
+doneanim off zlc_t27
+
+#MAXANIM ASCII
+newanim off2on zlc_t27
+  length 0.5
+  transtime 0
+  animroot zlc_t27
+node dummy zlc_t27
+  parent NULL
+endnode
+node trimesh Cylinder03
+  parent zlc_t27
+endnode
+doneanim off2on zlc_t27
+
+#MAXANIM ASCII
+newanim on zlc_t27
+  length 0
+  transtime 0
+  animroot zlc_t27
+node dummy zlc_t27
+  parent NULL
+endnode
+node trimesh Cylinder03
+  parent zlc_t27
+endnode
+doneanim on zlc_t27
+donemodel zlc_t27

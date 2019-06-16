@@ -1,0 +1,202 @@
+# Exported from NWmax 0.5-beta at 2/17/2004 10:20:48 PM
+# mdl file
+#
+#NWmaxMODEL ASCII
+# model: ori_o05
+filedependancy Unknown
+newmodel ori_o05
+setsupermodel ori_o05 NULL
+classification Character
+setanimationscale 1.0
+#NWmaxGEOM  ASCII
+beginmodelgeom ori_o05
+node dummy ori_o05
+  parent NULL
+endnode
+node trimesh Object02
+  parent ori_o05
+  position 0.0 0.0 0.0
+  orientation 0.0 0.0 1.0 -1.5708
+  wirecolor 0.776471 0.87451 0.337255 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  selfillumcolor 0.0 0.0 0.0 
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  center undefined
+  gizmo SubAnim:Gizmo
+  ambient 0.823529 0.823529 0.823529 
+  diffuse 0.823529 0.823529 0.823529 
+  specular 0.0 0.0 0.0 
+  shininess 13.0
+  selfillumcolor 0.0 0.0 0.0 
+  bitmap katanadansu
+  verts 4
+    -0.199998 -0.670001 1.23
+    0.240002 -0.669999 1.23
+    0.239997 0.770001 1.23
+    -0.200003 0.769999 1.23
+  faces 2
+    0 1 2  4  0 1 2  1
+    2 3 0  4  2 3 0  1
+  tverts 4
+    0.0254082 0.0875578 0
+    0.0254082 0.31425 0
+    0.39196 0.31425 0
+    0.39196 0.0875579 0
+endnode
+node trimesh Object05
+  parent Object02
+  position 0.0187251 -0.016465 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.576471 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  selfillumcolor 0.0 0.0 0.0 
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  center undefined
+  gizmo SubAnim:Gizmo
+  ambient 0.823529 0.823529 0.823529 
+  diffuse 0.823529 0.823529 0.823529 
+  specular 0.0 0.0 0.0 
+  shininess 13.0
+  selfillumcolor 0.0 0.0 0.0 
+  bitmap katanadansu
+  verts 4
+    0.221272 0.786466 0.0
+    -0.218728 0.786464 0.0
+    -0.218728 0.786464 1.23
+    0.221272 0.786466 1.23
+  faces 2
+    0 1 2  32  0 1 2  6
+    2 3 0  32  2 3 0  6
+  tverts 4
+    0.0220253 0.0875578 0
+    0.0220253 0.314266 0
+    0.388577 0.314266 0
+    0.388577 0.0875579 0
+endnode
+node trimesh Object06
+  parent Object02
+  position 0.00668285 0.0435414 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.576471 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  selfillumcolor 0.0 0.0 0.0 
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  center undefined
+  gizmo SubAnim:Gizmo
+  ambient 0.823529 0.823529 0.823529 
+  diffuse 0.823529 0.823529 0.823529 
+  specular 0.0 0.0 0.0 
+  shininess 13.0
+  selfillumcolor 0.0 0.0 0.0 
+  bitmap katanadansu
+  verts 4
+    -0.206686 0.726458 0.0
+    -0.20668 -0.713542 0.0
+    -0.20668 -0.713542 1.23
+    -0.206686 0.726458 1.23
+  faces 2
+    0 1 2  64  0 1 2  3
+    2 3 0  64  2 3 0  3
+  tverts 4
+    0.0254082 0.0875578 0
+    0.0254082 0.31425 0
+    0.39196 0.31425 0
+    0.39196 0.0875579 0
+endnode
+node trimesh Object04
+  parent Object02
+  position 0.00668285 0.0435414 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.329412 0.109804 0.694118 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  selfillumcolor 0.0 0.0 0.0 
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  center undefined
+  gizmo SubAnim:Gizmo
+  ambient 0.823529 0.823529 0.823529 
+  diffuse 0.823529 0.823529 0.823529 
+  specular 0.0 0.0 0.0 
+  shininess 13.0
+  selfillumcolor 0.0 0.0 0.0 
+  bitmap tannsu_001
+  verts 4
+    0.23332 -0.713541 0.0
+    0.233314 0.72646 0.0
+    0.233314 0.72646 1.23
+    0.23332 -0.713541 1.23
+  faces 2
+    0 1 2  16  0 1 2  4
+    2 3 0  16  2 3 0  4
+  tverts 4
+    0.00643289 0.019694 0
+    0.979586 0.019694 0
+    0.979586 0.996226 0
+    0.00643289 0.996226 0
+endnode
+node trimesh Object03
+  parent Object02
+  position 0.00668285 0.0435414 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.329412 0.109804 0.694118 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  selfillumcolor 0.0 0.0 0.0 
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  center undefined
+  gizmo SubAnim:Gizmo
+  ambient 0.823529 0.823529 0.823529 
+  diffuse 0.823529 0.823529 0.823529 
+  specular 0.0 0.0 0.0 
+  shininess 13.0
+  selfillumcolor 0.0 0.0 0.0 
+  bitmap katanadansu
+  verts 4
+    -0.20668 -0.713542 0.0
+    0.23332 -0.713541 0.0
+    0.23332 -0.713541 1.23
+    -0.20668 -0.713542 1.23
+  faces 2
+    0 1 2  8  0 1 2  5
+    2 3 0  8  2 3 0  5
+  tverts 4
+    0.0220253 0.0875578 0
+    0.0220253 0.31415 0
+    0.388577 0.31415 0
+    0.388577 0.0875579 0
+endnode
+endmodelgeom ori_o05
+donemodel ori_o05

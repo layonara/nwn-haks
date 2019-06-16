@@ -1,0 +1,139 @@
+# Exported from NWmax 0.4-beta at 12/4/2003 10:12:12 AM
+# mdl file
+#
+#NWmaxMODEL ASCII
+# model: ori_s07
+filedependancy ori_screensbu.gmax
+newmodel ori_s07
+setsupermodel ori_s07 NULL
+classification Character
+setanimationscale 1.0
+#NWmaxGEOM  ASCII
+beginmodelgeom ori_s07
+node dummy ori_s07
+  parent NULL
+endnode
+node trimesh Box41
+  parent ori_s07
+  position 0.835566 -0.0739307 0.0232057
+  orientation 0.0 0.0 1.0 -0.0610865
+  wirecolor 1.0 1.0 1.0 
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     alpha 100.0
+     transparencyhint 0
+     center -0.680367 0.950307 122.58 
+     gizmo SubAnim:Gizmo
+  ambient 0.823529 0.823529 0.823529 
+  diffuse 0.823529 0.823529 0.823529 
+  specular 0.0 0.0 0.0 
+  shininess 11.0
+  selfillumcolor 0.0 0.0 0.0 
+  alpha 1.0
+    bitmap oriscren_14
+    verts 8
+     -0.796114 -0.305848 2.45159
+     0.805162 0.28136 2.45159
+     0.782507 0.324855 2.45159
+     -0.81877 -0.262353 2.45159
+     -0.796114 -0.305848 0.0
+     0.805162 0.28136 0.0
+     0.782507 0.324855 0.0
+     -0.81877 -0.262353 0.0
+    faces 10
+     0 1 2  1  0 1 2  1
+     2 3 0  1  2 3 0  1
+     4 5 1  2  4 5 6  5
+     1 0 4  2  6 7 4  5
+     5 6 2  4  2 3 8  4
+     2 1 5  4  2 9 10  4
+     6 7 3  2  11 4 7  6
+     3 2 6  2  7 12 11  6
+     7 4 0  4  13 14 15  3
+     0 3 7  4  14 15 13  3
+    tverts 16
+     0.290574 0.273462 0
+     0.290574 0.273462 0
+     0.286668 0.273496 0
+     0.286668 0.273496 0
+     0.4375 0.335938 0
+     0.4375 0.652344 0
+     0.00390625 0.664063 0
+     -0.00390625 0.339844 0
+     0.286668 0.273496 0
+     0.29054 0.269556 0
+     0.286634 0.26959 0
+     0.4375 0.0078125 0
+     -0.00390625 0.0078125 0
+     0.247775 0.312287 0
+     0.247741 0.308381 0
+     0.243869 0.312321 0
+endnode
+node trimesh Box42
+  parent Box41
+  position -1.62132 -0.0741606 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     alpha 100.0
+     transparencyhint 0
+     center -0.69318 1.16312 122.284 
+     gizmo SubAnim:Gizmo
+  ambient 0.823529 0.823529 0.823529 
+  diffuse 0.823529 0.823529 0.823529 
+  specular 0.0 0.0 0.0 
+  shininess 11.0
+  selfillumcolor 0.0 0.0 0.0 
+  alpha 1.0
+    bitmap oriscren_14
+    verts 8
+     -0.828051 0.214884 2.44568
+     0.79411 -0.23388 2.44568
+     0.814188 -0.191621 2.44568
+     -0.807973 0.257143 2.44568
+     -0.828051 0.214884 0.0
+     0.79411 -0.23388 0.0
+     0.814188 -0.191621 0.0
+     -0.807973 0.257143 0.0
+    faces 10
+     0 1 2  1  0 1 2  1
+     2 3 0  1  2 3 0  1
+     4 5 1  2  4 5 6  5
+     1 0 4  2  6 7 4  5
+     5 6 2  4  8 9 10  4
+     2 1 5  4  9 8 11  4
+     6 7 3  2  5 12 13  6
+     3 2 6  2  13 6 5  6
+     7 4 0  4  0 1 2  3
+     0 3 7  4  2 3 0  3
+    tverts 14
+     0.294646 0.285211 0
+     0.29468 0.289117 0
+     0.290774 0.289151 0
+     0.29074 0.285245 0
+     0.43421 0.0140139 0
+     0.439944 0.333437 0
+     -3.30148e-006 0.337604 0
+     -0.000163281 0.00942045 0
+     0.243135 0.300432 0
+     0.243169 0.304338 0
+     0.243169 0.304338 0
+     0.243135 0.300432 0
+     0.43954 0.651837 0
+     0.00349192 0.664902 0
+endnode
+endmodelgeom ori_s07
+donemodel ori_s07

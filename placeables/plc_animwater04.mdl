@@ -1,0 +1,53 @@
+# Exported from NWmax 0.8 b60 at 1/16/2015 1:24:18 PM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: plc_animwater04
+#local file: C:\gmax\Scenes\Animated Water Test 14.gmax
+filedependancy Animated Water Test 14.gmax
+newmodel plc_animwater04
+setsupermodel plc_animwater04 NULL
+classification Tile
+#NWmax GEOM  ASCII
+beginmodelgeom plc_animwater04
+node dummy plc_animwater04
+  parent NULL
+endnode
+#Tile trimesh node
+node trimesh Plane04
+  parent plc_animwater04
+  position 0.0 0.0 1.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.831373 0.603922 0.894118 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 0.5
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 0
+  center undefined
+  bitmap tx_wateranim04
+  verts 4
+    -5.0 -5.0 0.0
+    5.0 -5.0 0.0
+    -5.0 5.0 0.0
+    5.0 5.0 0.0
+  faces 2
+    2 0 3  1  2 0 3  1
+    1 3 0  1  1 3 0  1
+  tverts 4
+    -2.38419e-007 1.78814e-007 0
+    2.0 -2.38419e-007 0
+    1.78814e-007 2.0 0
+    2.0 2.0 0
+endnode
+endmodelgeom plc_animwater04
+donemodel plc_animwater04

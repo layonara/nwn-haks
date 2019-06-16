@@ -1,0 +1,985 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: PLC_04D
+filedependancy Unknown
+newmodel PLC_04D
+setsupermodel PLC_04D NULL
+classification Character
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom PLC_04D
+node dummy PLC_04D
+  parent NULL
+endnode
+node trimesh Box1203
+  parent PLC_04D
+  position -0.046716 -0.011892 0
+  orientation 0 0 0 0
+  wirecolor 0.0273438 0.0273438 0.0273438
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap PLC_Rck
+  verts 16
+    -0.453379 -0.988108 0
+    0.453379 -0.988108 0
+    0.453379 -0.988108 0.458709
+    -0.453379 -0.988108 0.458709
+    0.453379 0.988108 0
+    0.453379 0.988108 0.458709
+    -0.453379 0.988108 0
+    -0.453379 0.988108 0.458709
+    0.404803 -0.926351 0.457709
+    -0.404803 -0.926351 0.457709
+    0.404803 0.926351 0.457709
+    -0.404803 0.926351 0.457709
+    -0.404803 -0.926351 0.332709
+    -0.404803 0.926351 0.332709
+    0.404803 -0.926351 0.332709
+    0.404803 0.926351 0.332709
+  faces 24
+    0 1 2  1  0 1 2  5
+    2 3 0  1  2 3 0  5
+    1 4 5  1  4 5 6  4
+    5 2 1  1  6 7 4  4
+    4 6 7  1  8 0 3  6
+    7 5 4  1  3 2 8  6
+    6 0 3  1  5 4 7  3
+    3 7 6  1  7 6 5  3
+    3 2 8  1  9 10 11  4
+    8 9 3  1  11 12 9  4
+    2 5 10  1  13 14 15  4
+    10 8 2  1  15 16 13  4
+    5 7 11  1  17 18 19  4
+    11 10 5  1  19 20 17  4
+    7 3 9  1  21 22 23  4
+    9 11 7  1  23 24 21  4
+    11 9 12  1  25 26 27  4
+    12 13 11  1  27 28 25  4
+    9 8 14  1  29 30 31  4
+    14 12 9  1  31 32 29  4
+    8 10 15  1  26 25 28  4
+    15 14 8  1  28 27 26  4
+    10 11 13  1  30 29 32  4
+    13 15 10  1  32 31 30  4
+  tverts 33
+    0.488017 0.708427 0
+    0.488017 0.255048 0
+    0.258662 0.255049 0
+    0.258662 0.708427 0
+    0.488357 0.743419 0
+    0.488357 -0.244689 0
+    0.259002 -0.244689 0
+    0.259002 0.743419 0
+    0.488017 0.255049 0
+    0.145891 0.833462 0
+    0.145891 0.166538 0
+    0.20889 0.202266 0
+    0.208891 0.797734 0
+    0.372896 -0.384413 0
+    0.372897 1.51939 0
+    0.319379 1.45568 0
+    0.319379 -0.320701 0
+    0.393422 0.166538 0
+    0.393422 0.833462 0
+    0.330423 0.797734 0
+    0.330423 0.202266 0
+    0.065667 1.51939 0
+    0.065666 -0.384413 0
+    0.119184 -0.320701 0
+    0.119185 1.45568 0
+    0.462275 -0.08875 0
+    0.462276 1.60447 0
+    0.308034 1.60447 0
+    0.308033 -0.08875 0
+    0.294375 0.080937 0
+    0.294375 0.889363 0
+    0.448617 0.889363 0
+    0.448617 0.080937 0
+endnode
+node trimesh Mesh61
+  parent Box1203
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 0.335938 0.335938 0.335938
+  ambient 0 0 0
+  diffuse 0.588 0.588 0.588
+  specular 0.9 0.9 0.9
+  shininess 1
+  bitmap ttr01_dirt03
+  verts 4
+    0.404803 0.926351 0.332709
+    -0.404803 0.926351 0.332709
+    -0.404803 -0.926351 0.332709
+    0.404803 -0.926351 0.332709
+  faces 2
+    0 1 2  1  0 1 2  4
+    2 3 0  1  2 3 0  4
+  tverts 4
+    0.999501 0.9995 0
+    0.000500053 0.999501 0
+    0.000499517 0.000499576 0
+    0.9995 0.000499487 0
+endnode
+node dummy C02_hand
+  parent PLC_04D
+  position 0.003984 0.063172 1.19431
+  orientation 0 0 0 0
+  wirecolor 0.0273438 0.0273438 0.0273438
+endnode
+node dummy C02_head
+  parent PLC_04D
+  position 0.003984 0.579193 1.17314
+  orientation 0 0 0 0
+  wirecolor 0.0273438 0.0273438 0.0273438
+endnode
+node dummy C02_head_hit
+  parent PLC_04D
+  position 0.003984 0.010825 0.691658
+  orientation 0 0 0 0
+  wirecolor 0.0273438 0.0273438 0.0273438
+endnode
+node dummy C02_impact
+  parent PLC_04D
+  position 0.003984 0.011001 0.249374
+  orientation 0 0 0 0
+  wirecolor 0.0273438 0.0273438 0.0273438
+endnode
+node dummy C02_ground
+  parent PLC_04D
+  position -0.003633 0.006987 0
+  orientation 0 0 0 0
+  wirecolor 0.0273438 0.0273438 0.0273438
+endnode
+node emitter ChunkyWood29
+  parent PLC_04D
+  position 0.013899 0.02885 0.523842
+  orientation 0 0 0 0
+  wirecolor 0.0273438 0.0273438 0.0273438
+    colorStart 0.482353 0.435294 0.317647
+    colorEnd 0.584314 0.533333 0.407843
+    alphaStart 1
+    alphaEnd 1
+    sizeStart 0.1
+    sizeEnd 0.1
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 24
+    birthrate 3
+    spawnType 0
+    lifeExp 0.75
+    mass 3
+    spread 1.22173
+    particleRot 2.9
+    velocity 8
+    randvel 0.3
+    fps 0
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 89
+    ysize 40
+    bounce 1
+    bounce_co 0.5
+    loop 0
+    update Explosion
+    render Normal
+    Blend Normal
+    update_sel 2
+    render_sel 1
+    blend_sel 1
+    deadspace 0
+    opacity 0
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 1
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_cloud02
+    xgrid 5
+    ygrid 5
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+node emitter ChunkyWood30
+  parent PLC_04D
+  position 0.013899 0.02885 0.41762
+  orientation 0 0 0 0
+  wirecolor 0.0273438 0.0273438 0.0273438
+    colorStart 1 1 1
+    colorEnd 1 1 1
+    alphaStart 1
+    alphaEnd 1
+    sizeStart 0.1
+    sizeEnd 0.1
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 24
+    birthrate 3
+    spawnType 0
+    lifeExp 0.75
+    mass 3
+    spread 1.22173
+    particleRot 5
+    velocity 8
+    randvel 0.3
+    fps 0
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 89
+    ysize 40
+    bounce 1
+    bounce_co 0.5
+    loop 0
+    update Explosion
+    render Normal
+    Blend Normal
+    update_sel 2
+    render_sel 1
+    blend_sel 1
+    deadspace 0
+    opacity 0
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_cloud02
+    xgrid 5
+    ygrid 5
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+node emitter fire!21
+  parent PLC_04D
+  position 0.013899 0.02885 0.343577
+  orientation -1 0 0 -1.5708
+  wirecolor 0.0273438 0.0273438 0.0273438
+    colorStart 0.47451 0.439216 0.364706
+    colorEnd 0.819608 0.796079 0.709804
+    alphaStart 1
+    alphaEnd 0
+    sizeStart 4
+    sizeEnd 1
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 24
+    birthrate 10
+    spawnType 0
+    lifeExp 2.5
+    mass 0.09
+    spread 2.96706
+    particleRot 0.5
+    velocity 2
+    randvel 0.5
+    fps 10
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 100
+    ysize 99
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Explosion
+    render Normal
+    Blend Normal
+    update_sel 2
+    render_sel 1
+    blend_sel 1
+    deadspace 0
+    opacity 0
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0.2
+    blastLength 1
+    twosidedtex 1
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_smoke01
+    xgrid 4
+    ygrid 4
+    affectedByWind 0
+    m_isTinted 1
+    renderorder 0
+    Splat 0
+endnode
+node trimesh Plane03
+  parent PLC_04D
+  position 0.138013 0.103446 0.518344
+  orientation 0.00383306 0.00161299 0.999991 -1.40922
+  wirecolor 0.0273438 0.0273438 0.0273438
+  ambient 0.588235 0.588235 0.588235
+  diffuse 0.588235 0.588235 0.588235
+  specular 0 0 0
+  shininess 10
+  bitmap dcp_flowers
+  render 1
+  Shadow 0
+  beaming 0
+  transparencyhint 1
+  tilefade 0
+  rotatetexture 0
+  verts 4
+    0.0956077 0.0898132 0
+    -0.0956077 0.0898132 0
+    0.0956077 -0.0898132 0
+    -0.0956077 -0.0898132 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0.656074 0.518266 0
+    0.899481 0.518266 0
+    0.656074 0.761672 0
+    0.899481 0.761672 0
+endnode
+node trimesh Plane04
+  parent PLC_04D
+  position -0.00213335 -0.806638 0.418098
+  orientation 0.0284556 0.10498 -0.994067 -3.71936
+  wirecolor 0.878906 0.878906 0.878906
+  ambient 0.588235 0.588235 0.588235
+  diffuse 0.588235 0.588235 0.588235
+  specular 0 0 0
+  shininess 10
+  bitmap dcp_flowers
+  render 1
+  Shadow 0
+  beaming 0
+  transparencyhint 1
+  tilefade 0
+  rotatetexture 0
+  verts 4
+    0.104212 0.0978964 0
+    -0.100456 0.103952 -0.0336157
+    0.104212 -0.0978964 0
+    -0.104212 -0.0978964 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0.462079 0.278377 0
+    0.668356 0.278377 0
+    0.462079 0.484653 0
+    0.668356 0.484653 0
+endnode
+node trimesh Plane05
+  parent PLC_04D
+  position -0.316415 0.454613 0.454748
+  orientation -0.0261472 0.0516986 0.99832 -1.11418
+  wirecolor 0.691406 0.691406 0.691406
+  ambient 0.588235 0.588235 0.588235
+  diffuse 0.588235 0.588235 0.588235
+  specular 0 0 0
+  shininess 10
+  bitmap dcp_flowers
+  render 1
+  Shadow 0
+  beaming 0
+  transparencyhint 1
+  tilefade 0
+  rotatetexture 0
+  verts 4
+    0.104212 0.0978964 0
+    -0.104212 0.0978964 0
+    0.104212 -0.0978964 0
+    -0.104212 -0.0978964 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0.656074 0.518266 0
+    0.899481 0.518266 0
+    0.656074 0.761672 0
+    0.899481 0.761672 0
+endnode
+node trimesh Plane06
+  parent PLC_04D
+  position 0.1449 0.518299 0.43468
+  orientation -0.00251324 0.000999041 -0.999996 -3.32063
+  wirecolor 0.527344 0.527344 0.527344
+  ambient 0.588235 0.588235 0.588235
+  diffuse 0.588235 0.588235 0.588235
+  specular 0 0 0
+  shininess 10
+  bitmap dcp_flowers
+  render 1
+  Shadow 0
+  beaming 0
+  transparencyhint 1
+  tilefade 0
+  rotatetexture 0
+  verts 4
+    0.104212 0.0978964 0
+    -0.104562 0.0980732 -0.0727851
+    0.104212 -0.0978964 0
+    -0.104212 -0.0978964 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0.462079 0.278377 0
+    0.668356 0.278377 0
+    0.462079 0.484653 0
+    0.668356 0.484653 0
+endnode
+node trimesh Plane07
+  parent PLC_04D
+  position 0.0644809 -0.346696 0.487033
+  orientation 0.00818281 0.0102217 0.999914 -0.414412
+  wirecolor 0.878906 0.878906 0.878906
+  ambient 0.588235 0.588235 0.588235
+  diffuse 0.588235 0.588235 0.588235
+  specular 0 0 0
+  shininess 10
+  bitmap dcp_flowers
+  render 1
+  Shadow 0
+  beaming 0
+  transparencyhint 1
+  tilefade 0
+  rotatetexture 0
+  verts 4
+    0.104212 0.0978964 0
+    -0.104212 0.0978964 0
+    0.104212 -0.0978964 0
+    -0.104212 -0.0978964 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0.656074 0.518266 0
+    0.899481 0.518266 0
+    0.656074 0.761672 0
+    0.899481 0.761672 0
+endnode
+node trimesh Plane08
+  parent PLC_04D
+  position -0.193432 -0.150748 0.36064
+  orientation -0.0638044 0.0190045 -0.997781 -3.72959
+  wirecolor 0.695313 0.695313 0.695313
+  ambient 0.588235 0.588235 0.588235
+  diffuse 0.588235 0.588235 0.588235
+  specular 0 0 0
+  shininess 10
+  bitmap dcp_flowers
+  render 1
+  Shadow 0
+  beaming 0
+  transparencyhint 1
+  tilefade 0
+  rotatetexture 0
+  verts 4
+    0.104212 0.0978964 0
+    -0.104212 0.0978964 0
+    0.104212 -0.0978964 0
+    -0.104212 -0.0978964 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0.462079 0.278377 0
+    0.668356 0.278377 0
+    0.462079 0.484653 0
+    0.668356 0.484653 0
+endnode
+node trimesh Plane09
+  parent PLC_04D
+  position -0.0505666 0.748267 0.456313
+  orientation 0.105307 0.0191153 0.994256 -1.77069
+  wirecolor 0.527344 0.527344 0.527344
+  ambient 0.588235 0.588235 0.588235
+  diffuse 0.588235 0.588235 0.588235
+  specular 0 0 0
+  shininess 10
+  bitmap dcp_flowers
+  render 1
+  Shadow 0
+  beaming 0
+  transparencyhint 1
+  tilefade 0
+  rotatetexture 0
+  verts 4
+    0.0833699 0.0783171 0
+    -0.0833699 0.0783171 0
+    0.0833699 -0.0783171 0
+    -0.0833699 -0.0783171 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0.656074 0.518266 0
+    0.899481 0.518266 0
+    0.656074 0.761672 0
+    0.899481 0.761672 0
+endnode
+node trimesh Plane10
+  parent PLC_04D
+  position -0.33464 0.423042 0.37639
+  orientation 0.00986696 -0.00683299 -0.999928 -2.14261
+  wirecolor 0.347656 0.347656 0.347656
+  ambient 0.588235 0.588235 0.588235
+  diffuse 0.588235 0.588235 0.588235
+  specular 0 0 0
+  shininess 10
+  bitmap dcp_flowers
+  render 1
+  Shadow 0
+  beaming 0
+  transparencyhint 1
+  tilefade 0
+  rotatetexture 0
+  verts 4
+    0.104212 0.0978964 0
+    -0.104212 0.0978964 0
+    0.105688 -0.0980537 -0.0704502
+    -0.104212 -0.0978964 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0.462079 0.278377 0
+    0.668356 0.278377 0
+    0.462079 0.484653 0
+    0.668356 0.484653 0
+endnode
+node trimesh Plane11
+  parent PLC_04D
+  position -0.338167 0.75562 0.44314
+  orientation -0.00289204 0.000249378 -0.999996 -3.90531
+  wirecolor 0.0351563 0.0351563 0.0351563
+  ambient 0.588235 0.588235 0.588235
+  diffuse 0.588235 0.588235 0.588235
+  specular 0 0 0
+  shininess 10
+  bitmap dcp_flowers
+  render 1
+  Shadow 0
+  beaming 0
+  transparencyhint 1
+  tilefade 0
+  rotatetexture 0
+  verts 4
+    0.104212 0.0978964 0
+    -0.104212 0.0978964 0
+    0.104212 -0.0978964 0
+    -0.104212 -0.0978964 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0.656074 0.518266 0
+    0.899481 0.518266 0
+    0.656074 0.761672 0
+    0.899481 0.761672 0
+endnode
+node trimesh Plane12
+  parent PLC_04D
+  position -0.0513093 0.754865 0.364111
+  orientation 0.00738574 -0.0300763 -0.99952 -0.694237
+  wirecolor 0.226563 0.226563 0.226563
+  ambient 0.588235 0.588235 0.588235
+  diffuse 0.588235 0.588235 0.588235
+  specular 0 0 0
+  shininess 10
+  bitmap dcp_flowers
+  render 1
+  Shadow 0
+  beaming 0
+  transparencyhint 1
+  tilefade 0
+  rotatetexture 0
+  verts 4
+    0.104212 0.0978964 0
+    -0.104212 0.0978964 0
+    0.104212 -0.0978964 0
+    -0.104212 -0.0978964 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0.462079 0.278377 0
+    0.668356 0.278377 0
+    0.462079 0.484653 0
+    0.668356 0.484653 0
+endnode
+node trimesh Plane13
+  parent PLC_04D
+  position -0.158568 -0.502876 0.462537
+  orientation -0.00251324 0.000999041 -0.999996 -3.32063
+  wirecolor 0.835938 0.835938 0.835938
+  ambient 0.588235 0.588235 0.588235
+  diffuse 0.588235 0.588235 0.588235
+  specular 0 0 0
+  shininess 10
+  bitmap dcp_flowers
+  render 1
+  Shadow 0
+  beaming 0
+  transparencyhint 1
+  tilefade 0
+  rotatetexture 0
+  verts 4
+    0.104212 0.0978964 0
+    -0.104212 0.0978964 0
+    0.104212 -0.0978964 0
+    -0.104212 -0.0978964 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0.656074 0.518266 0
+    0.899481 0.518266 0
+    0.656074 0.761672 0
+    0.899481 0.761672 0
+endnode
+node trimesh Plane14
+  parent PLC_04D
+  position 0.149054 0.101318 0.468624
+  orientation 0.00332394 0.000605358 0.999994 -1.84555
+  wirecolor 0.570313 0.570313 0.570313
+  ambient 0.588235 0.588235 0.588235
+  diffuse 0.588235 0.588235 0.588235
+  specular 0 0 0
+  shininess 10
+  bitmap dcp_flowers
+  render 1
+  Shadow 0
+  beaming 0
+  transparencyhint 1
+  tilefade 0
+  rotatetexture 0
+  verts 4
+    0.104212 0.0978964 0
+    -0.0631768 0.0798129 -0.0949537
+    0.104212 -0.0978964 0
+    -0.104212 -0.0978964 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0.462079 0.278377 0
+    0.668356 0.278377 0
+    0.462079 0.484653 0
+    0.668356 0.484653 0
+endnode
+node trimesh Plane15
+  parent PLC_04D
+  position 0.106853 0.518248 0.507579
+  orientation 0.0675727 0.0144155 -0.99761 -2.7807
+  wirecolor 0.601563 0.601563 0.601563
+  ambient 0.588235 0.588235 0.588235
+  diffuse 0.588235 0.588235 0.588235
+  specular 0 0 0
+  shininess 10
+  bitmap dcp_flowers
+  render 1
+  Shadow 0
+  beaming 0
+  transparencyhint 1
+  tilefade 0
+  rotatetexture 0
+  verts 4
+    0.104212 0.0978964 0
+    -0.104212 0.0978964 0
+    0.104212 -0.0978964 0
+    -0.104212 -0.0978964 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0.656074 0.518266 0
+    0.899481 0.518266 0
+    0.656074 0.761672 0
+    0.899481 0.761672 0
+endnode
+node trimesh Plane16
+  parent PLC_04D
+  position -0.180828 -0.534501 0.3856
+  orientation 0.0636498 0.0832023 -0.994498 -2.94702
+  wirecolor 0.34375 0.34375 0.34375
+  ambient 0.588235 0.588235 0.588235
+  diffuse 0.588235 0.588235 0.588235
+  specular 0 0 0
+  shininess 10
+  bitmap dcp_flowers
+  render 1
+  Shadow 0
+  beaming 0
+  transparencyhint 1
+  tilefade 0
+  rotatetexture 0
+  verts 4
+    0.104212 0.0978964 0
+    -0.100456 0.103952 -0.0336157
+    0.104212 -0.0978964 0
+    -0.104212 -0.0978964 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0.462079 0.278377 0
+    0.668356 0.278377 0
+    0.462079 0.484653 0
+    0.668356 0.484653 0
+endnode
+node trimesh Plane17
+  parent PLC_04D
+  position -0.235858 0.160027 0.530989
+  orientation 0.105307 0.0191153 0.994256 -1.77069
+  wirecolor 0.105469 0.105469 0.105469
+  ambient 0.588235 0.588235 0.588235
+  diffuse 0.588235 0.588235 0.588235
+  specular 0 0 0
+  shininess 10
+  bitmap dcp_flowers
+  render 1
+  Shadow 0
+  beaming 0
+  transparencyhint 1
+  tilefade 0
+  rotatetexture 0
+  verts 4
+    0.0833699 0.0783171 0
+    -0.0833699 0.0783171 0
+    0.0833699 -0.0783171 0
+    -0.0833699 -0.0783171 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0.656074 0.518266 0
+    0.899481 0.518266 0
+    0.656074 0.761672 0
+    0.899481 0.761672 0
+endnode
+node trimesh Plane18
+  parent PLC_04D
+  position -0.192643 -0.165532 0.405375
+  orientation 0.200403 0.195486 0.960012 -0.600903
+  wirecolor 0.601563 0.601563 0.601563
+  ambient 0.588235 0.588235 0.588235
+  diffuse 0.588235 0.588235 0.588235
+  specular 0 0 0
+  shininess 10
+  bitmap dcp_flowers
+  render 1
+  Shadow 0
+  beaming 0
+  transparencyhint 1
+  tilefade 0
+  rotatetexture 0
+  verts 4
+    0.063159 0.0593312 0
+    -0.063159 0.0593312 0
+    0.063159 -0.0593312 0
+    -0.063159 -0.0593312 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0.656074 0.518266 0
+    0.899481 0.518266 0
+    0.656074 0.761672 0
+    0.899481 0.761672 0
+endnode
+node trimesh Plane19
+  parent PLC_04D
+  position -0.152041 0.0553715 0.472374
+  orientation -0.14707 -0.643973 -0.750779 -0.591263
+  wirecolor 0.695313 0.695313 0.695313
+  ambient 0.588235 0.588235 0.588235
+  diffuse 0.588235 0.588235 0.588235
+  specular 0 0 0
+  shininess 10
+  bitmap dcp_flowers
+  render 1
+  Shadow 0
+  beaming 0
+  transparencyhint 1
+  tilefade 0
+  rotatetexture 0
+  verts 4
+    0.104212 0.0978964 0
+    -0.104212 0.0978964 0
+    0.104212 -0.0978964 0
+    -0.104212 -0.0978964 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0.656074 0.518266 0
+    0.899481 0.518266 0
+    0.656074 0.761672 0
+    0.899481 0.761672 0
+endnode
+node trimesh Plane20
+  parent PLC_04D
+  position -0.00332405 -0.78278 0.443346
+  orientation 0.147609 0.417723 -0.896504 -0.376242
+  wirecolor 0.554688 0.554688 0.554688
+  ambient 0.588235 0.588235 0.588235
+  diffuse 0.588235 0.588235 0.588235
+  specular 0 0 0
+  shininess 10
+  bitmap dcp_flowers
+  render 1
+  Shadow 0
+  beaming 0
+  transparencyhint 1
+  tilefade 0
+  rotatetexture 0
+  verts 4
+    0.063159 0.0593312 0
+    -0.063159 0.0593312 0
+    0.063159 -0.0593312 0
+    -0.063159 -0.0593312 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0.656074 0.518266 0
+    0.899481 0.518266 0
+    0.656074 0.761672 0
+    0.899481 0.761672 0
+endnode
+node trimesh Plane21
+  parent PLC_04D
+  position -0.180828 0.0766194 0.41306
+  orientation 0.0636498 0.0832023 -0.994498 -2.94702
+  wirecolor 0.339844 0.339844 0.339844
+  ambient 0.588235 0.588235 0.588235
+  diffuse 0.588235 0.588235 0.588235
+  specular 0 0 0
+  shininess 10
+  bitmap dcp_flowers
+  render 1
+  Shadow 0
+  beaming 0
+  transparencyhint 1
+  tilefade 0
+  rotatetexture 0
+  verts 4
+    0.104212 0.0978964 0
+    -0.100456 0.103952 -0.0336157
+    0.104212 -0.0978964 0
+    -0.104212 -0.0978964 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0.462079 0.278377 0
+    0.668356 0.278377 0
+    0.462079 0.484653 0
+    0.668356 0.484653 0
+endnode
+node trimesh Plane01
+  parent PLC_04D
+  position 0.150124 -0.141699 0.454796
+  orientation 0.00341023 0.000776139 0.999994 -1.75828
+  wirecolor 0.105469 0.105469 0.105469
+  ambient 0.588235 0.588235 0.588235
+  diffuse 0.588235 0.588235 0.588235
+  specular 0 0 0
+  shininess 10
+  bitmap dcp_flowers
+  render 1
+  Shadow 0
+  beaming 0
+  transparencyhint 1
+  tilefade 0
+  rotatetexture 0
+  verts 4
+    0.104212 0.0978964 0
+    -0.104212 0.0978964 0
+    0.104212 -0.0978964 0
+    -0.104212 -0.0978964 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0.656074 0.518266 0
+    0.899481 0.518266 0
+    0.656074 0.761672 0
+    0.899481 0.761672 0
+endnode
+node trimesh Plane23
+  parent PLC_04D
+  position 0.171671 -0.173814 0.381878
+  orientation 0.00604817 0.118736 -0.992907 -4.14422
+  wirecolor 0.605469 0.605469 0.605469
+  ambient 0.588235 0.588235 0.588235
+  diffuse 0.588235 0.588235 0.588235
+  specular 0 0 0
+  shininess 10
+  bitmap dcp_flowers
+  render 1
+  Shadow 0
+  beaming 0
+  transparencyhint 1
+  tilefade 0
+  rotatetexture 0
+  verts 4
+    0.104212 0.0978964 0
+    -0.100456 0.103952 -0.0336157
+    0.104212 -0.0978964 0
+    -0.104212 -0.0978964 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0.462079 0.278377 0
+    0.668356 0.278377 0
+    0.462079 0.484653 0
+    0.668356 0.484653 0
+endnode
+endmodelgeom PLC_04D
+donemodel PLC_04D

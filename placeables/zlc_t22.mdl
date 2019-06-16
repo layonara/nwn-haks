@@ -1,0 +1,328 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: zlc_t22
+filedependancy pittrap.max
+newmodel zlc_t22
+setsupermodel zlc_t22 NULL
+classification Character
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom zlc_t22
+node dummy zlc_t22
+  parent NULL
+endnode
+node trimesh Plane01
+  parent zlc_t22
+  position -0.0228556 -0.130771 0.02
+  orientation 0 0 0 0
+  wirecolor 0.601563 0.601563 0.601563
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap ttf01_black
+  verts 4
+    1.9096 1.37334 0
+    -1.9096 1.37334 0
+    1.9096 -1.37334 0
+    -1.9096 -1.37334 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0 0 0
+    1 0 0
+    0 1 0
+    1 1 0
+endnode
+node trimesh Box02
+  parent zlc_t22
+  position -0.00121052 -0.117692 0
+  orientation 0 0 0 0
+  wirecolor 0.878906 0.878906 0.878906
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap tin01__metal01
+  verts 8
+    0.92864 1.38642 0
+    -0.92864 1.38642 0
+    0.92864 -1.38642 0
+    -0.92864 -1.38642 0
+    0.92864 1.38642 0.0261588
+    -0.92864 1.38642 0.0261588
+    0.92864 -1.38642 0.0261588
+    -0.92864 -1.38642 0.0261588
+  faces 12
+    0 2 3  1  1 3 2  1
+    3 1 0  1  2 0 1  1
+    4 5 7  1  0 1 3  0
+    7 6 4  1  3 2 0  0
+    0 1 5  1  0 1 3  4
+    5 4 0  1  3 2 0  4
+    1 3 7  1  0 1 3  3
+    7 5 1  1  3 2 0  3
+    3 2 6  1  0 1 3  5
+    6 7 3  1  3 2 0  5
+    2 0 4  1  0 1 3  2
+    4 6 2  1  3 2 0  2
+  tverts 4
+    0 0 0
+    1 0 0
+    0 1 0
+    1 1 0
+endnode
+node trimesh Box03
+  parent zlc_t22
+  position -0.00454898 -0.117691 0
+  orientation 0 0 0 0
+  wirecolor 0.550781 0.550781 0.550781
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap tin01__metal01
+  verts 8
+    0.92864 1.38642 0
+    -0.92864 1.38642 0
+    0.92864 -1.38642 0
+    -0.92864 -1.38642 0
+    0.92864 1.38642 0.0261588
+    -0.92864 1.38642 0.0261588
+    0.92864 -1.38642 0.0261588
+    -0.92864 -1.38642 0.0261588
+  faces 12
+    0 2 3  1  1 3 2  1
+    3 1 0  1  2 0 1  1
+    4 5 7  1  0 1 3  0
+    7 6 4  1  3 2 0  0
+    0 1 5  1  0 1 3  4
+    5 4 0  1  3 2 0  4
+    1 3 7  1  0 1 3  3
+    7 5 1  1  3 2 0  3
+    3 2 6  1  0 1 3  5
+    6 7 3  1  3 2 0  5
+    2 0 4  1  0 1 3  2
+    4 6 2  1  3 2 0  2
+  tverts 4
+    0 0 0
+    1 0 0
+    0 1 0
+    1 1 0
+endnode
+node trimesh Box01
+  parent zlc_t22
+  position -0.0190051 -0.106086 0.0307591
+  orientation 0 0 0 0
+  wirecolor 0.550781 0.550781 0.550781
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap tin01__metal01
+  verts 16
+    1.99769 1.44277 0
+    -1.99769 1.44278 0
+    1.99769 -1.44278 0
+    -1.99769 -1.44277 0
+    1.99769 1.44277 0.0207421
+    -1.99769 1.44278 0.0207421
+    1.99769 -1.44278 0.0207421
+    -1.99769 -1.44277 0.0207421
+    1.86644 1.33157 0
+    -1.85148 1.33157 0
+    -1.85148 1.33157 0.0207421
+    1.86644 1.33157 0.0207421
+    -1.85148 -1.33202 0
+    -1.85148 -1.33202 0.0207421
+    1.86644 -1.33202 0
+    1.86644 -1.33202 0.0207421
+  faces 32
+    5 4 0  1  1 0 0  4
+    0 1 5  1  0 1 1  4
+    7 5 1  1  3 1 1  3
+    1 3 7  1  1 3 3  3
+    6 7 3  1  2 3 3  5
+    3 2 6  1  3 2 2  5
+    4 6 2  1  0 2 2  2
+    2 0 4  1  2 0 0  2
+    11 15 6  1  4 7 2  0
+    11 6 4  1  4 2 0  0
+    10 11 4  1  5 4 0  0
+    10 4 5  1  5 0 1  0
+    10 5 7  1  5 1 3  0
+    13 10 7  1  6 5 3  0
+    13 7 6  1  6 3 2  0
+    13 6 15  1  6 2 7  0
+    12 14 2  1  6 7 2  1
+    12 2 3  1  6 2 3  1
+    9 12 3  1  5 6 3  1
+    9 3 1  1  5 3 1  1
+    8 9 1  1  4 5 1  1
+    8 1 0  1  4 1 0  1
+    8 0 2  1  4 0 2  1
+    8 2 14  1  4 2 7  1
+    12 13 15  1  6 6 7  5
+    15 14 12  1  7 7 6  5
+    14 15 11  1  7 7 4  2
+    11 8 14  1  4 4 7  2
+    9 8 11  1  5 4 4  4
+    11 10 9  1  4 5 5  4
+    12 9 10  1  6 5 5  3
+    10 13 12  1  5 6 6  3
+  tverts 8
+    0.000499547 0.000499845 0
+    0.9995 0.000499517 0
+    0.000499725 0.999501 0
+    0.9995 0.9995 0
+    0.0333161 0.0390012 0
+    0.962942 0.0390009 0
+    0.962942 0.961155 0
+    0.0333163 0.961156 0
+endnode
+endmodelgeom zlc_t22
+
+#MAXANIM ASCII
+newanim default zlc_t22
+  length 0
+  transtime 0
+  animroot zlc_t22
+node dummy zlc_t22
+  parent NULL
+endnode
+node trimesh Plane01
+  parent zlc_t22
+endnode
+node trimesh Box02
+  parent zlc_t22
+    positionkey
+      0  -0.949731 -0.00117684 0
+    endlist
+endnode
+node trimesh Box03
+  parent zlc_t22
+    positionkey
+      0  0.917054 -0.00117699 0
+    endlist
+endnode
+node trimesh Box01
+  parent zlc_t22
+endnode
+doneanim default zlc_t22
+
+#MAXANIM ASCII
+newanim off zlc_t22
+  length 0
+  transtime 0
+  animroot zlc_t22
+node dummy zlc_t22
+  parent NULL
+endnode
+node trimesh Plane01
+  parent zlc_t22
+endnode
+node trimesh Box02
+  parent zlc_t22
+    positionkey
+      0  -0.939719 -0.117692 0
+    endlist
+endnode
+node trimesh Box03
+  parent zlc_t22
+    positionkey
+      0  0.938887 -0.117691 0
+    endlist
+endnode
+node trimesh Box01
+  parent zlc_t22
+endnode
+doneanim off zlc_t22
+
+#MAXANIM ASCII
+newanim off2on zlc_t22
+  length 0.333333
+  transtime 0
+  animroot zlc_t22
+node dummy zlc_t22
+  parent NULL
+endnode
+node trimesh Plane01
+  parent zlc_t22
+endnode
+node trimesh Box02
+  parent zlc_t22
+    positionkey
+      0  -0.949731 -0.0852404 0
+      0.333333  -2.81612 -0.0640433 0
+    endlist
+endnode
+node trimesh Box03
+  parent zlc_t22
+    positionkey
+      0  0.917054 -0.106494 0
+      0.333333  2.69193 -0.106694 0
+    endlist
+endnode
+node trimesh Box01
+  parent zlc_t22
+endnode
+doneanim off2on zlc_t22
+
+#MAXANIM ASCII
+newanim on zlc_t22
+  length 0
+  transtime 0
+  animroot zlc_t22
+node dummy zlc_t22
+  parent NULL
+endnode
+node trimesh Plane01
+  parent zlc_t22
+endnode
+node trimesh Box02
+  parent zlc_t22
+    positionkey
+      0  -2.78699 -0.111709 0
+    endlist
+endnode
+node trimesh Box03
+  parent zlc_t22
+    positionkey
+      0  2.88093 -0.112925 0
+    endlist
+endnode
+node trimesh Box01
+  parent zlc_t22
+endnode
+doneanim on zlc_t22
+
+#MAXANIM ASCII
+newanim on2off zlc_t22
+  length 0
+  transtime 0
+  animroot zlc_t22
+node dummy zlc_t22
+  parent NULL
+endnode
+node trimesh Plane01
+  parent zlc_t22
+endnode
+node trimesh Box02
+  parent zlc_t22
+    positionkey
+      0  -0.949974 -0.00117684 0
+    endlist
+endnode
+node trimesh Box03
+  parent zlc_t22
+    positionkey
+      0  0.917031 -0.00117699 0
+    endlist
+endnode
+node trimesh Box01
+  parent zlc_t22
+endnode
+doneanim on2off zlc_t22
+donemodel zlc_t22

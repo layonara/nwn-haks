@@ -1,0 +1,548 @@
+# Exported from NWmax 0.5-beta at 2/19/2004 8:36:18 AM
+# mdl file
+#
+#NWmaxMODEL ASCII
+# model: zlc_pn8
+filedependancy Unknown
+newmodel zlc_pn8
+setsupermodel zlc_pn8 NULL
+classification Character
+setanimationscale 1.0
+#NWmaxGEOM  ASCII
+beginmodelgeom zlc_pn8
+node dummy zlc_pn8
+  parent NULL
+endnode
+node dummy damage21
+  parent zlc_pn8
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 0.839844 0.839844 0.839844
+endnode
+node trimesh dfh
+  parent damage21
+  position 0.00410156 0.0269189 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 0.0 0.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  selfillumcolor 0.0 0.0 0.0 
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  center undefined
+  gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 2.0
+  selfillumcolor 0.0 0.0 0.0 
+  bitmap PLC_RugDMtlBrk
+  verts 10
+    0.16 0.0 0.0
+    -0.02 0.09 0.24
+    0.11 0.01 0.24
+    -0.07 0.13 0.0
+    -0.02 -0.06 0.24
+    -0.07 -0.14 0.0
+    -0.17 -0.01 1.09
+    -0.09 -0.05 1.09
+    -0.17 -0.1 1.09
+    0.0 0.0 2.36
+  faces 15
+    0 1 2  1  0 1 2  0
+    0 3 1  1  0 3 1  0
+    3 4 1  1  3 4 1  0
+    3 5 4  1  3 5 4  0
+    5 2 4  1  5 6 4  0
+    5 0 2  1  5 7 6  0
+    2 6 7  1  2 8 9  0
+    2 1 6  1  2 1 8  0
+    1 8 6  1  1 10 8  0
+    1 4 8  1  1 4 10  0
+    4 7 8  1  4 11 10  0
+    4 2 7  1  4 6 11  0
+    7 6 9  1  9 8 12  0
+    6 8 9  1  8 10 12  0
+    8 7 9  1  10 11 12  0
+  tverts 13
+    0.0811825 0.685258 0
+    0.184271 0.573652 0
+    0.184271 0.685258 0
+    0.0811825 0.579533 0
+    0.184271 0.675679 0
+    0.0811825 0.669798 0
+    0.184271 0.564074 0
+    0.0811825 0.564074 0
+    0.540169 0.56761 0
+    0.540169 0.685258 0
+    0.540169 0.68172 0
+    0.540169 0.564074 0
+    1.08201 0.626901 0
+endnode
+node trimesh Rectangle117
+  parent dfh
+  position 0.00615821 -0.0401199 1.7434
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.694118 0.694118 0.694118 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  selfillumcolor 0.0 0.0 0.0 
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 1
+  center undefined
+  gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 2.0
+  selfillumcolor 0.0 0.0 0.0 
+  bitmap shrub_01
+  verts 5
+    0.02 0.01 0.33
+    0.67 -0.67 0.0
+    0.67 0.67 0.0
+    -0.67 0.67 0.0
+    -0.67 -0.67 0.0
+  faces 4
+    0 1 2  1  0 1 2  0
+    3 0 2  1  3 4 5  0
+    3 4 0  1  6 7 8  0
+    4 1 0  1  9 10 11  0
+  tverts 12
+    0.427933 0.449825 0
+    0.264603 0.59099 0
+    0.267036 0.312204 0
+    0.263084 0.309334 0
+    0.426414 0.450499 0
+    0.265517 0.588121 0
+    0.261767 0.58692 0
+    0.261767 0.308124 0
+    0.429784 0.450484 0
+    0.257164 0.592552 0
+    0.26203 0.313797 0
+    0.427644 0.452697 0
+endnode
+node trimesh Rectangle62
+  parent dfh
+  position -0.139904 -0.0581498 1.30476
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.101961 0.101961 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  selfillumcolor 0.0 0.0 0.0 
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 1
+  center undefined
+  gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 2.0
+  selfillumcolor 0.0 0.0 0.0 
+  bitmap shrub_01
+  verts 5
+    0.03 0.02 0.45
+    1.05 -1.05 0.0
+    1.05 1.05 0.0
+    -1.05 1.05 0.0
+    -1.05 -1.05 0.0
+  faces 4
+    0 1 2  1  0 1 2  0
+    3 0 2  1  3 4 5  0
+    3 4 0  1  6 7 8  0
+    4 1 0  1  9 10 11  0
+  tverts 12
+    0.497062 0.475976 0
+    0.268674 0.710156 0
+    0.27271 0.247673 0
+    0.266154 0.242913 0
+    0.494542 0.477093 0
+    0.27019 0.705396 0
+    0.263969 0.703405 0
+    0.263969 0.240905 0
+    0.500134 0.477069 0
+    0.256333 0.712746 0
+    0.264404 0.250316 0
+    0.496583 0.48074 0
+endnode
+node dummy pn8_hand
+  parent zlc_pn8
+  position 0.00398926 -0.0516536 1.73874
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.768628 0.345098 0.882353 
+endnode
+node dummy pn8_head
+  parent zlc_pn8
+  position 0.00398926 0.0108252 2.1763
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.768628 0.345098 0.882353 
+endnode
+node dummy pn8_head_hit
+  parent zlc_pn8
+  position 0.00398926 0.0108252 1.11965
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.768628 0.345098 0.882353 
+endnode
+node dummy pn8_impact
+  parent zlc_pn8
+  position 0.00398926 0.011001 0.868134
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.768628 0.345098 0.882353 
+endnode
+node dummy pn8_ground
+  parent zlc_pn8
+  position -0.00363281 0.0069873 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.768628 0.345098 0.882353 
+endnode
+node emitter ChunkyWood143
+  parent zlc_pn8
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 1
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Normal
+  texture fxpa_cloud02
+  chunkName PLC_Chunk_W01
+  xgrid 5
+  ygrid 5
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position -0.00243408 -0.0134979002 0.606715024
+  orientation 0 0 0 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.100000001
+  sizeEnd 0.100000001
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 24
+  birthrate 2
+  lifeExp 0.75
+  mass 3
+  spread 1.22172999
+  particleRot 5
+  velocity 8
+  randvel 0.300000012
+  fps 0
+  xsize 89
+  ysize 40
+  bounce_co 0.5
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter fire!79
+  parent zlc_pn8
+  position 0.00370824 0.00660522 0.532671
+  orientation 1.0 0.0 0.0 -4.71239
+  wirecolor 0.694118 0.694118 0.694118 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawnType 0
+  iconSize 100.0
+  xSize 100.0
+  ySize 99.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  colorStart 0.47451 0.454902 0.407843 
+  colorEnd 0.819608 0.803922 0.745098 
+  alphaStart 1.0
+  alphaEnd 0.0
+  sizeStart 4.0
+  sizeEnd 1.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 10.0
+  lifeExp 2.5
+  mass 0.09
+  spread 2.96706
+  particleRot 0.5
+  velocity 2.0
+  randvel 0.5
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 1
+  Splat 0
+  affectedbyWind false
+  texture fxpa_smoke01
+  twosidedtext 0
+  xgrid 4
+  ygrid 4
+  fps 10
+  frameStart 0
+  frameEnd 24
+  random 0
+  #chunk undefined
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDivkey 0
+  lightningScale 0.0
+  blastRadius 0.2
+  blastLength 1.0
+  opacity 0.5
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+  Cone_Angle_Manipulator SubAnim:Cone_Angle_Manipulator
+endnode
+endmodelgeom zlc_pn8
+
+
+#MAXANIM ASCII
+newanim default zlc_pn8
+  length 0.0333333
+  transtime 0
+  animroot zlc_pn8
+node dummy zlc_pn8
+  parent NULL
+endnode
+node dummy damage21
+  parent zlc_pn8
+    positionkey
+      0  0 0 0
+      0.0333333  0 0 0
+    endlist
+endnode
+node trimesh dfh
+  parent damage21
+endnode
+node trimesh Rectangle117
+  parent damage21
+endnode
+node trimesh Rectangle62
+  parent damage21
+endnode
+node emitter fire!91
+  parent zlc_pn8
+endnode
+node emitter ChunkyWood143
+  parent zlc_pn8
+endnode
+node dummy pn8_ground
+  parent zlc_pn8
+endnode
+node dummy pn8_hand
+  parent zlc_pn8
+endnode
+node dummy pn8_head
+  parent zlc_pn8
+endnode
+node dummy pn8_head_hit
+  parent zlc_pn8
+endnode
+node dummy pn8_impact
+  parent zlc_pn8
+endnode
+doneanim default zlc_pn8
+
+#MAXANIM ASCII
+newanim die zlc_pn8
+  length 0.166667
+  transtime 0
+  animroot zlc_pn8
+  event 0.000000 detonate
+  event 0.000000 detonate
+node dummy zlc_pn8
+  parent NULL
+endnode
+node dummy damage21
+  parent zlc_pn8
+    positionkey
+      0  0 0 0
+      0.166667  0 0 -10
+    endlist
+endnode
+node trimesh dfh
+  parent damage21
+endnode
+node trimesh Rectangle117
+  parent damage21
+endnode
+node trimesh Rectangle62
+  parent damage21
+endnode
+node emitter fire!91
+  parent zlc_pn8
+endnode
+node emitter ChunkyWood143
+  parent zlc_pn8
+  birthratekey
+    0.000000  100.000000
+  endlist
+endnode
+node dummy pn8_ground
+  parent zlc_pn8
+endnode
+node dummy pn8_hand
+  parent zlc_pn8
+endnode
+node dummy pn8_head
+  parent zlc_pn8
+endnode
+node dummy pn8_head_hit
+  parent zlc_pn8
+endnode
+node dummy pn8_impact
+  parent zlc_pn8
+endnode
+doneanim die zlc_pn8
+ 
+#MAXANIM ASCII
+newanim dead zlc_pn8
+  length 0.0333333
+  transtime 0.000000
+  animroot zlc_pn8
+node dummy zlc_pn8
+  parent NULL
+endnode
+node dummy damage21
+  parent zlc_pn8
+    positionkey
+      0  0 0 -10
+      0.0333333  0 0 -10
+    endlist
+endnode
+node trimesh dfh
+  parent damage21
+endnode
+node trimesh Rectangle117
+  parent damage21
+endnode
+node trimesh Rectangle62
+  parent damage21
+endnode
+node emitter fire!91
+  parent zlc_pn8
+endnode
+node emitter ChunkyWood143
+  parent zlc_pn8
+endnode
+node dummy pn8_ground
+  parent zlc_pn8
+endnode
+node dummy pn8_hand
+  parent zlc_pn8
+endnode
+node dummy pn8_head
+  parent zlc_pn8
+endnode
+node dummy pn8_head_hit
+  parent zlc_pn8
+endnode
+node dummy pn8_impact
+  parent zlc_pn8
+endnode
+doneanim dead zlc_pn8
+ 
+#MAXANIM ASCII
+newanim damage zlc_pn8
+  length 0.2
+  transtime 0
+  animroot zlc_pn8
+node dummy zlc_pn8
+  parent NULL
+endnode
+node dummy damage21
+  parent zlc_pn8
+    positionkey
+      0  0 0 0
+      0.2  0 0 0
+    endlist
+    orientationkey
+      0  0 0 0 0
+      0.0666667  0.015 -0.015 0.035 0.05
+      0.1  -0.02 -0.02 -0.01 0.07
+      0.133333  0.01 -0.01 -0.015 -0.025
+      0.166667  0.02 0.03 0.01 -0.06
+      0.2  0 0 0 0
+    endlist
+endnode
+node trimesh dfh
+  parent damage21
+endnode
+node trimesh Rectangle117
+  parent damage21
+endnode
+node trimesh Rectangle62
+  parent damage21
+endnode
+node emitter fire!91
+  parent zlc_pn8
+endnode
+node emitter ChunkyWood143
+  parent zlc_pn8
+endnode
+node dummy pn8_ground
+  parent zlc_pn8
+endnode
+node dummy pn8_hand
+  parent zlc_pn8
+endnode
+node dummy pn8_head
+  parent zlc_pn8
+endnode
+node dummy pn8_head_hit
+  parent zlc_pn8
+endnode
+node dummy pn8_impact
+  parent zlc_pn8
+endnode
+doneanim damage zlc_pn8
+
+donemodel zlc_pn8

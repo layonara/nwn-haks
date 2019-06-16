@@ -1,0 +1,65 @@
+#Model converted by mdl2ascii
+#For updates/comments check out http://nwn-j3d.sf.net
+filedependancy Unknown
+newmodel zlc_rgt
+setsupermodel zlc_rgt NULL
+classification Character
+setanimationscale 1.000000
+#MAXGEOM  ASCII
+beginmodelgeom zlc_rgt
+node dummy zlc_rgt
+  parent NULL
+endnode
+node dummy Rgt_hand
+  parent zlc_rgt
+  position 0.008067 -0.004942 0.934402
+  orientation 0.000000 0.000000 0.000000 0.000000
+endnode
+node dummy Rgt_head
+  parent zlc_rgt
+  position 0.003984 0.010825 0.983874
+  orientation 0.000000 0.000000 0.000000 0.000000
+endnode
+node dummy Rgt_head_hit
+  parent zlc_rgt
+  position 0.003984 0.010825 0.044079
+  orientation 0.000000 0.000000 0.000000 0.000000
+endnode
+node dummy Rgt_impact
+  parent zlc_rgt
+  position 0.003984 0.011001 0.027002
+  orientation 0.000000 0.000000 0.000000 0.000000
+endnode
+node dummy Rgt_ground
+  parent zlc_rgt
+  position -0.003633 0.006987 0.000000
+  orientation 0.000000 0.000000 0.000000 0.000000
+endnode
+node trimesh Plane14
+  parent zlc_rgt
+  position 0.000000 0.000000 0.020000
+  orientation 0.000000 0.000000 0.000000 0.000000
+  diffuse 1.000000 1.000000 1.000000
+  ambient 1.000000 1.000000 1.000000
+  specular 0.000000 0.000000 0.000000
+  shininess 1.000000
+  render 1
+    bitmap tigerrug
+    verts 4
+     -0.997136 -0.973878 -0.005000 
+     0.997136 -0.973878 -0.005000 
+     -0.997136 0.973878 -0.005000 
+     0.997136 0.973878 -0.005000 
+    faces 2
+     0 1 2  1  0 1 2  0
+     3 2 1  1  3 2 1  0
+    tverts 4
+     0.000000 0.000000 0.0 
+     0.000000 1.000000 0.0 
+     1.000000 0.000000 0.0 
+     1.000000 1.000000 0.0 
+endnode
+endmodelgeom zlc_rgt
+donemodel zlc_rgt
+
+

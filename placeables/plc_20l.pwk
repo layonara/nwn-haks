@@ -1,0 +1,36 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: PLC_20L
+filedependancy dec30.max
+node trimesh PLC_20L_wg
+  parent PLC_20L_pwk
+  position -0.0753561 0.0359627 0
+  orientation 0 0 0 0
+  wirecolor 0.582031 0.582031 0.582031
+  ambient 0.578125 0.691406 0.101563
+  diffuse 0.578125 0.691406 0.101563
+  specular 0 0 0
+  shininess 1
+  bitmap NULL
+  verts 4
+    3.55736 0.88934 0
+    -3.55736 0.889341 0
+    3.55736 -0.889341 0
+    -3.55736 -0.88934 0
+  faces 2
+    2 0 3  1  0 0 0  0
+    1 3 0  1  0 0 0  0
+endnode
+node dummy 20L_pwk_use01
+  parent PLC_20L_pwk
+  position 0 -0.797388 0.5
+  orientation 0 0 0 0
+  wirecolor 0.34375 0.34375 0.34375
+endnode
+node dummy 20L_pwk_use02
+  parent PLC_20L_pwk
+  position 0 1.01244 1.25
+  orientation 0 0 0 0
+  wirecolor 0.0351563 0.0351563 0.0351563
+endnode
