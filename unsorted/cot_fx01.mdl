@@ -1,0 +1,112 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: cot_fx01
+filedependancy Unknown
+newmodel cot_fx01
+setsupermodel cot_fx01 NULL
+classification Tile
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom cot_fx01
+node dummy cot_fx01
+  parent NULL
+endnode
+node emitter fire!03
+  parent cot_fx01
+  position 0.0466596 -0.126434 0.0124961
+  orientation 1 0 0 -1.42244
+  wirecolor 0.605469 0.605469 0.605469
+    colorStart 0.392157 0 0
+    colorEnd 0.184314 0 0
+    alphaStart 0.5
+    alphaEnd 0
+    sizeStart 1
+    sizeEnd 6
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 24
+    birthrate 5
+    spawnType 0
+    lifeExp 5
+    mass 0
+    spread 1.0472
+    particleRot 0.2
+    velocity 0.5
+    randvel 0.4
+    fps 10
+    random 1
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 60
+    ysize 60
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Fountain
+    render Billboard_to_World_Z
+    Blend Normal
+    update_sel 1
+    render_sel 4
+    blend_sel 1
+    deadspace 0
+    opacity 0.5
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_smoke01
+    xgrid 4
+    ygrid 4
+    affectedByWind 1
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+node dummy T03_hand
+  parent cot_fx01
+  position 0.00398437 -0.505195 0.587124
+  orientation 0 0 0 0
+  wirecolor 0.0351563 0.0351563 0.0351563
+endnode
+node dummy T03_head
+  parent cot_fx01
+  position 0.00398437 0.0108252 0.861455
+  orientation 0 0 0 0
+  wirecolor 0.0351563 0.0351563 0.0351563
+endnode
+node dummy T03_head_hit
+  parent cot_fx01
+  position 0.00398437 0.0108252 0.379977
+  orientation 0 0 0 0
+  wirecolor 0.0351563 0.0351563 0.0351563
+endnode
+node dummy T03_impact
+  parent cot_fx01
+  position 0.00398437 0.011001 0.231613
+  orientation 0 0 0 0
+  wirecolor 0.0351563 0.0351563 0.0351563
+endnode
+node dummy T03_ground
+  parent cot_fx01
+  position -0.00363281 0.0069873 0
+  orientation 0 0 0 0
+  wirecolor 0.0351563 0.0351563 0.0351563
+endnode
+endmodelgeom cot_fx01
+donemodel cot_fx01

@@ -1,0 +1,52 @@
+#The Arcane Space Tileset Blue Star placeable
+#By: Mystic_Nexus
+# mystic_nexus@hotmail.com
+# model: TDM01_O01_01
+filedependancy Unknown
+newmodel TDM01_O01_01
+setsupermodel TDM01_O01_01 boat1
+classification Tile
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom TDM01_O01_01
+node dummy TDM01_O01_01
+  parent NULL
+endnode
+node light AuroraLight01
+  parent TDM01_O01_01
+  #part-number 3
+  ambientonly 0
+  shadow 0
+  isdynamic 0
+  affectdynamic 1
+  lightpriority 3
+  fadingLight 1
+  flareradius 70
+  texturenames 4
+    fxpa_lensflare
+    fxpa_lensring
+    fxpa_lensring
+    fxpa_lensflare
+  flaresizes 4
+    7
+    0
+    0
+    0
+  flarepositions 4
+    1
+    0.5
+    1.5
+    0.400000006
+  flarecolorshifts 4
+    0 0 1
+    -0.200000003 -0.200000003 -0.200000003
+    -0.100000001 -0.100000001 -0.100000001
+    -0.699999988 -0.699999988 -0.699999988
+  position 0.00962 0.013333 4.70372
+  orientation 0 0 0 0
+  radius 20
+  multiplier 1
+  color 0.611765027 0.996079028 1
+endnode
+endmodelgeom TDM01_O01_01
+donemodel TDM01_O01_01

@@ -1,0 +1,245 @@
+#MAXMODEL ASCII
+# model: vce_posblack
+filedependancy vce_posblack.max
+newmodel vce_posblack
+setsupermodel vce_posblack NULL
+classification effect
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vce_posblack
+node dummy vce_posblack
+  parent NULL
+  #part-number 0
+endnode
+node emitter Yellow
+  parent vce_posblack
+  #part-number 1
+  p2p 0
+  p2p_sel 0
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 1
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_Flare1
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0.0520600006
+  orientation 0 0 0 0
+  colorStart 0.0196077991 0.0196077991 0.0196077991
+  colorEnd 0.156863004 0.156863004 0.156863004
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.100000001
+  sizeEnd 0.5
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 3
+  birthrate 0
+  lifeExp 0.200000003
+  mass 0
+  spread 6.28318977
+  particleRot 1
+  velocity 2
+  randvel 0
+  fps 18
+  xsize 30
+  ysize 30
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 1
+  grav 0.200000003
+  threshold 0
+endnode
+node emitter Blue
+  parent vce_posblack
+  #part-number 2
+  p2p 0
+  p2p_sel 0
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 1
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_Flare1
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0.0517055988
+  orientation 0 0 0 0
+  colorStart 0.0196077991 0.0196077991 0.0196077991
+  colorEnd 0.156863004 0.156863004 0.156863004
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.5
+  sizeEnd 0.100000001
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 3
+  birthrate 0
+  lifeExp 0.200000003
+  mass 0
+  spread 6.28318977
+  particleRot 2
+  velocity 2
+  randvel 0
+  fps 30
+  xsize 25
+  ysize 25
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 1
+  grav 0.200000003
+  threshold 0
+endnode
+node emitter vCA_self002
+  parent vce_posblack
+  #part-number 3
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Normal
+  texture fxpa_Smoke01
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0.0220618006
+  orientation 0 0 0 0
+  colorStart 0.0196077991 0.0196077991 0.0196077991
+  colorEnd 0.156863004 0.156863004 0.156863004
+  alphaStart 0.5
+  alphaEnd 0
+  sizeStart 0.5
+  sizeEnd 0.899999976
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 5
+  lifeExp 1
+  mass 0
+  spread 0.872664988
+  particleRot 1
+  velocity 0.600000024
+  randvel 0.5
+  fps 15
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+endmodelgeom vce_posblack
+
+#MAXANIM ASCII
+newanim cessation vce_posblack
+  length 1.13332999
+  transtime 0
+  animroot vce_posblack
+  event 0.0666666999 detonate
+node dummy vce_posblack
+  parent NULL
+  #part-number 0
+endnode
+node emitter Yellow
+  parent vce_posblack
+  #part-number 1
+  birthratekey 6
+    0 0
+    0.0333333015 45
+    0.0666666999 45
+    0.333332986 45
+    0.366667002 45
+    0.400000006 0
+  dragkey 3
+    0 1
+    0.466666996 1
+    0.633333027 0
+endnode
+node emitter Blue
+  parent vce_posblack
+  #part-number 2
+  birthratekey 6
+    0 0
+    0.0333333015 50
+    0.0666666999 50
+    0.266667008 45
+    0.300000012 45
+    0.333332986 0
+  dragkey 3
+    0 1
+    0.466666996 1
+    0.633333027 0
+endnode
+node emitter vCA_self002
+  parent vce_posblack
+  #part-number 3
+endnode
+doneanim cessation vce_posblack
+
+donemodel vce_posblack

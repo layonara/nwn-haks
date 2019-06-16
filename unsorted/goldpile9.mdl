@@ -1,0 +1,58 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: goldpile9
+filedependancy Unknown
+newmodel goldpile9
+setsupermodel goldpile9 NULL
+classification Character
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom goldpile9
+node dummy goldpile9
+  parent NULL
+endnode
+node trimesh Plane02
+  parent goldpile9
+  position -2.3334 2.30074 0.03
+  orientation 0 0 0 0
+  wirecolor 0.339844 0.339844 0.339844
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0.7 0.7 0.7
+  shininess 30
+  selfillumcolor 1 1 1
+  bitmap goldpile2
+  render 1
+  Shadow 1
+  beaming 0
+  transparencyhint 0
+  tilefade 0
+  rotatetexture 1
+  verts 9
+    0 -2.5 0
+    0 -5 0
+    2.5 -2.5 0
+    2.5 -5 0
+    5 -2.5 0
+    5 -5 0
+    0 0 0
+    2.5 0 0
+    5 0 0
+  faces 8
+    0 1 2  1  0 3 1  0
+    3 2 1  1  1 2 0  0
+    2 3 4  1  0 3 1  0
+    5 4 3  1  1 2 0  0
+    6 0 7  1  0 3 1  0
+    2 7 0  1  1 2 0  0
+    7 2 8  1  0 3 1  0
+    4 8 2  1  1 2 0  0
+  tverts 4
+    0 0 0
+    1 1 0
+    0 1 0
+    1 0 0
+endnode
+endmodelgeom goldpile9
+donemodel goldpile9

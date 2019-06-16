@@ -1,0 +1,170 @@
+# Exported from NWmax 0.8 b60 at 8/19/2008 5:30:28 PM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: var_dragcold
+#local file: Unknown
+filedependancy Unknown
+newmodel var_dragcold
+setsupermodel var_dragcold NULL
+classification Effect
+#NWmax GEOM  ASCII
+beginmodelgeom var_dragcold
+node dummy var_dragcold
+  parent NULL
+endnode
+node emitter FireBreath02
+  parent var_dragcold
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 -2.53945
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawntype_sel 0
+  spawnType 0
+  xSize 0.0
+  ySize 0.0
+  inherit 0
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.498039 0.980392 1.0 
+  colorEnd 0.0 0.0 1.0 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 1.0
+  sizeEnd 10.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 1500
+  lifeExp 1.0
+  mass -0.1
+  spread 1.5708
+  particleRot 0.5
+  velocity 17.5
+  randvel 3.5
+  bounce_co 0.0
+  blurlength 1.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture x_explosion_01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 16
+  framestart 0
+  frameend 15
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node light FireLight
+  parent var_dragcold
+  position 0.0276352 2.95737 0.0316232
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  radius 0.0
+  multiplier 1.0
+  color 0.796079 0.984314 1.0 
+  ambientonly 0
+  nDynamicType 0
+  affectDynamic 1
+  shadow 1
+  lightpriority 2
+  fadingLight 1
+endnode
+endmodelgeom var_dragcold
+#NWmax ANIM ASCII
+newanim cast01 var_dragcold
+  length 4.96667
+  transtime 0.25
+  animroot var_dragcold
+    node dummy var_dragcold
+        parent NULL
+    endnode
+    node emitter FireBreath02
+        parent var_dragcold
+        birthratekey
+            0.0 1500 
+            1.2 1500 
+            2.0 0 
+        endlist
+    endnode
+    node light FireLight
+        parent var_dragcold
+        colorkey
+            0.0 0.796079 0.984314 1.0 
+            0.1 0.796079 0.984314 1.0 
+            0.166667 0.866666 1.0 1.0 
+            0.2 0.733334 0.874511 0.843137 
+            0.266667 0.866666 1.0 1.0 
+            0.333333 0.733334 0.874511 0.843137 
+            0.366667 0.866666 1.0 1.0 
+            0.433333 0.733334 0.874511 0.843137 
+            0.466667 0.866666 1.0 1.0 
+            0.533333 0.733334 0.874511 0.843137 
+            0.566667 0.866666 1.0 1.0 
+            0.633333 0.733334 0.874511 0.843137 
+            0.7 0.866666 1.0 1.0 
+            0.766667 0.733334 0.874511 0.843137 
+            0.8 0.866666 1.0 1.0 
+            0.866667 0.733334 0.874511 0.843137 
+            0.933333 0.733334 0.874511 0.843137 
+            1.0 0.866666 1.0 1.0 
+            1.06667 0.866666 1.0 1.0 
+            1.13333 0.733334 0.874511 0.843137 
+            1.2 0.733334 0.874511 0.843137 
+            1.26667 0.866666 1.0 1.0 
+            1.33333 0.733334 0.874511 0.843137 
+            1.36667 0.733334 0.874511 0.843137 
+            1.4 0.866666 1.0 1.0 
+            1.46667 0.866666 1.0 1.0 
+            1.56667 0.733334 0.874511 0.843137 
+            1.63333 0.866666 1.0 1.0 
+            1.73333 0.733334 0.874511 0.843137 
+            1.8 0.866666 1.0 1.0 
+            1.9 0.733334 0.874511 0.843137 
+            1.96667 0.0 0.0 0.0 
+        endlist
+        radiuskey
+            0.0 0.0 
+            0.1 0.0 
+            0.2 0.0 
+            0.633333 10.0 
+            0.666667 10.0 
+            0.7 12.0 
+            0.766667 13.0 
+            0.8 14.0 
+            0.866667 15.0 
+            0.933333 16.0 
+            1.0 17.0 
+            1.06667 18.0 
+            1.13333 19.0 
+            1.2 20.0 
+        endlist
+    endnode
+doneanim cast01 var_dragcold
+donemodel var_dragcold

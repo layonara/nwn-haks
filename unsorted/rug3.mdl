@@ -1,0 +1,45 @@
+# Exported from Wayland's NWN Maxscript v0.3 at 11/7/2002 5:28:25 PM
+# mdl file
+#
+filedependancy Unknown
+newmodel Rug3
+setsupermodel Rug3 NULL
+classification Character
+setanimationscale 1.0
+beginmodelgeom Rug3
+node dummy Rug3
+    parent NULL
+endnode
+node trimesh Plane01
+    parent Rug3
+    position 0.0 0.0 0.03
+    orientation 1.0 0.0 0.0 0.0
+    scale 1.0
+    shadow  0
+    render  1
+    shininess  0
+    transparencyhint  1
+    diffuse 1.0 1.0 1.0
+    ambient 1.0 1.0 1.0
+    specular 1.0 1.0 1.0
+    selfillumcolor 1.0 1.0 1.0
+    alpha 1.0
+    bitmap Rug3
+    verts 4
+        -0.5 -0.75 0.0
+        0.5 -0.75 0.0
+        -0.5 0.75 0.0
+        0.5 0.75 0.0
+    faces 2
+        2 0 3 1 2 4 5 1
+        1 3 0 1 1 3 0 1
+    tverts 6
+        0.000499547 0.000499696 0
+        0.9995 0.000499547 0
+        0.000499904 0.9995 0
+        0.9995 0.9995 0
+        0.000499547 0.000499696 0
+        0.9995 0.9995 0
+endnode
+endmodelgeom Rug3
+donemodel Rug3

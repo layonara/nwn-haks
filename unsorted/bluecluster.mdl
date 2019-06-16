@@ -1,0 +1,124 @@
+#The Arcane Space Tileset Blue Star Cluster placeable
+#By: Mystic_Nexus
+# mystic_nexus@hotmail.com
+# model: TDM01_O01_01
+filedependancy Unknown
+newmodel TDM01_O01_01
+setsupermodel TDM01_O01_01 boat1
+classification Tile
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom TDM01_O01_01
+node dummy TDM01_O01_01
+  parent NULL
+endnode
+node light AuroraLight01
+  parent TDM01_O01_01
+  #part-number 3
+  ambientonly 0
+  shadow 0
+  isdynamic 0
+  affectdynamic 1
+  lightpriority 3
+  fadingLight 1
+  flareradius 70
+  texturenames 4
+    fxpa_lensflare
+    fxpa_lensring
+    fxpa_lensring
+    fxpa_lensflare
+  flaresizes 4
+    7
+    0
+    0
+    0
+  flarepositions 4
+    1
+    0.5
+    1.5
+    0.400000006
+  flarecolorshifts 4
+    0 0 2
+    -0.200000003 -0.200000003 -0.200000003
+    -0.100000001 -0.100000001 -0.100000001
+    -0.699999988 -0.699999988 -0.699999988
+  position 5.02351 0.03885 5.87829
+  orientation 0 0 0 0
+  radius 20
+  multiplier 1
+  color 0.611765027 0.996079028 1
+endnode
+node light AuroraLight02
+  parent TDM01_O01_01
+  #part-number 3
+  ambientonly 0
+  shadow 0
+  isdynamic 0
+  affectdynamic 1
+  lightpriority 3
+  fadingLight 1
+  flareradius 50
+  texturenames 4
+    fxpa_lensflare
+    fxpa_lensring
+    fxpa_lensring
+    fxpa_lensflare
+  flaresizes 4
+    7
+    0
+    0
+    0
+  flarepositions 4
+    1
+    0.5
+    1.5
+    0.400000006
+  flarecolorshifts 4
+    0 0 2
+    -0.200000003 -0.200000003 -0.200000003
+    -0.100000001 -0.100000001 -0.100000001
+    -0.699999988 -0.699999988 -0.699999988
+  position 0.0962 4.46033 4.94071
+  orientation 0 0 0 0
+  radius 20
+  multiplier 1
+  color 0.611765027 0.996079028 1
+endnode
+node light AuroraLight03
+  parent TDM01_O01_01
+  #part-number 3
+  ambientonly 0
+  shadow 0
+  isdynamic 0
+  affectdynamic 1
+  lightpriority 3
+  fadingLight 1
+  flareradius 60
+  texturenames 4
+    fxpa_lensflare
+    fxpa_lensflare
+    fxpa_lensflare
+    fxpa_lensflare
+  flaresizes 4
+    7
+    0
+    0
+    0
+  flarepositions 4
+    1
+    0.5
+    1.5
+    0.400000006
+  flarecolorshifts 4
+    0 0 2
+    -0.200000003 -0.200000003 -0.200000003
+    -0.100000001 -0.100000001 -0.100000001
+    -0.699999988 -0.699999988 -0.699999988
+  position 0.00962 0.013333 4.35613
+  orientation 0 0 0 0
+  radius 20
+  multiplier 1
+  color 0.611765027 0.996079028 1
+endnode
+endmodelgeom TDM01_O01_01
+donemodel TDM01_O01_01

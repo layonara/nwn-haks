@@ -1,0 +1,182 @@
+# Exported from NWmax 0.8 b60 at 8/19/2008 6:01:10 PM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: vca_dragfire
+#local file: Unknown
+filedependancy Unknown
+newmodel vca_dragfire
+setsupermodel vca_dragfire NULL
+classification Effect
+#NWmax GEOM  ASCII
+beginmodelgeom vca_dragfire
+node dummy vca_dragfire
+  parent NULL
+endnode
+node emitter FireBreath02
+  parent vca_dragfire
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 -2.53945
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawntype_sel 0
+  spawnType 0
+  xSize 0.0
+  ySize 0.0
+  inherit 0
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 1.0 1.0 
+  colorEnd 0.0 0.0 0.0 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.8
+  sizeEnd 10.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 1500
+  lifeExp 1.0
+  mass -0.1
+  spread 1.5708
+  particleRot 0.5
+  velocity 22.5
+  randvel 5.0
+  bounce_co 0.0
+  blurlength 1.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_flame00
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 16
+  framestart 0
+  frameend 15
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node light FireLight
+  parent vca_dragfire
+  position 0.0276352 2.95737 0.0316232
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  radius 0.0
+  multiplier 1.0
+  color 1.0 0.670588 0.313726 
+  ambientonly 0
+  nDynamicType 0
+  affectDynamic 1
+  shadow 1
+  lightpriority 2
+  fadingLight 1
+endnode
+endmodelgeom vca_dragfire
+#NWmax ANIM ASCII
+newanim cast01 vca_dragfire
+  length 4.96667
+  transtime 0.25
+  animroot vca_dragfire
+    node dummy vca_dragfire
+        parent NULL
+    endnode
+    node emitter FireBreath02
+        parent vca_dragfire
+        birthratekey
+            0.0 1500 
+            1.2 1500 
+            2.0 0 
+        endlist
+    endnode
+    node light FireLight
+        parent vca_dragfire
+        colorkey
+            0.0 1.0 0.670588 0.313726 
+            0.1 1.0 0.670588 0.313726 
+            0.166667 1.0 1.0 1.0 
+            0.2 0.937255 0.560785 0.156863 
+            0.266667 1.0 1.0 1.0 
+            0.333333 0.937255 0.560785 0.156863 
+            0.366667 1.0 1.0 1.0 
+            0.433333 0.937255 0.560785 0.156863 
+            0.466667 1.0 1.0 1.0 
+            0.533333 0.937255 0.560785 0.156863 
+            0.566667 1.0 1.0 1.0 
+            0.633333 0.937255 0.560785 0.156863 
+            0.7 1.0 1.0 1.0 
+            0.766667 0.937255 0.560785 0.156863 
+            0.8 1.0 1.0 1.0 
+            0.866667 0.937255 0.560785 0.156863 
+            0.933333 0.937255 0.560785 0.156863 
+            1.0 1.0 1.0 1.0 
+            1.06667 1.0 1.0 1.0 
+            1.13333 0.937255 0.560785 0.156863 
+            1.2 0.937255 0.560785 0.156863 
+            1.26667 1.0 1.0 1.0 
+            1.33333 0.937255 0.560785 0.156863 
+            1.36667 0.937255 0.560785 0.156863 
+            1.4 1.0 1.0 1.0 
+            1.46667 1.0 1.0 1.0 
+            1.56667 0.937255 0.560785 0.156863 
+            1.63333 1.0 1.0 1.0 
+            1.73333 0.937255 0.560785 0.156863 
+            1.8 1.0 1.0 1.0 
+            1.9 0.937255 0.560785 0.156863 
+            1.96667 0.937255 0.560785 0.156863 
+            2.0 0.0705879 0.0470592 0.0235295 
+        endlist
+        radiuskey
+            0.0 1.0 
+            0.1 2.0 
+            0.166667 3.0 
+            0.2 4.0 
+            0.266667 5.0 
+            0.333333 6.0 
+            0.366667 7.0 
+            0.433333 8.0 
+            0.466667 9.0 
+            0.533333 10.0 
+            0.566667 11.0 
+            0.633333 12.0 
+            0.666667 13.0 
+            0.7 14.0 
+            0.766667 15.0 
+            0.8 16.0 
+            0.866667 17.0 
+            0.933333 18.0 
+            1.0 19.0 
+            1.06667 20.0 
+            1.13333 22.0 
+            1.2 24.0 
+            1.26667 26.0 
+            1.33333 28.0 
+            1.36667 30.0 
+        endlist
+    endnode
+doneanim cast01 vca_dragfire
+donemodel vca_dragfire

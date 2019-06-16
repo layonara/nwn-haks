@@ -1,0 +1,526 @@
+#MAXMODEL ASCII
+# model: vdr_spellres
+filedependancy vdr_spellres.max
+newmodel vdr_spellres
+setsupermodel vdr_spellres NULL
+classification effect
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vdr_spellres
+node dummy vdr_spellres
+  parent NULL
+  #part-number 0
+endnode
+node emitter dom3
+  parent vdr_spellres
+  #part-number 1
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture fxpa_Symbl_001
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 1
+  blastRadius 0
+  blastLength 0
+  position -0.00289162993 -0.00192771002 1.22029996
+  orientation -1 1.62842994e-07 -1.62842994e-07 -0.523599029
+  colorStart 0.435294002 0.854902029 0.929412007
+  colorEnd 0.435294002 0.854902029 0.929412007
+  alphaStart -0.400000006
+  alphaEnd -0.400000006
+  sizeStart 2.5
+  sizeEnd 2.5
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 2
+  frameEnd 2
+  birthrate 1
+  lifeExp 2
+  mass 0
+  spread 0
+  particleRot -0.200000003
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter dom05
+  parent vdr_spellres
+  #part-number 2
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture fxpa_Symbl_001
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 1
+  blastRadius 0
+  blastLength 0
+  position -0.00289162993 -0.00192771002 1.22029996
+  orientation 1 0 0 -0.523599029
+  colorStart 0.274509996 0.807843029 0.905882001
+  colorEnd 0.274509996 0.807843029 0.905882001
+  alphaStart -0.400000006
+  alphaEnd -0.400000006
+  sizeStart 2.5
+  sizeEnd 2.5
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 2
+  frameEnd 2
+  birthrate 1
+  lifeExp 2
+  mass 0
+  spread 0
+  particleRot 0.200000003
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter dom1
+  parent vdr_spellres
+  #part-number 3
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture fxpa_Symbl_001
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 1
+  blastRadius 0
+  blastLength 0
+  position 0.00192772003 -0.00192774995 1.22028995
+  orientation -0.250562996 0.250562996 0.935113013 -1.63783002
+  colorStart 0.396077991 0.79607898 0.870588005
+  colorEnd 0.396077991 0.79607898 0.870588005
+  alphaStart -0.200000003
+  alphaEnd -0.200000003
+  sizeStart 2.5
+  sizeEnd 2.5
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 2
+  frameEnd 2
+  birthrate 1
+  lifeExp 2
+  mass 0
+  spread 0
+  particleRot -0.200000003
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter dom2
+  parent vdr_spellres
+  #part-number 4
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture fxpa_Symbl_001
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 1
+  blastRadius 0
+  blastLength 0
+  position 0.00192772003 -0.00192774995 1.21862996
+  orientation -0.250562996 0.250562996 -0.935113013 -4.64534998
+  colorStart 0.31764701 0.807843029 0.894118011
+  colorEnd 0.31764701 0.807843029 0.894118011
+  alphaStart -0.200000003
+  alphaEnd -0.200000003
+  sizeStart 2.5
+  sizeEnd 2.5
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 2
+  frameEnd 2
+  birthrate 1
+  lifeExp 2
+  mass 0
+  spread 0
+  particleRot -0.200000003
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter dom4
+  parent vdr_spellres
+  #part-number 5
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture fxpa_Symbl_001
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0.00192772003 -0.00192774995 1.21862996
+  orientation 0 0 1 -1.57079995
+  colorStart 0.533333004 0.839215994 0.894118011
+  colorEnd 0.533333004 0.839215994 0.894118011
+  alphaStart 0
+  alphaEnd 0
+  sizeStart 2.79999995
+  sizeEnd 2.79999995
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 2
+  frameEnd 2
+  birthrate 1
+  lifeExp 2
+  mass 0
+  spread 0
+  particleRot 0.0500000007
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+endmodelgeom vdr_spellres
+
+#MAXANIM ASCII
+newanim impact vdr_spellres
+  length 0.300000012
+  transtime 0.25
+  animroot vdr_spellres
+node dummy vdr_spellres
+  parent NULL
+  #part-number 0
+endnode
+node emitter dom3
+  parent vdr_spellres
+  #part-number 1
+  alphaStartkey 3
+    0 -0.400000006
+    0.266667008 0.5
+    0.300000012 0.5
+  alphaEndkey 3
+    0 -0.400000006
+    0.266667008 0.5
+    0.300000012 0.5
+endnode
+node emitter dom05
+  parent vdr_spellres
+  #part-number 2
+  alphaStartkey 3
+    0 -0.400000006
+    0.266667008 0.5
+    0.300000012 0.5
+  alphaEndkey 3
+    0 -0.400000006
+    0.266667008 0.5
+    0.300000012 0.5
+endnode
+node emitter dom1
+  parent vdr_spellres
+  #part-number 3
+  alphaStartkey 3
+    0 -0.200000003
+    0.266667008 0.5
+    0.300000012 0.5
+  alphaEndkey 3
+    0 -0.200000003
+    0.266667008 0.5
+    0.300000012 0.5
+endnode
+node emitter dom2
+  parent vdr_spellres
+  #part-number 4
+  alphaStartkey 3
+    0 -0.200000003
+    0.266667008 0.5
+    0.300000012 0.5
+  alphaEndkey 3
+    0 -0.200000003
+    0.266667008 0.5
+    0.300000012 0.5
+endnode
+node emitter dom4
+  parent vdr_spellres
+  #part-number 5
+  alphaStartkey 3
+    0 0
+    0.266667008 0.5
+    0.300000012 0.5
+  alphaEndkey 3
+    0 0
+    0.266667008 0.5
+    0.300000012 0.5
+endnode
+doneanim impact vdr_spellres
+
+#MAXANIM ASCII
+newanim duration vdr_spellres
+  length 1.33333004
+  transtime 0.25
+  animroot vdr_spellres
+node dummy vdr_spellres
+  parent NULL
+  #part-number 0
+endnode
+node emitter dom3
+  parent vdr_spellres
+  #part-number 1
+  alphaStartkey 3
+    0 0.5
+    0.833333015 0.800000012
+    1.33333004 0.5
+  alphaEndkey 3
+    0 0.5
+    0.833333015 0.800000012
+    1.33333004 0.5
+endnode
+node emitter dom05
+  parent vdr_spellres
+  #part-number 2
+  alphaStartkey 3
+    0 0.5
+    0.733332992 0.800000012
+    1.33333004 0.5
+  alphaEndkey 3
+    0 0.5
+    0.733332992 0.800000012
+    1.33333004 0.5
+endnode
+node emitter dom1
+  parent vdr_spellres
+  #part-number 3
+  alphaStartkey 3
+    0 0.5
+    0.866666973 0.800000012
+    1.33333004 0.5
+  alphaEndkey 3
+    0 0.5
+    0.866666973 0.800000012
+    1.33333004 0.5
+endnode
+node emitter dom2
+  parent vdr_spellres
+  #part-number 4
+  alphaStartkey 3
+    0 0.5
+    0.533333004 0.800000012
+    1.33333004 0.5
+  alphaEndkey 3
+    0 0.5
+    0.533333004 0.800000012
+    1.33333004 0.5
+endnode
+node emitter dom4
+  parent vdr_spellres
+  #part-number 5
+  alphaStartkey 3
+    0 0.5
+    0.666666985 0.899999976
+    1.33333004 0.5
+  alphaEndkey 3
+    0 0.5
+    0.666666985 0.899999976
+    1.33333004 0.5
+endnode
+doneanim duration vdr_spellres
+
+#MAXANIM ASCII
+newanim cessation vdr_spellres
+  length 1
+  transtime 0.25
+  animroot vdr_spellres
+node dummy vdr_spellres
+  parent NULL
+  #part-number 0
+endnode
+node emitter dom3
+  parent vdr_spellres
+  #part-number 1
+  alphaStartkey 2
+    0 0.5
+    0.666666985 -0.5
+  alphaEndkey 2
+    0 0.5
+    0.666666985 -0.5
+endnode
+node emitter dom05
+  parent vdr_spellres
+  #part-number 2
+  alphaStartkey 2
+    0 0.5
+    0.666666985 -0.5
+  alphaEndkey 2
+    0 0.5
+    0.666666985 -0.5
+endnode
+node emitter dom1
+  parent vdr_spellres
+  #part-number 3
+  alphaStartkey 2
+    0 0.5
+    0.666666985 -0.5
+  alphaEndkey 2
+    0 0.5
+    0.666666985 -0.5
+endnode
+node emitter dom2
+  parent vdr_spellres
+  #part-number 4
+  alphaStartkey 2
+    0 0.5
+    0.666666985 -0.5
+  alphaEndkey 2
+    0 0.5
+    0.666666985 -0.5
+endnode
+node emitter dom4
+  parent vdr_spellres
+  #part-number 5
+  alphaStartkey 3
+    0 0.5
+    0.0333333015 0.5
+    0.666666985 -0.100000001
+  alphaEndkey 3
+    0 0.5
+    0.0333333015 0.5
+    0.666666985 -0.100000001
+endnode
+doneanim cessation vdr_spellres
+
+donemodel vdr_spellres
