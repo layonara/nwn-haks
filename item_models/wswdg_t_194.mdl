@@ -1,0 +1,89 @@
+#MAXMODEL ASCII
+# model: wswdg_t_194 
+filedependancy WSwDg.max
+newmodel wswdg_t_194 
+setsupermodel wswdg_t_194 NULL
+classification Item
+#MAXGEOM  ASCII
+beginmodelgeom wswdg_t_194 
+node dummy wswdg_t_194 
+  parent NULL 
+endnode
+node emitter g_wswdg_t_194 
+  parent wswdg_t_194 
+  position -0.0012494 0.1033450 -0.0001520
+  orientation  1.0 -1.306e-007 1.74911e-007  -1.5708
+  wirecolor 0.6 0.894118 0.6  
+    colorStart 1.0 1.0 1.0  
+    colorEnd 1.0 1.0 1.0  
+    alphaStart 0.7 
+    alphaEnd 0.7 
+    sizeStart 0.25 
+    sizeEnd 0.175 
+    sizeStart_y 0.0 
+    sizeEnd_y 0.0 
+    frameStart 0 
+    frameEnd 0 
+    birthrate 40 
+    spawnType 0 
+    lifeExp 0.7 
+    mass 0.0 
+    spread 0.0 
+    particleRot 3.0 
+    velocity 0.0 
+    randvel 0.0 
+    fps 0 
+    random 0 
+    inherit 1 
+    inherit_local 0 
+    inherit_part 0 
+    inheritvel 0 
+    xsize 0 
+    ysize 0 
+    bounce 0 
+    bounce_co 0.0 
+    loop 0 
+    update Fountain 
+    render Normal 
+    Blend Lighten 
+    update_sel 1 
+    render_sel 1 
+    blend_sel 3 
+    deadspace 0.0 
+    opacity 0.2 
+    blurlength 0.2 
+    lightningDelay 0.0 
+    lightningRadius 0.0 
+    lightningScale 0.0 
+    blastRadius 0.0 
+    blastLength 0.0 
+    twosidedtex 0 
+    p2p 1 
+    p2p_sel 1 
+    p2p_type Bezier 
+    p2p_bezier2 0.0 
+    p2p_bezier3 0.0 
+    combinetime 0.0 
+    drag 0.0 
+    grav 0.0 
+    threshold 0.0 
+    texture glowgrey 
+    xgrid 1 
+    ygrid 1 
+    affectedByWind false 
+    m_isTinted 0 
+    renderorder 0 
+    Splat 0 
+endnode
+node reference OmenRef01 
+  parent g_wswdg_t_194 
+  position 0.0094481 0.0001516 0.3600620
+  orientation  -1.0 1.306e-007 -1.74911e-007  -1.5708
+  wirecolor 0.541176 0.0313726 0.431373  
+  refModel fx_ref 
+  reattachable 0 
+endnode
+endmodelgeom wswdg_t_194 
+
+donemodel wswdg_t_194 
+

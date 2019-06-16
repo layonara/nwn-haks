@@ -1,0 +1,80 @@
+# Exported from NWmax 0.5-beta at 1/23/2004 7:40:51 PM
+# mdl file
+#
+#NWmaxMODEL ASCII
+# model: wswsi_b_044
+filedependancy Unknown
+newmodel wswsi_b_044
+setsupermodel wswsi_b_044 NULL
+classification Character
+setanimationscale 1.0
+#NWmaxGEOM  ASCII
+beginmodelgeom wswsi_b_044
+node dummy wswsi_b_044
+  parent NULL
+endnode
+node trimesh Object04
+  parent wswsi_b_044
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.521569 0.431373 0.0313726 
+    tilefade 0
+    scale 1.0
+    render 1
+    Shadow 1
+    beaming 0
+    inheritcolor 0
+    selfillumcolor 0.0 0.0 0.0 
+    rotatetexture 0
+      alpha 1.0
+    transparencyhint 0
+    center 0.0 -0.425855 0.0 
+    gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11.0
+  selfillumcolor 0.0 0.0 0.0 
+    bitmap w_metal_tex
+    verts 12
+     0.0 0.0597536 -0.018032
+     0.0 -0.07372 -0.018032
+     -0.0121391 -0.07372 -0.00989055
+     -0.0121391 0.0652029 -0.00989055
+     0.0121391 0.0652029 -0.00989055
+     0.0121391 -0.07372 -0.00989055
+     -0.0121391 0.0652029 0.0106659
+     -0.0121391 -0.07372 0.0106659
+     0.0 -0.07372 0.018032
+     0.0 0.0597536 0.018032
+     0.0121391 -0.07372 0.0106659
+     0.0121391 0.0652029 0.0106659
+    faces 12
+     0 1 2  1  0 1 2  1
+     2 3 0  1  2 3 0  1
+     4 5 1  1  4 5 1  1
+     1 0 4  1  1 0 4  1
+     6 7 8  1  6 7 8  1
+     8 9 6  1  8 9 6  1
+     9 8 10  1  9 8 10  1
+     10 11 9  1  10 11 9  1
+     3 2 7  1  3 2 7  1
+     7 6 3  1  7 6 3  1
+     11 10 5  1  11 10 5  1
+     5 4 11  1  5 4 11  1
+    tverts 12
+     0.399019 0.0114864 0
+     0.399019 0.239327 0
+     0.413531 0.239327 0
+     0.413531 0.00218445 0
+     0.413531 0.00218445 0
+     0.413531 0.239327 0
+     0.450174 0.00218445 0
+     0.450174 0.239327 0
+     0.463305 0.239327 0
+     0.463305 0.0114864 0
+     0.450174 0.239327 0
+     0.450174 0.00218445 0
+endnode
+endmodelgeom wswsi_b_044
+donemodel wswsi_b_044

@@ -1,0 +1,49 @@
+#MAXMODEL ASCII
+# model: WPlTr_MB
+filedependancy WPlTr_MB.max
+newmodel WPlTr_MB
+setsupermodel WPlTr_MB NULL
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom WPlTr_MB
+node dummy WPlTr_MB
+  parent NULL
+  #part-number 0
+endnode
+node trimesh WPlTr
+  parent WPlTr_MB
+  #part-number 1
+  ambient 0.117647 0.117647 0.117647
+  diffuse 0.631372988 0.862744987 0.968627989
+  specular 0 0 0
+  shininess 1
+  bitmap blur_01
+  verts 6
+    0.311843991 0.0400151014 -0.00229749992
+    0.451893002 0.935270011 -0.00229751994
+    -0.381226987 0.0487625003 -0.0022974899
+    -0.359272003 0.802573025 -0.00229749992
+    0.179629996 1.58020997 -0.00229754997
+    -0.64657402 1.47239006 -0.00229747011
+  tverts 6
+    0.99445498 1.00424004 0
+    0.567018986 0.977564991 0
+    0.993831992 0.140395999 0
+    0.570998013 0.138424993 0
+    0.139919996 0.772677004 0
+    0.140236005 0.0126707004 0
+  faces 8
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+    1 4 3 1 1 4 3 1
+    4 5 3 1 4 5 3 1
+    0 2 1 2 0 2 1 2
+    1 2 3 2 1 2 3 2
+    3 4 1 2 3 4 1 2
+    4 3 5 2 4 3 5 2
+  position 0.000317078986 0.82168299 -0.0519804992
+  orientation 0.577350259 0.577350259 0.577350259 -4.18878984
+endnode
+endmodelgeom WPlTr_MB
+
+donemodel WPlTr_MB

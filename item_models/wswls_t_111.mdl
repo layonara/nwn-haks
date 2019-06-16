@@ -1,0 +1,94 @@
+# Exported from NWmax 0.5-beta at 2/24/2004 9:26:33 PM
+# A ShadowHawk Component
+# longsword mdl file
+#
+#NWmaxMODEL ASCII
+# model: WSwLs_t_111
+filedependancy _ls_workfile_blade_022404.gmax
+newmodel WSwLs_t_111
+setsupermodel WSwLs_t_111 NULL
+classification Other
+#NWmaxGEOM  ASCII
+beginmodelgeom WSwLs_t_111
+node dummy WSwLs_t_111
+  parent NULL
+endnode
+node trimesh blade
+  parent WSwLs_t_111
+  position 0.0 -0.009 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+    tilefade 0
+    scale 1.0
+    render 1
+    Shadow 1
+    beaming 0
+    inheritcolor 0
+    selfillumcolor 0.0 0.0 0.0 
+    rotatetexture 0
+      alpha 1.0
+    transparencyhint 0
+    center 0.0 0.0 0.0 
+    gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 2.0
+  selfillumcolor 0.0 0.0 0.0 
+    bitmap al_sw_wht_tex
+    verts 14
+     -1.27563e-007 0.0942315 -3.30589e-007
+     0.00652875 0.0942315 -3.30589e-007
+     -1.28639e-007 0.0994751 -0.0385468
+     -0.006529 0.0942315 -3.27448e-007
+     -1.23233e-007 0.0994751 0.0385461
+     0.00487215 0.885618 -3.1012e-007
+     -1.41704e-007 0.885618 -0.0233873
+     -0.00487243 0.885617 -3.08076e-007
+     -1.37615e-007 0.885617 0.0233867
+     0.00396108 0.912494 -3.17365e-007
+     -1.34133e-007 0.912495 -0.0190142
+     -0.00396135 0.912495 -3.15703e-007
+     -1.30809e-007 0.912494 0.0190135
+     -1.24959e-007 0.951201 -3.25521e-007
+    faces 22
+     0 2 1  1  0 2 1  2
+     0 1 4  1  0 1 4  2
+     1 6 5  2  1 6 5  3
+     1 2 6  2  1 2 6  3
+     2 7 6  4  2 7 6  3
+     2 3 7  4  2 3 7  3
+     3 8 7  8  3 8 7  3
+     3 4 8  8  3 4 8  3
+     4 5 8  1  4 5 8  3
+     4 1 5  1  4 1 5  3
+     5 10 9  2  5 10 9  3
+     5 6 10  2  5 6 10  3
+     6 11 10  4  6 11 10  3
+     6 7 11  4  6 7 11  3
+     7 12 11  8  7 12 11  3
+     7 8 12  8  7 8 12  3
+     8 9 12  1  8 9 12  3
+     8 5 9  1  8 5 9  3
+     9 10 13  2  9 10 13  3
+     10 11 13  4  10 11 13  3
+     11 12 13  8  11 12 13  3
+     12 9 13  1  12 9 13  3
+    tverts 14
+     0.5 0.000499517 0
+     0.5 0.000499517 0
+     0.000499517 0.000499517 0
+     0.5 0.000499517 0
+     0.999501 0.000499517 0
+     0.500001 0.923048 0
+     0.196942 0.923048 0
+     0.500001 0.923047 0
+     0.803059 0.923047 0
+     0.5 0.954378 0
+     0.253611 0.954379 0
+     0.5 0.954379 0
+     0.746389 0.954378 0
+     0.5 0.999501 0
+endnode
+endmodelgeom WSwLs_t_111
+donemodel WSwLs_t_111

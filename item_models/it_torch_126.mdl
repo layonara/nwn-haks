@@ -1,0 +1,310 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: it_torch_126
+filedependancy Unknown
+newmodel it_torch_126
+setsupermodel it_torch_126 NULL
+classification Tile
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom it_torch_126
+node dummy it_torch_126
+  parent NULL
+endnode
+node trimesh Box2280
+  parent it_torch_126
+  position 0.0318156 -0.520832 -0.00137198
+  orientation 1 0 0 -1.59224
+  wirecolor 0.878906 0.878906 0.878906
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap tdm01_rock03
+  verts 8
+    0.00469067 -0.00469063 -0.0985003
+    -0.103191 0.107881 0.00469078
+    0.112572 -0.00469063 0.00469079
+    0.112572 -0.00469062 0.0656668
+    -0.103191 0.107881 0.0656668
+    -0.00938078 -0.0140716 -0.0328331
+    -0.103191 -0.112572 0.00469079
+    -0.103191 -0.112572 0.0656668
+  faces 12
+    0 1 2  1  0 1 2  2
+    3 4 5  1  2 1 3  1
+    6 2 3  1  4 5 6  5
+    3 7 6  1  6 7 4  5
+    2 1 4  1  8 9 10  6
+    4 3 2  1  10 11 8  6
+    1 6 7  1  9 4 7  3
+    7 4 1  1  7 10 9  3
+    5 4 7  1  3 1 12  1
+    7 3 5  1  12 2 3  1
+    0 2 6  1  0 2 12  2
+    6 1 0  1  12 1 0  2
+  tverts 13
+    0.491994 0.491994 0
+    0.000499815 0.9995 0
+    0.9995 0.5 0
+    0.445455 0.445455 0
+    0.507153 0.391176 0
+    1.0125 0.391176 0
+    1.0125 0.608824 0
+    0.507153 0.608824 0
+    -0.3375 0.391176 0
+    0.167847 0.391176 0
+    0.167847 0.608824 0
+    -0.3375 0.608824 0
+    0.000499576 0.000499636 0
+endnode
+node emitter Flame02
+  parent Box2280
+  position -0.0318156 -0.00278177 -0.0206069
+  orientation -1 0 0 -0.0214436
+  wirecolor 0.777344 0.777344 0.777344
+    colorStart 1 1 1
+    colorEnd 1 1 1
+    alphaStart 0.76
+    alphaEnd 0
+    sizeStart 0
+    sizeEnd 0.64
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 15
+    birthrate 0
+    spawnType 0
+    lifeExp 0.29
+    mass 0
+    spread 0.139626
+    particleRot 0
+    velocity 0.15
+    randvel 0.1
+    fps 16
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 0
+    ysize 0
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Fountain
+    render Normal
+    Blend Lighten
+    update_sel 1
+    render_sel 1
+    blend_sel 3
+    deadspace 0
+    opacity 0.5
+    blurlength 5
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_Flame00
+    xgrid 4
+    ygrid 4
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+node trimesh Box2279
+  parent it_torch_126
+  position 0.0224348 -0.577005 0.00452378
+  orientation 1 0 0 -1.59224
+  wirecolor 0.878906 0.878906 0.878906
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap tdm01_roof02
+  verts 16
+    0.107881 0.00938121 0.107881
+    0.107881 -0.0046902 0.107881
+    0.103191 0.00469073 0.103191
+    -0.0281429 -0.00469018 0.67074
+    -0.0140714 -0.00938071 0.67074
+    -0.0140714 0.00469075 0.67074
+    -0.0281429 -0.00469019 0.379929
+    -0.0140714 -0.00938072 0.379929
+    -0.0140714 0.00469074 0.379929
+    -0.0844288 -0.0938097 0.107881
+    -0.0797383 -0.0985002 0.107881
+    -0.0938097 -0.0938097 0.107881
+    -0.0797383 0.0985002 0.112572
+    -0.0844288 0.0938097 0.107881
+    -0.0938097 0.0938097 0.112572
+    -0.0187619 -0.00469019 0.379929
+  faces 28
+    0 1 2  1  0 1 2  2
+    3 4 5  1  3 4 5  1
+    6 7 4  1  6 7 4  5
+    4 3 6  1  4 3 6  5
+    7 8 5  1  7 8 5  4
+    5 4 7  1  5 4 7  4
+    8 6 3  1  8 6 3  6
+    3 5 8  1  3 5 8  6
+    9 10 11  1  9 10 11  2
+    12 13 14  1  12 13 14  2
+    8 7 1  1  8 7 15  2
+    1 0 8  1  15 16 8  2
+    7 15 2  1  7 17 2  2
+    2 1 7  1  2 1 7  2
+    15 8 0  1  17 8 16  2
+    0 2 15  1  0 2 17  2
+    6 8 12  1  6 8 12  2
+    12 14 6  1  12 14 6  2
+    15 6 14  1  17 6 14  2
+    14 13 15  1  14 13 17  2
+    8 15 13  1  8 17 13  2
+    13 12 8  1  13 12 8  2
+    7 6 11  1  7 6 11  2
+    11 10 7  1  11 10 7  2
+    15 7 10  1  17 7 10  2
+    10 9 15  1  10 9 17  2
+    6 15 9  1  6 17 9  2
+    9 11 6  1  9 11 6  2
+  tverts 18
+    0.763202 0.00263661 0
+    0.744682 0.00263661 0
+    0.75421 0.000499606 0
+    0.267435 0.999501 0
+    0.319155 0.999501 0
+    0.234715 0.999501 0
+    0.267435 0.489168 0
+    0.319155 0.489168 0
+    0.234715 0.489168 0
+    0.374034 0.00729695 0
+    0.384337 0.00943395 0
+    0.367449 0.00943395 0
+    0.11402 0.0104154 0
+    0.124419 0.0082784 0
+    0.131134 0.0104154 0
+    -0.255318 0.00263661 0
+    -0.236798 0.00263661 0
+    0.272543 0.487031 0
+endnode
+endmodelgeom it_torch_126
+
+#MAXANIM ASCII
+newanim equip it_torch_126
+  length 0.1
+  transtime 0.25
+  animroot it_torch_126
+node dummy it_torch_126
+  parent NULL
+endnode
+node trimesh Box2280
+  parent it_torch_126
+endnode
+node emitter Flame02
+  parent Box2280
+    birthratekey
+      0  0
+      0.0333333  8
+      0.1  9
+    endlist
+endnode
+node trimesh Box2279
+  parent it_torch_126
+endnode
+doneanim equip it_torch_126
+
+#MAXANIM ASCII
+newanim unequip it_torch_126
+  length 0.1
+  transtime 0.25
+  animroot it_torch_126
+node dummy it_torch_126
+  parent NULL
+endnode
+node trimesh Box2280
+  parent it_torch_126
+endnode
+node emitter Flame02
+  parent Box2280
+    birthratekey
+      0  12
+      0.0333333  0
+      0.1  0
+    endlist
+endnode
+node trimesh Box2279
+  parent it_torch_126
+endnode
+doneanim unequip it_torch_126
+
+#MAXANIM ASCII
+newanim walk it_torch_126
+  length 0.333333
+  transtime 0
+  animroot it_torch_126
+node dummy it_torch_126
+  parent NULL
+endnode
+node trimesh Box2280
+  parent it_torch_126
+endnode
+node emitter Flame02
+  parent Box2280
+endnode
+node trimesh Box2279
+  parent it_torch_126
+endnode
+doneanim walk it_torch_126
+
+#MAXANIM ASCII
+newanim run it_torch_126
+  length 0.333333
+  transtime 0
+  animroot it_torch_126
+node dummy it_torch_126
+  parent NULL
+endnode
+node trimesh Box2280
+  parent it_torch_126
+endnode
+node emitter Flame02
+  parent Box2280
+endnode
+node trimesh Box2279
+  parent it_torch_126
+endnode
+doneanim run it_torch_126
+
+#MAXANIM ASCII
+newanim torchl it_torch_126
+  length 0.333333
+  transtime 0
+  animroot it_torch_126
+node dummy it_torch_126
+  parent NULL
+endnode
+node trimesh Box2280
+  parent it_torch_126
+endnode
+node emitter Flame02
+  parent Box2280
+endnode
+node trimesh Box2279
+  parent it_torch_126
+endnode
+doneanim torchl it_torch_126
+donemodel it_torch_126

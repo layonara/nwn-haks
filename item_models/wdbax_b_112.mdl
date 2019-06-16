@@ -1,0 +1,69 @@
+# Exported from Wayland's NWN Maxscript 0.3b-p1 at 9/27/2003 12:50:36 PM
+# A ShadowHawk Component
+# DbSw shaft 1 mdl file
+#
+filedependancy Unknown
+newmodel WDbAx_b_112
+setsupermodel WDbAx_b_112 NULL
+classification Other
+setanimationscale 1.0
+beginmodelgeom WDbAx_b_112
+node dummy WDbAx_b_112
+    parent NULL
+endnode
+node trimesh shaft_1
+    parent WDbAx_b_112
+    position 0.000282257 0.353071 -0.000141059
+    orientation 1.0 0.0 0.0 0.0
+    scale 1.0
+    diffuse 1.0 1.0 1.0
+    ambient 1.0 1.0 1.0
+    specular 0.9 0.9 0.9
+    selfillumcolor 0.0 0.0 0.0
+    alpha 1.0
+    bitmap al_wood_gld
+    verts 12
+        0.025 0.454746 0.0
+        0.0125 0.454746 0.0216507
+        -0.0125 0.454746 0.0216507
+        -0.025 0.454746 0.0
+        -0.0125 0.454746 -0.0216506
+        0.0125 0.454746 -0.0216506
+        0.025 -0.454746 0.0
+        0.0125 -0.454746 0.0216506
+        -0.0125 -0.454746 0.0216506
+        -0.025 -0.454746 0.0
+        -0.0125 -0.454746 -0.0216507
+        0.0125 -0.454746 -0.0216507
+    faces 12
+        0 7 6 8 0 7 6 3
+        0 1 7 8 0 1 7 3
+        1 8 7 8 1 8 7 3
+        1 2 8 8 1 2 8 3
+        2 9 8 8 2 9 8 3
+        2 3 9 8 2 3 9 3
+        3 10 9 8 3 10 9 3
+        3 4 10 8 3 4 10 3
+        4 11 10 8 4 12 10 3
+        4 5 11 8 4 13 14 3
+        5 6 11 8 5 6 11 3
+        5 0 6 8 5 0 6 3
+    tverts 15
+        0.75 0.9995 0
+        0.583334 0.9995 0
+        0.416667 0.999501 0
+        0.25 0.999501 0
+        0.0833329 0.999501 0
+        0.916666 0.9995 0
+        0.75 0.000499576 0
+        0.583333 0.000499576 0
+        0.416666 0.000499576 0
+        0.25 0.000499576 0
+        0.0833338 0.000499547 0
+        0.916667 0.000499576 0
+        -0.0833327 0.000499576 0
+        -0.0833341 0.9995 0
+        -0.0833327 0.000499576 0
+endnode
+endmodelgeom WDbAx_b_112
+donemodel WDbAx_b_112

@@ -1,0 +1,148 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: wspkk_fxacid
+filedependancy kukri.max
+newmodel wspkk_fxacid
+setsupermodel wspkk_fxacid NULL
+classification Character
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom wspkk_fxacid
+node dummy wspkk_fxacid
+  parent NULL
+endnode
+node emitter g_WSwGs_V_Acid_b
+  parent wspkk_fxacid
+  position 0 0.300209 -0.0388274
+  orientation 1 0 0 -0.527083
+  wirecolor 0.777344 0.777344 0.777344
+    colorStart 0.258824 0.921569 0
+    colorEnd 0.066667 0.552941 0
+    alphaStart 1
+    alphaEnd 1
+    sizeStart 0.1
+    sizeEnd 0.1
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 0
+    birthrate 2
+    spawnType 0
+    lifeExp 2
+    mass 1.5
+    spread 0
+    particleRot 0
+    velocity 0
+    randvel 0
+    fps 0
+    random 0
+    inherit 0
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 2
+    ysize 50
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Fountain
+    render Normal
+    Blend Lighten
+    update_sel 1
+    render_sel 1
+    blend_sel 3
+    deadspace 0
+    opacity 1.81793e+031
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 7.21376e+022
+    p2p_bezier3 6.69087e+031
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_flare
+    xgrid 1
+    ygrid 1
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+node emitter g_WSwGs_V_Acid
+  parent wspkk_fxacid
+  position 0 0.354832 -0.0940166
+  orientation 1 0 0 -0.527083
+  wirecolor 0.550781 0.550781 0.550781
+    colorStart 0.258824 0.921569 0
+    colorEnd 0.066667 0.552941 0
+    alphaStart 1
+    alphaEnd 0
+    sizeStart 0
+    sizeEnd 0.4
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 0
+    birthrate 22
+    spawnType 0
+    lifeExp 1
+    mass 0
+    spread 2.26893
+    particleRot 0
+    velocity 0
+    randvel 0.05
+    fps 0
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 3
+    ysize 50
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Fountain
+    render Normal
+    Blend Lighten
+    update_sel 1
+    render_sel 1
+    blend_sel 3
+    deadspace 0
+    opacity 0
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_flare
+    xgrid 1
+    ygrid 1
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+endmodelgeom wspkk_fxacid
+donemodel wspkk_fxacid

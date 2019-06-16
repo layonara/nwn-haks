@@ -1,0 +1,96 @@
+# Exported from NWmax 0.6 at 25/04/2004 3:46:11 PM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: wswda_b_014
+filedependancy Unknown
+newmodel wswda_b_014
+setsupermodel wswda_b_014 NULL
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom wswda_b_014
+node dummy wswda_b_014
+  parent NULL
+endnode
+node trimesh g_wswda_b_014
+  parent wswda_b_014
+  position -0.0000214 0.0869880 0.0001920
+  orientation 0.0 0.0 -1.0 -3.14159
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  selfillumcolor 0.0 0.0 0.0 
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  center 0.0 7.27255 0.0 
+  ambient 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 2.0
+  selfillumcolor 0.0 0.0 0.0 
+  bitmap W_metal_tex
+  verts 14
+    0.0 0.04 0.0
+    0.0 0.0 0.04
+    0.04 0.0 0.0
+    -0.04 0.0 0.0
+    0.0 0.0 -0.04
+    0.0 -0.04 0.0
+    0.0 0.01 -0.02
+    0.02 0.01 0.0
+    0.0 0.01 0.02
+    -0.02 0.01 0.0
+    0.0 0.18 -0.02
+    0.02 0.18 0.0
+    0.0 0.18 0.02
+    -0.02 0.18 0.0
+  faces 18
+    0 1 2  1  0 1 2  2
+    0 3 1  1  0 3 1  2
+    0 4 3  1  0 4 3  2
+    0 2 4  1  0 2 5  2
+    5 2 1  1  6 2 1  1
+    5 1 3  1  6 1 3  1
+    5 3 4  1  6 3 4  1
+    5 4 2  1  6 5 2  1
+    6 7 8  1  7 8 9  1
+    8 9 6  1  9 10 7  1
+    10 11 7  1  11 12 13  5
+    7 6 10  1  14 15 16  5
+    11 12 8  1  12 17 18  4
+    8 7 11  1  18 13 12  4
+    12 13 9  1  17 19 20  6
+    9 8 12  1  20 18 17  6
+    13 10 6  1  19 16 15  3
+    6 9 13  1  15 20 19  3
+  tverts 21
+    0.759761 0.510238 0
+    0.759761 0.736715 0
+    0.871272 0.736715 0
+    0.982761 0.736715 0
+    0.983047 0.736715 0
+    0.982783 0.736715 0
+    0.759761 0.513916 0
+    0.932971 0.515859 0
+    0.932971 0.987557 0
+    0.932971 0.830324 0
+    0.932971 0.673091 0
+    0.491021 0.238225 0
+    0.456534 0.238225 0
+    0.456534 0.0085468 0
+    0.456219 0.0085468 0
+    0.42189 0.0085468 0
+    0.490705 0.238225 0
+    0.422048 0.238225 0
+    0.422048 0.0085468 0
+    0.456377 0.238225 0
+    0.387562 0.0085468 0
+endnode
+endmodelgeom wswda_b_014
+donemodel wswda_b_014

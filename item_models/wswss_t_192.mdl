@@ -1,0 +1,69 @@
+# Exported from Wayland's NWN Maxscript v0.3b at 5/6/2003 11:36:16 PM
+# SS Wakazashi style blade mdl file
+#
+filedependancy WSwSs_t_192.max
+newmodel WSwSs_t_192
+setsupermodel WSwSs_t_192 NULL
+classification undefined
+setanimationscale 1
+beginmodelgeom WSwSs_t_192
+node dummy WSwSs_t_192
+    parent NULL
+endnode
+node trimesh blade_std
+    parent WSwSs_t_192
+    position 0.0 0.0 0.0
+    orientation 1.0 0.0 0.0 0.0
+    scale 1.0
+    shininess 1
+    diffuse 1.0 1.0 1.0
+    ambient 1.0 1.0 1.0
+    specular 0.0 0.0 0.0
+    selfillumcolor 0.0 0.0 0.0
+    alpha 1.0
+    bitmap al_sw_t_05_gld
+    verts 11
+        -0.00770112 0.0872793 0.0209855
+        0.00769888 0.0872793 0.0209855
+        0.00611 0.27035 0.0249636
+        -0.00611222 0.27035 0.0249636
+        0.00535951 0.462288 0.0424122
+        -0.00536174 0.462288 0.0424122
+        -1.11463e-006 0.687889 0.0811762
+        -1.11679e-006 0.0872793 -0.0231616
+        -1.11554e-006 0.27139 -0.0172594
+        -1.11497e-006 0.467852 0.00569642
+        -1.11466e-006 0.664168 0.0409077
+    faces 17
+        0 1 2 1 0 1 2 1
+        2 3 0 1 2 3 0 1
+        3 2 4 1 3 2 4 1
+        4 5 3 1 4 5 3 1
+        5 4 6 1 5 4 6 1
+        7 8 2 4 7 8 2 4
+        2 1 7 4 2 1 7 4
+        8 9 4 4 8 9 4 4
+        4 2 8 4 4 2 8 4
+        9 10 6 4 9 10 6 4
+        6 4 9 4 6 4 9 4
+        10 9 5 8 10 9 5 3
+        5 6 10 8 5 6 10 3
+        9 8 3 8 9 8 3 3
+        3 5 9 8 3 5 9 3
+        8 7 0 8 8 7 0 3
+        0 3 8 8 0 3 8 3
+    tverts 11
+        0.423194 0.000499487 0
+        0.423194 0.000499487 0
+        0.461283 0.305003 0
+        0.461283 0.305003 0
+        0.628348 0.624257 0
+        0.628348 0.624257 0
+        0.999501 0.999501 0
+        0.000499457 0.000499487 0
+        0.0570112 0.306732 0
+        0.276806 0.63351 0
+        0.613942 0.960044 0
+endnode
+endmodelgeom WSwSs_t_192
+donemodel WSwSs_t_192

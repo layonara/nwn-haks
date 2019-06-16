@@ -1,0 +1,82 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: WSwDp_fxneg
+filedependancy Unknown
+newmodel WSwDp_fxneg
+setsupermodel WSwDp_fxneg NULL
+classification Tile
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom WSwDp_fxneg
+node dummy WSwDp_fxneg
+  parent NULL
+endnode
+node emitter g_WSwDp_V_Neg
+  parent WSwDp_fxneg
+  position 0 0 -0.15
+  orientation 0.57735 -0.57735 -0.57735 -2.0944
+  wirecolor 0.527344 0.527344 0.527344
+    colorStart 1 0 0
+    colorEnd 0.466667 0 0
+    alphaStart 0
+    alphaEnd 1
+    sizeStart 0.5
+    sizeEnd 0
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 15
+    birthrate 25
+    spawnType 0
+    lifeExp 1
+    mass 0
+    spread 2.26893
+    particleRot 0
+    velocity 0
+    randvel 0.05
+    fps 0
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 5
+    ysize 32
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Fountain
+    render Normal
+    Blend Lighten
+    update_sel 1
+    render_sel 1
+    blend_sel 3
+    deadspace 0
+    opacity 0.5
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_Sparks
+    xgrid 4
+    ygrid 4
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+endmodelgeom WSwDp_fxneg
+donemodel WSwDp_fxneg

@@ -1,0 +1,25 @@
+# Exported from NWmax 0.5-beta at 1/9/2004 2:36:12 PM
+# A ShadowHawk Component
+# longbow null top mdl file
+#
+#NWmaxMODEL ASCII
+# model: WBwLn_t_114
+filedependancy _bwln_workfile_01.gmax
+newmodel WBwLn_t_114
+setsupermodel WBwLn_t_114 NULL
+classification Other
+#NWmaxGEOM  ASCII
+beginmodelgeom WBwLn_t_114
+node dummy WBwLn_t_114
+  parent NULL
+endnode
+node trimesh g_WBwLc_t_null
+  parent WBwLn_t_114
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  position 0 0.0995018035 -0.0170792006
+  orientation 1 0 0 -1.57079995
+endnode
+endmodelgeom WBwLn_t_114
+donemodel WBwLn_t_114
