@@ -1,0 +1,346 @@
+#MAXMODEL ASCII
+# model: pmo55
+filedependancy pmo55.max
+newmodel pmo55
+setsupermodel pmo55 dbh_anims
+classification character
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom pmo55
+node dummy pmo55
+  parent NULL
+  #part-number 0
+endnode
+node dummy rootdummy
+  parent pmo55
+  #part-number 1
+  position -0.000405272993 0.0200069007 1.20720005
+  orientation 0 0 0 0
+endnode
+node dummy torso_g
+  parent rootdummy
+  #part-number 2
+  position 0.000405272993 0.0108289002 0.000205994002
+  orientation 0 0 0 0
+endnode
+node dummy Lbicep_g
+  parent torso_g
+  #part-number 8
+  position -0.301005006 -0.0794902965 0.459984988
+  orientation 0 0 0 0
+endnode
+node dummy lforearm_g
+  parent Lbicep_g
+  #part-number 9
+  position -0.0590347014 0.0212191008 -0.411920995
+  orientation 0 0 0 0
+endnode
+node dummy lhand_g
+  parent lforearm_g
+  #part-number 10
+  position -0.0460898988 0.0353935994 -0.396762997
+  orientation 0 0 0 0
+endnode
+node dummy lhand
+  parent lhand_g
+  #part-number 11
+  position -0.0153358001 -2.06232002e-07 -0.0945174992
+  orientation 0 0 0 0
+endnode
+node dummy lforearm
+  parent lforearm_g
+  #part-number 12
+  position -0.0301827993 -2.28882001e-07 -0.187033996
+  orientation 1.50037999e-06 -1 -5.04775016e-05 -0.0698110014
+endnode
+node dummy Lshoulder_g
+  parent Lbicep_g
+  #part-number -1
+  position 0 0 0
+  orientation 0 0 0 0
+endnode
+node dummy neck_g
+  parent torso_g
+  #part-number 14
+  position 0 -0.0810528994 0.598950028
+  orientation 0 0 0 0
+endnode
+node dummy head_g
+  parent neck_g
+  #part-number 15
+  position 0 0.0186997 0.0867158026
+  orientation 0 0 0 0
+endnode
+node dummy head
+  parent head_g
+  #part-number -1
+  position 0 0.00557895005 0.240719005
+  orientation 0 0 0 0
+endnode
+node dummy Rbicep_g
+  parent torso_g
+  #part-number 3
+  position 0.301010013 -0.0794902965 0.459986001
+  orientation 0 0 0 0
+endnode
+node dummy Rshoulder_g
+  parent Rbicep_g
+  #part-number -1
+  position -3.05176002e-07 0 0
+  orientation 0 0 0 0
+endnode
+node dummy rforearm_g
+  parent Rbicep_g
+  #part-number 4
+  position 0.059029799 0.0212191008 -0.411920995
+  orientation 0 0 0 0
+endnode
+node dummy rhand_g
+  parent rforearm_g
+  #part-number 5
+  position 0.0460898988 0.0353935994 -0.396762013
+  orientation 0 0 0 0
+endnode
+node dummy rhand
+  parent rhand_g
+  #part-number 6
+  position 0.0110700997 1.41859005e-07 -0.0961304009
+  orientation 0 0 0 0
+endnode
+node dummy Impact
+  parent torso_g
+  #part-number 16
+  position 0 0.164207995 0.192726001
+  orientation 0 0 0 0
+endnode
+node dummy wings
+  parent torso_g
+  #part-number -1
+  position -0.0125054 -0.231113002 0.370963991
+  orientation 0 0 0 0
+endnode
+node dummy Cloak_g
+  parent torso_g
+  #part-number -1
+  position 0 -0.156991005 0.59957999
+  orientation 0 0 0 0
+endnode
+node dummy CL1_fg
+  parent Cloak_g
+  #part-number 125
+  position -0.350174993 0.00540527003 0.0353203006
+  orientation 0 0 0 0
+endnode
+node dummy CR1_fg
+  parent Cloak_g
+  #part-number 126
+  position 0.350174993 0.00540527003 0.0353203006
+  orientation 0 0 0 0
+endnode
+node dummy cloak_shL
+  parent Cloak_g
+  #part-number 127
+  position -0.155294999 0 0.049571801
+  orientation 0 0 0 0
+endnode
+node dummy cloak_shR
+  parent Cloak_g
+  #part-number 128
+  position 0.155294999 0 0.049571801
+  orientation 0 0 0 0
+endnode
+node dummy CL1_g
+  parent Cloak_g
+  #part-number 129
+  position -0.350174993 0.00540529005 0.0143758999
+  orientation 0 0 0 0
+endnode
+node dummy CL2_g
+  parent CL1_g
+  #part-number 130
+  position -0.0304499995 -0.135545999 -0.483067006
+  orientation 0 0 0 0
+endnode
+node dummy CL3_g
+  parent CL2_g
+  #part-number 131
+  position -0.0228374992 -0.0128181996 -0.356357992
+  orientation 0 0 0 0
+endnode
+node dummy CL4_g
+  parent CL3_g
+  #part-number 132
+  position -0.0380625017 -0.0254337993 -0.499891013
+  orientation 0 0 0 0
+endnode
+node dummy CM1_g
+  parent Cloak_g
+  #part-number 133
+  position 0 -0.141048998 -0.0539851002
+  orientation 0 0 0 0
+endnode
+node dummy CM2_g
+  parent CM1_g
+  #part-number 134
+  position 0 -0.00748927984 -0.43957901
+  orientation 0 0 0 0
+endnode
+node dummy CM3_g
+  parent CM2_g
+  #part-number 135
+  position 0 -0.0337403007 -0.346459001
+  orientation 0 0 0 0
+endnode
+node dummy CM4_g
+  parent CM3_g
+  #part-number 136
+  position 0 -0.0367353 -0.499287993
+  orientation 0 0 0 0
+endnode
+node dummy CR1_g
+  parent Cloak_g
+  #part-number 137
+  position 0.350174993 0.00540531985 0.0143758999
+  orientation 0 0 0 0
+endnode
+node dummy CR2_g
+  parent CR1_g
+  #part-number 138
+  position 0.0304499995 -0.135545999 -0.483067006
+  orientation 0 0 0 0
+endnode
+node dummy CR3_g
+  parent CR2_g
+  #part-number 139
+  position 0.0228374004 -0.0128188003 -0.356357992
+  orientation 0 0 0 0
+endnode
+node dummy CR4_g
+  parent CR3_g
+  #part-number 140
+  position 0.0380625017 -0.0254337993 -0.499891013
+  orientation 0 0 0 0
+endnode
+node dummy pelvis_g
+  parent rootdummy
+  #part-number 17
+  position 0.000405272993 0.0108289002 0.000205994002
+  orientation 0 0 0 0
+endnode
+node dummy lthigh_g
+  parent pelvis_g
+  #part-number 18
+  position -0.138069004 -0.0234425999 -0.212440997
+  orientation 0 0 0 0
+endnode
+node dummy lshin_g
+  parent lthigh_g
+  #part-number 19
+  position 0.0306215994 -0.0164710004 -0.46093601
+  orientation 0 0 0 0
+endnode
+node dummy lfoot_g
+  parent lshin_g
+  #part-number 20
+  position 0.0279268995 -0.0666266009 -0.42740801
+  orientation 0 0 0 0
+endnode
+node dummy rthigh_g
+  parent pelvis_g
+  #part-number 21
+  position 0.138070002 -0.0234425999 -0.212440997
+  orientation 0 0 0 0
+endnode
+node dummy rshin_g
+  parent rthigh_g
+  #part-number 22
+  position -0.0294573996 -0.0164710004 -0.46093601
+  orientation 0 0 0 0
+endnode
+node dummy rfoot_g
+  parent rshin_g
+  #part-number 23
+  position -0.0290926993 -0.0666266009 -0.42740801
+  orientation 0 0 0 0
+endnode
+node dummy tail
+  parent pelvis_g
+  #part-number -1
+  position -0.0125054 -0.227902994 -0.130943999
+  orientation 0 0 0 0
+endnode
+node dummy belt_g1
+  parent rootdummy
+  #part-number -1
+  position 0.000405272993 0.0103385998 0.0310065001
+  orientation 0 0 0 0
+endnode
+node dummy belt_g
+  parent belt_g1
+  #part-number -1
+  position 0 0 0
+  orientation 0 0 0 0
+endnode
+node dummy FB1_g01
+  parent belt_g1
+  #part-number 154
+  position -0.000237978995 -0.206663996 -0.113195002
+  orientation 0 0 0 0
+endnode
+node dummy FB2_g01
+  parent FB1_g01
+  #part-number 155
+  position 0 -0.0156226996 -0.207601994
+  orientation 0 0 0 0
+endnode
+node dummy FB4_g01
+  parent FB2_g01
+  #part-number 156
+  position 0 -0.00694340002 -0.267343014
+  orientation 0 0 0 0
+endnode
+node dummy TF1_g
+  parent belt_g1
+  #part-number 157
+  position -0.000237949993 0.136773005 -0.112627
+  orientation 0 0 0 0
+endnode
+node dummy TF1L_g
+  parent TF1_g
+  #part-number 158
+  position 0 0 0
+  orientation 0 0 0 0
+endnode
+node dummy TF2_g
+  parent TF1_g
+  #part-number 159
+  position 0 0.00877120998 -0.319175988
+  orientation 0 0 0 0
+endnode
+node dummy TF3_g01
+  parent TF2_g
+  #part-number 160
+  position 0 -0.0228550993 -0.160326004
+  orientation 0 0 0 0
+endnode
+node dummy TF1R_g
+  parent TF1_g
+  #part-number 161
+  position 0 0 0
+  orientation 0 0 0 0
+endnode
+node dummy headconjure
+  parent pmo55
+  #part-number -1
+  position 0 -0.223819003 2.7681601
+  orientation 0 0 0 0
+endnode
+node dummy handconjure
+  parent pmo55
+  #part-number -1
+  position 0 0.493416995 1.68779004
+  orientation 0 0 0 0
+endnode
+endmodelgeom pmo55
+
+donemodel pmo55

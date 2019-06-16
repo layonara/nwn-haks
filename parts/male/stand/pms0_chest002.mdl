@@ -1,0 +1,21 @@
+#MAXMODEL ASCII
+# model: pms0_chest002
+filedependancy pms0_chest002.max
+newmodel pms0_chest002
+setsupermodel pms0_chest002 NULL
+classification character
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom pms0_chest002
+node dummy pms0_chest002
+  parent NULL
+  #part-number 0
+endnode
+node trimesh pms0_chest002g
+  parent pms0_chest002
+  position 0 0 0
+  orientation 0 0 0 0
+endnode
+endmodelgeom pms0_chest002
+
+donemodel pms0_chest002
