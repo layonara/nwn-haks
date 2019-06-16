@@ -1,0 +1,4341 @@
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel wmx10_u41_03
+setsupermodel wmx10_u41_03 null
+setanimationscale 1
+classification TILE
+#MAXGEOM ASCII
+beginmodelgeom wmx10_u41_03
+node dummy wmx10_u41_03
+  parent NULL
+endnode
+node light wmx10_u41_03ml1
+  parent wmx10_u41_03
+  wirecolor 0.54902 0.337255 0.882353
+  radius 14
+  multiplier 1
+  color 0.639216 0.639216 0.639216
+  ambientonly 0
+  ndynamictype 1
+  affectdynamic 1
+  shadow 0
+  lightpriority 5
+  fadinglight 1
+  orientation 0 0 0 0
+  position -1.5 -1.5 3
+endnode
+node light wmx10_u41_03ml2
+  parent wmx10_u41_03
+  wirecolor 0.219608 0.0313726 0.529412
+  radius 5
+  multiplier 1
+  color 0.639216 0.639216 0.639216
+  ambientonly 0
+  ndynamictype 1
+  affectdynamic 1
+  shadow 0
+  lightpriority 5
+  fadinglight 1
+  orientation 0 0 0 0
+  position 1.5 1.5 3.5
+endnode
+node aabb wok
+  parent wmx10_u41_03
+  wirecolor 0.337255 0.337255 0.337255
+  ambient 0.588 0.588 0.588
+  diffuse 0.5 0.5 0.5
+  specular 0 0 0
+  shininess 10
+  orientation 0 0 0 0
+  bitmap NULL
+  position 0 0 0
+  verts 29
+    -5 -5 -0.5
+    -2.5 -5 -0.5
+    0 -5 -0.5
+    2.5 -5 -0.5
+    -5 -2.5 -0.5
+    -3.81 -2.5 -0.5
+    -0.99 -3.74 -0.5
+    2.14 -3.35 -0.5
+    5 -5 -0.5
+    5 5 -0.5
+    5 2.5 -0.5
+    2.6 3.66 -0.5
+    2.6 5 -0.5
+    5 0 -0.5
+    4.23 -0.49 -0.5
+    5 -2.5 -0.5
+    3.66 0.98 -0.5
+    -5 -1.6 -0.5
+    -3.87 -1.58 -0.5
+    -1.37 -2.89 -0.5
+    0.9 -2.45 -0.3
+    1.59 3.11 -0.5
+    1.6 5 -0.5
+    2.6 -0.86 -0.1
+    2.63 1.17 0
+    -5 5 -15.5
+    -2.83 2.93 -15.5
+    -5 1.6 -15.5
+    -1.6 5 -15.5
+  faces 40
+    0 1 5 2 0 0 0 4
+    5 4 0 2 0 0 0 4
+    1 2 6 2 0 0 0 4
+    6 5 1 2 0 0 0 4
+    8 7 3 2 0 0 0 4
+    4 5 18 2 0 0 0 4
+    18 17 4 2 0 0 0 4
+    5 6 19 2 0 0 0 4
+    19 18 5 2 0 0 0 4
+    7 20 19 2 0 0 0 4
+    19 6 7 2 0 0 0 4
+    2 3 7 2 0 0 0 4
+    7 6 2 2 0 0 0 4
+    11 10 9 2 0 0 0 4
+    9 12 11 2 0 0 0 4
+    10 11 16 2 0 0 0 4
+    10 16 14 2 0 0 0 4
+    10 14 13 2 0 0 0 4
+    7 8 15 2 0 0 0 4
+    21 11 12 2 0 0 0 4
+    12 22 21 2 0 0 0 4
+    24 16 11 2 0 0 0 4
+    11 21 24 2 0 0 0 4
+    7 14 23 2 0 0 0 4
+    23 20 7 2 0 0 0 4
+    15 13 14 2 0 0 0 4
+    14 7 15 2 0 0 0 4
+    16 24 23 2 0 0 0 4
+    23 14 16 2 0 0 0 4
+    26 25 27 2 0 0 0 17
+    25 26 28 2 0 0 0 17
+    27 17 18 0 0 0 0 7
+    28 21 22 0 0 0 0 7
+    21 28 26 0 0 0 0 7
+    26 27 18 0 0 0 0 7
+    26 19 20 0 0 0 0 7
+    26 23 24 0 0 0 0 7
+    24 21 26 0 0 0 0 7
+    26 18 19 0 0 0 0 7
+    26 20 23 0 0 0 0 7
+  aabb     -5 -5 -15.5 5 5 0 -1
+    -5 -2.89 -15.5 2.63 5 0 -1
+    -5 -1.58 -15.5 1.59 5 -0.5 -1
+    -5 1.6 -15.5 -1.6 5 -15.5 -1
+    -5 1.6 -15.5 -2.83 5 -15.5 29
+    -5 2.93 -15.5 -1.6 5 -15.5 30
+    -5 -1.58 -15.5 1.59 5 -0.5 -1
+    -5 -1.58 -15.5 -2.83 2.93 -0.5 34
+    -2.83 2.93 -15.5 1.59 5 -0.5 33
+    -5 -2.89 -15.5 2.63 5 0 -1
+    -5 -2.89 -15.5 1.6 5 -0.3 -1
+    -5 -2.89 -15.5 1.6 5 -0.5 -1
+    -5 -2.89 -15.5 -1.37 2.93 -0.5 -1
+    -5 -1.6 -15.5 -3.87 1.6 -0.5 31
+    -3.87 -2.89 -15.5 -1.37 2.93 -0.5 38
+    -1.6 3.11 -15.5 1.6 5 -0.5 32
+    -2.83 -2.89 -15.5 0.9 2.93 -0.3 35
+    -2.83 -2.45 -15.5 2.63 3.11 0 -1
+    -2.83 -2.45 -15.5 2.63 3.11 0 -1
+    -2.83 1.17 -15.5 2.63 3.11 0 37
+    -2.83 -2.45 -15.5 2.6 2.93 -0.1 39
+    -2.83 -0.86 -15.5 2.63 2.93 0 36
+    -5 -5 -0.5 5 5 0 -1
+    -5 -5 -0.5 2.14 -1.58 -0.3 -1
+    -5 -5 -0.5 -0.99 -1.58 -0.5 -1
+    -5 -5 -0.5 -3.81 -1.58 -0.5 -1
+    -5 -5 -0.5 -3.81 -2.5 -0.5 1
+    -5 -2.5 -0.5 -3.81 -1.58 -0.5 -1
+    -5 -2.5 -0.5 -3.87 -1.58 -0.5 6
+    -5 -2.5 -0.5 -3.81 -1.58 -0.5 5
+    -5 -5 -0.5 -0.99 -1.58 -0.5 -1
+    -5 -5 -0.5 -2.5 -2.5 -0.5 0
+    -3.87 -5 -0.5 -0.99 -1.58 -0.5 -1
+    -3.81 -5 -0.5 -0.99 -2.5 -0.5 3
+    -3.87 -2.89 -0.5 -1.37 -1.58 -0.5 8
+    -3.81 -5 -0.5 2.14 -2.45 -0.3 -1
+    -3.81 -5 -0.5 0 -2.5 -0.5 -1
+    -3.81 -3.74 -0.5 -0.99 -2.5 -0.5 7
+    -2.5 -5 -0.5 0 -3.74 -0.5 2
+    -1.37 -5 -0.5 2.14 -2.45 -0.3 -1
+    -1.37 -3.74 -0.5 2.14 -2.89 -0.5 10
+    -1.37 -5 -0.5 2.14 -2.45 -0.3 -1
+    -0.99 -5 -0.5 2.14 -3.35 -0.5 12
+    -1.37 -3.35 -0.5 2.14 -2.45 -0.3 9
+    0 -5 -0.5 5 5 0 -1
+    0 -5 -0.5 5 0.98 -0.1 -1
+    0 -5 -0.5 5 -2.5 -0.5 -1
+    0 -5 -0.5 2.5 -3.35 -0.5 11
+    2.14 -5 -0.5 5 -2.5 -0.5 -1
+    2.14 -5 -0.5 5 -3.35 -0.5 4
+    2.14 -5 -0.5 5 -2.5 -0.5 18
+    0.9 -3.35 -0.5 5 0.98 -0.1 -1
+    0.9 -3.35 -0.5 5 -0.49 -0.1 -1
+    0.9 -3.35 -0.5 2.6 -0.86 -0.1 24
+    2.14 -3.35 -0.5 5 -0.49 -0.1 -1
+    2.14 -3.35 -0.5 5 -0.49 -0.5 26
+    2.14 -3.35 -0.5 4.23 -0.49 -0.1 23
+    2.6 -2.5 -0.5 5 0.98 -0.1 -1
+    4.23 -2.5 -0.5 5 0 -0.5 25
+    2.6 -0.86 -0.5 4.23 0.98 -0.1 28
+    1.59 -0.86 -0.5 5 5 0 -1
+    2.6 -0.86 -0.5 5 3.66 0 -1
+    2.6 -0.86 -0.5 5 2.5 0 -1
+    2.6 -0.86 -0.5 5 2.5 0 -1
+    2.6 -0.86 -0.5 3.66 1.17 0 27
+    4.23 -0.49 -0.5 5 2.5 -0.5 17
+    3.66 -0.49 -0.5 5 2.5 -0.5 16
+    2.6 0.98 -0.5 5 3.66 0 -1
+    2.6 0.98 -0.5 3.66 3.66 0 21
+    2.6 0.98 -0.5 5 3.66 -0.5 15
+    1.59 1.17 -0.5 5 5 0 -1
+    1.59 1.17 -0.5 5 5 0 -1
+    1.59 1.17 -0.5 2.63 3.66 0 22
+    2.6 2.5 -0.5 5 5 -0.5 13
+    1.59 3.11 -0.5 5 5 -0.5 -1
+    1.59 3.11 -0.5 2.6 5 -0.5 -1
+    1.59 3.11 -0.5 2.6 5 -0.5 19
+    1.59 3.11 -0.5 2.6 5 -0.5 20
+    2.6 3.66 -0.5 5 5 -0.5 14
+endnode
+node trimesh object21
+  parent wmx10_u41_03
+  orientation 0 0 0 0
+  wirecolor 0.337255 0.337255 0.337255
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 1
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  center 0 0 25
+  bitmap wmx_crck1
+  position 0 0 -0.5
+  verts 25
+    -5 -5 0
+    -2.5 -5 0
+    0 -5 0
+    2.5 -5 0
+    -5 -2.5 0
+    -3.81 -2.5 0
+    -0.99 -3.74 0
+    2.14 -3.35 0
+    5 -5 0
+    5 5 0
+    5 2.5 0
+    2.5 3.66 0
+    2.5 5 0
+    5 0 0
+    4.13 -0.49 0
+    5 -2.5 0
+    3.56 0.98 0
+    -5 -1.5 0
+    -3.87 -1.48 0
+    -1.37 -2.79 0
+    0.9 -2.35 0.2
+    1.49 3.11 0
+    1.5 5 0
+    2.5 -0.86 0.4
+    2.53 1.17 0.5
+  faces 29
+    0 1 5 2 0 1 5 1
+    5 4 0 2 5 4 0 1
+    1 2 6 2 1 2 6 1
+    6 5 1 2 6 5 1 1
+    8 7 3 2 8 7 3 1
+    4 5 18 2 4 5 18 1
+    18 17 4 2 18 17 4 1
+    5 6 19 2 5 6 19 1
+    19 18 5 2 19 18 5 1
+    7 20 19 2 7 20 19 1
+    19 6 7 2 19 6 7 1
+    2 3 7 2 2 3 7 1
+    7 6 2 2 7 6 2 1
+    11 10 9 2 11 10 9 1
+    9 12 11 2 9 12 11 1
+    10 11 16 2 10 11 16 1
+    10 16 14 2 10 16 14 1
+    10 14 13 2 10 14 13 1
+    7 8 15 2 7 8 15 1
+    21 11 12 2 21 11 12 1
+    12 22 21 2 12 22 21 1
+    24 16 11 2 24 16 11 1
+    11 21 24 2 11 21 24 1
+    7 14 23 2 7 14 23 1
+    23 20 7 2 23 20 7 1
+    15 13 14 2 15 13 14 1
+    14 7 15 2 14 7 15 1
+    16 24 23 2 16 24 23 1
+    23 14 16 2 23 14 16 1
+  tverts 25
+    0.00195313 0.00195313 0
+    0.5 0.00195313 0
+    1 0.00195313 0
+    1.5 0.00195313 0
+    0.00195313 0.5 0
+    0.238281 0.5 0
+    0.800781 0.251953 0
+    1.42578 0.330078 0
+    1.99805 0.00195313 0
+    1.99805 1.99805 0
+    1.99805 1.5 0
+    1.5 1.73047 0
+    1.5 1.99805 0
+    1.99805 1 0
+    1.82422 0.902344 0
+    1.99805 0.5 0
+    1.71289 1.19727 0
+    0.00195313 0.701172 0
+    0.228516 0.703125 0
+    0.724609 0.443359 0
+    1.17969 0.53125 0
+    1.29688 1.62109 0
+    1.29883 1.99805 0
+    1.5 0.828125 0
+    1.50586 1.23242 0
+endnode
+node trimesh cliff
+  parent wmx10_u41_03
+  orientation 0 0 0 0
+  wirecolor 0.419608 0.0313726 0.529412
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  center 0 0 0
+  bitmap wmx_nowtr5
+  position -2.16 2.16 -8.25
+  verts 12
+    -2.84 -1.66 -2.25
+    -2.22 -1.66 -2.25
+    -0.27 0.37 -2.75
+    1.17 -1.56 2.75
+    1.66 2.84 -2.25
+    1.66 1.37 -2.25
+    -2.56 -2.73 2.75
+    -2.84 -2.84 2.75
+    -0.22 -2.44 2.75
+    2.84 2.84 2.75
+    1.97 0.06 2.75
+    2.51 1.78 2.75
+  faces 10
+    8 1 6 1 8 1 6 2
+    6 1 0 1 6 1 0 2
+    6 0 7 1 6 0 7 2
+    8 2 1 1 8 12 1 2
+    2 8 3 1 12 8 13 2
+    10 5 2 1 14 15 12 2
+    2 3 10 1 2 3 10 2
+    11 5 10 1 11 5 10 2
+    9 4 11 1 9 4 11 2
+    4 5 11 1 4 5 11 2
+  tverts 16
+    1 0.0917969 0
+    0.890625 0.0917969 0
+    0.435547 0 0
+    0.773438 1 0
+    0 0.0917969 0
+    0.259766 0.0917969 0
+    0.951172 1 0
+    1 1 0
+    0.539063 1 0
+    0 1 0
+    0.490234 1 0
+    0.1875 1 0
+    0.546875 0 0
+    0.294922 1 0
+    0.154297 1 0
+    0.208984 0.0917969 0
+endnode
+node trimesh blackbase
+  parent wmx10_u41_03
+  orientation 0 0 0 0
+  wirecolor 0.894118 0.839216 0.6
+  specular 0 0 0
+  shininess 10
+  bitmap wmx01_black01
+  ambient 0 0 0
+  diffuse 0 0 0
+  shadow 0
+  position 0 0 -15
+  verts 25
+    -5 -5 0
+    -2.5 -5 0
+    0 -5 0
+    2.5 -5 0
+    5 -5 0
+    -5 -2.5 0
+    -2.5 -2.5 0
+    0 -2.5 0
+    2.5 -2.5 0
+    5 -2.5 0
+    -5 0 0
+    -2.5 0 0
+    0 0 0
+    2.5 0 0
+    5 0 0
+    -5 2.5 0
+    -2.5 2.5 0
+    0 2.5 0
+    2.5 2.5 0
+    5 2.5 0
+    -5 5 0
+    -2.5 5 0
+    0 5 0
+    2.5 5 0
+    5 5 0
+  faces 32
+    5 0 6 1 5 0 6 1
+    1 6 0 1 1 6 0 1
+    6 1 7 1 6 1 7 1
+    2 7 1 1 2 7 1 1
+    7 2 8 1 7 2 8 1
+    3 8 2 1 3 8 2 1
+    8 3 9 1 8 3 9 1
+    4 9 3 1 4 9 3 1
+    10 5 11 1 10 5 11 1
+    6 11 5 1 6 11 5 1
+    11 6 12 1 11 6 12 1
+    7 12 6 1 7 12 6 1
+    12 7 13 1 12 7 13 1
+    8 13 7 1 8 13 7 1
+    13 8 14 1 13 8 14 1
+    9 14 8 1 9 14 8 1
+    15 10 16 1 15 10 16 1
+    11 16 10 1 11 16 10 1
+    16 11 17 1 16 11 17 1
+    12 17 11 1 12 17 11 1
+    17 12 18 1 17 12 18 1
+    13 18 12 1 13 18 12 1
+    18 13 19 1 18 13 19 1
+    14 19 13 1 14 19 13 1
+    20 15 21 1 20 15 21 1
+    16 21 15 1 16 21 15 1
+    21 16 22 1 21 16 22 1
+    17 22 16 1 17 22 16 1
+    22 17 23 1 22 17 23 1
+    18 23 17 1 18 23 17 1
+    23 18 24 1 23 18 24 1
+    19 24 18 1 19 24 18 1
+  tverts 25
+    0 0 0
+    0.25 0 0
+    0.5 0 0
+    0.75 0 0
+    1 0 0
+    0 0.25 0
+    0.25 0.25 0
+    0.5 0.25 0
+    0.75 0.25 0
+    1 0.25 0
+    0 0.5 0
+    0.25 0.5 0
+    0.5 0.5 0
+    0.75 0.5 0
+    1 0.5 0
+    0 0.75 0
+    0.25 0.75 0
+    0.5 0.75 0
+    0.75 0.75 0
+    1 0.75 0
+    0 1 0
+    0.25 1 0
+    0.5 1 0
+    0.75 1 0
+    1 1 0
+endnode
+node dummy fried_fix_01
+  parent wmx10_u41_03
+  wirecolor 0.560784 0.878431 0.341176
+  orientation 0 0 0 0
+  position 0 0 -5.5
+endnode
+node trimesh grassrim
+  wirecolor 0.337255 0.337255 0.337255
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 1
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  center -123.5 110.5 25
+  bitmap wmx11_stnetile
+  parent fried_fix_01
+  orientation 0 0 0 0
+  position 0 0 5
+  verts 16
+    -5 -1.5 0
+    -3.87 -1.48 0
+    -1.37 -2.79 0
+    0.9 -2.35 0.2
+    1.49 3.11 0
+    1.5 5 0
+    2.5 -0.86 0.4
+    2.53 1.17 0.5
+    1.2 5 0
+    1.19 2.9 0
+    2.08 1.08 0.5
+    2.11 -0.65 0.4
+    -3.71 -1.18 0
+    -5 -1.2 0
+    -1.34 -2.34 0
+    0.69 -1.92 0.2
+  faces 14
+    8 9 4 2 8 9 4 1
+    4 5 8 2 4 5 8 1
+    9 10 7 2 9 10 7 1
+    7 4 9 2 7 4 9 1
+    10 11 6 2 10 11 6 1
+    6 7 10 2 6 7 10 1
+    12 13 0 2 12 13 0 1
+    0 1 12 2 0 1 12 1
+    14 12 1 2 14 12 1 1
+    1 2 14 2 1 2 14 1
+    15 14 2 2 15 14 2 1
+    2 3 15 2 2 3 15 1
+    3 6 11 0 3 6 11 1
+    3 11 15 0 3 11 15 1
+  tverts 16
+    0 0.0195313 0
+    1 0.0195313 0
+    4 0.0195313 0
+    6.19922 0.0195313 0
+    12.5 0.0195313 0
+    14 0.0195313 0
+    8 0.0195313 0
+    10 0.0195313 0
+    14 0.970703 0
+    12.5 0.970703 0
+    10 0.970703 0
+    8 0.970703 0
+    1 0.970703 0
+    0 0.970703 0
+    4 0.970703 0
+    6.19922 0.970703 0
+endnode
+node trimesh d_patch
+  wirecolor 0.87451 0.337255 0.556863
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  center 0.5 -0.5 0
+  bitmap tno01_dirt04
+  parent fried_fix_01
+  orientation 0 0 0 0
+  position 0.56 -3.67 5.11
+  verts 6
+    -0.56 -1.33 -0.1
+    1.94 -1.33 -0.1
+    -1.54 -0.07 -0.1
+    1.58 0.32 -0.1
+    -1.93 0.87 -0.1
+    0.35 1.32 0.1
+  faces 4
+    3 5 4 2 3 5 4 21
+    4 2 3 2 4 2 3 21
+    0 1 3 2 0 1 3 21
+    3 2 0 2 3 2 0 21
+  tverts 6
+    0.912109 0 0
+    1.69336 0 0
+    0.955078 0.5 0
+    1.61914 0.5 0
+    0.923828 0.970703 0
+    1.68359 1 0
+endnode
+node trimesh moss01
+  wirecolor 0.337255 0.337255 0.337255
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  center -14.5 77.5 -560
+  bitmap wmx01_pt_grass01
+  parent fried_fix_01
+  orientation 0 0 0 0
+  position -1.23 1.1 2.75
+  verts 24
+    0.01 -1.9 -0.41
+    2.71 -1.25 1.52
+    1.72 -0.69 -1.16
+    0.1 -0.43 -2.75
+    1.04 1.13 -2.74
+    3.47 0.21 1.55
+    2.71 2 0.74
+    -3.3 -0.58 -7.73
+    -1.32 1.52 -8.25
+    0.7 2.42 -7.8
+    1.47 2.89 -2.75
+    0.72 3.45 -7.75
+    2.04 1.64 -0.66
+    2.24 -0.98 0.22
+    1.53 -1.54 0.67
+    1.35 2.73 -4.1
+    0.89 1.53 -4.24
+    -0.32 0.21 -4.83
+    -3.51 -0.04 -10.55
+    -2.72 -0.05 -10.28
+    0.14 2.63 -10.49
+    0.14 3.1 -10.48
+    -2.32 0.63 -9.46
+    0.35 1.23 -4.41
+  faces 25
+    3 2 4 1 9 2 11 1
+    13 1 5 1 30 0 3 1
+    17 3 4 1 33 4 5 2
+    10 15 4 1 20 24 5 2
+    7 8 22 1 6 15 27 3
+    1 13 14 1 0 30 31 1
+    2 3 0 1 2 9 1 1
+    4 16 23 1 5 32 35 2
+    2 12 4 1 2 17 11 1
+    13 5 6 1 30 3 10 1
+    2 6 12 1 2 12 17 1
+    2 13 6 1 2 18 12 1
+    13 2 0 1 18 2 1 1
+    14 13 0 1 19 18 1 1
+    15 16 4 1 24 32 5 2
+    15 9 16 1 21 14 22 2
+    16 9 8 1 22 14 13 2
+    8 23 16 1 13 34 22 2
+    18 7 19 1 25 6 26 3
+    9 20 8 1 8 28 7 3
+    20 9 11 1 28 8 16 3
+    21 20 11 1 29 28 16 3
+    7 22 19 1 6 27 26 3
+    8 17 23 1 13 23 34 2
+    4 23 17 1 5 35 33 2
+  tverts 36
+    1.38477 1.01563 0
+    2.01758 1.27148 0
+    1.53711 1.23438 0
+    1.03906 1.03516 0
+    1.07227 1.08789 0
+    0.787109 0.990234 0
+    0.994141 0.998047 0
+    1.07227 0.886719 0
+    0.701172 1.02539 0
+    1.90039 0.984375 0
+    0.955078 0.435547 0
+    1.2793 0.996094 0
+    0.826172 1.50391 0
+    0.951172 0.421875 0
+    0.544922 0.533203 0
+    1.06055 0.455078 0
+    0.505859 0.976563 0
+    0.957031 1.22266 0
+    1.52734 1.53125 0
+    1.75586 1.50977 0
+    0.478516 0.962891 0
+    0.488281 1.03125 0
+    0.712891 1.02344 0
+    1.00781 0.923828 0
+    0.521484 0.542969 0
+    1.52148 1.00391 0
+    1.52539 0.673828 0
+    1.38086 0.505859 0
+    0.806641 0.400391 0
+    0.541016 0.554688 0
+    1.42188 0.507813 0
+    1.57813 0.728516 0
+    0.71875 0.537109 0
+    0.9375 0.427734 0
+    0.796875 0.994141 0
+    0.78125 0.505859 0
+endnode
+node danglymesh bush36
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0 0 82.5
+  bitmap tno01_bush03
+  parent fried_fix_01
+  orientation 0 0 0 0
+  position -2.7 -2.86 5.13
+  verts 6
+    0 1.29 -0.25
+    0 -1.29 -0.25
+    0 0 1.9
+    0 -1.29 -0.25
+    0 0 1.9
+    0 1.29 -0.25
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    112.838
+    0
+    112.838
+    0
+endnode
+node danglymesh bush37
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0 0 100.5
+  bitmap tno01_bush03
+  parent fried_fix_01
+  orientation 0 0 0 0
+  position -2.7 -2.86 4.96
+  verts 6
+    1.12 0.64 -0.07
+    -1.12 -0.64 -0.07
+    0 0 2.08
+    -1.12 -0.64 -0.07
+    0 0 2.08
+    1.12 0.64 -0.07
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    138
+    0
+    138
+    0
+endnode
+node danglymesh bush38
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0 0 100.5
+  bitmap tno01_bush03
+  parent fried_fix_01
+  orientation 0 0 0 0
+  position -2.7 -2.86 4.96
+  verts 6
+    -1.12 0.64 -0.07
+    1.12 -0.64 -0.07
+    0 0 2.08
+    1.12 -0.64 -0.07
+    0 0 2.08
+    -1.12 0.64 -0.07
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    168
+    0
+    168
+    0
+endnode
+node danglymesh bush39
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -0.5 -0.5 60
+  bitmap tno01_bush03
+  parent fried_fix_01
+  orientation 0 0 0 0
+  position -2.45 -2.8 5.16
+  verts 6
+    -0.87 0.64 -0.18
+    0.64 -0.87 -0.18
+    0.86 0.86 1.39
+    0.64 -0.87 -0.18
+    0.86 0.86 1.39
+    -0.87 0.64 -0.18
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    119
+    0
+    119
+    0
+endnode
+node danglymesh bush40
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -1.50001 -48 60
+  bitmap tno01_bush03
+  parent fried_fix_01
+  orientation 0 0 0 0
+  position -2.63 -3.1 5.16
+  verts 6
+    1.05 0.25 -0.18
+    -1.07 0.07 -0.18
+    0.11 -1.21 1.39
+    -1.07 0.07 -0.18
+    0.11 -1.21 1.39
+    1.05 0.25 -0.18
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    112
+    0
+    112
+    0
+endnode
+node danglymesh bush41
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -13 -9 60
+  bitmap tno01_bush03
+  parent fried_fix_01
+  orientation 0 0 0 0
+  position -2.95 -2.89 5.16
+  verts 6
+    -0.48 -0.97 -0.18
+    0.74 0.8 -0.18
+    -1 0.7 1.39
+    0.74 0.8 -0.18
+    -1 0.7 1.39
+    -0.48 -0.97 -0.18
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    104
+    0
+    104
+    0
+endnode
+node danglymesh bush42
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0 0 99
+  bitmap tno01_bush03
+  parent fried_fix_01
+  orientation 0 0 0 0
+  position -3.64 -3.14 5.19
+  verts 6
+    -0.77 1.34 -0.31
+    0.77 -1.34 -0.31
+    0 0 2.28
+    0.77 -1.34 -0.31
+    0 0 2.28
+    -0.77 1.34 -0.31
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    112.838
+    0
+    112.838
+    0
+endnode
+node danglymesh bush43
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0 0 120
+  bitmap tno01_bush03
+  parent fried_fix_01
+  orientation 0 0 0 0
+  position -3.64 -3.14 4.98
+  verts 6
+    0.77 1.34 -0.1
+    -0.77 -1.34 -0.1
+    0 0 2.49
+    -0.77 -1.34 -0.1
+    0 0 2.49
+    0.77 1.34 -0.1
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    138
+    0
+    138
+    0
+endnode
+node danglymesh bush44
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0 0 120
+  bitmap tno01_bush03
+  parent fried_fix_01
+  orientation 0 0 0 0
+  position -3.64 -3.14 4.98
+  verts 6
+    -1.55 0 -0.1
+    1.55 0 -0.1
+    0 0 2.49
+    1.55 0 -0.1
+    0 0 2.49
+    -1.55 0 -0.1
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    168
+    0
+    168
+    0
+endnode
+node danglymesh bush45
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -5 44.5 72
+  bitmap tno01_bush03
+  parent fried_fix_01
+  orientation 0 0 0 0
+  position -3.41 -2.93 5.23
+  verts 6
+    -1.29 0.15 -0.22
+    1.18 -0.52 -0.22
+    0.38 1.41 1.65
+    1.18 -0.52 -0.22
+    0.38 1.41 1.65
+    -1.29 0.15 -0.22
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    119
+    0
+    119
+    0
+endnode
+node danglymesh bush46
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -11 -15.5 72
+  bitmap tno01_bush03
+  parent fried_fix_01
+  orientation 0 0 0 0
+  position -3.41 -3.35 5.23
+  verts 6
+    0.93 0.89 -0.22
+    -1.16 -0.58 -0.22
+    0.84 -1.2 1.65
+    -1.16 -0.58 -0.22
+    0.84 -1.2 1.65
+    0.93 0.89 -0.22
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    112
+    0
+    112
+    0
+endnode
+node danglymesh bush47
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -58 -2 72
+  bitmap tno01_bush03
+  parent fried_fix_01
+  orientation 0 0 0 0
+  position -3.88 -3.32 5.23
+  verts 6
+    0.08 -1.3 -0.22
+    0.29 1.26 -0.22
+    -1.46 0.12 1.65
+    0.29 1.26 -0.22
+    -1.46 0.12 1.65
+    0.08 -1.3 -0.22
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    104
+    0
+    104
+    0
+endnode
+node danglymesh bush48
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0 0 58
+  bitmap tno01_bush03
+  parent fried_fix_01
+  orientation 0 0 0 0
+  position -1.15 -3.89 5.04
+  verts 6
+    0 0.9 -0.17
+    0 -0.9 -0.17
+    0 0 1.33
+    0 -0.9 -0.17
+    0 0 1.33
+    0 0.9 -0.17
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    112.838
+    0
+    112.838
+    0
+endnode
+node danglymesh bush49
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0 0 70.5
+  bitmap tno01_bush03
+  parent fried_fix_01
+  orientation 0 0 0 0
+  position -1.15 -3.89 4.91
+  verts 6
+    0.78 0.45 -0.04
+    -0.78 -0.45 -0.04
+    0 0 1.47
+    -0.78 -0.45 -0.04
+    0 0 1.47
+    0.78 0.45 -0.04
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    138
+    0
+    138
+    0
+endnode
+node danglymesh bush50
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0 0 70.5
+  bitmap tno01_bush03
+  parent fried_fix_01
+  orientation 0 0 0 0
+  position -1.15 -3.89 4.91
+  verts 6
+    -0.78 0.45 -0.04
+    0.78 -0.45 -0.04
+    0 0 1.47
+    0.78 -0.45 -0.04
+    0 0 1.47
+    -0.78 0.45 -0.04
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    168
+    0
+    168
+    0
+endnode
+node danglymesh bush51
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -0.499998 -0.499998 42
+  bitmap tno01_bush03
+  parent fried_fix_01
+  orientation 0 0 0 0
+  position -0.98 -3.84 5.06
+  verts 6
+    -0.61 0.44 -0.12
+    0.46 -0.61 -0.12
+    0.61 0.6 0.97
+    0.46 -0.61 -0.12
+    0.61 0.6 0.97
+    -0.61 0.44 -0.12
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    119
+    0
+    119
+    0
+endnode
+node danglymesh bush52
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -1 -33.5 42
+  bitmap tno01_bush03
+  parent fried_fix_01
+  orientation 0 0 0 0
+  position -1.09 -4.06 5.06
+  verts 6
+    0.74 0.18 -0.12
+    -0.76 0.05 -0.12
+    0.07 -0.85 0.97
+    -0.76 0.05 -0.12
+    0.07 -0.85 0.97
+    0.74 0.18 -0.12
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    112
+    0
+    112
+    0
+endnode
+node danglymesh bush53
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -9 -6.5 42
+  bitmap tno01_bush03
+  parent fried_fix_01
+  orientation 0 0 0 0
+  position -1.32 -3.91 5.06
+  verts 6
+    -0.34 -0.68 -0.12
+    0.52 0.55 -0.12
+    -0.7 0.5 0.97
+    0.52 0.55 -0.12
+    -0.7 0.5 0.97
+    -0.34 -0.68 -0.12
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    104
+    0
+    104
+    0
+endnode
+node danglymesh bush54
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0 0 69.5
+  bitmap tno01_bush03
+  parent fried_fix_01
+  orientation 0 0 0 0
+  position -1.8 -4.09 5.08
+  verts 6
+    -0.54 0.94 -0.21
+    0.53 -0.93 -0.21
+    0 0 1.6
+    0.53 -0.93 -0.21
+    0 0 1.6
+    -0.54 0.94 -0.21
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    112.838
+    0
+    112.838
+    0
+endnode
+node danglymesh bush55
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0 0 84.5
+  bitmap tno01_bush03
+  parent fried_fix_01
+  orientation 0 0 0 0
+  position -1.8 -4.09 4.93
+  verts 6
+    0.53 0.94 -0.06
+    -0.54 -0.93 -0.06
+    0 0 1.75
+    -0.54 -0.93 -0.06
+    0 0 1.75
+    0.53 0.94 -0.06
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    138
+    0
+    138
+    0
+endnode
+node danglymesh bush56
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0 0 84.5
+  bitmap tno01_bush03
+  parent fried_fix_01
+  orientation 0 0 0 0
+  position -1.8 -4.09 4.93
+  verts 6
+    -1.08 0 -0.06
+    1.07 0 -0.06
+    0 0 1.75
+    1.07 0 -0.06
+    0 0 1.75
+    -1.08 0 -0.06
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    168
+    0
+    168
+    0
+endnode
+node danglymesh bush57
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -3.5 31.5 50.5
+  bitmap tno01_bush03
+  parent fried_fix_01
+  orientation 0 0 0 0
+  position -1.65 -3.94 5.1
+  verts 6
+    -0.9 0.1 -0.15
+    0.83 -0.36 -0.15
+    0.26 0.99 1.17
+    0.83 -0.36 -0.15
+    0.26 0.99 1.17
+    -0.9 0.1 -0.15
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    119
+    0
+    119
+    0
+endnode
+node danglymesh bush58
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -7.5 -10.5 50.5
+  bitmap tno01_bush03
+  parent fried_fix_01
+  orientation 0 0 0 0
+  position -1.65 -4.23 5.1
+  verts 6
+    0.67 0.63 -0.15
+    -0.81 -0.41 -0.15
+    0.6 -0.84 1.17
+    -0.81 -0.41 -0.15
+    0.6 -0.84 1.17
+    0.67 0.63 -0.15
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    112
+    0
+    112
+    0
+endnode
+node danglymesh bush59
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -40.5 -1.5 50.5
+  bitmap tno01_bush03
+  parent fried_fix_01
+  orientation 0 0 0 0
+  position -1.98 -4.21 5.1
+  verts 6
+    0.05 -0.91 -0.15
+    0.21 0.88 -0.15
+    -1.02 0.09 1.17
+    0.21 0.88 -0.15
+    -1.02 0.09 1.17
+    0.05 -0.91 -0.15
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    104
+    0
+    104
+    0
+endnode
+node danglymesh bush84
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0 0 82.5
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 2.16 -2.71 5.13
+  verts 6
+    0 1.29 -0.25
+    0 -1.29 -0.25
+    0 0 1.9
+    0 -1.29 -0.25
+    0 0 1.9
+    0 1.29 -0.25
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    112.838
+    0
+    112.838
+    0
+endnode
+node danglymesh bush85
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0 0 100.5
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 2.16 -2.71 4.96
+  verts 6
+    1.12 0.64 -0.07
+    -1.12 -0.64 -0.07
+    0 0 2.08
+    -1.12 -0.64 -0.07
+    0 0 2.08
+    1.12 0.64 -0.07
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    138
+    0
+    138
+    0
+endnode
+node danglymesh bush86
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0 0 100.5
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 2.16 -2.71 4.96
+  verts 6
+    -1.12 0.64 -0.07
+    1.12 -0.64 -0.07
+    0 0 2.08
+    1.12 -0.64 -0.07
+    0 0 2.08
+    -1.12 0.64 -0.07
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    168
+    0
+    168
+    0
+endnode
+node danglymesh bush87
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -0.5 -0.5 60
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 2.3 -2.92 5.16
+  verts 6
+    -0.87 0.64 -0.18
+    0.64 -0.87 -0.18
+    0.86 0.86 1.39
+    0.64 -0.87 -0.18
+    0.86 0.86 1.39
+    -0.87 0.64 -0.18
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    119
+    0
+    119
+    0
+endnode
+node danglymesh bush88
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -1.50001 -48 60
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 1.95 -2.86 5.16
+  verts 6
+    1.06 0.25 -0.18
+    -1.08 0.07 -0.18
+    0.12 -1.21 1.39
+    -1.08 0.07 -0.18
+    0.12 -1.21 1.39
+    1.06 0.25 -0.18
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    112
+    0
+    112
+    0
+endnode
+node danglymesh bush89
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -13 -9 60
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 2.05 -2.48 5.16
+  verts 6
+    -0.48 -0.97 -0.18
+    0.74 0.78 -0.18
+    -1 0.7 1.39
+    0.74 0.78 -0.18
+    -1 0.7 1.39
+    -0.48 -0.97 -0.18
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    104
+    0
+    104
+    0
+endnode
+node danglymesh bush90
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0 0 99
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 1.57 -1.92 5.19
+  verts 6
+    -0.76 1.34 -0.31
+    0.78 -1.34 -0.31
+    0 0 2.28
+    0.78 -1.34 -0.31
+    0 0 2.28
+    -0.76 1.34 -0.31
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    112.838
+    0
+    112.838
+    0
+endnode
+node danglymesh bush91
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0 0 120
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 1.57 -1.92 4.98
+  verts 6
+    0.78 1.34 -0.1
+    -0.76 -1.34 -0.1
+    0 0 2.49
+    -0.76 -1.34 -0.1
+    0 0 2.49
+    0.78 1.34 -0.1
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    138
+    0
+    138
+    0
+endnode
+node danglymesh bush92
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0 0 120
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 1.57 -1.92 4.98
+  verts 6
+    -1.55 0 -0.1
+    1.56 0 -0.1
+    0 0 2.49
+    1.56 0 -0.1
+    0 0 2.49
+    -1.55 0 -0.1
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    168
+    0
+    168
+    0
+endnode
+node danglymesh bush93
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -5 44.5 72
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 1.85 -2.06 5.23
+  verts 6
+    -1.29 0.15 -0.22
+    1.19 -0.52 -0.22
+    0.38 1.41 1.65
+    1.19 -0.52 -0.22
+    0.38 1.41 1.65
+    -1.29 0.15 -0.22
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    119
+    0
+    119
+    0
+endnode
+node danglymesh bush94
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -11 -15.5 72
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 1.45 -2.2 5.23
+  verts 6
+    0.95 0.89 -0.22
+    -1.15 -0.58 -0.22
+    0.85 -1.2 1.65
+    -1.15 -0.58 -0.22
+    0.85 -1.2 1.65
+    0.95 0.89 -0.22
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    112
+    0
+    112
+    0
+endnode
+node danglymesh bush95
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -58 -2 72
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 1.32 -1.75 5.23
+  verts 6
+    0.09 -1.3 -0.22
+    0.3 1.26 -0.22
+    -1.45 0.12 1.65
+    0.3 1.26 -0.22
+    -1.45 0.12 1.65
+    0.09 -1.3 -0.22
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    104
+    0
+    104
+    0
+endnode
+node danglymesh bush96
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0 0 58
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 1.72 -4.52 5.04
+  verts 6
+    0 0.9 -0.17
+    0 -0.9 -0.17
+    0 0 1.33
+    0 -0.9 -0.17
+    0 0 1.33
+    0 0.9 -0.17
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    112.838
+    0
+    112.838
+    0
+endnode
+node danglymesh bush97
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0 0 70.5
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 1.72 -4.52 4.91
+  verts 6
+    0.78 0.45 -0.04
+    -0.78 -0.44 -0.04
+    0 0 1.47
+    -0.78 -0.44 -0.04
+    0 0 1.47
+    0.78 0.45 -0.04
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    138
+    0
+    138
+    0
+endnode
+node danglymesh bush98
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0 0 70.5
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 1.72 -4.52 4.91
+  verts 6
+    -0.78 0.45 -0.04
+    0.78 -0.44 -0.04
+    0 0 1.47
+    0.78 -0.44 -0.04
+    0 0 1.47
+    -0.78 0.45 -0.04
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    168
+    0
+    168
+    0
+endnode
+node danglymesh bush99
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -0.499998 -0.499998 42
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 1.82 -4.67 5.06
+  verts 6
+    -0.61 0.45 -0.12
+    0.45 -0.61 -0.12
+    0.6 0.6 0.97
+    0.45 -0.61 -0.12
+    0.6 0.6 0.97
+    -0.61 0.45 -0.12
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    119
+    0
+    119
+    0
+endnode
+node danglymesh bush100
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -1 -33.5 42
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 1.58 -4.62 5.06
+  verts 6
+    0.75 0.18 -0.12
+    -0.75 0.04 -0.12
+    0.09 -0.86 0.97
+    -0.75 0.04 -0.12
+    0.09 -0.86 0.97
+    0.75 0.18 -0.12
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    112
+    0
+    112
+    0
+endnode
+node danglymesh bush101
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -9 -6.5 42
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 1.64 -4.36 5.06
+  verts 6
+    -0.34 -0.68 -0.12
+    0.52 0.56 -0.12
+    -0.7 0.49 0.97
+    0.52 0.56 -0.12
+    -0.7 0.49 0.97
+    -0.34 -0.68 -0.12
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    104
+    0
+    104
+    0
+endnode
+node danglymesh bush102
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0 0 69.5
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 1.31 -3.97 5.08
+  verts 6
+    -0.54 0.94 -0.21
+    0.54 -0.93 -0.21
+    0 0 1.6
+    0.54 -0.93 -0.21
+    0 0 1.6
+    -0.54 0.94 -0.21
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    112.838
+    0
+    112.838
+    0
+endnode
+node danglymesh bush103
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0 0 84.5
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 1.31 -3.97 4.93
+  verts 6
+    0.54 0.94 -0.06
+    -0.54 -0.93 -0.06
+    0 0 1.75
+    -0.54 -0.93 -0.06
+    0 0 1.75
+    0.54 0.94 -0.06
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    138
+    0
+    138
+    0
+endnode
+node danglymesh bush104
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0 0 84.5
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 1.31 -3.97 4.93
+  verts 6
+    -1.08 0 -0.06
+    1.08 0 -0.06
+    0 0 1.75
+    1.08 0 -0.06
+    0 0 1.75
+    -1.08 0 -0.06
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    168
+    0
+    168
+    0
+endnode
+node danglymesh bush105
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -3.5 31.5 50.5
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 1.51 -4.06 5.1
+  verts 6
+    -0.9 0.09 -0.15
+    0.83 -0.36 -0.15
+    0.26 0.98 1.17
+    0.83 -0.36 -0.15
+    0.26 0.98 1.17
+    -0.9 0.09 -0.15
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    119
+    0
+    119
+    0
+endnode
+node danglymesh bush106
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -7.5 -10.5 50.5
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 1.23 -4.16 5.1
+  verts 6
+    0.67 0.63 -0.15
+    -0.8 -0.41 -0.15
+    0.6 -0.84 1.17
+    -0.8 -0.41 -0.15
+    0.6 -0.84 1.17
+    0.67 0.63 -0.15
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    112
+    0
+    112
+    0
+endnode
+node danglymesh bush107
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -40.5 -1.5 50.5
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 1.13 -3.85 5.1
+  verts 6
+    0.05 -0.9 -0.15
+    0.21 0.88 -0.15
+    -1.02 0.1 1.17
+    0.21 0.88 -0.15
+    -1.02 0.1 1.17
+    0.05 -0.9 -0.15
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    104
+    0
+    104
+    0
+endnode
+node danglymesh bush108
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0 0 82.5
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 3.59 3.47 5.13
+  verts 6
+    0 1.28 -0.25
+    0 -1.29 -0.25
+    0 0 1.9
+    0 -1.29 -0.25
+    0 0 1.9
+    0 1.28 -0.25
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    112.838
+    0
+    112.838
+    0
+endnode
+node danglymesh bush109
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0 0 100.5
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 3.59 3.47 4.96
+  verts 6
+    1.12 0.64 -0.07
+    -1.12 -0.64 -0.07
+    0 0 2.08
+    -1.12 -0.64 -0.07
+    0 0 2.08
+    1.12 0.64 -0.07
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    138
+    0
+    138
+    0
+endnode
+node danglymesh bush110
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0 0 100.5
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 3.59 3.47 4.96
+  verts 6
+    -1.12 0.64 -0.07
+    1.12 -0.64 -0.07
+    0 0 2.08
+    1.12 -0.64 -0.07
+    0 0 2.08
+    -1.12 0.64 -0.07
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    168
+    0
+    168
+    0
+endnode
+node danglymesh bush111
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -0.5 -0.5 60
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 3.73 3.26 5.16
+  verts 6
+    -0.87 0.64 -0.18
+    0.64 -0.87 -0.18
+    0.86 0.86 1.39
+    0.64 -0.87 -0.18
+    0.86 0.86 1.39
+    -0.87 0.64 -0.18
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    119
+    0
+    119
+    0
+endnode
+node danglymesh bush112
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -1.50001 -48 60
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 3.38 3.31 5.16
+  verts 6
+    1.05 0.25 -0.18
+    -1.09 0.07 -0.18
+    0.11 -1.21 1.39
+    -1.09 0.07 -0.18
+    0.11 -1.21 1.39
+    1.05 0.25 -0.18
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    112
+    0
+    112
+    0
+endnode
+node danglymesh bush113
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -13 -9 60
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 3.48 3.7 5.16
+  verts 6
+    -0.48 -0.97 -0.18
+    0.75 0.78 -0.18
+    -1 0.69 1.39
+    0.75 0.78 -0.18
+    -1 0.69 1.39
+    -0.48 -0.97 -0.18
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    104
+    0
+    104
+    0
+endnode
+node danglymesh bush114
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0 0 99
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 3 4.26 5.19
+  verts 6
+    -0.76 1.34 -0.31
+    0.78 -1.34 -0.31
+    0 0 2.28
+    0.78 -1.34 -0.31
+    0 0 2.28
+    -0.76 1.34 -0.31
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    112.838
+    0
+    112.838
+    0
+endnode
+node danglymesh bush115
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0 0 120
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 3 4.26 4.98
+  verts 6
+    0.78 1.34 -0.1
+    -0.76 -1.34 -0.1
+    0 0 2.49
+    -0.76 -1.34 -0.1
+    0 0 2.49
+    0.78 1.34 -0.1
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    138
+    0
+    138
+    0
+endnode
+node danglymesh bush116
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0 0 120
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 3 4.26 4.98
+  verts 6
+    -1.54 0 -0.1
+    1.56 0 -0.1
+    0 0 2.49
+    1.56 0 -0.1
+    0 0 2.49
+    -1.54 0 -0.1
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    168
+    0
+    168
+    0
+endnode
+node danglymesh bush117
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -5 44.5 72
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 3.28 4.12 5.23
+  verts 6
+    -1.29 0.15 -0.22
+    1.19 -0.52 -0.22
+    0.38 1.41 1.65
+    1.19 -0.52 -0.22
+    0.38 1.41 1.65
+    -1.29 0.15 -0.22
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    119
+    0
+    119
+    0
+endnode
+node danglymesh bush118
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -11 -15.5 72
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 2.88 3.98 5.23
+  verts 6
+    0.95 0.89 -0.22
+    -1.15 -0.58 -0.22
+    0.85 -1.2 1.65
+    -1.15 -0.58 -0.22
+    0.85 -1.2 1.65
+    0.95 0.89 -0.22
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    112
+    0
+    112
+    0
+endnode
+node danglymesh bush119
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -58 -2 72
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 2.75 4.42 5.23
+  verts 6
+    0.08 -1.3 -0.22
+    0.3 1.26 -0.22
+    -1.46 0.12 1.65
+    0.3 1.26 -0.22
+    -1.46 0.12 1.65
+    0.08 -1.3 -0.22
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    104
+    0
+    104
+    0
+endnode
+node danglymesh bush120
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0 0 58
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 3.15 1.66 5.04
+  verts 6
+    0 0.9 -0.17
+    0 -0.9 -0.17
+    0 0 1.33
+    0 -0.9 -0.17
+    0 0 1.33
+    0 0.9 -0.17
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    112.838
+    0
+    112.838
+    0
+endnode
+node danglymesh bush121
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0 0 70.5
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 3.15 1.66 4.91
+  verts 6
+    0.78 0.45 -0.04
+    -0.78 -0.45 -0.04
+    0 0 1.47
+    -0.78 -0.45 -0.04
+    0 0 1.47
+    0.78 0.45 -0.04
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    138
+    0
+    138
+    0
+endnode
+node danglymesh bush122
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0 0 70.5
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 3.15 1.66 4.91
+  verts 6
+    -0.78 0.45 -0.04
+    0.78 -0.45 -0.04
+    0 0 1.47
+    0.78 -0.45 -0.04
+    0 0 1.47
+    -0.78 0.45 -0.04
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    168
+    0
+    168
+    0
+endnode
+node danglymesh bush123
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -0.499998 -0.499998 42
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 3.25 1.51 5.06
+  verts 6
+    -0.61 0.45 -0.12
+    0.45 -0.61 -0.12
+    0.6 0.6 0.97
+    0.45 -0.61 -0.12
+    0.6 0.6 0.97
+    -0.61 0.45 -0.12
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    119
+    0
+    119
+    0
+endnode
+node danglymesh bush124
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -1 -33.5 42
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 3.01 1.55 5.06
+  verts 6
+    0.74 0.18 -0.12
+    -0.76 0.05 -0.12
+    0.08 -0.85 0.97
+    -0.76 0.05 -0.12
+    0.08 -0.85 0.97
+    0.74 0.18 -0.12
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    112
+    0
+    112
+    0
+endnode
+node danglymesh bush125
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -9 -6.5 42
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 3.07 1.82 5.06
+  verts 6
+    -0.34 -0.68 -0.12
+    0.52 0.56 -0.12
+    -0.7 0.49 0.97
+    0.52 0.56 -0.12
+    -0.7 0.49 0.97
+    -0.34 -0.68 -0.12
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    104
+    0
+    104
+    0
+endnode
+node danglymesh bush126
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0 0 69.5
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 2.74 2.21 5.08
+  verts 6
+    -0.54 0.94 -0.21
+    0.54 -0.94 -0.21
+    0 0 1.6
+    0.54 -0.94 -0.21
+    0 0 1.6
+    -0.54 0.94 -0.21
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    112.838
+    0
+    112.838
+    0
+endnode
+node danglymesh bush127
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0 0 84.5
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 2.74 2.21 4.93
+  verts 6
+    0.54 0.94 -0.06
+    -0.54 -0.94 -0.06
+    0 0 1.75
+    -0.54 -0.94 -0.06
+    0 0 1.75
+    0.54 0.94 -0.06
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    138
+    0
+    138
+    0
+endnode
+node danglymesh bush128
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0 0 84.5
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 2.74 2.21 4.93
+  verts 6
+    -1.08 0 -0.06
+    1.08 0 -0.06
+    0 0 1.75
+    1.08 0 -0.06
+    0 0 1.75
+    -1.08 0 -0.06
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    168
+    0
+    168
+    0
+endnode
+node danglymesh bush129
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -3.5 31.5 50.5
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 2.94 2.12 5.1
+  verts 6
+    -0.9 0.09 -0.15
+    0.84 -0.37 -0.15
+    0.27 0.98 1.17
+    0.84 -0.37 -0.15
+    0.27 0.98 1.17
+    -0.9 0.09 -0.15
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    119
+    0
+    119
+    0
+endnode
+node danglymesh bush130
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -7.5 -10.5 50.5
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 2.66 2.02 5.1
+  verts 6
+    0.67 0.63 -0.15
+    -0.8 -0.41 -0.15
+    0.6 -0.84 1.17
+    -0.8 -0.41 -0.15
+    0.6 -0.84 1.17
+    0.67 0.63 -0.15
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    112
+    0
+    112
+    0
+endnode
+node danglymesh bush131
+  orientation 0 0 1 -1.22173
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -40.5 -1.5 50.5
+  bitmap tno01_bush03
+  parent fried_fix_01
+  position 2.56 2.33 5.1
+  verts 6
+    0.06 -0.9 -0.15
+    0.21 0.88 -0.15
+    -1.01 0.1 1.17
+    0.21 0.88 -0.15
+    -1.01 0.1 1.17
+    0.06 -0.9 -0.15
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    104
+    0
+    104
+    0
+endnode
+node trimesh cliff_1
+  parent wmx10_u41_03
+  orientation 0 0 0 0
+  wirecolor 0.337255 0.337255 0.337255
+  tilefade 0
+  scale 1
+  render 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  center 0 0 0
+  bitmap wmx_cliffpit01
+  shadow 0
+  position -2.75 2.75 -13
+  verts 10
+    -0.67 -1.25 -2.5
+    -2.25 -1.25 -2.5
+    -2.25 -2.25 2.5
+    -1.63 -2.25 2.5
+    0.02 0.08 -2.5
+    0.32 -0.22 2
+    1.25 1 -2.5
+    2.25 2.25 2.5
+    2.25 0.78 2.5
+    1.25 2.25 -2.5
+  faces 8
+    0 1 2 1 0 1 2 3
+    2 3 0 1 2 3 0 3
+    3 5 4 1 3 5 4 3
+    4 0 3 1 4 0 3 3
+    7 9 6 1 7 9 6 3
+    8 6 4 1 8 6 4 3
+    4 5 8 1 4 5 8 3
+    6 8 7 1 6 8 7 3
+  tverts 10
+    0.400391 0 0
+    0 0 0
+    0 1 0
+    0.199219 1 0
+    1 0 0
+    1 1 0
+    1.59961 0 0
+    2 1 0
+    1.69922 1 0
+    2 0 0
+endnode
+node trimesh cliff_2
+  parent wmx10_u41_03
+  orientation 0 0 0 0
+  wirecolor 0.337255 0.337255 0.337255
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  center 0.5 0.5 0
+  bitmap wmx_dnowtr2
+  position -1.24 1.1 -2.75
+  verts 33
+    -3.76 -2.6 2.25
+    -2.63 -2.58 2.25
+    -0.13 -3.89 2.25
+    -2.45 -2.34 1.95
+    -3.76 -2.3 1.95
+    -0.13 -3.59 1.95
+    -3.76 -2.6 0.75
+    -2.63 -2.58 0.75
+    -0.13 -3.89 0.88
+    2.14 -3.45 2.45
+    1.93 -3.08 2.16
+    1.29 -2.72 1.35
+    0.25 -0.5 -2.75
+    2.73 2.01 2.25
+    2.74 3.9 2.25
+    3.74 -1.96 2.65
+    2.47 1.86 1.95
+    2.44 3.9 1.95
+    3.33 -1.93 2.36
+    2.73 2.01 0.75
+    2.74 3.9 0.75
+    2.77 -1.23 1.55
+    3.49 0.22 1.55
+    3.49 0.1 2.45
+    3.77 0.07 2.75
+    -3.48 -1.67 -2.75
+    -3.76 -1.78 -2.75
+    -0.05 -1.94 -0.38
+    -1.14 -1.38 -2.75
+    1.92 3.9 -2.75
+    1.05 1.12 -2.75
+    2.01 -0.77 -1.16
+    1.59 2.84 -2.75
+  faces 45
+    4 0 1 1 4 0 1 1
+    1 3 4 1 1 3 4 1
+    3 1 2 1 3 1 2 1
+    2 5 3 1 2 5 3 1
+    5 2 9 1 5 2 9 1
+    9 10 5 1 9 10 5 1
+    4 3 7 1 4 3 7 1
+    7 6 4 1 7 6 4 1
+    3 5 8 1 3 5 8 1
+    8 7 3 1 8 7 3 1
+    11 8 5 1 11 8 5 1
+    5 10 11 1 5 10 11 1
+    7 25 26 1 7 25 26 1
+    26 6 7 1 26 6 7 1
+    8 11 27 1 8 11 27 1
+    27 28 25 1 27 28 25 1
+    7 8 27 1 7 8 27 1
+    27 25 7 1 27 25 7 1
+    13 14 17 1 13 14 17 1
+    17 16 13 1 17 16 13 1
+    24 13 16 1 24 13 16 1
+    16 23 24 1 16 23 24 1
+    9 15 18 1 9 15 18 1
+    18 10 9 1 18 10 9 1
+    19 16 17 1 19 16 17 1
+    17 20 19 1 17 20 19 1
+    19 22 23 1 19 22 23 1
+    23 16 19 1 23 16 19 1
+    21 11 10 1 21 11 10 1
+    10 18 21 1 10 18 21 1
+    20 32 30 1 20 32 30 1
+    27 11 21 1 27 11 21 1
+    21 31 27 1 21 31 27 1
+    12 31 30 1 12 31 30 1
+    22 21 18 1 22 21 18 1
+    18 23 22 1 18 23 22 1
+    18 15 24 1 18 15 24 1
+    24 23 18 1 24 23 18 1
+    27 12 28 1 27 12 28 1
+    31 12 27 1 31 12 27 1
+    31 21 22 1 31 21 22 1
+    31 22 19 1 31 22 19 1
+    30 19 20 1 30 19 20 1
+    31 19 30 1 31 19 30 1
+    20 29 32 1 20 29 32 1
+  tverts 33
+    0 1 0
+    0.193359 1 0
+    0.599609 1 0
+    0.257813 0.900391 0
+    0 0.900391 0
+    0.599609 0.900391 0
+    0 0.636719 0
+    0.300781 0.699219 0
+    0.599609 0.699219 0
+    0.900391 1 0
+    0.900391 0.900391 0
+    0.900391 0.699219 0
+    1 0 0
+    1.80078 1 0
+    2 1 0
+    1.19922 1 0
+    1.80078 0.900391 0
+    2 0.900391 0
+    1.20898 0.900391 0
+    1.72266 0.636719 0
+    2 0.636719 0
+    1.23047 0.78125 0
+    1.5 0.800781 0
+    1.5 0.900391 0
+    1.5 1 0
+    0.0996094 0 0
+    0 0 0
+    0.800781 0.300781 0
+    0.666016 0 0
+    2 0 0
+    1.33398 0 0
+    1.18555 0.289063 0
+    1.66602 0 0
+endnode
+endmodelgeom wmx10_u41_03
+donemodel wmx10_u41_03

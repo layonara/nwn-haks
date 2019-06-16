@@ -1,0 +1,80 @@
+#MAXMODEL ASCII
+# model: tcdl0_z15_01
+filedependancy tcdl0_z15_01.max
+newmodel tcdl0_z15_01
+setsupermodel tcdl0_z15_01 null
+classification tile
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom tcdl0_z15_01
+node dummy tcdl0_z15_01
+  parent NULL
+  #part-number 0
+endnode
+node dummy tcdl0_z15_01a
+  parent tcdl0_z15_01
+  #part-number 1
+  position 0 0 0
+  orientation 0 0 0 0
+endnode
+node trimesh water182
+  parent tcdl0_z15_01a
+  #part-number 2
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  shadow 0
+  transparencyhint 1
+  rotatetexture 1
+  bitmap tcdl0_darkwater
+  verts 4
+    -5 -5 0
+    5 5 0
+    -5 5 0
+    5 -5 0
+  tverts 4
+    1.50195003 1.50781 0
+    -0.498046994 -0.492188007 0
+    1.50195003 -0.492188007 0
+    -0.498046994 1.50781 0
+  faces 2
+    0 1 2 1 0 1 2 2
+    0 3 1 1 0 3 1 2
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position 0 0 -0.5
+  orientation 0 0 0 0
+endnode
+node trimesh plane997
+  parent tcdl0_z15_01
+  #part-number 3
+  ambient 0 0 0
+  diffuse 0 0 0
+  specular 0 0 0
+  shininess 10
+  shadow 0
+  bitmap tcdl0_black8_00
+  verts 4
+    -5 -5 0
+    5 5 0
+    -5 5 0
+    5 -5 0
+  tverts 4
+    1.25 1.25 0
+    -0.75 -0.75 0
+    1.25 -0.75 0
+    -0.75 1.25 0
+  faces 2
+    0 1 2 1 0 1 2 2
+    0 3 1 1 0 3 1 2
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position 0 0 -6
+  orientation 0 0 0 0
+endnode
+endmodelgeom tcdl0_z15_01
+
+donemodel tcdl0_z15_01

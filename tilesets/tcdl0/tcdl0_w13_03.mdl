@@ -1,0 +1,1422 @@
+#MAXMODEL ASCII
+# model: tcdl0_w13_03
+filedependancy tcdl0_w13_03.max
+newmodel tcdl0_w13_03
+setsupermodel tcdl0_w13_03 null
+classification tile
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom tcdl0_w13_03
+node dummy tcdl0_w13_03
+  parent NULL
+  #part-number 0
+endnode
+node light tcdl0_w13_03ml2
+  parent tcdl0_w13_03
+  #part-number 1
+  ambientonly 0
+  shadow 0
+  isdynamic 0
+  affectdynamic 1
+  lightpriority 5
+  fadingLight 1
+  flareradius 0
+  position -2.45049 2.02712011 4
+  orientation 0 0 0 0
+  radius 5
+  multiplier 1
+  color 0.00392156979 0.00392156979 0.00392156979
+endnode
+node light tcdl0_w13_03ml1
+  parent tcdl0_w13_03
+  #part-number 2
+  ambientonly 0
+  shadow 0
+  isdynamic 0
+  affectdynamic 1
+  lightpriority 5
+  fadingLight 1
+  flareradius 0
+  position -0.0711620972 -0.0578809008 5
+  orientation 0 0 0 0
+  radius 14
+  multiplier 1
+  color 0 0 0
+endnode
+node dummy tcdl0_w13_03a
+  parent tcdl0_w13_03
+  #part-number 3
+  position 0 0 0
+  orientation 0 0 0 0
+endnode
+node trimesh water195
+  parent tcdl0_w13_03a
+  #part-number 4
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  shadow 0
+  transparencyhint 1
+  rotatetexture 1
+  bitmap tcdl0_darkwater
+  verts 4
+    -5 -5 0
+    5 5 0
+    -5 5 0
+    5 -5 0
+  tverts 4
+    1.50195003 1.50781 0
+    -0.498046994 -0.492188007 0
+    1.50195003 -0.492188007 0
+    -0.498046994 1.50781 0
+  faces 2
+    0 1 2 1 0 1 2 2
+    0 3 1 1 0 3 1 2
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position 0 0 -0.5
+  orientation 0 0 0 0
+endnode
+node trimesh plane1450
+  parent tcdl0_w13_03
+  #part-number 5
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  shadow 0
+  bitmap tcdl0_wallgen
+  verts 4
+    -1.38 -0.790000021 -0.5
+    1.12 -0.790000021 -0.5
+    1.12 -0.790000021 3
+    -1.38 -0.790000021 3
+  tverts 4
+    -1 -0.900390983 0
+    0 -0.900390983 0
+    0 0.5 0
+    -1 0.5 0
+  faces 2
+    0 1 2 1 0 1 2 2
+    0 2 3 1 0 2 3 2
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position 3.88000011 0.790000021 -3
+  orientation 0 0 0 0
+endnode
+node trimesh object861
+  parent tcdl0_w13_03
+  #part-number 6
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  shadow 0
+  bitmap tcdl0_wallgen
+  verts 9
+    -1.94000006 0.469999999 1.5
+    -1.94000006 0.469999999 -0.5
+    -0.690100014 -0.779999971 1.5
+    -0.690100014 -0.779999971 -0.5
+    0.560000002 -2.02999997 1.5
+    0.560000002 -2.02999997 -0.5
+    -1.94000006 0.469999999 3
+    -0.690100014 -0.779999971 3
+    0.560000002 -2.02999997 3
+  tverts 9
+    -0.208984002 -0.101562999 0
+    -0.208984002 -0.900390983 0
+    0.5 -0.101562999 0
+    0.5 -0.900390983 0
+    1.20703006 -0.101562999 0
+    1.20703006 -0.900390983 0
+    -0.208984002 0.5 0
+    0.5 0.498046994 0
+    1.20703006 0.498046994 0
+  faces 8
+    0 1 2 1 0 1 2 65536
+    3 2 1 1 3 2 1 65536
+    2 3 4 1 2 3 4 65536
+    5 4 3 1 5 4 3 65536
+    6 0 7 1 6 0 7 65536
+    2 7 0 1 2 7 0 65536
+    7 2 8 1 7 2 8 65536
+    4 8 2 1 4 8 2 65536
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position 1.94000006 2.02990007 -3
+  orientation 0 0 0 0
+endnode
+node trimesh plane1452
+  parent tcdl0_w13_03
+  #part-number 7
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  shadow 0
+  bitmap tcdl0_wallgen
+  verts 4
+    0 -1.25 -1.75
+    0 -1.25 1.75
+    0 1.25 1.75
+    0 1.25 -1.75
+  tverts 4
+    1 0.0996093974 0
+    1 1.5 0
+    0 1.5 0
+    0 0.0996093974 0
+  faces 2
+    0 1 2 1 0 1 2 2
+    0 2 3 1 0 2 3 2
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position 0 3.75 -1.75
+  orientation 0 0 0 0
+endnode
+node trimesh plane1463
+  parent tcdl0_w13_03
+  #part-number 8
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  shadow 0
+  bitmap tcdl0_wallgen
+  verts 4
+    -1.12010002 0.790000021 -0.5
+    1.37989998 0.790000021 3
+    1.37989998 0.790000021 -0.5
+    -1.12010002 0.790000021 3
+  tverts 4
+    0 -0.900390983 0
+    -1 0.5 0
+    -1 -0.900390983 0
+    0 0.5 0
+  faces 2
+    0 1 2 1 0 1 2 2
+    0 3 1 1 0 3 1 2
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position -3.88000011 -0.790000021 -3
+  orientation 0 0 0 0
+endnode
+node trimesh object867
+  parent tcdl0_w13_03
+  #part-number 9
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  shadow 0
+  bitmap tcdl0_wallgen
+  verts 9
+    1.94000006 -0.469999999 1.5
+    1.94000006 -0.469999999 -0.5
+    0.689999998 0.779999971 1.5
+    0.689999998 0.779999971 -0.5
+    -0.560100019 2.02990007 1.5
+    -0.560100019 2.02990007 -0.5
+    1.94000006 -0.469999999 3
+    0.689999998 0.779999971 3
+    -0.560100019 2.02990007 3
+  tverts 9
+    -0.208984002 -0.101562999 0
+    -0.208984002 -0.900390983 0
+    0.5 -0.101562999 0
+    0.5 -0.900390983 0
+    1.20703006 -0.101562999 0
+    1.20703006 -0.900390983 0
+    -0.208984002 0.5 0
+    0.5 0.498046994 0
+    1.20703006 0.498046994 0
+  faces 8
+    0 1 2 1 0 1 2 65536
+    3 2 1 1 3 2 1 65536
+    2 3 4 1 2 3 4 65536
+    5 4 3 1 5 4 3 65536
+    6 0 7 1 6 0 7 65536
+    2 7 0 1 2 7 0 65536
+    7 2 8 1 7 2 8 65536
+    4 8 2 1 4 8 2 65536
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position -1.94000006 -2.02990007 -3
+  orientation 0 0 0 0
+endnode
+node trimesh plane1465
+  parent tcdl0_w13_03
+  #part-number 10
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  shadow 0
+  bitmap tcdl0_wallgen
+  verts 4
+    0 -1.25 -1.75
+    0 1.25 1.75
+    0 -1.25 1.75
+    0 1.25 -1.75
+  tverts 4
+    0 0.0996093974 0
+    1 1.5 0
+    0 1.5 0
+    1 0.0996093974 0
+  faces 2
+    0 1 2 1 0 1 2 2
+    0 3 1 1 0 3 1 2
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position 0 -3.75 -1.75
+  orientation 0 0 0 0
+endnode
+node trimesh watfloor07
+  parent tcdl0_w13_03
+  #part-number 11
+  ambient 0 0 0
+  diffuse 0 0 0
+  specular 0 0 0
+  shininess 10
+  shadow 0
+  bitmap tcdl0_black8_00
+  verts 4
+    5 -5 0
+    5 5 0
+    -5 -5 0
+    -5 5 0
+  tverts 4
+    0 0.998046994 0
+    0 0 0
+    0.998046994 0.998046994 0
+    0.998046994 0 0
+  faces 2
+    0 1 2 1 0 1 2 65536
+    3 2 1 1 3 2 1 65536
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position 0 0 -6
+  orientation 0 0 0 0
+endnode
+node trimesh 28
+  parent tcdl0_w13_03
+  #part-number 12
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  shadow 0
+  bitmap tcdl0_wallfade
+  verts 4
+    0 -5 -1.25
+    0 0 1.25
+    0 -5 1.25
+    0 0 -1.25
+  tverts 4
+    -1.5 0 0
+    0.5 1 0
+    -1.5 1 0
+    0.5 0 0
+  faces 2
+    0 1 2 1 0 1 2 2
+    0 3 1 1 0 3 1 2
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position 5 5 -4.75
+  orientation 0 0 0 0
+endnode
+node trimesh midwall30
+  parent tcdl0_w13_03
+  #part-number 13
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  shadow 0
+  bitmap tcdl0_wallgen
+  verts 4
+    0 -5 -1.75
+    0 0 1.75
+    0 -5 1.75
+    0 0 -1.75
+  tverts 4
+    -1.5 -0.201171994 0
+    0.5 1.19921994 0
+    -1.5 1.19921994 0
+    0.5 -0.201171994 0
+  faces 2
+    0 1 2 1 0 1 2 2
+    0 3 1 1 0 3 1 2
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position 5 5 -1.75
+  orientation 0 0 0 0
+endnode
+node trimesh midwall31
+  parent tcdl0_w13_03
+  #part-number 14
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  shadow 0
+  bitmap tcdl0_wallgen
+  verts 4
+    0 0 -1.75
+    5 0 1.75
+    5 0 -1.75
+    0 0 1.75
+  tverts 4
+    0.5 -0.201171994 0
+    -1.5 1.19921994 0
+    -1.5 -0.201171994 0
+    0.5 1.19921994 0
+  faces 2
+    0 1 2 1 0 1 2 2
+    0 3 1 1 0 3 1 2
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position 0 5 -1.75
+  orientation 0 0 0 0
+endnode
+node trimesh 29
+  parent tcdl0_w13_03
+  #part-number 15
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  shadow 0
+  bitmap tcdl0_wallfade
+  verts 4
+    0 0 -1.25
+    5 0 1.25
+    5 0 -1.25
+    0 0 1.25
+  tverts 4
+    0.5 0 0
+    -1.5 1 0
+    -1.5 0 0
+    0.5 1 0
+  faces 2
+    0 1 2 1 0 1 2 2
+    0 3 1 1 0 3 1 2
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position 0 5 -4.75
+  orientation 0 0 0 0
+endnode
+node trimesh 36
+  parent tcdl0_w13_03
+  #part-number 16
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  shadow 0
+  bitmap tcdl0_wallfade
+  verts 4
+    0 0 -1.25
+    0 0 1.25
+    0 5 1.25
+    0 5 -1.25
+  tverts 4
+    0.5 0 0
+    0.5 1 0
+    -1.5 1 0
+    -1.5 0 0
+  faces 2
+    0 1 2 1 0 1 2 2
+    0 2 3 1 0 2 3 2
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position -5 -5 -4.75
+  orientation 0 0 0 0
+endnode
+node trimesh midwall38
+  parent tcdl0_w13_03
+  #part-number 17
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  shadow 0
+  bitmap tcdl0_wallgen
+  verts 4
+    0 0 -1.75
+    0 0 1.75
+    0 5 1.75
+    0 5 -1.75
+  tverts 4
+    0.5 -0.201171994 0
+    0.5 1.19921994 0
+    -1.5 1.19921994 0
+    -1.5 -0.201171994 0
+  faces 2
+    0 1 2 1 0 1 2 2
+    0 2 3 1 0 2 3 2
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position -5 -5 -1.75
+  orientation 0 0 0 0
+endnode
+node trimesh 37
+  parent tcdl0_w13_03
+  #part-number 18
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  shadow 0
+  bitmap tcdl0_wallfade
+  verts 4
+    -5 0 -1.25
+    0 0 -1.25
+    0 0 1.25
+    -5 0 1.25
+  tverts 4
+    -1.5 0 0
+    0.5 0 0
+    0.5 1 0
+    -1.5 1 0
+  faces 2
+    0 1 2 1 0 1 2 2
+    0 2 3 1 0 2 3 2
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position 0 -5 -4.75
+  orientation 0 0 0 0
+endnode
+node trimesh midwall39
+  parent tcdl0_w13_03
+  #part-number 19
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  shadow 0
+  bitmap tcdl0_wallgen
+  verts 4
+    -5 0 -1.75
+    0 0 -1.75
+    0 0 1.75
+    -5 0 1.75
+  tverts 4
+    -1.5 -0.201171994 0
+    0.5 -0.201171994 0
+    0.5 1.19921994 0
+    -1.5 1.19921994 0
+  faces 2
+    0 1 2 1 0 1 2 2
+    0 2 3 1 0 2 3 2
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position 0 -5 -1.75
+  orientation 0 0 0 0
+endnode
+node dummy plane1221
+  parent tcdl0_w13_03
+  #part-number 20
+  position -2.5 -2.5 0
+  orientation 0 0 0 0
+endnode
+node trimesh plane1221_pivoted
+  parent plane1221
+  #part-number 21
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  rotatetexture 1
+  bitmap tcdl0_flrgen1
+  verts 8
+    0.3125 2.8125 0.100000001
+    0.3125 0.3125 0.100000001
+    2.8125 0.3125 0.100000001
+    -2.1875 0.3125 0.100000001
+    -2.1875 2.8125 0.100000001
+    2.8125 -2.1875 0.100000001
+    0.3125 -2.1875 0.100000001
+    -2.1875 -2.1875 0.100000001
+  tverts 8
+    1 0 0
+    1 1 0
+    0 1 0
+    2 1 0
+    2 0 0
+    0 2 0
+    1 2 0
+    2 2 0
+  faces 7
+    0 1 2 1 0 1 2 65536
+    1 0 3 1 1 0 3 65536
+    4 3 0 1 4 3 0 65536
+    5 2 6 1 5 2 6 65536
+    1 6 2 1 1 6 2 65536
+    6 1 7 1 6 1 7 65536
+    3 7 1 1 3 7 1 65536
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position -0.3125 -0.3125 -0.100000001
+  orientation 0 0 0 0
+endnode
+node trimesh box1623
+  parent tcdl0_w13_03
+  #part-number 22
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  shadow 0
+  bitmap tcdl0_colstn
+  verts 8
+    -2.61999989 -0.119999997 -0.119999997
+    -2.61999989 -0.119999997 0.129999995
+    -5 -0.119999997 0.129999995
+    -5 -0.119999997 -0.119999997
+    -2.36999989 0.129999995 0.129999995
+    -5 0.129999995 0.129999995
+    -2.36999989 0.129999995 -0.119999997
+    -5 0.129999995 -0.119999997
+  tverts 12
+    1.67383003 2.625 0
+    1.42383003 2.625 0
+    1.42383003 0.25 0
+    1.67383003 0.25 0
+    0.375 2.625 0
+    0.125 2.875 0
+    0.125 0.25 0
+    0.375 0.25 0
+    1.57421994 2.875 0
+    1.32421994 2.875 0
+    1.32421994 0.25 0
+    1.57421994 0.25 0
+  faces 6
+    0 1 2 1 0 1 2 3
+    2 3 0 1 2 3 0 3
+    1 4 5 2 4 5 6 5
+    5 2 1 2 6 7 4 5
+    4 6 7 1 8 9 10 2
+    7 5 4 1 10 11 8 2
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position 0 0 -0.0500000007
+  orientation 0 0 0 0
+endnode
+node trimesh plane1104
+  parent tcdl0_w13_03
+  #part-number 23
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  bitmap tcdl0_wallgen
+  verts 4
+    -1 -1 1.39999998
+    1 -1 1.39999998
+    1 -1 4.5999999
+    -1 -1 4.5999999
+  tverts 4
+    0.199219003 0.5 0
+    1 0.5 0
+    1 1.77929997 0
+    0.199219003 1.77929997 0
+  faces 2
+    0 1 2 1 0 1 2 2
+    0 2 3 1 0 2 3 2
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position 4 4 -1.39999998
+  orientation 0 0 0 0
+endnode
+node trimesh plane1102
+  parent tcdl0_w13_03
+  #part-number 24
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  bitmap tcdl0_wallgen
+  verts 4
+    1 -1 1.39999998
+    1 1 4.5999999
+    1 -1 4.5999999
+    1 1 1.39999998
+  tverts 4
+    0.199219003 0.5 0
+    1 1.77929997 0
+    0.199219003 1.77929997 0
+    1 0.5 0
+  faces 2
+    0 1 2 1 0 1 2 2
+    0 3 1 1 0 3 1 2
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position -4 -4 -1.39999998
+  orientation 0 0 0 0
+endnode
+node trimesh plane327
+  parent tcdl0_w13_03
+  #part-number 25
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  bitmap tcdl0_wallgen
+  verts 4
+    -1 1 1.39999998
+    1 1 4.5999999
+    1 1 1.39999998
+    -1 1 4.5999999
+  tverts 4
+    1 0.5 0
+    0.199219003 1.77929997 0
+    0.199219003 0.5 0
+    1 1.77929997 0
+  faces 2
+    0 1 2 1 0 1 2 2
+    0 3 1 1 0 3 1 2
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position -4 -4 -1.39999998
+  orientation 0 0 0 0
+endnode
+node dummy top61
+  parent tcdl0_w13_03
+  #part-number 26
+  position -4 -4 3.20000005
+  orientation 0 0 0 0
+endnode
+node trimesh top61_pivoted
+  parent top61
+  #part-number 27
+  ambient 0 0 0
+  diffuse 0 0 0
+  specular 0 0 0
+  shininess 1
+  bitmap tcdl0_black8_00
+  verts 4
+    1 1 0.100000001
+    -1 1 0.100000001
+    1 -1 0.100000001
+    -1 -1 0.100000001
+  faces 2
+    0 1 2 1 0 0 0 65536
+    3 2 1 1 0 0 0 65536
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position 0 0 -0.100000001
+  orientation 0 0 0 0
+endnode
+node dummy top62
+  parent tcdl0_w13_03
+  #part-number 28
+  position 4 4 3.20000005
+  orientation 0 0 0 0
+endnode
+node trimesh top62_pivoted
+  parent top62
+  #part-number 29
+  ambient 0 0 0
+  diffuse 0 0 0
+  specular 0 0 0
+  shininess 1
+  bitmap tcdl0_black8_00
+  verts 4
+    -1 -1 0.100000001
+    1 -1 0.100000001
+    -1 1 0.100000001
+    1 1 0.100000001
+  faces 2
+    0 1 2 1 0 0 0 65536
+    3 2 1 1 0 0 0 65536
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position 0 0 -0.100000001
+  orientation 0 0 0 0
+endnode
+node trimesh box1622
+  parent tcdl0_w13_03
+  #part-number 30
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  shadow 0
+  bitmap tcdl0_colstn
+  verts 8
+    -2.38000011 -2.48000002 -0.119999997
+    -2.38000011 -2.48000002 0.129999995
+    0.119999997 -4.98010015 0.119999997
+    0.119999997 -4.98010015 -0.129999995
+    -2.61999989 -2.72000003 0.129999995
+    -0.129999995 -5.23010015 0.119999997
+    -2.61999989 -2.72000003 -0.119999997
+    -0.129999995 -5.23010015 -0.129999995
+  tverts 12
+    0.673828006 0.425781012 0
+    0.423828006 0.425781012 0
+    0.423828006 -3.11718988 0
+    0.673828006 -3.11718988 0
+    -4.71093988 0.425781012 0
+    -5.05077982 0.425781012 0
+    -5.05664015 -3.11718988 0
+    -4.70312977 -3.11718988 0
+    0.574218988 0.425781012 0
+    0.324218988 0.425781012 0
+    0.324218988 -3.11718988 0
+    0.574218988 -3.11718988 0
+  faces 6
+    0 1 2 1 0 1 2 3
+    2 3 0 1 2 3 0 3
+    1 4 5 2 4 5 6 5
+    5 2 1 2 6 7 4 5
+    4 6 7 1 8 9 10 2
+    7 5 4 1 10 11 8 2
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position 0 2.6099999 -0.0500000007
+  orientation 0 0 0 0
+endnode
+node trimesh plane1103
+  parent tcdl0_w13_03
+  #part-number 31
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  bitmap tcdl0_wallgen
+  verts 4
+    -1 -1 1.39999998
+    -1 -1 4.5999999
+    -1 1 4.5999999
+    -1 1 1.39999998
+  tverts 4
+    1 0.5 0
+    1 1.77929997 0
+    0.199219003 1.77929997 0
+    0.199219003 0.5 0
+  faces 2
+    0 1 2 1 0 1 2 2
+    0 2 3 1 0 2 3 2
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position 4 4 -1.39999998
+  orientation 0 0 0 0
+endnode
+node trimesh box1624
+  parent tcdl0_w13_03
+  #part-number 32
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  shadow 0
+  bitmap tcdl0_colstn
+  verts 8
+    0.119999997 -2.36999989 -0.129999995
+    0.119999997 -2.36999989 0.119999997
+    0.119999997 -5 0.119999997
+    0.119999997 -5 -0.129999995
+    -0.129999995 -2.61999989 0.119999997
+    -0.129999995 -5 0.129999995
+    -0.129999995 -2.61999989 -0.119999997
+    -0.129999995 -5 -0.119999997
+  tverts 12
+    1.67383003 2.875 0
+    1.42383003 2.875 0
+    1.42383003 0.25 0
+    1.67383003 0.25 0
+    0.375 2.875 0
+    0.125 2.625 0
+    0.125 0.25 0
+    0.375 0.25 0
+    1.57421994 2.625 0
+    1.32421994 2.625 0
+    1.32421994 0.25 0
+    1.57421994 0.25 0
+  faces 6
+    0 1 2 1 0 1 2 3
+    2 3 0 1 2 3 0 3
+    1 4 5 2 4 5 6 5
+    5 2 1 2 6 7 4 5
+    4 6 7 1 8 9 10 2
+    7 5 4 1 10 11 8 2
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position 0 0 -0.0500000007
+  orientation 0 0 0 0
+endnode
+node trimesh box1625
+  parent tcdl0_w13_03
+  #part-number 33
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  shadow 0
+  bitmap tcdl0_colstn
+  verts 8
+    2.38000011 2.49000001 -0.129999995
+    2.38000011 2.49000001 0.119999997
+    -0.129999995 4.98999977 0.119999997
+    -0.129999995 4.98999977 -0.129999995
+    2.61999989 2.73000002 0.119999997
+    0.119999997 5.23999977 0.119999997
+    2.61999989 2.73000002 -0.129999995
+    0.119999997 5.23999977 -0.129999995
+  tverts 12
+    0.673828006 0.425781012 0
+    0.423828006 0.425781012 0
+    0.423828006 -3.11718988 0
+    0.673828006 -3.11718988 0
+    -4.71093988 0.425781012 0
+    -5.05077982 0.425781012 0
+    -5.05664015 -3.11718988 0
+    -4.70312977 -3.11718988 0
+    0.574218988 0.425781012 0
+    0.324218988 0.425781012 0
+    0.324218988 -3.11718988 0
+    0.574218988 -3.11718988 0
+  faces 6
+    0 1 2 1 0 1 2 3
+    2 3 0 1 2 3 0 3
+    1 4 5 2 4 5 6 5
+    5 2 1 2 6 7 4 5
+    4 6 7 1 8 9 10 2
+    7 5 4 1 10 11 8 2
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position 0 -2.6099999 -0.0500000007
+  orientation 0 0 0 0
+endnode
+node trimesh box1626
+  parent tcdl0_w13_03
+  #part-number 34
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  shadow 0
+  bitmap tcdl0_colstn
+  verts 8
+    2.63000011 0.129999995 -0.129999995
+    2.63000011 0.129999995 0.129999995
+    5 0.129999995 0.129999995
+    5 0.129999995 -0.129999995
+    2.38000011 -0.119999997 0.129999995
+    5 -0.119999997 0.129999995
+    2.38000011 -0.119999997 -0.129999995
+    5 -0.119999997 -0.129999995
+  tverts 12
+    1.67383003 2.625 0
+    1.42383003 2.625 0
+    1.42383003 0.25 0
+    1.67383003 0.25 0
+    0.375 2.625 0
+    0.125 2.875 0
+    0.125 0.25 0
+    0.375 0.25 0
+    1.57421994 2.875 0
+    1.32421994 2.875 0
+    1.32421994 0.25 0
+    1.57421994 0.25 0
+  faces 6
+    0 1 2 1 0 1 2 3
+    2 3 0 1 2 3 0 3
+    1 4 5 2 4 5 6 5
+    5 2 1 2 6 7 4 5
+    4 6 7 1 8 9 10 2
+    7 5 4 1 10 11 8 2
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position 0 0 -0.0500000007
+  orientation 0 0 0 0
+endnode
+node trimesh box1627
+  parent tcdl0_w13_03
+  #part-number 35
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  shadow 0
+  bitmap tcdl0_colstn
+  verts 8
+    -0.119999997 2.38000011 -0.129999995
+    -0.119999997 2.38000011 0.119999997
+    -0.119999997 5 0.119999997
+    -0.119999997 5 -0.129999995
+    0.129999995 2.63000011 0.119999997
+    0.129999995 5 0.119999997
+    0.129999995 2.63000011 -0.129999995
+    0.129999995 5 -0.129999995
+  tverts 12
+    1.67383003 2.875 0
+    1.42383003 2.875 0
+    1.42383003 0.25 0
+    1.67383003 0.25 0
+    0.375 2.875 0
+    0.125 2.625 0
+    0.125 0.25 0
+    0.375 0.25 0
+    1.57421994 2.625 0
+    1.32421994 2.625 0
+    1.32421994 0.25 0
+    1.57421994 0.25 0
+  faces 6
+    0 1 2 1 0 1 2 3
+    2 3 0 1 2 3 0 3
+    1 4 5 2 4 5 6 5
+    5 2 1 2 6 7 4 5
+    4 6 7 1 8 9 10 2
+    7 5 4 1 10 11 8 2
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position 0 0 -0.0500000007
+  orientation 0 0 0 0
+endnode
+node dummy object753
+  parent tcdl0_w13_03
+  #part-number 36
+  position 2.5 2.5 0
+  orientation 0 0 0 0
+endnode
+node trimesh object753_pivoted
+  parent object753
+  #part-number 37
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  bitmap tcdl0_flrgen1
+  verts 8
+    -0.3125 -2.8125 0.100000001
+    -0.3125 -0.3125 0.100000001
+    -2.8125 -0.3125 0.100000001
+    2.1875 -0.3125 0.100000001
+    2.1875 -2.8125 0.100000001
+    -2.8125 2.1875 0.100000001
+    -0.3125 2.1875 0.100000001
+    2.1875 2.1875 0.100000001
+  tverts 8
+    -1 0 0
+    -1 -1 0
+    0 -1 0
+    -2 -1 0
+    -2 0 0
+    0 -2 0
+    -1 -2 0
+    -2 -2 0
+  faces 7
+    0 1 2 1 0 1 2 65536
+    1 0 3 1 1 0 3 65536
+    4 3 0 1 4 3 0 65536
+    5 2 6 1 5 2 6 65536
+    1 6 2 1 1 6 2 65536
+    6 1 7 1 6 1 7 65536
+    3 7 1 1 3 7 1 65536
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position 0.3125 0.3125 -0.100000001
+  orientation 0 0 0 0
+endnode
+node aabb wok33
+  parent tcdl0_w13_03
+  #part-number 38
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  shadow 0
+  transparencyhint 0
+  bitmap NULL
+  verts 31
+    -2.5 5 0
+    -5 5 0
+    -2.5 2.5 0
+    -5 2.5 0
+    -2.5 -0.200000003 0
+    -5 -0.200000003 0
+    -2.79999995 -2.79999995 0
+    -5 -2.79999995 0
+    -2.79999995 -2.79999995 3.20000005
+    -5 -2.79999995 3.20000005
+    -2.79999995 -5 3.20000005
+    -5 -5 3.20000005
+    0.200000003 5 0
+    0.200000003 2.5 0
+    0 0 0
+    -0.200000003 -2.5 0
+    -0.200000003 -5 0
+    -2.79999995 -5 0
+    2.79999995 5 0
+    2.79999995 2.79999995 0
+    2.5 0.200000003 0
+    2.5 -2.5 0
+    2.5 -5 0
+    5 5 3.20000005
+    2.79999995 5 3.20000005
+    5 2.79999995 3.20000005
+    2.79999995 2.79999995 3.20000005
+    5 2.79999995 0
+    5 0.200000003 0
+    5 -2.5 0
+    5 -5 0
+  faces 40
+    0 1 2 1 0 0 0 7
+    3 2 1 1 0 0 0 7
+    2 3 4 1 0 0 0 7
+    5 4 3 1 0 0 0 7
+    4 5 6 1 0 0 0 4
+    7 6 5 1 0 0 0 4
+    8 9 10 1 0 0 0 2
+    11 10 9 1 0 0 0 2
+    12 0 13 1 0 0 0 7
+    2 13 0 1 0 0 0 7
+    13 2 14 1 0 0 0 7
+    4 14 2 1 0 0 0 7
+    14 4 15 1 0 0 0 7
+    6 15 4 1 0 0 0 4
+    15 6 16 1 0 0 0 4
+    17 16 6 1 0 0 0 4
+    18 12 19 1 0 0 0 4
+    13 19 12 1 0 0 0 4
+    19 13 20 1 0 0 0 4
+    14 20 13 1 0 0 0 7
+    20 14 21 1 0 0 0 7
+    15 21 14 1 0 0 0 7
+    21 15 22 1 0 0 0 7
+    16 22 15 1 0 0 0 7
+    23 24 25 1 0 0 0 2
+    26 25 24 1 0 0 0 2
+    27 19 28 1 0 0 0 4
+    20 28 19 1 0 0 0 4
+    28 20 29 1 0 0 0 7
+    21 29 20 1 0 0 0 7
+    29 21 30 1 0 0 0 7
+    22 30 21 1 0 0 0 7
+    6 7 9 2 0 0 0 2
+    9 8 6 2 0 0 0 2
+    17 6 8 4 0 0 0 2
+    8 10 17 4 0 0 0 2
+    18 19 26 2 0 0 0 2
+    26 24 18 2 0 0 0 2
+    19 27 25 4 0 0 0 2
+    25 26 19 4 0 0 0 2
+  aabb -5 -5 0 5 5 3.20000005 -1
+        -5 -5 0 0.200000003 5 3.20000005 -1
+         -5 -5 0 0 0 3.20000005 -1
+          -5 -5 0 -2.5 -0.200000003 3.20000005 -1
+           -5 -5 0 -2.79999995 -2.79999995 3.20000005 -1
+            -5 -2.79999995 0 -2.79999995 -2.79999995 3.20000005 -1
+             -5 -2.79999995 0 -2.79999995 -2.79999995 3.20000005 32
+             -5 -2.79999995 0 -2.79999995 -2.79999995 3.20000005 33
+            -5 -5 3.20000005 -2.79999995 -2.79999995 3.20000005 -1
+             -5 -5 3.20000005 -2.79999995 -2.79999995 3.20000005 7
+             -5 -5 3.20000005 -2.79999995 -2.79999995 3.20000005 6
+           -5 -2.79999995 0 -2.5 -0.200000003 0 -1
+            -5 -2.79999995 0 -2.79999995 -0.200000003 0 5
+            -5 -2.79999995 0 -2.5 -0.200000003 0 4
+          -2.79999995 -5 0 0 0 3.20000005 -1
+           -2.79999995 -5 0 -0.200000003 -2.5 3.20000005 -1
+            -2.79999995 -5 0 -0.200000003 -2.5 0 -1
+             -2.79999995 -5 0 -0.200000003 -2.79999995 0 15
+             -2.79999995 -5 0 -0.200000003 -2.5 0 14
+            -2.79999995 -5 0 -2.79999995 -2.79999995 3.20000005 -1
+             -2.79999995 -5 0 -2.79999995 -2.79999995 3.20000005 34
+             -2.79999995 -5 0 -2.79999995 -2.79999995 3.20000005 35
+           -2.79999995 -2.79999995 0 0 0 0 -1
+            -2.79999995 -2.79999995 0 -0.200000003 -0.200000003 0 13
+            -2.5 -2.5 0 0 0 0 12
+         -5 -0.200000003 0 0.200000003 5 0 -1
+          -5 -0.200000003 0 -2.5 5 0 -1
+           -5 -0.200000003 0 -2.5 2.5 0 -1
+            -5 -0.200000003 0 -2.5 2.5 0 3
+            -5 -0.200000003 0 -2.5 2.5 0 2
+           -5 2.5 0 -2.5 5 0 -1
+            -5 2.5 0 -2.5 5 0 1
+            -5 2.5 0 -2.5 5 0 0
+          -2.5 -0.200000003 0 0.200000003 5 0 -1
+           -2.5 -0.200000003 0 0.200000003 2.5 0 -1
+            -2.5 -0.200000003 0 0 2.5 0 11
+            -2.5 0 0 0.200000003 2.5 0 10
+           -2.5 2.5 0 0.200000003 5 0 -1
+            -2.5 2.5 0 0.200000003 5 0 9
+            -2.5 2.5 0 0.200000003 5 0 8
+        -0.200000003 -5 0 5 5 3.20000005 -1
+         -0.200000003 -5 0 5 0.200000003 0 -1
+          -0.200000003 -5 0 2.5 0.200000003 0 -1
+           -0.200000003 -5 0 2.5 -2.5 0 -1
+            -0.200000003 -5 0 2.5 -2.5 0 23
+            -0.200000003 -5 0 2.5 -2.5 0 22
+           -0.200000003 -2.5 0 2.5 0.200000003 0 -1
+            -0.200000003 -2.5 0 2.5 0 0 21
+            0 -2.5 0 2.5 0.200000003 0 20
+          2.5 -5 0 5 0.200000003 0 -1
+           2.5 -5 0 5 -2.5 0 -1
+            2.5 -5 0 5 -2.5 0 31
+            2.5 -5 0 5 -2.5 0 30
+           2.5 -2.5 0 5 0.200000003 0 -1
+            2.5 -2.5 0 5 0.200000003 0 29
+            2.5 -2.5 0 5 0.200000003 0 28
+         0 0 0 5 5 3.20000005 -1
+          0 0 0 2.79999995 5 3.20000005 -1
+           0 0 0 2.79999995 2.79999995 0 -1
+            0 0 0 2.5 2.5 0 19
+            0.200000003 0.200000003 0 2.79999995 2.79999995 0 18
+           0.200000003 2.5 0 2.79999995 5 3.20000005 -1
+            0.200000003 2.5 0 2.79999995 5 0 -1
+             0.200000003 2.5 0 2.79999995 5 0 17
+             0.200000003 2.79999995 0 2.79999995 5 0 16
+            2.79999995 2.79999995 0 2.79999995 5 3.20000005 -1
+             2.79999995 2.79999995 0 2.79999995 5 3.20000005 36
+             2.79999995 2.79999995 0 2.79999995 5 3.20000005 37
+          2.5 0.200000003 0 5 5 3.20000005 -1
+           2.5 0.200000003 0 5 2.79999995 0 -1
+            2.5 0.200000003 0 5 2.79999995 0 27
+            2.79999995 0.200000003 0 5 2.79999995 0 26
+           2.79999995 2.79999995 0 5 5 3.20000005 -1
+            2.79999995 2.79999995 0 5 2.79999995 3.20000005 -1
+             2.79999995 2.79999995 0 5 2.79999995 3.20000005 38
+             2.79999995 2.79999995 0 5 2.79999995 3.20000005 39
+            2.79999995 2.79999995 3.20000005 5 5 3.20000005 -1
+             2.79999995 2.79999995 3.20000005 5 5 3.20000005 25
+             2.79999995 2.79999995 3.20000005 5 5 3.20000005 24
+  position 0 0 0
+  orientation 0 0 0 0
+endnode
+node trimesh plane01a
+  parent tcdl0_w13_03
+  #part-number 39
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  shadow 0
+  bitmap tcdl0_wallfade
+  verts 4
+    -1.38 -0.790000021 0.49000001
+    1.12 -0.790000021 0.49000001
+    1.12 -0.790000021 3
+    -1.38 -0.790000021 3
+  tverts 4
+    0 0 0
+    0.998046994 0 0
+    0.998046994 0.998046994 0
+    0 0.998046994 0
+  faces 2
+    0 1 2 1 0 1 2 2
+    0 2 3 1 0 2 3 2
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position 3.88000011 0.790000021 -6.48999977
+  orientation 0 0 0 0
+endnode
+node trimesh plane01b
+  parent tcdl0_w13_03
+  #part-number 40
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  shadow 0
+  bitmap tcdl0_wallfade
+  verts 9
+    -1.94000006 0.469999999 1.5
+    -1.94000006 0.469999999 0.5
+    -0.690100014 -0.779999971 1.5
+    -0.690100014 -0.779999971 0.5
+    0.560000002 -2.02999997 1.5
+    0.560000002 -2.02999997 0.5
+    -1.94000006 0.469999999 3
+    -0.690100014 -0.779999971 3
+    0.560000002 -2.02999997 3
+  tverts 9
+    0 0.400391012 0
+    0 0 0
+    0.5 0.400391012 0
+    0.5 0 0
+    0.998046994 0.400391012 0
+    0.998046994 0 0
+    0 0.998046994 0
+    0.5 0.998046994 0
+    0.998046994 0.998046994 0
+  faces 8
+    0 1 2 1 0 1 2 65536
+    3 2 1 1 3 2 1 65536
+    2 3 4 1 2 3 4 65536
+    5 4 3 1 5 4 3 65536
+    6 0 7 1 6 0 7 65536
+    2 7 0 1 2 7 0 65536
+    7 2 8 1 7 2 8 65536
+    4 8 2 1 4 8 2 65536
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position 1.94000006 2.02990007 -6.5
+  orientation 0 0 0 0
+endnode
+node trimesh plane01c
+  parent tcdl0_w13_03
+  #part-number 41
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  shadow 0
+  bitmap tcdl0_wallfade
+  verts 4
+    0 -1.25 -0.75999999
+    0 -1.25 1.75
+    0 1.25 1.75
+    0 1.25 -0.75999999
+  tverts 4
+    1 0.00390625 0
+    1 1.00781 0
+    0 1.00781 0
+    0 0.00390625 0
+  faces 2
+    0 1 2 1 0 1 2 2
+    0 2 3 1 0 2 3 2
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position 0 3.75 -5.23999977
+  orientation 0 0 0 0
+endnode
+node trimesh plane02a
+  parent tcdl0_w13_03
+  #part-number 42
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  shadow 0
+  bitmap tcdl0_wallfade
+  verts 4
+    0 -1.25 -0.74000001
+    0 1.25 1.75999999
+    0 -1.25 1.75999999
+    0 1.25 -0.74000001
+  tverts 4
+    0 0 0
+    0.998046994 0.998046994 0
+    0 0.998046994 0
+    0.998046994 0 0
+  faces 2
+    0 1 2 1 0 1 2 2
+    0 3 1 1 0 3 1 2
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position 0 -3.75 -5.26000023
+  orientation 0 0 0 0
+endnode
+node trimesh plane02b
+  parent tcdl0_w13_03
+  #part-number 43
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  shadow 0
+  bitmap tcdl0_wallfade
+  verts 9
+    1.94000006 -0.469999999 1.5
+    1.94000006 -0.469999999 0.50999999
+    0.689999998 0.779999971 1.5
+    0.689999998 0.779999971 0.50999999
+    -0.560100019 2.02990007 1.5
+    -0.560100019 2.02990007 0.50999999
+    1.94000006 -0.469999999 3.00990009
+    0.689999998 0.779999971 3.00990009
+    -0.560100019 2.02990007 3.00990009
+  tverts 9
+    0 0.394531012 0
+    0 0 0
+    0.5 0.394531012 0
+    0.5 0 0
+    0.998046994 0.394531012 0
+    0.998046994 0 0
+    0 0.998046994 0
+    0.5 0.998046994 0
+    0.998046994 0.998046994 0
+  faces 8
+    0 1 2 1 0 1 2 65536
+    3 2 1 1 3 2 1 65536
+    2 3 4 1 2 3 4 65536
+    5 4 3 1 5 4 3 65536
+    6 0 7 1 6 0 7 65536
+    2 7 0 1 2 7 0 65536
+    7 2 8 1 7 2 8 65536
+    4 8 2 1 4 8 2 65536
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position -1.94000006 -2.02990007 -6.51000023
+  orientation 0 0 0 0
+endnode
+node trimesh plane02c
+  parent tcdl0_w13_03
+  #part-number 44
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  shadow 0
+  bitmap tcdl0_wallfade
+  verts 4
+    -1.12010002 0.790000021 0.50999999
+    1.37989998 0.790000021 3.00990009
+    1.37989998 0.790000021 0.50999999
+    -1.12010002 0.790000021 3.00990009
+  tverts 4
+    0.998046994 0 0
+    0 0.998046994 0
+    0 0 0
+    0.998046994 0.998046994 0
+  faces 2
+    0 1 2 1 0 1 2 2
+    0 3 1 1 0 3 1 2
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position -3.88000011 -0.790000021 -6.51000023
+  orientation 0 0 0 0
+endnode
+endmodelgeom tcdl0_w13_03
+
+donemodel tcdl0_w13_03

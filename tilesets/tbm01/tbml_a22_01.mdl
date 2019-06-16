@@ -1,0 +1,2044 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sat Feb 02 18:12:15 2019
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel tbml_a22_01
+  classification TILE
+  setsupermodel tbml_a22_01 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom tbml_a22_01
+node dummy tbml_a22_01
+  parent NULL
+endnode
+node trimesh plane292_1
+  parent tbml_a22_01
+  position 3.34 0 0
+  wirecolor 0.996094 0.5 0.414062
+  rotatetexture 1
+  tilefade 0
+  transparencyhint 1
+  beaming 0
+  shadow 1
+  render 1
+  bitmap tde01_lava01
+  shininess 1
+  specular 0 0 0
+  diffuse 1 1 1
+  ambient 1 1 1
+  orientation 0 0 0 0
+  verts 6
+    -1.67 -1.58 14
+    -1.67 5 14
+    -1.67 -2.15 3.44
+    -1.67 5 3.44
+    -1.63 -2.15 -1
+    -1.67 5 -1
+  faces 4
+    3 2 1 1 3 2 1 0
+    0 1 2 1 0 1 2 0
+    5 4 3 1 7 6 5 0
+    2 3 4 1 4 5 6 0
+  tverts 8
+    1.01284 1.28653 0
+    1.01284 -1.00249 0
+    0.814514 1.12669 0
+    0.814514 -1.00249 0
+    -0.295536 -0.988117 0
+    -0.295536 1.1283 0
+    1.01871 -0.988117 0
+    1.01871 1.1283 0
+endnode
+node trimesh mesh88_4
+  parent tbml_a22_01
+  wirecolor 1 0 0
+  bitmap mountain3
+  shininess 26
+  specular 0.05 0.05 0.05
+  diffuse 0.784314 0.784314 0.784314
+  ambient 0.784314 0.784314 0.784314
+  orientation 0 0 0 0
+  position -1.64 -5 -1.9
+  verts 12
+    3.82 6.4 -1.1
+    3.41 4.47 -1.1
+    -0.55 0.95 -1.5
+    -3.36 0 -1.5
+    -2.1 1.48 -1.5
+    -0.36 0 -1.5
+    -3.36 5 -1.5
+    -2.35 4.98 -1.5
+    -3.36 10 -1.5
+    -0.85 6.7 -1.5
+    -0.44 8.32 -1.5
+    -0.36 10 -1.5
+  faces 11
+    3 2 4 1 0 4 5 0
+    3 5 2 1 0 0 4 0
+    7 6 4 1 7 6 5 0
+    3 4 6 1 0 5 6 0
+    9 8 7 1 8 1 7 0
+    6 7 8 1 6 7 1 0
+    10 8 9 1 9 1 8 0
+    8 10 11 1 1 9 1 0
+    7 4 1 1 7 5 3 0
+    1 0 7 1 3 2 7 0
+    9 7 0 1 8 7 2 0
+  tverts 10
+    1.9985 0.05 0
+    -0.998501 0.05 0
+    0.08097 0.05 0
+    0.65781 0.05 0
+    1.71393 0.05 0
+    1.55584 0.05 0
+    0.5 0.05 0
+    0.50625 0.05 0
+    -0.008473 0.05 0
+    -0.494625 0.05 0
+endnode
+node trimesh mesh88_3_1
+  parent tbml_a22_01
+  position 2.73 -2.44 0.76
+  wirecolor 0.789062 0.1875 0.00390625
+  orientation 0 0 0 0
+  ambient 0.784314 0.784314 0.784314
+  diffuse 0.784314 0.784314 0.784314
+  specular 0.05 0.05 0.05
+  shininess 26
+  bitmap mountain3
+  verts 7
+    -4.12 -1.73 -3.76
+    -0.96 1.91 -3.76
+    -1.53 1.11 -1.76
+    -5.65 -0.77 -3.76
+    -2.95 -0.58 -1.76
+    -4.92 -1.61 -4.16
+    -6.47 -1.08 -4.16
+  faces 4
+    3 2 1 1 3 2 1 0
+    4 3 0 1 4 3 0 0
+    0 3 5 1 0 3 5 0
+    3 1 6 1 3 1 6 0
+  tverts 7
+    0.75114 0.05 0
+    -0.34219 0.05 0
+    -0.21661 0.663 0
+    0.46255 0.05 0
+    0.40542 0.663 0
+    0.71393 0.05 0
+    0.55584 0.05 0
+endnode
+node trimesh mesh88_3
+  parent tbml_a22_01
+  wirecolor 1 0 0
+  bitmap mountain3
+  shininess 26
+  specular 0.05 0.05 0.05
+  diffuse 0.784314 0.784314 0.784314
+  ambient 0.784314 0.784314 0.784314
+  orientation 0 0 0 0
+  position -1.64 -5 -1.9
+  verts 11
+    3.8 7.93 -0.22
+    3.82 6.4 -1.1
+    4.01 3.91 0.9
+    3.41 4.47 -1.1
+    2.84 3.67 0.9
+    -1.28 1.79 -1.1
+    1.42 1.98 0.9
+    -0.55 0.95 -1.5
+    -2.1 1.48 -1.5
+    -0.85 6.7 -1.5
+    -0.44 8.32 -1.5
+  faces 5
+    2 3 4 1 2 3 4 0
+    5 6 4 1 5 6 4 0
+    8 7 5 1 8 7 5 0
+    1 0 9 1 1 0 9 0
+    10 9 0 1 10 9 0 0
+  tverts 11
+    0.621446 0.05 0
+    1.08097 0.05 0
+    0.27166 0.663 0
+    0.65781 0.05 0
+    0.78339 0.663 0
+    1.46255 0.05 0
+    1.40542 0.663 0
+    1.71393 0.05 0
+    1.55584 0.05 0
+    0.991527 0.05 0
+    0.505375 0.05 0
+endnode
+node trimesh mesh88_2
+  parent tbml_a22_01
+  wirecolor 1 0 0
+  bitmap mountain3
+  shininess 26
+  specular 0.05 0.05 0.05
+  diffuse 0.784314 0.784314 0.784314
+  ambient 0.784314 0.784314 0.784314
+  orientation 0 0 0 0
+  position -1.64 -5 -1.9
+  verts 10
+    3.91 7.55 0.9
+    3.8 7.93 -0.22
+    0.64 10 -1.1
+    3.46 7.02 0.9
+    3.82 6.4 -1.1
+    4.01 3.91 0.9
+    3.52 6.31 0.9
+    -0.44 8.32 -1.5
+    -0.36 10 -1.5
+    4.64 10 -0.4
+  faces 7
+    4 3 1 1 4 3 1 0
+    3 4 6 1 3 4 6 0
+    1 2 7 1 1 2 7 0
+    8 7 2 1 2 7 2 0
+    0 1 3 1 0 1 3 0
+    6 4 5 1 6 4 5 0
+    2 1 9 1 2 1 8 0
+  tverts 9
+    0.423472 0.663 0
+    0.621446 0.05 0
+    0.00149864 0.05 0
+    0.693358 0.663 0
+    1.08097 0.05 0
+    1.27166 0.663 0
+    1.02328 0.663 0
+    0.505375 0.05 0
+    0.0014987 0.452558 0
+endnode
+node trimesh mesh88_1
+  parent tbml_a22_01
+  position 3.4 1.6 0
+  wirecolor 0.566406 0.445312 0.0546875
+  bitmap mountain3
+  shininess 26
+  specular 0.05 0.05 0.05
+  diffuse 0.784314 0.784314 0.784314
+  ambient 0.784314 0.784314 0.784314
+  orientation 0 0 0 0
+  verts 6
+    -3.5 -5.55 -1
+    -4.4 -6.6 -3
+    -4.79 -5.77 -3
+    -3.4 -6.6 0
+    -5.4 -6.6 -3.4
+    -3.1 -6.6 -1
+  faces 4
+    1 0 2 1 1 0 2 0
+    1 5 0 1 1 4 0 0
+    1 2 4 1 1 2 1 0
+    5 3 0 1 4 3 0 0
+  tverts 5
+    0.68502 0.663 0
+    0.9985 0.05 0
+    0.75114 0.05 0
+    0.9985 0.663 0
+    0.9985 0.451863 0
+endnode
+node trimesh plane01_7
+  parent tbml_a22_01
+  position 3.18 0 9.62
+  wirecolor 0.65625 0.183594 0.183594
+  bitmap mountain
+  shininess 10
+  specular 0 0 0
+  diffuse 0.588235 0.588235 0.588235
+  ambient 0.588235 0.588235 0.588235
+  orientation 0 0 0 0
+  verts 14
+    -0.73 5 -9.02
+    -0.53 5 -7.32
+    -0.93 2.87 -5.42
+    -1.1 2.87 -3.77
+    -0.93 1.44 -5.42
+    -1.1 1.44 -3.77
+    -0.93 0 -5.42
+    -1.1 0 -3.77
+    -1.48 -2.27 -8.92
+    -1.46 -2.05 -5.42
+    -1.44 -1.9 -3.77
+    -1.47 -1.87 -2.13
+    -1.59 -2.87 -5.42
+    -1.57 -2.87 -3.77
+  faces 12
+    2 1 0 1 2 1 0 0
+    1 2 3 1 1 2 3 0
+    2 4 5 1 2 4 5 0
+    5 3 2 1 5 3 2 0
+    4 6 7 1 4 6 7 0
+    7 5 4 1 7 5 4 0
+    6 9 10 1 6 9 10 0
+    10 7 6 1 10 7 6 0
+    7 10 11 1 7 10 11 0
+    12 9 8 1 12 9 8 0
+    9 12 13 1 9 12 13 0
+    13 10 9 1 13 10 9 0
+  tverts 14
+    1.02351 0.58867 0
+    0.925386 0.54739 0
+    0.857937 0.33069 0
+    0.76687 0.30389 0
+    0.881939 0.20034 0
+    0.790871 0.17354 0
+    0.90594 0.06999 0
+    0.814873 0.04319 0
+    1.14763 -0.046498 0
+    0.945901 -0.097044 0
+    0.850257 -0.116348 0
+    0.757328 -0.145992 0
+    0.960987 -0.166635 0
+    0.867956 -0.200147 0
+endnode
+node trimesh plane01_6
+  parent tbml_a22_01
+  position 3.43 -0.28 6.62
+  wirecolor 0.257812 0.617188 0.0898438
+  bitmap mountain
+  shininess 10
+  specular 0 0 0
+  diffuse 0.588235 0.588235 0.588235
+  ambient 0.588235 0.588235 0.588235
+  orientation 0 0 0 0
+  verts 18
+    -1.35 3.15 -0.77
+    -1.05 3.15 0.87
+    -0.87 3.15 2.51
+    -0.59 3.15 4.16
+    -1.35 1.72 -0.77
+    -1.05 1.72 0.87
+    -0.87 1.72 2.51
+    -0.59 1.72 4.16
+    -1.35 0.28 -0.77
+    -1.05 0.28 0.87
+    -0.87 0.28 2.51
+    -0.59 0.28 4.16
+    -1.69 -1.62 -0.77
+    -1.72 -1.59 0.87
+    -1.75 -1.59 2.51
+    -1.71 -1.25 4.16
+    -1.82 -2.59 -0.77
+    -1.58 -2.59 0.87
+  faces 19
+    0 4 5 1 0 4 5 0
+    5 1 0 1 5 1 0 0
+    1 5 6 1 1 5 6 0
+    6 2 1 1 6 2 1 0
+    2 6 7 1 2 6 7 0
+    7 3 2 1 7 3 2 0
+    4 8 9 1 4 8 9 0
+    9 5 4 1 9 5 4 0
+    5 9 10 1 5 9 10 0
+    10 6 5 1 10 6 5 0
+    6 10 11 1 6 10 11 0
+    11 7 6 1 11 7 6 0
+    13 9 8 1 13 9 8 0
+    9 13 14 1 9 13 14 0
+    14 10 9 1 14 10 9 0
+    10 14 15 1 10 14 15 0
+    15 11 10 1 15 11 10 0
+    12 16 17 1 12 16 17 0
+    17 13 12 1 17 13 12 0
+  tverts 18
+    0.76687 0.30389 0
+    0.670803 0.26 0
+    0.576031 0.22054 0
+    0.48028 0.17772 0
+    0.790871 0.17354 0
+    0.694804 0.12965 0
+    0.600033 0.09019 0
+    0.504281 0.04737 0
+    0.814873 0.04319 0
+    0.718806 -0.000701 0
+    0.624034 -0.040164 0
+    0.528283 -0.082976 0
+    0.850257 -0.116348 0
+    0.757328 -0.145992 0
+    0.664849 -0.178016 0
+    0.565847 -0.181125 0
+    0.867956 -0.200147 0
+    0.772516 -0.241893 0
+endnode
+node trimesh plane01_5_2
+  parent tbml_a22_01
+  position 3.73 0.72 12.78
+  wirecolor 0.320312 0.503906 0.492188
+  orientation 0 0 0 0
+  ambient 0.588235 0.588235 0.588235
+  diffuse 0.588235 0.588235 0.588235
+  specular 0 0 0
+  shininess 10
+  bitmap mountain
+  verts 8
+    1.27 4.28 -1.18
+    -0.89 2.15 -2
+    0 2.15 0
+    -0.89 0.72 -2
+    0 0.72 0
+    -0.89 -0.72 -2
+    0 -0.72 0
+    0 -2.16 0
+  faces 6
+    0 1 2 1 0 1 2 0
+    1 3 4 1 1 3 4 0
+    4 2 1 1 4 2 1 0
+    3 5 6 1 3 5 6 0
+    6 4 3 1 6 4 3 0
+    7 6 5 1 7 6 5 0
+  tverts 8
+    0.37515 1.27569 0
+    0.48028 1.17772 0
+    0.35776 1.10504 0
+    0.504281 1.04737 0
+    0.381762 0.974688 0
+    0.528283 0.917024 0
+    0.405763 0.844339 0
+    0.429765 0.71399 0
+endnode
+node trimesh plane01_5_1
+  parent tbml_a22_01
+  position 0 0.45 21.5562
+  wirecolor 0.847656 0.523438 0.578125
+  orientation 0 0 0 0
+  ambient 0.588235 0.588235 0.588235
+  diffuse 0.588235 0.588235 0.588235
+  specular 0 0 0
+  shininess 10
+  bitmap mountain
+  verts 11
+    3.07 4.55 -8.55621
+    1.83 4.55 -8.30621
+    3.73 2.42 -8.77621
+    1.83 2.51 -8.30621
+    3.73 0.99 -8.77621
+    1.83 0.33 -8.30621
+    3.73 -0.45 -8.77621
+    2.02 -0.94 -8.30621
+    3.73 -1.89 -8.77621
+    1.68 -2.55 -8.30621
+    3.3 -1.2 -6.55621
+  faces 10
+    0 2 3 1 0 2 3 0
+    3 1 0 1 3 1 0 0
+    2 4 5 1 2 4 5 0
+    5 3 2 1 5 3 2 0
+    4 6 7 1 4 6 7 0
+    7 5 4 1 7 5 4 0
+    6 8 9 1 6 8 9 0
+    9 7 6 1 9 7 6 0
+    8 9 10 1 8 9 10 0
+    10 9 8 1 10 9 8 0
+  tverts 11
+    0.316713 0.31816 0
+    0.315841 0.35842 0
+    0.35776 0.10504 0
+    0.349955 0.17316 0
+    0.381762 -0.025312 0
+    0.38641 -0.024827 0
+    0.405763 -0.155661 0
+    0.405617 -0.147101 0
+    0.429765 -0.28601 0
+    0.436172 -0.280906 0
+    0.297478 -0.252422 0
+endnode
+node trimesh plane01_5
+  parent tbml_a22_01
+  position 3.87 -3 13.74
+  wirecolor 0.433594 0.964844 0.183594
+  bitmap mountain
+  shininess 10
+  specular 0 0 0
+  diffuse 0.588235 0.588235 0.588235
+  ambient 0.588235 0.588235 0.588235
+  orientation 0 0 0 0
+  verts 9
+    0.13 8 -3.54
+    1.13 8 -2.14
+    -0.8 8 -0.74
+    -1.03 5.87 -2.96
+    -0.14 5.87 -0.96
+    -1.03 3 -2.96
+    -2.15 1.47 -2.96
+    -0.14 1.56 -0.96
+    -2.19 0.9 -0.49
+  faces 4
+    3 1 0 1 3 1 0 0
+    4 2 1 1 4 2 1 0
+    5 6 7 1 5 6 7 0
+    8 7 6 1 8 7 6 0
+  tverts 9
+    0.464884 0.34018 0
+    0.37515 0.27569 0
+    0.316713 0.31816 0
+    0.48028 0.17772 0
+    0.35776 0.10504 0
+    0.528283 0.917024 0
+    0.565847 0.818875 0
+    0.429765 0.71399 0
+    0.436172 0.719094 0
+endnode
+node trimesh plane01_4
+  parent tbml_a22_01
+  position 4.16 -3.82 2.04
+  wirecolor 0.609375 0.949219 0.15625
+  bitmap mountain
+  shininess 10
+  specular 0 0 0
+  diffuse 0.588235 0.588235 0.588235
+  ambient 0.588235 0.588235 0.588235
+  orientation 0 0 0 0
+  verts 10
+    -4.38 0.8 -3.04
+    -2.46 1.55 -1.34
+    -4.26 -0.13 -3.04
+    -1.31 0.11 0.52
+    -2.57 0.95 2.16
+    -2.55 0.95 3.81
+    -4.16 -1.18 -2.04
+    -3.45 -1.18 -1.44
+    -2.81 -1.18 0.26
+    -1.81 -1.18 2.66
+  faces 9
+    0 2 3 1 0 2 3 0
+    3 1 0 1 3 1 0 0
+    1 3 4 1 1 3 4 0
+    2 6 7 1 2 6 7 0
+    7 3 2 1 7 3 2 0
+    3 7 8 1 3 7 8 0
+    8 4 3 1 8 4 3 0
+    4 8 9 1 4 8 9 0
+    9 5 4 1 9 5 4 0
+  tverts 10
+    0.27649 0.989764 0
+    0.14763 0.953502 0
+    0.29076 0.900923 0
+    0.05438 0.744128 0
+    -0.039013 0.833365 0
+    -0.132044 0.799853 0
+    0.25079 0.781924 0
+    0.20933 0.744012 0
+    0.1065 0.686665 0
+    -0.039703 0.602184 0
+endnode
+node trimesh plane01_3
+  parent tbml_a22_01
+  position 1.75 0 6.49
+  wirecolor 0.015625 0.332031 0.609375
+  bitmap mountain
+  shininess 10
+  specular 0 0 0
+  diffuse 0.588235 0.588235 0.588235
+  ambient 0.588235 0.588235 0.588235
+  orientation 0 0 0 0
+  verts 9
+    -0.04 -1.87 1
+    -0.07 -1.87 2.64
+    -0.03 -1.53 4.29
+    -0.07 -2.1 6.76
+    0.1 -2.87 1
+    0.61 -2.87 2.64
+    1.08 -2.87 4.29
+    1.55 -5 3.71
+    2.05 -5 6.11
+  faces 8
+    0 4 5 1 0 4 5 0
+    5 1 0 1 5 1 0 0
+    1 5 6 1 1 5 6 0
+    6 2 1 1 6 2 1 0
+    2 6 3 1 2 6 3 0
+    7 5 4 1 7 5 4 0
+    5 7 8 1 5 7 8 0
+    8 6 5 1 8 6 5 0
+  tverts 9
+    0.757328 0.854008 0
+    0.664849 0.821984 0
+    0.565847 0.818875 0
+    0.436172 0.719094 0
+    0.772516 0.758107 0
+    0.674178 0.706455 0
+    0.576322 0.656451 0
+    0.639586 0.457557 0
+    0.498726 0.391328 0
+endnode
+node trimesh plane01_2
+  parent tbml_a22_01
+  position 1.14 0.05 3.4
+  wirecolor 0.472656 0.910156 0.503906
+  bitmap mountain
+  shininess 10
+  specular 0 0 0
+  diffuse 0.588235 0.588235 0.588235
+  ambient 0.588235 0.588235 0.588235
+  orientation 0 0 0 0
+  verts 6
+    0.54 -2.15 9.85
+    1.69 -2.92 7.38
+    2.16 -0.8 11.6
+    3.86 -5.05 11.6
+    3.36 -5.05 10.9
+    2.51 -1.61 11.38
+  faces 4
+    3 0 1 1 3 0 1 0
+    0 3 5 1 0 3 5 0
+    5 2 0 1 5 2 0 0
+    1 4 3 1 1 4 3 0
+  tverts 6
+    0.436172 0.719094 0
+    0.576322 0.656451 0
+    0.297478 0.747578 0
+    0.35039 0.299545 0
+    0.395257 0.331791 0
+    0.319602 0.665372 0
+endnode
+node trimesh plane01_1_2
+  parent tbml_a22_01
+  position 3.74 0 2.81
+  wirecolor 0.257812 0.269531 0.84375
+  orientation 0 0 0 0
+  ambient 0.588235 0.588235 0.588235
+  diffuse 0.588235 0.588235 0.588235
+  specular 0 0 0
+  shininess 10
+  bitmap mountain
+  verts 7
+    -1.41 5 -3.81
+    -1.29 5 -2.21
+    -1.92 2.02 -3.81
+    -0.89 2.03 -0.25
+    -0.89 0.6 -0.25
+    -1.86 1.31 -3.81
+    -1.47 2.55 -3.81
+  faces 4
+    0 6 3 1 0 6 3 0
+    3 1 0 1 3 1 0 0
+    2 5 4 1 2 5 4 0
+    4 3 2 1 4 3 2 0
+  tverts 7
+    0.11514 0.62504 0
+    0.02351 0.58867 0
+    0.17042 0.37302 0
+    -0.041628 0.26552 0
+    -0.017627 0.13518 0
+    0.18166 0.30635 0
+    0.15675 0.40472 0
+endnode
+node trimesh plane01_1_1
+  parent tbml_a22_01
+  position 0 0 17.78
+  wirecolor 0.367188 0.234375 0.300781
+  orientation 0 0 0 0
+  ambient 0.588235 0.588235 0.588235
+  diffuse 0.588235 0.588235 0.588235
+  specular 0 0 0
+  shininess 10
+  bitmap mountain
+  verts 7
+    2.85 2.03 -15.22
+    2.25 2.87 -13.58
+    2.85 0.6 -15.22
+    2.25 1.44 -13.58
+    2.85 -0.84 -18.51
+    2.25 0 -13.58
+    1.72 -2.05 -13.58
+  faces 5
+    0 2 3 1 0 2 3 0
+    3 1 0 1 3 1 0 0
+    2 4 5 1 2 4 5 0
+    5 3 2 1 5 3 2 0
+    6 5 4 1 6 5 4 0
+  tverts 7
+    -0.041628 0.26552 0
+    -0.142063 0.33069 0
+    -0.017627 0.13518 0
+    -0.118061 0.20034 0
+    0.19214 0.07059 0
+    -0.09406 0.06999 0
+    -0.054099 -0.097044 0
+endnode
+node trimesh plane01_1
+  parent tbml_a22_01
+  wirecolor 1 0 0
+  bitmap mountain
+  shininess 10
+  specular 0 0 0
+  diffuse 0.588235 0.588235 0.588235
+  ambient 0.588235 0.588235 0.588235
+  orientation 0 0 0 0
+  position 0.93 0 7.49
+  verts 15
+    1.52 5 -6.89
+    0.89 2.02 -8.49
+    1.92 2.03 -4.93
+    1.32 2.87 -3.29
+    1.44 -1.09 -8.49
+    1.92 0.6 -4.93
+    0.27 -1.33 -8.49
+    1.92 -0.84 -8.22
+    0.77 -2.27 -6.79
+    0.79 -2.05 -3.29
+    2.37 -0.75 7.51
+    4.07 -5 7.51
+    4.07 0 7.51
+    1.34 2.55 -8.49
+    2.72 -1.56 7.29
+  faces 7
+    0 2 3 1 0 2 3 0
+    7 5 4 1 7 5 4 0
+    8 7 6 1 8 7 6 0
+    7 8 9 1 7 8 9 0
+    13 1 2 1 13 1 2 0
+    12 10 14 1 12 10 14 0
+    14 11 12 1 14 11 12 0
+  tverts 15
+    0.02351 0.58867 0
+    0.17042 0.37302 0
+    -0.041628 0.26552 0
+    -0.142063 0.33069 0
+    0.21656 0.0705 0
+    -0.017627 0.13518 0
+    0.23307 0.09141 0
+    0.19214 0.07059 0
+    0.14763 -0.046498 0
+    -0.054099 -0.097044 0
+    0.297478 0.747578 0
+    0.35039 0.299545 0
+    0.266777 0.753634 0
+    0.15675 0.40472 0
+    0.319602 0.665372 0
+endnode
+node aabb plane02
+  parent tbml_a22_01
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 0.105469 0.105469 0.105469
+  ambient 0.34375 0.777344 0.878906
+  diffuse 0.34375 0.777344 0.878906
+  specular 0 0 0
+  shininess 1
+  bitmap NULL
+  render 0
+  shadow 0
+  verts 26
+    -5 5 0
+    -3.38 5 0
+    0 5 0
+    3.38 5 0
+    5 5 0
+    -5 3.05 0
+    -3.38 3.05 0
+    0 3.05 0
+    3.38 3.05 0
+    5 3.05 0
+    -5 0 0
+    -3.38 0 0
+    0 0 0
+    3.38 -0.81 14.98
+    5 0 15
+    -5 -3.05 0
+    -3.38 -3.05 0
+    0 -3.05 0
+    2.33 -1.03 14.02
+    5 -3.05 15
+    -5 -5 0
+    -3.38 -5 0
+    0 -5 0
+    4.48 -5 13.67
+    5 -5 15
+    0.71 -3.05 14.85
+  faces 34
+    0 5 6 1 0 0 0 7
+    6 1 0 1 0 0 0 7
+    1 6 7 1 0 0 0 7
+    7 2 1 1 0 0 0 7
+    2 7 8 1 0 0 0 7
+    8 3 2 1 0 0 0 7
+    3 8 9 1 0 0 0 7
+    9 4 3 1 0 0 0 7
+    5 10 11 1 0 0 0 7
+    11 6 5 1 0 0 0 7
+    6 11 12 1 0 0 0 7
+    12 7 6 1 0 0 0 7
+    7 12 13 2 0 0 0 7
+    13 8 7 4 0 0 0 7
+    8 13 14 8 0 0 0 7
+    14 9 8 2 0 0 0 7
+    10 15 16 1 0 0 0 7
+    16 11 10 1 0 0 0 7
+    11 16 17 1 0 0 0 7
+    17 12 11 1 0 0 0 7
+    12 25 18 4 0 0 0 7
+    18 13 12 16 0 0 0 7
+    13 18 19 1 0 0 0 4
+    19 14 13 32 0 0 0 4
+    15 20 21 1 0 0 0 7
+    21 16 15 1 0 0 0 7
+    16 21 22 1 0 0 0 7
+    22 17 16 1 0 0 0 7
+    17 22 23 2 0 0 0 7
+    23 18 25 8 0 0 0 7
+    18 23 24 32 0 0 0 7
+    24 19 18 2 0 0 0 4
+    23 25 17 16 0 0 0 7
+    12 17 25 32 0 0 0 7
+  aabb     -5 -5 0 5 5 15 -1
+    -5 -5 0 5 5 0 -1
+    -5 -5 0 0 5 0 -1
+    -5 -5 0 0 0 0 -1
+    -5 -5 0 -3.38 0 0 -1
+    -5 -5 0 -3.38 -3.05 0 -1
+    -5 -5 0 -3.38 -3.05 0 24
+    -5 -5 0 -3.38 -3.05 0 25
+    -5 -3.05 0 -3.38 0 0 -1
+    -5 -3.05 0 -3.38 0 0 16
+    -5 -3.05 0 -3.38 0 0 17
+    -3.38 -5 0 0 0 0 -1
+    -3.38 -5 0 0 -3.05 0 26
+    -3.38 -3.05 0 0 0 0 18
+    -5 0 0 0 5 0 -1
+    -5 0 0 -3.38 5 0 -1
+    -5 0 0 -3.38 3.05 0 -1
+    -5 0 0 -3.38 3.05 0 8
+    -5 0 0 -3.38 3.05 0 9
+    -5 3.05 0 -3.38 5 0 -1
+    -5 3.05 0 -3.38 5 0 0
+    -5 3.05 0 -3.38 5 0 1
+    -3.38 0 0 0 5 0 -1
+    -3.38 0 0 0 3.05 0 10
+    -3.38 3.05 0 0 5 0 2
+    -3.38 -5 0 5 5 0 -1
+    -3.38 -5 0 0 3.05 0 -1
+    -3.38 -5 0 0 0 0 -1
+    -3.38 -5 0 0 -3.05 0 27
+    -3.38 -3.05 0 0 0 0 19
+    -3.38 0 0 0 3.05 0 11
+    -3.38 3.05 0 5 5 0 -1
+    -3.38 3.05 0 3.38 5 0 -1
+    -3.38 3.05 0 0 5 0 3
+    0 3.05 0 3.38 5 0 4
+    0 3.05 0 5 5 0 -1
+    0 3.05 0 3.38 5 0 5
+    3.38 3.05 0 5 5 0 -1
+    3.38 3.05 0 5 5 0 6
+    3.38 3.05 0 5 5 0 7
+    0 -5 0 5 3.05 15 -1
+    0 -5 0 5 3.05 15 -1
+    0 -5 0 5 3.05 15 -1
+    0 -5 0 4.48 -3.05 13.67 28
+    0 -3.05 0 5 3.05 15 -1
+    0 -3.05 0 0.71 0 14.85 33
+    0 -0.81 0 5 3.05 15 -1
+    0 -0.81 0 3.38 3.05 14.98 -1
+    0 -0.81 0 3.38 3.05 14.98 12
+    0 -0.81 0 3.38 3.05 14.98 13
+    3.38 0 0 5 3.05 15 15
+    0 -5 0 4.48 0 14.98 -1
+    0 -5 0 4.48 -3.05 14.85 32
+    0 -3.05 0 3.38 0 14.98 -1
+    0 -3.05 0 2.33 0 14.85 20
+    0 -1.03 0 3.38 0 14.98 21
+    0.71 -5 0 5 3.05 15 -1
+    3.38 -0.81 0 5 3.05 15 14
+    0.71 -5 13.67 5 0 15 -1
+    0.71 -5 13.67 5 -1.03 15 -1
+    0.71 -5 13.67 4.48 -1.03 14.85 29
+    2.33 -5 13.67 5 -1.03 15 -1
+    2.33 -5 13.67 5 -1.03 15 30
+    2.33 -5 14.02 5 -1.03 15 31
+    2.33 -3.05 14.02 5 0 15 -1
+    2.33 -3.05 14.02 5 -0.81 15 22
+    3.38 -3.05 14.98 5 0 15 23
+endnode
+node trimesh mesh01
+  parent tbml_a22_01
+  position 1.39 -3.05 11.63
+  orientation 0 0 0 0
+  wirecolor 0.582031 0.582031 0.582031
+  ambient 0.784314 0.784314 0.784314
+  diffuse 0.784314 0.784314 0.784314
+  specular 0.05 0.05 0.05
+  shininess 26
+  bitmap mountain3
+  verts 14
+    3.61 8.05 -0.03
+    3.61 5.05 -0.03
+    1.91 6.36 1.37
+    1.68 8.05 1.37
+    3.61 4.05 0.37
+    1.68 4.45 1.37
+    0.44 6.01 1.62
+    0.44 8.05 1.62
+    0.44 3.83 1.62
+    3.61 3.05 3.37
+    1.91 2.3 3.37
+    0.63 2.56 1.62
+    0.29 0.95 1.62
+    3.61 2.75 2.37
+  faces 14
+    1 0 2 1 1 0 2 0
+    2 0 3 1 2 0 3 0
+    4 1 5 1 4 1 5 0
+    5 1 2 1 5 1 2 0
+    7 6 3 1 7 6 3 0
+    2 3 6 1 2 3 6 0
+    6 8 2 1 6 8 2 0
+    5 2 8 1 5 2 8 0
+    9 13 10 1 13 15 14 0
+    10 4 5 1 9 4 5 0
+    8 11 5 1 8 11 5 0
+    10 5 11 1 9 5 11 0
+    11 12 10 1 11 12 9 0
+    13 4 10 1 15 10 14 0
+  tverts 16
+    -0.598665 0.0195342 0
+    0.115414 0.0174699 0
+    -0.182072 0.494496 0
+    -0.598836 0.498445 0
+    0.354841 0.0195844 0
+    0.263103 0.490923 0
+    -0.107813 0.791073 0
+    -0.596245 0.795335 0
+    0.414139 0.790722 0
+    0.863029 0.600459 0
+    0.0741 0.0237632 0
+    0.709407 0.793024 0
+    0.872788 0.795395 0
+    0.60283 0.739815 0
+    -0.105624 0.604631 0
+    0.41887 0.490676 0
+endnode
+node trimesh plane292
+  parent tbml_a22_01
+  wirecolor 1 0 0
+  position 4.51 1.5 -1
+  orientation 0 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap tde01_lava01
+  render 1
+  shadow 1
+  beaming 0
+  transparencyhint 1
+  tilefade 0
+  rotatetexture 1
+  verts 8
+    -9.51 -6.5 0
+    -9.51 3.5 0
+    -2.88 -6.5 0
+    -2.51 3.5 0
+    -2.84 -3.08 15
+    -2.84 3.5 15
+    0.49 -3.5 15
+    0.49 3.5 15
+  faces 4
+    1 0 2 1 1 0 2 0
+    2 3 1 1 2 3 1 0
+    5 4 6 1 5 4 6 0
+    6 7 5 1 6 7 5 0
+  tverts 8
+    0.010441 1.98466 0
+    0.010441 -0.975358 0
+    1.78646 1.98466 0
+    1.94211 -0.988117 0
+    0.01284 1.28653 0
+    0.01284 -1.00249 0
+    0.99852 1.08229 0
+    0.99852 -0.997967 0
+endnode
+node trimesh mesh88
+  parent tbml_a22_01
+  position 4.14 0 0.14
+  orientation 0 0 0 0
+  wirecolor 0.582031 0.582031 0.582031
+  ambient 0.784314 0.784314 0.784314
+  diffuse 0.784314 0.784314 0.784314
+  specular 0.05 0.05 0.05
+  shininess 26
+  bitmap mountain3
+  verts 12
+    -4.24 -3.95 -1.14
+    -5.53 -4.17 -3.14
+    -1.81 5 -1.14
+    -1.87 2.55 -1.14
+    -1.98 2.93 -2.26
+    -1.96 1.4 -3.14
+    -1.77 -1.09 -1.14
+    -2.37 -0.53 -3.14
+    -4.36 -3.02 -1.14
+    -6.33 -4.05 -3.54
+    -6.14 -5 -3.54
+    -1.14 5 -2.44
+  faces 5
+    3 2 4 1 4 3 5 0
+    11 4 2 1 11 5 3 0
+    7 6 5 1 8 7 6 0
+    8 1 0 1 9 2 0 0
+    9 10 1 1 10 1 2 0
+  tverts 12
+    0.68502 0.663 0
+    0.9985 0.05 0
+    0.75114 0.05 0
+    0.00149873 0.663 0
+    0.423472 0.663 0
+    0.621446 0.05 0
+    0.08097 0.05 0
+    0.27166 0.663 0
+    0.65781 0.05 0
+    0.40542 0.663 0
+    0.71393 0.05 0
+    0.0014987 0.452558 0
+endnode
+node light tbml_a22_01ml2
+  parent tbml_a22_01
+  position 0.09 1.87 4.32
+  orientation 0 0 0 0
+  wirecolor 0.652344 0.652344 0.652344
+  radius 5
+  multiplier 1
+  color 0.00392157 0.00392157 0.00392157
+  ambientonly 0
+  nDynamicType 0
+  affectdynamic 1
+  shadow 0
+  lightpriority 1
+  lensflares 0
+  fadinglight 0
+endnode
+node light tbml_a22_01ml1
+  parent tbml_a22_01
+  position 0.15 1.59 16.23
+  orientation 0 0 0 0
+  wirecolor 0.652344 0.652344 0.652344
+  radius 14
+  multiplier 1
+  color 0 0 0
+  ambientonly 0
+  nDynamicType 0
+  affectdynamic 1
+  shadow 0
+  lightpriority 1
+  lensflares 0
+  fadinglight 0
+endnode
+node trimesh plane01
+  parent tbml_a22_01
+  position 3.76 -2.06 1.59
+  orientation 0 0 0 0
+  wirecolor 0.652344 0.652344 0.652344
+  ambient 0.588235 0.588235 0.588235
+  diffuse 0.588235 0.588235 0.588235
+  specular 0 0 0
+  shininess 10
+  bitmap mountain
+  verts 23
+    -1.11 7.06 0.71
+    -0.93 7.06 3.11
+    -0.51 7.06 5.91
+    0.24 7.06 8.61
+    -1.68 4.93 4.26
+    -1.38 4.93 5.9
+    -1.2 4.93 7.54
+    -0.92 4.93 9.19
+    -1.39 0.97 -2.59
+    -0.91 2.66 0.97
+    -2.56 0.73 -2.59
+    -0.91 1.22 -2.32
+    -3.98 -0.96 -2.59
+    -2.06 -0.21 -0.89
+    -2.15 -0.81 4.26
+    -1.91 -0.81 5.9
+    -0.93 -0.81 9.19
+    -1.41 -2.94 3.11
+    -0.86 -2.94 5.91
+    -0.46 -2.94 8.61
+    0.04 -2.94 11.01
+    0.74 -2.94 12.71
+    -1.88 3.37 -2.59
+  faces 13
+    4 1 0 1 4 1 0 0
+    1 4 5 1 1 4 5 0
+    5 2 1 1 5 2 1 0
+    2 5 6 1 2 5 6 0
+    6 3 2 1 6 3 2 0
+    3 6 7 1 3 6 7 0
+    8 10 11 1 8 10 11 0
+    10 12 13 1 10 12 13 0
+    14 17 18 1 14 17 18 0
+    18 15 14 1 18 15 14 0
+    15 18 19 1 15 18 19 0
+    16 20 21 1 16 20 21 0
+    22 8 9 1 22 8 9 0
+  tverts 23
+    0.925386 0.54739 0
+    0.787945 0.49284 0
+    0.625354 0.42153 0
+    0.464884 0.34018 0
+    0.76687 0.30389 0
+    0.670803 0.26 0
+    0.576031 0.22054 0
+    0.48028 0.17772 0
+    0.21656 0.0705 0
+    -0.017627 0.13518 0
+    0.23307 0.09141 0
+    0.19214 0.07059 0
+    0.27649 -0.010236 0
+    0.14763 -0.046498 0
+    0.867956 0.799853 0
+    0.772516 0.758107 0
+    0.576322 0.656451 0
+    0.960297 0.602184 0
+    0.796317 0.526133 0
+    0.639586 0.457557 0
+    0.498726 0.391328 0
+    0.395257 0.331791 0
+    0.18166 0.30635 0
+endnode
+node trimesh plane03
+  parent tbml_a22_01
+  position 3.92 0 2.13
+  diffuse 0 0 0
+  ambient 0 0 0
+  bitmap black
+  orientation 0 0 0 0
+  wirecolor 0.652344 0.652344 0.652344
+  specular 0 0 0
+  shininess 1
+  verts 6
+    -1.08 -5 -2.13
+    1.06 -5 12.71
+    -1.08 0 -2.13
+    1.06 0.05 9.45
+    -1.08 5 -2.13
+    1.06 5 9.45
+  faces 4
+    2 0 3 1 0 0 0 0
+    1 3 0 1 0 0 0 0
+    4 2 5 1 0 0 0 0
+    3 5 2 1 0 0 0 0
+endnode
+node dummy tbml_a22_01a
+  parent tbml_a22_01
+  position 0 0 0
+  wirecolor 1 0 0
+  orientation 0 0 0 0
+endnode
+node emitter e_g12_01f01
+  parent tbml_a22_01a
+  position -0.96 3.13 -0.46
+  alpha 0.5
+  orientation 0 0 0 0
+  wirecolor 0.582031 0.582031 0.582031
+  colorStart 0.509804 0 0
+  colorEnd 0.509804 0 0
+  alphaStart 0.5
+  alphaEnd 0
+  sizeStart 2
+  sizeEnd 5
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 10
+  spawntype 0
+  lifeExp 5
+  mass 0
+  spread 3.14159
+  particleRot 0.3
+  velocity 0.2
+  randvel 0.1
+  fps 15
+  random 0
+  inherit 1
+  inherit_local 0
+  inherit_part 0
+  inheritvel 0
+  xsize 230
+  ysize 505
+  bounce 0
+  bounce_co 0
+  loop 0
+  update Fountain
+  render Normal
+  blend Normal
+  deadspace 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  twosidedtex 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+  texture fxpa_smoke01
+  xgrid 4
+  ygrid 4
+  affectedByWind 0
+  m_isTinted 1
+  renderorder 1
+  splat 0
+endnode
+node emitter e_g12_01f
+  parent tbml_a22_01a
+  position -0.96 -0.43 -0.46
+  alpha 0.5
+  orientation 0 0 0 0
+  wirecolor 0.582031 0.582031 0.582031
+  colorStart 0.509804 0 0
+  colorEnd 0.509804 0 0
+  alphaStart 0.5
+  alphaEnd 0
+  sizeStart 2
+  sizeEnd 5
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 10
+  spawntype 0
+  lifeExp 5
+  mass 0
+  spread 3.14159
+  particleRot 0.3
+  velocity 0.2
+  randvel 0.1
+  fps 15
+  random 0
+  inherit 1
+  inherit_local 0
+  inherit_part 0
+  inheritvel 0
+  xsize 230
+  ysize 505
+  bounce 0
+  bounce_co 0
+  loop 0
+  update Fountain
+  render Normal
+  blend Normal
+  deadspace 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  twosidedtex 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+  texture fxpa_smoke01
+  xgrid 4
+  ygrid 4
+  affectedByWind 0
+  m_isTinted 1
+  renderorder 1
+  splat 0
+endnode
+node emitter e_g12_01a
+  parent tbml_a22_01a
+  position 2.42 0.68 14.18
+  alpha 0.5
+  orientation 0.546561 0.0133176 -0.837314 -3.07875
+  wirecolor 0.582031 0.582031 0.582031
+  colorStart 1 0 0
+  colorEnd 1 0 0
+  alphaStart 0.6
+  alphaEnd 0.3
+  sizeStart 1
+  sizeEnd 3
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 15
+  spawntype 0
+  lifeExp 3.5
+  mass 0.32
+  spread 0.698132
+  particleRot 0.8
+  velocity 1.8
+  randvel 0.2
+  fps 0
+  random 0
+  inherit 1
+  inherit_local 0
+  inherit_part 0
+  inheritvel 0
+  xsize 4
+  ysize 141
+  bounce 0
+  bounce_co 0
+  loop 0
+  update Fountain
+  render Normal
+  blend Lighten
+  deadspace 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  twosidedtex 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+  texture fxpa_splash
+  xgrid 1
+  ygrid 1
+  affectedByWind 0
+  m_isTinted 1
+  renderorder 0
+  splat 0
+endnode
+node emitter e_g12_01d
+  parent tbml_a22_01a
+  position -2.16 -0.39 -0.85
+  alpha 0.5
+  orientation 0 0 0 0
+  wirecolor 0.582031 0.582031 0.582031
+  colorStart 0.509804 0 0
+  colorEnd 0.509804 0 0
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 1
+  sizeEnd 3
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 5
+  spawntype 0
+  lifeExp 1
+  mass 0
+  spread 0
+  particleRot 0.1
+  velocity 0
+  randvel 0
+  fps 0
+  random 0
+  inherit 1
+  inherit_local 0
+  inherit_part 0
+  inheritvel 0
+  xsize 100
+  ysize 508
+  bounce 0
+  bounce_co 0
+  loop 0
+  update Fountain
+  render Billboard_to_World_Z
+  blend Lighten
+  deadspace 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  twosidedtex 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+  texture fxpa_splash
+  xgrid 1
+  ygrid 1
+  affectedByWind 0
+  m_isTinted 1
+  renderorder 0
+  splat 0
+endnode
+node emitter e_g12_01b01
+  parent tbml_a22_01a
+  position 2.07 3.16 14.25
+  alpha 0.5
+  orientation 0.545721 -0.00639868 -0.837943 -3.14159
+  wirecolor 0.582031 0.582031 0.582031
+  colorStart 1 0 0
+  colorEnd 1 0 0
+  alphaStart 0.4
+  alphaEnd 0.33
+  sizeStart 0.6
+  sizeEnd 4
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 15
+  spawntype 0
+  lifeExp 3.5
+  mass 0.3
+  spread 1.0472
+  particleRot 0.3
+  velocity 1.8
+  randvel 0.05
+  fps 0
+  random 0
+  inherit 1
+  inherit_local 0
+  inherit_part 0
+  inheritvel 0
+  xsize 4
+  ysize 170
+  bounce 0
+  bounce_co 0
+  loop 0
+  update Fountain
+  render Normal
+  blend Lighten
+  deadspace 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  twosidedtex 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+  texture fxpa_splash
+  xgrid 1
+  ygrid 1
+  affectedByWind 0
+  m_isTinted 1
+  renderorder 0
+  splat 0
+endnode
+node emitter e_g12_01c01
+  parent tbml_a22_01a
+  position 2.07 1.95 14.18
+  alpha 0.5
+  orientation 0.54623 -0.0447539 -0.836439 -3.14159
+  wirecolor 0.582031 0.582031 0.582031
+  colorStart 1 0 0
+  colorEnd 1 0 0
+  alphaStart 0.6
+  alphaEnd 0.3
+  sizeStart 1
+  sizeEnd 3
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 15
+  spawntype 0
+  lifeExp 3.5
+  mass 0.35
+  spread 0.698132
+  particleRot -0.6
+  velocity 1.8
+  randvel 0.2
+  fps 0
+  random 0
+  inherit 1
+  inherit_local 0
+  inherit_part 0
+  inheritvel 0
+  xsize 4
+  ysize 146
+  bounce 0
+  bounce_co 0
+  loop 0
+  update Fountain
+  render Normal
+  blend Lighten
+  deadspace 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  twosidedtex 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+  texture fxpa_splash
+  xgrid 1
+  ygrid 1
+  affectedByWind 0
+  m_isTinted 1
+  renderorder 0
+  splat 0
+endnode
+node emitter e_g12_01a01
+  parent tbml_a22_01a
+  position 2.07 4.27 14.18
+  alpha 0.5
+  orientation 0.546561 0.0133176 -0.837314 -3.07875
+  wirecolor 0.582031 0.582031 0.582031
+  colorStart 1 0 0
+  colorEnd 1 0 0
+  alphaStart 0.6
+  alphaEnd 0.3
+  sizeStart 1
+  sizeEnd 3
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 15
+  spawntype 0
+  lifeExp 3.5
+  mass 0.32
+  spread 0.698132
+  particleRot 0.8
+  velocity 1.8
+  randvel 0.2
+  fps 0
+  random 0
+  inherit 1
+  inherit_local 0
+  inherit_part 0
+  inheritvel 0
+  xsize 4
+  ysize 141
+  bounce 0
+  bounce_co 0
+  loop 0
+  update Fountain
+  render Normal
+  blend Lighten
+  deadspace 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  twosidedtex 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+  texture fxpa_splash
+  xgrid 1
+  ygrid 1
+  affectedByWind 0
+  m_isTinted 1
+  renderorder 0
+  splat 0
+endnode
+node emitter e_g12_01d01
+  parent tbml_a22_01a
+  position -2.16 3.08 -0.85
+  alpha 0.5
+  orientation 0 0 0 0
+  wirecolor 0.582031 0.582031 0.582031
+  colorStart 0.509804 0 0
+  colorEnd 0.509804 0 0
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 1
+  sizeEnd 3
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 5
+  spawntype 0
+  lifeExp 1
+  mass 0
+  spread 0
+  particleRot 0.1
+  velocity 0
+  randvel 0
+  fps 0
+  random 0
+  inherit 1
+  inherit_local 0
+  inherit_part 0
+  inheritvel 0
+  xsize 100
+  ysize 508
+  bounce 0
+  bounce_co 0
+  loop 0
+  update Fountain
+  render Billboard_to_World_Z
+  blend Lighten
+  deadspace 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  twosidedtex 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+  texture fxpa_splash
+  xgrid 1
+  ygrid 1
+  affectedByWind 0
+  m_isTinted 1
+  renderorder 0
+  splat 0
+endnode
+node emitter e_g12_01a02
+  parent tbml_a22_01a
+  position 1.96 -1.94 14.18
+  alpha 0.5
+  orientation 0.546561 0.0133176 -0.837314 -3.07875
+  wirecolor 0.582031 0.582031 0.582031
+  colorStart 1 0 0
+  colorEnd 1 0 0
+  alphaStart 0.6
+  alphaEnd 0.3
+  sizeStart 1
+  sizeEnd 3
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 15
+  spawntype 0
+  lifeExp 3.5
+  mass 0.32
+  spread 0.698132
+  particleRot 0.8
+  velocity 1.8
+  randvel 0.2
+  fps 0
+  random 0
+  inherit 1
+  inherit_local 0
+  inherit_part 0
+  inheritvel 0
+  xsize 4
+  ysize 141
+  bounce 0
+  bounce_co 0
+  loop 0
+  update Fountain
+  render Normal
+  blend Lighten
+  deadspace 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  twosidedtex 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+  texture fxpa_splash
+  xgrid 1
+  ygrid 1
+  affectedByWind 0
+  m_isTinted 1
+  renderorder 0
+  splat 0
+endnode
+node emitter e_g12_01c02
+  parent tbml_a22_01a
+  position 1.6 -0.67 14.18
+  alpha 0.5
+  orientation 0.54623 -0.0447539 -0.836439 -3.14159
+  wirecolor 0.582031 0.582031 0.582031
+  colorStart 1 0 0
+  colorEnd 1 0 0
+  alphaStart 0.6
+  alphaEnd 0.3
+  sizeStart 1
+  sizeEnd 3
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 15
+  spawntype 0
+  lifeExp 3.5
+  mass 0.35
+  spread 0.698132
+  particleRot -0.6
+  velocity 1.8
+  randvel 0.2
+  fps 0
+  random 0
+  inherit 1
+  inherit_local 0
+  inherit_part 0
+  inheritvel 0
+  xsize 4
+  ysize 146
+  bounce 0
+  bounce_co 0
+  loop 0
+  update Fountain
+  render Normal
+  blend Lighten
+  deadspace 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  twosidedtex 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+  texture fxpa_splash
+  xgrid 1
+  ygrid 1
+  affectedByWind 0
+  m_isTinted 1
+  renderorder 0
+  splat 0
+endnode
+endmodelgeom tbml_a22_01
+
+#MAXANIM ASCII
+newanim animloop01 tbml_a22_01
+  length 0
+  transtime 0.25
+  animroot tbml_a22_01
+  node dummy tbml_a22_01
+    parent NULL
+  endnode
+  node dummy plane292_1
+    parent tbml_a22_01
+  endnode
+  node dummy mesh88_4
+    parent tbml_a22_01
+  endnode
+  node dummy mesh88_3_1
+    parent tbml_a22_01
+  endnode
+  node dummy mesh88_3
+    parent tbml_a22_01
+  endnode
+  node dummy mesh88_2
+    parent tbml_a22_01
+  endnode
+  node dummy mesh88_1
+    parent tbml_a22_01
+  endnode
+  node dummy plane01_7
+    parent tbml_a22_01
+  endnode
+  node dummy plane01_6
+    parent tbml_a22_01
+  endnode
+  node dummy plane01_5_2
+    parent tbml_a22_01
+  endnode
+  node dummy plane01_5_1
+    parent tbml_a22_01
+  endnode
+  node dummy plane01_5
+    parent tbml_a22_01
+  endnode
+  node dummy plane01_4
+    parent tbml_a22_01
+  endnode
+  node dummy plane01_3
+    parent tbml_a22_01
+  endnode
+  node dummy plane01_2
+    parent tbml_a22_01
+  endnode
+  node dummy plane01_1_2
+    parent tbml_a22_01
+  endnode
+  node dummy plane01_1_1
+    parent tbml_a22_01
+  endnode
+  node dummy plane01_1
+    parent tbml_a22_01
+  endnode
+  node dummy plane02
+    parent tbml_a22_01
+  endnode
+  node dummy mesh01
+    parent tbml_a22_01
+  endnode
+  node dummy plane292
+    parent tbml_a22_01
+  endnode
+  node dummy mesh88
+    parent tbml_a22_01
+  endnode
+  node light tbml_a22_01ml2
+    parent tbml_a22_01
+  endnode
+  node light tbml_a22_01ml1
+    parent tbml_a22_01
+  endnode
+  node dummy plane01
+    parent tbml_a22_01
+  endnode
+  node dummy plane03
+    parent tbml_a22_01
+  endnode
+  node dummy tbml_a22_01a
+    parent tbml_a22_01
+  endnode
+  node emitter e_g12_01f01
+    parent tbml_a22_01a
+    birthratekey
+      0 10
+    endlist
+  endnode
+  node emitter e_g12_01f
+    parent tbml_a22_01a
+    birthratekey
+      0 10
+    endlist
+  endnode
+  node emitter e_g12_01a
+    parent tbml_a22_01a
+    birthratekey
+      0 15
+    endlist
+  endnode
+  node emitter e_g12_01d
+    parent tbml_a22_01a
+    birthratekey
+      0 5
+    endlist
+  endnode
+  node emitter e_g12_01b01
+    parent tbml_a22_01a
+    birthratekey
+      0 15
+    endlist
+  endnode
+  node emitter e_g12_01c01
+    parent tbml_a22_01a
+    birthratekey
+      0 15
+    endlist
+  endnode
+  node emitter e_g12_01a01
+    parent tbml_a22_01a
+    birthratekey
+      0 15
+    endlist
+  endnode
+  node emitter e_g12_01d01
+    parent tbml_a22_01a
+    birthratekey
+      0 5
+    endlist
+  endnode
+  node emitter e_g12_01a02
+    parent tbml_a22_01a
+    birthratekey
+      0 15
+    endlist
+  endnode
+  node emitter e_g12_01c02
+    parent tbml_a22_01a
+    birthratekey
+      0 15
+    endlist
+  endnode
+doneanim animloop01 tbml_a22_01
+
+#MAXANIM ASCII
+newanim tiledefault tbml_a22_01
+  length 0
+  transtime 0.25
+  animroot tbml_a22_01
+  node dummy tbml_a22_01
+    parent NULL
+  endnode
+  node dummy plane292_1
+    parent tbml_a22_01
+  endnode
+  node dummy mesh88_4
+    parent tbml_a22_01
+  endnode
+  node dummy mesh88_3_1
+    parent tbml_a22_01
+  endnode
+  node dummy mesh88_3
+    parent tbml_a22_01
+  endnode
+  node dummy mesh88_2
+    parent tbml_a22_01
+  endnode
+  node dummy mesh88_1
+    parent tbml_a22_01
+  endnode
+  node dummy plane01_7
+    parent tbml_a22_01
+  endnode
+  node dummy plane01_6
+    parent tbml_a22_01
+  endnode
+  node dummy plane01_5_2
+    parent tbml_a22_01
+  endnode
+  node dummy plane01_5_1
+    parent tbml_a22_01
+  endnode
+  node dummy plane01_5
+    parent tbml_a22_01
+  endnode
+  node dummy plane01_4
+    parent tbml_a22_01
+  endnode
+  node dummy plane01_3
+    parent tbml_a22_01
+  endnode
+  node dummy plane01_2
+    parent tbml_a22_01
+  endnode
+  node dummy plane01_1_2
+    parent tbml_a22_01
+  endnode
+  node dummy plane01_1_1
+    parent tbml_a22_01
+  endnode
+  node dummy plane01_1
+    parent tbml_a22_01
+  endnode
+  node dummy plane02
+    parent tbml_a22_01
+  endnode
+  node dummy mesh01
+    parent tbml_a22_01
+  endnode
+  node dummy plane292
+    parent tbml_a22_01
+  endnode
+  node dummy mesh88
+    parent tbml_a22_01
+  endnode
+  node light tbml_a22_01ml2
+    parent tbml_a22_01
+  endnode
+  node light tbml_a22_01ml1
+    parent tbml_a22_01
+  endnode
+  node dummy plane01
+    parent tbml_a22_01
+  endnode
+  node dummy plane03
+    parent tbml_a22_01
+  endnode
+  node dummy tbml_a22_01a
+    parent tbml_a22_01
+  endnode
+  node emitter e_g12_01f01
+    parent tbml_a22_01a
+    birthratekey
+      0 0
+    endlist
+  endnode
+  node emitter e_g12_01f
+    parent tbml_a22_01a
+    birthratekey
+      0 0
+    endlist
+  endnode
+  node emitter e_g12_01a
+    parent tbml_a22_01a
+    birthratekey
+      0 0
+    endlist
+  endnode
+  node emitter e_g12_01d
+    parent tbml_a22_01a
+    birthratekey
+      0 0
+    endlist
+  endnode
+  node emitter e_g12_01b01
+    parent tbml_a22_01a
+    birthratekey
+      0 0
+    endlist
+  endnode
+  node emitter e_g12_01c01
+    parent tbml_a22_01a
+    birthratekey
+      0 0
+    endlist
+  endnode
+  node emitter e_g12_01a01
+    parent tbml_a22_01a
+    birthratekey
+      0 0
+    endlist
+  endnode
+  node emitter e_g12_01d01
+    parent tbml_a22_01a
+    birthratekey
+      0 0
+    endlist
+  endnode
+  node emitter e_g12_01a02
+    parent tbml_a22_01a
+    birthratekey
+      0 0
+    endlist
+  endnode
+  node emitter e_g12_01c02
+    parent tbml_a22_01a
+    birthratekey
+      0 0
+    endlist
+  endnode
+doneanim tiledefault tbml_a22_01
+donemodel tbml_a22_01

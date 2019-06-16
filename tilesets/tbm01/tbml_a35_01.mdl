@@ -1,0 +1,234 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sat Feb 02 18:12:21 2019
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel tbml_a35_01
+  classification TILE
+  setsupermodel tbml_a35_01 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom tbml_a35_01
+node dummy tbml_a35_01
+  parent NULL
+endnode
+node aabb cm167
+  parent tbml_a35_01
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 0.425781 0.425781 0.425781
+  ambient 0.2 0.2 0.2
+  diffuse 0.8 0.8 0.8
+  specular 0 0 0
+  shininess 1
+  bitmap NULL
+  render 0
+  shadow 0
+  verts 9
+    -5 0 -1.5
+    -5 -5 -1.5
+    0 0 -1.5
+    0 -5 -1.5
+    5 0 -1.5
+    5 -5 -1.5
+    -5 5 -1.5
+    0 5 -1.5
+    5 5 -1.5
+  faces 8
+    0 1 2 1 0 0 0 13
+    3 2 1 1 0 0 0 13
+    2 3 4 1 0 0 0 13
+    5 4 3 1 0 0 0 13
+    6 0 7 1 0 0 0 13
+    2 7 0 1 0 0 0 13
+    7 2 8 1 0 0 0 13
+    4 8 2 1 0 0 0 13
+  aabb     -5 -5 -1.5 5 5 -1.5 -1
+    -5 -5 -1.5 0 5 -1.5 -1
+    -5 -5 -1.5 0 0 -1.5 -1
+    -5 -5 -1.5 0 0 -1.5 0
+    -5 -5 -1.5 0 0 -1.5 1
+    -5 0 -1.5 0 5 -1.5 -1
+    -5 0 -1.5 0 5 -1.5 4
+    -5 0 -1.5 0 5 -1.5 5
+    0 -5 -1.5 5 5 -1.5 -1
+    0 -5 -1.5 5 0 -1.5 -1
+    0 -5 -1.5 5 0 -1.5 2
+    0 -5 -1.5 5 0 -1.5 3
+    0 0 -1.5 5 5 -1.5 -1
+    0 0 -1.5 5 5 -1.5 6
+    0 0 -1.5 5 5 -1.5 7
+endnode
+node trimesh plane165
+  parent tbml_a35_01
+  wirecolor 1 0 0
+  position 0 0 -1
+  orientation 0 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap tde01_lava01
+  render 1
+  shadow 1
+  beaming 0
+  transparencyhint 1
+  tilefade 0
+  rotatetexture 1
+  verts 4
+    -5 5 0
+    -5 -5 0
+    5 5 0
+    5 -5 0
+  faces 2
+    0 1 2 1 0 1 2 0
+    3 2 1 1 3 2 1 0
+  tverts 4
+    -0.99996 1.9994 0
+    -0.99996 -1.0006 0
+    2.00007 1.9994 0
+    2.00007 -1.0006 0
+endnode
+node light tbml_a35_01ml1
+  parent tbml_a35_01
+  position 0 0 5
+  orientation 0 0 0 0
+  wirecolor 0.347656 0.347656 0.347656
+  radius 14
+  multiplier 1
+  color 0 0 0
+  ambientonly 0
+  nDynamicType 0
+  affectdynamic 1
+  shadow 0
+  lightpriority 5
+  lensflares 0
+  fadinglight 1
+endnode
+node dummy tbml_a35_01a
+  parent tbml_a35_01
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 0.347656 0.347656 0.347656
+endnode
+node emitter fx_lavabase01
+  parent tbml_a35_01a
+  position 0 0.01 -0.94
+  alpha 0.5
+  orientation 0 0 0 0
+  wirecolor 0.878906 0.878906 0.878906
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 1
+  spawntype 0
+  lifeExp 4
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 0
+  random 0
+  inherit 0
+  inherit_local 0
+  inherit_part 0
+  inheritvel 0
+  xsize 900
+  ysize 900
+  bounce 0
+  bounce_co 0
+  loop 0
+  update Explosion
+  render Billboard_to_World_Z
+  blend Lighten
+  deadspace 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  twosidedtex 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+  texture fxpa_ash01
+  xgrid 0
+  ygrid 0
+  affectedByWind 0
+  m_isTinted 0
+  renderorder 0
+  splat 0
+  chunkName fx_lavaspurt
+endnode
+endmodelgeom tbml_a35_01
+
+#MAXANIM ASCII
+newanim animloop01 tbml_a35_01
+  length 3.96667
+  transtime 2
+  event 0 detonate
+  animroot tbml_a35_01
+  node dummy tbml_a35_01
+    parent NULL
+  endnode
+  node dummy cm167
+    parent tbml_a35_01
+  endnode
+  node dummy plane165
+    parent tbml_a35_01
+  endnode
+  node light tbml_a35_01ml1
+    parent tbml_a35_01
+  endnode
+  node dummy tbml_a35_01a
+    parent tbml_a35_01
+  endnode
+  node emitter fx_lavabase01
+    parent tbml_a35_01a
+    birthratekey
+      0 1
+      3.96667 1
+    endlist
+  endnode
+doneanim animloop01 tbml_a35_01
+
+#MAXANIM ASCII
+newanim tiledefault tbml_a35_01
+  length 0
+  transtime 0
+  animroot tbml_a35_01
+  node dummy tbml_a35_01
+    parent NULL
+  endnode
+  node dummy cm167
+    parent tbml_a35_01
+  endnode
+  node dummy plane165
+    parent tbml_a35_01
+  endnode
+  node light tbml_a35_01ml1
+    parent tbml_a35_01
+  endnode
+  node dummy tbml_a35_01a
+    parent tbml_a35_01
+  endnode
+  node emitter fx_lavabase01
+    parent tbml_a35_01a
+    birthratekey
+      0 0
+    endlist
+  endnode
+doneanim tiledefault tbml_a35_01
+donemodel tbml_a35_01

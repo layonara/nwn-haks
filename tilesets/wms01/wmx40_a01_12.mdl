@@ -1,0 +1,66 @@
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel wmx40_a01_12
+setsupermodel wmx40_a01_12 null
+setanimationscale 1
+classification TILE
+#MAXGEOM ASCII
+beginmodelgeom wmx40_a01_12
+node dummy wmx40_a01_12
+  parent NULL
+endnode
+node trimesh 00lore25_12
+  parent wmx40_a01_12
+  orientation 0 0 0 0
+  wirecolor 0.878431 0.878431 0.878431
+  tilefade 0
+  scale 1
+  render 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  center 0 0 0
+  bitmap wmx_cdirt0
+  shadow 0
+  position 0 0 -0.5
+  verts 4
+    -5 -5 0
+    5 -5 0
+    -5 5 0
+    5 5 0
+  faces 2
+    3 2 0 1 3 2 0 65536
+    0 1 3 1 0 1 3 65536
+  tverts 4
+    0 0 0
+    1 0 0
+    0 1 0
+    1 1 0
+endnode
+node aabb 00lorewmesh12_12
+  parent wmx40_a01_12
+  wirecolor 0.878431 0.878431 0.878431
+  bitmap NULL
+  orientation 0 0 0 0
+  position 0 0 0
+  verts 4
+    -5 -5 -0.5
+    5 -5 -0.5
+    -5 5 -0.5
+    5 5 -0.5
+  faces 2
+    3 2 0 1 0 0 0 4
+    0 1 3 1 0 0 0 4
+  aabb     -5 -5 -0.5 5 5 -0.5 -1
+    -5 -5 -0.5 5 5 -0.5 0
+    -5 -5 -0.5 5 5 -0.5 1
+endnode
+endmodelgeom wmx40_a01_12
+donemodel wmx40_a01_12

@@ -1,0 +1,117 @@
+#MAXMODEL ASCII
+# model: tcxi0_z_02
+filedependancy tcxi0_z_02.max
+newmodel tcxi0_z_02
+setsupermodel tcxi0_z_02 null
+classification tile
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom tcxi0_z_02
+node dummy tcxi0_z_02
+  parent NULL
+  #part-number 0
+endnode
+node trimesh plane70
+  parent tcxi0_z_02
+  #part-number 1
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  shadow 0
+  rotatetexture 1
+  bitmap tcxi0_plank01
+  verts 25
+    -2.5 -5 0
+    -2.5 -2.5 0
+    -5 -5 0
+    0 -2.5 0
+    0 -5 0
+    2.5 -2.5 0
+    2.5 -5 0
+    5 -5 0
+    -5 0 0
+    -5 -2.5 0
+    -2.5 0 0
+    0 0 0
+    2.5 0 0
+    5 0 0
+    5 -2.5 0
+    -5 2.5 0
+    -2.5 2.5 0
+    0 2.5 0
+    2.5 2.5 0
+    5 2.5 0
+    -5 5 0
+    -2.5 5 0
+    0 5 0
+    2.5 5 0
+    5 5 0
+  tverts 25
+    0.5 0 0
+    0.5 0.5 0
+    0 0 0
+    1 0.5 0
+    1 0 0
+    1.5 0.5 0
+    1.5 0 0
+    2 0 0
+    0 1 0
+    0 0.5 0
+    0.5 1 0
+    1 1 0
+    1.5 1 0
+    2 1 0
+    2 0.5 0
+    0 1.5 0
+    0.5 1.5 0
+    1 1.5 0
+    1.5 1.5 0
+    2 1.5 0
+    0 2 0
+    0.5 2 0
+    1 2 0
+    1.5 2 0
+    2 2 0
+  faces 32
+    0 1 2 1 0 1 2 1
+    1 0 3 1 1 0 3 1
+    4 3 0 1 4 3 0 1
+    3 4 5 1 3 4 5 1
+    6 5 4 1 6 5 4 1
+    7 5 6 1 7 5 6 1
+    8 9 10 1 8 9 10 1
+    1 10 9 1 1 10 9 1
+    10 1 11 1 10 1 11 1
+    3 11 1 1 3 11 1 1
+    11 3 12 1 11 3 12 1
+    5 12 3 1 5 12 3 1
+    12 5 13 1 12 5 13 1
+    14 13 5 1 14 13 5 1
+    15 8 16 1 15 8 16 1
+    10 16 8 1 10 16 8 1
+    16 10 17 1 16 10 17 1
+    11 17 10 1 11 17 10 1
+    17 11 18 1 17 11 18 1
+    12 18 11 1 12 18 11 1
+    18 12 19 1 18 12 19 1
+    13 19 12 1 13 19 12 1
+    20 16 21 1 20 16 21 1
+    21 16 22 1 21 16 22 1
+    17 22 16 1 17 22 16 1
+    22 17 23 1 22 17 23 1
+    18 23 17 1 18 23 17 1
+    24 18 19 1 24 18 19 1
+    14 5 7 1 14 5 7 1
+    23 18 24 1 23 18 24 1
+    15 16 20 1 15 16 20 1
+    1 9 2 1 1 9 2 1
+  position 0 0 0
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+endnode
+endmodelgeom tcxi0_z_02
+
+donemodel tcxi0_z_02

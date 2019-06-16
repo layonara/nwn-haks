@@ -1,0 +1,1299 @@
+# Exported from NWmax 0.4-beta at 3/22/2004 2:48:08 PM
+# mdl file
+#
+#NWmaxMODEL ASCII
+# model: tps01_gdoor_04
+filedependancy Unknown
+newmodel tps01_gdoor_04
+setsupermodel tps01_gdoor_04 NULL
+classification Door
+#NWmaxGEOM  ASCII
+beginmodelgeom tps01_gdoor_04
+node dummy tps01_gdoor_04
+  parent NULL
+endnode
+node dummy TIN01_B13_09
+  parent tps01_gdoor_04
+  position -0.6 0.0 -1.46485e-006
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.223529 0.0313726 0.533333 
+endnode
+node trimesh Box55
+  parent TIN01_B13_09
+  position 0.6 2.14527e-006 1.46485e-006
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 1
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     alpha 100.0
+     transparencyhint 0
+     center 0.0 -6.98566e-005 119.709 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 31.0
+  selfillumcolor 0.0 0.0 0.0 
+  alpha 1.0
+    bitmap tps01_pipe02
+    verts 18
+     -0.6 0.0599973 2.39417
+     -0.6 -0.0599972 2.39417
+     0.00647652 -0.0599993 2.39417
+     0.00647652 0.0599988 2.39417
+     0.6 -0.0600012 2.39417
+     0.6 0.0599998 2.39417
+     0.6 0.0599998 1.13587
+     0.6 -0.0600012 1.13587
+     -0.6 -0.0599948 1.12259
+     -0.6 0.0599997 1.12259
+     -0.6 0.0599973 0.0
+     -0.6 -0.0599977 0.0
+     2.97547e-007 -0.0600006 1.11983
+     0.00647622 -0.0599996 0.0
+     0.6 -0.0600012 0.0
+     0.6 0.0599998 0.0
+     0.00647622 0.0599965 0.0
+     3.0899e-007 0.0599975 1.11983
+    faces 28
+     0 1 2  1  18 19 20  1
+     2 3 0  1  21 22 23  1
+     2 4 5  1  24 25 26  1
+     5 3 2  1  27 28 29  1
+     6 5 7  2  30 31 32  4
+     4 7 5  2  33 34 35  4
+     8 9 10  2  36 37 38  3
+     10 11 8  2  39 40 41  3
+     8 1 0  2  42 43 44  3
+     9 8 0  2  45 46 47  3
+     2 12 13  4  48 49 50  5
+     13 14 7  4  51 52 53  5
+     7 4 2  4  54 4 55  5
+     13 7 2  4  56 57 58  5
+     3 5 6  4  59 5 60  5
+     6 15 16  4  61 62 63  5
+     16 17 3  4  64 65 66  5
+     6 16 3  4  67 68 69  5
+     15 6 14  2  15 70 71  4
+     7 14 6  2  7 14 6  4
+     11 13 12  4  72 13 73  5
+     12 8 11  4  74 75 11  5
+     8 12 1  4  8 76 77  5
+     2 1 12  4  2 1 12  5
+     9 17 10  4  78 79 80  5
+     16 10 17  4  16 10 81  5
+     3 17 0  4  3 82 83  5
+     9 0 17  4  9 0 17  5
+    tverts 84
+     0.00429786 1.00433 0
+     0.00394529 1.00433 0
+     0.227236 1.00433 0
+     0.227588 1.00433 0
+     0.445757 1.00433 0
+     0.44611 1.00433 0
+     0.0472055 0.502926 0
+     0.00394538 0.502926 0
+     0.00394529 0.498228 0
+     0.00429786 0.498228 0
+     0.00429786 0.00533046 0
+     0.00394529 0.00533046 0
+     0.224851 0.497249 0
+     0.227235 0.00533046 0
+     0.00394547 0.00533046 0
+     0.0472057 0.00533046 0
+     0.227588 0.00533046 0
+     0.225204 0.497249 0
+     0.00394529 1.00431 0
+     0.00394529 0.00536611 0
+     0.227236 0.00534742 0
+     0.227236 0.00534742 0
+     0.227236 1.00432 0
+     0.00394529 1.00431 0
+     0.227236 0.00534742 0
+     0.445757 0.00533046 0
+     0.445757 1.00433 0
+     0.445757 1.00433 0
+     0.227236 1.00432 0
+     0.227236 0.00534742 0
+     0.0472055 0.502926 0
+     0.0472058 1.00433 0
+     0.00394538 0.502926 0
+     0.00394532 1.00433 0
+     0.00394538 0.502926 0
+     0.0472058 1.00433 0
+     0.054428 0.498228 0
+     0.00394532 0.498228 0
+     0.00395402 0.00533046 0
+     0.00395402 0.00533046 0
+     0.0544386 0.00533046 0
+     0.054428 0.498228 0
+     0.054428 0.498228 0
+     0.0544368 1.00433 0
+     0.00395423 1.00433 0
+     0.00394532 0.498228 0
+     0.054428 0.498228 0
+     0.00395423 1.00433 0
+     0.227236 1.00433 0
+     0.224851 0.497249 0
+     0.227235 0.00533046 0
+     0.227235 0.00533046 0
+     0.445757 0.00533046 0
+     0.445757 0.502926 0
+     0.445757 0.502926 0
+     0.227236 1.00433 0
+     0.227235 0.00533046 0
+     0.445757 0.502926 0
+     0.227236 1.00433 0
+     0.227588 1.00433 0
+     0.44611 0.502926 0
+     0.44611 0.502926 0
+     0.44611 0.00533046 0
+     0.227588 0.00533046 0
+     0.222467 0.00533046 0
+     0.224851 0.497249 0
+     0.222467 1.00433 0
+     0.44611 0.502926 0
+     0.227588 0.00533046 0
+     0.227588 1.00433 0
+     0.0472055 0.502926 0
+     0.00394547 0.00533046 0
+     0.00394529 0.00533046 0
+     0.224851 0.497249 0
+     0.224851 0.497249 0
+     0.00394529 0.498228 0
+     0.224851 0.497249 0
+     0.00394529 1.00433 0
+     0.00429786 0.498228 0
+     0.225204 0.497249 0
+     0.00429786 0.00533046 0
+     0.225204 0.497249 0
+     0.225204 0.497249 0
+     0.00429786 1.00433 0
+endnode
+node trimesh Box08
+  parent Box55
+  position 0.416798 -0.0768138 1.51142
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     alpha 100.0
+     transparencyhint 0
+     center 0.0 -0.880685 -4.48225 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 31.0
+  selfillumcolor 0.0 0.0 0.0 
+  alpha 1.0
+    bitmap tps01_pipe02
+    verts 8
+     -0.0252972 0.0158393 0.0
+     -0.0252972 -0.033453 0.0
+     0.0252972 0.0158393 0.0
+     0.0252972 -0.033453 0.0
+     0.0252972 -0.033453 -0.0896451
+     -0.0252972 -0.033453 -0.0896451
+     0.0252972 0.0158393 -0.0896451
+     -0.0252972 0.0158393 -0.0896451
+    faces 10
+     0 1 2  1  0 1 2  1
+     3 2 1  1  3 2 1  1
+     3 1 4  2  3 1 2  5
+     5 4 1  2  0 2 1  5
+     2 3 6  4  3 1 2  4
+     4 6 3  4  0 2 1  4
+     0 2 7  2  3 1 2  6
+     6 7 2  2  0 2 1  6
+     1 0 5  4  3 1 2  3
+     7 5 0  4  0 2 1  3
+    tverts 4
+     0.0590372 0.648124 0
+     0.0590372 0.827464 0
+     0.210747 0.648124 0
+     0.210747 0.827464 0
+endnode
+node trimesh Box48
+  parent Box55
+  position 0.416798 0.0944423 1.51142
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     alpha 100.0
+     transparencyhint 0
+     center 0.0 -0.88189 -4.48225 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 31.0
+  selfillumcolor 0.0 0.0 0.0 
+  alpha 1.0
+    bitmap tps01_pipe02
+    verts 8
+     -0.0252972 0.0158273 0.0
+     -0.0252972 -0.0334651 0.0
+     0.0252972 -0.0334651 0.0
+     0.0252972 0.0158273 0.0
+     0.0252972 0.0158273 -0.0896451
+     -0.0252972 0.0158273 -0.0896451
+     0.0252972 -0.0334651 -0.0896451
+     -0.0252972 -0.0334651 -0.0896451
+    faces 10
+     0 1 2  1  0 1 2  1
+     2 3 0  1  2 3 0  1
+     0 3 4  2  0 3 2  5
+     4 5 0  2  2 1 0  5
+     3 2 6  4  0 3 2  4
+     6 4 3  4  2 1 0  4
+     2 1 7  2  0 3 2  6
+     7 6 2  2  2 1 0  6
+     1 0 5  4  0 3 2  3
+     5 7 1  4  2 1 0  3
+    tverts 4
+     0.0590372 0.827464 0
+     0.0590372 0.648124 0
+     0.210747 0.648124 0
+     0.210747 0.827464 0
+endnode
+node trimesh Torus01
+  parent Box55
+  position 0.419 -0.0856742 1.35033
+  orientation 0.57735 -0.57735 0.57735 -4.18879
+  wirecolor 1.0 1.0 1.0 
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     alpha 100.0
+     transparencyhint 0
+     center 0.0 0.0 0.0 
+     gizmo SubAnim:Gizmo
+  ambient 0.0 0.0 0.0 
+  diffuse 0.588 0.588 0.588 
+  specular 0.0 0.0 0.0 
+  shininess 11.0
+  selfillumcolor 0.0 0.0 0.0 
+  alpha 1.0
+    bitmap tps01_fwood12
+    verts 18
+     0.0 0.155851 0.0
+     0.10001 0.057741 0.0233068
+     0.134971 0.077925 0.0
+     0.0 0.115482 0.0233068
+     0.10001 0.057741 -0.0233068
+     0.0 0.115482 -0.0233068
+     0.10001 -0.057741 0.0233068
+     0.134971 -0.077925 0.0
+     0.10001 -0.057741 -0.0233068
+     0.0 -0.115482 0.0233068
+     0.0 -0.155851 0.0
+     0.0 -0.115482 -0.0233068
+     -0.10001 -0.0577409 0.0233068
+     -0.134971 -0.077925 0.0
+     -0.10001 -0.0577409 -0.0233068
+     -0.10001 0.057741 0.0233068
+     -0.134971 0.077925 0.0
+     -0.10001 0.057741 -0.0233068
+    faces 34
+     0 1 2  1  0 1 2  1
+     0 3 1  1  0 3 1  1
+     3 4 1  1  3 4 1  1
+     3 5 4  1  3 5 4  1
+     5 2 4  1  5 6 4  1
+     5 0 2  1  5 7 6  1
+     2 6 7  1  2 8 9  1
+     2 1 6  1  2 1 8  1
+     4 7 8  1  4 10 11  1
+     4 2 7  1  4 6 10  1
+     7 9 10  1  9 12 13  1
+     7 6 9  1  9 8 12  1
+     6 11 9  1  8 14 12  1
+     6 8 11  1  8 11 14  1
+     8 10 11  1  11 15 14  1
+     8 7 10  1  11 10 15  1
+     10 12 13  1  13 16 17  1
+     10 9 12  1  13 12 16  1
+     9 14 12  1  12 18 16  1
+     9 11 14  1  12 14 18  1
+     11 13 14  1  14 19 18  1
+     11 10 13  1  14 15 19  1
+     13 15 16  1  17 20 21  1
+     13 12 15  1  17 16 20  1
+     12 17 15  1  16 22 20  1
+     12 14 17  1  16 18 22  1
+     14 16 17  1  18 23 22  1
+     14 13 16  1  18 19 23  1
+     16 3 0  1  21 24 25  1
+     16 15 3  1  21 20 24  1
+     15 5 3  1  20 26 24  1
+     15 17 5  1  20 22 26  1
+     17 0 5  1  22 27 26  1
+     17 16 0  1  22 23 27  1
+    tverts 28
+     0.896455 0.427914 0
+     0.944596 0.225835 0
+     0.897564 0.226656 0
+     0.943488 0.427093 0
+     0.896913 0.226668 0
+     0.895804 0.427926 0
+     0.943945 0.225847 0
+     0.942836 0.427105 0
+     0.94346 0.425494 0
+     0.896427 0.426315 0
+     0.942808 0.425505 0
+     0.895776 0.426326 0
+     0.944568 0.224236 0
+     0.897536 0.225057 0
+     0.896885 0.225068 0
+     0.943917 0.224247 0
+     0.943432 0.423895 0
+     0.896399 0.424716 0
+     0.895748 0.424727 0
+     0.94278 0.423906 0
+     0.944541 0.222637 0
+     0.897508 0.223458 0
+     0.896857 0.223469 0
+     0.943889 0.222648 0
+     0.943404 0.422296 0
+     0.896372 0.423117 0
+     0.89572 0.423128 0
+     0.942752 0.422307 0
+endnode
+node trimesh Torus02
+  parent Box55
+  position 0.419 0.0855819 1.35033
+  orientation 0.57735 -0.57735 0.57735 -4.18879
+  wirecolor 1.0 1.0 1.0 
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     alpha 100.0
+     transparencyhint 0
+     center 0.0 0.0 -0.00952995 
+     gizmo SubAnim:Gizmo
+  ambient 0.0 0.0 0.0 
+  diffuse 0.588 0.588 0.588 
+  specular 0.0 0.0 0.0 
+  shininess 11.0
+  selfillumcolor 0.0 0.0 0.0 
+  alpha 1.0
+    bitmap tps01_fwood12
+    verts 18
+     0.10001 0.057741 -0.0234021
+     0.0 0.155851 -9.52753e-005
+     0.134971 0.077925 -9.52726e-005
+     0.0 0.115482 -0.0234021
+     0.10001 0.057741 0.0232115
+     0.0 0.115482 0.0232115
+     0.10001 -0.057741 -0.0234021
+     0.134971 -0.077925 -9.52717e-005
+     0.10001 -0.057741 0.0232115
+     0.0 -0.115482 -0.0234021
+     0.0 -0.155851 -9.52734e-005
+     0.0 -0.115482 0.0232115
+     -0.10001 -0.0577409 -0.0234021
+     -0.134971 -0.077925 -9.52761e-005
+     -0.10001 -0.0577409 0.0232115
+     -0.10001 0.057741 -0.0234021
+     -0.134971 0.077925 -9.52771e-005
+     -0.10001 0.057741 0.0232115
+    faces 34
+     0 1 2  1  0 1 2  1
+     3 1 0  1  3 1 0  1
+     4 3 0  1  4 3 0  1
+     5 3 4  1  5 3 4  1
+     2 5 4  1  6 5 4  1
+     1 5 2  1  7 5 6  1
+     6 2 7  1  8 2 9  1
+     0 2 6  1  0 2 8  1
+     7 4 8  1  10 4 11  1
+     2 4 7  1  6 4 10  1
+     9 7 10  1  12 9 13  1
+     6 7 9  1  8 9 12  1
+     11 6 9  1  14 8 12  1
+     8 6 11  1  11 8 14  1
+     10 8 11  1  15 11 14  1
+     7 8 10  1  10 11 15  1
+     12 10 13  1  16 13 17  1
+     9 10 12  1  12 13 16  1
+     14 9 12  1  18 12 16  1
+     11 9 14  1  14 12 18  1
+     13 11 14  1  19 14 18  1
+     10 11 13  1  15 14 19  1
+     15 13 16  1  20 17 21  1
+     12 13 15  1  16 17 20  1
+     17 12 15  1  22 16 20  1
+     14 12 17  1  18 16 22  1
+     16 14 17  1  23 18 22  1
+     13 14 16  1  19 18 23  1
+     3 16 1  1  24 21 25  1
+     15 16 3  1  20 21 24  1
+     5 15 3  1  26 20 24  1
+     17 15 5  1  22 20 26  1
+     1 17 5  1  27 22 26  1
+     16 17 1  1  23 22 27  1
+    tverts 28
+     0.944596 0.225835 0
+     0.896455 0.427914 0
+     0.897564 0.226656 0
+     0.943488 0.427093 0
+     0.896913 0.226668 0
+     0.895804 0.427926 0
+     0.943945 0.225847 0
+     0.942836 0.427105 0
+     0.94346 0.425494 0
+     0.896427 0.426315 0
+     0.942808 0.425505 0
+     0.895776 0.426326 0
+     0.944568 0.224236 0
+     0.897536 0.225057 0
+     0.896885 0.225068 0
+     0.943917 0.224247 0
+     0.943432 0.423895 0
+     0.896399 0.424716 0
+     0.895748 0.424727 0
+     0.94278 0.423906 0
+     0.944541 0.222637 0
+     0.897508 0.223458 0
+     0.896857 0.223469 0
+     0.943889 0.222648 0
+     0.943404 0.422296 0
+     0.896372 0.423117 0
+     0.89572 0.423128 0
+     0.942752 0.422307 0
+endnode
+node trimesh sam
+  parent tps01_gdoor_04
+  position -0.6 -0.0083617 0.0
+  orientation 0.0 0.0 -1.0 -1.5708
+  wirecolor 1.0 1.0 1.0 
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 1.0 
+     rotatetexture 0
+     alpha 0.0
+     transparencyhint 0
+     center 0.797015 -60.3739 89.0999 
+     gizmo SubAnim:Gizmo
+  ambient 0.2 0.2 0.2 
+  diffuse 0.8 0.8 0.8 
+  specular 0.0 0.0 0.0 
+  shininess 6.0
+  selfillumcolor 0.0 0.0 1.0 
+  alpha 0.0
+    bitmap NULL
+    verts 8
+     -0.0069039 -0.00373746 -1.09863e-006
+     -0.0069039 -1.20374 -1.09863e-006
+     -0.0069039 -1.20374 1.782
+     -0.0069039 -0.00373746 1.782
+     0.0228442 -1.20374 -1.09863e-006
+     0.0228442 -0.00373746 -1.09863e-006
+     0.0228442 -1.20374 1.782
+     0.0228442 -0.00373746 1.782
+    faces 4
+     0 1 2  1  0 1 2  18
+     2 3 0  1  2 3 0  18
+     4 5 6  1  1 0 2  18
+     7 6 5  1  3 2 0  18
+    tverts 4
+     0.000499517 0.000499666 0
+     0.49427 0.000499547 0
+     0.494271 0.876312 0
+     0.000499815 0.876312 0
+endnode
+node emitter fire!15
+  parent tps01_gdoor_04
+  position -0.000977052 -0.00637758 0.557343
+  orientation 1.0 0.0 0.0 -3.14159
+  wirecolor 1.0 1.0 1.0 
+     update_sel 3
+     update Explosion
+     render_sel 1
+     render Normal
+     blend_sel 1
+     Blend Normal
+     spawnType 0
+     iconSize 100.0
+     xSize 100.0
+     ySize 99.0
+     inherit 1
+     inherit_local 0
+     inheritvel 0
+     inherit_part 0
+     renderorder 0
+     threshold 0.0
+     combinetime 0.0
+     deadspace 0.0
+     colorStart 0.47451 0.439216 0.364706 
+     colorEnd 0.819608 0.796079 0.709804 
+     alphaStart 1.0
+     alphaEnd 0.0
+     sizeStart 4.0
+     sizeEnd 1.0
+     sizeStart_y 0.0
+     sizeEnd_y 0.0
+     birthrate 10.0
+     lifeExp 2.5
+     mass 0.09
+     spread 2.96706
+     particleRot 0.5
+     velocity 2.0
+     randvel 0.5
+     bounce_co 0.0
+     blurlength 10.0
+     loop 0
+     bounce 0
+     m_isTinted 1
+     Splat 0
+     affectedbyWind false
+     texture fxpa_smoke01
+     twosidedtext 0
+     xgrid 4
+     ygrid 4
+     fps 10
+     frameStart 0
+     frameEnd 24
+     random 0
+     #chunk undefined
+     lightningDelay 0.0
+     lightningRadius 0.0
+     lightningSubDivkey 0
+     lightningScale 0.0
+     blastRadius 0.2
+     blastLength 1.0
+     opacity 0.0
+     p2p 0
+     p2p_type Bezier
+     p2p_sel 1
+     p2p_bezier2 0.0
+     p2p_bezier3 0.0
+     grav 0.0
+     drag 0.0
+     Cone_Angle_Manipulator SubAnim:Cone_Angle_Manipulator
+endnode
+node dummy tps01_gdoor_04head
+  parent tps01_gdoor_04
+  position 0.0 0.0 1.50038
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.337255 0.337255 
+endnode
+node dummy tps01_gdoor_04hhit
+  parent tps01_gdoor_04
+  position 0.0 0.0 1.30504
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.341176 0.878431 0.776471 
+endnode
+node dummy tps01_gdoor_04impc
+  parent tps01_gdoor_04
+  position 0.0 0.0 0.981888
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.341176 0.878431 0.776471 
+endnode
+node dummy tps01_gdoor_04grnd
+  parent tps01_gdoor_04
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.341176 0.878431 0.776471 
+endnode
+endmodelgeom tps01_gdoor_04
+
+#NWmaxANIM ASCII
+newanim opening1 tps01_gdoor_04
+    length 1.0
+    transtime 0.25
+    animroot tps01_gdoor_04
+    node dummy tps01_gdoor_04
+        parent NULL
+    endnode
+    node dummy TIN01_B13_09
+        parent tps01_gdoor_04
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0 0.0
+            0.333333 0.0 0.0 0.0 0.0
+            0.433333 0.0 0.0 1.0 -0.0978099
+            0.533333 0.0 0.0 1.0 -0.13272
+            0.766667 0.0 0.0 1.0 -1.05555
+            0.866667 0.0 0.0 1.0 -1.26079
+            1.0 0.0 0.0 1.0 -1.33518
+        endlist
+    endnode
+    node trimesh Box55
+        parent TIN01_B13_09
+    endnode
+    node trimesh Box08
+        parent Box55
+    endnode
+    node trimesh Box48
+        parent Box55
+    endnode
+    node trimesh Torus01
+        parent Box55
+    endnode
+    node trimesh Torus02
+        parent Box55
+    endnode
+    node trimesh sam
+        parent tps01_gdoor_04
+    endnode
+    node emitter fire!15
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04head
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04hhit
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04impc
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04grnd
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04_DWK
+        parent tps01_gdoor_04
+    endnode
+    node dwk 04_DWK_wg_closed
+        parent tps01_gdoor_04_DWK
+    endnode
+    node dwk 04_DWK_wg_open1
+        parent tps01_gdoor_04_DWK
+    endnode
+    node dwk 04_DWK_wg_open2
+        parent tps01_gdoor_04_DWK
+    endnode
+doneanim opening1 tps01_gdoor_04
+
+
+#NWmaxANIM ASCII
+newanim closing1 tps01_gdoor_04
+    length 0.666667
+    transtime 0.25
+    animroot tps01_gdoor_04
+    node dummy tps01_gdoor_04
+        parent NULL
+    endnode
+    node dummy TIN01_B13_09
+        parent tps01_gdoor_04
+        orientationkey
+            0.0 0.0 0.0 1.0 -1.33518
+            0.0333333 0.0 0.0 1.0 -1.33518
+            0.166667 0.0 0.0 1.0 -1.26422
+            0.366667 0.0 0.0 1.0 -0.967843
+            0.5 0.0 0.0 1.0 -0.06952
+            0.566667 0.0 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Box55
+        parent TIN01_B13_09
+    endnode
+    node trimesh Box08
+        parent Box55
+    endnode
+    node trimesh Box48
+        parent Box55
+    endnode
+    node trimesh Torus01
+        parent Box55
+    endnode
+    node trimesh Torus02
+        parent Box55
+    endnode
+    node trimesh sam
+        parent tps01_gdoor_04
+    endnode
+    node emitter fire!15
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04head
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04hhit
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04impc
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04grnd
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04_DWK
+        parent tps01_gdoor_04
+    endnode
+    node dwk 04_DWK_wg_closed
+        parent tps01_gdoor_04_DWK
+    endnode
+    node dwk 04_DWK_wg_open1
+        parent tps01_gdoor_04_DWK
+    endnode
+    node dwk 04_DWK_wg_open2
+        parent tps01_gdoor_04_DWK
+    endnode
+doneanim closing1 tps01_gdoor_04
+
+
+#NWmaxANIM ASCII
+newanim opening2 tps01_gdoor_04
+    length 1.0
+    transtime 0.25
+    animroot tps01_gdoor_04
+    node dummy tps01_gdoor_04
+        parent NULL
+    endnode
+    node dummy TIN01_B13_09
+        parent tps01_gdoor_04
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0 0.0
+            0.333333 0.0 0.0 0.0 0.0
+            0.433333 0.0 0.0 -1.0 -0.0978
+            0.533333 0.0 0.0 -1.0 -0.13271
+            0.766667 0.0 0.0 -1.0 -1.05555
+            0.866667 0.0 0.0 -1.0 -1.26077
+            1.0 0.0 0.0 -1.0 -1.33517
+        endlist
+    endnode
+    node trimesh Box55
+        parent TIN01_B13_09
+    endnode
+    node trimesh Box08
+        parent Box55
+    endnode
+    node trimesh Box48
+        parent Box55
+    endnode
+    node trimesh Torus01
+        parent Box55
+    endnode
+    node trimesh Torus02
+        parent Box55
+    endnode
+    node trimesh sam
+        parent tps01_gdoor_04
+    endnode
+    node emitter fire!15
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04head
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04hhit
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04impc
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04grnd
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04_DWK
+        parent tps01_gdoor_04
+    endnode
+    node dwk 04_DWK_wg_closed
+        parent tps01_gdoor_04_DWK
+    endnode
+    node dwk 04_DWK_wg_open1
+        parent tps01_gdoor_04_DWK
+    endnode
+    node dwk 04_DWK_wg_open2
+        parent tps01_gdoor_04_DWK
+    endnode
+doneanim opening2 tps01_gdoor_04
+
+
+#NWmaxANIM ASCII
+newanim die tps01_gdoor_04
+    length 0.666667
+    transtime 0.25
+    animroot tps01_gdoor_04
+    event 0.0333333 detonate
+    node dummy tps01_gdoor_04
+        parent NULL
+    endnode
+    node dummy TIN01_B13_09
+        parent tps01_gdoor_04
+        positionkey
+            0.0 -0.6 0.0 -1.46485e-006
+            0.1 -0.537269 0.0 -0.342091
+            0.133333 -0.537269 0.0 -0.491466
+            0.366667 -0.432719 0.0 -0.540628
+            0.666667 0.15773 0.651888 -1.69987
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.133333 -0.735087 -0.0940417 0.671418 -0.204282
+            0.266667 -0.339267 0.674878 0.655315 -0.134367
+            0.333333 -0.483181 0.785363 0.386964 -0.161781
+            0.666667 0.0518315 0.988987 0.138629 -0.722881
+        endlist
+    endnode
+    node trimesh Box55
+        parent TIN01_B13_09
+    endnode
+    node trimesh Box08
+        parent Box55
+    endnode
+    node trimesh Box48
+        parent Box55
+    endnode
+    node trimesh Torus01
+        parent Box55
+    endnode
+    node trimesh Torus02
+        parent Box55
+    endnode
+    node trimesh sam
+        parent tps01_gdoor_04
+    endnode
+    node emitter fire!15
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04head
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04hhit
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04impc
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04grnd
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04_DWK
+        parent tps01_gdoor_04
+    endnode
+    node dwk 04_DWK_wg_closed
+        parent tps01_gdoor_04_DWK
+    endnode
+    node dwk 04_DWK_wg_open1
+        parent tps01_gdoor_04_DWK
+    endnode
+    node dwk 04_DWK_wg_open2
+        parent tps01_gdoor_04_DWK
+    endnode
+doneanim die tps01_gdoor_04
+
+
+#NWmaxANIM ASCII
+newanim closing2 tps01_gdoor_04
+    length 0.633333
+    transtime 0.25
+    animroot tps01_gdoor_04
+    node dummy tps01_gdoor_04
+        parent NULL
+    endnode
+    node dummy TIN01_B13_09
+        parent tps01_gdoor_04
+        positionkey
+            0.633333 -0.6 0.0 -1.46485e-006
+        endlist
+        orientationkey
+            0.0 0.0 0.0 -1.0 -1.33517
+            0.0333333 0.0 0.0 -1.0 -1.33517
+            0.166667 0.0 0.0 -1.0 -1.26421
+            0.366667 0.0 0.0 -1.0 -0.96783
+            0.5 0.0 0.0 -1.0 -0.0695101
+            0.633333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Box55
+        parent TIN01_B13_09
+    endnode
+    node trimesh Box08
+        parent Box55
+    endnode
+    node trimesh Box48
+        parent Box55
+    endnode
+    node trimesh Torus01
+        parent Box55
+    endnode
+    node trimesh Torus02
+        parent Box55
+    endnode
+    node trimesh sam
+        parent tps01_gdoor_04
+    endnode
+    node emitter fire!15
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04head
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04hhit
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04impc
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04grnd
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04_DWK
+        parent tps01_gdoor_04
+    endnode
+    node dwk 04_DWK_wg_closed
+        parent tps01_gdoor_04_DWK
+    endnode
+    node dwk 04_DWK_wg_open1
+        parent tps01_gdoor_04_DWK
+    endnode
+    node dwk 04_DWK_wg_open2
+        parent tps01_gdoor_04_DWK
+    endnode
+doneanim closing2 tps01_gdoor_04
+
+
+#NWmaxANIM ASCII
+newanim closed tps01_gdoor_04
+    length 0.0333333
+    transtime 0.25
+    animroot tps01_gdoor_04
+    node dummy tps01_gdoor_04
+        parent NULL
+    endnode
+    node dummy TIN01_B13_09
+        parent tps01_gdoor_04
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Box55
+        parent TIN01_B13_09
+    endnode
+    node trimesh Box08
+        parent Box55
+    endnode
+    node trimesh Box48
+        parent Box55
+    endnode
+    node trimesh Torus01
+        parent Box55
+    endnode
+    node trimesh Torus02
+        parent Box55
+    endnode
+    node trimesh sam
+        parent tps01_gdoor_04
+    endnode
+    node emitter fire!15
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04head
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04hhit
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04impc
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04grnd
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04_DWK
+        parent tps01_gdoor_04
+    endnode
+    node dwk 04_DWK_wg_closed
+        parent tps01_gdoor_04_DWK
+    endnode
+    node dwk 04_DWK_wg_open1
+        parent tps01_gdoor_04_DWK
+    endnode
+    node dwk 04_DWK_wg_open2
+        parent tps01_gdoor_04_DWK
+    endnode
+doneanim closed tps01_gdoor_04
+
+
+#NWmaxANIM ASCII
+newanim opened2 tps01_gdoor_04
+    length 0.0333333
+    transtime 0.25
+    animroot tps01_gdoor_04
+    node dummy tps01_gdoor_04
+        parent NULL
+    endnode
+    node dummy TIN01_B13_09
+        parent tps01_gdoor_04
+        orientationkey
+            0.0 0.0 0.0 -1.0 -1.33517
+            0.0333333 0.0 0.0 -1.0 -1.33517
+        endlist
+    endnode
+    node trimesh Box55
+        parent TIN01_B13_09
+    endnode
+    node trimesh Box08
+        parent Box55
+    endnode
+    node trimesh Box48
+        parent Box55
+    endnode
+    node trimesh Torus01
+        parent Box55
+    endnode
+    node trimesh Torus02
+        parent Box55
+    endnode
+    node trimesh sam
+        parent tps01_gdoor_04
+    endnode
+    node emitter fire!15
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04head
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04hhit
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04impc
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04grnd
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04_DWK
+        parent tps01_gdoor_04
+    endnode
+    node dwk 04_DWK_wg_closed
+        parent tps01_gdoor_04_DWK
+    endnode
+    node dwk 04_DWK_wg_open1
+        parent tps01_gdoor_04_DWK
+    endnode
+    node dwk 04_DWK_wg_open2
+        parent tps01_gdoor_04_DWK
+    endnode
+doneanim opened2 tps01_gdoor_04
+
+
+#NWmaxANIM ASCII
+newanim opened1 tps01_gdoor_04
+    length 0.0333333
+    transtime 0.25
+    animroot tps01_gdoor_04
+    node dummy tps01_gdoor_04
+        parent NULL
+    endnode
+    node dummy TIN01_B13_09
+        parent tps01_gdoor_04
+        orientationkey
+            0.0 0.0 0.0 1.0 -1.33518
+            0.0333333 0.0 0.0 1.0 -1.33518
+        endlist
+    endnode
+    node trimesh Box55
+        parent TIN01_B13_09
+    endnode
+    node trimesh Box08
+        parent Box55
+    endnode
+    node trimesh Box48
+        parent Box55
+    endnode
+    node trimesh Torus01
+        parent Box55
+    endnode
+    node trimesh Torus02
+        parent Box55
+    endnode
+    node trimesh sam
+        parent tps01_gdoor_04
+    endnode
+    node emitter fire!15
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04head
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04hhit
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04impc
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04grnd
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04_DWK
+        parent tps01_gdoor_04
+    endnode
+    node dwk 04_DWK_wg_closed
+        parent tps01_gdoor_04_DWK
+    endnode
+    node dwk 04_DWK_wg_open1
+        parent tps01_gdoor_04_DWK
+    endnode
+    node dwk 04_DWK_wg_open2
+        parent tps01_gdoor_04_DWK
+    endnode
+doneanim opened1 tps01_gdoor_04
+
+
+#NWmaxANIM ASCII
+newanim trans tps01_gdoor_04
+    length 0.0333333
+    transtime 0.25
+    animroot tps01_gdoor_04
+    node dummy tps01_gdoor_04
+        parent NULL
+    endnode
+    node dummy TIN01_B13_09
+        parent tps01_gdoor_04
+    endnode
+    node trimesh Box55
+        parent TIN01_B13_09
+    endnode
+    node trimesh Box08
+        parent Box55
+    endnode
+    node trimesh Box48
+        parent Box55
+    endnode
+    node trimesh Torus01
+        parent Box55
+    endnode
+    node trimesh Torus02
+        parent Box55
+    endnode
+    node trimesh sam
+        parent tps01_gdoor_04
+    endnode
+    node emitter fire!15
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04head
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04hhit
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04impc
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04grnd
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04_DWK
+        parent tps01_gdoor_04
+    endnode
+    node dwk 04_DWK_wg_closed
+        parent tps01_gdoor_04_DWK
+    endnode
+    node dwk 04_DWK_wg_open1
+        parent tps01_gdoor_04_DWK
+    endnode
+    node dwk 04_DWK_wg_open2
+        parent tps01_gdoor_04_DWK
+    endnode
+doneanim trans tps01_gdoor_04
+
+
+#NWmaxANIM ASCII
+newanim dead tps01_gdoor_04
+    length 0.0333333
+    transtime 0.25
+    animroot tps01_gdoor_04
+    node dummy tps01_gdoor_04
+        parent NULL
+    endnode
+    node dummy TIN01_B13_09
+        parent tps01_gdoor_04
+        positionkey
+            0.0 0.15773 0.651888 -1.69987
+            0.0333333 0.15773 0.651888 -1.69987
+        endlist
+        orientationkey
+            0.0 0.0518315 0.988987 0.138629 -0.722881
+            0.0333333 0.0518315 0.988987 0.138629 -0.722881
+        endlist
+    endnode
+    node trimesh Box55
+        parent TIN01_B13_09
+    endnode
+    node trimesh Box08
+        parent Box55
+    endnode
+    node trimesh Box48
+        parent Box55
+    endnode
+    node trimesh Torus01
+        parent Box55
+    endnode
+    node trimesh Torus02
+        parent Box55
+    endnode
+    node trimesh sam
+        parent tps01_gdoor_04
+    endnode
+    node emitter fire!15
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04head
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04hhit
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04impc
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04grnd
+        parent tps01_gdoor_04
+    endnode
+    node dummy tps01_gdoor_04_DWK
+        parent tps01_gdoor_04
+    endnode
+    node dwk 04_DWK_wg_closed
+        parent tps01_gdoor_04_DWK
+    endnode
+    node dwk 04_DWK_wg_open1
+        parent tps01_gdoor_04_DWK
+    endnode
+    node dwk 04_DWK_wg_open2
+        parent tps01_gdoor_04_DWK
+    endnode
+doneanim dead tps01_gdoor_04
+
+donemodel tps01_gdoor_04

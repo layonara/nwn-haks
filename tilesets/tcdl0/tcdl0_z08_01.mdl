@@ -1,0 +1,39 @@
+#MAXMODEL ASCII
+# model: tcdl0_z08_01
+filedependancy tcdl0_z08_01.max
+newmodel tcdl0_z08_01
+setsupermodel tcdl0_z08_01 null
+classification tile
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom tcdl0_z08_01
+node dummy tcdl0_z08_01
+  parent NULL
+  #part-number 0
+endnode
+node trimesh plane1931
+  parent tcdl0_z08_01
+  #part-number 1
+  ambient 0 0 0
+  diffuse 0 0 0
+  specular 0 0 0
+  shininess 10
+  shadow 0
+  bitmap tcdl0_black8_00
+  verts 4
+    5 -5 0
+    5 5 0
+    -5 -5 0
+    -5 5 0
+  faces 2
+    0 1 2 1 0 0 0 65536
+    3 2 1 1 0 0 0 65536
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position 0 0 -5.69999981
+  orientation 0 0 0 0
+endnode
+endmodelgeom tcdl0_z08_01
+
+donemodel tcdl0_z08_01

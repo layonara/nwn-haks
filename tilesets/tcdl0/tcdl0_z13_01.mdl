@@ -1,0 +1,214 @@
+#MAXMODEL ASCII
+# model: tcdl0_z13_01
+filedependancy tcdl0_z13_01.max
+newmodel tcdl0_z13_01
+setsupermodel tcdl0_z13_01 null
+classification tile
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom tcdl0_z13_01
+node dummy tcdl0_z13_01
+  parent NULL
+  #part-number 0
+endnode
+node dummy tcdl0_z13_01a
+  parent tcdl0_z13_01
+  #part-number 1
+  position 0 0 0
+  orientation 0 0 -1 -3.14159012
+endnode
+node trimesh water174
+  parent tcdl0_z13_01a
+  #part-number 2
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  shadow 0
+  transparencyhint 1
+  rotatetexture 1
+  bitmap tcdl0_darkwater
+  verts 4
+    -5 -5 0
+    5 5 0
+    -5 5 0
+    5 -5 0
+  tverts 4
+    -0.498046994 -0.492188007 0
+    1.50195003 1.50781 0
+    -0.498046994 1.50781 0
+    1.50195003 -0.492188007 0
+  faces 2
+    0 1 2 1 0 1 2 2
+    0 3 1 1 0 3 1 2
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position 0 0 -0.5
+  orientation 0 0 1 -3.14159012
+endnode
+node trimesh box166
+  parent tcdl0_z13_01
+  #part-number 3
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  shadow 0
+  bitmap tcdl0_colstn
+  verts 8
+    -5 0.129999995 -0.119999997
+    -5 0.129999995 0.129999995
+    5 0.129999995 0.119999997
+    5 0.129999995 -0.129999995
+    -5 -0.129999995 0.129999995
+    5 -0.129999995 0.119999997
+    -5 -0.129999995 -0.119999997
+    5 -0.129999995 -0.129999995
+  tverts 12
+    0.673828006 4.25 0
+    0.423828006 4.25 0
+    0.423828006 -5.75 0
+    0.673828006 -5.75 0
+    -0.625 4.25 0
+    -0.875 4.25 0
+    -0.875 -5.75 0
+    -0.625 -5.75 0
+    0.574218988 4.25 0
+    0.324218988 4.25 0
+    0.324218988 -5.75 0
+    0.574218988 -5.75 0
+  faces 6
+    0 1 2 1 0 1 2 3
+    2 3 0 1 2 3 0 3
+    1 4 5 2 4 5 6 5
+    5 2 1 2 6 7 4 5
+    4 6 7 1 8 9 10 2
+    7 5 4 1 10 11 8 2
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position 0 0 0
+  orientation 0 0 0 0
+endnode
+node dummy floor23
+  parent tcdl0_z13_01
+  #part-number 4
+  position 0 0.0299999993 0
+  orientation 0 0 0 0
+endnode
+node trimesh floor23_pivoted
+  parent floor23
+  #part-number 5
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  rotatetexture 1
+  bitmap tcdl0_flrgen1
+  verts 4
+    -5 -2.5 0.100000001
+    5 2.5 0.100000001
+    -5 2.5 0.100000001
+    5 -2.5 0.100000001
+  tverts 4
+    0 2 0
+    2 -2 0
+    2 2 0
+    0 -2 0
+  faces 2
+    0 1 2 1 0 1 2 2
+    0 3 1 1 0 3 1 2
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position 0 2.5 -0.100000001
+  orientation 0 0 0 0
+endnode
+node trimesh midwall03
+  parent tcdl0_z13_01
+  #part-number 6
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  shadow 0
+  bitmap tcdl0_wallgen
+  verts 4
+    -5 0 -1.75
+    5 0 -1.75
+    5 0 1.75
+    -5 0 1.75
+  tverts 4
+    -1.5 -0.201171994 0
+    2.5 -0.201171994 0
+    2.5 1.19921994 0
+    -1.5 1.19921994 0
+  faces 2
+    0 1 2 1 0 1 2 2
+    0 2 3 1 0 2 3 2
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position 0 0 -1.75
+  orientation 0 0 0 0
+endnode
+node trimesh 2
+  parent tcdl0_z13_01
+  #part-number 7
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  shadow 0
+  bitmap tcdl0_wallfade
+  verts 4
+    -5 0 -1.25
+    5 0 -1.25
+    5 0 1.25
+    -5 0 1.25
+  tverts 4
+    -1.5 0 0
+    2.5 0 0
+    2.5 1 0
+    -1.5 1 0
+  faces 2
+    0 1 2 1 0 1 2 2
+    0 2 3 1 0 2 3 2
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position 0 0 -4.75
+  orientation 0 0 0 0
+endnode
+node trimesh watfloor02
+  parent tcdl0_z13_01
+  #part-number 8
+  ambient 0 0 0
+  diffuse 0 0 0
+  specular 0 0 0
+  shininess 10
+  shadow 0
+  bitmap tcdl0_black8_00
+  verts 4
+    5 5 0
+    -5 5 0
+    5 -5 0
+    -5 -5 0
+  tverts 4
+    0 0.998046994 0
+    0 0 0
+    0.998046994 0.998046994 0
+    0.998046994 0 0
+  faces 2
+    0 1 2 1 0 1 2 65536
+    3 2 1 1 3 2 1 65536
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position 0 0 -6
+  orientation 0 0 0 0
+endnode
+endmodelgeom tcdl0_z13_01
+
+donemodel tcdl0_z13_01

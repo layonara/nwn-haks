@@ -1,0 +1,4643 @@
+# Exported from NWmax 0.8 b60 at 25.01.2012 19:14:59
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: trm01_v01_03
+#local file: Unknown
+filedependancy Unknown
+newmodel trm01_v01_03
+setsupermodel trm01_v01_03 NULL
+classification Tile
+#NWmax GEOM  ASCII
+beginmodelgeom trm01_v01_03
+node dummy trm01_v01_03
+  parent NULL
+endnode
+node light trm01_v01_03ml1
+  parent trm01_v01_03
+  position -1.5 -1.5 8.5
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.54902 0.337255 0.882353 
+  radius 14.0
+  multiplier 1.0
+  color 0.639216 0.639216 0.639216 
+  ambientonly 0
+  nDynamicType 1
+  affectDynamic 1
+  shadow 0
+  lightpriority 5
+  fadingLight 1
+endnode
+node light trm01_v01_03ml2
+  parent trm01_v01_03
+  position 1.5 1.5 9.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.219608 0.0313726 0.529412 
+  radius 5.0
+  multiplier 1.0
+  color 0.639216 0.639216 0.639216 
+  ambientonly 0
+  nDynamicType 1
+  affectDynamic 1
+  shadow 0
+  lightpriority 5
+  fadingLight 1
+endnode
+node aabb wok
+  parent trm01_v01_03
+  position 0.0 0.0 -2.25
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.337255 0.337255 
+  multimaterial 20
+    Dirt
+    Obscuring
+    Grass
+    Stone
+    Wood
+    Water
+    Nonwalk
+    Transparent
+    Carpet
+    Metal
+    Puddles
+    Swamp
+    Mud
+    Leaves
+    Lava
+    BottomlessPit
+    DeepWater
+    Door
+    Snow
+    Sand
+  ambient 0.0 0.0 0.0 
+  diffuse 0.0 0.501961 0.0 
+  specular 0.0 0.0 0.0 
+  shininess 10.0
+  bitmap Grass
+  verts 29
+    -5.0 -5.0 7.25
+    -2.5 -5.0 7.25
+    0.0 -5.0 7.25
+    2.5 -5.0 7.25
+    -5.0 -2.5 7.25
+    -3.81 -2.5 7.25
+    -0.99 -3.74 7.25
+    2.14 -3.35 7.25
+    5.0 -5.0 7.25
+    5.0 5.0 7.25
+    5.0 2.5 7.25
+    2.6 3.66 7.25
+    2.6 5.0 7.25
+    5.0 0.0 7.25
+    4.23 -0.49 7.25
+    5.0 -2.5 7.25
+    3.66 0.98 7.25
+    -5.0 -1.6 7.25
+    -3.87 -1.58 7.25
+    -1.37 -2.89 7.25
+    0.9 -2.45 7.45
+    1.59 3.11 7.25
+    1.6 5.0 7.25
+    2.6 -0.86 7.65
+    2.63 1.17 7.75
+    -5.0 5.0 -7.75
+    -2.83 2.93 -7.75
+    -5.0 1.6 -7.75
+    -1.6 5.0 -7.75
+  faces 40
+    0 1 5  2  0 1 5  3
+    5 4 0  2  5 4 0  3
+    1 2 6  2  1 2 6  3
+    6 5 1  2  6 5 1  3
+    8 7 3  2  9 8 3  3
+    4 5 18  2  4 5 19  3
+    18 17 4  2  19 18 4  3
+    5 6 19  2  5 6 20  3
+    19 18 5  2  20 19 5  3
+    7 20 19  2  8 23 20  3
+    19 6 7  2  20 6 8  3
+    2 3 7  2  2 3 8  3
+    7 6 2  2  8 6 2  3
+    11 10 9  2  12 11 10  3
+    9 12 11  2  10 13 12  3
+    10 11 16  2  11 12 17  3
+    10 16 14  2  11 17 15  3
+    10 14 13  2  11 15 14  3
+    7 8 15  2  8 9 16  3
+    21 11 12  2  25 12 13  3
+    12 22 21  2  13 26 25  3
+    24 16 11  2  30 17 12  3
+    11 21 24  2  12 25 30  3
+    7 14 23  2  8 15 27  3
+    23 20 7  2  27 23 8  3
+    15 13 14  2  16 14 15  3
+    14 7 15  2  15 8 16  3
+    16 24 23  2  17 30 27  3
+    23 14 16  2  27 15 17  3
+    26 25 27  2  32 31 33  3
+    25 26 28  2  31 35 36  3
+    27 17 18  0  33 18 19  7
+    28 21 22  0  36 25 26  7
+    21 28 26  0  25 36 32  7
+    26 27 18  0  32 33 19  7
+    26 19 20  0  32 20 23  7
+    26 23 24  0  32 27 30  7
+    24 21 26  0  30 25 32  7
+    26 18 19  0  32 19 20  7
+    26 20 23  0  32 23 27  7
+  tverts 37
+    0.000999033 0.000999451 0
+    0.500499 0.000999331 0
+    1.0 0.000999212 0
+    1.4995 0.000999093 0
+    0.000999153 0.5005 0
+    0.239134 0.5005 0
+    0.801514 0.251837 0
+    0.000999808 1.999 0
+    1.42675 0.329708 0
+    1.999 0.000998974 0
+    1.999 1.999 0
+    1.999 1.4995 0
+    1.4995 1.73118 0
+    1.4995 1.999 0
+    1.999 0.999999 0
+    1.8249 0.901753 0
+    1.999 0.500499 0
+    1.7121 1.19647 0
+    0.000999212 0.7003 0
+    0.227675 0.703913 0
+    0.725388 0.442511 0
+    0.316622 1.2997 0
+    0.000999331 1.2997 0
+    1.1798 0.531268 0
+    0.453713 1.56544 0
+    1.29702 1.62123 0
+    1.2997 1.999 0
+    1.49903 0.828839 0
+    0.7003 1.74926 0
+    0.7003 1.999 0
+    1.50595 1.23334 0
+    0.000999808 1.999 0
+    0.316622 1.2997 0
+    0.000999331 1.2997 0
+    0.453713 1.56544 0
+    0.7003 1.74926 0
+    0.7003 1.999 0
+    aabb         -5.0 -5.0 -7.75 5.0 5.0 7.75 -1
+        -5.0 -2.89 -7.75 2.63 5.0 7.75 -1
+        -5.0 -1.58 -7.75 1.59 5.0 7.25 -1
+        -5.0 1.6 -7.75 -1.6 5.0 -7.75 -1
+        -5.0 1.6 -7.75 -2.83 5.0 -7.75 29
+        -5.0 2.93 -7.75 -1.6 5.0 -7.75 30
+        -5.0 -1.58 -7.75 1.59 5.0 7.25 -1
+        -5.0 -1.58 -7.75 -2.83 2.93 7.25 34
+        -2.83 2.93 -7.75 1.59 5.0 7.25 33
+        -5.0 -2.89 -7.75 2.63 5.0 7.75 -1
+        -5.0 -2.89 -7.75 1.6 5.0 7.45 -1
+        -5.0 -2.89 -7.75 1.6 5.0 7.25 -1
+        -5.0 -2.89 -7.75 -1.37 2.93 7.25 -1
+        -5.0 -1.6 -7.75 -3.87 1.6 7.25 31
+        -3.87 -2.89 -7.75 -1.37 2.93 7.25 38
+        -1.6 3.11 -7.75 1.6 5.0 7.25 32
+        -2.83 -2.89 -7.75 0.9 2.93 7.45 35
+        -2.83 -2.45 -7.75 2.63 3.11 7.75 -1
+        -2.83 -2.45 -7.75 2.63 3.11 7.75 -1
+        -2.83 1.17 -7.75 2.63 3.11 7.75 37
+        -2.83 -2.45 -7.75 2.6 2.93 7.65 39
+        -2.83 -0.86 -7.75 2.63 2.93 7.75 36
+        -5.0 -5.0 7.25 5.0 5.0 7.75 -1
+        -5.0 -5.0 7.25 2.14 -1.58 7.45 -1
+        -5.0 -5.0 7.25 -0.99 -1.58 7.25 -1
+        -5.0 -5.0 7.25 -3.81 -1.58 7.25 -1
+        -5.0 -5.0 7.25 -3.81 -2.5 7.25 1
+        -5.0 -2.5 7.25 -3.81 -1.58 7.25 -1
+        -5.0 -2.5 7.25 -3.87 -1.58 7.25 6
+        -5.0 -2.5 7.25 -3.81 -1.58 7.25 5
+        -5.0 -5.0 7.25 -0.99 -1.58 7.25 -1
+        -5.0 -5.0 7.25 -2.5 -2.5 7.25 0
+        -3.87 -5.0 7.25 -0.99 -1.58 7.25 -1
+        -3.81 -5.0 7.25 -0.99 -2.5 7.25 3
+        -3.87 -2.89 7.25 -1.37 -1.58 7.25 8
+        -3.81 -5.0 7.25 2.14 -2.45 7.45 -1
+        -3.81 -5.0 7.25 0.0 -2.5 7.25 -1
+        -3.81 -3.74 7.25 -0.99 -2.5 7.25 7
+        -2.5 -5.0 7.25 0.0 -3.74 7.25 2
+        -1.37 -5.0 7.25 2.14 -2.45 7.45 -1
+        -1.37 -3.74 7.25 2.14 -2.89 7.25 10
+        -1.37 -5.0 7.25 2.14 -2.45 7.45 -1
+        -0.99 -5.0 7.25 2.14 -3.35 7.25 12
+        -1.37 -3.35 7.25 2.14 -2.45 7.45 9
+        0.0 -5.0 7.25 5.0 5.0 7.75 -1
+        0.0 -5.0 7.25 5.0 0.98 7.65 -1
+        0.0 -5.0 7.25 5.0 -2.5 7.25 -1
+        0.0 -5.0 7.25 2.5 -3.35 7.25 11
+        2.14 -5.0 7.25 5.0 -2.5 7.25 -1
+        2.14 -5.0 7.25 5.0 -3.35 7.25 4
+        2.14 -5.0 7.25 5.0 -2.5 7.25 18
+        0.9 -3.35 7.25 5.0 0.98 7.65 -1
+        0.9 -3.35 7.25 5.0 -0.49 7.65 -1
+        0.9 -3.35 7.25 2.6 -0.86 7.65 24
+        2.14 -3.35 7.25 5.0 -0.49 7.65 -1
+        2.14 -3.35 7.25 4.23 -0.49 7.65 23
+        2.14 -3.35 7.25 5.0 -0.49 7.25 26
+        2.6 -2.5 7.25 5.0 0.98 7.65 -1
+        4.23 -2.5 7.25 5.0 0.0 7.25 25
+        2.6 -0.86 7.25 4.23 0.98 7.65 28
+        1.59 -0.86 7.25 5.0 5.0 7.75 -1
+        2.6 -0.86 7.25 5.0 3.66 7.75 -1
+        2.6 -0.86 7.25 5.0 2.5 7.75 -1
+        2.6 -0.86 7.25 5.0 2.5 7.75 -1
+        2.6 -0.86 7.25 3.66 1.17 7.75 27
+        4.23 -0.49 7.25 5.0 2.5 7.25 17
+        3.66 -0.49 7.25 5.0 2.5 7.25 16
+        2.6 0.98 7.25 5.0 3.66 7.75 -1
+        2.6 0.98 7.25 3.66 3.66 7.75 21
+        2.6 0.98 7.25 5.0 3.66 7.25 15
+        1.59 1.17 7.25 5.0 5.0 7.75 -1
+        1.59 1.17 7.25 5.0 5.0 7.75 -1
+        1.59 1.17 7.25 2.63 3.66 7.75 22
+        2.6 2.5 7.25 5.0 5.0 7.25 13
+        1.59 3.11 7.25 5.0 5.0 7.25 -1
+        1.59 3.11 7.25 2.6 5.0 7.25 -1
+        1.59 3.11 7.25 2.6 5.0 7.25 19
+        1.59 3.11 7.25 2.6 5.0 7.25 20
+        2.6 3.66 7.25 5.0 5.0 7.25 14
+endnode
+#Tile trimesh node
+node trimesh ground01
+  parent trm01_v01_03
+  position 0.0 0.0 5.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.337255 0.337255 0.337255 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 1
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 -725.0 
+  bitmap trm01_grass01
+  verts 31
+    -5.0 -5.0 0.0
+    -2.5 -5.0 0.0
+    0.0 -5.0 0.0
+    2.5 -5.0 0.0
+    -5.0 -2.5 0.0
+    -3.81 -2.5 0.0
+    -0.99 -3.74 0.0
+    2.14 -3.35 0.0
+    5.0 -5.0 0.0
+    5.0 5.0 0.0
+    5.0 2.5 0.0
+    2.5 3.66 0.0
+    2.5 5.0 0.0
+    5.0 0.0 0.0
+    4.13 -0.49 0.0
+    5.0 -2.5 0.0
+    3.56 0.98 0.0
+    -5.0 -1.5 0.0
+    -3.87 -1.48 0.0
+    -1.37 -2.79 0.0
+    0.9 -2.35 0.2
+    1.49 3.11 0.0
+    1.5 5.0 0.0
+    2.5 -0.86 0.4
+    2.53 1.17 0.5
+    -5.0 5.0 -15.0
+    -3.42 1.5 -15.0
+    -5.0 1.5 -15.0
+    -2.73 2.83 -15.0
+    -1.5 3.75 -15.0
+    -1.5 5.0 -15.0
+  faces 33
+    0 1 5  2  0 1 5  1
+    5 4 0  2  5 4 0  1
+    1 2 6  2  1 2 6  1
+    6 5 1  2  6 5 1  1
+    8 7 3  2  8 7 3  1
+    4 5 18  2  4 5 18  1
+    18 17 4  2  18 17 4  1
+    5 6 19  2  5 6 19  1
+    19 18 5  2  19 18 5  1
+    7 20 19  2  7 20 19  1
+    19 6 7  2  19 6 7  1
+    2 3 7  2  2 3 7  1
+    7 6 2  2  7 6 2  1
+    11 10 9  2  11 10 9  1
+    9 12 11  2  9 12 11  1
+    10 11 16  2  10 11 16  1
+    10 16 14  2  10 16 14  1
+    10 14 13  2  10 14 13  1
+    7 8 15  2  7 8 15  1
+    21 11 12  2  21 11 12  1
+    12 22 21  2  12 22 21  1
+    24 16 11  2  24 16 11  1
+    11 21 24  2  11 21 24  1
+    7 14 23  2  7 14 23  1
+    23 20 7  2  23 20 7  1
+    15 13 14  2  15 13 14  1
+    14 7 15  2  14 7 15  1
+    16 24 23  2  16 24 23  1
+    23 14 16  2  23 14 16  1
+    27 26 28  2  27 26 28  2
+    28 25 27  2  28 25 27  2
+    28 29 30  2  28 29 30  2
+    30 25 28  2  30 25 28  2
+  tverts 31
+    0.000999033 0.00099951 0
+    0.500499 0.000999391 0
+    1.0 0.000999272 0
+    1.4995 0.000999153 0
+    0.000999153 0.5005 0
+    0.238761 0.5005 0
+    0.802198 0.252747 0
+    1.42757 0.330669 0
+    1.999 0.000999033 0
+    1.999 1.999 0
+    1.999 1.4995 0
+    1.4995 1.73127 0
+    1.4995 1.999 0
+    1.999 1.0 0
+    1.82517 0.902098 0
+    1.999 0.500499 0
+    1.71129 1.1958 0
+    0.000999212 0.7003 0
+    0.226773 0.704296 0
+    0.726274 0.442558 0
+    1.17982 0.53047 0
+    1.2977 1.62138 0
+    1.2997 1.999 0
+    1.4995 0.828172 0
+    1.50549 1.23377 0
+    0.00099951 1.999 0
+    0.316684 1.2997 0
+    0.000999331 1.2997 0
+    0.454546 1.56543 0
+    0.7003 1.74925 0
+    0.7003 1.999 0
+endnode
+#Tile trimesh node
+node trimesh cliff
+  parent trm01_v01_03
+  position -2.75 2.75 -7.5
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.337255 0.337255 0.337255 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 0.0 
+  bitmap trm01_cliff01
+  verts 10
+    -0.67 -1.25 -2.5
+    -2.25 -1.25 -2.5
+    -2.25 -2.25 2.5
+    -1.63 -2.25 2.5
+    0.02 0.08 -2.5
+    0.32 -0.22 2.0
+    1.25 1.0 -2.5
+    2.25 2.25 2.5
+    2.25 0.78 2.5
+    1.25 2.25 -2.5
+  faces 8
+    0 1 2  1  0 1 2  3
+    2 3 0  1  2 3 0  3
+    3 5 4  1  3 5 4  3
+    4 0 3  1  4 0 3  3
+    7 9 6  1  7 9 6  3
+    8 6 4  1  8 6 4  3
+    4 5 8  1  4 5 8  3
+    6 8 7  1  6 8 7  3
+  tverts 20
+    0.4 0.0 0
+    0.0 0.0 0
+    0.0 1.0 0
+    0.2 1.0 0
+    1.0 0.0 0
+    1.0 1.0 0
+    1.6 0.0 0
+    2.0 1.0 0
+    1.7 1.0 0
+    2.0 0.0 0
+    0.4 0.0 0
+    0.0 0.0 0
+    0.0 1.0 0
+    0.2 1.0 0
+    1.0 1.0 0
+    1.0 0.0 0
+    2.0 1.0 0
+    2.0 0.0 0
+    1.6 0.0 0
+    1.7 1.0 0
+endnode
+#Tile trimesh node
+node trimesh cliff
+  parent trm01_v01_03
+  position -2.16 2.16 -2.75
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.419608 0.0313726 0.529412 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 0.0 
+  bitmap trm01_cliff02
+  verts 12
+    -2.84 -1.66 -2.25
+    -2.22 -1.66 -2.25
+    -0.27 0.37 -2.75
+    1.17 -1.56 2.75
+    1.66 2.84 -2.25
+    1.66 1.37 -2.25
+    -2.56 -2.73 2.75
+    -2.84 -2.84 2.75
+    -0.22 -2.44 2.75
+    2.84 2.84 2.75
+    1.97 0.06 2.75
+    2.51 1.78 2.75
+  faces 10
+    8 1 6  1  8 1 6  2
+    6 1 0  1  6 1 0  2
+    6 0 7  1  6 0 7  2
+    8 2 1  1  8 2 1  2
+    2 8 3  1  2 8 3  2
+    10 5 2  1  10 5 2  2
+    2 3 10  1  2 3 10  2
+    11 5 10  1  11 5 10  2
+    9 4 11  1  9 4 11  2
+    4 5 11  1  4 5 11  2
+  tverts 12
+    0.0 0.0 0
+    0.2 0.0 0
+    1.0 0.0 0
+    1.0 1.0 0
+    2.0 0.0 0
+    1.6 0.0 0
+    0.1 1.0 0
+    0.0 1.0 0
+    0.666667 1.0 0
+    2.0 1.0 0
+    1.33333 1.0 0
+    1.7 1.0 0
+endnode
+#Tile trimesh node
+node trimesh cliff
+  parent trm01_v01_03
+  position -1.24 1.1 2.75
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.337255 0.337255 0.337255 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.5 0.5 0.0 
+  bitmap trm01_wtcliff01
+  verts 33
+    -3.76 -2.6 2.25
+    -2.63 -2.58 2.25
+    -0.13 -3.89 2.25
+    -2.45 -2.34 1.95
+    -3.76 -2.3 1.95
+    -0.13 -3.59 1.95
+    -3.76 -2.6 0.75
+    -2.63 -2.58 0.75
+    -0.13 -3.89 0.88
+    2.14 -3.45 2.45
+    1.93 -3.08 2.16
+    1.29 -2.72 1.35
+    0.25 -0.5 -2.75
+    2.73 2.01 2.25
+    2.74 3.9 2.25
+    3.74 -1.96 2.65
+    2.47 1.86 1.95
+    2.44 3.9 1.95
+    3.33 -1.93 2.36
+    2.73 2.01 0.75
+    2.74 3.9 0.75
+    2.77 -1.23 1.55
+    3.49 0.22 1.55
+    3.49 0.1 2.45
+    3.77 0.07 2.75
+    -3.48 -1.67 -2.75
+    -3.76 -1.78 -2.75
+    -0.05 -1.94 -0.38
+    -1.14 -1.38 -2.75
+    1.92 3.9 -2.75
+    1.05 1.12 -2.75
+    2.01 -0.77 -1.16
+    1.59 2.84 -2.75
+  faces 45
+    4 0 1  1  4 0 1  1
+    1 3 4  1  1 3 4  1
+    3 1 2  1  3 1 2  1
+    2 5 3  1  2 5 3  1
+    5 2 9  1  5 2 9  1
+    9 10 5  1  9 10 5  1
+    4 3 7  1  4 3 7  1
+    7 6 4  1  7 6 4  1
+    3 5 8  1  3 5 8  1
+    8 7 3  1  8 7 3  1
+    11 8 5  1  11 8 5  1
+    5 10 11  1  5 10 11  1
+    7 25 26  1  7 25 26  1
+    26 6 7  1  26 6 7  1
+    8 11 27  1  8 11 27  1
+    27 28 25  1  27 28 25  1
+    7 8 27  1  7 8 27  1
+    27 25 7  1  27 25 7  1
+    13 14 17  1  13 14 17  1
+    17 16 13  1  17 16 13  1
+    24 13 16  1  24 13 16  1
+    16 23 24  1  16 23 24  1
+    9 15 18  1  9 15 18  1
+    18 10 9  1  18 10 9  1
+    19 16 17  1  19 16 17  1
+    17 20 19  1  17 20 19  1
+    19 22 23  1  19 22 23  1
+    23 16 19  1  23 16 19  1
+    21 11 10  1  21 11 10  1
+    10 18 21  1  10 18 21  1
+    20 32 30  1  20 32 30  1
+    27 11 21  1  27 11 21  1
+    21 31 27  1  21 31 27  1
+    12 31 30  1  12 31 30  1
+    22 21 18  1  22 21 18  1
+    18 23 22  1  18 23 22  1
+    18 15 24  1  18 15 24  1
+    24 23 18  1  24 23 18  1
+    27 12 28  1  27 12 28  1
+    31 12 27  1  31 12 27  1
+    31 21 22  1  31 21 22  1
+    31 22 19  1  31 22 19  1
+    30 19 20  1  30 19 20  1
+    31 19 30  1  31 19 30  1
+    20 29 32  1  20 29 32  1
+  tverts 42
+    0.0 1.0 0
+    0.192681 1.0 0
+    0.6 1.0 0
+    0.257296 0.9 0
+    0.0 0.9 0
+    0.6 0.9 0
+    0.0 0.636364 0
+    0.3 0.7 0
+    0.6 0.7 0
+    0.9 1.0 0
+    0.9 0.9 0
+    0.9 0.7 0
+    1.0 0.0 0
+    1.8 1.0 0
+    2.0 1.0 0
+    1.2 1.0 0
+    1.8 0.9 0
+    2.0 0.9 0
+    1.2096 0.9 0
+    1.72345 0.636364 0
+    2.0 0.636364 0
+    1.23114 0.781818 0
+    1.5 0.8 0
+    1.5 0.9 0
+    1.5 1.0 0
+    0.1 0.0 0
+    0.0 0.0 0
+    0.8 0.3 0
+    0.666667 0.0 0
+    2.0 0.0 0
+    1.33333 0.0 0
+    1.18499 0.289091 0
+    1.66667 0.0 0
+    0.8 0.3 0
+    0.9 0.7 0
+    1.23114 0.781818 0
+    1.18499 0.289091 0
+    1.0 0.0 0
+    1.33333 0.0 0
+    1.5 0.8 0
+    1.72345 0.636364 0
+    2.0 0.636364 0
+endnode
+node dummy trm01_v01_03a
+  parent trm01_v01_03
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.721569 0.607843 0.898039 
+endnode
+node danglymesh bush36
+  parent trm01_v01_03a
+  position -2.69901 -2.86044 5.13259
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 82.5 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0.0 0.0 82.5 
+  bitmap trm01_bush01
+  verts 6
+    0.0 1.29 -0.25
+    0.0 -1.29 -0.25
+    0.0 0.0 1.9
+    0.0 -1.29 -0.25
+    0.0 0.0 1.9
+    0.0 1.29 -0.25
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    112.838
+    0.0
+    112.838
+    0.0
+endnode
+node danglymesh bush37
+  parent trm01_v01_03a
+  position -2.69901 -2.86044 4.95726
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 100.5 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0.0 0.0 100.5 
+  bitmap trm01_bush01
+  verts 6
+    1.12 0.64 -0.07
+    -1.12 -0.64 -0.07
+    0.0 0.0 2.08
+    -1.12 -0.64 -0.07
+    0.0 0.0 2.08
+    1.12 0.64 -0.07
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    138.0
+    0.0
+    138.0
+    0.0
+endnode
+node danglymesh bush38
+  parent trm01_v01_03a
+  position -2.69901 -2.86044 4.95726
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 100.5 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0.0 0.0 100.5 
+  bitmap trm01_bush01
+  verts 6
+    -1.12 0.64 -0.07
+    1.12 -0.64 -0.07
+    0.0 0.0 2.08
+    1.12 -0.64 -0.07
+    0.0 0.0 2.08
+    -1.12 0.64 -0.07
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    168.0
+    0.0
+    168.0
+    0.0
+endnode
+node danglymesh bush39
+  parent trm01_v01_03a
+  position -2.44962 -2.79925 5.16544
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center -0.5 -0.5 60.0 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -0.5 -0.5 60.0 
+  bitmap trm01_bush01
+  verts 6
+    -0.87 0.64 -0.18
+    0.64 -0.87 -0.18
+    0.86 0.86 1.38
+    0.64 -0.87 -0.18
+    0.86 0.86 1.38
+    -0.87 0.64 -0.18
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    119.0
+    0.0
+    119.0
+    0.0
+endnode
+node danglymesh bush40
+  parent trm01_v01_03a
+  position -2.62425 -3.10405 5.16544
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center -1.50001 -48.0 60.0 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -1.50001 -48.0 60.0 
+  bitmap trm01_bush01
+  verts 6
+    1.05 0.25 -0.18
+    -1.08 0.07 -0.18
+    0.11 -1.21 1.38
+    -1.08 0.07 -0.18
+    0.11 -1.21 1.38
+    1.05 0.25 -0.18
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    112.0
+    0.0
+    112.0
+    0.0
+endnode
+node danglymesh bush41
+  parent trm01_v01_03a
+  position -2.95058 -2.8869 5.16544
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center -13.0 -9.0 60.0 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -13.0 -9.0 60.0 
+  bitmap trm01_bush01
+  verts 6
+    -0.48 -0.97 -0.18
+    0.74 0.79 -0.18
+    -1.0 0.7 1.38
+    0.74 0.79 -0.18
+    -1.0 0.7 1.38
+    -0.48 -0.97 -0.18
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    104.0
+    0.0
+    104.0
+    0.0
+endnode
+node danglymesh bush42
+  parent trm01_v01_03a
+  position -3.63758 -3.14113 5.18536
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 99.0 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0.0 0.0 99.0 
+  bitmap trm01_bush01
+  verts 6
+    -0.77 1.34 -0.3
+    0.77 -1.34 -0.3
+    0.0 0.0 2.28
+    0.77 -1.34 -0.3
+    0.0 0.0 2.28
+    -0.77 1.34 -0.3
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    112.838
+    0.0
+    112.838
+    0.0
+endnode
+node danglymesh bush43
+  parent trm01_v01_03a
+  position -3.63758 -3.14113 4.97498
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 120.0 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0.0 0.0 120.0 
+  bitmap trm01_bush01
+  verts 6
+    0.77 1.34 -0.09
+    -0.77 -1.34 -0.09
+    0.0 0.0 2.49
+    -0.77 -1.34 -0.09
+    0.0 0.0 2.49
+    0.77 1.34 -0.09
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    138.0
+    0.0
+    138.0
+    0.0
+endnode
+node danglymesh bush44
+  parent trm01_v01_03a
+  position -3.63758 -3.14113 4.97498
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 120.0 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0.0 0.0 120.0 
+  bitmap trm01_bush01
+  verts 6
+    -1.55 0.0 -0.09
+    1.55 0.0 -0.09
+    0.0 0.0 2.49
+    1.55 0.0 -0.09
+    0.0 0.0 2.49
+    -1.55 0.0 -0.09
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    168.0
+    0.0
+    168.0
+    0.0
+endnode
+node danglymesh bush45
+  parent trm01_v01_03a
+  position -3.41512 -2.92791 5.22478
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center -5.0 44.5 72.0 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -5.0 44.5 72.0 
+  bitmap trm01_bush01
+  verts 6
+    -1.29 0.15 -0.22
+    1.19 -0.52 -0.22
+    0.38 1.41 1.66
+    1.19 -0.52 -0.22
+    0.38 1.41 1.66
+    -1.29 0.15 -0.22
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    119.0
+    0.0
+    119.0
+    0.0
+endnode
+node danglymesh bush46
+  parent trm01_v01_03a
+  position -3.41372 -3.34944 5.22478
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center -11.0 -15.5 72.0 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -11.0 -15.5 72.0 
+  bitmap trm01_bush01
+  verts 6
+    0.94 0.89 -0.22
+    -1.16 -0.58 -0.22
+    0.84 -1.2 1.66
+    -1.16 -0.58 -0.22
+    0.84 -1.2 1.66
+    0.94 0.89 -0.22
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    112.0
+    0.0
+    112.0
+    0.0
+endnode
+node danglymesh bush47
+  parent trm01_v01_03a
+  position -3.88314 -3.31957 5.22478
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center -58.0 -2.0 72.0 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -58.0 -2.0 72.0 
+  bitmap trm01_bush01
+  verts 6
+    0.08 -1.3 -0.22
+    0.3 1.26 -0.22
+    -1.46 0.12 1.66
+    0.3 1.26 -0.22
+    -1.46 0.12 1.66
+    0.08 -1.3 -0.22
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    104.0
+    0.0
+    104.0
+    0.0
+endnode
+node danglymesh bush48
+  parent trm01_v01_03a
+  position -1.14723 -3.88874 5.04067
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 58.0 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0.0 0.0 58.0 
+  bitmap trm01_bush01
+  verts 6
+    0.0 0.9 -0.17
+    0.0 -0.9 -0.17
+    0.0 0.0 1.33
+    0.0 -0.9 -0.17
+    0.0 0.0 1.33
+    0.0 0.9 -0.17
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    112.838
+    0.0
+    112.838
+    0.0
+endnode
+node danglymesh bush49
+  parent trm01_v01_03a
+  position -1.14723 -3.88874 4.91794
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 70.5 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0.0 0.0 70.5 
+  bitmap trm01_bush01
+  verts 6
+    0.78 0.45 -0.05
+    -0.78 -0.45 -0.05
+    0.0 0.0 1.46
+    -0.78 -0.45 -0.05
+    0.0 0.0 1.46
+    0.78 0.45 -0.05
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    138.0
+    0.0
+    138.0
+    0.0
+endnode
+node danglymesh bush50
+  parent trm01_v01_03a
+  position -1.14723 -3.88874 4.91794
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 70.5 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0.0 0.0 70.5 
+  bitmap trm01_bush01
+  verts 6
+    -0.78 0.45 -0.05
+    0.78 -0.45 -0.05
+    0.0 0.0 1.46
+    0.78 -0.45 -0.05
+    0.0 0.0 1.46
+    -0.78 0.45 -0.05
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    168.0
+    0.0
+    168.0
+    0.0
+endnode
+node danglymesh bush51
+  parent trm01_v01_03a
+  position -0.972664 -3.84591 5.06367
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center -0.499998 -0.499998 42.0 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -0.499998 -0.499998 42.0 
+  bitmap trm01_bush01
+  verts 6
+    -0.61 0.45 -0.13
+    0.45 -0.61 -0.13
+    0.6 0.6 0.97
+    0.45 -0.61 -0.13
+    0.6 0.6 0.97
+    -0.61 0.45 -0.13
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.014554 0.000111094 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.014554 0.000111094 0
+  constraints 6
+    0.0
+    0.0
+    119.0
+    0.0
+    119.0
+    0.0
+endnode
+node danglymesh bush52
+  parent trm01_v01_03a
+  position -1.0949 -4.05927 5.06367
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center -1.0 -33.5 42.0 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -1.0 -33.5 42.0 
+  bitmap trm01_bush01
+  verts 6
+    0.74 0.18 -0.13
+    -0.76 0.05 -0.13
+    0.08 -0.85 0.97
+    -0.76 0.05 -0.13
+    0.08 -0.85 0.97
+    0.74 0.18 -0.13
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    112.0
+    0.0
+    112.0
+    0.0
+endnode
+node danglymesh bush53
+  parent trm01_v01_03a
+  position -1.32333 -3.90726 5.06367
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center -9.0 -6.5 42.0 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -9.0 -6.5 42.0 
+  bitmap trm01_bush01
+  verts 6
+    -0.34 -0.68 -0.13
+    0.52 0.55 -0.13
+    -0.7 0.49 0.97
+    0.52 0.55 -0.13
+    -0.7 0.49 0.97
+    -0.34 -0.68 -0.13
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    104.0
+    0.0
+    104.0
+    0.0
+endnode
+node danglymesh bush54
+  parent trm01_v01_03a
+  position -1.80423 -4.08522 5.07762
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 69.5 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0.0 0.0 69.5 
+  bitmap trm01_bush01
+  verts 6
+    -0.54 0.94 -0.21
+    0.54 -0.94 -0.21
+    0.0 0.0 1.6
+    0.54 -0.94 -0.21
+    0.0 0.0 1.6
+    -0.54 0.94 -0.21
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    112.838
+    0.0
+    112.838
+    0.0
+endnode
+node danglymesh bush55
+  parent trm01_v01_03a
+  position -1.80423 -4.08522 4.93034
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 84.5 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0.0 0.0 84.5 
+  bitmap trm01_bush01
+  verts 6
+    0.54 0.94 -0.06
+    -0.54 -0.94 -0.06
+    0.0 0.0 1.75
+    -0.54 -0.94 -0.06
+    0.0 0.0 1.75
+    0.54 0.94 -0.06
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    138.0
+    0.0
+    138.0
+    0.0
+endnode
+node danglymesh bush56
+  parent trm01_v01_03a
+  position -1.80423 -4.08522 4.93034
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 84.5 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0.0 0.0 84.5 
+  bitmap trm01_bush01
+  verts 6
+    -1.08 0.0 -0.06
+    1.08 0.0 -0.06
+    0.0 0.0 1.75
+    1.08 0.0 -0.06
+    0.0 0.0 1.75
+    -1.08 0.0 -0.06
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    168.0
+    0.0
+    168.0
+    0.0
+endnode
+node danglymesh bush57
+  parent trm01_v01_03a
+  position -1.64851 -3.93597 5.10521
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center -3.5 31.5 50.5 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -3.5 31.5 50.5 
+  bitmap trm01_bush01
+  verts 6
+    -0.9 0.1 -0.15
+    0.83 -0.36 -0.15
+    0.26 0.99 1.16
+    0.83 -0.36 -0.15
+    0.26 0.99 1.16
+    -0.9 0.1 -0.15
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    119.0
+    0.0
+    119.0
+    0.0
+endnode
+node danglymesh bush58
+  parent trm01_v01_03a
+  position -1.64753 -4.23104 5.10521
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center -7.5 -10.5 50.5 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -7.5 -10.5 50.5 
+  bitmap trm01_bush01
+  verts 6
+    0.66 0.63 -0.15
+    -0.81 -0.41 -0.15
+    0.59 -0.84 1.16
+    -0.81 -0.41 -0.15
+    0.59 -0.84 1.16
+    0.66 0.63 -0.15
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    112.0
+    0.0
+    112.0
+    0.0
+endnode
+node danglymesh bush59
+  parent trm01_v01_03a
+  position -1.97612 -4.21013 5.10521
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center -40.5 -1.5 50.5 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -40.5 -1.5 50.5 
+  bitmap trm01_bush01
+  verts 6
+    0.05 -0.91 -0.15
+    0.21 0.88 -0.15
+    -1.02 0.09 1.16
+    0.21 0.88 -0.15
+    -1.02 0.09 1.16
+    0.05 -0.91 -0.15
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    104.0
+    0.0
+    104.0
+    0.0
+endnode
+node danglymesh bush84
+  parent trm01_v01_03a
+  position 2.15736 -2.70939 5.13259
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 82.5 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0.0 0.0 82.5 
+  bitmap trm01_bush01
+  verts 6
+    0.0 1.29 -0.25
+    0.0 -1.29 -0.25
+    0.0 0.0 1.9
+    0.0 -1.29 -0.25
+    0.0 0.0 1.9
+    0.0 1.29 -0.25
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.014554 0.000111094 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.014554 0.000111094 0
+  constraints 6
+    0.0
+    0.0
+    112.838
+    0.0
+    112.838
+    0.0
+endnode
+node danglymesh bush85
+  parent trm01_v01_03a
+  position 2.15736 -2.70939 4.95726
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 100.5 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0.0 0.0 100.5 
+  bitmap trm01_bush01
+  verts 6
+    1.12 0.64 -0.07
+    -1.12 -0.64 -0.07
+    0.0 0.0 2.08
+    -1.12 -0.64 -0.07
+    0.0 0.0 2.08
+    1.12 0.64 -0.07
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.014554 0.000111094 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.014554 0.000111094 0
+  constraints 6
+    0.0
+    0.0
+    138.0
+    0.0
+    138.0
+    0.0
+endnode
+node danglymesh bush86
+  parent trm01_v01_03a
+  position 2.15736 -2.70939 4.95726
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 100.5 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0.0 0.0 100.5 
+  bitmap trm01_bush01
+  verts 6
+    -1.12 0.64 -0.07
+    1.12 -0.64 -0.07
+    0.0 0.0 2.08
+    1.12 -0.64 -0.07
+    0.0 0.0 2.08
+    -1.12 0.64 -0.07
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.014554 0.000111094 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.014554 0.000111094 0
+  constraints 6
+    0.0
+    0.0
+    168.0
+    0.0
+    168.0
+    0.0
+endnode
+node danglymesh bush87
+  parent trm01_v01_03a
+  position 2.30015 -2.92281 5.16544
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center -0.5 -0.5 60.0 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -0.5 -0.5 60.0 
+  bitmap trm01_bush01
+  verts 6
+    -0.87 0.64 -0.18
+    0.64 -0.87 -0.18
+    0.86 0.86 1.38
+    0.64 -0.87 -0.18
+    0.86 0.86 1.38
+    -0.87 0.64 -0.18
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.014554 0.000111094 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.014554 0.000111094 0
+  constraints 6
+    0.0
+    0.0
+    119.0
+    0.0
+    119.0
+    0.0
+endnode
+node danglymesh bush88
+  parent trm01_v01_03a
+  position 1.95401 -2.86296 5.16544
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center -1.50001 -48.0 60.0 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -1.50001 -48.0 60.0 
+  bitmap trm01_bush01
+  verts 6
+    1.05 0.25 -0.18
+    -1.08 0.07 -0.18
+    0.11 -1.21 1.38
+    -1.08 0.07 -0.18
+    0.11 -1.21 1.38
+    1.05 0.25 -0.18
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.014554 0.000111094 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.014554 0.000111094 0
+  constraints 6
+    0.0
+    0.0
+    112.0
+    0.0
+    112.0
+    0.0
+endnode
+node danglymesh bush89
+  parent trm01_v01_03a
+  position 2.04645 -2.48204 5.16544
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center -13.0 -9.0 60.0 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -13.0 -9.0 60.0 
+  bitmap trm01_bush01
+  verts 6
+    -0.48 -0.97 -0.18
+    0.74 0.79 -0.18
+    -1.0 0.7 1.38
+    0.74 0.79 -0.18
+    -1.0 0.7 1.38
+    -0.48 -0.97 -0.18
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.014554 0.000111094 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.014554 0.000111094 0
+  constraints 6
+    0.0
+    0.0
+    104.0
+    0.0
+    104.0
+    0.0
+endnode
+node danglymesh bush90
+  parent trm01_v01_03a
+  position 1.57258 -1.92343 5.18536
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 99.0 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0.0 0.0 99.0 
+  bitmap trm01_bush01
+  verts 6
+    -0.77 1.34 -0.3
+    0.77 -1.34 -0.3
+    0.0 0.0 2.28
+    0.77 -1.34 -0.3
+    0.0 0.0 2.28
+    -0.77 1.34 -0.3
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.014554 0.000111094 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.014554 0.000111094 0
+  constraints 6
+    0.0
+    0.0
+    112.838
+    0.0
+    112.838
+    0.0
+endnode
+node danglymesh bush91
+  parent trm01_v01_03a
+  position 1.57258 -1.92343 4.97498
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 120.0 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0.0 0.0 120.0 
+  bitmap trm01_bush01
+  verts 6
+    0.77 1.34 -0.09
+    -0.77 -1.34 -0.09
+    0.0 0.0 2.49
+    -0.77 -1.34 -0.09
+    0.0 0.0 2.49
+    0.77 1.34 -0.09
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.014554 0.000111094 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.014554 0.000111094 0
+  constraints 6
+    0.0
+    0.0
+    138.0
+    0.0
+    138.0
+    0.0
+endnode
+node danglymesh bush92
+  parent trm01_v01_03a
+  position 1.57258 -1.92343 4.97498
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 120.0 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0.0 0.0 120.0 
+  bitmap trm01_bush01
+  verts 6
+    -1.55 0.0 -0.09
+    1.55 0.0 -0.09
+    0.0 0.0 2.49
+    1.55 0.0 -0.09
+    0.0 0.0 2.49
+    -1.55 0.0 -0.09
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.014554 0.000111094 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.014554 0.000111094 0
+  constraints 6
+    0.0
+    0.0
+    168.0
+    0.0
+    168.0
+    0.0
+endnode
+node danglymesh bush93
+  parent trm01_v01_03a
+  position 1.84903 -2.05954 5.22478
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center -5.0 44.5 72.0 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -5.0 44.5 72.0 
+  bitmap trm01_bush01
+  verts 6
+    -1.29 0.15 -0.22
+    1.19 -0.52 -0.22
+    0.38 1.41 1.66
+    1.19 -0.52 -0.22
+    0.38 1.41 1.66
+    -1.29 0.15 -0.22
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.014554 0.000111094 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.014554 0.000111094 0
+  constraints 6
+    0.0
+    0.0
+    119.0
+    0.0
+    119.0
+    0.0
+endnode
+node danglymesh bush94
+  parent trm01_v01_03a
+  position 1.4534 -2.20503 5.22478
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center -11.0 -15.5 72.0 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -11.0 -15.5 72.0 
+  bitmap trm01_bush01
+  verts 6
+    0.94 0.89 -0.22
+    -1.16 -0.58 -0.22
+    0.84 -1.2 1.66
+    -1.16 -0.58 -0.22
+    0.84 -1.2 1.66
+    0.94 0.89 -0.22
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.014554 0.000111094 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.014554 0.000111094 0
+  constraints 6
+    0.0
+    0.0
+    112.0
+    0.0
+    112.0
+    0.0
+endnode
+node danglymesh bush95
+  parent trm01_v01_03a
+  position 1.32092 -1.7537 5.22478
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center -58.0 -2.0 72.0 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -58.0 -2.0 72.0 
+  bitmap trm01_bush01
+  verts 6
+    0.08 -1.3 -0.22
+    0.3 1.26 -0.22
+    -1.46 0.12 1.66
+    0.3 1.26 -0.22
+    -1.46 0.12 1.66
+    0.08 -1.3 -0.22
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.014554 0.000111094 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.014554 0.000111094 0
+  constraints 6
+    0.0
+    0.0
+    104.0
+    0.0
+    104.0
+    0.0
+endnode
+node danglymesh bush96
+  parent trm01_v01_03a
+  position 1.72181 -4.51928 5.04067
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 58.0 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0.0 0.0 58.0 
+  bitmap trm01_bush01
+  verts 6
+    0.0 0.9 -0.17
+    0.0 -0.9 -0.17
+    0.0 0.0 1.33
+    0.0 -0.9 -0.17
+    0.0 0.0 1.33
+    0.0 0.9 -0.17
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    112.838
+    0.0
+    112.838
+    0.0
+endnode
+node danglymesh bush97
+  parent trm01_v01_03a
+  position 1.72181 -4.51928 4.91794
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 70.5 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0.0 0.0 70.5 
+  bitmap trm01_bush01
+  verts 6
+    0.78 0.45 -0.05
+    -0.78 -0.45 -0.05
+    0.0 0.0 1.46
+    -0.78 -0.45 -0.05
+    0.0 0.0 1.46
+    0.78 0.45 -0.05
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    138.0
+    0.0
+    138.0
+    0.0
+endnode
+node danglymesh bush98
+  parent trm01_v01_03a
+  position 1.72181 -4.51928 4.91794
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 70.5 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0.0 0.0 70.5 
+  bitmap trm01_bush01
+  verts 6
+    -0.78 0.45 -0.05
+    0.78 -0.45 -0.05
+    0.0 0.0 1.46
+    0.78 -0.45 -0.05
+    0.0 0.0 1.46
+    -0.78 0.45 -0.05
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    168.0
+    0.0
+    168.0
+    0.0
+endnode
+node danglymesh bush99
+  parent trm01_v01_03a
+  position 1.82176 -4.66867 5.06367
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center -0.499998 -0.499998 42.0 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -0.499998 -0.499998 42.0 
+  bitmap trm01_bush01
+  verts 6
+    -0.61 0.45 -0.13
+    0.45 -0.61 -0.13
+    0.6 0.6 0.97
+    0.45 -0.61 -0.13
+    0.6 0.6 0.97
+    -0.61 0.45 -0.13
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    119.0
+    0.0
+    119.0
+    0.0
+endnode
+node danglymesh bush100
+  parent trm01_v01_03a
+  position 1.57947 -4.62678 5.06367
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center -1.0 -33.5 42.0 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -1.0 -33.5 42.0 
+  bitmap trm01_bush01
+  verts 6
+    0.74 0.18 -0.13
+    -0.76 0.05 -0.13
+    0.08 -0.85 0.97
+    -0.76 0.05 -0.13
+    0.08 -0.85 0.97
+    0.74 0.18 -0.13
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.014554 0.000111094 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.014554 0.000111094 0
+  constraints 6
+    0.0
+    0.0
+    112.0
+    0.0
+    112.0
+    0.0
+endnode
+node danglymesh bush101
+  parent trm01_v01_03a
+  position 1.64417 -4.36014 5.06367
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center -9.0 -6.5 42.0 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -9.0 -6.5 42.0 
+  bitmap trm01_bush01
+  verts 6
+    -0.34 -0.68 -0.13
+    0.52 0.55 -0.13
+    -0.7 0.49 0.97
+    0.52 0.55 -0.13
+    -0.7 0.49 0.97
+    -0.34 -0.68 -0.13
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.014554 0.000111094 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.014554 0.000111094 0
+  constraints 6
+    0.0
+    0.0
+    104.0
+    0.0
+    104.0
+    0.0
+endnode
+node danglymesh bush102
+  parent trm01_v01_03a
+  position 1.31247 -3.96911 5.07762
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 69.5 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0.0 0.0 69.5 
+  bitmap trm01_bush01
+  verts 6
+    -0.54 0.94 -0.21
+    0.54 -0.94 -0.21
+    0.0 0.0 1.6
+    0.54 -0.94 -0.21
+    0.0 0.0 1.6
+    -0.54 0.94 -0.21
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    112.838
+    0.0
+    112.838
+    0.0
+endnode
+node danglymesh bush103
+  parent trm01_v01_03a
+  position 1.31247 -3.96911 4.93034
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 84.5 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0.0 0.0 84.5 
+  bitmap trm01_bush01
+  verts 6
+    0.54 0.94 -0.06
+    -0.54 -0.94 -0.06
+    0.0 0.0 1.75
+    -0.54 -0.94 -0.06
+    0.0 0.0 1.75
+    0.54 0.94 -0.06
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    138.0
+    0.0
+    138.0
+    0.0
+endnode
+node danglymesh bush104
+  parent trm01_v01_03a
+  position 1.31247 -3.96911 4.93034
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 84.5 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0.0 0.0 84.5 
+  bitmap trm01_bush01
+  verts 6
+    -1.08 0.0 -0.06
+    1.08 0.0 -0.06
+    0.0 0.0 1.75
+    1.08 0.0 -0.06
+    0.0 0.0 1.75
+    -1.08 0.0 -0.06
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    168.0
+    0.0
+    168.0
+    0.0
+endnode
+node danglymesh bush105
+  parent trm01_v01_03a
+  position 1.50598 -4.06438 5.10521
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center -3.5 31.5 50.5 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -3.5 31.5 50.5 
+  bitmap trm01_bush01
+  verts 6
+    -0.9 0.1 -0.15
+    0.83 -0.36 -0.15
+    0.26 0.99 1.16
+    0.83 -0.36 -0.15
+    0.26 0.99 1.16
+    -0.9 0.1 -0.15
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    119.0
+    0.0
+    119.0
+    0.0
+endnode
+node danglymesh bush106
+  parent trm01_v01_03a
+  position 1.22904 -4.16623 5.10521
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center -7.5 -10.5 50.5 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -7.5 -10.5 50.5 
+  bitmap trm01_bush01
+  verts 6
+    0.66 0.63 -0.15
+    -0.81 -0.41 -0.15
+    0.59 -0.84 1.16
+    -0.81 -0.41 -0.15
+    0.59 -0.84 1.16
+    0.66 0.63 -0.15
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.014554 0.000111094 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.014554 0.000111094 0
+  constraints 6
+    0.0
+    0.0
+    112.0
+    0.0
+    112.0
+    0.0
+endnode
+node danglymesh bush107
+  parent trm01_v01_03a
+  position 1.1363 -3.8503 5.10521
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center -40.5 -1.5 50.5 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -40.5 -1.5 50.5 
+  bitmap trm01_bush01
+  verts 6
+    0.05 -0.91 -0.15
+    0.21 0.88 -0.15
+    -1.02 0.09 1.16
+    0.21 0.88 -0.15
+    -1.02 0.09 1.16
+    0.05 -0.91 -0.15
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.014554 0.000111094 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.014554 0.000111094 0
+  constraints 6
+    0.0
+    0.0
+    104.0
+    0.0
+    104.0
+    0.0
+endnode
+node danglymesh bush108
+  parent trm01_v01_03a
+  position 3.58608 3.46889 5.13259
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 82.5 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0.0 0.0 82.5 
+  bitmap trm01_bush01
+  verts 6
+    0.0 1.29 -0.25
+    0.0 -1.29 -0.25
+    0.0 0.0 1.9
+    0.0 -1.29 -0.25
+    0.0 0.0 1.9
+    0.0 1.29 -0.25
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.014554 0.000111094 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.014554 0.000111094 0
+  constraints 6
+    0.0
+    0.0
+    112.838
+    0.0
+    112.838
+    0.0
+endnode
+node danglymesh bush109
+  parent trm01_v01_03a
+  position 3.58608 3.46889 4.95726
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 100.5 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0.0 0.0 100.5 
+  bitmap trm01_bush01
+  verts 6
+    1.12 0.64 -0.07
+    -1.12 -0.64 -0.07
+    0.0 0.0 2.08
+    -1.12 -0.64 -0.07
+    0.0 0.0 2.08
+    1.12 0.64 -0.07
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.014554 0.000111094 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.014554 0.000111094 0
+  constraints 6
+    0.0
+    0.0
+    138.0
+    0.0
+    138.0
+    0.0
+endnode
+node danglymesh bush110
+  parent trm01_v01_03a
+  position 3.58608 3.46889 4.95726
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 100.5 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0.0 0.0 100.5 
+  bitmap trm01_bush01
+  verts 6
+    -1.12 0.64 -0.07
+    1.12 -0.64 -0.07
+    0.0 0.0 2.08
+    1.12 -0.64 -0.07
+    0.0 0.0 2.08
+    -1.12 0.64 -0.07
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.014554 0.000111094 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.014554 0.000111094 0
+  constraints 6
+    0.0
+    0.0
+    168.0
+    0.0
+    168.0
+    0.0
+endnode
+node danglymesh bush111
+  parent trm01_v01_03a
+  position 3.72887 3.25547 5.16544
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center -0.5 -0.5 60.0 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -0.5 -0.5 60.0 
+  bitmap trm01_bush01
+  verts 6
+    -0.87 0.64 -0.18
+    0.64 -0.87 -0.18
+    0.86 0.86 1.38
+    0.64 -0.87 -0.18
+    0.86 0.86 1.38
+    -0.87 0.64 -0.18
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.014554 0.000111094 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.014554 0.000111094 0
+  constraints 6
+    0.0
+    0.0
+    119.0
+    0.0
+    119.0
+    0.0
+endnode
+node danglymesh bush112
+  parent trm01_v01_03a
+  position 3.38272 3.31532 5.16544
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center -1.50001 -48.0 60.0 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -1.50001 -48.0 60.0 
+  bitmap trm01_bush01
+  verts 6
+    1.05 0.25 -0.18
+    -1.08 0.07 -0.18
+    0.11 -1.21 1.38
+    -1.08 0.07 -0.18
+    0.11 -1.21 1.38
+    1.05 0.25 -0.18
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.014554 0.000111094 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.014554 0.000111094 0
+  constraints 6
+    0.0
+    0.0
+    112.0
+    0.0
+    112.0
+    0.0
+endnode
+node danglymesh bush113
+  parent trm01_v01_03a
+  position 3.47516 3.69624 5.16544
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center -13.0 -9.0 60.0 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -13.0 -9.0 60.0 
+  bitmap trm01_bush01
+  verts 6
+    -0.48 -0.97 -0.18
+    0.74 0.79 -0.18
+    -1.0 0.7 1.38
+    0.74 0.79 -0.18
+    -1.0 0.7 1.38
+    -0.48 -0.97 -0.18
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.014554 0.000111094 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.014554 0.000111094 0
+  constraints 6
+    0.0
+    0.0
+    104.0
+    0.0
+    104.0
+    0.0
+endnode
+node danglymesh bush114
+  parent trm01_v01_03a
+  position 3.0013 4.25485 5.18536
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 99.0 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0.0 0.0 99.0 
+  bitmap trm01_bush01
+  verts 6
+    -0.77 1.34 -0.3
+    0.77 -1.34 -0.3
+    0.0 0.0 2.28
+    0.77 -1.34 -0.3
+    0.0 0.0 2.28
+    -0.77 1.34 -0.3
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    112.838
+    0.0
+    112.838
+    0.0
+endnode
+node danglymesh bush115
+  parent trm01_v01_03a
+  position 3.0013 4.25485 4.97498
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 120.0 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0.0 0.0 120.0 
+  bitmap trm01_bush01
+  verts 6
+    0.77 1.34 -0.09
+    -0.77 -1.34 -0.09
+    0.0 0.0 2.49
+    -0.77 -1.34 -0.09
+    0.0 0.0 2.49
+    0.77 1.34 -0.09
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    138.0
+    0.0
+    138.0
+    0.0
+endnode
+node danglymesh bush116
+  parent trm01_v01_03a
+  position 3.0013 4.25485 4.97498
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 120.0 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0.0 0.0 120.0 
+  bitmap trm01_bush01
+  verts 6
+    -1.55 0.0 -0.09
+    1.55 0.0 -0.09
+    0.0 0.0 2.49
+    1.55 0.0 -0.09
+    0.0 0.0 2.49
+    -1.55 0.0 -0.09
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    168.0
+    0.0
+    168.0
+    0.0
+endnode
+node danglymesh bush117
+  parent trm01_v01_03a
+  position 3.27775 4.11874 5.22478
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center -5.0 44.5 72.0 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -5.0 44.5 72.0 
+  bitmap trm01_bush01
+  verts 6
+    -1.29 0.15 -0.22
+    1.19 -0.52 -0.22
+    0.38 1.41 1.66
+    1.19 -0.52 -0.22
+    0.38 1.41 1.66
+    -1.29 0.15 -0.22
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    119.0
+    0.0
+    119.0
+    0.0
+endnode
+node danglymesh bush118
+  parent trm01_v01_03a
+  position 2.88212 3.97325 5.22478
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center -11.0 -15.5 72.0 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -11.0 -15.5 72.0 
+  bitmap trm01_bush01
+  verts 6
+    0.94 0.89 -0.22
+    -1.16 -0.58 -0.22
+    0.84 -1.2 1.66
+    -1.16 -0.58 -0.22
+    0.84 -1.2 1.66
+    0.94 0.89 -0.22
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    112.0
+    0.0
+    112.0
+    0.0
+endnode
+node danglymesh bush119
+  parent trm01_v01_03a
+  position 2.74963 4.42458 5.22478
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center -58.0 -2.0 72.0 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -58.0 -2.0 72.0 
+  bitmap trm01_bush01
+  verts 6
+    0.08 -1.3 -0.22
+    0.3 1.26 -0.22
+    -1.46 0.12 1.66
+    0.3 1.26 -0.22
+    -1.46 0.12 1.66
+    0.08 -1.3 -0.22
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    104.0
+    0.0
+    104.0
+    0.0
+endnode
+node danglymesh bush120
+  parent trm01_v01_03a
+  position 3.15052 1.659 5.04067
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 58.0 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0.0 0.0 58.0 
+  bitmap trm01_bush01
+  verts 6
+    0.0 0.9 -0.17
+    0.0 -0.9 -0.17
+    0.0 0.0 1.33
+    0.0 -0.9 -0.17
+    0.0 0.0 1.33
+    0.0 0.9 -0.17
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    112.838
+    0.0
+    112.838
+    0.0
+endnode
+node danglymesh bush121
+  parent trm01_v01_03a
+  position 3.15052 1.659 4.91794
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 70.5 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0.0 0.0 70.5 
+  bitmap trm01_bush01
+  verts 6
+    0.78 0.45 -0.05
+    -0.78 -0.45 -0.05
+    0.0 0.0 1.46
+    -0.78 -0.45 -0.05
+    0.0 0.0 1.46
+    0.78 0.45 -0.05
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    138.0
+    0.0
+    138.0
+    0.0
+endnode
+node danglymesh bush122
+  parent trm01_v01_03a
+  position 3.15052 1.659 4.91794
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 70.5 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0.0 0.0 70.5 
+  bitmap trm01_bush01
+  verts 6
+    -0.78 0.45 -0.05
+    0.78 -0.45 -0.05
+    0.0 0.0 1.46
+    0.78 -0.45 -0.05
+    0.0 0.0 1.46
+    -0.78 0.45 -0.05
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    168.0
+    0.0
+    168.0
+    0.0
+endnode
+node danglymesh bush123
+  parent trm01_v01_03a
+  position 3.25048 1.50961 5.06367
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center -0.499998 -0.499998 42.0 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -0.499998 -0.499998 42.0 
+  bitmap trm01_bush01
+  verts 6
+    -0.61 0.45 -0.13
+    0.45 -0.61 -0.13
+    0.6 0.6 0.97
+    0.45 -0.61 -0.13
+    0.6 0.6 0.97
+    -0.61 0.45 -0.13
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.514554 0.999889 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    1.48543 0.999889 0
+    0.999078 0.029015 0
+    0.514554 0.999889 0
+  constraints 6
+    0.0
+    0.0
+    119.0
+    0.0
+    119.0
+    0.0
+endnode
+node danglymesh bush124
+  parent trm01_v01_03a
+  position 3.00818 1.5515 5.06367
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center -1.0 -33.5 42.0 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -1.0 -33.5 42.0 
+  bitmap trm01_bush01
+  verts 6
+    0.74 0.18 -0.13
+    -0.76 0.05 -0.13
+    0.08 -0.85 0.97
+    -0.76 0.05 -0.13
+    0.08 -0.85 0.97
+    0.74 0.18 -0.13
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.014554 0.000111094 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.014554 0.000111094 0
+  constraints 6
+    0.0
+    0.0
+    112.0
+    0.0
+    112.0
+    0.0
+endnode
+node danglymesh bush125
+  parent trm01_v01_03a
+  position 3.07289 1.81814 5.06367
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center -9.0 -6.5 42.0 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -9.0 -6.5 42.0 
+  bitmap trm01_bush01
+  verts 6
+    -0.34 -0.68 -0.13
+    0.52 0.55 -0.13
+    -0.7 0.49 0.97
+    0.52 0.55 -0.13
+    -0.7 0.49 0.97
+    -0.34 -0.68 -0.13
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.014554 0.000111094 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.014554 0.000111094 0
+  constraints 6
+    0.0
+    0.0
+    104.0
+    0.0
+    104.0
+    0.0
+endnode
+node danglymesh bush126
+  parent trm01_v01_03a
+  position 2.74119 2.20917 5.07762
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 69.5 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0.0 0.0 69.5 
+  bitmap trm01_bush01
+  verts 6
+    -0.54 0.94 -0.21
+    0.54 -0.94 -0.21
+    0.0 0.0 1.6
+    0.54 -0.94 -0.21
+    0.0 0.0 1.6
+    -0.54 0.94 -0.21
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.014554 0.000111094 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.014554 0.000111094 0
+  constraints 6
+    0.0
+    0.0
+    112.838
+    0.0
+    112.838
+    0.0
+endnode
+node danglymesh bush127
+  parent trm01_v01_03a
+  position 2.74119 2.20917 4.93034
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 84.5 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0.0 0.0 84.5 
+  bitmap trm01_bush01
+  verts 6
+    0.54 0.94 -0.06
+    -0.54 -0.94 -0.06
+    0.0 0.0 1.75
+    -0.54 -0.94 -0.06
+    0.0 0.0 1.75
+    0.54 0.94 -0.06
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.014554 0.000111094 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.014554 0.000111094 0
+  constraints 6
+    0.0
+    0.0
+    138.0
+    0.0
+    138.0
+    0.0
+endnode
+node danglymesh bush128
+  parent trm01_v01_03a
+  position 2.74119 2.20917 4.93034
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 84.5 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0.0 0.0 84.5 
+  bitmap trm01_bush01
+  verts 6
+    -1.08 0.0 -0.06
+    1.08 0.0 -0.06
+    0.0 0.0 1.75
+    1.08 0.0 -0.06
+    0.0 0.0 1.75
+    -1.08 0.0 -0.06
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.014554 0.000111094 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.014554 0.000111094 0
+  constraints 6
+    0.0
+    0.0
+    168.0
+    0.0
+    168.0
+    0.0
+endnode
+node danglymesh bush129
+  parent trm01_v01_03a
+  position 2.9347 2.11389 5.10521
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center -3.5 31.5 50.5 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -3.5 31.5 50.5 
+  bitmap trm01_bush01
+  verts 6
+    -0.9 0.1 -0.15
+    0.83 -0.36 -0.15
+    0.26 0.99 1.16
+    0.83 -0.36 -0.15
+    0.26 0.99 1.16
+    -0.9 0.1 -0.15
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.014554 0.000111094 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.014554 0.000111094 0
+  constraints 6
+    0.0
+    0.0
+    119.0
+    0.0
+    119.0
+    0.0
+endnode
+node danglymesh bush130
+  parent trm01_v01_03a
+  position 2.65775 2.01205 5.10521
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center -7.5 -10.5 50.5 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -7.5 -10.5 50.5 
+  bitmap trm01_bush01
+  verts 6
+    0.66 0.63 -0.15
+    -0.81 -0.41 -0.15
+    0.59 -0.84 1.16
+    -0.81 -0.41 -0.15
+    0.59 -0.84 1.16
+    0.66 0.63 -0.15
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.014554 0.000111094 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.014554 0.000111094 0
+  constraints 6
+    0.0
+    0.0
+    112.0
+    0.0
+    112.0
+    0.0
+endnode
+node danglymesh bush131
+  parent trm01_v01_03a
+  position 2.56502 2.32798 5.10521
+  orientation 0.0 0.0 1.0 -1.22173
+  wirecolor 0.337255 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center -40.5 -1.5 50.5 
+  period 0.8
+  tightness 1.0
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -40.5 -1.5 50.5 
+  bitmap trm01_bush01
+  verts 6
+    0.05 -0.91 -0.15
+    0.21 0.88 -0.15
+    -1.02 0.09 1.16
+    0.21 0.88 -0.15
+    -1.02 0.09 1.16
+    0.05 -0.91 -0.15
+  faces 2
+    1 2 0  1  1 2 0  1
+    4 3 5  1  4 3 5  1
+  tverts 6
+    0.014554 0.000111094 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.985428 0.000111094 0
+    0.499078 0.970985 0
+    0.014554 0.000111094 0
+  constraints 6
+    0.0
+    0.0
+    104.0
+    0.0
+    104.0
+    0.0
+endnode
+node trimesh d_patch
+  parent trm01_v01_03a
+  position 0.562783 -3.673 5.11
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.87451 0.337255 0.556863 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.5 -0.5 0.0 
+  bitmap trm01_dirt04a
+  verts 6
+    -0.56 -1.33 -0.1
+    1.94 -1.33 -0.1
+    -1.55 -0.07 -0.1
+    1.58 0.32 -0.1
+    -1.93 0.88 -0.1
+    0.34 1.32 0.1
+  faces 4
+    3 5 4  2  3 5 4  21
+    4 2 3  2  4 2 3  21
+    0 1 3  2  0 1 3  21
+    3 2 0  2  3 2 0  21
+  tverts 6
+    -0.0881057 0.0 0
+    0.694077 0.0 0
+    -0.0440529 0.5 0
+    0.618209 0.5 0
+    -0.0758688 0.970631 0
+    0.684288 1.0 0
+endnode
+node trimesh grassrim
+  parent trm01_v01_03a
+  position 0.0 0.0 5.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.337255 0.337255 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 1
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center -123.5 110.5 25.0 
+  bitmap trm01_grassrim02
+  verts 16
+    -5.0 -1.5 0.0
+    -3.87 -1.48 0.0
+    -1.37 -2.79 0.0
+    0.9 -2.35 0.2
+    1.49 3.11 0.0
+    1.5 5.0 0.0
+    2.5 -0.86 0.4
+    2.53 1.17 0.5
+    1.2 5.0 0.0
+    1.19 2.9 0.0
+    2.08 1.08 0.5
+    2.11 -0.65 0.4
+    -3.71 -1.18 0.0
+    -5.0 -1.2 0.0
+    -1.34 -2.34 0.0
+    0.69 -1.92 0.2
+  faces 14
+    8 9 4  2  8 9 4  1
+    4 5 8  2  4 5 8  1
+    9 10 7  2  9 10 7  1
+    7 4 9  2  7 4 9  1
+    10 11 6  2  10 11 6  1
+    6 7 10  2  6 7 10  1
+    12 13 0  2  12 13 0  1
+    0 1 12  2  0 1 12  1
+    14 12 1  2  14 12 1  1
+    1 2 14  2  1 2 14  1
+    15 14 2  2  15 14 2  1
+    2 3 15  2  2 3 15  1
+    3 6 11  0  3 6 11  1
+    3 11 15  0  3 11 15  1
+  tverts 16
+    -7.0 0.02 0
+    -6.0 0.02 0
+    -3.0 0.02 0
+    -0.8 0.02 0
+    5.5 0.02 0
+    7.0 0.02 0
+    1.0 0.02 0
+    3.0 0.02 0
+    7.0 0.97 0
+    5.5 0.97 0
+    3.0 0.97 0
+    1.0 0.97 0
+    -6.0 0.97 0
+    -7.0 0.97 0
+    -3.0 0.97 0
+    -0.8 0.97 0
+endnode
+node trimesh moss01
+  parent trm01_v01_03a
+  position -1.235 1.105 2.75
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.337255 0.337255 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center -14.5 77.5 -560.0 
+  bitmap trm01_pt_grass01
+  verts 29
+    0.02 -1.9 -0.41
+    2.72 -1.25 1.52
+    1.73 -0.7 -1.16
+    0.11 -0.43 -2.75
+    1.05 1.12 -2.74
+    3.48 0.21 1.55
+    2.72 2.0 0.74
+    -3.3 -0.58 -7.73
+    -1.31 1.52 -8.25
+    0.7 2.42 -7.8
+    1.48 2.89 -2.75
+    -2.25 0.41 -12.75
+    -3.77 0.39 -12.75
+    -1.5 1.72 -12.75
+    -0.33 2.81 -12.75
+    -3.77 0.37 -12.64
+    0.73 3.45 -7.75
+    2.05 1.64 -0.66
+    2.24 -0.98 0.22
+    1.53 -1.54 0.67
+    1.35 2.72 -4.1
+    0.9 1.53 -4.24
+    -0.31 0.21 -4.83
+    -3.51 -0.04 -10.55
+    -2.72 -0.06 -10.28
+    0.14 2.63 -10.49
+    0.15 3.1 -10.48
+    -2.31 0.63 -9.46
+    0.35 1.22 -4.41
+  faces 25
+    3 2 4  1  12 2 14  1
+    18 1 5  1  35 0 3  1
+    22 3 4  1  38 7 8  2
+    10 20 4  1  24 28 8  2
+    7 8 27  1  9 19 32  3
+    1 18 19  1  0 35 36  1
+    2 3 0  1  2 12 1  1
+    4 21 28  1  8 37 43  2
+    2 17 4  1  2 21 14  1
+    18 5 6  1  35 3 13  1
+    2 6 17  1  2 15 21  1
+    2 18 6  1  2 22 15  1
+    18 2 0  1  22 2 1  1
+    19 18 0  1  23 22 1  1
+    20 21 4  1  28 37 8  2
+    20 9 21  1  25 17 26  2
+    21 9 8  1  26 17 16  2
+    8 28 21  1  16 42 26  2
+    23 7 24  1  30 9 31  3
+    9 25 8  1  11 33 10  3
+    25 9 16  1  33 11 20  3
+    26 25 16  1  34 33 20  3
+    7 27 24  1  9 32 31  3
+    8 22 28  1  16 27 42  2
+    4 28 22  1  8 43 38  2
+  tverts 44
+    -0.615556 2.0148 0
+    0.0173323 -0.728167 0
+    -0.463691 -0.766543 0
+    -0.961603 2.03525 0
+    0.017332 -0.0213698 0
+    0.0230612 1.05311 0
+    -0.338918 1.03592 0
+    2.07136 0.0870791 0
+    1.78745 -0.00947419 0
+    -0.00506236 1.99757 0
+    2.07195 0.886883 0
+    1.70158 1.02525 0
+    -0.0992093 -1.01593 0
+    -1.04523 1.43647 0
+    -0.719788 -1.00381 0
+    -1.17327 -0.49532 0
+    0.950342 -0.578069 0
+    0.544615 -0.467413 0
+    -1.14232 0.0910506 0
+    0.0598152 1.45562 0
+    1.50642 0.976319 0
+    -1.0425 -0.777253 0
+    -0.471947 -0.468496 0
+    -0.243489 -0.490382 0
+    1.47829 -0.037297 0
+    0.488934 0.0320532 0
+    0.712846 0.0235568 0
+    1.00862 -0.0770461 0
+    1.52167 -0.456608 0
+    0.0230612 0.674676 0
+    0.521354 2.00407 0
+    0.524839 1.67327 0
+    0.381536 1.50599 0
+    1.80729 0.400746 0
+    1.54077 0.555655 0
+    -0.577884 1.50772 0
+    -0.4215 1.7278 0
+    1.7197 -0.462754 0
+    1.93709 -0.572919 0
+    -0.518779 0.605805 0
+    -0.493582 0.854024 0
+    -0.825665 0.463468 0
+    0.797675 -0.00529585 0
+    1.78205 -0.494349 0
+endnode
+endmodelgeom trm01_v01_03
+donemodel trm01_v01_03

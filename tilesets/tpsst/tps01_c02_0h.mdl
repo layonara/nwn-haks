@@ -1,0 +1,5968 @@
+#MAXMODEL ASCII
+# model: tps01_c02_0h 
+filedependancy c02_alltiles_0003.max
+newmodel tps01_c02_0h 
+setsupermodel tps01_c02_0h NULL
+classification Tile
+#MAXGEOM  ASCII
+beginmodelgeom tps01_c02_0h 
+node dummy tps01_c02_0h 
+  parent NULL 
+endnode
+node trimesh Plane466 
+  parent tps01_c02_0h 
+  position 2.32 2.94 7.47
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_cloth04
+    verts 8
+     -0.01 0.86 -0.89
+     0.01 -0.82 0.9
+     0.01 -0.82 -0.89
+     0.01 -0.82 -0.89
+     0.01 -0.82 0.9
+     -0.01 0.86 -0.89
+     -0.01 0.86 0.9
+     -0.01 0.86 0.9
+    faces 4
+     3 7 1  1  5 6 7  1
+     7 3 5  1  6 5 4  1
+     2 6 0  1  1 2 0  1
+     6 2 4  1  2 1 3  1
+    tverts 8
+     0.0 0.0 0 
+     1.0 0.0 0 
+     0.0 1.0 0 
+     1.0 1.0 0 
+     0.0 0.0 0 
+     1.0 0.0 0 
+     0.0 1.0 0 
+     1.0 1.0 0 
+endnode
+node light tps01_c02_03ml1 
+  parent tps01_c02_0h 
+  position -4.16152 -4.23624 5.5
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 0.898039 0.0  
+  radius 14.0 
+  multiplier 1.0
+  color 0.639216 0.639216 0.639216  
+  ambientonly 0 
+  nDynamicType 1 
+  affectDynamic 1 
+  shadow 0 
+  lightpriority 5 
+  lensflares 0
+  fadingLight 1
+endnode
+node light tps01_c02_03ml2 
+  parent tps01_c02_0h 
+  position -0.332729 3.3109 6.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 0.898039 0.0  
+  radius 5.0 
+  multiplier 1.0
+  color 0.639216 0.639216 0.639216  
+  ambientonly 0 
+  nDynamicType 1 
+  affectDynamic 1 
+  shadow 0 
+  lightpriority 5 
+  lensflares 0
+  fadingLight 1
+endnode
+node trimesh Mesh77 
+  parent tps01_c02_0h 
+  position -2.75 1.88 6.13
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_bricks16
+    verts 8
+     -0.74 -0.59 -0.88
+     -0.51 0.62 -0.88
+     -0.95 -0.62 0.89
+     -0.72 0.62 0.89
+     0.95 0.3 -1.02
+     -0.51 0.62 -0.88
+     -0.72 0.62 0.89
+     0.95 0.3 0.79
+    faces 4
+     3 1 0  0  3 1 0  1
+     2 3 0  0  2 3 0  1
+     6 7 4  8  6 7 4  1
+     4 5 6  8  4 5 6  1
+    tverts 8
+     -0.235752 -0.978247 0 
+     -0.842285 -0.975303 0 
+     -0.223982 -0.105673 0 
+     -0.842285 -0.106909 0 
+     1.01933 0.0160122 0 
+     1.65415 0.0186073 0 
+     1.74409 0.89046 0 
+     1.01933 0.84331 0 
+endnode
+node trimesh Mesh20 
+  parent tps01_c02_0h 
+  position -2.81 -3.75 7.18
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_bills04
+    verts 4
+     0.83 -1.12 -4.88
+     -0.27 1.23 -4.88
+     0.83 -1.12 -3.4
+     -0.27 1.23 -3.45
+    faces 2
+     2 3 1  4  4 3 5  1
+     1 0 2  4  1 0 2  1
+    tverts 6
+     1.62889 0.624525 0 
+     0.0293753 0.629643 0 
+     1.6361 0.995139 0 
+     0.0363509 0.988312 0 
+     1.6361 0.995139 0 
+     0.0293753 0.629643 0 
+endnode
+node trimesh Mesh53 
+  parent tps01_c02_0h 
+  position -2.81 -3.75 7.18
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_roof09g
+    verts 4
+     0.48 -1.25 -3.4
+     -0.62 1.3 -3.45
+     0.83 -1.12 -3.4
+     -0.27 1.23 -3.45
+    faces 2
+     0 1 3  0  4 1 5  1
+     3 2 0  0  3 2 0  1
+    tverts 6
+     -0.166464 0.535051 0 
+     1.2209 0.562886 0 
+     -0.179964 0.72036 0 
+     1.11564 0.70638 0 
+     -0.166464 0.535051 0 
+     1.11564 0.70638 0 
+endnode
+node trimesh Box04 
+  parent tps01_c02_0h 
+  position -3.89 -2.26 2.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_fac08
+    verts 8
+     -0.26 -0.06 3.14
+     0.09 -0.17 3.16
+     -0.25 0.29 3.13
+     0.16 0.36 3.16
+     0.17 -0.21 1.58
+     -0.25 0.27 1.58
+     -0.26 -0.15 1.58
+     0.2 0.31 1.58
+    faces 6
+     0 4 1  8  8 9 1  5
+     2 3 5  8  10 11 12  5
+     5 6 0  64  13 14 15  3
+     7 5 3  8  7 16 3  5
+     0 2 5  64  17 2 5  3
+     4 0 6  8  4 0 6  5
+    tverts 18
+     0.69815 0.888158 0 
+     0.872771 0.894755 0 
+     0.391367 0.879501 0 
+     -0.103745 0.894755 0 
+     0.912664 0.105245 0 
+     0.400709 0.105245 0 
+     0.699053 0.105245 0 
+     -0.124822 0.105245 0 
+     0.69815 0.888158 0 
+     0.912664 0.105245 0 
+     0.104227 0.879501 0 
+     -0.103745 0.894755 0 
+     0.104165 0.105245 0 
+     0.400709 0.105245 0 
+     0.612586 0.105245 0 
+     0.565337 0.888158 0 
+     0.104165 0.105245 0 
+     0.565337 0.888158 0 
+endnode
+node trimesh Mesh50 
+  parent tps01_c02_0h 
+  position -3.89 -2.26 2.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_fac08
+    verts 8
+     -0.25 -0.25 0.0
+     0.25 -0.25 0.0
+     -0.25 0.25 0.0
+     0.25 0.25 0.0
+     0.17 -0.21 1.58
+     -0.25 0.27 1.58
+     -0.26 -0.15 1.58
+     0.2 0.31 1.58
+    faces 6
+     3 2 7  8  3 8 9  5
+     7 2 5  8  7 10 11  5
+     0 1 4  8  12 1 13  5
+     0 4 6  8  14 4 15  5
+     5 0 6  64  16 17 6  3
+     2 0 5  64  2 0 5  3
+    tverts 18
+     0.236975 0.910803 0 
+     -0.570251 0.910803 0 
+     0.486975 0.910803 0 
+     1.0854 0.910803 0 
+     -0.530358 0.121292 0 
+     0.496501 0.121292 0 
+     0.284624 0.121292 0 
+     1.09854 0.121292 0 
+     0.8354 0.910803 0 
+     1.09854 0.121292 0 
+     0.8354 0.910803 0 
+     0.86955 0.121292 0 
+     -0.320251 0.910803 0 
+     -0.530358 0.121292 0 
+     -0.320251 0.910803 0 
+     -0.316748 0.121292 0 
+     0.496501 0.121292 0 
+     0.236975 0.910803 0 
+endnode
+node trimesh Mesh54 
+  parent tps01_c02_0h 
+  position 1.33 -4.24 4.99
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_bills04
+    verts 4
+     -0.3 -0.76 -2.69
+     -3.31 -0.63 -2.69
+     -0.33 -0.76 -1.23
+     -3.31 -0.63 -1.21
+    faces 2
+     2 3 1  2  4 3 5  1
+     1 0 2  2  1 0 2  1
+    tverts 6
+     0.977474 0.620981 0 
+     -0.52695 0.620981 0 
+     0.963828 0.986529 0 
+     -0.52695 0.99161 0 
+     0.963828 0.986529 0 
+     -0.52695 0.620981 0 
+endnode
+node trimesh Mesh300 
+  parent tps01_c02_0h 
+  position -3.03 2.17 1.81
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_fac08
+    verts 8
+     -0.16 0.38 0.26
+     0.31 0.22 0.26
+     -0.32 -0.1 0.28
+     0.16 -0.25 0.29
+     0.23 0.31 1.84
+     -0.32 -0.02 1.86
+     -0.2 0.39 1.84
+     0.1 -0.19 1.87
+    faces 6
+     3 2 7  8  3 8 9  5
+     7 2 5  8  7 10 11  5
+     0 1 4  8  12 1 13  5
+     0 4 6  8  14 4 15  5
+     5 0 6  64  16 17 6  3
+     2 0 5  64  2 0 5  3
+    tverts 18
+     0.236975 0.910803 0 
+     -0.570251 0.910803 0 
+     0.486975 0.910803 0 
+     1.0854 0.910803 0 
+     -0.530358 0.121292 0 
+     0.496501 0.121292 0 
+     0.284624 0.121292 0 
+     1.09854 0.121292 0 
+     0.8354 0.910803 0 
+     1.09854 0.121292 0 
+     0.8354 0.910803 0 
+     0.86955 0.121292 0 
+     -0.320251 0.910803 0 
+     -0.530358 0.121292 0 
+     -0.320251 0.910803 0 
+     -0.316748 0.121292 0 
+     0.496501 0.121292 0 
+     0.236975 0.910803 0 
+endnode
+node trimesh Box139 
+  parent tps01_c02_0h 
+  position -3.03 2.17 1.81
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_fac08
+    verts 8
+     -0.23 0.33 3.13
+     0.14 0.33 3.14
+     -0.33 0.0 3.13
+     0.05 -0.19 3.18
+     0.23 0.31 1.84
+     -0.32 -0.02 1.86
+     -0.2 0.39 1.84
+     0.1 -0.19 1.87
+    faces 6
+     0 4 1  8  8 9 1  5
+     2 3 5  8  10 11 12  5
+     5 6 0  64  13 14 15  3
+     7 5 3  8  7 16 3  5
+     0 2 5  64  17 2 5  3
+     4 0 6  8  4 0 6  5
+    tverts 18
+     0.69815 0.888158 0 
+     0.872771 0.894755 0 
+     0.391367 0.879501 0 
+     -0.103745 0.894755 0 
+     0.912664 0.105245 0 
+     0.400709 0.105245 0 
+     0.699053 0.105245 0 
+     -0.124822 0.105245 0 
+     0.69815 0.888158 0 
+     0.912664 0.105245 0 
+     0.104227 0.879501 0 
+     -0.103745 0.894755 0 
+     0.104165 0.105245 0 
+     0.400709 0.105245 0 
+     0.612586 0.105245 0 
+     0.565337 0.888158 0 
+     0.104165 0.105245 0 
+     0.565337 0.888158 0 
+endnode
+node trimesh Mesh55 
+  parent tps01_c02_0h 
+  position -2.23 -0.07 3.62
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_bricks15
+    verts 8
+     -1.15 -2.42 1.52
+     -1.92 -2.24 1.52
+     -1.18 -2.42 -1.32
+     -1.7 -2.34 -1.32
+     -1.2 -2.38 -1.32
+     -1.2 -2.38 0.11
+     -0.85 -2.45 -1.32
+     -0.85 -2.45 0.11
+    faces 4
+     3 2 0  2  8 2 9  1
+     1 3 0  2  1 3 0  1
+     5 4 6  0  10 4 11  2
+     6 7 5  0  6 7 5  2
+    tverts 12
+     0.987213 0.82859 0 
+     0.603415 0.82859 0 
+     0.973797 -0.591411 0 
+     0.713415 -0.59141 0 
+     0.963415 -0.59141 0 
+     0.963415 0.125953 0 
+     1.13764 -0.59141 0 
+     1.13764 0.125953 0 
+     0.713415 -0.59141 0 
+     0.987213 0.82859 0 
+     0.963415 0.125953 0 
+     1.13764 -0.59141 0 
+endnode
+node trimesh Cylinder88 
+  parent tps01_c02_0h 
+  position -3.68 -0.7 3.3
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_bills04
+    verts 16
+     0.1 1.42 1.46
+     0.11 1.51 1.46
+     0.2 1.5 1.46
+     0.18 1.38 1.46
+     0.17 1.42 -1.3
+     0.18 1.51 -1.3
+     0.28 1.5 -1.3
+     0.26 1.38 -1.3
+     -0.14 0.01 1.46
+     -0.05 0.05 -1.3
+     -0.06 -0.04 -1.3
+     -0.12 0.1 1.46
+     0.04 0.04 -1.3
+     -0.03 0.09 1.46
+     -0.05 -0.02 1.46
+     0.03 -0.08 -1.3
+    faces 12
+     0 5 4  8  0 5 4  3
+     0 1 5  8  0 1 5  3
+     1 6 5  8  1 6 5  3
+     1 2 6  8  1 2 6  3
+     3 4 7  8  3 4 7  3
+     3 0 4  8  3 0 4  3
+     8 9 10  8  8 9 10  3
+     8 11 9  8  8 11 9  3
+     11 12 9  8  11 12 9  3
+     11 13 12  8  11 13 12  3
+     14 10 15  8  14 10 15  3
+     14 8 10  8  14 8 10  3
+    tverts 16
+     0.019566 0.931374 0 
+     -0.0238251 0.931385 0 
+     -0.041603 0.930188 0 
+     0.0332981 0.930174 0 
+     0.0203328 -0.0307042 0 
+     -0.0230582 -0.0306931 0 
+     -0.0409462 -0.0318899 0 
+     0.0339549 -0.0319044 0 
+     0.019566 0.919137 0 
+     -0.0230582 -0.04293 0 
+     0.0203328 -0.0429411 0 
+     -0.0238251 0.919148 0 
+     -0.0409462 -0.0441268 0 
+     -0.041603 0.917951 0 
+     0.0332981 0.917937 0 
+     0.0339549 -0.0441413 0 
+endnode
+node trimesh Mesh33 
+  parent tps01_c02_0h 
+  position 0.78 -3.77 8.77
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.000213623 0.0 0.0 
+     gizmo SubAnim:Gizmo
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_roof09g
+    verts 13
+     4.22 -1.27 -0.29
+     2.22 -1.27 -0.29
+     0.22 -1.27 -0.29
+     -3.11 -1.27 -0.29
+     -4.03 1.32 0.55
+     -4.21 1.26 1.23
+     -2.93 -1.14 -0.89
+     4.22 -0.3 -0.77
+     4.21 -0.32 0.16
+     -3.58 -0.29 0.24
+     0.22 -1.15 -0.83
+     4.22 -1.26 -0.87
+     2.22 -1.26 -0.91
+    faces 11
+     0 1 12  1  13 14 15  1
+     0 11 7  2  16 17 18  1
+     10 12 1  1  19 20 21  1
+     1 2 10  1  1 22 23  1
+     6 10 2  1  24 10 25  1
+     0 7 8  2  26 7 8  1
+     3 9 6  2  27 28 29  1
+     4 6 9  2  30 31 32  1
+     9 5 4  2  9 5 4  1
+     2 3 6  1  2 3 6  1
+     12 11 0  1  12 11 0  1
+    tverts 33
+     2.465 0.506767 0 
+     1.465 0.506767 0 
+     0.464999 0.506767 0 
+     -1.2 0.506767 0 
+     0.576486 0.222672 0 
+     0.431108 0.532447 0 
+     -1.11 0.214647 0 
+     -0.606609 0.0564214 0 
+     -0.382769 0.464123 0 
+     1.34978 0.491264 0 
+     0.464999 0.242329 0 
+     2.465 0.252509 0 
+     1.465 0.235188 0 
+     2.465 0.506767 0 
+     1.465 0.506767 0 
+     1.465 0.235188 0 
+     -0.906631 0.506767 0 
+     -1.04765 0.252509 0 
+     -0.606609 0.0564214 0 
+     0.464999 0.242329 0 
+     1.465 0.235188 0 
+     1.465 0.506767 0 
+     0.464999 0.506767 0 
+     0.464999 0.242329 0 
+     -1.11 0.214647 0 
+     0.464999 0.506767 0 
+     -0.906631 0.506767 0 
+     1.90663 0.506767 0 
+     1.34978 0.491264 0 
+     2.00023 0.214647 0 
+     0.576486 0.222672 0 
+     2.00023 0.214647 0 
+     1.34978 0.491264 0 
+endnode
+node trimesh Mesh85 
+  parent tps01_c02_0h 
+  position 0.12 4.11 4.83
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_facade04
+    verts 7
+     0.88 0.89 -2.53
+     -0.88 0.89 -2.53
+     0.88 0.89 0.47
+     -0.88 0.89 0.47
+     0.88 0.89 2.53
+     -0.7 0.88 1.8
+     0.35 0.89 2.28
+    faces 5
+     0 1 3  2  2 1 3  1
+     3 2 0  2  4 5 0  1
+     2 5 6  2  6 7 8  1
+     2 3 5  2  9 10 11  1
+     2 6 4  2  12 13 14  1
+    tverts 15
+     0.473639 -0.387173 0 
+     0.825538 -0.387173 0 
+     0.473639 -0.387173 0 
+     0.825538 0.212827 0 
+     0.825538 0.212827 0 
+     0.473639 0.212827 0 
+     0.473639 0.212827 0 
+     0.789587 0.479774 0 
+     0.601672 0.472293 0 
+     0.473639 0.212827 0 
+     0.825538 0.212827 0 
+     0.789587 0.479774 0 
+     0.473639 0.212827 0 
+     0.579385 0.575632 0 
+     0.473639 0.623868 0 
+endnode
+node trimesh Mesh84 
+  parent tps01_c02_0h 
+  position 0.53 3.99 6.99
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  multimaterial 2 
+      tps01_facade04 
+      tps01_roof09 
+    bitmap NULL
+    verts 16
+     0.28 0.54 0.08
+     -0.06 0.61 0.08
+     -0.28 -0.54 0.43
+     0.07 -0.6 0.43
+     0.07 -0.57 0.79
+     -0.27 -0.51 0.79
+     -0.12 0.31 -0.79
+     0.23 0.25 -0.8
+     0.19 0.05 -0.05
+     -0.16 0.12 -0.04
+     0.23 0.26 0.2
+     -0.12 0.32 0.2
+     0.13 -0.26 0.3
+     -0.22 -0.2 0.31
+     0.15 -0.13 0.61
+     -0.19 -0.07 0.61
+    faces 18
+     7 0 10  0  26 27 28  1
+     10 8 7  0  29 30 31  1
+     0 1 11  0  32 33 34  1
+     11 10 0  0  35 36 37  1
+     1 6 9  0  38 39 40  1
+     9 11 1  0  41 42 43  1
+     8 10 14  0  50 51 52  1
+     14 12 8  0  53 54 6  1
+     10 11 15  0  55 56 57  1
+     15 14 10  0  58 59 8  1
+     11 9 13  0  60 7 61  1
+     13 15 11  0  62 63 9  1
+     12 14 4  0  70 71 72  1
+     4 3 12  0  73 1 10  1
+     14 15 5  0  74 75 76  1
+     5 4 14  0  77 2 12  1
+     15 13 2  0  78 11 79  1
+     2 5 15  0  0 3 13  1
+    tverts 80
+     -1.11708 0.637408 0 
+     2.10413 0.636457 0 
+     2.11023 0.552958 0 
+     -1.12297 0.708748 0 
+     0.40804 0.393313 0 
+     -1.27388 0.391148 0 
+     2.23458 0.540979 0 
+     -1.24783 0.541873 0 
+     0.522184 0.59131 0 
+     -1.28904 0.59131 0 
+     2.17163 0.611243 0 
+     -1.18484 0.612151 0 
+     2.19772 0.536743 0 
+     -1.21047 0.673671 0 
+     0.376752 0.637408 0 
+     0.446508 0.636457 0 
+     0.447042 0.708748 0 
+     0.447042 0.708748 0 
+     0.378279 0.708748 0 
+     0.376752 0.637408 0 
+     0.40804 0.393313 0 
+     0.478136 0.391148 0 
+     0.470682 0.540979 0 
+     0.470682 0.540979 0 
+     0.40098 0.541873 0 
+     0.40804 0.393313 0 
+     2.27388 0.391148 0 
+     2.33285 0.566535 0 
+     2.27629 0.59131 0 
+     2.27629 0.59131 0 
+     2.23458 0.540979 0 
+     2.27388 0.391148 0 
+     2.33285 0.511709 0 
+     2.34559 0.580471 0 
+     2.28904 0.590946 0 
+     2.28904 0.590946 0 
+     2.27629 0.522184 0 
+     2.33285 0.511709 0 
+     -1.34559 0.566535 0 
+     -1.28687 0.393313 0 
+     -1.24783 0.541873 0 
+     -1.24783 0.541873 0 
+     -1.28904 0.59131 0 
+     -1.34559 0.566535 0 
+     0.40098 0.541873 0 
+     0.470682 0.540979 0 
+     0.459016 0.611243 0 
+     0.459016 0.611243 0 
+     0.389307 0.612151 0 
+     0.40098 0.541873 0 
+     2.23458 0.540979 0 
+     2.27629 0.59131 0 
+     2.19772 0.673671 0 
+     2.19772 0.673671 0 
+     2.17163 0.611243 0 
+     0.522184 0.59131 0 
+     0.590946 0.59131 0 
+     0.605506 0.673671 0 
+     0.605506 0.673671 0 
+     0.536743 0.673671 0 
+     -1.28904 0.59131 0 
+     -1.18484 0.612151 0 
+     -1.18484 0.612151 0 
+     -1.21047 0.673671 0 
+     -1.18484 0.610693 0 
+     -1.17163 0.540984 0 
+     -1.10413 0.553492 0 
+     -1.10413 0.553492 0 
+     -1.11708 0.623248 0 
+     -1.18484 0.610693 0 
+     2.17163 0.611243 0 
+     2.19772 0.673671 0 
+     2.11023 0.708748 0 
+     2.11023 0.708748 0 
+     2.19772 0.536743 0 
+     2.21047 0.605506 0 
+     2.12297 0.621721 0 
+     2.12297 0.621721 0 
+     -1.21047 0.673671 0 
+     -1.11708 0.637408 0 
+endnode
+node trimesh Object27 
+  parent tps01_c02_0h 
+  position 4.61 2.32 7.79
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_rubble01
+    verts 8
+     0.06 -1.33 1.66
+     -0.33 -1.26 1.66
+     0.33 1.25 0.39
+     -0.06 1.33 0.39
+     0.19 -0.09 1.47
+     -0.21 -0.08 1.5
+     -0.15 0.36 0.68
+     0.25 0.37 0.63
+    faces 6
+     5 0 4  1  5 3 7  1
+     4 7 6  1  4 9 8  1
+     2 3 7  1  1 2 9  1
+     1 0 5  1  0 3 5  1
+     4 6 5  1  4 8 6  1
+     7 3 6  1  9 2 8  1
+    tverts 10
+     0.280829 1.25434 0 
+     0.0696605 -0.191506 0 
+     0.292775 -0.207108 0 
+     0.0577138 1.26994 0 
+     0.0633036 0.586138 0 
+     0.286142 0.604316 0 
+     0.286142 0.604316 0 
+     0.0633036 0.586138 0 
+     0.288797 0.27956 0 
+     0.0660375 0.251692 0 
+endnode
+node trimesh Mesh32 
+  parent tps01_c02_0h 
+  position 3.0 4.28 9.03
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.000213623 0.0 0.0 
+     gizmo SubAnim:Gizmo
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_fwood05
+    verts 8
+     -1.82 -0.53 -0.26
+     -2.0 0.72 0.91
+     1.94 -0.71 -0.85
+     1.94 -0.72 -0.55
+     2.0 0.72 0.91
+     2.0 0.72 -0.91
+     -2.0 0.72 -0.66
+     -1.81 -0.47 -0.63
+    faces 4
+     0 1 6  1  4 5 6  2
+     4 3 2  1  7 8 9  2
+     7 0 6  1  10 0 11  2
+     2 5 4  1  1 3 2  2
+    tverts 12
+     0.985045 1.33802 0 
+     0.997752 0.148698 0 
+     0.284117 0.898786 0 
+     0.284117 0.131132 0 
+     0.985045 1.33802 0 
+     0.361206 1.79044 0 
+     0.361206 1.07171 0 
+     0.284117 0.898786 0 
+     1.00193 0.361554 0 
+     0.997752 0.148698 0 
+     0.955694 1.15371 0 
+     0.361206 1.07171 0 
+endnode
+node trimesh Mesh48 
+  parent tps01_c02_0h 
+  position 3.0 4.8 9.03
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.000213623 0.0 0.0 
+     gizmo SubAnim:Gizmo
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_fwood04
+    verts 4
+     -2.0 0.2 0.91
+     2.0 0.2 0.91
+     2.0 0.2 -0.91
+     -2.0 0.2 -0.66
+    faces 2
+     2 3 0  0  4 3 5  2
+     0 1 2  0  0 1 2  2
+    tverts 6
+     2.0581 0.976611 0 
+     0.0581048 0.976611 0 
+     0.0581048 0.0666107 0 
+     2.0581 0.191611 0 
+     0.0581048 0.0666107 0 
+     2.0581 0.976611 0 
+endnode
+node trimesh Mesh67 
+  parent tps01_c02_0h 
+  position -3.76 -1.93 8.66
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.000213623 0.0 0.0 
+     gizmo SubAnim:Gizmo
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_bricks14
+    verts 5
+     0.51 -0.52 0.66
+     -1.0 -0.38 1.46
+     0.33 -0.58 1.34
+     0.41 -0.56 -1.47
+     -0.62 -0.38 -1.42
+    faces 3
+     4 3 0  2  5 3 6  1
+     1 0 2  2  7 8 2  1
+     0 1 4  2  0 1 4  1
+    tverts 9
+     1.02287 1.30866 0 
+     0.259387 1.66613 0 
+     0.931325 1.60415 0 
+     0.975353 0.200427 0 
+     0.447365 0.225699 0 
+     0.447365 0.225699 0 
+     1.02287 1.30866 0 
+     0.259387 1.66613 0 
+     1.02287 1.30866 0 
+endnode
+node trimesh Object78 
+  parent tps01_c02_0h 
+  position -1.33 0.02 6.29
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_bricks16
+    verts 4
+     -2.3 -1.2 -0.93
+     -1.85 1.21 -1.04
+     -2.55 -1.22 1.03
+     -2.1 1.19 1.04
+    faces 2
+     2 3 1  4  4 3 5  2
+     1 0 2  4  1 0 2  2
+    tverts 6
+     0.990308 0.0397705 0 
+     0.00344256 -0.011735 0 
+     0.994343 0.902453 0 
+     0.0145967 0.905857 0 
+     0.994343 0.902453 0 
+     0.00344256 -0.011735 0 
+endnode
+node trimesh Mesh29 
+  parent tps01_c02_0h 
+  position -1.71 -0.01 9.44
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.000213623 0.0 0.0 
+     gizmo SubAnim:Gizmo
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_bricks17
+    verts 5
+     -2.53 -1.16 0.97
+     -2.29 -1.19 -1.05
+     -1.86 1.2 -0.99
+     -2.14 1.08 1.21
+     -2.14 1.08 1.21
+    faces 3
+     1 0 2  4  1 5 6  2
+     0 3 2  4  7 8 2  2
+     3 0 4  0  3 0 4  2
+    tverts 9
+     0.000499517 0.0123089 0 
+     0.999501 0.000499517 0 
+     0.000499517 0.027039 0 
+     0.586356 0.950072 0 
+     0.586358 0.950072 0 
+     0.987691 0.892219 0 
+     0.000499517 0.027039 0 
+     0.987691 0.892219 0 
+     0.0499279 0.999501 0 
+endnode
+node trimesh Mesh28 
+  parent tps01_c02_0h 
+  position -0.93 0.0 7.88
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_bricks14
+    verts 4
+     -3.07 -1.2 0.51
+     -2.64 1.19 0.57
+     -2.95 -1.2 -0.56
+     -2.5 1.21 -0.55
+    faces 2
+     3 2 0  4  14 9 15  2
+     0 1 3  4  1 2 10  2
+    tverts 27
+     0.927382 1.72877 0 
+     0.996557 1.37585 0 
+     0.0206197 1.40134 0 
+     0.0930556 1.75056 0 
+     0.508588 2.30002 0 
+     0.676226 2.20469 0 
+     0.375043 2.24292 0 
+     0.212991 2.02845 0 
+     0.82455 1.98304 0 
+     0.994343 0.902453 0 
+     0.0145967 0.905857 0 
+     0.996557 1.37585 0 
+     0.927382 1.72877 0 
+     0.0206197 1.40134 0 
+     0.0145967 0.905857 0 
+     0.996557 1.37585 0 
+     0.927382 1.72877 0 
+     0.0930556 1.75056 0 
+     0.0206197 1.40134 0 
+     0.375043 2.24292 0 
+     0.212991 2.02845 0 
+     0.676226 2.20469 0 
+     0.676226 2.20469 0 
+     0.927382 1.72877 0 
+     0.212991 2.02845 0 
+     0.212991 2.02845 0 
+     0.82455 1.98304 0 
+endnode
+node trimesh Mesh69 
+  parent tps01_c02_0h 
+  position -2.81 -3.75 7.18
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.000213623 0.0 0.0 
+     gizmo SubAnim:Gizmo
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_slum03
+    verts 6
+     0.48 -1.25 -1.88
+     -0.62 1.3 -1.72
+     -0.44 1.3 2.14
+     0.66 -1.16 0.7
+     0.48 -1.25 -3.4
+     -0.62 1.3 -3.45
+    faces 4
+     1 3 2  4  4 5 2  1
+     0 3 1  4  6 3 7  1
+     5 4 0  4  11 9 8  1
+     0 1 5  4  0 1 10  1
+    tverts 12
+     1.32406 0.382055 0 
+     -0.0496899 0.427613 0 
+     -0.00795573 1.3921 0 
+     1.33236 1.02734 0 
+     -0.0496899 0.427613 0 
+     1.33236 1.02734 0 
+     1.32406 0.382055 0 
+     -0.0496899 0.427613 0 
+     1.32406 0.382055 0 
+     1.31809 0.00269844 0 
+     -0.0564844 -0.00368901 0 
+     -0.0564844 -0.00368901 0 
+endnode
+node trimesh Mesh98 
+  parent tps01_c02_0h 
+  position -0.53 1.04 11.15
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.000213623 0.0 0.0 
+     gizmo SubAnim:Gizmo
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_facade04
+    verts 4
+     1.27 0.67 -0.92
+     -1.27 1.14 -0.92
+     1.27 0.67 0.73
+     -1.27 1.14 0.92
+    faces 2
+     0 1 3  0  4 3 5  1
+     3 2 0  0  6 7 2  1
+    tverts 8
+     0.564826 0.212827 0 
+     0.745276 0.812827 0 
+     0.526116 1.19903 0 
+     1.03377 1.19903 0 
+     0.526116 1.19903 0 
+     1.03377 1.56597 0 
+     1.03377 1.56597 0 
+     0.526116 1.52919 0 
+endnode
+node trimesh Mesh100 
+  parent tps01_c02_0h 
+  position 4.64 2.32 7.33
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.000213623 0.0 0.0 
+     gizmo SubAnim:Gizmo
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_bricks14
+    verts 19
+     0.03 -1.33 2.12
+     -0.36 -1.26 2.12
+     0.3 1.25 0.85
+     -0.09 1.33 0.85
+     -0.09 1.32 -2.03
+     -0.36 -1.26 -1.87
+     -0.33 -1.15 -2.0
+     -0.33 -1.15 -2.12
+     -0.22 -0.49 -1.45
+     -0.22 -0.49 0.67
+     -0.36 -1.26 -1.37
+     -0.22 -0.49 0.97
+     -0.36 -1.26 1.68
+     0.36 -1.29 -2.03
+     0.36 1.26 -2.03
+     0.16 -0.09 1.93
+     -0.24 -0.08 1.96
+     -0.18 0.36 1.14
+     0.22 0.37 1.09
+    faces 15
+     4 7 6  2  19 7 20  2
+     8 6 10  0  21 22 23  2
+     6 8 4  0  24 25 26  2
+     3 4 8  0  27 4 28  2
+     8 9 3  0  8 29 30  2
+     16 11 12  0  31 32 33  2
+     11 3 9  0  34 35 9  2
+     17 3 11  0  36 3 37  2
+     6 5 10  0  6 5 10  2
+     15 0 13  1  38 0 39  2
+     13 14 2  1  40 14 41  2
+     2 18 13  1  2 42 43  2
+     1 16 12  0  1 44 12  2
+     16 17 11  0  16 17 11  2
+     18 15 13  1  18 15 13  2
+    tverts 45
+     6.55353e-005 1.50751 0 
+     0.972794 1.50751 0 
+     0.967849 0.952831 0 
+     0.00501058 0.952831 0 
+     0.00814399 -0.297835 0 
+     0.975523 -0.229574 0 
+     0.933463 -0.286641 0 
+     0.933463 -0.336596 0 
+     0.684281 -0.0475754 0 
+     0.684281 0.87714 0 
+     0.975523 -0.0109184 0 
+     0.684888 1.00651 0 
+     0.974697 1.31482 0 
+     0.0130763 -0.297835 0 
+     0.972201 -0.297835 0 
+     0.464832 1.42244 0 
+     0.530397 1.43526 0 
+     0.366144 1.08221 0 
+     0.635146 1.0605 0 
+     0.00814399 -0.297835 0 
+     0.933463 -0.286641 0 
+     0.684281 -0.0475754 0 
+     0.933463 -0.286641 0 
+     0.975523 -0.0109184 0 
+     0.933463 -0.286641 0 
+     0.684281 -0.0475754 0 
+     0.00814399 -0.297835 0 
+     0.00501058 0.952831 0 
+     0.684281 -0.0475754 0 
+     0.684281 0.87714 0 
+     0.00501058 0.952831 0 
+     0.530397 1.43526 0 
+     0.684888 1.00651 0 
+     0.974697 1.31482 0 
+     0.684888 1.00651 0 
+     0.00501058 0.952831 0 
+     0.366144 1.08221 0 
+     0.684888 1.00651 0 
+     0.464832 1.42244 0 
+     0.0130763 -0.297835 0 
+     0.0130763 -0.297835 0 
+     0.967849 0.952831 0 
+     0.635146 1.0605 0 
+     0.0130763 -0.297835 0 
+     0.530397 1.43526 0 
+endnode
+node trimesh Mesh38 
+  parent tps01_c02_0h 
+  position -0.92 1.45 3.11
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_bricks16
+    verts 6
+     -0.88 0.73 -0.81
+     -0.86 0.97 -0.85
+     0.88 0.65 -0.73
+     -0.88 0.73 0.84
+     -0.85 1.01 0.79
+     0.91 0.68 0.73
+    faces 4
+     3 4 0  2  22 23 24  1
+     5 2 4  1  34 35 36  1
+     2 1 4  1  11 40 41  1
+     4 1 0  2  15 6 1  1
+    tverts 44
+     0.761993 0.0202343 0 
+     0.00278428 0.0202343 0 
+     0.761993 1.28776 0 
+     -0.0593884 1.41814 0 
+     0.819032 1.3313 0 
+     -0.36833 -0.00745279 0 
+     -0.118307 0.00172448 0 
+     -0.384287 1.35834 0 
+     0.909466 1.33768 0 
+     0.0285541 1.35174 0 
+     -0.141244 1.35446 0 
+     0.0558442 0.0582986 0 
+     -0.145485 0.0202343 0 
+     0.00278428 1.2671 0 
+     0.00278428 0.845836 0 
+     -0.134518 0.818663 0 
+     0.0404348 0.788641 0 
+     0.761993 1.28776 0 
+     0.879553 -0.00745279 0 
+     0.879553 -0.00745279 0 
+     0.905035 1.35834 0 
+     0.819032 1.3313 0 
+     0.00278428 0.845836 0 
+     -0.134518 0.818663 0 
+     0.00278428 0.0202343 0 
+     0.879553 -0.00745279 0 
+     -0.134518 0.818663 0 
+     -0.0593884 1.41814 0 
+     -0.144818 1.33768 0 
+     -0.141244 1.35446 0 
+     -0.36833 -0.00745279 0 
+     0.0404348 0.788641 0 
+     0.909709 0.818663 0 
+     0.909466 1.33768 0 
+     0.0404348 0.788641 0 
+     0.0558442 0.0582986 0 
+     0.909709 0.818663 0 
+     0.00278428 0.845836 0 
+     -0.0593884 1.41814 0 
+     -0.134518 0.818663 0 
+     0.910091 0.00172448 0 
+     0.909709 0.818663 0 
+     0.905035 1.35834 0 
+     0.761993 1.28776 0 
+endnode
+node trimesh Object54 
+  parent tps01_c02_0h 
+  position 3.26 -2.0 9.29
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_facade04
+    verts 12
+     1.74 -3.0 -3.99
+     1.74 -1.41 -3.99
+     1.74 3.03 -3.99
+     1.74 -2.07 -1.29
+     1.74 0.4 -0.99
+     1.41 2.99 0.16
+     1.44 -1.83 2.78
+     1.61 0.17 1.89
+     1.73 -2.09 -0.36
+     1.41 2.98 2.84
+     1.22 0.54 4.0
+     1.74 -3.03 -1.39
+    faces 12
+     1 11 0  1  12 13 0  3
+     4 3 1  1  14 15 16  3
+     4 2 5  1  17 18 19  3
+     2 4 1  1  2 20 21  3
+     3 4 7  1  22 23 24  3
+     5 7 4  1  25 26 4  3
+     7 8 3  1  27 28 29  3
+     6 8 7  1  30 8 31  3
+     7 5 9  1  32 5 33  3
+     6 7 10  1  6 34 35  3
+     7 9 10  1  7 9 10  3
+     1 3 11  1  1 3 11  3
+    tverts 36
+     0.00544503 0.000499487 0 
+     0.267559 0.000499487 0 
+     0.999501 0.000499487 0 
+     0.158757 0.338084 0 
+     0.565941 0.375594 0 
+     0.992906 0.51938 0 
+     0.198321 0.846962 0 
+     0.528025 0.735684 0 
+     0.15546 0.454364 0 
+     0.991258 0.854464 0 
+     0.58902 0.999501 0 
+     0.000499487 0.325405 0 
+     0.267559 0.000499487 0 
+     0.000499487 0.325405 0 
+     0.565941 0.375594 0 
+     0.158757 0.338084 0 
+     0.267559 0.000499487 0 
+     0.565941 0.375594 0 
+     0.999501 0.000499487 0 
+     0.992906 0.51938 0 
+     0.565941 0.375594 0 
+     0.267559 0.000499487 0 
+     0.158757 0.338084 0 
+     0.565941 0.375594 0 
+     0.528025 0.735684 0 
+     0.992906 0.51938 0 
+     0.528025 0.735684 0 
+     0.528025 0.735684 0 
+     0.15546 0.454364 0 
+     0.158757 0.338084 0 
+     0.198321 0.846962 0 
+     0.528025 0.735684 0 
+     0.528025 0.735684 0 
+     0.991258 0.854464 0 
+     0.528025 0.735684 0 
+     0.58902 0.999501 0 
+endnode
+node trimesh Mesh40 
+  parent tps01_c02_0h 
+  position -2.8 -0.07 2.48
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_fac07e
+    verts 14
+     -0.91 -0.55 -0.12
+     -0.66 0.64 -0.03
+     -0.81 -0.34 0.27
+     -0.74 0.04 0.47
+     -0.67 0.41 0.27
+     -0.91 -0.58 -0.38
+     -0.65 0.69 -0.38
+     -0.68 -0.27 -0.22
+     -0.54 0.44 -0.21
+     -0.63 -0.14 -0.03
+     -0.58 0.08 0.1
+     -0.54 0.3 -0.03
+     -0.69 -0.29 -0.48
+     -0.56 0.48 -0.48
+    faces 12
+     0 2 9  8  0 2 6  1
+     9 7 0  8  6 4 0  1
+     2 3 10  8  2 1 5  1
+     10 9 2  8  5 6 2  1
+     3 4 11  8  1 2 6  1
+     11 10 3  8  6 5 1  1
+     4 1 8  8  2 0 4  1
+     8 11 4  8  4 6 2  1
+     5 0 7  8  3 0 4  1
+     7 12 5  8  4 7 3  1
+     1 6 13  8  0 3 7  1
+     13 8 1  8  7 4 0  1
+    tverts 8
+     0.23045 0.736225 0 
+     0.80458 0.732905 0 
+     0.515111 0.735124 0 
+     -0.0348915 0.73558 0 
+     0.168715 0.509962 0 
+     0.654769 0.50618 0 
+     0.388059 0.507669 0 
+     -0.0356791 0.519651 0 
+endnode
+node trimesh Mesh93 
+  parent tps01_c02_0h 
+  position 2.52 1.45 5.15
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_bricks22
+    verts 6
+     1.76 -0.39 -0.01
+     -1.78 0.26 0.0
+     1.76 -0.39 0.31
+     1.79 -0.27 0.3
+     -1.78 0.26 -0.31
+     -1.76 0.39 -0.01
+    faces 4
+     0 4 5  16  6 4 7  1
+     5 3 0  16  8 9 0  1
+     1 2 3  16  10 2 11  1
+     3 5 1  16  3 5 1  1
+    tverts 12
+     -0.370005 0.213617 0 
+     0.633277 1.39416 0 
+     0.305011 -0.383688 0 
+     0.365792 -0.39907 0 
+     1.40784 0.215849 0 
+     0.694989 1.38378 0 
+     -0.370005 0.213617 0 
+     1.38378 0.559554 0 
+     1.38378 0.559554 0 
+     -0.39907 0.556327 0 
+     0.633277 1.39416 0 
+     0.365792 -0.39907 0 
+endnode
+node trimesh Mesh43 
+  parent tps01_c02_0h 
+  position 1.9 1.91 8.56
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.000213623 0.0 0.0 
+     gizmo SubAnim:Gizmo
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_fwood05
+    verts 4
+     -0.06 0.35 -0.26
+     -0.06 0.35 -0.56
+     -0.39 -0.34 -0.56
+     -0.41 -0.34 0.56
+    faces 2
+     2 0 1  0  1 3 0  1
+     0 2 3  0  3 1 2  1
+    tverts 4
+     0.832451 0.230583 0 
+     0.343007 0.230688 0 
+     0.339833 0.82111 0 
+     0.832451 0.42846 0 
+endnode
+node trimesh Mesh44 
+  parent tps01_c02_0h 
+  position 3.23 1.84 8.15
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_fwood04
+    verts 4
+     -1.39 0.42 0.15
+     -1.39 0.42 -0.15
+     1.19 -0.01 -0.15
+     1.19 -0.01 0.15
+    faces 2
+     0 3 2  0  4 3 5  1
+     2 1 0  0  2 1 0  1
+    tverts 6
+     1.14717 0.972131 0 
+     1.14717 0.784303 0 
+     -0.147173 0.784402 0 
+     -0.147022 0.97223 0 
+     1.14717 0.972131 0 
+     -0.147173 0.784402 0 
+endnode
+node trimesh Mesh45 
+  parent tps01_c02_0h 
+  position 2.0 1.91 6.94
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_fwood03
+    verts 4
+     -0.49 -0.34 -1.07
+     -0.16 0.35 1.06
+     -0.49 -0.34 1.06
+     -0.16 0.35 -0.98
+    faces 2
+     3 0 2  8  4 0 5  1
+     2 1 3  8  2 1 3  1
+    tverts 6
+     0.449773 -0.0325 0 
+     0.104773 1.0325 0 
+     0.449773 1.0325 0 
+     0.104773 0.0125 0 
+     0.104773 0.0125 0 
+     0.449773 1.0325 0 
+endnode
+node trimesh Mesh46 
+  parent tps01_c02_0h 
+  position 3.13 1.81 6.94
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_fwood02
+    verts 4
+     1.29 0.02 -1.06
+     -1.29 0.45 1.06
+     1.29 0.02 1.06
+     -1.29 0.45 -0.98
+    faces 2
+     0 3 1  2  4 3 5  1
+     1 2 0  2  1 2 0  1
+    tverts 6
+     -0.185799 -0.0282362 0 
+     1.1042 1.03176 0 
+     -0.185799 1.03176 0 
+     1.1042 0.0117638 0 
+     -0.185799 -0.0282362 0 
+     1.1042 1.03176 0 
+endnode
+node trimesh Mesh47 
+  parent tps01_c02_0h 
+  position 2.97 1.66 6.66
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_fwood02
+    verts 4
+     1.45 0.17 -0.78
+     -1.46 -0.09 -0.79
+     1.31 -0.6 -0.7
+     -1.13 0.6 -0.7
+    faces 2
+     0 2 3  0  0 4 5  1
+     1 3 2  0  1 3 2  1
+    tverts 6
+     -0.792855 -0.460944 0 
+     -0.739991 0.121134 0 
+     -0.637448 -0.432141 0 
+     -0.877514 0.056793 0 
+     -0.637448 -0.432141 0 
+     -0.877514 0.056793 0 
+endnode
+node trimesh Mesh49 
+  parent tps01_c02_0h 
+  position 2.96 1.66 8.07
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_roof09
+    verts 4
+     -1.12 0.6 0.23
+     1.46 0.17 0.23
+     1.32 -0.6 0.94
+     -1.47 -0.09 1.05
+    faces 2
+     2 1 3  0  1 2 3  1
+     1 0 3  0  2 0 3  1
+    tverts 7
+     1.00161 -0.00243425 0 
+     -0.417073 0.525226 0 
+     -0.306046 -0.000520229 0 
+     1.00157 0.5381 0 
+     -0.306046 -0.000520229 0 
+     1.00161 -0.00243425 0 
+     1.00157 0.5381 0 
+endnode
+node trimesh Mesh51 
+  parent tps01_c02_0h 
+  position -3.64 0.09 10.11
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.000213623 0.0 0.0 
+     gizmo SubAnim:Gizmo
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_bricks21
+    verts 19
+     -1.12 -2.4 0.01
+     -0.23 2.41 0.13
+     -1.36 -2.4 1.89
+     -0.85 -0.04 1.32
+     -0.48 2.41 2.01
+     -1.08 -0.04 3.1
+     -0.67 -1.23 -1.76
+     -0.23 1.15 -1.7
+     -0.74 -1.06 -0.96
+     -0.36 0.98 -0.91
+     -0.72 -0.04 0.33
+     -0.77 -0.45 0.12
+     -0.64 0.29 0.2
+     -0.5 0.68 -0.28
+     -0.77 -0.81 -0.38
+     -0.51 -1.23 -2.98
+     -0.74 -2.4 -2.87
+     -0.06 1.17 -3.09
+     0.17 2.41 -3.09
+    faces 18
+     3 0 2  1  19 20 21  1
+     3 4 1  1  22 23 24  1
+     3 2 5  1  25 2 26  1
+     4 3 5  1  4 27 5  1
+     16 0 6  1  28 29 30  1
+     17 7 1  1  31 32 33  1
+     8 6 0  1  34 35 36  1
+     7 9 1  1  7 37 38  1
+     11 3 10  1  39 40 41  1
+     14 8 0  1  42 8 43  1
+     13 1 9  1  44 45 9  1
+     12 10 3  1  46 10 47  1
+     3 11 0  1  48 49 50  1
+     1 12 3  1  51 52 3  1
+     12 1 13  1  12 53 13  1
+     11 14 0  1  11 14 0  1
+     15 16 6  1  15 16 6  1
+     18 17 1  1  18 17 1  1
+    tverts 54
+     1.7025 0.5025 0 
+     -0.7025 0.5625 0 
+     1.7025 1.4425 0 
+     0.5225 1.15583 0 
+     -0.7025 1.5025 0 
+     0.5225 2.0475 0 
+     1.1175 -0.3825 0 
+     -0.0724999 -0.3525 0 
+     1.0325 0.0175 0 
+     0.0125 0.0425 0 
+     0.5225 0.6625 0 
+     0.7275 0.5575 0 
+     0.3575 0.5975 0 
+     0.1625 0.3575 0 
+     0.9075 0.3075 0 
+     1.1175 -0.9925 0 
+     1.7025 -0.9375 0 
+     -0.0824999 -1.0475 0 
+     -0.7025 -1.0475 0 
+     0.5225 1.15583 0 
+     1.7025 0.5025 0 
+     1.7025 1.4425 0 
+     0.5225 1.15583 0 
+     -0.7025 1.5025 0 
+     -0.7025 0.5625 0 
+     0.5225 1.15583 0 
+     0.5225 2.0475 0 
+     0.5225 1.15583 0 
+     1.7025 -0.9375 0 
+     1.7025 0.5025 0 
+     1.1175 -0.3825 0 
+     -0.0824999 -1.0475 0 
+     -0.0724999 -0.3525 0 
+     -0.7025 0.5625 0 
+     1.0325 0.0175 0 
+     1.1175 -0.3825 0 
+     1.7025 0.5025 0 
+     0.0125 0.0425 0 
+     -0.7025 0.5625 0 
+     0.7275 0.5575 0 
+     0.5225 1.15583 0 
+     0.5225 0.6625 0 
+     0.9075 0.3075 0 
+     1.7025 0.5025 0 
+     0.1625 0.3575 0 
+     -0.7025 0.5625 0 
+     0.3575 0.5975 0 
+     0.5225 1.15583 0 
+     0.5225 1.15583 0 
+     0.7275 0.5575 0 
+     1.7025 0.5025 0 
+     -0.7025 0.5625 0 
+     0.3575 0.5975 0 
+     -0.7025 0.5625 0 
+endnode
+node trimesh Mesh52 
+  parent tps01_c02_0h 
+  position -3.83 -2.19 11.03
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.000213623 0.0 0.0 
+     gizmo SubAnim:Gizmo
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_bricks21
+    verts 9
+     0.4 -0.32 -1.03
+     -0.93 -0.12 -0.91
+     -1.17 -0.12 0.97
+     5.64 -1.29 -1.03
+     3.67 -0.93 -1.03
+     5.64 -1.28 1.04
+     3.68 -0.91 0.85
+     8.53 -1.64 1.04
+     8.82 -1.9 -2.1
+    faces 7
+     0 2 1  0  9 10 1  1
+     7 5 3  0  11 12 13  1
+     4 3 5  0  14 15 16  1
+     5 6 4  0  5 17 18  1
+     0 4 6  0  19 4 20  1
+     6 2 0  0  6 2 0  1
+     3 8 7  2  3 8 7  2
+    tverts 21
+     -1.2125 0.25 0 
+     -1.8775 0.31 0 
+     -1.9975 1.25 0 
+     1.4075 0.25 0 
+     0.4225 0.25 0 
+     1.4075 1.285 0 
+     0.4275 1.19 0 
+     2.8513 1.285 0 
+     2.9975 -0.285 0 
+     -1.2125 0.25 0 
+     -1.9975 1.25 0 
+     2.8513 1.285 0 
+     1.4075 1.285 0 
+     1.4075 0.25 0 
+     0.4225 0.25 0 
+     1.4075 0.25 0 
+     1.4075 1.285 0 
+     0.4275 1.19 0 
+     0.4225 0.25 0 
+     -1.2125 0.25 0 
+     0.4275 1.19 0 
+endnode
+node trimesh Mesh78 
+  parent tps01_c02_0h 
+  position -1.07 -1.72 6.3
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_bricks16
+    verts 8
+     -3.08 -0.59 -0.84
+     -2.86 0.59 -0.94
+     -3.08 0.58 0.83
+     -3.31 -0.59 0.94
+     -3.08 -0.59 -0.84
+     -2.36 -0.77 -0.84
+     -2.28 -0.77 0.89
+     -3.31 -0.59 0.94
+    faces 4
+     2 1 0  0  4 1 5  1
+     3 2 0  0  3 2 0  1
+     6 7 4  2  10 9 11  1
+     4 5 6  2  6 7 8  1
+    tverts 12
+     1.56359 -0.964813 0 
+     0.970113 -1.01156 0 
+     0.974626 -0.129436 0 
+     1.56359 -0.072986 0 
+     0.974626 -0.129436 0 
+     1.56359 -0.964813 0 
+     0.413245 -0.99459 0 
+     0.00948662 -0.99459 0 
+     0.00514537 -0.0982577 0 
+     0.527597 -0.072986 0 
+     0.00514537 -0.0982577 0 
+     0.413245 -0.99459 0 
+endnode
+node trimesh Mesh155 
+  parent tps01_c02_0h 
+  position -2.81 0.08 7.92
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.000213623 0.0 0.0 
+     gizmo SubAnim:Gizmo
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_bricks22
+    verts 34
+     -0.69 1.21 -2.69
+     -1.13 -1.21 -2.57
+     -1.51 -1.23 0.43
+     -1.07 1.16 0.49
+     -1.58 -1.05 1.23
+     -1.2 0.99 1.28
+     -1.55 -0.03 2.52
+     -1.61 -0.44 2.31
+     -1.48 0.3 2.39
+     -1.34 0.69 1.91
+     -1.61 -0.8 1.81
+     -1.53 -1.42 0.33
+     -1.16 -1.41 -2.59
+     -0.64 1.42 -2.72
+     -1.01 1.37 0.39
+     -1.62 -1.23 1.24
+     -1.17 1.16 1.29
+     -1.59 -0.03 2.72
+     -1.65 -0.51 2.47
+     -1.65 -0.93 1.9
+     -1.33 0.82 2.01
+     -1.5 0.35 2.57
+     -0.82 -1.26 -2.56
+     -1.19 -1.28 0.47
+     -1.27 -1.11 1.27
+     -1.25 -0.09 2.56
+     -1.3 -0.5 2.35
+     -1.3 -0.86 1.85
+     -0.37 1.15 -2.67
+     -0.76 1.11 0.53
+     -0.89 0.93 1.32
+     -1.25 -0.09 2.56
+     -1.17 0.24 2.43
+     -1.03 0.64 1.95
+    faces 40
+     12 11 1  0  5 9 0  1
+     2 1 11  0  1 0 9  1
+     14 13 3  0  9 5 1  1
+     0 3 13  0  0 1 5  1
+     11 15 2  0  9 10 1  1
+     4 2 15  0  11 1 10  1
+     16 14 5  0  10 9 11  1
+     3 5 14  0  1 11 9  1
+     18 17 7  0  8 6 3  1
+     6 7 17  0  2 3 6  1
+     15 19 4  0  10 7 11  1
+     10 4 19  0  4 11 7  1
+     20 16 9  0  7 10 4  1
+     5 9 16  0  11 4 10  1
+     17 21 6  0  6 8 2  1
+     8 6 21  0  3 2 8  1
+     21 20 8  0  8 7 3  1
+     9 8 20  0  4 3 7  1
+     19 18 10  0  7 8 4  1
+     7 10 18  0  3 4 8  1
+     1 2 23  0  14 15 20  2
+     23 22 1  0  20 19 14  2
+     2 4 24  0  15 16 21  2
+     24 23 2  0  21 20 15  2
+     4 10 27  0  16 18 23  2
+     27 24 4  0  23 21 16  2
+     7 6 25  0  17 12 13  2
+     25 26 7  0  13 22 17  2
+     10 7 26  0  18 17 22  2
+     26 27 10  0  22 23 18  2
+     3 0 28  0  15 14 19  2
+     28 29 3  0  19 20 15  2
+     5 3 29  0  16 15 20  2
+     29 30 5  0  20 21 16  2
+     6 8 32  0  12 17 22  2
+     32 31 6  0  22 13 12  2
+     9 5 30  0  18 16 21  2
+     30 33 9  0  21 23 18  2
+     8 9 33  0  17 18 23  2
+     33 32 8  0  23 22 17  2
+    tverts 24
+     -0.361528 0.0689588 0 
+     1.29556 0.0652965 0 
+     2.73645 0.0669578 0 
+     2.45242 0.0683395 0 
+     2.06157 0.0682073 0 
+     -0.375766 0.17775 0 
+     2.77891 0.177634 0 
+     2.0523 0.181253 0 
+     2.44316 0.180287 0 
+     1.24098 0.178947 0 
+     1.70223 0.179485 0 
+     1.71189 0.0685941 0 
+     2.72879 0.184132 0 
+     2.73044 -0.00513661 0 
+     -0.356335 0.184965 0 
+     1.28756 0.180638 0 
+     1.70568 0.184662 0 
+     2.44666 0.183115 0 
+     2.04715 0.184572 0 
+     -0.352488 -0.00290084 0 
+     1.28921 -0.00863087 0 
+     1.70734 -0.0046072 0 
+     2.44831 -0.00615489 0 
+     2.0488 -0.00469697 0 
+endnode
+node trimesh Mesh59 
+  parent tps01_c02_0h 
+  position -2.96 1.95 9.52
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_bricks14
+    verts 6
+     1.16 0.23 -2.6
+     -0.51 0.55 -2.5
+     1.16 0.23 0.71
+     -0.91 0.55 0.72
+     1.16 0.23 2.55
+     -1.16 0.55 2.6
+    faces 4
+     5 4 2  0  3 0 2  1
+     0 1 3  8  5 4 1  1
+     3 2 0  8  1 2 5  1
+     2 3 5  0  2 1 3  1
+    tverts 6
+     1.01933 3.41804 0 
+     1.88022 2.50281 0 
+     1.01933 2.50072 0 
+     1.93765 3.44267 0 
+     1.74409 0.891946 0 
+     1.01933 0.844797 0 
+endnode
+node trimesh Mesh62 
+  parent tps01_c02_0h 
+  position -1.05 2.1 6.62
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.000213623 0.0 0.0 
+     gizmo SubAnim:Gizmo
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_bricks14
+    verts 12
+     1.79 -0.39 -1.47
+     1.79 -0.39 0.51
+     1.81 -0.26 -1.48
+     1.81 -0.22 0.49
+     -0.75 0.08 -1.55
+     1.79 -0.39 0.51
+     -0.75 0.08 3.61
+     -0.72 0.38 -1.59
+     1.86 -0.1 -1.64
+     1.81 -0.22 0.49
+     1.79 -0.39 3.61
+     1.79 -0.39 0.51
+    faces 5
+     1 0 2  0  1 0 12  1
+     10 11 3  4  10 11 3  1
+     8 9 5  4  13 9 14  2
+     5 2 8  4  5 2 8  2
+     7 4 6  4  7 4 6  2
+    tverts 15
+     -0.229474 0.288664 0 
+     -0.229474 1.27866 0 
+     -0.164474 0.283664 0 
+     -0.144474 1.26866 0 
+     0.994474 0.248492 0 
+     -0.229474 1.27866 0 
+     0.994474 2.82866 0 
+     0.844474 0.228606 0 
+     -0.0844741 0.203664 0 
+     -0.144474 1.26866 0 
+     -0.229474 2.82866 0 
+     -0.229474 1.27866 0 
+     -0.164474 0.283664 0 
+     -0.0844741 0.203664 0 
+     -0.229474 1.27866 0 
+endnode
+node trimesh Mesh61 
+  parent tps01_c02_0h 
+  position -0.52 1.02 8.65
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_bricks21
+    verts 4
+     1.26 0.69 1.58
+     -1.28 1.16 1.58
+     1.33 0.98 -3.67
+     -1.25 1.46 -3.62
+    faces 2
+     2 3 1  1  4 3 5  1
+     1 0 2  1  1 0 2  1
+    tverts 6
+     -0.1175 1.8125 0 
+     1.1525 1.8125 0 
+     -0.1525 -0.8125 0 
+     1.1375 -0.787558 0 
+     -0.1525 -0.8125 0 
+     1.1525 1.8125 0 
+endnode
+node trimesh Mesh90 
+  parent tps01_c02_0h 
+  position 0.57 1.9 3.69
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_bricks14
+    verts 7
+     0.17 -0.19 -1.39
+     0.17 -0.19 1.15
+     0.19 -0.06 1.45
+     0.21 0.05 -1.45
+     0.24 0.1 1.29
+     -0.27 0.19 1.3
+     -0.23 0.13 -1.39
+    faces 5
+     1 0 3  2  10 0 11  1
+     1 4 2  2  18 12 13  1
+     4 1 3  2  17 1 14  1
+     5 4 3  1  15 6 16  1
+     6 5 3  1  9 8 4  1
+    tverts 19
+     0.761993 0.0202343 0 
+     0.761993 1.28776 0 
+     -0.0593884 1.41814 0 
+     0.819032 1.3313 0 
+     -0.36833 -0.00745279 0 
+     -0.118307 0.00172448 0 
+     -0.384287 1.35834 0 
+     0.0285541 1.35174 0 
+     -0.141244 1.35446 0 
+     -0.145485 0.0202343 0 
+     0.761993 1.28776 0 
+     0.879553 -0.00745279 0 
+     0.905035 1.35834 0 
+     0.819032 1.3313 0 
+     0.879553 -0.00745279 0 
+     -0.141244 1.35446 0 
+     -0.36833 -0.00745279 0 
+     0.905035 1.35834 0 
+     0.761993 1.28776 0 
+endnode
+node trimesh Mesh42 
+  parent tps01_c02_0h 
+  position 2.59 -0.01 3.41
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_bricks22
+    verts 8
+     -6.07 -0.33 -1.15
+     -5.93 0.38 -1.14
+     -6.02 -0.2 -0.96
+     -5.97 0.02 -0.83
+     -5.93 0.24 -0.96
+     -6.08 -0.35 -1.41
+     -5.95 0.42 -1.41
+     -4.56 0.0 -1.91
+    faces 6
+     0 2 7  16  8 9 10  1
+     2 3 7  16  2 11 12  1
+     3 4 7  4  3 13 14  1
+     4 1 7  4  4 15 16  1
+     1 6 7  4  1 6 17  1
+     5 0 7  16  5 0 7  1
+    tverts 18
+     1.645 1.1125 0 
+     -0.575 1.1175 0 
+     1.62 0.3825 0 
+     1.595 0.4925 0 
+     -0.575 1.2075 0 
+     1.65 0.9825 0 
+     -0.585 0.9825 0 
+     -0.65 -0.2725 0 
+     1.645 1.1125 0 
+     1.62 1.2075 0 
+     -0.65 -0.2725 0 
+     1.595 0.4925 0 
+     -0.65 0.422499 0 
+     1.575 0.6025 0 
+     -0.65 0.422499 0 
+     -0.575 1.1175 0 
+     1.65 -0.2725 0 
+     1.65 -0.2725 0 
+endnode
+node trimesh Mesh88 
+  parent tps01_c02_0h 
+  position 0.13 2.09 4.25
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_rubble01
+    verts 6
+     0.2 -0.02 1.95
+     -0.16 0.04 1.94
+     -0.15 0.07 0.71
+     0.2 0.01 0.72
+     -0.21 0.01 -1.87
+     0.21 -0.06 -1.95
+    faces 4
+     2 5 4  4  6 7 4  1
+     5 2 3  4  5 8 9  1
+     0 3 1  0  0 10 11  1
+     3 2 1  0  3 2 1  1
+    tverts 12
+     1.07719 1.59763 0 
+     1.28079 1.592 0 
+     1.27516 0.89965 0 
+     1.07719 0.905279 0 
+     1.30893 -0.5526 0 
+     1.07157 -0.597631 0 
+     1.27516 0.89965 0 
+     1.07157 -0.597631 0 
+     1.27516 0.89965 0 
+     1.07719 0.905279 0 
+     1.07719 0.905279 0 
+     1.28079 1.592 0 
+endnode
+node trimesh Mesh57 
+  parent tps01_c02_0h 
+  position -0.92 0.8 4.47
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_bricks14
+    verts 7
+     -0.88 1.38 0.64
+     -0.85 1.68 0.56
+     0.94 1.35 0.54
+     -0.88 1.36 0.32
+     -0.88 1.38 -0.52
+     -0.85 1.66 -0.57
+     0.91 1.33 -0.63
+    faces 5
+     5 0 1  2  7 8 9  1
+     6 5 1  1  10 11 12  1
+     4 3 0  0  13 3 14  2
+     5 4 0  0  5 4 0  2
+     2 6 1  1  2 6 1  1
+    tverts 15
+     1.00509 1.34423 0 
+     0.921883 1.30417 0 
+     0.0417687 1.28715 0 
+     1.01661 1.18423 0 
+     1.00509 0.76423 0 
+     0.865089 0.73923 0 
+     0.0568835 0.70923 0 
+     0.865089 0.73923 0 
+     1.00509 1.34423 0 
+     0.855089 1.30417 0 
+     0.0568835 0.70923 0 
+     0.921883 0.73923 0 
+     0.921883 1.30417 0 
+     1.00509 0.76423 0 
+     1.00509 1.34423 0 
+endnode
+node trimesh Object25 
+  parent tps01_c02_0h 
+  position 3.0 4.28 8.63
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.000213623 0.0 0.0 
+     gizmo SubAnim:Gizmo
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_roof09
+    verts 4
+     1.94 -0.72 -0.15
+     2.0 0.72 1.31
+     -1.82 -0.53 0.14
+     -2.0 0.72 1.31
+    faces 2
+     2 0 1  1  4 0 5  1
+     1 3 2  1  1 3 2  1
+    tverts 11
+     1.97667 0.00615838 0 
+     2.00504 0.993842 0 
+     0.00132439 0.00221193 0 
+     0.00504142 0.993842 0 
+     0.00132439 0.00221193 0 
+     2.00504 0.993842 0 
+     0.00132439 0.00221193 0 
+     1.97667 0.00615838 0 
+     2.00504 0.993842 0 
+     0.00504142 0.993842 0 
+     0.00132439 0.00221193 0 
+endnode
+node trimesh Mesh83 
+  parent tps01_c02_0h 
+  position 0.22 4.73 4.83
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_facade04
+    verts 10
+     0.97 -0.52 -2.53
+     -0.98 -0.45 -2.53
+     0.97 -0.52 0.47
+     -0.98 -0.45 0.47
+     0.97 -0.52 2.53
+     -0.75 -0.28 1.75
+     0.59 -0.2 2.24
+     0.25 -0.13 2.24
+     0.19 -0.43 1.37
+     0.54 -0.49 1.36
+    faces 8
+     1 0 2  4  9 0 10  1
+     2 3 1  4  11 12 13  1
+     2 8 3  4  14 15 16  1
+     2 9 8  4  17 18 19  1
+     2 4 9  4  1 20 21  1
+     5 8 7  0  22 23 6  1
+     3 8 5  4  2 7 4  1
+     9 4 6  4  8 3 5  1
+    tverts 24
+     0.564826 -0.387173 0 
+     0.564826 0.212827 0 
+     0.174462 0.212827 0 
+     -1.26912 0.625228 0 
+     0.221205 0.469417 0 
+     -1.33285 0.566535 0 
+     0.419529 0.566535 0 
+     0.40804 0.393313 0 
+     -1.27388 0.391148 0 
+     0.174462 -0.387173 0 
+     0.564826 0.212827 0 
+     0.564826 0.212827 0 
+     0.174462 0.212827 0 
+     0.174462 -0.387173 0 
+     0.564826 0.212827 0 
+     0.40804 0.393313 0 
+     0.174462 0.212827 0 
+     0.564826 0.212827 0 
+     0.478136 0.391148 0 
+     0.40804 0.393313 0 
+     0.564826 0.625228 0 
+     0.478136 0.391148 0 
+     0.221205 0.469417 0 
+     0.40804 0.393313 0 
+endnode
+node trimesh Mesh86 
+  parent tps01_c02_0h 
+  position 0.22 4.61 4.83
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_rubble01
+    verts 11
+     -0.98 -0.33 -2.53
+     -0.98 0.39 -2.53
+     -0.98 -0.33 0.47
+     -0.98 0.39 0.47
+     0.97 -0.4 2.53
+     0.78 0.39 2.53
+     -0.8 0.38 1.8
+     -0.75 -0.16 1.75
+     0.25 0.39 2.28
+     0.59 -0.08 2.24
+     0.25 -0.01 2.24
+    faces 9
+     1 0 2  8  1 0 2  1
+     2 3 1  8  2 3 1  1
+     6 2 7  8  6 2 7  1
+     5 9 4  4  5 9 4  1
+     3 2 6  8  3 2 6  1
+     8 6 7  4  8 6 7  1
+     5 8 9  4  5 8 9  1
+     10 8 7  4  10 8 7  1
+     8 10 9  0  8 10 9  1
+    tverts 11
+     0.444827 -0.856143 0 
+     0.889737 -0.856143 0 
+     0.444827 0.534633 0 
+     0.889737 0.534633 0 
+     0.401076 1.85614 0 
+     0.889737 1.81697 0 
+     0.885755 1.18707 0 
+     0.547743 1.17317 0 
+     0.889737 1.60613 0 
+     0.599209 1.64842 0 
+     0.638834 1.58402 0 
+endnode
+node trimesh Mesh01 
+  parent tps01_c02_0h 
+  position 0.78 -3.78 8.54
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.000213623 0.0 0.0 
+     gizmo SubAnim:Gizmo
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_roof09c
+    verts 6
+     -3.11 -1.26 -0.06
+     -4.21 1.27 1.46
+     -3.58 -0.28 0.47
+     -3.8 -0.23 0.36
+     -3.33 -1.21 -0.17
+     -4.43 1.32 1.35
+    faces 4
+     3 4 0  1  3 4 0  1
+     0 2 3  1  0 2 3  1
+     5 3 2  1  5 3 2  1
+     2 1 5  1  2 1 5  1
+    tverts 6
+     0.497382 0.00421121 0 
+     0.493184 1.47654 0 
+     0.496171 0.562088 0 
+     0.0599261 0.592411 0 
+     0.0611367 0.034534 0 
+     0.0569393 1.50686 0 
+endnode
+node trimesh Mesh39 
+  parent tps01_c02_0h 
+  position -2.23 -0.07 3.62
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_bills04
+    verts 14
+     0.43 2.25 -1.32
+     -1.7 -2.34 -1.32
+     -0.81 2.48 -1.32
+     -1.03 2.57 1.32
+     -1.48 -0.55 -1.26
+     -1.23 0.64 -1.17
+     -1.38 -0.34 -0.87
+     -1.31 0.04 -0.67
+     -1.24 0.41 -0.87
+     -1.48 -0.58 -1.52
+     -1.22 0.69 -1.52
+     0.43 2.25 1.17
+     -1.92 -2.24 1.52
+     -1.49 0.12 1.25
+    faces 12
+     0 2 3  4  14 15 16  1
+     3 11 0  4  17 11 0  1
+     9 1 4  8  9 1 4  1
+     1 12 6  8  1 12 6  1
+     6 4 1  8  6 4 1  1
+     6 13 7  8  6 13 7  1
+     13 6 12  8  13 6 12  1
+     8 3 5  8  8 3 5  1
+     8 7 13  8  8 7 13  1
+     3 2 5  8  3 2 5  1
+     3 8 13  8  3 8 13  1
+     10 5 2  8  10 5 2  1
+    tverts 24
+     0.0349779 0.0698641 0 
+     2.2267 0.0698641 0 
+     -1.23573 0.0774102 0 
+     -1.2356 0.995905 0 
+     0.937607 0.0966189 0 
+     0.117269 0.125432 0 
+     0.763106 0.221475 0 
+     0.497578 0.285504 0 
+     0.267572 0.221475 0 
+     0.956257 0.0133815 0 
+     0.0861866 0.0133815 0 
+     0.0349779 0.98776 0 
+     2.22061 0.988854 0 
+     0.503923 0.989052 0 
+     0.0349779 0.0698641 0 
+     0.732546 0.0698641 0 
+     0.730107 0.982959 0 
+     0.730107 0.982959 0 
+     -0.986975 0.994349 0 
+     -1.47518 0.996543 0 
+     -1.00658 0.0371077 0 
+     -1.34742 0.0386396 0 
+     -1.34742 0.0386396 0 
+     -0.986975 0.994349 0 
+endnode
+node trimesh Mesh03 
+  parent tps01_c02_0h 
+  position 2.96 1.66 8.07
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_roof09a
+    verts 4
+     -1.12 0.6 0.23
+     1.46 0.17 0.23
+     1.65 0.2 0.09
+     -1.17 0.67 0.09
+    faces 2
+     2 3 0  0  2 3 0  1
+     0 1 2  0  0 1 2  1
+    tverts 4
+     0.998586 -0.15374 0 
+     -0.309165 -0.118953 0 
+     -0.401426 -0.380213 0 
+     1.02971 -0.414687 0 
+endnode
+node trimesh Mesh34 
+  parent tps01_c02_0h 
+  position 0.78 -3.78 8.54
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.000213623 0.0 0.0 
+     gizmo SubAnim:Gizmo
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_roof09
+    verts 11
+     1.03 0.3 1.46
+     -0.94 0.66 1.46
+     4.22 -1.26 -0.06
+     2.22 -1.26 -0.06
+     0.22 -1.26 -0.06
+     -3.11 -1.26 -0.06
+     -4.21 1.27 1.46
+     0.22 -0.3 0.45
+     2.22 -0.27 0.48
+     4.21 -0.31 0.39
+     -3.58 -0.28 0.47
+    faces 11
+     8 2 9  1  8 2 9  1
+     9 0 8  1  9 0 8  1
+     7 3 8  1  7 3 8  1
+     0 1 8  1  0 1 8  1
+     10 4 7  1  10 4 7  1
+     1 6 7  1  1 6 7  1
+     5 4 10  1  5 4 10  1
+     7 6 10  1  7 6 10  1
+     4 3 7  1  4 3 7  1
+     8 1 7  1  8 1 7  1
+     3 2 8  1  3 2 8  1
+    tverts 11
+     2.60888 1.06463 0 
+     1.62388 1.21728 0 
+     3.66118 0.000417739 0 
+     2.66118 0.000417948 0 
+     1.66118 0.000418156 0 
+     -0.00381857 0.000418484 0 
+     -0.0111212 1.47594 0 
+     1.89212 0.542611 0 
+     2.89212 0.56328 0 
+     3.88712 0.522472 0 
+     -0.0078835 0.556391 0 
+endnode
+node trimesh Mesh04 
+  parent tps01_c02_0h 
+  position 3.0 4.28 8.63
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.000213623 0.0 0.0 
+     gizmo SubAnim:Gizmo
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_roof09c
+    verts 4
+     -1.82 -0.53 0.14
+     -2.0 0.72 1.31
+     -1.91 -0.6 -0.05
+     -2.1 0.7 1.17
+    faces 2
+     3 2 0  1  7 4 2  1
+     0 1 3  1  2 3 7  1
+    tverts 8
+     8.40393 -0.312351 0 
+     9.21524 0.861124 0 
+     0.395832 0.00152451 0 
+     0.513823 0.997642 0 
+     0.0597861 -0.0903007 0 
+     8.48217 -0.417961 0 
+     9.32654 0.800902 0 
+     0.177346 0.944445 0 
+endnode
+node trimesh Mesh06 
+  parent tps01_c02_0h 
+  position 3.0 4.28 8.63
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_roof09c
+    verts 4
+     1.94 -0.72 -0.15
+     2.0 0.72 1.31
+     2.04 -0.8 -0.35
+     2.1 0.7 1.17
+    faces 2
+     2 3 1  1  2 3 1  1
+     1 0 2  1  1 0 2  1
+    tverts 4
+     0.466536 0.00734574 0 
+     0.434606 0.999033 0 
+     0.729494 -0.0860106 0 
+     0.697554 0.944047 0 
+endnode
+node trimesh Plane05 
+  parent tps01_c02_0h 
+  position -1.77 1.9 12.12
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.000213623 0.0 0.0 
+     gizmo SubAnim:Gizmo
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_roof09g
+    verts 20
+     -3.23 -4.21 -0.12
+     1.62 -5.0 -0.24
+     3.58 -5.37 -0.05
+     6.47 -5.73 -0.05
+     -2.95 -1.85 1.09
+     6.25 -3.36 1.17
+     -2.35 0.6 0.0
+     -0.03 0.28 -0.05
+     2.51 -0.19 -0.24
+     6.44 -0.92 0.01
+     -3.88 -4.41 0.2
+     1.58 -5.3 0.07
+     3.79 -5.72 0.28
+     7.04 -6.13 0.28
+     -3.56 -1.76 1.56
+     7.41 -3.47 1.64
+     -2.89 1.0 0.34
+     -0.27 0.64 0.28
+     2.59 0.11 0.07
+     7.01 -0.71 0.35
+    faces 20
+     4 0 10  0  14 4 21  1
+     10 14 4  0  21 22 14  1
+     0 1 11  0  0 1 11  1
+     11 10 0  0  11 10 0  1
+     1 2 12  0  1 2 12  1
+     12 11 1  0  12 11 1  1
+     3 5 15  0  5 9 26  1
+     15 13 3  0  26 19 5  1
+     2 3 13  0  2 3 13  1
+     13 12 2  0  13 12 2  1
+     6 4 14  0  20 14 22  1
+     14 16 6  0  22 23 20  1
+     7 6 16  0  7 6 17  1
+     16 17 7  0  17 18 7  1
+     8 7 17  0  8 7 18  1
+     17 18 8  0  18 24 8  1
+     9 8 18  0  16 8 24  1
+     18 19 9  0  24 25 16  1
+     5 9 19  0  9 15 27  1
+     19 15 5  0  27 26 9  1
+    tverts 28
+     -1.4185 0.987272 0 
+     0.365262 0.984286 0 
+     1.08858 0.980283 0 
+     2.1221 0.982182 0 
+     1.47884 0.487655 0 
+     0.0725414 -0.280628 0 
+     2.13636 0.980094 0 
+     1.20083 0.98105 0 
+     0.169101 0.989883 0 
+     0.509988 -0.280475 0 
+     -1.64104 1.29089 0 
+     0.367079 1.28991 0 
+     1.18137 1.2908 0 
+     2.37096 1.28783 0 
+     0.5266 0.489466 0 
+     0.960818 -0.279551 0 
+     -1.4274 0.985206 0 
+     2.37258 1.28831 0 
+     1.31938 1.28758 0 
+     0.000219807 0.0186446 0 
+     -0.48921 0.490609 0 
+     1.6159 0.779655 0 
+     0.543889 0.783615 0 
+     -0.599685 0.783011 0 
+     0.157888 1.2903 0 
+     -1.63942 1.2908 0 
+     0.491299 0.0185874 0 
+     1.00022 0.0148859 0 
+endnode
+node trimesh Mesh92 
+  parent tps01_c02_0h 
+  position 4.48 0.69 10.79
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.000213623 0.0 0.0 
+     gizmo SubAnim:Gizmo
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_rubble01
+    verts 4
+     0.19 0.3 -1.34
+     -0.2 0.37 -1.34
+     0.19 0.29 1.34
+     -0.2 0.37 1.33
+    faces 2
+     0 1 3  0  4 1 5  1
+     3 2 0  0  3 2 0  1
+    tverts 6
+     0.728626 -0.168676 0 
+     0.923971 -0.168676 0 
+     0.7293 1.16868 0 
+     0.924645 1.13804 0 
+     0.728626 -0.168676 0 
+     0.924645 1.13804 0 
+endnode
+node trimesh Mesh91 
+  parent tps01_c02_0h 
+  position 2.51 0.6 8.61
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_facade04
+    verts 12
+     -1.77 1.11 -3.46
+     -1.77 1.11 -0.31
+     1.77 0.46 -3.15
+     1.77 0.46 0.84
+     -1.77 1.11 1.62
+     -1.0 0.97 -2.74
+     -1.0 0.97 -0.61
+     1.77 0.46 -2.65
+     1.77 0.46 0.4
+     -1.02 0.97 0.51
+     1.77 0.46 3.51
+     -1.77 1.11 3.27
+    faces 10
+     2 0 5  0  12 13 14  1
+     5 7 2  0  15 7 2  1
+     0 1 6  0  16 17 18  1
+     6 5 0  0  19 5 0  1
+     8 4 3  0  20 21 22  1
+     6 1 9  8  6 23 24  1
+     9 1 4  8  25 1 26  1
+     8 9 4  8  8 9 27  1
+     3 4 11  0  28 4 29  1
+     11 10 3  0  11 10 3  1
+    tverts 30
+     0.0363178 -0.651287 0 
+     0.0363178 -0.0210986 0 
+     -0.672148 -0.589699 0 
+     -0.672418 0.209361 0 
+     0.0363178 0.365101 0 
+     -0.118873 -0.506568 0 
+     -0.118873 -0.0806103 0 
+     -0.672148 -0.489117 0 
+     -0.67223 0.120721 0 
+     -0.11487 0.143009 0 
+     -0.672148 0.732046 0 
+     0.0363178 0.695259 0 
+     -0.672148 -0.589699 0 
+     0.0363178 -0.651287 0 
+     -0.118873 -0.506568 0 
+     -0.118873 -0.506568 0 
+     0.0363178 -0.651287 0 
+     0.0363178 -0.0210986 0 
+     -0.118873 -0.0806103 0 
+     -0.118873 -0.0806103 0 
+     -0.67223 0.120721 0 
+     0.0363178 0.365101 0 
+     -0.672418 0.209361 0 
+     0.0363178 -0.0210986 0 
+     -0.11487 0.143009 0 
+     -0.11487 0.143009 0 
+     0.0363178 0.365101 0 
+     0.0363178 0.365101 0 
+     -0.672418 0.209361 0 
+     0.0363178 0.695259 0 
+endnode
+node trimesh Mesh05 
+  parent tps01_c02_0h 
+  position 3.0 4.28 8.63
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_roof09a
+    verts 4
+     1.94 -0.72 -0.15
+     -1.82 -0.53 0.14
+     -1.91 -0.6 -0.05
+     2.04 -0.8 -0.35
+    faces 2
+     2 3 0  1  2 3 0  1
+     0 1 2  1  0 1 2  1
+    tverts 4
+     0.966367 0.947609 0 
+     -0.993702 0.894864 0 
+     -1.03333 0.474684 0 
+     1.02738 0.538825 0 
+endnode
+node trimesh Mesh30 
+  parent tps01_c02_0h 
+  position -3.07 -0.04 5.12
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_bricks22
+    verts 18
+     -0.2 -2.68 0.33
+     -0.19 2.54 -0.18
+     -0.32 -2.45 0.02
+     1.27 2.22 -0.33
+     -1.08 -2.27 0.02
+     -0.65 0.09 -0.25
+     1.3 2.35 -0.02
+     -1.26 -2.48 0.33
+     -0.79 0.06 0.1
+     -0.31 2.68 0.12
+     1.27 2.22 -0.01
+     -1.08 -2.27 0.34
+     -0.42 1.33 0.13
+     -0.32 -2.45 0.34
+     -0.19 2.54 0.13
+     -0.86 -1.09 0.24
+     -0.11 1.27 0.13
+     -0.56 -1.14 0.24
+    faces 19
+     4 2 0  1  10 9 1  1
+     0 7 4  1  1 11 10  1
+     3 1 9  1  2 0 8  1
+     9 6 3  1  8 5 2  1
+     5 4 7  4  4 3 6  1
+     7 8 5  4  6 7 4  1
+     1 5 8  4  29 4 7  1
+     8 9 1  4  7 31 30  1
+     13 11 7  2  16 25 27  1
+     7 0 13  2  27 12 16  1
+     11 15 8  2  14 22 20  1
+     8 7 11  2  20 19 14  1
+     9 8 12  2  21 20 15  1
+     14 10 6  2  26 13 18  1
+     6 9 14  2  18 28 26  1
+     15 12 8  2  22 15 20  1
+     12 14 9  2  15 17 21  1
+     12 15 17  1  15 22 24  1
+     17 16 12  1  24 23 15  1
+    tverts 32
+     1.87882 1.02451 0 
+     1.01298 1.19039 0 
+     1.3065 0.971041 0 
+     -0.636617 0.993306 0 
+     0.573957 0.966739 0 
+     1.29621 1.17485 0 
+     -0.752141 1.1883 0 
+     0.534791 1.19284 0 
+     1.92736 1.16523 0 
+     0.979468 1.01548 0 
+     0.155357 1.01285 0 
+     0.0129802 1.19362 0 
+     -0.858342 1.1771 0 
+     1.486 0.965409 0 
+     -0.636196 1.11774 0 
+     1.1944 1.11774 0 
+     -0.844434 1.0615 0 
+     1.81126 1.11774 0 
+     1.46211 1.02271 0 
+     -0.752297 1.18842 0 
+     0.537302 1.18842 0 
+     1.86931 1.18842 0 
+     -0.0326167 1.11774 0 
+     1.1944 1.00995 0 
+     -0.0326168 1.00995 0 
+     -0.472355 1.06076 0 
+     0.74469 1.12961 0 
+     -0.406801 1.17983 0 
+     0.672509 1.18579 0 
+     1.82865 1.02451 0 
+     1.82865 1.02451 0 
+     1.8772 1.16523 0 
+endnode
+node trimesh Mesh70 
+  parent tps01_c02_0h 
+  position 1.33 -4.24 4.99
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_slum03
+    verts 10
+     3.67 -0.76 0.31
+     -0.33 -0.76 0.31
+     -3.66 -0.76 0.31
+     -3.48 -0.67 2.89
+     -0.33 -0.68 2.95
+     3.67 -0.79 2.91
+     1.67 -0.79 2.87
+     -3.66 -0.76 -1.21
+     -0.33 -0.76 -1.23
+     -3.31 -0.63 -1.21
+    faces 8
+     7 8 1  1  12 13 14  1
+     4 3 2  1  18 5 19  1
+     2 1 4  1  20 21 22  1
+     6 4 1  1  23 6 24  1
+     1 0 6  1  25 26 27  1
+     5 6 0  1  7 8 2  1
+     1 2 7  1  3 4 28  1
+     8 7 9  4  10 9 11  1
+    tverts 30
+     0.327727 0.620088 0 
+     -1.00235 0.62037 0 
+     2.11494 1.37006 0 
+     0.309774 1.37006 0 
+     -1.19303 1.37006 0 
+     -1.09727 2.01534 0 
+     0.322038 2.02986 0 
+     2.10361 2.01962 0 
+     1.2011 2.00962 0 
+     2.19018 0.715018 0 
+     0.687337 -0.00170344 0 
+     2.00514 0.698283 0 
+     -1.19018 0.990703 0 
+     0.312663 0.985622 0 
+     0.309774 1.37006 0 
+     0.312663 0.985622 0 
+     -1.00514 0.990984 0 
+     -1.00235 0.62037 0 
+     0.322038 2.02986 0 
+     -1.19303 1.37006 0 
+     -1.19303 1.37006 0 
+     0.309774 1.37006 0 
+     0.322038 2.02986 0 
+     1.2011 2.00962 0 
+     0.309774 1.37006 0 
+     0.309774 1.37006 0 
+     2.11494 1.37006 0 
+     1.2011 2.00962 0 
+     -1.19018 0.990703 0 
+     0.312663 0.985622 0 
+endnode
+node trimesh Object154 
+  parent tps01_c02_0h 
+  position 0.53 4.57 7.97
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_facade04
+    verts 10
+     -0.28 -1.12 -0.55
+     0.07 -1.18 -0.55
+     0.07 -1.15 -0.19
+     -0.27 -1.09 -0.19
+     -0.12 -0.27 -1.77
+     0.23 -0.33 -1.78
+     0.19 -0.53 -1.03
+     -0.16 -0.46 -1.02
+     0.13 -0.84 -0.68
+     -0.22 -0.78 -0.67
+    faces 8
+     0 1 2  8  0 1 2  1
+     2 3 0  8  3 4 5  1
+     4 5 6  0  6 7 8  1
+     6 7 4  0  9 10 11  1
+     7 6 8  0  12 13 14  1
+     8 9 7  0  15 16 17  1
+     9 8 1  0  18 19 20  1
+     1 0 9  0  21 22 23  1
+    tverts 24
+     0.376752 0.637408 0 
+     0.446508 0.636457 0 
+     0.447042 0.708748 0 
+     0.447042 0.708748 0 
+     0.378279 0.708748 0 
+     0.376752 0.637408 0 
+     0.40804 0.393313 0 
+     0.478136 0.391148 0 
+     0.470682 0.540979 0 
+     0.470682 0.540979 0 
+     0.40098 0.541873 0 
+     0.40804 0.393313 0 
+     0.40098 0.541873 0 
+     0.470682 0.540979 0 
+     0.459016 0.611243 0 
+     0.459016 0.611243 0 
+     0.389307 0.612151 0 
+     0.40098 0.541873 0 
+     -1.18484 0.610693 0 
+     -1.17163 0.540984 0 
+     -1.10413 0.553492 0 
+     -1.10413 0.553492 0 
+     -1.11708 0.623248 0 
+     -1.18484 0.610693 0 
+endnode
+node trimesh Mesh89 
+  parent tps01_c02_0h 
+  position 0.23 2.04 7.05
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_bricks14
+    verts 22
+     0.08 -0.18 -0.89
+     -0.29 -0.12 -0.9
+     0.07 -0.2 0.02
+     -0.29 -0.13 0.02
+     0.13 0.11 -0.89
+     -0.24 0.17 -0.9
+     0.1 -0.05 0.02
+     -0.26 0.03 0.02
+     0.13 0.11 -0.63
+     -0.24 0.17 -0.64
+     0.13 0.09 0.15
+     -0.24 0.16 0.15
+     0.17 0.31 -0.1
+     -0.2 0.38 -0.11
+     0.2 0.51 0.58
+     -0.17 0.57 0.58
+     0.22 0.65 0.27
+     -0.13 0.71 0.25
+     0.29 0.97 0.77
+     -0.07 1.03 0.77
+     0.3 0.99 0.39
+     -0.07 1.07 0.39
+    faces 26
+     3 7 1  0  34 35 36  1
+     3 2 6  0  37 38 39  1
+     6 7 3  0  40 41 3  1
+     8 0 4  0  42 43 44  1
+     0 8 2  0  0 45 46  1
+     9 1 7  0  52 53 54  1
+     1 9 5  0  1 55 5  1
+     6 2 8  0  56 2 57  1
+     9 7 11  0  64 65 66  1
+     11 13 9  0  67 68 9  1
+     7 6 10  0  69 70 71  1
+     10 11 7  0  72 73 7  1
+     6 8 12  0  74 8 75  1
+     12 10 6  0  76 77 6  1
+     13 11 15  0  84 85 86  1
+     15 17 13  0  87 88 13  1
+     11 10 14  0  89 90 91  1
+     14 15 11  0  92 93 11  1
+     10 12 16  0  94 12 95  1
+     16 14 10  0  96 97 10  1
+     17 15 19  0  104 105 106  1
+     19 21 17  0  107 21 17  1
+     15 14 18  0  108 109 110  1
+     18 19 15  0  111 19 15  1
+     14 16 20  0  112 16 113  1
+     20 18 14  0  20 18 14  1
+    tverts 114
+     -0.0251291 0.107182 0 
+     0.99265 0.101767 0 
+     -0.0323354 0.5427 0 
+     -0.000474393 0.639187 0 
+     0.438559 0.109646 0 
+     0.853047 0.104231 0 
+     0.0433975 0.545164 0 
+     0.0752585 0.625161 0 
+     0.115776 0.231296 0 
+     0.8519 0.228918 0 
+     0.109045 0.604636 0 
+     0.387 0.604636 0 
+     0.212067 0.481045 0 
+     0.75481 0.478811 0 
+     0.305471 0.810539 0 
+     0.337332 0.5766 0 
+     0.369548 0.656739 0 
+     0.597425 0.654471 0 
+     0.524209 0.898233 0 
+     0.55607 0.536063 0 
+     0.538928 0.719882 0 
+     0.428687 0.717505 0 
+     0.360338 0.719882 0 
+     0.534729 0.717505 0 
+     0.536063 0.898233 0 
+     0.536063 0.898233 0 
+     0.364157 0.898233 0 
+     0.360338 0.719882 0 
+     1.02513 0.464423 0 
+     0.99265 0.639662 0 
+     0.853047 0.613799 0 
+     0.853047 0.613799 0 
+     0.885526 0.438559 0 
+     1.02513 0.464423 0 
+     1.00047 0.5427 0 
+     0.924742 0.545164 0 
+     0.99265 0.101767 0 
+     -0.000474393 0.639187 0 
+     -0.0323354 0.46728 0 
+     0.0433975 0.453254 0 
+     0.0433975 0.453254 0 
+     0.0752585 0.625161 0 
+     0.115776 0.231296 0 
+     -0.0251291 0.107182 0 
+     0.114474 0.109646 0 
+     0.115776 0.231296 0 
+     -0.0323354 0.5427 0 
+     0.438559 0.109646 0 
+     0.613799 0.104231 0 
+     0.613152 0.228918 0 
+     0.613152 0.228918 0 
+     0.438749 0.231296 0 
+     0.8519 0.228918 0 
+     0.99265 0.101767 0 
+     0.924742 0.545164 0 
+     0.8519 0.228918 0 
+     0.0433975 0.545164 0 
+     0.115776 0.231296 0 
+     0.438749 0.231296 0 
+     0.613152 0.228918 0 
+     0.595164 0.478811 0 
+     0.595164 0.478811 0 
+     0.420909 0.481045 0 
+     0.438749 0.231296 0 
+     0.8519 0.228918 0 
+     0.924742 0.545164 0 
+     0.859094 0.604636 0 
+     0.859094 0.604636 0 
+     0.75481 0.478811 0 
+     0.0752585 0.625161 0 
+     0.0433975 0.453254 0 
+     0.109045 0.441094 0 
+     0.109045 0.441094 0 
+     0.140906 0.613 0 
+     0.0433975 0.545164 0 
+     0.212067 0.481045 0 
+     0.212067 0.481045 0 
+     0.109045 0.604636 0 
+     0.420909 0.481045 0 
+     0.595164 0.478811 0 
+     0.566 0.654471 0 
+     0.566 0.654471 0 
+     0.391727 0.656739 0 
+     0.420909 0.481045 0 
+     0.75481 0.478811 0 
+     0.859094 0.604636 0 
+     0.662668 0.810539 0 
+     0.662668 0.810539 0 
+     0.597425 0.654471 0 
+     0.387 0.604636 0 
+     0.558906 0.604636 0 
+     0.595306 0.810539 0 
+     0.595306 0.810539 0 
+     0.4234 0.810539 0 
+     0.109045 0.604636 0 
+     0.369548 0.656739 0 
+     0.369548 0.656739 0 
+     0.305471 0.810539 0 
+     0.630452 0.391727 0 
+     0.597425 0.566 0 
+     0.428687 0.534729 0 
+     0.428687 0.534729 0 
+     0.461072 0.360338 0 
+     0.630452 0.391727 0 
+     0.597425 0.654471 0 
+     0.662668 0.810539 0 
+     0.44393 0.898233 0 
+     0.44393 0.898233 0 
+     0.337332 0.5766 0 
+     0.305471 0.404694 0 
+     0.524209 0.364157 0 
+     0.524209 0.364157 0 
+     0.305471 0.810539 0 
+     0.538928 0.719882 0 
+endnode
+node trimesh Object155 
+  parent tps01_c02_0h 
+  position 0.23 2.04 7.99
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_bricks14
+    verts 14
+     0.08 -0.18 -1.83
+     -0.29 -0.12 -1.84
+     0.13 0.11 -1.83
+     -0.24 0.17 -1.84
+     0.13 0.11 -1.57
+     -0.24 0.17 -1.58
+     0.17 0.31 -1.04
+     -0.2 0.38 -1.05
+     0.22 0.65 -0.67
+     -0.13 0.71 -0.69
+     0.29 0.97 -0.17
+     -0.07 1.03 -0.17
+     0.3 0.99 -0.55
+     -0.07 1.07 -0.55
+    faces 12
+     12 13 11  8  1 2 3  1
+     11 10 12  8  4 5 6  1
+     0 1 3  0  7 8 9  1
+     3 2 0  0  10 11 12  1
+     2 3 5  0  13 14 15  1
+     5 4 2  0  16 17 0  1
+     4 5 7  0  18 19 20  1
+     7 6 4  0  21 22 23  1
+     6 7 9  0  24 25 26  1
+     9 8 6  0  27 28 29  1
+     8 9 13  0  30 31 32  1
+     13 12 8  0  33 34 35  1
+    tverts 36
+     0.438559 0.109646 0 
+     0.360338 0.719882 0 
+     0.534729 0.717505 0 
+     0.536063 0.898233 0 
+     0.536063 0.898233 0 
+     0.364157 0.898233 0 
+     0.360338 0.719882 0 
+     1.02513 0.464423 0 
+     0.99265 0.639662 0 
+     0.853047 0.613799 0 
+     0.853047 0.613799 0 
+     0.885526 0.438559 0 
+     1.02513 0.464423 0 
+     0.438559 0.109646 0 
+     0.613799 0.104231 0 
+     0.613152 0.228918 0 
+     0.613152 0.228918 0 
+     0.438749 0.231296 0 
+     0.438749 0.231296 0 
+     0.613152 0.228918 0 
+     0.595164 0.478811 0 
+     0.595164 0.478811 0 
+     0.420909 0.481045 0 
+     0.438749 0.231296 0 
+     0.420909 0.481045 0 
+     0.595164 0.478811 0 
+     0.566 0.654471 0 
+     0.566 0.654471 0 
+     0.391727 0.656739 0 
+     0.420909 0.481045 0 
+     0.630452 0.391727 0 
+     0.597425 0.566 0 
+     0.428687 0.534729 0 
+     0.428687 0.534729 0 
+     0.461072 0.360338 0 
+     0.630452 0.391727 0 
+endnode
+node trimesh Object1975 
+  parent tps01_c02_0h 
+  position -2.0 5.12 2.3
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_bubcob
+    verts 11
+     -0.81 -0.62 -0.03
+     1.99 -0.63 0.2
+     1.99 -0.12 0.06
+     -0.79 -0.13 0.01
+     -0.81 -0.64 -0.24
+     -0.79 -0.12 -0.3
+     0.82 -0.63 0.08
+     0.79 -0.63 -0.04
+     1.99 -1.29 -0.33
+     0.81 -1.29 -0.07
+     0.78 -1.29 -0.2
+    faces 13
+     0 6 2  4  1 8 6  1
+     2 3 0  4  6 7 1  1
+     6 0 4  8  16 11 12  5
+     2 5 3  32  15 13 14  6
+     5 4 0  64  4 3 0  3
+     0 3 5  64  0 2 4  3
+     8 9 10  8  18 19 20  5
+     6 1 2  4  8 5 6  1
+     7 6 4  8  17 16 12  5
+     1 6 9  0  5 8 10  5
+     9 8 1  0  10 9 5  5
+     6 7 10  0  16 17 20  5
+     10 9 6  0  20 19 16  5
+    tverts 21
+     0.105351 0.301553 0 
+     0.101528 0.443817 0 
+     0.322127 0.291763 0 
+     0.0931142 0.203065 0 
+     0.30989 0.193275 0 
+     0.0955443 0.997333 0 
+     -0.00118335 0.996479 0 
+     0.00297143 0.446959 0 
+     0.0984301 0.76514 0 
+     0.235621 0.995368 0 
+     0.23135 0.764697 0 
+     0.130249 0.268001 0 
+     0.0324911 0.270957 0 
+     0.797707 0.274039 0 
+     0.797707 0.333369 0 
+     0.625255 0.306897 0 
+     0.12085 0.433952 0 
+     0.0810495 0.434775 0 
+     0.114426 0.547375 0 
+     0.12085 0.433952 0 
+     0.0810495 0.434775 0 
+endnode
+node trimesh Object01 
+  parent tps01_c02_0h 
+  position 0.78 -3.77 8.55
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_roof09a
+    verts 8
+     4.22 -1.26 -0.06
+     2.22 -1.26 -0.06
+     0.22 -1.26 -0.06
+     -3.11 -1.26 -0.06
+     -3.11 -1.35 -0.45
+     0.22 -1.35 -0.45
+     2.22 -1.35 -0.45
+     4.22 -1.35 -0.45
+    faces 6
+     4 5 2  1  4 5 2  1
+     2 3 4  1  2 3 4  1
+     5 6 1  1  5 6 1  1
+     1 2 5  1  1 2 5  1
+     6 7 0  1  6 7 0  1
+     0 1 6  1  0 1 6  1
+    tverts 8
+     3.66356 0.986826 0 
+     2.66356 0.986826 0 
+     1.66356 0.986827 0 
+     -0.00143737 0.986828 0 
+     -0.00143737 0.0677472 0 
+     1.66356 0.0677461 0 
+     2.66356 0.0677454 0 
+     3.66356 0.0677447 0 
+endnode
+node trimesh Mesh02 
+  parent tps01_c02_0h 
+  position 2.96 1.66 8.07
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.000213623 0.0 0.0 
+     gizmo SubAnim:Gizmo
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_roof09c
+    verts 4
+     -1.12 0.6 0.23
+     -1.47 -0.09 1.05
+     -1.17 0.67 0.09
+     -1.6 -0.18 1.1
+    faces 2
+     2 3 1  0  2 3 1  1
+     1 0 2  0  1 0 2  1
+    tverts 4
+     0.550767 -0.0127702 0 
+     0.516479 0.55032 0 
+     0.763021 -0.0767643 0 
+     0.720771 0.617075 0 
+endnode
+node trimesh Mesh41 
+  parent tps01_c02_0h 
+  position -1.8 -0.01 0.22
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_bubgrd
+    verts 4
+     -1.69 -0.35 1.78
+     -2.75 0.1 1.78
+     -1.56 0.42 1.78
+     -0.17 0.0 1.28
+    faces 2
+     1 0 2  1  1 4 5  1
+     2 0 3  16  2 0 3  1
+    tverts 6
+     0.128545 0.422962 0 
+     -0.0494549 0.520962 0 
+     0.154545 0.576962 0 
+     1.04855 0.468962 0 
+     0.128545 0.422962 0 
+     0.154545 0.576962 0 
+endnode
+node trimesh Object156 
+  parent tps01_c02_0h 
+  position 4.6 0.67 4.13
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_facade04
+    verts 6
+     -0.2 1.02 -3.65
+     -0.16 2.36 -0.95
+     -0.18 1.09 -1.01
+     0.16 1.01 -3.65
+     0.21 2.36 -0.95
+     0.18 1.08 -1.01
+    faces 4
+     2 1 4  0  6 7 8  1
+     4 5 2  0  9 10 11  1
+     0 2 5  0  12 3 13  1
+     5 3 0  0  5 4 2  1
+    tverts 14
+     -0.481102 1.51353 0 
+     1.76474 1.46417 0 
+     -0.206046 -0.750913 0 
+     -0.209952 -0.127501 0 
+     -0.279019 -0.751013 0 
+     -0.282925 -0.127601 0 
+     -0.777671 -0.209952 0 
+     -1.033 -0.214792 0 
+     -1.03209 -0.287765 0 
+     -1.03209 -0.287765 0 
+     -0.776756 -0.282925 0 
+     -0.777671 -0.209952 0 
+     -0.206046 -0.750913 0 
+     -0.282925 -0.127601 0 
+endnode
+node trimesh Mesh35 
+  parent tps01_c02_0h 
+  position -1.53 2.62 -0.58
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_bubgrd
+    verts 35
+     5.81 -1.56 1.43
+     6.08 1.02 1.43
+     2.27 -0.91 2.88
+     2.72 1.59 2.88
+     2.56 -7.62 2.88
+     1.48 -5.08 2.88
+     -0.27 -0.44 2.88
+     0.77 1.66 2.88
+     0.77 2.38 2.88
+     -1.47 -7.62 2.88
+     -2.4 -5.03 2.88
+     -1.51 -0.21 2.88
+     -0.34 0.19 2.34
+     -1.47 2.38 2.88
+     -3.47 -7.62 2.58
+     -3.47 -4.82 2.58
+     -3.47 0.38 2.58
+     -3.47 2.38 2.58
+     -2.47 -7.62 2.58
+     -2.47 2.38 2.58
+     -2.75 0.22 2.58
+     -3.02 -2.53 2.58
+     -2.74 -5.21 2.58
+     -2.18 -3.27 2.68
+     -1.92 -2.0 2.68
+     -1.96 -2.98 2.58
+     -1.83 -2.21 2.58
+     2.31 -0.67 2.82
+     -0.25 -0.2 2.84
+     1.46 -0.52 2.96
+     1.87 -0.59 2.88
+     5.93 -0.93 1.06
+     5.97 0.41 1.06
+     2.56 0.65 2.15
+     2.7 1.24 2.63
+    faces 37
+     2 0 31  1  2 0 31  1
+     31 32 33  1  31 32 33  1
+     33 30 27  1  33 30 27  1
+     34 7 33  1  34 7 33  1
+     9 4 10  1  9 4 10  1
+     5 10 4  1  5 10 4  1
+     11 6 28  1  11 6 28  1
+     12 7 13  1  12 7 13  1
+     8 13 7  1  8 13 7  1
+     18 9 22  1  18 9 22  1
+     10 22 9  1  10 22 9  1
+     22 10 23  1  22 10 23  1
+     23 21 22  1  23 21 22  1
+     24 20 21  1  24 20 21  1
+     12 20 11  1  12 20 11  1
+     20 12 19  1  20 12 19  1
+     19 17 20  1  19 17 20  1
+     14 18 15  1  14 18 15  1
+     13 19 12  1  13 19 12  1
+     16 20 17  1  16 20 17  1
+     21 16 15  1  21 16 15  1
+     16 21 20  1  16 21 20  1
+     21 15 22  1  21 15 22  1
+     22 15 18  1  22 15 18  1
+     25 21 23  1  25 21 23  1
+     11 20 24  1  11 20 24  1
+     21 26 24  1  21 26 24  1
+     32 34 33  1  32 34 33  1
+     33 7 12  1  33 7 12  1
+     31 27 2  1  31 27 2  1
+     11 28 12  1  11 28 12  1
+     31 33 27  1  31 33 27  1
+     12 29 33  1  12 29 33  1
+     33 29 30  1  33 29 30  1
+     12 28 29  1  12 28 29  1
+     32 1 34  1  32 1 34  1
+     3 7 34  1  3 7 34  1
+    tverts 35
+     1.85496 0.212583 0 
+     1.90896 0.728583 0 
+     1.14696 0.342583 0 
+     1.23696 0.842584 0 
+     1.20441 -0.999417 0 
+     0.98979 -0.492258 0 
+     0.638956 0.436584 0 
+     0.846956 0.856584 0 
+     0.846956 1.00058 0 
+     0.398956 -0.999417 0 
+     0.212956 -0.481416 0 
+     0.390956 0.482584 0 
+     0.624956 0.562584 0 
+     0.398956 1.00058 0 
+     -0.00104433 -0.999416 0 
+     -0.00104421 -0.439416 0 
+     -0.00104392 0.600584 0 
+     -0.00104386 1.00058 0 
+     0.198956 -0.999416 0 
+     0.198956 1.00058 0 
+     0.142956 0.568584 0 
+     0.0889559 0.0185837 0 
+     0.144956 -0.517416 0 
+     0.256956 -0.129416 0 
+     0.308956 0.124584 0 
+     0.266956 -0.0794163 0 
+     0.292956 0.0745836 0 
+     1.15496 0.390583 0 
+     0.642956 0.484584 0 
+     0.984956 0.420584 0 
+     1.06696 0.406584 0 
+     1.87896 0.338583 0 
+     1.88696 0.606583 0 
+     1.20496 0.654584 0 
+     1.23296 0.772584 0 
+endnode
+node trimesh Mesh99 
+  parent tps01_c02_0h 
+  position 3.0 4.28 6.28
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_fwood03
+    verts 20
+     -1.81 -0.07 1.08
+     -2.0 0.72 1.08
+     -1.82 -0.53 2.49
+     1.55 -0.64 -5.43
+     -1.81 -0.07 -3.98
+     2.0 0.72 -0.98
+     1.55 -0.64 -0.98
+     -2.0 0.72 -0.98
+     -1.81 -0.07 -0.98
+     1.94 -0.71 1.9
+     2.0 0.72 0.92
+     1.55 -0.63 1.9
+     1.94 -0.72 2.2
+     2.0 -0.7 -0.98
+     -1.77 -0.43 1.28
+     -1.73 -0.44 -0.98
+     -1.83 -0.42 -4.23
+     2.0 0.72 1.84
+     -2.0 0.72 2.09
+     -1.81 -0.47 2.12
+    faces 22
+     18 0 19  1  17 18 19  1
+     16 3 6  2  20 2 21  1
+     16 15 4  1  22 23 24  1
+     5 7 10  2  25 26 27  1
+     10 9 13  1  28 29 30  1
+     14 6 11  2  31 32 33  1
+     6 14 15  2  34 35 36  1
+     1 10 7  2  37 38 6  1
+     11 9 12  2  39 40 41  1
+     9 10 17  1  42 43 44  1
+     11 2 19  2  45 46 47  2
+     18 17 10  2  48 49 50  1
+     13 5 10  1  11 4 51  1
+     11 12 2  2  52 10 53  2
+     0 15 14  1  54 55 56  1
+     15 0 8  1  57 58 59  1
+     15 8 4  1  60 7 3  1
+     15 16 6  2  13 14 5  1
+     10 1 18  2  8 61 62  1
+     0 18 1  1  63 15 1  1
+     14 19 0  1  64 65 0  1
+     11 19 14  2  9 16 12  1
+    tverts 66
+     0.754113 1.48314 0 
+     0.361206 1.47974 0 
+     1.71947 -1.77062 0 
+     0.754113 -1.04786 0 
+     -0.718125 0.452136 0 
+     1.71947 0.452136 0 
+     1.05681 0.452136 0 
+     0.754113 0.452136 0 
+     -0.943187 1.40056 0 
+     1.72025 1.8904 0 
+     1.91482 2.0432 0 
+     -0.0102956 0.452136 0 
+     0.0565947 1.58447 0 
+     0.0782599 0.452136 0 
+     0.0283916 -1.17182 0 
+     0.361206 1.98581 0 
+     0.0389321 2.00173 0 
+     0.361206 1.98581 0 
+     0.754113 1.48314 0 
+     0.955694 2.00173 0 
+     0.0283916 -1.17182 0 
+     1.71947 0.452136 0 
+     0.930464 -1.17182 0 
+     0.939034 0.452136 0 
+     0.754113 -1.04786 0 
+     -0.943187 0.452136 0 
+     1.05681 0.452136 0 
+     -0.943187 1.40056 0 
+     -0.718125 1.40056 0 
+     -0.00448961 1.8904 0 
+     -0.0102956 0.452136 0 
+     0.0565947 1.58447 0 
+     1.71947 0.452136 0 
+     1.72025 1.8904 0 
+     1.71947 0.452136 0 
+     0.0565947 1.58447 0 
+     0.0782599 0.452136 0 
+     1.05681 1.47974 0 
+     -0.943187 1.40056 0 
+     1.72025 1.8904 0 
+     1.91559 1.8904 0 
+     1.91482 2.0432 0 
+     -0.00448961 1.8904 0 
+     -0.718125 1.40056 0 
+     -0.718125 1.86283 0 
+     1.72025 1.8904 0 
+     0.0312953 2.18604 0 
+     0.0389321 2.00173 0 
+     1.05681 1.98581 0 
+     -0.943187 1.86283 0 
+     -0.943187 1.40056 0 
+     -0.718125 1.40056 0 
+     1.72025 1.8904 0 
+     0.0312953 2.18604 0 
+     0.754113 1.48314 0 
+     0.939034 0.452136 0 
+     0.934237 1.58447 0 
+     0.939034 0.452136 0 
+     0.754113 1.48314 0 
+     0.754113 0.452136 0 
+     0.939034 0.452136 0 
+     1.05681 1.47974 0 
+     1.05681 1.98581 0 
+     0.754113 1.48314 0 
+     0.934237 1.58447 0 
+     0.955694 2.00173 0 
+endnode
+node trimesh Mesh95 
+  parent tps01_c02_0h 
+  position 5.64 2.35 2.96
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_bricks14
+    verts 9
+     -1.36 -1.29 -2.11
+     -1.09 1.29 -2.11
+     -1.36 -1.29 2.18
+     -1.09 1.29 2.34
+     -1.33 -1.17 2.49
+     -1.24 -0.66 -2.48
+     -1.2 0.68 -2.48
+     -1.2 0.68 0.22
+     -1.22 -0.59 0.16
+    faces 7
+     4 0 2  2  9 10 2  1
+     0 4 8  0  11 12 13  1
+     8 5 0  0  14 5 0  1
+     4 3 7  0  15 16 17  1
+     7 8 4  0  18 8 4  1
+     3 1 6  0  19 1 20  1
+     6 7 3  0  6 7 3  1
+    tverts 21
+     0.975523 -2.23066 0 
+     0.00814399 -2.23066 0 
+     0.975523 -0.366096 0 
+     0.00814399 -0.297835 0 
+     0.92996 -0.233268 0 
+     0.738712 -2.39292 0 
+     0.234232 -2.39292 0 
+     0.234232 -1.22039 0 
+     0.712737 -1.24433 0 
+     0.92996 -0.233268 0 
+     0.975523 -2.23066 0 
+     0.975523 -2.23066 0 
+     0.92996 -0.233268 0 
+     0.712737 -1.24433 0 
+     0.712737 -1.24433 0 
+     0.92996 -0.233268 0 
+     0.00814399 -0.297835 0 
+     0.234232 -1.22039 0 
+     0.234232 -1.22039 0 
+     0.00814399 -0.297835 0 
+     0.234232 -2.39292 0 
+endnode
+node trimesh Mesh96 
+  parent tps01_c02_0h 
+  position 4.6 3.33 0.37
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_facade04
+    verts 6
+     -0.2 -1.64 0.11
+     -0.16 -0.3 0.11
+     -0.16 -0.3 2.81
+     0.16 -1.65 0.11
+     0.21 -0.3 0.11
+     0.21 -0.3 2.81
+    faces 4
+     1 0 3  0  16 17 18  1
+     3 4 1  0  19 20 21  1
+     2 1 4  0  28 9 29  1
+     4 5 2  0  13 14 10  1
+    tverts 32
+     -0.117732 -0.253906 0 
+     1.35295 1.51375 0 
+     0.48218 1.46471 0 
+     -0.481102 1.51353 0 
+     -0.557103 1.46432 0 
+     0.229095 0.711057 0 
+     1.67658 1.51791 0 
+     1.76474 1.46417 0 
+     -0.206046 -0.750913 0 
+     1.21479 -0.750913 0 
+     1.21479 -0.11649 0 
+     -0.209952 -0.127501 0 
+     -0.279019 -0.751013 0 
+     1.28777 -0.751013 0 
+     1.28777 -0.11659 0 
+     -0.282925 -0.127601 0 
+     2.033 -0.214792 0 
+     1.76381 -0.206046 0 
+     1.7629 -0.279019 0 
+     1.7629 -0.279019 0 
+     2.03209 -0.287765 0 
+     2.033 -0.214792 0 
+     -0.777671 -0.209952 0 
+     -1.033 -0.214792 0 
+     -1.03209 -0.287765 0 
+     -1.03209 -0.287765 0 
+     -0.776756 -0.282925 0 
+     -0.777671 -0.209952 0 
+     1.21479 -0.11649 0 
+     1.28777 -0.751013 0 
+     -0.206046 -0.750913 0 
+     -0.282925 -0.127601 0 
+endnode
+node trimesh Mesh82 
+  parent tps01_c02_0h 
+  position 5.36 2.36 2.15
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 0.0 0.0 0.0  
+  diffuse 0.0 0.0 0.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap NULL
+    verts 4
+     -0.6 -0.68 -1.67
+     -0.55 0.67 -1.67
+     -0.55 0.67 1.03
+     -0.58 -0.61 0.97
+    faces 2
+     3 2 1  2  0 1 2  1
+     1 0 3  2  3 4 5  1
+    tverts 6
+     -0.776756 -0.127601 0 
+     -1.03209 -0.11659 0 
+     -1.03209 -0.751013 0 
+     -1.03209 -0.751013 0 
+     -0.762895 -0.751013 0 
+     -0.776756 -0.127601 0 
+endnode
+node trimesh Mesh94 
+  parent tps01_c02_0h 
+  position 2.51 0.93 3.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.541176 0.0313726 0.431373  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -3.05176e-005 -0.000152588 -3.05176e-005 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_bills04
+    verts 4
+     1.77 0.13 -2.15
+     -1.77 0.78 -0.7
+     1.77 0.13 2.14
+     -1.77 0.78 1.84
+    faces 2
+     0 1 3  4  4 1 5  1
+     3 2 0  4  3 2 0  1
+    tverts 6
+     0.0330442 0.000499547 0 
+     2.07182 0.338157 0 
+     0.0330442 0.9995 0 
+     2.07182 0.92964 0 
+     0.0330442 0.000499547 0 
+     2.07182 0.92964 0 
+endnode
+node trimesh Mesh299 
+  parent tps01_c02_0h 
+  position -1.06 2.89 7.94
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.000213623 0.0 0.0 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_roof09c
+    verts 4
+     -4.27 -2.75 5.74
+     -4.59 -5.4 4.38
+     -4.43 -2.55 5.49
+     -4.75 -5.21 4.13
+    faces 2
+     2 3 1  1  4 5 1  1
+     1 0 2  1  1 0 4  1
+    tverts 6
+     -0.448176 0.16642 0 
+     -0.448176 -1.26799 0 
+     -0.448175 1.31179 0 
+     -0.877077 1.31179 0 
+     -0.877077 0.16642 0 
+     -0.877078 -1.26799 0 
+endnode
+node trimesh Object2015 
+  parent tps01_c02_0h 
+  position -1.06 2.89 7.94
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.000213623 0.0 0.0 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_roof09d
+    verts 8
+     1.0 -3.35 5.61
+     3.42 -3.77 5.82
+     -4.27 -2.75 5.74
+     6.7 -4.46 5.82
+     1.0 -4.03 5.29
+     -4.36 -3.49 5.36
+     3.42 -4.44 5.52
+     6.7 -5.07 5.53
+    faces 6
+     4 2 5  1  4 2 5  1
+     0 2 4  1  0 2 4  1
+     6 0 4  1  6 0 4  1
+     1 0 6  1  1 0 6  1
+     7 1 6  1  7 1 6  1
+     3 1 7  1  3 1 7  1
+    tverts 8
+     2.2915 2.9877 0 
+     3.38285 2.9398 0 
+     -0.0635601 2.82435 0 
+     4.86821 2.76158 0 
+     2.33597 2.39254 0 
+     -0.0134374 2.15359 0 
+     3.42732 2.34464 0 
+     4.9083 2.22507 0 
+endnode
+node trimesh Mesh297 
+  parent tps01_c02_0h 
+  position -1.06 2.89 7.94
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.000213623 0.0 0.0 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_roof09
+    verts 8
+     1.01 -4.03 5.29
+     3.42 -4.44 5.52
+     -4.36 -3.49 5.36
+     6.7 -5.07 5.53
+     -4.59 -5.4 4.38
+     6.33 -7.12 4.46
+     0.87 -6.29 4.25
+     3.08 -6.71 4.46
+    faces 6
+     4 6 0  1  4 6 0  1
+     0 2 4  1  0 2 4  1
+     6 7 1  1  6 7 1  1
+     1 0 6  1  1 0 6  1
+     7 5 3  1  7 5 3  1
+     3 1 7  1  3 1 7  1
+    tverts 8
+     2.27495 0.973116 0 
+     3.36175 0.948484 0 
+     -0.0790087 0.85296 0 
+     4.84273 0.888701 0 
+     -0.0931771 0.000608891 0 
+     4.8147 -0.0343463 0 
+     2.36357 -0.0316157 0 
+     3.36015 -0.0697306 0 
+endnode
+node trimesh Plane555 
+  parent tps01_c02_0h 
+  position -1.53 2.89 17.94
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.000213623 0.0 0.0 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_grt01
+    verts 8
+     -3.8 -2.75 -4.26
+     1.46 -3.35 -4.39
+     3.89 -3.77 -4.18
+     7.17 -4.46 -4.18
+     -3.8 -2.75 -3.92
+     1.46 -3.35 -4.06
+     3.89 -3.77 -3.85
+     7.17 -4.46 -3.85
+    faces 6
+     0 4 5  1  8 4 9  1
+     5 1 0  1  11 10 0  1
+     1 5 6  1  12 5 13  1
+     6 2 1  1  15 14 1  1
+     2 6 7  1  16 6 17  1
+     7 3 2  1  7 3 2  1
+    tverts 18
+     -3.35589 0.77454 0 
+     -0.67217 0.77454 0 
+     1.6694 0.77454 0 
+     4.0 0.774539 0 
+     -3.35589 0.92202 0 
+     -0.67217 0.922019 0 
+     1.6694 0.922019 0 
+     4.0 0.922018 0 
+     -3.35589 0.77454 0 
+     -0.67217 0.922019 0 
+     -0.67217 0.77454 0 
+     -0.67217 0.922019 0 
+     -0.67217 0.77454 0 
+     1.6694 0.922019 0 
+     1.6694 0.77454 0 
+     1.6694 0.922019 0 
+     1.6694 0.77454 0 
+     4.0 0.922018 0 
+endnode
+node trimesh Object2020 
+  parent tps01_c02_0h 
+  position -2.08 -3.7 8.07
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.000213623 0.0 0.0 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_roof09d
+    verts 8
+     2.01 3.24 5.48
+     4.44 2.82 5.69
+     -3.25 3.84 5.61
+     7.72 2.13 5.69
+     2.23 3.88 5.16
+     -3.09 4.58 5.23
+     4.66 3.47 5.39
+     7.71 2.78 5.42
+    faces 6
+     2 4 5  1  2 4 5  1
+     2 0 4  1  2 0 4  1
+     0 6 4  1  0 6 4  1
+     0 1 6  1  0 1 6  1
+     1 7 6  1  1 7 6  1
+     1 3 7  1  1 3 7  1
+    tverts 8
+     2.2915 2.9877 0 
+     3.38285 2.9398 0 
+     -0.0635601 2.82435 0 
+     4.86821 2.76158 0 
+     2.33597 2.39254 0 
+     -0.0134374 2.15359 0 
+     3.42732 2.34464 0 
+     4.9083 2.22507 0 
+endnode
+node trimesh Mesh309 
+  parent tps01_c02_0h 
+  position -2.08 -3.7 8.07
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.000213623 0.0 0.0 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_roof09
+    verts 8
+     2.24 3.88 5.16
+     4.66 3.47 5.39
+     -3.09 4.58 5.23
+     7.71 2.78 5.42
+     -2.58 6.6 4.39
+     7.32 4.89 4.4
+     0.04 6.24 4.33
+     2.9 5.71 4.12
+    faces 6
+     6 2 0  1  6 2 0  1
+     2 6 4  1  2 6 4  1
+     7 0 1  1  7 0 1  1
+     0 7 6  1  0 7 6  1
+     5 7 3  1  5 7 3  1
+     1 3 7  1  1 3 7  1
+    tverts 8
+     2.27495 0.973116 0 
+     3.36175 0.948484 0 
+     -0.0790087 0.85296 0 
+     4.84273 0.888701 0 
+     -0.0931771 0.000608891 0 
+     4.75543 -0.0343463 0 
+     1.37576 -0.0316157 0 
+     2.51063 -0.0697306 0 
+endnode
+node trimesh Mesh296 
+  parent tps01_c02_0h 
+  position -1.06 2.89 7.94
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.000213623 0.0 0.0 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_roof09a
+    verts 8
+     -4.59 -5.4 4.38
+     6.33 -7.12 4.46
+     0.87 -6.29 4.25
+     3.08 -6.71 4.46
+     -4.59 -5.49 4.01
+     0.87 -6.38 3.87
+     3.08 -6.79 4.09
+     6.2 -7.2 4.09
+    faces 6
+     4 5 2  1  4 5 2  1
+     2 0 4  1  2 0 4  1
+     5 6 3  1  5 6 3  1
+     3 2 5  1  3 2 5  1
+     6 7 1  1  6 7 1  1
+     1 3 6  1  1 3 6  1
+    tverts 8
+     -0.0835536 0.986346 0 
+     4.7907 0.983496 0 
+     2.3557 0.984339 0 
+     3.34102 0.980998 0 
+     -0.0794525 0.0269311 0 
+     2.35981 0.0339882 0 
+     3.34513 0.0306469 0 
+     4.73533 0.0287869 0 
+endnode
+node trimesh Mesh311 
+  parent tps01_c02_0h 
+  position -2.08 -3.7 8.07
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.000213623 0.0 0.0 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_roof09c
+    verts 4
+     -3.25 3.84 5.61
+     -2.58 6.6 4.39
+     -3.41 4.04 5.36
+     -2.79 6.47 4.13
+    faces 2
+     3 2 1  1  5 4 1  1
+     0 1 2  1  0 1 4  1
+    tverts 6
+     -0.448176 0.16642 0 
+     -0.448176 -1.26799 0 
+     -0.448175 1.31179 0 
+     -0.877077 1.31179 0 
+     -0.877077 0.16642 0 
+     -0.877078 -1.26799 0 
+endnode
+node trimesh Plane560 
+  parent tps01_c02_0h 
+  position -2.55 -3.7 18.07
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.000213623 0.0 0.0 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_grt01
+    verts 8
+     -2.78 3.84 -4.39
+     2.48 3.24 -4.52
+     4.91 2.82 -4.31
+     8.19 2.13 -4.31
+     -2.78 3.84 -4.05
+     2.48 3.24 -4.19
+     4.91 2.82 -3.98
+     8.19 2.13 -3.98
+    faces 6
+     4 0 5  1  4 8 9  1
+     1 5 0  1  10 11 0  1
+     5 1 6  1  5 12 13  1
+     2 6 1  1  14 15 1  1
+     6 2 7  1  6 16 17  1
+     3 7 2  1  3 7 2  1
+    tverts 18
+     -3.35589 0.77454 0 
+     -0.67217 0.77454 0 
+     1.6694 0.77454 0 
+     4.0 0.774539 0 
+     -3.35589 0.92202 0 
+     -0.67217 0.922019 0 
+     1.6694 0.922019 0 
+     4.0 0.922018 0 
+     -3.35589 0.77454 0 
+     -0.67217 0.922019 0 
+     -0.67217 0.77454 0 
+     -0.67217 0.922019 0 
+     -0.67217 0.77454 0 
+     1.6694 0.922019 0 
+     1.6694 0.77454 0 
+     1.6694 0.922019 0 
+     1.6694 0.77454 0 
+     4.0 0.922018 0 
+endnode
+node trimesh Mesh310 
+  parent tps01_c02_0h 
+  position -2.08 -3.7 8.07
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.000213623 0.0 0.0 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_roof09a
+    verts 8
+     -2.58 6.6 4.39
+     7.32 4.89 4.4
+     0.04 6.24 4.33
+     2.9 5.71 4.12
+     -2.55 6.68 4.01
+     0.06 6.32 3.96
+     2.92 5.79 3.74
+     7.22 5.01 4.03
+    faces 6
+     5 4 2  1  5 4 2  1
+     0 2 4  1  0 2 4  1
+     6 5 3  1  6 5 3  1
+     2 3 5  1  2 3 5  1
+     7 6 1  1  7 6 1  1
+     3 1 6  1  3 1 6  1
+    tverts 8
+     -0.0835536 0.986346 0 
+     4.7907 0.983496 0 
+     1.41127 0.984339 0 
+     2.47135 0.980998 0 
+     -0.0794525 0.0269311 0 
+     1.41537 0.0339882 0 
+     2.47545 0.0306469 0 
+     4.73533 0.0287869 0 
+endnode
+node trimesh Mesh312 
+  parent tps01_c02_0h 
+  position -2.14 -3.7 8.07
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.000213623 0.0 0.0 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_roof09c
+    verts 4
+     7.78 2.13 5.69
+     7.38 4.87 4.4
+     8.07 2.09 5.44
+     7.47 4.63 4.14
+    faces 2
+     2 3 1  1  4 5 1  1
+     1 0 2  1  1 0 4  1
+    tverts 6
+     -0.448176 0.16642 0 
+     -0.448176 -1.26799 0 
+     -0.448175 1.31179 0 
+     -0.877077 1.31179 0 
+     -0.877077 0.16642 0 
+     -0.877078 -1.26799 0 
+endnode
+node trimesh Mesh298 
+  parent tps01_c02_0h 
+  position -1.12 2.89 7.94
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.101961 0.345098  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.000213623 0.0 0.0 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_roof09c
+    verts 4
+     6.76 -4.46 5.82
+     6.39 -7.12 4.46
+     6.92 -4.26 5.57
+     6.55 -6.92 4.21
+    faces 2
+     3 2 1  1  5 4 1  1
+     0 1 2  1  0 1 4  1
+    tverts 6
+     -0.448176 0.16642 0 
+     -0.448176 -1.26799 0 
+     -0.448175 1.31179 0 
+     -0.877077 1.31179 0 
+     -0.877077 0.16642 0 
+     -0.877078 -1.26799 0 
+endnode
+endmodelgeom tps01_c02_0h 
+
+donemodel tps01_c02_0h 
+

@@ -1,0 +1,47 @@
+#MAXMODEL ASCII
+# model: tps01_g14_01 
+filedependancy terrains002.max
+newmodel tps01_g14_01 
+setsupermodel tps01_g14_01 NULL
+classification Tile
+#MAXGEOM  ASCII
+beginmodelgeom tps01_g14_01 
+node dummy tps01_g14_01 
+  parent NULL 
+endnode
+node light tps01_g14_01ml1 
+  parent tps01_g14_01 
+  position -1.5 -1.5 3.5
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 0.898039 0.0  
+  radius 14.0 
+  multiplier 1.0
+  color 0.639216 0.639216 0.639216  
+  ambientonly 0 
+  nDynamicType 1 
+  affectDynamic 1 
+  shadow 0 
+  lightpriority 5 
+  lensflares 0
+  fadingLight 1
+endnode
+node light tps01_g14_01ml2 
+  parent tps01_g14_01 
+  position 1.5 1.5 4.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 0.898039 0.0  
+  radius 5.0 
+  multiplier 1.0
+  color 0.639216 0.639216 0.639216  
+  ambientonly 0 
+  nDynamicType 1 
+  affectDynamic 1 
+  shadow 0 
+  lightpriority 5 
+  lensflares 0
+  fadingLight 1
+endnode
+endmodelgeom tps01_g14_01 
+
+donemodel tps01_g14_01 
+

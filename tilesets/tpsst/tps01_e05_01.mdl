@@ -1,0 +1,188 @@
+#MAXMODEL ASCII
+# model: tps01_e05_01 
+filedependancy terrains002.max
+newmodel tps01_e05_01 
+setsupermodel tps01_e05_01 NULL
+classification Tile
+#MAXGEOM  ASCII
+beginmodelgeom tps01_e05_01 
+node dummy tps01_e05_01 
+  parent NULL 
+endnode
+node aabb Plane533 
+  parent tps01_e05_01 
+  position 0.0 0.0 2.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.101961 0.694118 0.101961  
+  multimaterial 17 
+      NULL 
+      NULL 
+      NULL 
+      NULL 
+      NULL 
+      NULL 
+      NULL 
+      NULL 
+      NULL 
+      NULL 
+      NULL 
+      NULL 
+      NULL 
+      NULL 
+      NULL 
+      NULL 
+      NULL 
+    bitmap NULL
+    verts 4
+     -5.0 -5.0 0.0
+     5.0 -5.0 0.0
+     -5.0 5.0 0.0
+     5.0 5.0 0.0
+    faces 2
+     2 0 3  1  6 4 7  1
+     1 3 0  1  5 7 4  1
+    tverts 8
+     0.0 0.0 0 
+     1.0 0.0 0 
+     0.0 0.0 0 
+     1.0 0.0 0 
+     0.0 0.0 0 
+     1.0 0.0 0 
+     0.0 1.0 0 
+     1.0 1.0 0 
+aabb    -5.00 -5.00  0.00   5.00  5.00  0.00  -1
+    -5.00 -5.00  0.00   5.00  5.00  0.00  1
+    -5.00 -5.00  0.00   5.00  5.00  0.00  0
+endnode
+node light tps01_e05_01ml1 
+  parent tps01_e05_01 
+  position -1.5 -1.5 3.5
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 0.898039 0.0  
+  radius 14.0 
+  multiplier 1.0
+  color 0.639216 0.639216 0.639216  
+  ambientonly 0 
+  nDynamicType 1 
+  affectDynamic 1 
+  shadow 0 
+  lightpriority 5 
+  lensflares 0
+  fadingLight 1
+endnode
+node light tps01_e05_01ml2 
+  parent tps01_e05_01 
+  position 1.5 1.5 4.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 0.898039 0.0  
+  radius 5.0 
+  multiplier 1.0
+  color 0.639216 0.639216 0.639216  
+  ambientonly 0 
+  nDynamicType 1 
+  affectDynamic 1 
+  shadow 0 
+  lightpriority 5 
+  lensflares 0
+  fadingLight 1
+endnode
+node trimesh Plane14 
+  parent tps01_e05_01 
+  position 0.0 0.0 2.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.0313726 0.239216 0.541176  
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tps01_bubmud
+    verts 25
+     -5.0 -5.0 0.0
+     -2.5 -5.0 0.0
+     0.0 -5.0 0.0
+     2.5 -5.0 0.0
+     5.0 -5.0 0.0
+     -5.0 -2.5 0.0
+     -2.5 -2.5 0.0
+     0.0 -2.5 0.0
+     2.5 -2.5 0.0
+     5.0 -2.5 0.0
+     -5.0 0.0 0.0
+     -2.5 0.0 0.0
+     0.0 0.0 0.0
+     2.5 0.0 0.0
+     5.0 0.0 0.0
+     -5.0 2.5 0.0
+     -2.5 2.5 0.0
+     0.0 2.5 0.0
+     2.5 2.5 0.0
+     5.0 2.5 0.0
+     -5.0 5.0 0.0
+     -2.5 5.0 0.0
+     0.0 5.0 0.0
+     2.5 5.0 0.0
+     5.0 5.0 0.0
+    faces 32
+     5 0 6  1  5 0 6  1
+     1 6 0  1  1 6 0  1
+     6 1 7  1  6 1 7  1
+     2 7 1  1  2 7 1  1
+     7 2 8  1  7 2 8  1
+     3 8 2  1  3 8 2  1
+     8 3 9  1  8 3 9  1
+     4 9 3  1  4 9 3  1
+     10 5 11  1  10 5 11  1
+     6 11 5  1  6 11 5  1
+     11 6 12  1  11 6 12  1
+     7 12 6  1  7 12 6  1
+     12 7 13  1  12 7 13  1
+     8 13 7  1  8 13 7  1
+     13 8 14  1  13 8 14  1
+     9 14 8  1  9 14 8  1
+     15 10 16  1  15 10 16  1
+     11 16 10  1  11 16 10  1
+     16 11 17  1  16 11 17  1
+     12 17 11  1  12 17 11  1
+     17 12 18  1  17 12 18  1
+     13 18 12  1  13 18 12  1
+     18 13 19  1  18 13 19  1
+     14 19 13  1  14 19 13  1
+     20 15 21  1  20 15 21  1
+     16 21 15  1  16 21 15  1
+     21 16 22  1  21 16 22  1
+     17 22 16  1  17 22 16  1
+     22 17 23  1  22 17 23  1
+     18 23 17  1  18 23 17  1
+     23 18 24  1  23 18 24  1
+     19 24 18  1  19 24 18  1
+    tverts 25
+     -2.26498e-006 -9.0 0 
+     0.499998 -9.0 0 
+     0.999998 -9.0 0 
+     1.5 -9.0 0 
+     2.0 -9.0 0 
+     -2.14577e-006 -8.5 0 
+     0.499998 -8.5 0 
+     0.999998 -8.5 0 
+     1.5 -8.5 0 
+     2.0 -8.5 0 
+     -2.02656e-006 -8.0 0 
+     0.499998 -8.0 0 
+     0.999998 -8.0 0 
+     1.5 -8.0 0 
+     2.0 -8.0 0 
+     -1.90735e-006 -7.5 0 
+     0.499998 -7.5 0 
+     0.999998 -7.5 0 
+     1.5 -7.5 0 
+     2.0 -7.5 0 
+     -1.78814e-006 -7.0 0 
+     0.499998 -7.0 0 
+     0.999998 -7.0 0 
+     1.5 -7.0 0 
+     2.0 -7.0 0 
+endnode
+endmodelgeom tps01_e05_01 
+
+donemodel tps01_e05_01 
+

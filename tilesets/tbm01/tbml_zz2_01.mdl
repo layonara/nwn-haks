@@ -1,0 +1,44 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sat Feb 02 18:12:54 2019
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel tbml_zz2_01
+  classification TILE
+  setsupermodel tbml_zz2_01 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom tbml_zz2_01
+node dummy tbml_zz2_01
+  parent NULL
+endnode
+node trimesh plane165
+  parent tbml_zz2_01
+  wirecolor 1 0 0
+  position 0 0 -1
+  orientation 0 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap tde01_lava01
+  render 1
+  shadow 1
+  beaming 0
+  transparencyhint 1
+  tilefade 0
+  rotatetexture 1
+  verts 4
+    -5 5 0
+    -5 -5 0
+    5 5 0
+    5 -5 0
+  faces 2
+    0 1 2 1 0 1 2 0
+    3 2 1 1 3 2 1 0
+  tverts 4
+    -0.99996 1.9994 0
+    -0.99996 -1.0006 0
+    2.00007 1.9994 0
+    2.00007 -1.0006 0
+endnode
+endmodelgeom tbml_zz2_01
+donemodel tbml_zz2_01

@@ -1,0 +1,1979 @@
+#MAXMODEL ASCII
+# model: tps01_gdoor_50
+filedependancy tps01_gdoor_50.max
+newmodel tps01_gdoor_50
+setsupermodel tps01_gdoor_50 NULL
+classification door
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom tps01_gdoor_50
+node dummy tps01_gdoor_50
+  parent NULL
+  #part-number 0
+endnode
+node dummy TIN01_B13_07
+  parent tps01_gdoor_50
+  #part-number 1
+  position -1 0 -2.44141006e-006
+  orientation 0 0 -1 -1.57079995
+endnode
+node trimesh Box49
+  parent TIN01_B13_07
+  position 0.0 -1.0 2.44141e-006
+  orientation 0.0 0.0 1.0 -1.5708
+  wirecolor 1.0 1.0 1.0 
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     alpha 100.0
+     transparencyhint 0
+     center 0.0 0.0 149.5 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 27.0
+  selfillumcolor 0.0 0.0 0.0 
+  alpha 1.0
+    bitmap tps02_mward007
+    verts 8
+     -1.0 -0.1 0.0
+     -1.0 0.1 0.0
+     1.0 0.1 0.0
+     1.0 -0.1 0.0
+     -1.0 -0.1 2.99
+     1.0 -0.1 2.99
+     1.0 0.1 2.99
+     -1.0 0.1 2.99
+    faces 12
+     0 1 2  1  0 1 2  2
+     2 3 0  1  2 3 0  2
+     4 5 6  1  4 5 6  1
+     6 7 4  1  6 7 4  1
+     0 3 5  2  0 2 6  5
+     5 4 0  2  6 7 0  5
+     3 2 6  4  8 2 9  4
+     6 5 3  4  9 10 8  4
+     2 1 7  2  2 0 7  6
+     7 6 2  2  7 6 2  6
+     1 0 4  4  0 11 12  3
+     4 7 1  4  12 13 0  3
+    tverts 14
+     0.553095 0.000499606 0
+     0.553095 0.000499606 0
+     0.995553 0.000499487 0
+     0.995553 0.000499487 0
+     0.553095 0.825588 0
+     0.995553 0.825587 0
+     0.995553 0.869066 0
+     0.553095 0.869066 0
+     0.944241 0.000499487 0
+     0.995553 0.873897 0
+     0.944241 0.873897 0
+     0.584672 0.000499606 0
+     0.584672 0.873897 0
+     0.553095 0.873897 0
+endnode
+node trimesh Box53
+  parent Box49
+  position 0.642262 0.0554195 1.14372
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     alpha 100.0
+     transparencyhint 0
+     center 0.0 12.3168 -11.3675 
+     gizmo SubAnim:Gizmo
+  ambient 0.0 0.0 0.0 
+  diffuse 0.588 0.588 0.588 
+  specular 0.0 0.0 0.0 
+  shininess 11.0
+  selfillumcolor 0.0 0.0 0.0 
+  alpha 1.0
+    bitmap tps01_horn
+    verts 22
+     0.07236 0.130875 0.0438
+     -0.07236 0.130875 0.0438
+     0.07236 0.046709 0.0438
+     -0.07236 0.046709 0.0438
+     0.07236 0.046709 0.0
+     0.07236 0.114562 0.0
+     -0.07236 0.046709 0.0
+     -0.07236 0.114562 0.0
+     0.054 0.145631 -0.0481752
+     -0.054 0.145631 -0.0481752
+     -0.054 0.185805 -0.0322385
+     0.054 0.185805 -0.0322385
+     0.027 0.0935889 -0.204084
+     -0.027 0.0935889 -0.204084
+     0.027 0.122332 -0.20405
+     -0.027 0.122332 -0.20405
+     0.027 0.112897 -0.240473
+     -0.027 0.112897 -0.240473
+     0.027 0.139107 -0.228921
+     -0.027 0.139107 -0.228921
+     0.027 0.199626 -0.271151
+     -0.027 0.199626 -0.271151
+    faces 36
+     0 1 2  1  0 1 2  1
+     3 2 1  1  3 2 1  1
+     4 5 2  1  4 5 6  4
+     0 2 5  1  7 6 5  4
+     6 4 3  1  8 9 10  6
+     2 3 4  1  11 10 9  6
+     7 6 1  1  12 8 13  3
+     3 1 6  1  10 13 8  3
+     5 7 8  1  14 12 15  5
+     9 8 7  1  16 15 12  5
+     1 0 10  1  1 0 17  5
+     11 10 0  1  18 17 0  5
+     0 5 11  1  7 5 19  5
+     8 11 5  1  15 19 5  5
+     7 1 9  1  12 13 16  5
+     10 9 1  1  20 16 13  5
+     8 9 12  1  15 16 21  5
+     13 12 9  1  22 21 16  5
+     11 8 14  1  19 15 23  5
+     12 14 8  1  24 23 15  5
+     10 11 15  1  20 19 25  5
+     14 15 11  1  26 25 19  5
+     9 10 13  1  16 20 22  5
+     15 13 10  1  25 22 20  5
+     12 13 16  1  21 22 27  5
+     17 16 13  1  28 27 22  5
+     14 12 18  1  23 24 29  5
+     16 18 12  1  30 29 24  5
+     15 14 19  1  25 26 31  5
+     18 19 14  1  29 31 23  5
+     13 15 17  1  22 25 28  5
+     19 17 15  1  31 28 25  5
+     18 16 20  1  29 30 32  5
+     19 18 21  1  33 34 35  5
+     20 21 18  1  36 35 34  5
+     17 19 21  1  28 31 37  5
+    tverts 38
+     0.287652 0.452464 0
+     0.24719 0.452464 0
+     0.287652 0.529046 0
+     0.24719 0.529046 0
+     0.301297 0.617896 0
+     0.292464 0.617896 0
+     0.301297 0.676765 0
+     0.274934 0.676765 0
+     0.226481 0.617896 0
+     0.223405 0.617896 0
+     0.226481 0.676765 0
+     0.223405 0.676765 0
+     0.235314 0.617896 0
+     0.252844 0.676765 0
+     0.214572 0.617896 0
+     0.285064 0.548357 0
+     0.230925 0.548357 0
+     0.24719 0.33002 0
+     0.287652 0.33002 0
+     0.268182 0.569776 0
+     0.247807 0.569776 0
+     0.220221 0.338809 0
+     0.228533 0.338809 0
+     0.288348 0.338855 0
+     0.303962 0.338809 0
+     0.244147 0.338855 0
+     0.204607 0.338855 0
+     0.214404 0.289902 0
+     0.234349 0.289902 0
+     0.294348 0.305427 0
+     0.298145 0.289902 0
+     0.221641 0.305427 0
+     0.266361 0.248669 0
+     0.24719 0.444974 0
+     0.287652 0.444974 0
+     0.24719 0.317445 0
+     0.287652 0.317445 0
+     0.249628 0.248669 0
+endnode
+node trimesh Box63
+  parent Box49
+  position 0.637034 -0.0558264 1.13999
+  orientation 0.0 0.0 -1.0 -3.14159
+  wirecolor 1.0 1.0 1.0 
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     alpha 100.0
+     transparencyhint 0
+     center 0.0 12.3168 -11.3675 
+     gizmo SubAnim:Gizmo
+  ambient 0.0 0.0 0.0 
+  diffuse 0.588 0.588 0.588 
+  specular 0.0 0.0 0.0 
+  shininess 11.0
+  selfillumcolor 0.0 0.0 0.0 
+  alpha 1.0
+    bitmap tps01_horn
+    verts 22
+     0.07236 0.130875 0.0438
+     -0.07236 0.130875 0.0438
+     0.07236 0.046709 0.0438
+     -0.07236 0.046709 0.0438
+     0.07236 0.046709 0.0
+     0.07236 0.114562 0.0
+     -0.07236 0.046709 0.0
+     -0.07236 0.114562 0.0
+     0.054 0.145631 -0.0481752
+     -0.054 0.145631 -0.0481752
+     -0.054 0.185805 -0.0322385
+     0.054 0.185805 -0.0322385
+     0.027 0.0935889 -0.204084
+     -0.027 0.0935889 -0.204084
+     0.027 0.122332 -0.20405
+     -0.027 0.122332 -0.20405
+     0.027 0.112897 -0.240473
+     -0.027 0.112897 -0.240473
+     0.027 0.139107 -0.228921
+     -0.027 0.139107 -0.228921
+     0.027 0.199626 -0.271151
+     -0.027 0.199626 -0.271151
+    faces 36
+     0 1 2  1  0 1 2  1
+     3 2 1  1  3 2 1  1
+     4 5 2  1  4 5 6  4
+     0 2 5  1  7 6 5  4
+     6 4 3  1  8 9 10  6
+     2 3 4  1  11 10 9  6
+     7 6 1  1  12 8 13  3
+     3 1 6  1  10 13 8  3
+     5 7 8  1  14 12 15  5
+     9 8 7  1  16 15 12  5
+     1 0 10  1  1 0 17  5
+     11 10 0  1  18 17 0  5
+     0 5 11  1  7 5 19  5
+     8 11 5  1  15 19 5  5
+     7 1 9  1  12 13 16  5
+     10 9 1  1  20 16 13  5
+     8 9 12  1  15 16 21  5
+     13 12 9  1  22 21 16  5
+     11 8 14  1  19 15 23  5
+     12 14 8  1  24 23 15  5
+     10 11 15  1  20 19 25  5
+     14 15 11  1  26 25 19  5
+     9 10 13  1  16 20 22  5
+     15 13 10  1  25 22 20  5
+     12 13 16  1  21 22 27  5
+     17 16 13  1  28 27 22  5
+     14 12 18  1  23 24 29  5
+     16 18 12  1  30 29 24  5
+     15 14 19  1  25 26 31  5
+     18 19 14  1  29 31 23  5
+     13 15 17  1  22 25 28  5
+     19 17 15  1  31 28 25  5
+     18 16 20  1  29 30 32  5
+     19 18 21  1  33 34 35  5
+     20 21 18  1  36 35 34  5
+     17 19 21  1  28 31 37  5
+    tverts 38
+     0.287652 0.452464 0
+     0.24719 0.452464 0
+     0.287652 0.529046 0
+     0.24719 0.529046 0
+     0.301297 0.617896 0
+     0.292464 0.617896 0
+     0.301297 0.676765 0
+     0.274934 0.676765 0
+     0.226481 0.617896 0
+     0.223405 0.617896 0
+     0.226481 0.676765 0
+     0.223405 0.676765 0
+     0.235314 0.617896 0
+     0.252844 0.676765 0
+     0.214572 0.617896 0
+     0.285064 0.548357 0
+     0.230925 0.548357 0
+     0.24719 0.33002 0
+     0.287652 0.33002 0
+     0.268182 0.569776 0
+     0.247807 0.569776 0
+     0.220221 0.338809 0
+     0.228533 0.338809 0
+     0.288348 0.338855 0
+     0.303962 0.338809 0
+     0.244147 0.338855 0
+     0.204607 0.338855 0
+     0.214404 0.289902 0
+     0.234349 0.289902 0
+     0.294348 0.305427 0
+     0.298145 0.289902 0
+     0.221641 0.305427 0
+     0.266361 0.248669 0
+     0.24719 0.444974 0
+     0.287652 0.444974 0
+     0.24719 0.317445 0
+     0.287652 0.317445 0
+     0.249628 0.248669 0
+endnode
+node trimesh sam
+  parent tps01_gdoor_50
+  position -1.0 -0.00495728 0.0
+  orientation 0.0 0.0 -1.0 -1.5708
+  wirecolor 1.0 1.0 1.0 
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     rotatetexture 0
+     alpha 0.0
+     transparencyhint 0
+     center 1.72239 -100.623 148.5 
+     gizmo SubAnim:Gizmo
+  ambient 0.2 0.2 0.2 
+  diffuse 0.8 0.8 0.8 
+  specular 0.0 0.0 0.0 
+  shininess 2.0
+  selfillumcolor 0.0 0.0 1.0 
+  alpha 0.0
+    bitmap NULL
+    verts 8
+     -0.00653581 -0.0062291 -1.83105e-006
+     -0.00653581 -2.00623 -1.83105e-006
+     -0.00653581 -2.00623 2.97
+     -0.00653581 -0.0062291 2.97
+     0.0409837 -2.00623 -1.83105e-006
+     0.0409837 -0.0062291 -1.83105e-006
+     0.0409837 -2.00623 2.97
+     0.0409837 -0.0062291 2.97
+    faces 4
+     0 1 2  1  0 1 2  18
+     2 3 0  1  2 3 0  18
+     4 5 6  1  1 0 2  18
+     7 6 5  1  3 2 0  18
+    tverts 4
+     0.000499517 0.000499666 0
+     0.49427 0.000499547 0
+     0.494271 0.876312 0
+     0.000499815 0.876312 0
+endnode
+node emitter fire!13
+  parent tps01_gdoor_50
+  #part-number 14
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 1
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Normal
+  texture fxpa_smoke01
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 1
+  blastRadius 0.200000003
+  blastLength 1
+  position -0.00162841997 -0.0336932018 0.92890501
+  orientation -1 0 0 -1.57079995
+  colorStart 0.474510014 0.439215988 0.36470601
+  colorEnd 0.819607973 0.79607898 0.709803998
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 4
+  sizeEnd 1
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 24
+  birthrate 10
+  lifeExp 2.5
+  mass 0.0900000036
+  spread 2.96706009
+  particleRot 0.5
+  velocity 2
+  randvel 0.5
+  fps 10
+  xsize 100
+  ysize 99
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node dummy tps01_gdoor_50head
+  parent tps01_gdoor_50
+  #part-number 15
+  position 0 0 2.50063992
+  orientation 0 0 0 0
+endnode
+node dummy tps01_gdoor_50hhit
+  parent tps01_gdoor_50
+  #part-number 16
+  position 0 0 2.17507005
+  orientation 0 0 0 0
+endnode
+node dummy tps01_gdoor_50impc
+  parent tps01_gdoor_50
+  #part-number 17
+  position 0 0 1.63647997
+  orientation 0 0 0 0
+endnode
+node dummy tps01_gdoor_50grnd
+  parent tps01_gdoor_50
+  #part-number 18
+  position 0 0 0
+  orientation 0 0 0 0
+endnode
+endmodelgeom tps01_gdoor_50
+
+#MAXANIM ASCII
+newanim opening1 tps01_gdoor_50
+  length 1
+  transtime 0.25
+  animroot tps01_gdoor_50
+node dummy tps01_gdoor_50
+  parent NULL
+  #part-number 0
+endnode
+node dummy TIN01_B13_07
+  parent tps01_gdoor_50
+  #part-number 1
+  orientationkey 8
+    0 0 0 -1 -1.57079995
+    0.0333333015 0 0 -1 -1.57079995
+    0.333332986 0 0 -1 -1.57079995
+    0.433333009 0 0 -1 -1.47299004
+    0.533333004 0 0 -1 -1.43807995
+    0.766667008 0 0 -1 -0.515246928
+    0.866666973 0 0 -1 -0.310014009
+    1 0 0 -1 -0.235620022
+endnode
+node dummy Box49
+  parent TIN01_B13_07
+  #part-number 2
+endnode
+node trimesh Mesh912
+  parent Box49
+  #part-number 3
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Mesh915
+  parent Box49
+  #part-number 4
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy Box63
+  parent Box49
+  #part-number 5
+endnode
+node trimesh Mesh01
+  parent Box49
+  #part-number 6
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Mesh911
+  parent Box49
+  #part-number 7
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy Box54
+  parent Box49
+  #part-number 8
+endnode
+node dummy Box53
+  parent Box49
+  #part-number 9
+endnode
+node dummy Box64
+  parent Box49
+  #part-number 10
+endnode
+node trimesh Mesh914
+  parent Box49
+  #part-number 11
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Mesh913
+  parent Box49
+  #part-number 12
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy tps01_gdoor_50_DWK
+  parent tps01_gdoor_50
+  #part-number -1
+endnode
+node dummy 07_DWK_wg_closed
+  parent tps01_gdoor_50_DWK
+  #part-number 14
+endnode
+node dummy 07_DWK_wg_open1
+  parent tps01_gdoor_50_DWK
+  #part-number 15
+endnode
+node dummy 07_DWK_dp_closed_01
+  parent tps01_gdoor_50_DWK
+  #part-number 16
+endnode
+node dummy 07_DWK_dp_closed_02
+  parent tps01_gdoor_50_DWK
+  #part-number 17
+endnode
+node dummy 07_DWK_wg_open2
+  parent tps01_gdoor_50_DWK
+  #part-number 18
+endnode
+node dummy 07_DWK_dp_open1_01
+  parent tps01_gdoor_50_DWK
+  #part-number 19
+endnode
+node dummy 07_DWK_dp_open2_01
+  parent tps01_gdoor_50_DWK
+  #part-number 20
+endnode
+node trimesh sam
+  parent tps01_gdoor_50
+  #part-number 13
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  alphakey 2
+    0 0
+    1 0
+endnode
+node emitter fire!13
+  parent tps01_gdoor_50
+  #part-number 14
+endnode
+node dummy tps01_gdoor_50head
+  parent tps01_gdoor_50
+  #part-number 15
+endnode
+node dummy tps01_gdoor_50hhit
+  parent tps01_gdoor_50
+  #part-number 16
+endnode
+node dummy tps01_gdoor_50impc
+  parent tps01_gdoor_50
+  #part-number 17
+endnode
+node dummy tps01_gdoor_50grnd
+  parent tps01_gdoor_50
+  #part-number 18
+endnode
+doneanim opening1 tps01_gdoor_50
+
+#MAXANIM ASCII
+newanim closing1 tps01_gdoor_50
+  length 0.666666985
+  transtime 0.25
+  animroot tps01_gdoor_50
+node dummy tps01_gdoor_50
+  parent NULL
+  #part-number 0
+endnode
+node dummy TIN01_B13_07
+  parent tps01_gdoor_50
+  #part-number 1
+  orientationkey 7
+    0 0 0 -1 -0.235620022
+    0.0333333015 0 0 -1 -0.235620022
+    0.166666999 0 0 -1 -0.30657804
+    0.366667002 0 0 -1 -0.602956951
+    0.5 0 0 -1 -1.50127995
+    0.56666702 0 0 -1 -1.57079995
+    0.666666985 0 0 -1 -1.57079995
+endnode
+node dummy Box49
+  parent TIN01_B13_07
+  #part-number 2
+endnode
+node trimesh Mesh912
+  parent Box49
+  #part-number 3
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Mesh915
+  parent Box49
+  #part-number 4
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy Box63
+  parent Box49
+  #part-number 5
+endnode
+node trimesh Mesh01
+  parent Box49
+  #part-number 6
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Mesh911
+  parent Box49
+  #part-number 7
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy Box54
+  parent Box49
+  #part-number 8
+endnode
+node dummy Box53
+  parent Box49
+  #part-number 9
+endnode
+node dummy Box64
+  parent Box49
+  #part-number 10
+endnode
+node trimesh Mesh914
+  parent Box49
+  #part-number 11
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Mesh913
+  parent Box49
+  #part-number 12
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy tps01_gdoor_50_DWK
+  parent tps01_gdoor_50
+  #part-number -1
+endnode
+node dummy 07_DWK_wg_closed
+  parent tps01_gdoor_50_DWK
+  #part-number 14
+endnode
+node dummy 07_DWK_wg_open1
+  parent tps01_gdoor_50_DWK
+  #part-number 15
+endnode
+node dummy 07_DWK_dp_closed_01
+  parent tps01_gdoor_50_DWK
+  #part-number 16
+endnode
+node dummy 07_DWK_dp_closed_02
+  parent tps01_gdoor_50_DWK
+  #part-number 17
+endnode
+node dummy 07_DWK_wg_open2
+  parent tps01_gdoor_50_DWK
+  #part-number 18
+endnode
+node dummy 07_DWK_dp_open1_01
+  parent tps01_gdoor_50_DWK
+  #part-number 19
+endnode
+node dummy 07_DWK_dp_open2_01
+  parent tps01_gdoor_50_DWK
+  #part-number 20
+endnode
+node trimesh sam
+  parent tps01_gdoor_50
+  #part-number 13
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  alphakey 4
+    0 0
+    0.0333333015 0
+    0.633333027 0
+    0.666666985 0
+endnode
+node emitter fire!13
+  parent tps01_gdoor_50
+  #part-number 14
+endnode
+node dummy tps01_gdoor_50head
+  parent tps01_gdoor_50
+  #part-number 15
+endnode
+node dummy tps01_gdoor_50hhit
+  parent tps01_gdoor_50
+  #part-number 16
+endnode
+node dummy tps01_gdoor_50impc
+  parent tps01_gdoor_50
+  #part-number 17
+endnode
+node dummy tps01_gdoor_50grnd
+  parent tps01_gdoor_50
+  #part-number 18
+endnode
+doneanim closing1 tps01_gdoor_50
+
+#MAXANIM ASCII
+newanim opening2 tps01_gdoor_50
+  length 1
+  transtime 0.25
+  animroot tps01_gdoor_50
+node dummy tps01_gdoor_50
+  parent NULL
+  #part-number 0
+endnode
+node dummy TIN01_B13_07
+  parent tps01_gdoor_50
+  #part-number 1
+  orientationkey 8
+    0 0 0 -1 -1.57079995
+    0.0333333015 0 0 -1 -1.57079995
+    0.333332986 0 0 -1 -1.57079995
+    0.433333009 0 0 -1 -1.66859996
+    0.533333004 0 0 -1 -1.70351005
+    0.766667008 0 0 -1 -2.62634993
+    0.866666973 0 0 -1 -2.83156991
+    1 0 0 -1 -2.9059701
+endnode
+node dummy Box49
+  parent TIN01_B13_07
+  #part-number 2
+endnode
+node trimesh Mesh912
+  parent Box49
+  #part-number 3
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Mesh915
+  parent Box49
+  #part-number 4
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy Box63
+  parent Box49
+  #part-number 5
+endnode
+node trimesh Mesh01
+  parent Box49
+  #part-number 6
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Mesh911
+  parent Box49
+  #part-number 7
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy Box54
+  parent Box49
+  #part-number 8
+endnode
+node dummy Box53
+  parent Box49
+  #part-number 9
+endnode
+node dummy Box64
+  parent Box49
+  #part-number 10
+endnode
+node trimesh Mesh914
+  parent Box49
+  #part-number 11
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Mesh913
+  parent Box49
+  #part-number 12
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy tps01_gdoor_50_DWK
+  parent tps01_gdoor_50
+  #part-number -1
+endnode
+node dummy 07_DWK_wg_closed
+  parent tps01_gdoor_50_DWK
+  #part-number 14
+endnode
+node dummy 07_DWK_wg_open1
+  parent tps01_gdoor_50_DWK
+  #part-number 15
+endnode
+node dummy 07_DWK_dp_closed_01
+  parent tps01_gdoor_50_DWK
+  #part-number 16
+endnode
+node dummy 07_DWK_dp_closed_02
+  parent tps01_gdoor_50_DWK
+  #part-number 17
+endnode
+node dummy 07_DWK_wg_open2
+  parent tps01_gdoor_50_DWK
+  #part-number 18
+endnode
+node dummy 07_DWK_dp_open1_01
+  parent tps01_gdoor_50_DWK
+  #part-number 19
+endnode
+node dummy 07_DWK_dp_open2_01
+  parent tps01_gdoor_50_DWK
+  #part-number 20
+endnode
+node trimesh sam
+  parent tps01_gdoor_50
+  #part-number 13
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  alphakey 2
+    0 0
+    1 0
+endnode
+node emitter fire!13
+  parent tps01_gdoor_50
+  #part-number 14
+endnode
+node dummy tps01_gdoor_50head
+  parent tps01_gdoor_50
+  #part-number 15
+endnode
+node dummy tps01_gdoor_50hhit
+  parent tps01_gdoor_50
+  #part-number 16
+endnode
+node dummy tps01_gdoor_50impc
+  parent tps01_gdoor_50
+  #part-number 17
+endnode
+node dummy tps01_gdoor_50grnd
+  parent tps01_gdoor_50
+  #part-number 18
+endnode
+doneanim opening2 tps01_gdoor_50
+
+#MAXANIM ASCII
+newanim die tps01_gdoor_50
+  length 0.666666985
+  transtime 0.25
+  animroot tps01_gdoor_50
+  event 0.0333333015 detonate
+node dummy tps01_gdoor_50
+  parent NULL
+  #part-number 0
+endnode
+node dummy TIN01_B13_07
+  parent tps01_gdoor_50
+  #part-number 1
+  positionkey 5
+    0 -1 0 -2.44141006e-006
+    0.100000001 -0.895448983 0 -0.570151985
+    0.133332998 -0.895448983 0 -0.819109976
+    0.366667002 -0.721198976 0 -0.901046991
+    0.666666985 0.262883008 1.08648002 -2.83311009
+  orientationkey 5
+    0 0 0 -1 -1.57079995
+    0.133332998 -0.070096381 -0.090663068 -0.99341166 -1.43992996
+    0.266667008 -0.0711830109 0.0235565025 -0.997185051 -1.48547995
+    0.333332986 -0.105541013 0.0251409039 -0.994097114 -1.51399004
+    0.666666985 -0.326389164 0.36249119 -0.872966349 -1.60174
+endnode
+node dummy Box49
+  parent TIN01_B13_07
+  #part-number 2
+endnode
+node trimesh Mesh912
+  parent Box49
+  #part-number 3
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Mesh915
+  parent Box49
+  #part-number 4
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy Box63
+  parent Box49
+  #part-number 5
+endnode
+node trimesh Mesh01
+  parent Box49
+  #part-number 6
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Mesh911
+  parent Box49
+  #part-number 7
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy Box54
+  parent Box49
+  #part-number 8
+endnode
+node dummy Box53
+  parent Box49
+  #part-number 9
+endnode
+node dummy Box64
+  parent Box49
+  #part-number 10
+endnode
+node trimesh Mesh914
+  parent Box49
+  #part-number 11
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Mesh913
+  parent Box49
+  #part-number 12
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy tps01_gdoor_50_DWK
+  parent tps01_gdoor_50
+  #part-number -1
+endnode
+node dummy 07_DWK_wg_closed
+  parent tps01_gdoor_50_DWK
+  #part-number 14
+endnode
+node dummy 07_DWK_wg_open1
+  parent tps01_gdoor_50_DWK
+  #part-number 15
+endnode
+node dummy 07_DWK_dp_closed_01
+  parent tps01_gdoor_50_DWK
+  #part-number 16
+endnode
+node dummy 07_DWK_dp_closed_02
+  parent tps01_gdoor_50_DWK
+  #part-number 17
+endnode
+node dummy 07_DWK_wg_open2
+  parent tps01_gdoor_50_DWK
+  #part-number 18
+endnode
+node dummy 07_DWK_dp_open1_01
+  parent tps01_gdoor_50_DWK
+  #part-number 19
+endnode
+node dummy 07_DWK_dp_open2_01
+  parent tps01_gdoor_50_DWK
+  #part-number 20
+endnode
+node trimesh sam
+  parent tps01_gdoor_50
+  #part-number 13
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  alpha 0
+endnode
+node emitter fire!13
+  parent tps01_gdoor_50
+  #part-number 14
+endnode
+node dummy tps01_gdoor_50head
+  parent tps01_gdoor_50
+  #part-number 15
+endnode
+node dummy tps01_gdoor_50hhit
+  parent tps01_gdoor_50
+  #part-number 16
+endnode
+node dummy tps01_gdoor_50impc
+  parent tps01_gdoor_50
+  #part-number 17
+endnode
+node dummy tps01_gdoor_50grnd
+  parent tps01_gdoor_50
+  #part-number 18
+endnode
+doneanim die tps01_gdoor_50
+
+#MAXANIM ASCII
+newanim closing2 tps01_gdoor_50
+  length 0.633333027
+  transtime 0.25
+  animroot tps01_gdoor_50
+node dummy tps01_gdoor_50
+  parent NULL
+  #part-number 0
+endnode
+node dummy TIN01_B13_07
+  parent tps01_gdoor_50
+  #part-number 1
+  positionkey 1
+    0.633333027 -1 0 -2.44141006e-006
+  orientationkey 6
+    0 0 0 -1 -2.9059701
+    0.0333333015 0 0 -1 -2.9059701
+    0.166666999 0 0 -1 -2.83501005
+    0.366667002 0 0 -1 -2.53863001
+    0.5 0 0 -1 -1.64031005
+    0.633333027 0 0 -1 -1.57079995
+endnode
+node dummy Box49
+  parent TIN01_B13_07
+  #part-number 2
+endnode
+node trimesh Mesh912
+  parent Box49
+  #part-number 3
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Mesh915
+  parent Box49
+  #part-number 4
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy Box63
+  parent Box49
+  #part-number 5
+endnode
+node trimesh Mesh01
+  parent Box49
+  #part-number 6
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Mesh911
+  parent Box49
+  #part-number 7
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy Box54
+  parent Box49
+  #part-number 8
+endnode
+node dummy Box53
+  parent Box49
+  #part-number 9
+endnode
+node dummy Box64
+  parent Box49
+  #part-number 10
+endnode
+node trimesh Mesh914
+  parent Box49
+  #part-number 11
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Mesh913
+  parent Box49
+  #part-number 12
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy tps01_gdoor_50_DWK
+  parent tps01_gdoor_50
+  #part-number -1
+endnode
+node dummy 07_DWK_wg_closed
+  parent tps01_gdoor_50_DWK
+  #part-number 14
+endnode
+node dummy 07_DWK_wg_open1
+  parent tps01_gdoor_50_DWK
+  #part-number 15
+endnode
+node dummy 07_DWK_dp_closed_01
+  parent tps01_gdoor_50_DWK
+  #part-number 16
+endnode
+node dummy 07_DWK_dp_closed_02
+  parent tps01_gdoor_50_DWK
+  #part-number 17
+endnode
+node dummy 07_DWK_wg_open2
+  parent tps01_gdoor_50_DWK
+  #part-number 18
+endnode
+node dummy 07_DWK_dp_open1_01
+  parent tps01_gdoor_50_DWK
+  #part-number 19
+endnode
+node dummy 07_DWK_dp_open2_01
+  parent tps01_gdoor_50_DWK
+  #part-number 20
+endnode
+node trimesh sam
+  parent tps01_gdoor_50
+  #part-number 13
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  alphakey 3
+    0 0
+    0.0333333015 0
+    0.633333027 0
+endnode
+node emitter fire!13
+  parent tps01_gdoor_50
+  #part-number 14
+endnode
+node dummy tps01_gdoor_50head
+  parent tps01_gdoor_50
+  #part-number 15
+endnode
+node dummy tps01_gdoor_50hhit
+  parent tps01_gdoor_50
+  #part-number 16
+endnode
+node dummy tps01_gdoor_50impc
+  parent tps01_gdoor_50
+  #part-number 17
+endnode
+node dummy tps01_gdoor_50grnd
+  parent tps01_gdoor_50
+  #part-number 18
+endnode
+doneanim closing2 tps01_gdoor_50
+
+#MAXANIM ASCII
+newanim closed tps01_gdoor_50
+  length 0.0333333015
+  transtime 0.25
+  animroot tps01_gdoor_50
+node dummy tps01_gdoor_50
+  parent NULL
+  #part-number 0
+endnode
+node dummy TIN01_B13_07
+  parent tps01_gdoor_50
+  #part-number 1
+  orientationkey 2
+    0 0 0 -1 -1.57079995
+    0.0333333015 0 0 -1 -1.57079995
+endnode
+node dummy Box49
+  parent TIN01_B13_07
+  #part-number 2
+endnode
+node trimesh Mesh912
+  parent Box49
+  #part-number 3
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Mesh915
+  parent Box49
+  #part-number 4
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy Box63
+  parent Box49
+  #part-number 5
+endnode
+node trimesh Mesh01
+  parent Box49
+  #part-number 6
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Mesh911
+  parent Box49
+  #part-number 7
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy Box54
+  parent Box49
+  #part-number 8
+endnode
+node dummy Box53
+  parent Box49
+  #part-number 9
+endnode
+node dummy Box64
+  parent Box49
+  #part-number 10
+endnode
+node trimesh Mesh914
+  parent Box49
+  #part-number 11
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Mesh913
+  parent Box49
+  #part-number 12
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy tps01_gdoor_50_DWK
+  parent tps01_gdoor_50
+  #part-number -1
+endnode
+node dummy 07_DWK_wg_closed
+  parent tps01_gdoor_50_DWK
+  #part-number 14
+endnode
+node dummy 07_DWK_wg_open1
+  parent tps01_gdoor_50_DWK
+  #part-number 15
+endnode
+node dummy 07_DWK_dp_closed_01
+  parent tps01_gdoor_50_DWK
+  #part-number 16
+endnode
+node dummy 07_DWK_dp_closed_02
+  parent tps01_gdoor_50_DWK
+  #part-number 17
+endnode
+node dummy 07_DWK_wg_open2
+  parent tps01_gdoor_50_DWK
+  #part-number 18
+endnode
+node dummy 07_DWK_dp_open1_01
+  parent tps01_gdoor_50_DWK
+  #part-number 19
+endnode
+node dummy 07_DWK_dp_open2_01
+  parent tps01_gdoor_50_DWK
+  #part-number 20
+endnode
+node trimesh sam
+  parent tps01_gdoor_50
+  #part-number 13
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  alpha 0
+endnode
+node emitter fire!13
+  parent tps01_gdoor_50
+  #part-number 14
+endnode
+node dummy tps01_gdoor_50head
+  parent tps01_gdoor_50
+  #part-number 15
+endnode
+node dummy tps01_gdoor_50hhit
+  parent tps01_gdoor_50
+  #part-number 16
+endnode
+node dummy tps01_gdoor_50impc
+  parent tps01_gdoor_50
+  #part-number 17
+endnode
+node dummy tps01_gdoor_50grnd
+  parent tps01_gdoor_50
+  #part-number 18
+endnode
+doneanim closed tps01_gdoor_50
+
+#MAXANIM ASCII
+newanim opened2 tps01_gdoor_50
+  length 0.0333333015
+  transtime 0.25
+  animroot tps01_gdoor_50
+node dummy tps01_gdoor_50
+  parent NULL
+  #part-number 0
+endnode
+node dummy TIN01_B13_07
+  parent tps01_gdoor_50
+  #part-number 1
+  orientationkey 2
+    0 0 0 -1 -2.9059701
+    0.0333333015 0 0 -1 -2.9059701
+endnode
+node dummy Box49
+  parent TIN01_B13_07
+  #part-number 2
+endnode
+node trimesh Mesh912
+  parent Box49
+  #part-number 3
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Mesh915
+  parent Box49
+  #part-number 4
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy Box63
+  parent Box49
+  #part-number 5
+endnode
+node trimesh Mesh01
+  parent Box49
+  #part-number 6
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Mesh911
+  parent Box49
+  #part-number 7
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy Box54
+  parent Box49
+  #part-number 8
+endnode
+node dummy Box53
+  parent Box49
+  #part-number 9
+endnode
+node dummy Box64
+  parent Box49
+  #part-number 10
+endnode
+node trimesh Mesh914
+  parent Box49
+  #part-number 11
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Mesh913
+  parent Box49
+  #part-number 12
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy tps01_gdoor_50_DWK
+  parent tps01_gdoor_50
+  #part-number -1
+endnode
+node dummy 07_DWK_wg_closed
+  parent tps01_gdoor_50_DWK
+  #part-number 14
+endnode
+node dummy 07_DWK_wg_open1
+  parent tps01_gdoor_50_DWK
+  #part-number 15
+endnode
+node dummy 07_DWK_dp_closed_01
+  parent tps01_gdoor_50_DWK
+  #part-number 16
+endnode
+node dummy 07_DWK_dp_closed_02
+  parent tps01_gdoor_50_DWK
+  #part-number 17
+endnode
+node dummy 07_DWK_wg_open2
+  parent tps01_gdoor_50_DWK
+  #part-number 18
+endnode
+node dummy 07_DWK_dp_open1_01
+  parent tps01_gdoor_50_DWK
+  #part-number 19
+endnode
+node dummy 07_DWK_dp_open2_01
+  parent tps01_gdoor_50_DWK
+  #part-number 20
+endnode
+node trimesh sam
+  parent tps01_gdoor_50
+  #part-number 13
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  alphakey 2
+    0 0
+    0.0333333015 0
+endnode
+node emitter fire!13
+  parent tps01_gdoor_50
+  #part-number 14
+endnode
+node dummy tps01_gdoor_50head
+  parent tps01_gdoor_50
+  #part-number 15
+endnode
+node dummy tps01_gdoor_50hhit
+  parent tps01_gdoor_50
+  #part-number 16
+endnode
+node dummy tps01_gdoor_50impc
+  parent tps01_gdoor_50
+  #part-number 17
+endnode
+node dummy tps01_gdoor_50grnd
+  parent tps01_gdoor_50
+  #part-number 18
+endnode
+doneanim opened2 tps01_gdoor_50
+
+#MAXANIM ASCII
+newanim opened1 tps01_gdoor_50
+  length 0.0333333015
+  transtime 0.25
+  animroot tps01_gdoor_50
+node dummy tps01_gdoor_50
+  parent NULL
+  #part-number 0
+endnode
+node dummy TIN01_B13_07
+  parent tps01_gdoor_50
+  #part-number 1
+  orientationkey 2
+    0 0 0 -1 -0.235620022
+    0.0333333015 0 0 -1 -0.235620022
+endnode
+node dummy Box49
+  parent TIN01_B13_07
+  #part-number 2
+endnode
+node trimesh Mesh912
+  parent Box49
+  #part-number 3
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Mesh915
+  parent Box49
+  #part-number 4
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy Box63
+  parent Box49
+  #part-number 5
+endnode
+node trimesh Mesh01
+  parent Box49
+  #part-number 6
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Mesh911
+  parent Box49
+  #part-number 7
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy Box54
+  parent Box49
+  #part-number 8
+endnode
+node dummy Box53
+  parent Box49
+  #part-number 9
+endnode
+node dummy Box64
+  parent Box49
+  #part-number 10
+endnode
+node trimesh Mesh914
+  parent Box49
+  #part-number 11
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Mesh913
+  parent Box49
+  #part-number 12
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy tps01_gdoor_50_DWK
+  parent tps01_gdoor_50
+  #part-number -1
+endnode
+node dummy 07_DWK_wg_closed
+  parent tps01_gdoor_50_DWK
+  #part-number 14
+endnode
+node dummy 07_DWK_wg_open1
+  parent tps01_gdoor_50_DWK
+  #part-number 15
+endnode
+node dummy 07_DWK_dp_closed_01
+  parent tps01_gdoor_50_DWK
+  #part-number 16
+endnode
+node dummy 07_DWK_dp_closed_02
+  parent tps01_gdoor_50_DWK
+  #part-number 17
+endnode
+node dummy 07_DWK_wg_open2
+  parent tps01_gdoor_50_DWK
+  #part-number 18
+endnode
+node dummy 07_DWK_dp_open1_01
+  parent tps01_gdoor_50_DWK
+  #part-number 19
+endnode
+node dummy 07_DWK_dp_open2_01
+  parent tps01_gdoor_50_DWK
+  #part-number 20
+endnode
+node trimesh sam
+  parent tps01_gdoor_50
+  #part-number 13
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  alphakey 2
+    0 0
+    0.0333333015 0
+endnode
+node emitter fire!13
+  parent tps01_gdoor_50
+  #part-number 14
+endnode
+node dummy tps01_gdoor_50head
+  parent tps01_gdoor_50
+  #part-number 15
+endnode
+node dummy tps01_gdoor_50hhit
+  parent tps01_gdoor_50
+  #part-number 16
+endnode
+node dummy tps01_gdoor_50impc
+  parent tps01_gdoor_50
+  #part-number 17
+endnode
+node dummy tps01_gdoor_50grnd
+  parent tps01_gdoor_50
+  #part-number 18
+endnode
+doneanim opened1 tps01_gdoor_50
+
+#MAXANIM ASCII
+newanim trans tps01_gdoor_50
+  length 0.0333333015
+  transtime 0.25
+  animroot tps01_gdoor_50
+node dummy tps01_gdoor_50
+  parent NULL
+  #part-number 0
+endnode
+node dummy TIN01_B13_07
+  parent tps01_gdoor_50
+  #part-number 1
+endnode
+node dummy Box49
+  parent TIN01_B13_07
+  #part-number 2
+endnode
+node trimesh Mesh912
+  parent Box49
+  #part-number 3
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Mesh915
+  parent Box49
+  #part-number 4
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy Box63
+  parent Box49
+  #part-number 5
+endnode
+node trimesh Mesh01
+  parent Box49
+  #part-number 6
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Mesh911
+  parent Box49
+  #part-number 7
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy Box54
+  parent Box49
+  #part-number 8
+endnode
+node dummy Box53
+  parent Box49
+  #part-number 9
+endnode
+node dummy Box64
+  parent Box49
+  #part-number 10
+endnode
+node trimesh Mesh914
+  parent Box49
+  #part-number 11
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Mesh913
+  parent Box49
+  #part-number 12
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy tps01_gdoor_50_DWK
+  parent tps01_gdoor_50
+  #part-number -1
+endnode
+node dummy 07_DWK_wg_closed
+  parent tps01_gdoor_50_DWK
+  #part-number 14
+endnode
+node dummy 07_DWK_wg_open1
+  parent tps01_gdoor_50_DWK
+  #part-number 15
+endnode
+node dummy 07_DWK_dp_closed_01
+  parent tps01_gdoor_50_DWK
+  #part-number 16
+endnode
+node dummy 07_DWK_dp_closed_02
+  parent tps01_gdoor_50_DWK
+  #part-number 17
+endnode
+node dummy 07_DWK_wg_open2
+  parent tps01_gdoor_50_DWK
+  #part-number 18
+endnode
+node dummy 07_DWK_dp_open1_01
+  parent tps01_gdoor_50_DWK
+  #part-number 19
+endnode
+node dummy 07_DWK_dp_open2_01
+  parent tps01_gdoor_50_DWK
+  #part-number 20
+endnode
+node trimesh sam
+  parent tps01_gdoor_50
+  #part-number 13
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  alphakey 2
+    0 0.25
+    0.0333333015 0.25
+endnode
+node emitter fire!13
+  parent tps01_gdoor_50
+  #part-number 14
+endnode
+node dummy tps01_gdoor_50head
+  parent tps01_gdoor_50
+  #part-number 15
+endnode
+node dummy tps01_gdoor_50hhit
+  parent tps01_gdoor_50
+  #part-number 16
+endnode
+node dummy tps01_gdoor_50impc
+  parent tps01_gdoor_50
+  #part-number 17
+endnode
+node dummy tps01_gdoor_50grnd
+  parent tps01_gdoor_50
+  #part-number 18
+endnode
+doneanim trans tps01_gdoor_50
+
+#MAXANIM ASCII
+newanim dead tps01_gdoor_50
+  length 0.0333333015
+  transtime 0.25
+  animroot tps01_gdoor_50
+node dummy tps01_gdoor_50
+  parent NULL
+  #part-number 0
+endnode
+node dummy TIN01_B13_07
+  parent tps01_gdoor_50
+  #part-number 1
+  positionkey 2
+    0 0.262883008 1.08648002 -2.83311009
+    0.0333333015 0.262883008 1.08648002 -2.83311009
+  orientationkey 2
+    0 -0.326389164 0.36249119 -0.872966349 -1.60174
+    0.0333333015 -0.326389164 0.36249119 -0.872966349 -1.60174
+endnode
+node dummy Box49
+  parent TIN01_B13_07
+  #part-number 2
+endnode
+node trimesh Mesh912
+  parent Box49
+  #part-number 3
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Mesh915
+  parent Box49
+  #part-number 4
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy Box63
+  parent Box49
+  #part-number 5
+endnode
+node trimesh Mesh01
+  parent Box49
+  #part-number 6
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Mesh911
+  parent Box49
+  #part-number 7
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy Box54
+  parent Box49
+  #part-number 8
+endnode
+node dummy Box53
+  parent Box49
+  #part-number 9
+endnode
+node dummy Box64
+  parent Box49
+  #part-number 10
+endnode
+node trimesh Mesh914
+  parent Box49
+  #part-number 11
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Mesh913
+  parent Box49
+  #part-number 12
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy tps01_gdoor_50_DWK
+  parent tps01_gdoor_50
+  #part-number -1
+endnode
+node dummy 07_DWK_wg_closed
+  parent tps01_gdoor_50_DWK
+  #part-number 14
+endnode
+node dummy 07_DWK_wg_open1
+  parent tps01_gdoor_50_DWK
+  #part-number 15
+endnode
+node dummy 07_DWK_dp_closed_01
+  parent tps01_gdoor_50_DWK
+  #part-number 16
+endnode
+node dummy 07_DWK_dp_closed_02
+  parent tps01_gdoor_50_DWK
+  #part-number 17
+endnode
+node dummy 07_DWK_wg_open2
+  parent tps01_gdoor_50_DWK
+  #part-number 18
+endnode
+node dummy 07_DWK_dp_open1_01
+  parent tps01_gdoor_50_DWK
+  #part-number 19
+endnode
+node dummy 07_DWK_dp_open2_01
+  parent tps01_gdoor_50_DWK
+  #part-number 20
+endnode
+node trimesh sam
+  parent tps01_gdoor_50
+  #part-number 13
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node emitter fire!13
+  parent tps01_gdoor_50
+  #part-number 14
+endnode
+node dummy tps01_gdoor_50head
+  parent tps01_gdoor_50
+  #part-number 15
+endnode
+node dummy tps01_gdoor_50hhit
+  parent tps01_gdoor_50
+  #part-number 16
+endnode
+node dummy tps01_gdoor_50impc
+  parent tps01_gdoor_50
+  #part-number 17
+endnode
+node dummy tps01_gdoor_50grnd
+  parent tps01_gdoor_50
+  #part-number 18
+endnode
+doneanim dead tps01_gdoor_50
+
+donemodel tps01_gdoor_50

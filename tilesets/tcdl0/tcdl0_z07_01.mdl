@@ -1,0 +1,125 @@
+#MAXMODEL ASCII
+# model: tcdl0_z07_01
+filedependancy tcdl0_z07_01.max
+newmodel tcdl0_z07_01
+setsupermodel tcdl0_z07_01 null
+classification tile
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom tcdl0_z07_01
+node dummy tcdl0_z07_01
+  parent NULL
+  #part-number 0
+endnode
+node dummy wall
+  parent tcdl0_z07_01
+  #part-number 1
+  position 0 -3 1.60000002
+  orientation 0 0 0 0
+endnode
+node trimesh wall_pivoted
+  parent wall
+  #part-number 2
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  bitmap tcdl0_wallgen
+  verts 7
+    -4.99289989 0.100000001 2.28570008
+    5.00710011 0.100000001 2.28570008
+    -4.99289989 0.100000001 -0.914300025
+    -2.49289989 0.100000001 -0.914300025
+    2.50710011 0.100000001 -0.914300025
+    -0.0428999998 0.100000001 -0.914300025
+    5.00710011 0.100000001 -0.914300025
+  tverts 7
+    0.5 1.77929997 0
+    -3.5 1.77929997 0
+    0.5 0.5 0
+    -0.486328006 0.5 0
+    -2.50391006 0.5 0
+    -1.48241997 0.5 0
+    -3.5 0.5 0
+  faces 5
+    0 1 2 1 0 1 2 65536
+    3 2 1 1 3 2 1 65536
+    4 5 1 1 4 5 1 65536
+    5 3 1 1 5 3 1 65536
+    6 4 1 1 6 4 1 65536
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position -0.00710000005 -0.100000001 -0.685699999
+  orientation 0 0 0 0
+endnode
+node dummy plane14
+  parent tcdl0_z07_01
+  #part-number 3
+  position 0 -4 3.20000005
+  orientation 0 0 0 0
+endnode
+node trimesh plane14_pivoted
+  parent plane14
+  #part-number 4
+  ambient 0 0 0
+  diffuse 0 0 0
+  specular 0 0 0
+  shininess 1
+  bitmap tcdl0_black8_00
+  verts 4
+    -5 -1 0.100000001
+    5 -1 0.100000001
+    -5 1 0.100000001
+    5 1 0.100000001
+  tverts 4
+    0.998046994 0 0
+    0.998046994 0.998046994 0
+    0 0 0
+    0 0.998046994 0
+  faces 2
+    0 1 2 1 0 1 2 65536
+    3 2 1 1 3 2 1 65536
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position 0 0 -0.100000001
+  orientation 0 0 0 0
+endnode
+node dummy floor05
+  parent tcdl0_z07_01
+  #part-number 5
+  position 0 1 0
+  orientation 0 0 0 0
+endnode
+node trimesh floor05_pivoted
+  parent floor05
+  #part-number 6
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  rotatetexture 1
+  bitmap tcdl0_flrgen1
+  verts 4
+    -5 -4 0.100000001
+    5 4 0.100000001
+    -5 4 0.100000001
+    5 -4 0.100000001
+  tverts 4
+    -1.20116997 2 0
+    2 -2 0
+    2 2 0
+    -1.20116997 -2 0
+  faces 2
+    0 1 2 1 0 1 2 2
+    0 3 1 1 0 3 1 2
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position 0 0 -0.100000001
+  orientation 0 0 0 0
+endnode
+endmodelgeom tcdl0_z07_01
+
+donemodel tcdl0_z07_01

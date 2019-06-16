@@ -1,0 +1,212 @@
+#MAXMODEL ASCII
+# model: tcdl0_a09_01
+filedependancy tcdl0_a09_01.max
+newmodel tcdl0_a09_01
+setsupermodel tcdl0_a09_01 null
+classification tile
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom tcdl0_a09_01
+node dummy tcdl0_a09_01
+  parent NULL
+  #part-number 0
+endnode
+node light tcdl0_a09_01ml2
+  parent tcdl0_a09_01
+  #part-number 1
+  ambientonly 0
+  shadow 0
+  isdynamic 0
+  affectdynamic 1
+  lightpriority 5
+  fadingLight 1
+  flareradius 0
+  position -2.45049 2.02712011 4
+  orientation 0 0 0 0
+  radius 5
+  multiplier 1
+  color 0.00392156979 0.00392156979 0.00392156979
+endnode
+node light tcdl0_a09_01ml1
+  parent tcdl0_a09_01
+  #part-number 2
+  ambientonly 0
+  shadow 0
+  isdynamic 0
+  affectdynamic 1
+  lightpriority 5
+  fadingLight 1
+  flareradius 0
+  position -0.0711620972 -0.0578759983 5
+  orientation 0 0 0 0
+  radius 14
+  multiplier 1
+  color 0 0 0
+endnode
+node aabb wok
+  parent tcdl0_a09_01
+  #part-number 3
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  shadow 0
+  transparencyhint 0
+  bitmap NULL
+  verts 25
+    5 2.5 0
+    5 5 0
+    2.5 2.5 0
+    2.5 5 0
+    0 2.5 0
+    0 5 0
+    -2.5 2.5 0
+    -2.5 5 0
+    -5 2.5 0
+    -5 5 0
+    5 0 0
+    2.5 0 0
+    0 0 0
+    -2.5 0 0
+    -5 0 0
+    5 -2.5 0
+    2.5 -2.5 0
+    0 -2.5 0
+    -2.5 -2.5 0
+    -5 -2.5 0
+    5 -5 0
+    2.5 -5 0
+    0 -5 0
+    -2.5 -5 0
+    -5 -5 0
+  faces 32
+    0 1 2 1 0 0 0 4
+    3 2 1 1 0 0 0 4
+    2 3 4 1 0 0 0 4
+    5 4 3 1 0 0 0 4
+    4 5 6 1 0 0 0 4
+    7 6 5 1 0 0 0 4
+    6 7 8 1 0 0 0 4
+    9 8 7 1 0 0 0 4
+    10 0 11 1 0 0 0 4
+    2 11 0 1 0 0 0 4
+    11 2 12 1 0 0 0 4
+    4 12 2 1 0 0 0 4
+    12 4 13 1 0 0 0 4
+    6 13 4 1 0 0 0 4
+    13 6 14 1 0 0 0 4
+    8 14 6 1 0 0 0 4
+    15 10 16 1 0 0 0 4
+    11 16 10 1 0 0 0 4
+    16 11 17 1 0 0 0 4
+    12 17 11 1 0 0 0 4
+    17 12 18 1 0 0 0 4
+    13 18 12 1 0 0 0 4
+    18 13 19 1 0 0 0 4
+    14 19 13 1 0 0 0 4
+    20 15 21 1 0 0 0 4
+    16 21 15 1 0 0 0 4
+    21 16 22 1 0 0 0 4
+    17 22 16 1 0 0 0 4
+    22 17 23 1 0 0 0 4
+    18 23 17 1 0 0 0 4
+    23 18 24 1 0 0 0 4
+    19 24 18 1 0 0 0 4
+  aabb -5 -5 0 5 5 0 -1
+        -5 -5 0 0 5 0 -1
+         -5 -5 0 0 0 0 -1
+          -5 -5 0 -2.5 0 0 -1
+           -5 -5 0 -2.5 -2.5 0 -1
+            -5 -5 0 -2.5 -2.5 0 31
+            -5 -5 0 -2.5 -2.5 0 30
+           -5 -2.5 0 -2.5 0 0 -1
+            -5 -2.5 0 -2.5 0 0 23
+            -5 -2.5 0 -2.5 0 0 22
+          -2.5 -5 0 0 0 0 -1
+           -2.5 -5 0 0 -2.5 0 -1
+            -2.5 -5 0 0 -2.5 0 29
+            -2.5 -5 0 0 -2.5 0 28
+           -2.5 -2.5 0 0 0 0 -1
+            -2.5 -2.5 0 0 0 0 21
+            -2.5 -2.5 0 0 0 0 20
+         -5 0 0 0 5 0 -1
+          -5 0 0 -2.5 5 0 -1
+           -5 0 0 -2.5 2.5 0 -1
+            -5 0 0 -2.5 2.5 0 15
+            -5 0 0 -2.5 2.5 0 14
+           -5 2.5 0 -2.5 5 0 -1
+            -5 2.5 0 -2.5 5 0 7
+            -5 2.5 0 -2.5 5 0 6
+          -2.5 0 0 0 5 0 -1
+           -2.5 0 0 0 2.5 0 -1
+            -2.5 0 0 0 2.5 0 13
+            -2.5 0 0 0 2.5 0 12
+           -2.5 2.5 0 0 5 0 -1
+            -2.5 2.5 0 0 5 0 5
+            -2.5 2.5 0 0 5 0 4
+        0 -5 0 5 5 0 -1
+         0 -5 0 5 0 0 -1
+          0 -5 0 2.5 0 0 -1
+           0 -5 0 2.5 -2.5 0 -1
+            0 -5 0 2.5 -2.5 0 27
+            0 -5 0 2.5 -2.5 0 26
+           0 -2.5 0 2.5 0 0 -1
+            0 -2.5 0 2.5 0 0 19
+            0 -2.5 0 2.5 0 0 18
+          2.5 -5 0 5 0 0 -1
+           2.5 -5 0 5 -2.5 0 -1
+            2.5 -5 0 5 -2.5 0 25
+            2.5 -5 0 5 -2.5 0 24
+           2.5 -2.5 0 5 0 0 -1
+            2.5 -2.5 0 5 0 0 17
+            2.5 -2.5 0 5 0 0 16
+         0 0 0 5 5 0 -1
+          0 0 0 2.5 5 0 -1
+           0 0 0 2.5 2.5 0 -1
+            0 0 0 2.5 2.5 0 11
+            0 0 0 2.5 2.5 0 10
+           0 2.5 0 2.5 5 0 -1
+            0 2.5 0 2.5 5 0 3
+            0 2.5 0 2.5 5 0 2
+          2.5 0 0 5 5 0 -1
+           2.5 0 0 5 2.5 0 -1
+            2.5 0 0 5 2.5 0 9
+            2.5 0 0 5 2.5 0 8
+           2.5 2.5 0 5 5 0 -1
+            2.5 2.5 0 5 5 0 1
+            2.5 2.5 0 5 5 0 0
+  position 0 0 0
+  orientation 0 0 0 0
+endnode
+node trimesh plane19
+  parent tcdl0_a09_01
+  #part-number 4
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  shadow 0
+  rotatetexture 1
+  bitmap tcdl0_flrgen1
+  verts 4
+    -5 -5 0
+    5 5 0
+    -5 5 0
+    5 -5 0
+  tverts 4
+    2 2 0
+    -2 -2 0
+    2 -2 0
+    -2 2 0
+  faces 2
+    0 1 2 1 0 1 2 2
+    0 3 1 1 0 3 1 2
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  position 0 0 0
+  orientation 0 0 0 0
+endnode
+endmodelgeom tcdl0_a09_01
+
+donemodel tcdl0_a09_01
