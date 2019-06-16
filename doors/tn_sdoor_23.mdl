@@ -1,0 +1,197 @@
+# Exported from NWmax 0.8 b27 at 15.01.2005 23:03:46
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: tn_sdoor_23
+filedependancy e_0_tents_01.max
+newmodel tn_sdoor_23
+setsupermodel tn_sdoor_23 NULL
+classification Door
+#NWmax GEOM  ASCII
+beginmodelgeom tn_sdoor_23
+node dummy tn_sdoor_23
+  parent NULL
+endnode
+node dummy tn_sdoor_23grnd
+  parent tn_sdoor_23
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.878431 0.337255 0.337255 
+endnode
+node dummy tn_sdoor_23impc
+  parent tn_sdoor_23
+  position 0.0 0.0 1.75
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.878431 0.337255 0.337255 
+endnode
+node dummy tn_sdoor_23hhit
+  parent tn_sdoor_23
+  position 0.0 0.0 2.25
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.568627 0.109804 0.694118 
+endnode
+node dummy tn_sdoor_23head
+  parent tn_sdoor_23
+  position 0.0 0.0 2.5
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.568627 0.109804 0.694118 
+endnode
+node trimesh SAM
+  parent tn_sdoor_23
+  position -0.0241943 0.294304 1.45
+  orientation 0.0 0.0 -1.0 -0.575959
+  wirecolor 0.333333 0.333333 0.333333 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 0.0
+  transparencyhint 1
+  selfillumcolor 0.0705882 0.0 1.0 
+  Diffuse 0.0 0.0 0.0 
+  Specular 0.0 0.0 0.0 
+  center 0.000106812 -3.05176e-005 0.0 
+  bitmap NULL
+  verts 16
+    -0.92 1.13 1.35
+    -0.12 0.66 1.45
+    0.66 0.13 1.45
+    1.44 -0.44 1.35
+    -1.44 0.61 -1.45
+    1.16 -1.14 -1.45
+    -1.07 0.98 -0.45
+    1.35 -0.64 -0.45
+    -0.92 1.13 1.35
+    -0.12 0.66 1.45
+    0.66 0.14 1.45
+    1.44 -0.43 1.35
+    -1.44 0.61 -1.45
+    1.16 -1.14 -1.45
+    -1.07 0.99 -0.45
+    1.35 -0.64 -0.45
+  faces 12
+    4 5 7  0  4 5 7  1
+    4 7 6  0  4 7 6  1
+    6 7 3  0  6 7 3  1
+    6 3 2  0  6 3 2  1
+    6 2 1  0  6 2 1  1
+    6 1 0  0  6 1 0  1
+    13 12 15  0  13 12 15  1
+    15 12 14  0  15 12 14  1
+    15 14 11  0  15 14 11  1
+    11 14 10  0  11 14 10  1
+    10 14 9  0  10 14 9  1
+    9 14 8  0  9 14 8  1
+  tverts 16
+    10.0 0.911682 0
+    10.3239 0.945015 0
+    10.6633 0.945015 0
+    11.0017 0.911682 0
+    10.0 0.00166667 0
+    11.0045 0.00166667 0
+    10.0 0.335 0
+    10.9994 0.335 0
+    10.0 0.911682 0
+    10.3239 0.945015 0
+    10.6633 0.945015 0
+    11.0017 0.911682 0
+    10.0 0.00166667 0
+    11.0045 0.00166667 0
+    10.0 0.335 0
+    10.9994 0.335 0
+endnode
+endmodelgeom tn_sdoor_23
+
+#NWmax ANIM ASCII
+newanim trans tn_sdoor_23
+  length 0.0333333
+  transtime 0.25
+animroot tn_sdoor_23
+    node dummy tn_sdoor_23
+        parent NULL
+    endnode
+    node dummy tn_sdoor_23_DWK
+        parent tn_sdoor_23
+    endnode
+    node dummy 23_DWK_dp_open1_01
+        parent tn_sdoor_23_DWK
+    endnode
+    node dummy 23_DWK_dp_open2_01
+        parent tn_sdoor_23_DWK
+    endnode
+    node dummy 23_DWK_dp_closed_01
+        parent tn_sdoor_23_DWK
+    endnode
+    node dummy 23_DWK_dp_closed_02
+        parent tn_sdoor_23_DWK
+    endnode
+    node dummy tn_sdoor_23grnd
+        parent tn_sdoor_23
+    endnode
+    node dummy tn_sdoor_23impc
+        parent tn_sdoor_23
+    endnode
+    node dummy tn_sdoor_23hhit
+        parent tn_sdoor_23
+    endnode
+    node dummy tn_sdoor_23head
+        parent tn_sdoor_23
+    endnode
+    node trimesh SAM
+        parent tn_sdoor_23
+        alphakey
+            0.0 0.25 
+            0.0333333 0.25 
+        endlist
+    endnode
+doneanim trans tn_sdoor_23
+
+
+#NWmax ANIM ASCII
+newanim default tn_sdoor_23
+  length 0.0333333
+  transtime 0.25
+animroot tn_sdoor_23
+    node dummy tn_sdoor_23
+        parent NULL
+    endnode
+    node dummy tn_sdoor_23_DWK
+        parent tn_sdoor_23
+    endnode
+    node dummy 23_DWK_dp_open1_01
+        parent tn_sdoor_23_DWK
+    endnode
+    node dummy 23_DWK_dp_open2_01
+        parent tn_sdoor_23_DWK
+    endnode
+    node dummy 23_DWK_dp_closed_01
+        parent tn_sdoor_23_DWK
+    endnode
+    node dummy 23_DWK_dp_closed_02
+        parent tn_sdoor_23_DWK
+    endnode
+    node dummy tn_sdoor_23grnd
+        parent tn_sdoor_23
+    endnode
+    node dummy tn_sdoor_23impc
+        parent tn_sdoor_23
+    endnode
+    node dummy tn_sdoor_23hhit
+        parent tn_sdoor_23
+    endnode
+    node dummy tn_sdoor_23head
+        parent tn_sdoor_23
+    endnode
+    node trimesh SAM
+        parent tn_sdoor_23
+        alphakey
+            0.0 0.0 
+            0.0333333 0.0 
+        endlist
+    endnode
+doneanim default tn_sdoor_23
+
+donemodel tn_sdoor_23

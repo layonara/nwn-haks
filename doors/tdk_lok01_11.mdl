@@ -1,0 +1,236 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: TDK_LOK01_11
+filedependancy jan4.max
+newmodel TDK_LOK01_11
+setsupermodel TDK_LOK01_11 NULL
+classification Door
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom TDK_LOK01_11
+node dummy TDK_LOK01_11
+  parent NULL
+endnode
+node dummy Dummy10
+  parent TDK_LOK01_11
+  position 0.0235806 3.34489 0
+  orientation 0 0 0 0
+  wirecolor 0.347656 0.347656 0.347656
+endnode
+node trimesh Box234
+  parent Dummy10
+  position -0.013984 -3.23177 0
+  orientation 0 0 0 0
+  wirecolor 0.527344 0.527344 0.527344
+  ambient 0.523438 0.230469 0.03125
+  diffuse 0.523438 0.230469 0.03125
+  specular 0 0 0
+  shininess 1
+  bitmap NULL
+  verts 8
+    2 3.25 0
+    -2 3.25 0
+    2 -3.25 0
+    -2 -3.25 0
+    2 3.25 0.2
+    -2 3.25 0.2
+    2 -3.25 0.2
+    -2 -3.25 0.2
+  faces 12
+    0 2 3  2  0 0 0  1
+    3 1 0  2  0 0 0  1
+    4 5 7  4  0 0 0  0
+    7 6 4  4  0 0 0  0
+    0 1 5  8  0 0 0  4
+    5 4 0  8  0 0 0  4
+    1 3 7  16  0 0 0  3
+    7 5 1  16  0 0 0  3
+    3 2 6  32  0 0 0  5
+    6 7 3  32  0 0 0  5
+    2 0 4  64  0 0 0  2
+    4 6 2  64  0 0 0  2
+endnode
+endmodelgeom TDK_LOK01_11
+
+#MAXANIM ASCII
+newanim opening1 TDK_LOK01_11
+  length 0.666667
+  transtime 0
+  animroot TDK_LOK01_11
+node dummy TDK_LOK01_11
+  parent NULL
+endnode
+node dummy Dummy10
+  parent TDK_LOK01_11
+    orientationkey
+      0  0 0 0 0
+      0.666667  -1 0 0 1.48353
+    endlist
+endnode
+node trimesh Box234
+  parent Dummy10
+endnode
+node trimesh 11_DWK_wg_closed
+  parent TDK_LOK01_11
+endnode
+node trimesh 11_DWK_wg_open1
+  parent TDK_LOK01_11
+    orientationkey
+      0.666667  0 0 0 0
+    endlist
+endnode
+doneanim opening1 TDK_LOK01_11
+
+#MAXANIM ASCII
+newanim opened1 TDK_LOK01_11
+  length 0.0333333
+  transtime 0
+  animroot TDK_LOK01_11
+node dummy TDK_LOK01_11
+  parent NULL
+endnode
+node dummy Dummy10
+  parent TDK_LOK01_11
+    orientationkey
+      0  -1 0 0 1.48353
+      0.0333333  -1 0 0 1.48353
+    endlist
+endnode
+node trimesh Box234
+  parent Dummy10
+endnode
+node trimesh 11_DWK_wg_closed
+  parent TDK_LOK01_11
+endnode
+node trimesh 11_DWK_wg_open1
+  parent TDK_LOK01_11
+endnode
+doneanim opened1 TDK_LOK01_11
+
+#MAXANIM ASCII
+newanim closing1 TDK_LOK01_11
+  length 0.666667
+  transtime 0
+  animroot TDK_LOK01_11
+node dummy TDK_LOK01_11
+  parent NULL
+endnode
+node dummy Dummy10
+  parent TDK_LOK01_11
+    orientationkey
+      0  -1 0 0 1.48353
+      0.666667  0 0 0 0
+    endlist
+endnode
+node trimesh Box234
+  parent Dummy10
+endnode
+node trimesh 11_DWK_wg_closed
+  parent TDK_LOK01_11
+endnode
+node trimesh 11_DWK_wg_open1
+  parent TDK_LOK01_11
+endnode
+doneanim closing1 TDK_LOK01_11
+
+#MAXANIM ASCII
+newanim closed TDK_LOK01_11
+  length 0.0333333
+  transtime 0
+  animroot TDK_LOK01_11
+node dummy TDK_LOK01_11
+  parent NULL
+endnode
+node dummy Dummy10
+  parent TDK_LOK01_11
+    orientationkey
+      0  0 0 0 0
+      0.0333333  0 0 0 0
+    endlist
+endnode
+node trimesh Box234
+  parent Dummy10
+endnode
+node trimesh 11_DWK_wg_closed
+  parent TDK_LOK01_11
+endnode
+node trimesh 11_DWK_wg_open1
+  parent TDK_LOK01_11
+endnode
+doneanim closed TDK_LOK01_11
+
+#MAXANIM ASCII
+newanim die TDK_LOK01_11
+  length 0.166667
+  transtime 0
+  animroot TDK_LOK01_11
+node dummy TDK_LOK01_11
+  parent NULL
+endnode
+node dummy Dummy10
+  parent TDK_LOK01_11
+    positionkey
+      0  0.0235806 3.34489 0
+      0.166667  0.0235806 2.69925 -9.74967
+    endlist
+    orientationkey
+      0  0 0 0 0
+      0.166667  1 0 0 1.39626
+    endlist
+endnode
+node trimesh Box234
+  parent Dummy10
+endnode
+node trimesh 11_DWK_wg_closed
+  parent TDK_LOK01_11
+endnode
+node trimesh 11_DWK_wg_open1
+  parent TDK_LOK01_11
+endnode
+doneanim die TDK_LOK01_11
+
+#MAXANIM ASCII
+newanim dead TDK_LOK01_11
+  length 0.0333333
+  transtime 0
+  animroot TDK_LOK01_11
+node dummy TDK_LOK01_11
+  parent NULL
+endnode
+node dummy Dummy10
+  parent TDK_LOK01_11
+endnode
+node trimesh Box234
+  parent Dummy10
+endnode
+node trimesh 11_DWK_wg_closed
+  parent TDK_LOK01_11
+endnode
+node trimesh 11_DWK_wg_open1
+  parent TDK_LOK01_11
+endnode
+doneanim dead TDK_LOK01_11
+
+#MAXANIM ASCII
+newanim trans TDK_LOK01_11
+  length 0.0333333
+  transtime 0
+  animroot TDK_LOK01_11
+node dummy TDK_LOK01_11
+  parent NULL
+endnode
+node dummy Dummy10
+  parent TDK_LOK01_11
+endnode
+node trimesh Box234
+  parent Dummy10
+endnode
+node trimesh 11_DWK_wg_closed
+  parent TDK_LOK01_11
+endnode
+node trimesh 11_DWK_wg_open1
+  parent TDK_LOK01_11
+endnode
+doneanim trans TDK_LOK01_11
+donemodel TDK_LOK01_11

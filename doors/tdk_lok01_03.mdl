@@ -1,0 +1,125 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: TDK_LOK01_03
+filedependancy dec27.max
+newmodel TDK_LOK01_03
+setsupermodel TDK_LOK01_03 NULL
+classification Door
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom TDK_LOK01_03
+node dummy TDK_LOK01_03
+  parent NULL
+endnode
+node trimesh sam
+  parent TDK_LOK01_03
+  position 0 0 1.6
+  orientation 0 0.707107 -0.707107 -3.14159
+  wirecolor 0.605469 0.605469 0.605469
+  ambient 0.2 0.2 0.2
+  diffuse 0.8 0.8 0.8
+  specular 0 0 0
+  shininess 1
+  alpha 0
+  selfillumcolor 0 0 1
+  bitmap NULL
+  render 1
+  Shadow 1
+  beaming 0
+  transparencyhint 0
+  tilefade 0
+  rotatetexture 0
+  verts 4
+    1.2 1.6 0
+    -1.2 1.6 0
+    1.2 -0.426878 0
+    -1.2 -0.426878 0
+  faces 2
+    2 0 3  1  0 0 0  0
+    1 3 0  1  0 0 0  0
+endnode
+node dummy T_Door12grnd
+  parent TDK_LOK01_03
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 0.550781 0.550781 0.550781
+endnode
+node dummy T_Door12impc
+  parent TDK_LOK01_03
+  position 0 0 1.35423
+  orientation 0 0 0 0
+  wirecolor 0.550781 0.550781 0.550781
+endnode
+node dummy T_Door12hhit
+  parent TDK_LOK01_03
+  position 0 0 1.35423
+  orientation 0 0 0 0
+  wirecolor 0.550781 0.550781 0.550781
+endnode
+node dummy T_Door12head
+  parent TDK_LOK01_03
+  position 0 0 2.79019
+  orientation 0 0 0 0
+  wirecolor 0.550781 0.550781 0.550781
+endnode
+endmodelgeom TDK_LOK01_03
+
+#MAXANIM ASCII
+newanim default TDK_LOK01_03
+  length 0.0333333
+  transtime 0
+  animroot TDK_LOK01_03
+node dummy TDK_LOK01_03
+  parent NULL
+endnode
+node trimesh sam
+  parent TDK_LOK01_03
+    alphakey
+      0  0
+      0.0333333  0
+    endlist
+endnode
+node dummy T_Door12grnd
+  parent TDK_LOK01_03
+endnode
+node dummy T_Door12impc
+  parent TDK_LOK01_03
+endnode
+node dummy T_Door12hhit
+  parent TDK_LOK01_03
+endnode
+node dummy T_Door12head
+  parent TDK_LOK01_03
+endnode
+doneanim default TDK_LOK01_03
+
+#MAXANIM ASCII
+newanim trans TDK_LOK01_03
+  length 0.0333333
+  transtime 0
+  animroot TDK_LOK01_03
+node dummy TDK_LOK01_03
+  parent NULL
+endnode
+node trimesh sam
+  parent TDK_LOK01_03
+    alphakey
+      0  0.25
+      0.0333333  0.25
+    endlist
+endnode
+node dummy T_Door12grnd
+  parent TDK_LOK01_03
+endnode
+node dummy T_Door12impc
+  parent TDK_LOK01_03
+endnode
+node dummy T_Door12hhit
+  parent TDK_LOK01_03
+endnode
+node dummy T_Door12head
+  parent TDK_LOK01_03
+endnode
+doneanim trans TDK_LOK01_03
+donemodel TDK_LOK01_03

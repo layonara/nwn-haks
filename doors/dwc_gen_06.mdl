@@ -1,0 +1,1259 @@
+# Exported from NWmax 0.8 b60 at 05.08.2006 12:37:06
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: dwc_gen_06
+#local file: E:\3dsmax7\scenes\WyvernCrown-Barrows\barrows_genericdoor_02.max
+filedependancy barrows_genericdoor_02.max
+newmodel dwc_gen_06
+setsupermodel dwc_gen_06 NULL
+classification Door
+#NWmax GEOM  ASCII
+beginmodelgeom dwc_gen_06
+node dummy dwc_gen_06
+  parent NULL
+endnode
+node trimesh SAM
+  parent dwc_gen_06
+  position 0.0 0.0 1.5
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0 0.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 0.0
+  transparencyhint 1
+  selfillumcolor 0.0705882 0.0 1.0 
+  ambient 0.2 0.2 0.2 
+  Diffuse 0.8 0.8 0.8 
+  Specular 0.0 0.0 0.0 
+  shininess 1
+  center 0.0 0.0 0.0 
+  bitmap Standardmaterial
+  verts 8
+    -1.0 0.0 -1.5
+    1.0 0.0 -1.5
+    -1.0 0.0 1.5
+    1.0 0.0 1.5
+    -1.0 0.0 -1.5
+    1.0 0.0 -1.5
+    -1.0 0.0 1.5
+    1.0 0.0 1.5
+  faces 4
+    2 0 3  1  6 4 7  1
+    1 3 0  1  5 7 4  1
+    4 6 7  1  12 14 15  1
+    7 5 4  1  15 13 12  1
+  tverts 16
+    0.0 0.0 0
+    1.0 0.0 0
+    0.0 0.0 0
+    1.0 0.0 0
+    0.0 0.0 0
+    1.0 0.0 0
+    0.0 1.0 0
+    1.0 1.0 0
+    0.0 0.0 0
+    1.0 0.0 0
+    0.0 0.0 0
+    1.0 0.0 0
+    0.0 0.0 0
+    1.0 0.0 0
+    0.0 1.0 0
+    1.0 1.0 0
+endnode
+node dummy dwc_gen_06grnd
+  parent dwc_gen_06
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.890196 0.596078 0.596078 
+endnode
+node dummy dwc_gen_06impc
+  parent dwc_gen_06
+  position 0.0 0.0 1.75
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.890196 0.596078 0.596078 
+endnode
+node dummy dwc_gen_06hhit
+  parent dwc_gen_06
+  position 0.0 0.0 2.25
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.890196 0.596078 0.596078 
+endnode
+node dummy dwc_gen_06head
+  parent dwc_gen_06
+  position 0.0 0.0 2.5
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.890196 0.596078 0.596078 
+endnode
+node dummy animme
+  parent dwc_gen_06
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.423529 0.0313726 0.533333 
+endnode
+node trimesh stone_door
+  parent animme
+  position -9.15527e-006 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.721569 0.607843 0.898039 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 10.0
+  bitmap tbw01_stone1
+  verts 44
+    1.0 0.0 2.6
+    0.714265 -0.17 2.62
+    1.0 -0.11 0.0
+    0.746521 -0.21 0.0
+    1.0 -0.07 1.06
+    0.746521 -0.22 0.86
+    1.0 -0.0755422 1.96
+    0.778777 -0.194251 1.86
+    0.685199 -0.07 2.95416
+    0.020766 -0.19 2.7663
+    0.020766 -0.25 0.0
+    0.020766 -0.25 0.76
+    0.020766 -0.215835 1.91
+    0.685199 0.07 2.95416
+    0.746521 0.21 0.0
+    1.0 0.11 0.0
+    0.746521 0.22 0.86
+    1.0 0.07 1.06
+    0.778777 0.194251 1.86
+    1.0 0.0755422 1.96
+    0.714265 0.17 2.62
+    0.020766 0.25 0.0
+    0.020766 0.25 0.76
+    0.020766 0.215835 1.91
+    0.020766 0.19 2.7663
+    0.02 -0.06 3.0
+    0.02 0.06 3.0
+    -0.721117 -0.21 0.0
+    -1.0 -0.11 0.0
+    -0.721117 -0.22 0.86
+    -1.0 -0.07 1.06
+    -0.737245 -0.194251 1.86
+    -1.0 -0.0755422 1.96
+    -0.672733 -0.17 2.62
+    -1.0 0.0 2.6
+    -1.0 0.07 1.06
+    -0.655651 0.07 2.95416
+    -0.655651 -0.07 2.95416
+    -1.0 0.11 0.0
+    -0.721117 0.21 0.0
+    -0.721117 0.22 0.86
+    -0.737245 0.194251 1.86
+    -1.0 0.0755422 1.96
+    -0.672733 0.17 2.62
+  faces 76
+    5 3 2  1  5 3 2  1
+    2 4 5  1  2 4 5  1
+    7 5 4  1  7 5 4  1
+    4 6 7  1  4 6 7  1
+    1 7 6  1  1 7 6  1
+    6 0 1  1  6 0 1  1
+    11 10 3  2  11 10 3  1
+    3 5 11  2  3 5 11  1
+    12 11 5  2  12 11 5  1
+    5 7 12  2  5 7 12  1
+    9 12 7  2  9 12 7  1
+    7 1 9  2  7 1 9  1
+    1 0 8  4  1 0 8  1
+    9 1 8  8  9 1 8  1
+    8 0 13  4  44 45 13  1
+    15 14 16  1  15 14 16  1
+    16 17 15  1  16 17 15  1
+    17 16 18  1  17 16 18  1
+    18 19 17  1  18 19 17  1
+    19 18 20  1  19 18 20  1
+    20 0 19  1  20 46 19  1
+    17 4 2  2  49 50 47  1
+    2 15 17  2  47 48 49  1
+    6 19 0  2  51 52 53  1
+    14 21 22  2  14 21 22  1
+    22 16 14  2  22 16 14  1
+    16 22 23  2  16 22 23  1
+    23 18 16  2  23 18 16  1
+    18 23 24  2  18 23 24  1
+    24 20 18  2  24 20 18  1
+    0 20 13  4  54 20 55  1
+    20 24 13  8  20 24 56  1
+    6 4 17  2  59 60 57  1
+    17 19 6  2  57 58 59  1
+    8 25 9  8  8 25 9  1
+    25 8 13  4  61 62 63  1
+    13 26 25  4  63 26 61  1
+    26 13 24  8  64 65 24  1
+    28 27 29  1  28 27 29  1
+    29 30 28  1  29 30 28  1
+    30 29 31  1  30 29 31  1
+    31 32 30  1  31 32 30  1
+    32 31 33  1  32 31 33  1
+    33 34 32  1  33 34 32  1
+    42 32 34  2  42 66 67  1
+    27 10 11  2  27 10 11  1
+    11 29 27  2  11 29 27  1
+    29 11 12  2  29 11 12  1
+    12 31 29  2  12 31 29  1
+    31 12 9  2  31 12 9  1
+    9 33 31  2  9 33 31  1
+    34 33 37  4  34 33 37  1
+    33 9 37  8  33 9 37  1
+    35 38 28  2  35 38 68  1
+    28 30 35  2  68 69 35  1
+    42 35 30  2  42 35 70  1
+    30 32 42  2  70 71 42  1
+    34 37 36  4  72 73 36  1
+    40 39 38  1  40 39 74  1
+    38 35 40  1  74 75 40  1
+    41 40 35  1  41 40 76  1
+    35 42 41  1  76 77 41  1
+    43 41 42  1  43 41 78  1
+    42 34 43  1  78 79 43  1
+    22 21 39  2  22 21 39  1
+    39 40 22  2  39 40 22  1
+    23 22 40  2  23 22 40  1
+    40 41 23  2  40 41 23  1
+    24 23 41  2  24 23 41  1
+    41 43 24  2  41 43 24  1
+    43 34 36  4  43 80 81  1
+    24 43 36  8  24 43 82  1
+    25 37 9  8  25 37 9  1
+    25 26 36  4  84 26 85  1
+    36 37 25  4  85 83 84  1
+    36 26 24  8  86 87 24  1
+  tverts 88
+    0.785714 0.814286 0
+    0.704076 0.82 0
+    0.785714 0.0714286 0
+    0.713292 0.0714286 0
+    0.785714 0.374286 0
+    0.713292 0.317143 0
+    0.785714 0.631429 0
+    0.722508 0.602857 0
+    0.695771 0.915475 0
+    0.505933 0.861799 0
+    0.505933 0.0714286 0
+    0.505933 0.288571 0
+    0.505933 0.617143 0
+    0.52 0.915475 0
+    0.286708 0.0714286 0
+    0.214286 0.0714286 0
+    0.286708 0.317143 0
+    0.214286 0.374286 0
+    0.277492 0.602857 0
+    0.214286 0.631429 0
+    0.295924 0.82 0
+    0.494067 0.0714286 0
+    0.494067 0.288571 0
+    0.494067 0.617143 0
+    0.494067 0.861799 0
+    0.505714 0.928571 0
+    0.505714 0.517143 0
+    0.293967 0.0714286 0
+    0.214286 0.0714286 0
+    0.293967 0.317143 0
+    0.214286 0.374286 0
+    0.289359 0.602857 0
+    0.214286 0.631429 0
+    0.307791 0.82 0
+    0.214286 0.814286 0
+    0.48 0.374286 0
+    0.48 0.915475 0
+    0.312671 0.915475 0
+    0.468571 0.0714286 0
+    0.706033 0.0714286 0
+    0.706033 0.317143 0
+    0.710641 0.602857 0
+    0.478416 0.631429 0
+    0.692209 0.82 0
+    0.48 0.915475 0
+    0.5 0.814286 0
+    0.214286 0.814286 0
+    0.468571 0.0714286 0
+    0.531429 0.0714286 0
+    0.52 0.374286 0
+    0.48 0.374286 0
+    0.478416 0.631429 0
+    0.521583 0.631429 0
+    0.5 0.814286 0
+    0.214286 0.814286 0
+    0.304229 0.915475 0
+    0.304229 0.915475 0
+    0.52 0.374286 0
+    0.521583 0.631429 0
+    0.478416 0.631429 0
+    0.48 0.374286 0
+    0.505714 0.482857 0
+    0.695771 0.48 0
+    0.695771 0.52 0
+    0.494286 0.928571 0
+    0.304229 0.915475 0
+    0.521583 0.631429 0
+    0.5 0.814286 0
+    0.531429 0.0714286 0
+    0.52 0.374286 0
+    0.52 0.374286 0
+    0.521583 0.631429 0
+    0.5 0.814286 0
+    0.52 0.915475 0
+    0.785714 0.0714286 0
+    0.785714 0.374286 0
+    0.785714 0.374286 0
+    0.785714 0.631429 0
+    0.785714 0.631429 0
+    0.785714 0.814286 0
+    0.785714 0.814286 0
+    0.687329 0.915475 0
+    0.687329 0.915475 0
+    0.312671 0.48 0
+    0.505714 0.482857 0
+    0.312671 0.52 0
+    0.687329 0.915475 0
+    0.494286 0.928571 0
+endnode
+node emitter em_door_explosion
+  parent dwc_gen_06
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0313726 0.431373 0.52549 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawntype_sel 1
+  spawnType 0
+  xSize 100.0
+  ySize 99.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.47451 0.439216 0.364706 
+  colorEnd 0.819608 0.796079 0.709804 
+  alphaStart 1.0
+  alphaEnd 0.0
+  sizeStart 4.0
+  sizeEnd 1.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 0
+  lifeExp 2.5
+  mass 0.09
+  spread 2.96706
+  particleRot 0.5
+  velocity 2.0
+  randvel 0.5
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 1
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 10
+  framestart 0
+  frameend 24
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.2
+  blastLength 1.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node emitter em_ChunkStone
+  parent dwc_gen_06
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.694118 0.345098 0.101961 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawntype_sel 1
+  spawnType 0
+  xSize 89.0
+  ySize 40.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 1.0 1.0 
+  colorEnd 1.0 1.0 1.0 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 0
+  lifeExp 0.75
+  mass 3.0
+  spread 1.22173
+  particleRot 5.0
+  velocity 8.0
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10.0
+  loop 0
+  bounce 1
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_cloud02
+  twosidedtex 0
+  xgrid 5
+  ygrid 5
+  fps 0
+  framestart 0
+  frameend 24
+  random 0
+  chunkName PLC_Chunk_S02
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+endmodelgeom dwc_gen_06
+
+#NWmax ANIM ASCII
+newanim closed dwc_gen_06
+  length 0.0333333
+  transtime 0.25
+  animroot dwc_gen_06
+    node dummy dwc_gen_06
+        parent NULL
+    endnode
+    node dummy dwc_gen_06_DWK
+        parent dwc_gen_06
+    endnode
+    node dwk 06_DWK_wg_closed
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open1_01
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open2_01
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_closed_01
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_closed_02
+        parent dwc_gen_06_DWK
+    endnode
+    node dwk 06_DWK_wg_open1
+        parent dwc_gen_06_DWK
+    endnode
+    node dwk 06_DWK_wg_open2
+        parent dwc_gen_06_DWK
+    endnode
+    node trimesh SAM
+        parent dwc_gen_06
+        alphakey
+            0.0 0.0 
+            0.0333333 0.0 
+        endlist
+    endnode
+    node dummy dwc_gen_06grnd
+        parent dwc_gen_06
+    endnode
+    node dummy dwc_gen_06impc
+        parent dwc_gen_06
+    endnode
+    node dummy dwc_gen_06hhit
+        parent dwc_gen_06
+    endnode
+    node dummy dwc_gen_06head
+        parent dwc_gen_06
+    endnode
+    node dummy animme
+        parent dwc_gen_06
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh stone_door
+        parent animme
+    endnode
+    node emitter em_door_explosion
+        parent dwc_gen_06
+        birthratekey
+            0.0 0 
+            0.0333333 0 
+        endlist
+    endnode
+    node emitter em_ChunkStone
+        parent dwc_gen_06
+        birthratekey
+            0.0 0 
+            0.0333333 0 
+        endlist
+    endnode
+doneanim closed dwc_gen_06
+
+
+#NWmax ANIM ASCII
+newanim opening1 dwc_gen_06
+  length 1.33333
+  transtime 0.25
+  animroot dwc_gen_06
+    node dummy dwc_gen_06
+        parent NULL
+    endnode
+    node dummy dwc_gen_06_DWK
+        parent dwc_gen_06
+    endnode
+    node dwk 06_DWK_wg_closed
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open1_01
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open2_01
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_closed_01
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_closed_02
+        parent dwc_gen_06_DWK
+    endnode
+    node dwk 06_DWK_wg_open1
+        parent dwc_gen_06_DWK
+    endnode
+    node dwk 06_DWK_wg_open2
+        parent dwc_gen_06_DWK
+    endnode
+    node trimesh SAM
+        parent dwc_gen_06
+        alphakey
+            0.0 0.0 
+            1.33333 0.0 
+        endlist
+    endnode
+    node dummy dwc_gen_06grnd
+        parent dwc_gen_06
+    endnode
+    node dummy dwc_gen_06impc
+        parent dwc_gen_06
+    endnode
+    node dummy dwc_gen_06hhit
+        parent dwc_gen_06
+    endnode
+    node dummy dwc_gen_06head
+        parent dwc_gen_06
+    endnode
+    node dummy animme
+        parent dwc_gen_06
+        positionkey
+            0.0 0.0 0.0 0.0
+            1.33333 0.0 0.0 -2.95
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            1.33333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh stone_door
+        parent animme
+    endnode
+    node emitter em_door_explosion
+        parent dwc_gen_06
+        birthratekey
+            0.0 0 
+            1.33333 0 
+        endlist
+    endnode
+    node emitter em_ChunkStone
+        parent dwc_gen_06
+        birthratekey
+            0.0 0 
+            1.33333 0 
+        endlist
+    endnode
+doneanim opening1 dwc_gen_06
+
+
+#NWmax ANIM ASCII
+newanim opening2 dwc_gen_06
+  length 1.33333
+  transtime 0.25
+  animroot dwc_gen_06
+    node dummy dwc_gen_06
+        parent NULL
+    endnode
+    node dummy dwc_gen_06_DWK
+        parent dwc_gen_06
+    endnode
+    node dwk 06_DWK_wg_closed
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open1_01
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open2_01
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_closed_01
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_closed_02
+        parent dwc_gen_06_DWK
+    endnode
+    node dwk 06_DWK_wg_open1
+        parent dwc_gen_06_DWK
+    endnode
+    node dwk 06_DWK_wg_open2
+        parent dwc_gen_06_DWK
+    endnode
+    node trimesh SAM
+        parent dwc_gen_06
+        alphakey
+            0.0 0.0 
+            1.33333 0.0 
+        endlist
+    endnode
+    node dummy dwc_gen_06grnd
+        parent dwc_gen_06
+    endnode
+    node dummy dwc_gen_06impc
+        parent dwc_gen_06
+    endnode
+    node dummy dwc_gen_06hhit
+        parent dwc_gen_06
+    endnode
+    node dummy dwc_gen_06head
+        parent dwc_gen_06
+    endnode
+    node dummy animme
+        parent dwc_gen_06
+        positionkey
+            0.0 0.0 0.0 0.0
+            1.33333 0.0 0.0 -2.95
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            1.33333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh stone_door
+        parent animme
+    endnode
+    node emitter em_door_explosion
+        parent dwc_gen_06
+        birthratekey
+            0.0 0 
+            1.33333 0 
+        endlist
+    endnode
+    node emitter em_ChunkStone
+        parent dwc_gen_06
+        birthratekey
+            0.0 0 
+            1.33333 0 
+        endlist
+    endnode
+doneanim opening2 dwc_gen_06
+
+
+#NWmax ANIM ASCII
+newanim opened1 dwc_gen_06
+  length 0.0333333
+  transtime 0.25
+  animroot dwc_gen_06
+    node dummy dwc_gen_06
+        parent NULL
+    endnode
+    node dummy dwc_gen_06_DWK
+        parent dwc_gen_06
+    endnode
+    node dwk 06_DWK_wg_closed
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open1_01
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open2_01
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_closed_01
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_closed_02
+        parent dwc_gen_06_DWK
+    endnode
+    node dwk 06_DWK_wg_open1
+        parent dwc_gen_06_DWK
+    endnode
+    node dwk 06_DWK_wg_open2
+        parent dwc_gen_06_DWK
+    endnode
+    node trimesh SAM
+        parent dwc_gen_06
+        alphakey
+            0.0 0.0 
+            0.0333333 0.0 
+        endlist
+    endnode
+    node dummy dwc_gen_06grnd
+        parent dwc_gen_06
+    endnode
+    node dummy dwc_gen_06impc
+        parent dwc_gen_06
+    endnode
+    node dummy dwc_gen_06hhit
+        parent dwc_gen_06
+    endnode
+    node dummy dwc_gen_06head
+        parent dwc_gen_06
+    endnode
+    node dummy animme
+        parent dwc_gen_06
+        positionkey
+            0.0 0.0 0.0 -2.95
+            0.0333333 0.0 0.0 -2.95
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh stone_door
+        parent animme
+    endnode
+    node emitter em_door_explosion
+        parent dwc_gen_06
+        birthratekey
+            0.0 0 
+            0.0333333 0 
+        endlist
+    endnode
+    node emitter em_ChunkStone
+        parent dwc_gen_06
+        birthratekey
+            0.0 0 
+            0.0333333 0 
+        endlist
+    endnode
+doneanim opened1 dwc_gen_06
+
+
+#NWmax ANIM ASCII
+newanim opened2 dwc_gen_06
+  length 0.0333333
+  transtime 0.25
+  animroot dwc_gen_06
+    node dummy dwc_gen_06
+        parent NULL
+    endnode
+    node dummy dwc_gen_06_DWK
+        parent dwc_gen_06
+    endnode
+    node dwk 06_DWK_wg_closed
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open1_01
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open2_01
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_closed_01
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_closed_02
+        parent dwc_gen_06_DWK
+    endnode
+    node dwk 06_DWK_wg_open1
+        parent dwc_gen_06_DWK
+    endnode
+    node dwk 06_DWK_wg_open2
+        parent dwc_gen_06_DWK
+    endnode
+    node trimesh SAM
+        parent dwc_gen_06
+        alphakey
+            0.0 0.0 
+            0.0333333 0.0 
+        endlist
+    endnode
+    node dummy dwc_gen_06grnd
+        parent dwc_gen_06
+    endnode
+    node dummy dwc_gen_06impc
+        parent dwc_gen_06
+    endnode
+    node dummy dwc_gen_06hhit
+        parent dwc_gen_06
+    endnode
+    node dummy dwc_gen_06head
+        parent dwc_gen_06
+    endnode
+    node dummy animme
+        parent dwc_gen_06
+        positionkey
+            0.0 0.0 0.0 -2.95
+            0.0333333 0.0 0.0 -2.95
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh stone_door
+        parent animme
+    endnode
+    node emitter em_door_explosion
+        parent dwc_gen_06
+        birthratekey
+            0.0 0 
+            0.0333333 0 
+        endlist
+    endnode
+    node emitter em_ChunkStone
+        parent dwc_gen_06
+        birthratekey
+            0.0 0 
+            0.0333333 0 
+        endlist
+    endnode
+doneanim opened2 dwc_gen_06
+
+
+#NWmax ANIM ASCII
+newanim closing1 dwc_gen_06
+  length 1.33333
+  transtime 0.25
+  animroot dwc_gen_06
+    node dummy dwc_gen_06
+        parent NULL
+    endnode
+    node dummy dwc_gen_06_DWK
+        parent dwc_gen_06
+    endnode
+    node dwk 06_DWK_wg_closed
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open1_01
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open2_01
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_closed_01
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_closed_02
+        parent dwc_gen_06_DWK
+    endnode
+    node dwk 06_DWK_wg_open1
+        parent dwc_gen_06_DWK
+    endnode
+    node dwk 06_DWK_wg_open2
+        parent dwc_gen_06_DWK
+    endnode
+    node trimesh SAM
+        parent dwc_gen_06
+        alphakey
+            0.0 0.0 
+            1.33333 0.0 
+        endlist
+    endnode
+    node dummy dwc_gen_06grnd
+        parent dwc_gen_06
+    endnode
+    node dummy dwc_gen_06impc
+        parent dwc_gen_06
+    endnode
+    node dummy dwc_gen_06hhit
+        parent dwc_gen_06
+    endnode
+    node dummy dwc_gen_06head
+        parent dwc_gen_06
+    endnode
+    node dummy animme
+        parent dwc_gen_06
+        positionkey
+            0.0 0.0 0.0 -2.95
+            1.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            1.33333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh stone_door
+        parent animme
+    endnode
+    node emitter em_door_explosion
+        parent dwc_gen_06
+        birthratekey
+            0.0 0 
+            1.33333 0 
+        endlist
+    endnode
+    node emitter em_ChunkStone
+        parent dwc_gen_06
+        birthratekey
+            0.0 0 
+            1.33333 0 
+        endlist
+    endnode
+doneanim closing1 dwc_gen_06
+
+
+#NWmax ANIM ASCII
+newanim closing2 dwc_gen_06
+  length 1.33333
+  transtime 0.25
+  animroot dwc_gen_06
+    node dummy dwc_gen_06
+        parent NULL
+    endnode
+    node dummy dwc_gen_06_DWK
+        parent dwc_gen_06
+    endnode
+    node dwk 06_DWK_wg_closed
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open1_01
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open2_01
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_closed_01
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_closed_02
+        parent dwc_gen_06_DWK
+    endnode
+    node dwk 06_DWK_wg_open1
+        parent dwc_gen_06_DWK
+    endnode
+    node dwk 06_DWK_wg_open2
+        parent dwc_gen_06_DWK
+    endnode
+    node trimesh SAM
+        parent dwc_gen_06
+        alphakey
+            0.0 0.0 
+            1.33333 0.0 
+        endlist
+    endnode
+    node dummy dwc_gen_06grnd
+        parent dwc_gen_06
+    endnode
+    node dummy dwc_gen_06impc
+        parent dwc_gen_06
+    endnode
+    node dummy dwc_gen_06hhit
+        parent dwc_gen_06
+    endnode
+    node dummy dwc_gen_06head
+        parent dwc_gen_06
+    endnode
+    node dummy animme
+        parent dwc_gen_06
+        positionkey
+            0.0 0.0 0.0 -2.95
+            1.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            1.33333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh stone_door
+        parent animme
+    endnode
+    node emitter em_door_explosion
+        parent dwc_gen_06
+        birthratekey
+            0.0 0 
+            1.33333 0 
+        endlist
+    endnode
+    node emitter em_ChunkStone
+        parent dwc_gen_06
+        birthratekey
+            0.0 0 
+            1.33333 0 
+        endlist
+    endnode
+doneanim closing2 dwc_gen_06
+
+
+#NWmax ANIM ASCII
+newanim die dwc_gen_06
+  length 0.333333
+  transtime 0.25
+  animroot dwc_gen_06
+  event 0.0333333 detonate
+    node dummy dwc_gen_06
+        parent NULL
+    endnode
+    node dummy dwc_gen_06_DWK
+        parent dwc_gen_06
+    endnode
+    node dwk 06_DWK_wg_closed
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open1_01
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open2_01
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_closed_01
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_closed_02
+        parent dwc_gen_06_DWK
+    endnode
+    node dwk 06_DWK_wg_open1
+        parent dwc_gen_06_DWK
+    endnode
+    node dwk 06_DWK_wg_open2
+        parent dwc_gen_06_DWK
+    endnode
+    node trimesh SAM
+        parent dwc_gen_06
+        alphakey
+            0.0 0.0 
+            0.333333 0.0 
+        endlist
+    endnode
+    node dummy dwc_gen_06grnd
+        parent dwc_gen_06
+    endnode
+    node dummy dwc_gen_06impc
+        parent dwc_gen_06
+    endnode
+    node dummy dwc_gen_06hhit
+        parent dwc_gen_06
+    endnode
+    node dummy dwc_gen_06head
+        parent dwc_gen_06
+    endnode
+    node dummy animme
+        parent dwc_gen_06
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.333333 0.0 0.0 -3.5
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh stone_door
+        parent animme
+    endnode
+    node emitter em_door_explosion
+        parent dwc_gen_06
+        birthratekey
+            0.0 10 
+            0.333333 10 
+        endlist
+    endnode
+    node emitter em_ChunkStone
+        parent dwc_gen_06
+        birthratekey
+            0.0 3 
+            0.333333 3 
+        endlist
+    endnode
+doneanim die dwc_gen_06
+
+
+#NWmax ANIM ASCII
+newanim dead dwc_gen_06
+  length 0.0
+  transtime 0.25
+  animroot dwc_gen_06
+    node dummy dwc_gen_06
+        parent NULL
+    endnode
+    node dummy dwc_gen_06_DWK
+        parent dwc_gen_06
+    endnode
+    node dwk 06_DWK_wg_closed
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open1_01
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open2_01
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_closed_01
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_closed_02
+        parent dwc_gen_06_DWK
+    endnode
+    node dwk 06_DWK_wg_open1
+        parent dwc_gen_06_DWK
+    endnode
+    node dwk 06_DWK_wg_open2
+        parent dwc_gen_06_DWK
+    endnode
+    node trimesh SAM
+        parent dwc_gen_06
+        alphakey
+            0.0 0.0 
+        endlist
+    endnode
+    node dummy dwc_gen_06grnd
+        parent dwc_gen_06
+    endnode
+    node dummy dwc_gen_06impc
+        parent dwc_gen_06
+    endnode
+    node dummy dwc_gen_06hhit
+        parent dwc_gen_06
+    endnode
+    node dummy dwc_gen_06head
+        parent dwc_gen_06
+    endnode
+    node dummy animme
+        parent dwc_gen_06
+        positionkey
+            0.0 0.0 0.0 -3.5
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh stone_door
+        parent animme
+    endnode
+    node emitter em_door_explosion
+        parent dwc_gen_06
+        birthratekey
+            0.0 10 
+        endlist
+    endnode
+    node emitter em_ChunkStone
+        parent dwc_gen_06
+        birthratekey
+            0.0 3 
+        endlist
+    endnode
+doneanim dead dwc_gen_06
+
+
+#NWmax ANIM ASCII
+newanim trans dwc_gen_06
+  length 0.0333333
+  transtime 0.25
+  animroot dwc_gen_06
+    node dummy dwc_gen_06
+        parent NULL
+    endnode
+    node dummy dwc_gen_06_DWK
+        parent dwc_gen_06
+    endnode
+    node dwk 06_DWK_wg_closed
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open1_01
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open2_01
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_closed_01
+        parent dwc_gen_06_DWK
+    endnode
+    node dummy 06_DWK_dp_closed_02
+        parent dwc_gen_06_DWK
+    endnode
+    node dwk 06_DWK_wg_open1
+        parent dwc_gen_06_DWK
+    endnode
+    node dwk 06_DWK_wg_open2
+        parent dwc_gen_06_DWK
+    endnode
+    node trimesh SAM
+        parent dwc_gen_06
+        alphakey
+            0.0 0.25 
+            0.0333333 0.25 
+        endlist
+    endnode
+    node dummy dwc_gen_06grnd
+        parent dwc_gen_06
+    endnode
+    node dummy dwc_gen_06impc
+        parent dwc_gen_06
+    endnode
+    node dummy dwc_gen_06hhit
+        parent dwc_gen_06
+    endnode
+    node dummy dwc_gen_06head
+        parent dwc_gen_06
+    endnode
+    node dummy animme
+        parent dwc_gen_06
+    endnode
+    node trimesh stone_door
+        parent animme
+    endnode
+    node emitter em_door_explosion
+        parent dwc_gen_06
+    endnode
+    node emitter em_ChunkStone
+        parent dwc_gen_06
+    endnode
+doneanim trans dwc_gen_06
+
+donemodel dwc_gen_06

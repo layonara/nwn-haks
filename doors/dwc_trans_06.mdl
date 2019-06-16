@@ -1,0 +1,199 @@
+# Exported from NWmax 0.8 b60 at 23.02.2006 11:19:07
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: dwc_trans_06
+#local file: E:\_Monkeys\wc-Barrows\by martin\c30_merged_stairs_04.max
+filedependancy c30_merged_stairs_04.max
+newmodel dwc_trans_06
+setsupermodel dwc_trans_06 NULL
+classification Door
+#NWmax GEOM  ASCII
+beginmodelgeom dwc_trans_06
+node dummy dwc_trans_06
+  parent NULL
+endnode
+node dummy dwc_trans_06grnd
+  parent dwc_trans_06
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.54902 0.345098 0.882353 
+endnode
+node dummy dwc_trans_06impc
+  parent dwc_trans_06
+  position 0.0 0.0 1.75
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.54902 0.345098 0.882353 
+endnode
+node dummy dwc_trans_06hhit
+  parent dwc_trans_06
+  position 0.0 0.0 1.24252
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.54902 0.345098 0.882353 
+endnode
+node dummy dwc_trans_06head
+  parent dwc_trans_06
+  position 0.0 0.0 1.49252
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.54902 0.345098 0.882353 
+endnode
+node trimesh sam
+  parent dwc_trans_06
+  position 0.02 0.1 0.1
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.341176 0.878431 0.341176 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 0.0
+  transparencyhint 1
+  selfillumcolor 0.0705882 0.0 1.0 
+  ambient 0.2 0.2 0.2 
+  Diffuse 0.8 0.8 0.8 
+  Specular 0.0 0.0 0.0 
+  shininess 1
+  center 0.0 0.0 148.0 
+  bitmap Standardmaterial
+  verts 16
+    -0.82 0.21 0.95
+    -0.85 0.14 0.45
+    -0.77 0.05 0.15
+    0.82 0.21 0.95
+    0.83 0.15 0.45
+    0.77 0.05 0.15
+    -0.82 0.26 1.45
+    0.82 0.26 1.45
+    -0.82 0.22 0.95
+    -0.85 0.15 0.45
+    -0.77 0.06 0.15
+    0.82 0.22 0.95
+    0.83 0.16 0.45
+    0.77 0.06 0.15
+    -0.82 0.27 1.45
+    0.82 0.27 1.45
+  faces 12
+    2 5 4  1  2 5 4  1
+    2 4 1  1  2 4 1  1
+    1 4 3  1  1 4 3  1
+    1 3 0  1  1 3 0  1
+    0 3 7  1  0 3 7  1
+    0 7 6  1  0 7 6  1
+    13 10 12  1  13 10 12  1
+    12 10 9  1  12 10 9  1
+    12 9 11  1  12 9 11  1
+    11 9 8  1  11 9 8  1
+    11 8 15  1  11 8 15  1
+    15 8 14  1  15 8 14  1
+  tverts 16
+    0.495 0.55 0
+    0.51 0.383333 0
+    0.536667 0.283333 0
+    0.501667 0.890702 0
+    0.140385 0.724036 0
+    0.120385 0.624036 0
+    0.361125 0.49 0
+    -0.185542 0.49 0
+    0.495 0.55 0
+    0.51 0.383333 0
+    0.536667 0.283333 0
+    0.501667 0.890702 0
+    0.140385 0.724036 0
+    0.120385 0.624036 0
+    0.361125 0.49 0
+    -0.185542 0.49 0
+endnode
+endmodelgeom dwc_trans_06
+
+#NWmax ANIM ASCII
+newanim trans dwc_trans_06
+  length 0.0333333
+  transtime 0.25
+  animroot dwc_trans_06
+    node dummy dwc_trans_06
+        parent NULL
+    endnode
+    node dummy dwc_trans_06_DWK
+        parent dwc_trans_06
+    endnode
+    node dummy 06_DWK_dp_open1_01
+        parent dwc_trans_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open2_01
+        parent dwc_trans_06_DWK
+    endnode
+    node dummy 06_DWK_dp_closed_01
+        parent dwc_trans_06_DWK
+    endnode
+    node dummy 06_DWK_dp_closed_02
+        parent dwc_trans_06_DWK
+    endnode
+    node dummy dwc_trans_06grnd
+        parent dwc_trans_06
+    endnode
+    node dummy dwc_trans_06impc
+        parent dwc_trans_06
+    endnode
+    node dummy dwc_trans_06hhit
+        parent dwc_trans_06
+    endnode
+    node dummy dwc_trans_06head
+        parent dwc_trans_06
+    endnode
+    node trimesh sam
+        parent dwc_trans_06
+        alphakey
+            0.0 0.25 
+            0.0333333 0.25 
+        endlist
+    endnode
+doneanim trans dwc_trans_06
+
+
+#NWmax ANIM ASCII
+newanim default dwc_trans_06
+  length 0.0
+  transtime 0.25
+  animroot dwc_trans_06
+    node dummy dwc_trans_06
+        parent NULL
+    endnode
+    node dummy dwc_trans_06_DWK
+        parent dwc_trans_06
+    endnode
+    node dummy 06_DWK_dp_open1_01
+        parent dwc_trans_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open2_01
+        parent dwc_trans_06_DWK
+    endnode
+    node dummy 06_DWK_dp_closed_01
+        parent dwc_trans_06_DWK
+    endnode
+    node dummy 06_DWK_dp_closed_02
+        parent dwc_trans_06_DWK
+    endnode
+    node dummy dwc_trans_06grnd
+        parent dwc_trans_06
+    endnode
+    node dummy dwc_trans_06impc
+        parent dwc_trans_06
+    endnode
+    node dummy dwc_trans_06hhit
+        parent dwc_trans_06
+    endnode
+    node dummy dwc_trans_06head
+        parent dwc_trans_06
+    endnode
+    node trimesh sam
+        parent dwc_trans_06
+        alphakey
+            0.0 0.0 
+        endlist
+    endnode
+doneanim default dwc_trans_06
+
+donemodel dwc_trans_06

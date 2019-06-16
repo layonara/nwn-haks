@@ -1,0 +1,175 @@
+# Exported from NWmax 0.8 b60 at 03.03.2006 13:59:50
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: dwc_trans_07
+#local file: E:\3dsMax6\scenes\tno_tilehelpers2\b_4_streams_02.max
+filedependancy b_4_streams_02.max
+newmodel dwc_trans_07
+setsupermodel dwc_trans_07 NULL
+classification Door
+#NWmax GEOM  ASCII
+beginmodelgeom dwc_trans_07
+node dummy dwc_trans_07
+  parent NULL
+endnode
+node dummy dwc_trans_07grnd
+  parent dwc_trans_07
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.54902 0.345098 0.882353 
+endnode
+node dummy dwc_trans_07impc
+  parent dwc_trans_07
+  position 0.0 0.0 1.75
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.54902 0.345098 0.882353 
+endnode
+node dummy dwc_trans_07hhit
+  parent dwc_trans_07
+  position 0.0 0.0 2.25
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.54902 0.345098 0.882353 
+endnode
+node dummy dwc_trans_07head
+  parent dwc_trans_07
+  position 0.0 0.0 2.5
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.54902 0.345098 0.882353 
+endnode
+node trimesh SAM
+  parent dwc_trans_07
+  position 0.11 -0.01 3.3
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.109804 0.34902 0.694118 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 0.0
+  transparencyhint 1
+  selfillumcolor 0.0705882 0.0 1.0 
+  ambient 0.2 0.2 0.2 
+  Diffuse 0.8 0.8 0.8 
+  Specular 0.0 0.0 0.0 
+  shininess 1
+  center undefined
+  bitmap NULL
+  verts 8
+    2.76 0.0 -2.5
+    -2.79 0.0 -2.5
+    -2.84 0.0 2.5
+    2.84 0.0 2.5
+    2.76 0.01 -2.5
+    -2.79 0.01 -2.5
+    -2.84 0.01 2.5
+    2.84 0.01 2.5
+  faces 4
+    2 1 0  0  2 1 0  1
+    0 3 2  0  0 3 2  1
+    6 7 4  0  6 7 4  1
+    4 5 6  0  4 5 6  1
+  tverts 8
+    2270.0 -338.0 0
+    1715.0 -280.0 0
+    1710.0 -286.0 0
+    2278.0 -340.0 0
+    2270.0 -338.0 0
+    1715.0 -280.0 0
+    1710.0 -286.0 0
+    2278.0 -340.0 0
+endnode
+endmodelgeom dwc_trans_07
+
+#NWmax ANIM ASCII
+newanim trans dwc_trans_07
+  length 0.0333333
+  transtime 0.25
+  animroot dwc_trans_07
+    node dummy dwc_trans_07
+        parent NULL
+    endnode
+    node dummy dwc_trans_07_DWK
+        parent dwc_trans_07
+    endnode
+    node dummy 07_DWK_dp_open1_01
+        parent dwc_trans_07_DWK
+    endnode
+    node dummy 07_DWK_dp_open2_01
+        parent dwc_trans_07_DWK
+    endnode
+    node dummy 07_DWK_dp_closed_01
+        parent dwc_trans_07_DWK
+    endnode
+    node dummy 07_DWK_dp_closed_02
+        parent dwc_trans_07_DWK
+    endnode
+    node dummy dwc_trans_07grnd
+        parent dwc_trans_07
+    endnode
+    node dummy dwc_trans_07impc
+        parent dwc_trans_07
+    endnode
+    node dummy dwc_trans_07hhit
+        parent dwc_trans_07
+    endnode
+    node dummy dwc_trans_07head
+        parent dwc_trans_07
+    endnode
+    node trimesh SAM
+        parent dwc_trans_07
+        alphakey
+            0.0 0.25 
+            0.0333333 0.25 
+        endlist
+    endnode
+doneanim trans dwc_trans_07
+
+
+#NWmax ANIM ASCII
+newanim default dwc_trans_07
+  length 0.0
+  transtime 0.25
+  animroot dwc_trans_07
+    node dummy dwc_trans_07
+        parent NULL
+    endnode
+    node dummy dwc_trans_07_DWK
+        parent dwc_trans_07
+    endnode
+    node dummy 07_DWK_dp_open1_01
+        parent dwc_trans_07_DWK
+    endnode
+    node dummy 07_DWK_dp_open2_01
+        parent dwc_trans_07_DWK
+    endnode
+    node dummy 07_DWK_dp_closed_01
+        parent dwc_trans_07_DWK
+    endnode
+    node dummy 07_DWK_dp_closed_02
+        parent dwc_trans_07_DWK
+    endnode
+    node dummy dwc_trans_07grnd
+        parent dwc_trans_07
+    endnode
+    node dummy dwc_trans_07impc
+        parent dwc_trans_07
+    endnode
+    node dummy dwc_trans_07hhit
+        parent dwc_trans_07
+    endnode
+    node dummy dwc_trans_07head
+        parent dwc_trans_07
+    endnode
+    node trimesh SAM
+        parent dwc_trans_07
+        alphakey
+            0.0 0.0 
+        endlist
+    endnode
+doneanim default dwc_trans_07
+
+donemodel dwc_trans_07
