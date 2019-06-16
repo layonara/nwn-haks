@@ -1,0 +1,190 @@
+#MAXMODEL ASCII
+# model: pfe46
+filedependancy pft0.max
+newmodel pfe46
+setsupermodel pfe46 a_flying
+classification character
+setanimationscale 0.893999994
+#MAXGEOM  ASCII
+beginmodelgeom pfe46
+node dummy pfe46
+  parent NULL
+  #part-number 0
+endnode
+node dummy headconjure
+  parent pfe46
+  #part-number -1
+  position 0.0000000 -0.1052710 2.1356800
+  orientation 0 0 0 0
+endnode
+node dummy handconjure
+  parent pfe46
+  #part-number -1
+  position 0.0000003 0.2375020 1.2575400
+  orientation 0 0 0 0
+endnode
+node dummy rootdummy
+  parent pfe46
+  #part-number 1
+  position 0.0002490 -0.0325529 1.1922700
+  orientation 0 0 0 0
+endnode
+node dummy torso_g
+  parent rootdummy
+  #part-number 2
+  position 0.0006943 0.0106959 -0.0005435
+  orientation 0 0 0 0
+endnode
+node dummy rbicep_g
+  parent torso_g
+  #part-number 3
+  position 0.1176260 -0.0296366 0.2755000
+  orientation 0 0 0 0
+endnode
+node dummy rshoulder_g
+  parent rbicep_g
+  #part-number -1
+  position 0.0000000 0.0000000 -0.0020000
+  orientation 0 0 0 0
+endnode
+node dummy rforearm_g
+  parent rbicep_g
+  #part-number 4
+  position 0.0229824 -0.0198626 -0.2743070
+  orientation 0 0 0 0
+endnode
+node dummy rhand_g
+  parent rforearm_g
+  #part-number 5
+  position 0.0179339 0.0099325 -0.2193570
+  orientation 0 0 0 0
+endnode
+node dummy rhand
+  parent rhand_g
+  #part-number 6
+  position 0.0040139 -0.0046491 -0.0600473
+  orientation 0 0 0 0
+endnode
+node dummy lbicep_g
+  parent torso_g
+  #part-number 8
+  position -0.1195130 -0.0296366 0.2755000
+  orientation 0 0 0 0
+endnode
+node dummy lshoulder_g
+  parent lbicep_g
+  #part-number -1
+  position 0.0000000 0.0000000 -0.0020000
+  orientation 0 0 0 0
+endnode
+node dummy lforearm_g
+  parent lbicep_g
+  #part-number 9
+  position -0.0229800 -0.0198626 -0.2743070
+  orientation 0 0 0 0
+endnode
+node dummy lhand_g
+  parent lforearm_g
+  #part-number 10
+  position -0.0179400 0.0099325 -0.2193570
+  orientation 0 0 0 0
+endnode
+node dummy lhand
+  parent lhand_g
+  #part-number 11
+  position -0.0040099 0.0028100 -0.0600473
+  orientation 0 0 0 0
+endnode
+node dummy lforearm
+  parent lforearm_g
+  #part-number 12
+  position -0.0273527 -0.0000002 -0.1628700
+  orientation 1.50038011e-006 -1 -5.04775053e-005 -0.0698110014
+endnode
+node dummy neck_g
+  parent torso_g
+  #part-number 14
+  position -0.0010815 -0.0399849 0.3083620
+  orientation 0 0 0 0
+endnode
+node dummy head_g
+  parent neck_g
+  #part-number 15
+  position 0.0003372 -0.0013707 0.0871963
+  orientation 0 0 0 0
+endnode
+node dummy head
+  parent head_g
+  #part-number -1
+  position -0.0001990 -0.0005711 0.1627060
+  orientation 0 0 0 0
+endnode
+node dummy Impact
+  parent torso_g
+  #part-number 16
+  position 0.0009430 0.0870239 0.1077880
+  orientation 0 0 0 0
+endnode
+node dummy wings
+  parent torso_g
+  #part-number -1
+  position 0.0002093 -0.0728446 0.1828990
+  orientation 0 0 0 0
+endnode
+node dummy pelvis_g
+  parent rootdummy
+  #part-number 17
+  position 0.0006943 0.0106959 -0.0005435
+  orientation 0 0 0 0
+endnode
+node dummy rthigh_g
+  parent pelvis_g
+  #part-number 21
+  position 0.0615067 -0.0249095 -0.1481800
+  orientation 0 0 0 0
+endnode
+node dummy rshin_g
+  parent rthigh_g
+  #part-number 22
+  position -0.0117900 -0.0040225 -0.4207010
+  orientation 0 0 0 0
+endnode
+node dummy rfoot_g
+  parent rshin_g
+  #part-number 23
+  position -0.0245482 -0.0461976 -0.3711460
+  orientation 0 0 0 0
+endnode
+node dummy lthigh_g
+  parent pelvis_g
+  #part-number 18
+  position -0.0633954 -0.0249095 -0.1481800
+  orientation 0 0 0 0
+endnode
+node dummy lshin_g
+  parent lthigh_g
+  #part-number 19
+  position 0.0117906 -0.0040225 -0.4207010
+  orientation 0 0 0 0
+endnode
+node dummy lfoot_g
+  parent lshin_g
+  #part-number 20
+  position 0.0245497 -0.0461976 -0.3711460
+  orientation 0 0 0 0
+endnode
+node dummy belt_g
+  parent pelvis_g
+  #part-number -1
+  position 0.0000000 0.0000000 0.0000000
+  orientation 0 0 0 0
+endnode
+node dummy tail
+  parent pelvis_g
+  #part-number -1
+  position -0.0009007 -0.0728446 -0.1067750
+  orientation 0 0 0 0
+endnode
+endmodelgeom pfe46
+
+donemodel pfe46

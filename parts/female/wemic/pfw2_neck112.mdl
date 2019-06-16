@@ -1,0 +1,80 @@
+# Exported from NWmax 0.5-beta at 1/13/2004 9:55:30 PM
+# mdl file
+#
+#NWmaxMODEL ASCII
+# model: pfw2_neck112
+filedependancy Unknown
+newmodel pfw2_neck112
+setsupermodel pfw2_neck112 NULL
+classification Character
+setanimationscale 1.0
+#NWmaxGEOM  ASCII
+beginmodelgeom pfw2_neck112
+node dummy pfw2_neck112
+  parent NULL
+endnode
+node trimesh pfw2_neck112g
+  parent pfw2_neck112
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0235294 0.0235294 0.0235294 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  selfillumcolor 0.0 0.0 0.0 
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  center 0.0 -0.2103 4.31995 
+  gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11.0
+  selfillumcolor 0.0 0.0 0.0 
+  bitmap NULL
+  verts 10
+    0.0 0.005119 -0.073726
+    -0.090395 -0.004022 -0.001442
+    0.0 0.080733 0.000663
+    0.0 -0.084939 0.006975
+    -0.070055 0.013276 0.127598
+    0.0 0.068296 0.088473
+    0.0 -0.064712 0.109452
+    0.0 0.007666 0.160125
+    0.090395 -0.004022 -0.001442
+    0.070055 0.013276 0.127598
+  faces 16
+    0 1 2  1  0 1 2  1
+    0 3 1  1  0 3 1  1
+    2 4 5  1  2 4 5  1
+    2 1 4  1  2 1 4  1
+    1 6 4  1  1 6 4  1
+    1 3 6  1  1 3 6  1
+    7 5 4  1  7 5 4  1
+    7 4 6  1  7 4 6  1
+    8 0 2  1  8 0 2  1
+    3 0 8  1  3 0 8  1
+    9 2 5  1  9 2 5  1
+    8 2 9  1  8 2 9  1
+    6 8 9  1  6 8 9  1
+    3 8 6  1  3 8 6  1
+    5 7 9  1  5 7 9  1
+    9 7 6  1  9 7 6  1
+  tverts 10
+    0.894755 0.79927 0
+    0.796382 0.811343 0
+    0.89467 0.813112 0
+    0.89467 0.818419 0
+    0.801022 0.979503 0
+    0.89467 0.92977 0
+    0.893117 0.953583 0
+    0.892728 0.987576 0
+    0.987133 0.809917 0
+    0.987541 0.979294 0
+endnode
+endmodelgeom pfw2_neck112
+donemodel pfw2_neck112

@@ -1,0 +1,709 @@
+#MAXMODEL ASCII
+# model: pfh33
+filedependancy pfh33.max
+newmodel pfh33
+setsupermodel pfh33 brfh_anims
+classification character
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom pfh33
+node dummy pfh33
+  parent NULL
+  #part-number 0
+endnode
+node trimesh rootdummy
+  parent pfh33
+  #part-number 1
+  ambient 0 0 0
+  diffuse 0 0 1
+  specular 0 0 0
+  shininess 0
+  shadow 0
+  render 0
+  bitmap NULL
+  verts 8
+    0.0224281996 -0.0195058994 -0.0190136004
+    0.0224281996 -0.0195058994 0.0190168004
+    -0.0224281996 -0.0195058007 0.0190168004
+    -0.0224281996 -0.0195058007 -0.0190136004
+    0.0224281996 0.0185244996 -0.0190136004
+    -0.0224281996 0.0185244996 -0.0190136004
+    -0.0224281996 0.0185244996 0.0190168004
+    0.0224281996 0.0185244996 0.0190168004
+  faces 12
+    0 1 2 1 0 0 0 2
+    2 3 0 1 0 0 0 2
+    4 5 6 1 0 0 0 1
+    6 7 4 1 0 0 0 1
+    0 3 5 1 0 0 0 5
+    5 4 0 1 0 0 0 5
+    3 2 6 1 0 0 0 4
+    6 5 3 1 0 0 0 4
+    2 1 7 1 0 0 0 6
+    7 6 2 1 0 0 0 6
+    1 0 4 1 0 0 0 3
+    4 7 1 1 0 0 0 3
+  position -0.00336335995 0.0204975996 1.20720005
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  orientation 0 0 0 0
+endnode
+node dummy pelvis_g
+  parent rootdummy
+  #part-number 17
+  position 0.000694037997 0.0106958998 -0.000543517992
+  orientation 0 0 0 0
+endnode
+node dummy rthigh_g
+  parent pelvis_g
+  #part-number 21
+  position 0.0815068036 -0.033109501 -0.190180004
+  orientation 0 0 0 0
+endnode
+node dummy rshin_g
+  parent rthigh_g
+  #part-number 22
+  position -0.0147900004 -0.0048225401 -0.461701006
+  orientation 0 0 0 0
+endnode
+node dummy rfoot_g
+  parent rshin_g
+  #part-number 23
+  position -0.0335485004 -0.0611976013 -0.404145986
+  orientation 0 0 0 0
+endnode
+node dummy lthigh_g
+  parent pelvis_g
+  #part-number 18
+  position -0.0833953992 -0.033109501 -0.190180004
+  orientation 0 0 0 0
+endnode
+node dummy lshin_g
+  parent lthigh_g
+  #part-number 19
+  position 0.0147906002 -0.0048225401 -0.461701006
+  orientation 0 0 0 0
+endnode
+node dummy lfoot_g
+  parent lshin_g
+  #part-number 20
+  position 0.0335500017 -0.0611976013 -0.404145986
+  orientation 0 0 0 0
+endnode
+node dummy belt_g
+  parent pelvis_g
+  #part-number -1
+  position 0 0 0
+  orientation 0 0 0 0
+endnode
+node dummy tail
+  parent pelvis_g
+  #part-number -1
+  position -0.000765304023 -0.108151004 -0.0843392015
+  orientation 0 0 0 0
+endnode
+node dummy torso_g
+  parent rootdummy
+  #part-number 2
+  position 0.000405169005 0.0103382999 0.000206527999
+  orientation 0 0 0 0
+endnode
+node dummy rbicep_g
+  parent torso_g
+  #part-number 3
+  position 0.137626007 -0.0356366001 0.305500001
+  orientation 0 0 0 0
+endnode
+node dummy rshoulder_g
+  parent rbicep_g
+  #part-number -1
+  position 0 0 0
+  orientation 0 0 0 0
+endnode
+node dummy rforearm_g
+  parent rbicep_g
+  #part-number 4
+  position 0.0319821984 -0.0248626005 -0.316307008
+  orientation 0 0 0 0
+endnode
+node dummy rhand_g
+  parent rforearm_g
+  #part-number 5
+  position 0.0254340991 0.0139325 -0.252357006
+  orientation 0 0 0 0
+endnode
+node dummy rhand
+  parent rhand_g
+  #part-number 6
+  position 0.00101394998 0.0104238 -0.0818722993
+  orientation 0 0 0 0
+endnode
+node dummy lbicep_g
+  parent torso_g
+  #part-number 8
+  position -0.139513001 -0.0356366001 0.305500001
+  orientation 0 0 0 0
+endnode
+node dummy lshoulder_g
+  parent lbicep_g
+  #part-number -1
+  position 0 0 0
+  orientation 0 0 0 0
+endnode
+node dummy lforearm_g
+  parent lbicep_g
+  #part-number 9
+  position -0.0319800004 -0.0248626005 -0.316307008
+  orientation 0 0 0 0
+endnode
+node dummy lhand_g
+  parent lforearm_g
+  #part-number 10
+  position -0.02544 0.0139325 -0.252357006
+  orientation 0 0 0 0
+endnode
+node dummy lhand
+  parent lhand_g
+  #part-number 11
+  position -0.00101002003 0.0102690002 -0.0820989013
+  orientation 0 0 0 0
+endnode
+node dummy lforearm
+  parent lforearm_g
+  #part-number 12
+  position -0.0301827006 -2.28882001e-07 -0.187033996
+  orientation 1.50038011e-06 -1 -5.04775053e-05 -0.0698110014
+endnode
+node dummy neck_g
+  parent torso_g
+  #part-number 14
+  position -0.00108134001 -0.0449848995 0.346361995
+  orientation 0 0 0 0
+endnode
+node dummy head_g
+  parent neck_g
+  #part-number 15
+  position 0.00033953099 0.0186289996 0.111441001
+  orientation 0 0 0 0
+endnode
+node dummy head
+  parent head_g
+  #part-number -1
+  position -0.000198958005 0.0208580997 0.220807001
+  orientation 0 0 0 0
+endnode
+node dummy impact
+  parent torso_g
+  #part-number 16
+  position 0.000943207007 0.087023899 0.107787997
+  orientation 0 0 0 0
+endnode
+node dummy cloak_g
+  parent torso_g
+  #part-number -1
+  position 0.00221595005 -0.091904901 0.36431101
+  orientation 0 0 0 0
+endnode
+node dummy cl1_fg
+  parent cloak_g
+  #part-number 279
+  position -0.172290996 0.00335916993 0.0267396998
+  orientation 0 0 0 0
+endnode
+node dummy cl1_g
+  parent cloak_g
+  #part-number 280
+  position -0.172290996 0.00335918996 0.0108834999
+  orientation 0 0 0 0
+endnode
+node dummy cl2_g
+  parent cl1_g
+  #part-number 281
+  position -0.0149817998 -0.0842365026 -0.365707994
+  orientation 0 0 0 0
+endnode
+node dummy cl3_g
+  parent cl2_g
+  #part-number 282
+  position -0.0112364003 -0.00796603039 -0.269784003
+  orientation 0 0 0 0
+endnode
+node dummy cl4_g
+  parent cl3_g
+  #part-number 283
+  position -0.0187273007 -0.0158062 -0.378448009
+  orientation 0 0 0 0
+endnode
+node dummy cloak_shl
+  parent cloak_g
+  #part-number 284
+  position -0.0764072984 0 0.0375288017
+  orientation 0 0 0 0
+endnode
+node dummy cloak_shr
+  parent cloak_g
+  #part-number 285
+  position 0.0764072984 0 0.0375288017
+  orientation 0 0 0 0
+endnode
+node dummy cm1_g
+  parent cloak_g
+  #part-number 286
+  position 0 -0.0876568034 -0.0408701003
+  orientation 0 0 0 0
+endnode
+node dummy cm2_g
+  parent cm1_g
+  #part-number 287
+  position 0 -0.00601108978 -0.330370009
+  orientation 0 0 0 0
+endnode
+node dummy cm3_g
+  parent cm2_g
+  #part-number 288
+  position 0 -0.0209683999 -0.262290001
+  orientation 0 0 0 0
+endnode
+node dummy cm4_g
+  parent cm3_g
+  #part-number 289
+  position 0 -0.0228295997 -0.377990991
+  orientation 0 0 0 0
+endnode
+node dummy cr1_fg
+  parent cloak_g
+  #part-number 290
+  position 0.172290996 0.00335916993 0.0267396998
+  orientation 0 0 0 0
+endnode
+node dummy cr1_g
+  parent cloak_g
+  #part-number 291
+  position 0.172290996 0.00335919997 0.0108834999
+  orientation 0 0 0 0
+endnode
+node dummy cr2_g
+  parent cr1_g
+  #part-number 292
+  position 0.0149817998 -0.0842365995 -0.365707994
+  orientation 0 0 0 0
+endnode
+node dummy cr3_g
+  parent cr2_g
+  #part-number 293
+  position 0.0112364003 -0.00796637032 -0.269784003
+  orientation 0 0 0 0
+endnode
+node dummy cr4_g
+  parent cr3_g
+  #part-number 294
+  position 0.0187273007 -0.0158060994 -0.378448009
+  orientation 0 0 0 0
+endnode
+node dummy wings
+  parent torso_g
+  #part-number -1
+  position -0.00100398005 -0.0733923018 0.182898998
+  orientation 0 0 0 0
+endnode
+node dummy impact_1
+  parent torso_g
+  #part-number -1
+  position -0.00936768018 0.0934759006 0.222395003
+  orientation -0.577350259 -0.577350259 -0.577350259 -2.09439993
+endnode
+node trimesh belt_g1
+  parent rootdummy
+  #part-number -1
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 3
+  shadow 0
+  render 0
+  bitmap NULL
+  verts 14
+    0 -0.0324067995 -0.194548994
+    0.0689606965 0.0583470985 -0.000387786014
+    0.0624600016 -0.000784442003 0.0376457013
+    0 0.0726320967 -0.000626081019
+    0 -0.051536601 0.0279856008
+    0 -0.0717360973 -0.00789438002
+    0.0689606965 -0.0568313003 -0.00256549008
+    -0.0527179018 0.0605122 -0.0505782999
+    0 0.0680655986 -0.0540916994
+    -0.0690091029 0.0583470985 -0.000387790002
+    -0.0625083968 -0.000784436008 0.0376457013
+    0 -0.000784436008 0.0376457013
+    -0.0690089986 -0.0568313003 -0.00256550009
+    0.0526771992 0.0605120994 -0.0505782999
+  faces 24
+    0 1 2 1 0 0 0 1
+    2 1 3 1 0 0 0 1
+    4 5 6 1 0 0 0 1
+    6 5 0 1 0 0 0 1
+    2 4 6 1 0 0 0 1
+    2 6 0 1 0 0 0 1
+    0 7 8 1 0 0 0 1
+    9 0 10 1 0 0 0 1
+    9 10 3 1 0 0 0 1
+    3 10 11 1 0 0 0 1
+    5 4 12 1 0 0 0 1
+    5 12 0 1 0 0 0 1
+    4 11 10 1 0 0 0 1
+    4 10 12 1 0 0 0 1
+    12 10 0 1 0 0 0 1
+    3 13 8 1 0 0 0 1
+    1 13 3 1 0 0 0 1
+    1 0 13 1 0 0 0 1
+    8 7 3 1 0 0 0 1
+    7 9 3 1 0 0 0 1
+    7 0 9 1 0 0 0 1
+    13 0 8 1 0 0 0 1
+    4 2 11 1 0 0 0 1
+    3 11 2 1 0 0 0 1
+  position 3.3599099e-06 -0.0427122004 -0.0147235002
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  orientation 0 0 0 0
+endnode
+node trimesh fb1_g01
+  parent belt_g1
+  #part-number 298
+  ambient 0.831372976 0.596077979 0.596077979
+  diffuse 0.960784018 0.596077979 0.596077979
+  specular 0 0 0
+  shininess 14
+  shadow 0
+  render 0
+  bitmap NULL
+  verts 13
+    0.00162303005 -0.0120628998 -0.109705999
+    0.0533339009 -0.0265510995 -0.108024001
+    0.00162303005 0.000696623989 0.000700943987
+    0.0597530007 -0.00370382005 -0.000628189999
+    0.107882999 0.00897059031 -0.0861381963
+    0.124334998 0.0472326986 0.00521398988
+    0.00162303005 -0.00718984008 -0.188822001
+    0.0885260031 -0.00596430991 -0.179686993
+    -0.050087899 -0.0265510995 -0.108024001
+    -0.0565068983 -0.00370382005 -0.000628189999
+    -0.121087998 0.0472326986 0.00521398988
+    -0.104638003 0.00897059031 -0.0861381963
+    -0.0852797031 -0.00596430991 -0.179686993
+  faces 14
+    0 1 2 1 0 0 0 6
+    3 2 1 1 0 0 0 6
+    4 5 3 1 0 0 0 6
+    6 1 0 1 0 0 0 6
+    7 4 1 1 0 0 0 6
+    1 4 3 1 0 0 0 6
+    6 7 1 1 0 0 0 6
+    8 0 2 1 0 0 0 6
+    2 9 8 1 0 0 0 6
+    10 11 9 1 0 0 0 6
+    8 6 0 1 0 0 0 6
+    11 12 8 1 0 0 0 6
+    11 8 9 1 0 0 0 6
+    12 6 8 1 0 0 0 6
+  position -0.000144125996 -0.112745002 -0.0810315013
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  orientation 0 0 0 0
+endnode
+node trimesh fb2_g01
+  parent fb1_g01
+  #part-number 299
+  ambient 0.691406012 0.109375 0.582031012
+  diffuse 0.691406012 0.109375 0.582031012
+  specular 0 0 0
+  shininess 2
+  shadow 0
+  render 0
+  bitmap NULL
+  verts 12
+    0.0885260031 0.00693668984 0.00867552962
+    0.00162303005 0.00571116013 -0.000460415991
+    0.0892547965 0.00280594989 -0.114763997
+    0.00162303005 0.000606897986 -0.123135999
+    -0.0852797031 0.00693668984 0.00867552962
+    -0.0860083029 0.00280594989 -0.114763997
+    0.00162303005 -0.00449735019 -0.245811999
+    0.0899837017 -0.00287021999 -0.238203004
+    0.00162303005 0.000606863003 -0.123135999
+    0.0892547965 0.00280588004 -0.114765003
+    -0.0867372006 -0.00287021999 -0.238203004
+    -0.0860083029 0.00280588004 -0.114765003
+  faces 8
+    0 1 2 1 0 0 0 1
+    3 2 1 1 0 0 0 1
+    1 4 5 1 0 0 0 1
+    5 3 1 1 0 0 0 1
+    6 7 8 1 0 0 0 2
+    9 8 7 1 0 0 0 2
+    10 6 8 1 0 0 0 2
+    8 11 10 1 0 0 0 2
+  position 0 -0.0129011003 -0.188362002
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  orientation 0 0 0 0
+endnode
+node trimesh fb4_g01
+  parent fb2_g01
+  #part-number 300
+  ambient 0.691406012 0.109375 0.582031012
+  diffuse 0.691406012 0.109375 0.582031012
+  specular 0 0 0
+  shininess 2
+  shadow 0
+  render 0
+  bitmap NULL
+  verts 12
+    0.00162303005 -0.00386773003 -0.125919998
+    0.0907116979 -0.00228790008 -0.119075
+    0.00162303005 0.00123649999 -0.00324491994
+    0.0899837017 0.00286362995 0.00436430983
+    -0.0874660984 -0.00228790008 -0.119075
+    -0.0867372006 0.00286362995 0.00436430983
+    0.00162303005 -0.00897190999 -0.248594999
+    0.0914404988 -0.00643002987 -0.242513001
+    0.00162303005 -0.00386772002 -0.125919998
+    0.0907116979 -0.0022879201 -0.119075
+    -0.0881948993 -0.00643002987 -0.242513001
+    -0.0874660984 -0.0022879201 -0.119075
+  faces 8
+    0 1 2 1 0 0 0 1
+    3 2 1 1 0 0 0 1
+    4 0 2 1 0 0 0 1
+    2 5 4 1 0 0 0 1
+    6 7 8 1 0 0 0 2
+    9 8 7 1 0 0 0 2
+    10 6 8 1 0 0 0 2
+    8 11 10 1 0 0 0 2
+  position 0 -0.00573382014 -0.242567003
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  orientation 0 0 0 0
+endnode
+node trimesh tf1_g
+  parent belt_g1
+  #part-number 301
+  ambient 0.691406012 0.109375 0.582031012
+  diffuse 0.691406012 0.109375 0.582031012
+  specular 0 0 0
+  shininess 2
+  shadow 0
+  render 0
+  bitmap NULL
+  verts 22
+    0.130669996 -0.0331084989 -0.0513879992
+    0.0823026001 -0.0163049996 0.00152863003
+    0.133920997 -0.0584090985 0.00532444008
+    0.00162299001 0.0169939008 -0.144653007
+    0.00162299001 0.0128373001 -0.0528407991
+    0.0588411018 0.0029790299 -0.0526247993
+    0.112465002 -0.0133007998 -0.144632995
+    0.00162299001 0.0049715098 0.00117473002
+    -0.0790501013 -0.0163323004 0.00154769002
+    -0.127421007 -0.0331703983 -0.0513558015
+    -0.130651996 -0.0584532991 0.00536513003
+    0.00160687999 0.0128202997 -0.0528451018
+    0.00158575003 0.0169463996 -0.144657999
+    -0.0556074008 0.00294199004 -0.0526160002
+    -0.109245002 -0.0133872004 -0.144609004
+    0.00162136997 0.00497244019 0.00117317005
+    0.00162299001 0.0169939008 -0.144651994
+    0.0955853015 -0.0131967003 -0.286608994
+    0.00162299001 0.00863886997 -0.289213985
+    0.112465002 -0.0133007001 -0.144632995
+    -0.0923388004 -0.0131967003 -0.286608994
+    -0.109219998 -0.0133007001 -0.144632995
+  faces 18
+    0 1 2 1 0 0 0 1
+    3 4 5 1 0 0 0 1
+    6 3 5 1 0 0 0 1
+    0 5 1 1 0 0 0 1
+    5 4 7 1 0 0 0 1
+    7 1 5 1 0 0 0 1
+    0 6 5 1 0 0 0 1
+    8 9 10 1 0 0 0 2
+    11 12 13 1 0 0 0 2
+    12 14 13 1 0 0 0 2
+    13 9 8 1 0 0 0 2
+    15 13 8 1 0 0 0 2
+    13 15 11 1 0 0 0 2
+    14 9 13 1 0 0 0 2
+    16 17 18 1 0 0 0 3
+    19 17 16 1 0 0 0 3
+    20 16 18 1 0 0 0 4
+    20 21 16 1 0 0 0 4
+  position -0.000144107995 0.0746159032 -0.0806251988
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  orientation 0 0 0 0
+endnode
+node trimesh tf2_g
+  parent tf1_g
+  #part-number 302
+  ambient 0.596077979 0.662744999 0.886274993
+  diffuse 0.596077979 0.662744999 0.886274993
+  specular 0 0 0
+  shininess 14
+  shadow 0
+  render 0
+  bitmap NULL
+  verts 6
+    0.090156503 -0.0295566991 -0.146800995
+    0.00162299001 -0.0112242997 -0.146647006
+    0.0955853015 -0.0204399005 0.0029865799
+    0.00162299001 0.00139564998 0.000382297992
+    -0.0869100019 -0.0295566991 -0.146800995
+    -0.0923388004 -0.0204399005 0.0029865799
+  faces 4
+    0 1 2 1 0 0 0 6
+    3 2 1 1 0 0 0 6
+    1 4 5 1 0 0 0 6
+    5 3 1 1 0 0 0 6
+  position 0 0.00724318996 -0.289595991
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  orientation 0 0 0 0
+endnode
+node trimesh tf3_g01
+  parent tf2_g
+  #part-number 303
+  ambient 0.691406012 0.109375 0.582031012
+  diffuse 0.691406012 0.109375 0.582031012
+  specular 0 0 0
+  shininess 2
+  shadow 0
+  render 0
+  bitmap NULL
+  verts 12
+    0.00162299001 -0.00497082015 -0.148209006
+    0.00162299001 0.00764918979 -0.00117957999
+    0.0890401006 -0.0126047004 -0.147294998
+    0.090156503 -0.0106832003 -0.00133266998
+    -0.085794501 -0.0126047004 -0.147294998
+    -0.0869100019 -0.0106832003 -0.00133266998
+    0.00162299001 -0.0175898001 -0.295239002
+    0.00162299001 -0.00497078989 -0.148209006
+    0.0908913016 -0.0186627991 -0.293256998
+    0.0890401006 -0.0126048001 -0.147294998
+    -0.0876448974 -0.0186627991 -0.293256998
+    -0.085794501 -0.0126048001 -0.147294998
+  faces 8
+    0 1 2 1 0 0 0 1
+    3 2 1 1 0 0 0 1
+    1 0 4 1 0 0 0 1
+    4 5 1 1 0 0 0 1
+    6 7 8 1 0 0 0 2
+    9 8 7 1 0 0 0 2
+    7 6 10 1 0 0 0 2
+    10 11 7 1 0 0 0 2
+  position 0 -0.0188736003 -0.145467997
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  orientation 0 0 0 0
+endnode
+node trimesh tf1l_g
+  parent tf1_g
+  #part-number 304
+  ambient 0.691406012 0.109375 0.582031012
+  diffuse 0.691406012 0.109375 0.582031012
+  specular 0 0 0
+  shininess 2
+  shadow 0
+  render 0
+  bitmap NULL
+  verts 12
+    0.130669996 -0.0331084989 -0.0513879992
+    0.0823026001 -0.0163049996 0.00152863003
+    0.133920997 -0.0584090985 0.00532444008
+    0.00162299001 0.0169939008 -0.144653007
+    0.00162299001 0.0128373001 -0.0528407991
+    0.0588411018 0.00297903991 -0.0526247993
+    0.112465002 -0.0133007998 -0.144632995
+    0.00162299001 0.0049715098 0.00117473002
+    0.00162299001 0.0169939008 -0.144651994
+    0.0955853015 -0.0131967003 -0.286608994
+    0.00162299001 0.00863886997 -0.289213985
+    0.112465002 -0.0133007001 -0.144632995
+  faces 9
+    0 1 2 1 0 0 0 1
+    3 4 5 1 0 0 0 1
+    6 3 5 1 0 0 0 1
+    0 5 1 1 0 0 0 1
+    5 4 7 1 0 0 0 1
+    7 1 5 1 0 0 0 1
+    0 6 5 1 0 0 0 1
+    8 9 10 1 0 0 0 3
+    11 9 8 1 0 0 0 3
+  position 0 0 0
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  orientation 0 0 0 0
+endnode
+node trimesh tf1r_g
+  parent tf1_g
+  #part-number 305
+  ambient 0.691406012 0.109375 0.582031012
+  diffuse 0.691406012 0.109375 0.582031012
+  specular 0 0 0
+  shininess 2
+  shadow 0
+  render 0
+  bitmap NULL
+  verts 12
+    -0.0790501013 -0.0163323004 0.00154769002
+    -0.127421007 -0.0331703983 -0.0513558015
+    -0.130651996 -0.0584532991 0.00536513003
+    0.00160687999 0.0128202997 -0.0528451018
+    0.00158575003 0.0169463996 -0.144657999
+    -0.0556074008 0.00294199004 -0.0526160002
+    -0.109245002 -0.0133872004 -0.144609004
+    0.00162136997 0.00497244997 0.00117317005
+    -0.0923388004 -0.0131967003 -0.286608994
+    0.00162299001 0.0169939008 -0.144651994
+    0.00162299001 0.00863886997 -0.289213985
+    -0.109219998 -0.0133007001 -0.144632995
+  faces 9
+    0 1 2 1 0 0 0 2
+    3 4 5 1 0 0 0 2
+    4 6 5 1 0 0 0 2
+    5 1 0 1 0 0 0 2
+    7 5 0 1 0 0 0 2
+    5 7 3 1 0 0 0 2
+    6 1 5 1 0 0 0 2
+    8 9 10 1 0 0 0 4
+    8 11 9 1 0 0 0 4
+  position 0 0 0
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  orientation 0 0 0 0
+endnode
+node dummy handconjure
+  parent pfh33
+  #part-number -1
+  position 0 0.278382987 1.40670002
+  orientation 0 0 0 0
+endnode
+node dummy headconjure
+  parent pfh33
+  #part-number -1
+  position 0 -0.0278785005 2.31815004
+  orientation 0 0 0 0
+endnode
+endmodelgeom pfh33
+
+donemodel pfh33
