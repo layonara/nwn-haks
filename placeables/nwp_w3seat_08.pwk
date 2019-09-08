@@ -1,0 +1,36 @@
+# Exported from NWmax 0.8 b61 at 02-Jun-19 18:06:15
+# pwk file
+#
+#NWmax PWKMESH  ASCII
+node dummy pwk_use01
+  parent nwp_w3seat_08_pwk
+  position 0.0 -0.338789 0.5
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.568627 0.109804 0.694118 
+endnode
+node trimesh walkmesh
+  parent nwp_w3seat_08_pwk
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.537255 0.0313726 0.431373 
+  bitmap NULL
+  verts 9
+    -0.37 -0.36 0.2
+    0.0 -0.36 0.2
+    0.37 -0.36 0.2
+    -0.37 0.0 0.2
+    0.0 0.0 0.2
+    0.37 0.0 0.2
+    -0.37 0.34 0.2
+    0.0 0.4 0.2
+    0.37 0.34 0.2
+  faces 8
+    3 0 4  0  0 0 0  7
+    1 4 0  0  0 0 0  7
+    4 1 5  0  0 0 0  7
+    2 5 1  0  0 0 0  7
+    6 3 7  0  0 0 0  7
+    4 7 3  0  0 0 0  7
+    7 4 8  0  0 0 0  7
+    5 8 4  0  0 0 0  7
+endnode

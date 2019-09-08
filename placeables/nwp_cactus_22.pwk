@@ -1,0 +1,56 @@
+# Exported from NWmax 0.8 b61 at 09-Jul-19 12:28:52
+# pwk file
+#
+#NWmax PWKMESH  ASCII
+node dummy pwk_use01
+  parent nwp_cactus_22_pwk
+  position -0.138006 -0.383477 0.5
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.223529 0.0313726 0.533333 
+endnode
+node dummy pwk_use02
+  parent nwp_cactus_22_pwk
+  position 0.257431 0.323516 0.5
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.223529 0.0313726 0.533333 
+endnode
+node trimesh walkmesh
+  parent nwp_cactus_22_pwk
+  position 0.02 -0.02 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0 0.0 0.772549 
+  bitmap NULL
+  verts 13
+    0.39 0.0 0.0
+    0.25 0.36 0.0
+    -0.21 0.36 0.0
+    -0.39 -0.01 0.0
+    -0.18 -0.36 0.0
+    0.25 -0.34 0.0
+    0.02 0.0 4.42
+    0.32 0.0 4.42
+    0.21 0.3 4.42
+    -0.18 0.3 4.42
+    -0.32 -0.01 4.42
+    -0.15 -0.3 4.42
+    0.21 -0.28 4.42
+  faces 18
+    6 7 8  1  0 0 0  7
+    6 8 9  1  0 0 0  7
+    6 9 10  1  0 0 0  7
+    6 10 11  1  0 0 0  7
+    6 11 12  1  0 0 0  7
+    6 12 7  1  0 0 0  7
+    8 7 0  0  0 0 0  7
+    0 1 8  0  0 0 0  7
+    9 8 1  0  0 0 0  7
+    1 2 9  0  0 0 0  7
+    10 9 2  0  0 0 0  7
+    2 3 10  0  0 0 0  7
+    11 10 3  0  0 0 0  7
+    3 4 11  0  0 0 0  7
+    12 11 4  0  0 0 0  7
+    4 5 12  0  0 0 0  7
+    7 12 5  0  0 0 0  7
+    5 0 7  0  0 0 0  7
+endnode
