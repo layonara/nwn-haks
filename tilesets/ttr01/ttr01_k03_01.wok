@@ -1,18 +1,21 @@
-# Rewritten by CleanModels 3 Version 3.5.1 Sun Jul 07 19:02:30 2019
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Sep 08 17:44:04 2019
 #MAXWALKMESH  ASCII
 beginwalkmeshgeom ttr01_k03_01
 node aabb walkmesh
   parent ttr01_k03_01
-  ambient 0.588 0.588 0.588
+  #part-number 25
+  position 0 0 0
   diffuse 0 0 0.376471
+  ambient 0.588 0.588 0.588
   specular 0 0 0
   shininess 10
   shadow 0
+  beaming 0
+  render 0
   transparencyhint 0
   bitmap NULL
-  position 0 0 0
+  rotatetexture 0
   orientation 0 0 0 0
-  render 0
   verts 31
     -5 -3 -3.4
     -5 -5 -3.4
@@ -69,25 +72,25 @@ node aabb walkmesh
     7 6 24 1 0 0 0 17
     13 25 11 1 0 0 0 5
     26 25 13 1 0 0 0 5
-    27 28 29 1 0 0 0 17
+    27 28 29 0 0 0 0 17
     30 2 1 1 0 0 0 17
     0 2 12 2 0 0 0 7
     12 11 0 2 0 0 0 7
-    29 28 18 2 0 0 0 7
-    18 16 29 4 0 0 0 7
-    26 18 28 8 0 0 0 7
+    29 28 18 0 0 0 0 7
+    18 16 29 0 0 0 0 7
+    26 18 28 0 0 0 0 7
     13 19 18 1 0 0 0 7
-    25 26 28 4 0 0 0 7
+    25 26 28 0 0 0 0 7
     2 30 22 4 0 0 0 7
     22 12 2 4 0 0 0 7
     26 13 18 1 0 0 0 7
     10 20 8 1 0 0 0 7
     17 14 21 1 0 0 0 7
-    10 9 5 2 0 0 0 7
-    15 17 24 2 0 0 0 7
-    17 10 7 4 0 0 0 7
-    5 7 10 8 0 0 0 7
-    7 24 17 16 0 0 0 7
+    10 9 5 0 0 0 0 7
+    15 17 24 0 0 0 0 7
+    17 10 7 0 0 0 0 7
+    5 7 10 0 0 0 0 7
+    7 24 17 0 0 0 0 7
     20 10 23 1 0 0 0 7
   aabb     -5 -5 -3.4 5 5 0.8 -1
     -5 -5 -3.4 2.62 5 0.8 -1

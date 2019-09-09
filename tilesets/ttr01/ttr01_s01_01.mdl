@@ -1,58 +1,69 @@
-# Rewritten by CleanModels 3 Version 3.5.1 Mon Jul 01 17:08:48 2019
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Sep 08 17:45:28 2019
 #MAXMODEL ASCII
-filedependency Unknown
 newmodel ttr01_s01_01
   classification TILE
-  setsupermodel ttr01_s01_01 NULL
+  setsupermodel ttr01_s01_01 null
   setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom ttr01_s01_01
 node dummy ttr01_s01_01
   parent NULL
+  #part-number 0
 endnode
 node light ttr01_s01_01ml1
   parent ttr01_s01_01
-  nDynamicType 0
-  ambientonly 0
-  shadow 0
-  affectdynamic 1
-  lightpriority 5
-  fadinglight 1
+  #part-number 2
+  position 0 0 6.45
   flareradius 0
-  orientation 0 0 0 0
-  position 0 0 6.4505
+  lightpriority 5
+  ambientonly 0
+  nDynamicType 0
+  affectdynamic 1
+  shadow 0
+  generateflare 0
+  fadinglight 1
   radius 14
   multiplier 1
   color 0 0 0
+  orientation 0 0 0 0
 endnode
 node light ttr01_s01_01ml2
   parent ttr01_s01_01
-  nDynamicType 0
-  ambientonly 0
-  shadow 0
-  affectdynamic 1
-  lightpriority 5
-  fadinglight 1
+  #part-number 3
+  position -3.54 -0.44 3.77
   flareradius 0
-  orientation 0 0 0 0
-  position -3.53885 -0.436661 3.77126
+  lightpriority 5
+  ambientonly 0
+  nDynamicType 0
+  affectdynamic 1
+  shadow 0
+  generateflare 0
+  fadinglight 1
   radius 5
   multiplier 1
   color 0.00392157 0.00392157 0.00392157
+  orientation 0 0 0 0
 endnode
 node dummy ttr01_s01_01_U01
   parent ttr01_s01_01
-  position -1.79148 -1.51279 0.0651798
-  orientation 0 0 -1 -4.71239
+  #part-number 1
+  position -1.79 -1.51 0.07
+  orientation 0 0 1 4.71239
 endnode
 node trimesh line309
   parent ttr01_s01_01
-  ambient 1 1 1
+  #part-number 5
+  position -0.75 0.17 3
   diffuse 1 1 1
+  ambient 1 1 1
   specular 0.05 0.05 0.05
   shininess 26
-  bitmap ttr01_brick02
-  position -0.75 0.17 3
+  shadow 1
+  beaming 0
+  render 1
+  transparencyhint 0
+  bitmap ttr01_bricks02
+  rotatetexture 0
   orientation 0 0 0 0
   scale 1
   alpha 1
@@ -82,15 +93,15 @@ node trimesh line309
     3 5 6 1 3 5 6 3
     4 7 8 1 4 7 8 3
     4 8 5 1 4 8 5 3
-    7 9 10 2 9 10 11 3
+    7 9 10 1 9 10 11 3
     6 5 11 1 6 5 12 3
     6 11 12 1 6 12 13 3
     5 8 13 1 5 8 14 3
     5 13 11 1 5 14 12 3
-    8 14 13 2 15 16 17 3
+    8 14 13 1 15 16 17 3
     15 2 16 1 18 2 19 3
-    7 10 8 2 9 11 15 3
-    8 10 14 2 15 11 16 3
+    7 10 8 1 9 11 15 3
+    8 10 14 1 15 11 16 3
     17 15 16 1 20 18 19 3
     15 0 2 1 18 0 2 3
   tverts 21
@@ -118,12 +129,18 @@ node trimesh line309
 endnode
 node trimesh mesh1523
   parent ttr01_s01_01
-  ambient 1 1 1
+  #part-number 6
+  position 4.03 2.97 0.2
   diffuse 1 1 1
+  ambient 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap ttr01_logend
-  position 4.03 2.97 0.2
+  shadow 1
+  beaming 0
+  render 1
+  transparencyhint 0
+  bitmap ttr01_wood07
+  rotatetexture 0
   orientation 0 0 0 0
   scale 1
   alpha 1
@@ -150,13 +167,19 @@ node trimesh mesh1523
 endnode
 node trimesh object145
   parent ttr01_s01_01
-  ambient 1 1 1
+  #part-number 4
+  position -2.5 -1.5 6
   diffuse 1 1 1
+  ambient 1 1 1
   specular 0 0 0
   shininess 1
-  tilefade 1
+  shadow 1
+  beaming 0
+  render 1
+  transparencyhint 0
   bitmap ttr01_wood04
-  position -2.5 -1.5 6
+  tilefade 1
+  rotatetexture 0
   orientation 0 0 0 0
   scale 1
   alpha 1
@@ -195,12 +218,18 @@ node trimesh object145
 endnode
 node trimesh box573
   parent ttr01_s01_01
-  ambient 1 1 1
+  #part-number 7
+  position 3.12 3.28 3
   diffuse 1 1 1
+  ambient 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap ttr01_trim01
-  position 3.12 3.28 3
+  shadow 1
+  beaming 0
+  render 1
+  transparencyhint 0
+  bitmap ttr01_wood06
+  rotatetexture 0
   orientation 0 0 0 0
   scale 1
   alpha 1
@@ -224,25 +253,31 @@ node trimesh box573
     0 3 7 4 0 3 8 3
     7 6 0 4 8 9 0 3
   tverts 10
-    0.60591 0.420643 0
-    0.60656 0.49564 0
-    -0.392401 0.504358 0
-    -0.393055 0.429361 0
-    0.60722 0.570637 0
-    -0.391746 0.579355 0
-    0.60787 0.645634 0
-    -0.391092 0.654352 0
-    -0.393709 0.354367 0
-    0.60525 0.345649 0
+    0.0320801 0.0004996 0
+    0.10708 0.0004996 0
+    0.10708 0.9995 0
+    0.0320801 0.9995 0
+    0.18208 0.0004996 0
+    0.18208 0.9995 0
+    0.25708 0.0004996 0
+    0.25708 0.9995 0
+    -0.042917 0.9995 0
+    -0.042917 0.0004996 0
 endnode
 node trimesh box580
   parent ttr01_s01_01
-  ambient 1 1 1
+  #part-number 8
+  position 4.03 2.97 0.2
   diffuse 1 1 1
+  ambient 1 1 1
   specular 0 0 0
   shininess 1
+  shadow 1
+  beaming 0
+  render 1
+  transparencyhint 0
   bitmap ttr01_bark01
-  position 4.03 2.97 0.2
+  rotatetexture 0
   orientation 0 0 0 0
   scale 1
   alpha 1
@@ -277,13 +312,19 @@ node trimesh box580
 endnode
 node trimesh mesh115
   parent ttr01_s01_01
-  ambient 1 1 1
+  #part-number 9
+  position 0 4 7.29
   diffuse 1 1 1
+  ambient 1 1 1
   specular 0.05 0.05 0.05
   shininess 26
-  tilefade 1
+  shadow 1
+  beaming 0
+  render 1
+  transparencyhint 0
   bitmap ttr01_roof03
-  position 0 4 7.29
+  tilefade 1
+  rotatetexture 0
   orientation 0 0 0 0
   scale 1
   alpha 1
@@ -310,8 +351,8 @@ node trimesh mesh115
     1 5 2 2 1 5 2 3
     4 6 7 1 4 6 7 3
     4 7 5 1 4 7 5 3
-    6 8 9 2 6 8 9 3
-    6 9 7 2 6 9 7 3
+    6 8 9 1 6 8 9 3
+    6 9 7 1 6 9 7 3
     8 10 11 1 8 6 7 3
     8 11 9 1 8 7 9 3
     12 13 1 1 10 11 1 1
@@ -332,12 +373,18 @@ node trimesh mesh115
 endnode
 node trimesh object150
   parent ttr01_s01_01
-  ambient 1 1 1
+  #part-number 10
+  position 0 -1.5 0
   diffuse 1 1 1
+  ambient 1 1 1
   specular 0.05 0.05 0.05
   shininess 26
-  bitmap ttr01_brick02
-  position 0 -1.5 0
+  shadow 1
+  beaming 0
+  render 1
+  transparencyhint 0
+  bitmap ttr01_bricks02
+  rotatetexture 0
   orientation 0 0 0 0
   scale 1
   alpha 1
@@ -377,29 +424,35 @@ node trimesh object150
 endnode
 node trimesh object151
   parent ttr01_s01_01
-  ambient 0 0 0
+  #part-number 11
+  position -1.13 -1.5 0
   diffuse 0 0 0
+  ambient 0 0 0
   specular 0 0 0
   shininess 1
+  shadow 1
+  beaming 0
+  render 1
+  transparencyhint 0
   bitmap ttr01_black00
-  position -1.13333 -1.5 3
+  rotatetexture 0
   orientation 0 0 0 0
   scale 1
   alpha 1
   selfillumcolor 0 0 0
   verts 12
-    1.33333 2.5 -3
-    1.33333 -2.5 -3
-    1.33333 -2.5 0
-    1.33333 2.5 0
-    -0.666667 -2.5 -3
-    -0.666667 -2.5 0
-    -0.666667 -1.5 0
-    -0.666667 1.5 0
-    -0.666667 2.5 0
-    -0.666667 2.5 -3
-    -0.666667 -1.5 -3
-    -0.666667 1.5 -3
+    1.33 2.5 0
+    1.33 -2.5 0
+    1.33 -2.5 3
+    1.33 2.5 3
+    -0.67 -2.5 0
+    -0.67 -2.5 3
+    -0.67 -1.5 3
+    -0.67 1.5 3
+    -0.67 2.5 3
+    -0.67 2.5 0
+    -0.67 -1.5 0
+    -0.67 1.5 0
   faces 14
     0 1 2 1 0 1 1 3
     0 2 3 1 0 1 0 3
@@ -425,13 +478,19 @@ node trimesh object151
 endnode
 node trimesh mesh25
   parent ttr01_s01_01
-  ambient 1 1 1
+  #part-number 12
+  position -2.2 -1.5 5.75
   diffuse 1 1 1
+  ambient 1 1 1
   specular 0 0 0
   shininess 1
-  tilefade 1
+  shadow 1
+  beaming 0
+  render 1
+  transparencyhint 0
   bitmap ttr01_wood04
-  position -2.2 -1.5 5.75
+  tilefade 1
+  rotatetexture 0
   orientation 0 0 0 0
   scale 1
   alpha 1
@@ -465,12 +524,18 @@ node trimesh mesh25
 endnode
 node trimesh object157
   parent ttr01_s01_01
-  ambient 1 1 1
+  #part-number 13
+  position -1.93 -3.1 3
   diffuse 1 1 1
+  ambient 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap ttr01_trim01
-  position -1.93 -3.1 3
+  shadow 1
+  beaming 0
+  render 1
+  transparencyhint 0
+  bitmap ttr01_wood06
+  rotatetexture 0
   orientation 0 0 0 0
   scale 1
   alpha 1
@@ -495,27 +560,33 @@ node trimesh object157
     0 8 1 1 0 11 1 3
     3 8 0 1 9 11 0 3
   tverts 12
-    0.182439 0.718982 0
-    -0.31832 0.576944 0
-    -0.317042 0.723341 0
-    0.678446 0.316619 0
-    0.178964 0.320978 0
-    0.179545 0.387455 0
-    0.679026 0.383096 0
-    -0.320516 0.325337 0
-    -0.319936 0.391814 0
-    0.68192 0.714623 0
-    0.680642 0.568226 0
-    0.181161 0.572585 0
+    0.399518 0.5 0
+    0.253115 0.9995 0
+    0.399518 0.9995 0
+    0.0014985 0.0005006 0
+    0.0014985 0.500001 0
+    0.0679784 0.5 0
+    0.0679783 0.0005006 0
+    0.0014985 0.9995 0
+    0.0679785 0.9995 0
+    0.399518 0.0004997 0
+    0.253115 0.0004997 0
+    0.253115 0.5 0
 endnode
 node trimesh object172
   parent ttr01_s01_01
-  ambient 1 1 1
+  #part-number 14
+  position -1.13 -1.5 0
   diffuse 1 1 1
+  ambient 1 1 1
   specular 0 0 0
   shininess 1
+  shadow 1
+  beaming 0
+  render 1
+  transparencyhint 0
   bitmap ttr01_doorway01
-  position -1.13 -1.5 0
+  rotatetexture 0
   orientation 0 0 0 0
   scale 1
   alpha 1
@@ -542,13 +613,19 @@ node trimesh object172
 endnode
 node trimesh mesh268
   parent ttr01_s01_01
-  ambient 1 1 1
+  #part-number 15
+  position -2.2 -0.99 3.3
   diffuse 1 1 1
+  ambient 1 1 1
   specular 0 0 0
   shininess 1
-  tilefade 1
+  shadow 1
+  beaming 0
+  render 1
+  transparencyhint 0
   bitmap ttr01_trim01
-  position -2.2 -0.99 3.3
+  tilefade 1
+  rotatetexture 0
   orientation 0 0 0 0
   scale 1
   alpha 1
@@ -575,10 +652,10 @@ node trimesh mesh268
     5 6 7 1 5 6 7 3
     4 2 7 1 4 2 7 3
     4 7 6 1 4 7 6 3
-    8 2 1 2 8 9 10 1
-    8 9 7 4 8 11 12 1
-    8 7 2 4 8 12 9 1
-    9 5 7 2 11 13 12 1
+    8 2 1 0 8 9 10 1
+    8 9 7 2 8 11 12 1
+    8 7 2 2 8 12 9 1
+    9 5 7 0 11 13 12 1
     10 11 12 1 14 15 16 1
     10 12 13 1 14 16 17 1
   tverts 18
@@ -591,11 +668,11 @@ node trimesh mesh268
     2.84373 0.5 0
     1.52219 0 0
     0.112 1.999 0
-    0.0009993 1.24975 0
-    0.0009996 1.999 0
-    0.111999 0.000999 0
-    0.0009992 0.5005 0
-    0.000999 0.0009991 0
+    0.000999331 1.24975 0
+    0.00099957 1.999 0
+    0.111999 0.000999033 0
+    0.000999153 0.5005 0
+    0.000999033 0.000999093 0
     0.999 0.74925 0
     0.52725 0.74925 0
     0.444 0.999 0
@@ -603,14 +680,18 @@ node trimesh mesh268
 endnode
 node trimesh ground
   parent ttr01_s01_01
-  ambient 1 1 1
+  #part-number 16
+  position 0 0 0
+  shadow 1
   diffuse 1 1 1
+  ambient 1 1 1
   specular 0 0 0
   shininess 1
-  shadow 0
-  rotatetexture 1
+  beaming 0
+  render 1
+  transparencyhint 0
   bitmap ttr01_grass02
-  position 0 0 0
+  rotatetexture 1
   orientation 0 0 0 0
   scale 1
   alpha 1
@@ -682,14 +763,19 @@ node trimesh ground
 endnode
 node trimesh line1042
   parent ttr01_s01_01
-  ambient 0 0 0
+  #part-number 17
+  position -0.06 -1.05 3
+  shadow 1
   diffuse 0 0 0
+  ambient 0 0 0
   specular 0 0 0
   shininess 1
-  shadow 0
-  tilefade 2
+  beaming 0
+  render 1
+  transparencyhint 0
   bitmap ttr01_black00
-  position -0.06 -1.05 3
+  tilefade 2
+  rotatetexture 0
   orientation 0 0 0 0
   scale 1
   alpha 1
@@ -759,14 +845,19 @@ node trimesh line1042
 endnode
 node trimesh line1082
   parent ttr01_s01_01
-  ambient 0 0 0
+  #part-number 18
+  position 1.25 -0.75 4.5
+  shadow 1
   diffuse 0 0 0
+  ambient 0 0 0
   specular 0 0 0
   shininess 1
-  shadow 0
-  tilefade 4
+  beaming 0
+  render 1
+  transparencyhint 0
   bitmap ttr01_black00
-  position 1.25 -0.75 4.5
+  tilefade 4
+  rotatetexture 0
   orientation 0 0 0 0
   scale 1
   alpha 1
@@ -806,16 +897,19 @@ node trimesh line1082
 endnode
 node aabb walkmesh
   parent ttr01_s01_01
+  #part-number 20
+  position 0 0 0
+  diffuse 0 0.501961 0
   ambient 0 0 0
-  diffuse 0.784314 0.784314 0.784314
   specular 0 0 0
   shininess 10
   shadow 0
+  beaming 0
+  render 0
   transparencyhint 0
   bitmap NULL
+  rotatetexture 0
   orientation 0 0 0 0
-  position 0 0 0
-  render 0
   verts 25
     3.02 3.38 0
     5 3.4 0
@@ -863,12 +957,12 @@ node aabb walkmesh
     14 16 18 4 0 0 0 2
     0 3 19 2 0 0 0 2
     0 19 20 2 0 0 0 2
-    3 8 18 8 0 0 0 2
-    3 18 19 8 0 0 0 2
+    3 8 18 2 0 0 0 2
+    3 18 19 2 0 0 0 2
     12 11 21 2 0 0 0 2
     12 21 22 2 0 0 0 2
-    11 0 20 4 0 0 0 2
-    11 20 21 4 0 0 0 2
+    11 0 20 2 0 0 0 2
+    11 20 21 2 0 0 0 2
     0 12 1 1 0 0 0 7
     6 23 17 2 0 0 0 2
     17 7 6 2 0 0 0 2
@@ -956,24 +1050,30 @@ node aabb walkmesh
 endnode
 node trimesh mesh115_1
   parent ttr01_s01_01
-  ambient 1 1 1
+  #part-number 21
+  position 1.13 -3.25 5.5
   diffuse 1 1 1
+  ambient 1 1 1
   specular 0.05 0.05 0.05
   shininess 26
-  tilefade 1
+  shadow 1
+  beaming 0
+  render 1
+  transparencyhint 0
   bitmap ttr01_roof03
-  position 1.16667 -1.5 6
+  tilefade 1
+  rotatetexture 0
   orientation 0 0 0 0
   scale 1
   alpha 1
   selfillumcolor 0 0 0
   verts 6
-    3.83333 -3.5 -1
-    3.83333 0 0
-    -0.166667 0 0
-    -0.166667 -3.5 -1
-    -3.66667 0 0
-    -3.66667 -3.5 -1
+    3.87 -1.75 -0.5
+    3.87 1.75 0.5
+    -0.13 1.75 0.5
+    -0.13 -1.75 -0.5
+    -3.63 1.75 0.5
+    -3.63 -1.75 -0.5
   faces 4
     0 1 2 1 0 1 2 3
     0 2 3 1 0 2 3 3
@@ -989,24 +1089,30 @@ node trimesh mesh115_1
 endnode
 node trimesh mesh115_2
   parent ttr01_s01_01
-  ambient 1 1 1
+  #part-number 22
+  position 1.19 0.25 5.5
   diffuse 1 1 1
+  ambient 1 1 1
   specular 0.05 0.05 0.05
   shininess 26
-  tilefade 1
+  shadow 1
+  beaming 0
+  render 1
+  transparencyhint 0
   bitmap ttr01_roof03
-  position 0 0 5.5
+  tilefade 1
+  rotatetexture 0
   orientation 0 0 0 0
   scale 1
   alpha 1
   selfillumcolor 0 0 0
   verts 6
-    5 -1.5 0.5
-    5 2 -0.5
-    1.25 2 -0.5
-    1 -1.5 0.5
-    -2.5 2 -0.5
-    -2.5 -1.5 0.5
+    3.81 -1.75 0.5
+    3.81 1.75 -0.5
+    0.06 1.75 -0.5
+    -0.19 -1.75 0.5
+    -3.69 1.75 -0.5
+    -3.69 -1.75 0.5
   faces 4
     0 1 2 1 0 1 2 3
     0 2 3 1 0 2 3 3
@@ -1022,13 +1128,19 @@ node trimesh mesh115_2
 endnode
 node trimesh mesh115_3
   parent ttr01_s01_01
-  ambient 1 1 1
+  #part-number 23
+  position 0 0 3.83
   diffuse 1 1 1
+  ambient 1 1 1
   specular 0.05 0.05 0.05
   shininess 26
-  tilefade 1
+  shadow 1
+  beaming 0
+  render 1
+  transparencyhint 0
   bitmap ttr01_roof03
-  position 0 0 3.83
+  tilefade 1
+  rotatetexture 0
   orientation 0 0 0 0
   scale 1
   alpha 1
@@ -1055,13 +1167,19 @@ node trimesh mesh115_3
 endnode
 node trimesh mesh115_4
   parent ttr01_s01_01
-  ambient 1 1 1
+  #part-number 24
+  position 0 0 4.39
   diffuse 1 1 1
+  ambient 1 1 1
   specular 0.05 0.05 0.05
   shininess 26
-  tilefade 1
+  shadow 1
+  beaming 0
+  render 1
+  transparencyhint 0
   bitmap ttr01_roof03
-  position 0 0 4.39
+  tilefade 1
+  rotatetexture 0
   orientation 0 0 0 0
   scale 1
   alpha 1
@@ -1088,12 +1206,18 @@ node trimesh mesh115_4
 endnode
 node trimesh object157_1
   parent ttr01_s01_01
-  ambient 1 1 1
+  #part-number 25
+  position -1.93 0.1 3
   diffuse 1 1 1
+  ambient 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap ttr01_trim01
-  position -1.93 0.1 3
+  shadow 1
+  beaming 0
+  render 1
+  transparencyhint 0
+  bitmap ttr01_wood06
+  rotatetexture 0
   orientation 0 0 0 0
   scale 1
   alpha 1
@@ -1118,29 +1242,33 @@ node trimesh object157_1
     3 0 2 1 3 0 2 3
     8 3 4 1 11 3 4 3
   tverts 12
-    0.995159 0.99901 0
-    0.995159 0.884183 0
-    0.495659 0.884183 0
-    0.495659 0.99901 0
-    -0.0038411 0.884183 0
-    0.495658 0.0010088 0
-    0.995158 0.0010088 0
-    0.995158 0.0674886 0
-    0.495659 0.0674887 0
-    -0.003841 0.0010088 0
-    -0.003841 0.0674888 0
-    -0.0038411 0.99901 0
+    0.9995 0.0004995 0
+    0.884673 0.0004995 0
+    0.884673 0.5 0
+    0.9995 0.5 0
+    0.884673 0.9995 0
+    0.0014985 0.500001 0
+    0.0014985 0.0005006 0
+    0.0679783 0.0005006 0
+    0.0679784 0.5 0
+    0.0014985 0.9995 0
+    0.0679785 0.9995 0
+    0.9995 0.9995 0
 endnode
 node trimesh sgfg
   parent ttr01_s01_01
-  ambient 1 1 1
+  #part-number 19
+  position -2.08 -1.51 0.01
+  shadow 1
   diffuse 1 1 1
+  ambient 1 1 1
   specular 0 0 0
   shininess 1
-  shadow 0
+  beaming 0
+  render 1
   transparencyhint 1
   bitmap ttr01_dirt04
-  position -2.08 -1.51 0.01
+  rotatetexture 0
   orientation 0 0 0 0
   scale 1
   alpha 1
@@ -1159,9 +1287,9 @@ node trimesh sgfg
     2 5 0 1 2 5 0 1
   tverts 6
     0.49768 0.0031212 0
-    -0.002319 0.0031212 0
+    -0.00231898 0.0031212 0
     0.49768 0.523449 0
-    -0.002319 0.523449 0
+    -0.00231898 0.523449 0
     0.99768 0.0031211 0
     0.99768 0.523449 0
 endnode

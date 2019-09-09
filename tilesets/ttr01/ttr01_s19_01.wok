@@ -1,18 +1,21 @@
-# Rewritten by CleanModels 3 Version 3.5.1 Mon Jul 01 17:08:59 2019
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Sep 08 17:45:46 2019
 #MAXWALKMESH  ASCII
 beginwalkmeshgeom ttr01_s19_01
 node aabb cm027
   parent ttr01_s19_01
-  ambient 0 0 0
-  diffuse 0.784314 0.784314 0.784314
+  #part-number 21
+  position 0 0 0
+  diffuse 0.8 0.8 0.8
+  ambient 0.2 0.2 0.2
   specular 0 0 0
-  shininess 10
+  shininess 1
   shadow 0
+  beaming 0
+  render 0
   transparencyhint 0
   bitmap NULL
+  rotatetexture 0
   orientation 0 0 0 0
-  position 0 0 0
-  render 0
   verts 30
     5 -5 0
     5 -3.1 0
@@ -72,26 +75,26 @@ node aabb cm027
     21 19 26 1 0 0 0 5
     27 19 24 1 0 0 0 5
     21 29 20 1 0 0 0 5
-    1 20 29 2 0 0 0 7
-    1 29 2 4 0 0 0 7
+    1 20 29 0 0 0 0 7
+    1 29 2 0 0 0 0 7
     29 21 28 1 0 0 0 1
-    29 28 2 8 0 0 0 7
-    28 26 4 2 0 0 0 7
-    28 4 2 16 0 0 0 7
-    26 25 6 4 0 0 0 7
-    26 6 4 8 0 0 0 7
-    24 10 8 2 0 0 0 7
-    25 8 6 16 0 0 0 7
-    27 8 25 8 0 0 0 7
-    24 8 27 4 0 0 0 7
-    23 12 10 4 0 0 0 7
-    10 24 23 8 0 0 0 7
+    29 28 2 0 0 0 0 7
+    28 26 4 0 0 0 0 7
+    28 4 2 0 0 0 0 7
+    26 25 6 0 0 0 0 7
+    26 6 4 0 0 0 0 7
+    24 10 8 0 0 0 0 7
+    25 8 6 0 0 0 0 7
+    27 8 25 0 0 0 0 7
+    24 8 27 0 0 0 0 7
+    23 12 10 0 0 0 0 7
+    10 24 23 0 0 0 0 7
     22 16 18 1 0 0 0 1
-    12 23 22 2 0 0 0 7
-    12 22 18 8 0 0 0 7
-    12 18 13 16 0 0 0 7
-    13 18 17 2 0 0 0 7
-    13 17 15 4 0 0 0 7
+    12 23 22 0 0 0 0 7
+    12 22 18 0 0 0 0 7
+    12 18 13 0 0 0 0 7
+    13 18 17 0 0 0 0 7
+    13 17 15 0 0 0 0 7
   aabb     -5 -5 0 5 5 4 -1
     -5 -5 0 1.64 5 4 -1
     -5 -5 0 1.64 0 4 -1

@@ -1,4 +1,4 @@
-# Rewritten by CleanModels 3 Version 3.5.1 Sun Jul 07 18:55:39 2019
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Sep 08 17:25:30 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel ttr01_b20_01
@@ -12,8 +12,8 @@ node dummy ttr01_b20_01
 endnode
 node light ttr01_b20_01ml1
   parent ttr01_b20_01
-  orientation 0 0 0 0
   position 0 0 5
+  orientation 0 0 0 0
   wirecolor 1 1 1
   radius 14
   multiplier 1
@@ -27,9 +27,9 @@ node light ttr01_b20_01ml1
 endnode
 node trimesh darko01
   parent ttr01_b20_01
+  wirecolor 1 0 0
   position 0 0 -3.4
   orientation 0 0 0 0
-  wirecolor 1 1 1
   tilefade 0
   scale 1
   render 1
@@ -113,15 +113,21 @@ node aabb walkmesh
     0 0 -3.4 5 5 -3.4 6
     0 0 -3.4 5 5 -3.4 7
 endnode
-node trimesh plane165
+node dummy ttr01_b20_01a
   parent ttr01_b20_01
+  position 0 0 0
+  wirecolor 1 0 0
+  orientation 0 0 0 0
+endnode
+node trimesh plane165
+  parent ttr01_b20_01a
+  shadow 0
   position 0 0 -1
   orientation 0 0 0 0
   wirecolor 1 1 1
   tilefade 0
   scale 1
   render 1
-  shadow 0
   beaming 0
   inheritcolor 0
   rotatetexture 1

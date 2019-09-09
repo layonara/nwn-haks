@@ -1,110 +1,104 @@
-# Exported from NWmax 0.7 at 15.08.2004 22:52:16
-# mdl file
-#
-#NWmax MODEL ASCII
-# model: tw010_o13_03
-filedependancy Unknown
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Sep 08 19:08:53 2019
+#MAXMODEL ASCII
+filedependency Unknown
 newmodel tw010_o13_03
-setsupermodel tw010_o13_03 NULL
-classification Tile
-#NWmax GEOM  ASCII
+  classification TILE
+  setsupermodel tw010_o13_03 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
 beginmodelgeom tw010_o13_03
 node dummy tw010_o13_03
   parent NULL
 endnode
-#Tile trimesh node
-node trimesh Plane02
+node light tw010_o13_03ml1
   parent tw010_o13_03
-  position 0.0 -5.0 2.0
-  orientation  0.0 0.0 0.0  0.0
-  wirecolor 0.87451 0.337255 0.337255 
+  position 0 0 9
+  orientation 0 0 0 0
+  fadinglight 0
+  lightpriority 5
+  shadow 0
+  affectdynamic 1
+  nDynamicType 0
+  ambientonly 0
+  color 0 0 0
+  multiplier 1
+  radius 14
+  wirecolor 1 1 1
+endnode
+node light tw010_o13_03ml2
+  parent tw010_o13_03
+  position 0 -3.99 7.61
+  orientation 0 0 0 0
+  fadinglight 0
+  lightpriority 5
+  shadow 0
+  affectdynamic 1
+  nDynamicType 0
+  ambientonly 0
+  color 0.00392157 0.00392157 0.00392157
+  multiplier 1
+  radius 5
+  wirecolor 1 1 1
+endnode
+node trimesh plane02
+  parent tw010_o13_03
+  position 4 -5 4
+  shadow 1
+  orientation 0 0 0 0
+  wirecolor 0.87451 0.337255 0.337255
   tilefade 0
-  scale 1.0
+  scale 1
   render 1
-  Shadow 0
   beaming 0
   inheritcolor 0
-  selfillumcolor 0.0 0.0 0.0 
   rotatetexture 0
-  alpha 1.0
+  alpha 1
   transparencyhint 0
-  center 0.0 2.45571e-005 0.0 
-  ambient 0.8 0.8 0.8 
-  diffuse 1.0 1.0 1.0 
-  specular 0.0 0.0 0.0 
-  shininess 3.0
-  selfillumcolor 0.0 0.0 0.0 
+  center 0 2.45571e-05 0
+  ambient 0.8 0.8 0.8
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 3
+  selfillumcolor 0 0 0
   bitmap tw010_mauer02
   verts 3
-    4.0 -1.19993e-007 2.0
-    -4.0 -2.39203e-007 -2.0
-    4.0 7.30345e-007 -2.0
+    0 0 0
+    -8 0 -4
+    0 0 -4
   faces 1
-    1 2 0  1  1 2 0  1
+    1 2 0 1 1 2 0 1
   tverts 3
     1.999 0.9995 0
     0.000999153 0.000500083 0
     1.999 0.000499547 0
 endnode
-node light tw010_013_03ml1
+node trimesh plane01
   parent tw010_o13_03
-  position 0.0 0.0 9.0
-  orientation 1.0 0.0 0.0 0.0
-  wirecolor 1.0 1.0 1.0 
-  radius 14.0
-  multiplier 1.0
-  color 0.0 0.0 0.0 
-  ambientonly 0
-  nDynamicType 0
-  affectDynamic 1
-  shadow 0
-  lightpriority 5
-  fadingLight 0
-endnode
-node light tw010_013_03ml2
-  parent tw010_o13_03
-  position 0.0 -3.99372 7.60999
-  orientation 1.0 0.0 0.0 0.0
-  wirecolor 1.0 1.0 1.0 
-  radius 5.0
-  multiplier 1.0
-  color 0.00392157 0.00392157 0.00392157 
-  ambientonly 0
-  nDynamicType 0
-  affectDynamic 1
-  shadow 0
-  lightpriority 5
-  fadingLight 0
-endnode
-#Tile trimesh node
-node trimesh Plane01
-  parent tw010_o13_03
-  position 0.0 5.0 2.0
-  orientation  0.0 0.0 0.0  0.0
-  wirecolor 0.87451 0.337255 0.337255 
+  position 4 5 4
+  shadow 1
+  orientation 0 0 0 0
+  wirecolor 0.87451 0.337255 0.337255
   tilefade 0
-  scale 1.0
+  scale 1
   render 1
-  Shadow 0
   beaming 0
   inheritcolor 0
-  selfillumcolor 0.0 0.0 0.0 
   rotatetexture 0
-  alpha 1.0
+  alpha 1
   transparencyhint 0
-  center 0.0 -3.05176e-005 0.0 
-  ambient 0.8 0.8 0.8 
-  diffuse 1.0 1.0 1.0 
-  specular 0.0 0.0 0.0 
-  shininess 3.0
-  selfillumcolor 0.0 0.0 0.0 
+  center 0 -3.05176e-05 0
+  ambient 0.8 0.8 0.8
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 3
+  selfillumcolor 0 0 0
   bitmap tw010_mauer02
   verts 3
-    4.0 -4.8399e-007 2.0
-    4.0 -3.6478e-007 -2.0
-    -4.0 -1.26362e-007 -2.0
+    0 0 0
+    0 0 -4
+    -8 0 -4
   faces 1
-    1 2 0  1  1 2 0  1
+    1 2 0 1 1 2 0 1
   tverts 3
     1.999 0.9995 0
     1.999 0.000499606 0
@@ -112,178 +106,128 @@ node trimesh Plane01
 endnode
 node aabb walkmesh
   parent tw010_o13_03
-  position 4.17 2.55 0.01
-  orientation 1.0 0.0 0.0 0.0
-  wirecolor 1.0 1.0 1.0 
-  multimaterial 20
-    Dirt
-    Obscuring
-    Grass
-    Stone
-    Wood
-    Water
-    Nonwalk
-    Transparent
-    Carpet
-    Metal
-    Puddles
-    Swamp
-    Mud
-    Leaves
-    Lava
-    BottomlessPit
-    DeepWater
-    Door
-    Snow
-    Sand
-  ambient 0.8 0.8 0.8 
-  diffuse 0.5 0.5 0.5 
-  specular 0.0 0.0 0.0 
-  shininess 11.0
-  selfillumcolor 0.0 0.0 0.0 
-  bitmap Stone
+  position 0 0 0
+  bitmap NULL
+  orientation 0 0 0 0
+  wirecolor 1 1 1
+  ambient 0.8 0.8 0.8
+  diffuse 0.5 0.5 0.5
+  specular 0 0 0
+  shininess 11
+  selfillumcolor 0 0 0
+  render 0
+  shadow 0
   verts 8
-    -0.17 2.45 3.99
-    0.83 2.45 3.99
-    -0.17 -7.55 3.99
-    0.83 -7.55 3.99
-    -8.17 -7.55 -0.01
-    -9.17 -7.55 -0.01
-    -9.17 2.45 -0.01
-    -8.17 2.45 -0.01
+    4 5 4
+    5 5 4
+    4 -5 4
+    5 -5 4
+    -4 -5 0
+    -5 -5 0
+    -5 5 0
+    -4 5 0
   faces 6
-    0 2 1  1  3 9 6  4
-    3 1 2  1  10 11 9  4
-    6 5 4  1  22 19 13  4
-    6 4 7  1  22 12 20  4
-    7 4 2  2  26 14 9  4
-    2 0 7  2  9 27 26  4
-  tverts 28
-    1.11938 0.559939 0
-    1.0994 0.879623 0
-    1.0994 0.55994 0
-    1.7987 0.500001 0
-    1.499 0.999499 0
-    1.9985 0.999499 0
-    1.9985 0.499999 0
-    1.0994 0.9995 0
-    1.11938 0.499998 0
-    1.7987 0.0005005 0
-    1.9985 -0.499002 0
-    1.9985 0.000498742 0
-    0.2003 0.000500888 0
-    0.2003 -0.43906 0
-    1.2659 0.000500619 0
-    0.2003 -0.558939 0
-    0.000499994 -0.9985 0
-    0.619882 -0.9985 0
-    0.619881 -0.55894 0
-    0.000500113 -0.499 0
-    0.2003 0.440061 0
-    0.2003 0.559941 0
-    0.000500113 0.000500649 0
-    0.619882 0.999502 0
-    0.619881 0.559941 0
-    0.000500232 0.999502 0
-    1.11938 0.440061 0
-    1.74543 0.460043 0
-    aabb         -9.17 -7.55 -0.01 0.83 2.45 3.99 -1
-        -9.17 -7.55 -0.01 -0.17 2.45 3.99 -1
-        -9.17 -7.55 -0.01 -0.17 2.45 3.99 -1
-        -9.17 -7.55 -0.01 -8.17 2.45 -0.01 2
-        -8.17 -7.55 -0.01 -0.17 2.45 3.99 4
-        -9.17 -7.55 -0.01 -8.17 2.45 -0.01 3
-        -8.17 -7.55 -0.01 0.83 2.45 3.99 -1
-        -0.17 -7.55 3.99 0.83 2.45 3.99 1
-        -8.17 -7.55 -0.01 0.83 2.45 3.99 -1
-        -8.17 -7.55 -0.01 -0.17 2.45 3.99 5
-        -0.17 -7.55 3.99 0.83 2.45 3.99 0
+    0 2 1 1 0 0 0 4
+    3 1 2 1 0 0 0 4
+    6 5 4 1 0 0 0 4
+    6 4 7 1 0 0 0 4
+    7 4 2 2 0 0 0 4
+    2 0 7 2 0 0 0 4
+  aabb     -5 -5 0 5 5 4 -1
+    -5 -5 0 4 5 4 -1
+    -5 -5 0 4 5 4 -1
+    -5 -5 0 -4 5 0 2
+    -4 -5 0 4 5 4 4
+    -5 -5 0 -4 5 0 3
+    -4 -5 0 5 5 4 -1
+    4 -5 4 5 5 4 1
+    -4 -5 0 5 5 4 -1
+    -4 -5 0 4 5 4 5
+    4 -5 4 5 5 4 0
 endnode
-#Tile trimesh node
 node trimesh boden
   parent tw010_o13_03
-  position 4.17 2.55 0.01
-  orientation  0.0 0.0 0.0  0.0
-  wirecolor 1.0 1.0 1.0 
+  position 0.51 0 0
+  orientation 0 0 0 0
+  wirecolor 1 1 1
   tilefade 0
-  scale 1.0
+  scale 1
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   inheritcolor 0
-  selfillumcolor 0.0 0.0 0.0 
   rotatetexture 0
-  alpha 1.0
+  alpha 1
   transparencyhint 0
-  center -417.0 -255.0 199.0 
-  ambient 0.6 0.6 0.6 
-  diffuse 0.588 0.588 0.588 
-  specular 0.0 0.0 0.0 
-  shininess 3.0
-  selfillumcolor 0.0 0.0 0.0 
+  center -417 -255 199
+  ambient 0.6 0.6 0.6
+  diffuse 0.588 0.588 0.588
+  specular 0 0 0
+  shininess 3
+  selfillumcolor 0 0 0
   bitmap tw010_platten01
   verts 20
-    -0.17 2.45 3.99
-    0.83 2.45 3.99
-    -0.17 -2.55 3.99
-    -0.17 -7.55 3.99
-    0.83 -7.55 3.99
-    0.83 -2.55 3.99
-    -8.17 -2.55 -0.01
-    -8.17 -7.55 -0.01
-    -5.5 -2.55 1.32
-    -5.5 -7.55 1.32
-    -2.84 -2.55 2.66
-    -3.57 -7.55 2.29
-    -0.44 -7.55 3.86
-    -9.17 -7.55 -0.01
-    -9.17 2.45 -0.01
-    -8.17 2.45 -0.01
-    -9.17 -2.55 -0.01
-    -5.5 2.45 1.32
-    -3.57 2.45 2.29
-    -0.44 2.45 3.86
+    3.49 5 4
+    4.49 5 4
+    3.49 0 4
+    3.49 -5 4
+    4.49 -5 4
+    4.49 0 4
+    -4.51 0 0
+    -4.51 -5 0
+    -1.84 0 1.33
+    -1.84 -5 1.33
+    0.82 0 2.67
+    0.09 -5 2.3
+    3.22 -5 3.87
+    -5.51 -5 0
+    -5.51 5 0
+    -4.51 5 0
+    -5.51 0 0
+    -1.84 5 1.33
+    0.09 5 2.3
+    3.22 5 3.87
   faces 22
-    2 3 4  1  2 3 4  1
-    5 1 2  1  5 1 2  1
-    6 7 8  2  6 7 8  1
-    9 8 7  2  9 8 7  1
-    8 9 10  2  8 9 10  1
-    11 10 9  2  11 10 9  1
-    10 11 2  2  10 11 2  1
-    3 2 12  2  3 2 12  1
-    0 2 1  1  0 2 1  1
-    4 5 2  1  4 5 2  1
-    14 16 15  1  14 16 15  1
-    16 13 7  1  16 13 7  1
-    16 6 15  1  16 6 15  1
-    16 7 6  1  16 7 6  1
-    12 2 11  2  12 2 11  1
-    15 6 8  2  15 6 8  1
-    8 17 15  2  8 17 15  1
-    17 8 10  2  17 8 10  1
-    10 18 17  2  10 18 17  1
-    18 10 2  2  18 10 2  1
-    2 0 19  2  2 0 19  1
-    2 19 18  2  2 19 18  1
+    2 3 4 1 2 3 4 1
+    5 1 2 1 5 1 2 1
+    6 7 8 2 6 7 8 1
+    9 8 7 2 9 8 7 1
+    8 9 10 2 8 9 10 1
+    11 10 9 2 11 10 9 1
+    10 11 2 2 10 11 2 1
+    3 2 12 2 3 2 12 1
+    0 2 1 1 0 2 1 1
+    4 5 2 1 4 5 2 1
+    14 16 15 1 14 16 15 1
+    16 13 7 1 16 13 7 1
+    16 6 15 1 16 6 15 1
+    16 7 6 1 16 7 6 1
+    12 2 11 2 12 2 11 1
+    15 6 8 2 15 6 8 1
+    8 17 15 2 8 17 15 1
+    17 8 10 2 17 8 10 1
+    10 18 17 2 10 18 17 1
+    18 10 2 2 18 10 2 1
+    2 0 19 2 2 0 19 1
+    2 19 18 2 2 19 18 1
   tverts 20
     1.7992 1.999 0
     1.999 1.999 0
-    1.7992 1.0 0
+    1.7992 1 0
     1.7992 0.000998974 0
     1.999 0.000998914 0
-    1.999 1.0 0
-    0.2008 1.0 0
+    1.999 1 0
+    0.2008 1 0
     0.200799 0.000999331 0
-    0.734266 1.0 0
+    0.734266 1 0
     0.734266 0.000999212 0
-    1.26573 1.0 0
+    1.26573 1 0
     1.11988 0.000999153 0
     1.74525 0.000998974 0
     0.000999153 0.000999391 0
     0.000999629 1.999 0
     0.2008 1.999 0
-    0.000999391 1.0 0
+    0.000999391 1 0
     0.734266 1.999 0
     1.11988 1.999 0
     1.74525 1.999 0
