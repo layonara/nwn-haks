@@ -1,3 +1,4 @@
+#!/usr/bin/env nim
 import strformat
 
 var dir_list = listDirs("./")
