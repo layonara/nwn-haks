@@ -5,7 +5,7 @@ var dir_list = listDirs("./")
 var bin = findExe("nwn_erf")
 echo bin
 for dir in dir_list:
-  if (dir.substr(2) in ["git", "tilesets", "parts"]):
+  if (dir.substr(2) in [".git", "tilesets", "parts"]):
     continue
   echo fmt"Building {dir}.hak"
   exec(fmt"{bin} -e HAK -c {dir} -f {dir}.hak")
