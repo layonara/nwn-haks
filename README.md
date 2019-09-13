@@ -14,17 +14,16 @@ Resources that make up the NWN Layonara HAKs. Build instructions are provided be
 * If you don't already have git you need to install it from the above link or you may prefer a UI version like https://tortoisegit.org/
 * Download and extract the nim archive somewhere then run the `finish.exe` program inside that folder which adds PATH information as well as downloading and installing ming.
 * Reboot after this so your path is set appropriately.
-* Open a command prompt and type `nimble install neverwinter`
 
 ## Building Haks
+* Open a command prompt and type `nimble install https://github.com/plenarius/layonara_nwn.nim`
+
 You need to clone this repository either from a command line with the following command or using a UI interface for git that you downloaded:
 
 `git clone https://github.com/plenarius/layo-haks`
 
 Once that's complete you can build the haks by opening a prompt, `cd` into the newly cloned repository folder and running:
 
-`nim layohaks.nims`
-
-Alternatively Windows users can double click the `layohaks.nims` file and associate it with your `<NimbleInstallPath>/bin/nim.exe`
+`layonara_nwn hak`
 
 The haks will be output in the root of that folder for you to move where they belong.
