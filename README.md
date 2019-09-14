@@ -3,7 +3,7 @@ Resources that make up the NWN Layonara HAKs. Build instructions are provided be
 
 ## Requirements for Building
 * git https://git-scm.com/downloads
-* nim https://nim-lang.org/install.html
+* nim https://github.com/dom96/choosenim
 * layonara_nwn https://github.com/plenarius/layonara_nwn
 
 ## Installation
@@ -13,8 +13,7 @@ Resources that make up the NWN Layonara HAKs. Build instructions are provided be
 
 ### Windows Users
 * If you don't already have git you need to install it from the above link or you may prefer a UI version like https://tortoisegit.org/
-* Download and extract the nim archive somewhere then run the `finish.exe` program inside that folder which adds PATH information as well as downloading and installing ming.
-* Reboot after this so your path is set appropriately.
+* Download and install choosenim here: https://github.com/dom96/choosenim/releases
 
 ### All Users
 * Install layonara_nwn with `nimble install https://github.com/plenarius/layonara_nwn`
