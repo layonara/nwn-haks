@@ -4,7 +4,7 @@ Resources that make up the NWN Layonara HAKs. Build instructions are provided be
 ## Requirements for Building
 * git https://git-scm.com/downloads
 * nim https://nim-lang.org/install.html
-* layonara_nwn https://github.com/plenarius/layonara_nwn.nim
+* layonara_nwn https://github.com/plenarius/layonara_nwn
 
 ## Installation
 
@@ -17,7 +17,7 @@ Resources that make up the NWN Layonara HAKs. Build instructions are provided be
 * Reboot after this so your path is set appropriately.
 
 ### All Users
-* Install layonara_nwn with `nimble install https://github.com/plenarius/layonara_nwn.nim`
+* Install layonara_nwn with `nimble install https://github.com/plenarius/layonara_nwn`
 
 ## Building Haks
 You need to clone this repository either from a command line with the following command or using a UI interface for git that you downloaded:
