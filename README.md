@@ -12,8 +12,7 @@ Resources that make up the NWN Layonara HAKs. Build instructions are provided be
 * Install nim and git using your package manager of choice i.e. `apt install git nim`
 
 ### Windows Users
-* If you don't already have git you need to install it from the above link or you may prefer a UI version like https://tortoisegit.org/
-* Download and install choosenim here: https://github.com/dom96/choosenim/releases
+* Install git and nim and make sure to install the mingw package that is available on the nim download page
 
 ### All Users
 * Install layonara_nwn with `nimble install https://github.com/plenarius/layonara_nwn`
