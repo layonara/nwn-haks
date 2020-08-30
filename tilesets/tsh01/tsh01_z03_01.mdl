@@ -1,16 +1,16 @@
 #MAXMODEL ASCII
-# model: TSH01_A03_01 
+# model: TSH01_Z03_01 
 filedependancy TSH01_01.max
-newmodel TSH01_A03_01 
-setsupermodel TSH01_A03_01 NULL
+newmodel TSH01_Z03_01 
+setsupermodel TSH01_Z03_01 NULL
 classification Tile
 #MAXGEOM  ASCII
-beginmodelgeom TSH01_A03_01 
-node dummy TSH01_A03_01 
+beginmodelgeom TSH01_Z03_01 
+node dummy TSH01_Z03_01 
   parent NULL 
 endnode
-node light TSH01_A03_01_ml1 
-  parent TSH01_A03_01 
+node light TSH01_Z03_01_ml1 
+  parent TSH01_Z03_01 
   position 0.0 0.0 20.0
   orientation  0.0 0.0 0.0  0.0
   wirecolor 1.0 0.898039 0.0  
@@ -25,8 +25,8 @@ node light TSH01_A03_01_ml1
   lensflares 0
   fadingLight 0
 endnode
-node light TSH01_A03_01_ml2 
-  parent TSH01_A03_01 
+node light TSH01_Z03_01_ml2 
+  parent TSH01_Z03_01 
   position -2.5 -2.5 17.5
   orientation  0.0 0.0 0.0  0.0
   wirecolor 1.0 0.898039 0.0  
@@ -41,8 +41,8 @@ node light TSH01_A03_01_ml2
   lensflares 0
   fadingLight 0
 endnode
-node trimesh TSH01_A03_01_gr_0_0_0_0 
-  parent TSH01_A03_01 
+node trimesh TSH01_Z03_01_gr_0_0_0_0 
+  parent TSH01_Z03_01 
   position 0.0 0.0 10.0
   orientation  0.0 0.0 0.0  0.0
   wirecolor 0.721569 0.607843 0.898039  
@@ -475,7 +475,7 @@ node trimesh TSH01_A03_01_gr_0_0_0_0
      0.419534 1.45375 0 
      0.419534 1.64125 0 
 endnode
-endmodelgeom TSH01_A03_01 
+endmodelgeom TSH01_Z03_01 
 
-donemodel TSH01_A03_01 
+donemodel TSH01_Z03_01 
 
