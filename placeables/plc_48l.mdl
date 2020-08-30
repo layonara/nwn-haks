@@ -1,19 +1,17 @@
-#Exported from 3ds max by MDL Plug-in Suite 1.0b
-#http://www.bricksbuilder.com/nwn/utils/
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 18:35:40 2019
 #MAXMODEL ASCII
-# model: PLC_48L
-filedependancy jan6.max
-newmodel PLC_48L
-setsupermodel PLC_48L NULL
-classification Character
-setanimationscale 1.0
-#MAXGEOM  ASCII
-beginmodelgeom PLC_48L
-node dummy PLC_48L
+filedependency Unknown
+newmodel plc_48l
+  classification CHARACTER
+  setsupermodel plc_48l NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom plc_48l
+node dummy plc_48l
   parent NULL
 endnode
-node trimesh Plane917
-  parent PLC_48L
+node trimesh plane917
+  parent plc_48l
   position 0 0 2.6
   orientation 1 0 0 -1.5708
   wirecolor 0.542969 0.542969 0.542969
@@ -21,9 +19,9 @@ node trimesh Plane917
   diffuse 1 1 1
   specular 0 0 0
   shininess 0
-  bitmap ttf01_WEBS
+  bitmap ttf01_webs
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 0
@@ -38,19 +36,15 @@ node trimesh Plane917
     -1.25 -0.6 0
     1.25 -0.6 0
   faces 4
-    2 0 3  1  2 0 3  0
-    1 3 0  1  1 3 0  0
-    6 4 7  1  6 4 7  0
-    5 7 4  1  5 7 4  0
-  tverts 8
-    0.309826 -0.000484705 -0.066373
-    1.00283 -0.000484824 -0.066373
-    0.309826 0.249515 -0.066373
-    1.00283 0.249515 -0.066373
-    1.00283 -0.000484824 0.273992
-    0.309826 -0.000484705 -0.565874
-    1.00283 0.249515 0.433127
-    0.309826 0.249515 -0.406738
+    2 0 3 1 2 0 3 0
+    1 3 0 1 1 3 0 0
+    6 4 7 1 3 1 2 0
+    5 7 4 1 0 2 1 0
+  tverts 4
+    0.309826 -0.000484705 0.933627
+    1.00283 -0.000484824 0.933627
+    0.309826 0.249515 0.933627
+    1.00283 0.249515 0.933627
 endnode
-endmodelgeom PLC_48L
-donemodel PLC_48L
+endmodelgeom plc_48l
+donemodel plc_48l

@@ -1,19 +1,17 @@
-#Exported from 3ds max by MDL Plug-in Suite 1.0b
-#http://www.bricksbuilder.com/nwn/utils/
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 18:36:37 2019
 #MAXMODEL ASCII
-# model: PLC_DD61
-filedependancy Unknown
-newmodel PLC_DD61
-setsupermodel PLC_DD61 NULL
-classification Character
-setanimationscale 1.0
-#MAXGEOM  ASCII
-beginmodelgeom PLC_DD61
-node dummy PLC_DD61
+filedependency Unknown
+newmodel plc_dd61
+  classification CHARACTER
+  setsupermodel plc_dd61 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom plc_dd61
+node dummy plc_dd61
   parent NULL
 endnode
-node trimesh Mat
-  parent PLC_DD61
+node trimesh mat
+  parent plc_dd61
   position -0.0418251 0.140684 0.03
   orientation 0 0 0 0
   wirecolor 0.105469 0.105469 0.105469
@@ -21,20 +19,20 @@ node trimesh Mat
   diffuse 1 1 1
   specular 0 0 0
   shininess 0
-  bitmap LOKStrawMat
+  bitmap lokstrawmat
   verts 4
     0.75 0.75 0
     -0.75 0.75 0
     0.75 -0.75 0
     -0.75 -0.75 0
   faces 2
-    2 0 3  1  2 0 3  0
-    1 3 0  1  1 3 0  0
+    2 0 3 1 2 0 3 0
+    1 3 0 1 1 3 0 0
   tverts 4
     0.000499487 0.000499725 0.5
     0.9995 0.000499487 0.5
     0.000499725 0.999501 0.5
     0.999501 0.9995 0.5
 endnode
-endmodelgeom PLC_DD61
-donemodel PLC_DD61
+endmodelgeom plc_dd61
+donemodel plc_dd61

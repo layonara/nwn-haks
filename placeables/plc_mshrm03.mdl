@@ -1,115 +1,47 @@
-#Exported from 3ds max by MDL Plug-in Suite 1.0b
-#http://www.bricksbuilder.com/nwn/utils/
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 18:38:57 2019
 #MAXMODEL ASCII
-# model: PLC_Mshrm03
-filedependancy Mushroom03.max
-newmodel PLC_Mshrm03
-setsupermodel PLC_Mshrm03 NULL
-classification Character
-setanimationscale 1.0
-#MAXGEOM  ASCII
-beginmodelgeom PLC_Mshrm03
-node dummy PLC_Mshrm03
+filedependency Unknown
+newmodel plc_mshrm03
+  classification CHARACTER
+  setsupermodel plc_mshrm03 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom plc_mshrm03
+node dummy plc_mshrm03
   parent NULL
 endnode
-node dummy Mshrm03_hand
-  parent PLC_Mshrm03
+node dummy mshrm03_hand
+  parent plc_mshrm03
   position 0 -0.5 0.934402
   orientation 0 0 0 0
   wirecolor 0.605469 0.605469 0.605469
 endnode
-node dummy Mshrm03_head
-  parent PLC_Mshrm03
+node dummy mshrm03_head
+  parent plc_mshrm03
   position 0 0 2.68389
   orientation 0 0 0 0
   wirecolor 0.605469 0.605469 0.605469
 endnode
-node dummy Mshrm03_head_hit
-  parent PLC_Mshrm03
+node dummy mshrm03_head_hit
+  parent plc_mshrm03
   position 0 0 3.40649
   orientation 0 0 0 0
   wirecolor 0.605469 0.605469 0.605469
 endnode
-node dummy Mshrm03_impact
-  parent PLC_Mshrm03
+node dummy mshrm03_impact
+  parent plc_mshrm03
   position 0 0 0.868134
   orientation 0 0 0 0
   wirecolor 0.605469 0.605469 0.605469
 endnode
-node dummy Mshrm03_ground
-  parent PLC_Mshrm03
+node dummy mshrm03_ground
+  parent plc_mshrm03
   position 0 0 0
   orientation 0 0 0 0
   wirecolor 0.605469 0.605469 0.605469
 endnode
-node emitter fire!47
-  parent PLC_Mshrm03
-  position 0 0 0.532671
-  orientation -1 0 0 -1.5708
-  wirecolor 0.605469 0.605469 0.605469
-    colorStart 0.47451 0.447059 0.392157
-    colorEnd 0.819608 0.803922 0.74902
-    alphaStart 1
-    alphaEnd 0
-    sizeStart 4
-    sizeEnd 1
-    sizeStart_y 0
-    sizeEnd_y 0
-    frameStart 0
-    frameEnd 24
-    birthrate 10
-    spawnType 0
-    lifeExp 2.5
-    mass 0.09
-    spread 2.96706
-    particleRot 0.5
-    velocity 2
-    randvel 0.5
-    fps 10
-    random 0
-    inherit 1
-    inherit_local 0
-    inherit_part 0
-    inheritvel 0
-    xsize 100
-    ysize 99
-    bounce 0
-    bounce_co 0
-    loop 0
-    update Explosion
-    render Normal
-    Blend Normal
-    update_sel 2
-    render_sel 1
-    blend_sel 1
-    deadspace 0
-    opacity 0.5
-    blurlength 10
-    lightningDelay 0
-    lightningRadius 0
-    lightningScale 0
-    blastRadius 0.2
-    blastLength 1
-    twosidedtex 1
-    p2p 0
-    p2p_sel 1
-    p2p_type Bezier
-    p2p_bezier2 0
-    p2p_bezier3 0
-    combinetime 0
-    drag 0
-    grav 0
-    threshold 0
-    texture fxpa_smoke01
-    xgrid 4
-    ygrid 4
-    affectedByWind 0
-    m_isTinted 1
-    renderorder 0
-    Splat 0
-endnode
 node trimesh damage13
-  parent PLC_Mshrm03
+  parent plc_mshrm03
   position 0 0 0
   orientation 0 0 0 0
   wirecolor 0.605469 0.605469 0.605469
@@ -119,7 +51,7 @@ node trimesh damage13
   shininess 24
   bitmap NULL
   render 0
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 0
@@ -138,30 +70,30 @@ node trimesh damage13
     0.103944 0.0990513 0.25
     -0.103944 0.0990513 0.25
   faces 20
-    0 1 2  1  0 0 0  0
-    2 3 0  1  0 0 0  0
-    4 5 6  1  0 0 0  0
-    6 7 4  1  0 0 0  0
-    0 3 8  1  0 0 0  0
-    8 9 0  1  0 0 0  0
-    9 8 5  1  0 0 0  0
-    5 4 9  1  0 0 0  0
-    3 2 10  1  0 0 0  0
-    10 8 3  1  0 0 0  0
-    8 10 6  1  0 0 0  0
-    6 5 8  1  0 0 0  0
-    2 1 11  1  0 0 0  0
-    11 10 2  1  0 0 0  0
-    10 11 7  1  0 0 0  0
-    7 6 10  1  0 0 0  0
-    1 0 9  1  0 0 0  0
-    9 11 1  1  0 0 0  0
-    11 9 4  1  0 0 0  0
-    4 7 11  1  0 0 0  0
+    0 1 2 1 0 0 0 0
+    2 3 0 1 0 0 0 0
+    4 5 6 1 0 0 0 0
+    6 7 4 1 0 0 0 0
+    0 3 8 1 0 0 0 0
+    8 9 0 1 0 0 0 0
+    9 8 5 1 0 0 0 0
+    5 4 9 1 0 0 0 0
+    3 2 10 1 0 0 0 0
+    10 8 3 1 0 0 0 0
+    8 10 6 1 0 0 0 0
+    6 5 8 1 0 0 0 0
+    2 1 11 1 0 0 0 0
+    11 10 2 1 0 0 0 0
+    10 11 7 1 0 0 0 0
+    7 6 10 1 0 0 0 0
+    1 0 9 1 0 0 0 0
+    9 11 1 1 0 0 0 0
+    11 9 4 1 0 0 0 0
+    4 7 11 1 0 0 0 0
   tverts 1
     0 0 0
 endnode
-node trimesh Mushroom_stalk
+node trimesh mushroom_stalk
   parent damage13
   position 0 0 0
   orientation 0 0 0 0
@@ -171,7 +103,7 @@ node trimesh Mushroom_stalk
   specular 0 0 0
   shininess 10
   bitmap mushrooms
-  verts 121
+  verts 120
     -0.574869 0 -0.04
     -0.406494 -0.406494 -0.04
     0 -0.574869 -0.04
@@ -254,7 +186,6 @@ node trimesh Mushroom_stalk
     -0.755555 0.183265 0.658695
     -0.821384 -0.0792693 0.658695
     -0.305573 -0.0687076 1.58245
-    -0.201039 0.11235 1.58245
     -0.337232 0.124208 1.51143
     -0.410107 0.0112791 1.72378
     -0.635955 0.158528 1.14201
@@ -294,165 +225,165 @@ node trimesh Mushroom_stalk
     -0.0477209 0.346699 2.35584
     -0.183096 0.28709 2.35584
   faces 158
-    0 9 8  1  0 9 8  2
-    0 1 9  1  0 1 9  2
-    1 10 9  1  1 10 9  2
-    1 2 10  1  1 2 10  2
-    2 11 10  1  2 11 10  2
-    2 3 11  1  2 3 59  2
-    3 4 11  1  3 4 60  2
-    4 12 11  1  29 61 11  2
-    4 5 12  1  30 5 61  2
-    5 13 12  1  5 12 61  2
-    5 6 13  1  5 6 12  2
-    6 30 13  1  6 51 12  2
-    6 29 30  1  6 50 51  2
-    7 8 14  1  7 8 13  2
-    7 0 8  1  7 0 8  2
-    8 16 15  1  8 15 14  2
-    8 9 16  1  8 9 15  2
-    9 17 16  1  9 16 15  2
-    9 10 17  1  9 10 16  2
-    10 18 17  1  10 17 16  2
-    10 11 18  1  10 62 17  2
-    11 12 19  1  11 61 18  2
-    12 20 19  1  61 19 18  2
-    12 13 20  1  61 12 19  2
-    13 21 20  1  12 20 19  2
-    13 30 21  1  12 51 20  2
-    14 15 21  1  13 14 20  2
-    14 8 15  1  13 8 14  2
-    15 23 22  1  14 22 21  2
-    15 16 23  1  14 15 35  2
-    16 24 23  1  15 23 36  2
-    16 17 24  1  15 16 37  2
-    17 18 24  1  16 17 24  2
-    18 25 24  1  17 25 38  2
-    18 11 25  1  17 63 39  2
-    11 26 25  1  64 26 31  2
-    11 19 26  1  65 18 40  2
-    19 27 26  1  18 27 41  2
-    19 20 27  1  18 19 42  2
-    20 21 27  1  19 20 28  2
-    21 22 27  1  20 33 43  2
-    21 15 22  1  20 14 34  2
-    28 22 23  1  32 21 22  0
-    28 23 24  1  45 44 23  0
-    28 24 25  1  46 24 25  0
-    28 25 26  1  47 25 24  0
-    28 26 27  1  48 24 23  0
-    28 27 22  1  49 22 21  0
-    30 29 31  2  56 55 57  2
-    31 32 30  2  57 58 56  2
-    7 14 32  2  52 53 58  2
-    32 31 7  2  58 57 52  2
-    21 30 32  2  54 56 58  2
-    21 32 14  2  54 58 53  2
-    38 34 41  1  70 66 74  1
-    38 41 33  1  70 74 71  1
-    33 41 35  1  71 74 67  1
-    33 35 42  1  71 67 75  1
-    33 42 39  1  71 75 72  1
-    39 42 36  1  72 75 68  1
-    33 39 40  1  71 72 73  1
-    39 36 43  1  72 68 76  1
-    39 43 40  1  72 76 73  1
-    40 43 37  1  73 76 69  1
-    33 40 38  1  71 73 70  1
-    40 37 44  1  73 69 77  1
-    40 44 38  1  73 77 70  1
-    38 44 34  1  70 77 66  1
-    45 49 48  1  78 82 81  0
-    45 46 49  1  78 79 82  0
-    46 50 49  1  79 83 82  0
-    51 47 52  1  84 80 85  0
-    47 48 52  1  80 81 85  0
-    47 45 48  1  80 78 81  0
-    48 54 53  1  81 87 86  0
-    48 49 54  1  81 82 87  0
-    49 50 54  1  82 83 87  0
-    51 52 55  1  84 85 88  0
-    52 53 55  1  85 86 88  0
-    52 48 53  1  85 81 86  0
-    53 57 56  1  86 90 89  0
-    53 54 57  1  86 87 90  0
-    54 50 57  1  87 83 90  0
-    51 55 58  1  84 88 91  0
-    55 56 58  1  88 89 91  0
-    55 53 56  1  88 86 89  0
-    60 66 65  8  93 99 98  2
-    60 61 66  8  93 94 99  2
-    61 67 66  8  94 100 99  2
-    61 62 67  8  94 95 100  2
-    62 68 67  8  95 101 100  2
-    62 63 68  8  95 96 101  2
-    63 64 68  8  96 97 101  2
-    63 59 64  8  96 92 97  2
-    65 66 69  8  98 99 102  2
-    66 67 69  8  99 100 102  2
-    67 68 69  8  100 101 102  2
-    69 68 64  8  102 101 97  2
-    70 76 75  8  103 109 108  2
-    70 71 76  8  103 104 109  2
-    77 72 78  8  110 105 111  2
-    72 79 78  8  105 112 111  2
-    72 73 79  8  105 106 112  2
-    73 80 79  8  106 113 112  2
-    73 74 80  8  106 107 113  2
-    74 75 80  8  107 108 113  2
-    74 70 75  8  107 103 108  2
-    75 76 81  8  108 109 114  2
-    78 83 77  8  111 116 110  2
-    78 85 83  8  111 118 116  2
-    85 84 83  8  118 117 116  2
-    79 80 86  8  112 113 119  2
-    86 81 84  8  119 114 117  2
-    86 75 81  8  119 108 114  2
-    86 84 85  8  119 117 118  2
-    78 79 85  8  111 112 118  2
-    79 86 85  8  112 119 118  2
-    80 75 86  8  113 108 119  2
-    88 94 93  8  121 127 126  2
-    88 89 94  8  121 122 127  2
-    89 95 94  8  122 128 127  2
-    89 90 95  8  122 123 128  2
-    90 96 95  8  123 129 128  2
-    90 91 96  8  123 124 129  2
-    91 92 96  8  124 125 129  2
-    91 87 92  8  124 120 125  2
-    93 94 97  8  126 127 130  2
-    94 95 97  8  127 128 130  2
-    95 96 97  8  128 129 130  2
-    97 96 92  8  130 129 125  2
-    98 103 104  1  131 134 135  1
-    103 99 107  1  134 141 138  1
-    103 107 104  1  134 138 135  1
-    104 107 100  1  135 138 132  1
-    98 104 105  1  131 135 136  1
-    104 100 108  1  135 132 139  1
-    104 108 105  1  135 139 136  1
-    105 108 101  1  136 139 140  1
-    98 105 106  1  131 136 137  1
-    105 101 106  1  136 140 137  1
-    106 101 102  1  137 140 133  1
-    98 106 103  1  131 137 134  1
-    106 102 99  1  137 133 141  1
-    106 99 103  1  137 141 134  1
-    114 110 117  1  146 142 150  1
-    114 117 109  1  146 150 147  1
-    109 117 111  1  147 150 143  1
-    109 111 118  1  147 143 151  1
-    109 118 115  1  147 151 148  1
-    115 118 112  1  148 151 144  1
-    109 115 116  1  147 148 149  1
-    115 112 119  1  148 144 152  1
-    115 119 116  1  148 152 149  1
-    116 119 113  1  149 152 145  1
-    109 116 114  1  147 149 146  1
-    116 113 120  1  149 145 153  1
-    116 120 114  1  149 153 146  1
-    114 120 110  1  146 153 142  1
-  tverts 154
+    0 9 8 1 0 9 8 2
+    0 1 9 1 0 1 9 2
+    1 10 9 1 1 10 9 2
+    1 2 10 1 1 2 10 2
+    2 11 10 1 2 11 10 2
+    2 3 11 1 2 3 11 2
+    3 4 11 1 3 4 11 2
+    4 12 11 1 29 45 11 2
+    4 5 12 1 29 5 45 2
+    5 13 12 1 5 12 45 2
+    5 6 13 1 5 6 12 2
+    6 30 13 1 6 37 12 2
+    6 29 30 1 6 36 37 2
+    7 8 14 1 7 8 13 2
+    7 0 8 1 7 0 8 2
+    8 16 15 1 8 15 14 2
+    8 9 16 1 8 9 15 2
+    9 17 16 1 9 16 15 2
+    9 10 17 1 9 10 16 2
+    10 18 17 1 10 17 16 2
+    10 11 18 1 10 11 17 2
+    11 12 19 1 11 45 18 2
+    12 20 19 1 45 19 18 2
+    12 13 20 1 45 12 19 2
+    13 21 20 1 12 20 19 2
+    13 30 21 1 12 37 20 2
+    14 15 21 1 13 14 20 2
+    14 8 15 1 13 8 14 2
+    15 23 22 1 14 22 21 2
+    15 16 23 1 14 15 22 2
+    16 24 23 1 15 23 22 2
+    16 17 24 1 15 16 23 2
+    17 18 24 1 16 17 24 2
+    18 25 24 1 17 25 24 2
+    18 11 25 1 17 11 25 2
+    11 26 25 1 11 26 30 2
+    11 19 26 1 11 18 26 2
+    19 27 26 1 18 27 26 2
+    19 20 27 1 18 19 27 2
+    20 21 27 1 19 20 28 2
+    21 22 27 1 20 21 28 2
+    21 15 22 1 20 14 21 2
+    28 22 23 1 31 21 22 0
+    28 23 24 1 33 32 23 0
+    28 24 25 1 34 24 25 0
+    28 25 26 1 34 25 24 0
+    28 26 27 1 35 24 23 0
+    28 27 22 1 31 22 21 0
+    30 29 31 2 42 41 43 2
+    31 32 30 2 43 44 42 2
+    7 14 32 2 38 39 44 2
+    32 31 7 2 44 43 38 2
+    21 30 32 2 40 42 44 2
+    21 32 14 2 40 44 39 2
+    38 34 41 1 50 46 54 1
+    38 41 33 1 50 54 51 1
+    33 41 35 1 51 54 47 1
+    33 35 42 1 51 47 55 1
+    33 42 39 1 51 55 52 1
+    39 42 36 1 52 55 48 1
+    33 39 40 1 51 52 53 1
+    39 36 43 1 52 48 56 1
+    39 43 40 1 52 56 53 1
+    40 43 37 1 53 56 49 1
+    33 40 38 1 51 53 50 1
+    40 37 44 1 53 49 57 1
+    40 44 38 1 53 57 50 1
+    38 44 34 1 50 57 46 1
+    45 49 48 1 58 62 61 0
+    45 46 49 1 58 59 62 0
+    46 50 49 1 59 63 62 0
+    51 47 52 1 64 60 65 0
+    47 48 52 1 60 61 65 0
+    47 45 48 1 60 58 61 0
+    48 54 53 1 61 67 66 0
+    48 49 54 1 61 62 67 0
+    49 50 54 1 62 63 67 0
+    51 52 55 1 64 65 68 0
+    52 53 55 1 65 66 68 0
+    52 48 53 1 65 61 66 0
+    53 57 56 1 66 70 69 0
+    53 54 57 1 66 67 70 0
+    54 50 57 1 67 63 70 0
+    51 55 58 1 64 68 71 0
+    55 56 58 1 68 69 71 0
+    55 53 56 1 68 66 69 0
+    60 66 65 8 73 79 78 2
+    60 61 66 8 73 74 79 2
+    61 67 66 8 74 80 79 2
+    61 62 67 8 74 75 80 2
+    62 68 67 8 75 81 80 2
+    62 63 68 8 75 76 81 2
+    63 64 68 8 76 77 81 2
+    63 59 64 8 76 72 77 2
+    65 66 69 8 78 79 82 2
+    66 67 69 8 79 80 82 2
+    67 68 69 8 80 81 82 2
+    69 68 64 8 82 81 77 2
+    70 76 75 8 83 89 88 2
+    70 71 76 8 83 84 89 2
+    77 72 78 8 90 85 91 2
+    72 79 78 8 85 92 91 2
+    72 73 79 8 85 86 92 2
+    73 80 79 8 86 93 92 2
+    73 74 80 8 86 87 93 2
+    74 75 80 8 87 88 93 2
+    74 70 75 8 87 83 88 2
+    75 76 81 8 88 89 94 2
+    78 82 77 8 91 95 90 2
+    78 84 82 8 91 97 95 2
+    84 83 82 8 97 96 95 2
+    79 80 85 8 92 93 98 2
+    85 81 83 8 98 94 96 2
+    85 75 81 8 98 88 94 2
+    85 83 84 8 98 96 97 2
+    78 79 84 8 91 92 97 2
+    79 85 84 8 92 98 97 2
+    80 75 85 8 93 88 98 2
+    87 93 92 8 100 106 105 2
+    87 88 93 8 100 101 106 2
+    88 94 93 8 101 107 106 2
+    88 89 94 8 101 102 107 2
+    89 95 94 8 102 108 107 2
+    89 90 95 8 102 103 108 2
+    90 91 95 8 103 104 108 2
+    90 86 91 8 103 99 104 2
+    92 93 96 8 105 106 109 2
+    93 94 96 8 106 107 109 2
+    94 95 96 8 107 108 109 2
+    96 95 91 8 109 108 104 2
+    97 102 103 1 110 113 114 1
+    102 98 106 1 113 120 117 1
+    102 106 103 1 113 117 114 1
+    103 106 99 1 114 117 111 1
+    97 103 104 1 110 114 115 1
+    103 99 107 1 114 111 118 1
+    103 107 104 1 114 118 115 1
+    104 107 100 1 115 118 119 1
+    97 104 105 1 110 115 116 1
+    104 100 105 1 115 119 116 1
+    105 100 101 1 116 119 112 1
+    97 105 102 1 110 116 113 1
+    105 101 98 1 116 112 120 1
+    105 98 102 1 116 120 113 1
+    113 109 116 1 125 121 129 1
+    113 116 108 1 125 129 126 1
+    108 116 110 1 126 129 122 1
+    108 110 117 1 126 122 130 1
+    108 117 114 1 126 130 127 1
+    114 117 111 1 127 130 123 1
+    108 114 115 1 126 127 128 1
+    114 111 118 1 127 123 131 1
+    114 118 115 1 127 131 128 1
+    115 118 112 1 128 131 124 1
+    108 115 113 1 126 128 125 1
+    115 112 119 1 128 124 132 1
+    115 119 113 1 128 132 125 1
+    113 119 109 1 125 132 121 1
+  tverts 133
     0.394196 0.0253132 0.999001
     0.296046 0.0253132 0.999001
     0.197942 0.0253132 0.999001
@@ -483,26 +414,12 @@ node trimesh Mushroom_stalk
     0.197988 0.687871 0.497015
     0.296092 0.687871 0.497015
     0.00177987 0.0253132 0.999001
-    0.00177987 0.0253132 0.999001
     0.00177987 0.687871 0.497015
     0.345967 0.764136 0.5
-    0.394196 0.687871 0.497016
-    0.394196 0.687871 0.497016
-    0.296046 0.687871 0.497016
-    0.296046 0.687871 0.497016
-    0.197942 0.687871 0.497016
-    0.0998382 0.687871 0.497015
-    0.00173425 0.687871 0.497015
-    0.0998838 0.687871 0.497015
-    0.0998838 0.687871 0.497015
-    0.197988 0.687871 0.497015
-    0.296092 0.687871 0.497015
     0.291741 0.687945 1
     0.244158 0.764136 0.5
     0.0478115 0.764136 0.5
-    0.0478115 0.764136 0.5
     0.149621 0.764136 0.5
-    0.345967 0.764136 0.5
     0.253061 0.0253132 0.999001
     0.265498 0.246166 0.708511
     0.452005 0.97222 0.747665
@@ -512,13 +429,7 @@ node trimesh Mushroom_stalk
     0.424114 0.798978 0.31175
     0.434929 0.971359 0.205043
     0.434881 0.800241 -0.252335
-    0.00176467 0.356592 0.741465
-    0.00176467 0.356592 0.741465
     0.0803743 0.255972 0.741465
-    0.00176467 0.356592 0.741465
-    0.00176467 0.356592 0.741465
-    0.00176467 0.356592 0.741465
-    0.00176467 0.356592 0.741465
     0.596509 0.499716 0
     0.557995 0.490824 0
     0.566887 0.45231 0
@@ -568,7 +479,6 @@ node trimesh Mushroom_stalk
     0.494693 0.445434 0.933168
     0.568678 0.445434 0.933168
     0.580791 0.667872 0.250259
-    0.619899 0.667872 0.0751725
     0.518924 0.71109 0.360922
     0.560169 0.701903 0.425345
     0.504843 0.556708 0.693475
@@ -608,8 +518,8 @@ node trimesh Mushroom_stalk
     0.113595 0.396932 0
     0.139337 0.373755 0
 endnode
-node trimesh Fungal_bottom
-  parent Mushroom_stalk
+node trimesh fungal_bottom
+  parent mushroom_stalk
   position 0 0 2.86237
   orientation 0 0 0 0
   wirecolor 0.527344 0.527344 0.527344
@@ -670,89 +580,89 @@ node trimesh Fungal_bottom
     -0.574341 0.778264 0.286073
     -0.106737 -1.022 0.00661964
   faces 82
-    3 8 0  1  2 5 0  2
-    9 8 3  1  6 88 70  2
-    4 9 3  1  3 37 71  2
-    1 9 4  1  1 38 79  2
-    10 9 1  1  7 39 65  2
-    5 11 2  1  80 97 66  2
-    12 11 5  1  40 98 81  2
-    6 12 5  1  72 41 82  2
-    0 12 6  1  60 42 73  2
-    8 12 0  1  89 43 61  2
-    8 9 7  1  90 44 4  1
-    9 10 7  1  45 99 4  1
-    11 12 7  1  100 46 4  1
-    12 8 7  1  47 91 4  1
-    13 18 14  1  62 92 74  2
-    14 18 19  1  75 93 48  2
-    14 19 15  1  76 49 83  2
-    15 19 1  1  84 50 67  2
-    1 19 10  1  68 51 101  2
-    2 11 16  1  69 102 85  2
-    16 11 20  1  86 103 52  2
-    16 20 17  1  87 53 77  2
-    17 20 13  1  78 54 63  2
-    13 20 18  1  64 55 94  2
-    7 19 18  1  4 56 95  1
-    7 10 19  1  4 104 57  1
-    7 20 11  1  4 58 105  1
-    7 18 20  1  4 96 59  1
-    25 21 27  1  12 8 14  1
-    26 25 35  1  13 12 22  1
-    35 25 27  1  22 12 14  1
-    35 27 28  1  22 14 15  1
-    22 26 31  1  9 13 18  1
-    31 26 35  1  18 13 22  1
-    31 35 32  1  18 22 19  1
-    32 35 28  1  19 22 15  1
-    29 21 25  1  16 8 12  1
-    30 29 36  1  17 16 23  1
-    36 29 25  1  23 16 12  1
-    36 25 26  1  23 12 13  1
-    24 30 33  1  11 17 20  1
-    33 30 36  1  20 17 23  1
-    33 36 34  1  20 23 21  1
-    34 36 26  1  21 23 13  1
-    34 26 22  1  21 13 9  1
-    27 21 38  1  14 8 25  1
-    44 38 39  1  31 25 26  1
-    27 38 44  1  14 25 31  1
-    28 27 44  1  15 14 31  1
-    40 39 37  1  27 26 24  1
-    44 39 40  1  31 26 27  1
-    41 44 40  1  28 31 27  1
-    28 44 41  1  15 31 28  1
-    49 28 41  1  36 15 28  1
-    38 21 29  1  25 8 16  1
-    45 29 30  1  32 16 17  1
-    38 29 45  1  25 16 32  1
-    39 38 45  1  26 25 32  1
-    42 30 24  1  29 17 11  1
-    48 30 42  1  35 17 29  1
-    39 45 43  1  26 32 30  1
-    37 39 43  1  24 26 30  1
-    22 31 46  1  9 18 33  0
-    31 32 46  1  18 19 33  0
-    32 23 46  1  19 10 33  0
-    24 33 46  1  11 20 33  0
-    33 34 46  1  20 21 33  0
-    34 22 46  1  21 9 33  0
-    40 37 46  1  27 24 33  0
-    41 40 46  1  28 27 33  0
-    49 41 46  1  36 28 33  0
-    42 24 46  1  29 11 33  0
-    37 43 46  1  24 30 33  0
-    43 45 47  1  30 32 34  1
-    43 47 46  1  30 34 33  0
-    47 45 48  1  34 32 35  1
-    45 30 48  1  32 17 35  1
-    47 48 46  1  34 35 33  0
-    42 46 48  1  29 33 35  0
-    32 28 23  1  19 15 10  1
-    23 28 46  1  10 106 33  0
-    49 46 28  1  36 33 107  0
-  tverts 108
+    3 8 0 1 2 5 0 2
+    9 8 3 1 6 5 2 2
+    4 9 3 1 3 6 2 2
+    1 9 4 1 1 6 3 2
+    10 9 1 1 7 6 1 2
+    5 11 2 1 3 39 1 2
+    12 11 5 1 36 39 3 2
+    6 12 5 1 2 36 3 2
+    0 12 6 1 0 36 2 2
+    8 12 0 1 5 36 0 2
+    8 9 7 1 5 6 4 1
+    9 10 7 1 6 7 4 1
+    11 12 7 1 39 36 4 1
+    12 8 7 1 36 5 4 1
+    13 18 14 1 0 5 2 2
+    14 18 19 1 2 5 6 2
+    14 19 15 1 2 6 3 2
+    15 19 1 1 3 6 1 2
+    1 19 10 1 1 6 7 2
+    2 11 16 1 1 39 3 2
+    16 11 20 1 3 39 37 2
+    16 20 17 1 3 37 2 2
+    17 20 13 1 2 37 0 2
+    13 20 18 1 0 37 38 2
+    7 19 18 1 4 6 5 1
+    7 10 19 1 4 7 6 1
+    7 20 11 1 4 37 39 1
+    7 18 20 1 4 38 37 1
+    25 21 27 1 12 8 14 1
+    26 25 35 1 13 12 22 1
+    35 25 27 1 22 12 14 1
+    35 27 28 1 22 14 15 1
+    22 26 31 1 9 13 18 1
+    31 26 35 1 18 13 22 1
+    31 35 32 1 18 22 19 1
+    32 35 28 1 19 22 15 1
+    29 21 25 1 16 8 12 1
+    30 29 36 1 17 16 23 1
+    36 29 25 1 23 16 12 1
+    36 25 26 1 23 12 13 1
+    24 30 33 1 11 17 20 1
+    33 30 36 1 20 17 23 1
+    33 36 34 1 20 23 21 1
+    34 36 26 1 21 23 13 1
+    34 26 22 1 21 13 9 1
+    27 21 38 1 14 8 25 1
+    44 38 39 1 31 25 26 1
+    27 38 44 1 14 25 31 1
+    28 27 44 1 15 14 31 1
+    40 39 37 1 27 26 24 1
+    44 39 40 1 31 26 27 1
+    41 44 40 1 28 31 27 1
+    28 44 41 1 15 31 28 1
+    49 28 41 1 35 15 28 1
+    38 21 29 1 25 8 16 1
+    45 29 30 1 32 16 17 1
+    38 29 45 1 25 16 32 1
+    39 38 45 1 26 25 32 1
+    42 30 24 1 29 17 11 1
+    48 30 42 1 34 17 29 1
+    39 45 43 1 26 32 30 1
+    37 39 43 1 24 26 30 1
+    22 31 46 1 9 18 8 0
+    31 32 46 1 18 19 8 0
+    32 23 46 1 19 10 8 0
+    24 33 46 1 11 20 8 0
+    33 34 46 1 20 21 8 0
+    34 22 46 1 21 9 8 0
+    40 37 46 1 27 24 8 0
+    41 40 46 1 28 27 8 0
+    49 41 46 1 35 28 8 0
+    42 24 46 1 29 11 8 0
+    37 43 46 1 24 30 8 0
+    43 45 47 1 30 32 33 1
+    43 47 46 1 30 33 8 0
+    47 45 48 1 33 32 34 1
+    45 30 48 1 32 17 34 1
+    47 48 46 1 33 34 8 0
+    42 46 48 1 29 8 34 0
+    32 28 23 1 19 15 10 1
+    23 28 46 1 10 40 8 0
+    49 46 28 1 35 8 40 0
+  tverts 41
     0.639225 0.00562257 0
     0.40214 0.24278 0
     0.607459 0.124228 0
@@ -786,355 +696,347 @@ node trimesh Fungal_bottom
     0.786423 0.273454 0.093839
     0.987652 0.752109 0.62083
     0.987652 0.252804 0.62083
-    0.70881 0.502456 0.0921401
     0.905961 0.16048 0.0506073
     0.971587 0.153815 0.222721
     0.757671 0.970832 0.00568952
-    0.49045 0.109786 0.432505
-    0.49045 0.109786 0.432505
-    0.49045 0.109786 0.432505
     0.484952 0.0888968 0.432505
-    0.484952 0.0888968 0.432505
-    0.484952 0.0888968 0.432505
-    0.484952 0.0888968 0.432505
-    0.49045 0.109786 0.432505
-    0.49045 0.109786 0.432505
-    0.484952 0.0888968 0.432505
-    0.484952 0.0888968 0.432505
-    0.49045 0.109786 0.432505
-    0.49045 0.109786 0.432505
-    0.49045 0.109786 0.432505
-    0.49045 0.109786 0.432505
     0.495947 0.107587 0.432505
-    0.495947 0.107587 0.432505
-    0.495947 0.107587 0.432505
-    0.495947 0.107587 0.432505
-    0.49045 0.109786 0.432505
-    0.49045 0.109786 0.432505
-    0.495947 0.107587 0.432505
-    0.495947 0.107587 0.432505
-    0.639225 0.00562257 0
-    0.639225 0.00562257 0
-    0.639225 0.00562257 0
-    0.639225 0.00562257 0
-    0.639225 0.00562257 0
-    0.40214 0.24278 0
-    0.40214 0.24278 0
-    0.40214 0.24278 0
-    0.40214 0.24278 0
-    0.40214 0.24278 0
-    0.607459 0.124228 0
-    0.607459 0.124228 0
-    0.607459 0.124228 0
-    0.607459 0.124228 0
-    0.607459 0.124228 0
-    0.607459 0.124228 0
-    0.607459 0.124228 0
-    0.607459 0.124228 0
-    0.607459 0.124228 0
-    0.520672 0.211014 0
-    0.520672 0.211014 0
-    0.520672 0.211014 0
-    0.520672 0.211014 0
-    0.520672 0.211014 0
-    0.520672 0.211014 0
-    0.520672 0.211014 0
-    0.520672 0.211014 0
-    0.520672 0.211014 0
-    0.523395 0.00561872 0.432505
-    0.523395 0.00561872 0.432505
-    0.523395 0.00561872 0.432505
-    0.523395 0.00561872 0.432505
-    0.523395 0.00561872 0.432505
-    0.523395 0.00561872 0.432505
-    0.542086 0.00561872 0.432505
-    0.523395 0.00561872 0.432505
     0.542086 0.00561872 0.432505
     0.40214 0.12752 0.432505
-    0.40214 0.12752 0.432505
-    0.40214 0.152807 0.432505
-    0.40214 0.12752 0.432505
-    0.40214 0.152807 0.432505
-    0.40214 0.12752 0.432505
-    0.40214 0.12752 0.432505
-    0.40214 0.152807 0.432505
-    0.40214 0.12752 0.432505
-    0.708811 0.897191 0.419491
     0.708811 0.897191 0.419491
 endnode
-node emitter ChunkyWood81
-  parent PLC_Mshrm03
+node emitter fire!47
+  parent plc_mshrm03
+  position 0 0 0.532671
+  orientation -1 0 0 -1.5708
+  wirecolor 0.605469 0.605469 0.605469
+  colorStart 0.47451 0.447059 0.392157
+  colorEnd 0.819608 0.803922 0.74902
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 4
+  sizeEnd 1
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 24
+  birthrate 10
+  spawntype 0
+  lifeExp 2.5
+  mass 0.09
+  spread 2.96706
+  particleRot 0.5
+  velocity 2
+  randvel 0.5
+  fps 10
+  random 0
+  inherit 1
+  inherit_local 0
+  inherit_part 0
+  inheritvel 0
+  xsize 100
+  ysize 99
+  bounce 0
+  bounce_co 0
+  loop 0
+  update Explosion
+  render Normal
+  blend Normal
+  deadspace 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  blastRadius 0.2
+  blastLength 1
+  twosidedtex 1
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+  texture fxpa_smoke01
+  xgrid 4
+  ygrid 4
+  affectedByWind 0
+  m_isTinted 1
+  renderorder 0
+  splat 0
+endnode
+node emitter chunkywood81
+  parent plc_mshrm03
   position 0 0 0.712937
   orientation 0 0 0 0
   wirecolor 0.839844 0.839844 0.839844
-    colorStart 0.482353 0.435294 0.317647
-    colorEnd 0.584314 0.533333 0.407843
-    alphaStart 1
-    alphaEnd 1
-    sizeStart 0.1
-    sizeEnd 0.1
-    sizeStart_y 0
-    sizeEnd_y 0
-    frameStart 0
-    frameEnd 24
-    birthrate 3
-    spawnType 0
-    lifeExp 0.75
-    mass 3
-    spread 1.22173
-    particleRot 2.9
-    velocity 8
-    randvel 0.3
-    fps 0
-    random 0
-    inherit 1
-    inherit_local 0
-    inherit_part 0
-    inheritvel 0
-    xsize 89
-    ysize 40
-    bounce 1
-    bounce_co 0.5
-    loop 0
-    update Explosion
-    render Normal
-    Blend Normal
-    update_sel 2
-    render_sel 1
-    blend_sel 1
-    deadspace 0
-    opacity 0.5
-    blurlength 10
-    lightningDelay 0
-    lightningRadius 0
-    lightningScale 0
-    blastRadius 0
-    blastLength 0
-    twosidedtex 1
-    p2p 0
-    p2p_sel 1
-    p2p_type Bezier
-    p2p_bezier2 0
-    p2p_bezier3 0
-    combinetime 0
-    drag 0
-    grav 0
-    threshold 0
-    texture fxpa_cloud02
-    xgrid 5
-    ygrid 5
-    affectedByWind 0
-    m_isTinted 0
-    renderorder 0
-    Splat 0
-    chunkName PLC_Chunk_M01
+  colorStart 0.482353 0.435294 0.317647
+  colorEnd 0.584314 0.533333 0.407843
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 24
+  birthrate 3
+  spawntype 0
+  lifeExp 0.75
+  mass 3
+  spread 1.22173
+  particleRot 2.9
+  velocity 8
+  randvel 0.3
+  fps 0
+  random 0
+  inherit 1
+  inherit_local 0
+  inherit_part 0
+  inheritvel 0
+  xsize 89
+  ysize 40
+  bounce 1
+  bounce_co 0.5
+  loop 0
+  update Explosion
+  render Normal
+  blend Normal
+  deadspace 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  twosidedtex 1
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+  texture fxpa_cloud02
+  xgrid 5
+  ygrid 5
+  affectedByWind 0
+  m_isTinted 0
+  renderorder 0
+  splat 0
+  chunkName plc_chunk_m01
 endnode
-endmodelgeom PLC_Mshrm03
+endmodelgeom plc_mshrm03
 
 #MAXANIM ASCII
-newanim damage PLC_Mshrm03
+newanim damage plc_mshrm03
   length 0.133333
   transtime 0
-  animroot PLC_Mshrm03
-node dummy PLC_Mshrm03
-  parent NULL
-endnode
-node dummy Mshrm03_hand
-  parent PLC_Mshrm03
-endnode
-node dummy Mshrm03_head
-  parent PLC_Mshrm03
-endnode
-node dummy Mshrm03_head_hit
-  parent PLC_Mshrm03
-endnode
-node dummy Mshrm03_impact
-  parent PLC_Mshrm03
-endnode
-node dummy Mshrm03_ground
-  parent PLC_Mshrm03
-endnode
-node emitter fire!47
-  parent PLC_Mshrm03
-endnode
-node trimesh damage13
-  parent PLC_Mshrm03
+  animroot plc_mshrm03
+  node dummy plc_mshrm03
+    parent NULL
+  endnode
+  node dummy plc_mushrm03_wg
+    parent plc_mshrm03
+    #part-number -1
+  endnode
+  node dummy mshrm03_hand
+    parent plc_mshrm03
+  endnode
+  node dummy mshrm03_head
+    parent plc_mshrm03
+  endnode
+  node dummy mshrm03_head_hit
+    parent plc_mshrm03
+  endnode
+  node dummy mshrm03_impact
+    parent plc_mshrm03
+  endnode
+  node dummy mshrm03_ground
+    parent plc_mshrm03
+  endnode
+  node trimesh damage13
+    parent plc_mshrm03
     positionkey
-      0  0 0 0
-      0.0333333  0 0 0.0244581
-      0.133333  0 0 0
+      0 0 0 0
+      0.0333333 0 0 0.0244581
+      0.133333 0 0 0
     endlist
     orientationkey
-      0  0 0 0 0
-      0.0333333  -0.371336 0.928463 -0.00810258 0.0469942
-      0.1  0.599949 -0.799969 -0.0104721 0.0436326
-      0.133333  0 0 0 0
+      0 0 0 0 0
+      0.0333333 -0.371336 0.928463 -0.00810258 0.0469942
+      0.1 0.599949 -0.799969 -0.0104721 0.0436326
+      0.133333 0 0 0 0
     endlist
-endnode
-node trimesh Mushroom_stalk
-  parent damage13
-endnode
-node trimesh Fungal_bottom
-  parent Mushroom_stalk
+  endnode
+  node dummy mushroom_stalk
+    parent damage13
+  endnode
+  node trimesh fungal_bottom
+    parent mushroom_stalk
     orientationkey
-      0  0 0 0 0
-      0.0666667  -0.000409308 0.99999 -0.00436516 0.0872665
-      0.133333  0 -1 0 0.0872665
+      0 0 0 0 0
+      0.0666667 -0.000409308 0.99999 -0.00436516 0.0872665
+      0.133333 0 -1 0 0.0872665
     endlist
-endnode
-node emitter ChunkyWood81
-  parent PLC_Mshrm03
-endnode
-node trimesh PLC_Mushrm03_wg
-  parent PLC_Mshrm03
-endnode
-doneanim damage PLC_Mshrm03
+  endnode
+  node emitter fire!47
+    parent plc_mshrm03
+  endnode
+  node emitter chunkywood81
+    parent plc_mshrm03
+  endnode
+doneanim damage plc_mshrm03
 
 #MAXANIM ASCII
-newanim die PLC_Mshrm03
-  length 0.166667
-  transtime 0
-  animroot PLC_Mshrm03
-node dummy PLC_Mshrm03
-  parent NULL
-endnode
-node dummy Mshrm03_hand
-  parent PLC_Mshrm03
-endnode
-node dummy Mshrm03_head
-  parent PLC_Mshrm03
-endnode
-node dummy Mshrm03_head_hit
-  parent PLC_Mshrm03
-endnode
-node dummy Mshrm03_impact
-  parent PLC_Mshrm03
-endnode
-node dummy Mshrm03_ground
-  parent PLC_Mshrm03
-endnode
-node emitter fire!47
-  parent PLC_Mshrm03
-endnode
-node trimesh damage13
-  parent PLC_Mshrm03
-    positionkey
-      0  0 0 0
-      0.166667  0 0 -3.77999
-    endlist
-    orientationkey
-      0  0 0 0 0
-    endlist
-endnode
-node trimesh Mushroom_stalk
-  parent damage13
-endnode
-node trimesh Fungal_bottom
-  parent Mushroom_stalk
-endnode
-node emitter ChunkyWood81
-  parent PLC_Mshrm03
-endnode
-node trimesh PLC_Mushrm03_wg
-  parent PLC_Mshrm03
-endnode
-event 0  detonate
-event 0  detonate
-doneanim die PLC_Mshrm03
-
-#MAXANIM ASCII
-newanim dead PLC_Mshrm03
+newanim dead plc_mshrm03
   length 0.0333333
   transtime 0
-  animroot PLC_Mshrm03
-node dummy PLC_Mshrm03
-  parent NULL
-endnode
-node dummy Mshrm03_hand
-  parent PLC_Mshrm03
-endnode
-node dummy Mshrm03_head
-  parent PLC_Mshrm03
-endnode
-node dummy Mshrm03_head_hit
-  parent PLC_Mshrm03
-endnode
-node dummy Mshrm03_impact
-  parent PLC_Mshrm03
-endnode
-node dummy Mshrm03_ground
-  parent PLC_Mshrm03
-endnode
-node emitter fire!47
-  parent PLC_Mshrm03
-endnode
-node trimesh damage13
-  parent PLC_Mshrm03
+  animroot plc_mshrm03
+  node dummy plc_mshrm03
+    parent NULL
+  endnode
+  node dummy plc_mushrm03_wg
+    parent plc_mshrm03
+    #part-number -1
+  endnode
+  node dummy mshrm03_hand
+    parent plc_mshrm03
+  endnode
+  node dummy mshrm03_head
+    parent plc_mshrm03
+  endnode
+  node dummy mshrm03_head_hit
+    parent plc_mshrm03
+  endnode
+  node dummy mshrm03_impact
+    parent plc_mshrm03
+  endnode
+  node dummy mshrm03_ground
+    parent plc_mshrm03
+  endnode
+  node trimesh damage13
+    parent plc_mshrm03
     positionkey
-      0  0 0 -3.77999
-      0.0333333  0 0 -3.77999
+      0 0 0 -3.77999
+      0.0333333 0 0 -3.77999
     endlist
-endnode
-node trimesh Mushroom_stalk
-  parent damage13
-endnode
-node trimesh Fungal_bottom
-  parent Mushroom_stalk
-endnode
-node emitter ChunkyWood81
-  parent PLC_Mshrm03
-endnode
-node trimesh PLC_Mushrm03_wg
-  parent PLC_Mshrm03
-endnode
-doneanim dead PLC_Mshrm03
+  endnode
+  node dummy mushroom_stalk
+    parent damage13
+  endnode
+  node dummy fungal_bottom
+    parent mushroom_stalk
+  endnode
+  node emitter fire!47
+    parent plc_mshrm03
+  endnode
+  node emitter chunkywood81
+    parent plc_mshrm03
+  endnode
+doneanim dead plc_mshrm03
 
 #MAXANIM ASCII
-newanim default PLC_Mshrm03
+newanim default plc_mshrm03
   length 0
   transtime 0.25
-  animroot PLC_Mshrm03
-node dummy PLC_Mshrm03
-  parent NULL
-endnode
-node dummy Mshrm03_hand
-  parent PLC_Mshrm03
-endnode
-node dummy Mshrm03_head
-  parent PLC_Mshrm03
-endnode
-node dummy Mshrm03_head_hit
-  parent PLC_Mshrm03
-endnode
-node dummy Mshrm03_impact
-  parent PLC_Mshrm03
-endnode
-node dummy Mshrm03_ground
-  parent PLC_Mshrm03
-endnode
-node emitter fire!47
-  parent PLC_Mshrm03
-endnode
-node trimesh damage13
-  parent PLC_Mshrm03
+  animroot plc_mshrm03
+  node dummy plc_mshrm03
+    parent NULL
+  endnode
+  node dummy plc_mushrm03_wg
+    parent plc_mshrm03
+    #part-number -1
+  endnode
+  node dummy mshrm03_hand
+    parent plc_mshrm03
+  endnode
+  node dummy mshrm03_head
+    parent plc_mshrm03
+  endnode
+  node dummy mshrm03_head_hit
+    parent plc_mshrm03
+  endnode
+  node dummy mshrm03_impact
+    parent plc_mshrm03
+  endnode
+  node dummy mshrm03_ground
+    parent plc_mshrm03
+  endnode
+  node trimesh damage13
+    parent plc_mshrm03
     positionkey
-      0  0 0 0
+      0 0 0 0
     endlist
     orientationkey
-      0  0 0 0 0
+      0 0 0 0 0
     endlist
-endnode
-node trimesh Mushroom_stalk
-  parent damage13
-endnode
-node trimesh Fungal_bottom
-  parent Mushroom_stalk
-endnode
-node emitter ChunkyWood81
-  parent PLC_Mshrm03
-endnode
-node trimesh PLC_Mushrm03_wg
-  parent PLC_Mshrm03
-endnode
-doneanim default PLC_Mshrm03
-donemodel PLC_Mshrm03
+  endnode
+  node dummy mushroom_stalk
+    parent damage13
+  endnode
+  node dummy fungal_bottom
+    parent mushroom_stalk
+  endnode
+  node emitter fire!47
+    parent plc_mshrm03
+  endnode
+  node emitter chunkywood81
+    parent plc_mshrm03
+  endnode
+doneanim default plc_mshrm03
+
+#MAXANIM ASCII
+newanim die plc_mshrm03
+  length 0.166667
+  transtime 0
+  event 0 detonate
+  animroot plc_mshrm03
+  node dummy plc_mshrm03
+    parent NULL
+  endnode
+  node dummy plc_mushrm03_wg
+    parent plc_mshrm03
+    #part-number -1
+  endnode
+  node dummy mshrm03_hand
+    parent plc_mshrm03
+  endnode
+  node dummy mshrm03_head
+    parent plc_mshrm03
+  endnode
+  node dummy mshrm03_head_hit
+    parent plc_mshrm03
+  endnode
+  node dummy mshrm03_impact
+    parent plc_mshrm03
+  endnode
+  node dummy mshrm03_ground
+    parent plc_mshrm03
+  endnode
+  node trimesh damage13
+    parent plc_mshrm03
+    positionkey
+      0 0 0 0
+      0.166667 0 0 -3.77999
+    endlist
+    orientationkey
+      0 0 0 0 0
+    endlist
+  endnode
+  node dummy mushroom_stalk
+    parent damage13
+  endnode
+  node dummy fungal_bottom
+    parent mushroom_stalk
+  endnode
+  node emitter fire!47
+    parent plc_mshrm03
+  endnode
+  node emitter chunkywood81
+    parent plc_mshrm03
+  endnode
+doneanim die plc_mshrm03
+donemodel plc_mshrm03

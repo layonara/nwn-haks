@@ -1,19 +1,17 @@
-#Exported from 3ds max by MDL Plug-in Suite 1.0b
-#http://www.bricksbuilder.com/nwn/utils/
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 18:35:40 2019
 #MAXMODEL ASCII
-# model: PLC_51L
-filedependancy jan6.max
-newmodel PLC_51L
-setsupermodel PLC_51L NULL
-classification Character
-setanimationscale 1.0
-#MAXGEOM  ASCII
-beginmodelgeom PLC_51L
-node dummy PLC_51L
+filedependency Unknown
+newmodel plc_51l
+  classification CHARACTER
+  setsupermodel plc_51l NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom plc_51l
+node dummy plc_51l
   parent NULL
 endnode
-node trimesh Plane2274
-  parent PLC_51L
+node trimesh plane2274
+  parent plc_51l
   position 0 0.245978 0.625209
   orientation 1 0 0 -1.5708
   wirecolor 0.722656 0.722656 0.722656
@@ -23,7 +21,7 @@ node trimesh Plane2274
   shininess 0
   bitmap tdd02_web1
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 0
@@ -38,19 +36,15 @@ node trimesh Plane2274
     -0.64 -0.64 0
     0.64 -0.64 0
   faces 4
-    2 0 3  1  2 0 3  0
-    1 3 0  1  1 3 0  0
-    6 4 7  1  6 4 7  0
-    5 7 4  1  5 7 4  0
-  tverts 8
+    2 0 3 1 2 0 3 0
+    1 3 0 1 1 3 0 0
+    6 4 7 1 3 1 2 0
+    5 7 4 1 0 2 1 0
+  tverts 4
     0.000499517 0.000499755 0.5
     0.9995 0.000499517 0.5
     0.000499755 0.999501 0.5
     0.999501 0.9995 0.5
-    0.9995 0.000499547 0.000499487
-    0.000499517 0.000499785 0.716761
-    0.999501 0.9995 0.283239
-    0.000499755 0.9995 0.999501
 endnode
-endmodelgeom PLC_51L
-donemodel PLC_51L
+endmodelgeom plc_51l
+donemodel plc_51l

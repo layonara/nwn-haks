@@ -1,49 +1,49 @@
 #Shrine of Draconis - Black Dragon
 #by: Mystic
 #www.mysticnexus.com
-# model: B_DS
+# model: a_black
 filedependancy Unknown
-newmodel B_DS
-setsupermodel B_DS PLC_S01
+newmodel a_black
+setsupermodel a_black PLC_S01
 classification Character
 setanimationscale 1.0
 #MAXGEOM  ASCII
-beginmodelgeom B_DS
-node dummy B_DS
+beginmodelgeom a_black
+node dummy a_black
   parent NULL
 endnode
 node dummy S01_hand
-  parent B_DS
+  parent a_black
   position 0.00398437 -0.505195 0.934402
   orientation 0 0 0 0
   wirecolor 0.605469 0.605469 0.605469
 endnode
 node dummy S01_head
-  parent B_DS
+  parent a_black
   position 0.00398437 0.0108252 2.1763
   orientation 0 0 0 0
   wirecolor 0.605469 0.605469 0.605469
 endnode
 node dummy S01_head_hit
-  parent B_DS
+  parent a_black
   position 0.00398437 0.0108252 1.69482
   orientation 0 0 0 0
   wirecolor 0.605469 0.605469 0.605469
 endnode
 node dummy S01_impact
-  parent B_DS
+  parent a_black
   position 0.00398437 0.011001 0.868134
   orientation 0 0 0 0
   wirecolor 0.605469 0.605469 0.605469
 endnode
 node dummy S01_ground
-  parent B_DS
+  parent a_black
   position -0.00363281 0.0069873 0
   orientation 0 0 0 0
   wirecolor 0.605469 0.605469 0.605469
 endnode
 node emitter OmenEmitter266
-  parent B_DS
+  parent a_black
   position 0.723289 -0.000415039 1.08843
   orientation 0 0 1 -0.516453
   wirecolor 0.605469 0.605469 0.605469
@@ -109,7 +109,7 @@ node emitter OmenEmitter266
     Splat 0
 endnode
 node emitter fire!153
-  parent B_DS
+  parent a_black
   position 0.710884 -0.0250415 1.40277
   orientation 0 0 0 0
   wirecolor 0.605469 0.605469 0.605469
@@ -175,7 +175,7 @@ node emitter fire!153
     Splat 0
 endnode
 node emitter OmenEmitter267
-  parent B_DS
+  parent a_black
   position -0.718757 -0.000415039 1.08843
   orientation 0 0 1 -0.516453
   wirecolor 0.605469 0.605469 0.605469
@@ -241,7 +241,7 @@ node emitter OmenEmitter267
     Splat 0
 endnode
 node emitter fire!154
-  parent B_DS
+  parent a_black
   position -0.731162 -0.0250415 1.40277
   orientation 0 0 0 0
   wirecolor 0.605469 0.605469 0.605469
@@ -307,7 +307,7 @@ node emitter fire!154
     Splat 0
 endnode
 node trimesh damage102
-  parent B_DS
+  parent a_black
   position -0.0337494 -0.0532957 0
   orientation 0 0 0 0
   wirecolor 0.605469 0.605469 0.605469
@@ -858,7 +858,7 @@ node trimesh Box117
     0.0684375 0.511558 0
 endnode
 node emitter fire!155
-  parent B_DS
+  parent a_black
   position -0.0353168 -0.0287561 0.748767
   orientation -1 0 0 -1.5708
   wirecolor 0.34375 0.34375 0.34375
@@ -924,7 +924,7 @@ node emitter fire!155
     Splat 0
 endnode
 node emitter ChunkyWood246
-  parent B_DS
+  parent a_black
   position 0.091246 -0.0277747 0.903015
   orientation 0 0 0 0
   wirecolor 0.34375 0.34375 0.34375
@@ -991,7 +991,7 @@ node emitter ChunkyWood246
     chunkName PLC_Chunk_S01
 endnode
 node emitter ChunkyWood248
-  parent B_DS
+  parent a_black
   position 0.091246 -0.0277747 0.441933
   orientation 0 0 0 0
   wirecolor 0.34375 0.34375 0.34375
@@ -1057,61 +1057,61 @@ node emitter ChunkyWood248
     Splat 0
     chunkName PLC_Chunk_S02
 endnode
-endmodelgeom B_DS
+endmodelgeom a_black
 
 #MAXANIM ASCII
-newanim on B_DS
+newanim on a_black
   length 0.0333333
   transtime 0
-  animroot B_DS
-node dummy B_DS
+  animroot a_black
+node dummy a_black
   parent NULL
 endnode
 node dummy S01_hand
-  parent B_DS
+  parent a_black
 endnode
 node dummy S01_head
-  parent B_DS
+  parent a_black
 endnode
 node dummy S01_head_hit
-  parent B_DS
+  parent a_black
 endnode
 node dummy S01_impact
-  parent B_DS
+  parent a_black
 endnode
 node dummy S01_ground
-  parent B_DS
+  parent a_black
 endnode
 node emitter OmenEmitter266
-  parent B_DS
+  parent a_black
     birthratekey
       0  6
       0.0333333  3
     endlist
 endnode
 node emitter fire!153
-  parent B_DS
+  parent a_black
     birthratekey
       0  5
       0.0333333  5
     endlist
 endnode
 node emitter OmenEmitter267
-  parent B_DS
+  parent a_black
     birthratekey
       0  6
       0.0333333  3
     endlist
 endnode
 node emitter fire!154
-  parent B_DS
+  parent a_black
     birthratekey
       0  5
       0.0333333  5
     endlist
 endnode
 node trimesh damage102
-  parent B_DS
+  parent a_black
 endnode
 node trimesh Cylinder102
   parent damage102
@@ -1126,44 +1126,44 @@ node trimesh Box117
   parent damage102
 endnode
 node emitter fire!155
-  parent B_DS
+  parent a_black
 endnode
 node emitter ChunkyWood246
-  parent B_DS
+  parent a_black
 endnode
 node emitter ChunkyWood248
-  parent B_DS
+  parent a_black
 endnode
-node trimesh B_DS_wg
-  parent B_DS
+node trimesh a_black_wg
+  parent a_black
 endnode
-doneanim on B_DS
+doneanim on a_black
 
 #MAXANIM ASCII
-newanim off2on B_DS
+newanim off2on a_black
   length 0.0333333
   transtime 0
-  animroot B_DS
-node dummy B_DS
+  animroot a_black
+node dummy a_black
   parent NULL
 endnode
 node dummy S01_hand
-  parent B_DS
+  parent a_black
 endnode
 node dummy S01_head
-  parent B_DS
+  parent a_black
 endnode
 node dummy S01_head_hit
-  parent B_DS
+  parent a_black
 endnode
 node dummy S01_impact
-  parent B_DS
+  parent a_black
 endnode
 node dummy S01_ground
-  parent B_DS
+  parent a_black
 endnode
 node emitter OmenEmitter266
-  parent B_DS
+  parent a_black
     positionkey
       0  0.723289 -0.000415015 1.08843
     endlist
@@ -1173,7 +1173,7 @@ node emitter OmenEmitter266
     endlist
 endnode
 node emitter fire!153
-  parent B_DS
+  parent a_black
     positionkey
       0  0.710884 -0.0250415 1.40277
     endlist
@@ -1183,7 +1183,7 @@ node emitter fire!153
     endlist
 endnode
 node emitter OmenEmitter267
-  parent B_DS
+  parent a_black
     positionkey
       0  -0.718757 -0.000415042 1.08843
     endlist
@@ -1193,7 +1193,7 @@ node emitter OmenEmitter267
     endlist
 endnode
 node emitter fire!154
-  parent B_DS
+  parent a_black
     positionkey
       0  -0.731162 -0.0250415 1.40277
     endlist
@@ -1203,7 +1203,7 @@ node emitter fire!154
     endlist
 endnode
 node trimesh damage102
-  parent B_DS
+  parent a_black
 endnode
 node trimesh Cylinder102
   parent damage102
@@ -1218,72 +1218,72 @@ node trimesh Box117
   parent damage102
 endnode
 node emitter fire!155
-  parent B_DS
+  parent a_black
 endnode
 node emitter ChunkyWood246
-  parent B_DS
+  parent a_black
 endnode
 node emitter ChunkyWood248
-  parent B_DS
+  parent a_black
 endnode
-node trimesh B_DS_wg
-  parent B_DS
+node trimesh a_black_wg
+  parent a_black
 endnode
-doneanim off2on B_DS
+doneanim off2on a_black
 
 #MAXANIM ASCII
-newanim on2off B_DS
+newanim on2off a_black
   length 0.0333333
   transtime 0
-  animroot B_DS
-node dummy B_DS
+  animroot a_black
+node dummy a_black
   parent NULL
 endnode
 node dummy S01_hand
-  parent B_DS
+  parent a_black
 endnode
 node dummy S01_head
-  parent B_DS
+  parent a_black
 endnode
 node dummy S01_head_hit
-  parent B_DS
+  parent a_black
 endnode
 node dummy S01_impact
-  parent B_DS
+  parent a_black
 endnode
 node dummy S01_ground
-  parent B_DS
+  parent a_black
 endnode
 node emitter OmenEmitter266
-  parent B_DS
+  parent a_black
     birthratekey
       0  3
       0.0333333  -4
     endlist
 endnode
 node emitter fire!153
-  parent B_DS
+  parent a_black
     birthratekey
       0  5
       0.0333333  0
     endlist
 endnode
 node emitter OmenEmitter267
-  parent B_DS
+  parent a_black
     birthratekey
       0  3
       0.0333333  -4
     endlist
 endnode
 node emitter fire!154
-  parent B_DS
+  parent a_black
     birthratekey
       0  5
       0.0333333  0
     endlist
 endnode
 node trimesh damage102
-  parent B_DS
+  parent a_black
 endnode
 node trimesh Cylinder102
   parent damage102
@@ -1298,72 +1298,72 @@ node trimesh Box117
   parent damage102
 endnode
 node emitter fire!155
-  parent B_DS
+  parent a_black
 endnode
 node emitter ChunkyWood246
-  parent B_DS
+  parent a_black
 endnode
 node emitter ChunkyWood248
-  parent B_DS
+  parent a_black
 endnode
-node trimesh B_DS_wg
-  parent B_DS
+node trimesh a_black_wg
+  parent a_black
 endnode
-doneanim on2off B_DS
+doneanim on2off a_black
 
 #MAXANIM ASCII
-newanim off B_DS
+newanim off a_black
   length 0.0333333
   transtime 0
-  animroot B_DS
-node dummy B_DS
+  animroot a_black
+node dummy a_black
   parent NULL
 endnode
 node dummy S01_hand
-  parent B_DS
+  parent a_black
 endnode
 node dummy S01_head
-  parent B_DS
+  parent a_black
 endnode
 node dummy S01_head_hit
-  parent B_DS
+  parent a_black
 endnode
 node dummy S01_impact
-  parent B_DS
+  parent a_black
 endnode
 node dummy S01_ground
-  parent B_DS
+  parent a_black
 endnode
 node emitter OmenEmitter266
-  parent B_DS
+  parent a_black
     birthratekey
       0  -4
       0.0333333  -4
     endlist
 endnode
 node emitter fire!153
-  parent B_DS
+  parent a_black
     birthratekey
       0  0
       0.0333333  0
     endlist
 endnode
 node emitter OmenEmitter267
-  parent B_DS
+  parent a_black
     birthratekey
       0  -4
       0.0333333  -4
     endlist
 endnode
 node emitter fire!154
-  parent B_DS
+  parent a_black
     birthratekey
       0  0
       0.0333333  0
     endlist
 endnode
 node trimesh damage102
-  parent B_DS
+  parent a_black
 endnode
 node trimesh Cylinder102
   parent damage102
@@ -1378,68 +1378,68 @@ node trimesh Box117
   parent damage102
 endnode
 node emitter fire!155
-  parent B_DS
+  parent a_black
 endnode
 node emitter ChunkyWood246
-  parent B_DS
+  parent a_black
 endnode
 node emitter ChunkyWood248
-  parent B_DS
+  parent a_black
 endnode
-node trimesh B_DS_wg
-  parent B_DS
+node trimesh a_black_wg
+  parent a_black
 endnode
-doneanim off B_DS
+doneanim off a_black
 
 #MAXANIM ASCII
-newanim damage B_DS
+newanim damage a_black
   length 0.166667
   transtime 0.25
-  animroot B_DS
-node dummy B_DS
+  animroot a_black
+node dummy a_black
   parent NULL
 endnode
 node dummy S01_hand
-  parent B_DS
+  parent a_black
 endnode
 node dummy S01_head
-  parent B_DS
+  parent a_black
 endnode
 node dummy S01_head_hit
-  parent B_DS
+  parent a_black
 endnode
 node dummy S01_impact
-  parent B_DS
+  parent a_black
 endnode
 node dummy S01_ground
-  parent B_DS
+  parent a_black
 endnode
 node emitter OmenEmitter266
-  parent B_DS
+  parent a_black
     positionkey
       0.166667  0.723289 -0.000415015 1.08331
     endlist
 endnode
 node emitter fire!153
-  parent B_DS
+  parent a_black
     positionkey
       0.166667  0.710884 -0.0250415 1.39765
     endlist
 endnode
 node emitter OmenEmitter267
-  parent B_DS
+  parent a_black
     positionkey
       0.166667  -0.718757 -0.000415042 1.08331
     endlist
 endnode
 node emitter fire!154
-  parent B_DS
+  parent a_black
     positionkey
       0.166667  -0.731162 -0.0250415 1.39765
     endlist
 endnode
 node trimesh damage102
-  parent B_DS
+  parent a_black
     positionkey
       0  -0.0337494 -0.0532957 0
       0.0333333  -0.0337494 -0.0532957 0.0244581
@@ -1467,72 +1467,72 @@ node trimesh Box117
   parent damage102
 endnode
 node emitter fire!155
-  parent B_DS
+  parent a_black
 endnode
 node emitter ChunkyWood246
-  parent B_DS
+  parent a_black
 endnode
 node emitter ChunkyWood248
-  parent B_DS
+  parent a_black
 endnode
-node trimesh B_DS_wg
-  parent B_DS
+node trimesh a_black_wg
+  parent a_black
 endnode
-doneanim damage B_DS
+doneanim damage a_black
 
 #MAXANIM ASCII
-newanim die B_DS
+newanim die a_black
   length 0.166667
   transtime 0.25
-  animroot B_DS
-node dummy B_DS
+  animroot a_black
+node dummy a_black
   parent NULL
 endnode
 node dummy S01_hand
-  parent B_DS
+  parent a_black
 endnode
 node dummy S01_head
-  parent B_DS
+  parent a_black
 endnode
 node dummy S01_head_hit
-  parent B_DS
+  parent a_black
 endnode
 node dummy S01_impact
-  parent B_DS
+  parent a_black
 endnode
 node dummy S01_ground
-  parent B_DS
+  parent a_black
 endnode
 node emitter OmenEmitter266
-  parent B_DS
+  parent a_black
     positionkey
       0  0.723289 -0.000415015 1.08331
       0.166667  0.723289 -0.000415015 -5.8198
     endlist
 endnode
 node emitter fire!153
-  parent B_DS
+  parent a_black
     positionkey
       0  0.710884 -0.0250415 1.39765
       0.166667  0.710884 -0.0250415 -5.50546
     endlist
 endnode
 node emitter OmenEmitter267
-  parent B_DS
+  parent a_black
     positionkey
       0  -0.718757 -0.000415042 1.08331
       0.166667  -0.718757 -0.000415042 -5.8198
     endlist
 endnode
 node emitter fire!154
-  parent B_DS
+  parent a_black
     positionkey
       0  -0.731162 -0.0250415 1.39765
       0.166667  -0.731162 -0.0250415 -5.50546
     endlist
 endnode
 node trimesh damage102
-  parent B_DS
+  parent a_black
     positionkey
       0  -0.0337494 -0.0532957 0
       0.166667  -0.0337494 -0.0532957 -6.95145
@@ -1554,71 +1554,71 @@ node trimesh Box117
   parent damage102
 endnode
 node emitter fire!155
-  parent B_DS
+  parent a_black
 endnode
 node emitter ChunkyWood246
-  parent B_DS
+  parent a_black
 endnode
 node emitter ChunkyWood248
-  parent B_DS
+  parent a_black
 endnode
-node trimesh B_DS_wg
-  parent B_DS
+node trimesh a_black_wg
+  parent a_black
 endnode
 event 0  detonate
 event 0  detonate
 event 0  detonate
-doneanim die B_DS
+doneanim die a_black
 
 #MAXANIM ASCII
-newanim dead B_DS
+newanim dead a_black
   length 0.0333333
   transtime 0.25
-  animroot B_DS
-node dummy B_DS
+  animroot a_black
+node dummy a_black
   parent NULL
 endnode
 node dummy S01_hand
-  parent B_DS
+  parent a_black
 endnode
 node dummy S01_head
-  parent B_DS
+  parent a_black
 endnode
 node dummy S01_head_hit
-  parent B_DS
+  parent a_black
 endnode
 node dummy S01_impact
-  parent B_DS
+  parent a_black
 endnode
 node dummy S01_ground
-  parent B_DS
+  parent a_black
 endnode
 node emitter OmenEmitter266
-  parent B_DS
+  parent a_black
     positionkey
       0  0.723289 -0.000415015 -5.8198
     endlist
 endnode
 node emitter fire!153
-  parent B_DS
+  parent a_black
     positionkey
       0  0.710884 -0.0250415 -5.50546
     endlist
 endnode
 node emitter OmenEmitter267
-  parent B_DS
+  parent a_black
     positionkey
       0  -0.718757 -0.000415042 -5.8198
     endlist
 endnode
 node emitter fire!154
-  parent B_DS
+  parent a_black
     positionkey
       0  -0.731162 -0.0250415 -5.50546
     endlist
 endnode
 node trimesh damage102
-  parent B_DS
+  parent a_black
     positionkey
       0  -0.0337494 -0.0532957 -6.95145
       0.0333333  -0.0337494 -0.0532957 -6.95145
@@ -1637,72 +1637,72 @@ node trimesh Box117
   parent damage102
 endnode
 node emitter fire!155
-  parent B_DS
+  parent a_black
 endnode
 node emitter ChunkyWood246
-  parent B_DS
+  parent a_black
 endnode
 node emitter ChunkyWood248
-  parent B_DS
+  parent a_black
 endnode
-node trimesh B_DS_wg
-  parent B_DS
+node trimesh a_black_wg
+  parent a_black
 endnode
-doneanim dead B_DS
+doneanim dead a_black
 
 #MAXANIM ASCII
-newanim default B_DS
+newanim default a_black
   length 0
   transtime 0.25
-  animroot B_DS
-node dummy B_DS
+  animroot a_black
+node dummy a_black
   parent NULL
 endnode
 node dummy S01_hand
-  parent B_DS
+  parent a_black
 endnode
 node dummy S01_head
-  parent B_DS
+  parent a_black
 endnode
 node dummy S01_head_hit
-  parent B_DS
+  parent a_black
 endnode
 node dummy S01_impact
-  parent B_DS
+  parent a_black
 endnode
 node dummy S01_ground
-  parent B_DS
+  parent a_black
 endnode
 node emitter OmenEmitter266
-  parent B_DS
+  parent a_black
     positionkey
       0  0.723289 -0.000415015 1.08843
     endlist
     birthrate -4
 endnode
 node emitter fire!153
-  parent B_DS
+  parent a_black
     positionkey
       0  0.710884 -0.0250415 1.40277
     endlist
     birthrate 0
 endnode
 node emitter OmenEmitter267
-  parent B_DS
+  parent a_black
     positionkey
       0  -0.718757 -0.000415042 1.08843
     endlist
     birthrate -4
 endnode
 node emitter fire!154
-  parent B_DS
+  parent a_black
     positionkey
       0  -0.731162 -0.0250415 1.40277
     endlist
     birthrate 0
 endnode
 node trimesh damage102
-  parent B_DS
+  parent a_black
 endnode
 node trimesh Cylinder102
   parent damage102
@@ -1717,16 +1717,16 @@ node trimesh Box117
   parent damage102
 endnode
 node emitter fire!155
-  parent B_DS
+  parent a_black
 endnode
 node emitter ChunkyWood246
-  parent B_DS
+  parent a_black
 endnode
 node emitter ChunkyWood248
-  parent B_DS
+  parent a_black
 endnode
-node trimesh B_DS_wg
-  parent B_DS
+node trimesh a_black_wg
+  parent a_black
 endnode
-doneanim default B_DS
-donemodel B_DS
+doneanim default a_black
+donemodel a_black

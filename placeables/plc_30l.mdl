@@ -1,86 +1,17 @@
-#Exported from 3ds max by MDL Plug-in Suite 1.0b
-#http://www.bricksbuilder.com/nwn/utils/
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 18:35:39 2019
 #MAXMODEL ASCII
-# model: PLC_30L
-filedependancy jan6.max
-newmodel PLC_30L
-setsupermodel PLC_30L NULL
-classification Character
-setanimationscale 1.0
-#MAXGEOM  ASCII
-beginmodelgeom PLC_30L
-node dummy PLC_30L
+filedependency Unknown
+newmodel plc_30l
+  classification CHARACTER
+  setsupermodel plc_30l NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom plc_30l
+node dummy plc_30l
   parent NULL
 endnode
-node emitter BW_EXP14
-  parent PLC_30L
-  position -0.000372759 -0.00276919 0.435399
-  orientation 0 0 0 0
-  wirecolor 0.777344 0.777344 0.777344
-    colorStart 0.482353 0.435294 0.317647
-    colorEnd 0.584314 0.533333 0.407843
-    alphaStart 1
-    alphaEnd 1
-    sizeStart 0.1
-    sizeEnd 0.1
-    sizeStart_y 0
-    sizeEnd_y 0
-    frameStart 0
-    frameEnd 24
-    birthrate 20
-    spawnType 0
-    lifeExp 0.75
-    mass 3
-    spread 1.22173
-    particleRot 2.9
-    velocity 8
-    randvel 0.3
-    fps 0
-    random 0
-    inherit 1
-    inherit_local 0
-    inherit_part 0
-    inheritvel 0
-    xsize 89
-    ysize 40
-    bounce 1
-    bounce_co 0.5
-    loop 0
-    update Explosion
-    render Normal
-    Blend Normal
-    update_sel 2
-    render_sel 1
-    blend_sel 1
-    deadspace 0
-    opacity 0.5
-    blurlength 10
-    lightningDelay 0
-    lightningRadius 0
-    lightningScale 0
-    blastRadius 0
-    blastLength 0
-    twosidedtex 1
-    p2p 0
-    p2p_sel 1
-    p2p_type Bezier
-    p2p_bezier2 0
-    p2p_bezier3 0
-    combinetime 0
-    drag 0
-    grav 0
-    threshold 0
-    texture fxpa_cloud02
-    xgrid 5
-    ygrid 5
-    affectedByWind 0
-    m_isTinted 0
-    renderorder 0
-    Splat 0
-    chunkName PLC_Chunk_S01
-endnode
 node dummy damage23
-  parent PLC_30L
+  parent plc_30l
   position 0 0 0
   orientation 0.57735 -0.57735 0.57735 -2.0944
   wirecolor 0.839844 0.839844 0.839844
@@ -96,7 +27,7 @@ node trimesh rubble02
   shininess 0
   bitmap tdd02_colstn
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 0
   tilefade 0
@@ -121,39 +52,39 @@ node trimesh rubble02
     0.25773 0.25773 -0.0818044
     -0.260819 0.298744 -0.0702227
   faces 32
-    0 6 7  1  18 19 20  1
-    6 1 14  1  21 22 23  1
-    6 14 7  1  24 25 26  1
-    7 14 2  1  27 28 29  1
-    0 7 8  1  30 31 32  1
-    7 2 15  1  33 34 35  1
-    7 15 8  1  7 36 37  1
-    8 15 3  1  38 39 40  1
-    0 8 9  1  41 42 43  1
-    8 3 16  1  44 45 46  1
-    8 16 9  1  8 47 48  1
-    9 16 4  1  49 50 51  1
-    0 9 6  1  0 52 53  1
-    9 4 17  1  54 55 56  1
-    9 17 6  1  9 57 58  1
-    6 17 1  1  6 59 60  1
-    5 11 10  1  61 62 63  1
-    11 2 14  1  64 65 66  1
-    11 14 10  1  67 68 69  1
-    10 14 1  1  70 14 71  1
-    5 12 11  1  72 73 74  1
-    12 3 15  1  75 76 77  1
-    12 15 11  1  78 79 80  1
-    11 15 2  1  11 15 2  1
-    5 13 12  1  81 82 83  1
-    13 4 16  1  84 85 86  1
-    13 16 12  1  87 88 89  1
-    12 16 3  1  12 16 3  1
-    5 10 13  1  5 90 91  1
-    10 1 17  1  92 1 93  1
-    10 17 13  1  10 94 95  1
-    13 17 4  1  13 17 4  1
-  tverts 96
+    0 6 7 1 0 18 7 1
+    6 1 14 1 6 1 14 1
+    6 14 7 1 6 14 19 1
+    7 14 2 1 20 21 2 1
+    0 7 8 1 0 7 22 1
+    7 2 15 1 20 2 15 1
+    7 15 8 1 7 23 22 1
+    8 15 3 1 24 25 3 1
+    0 8 9 1 0 22 9 1
+    8 3 16 1 24 3 16 1
+    8 16 9 1 8 26 27 1
+    9 16 4 1 27 26 28 1
+    0 9 6 1 0 9 18 1
+    9 4 17 1 27 28 29 1
+    9 17 6 1 9 30 18 1
+    6 17 1 1 6 31 1 1
+    5 11 10 1 5 32 10 1
+    11 2 14 1 11 2 21 1
+    11 14 10 1 11 21 33 1
+    10 14 1 1 34 14 1 1
+    5 12 11 1 5 35 32 1
+    12 3 15 1 12 3 25 1
+    12 15 11 1 35 36 32 1
+    11 15 2 1 11 15 2 1
+    5 13 12 1 37 38 39 1
+    13 4 16 1 40 41 16 1
+    13 16 12 1 38 26 39 1
+    12 16 3 1 12 16 3 1
+    5 10 13 1 5 10 13 1
+    10 1 17 1 34 1 31 1
+    10 17 13 1 10 17 13 1
+    13 17 4 1 13 17 4 1
+  tverts 42
     0.536098 0.536098 0.646668
     0.516653 0.516653 0.646668
     0.483347 0.536098 0.646668
@@ -172,401 +103,408 @@ node trimesh rubble02
     0.589715 0.53126 0.63411
     0.57331 0.497061 0.42669
     0.36589 0.410285 0.501693
-    0.536098 0.536098 0.646668
     0.630186 0.570151 0.617704
-    0.570151 0.630186 0.630186
-    0.570151 0.617704 0.630186
-    0.516653 0.516653 0.646668
-    0.617704 0.570151 0.617704
-    0.570151 0.617704 0.630186
-    0.617704 0.570151 0.617704
     0.630186 0.630186 0.570151
     0.429849 0.630186 0.630186
     0.382296 0.570151 0.617704
-    0.483347 0.536098 0.646668
-    0.536098 0.536098 0.646668
-    0.570151 0.630186 0.630186
     0.422766 0.53126 0.63411
-    0.429849 0.630186 0.630186
-    0.483347 0.536098 0.646668
-    0.589715 0.53126 0.63411
     0.410285 0.63411 0.53126
-    0.422766 0.53126 0.63411
     0.46874 0.63411 0.422766
     0.36589 0.53126 0.410285
-    0.488406 0.511594 0.353332
-    0.536098 0.536098 0.646668
-    0.422766 0.53126 0.63411
-    0.53126 0.422766 0.572096
-    0.46874 0.63411 0.422766
-    0.488406 0.511594 0.353332
-    0.57331 0.497061 0.42669
     0.42669 0.497061 0.42669
-    0.53126 0.572096 0.422766
-    0.53126 0.572096 0.422766
-    0.42669 0.497061 0.42669
-    0.511594 0.445241 0.353332
-    0.53126 0.422766 0.572096
-    0.630186 0.570151 0.617704
     0.53126 0.572096 0.422766
     0.511594 0.445241 0.353332
     0.63411 0.501693 0.410285
     0.63411 0.410285 0.501693
-    0.630186 0.570151 0.617704
     0.410285 0.501693 0.63411
-    0.516653 0.516653 0.646668
-    0.554759 0.445241 0.353332
     0.498307 0.572096 0.422766
-    0.427904 0.501693 0.410285
-    0.498307 0.422766 0.572096
-    0.483347 0.536098 0.646668
-    0.382296 0.570151 0.617704
-    0.498307 0.422766 0.572096
-    0.382296 0.570151 0.617704
     0.427904 0.410285 0.501693
     0.501693 0.410285 0.572096
-    0.516653 0.516653 0.646668
-    0.554759 0.445241 0.353332
-    0.635324 0.497061 0.42669
-    0.498307 0.572096 0.422766
-    0.502939 0.42669 0.364676
-    0.488406 0.511594 0.353332
-    0.36589 0.53126 0.410285
     0.635324 0.497061 0.42669
     0.589715 0.63411 0.53126
-    0.498307 0.572096 0.422766
     0.445241 0.353332 0.445241
     0.497061 0.390543 0.409479
     0.364676 0.42669 0.497061
     0.590521 0.390543 0.497061
     0.646668 0.445241 0.511594
-    0.57331 0.497061 0.42669
-    0.497061 0.390543 0.409479
-    0.42669 0.497061 0.42669
-    0.364676 0.42669 0.497061
-    0.427904 0.501693 0.410285
-    0.502939 0.409479 0.390543
-    0.501693 0.410285 0.572096
-    0.410285 0.501693 0.63411
-    0.36589 0.410285 0.501693
-    0.502939 0.409479 0.390543
 endnode
-node emitter BW_ExpSmoke25
-  parent PLC_30L
-  position 0.0190143 -0.0451709 1.37573
-  orientation -1 0 0 -1.5708
-  wirecolor 0.777344 0.777344 0.777344
-    colorStart 0.815686 0.803922 0.788235
-    colorEnd 0.52549 0.427451 0.337255
-    alphaStart 1
-    alphaEnd 0
-    sizeStart 4
-    sizeEnd 1
-    sizeStart_y 0
-    sizeEnd_y 0
-    frameStart 0
-    frameEnd 24
-    birthrate 10
-    spawnType 0
-    lifeExp 2.5
-    mass 0.09
-    spread 2.96706
-    particleRot 0.5
-    velocity 2
-    randvel 0.5
-    fps 10
-    random 0
-    inherit 1
-    inherit_local 0
-    inherit_part 0
-    inheritvel 0
-    xsize 89
-    ysize 133
-    bounce 0
-    bounce_co 0
-    loop 0
-    update Explosion
-    render Normal
-    Blend Normal
-    update_sel 2
-    render_sel 1
-    blend_sel 1
-    deadspace 0
-    opacity 0.5
-    blurlength 10
-    lightningDelay 0
-    lightningRadius 0
-    lightningScale 0
-    blastRadius 0.2
-    blastLength 1
-    twosidedtex 1
-    p2p 0
-    p2p_sel 1
-    p2p_type Bezier
-    p2p_bezier2 0
-    p2p_bezier3 0
-    combinetime 0
-    drag 0
-    grav 0
-    threshold 0
-    texture fxpa_smoke01
-    xgrid 4
-    ygrid 4
-    affectedByWind 0
-    m_isTinted 1
-    renderorder 0
-    Splat 0
-endnode
-node dummy 30L_impact
-  parent PLC_30L
+node dummy 30l_impact
+  parent plc_30l
   position 0 0 0.85
   orientation 0 0 0 0
   wirecolor 0.839844 0.839844 0.839844
 endnode
-node dummy 30L_ground
-  parent PLC_30L
+node dummy 30l_ground
+  parent plc_30l
   position 0 0 0
   orientation 0 0 0 0
   wirecolor 0.878906 0.878906 0.878906
 endnode
-node dummy 30L_hand
-  parent PLC_30L
+node dummy 30l_hand
+  parent plc_30l
   position 0 0 1
   orientation 0 0 0 0
   wirecolor 0.527344 0.527344 0.527344
 endnode
-node dummy 30L_head
-  parent PLC_30L
+node dummy 30l_head
+  parent plc_30l
   position 0 0 2
   orientation 0 0 0 0
   wirecolor 0.898438 0.898438 0.898438
 endnode
-node dummy 30L_head_hit
-  parent PLC_30L
+node dummy 30l_head_hit
+  parent plc_30l
   position 0 0 1.5
   orientation 0 0 0 0
   wirecolor 0.554688 0.554688 0.554688
 endnode
-node dummy 30L_pwk_use01
-  parent PLC_30L
+node dummy 30l_pwk_use01
+  parent plc_30l
   position 0 0 0.5
   orientation 0 0 0 0
   wirecolor 0.347656 0.347656 0.347656
 endnode
-node dummy 30L_pwk_use02
-  parent PLC_30L
+node dummy 30l_pwk_use02
+  parent plc_30l
   position 0 0 1.25
   orientation 0 0 0 0
   wirecolor 0.0351563 0.0351563 0.0351563
 endnode
-endmodelgeom PLC_30L
+node emitter bw_exp14
+  parent plc_30l
+  position -0.000372759 -0.00276919 0.435399
+  orientation 0 0 0 0
+  wirecolor 0.777344 0.777344 0.777344
+  colorStart 0.482353 0.435294 0.317647
+  colorEnd 0.584314 0.533333 0.407843
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 24
+  birthrate 20
+  spawntype 0
+  lifeExp 0.75
+  mass 3
+  spread 1.22173
+  particleRot 2.9
+  velocity 8
+  randvel 0.3
+  fps 0
+  random 0
+  inherit 1
+  inherit_local 0
+  inherit_part 0
+  inheritvel 0
+  xsize 89
+  ysize 40
+  bounce 1
+  bounce_co 0.5
+  loop 0
+  update Explosion
+  render Normal
+  blend Normal
+  deadspace 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  twosidedtex 1
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+  texture fxpa_cloud02
+  xgrid 5
+  ygrid 5
+  affectedByWind 0
+  m_isTinted 0
+  renderorder 0
+  splat 0
+  chunkName plc_chunk_s01
+endnode
+node emitter bw_expsmoke25
+  parent plc_30l
+  position 0.0190143 -0.0451709 1.37573
+  orientation -1 0 0 -1.5708
+  wirecolor 0.777344 0.777344 0.777344
+  colorStart 0.815686 0.803922 0.788235
+  colorEnd 0.52549 0.427451 0.337255
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 4
+  sizeEnd 1
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 24
+  birthrate 10
+  spawntype 0
+  lifeExp 2.5
+  mass 0.09
+  spread 2.96706
+  particleRot 0.5
+  velocity 2
+  randvel 0.5
+  fps 10
+  random 0
+  inherit 1
+  inherit_local 0
+  inherit_part 0
+  inheritvel 0
+  xsize 89
+  ysize 133
+  bounce 0
+  bounce_co 0
+  loop 0
+  update Explosion
+  render Normal
+  blend Normal
+  deadspace 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  blastRadius 0.2
+  blastLength 1
+  twosidedtex 1
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+  texture fxpa_smoke01
+  xgrid 4
+  ygrid 4
+  affectedByWind 0
+  m_isTinted 1
+  renderorder 0
+  splat 0
+endnode
+endmodelgeom plc_30l
 
 #MAXANIM ASCII
-newanim default PLC_30L
-  length 0.0333333
-  transtime 0
-  animroot PLC_30L
-node dummy PLC_30L
-  parent NULL
-endnode
-node trimesh wg07
-  parent PLC_30L
-endnode
-node emitter BW_EXP14
-  parent PLC_30L
-endnode
-node dummy damage23
-  parent PLC_30L
-    positionkey
-      0  0 0 0
-      0.0333333  0 0 0
-    endlist
-endnode
-node trimesh rubble02
-  parent damage23
-endnode
-node emitter BW_ExpSmoke25
-  parent PLC_30L
-endnode
-node dummy 30L_impact
-  parent PLC_30L
-endnode
-node dummy 30L_ground
-  parent PLC_30L
-endnode
-node dummy 30L_hand
-  parent PLC_30L
-endnode
-node dummy 30L_head
-  parent PLC_30L
-endnode
-node dummy 30L_head_hit
-  parent PLC_30L
-endnode
-node dummy 30L_pwk_use01
-  parent PLC_30L
-endnode
-node dummy 30L_pwk_use02
-  parent PLC_30L
-endnode
-doneanim default PLC_30L
-
-#MAXANIM ASCII
-newanim die PLC_30L
-  length 0.166667
-  transtime 0
-  animroot PLC_30L
-node dummy PLC_30L
-  parent NULL
-endnode
-node trimesh wg07
-  parent PLC_30L
-endnode
-node emitter BW_EXP14
-  parent PLC_30L
-endnode
-node dummy damage23
-  parent PLC_30L
-    positionkey
-      0  0 0 0
-      0.166667  0 0 -3.93482
-    endlist
-endnode
-node trimesh rubble02
-  parent damage23
-endnode
-node emitter BW_ExpSmoke25
-  parent PLC_30L
-endnode
-node dummy 30L_impact
-  parent PLC_30L
-endnode
-node dummy 30L_ground
-  parent PLC_30L
-endnode
-node dummy 30L_hand
-  parent PLC_30L
-endnode
-node dummy 30L_head
-  parent PLC_30L
-endnode
-node dummy 30L_head_hit
-  parent PLC_30L
-endnode
-node dummy 30L_pwk_use01
-  parent PLC_30L
-endnode
-node dummy 30L_pwk_use02
-  parent PLC_30L
-endnode
-event 0  detonate
-doneanim die PLC_30L
-
-#MAXANIM ASCII
-newanim death PLC_30L
-  length 0.0333333
-  transtime 0
-  animroot PLC_30L
-node dummy PLC_30L
-  parent NULL
-endnode
-node trimesh wg07
-  parent PLC_30L
-endnode
-node emitter BW_EXP14
-  parent PLC_30L
-endnode
-node dummy damage23
-  parent PLC_30L
-    positionkey
-      0  0 0 -3.93482
-      0.0333333  0 0 -3.93482
-    endlist
-endnode
-node trimesh rubble02
-  parent damage23
-endnode
-node emitter BW_ExpSmoke25
-  parent PLC_30L
-endnode
-node dummy 30L_impact
-  parent PLC_30L
-endnode
-node dummy 30L_ground
-  parent PLC_30L
-endnode
-node dummy 30L_hand
-  parent PLC_30L
-endnode
-node dummy 30L_head
-  parent PLC_30L
-endnode
-node dummy 30L_head_hit
-  parent PLC_30L
-endnode
-node dummy 30L_pwk_use01
-  parent PLC_30L
-endnode
-node dummy 30L_pwk_use02
-  parent PLC_30L
-endnode
-doneanim death PLC_30L
-
-#MAXANIM ASCII
-newanim damage PLC_30L
+newanim damage plc_30l
   length 0.2
   transtime 0
-  animroot PLC_30L
-node dummy PLC_30L
-  parent NULL
-endnode
-node trimesh wg07
-  parent PLC_30L
-endnode
-node emitter BW_EXP14
-  parent PLC_30L
-endnode
-node dummy damage23
-  parent PLC_30L
+  animroot plc_30l
+  node dummy plc_30l
+    parent NULL
+  endnode
+  node dummy wg07
+    parent plc_30l
+    #part-number -1
+  endnode
+  node dummy damage23
+    parent plc_30l
     positionkey
-      0  0 0 0
-      0.2  0 0 0
+      0 0 0 0
+      0.2 0 0 0
     endlist
     orientationkey
-      0  0.57735 -0.57735 0.57735 4.18879
-      0.0666667  0.559809 -0.559809 0.610924 4.23842
-      0.1  0.555184 -0.607048 0.568562 4.25058
-      0.133333  0.585566 -0.585566 0.560558 4.16342
-      0.166667  0.597226 -0.548291 0.585404 4.12471
-      0.2  0.57735 -0.57735 0.57735 4.18879
+      0 0.57735 -0.57735 0.57735 4.18879
+      0.0666667 0.559809 -0.559809 0.610924 4.23842
+      0.1 0.555184 -0.607048 0.568562 4.25058
+      0.133333 0.585566 -0.585566 0.560558 4.16342
+      0.166667 0.597226 -0.548291 0.585404 4.12471
+      0.2 0.57735 -0.57735 0.57735 4.18879
     endlist
-endnode
-node trimesh rubble02
-  parent damage23
-endnode
-node emitter BW_ExpSmoke25
-  parent PLC_30L
-endnode
-node dummy 30L_impact
-  parent PLC_30L
-endnode
-node dummy 30L_ground
-  parent PLC_30L
-endnode
-node dummy 30L_hand
-  parent PLC_30L
-endnode
-node dummy 30L_head
-  parent PLC_30L
-endnode
-node dummy 30L_head_hit
-  parent PLC_30L
-endnode
-node dummy 30L_pwk_use01
-  parent PLC_30L
-endnode
-node dummy 30L_pwk_use02
-  parent PLC_30L
-endnode
-doneanim damage PLC_30L
-donemodel PLC_30L
+  endnode
+  node dummy rubble02
+    parent damage23
+  endnode
+  node dummy 30l_impact
+    parent plc_30l
+  endnode
+  node dummy 30l_ground
+    parent plc_30l
+  endnode
+  node dummy 30l_hand
+    parent plc_30l
+  endnode
+  node dummy 30l_head
+    parent plc_30l
+  endnode
+  node dummy 30l_head_hit
+    parent plc_30l
+  endnode
+  node dummy 30l_pwk_use01
+    parent plc_30l
+  endnode
+  node dummy 30l_pwk_use02
+    parent plc_30l
+  endnode
+  node emitter bw_exp14
+    parent plc_30l
+  endnode
+  node emitter bw_expsmoke25
+    parent plc_30l
+  endnode
+doneanim damage plc_30l
+
+#MAXANIM ASCII
+newanim death plc_30l
+  length 0.0333333
+  transtime 0
+  animroot plc_30l
+  node dummy plc_30l
+    parent NULL
+  endnode
+  node dummy wg07
+    parent plc_30l
+    #part-number -1
+  endnode
+  node dummy damage23
+    parent plc_30l
+    positionkey
+      0 0 0 -3.93482
+      0.0333333 0 0 -3.93482
+    endlist
+  endnode
+  node dummy rubble02
+    parent damage23
+  endnode
+  node dummy 30l_impact
+    parent plc_30l
+  endnode
+  node dummy 30l_ground
+    parent plc_30l
+  endnode
+  node dummy 30l_hand
+    parent plc_30l
+  endnode
+  node dummy 30l_head
+    parent plc_30l
+  endnode
+  node dummy 30l_head_hit
+    parent plc_30l
+  endnode
+  node dummy 30l_pwk_use01
+    parent plc_30l
+  endnode
+  node dummy 30l_pwk_use02
+    parent plc_30l
+  endnode
+  node emitter bw_exp14
+    parent plc_30l
+  endnode
+  node emitter bw_expsmoke25
+    parent plc_30l
+  endnode
+doneanim death plc_30l
+
+#MAXANIM ASCII
+newanim default plc_30l
+  length 0.0333333
+  transtime 0
+  animroot plc_30l
+  node dummy plc_30l
+    parent NULL
+  endnode
+  node dummy wg07
+    parent plc_30l
+    #part-number -1
+  endnode
+  node dummy damage23
+    parent plc_30l
+    positionkey
+      0 0 0 0
+      0.0333333 0 0 0
+    endlist
+  endnode
+  node dummy rubble02
+    parent damage23
+  endnode
+  node dummy 30l_impact
+    parent plc_30l
+  endnode
+  node dummy 30l_ground
+    parent plc_30l
+  endnode
+  node dummy 30l_hand
+    parent plc_30l
+  endnode
+  node dummy 30l_head
+    parent plc_30l
+  endnode
+  node dummy 30l_head_hit
+    parent plc_30l
+  endnode
+  node dummy 30l_pwk_use01
+    parent plc_30l
+  endnode
+  node dummy 30l_pwk_use02
+    parent plc_30l
+  endnode
+  node emitter bw_exp14
+    parent plc_30l
+  endnode
+  node emitter bw_expsmoke25
+    parent plc_30l
+  endnode
+doneanim default plc_30l
+
+#MAXANIM ASCII
+newanim die plc_30l
+  length 0.166667
+  transtime 0
+  event 0 detonate
+  animroot plc_30l
+  node dummy plc_30l
+    parent NULL
+  endnode
+  node dummy wg07
+    parent plc_30l
+    #part-number -1
+  endnode
+  node dummy damage23
+    parent plc_30l
+    positionkey
+      0 0 0 0
+      0.166667 0 0 -3.93482
+    endlist
+  endnode
+  node dummy rubble02
+    parent damage23
+  endnode
+  node dummy 30l_impact
+    parent plc_30l
+  endnode
+  node dummy 30l_ground
+    parent plc_30l
+  endnode
+  node dummy 30l_hand
+    parent plc_30l
+  endnode
+  node dummy 30l_head
+    parent plc_30l
+  endnode
+  node dummy 30l_head_hit
+    parent plc_30l
+  endnode
+  node dummy 30l_pwk_use01
+    parent plc_30l
+  endnode
+  node dummy 30l_pwk_use02
+    parent plc_30l
+  endnode
+  node emitter bw_exp14
+    parent plc_30l
+  endnode
+  node emitter bw_expsmoke25
+    parent plc_30l
+  endnode
+doneanim die plc_30l
+donemodel plc_30l

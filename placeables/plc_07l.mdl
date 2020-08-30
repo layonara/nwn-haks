@@ -1,19 +1,17 @@
-#Exported from 3ds max by MDL Plug-in Suite 1.0b
-#http://www.bricksbuilder.com/nwn/utils/
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 18:35:37 2019
 #MAXMODEL ASCII
-# model: PLC_07L
-filedependancy Dec22.max
-newmodel PLC_07L
-setsupermodel PLC_07L NULL
-classification Character
-setanimationscale 1.0
-#MAXGEOM  ASCII
-beginmodelgeom PLC_07L
-node dummy PLC_07L
+filedependency Unknown
+newmodel plc_07l
+  classification CHARACTER
+  setsupermodel plc_07l NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom plc_07l
+node dummy plc_07l
   parent NULL
 endnode
-node trimesh Slimypatch01
-  parent PLC_07L
+node trimesh slimypatch01
+  parent plc_07l
   position -0.0929559 0.0199024 1.6
   orientation 0 0.707107 -0.707107 -3.14159
   wirecolor 0.5625 0.5625 0.5625
@@ -23,7 +21,7 @@ node trimesh Slimypatch01
   shininess 10
   bitmap tdd02_dripslm
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 0
@@ -34,13 +32,13 @@ node trimesh Slimypatch01
     1.6 -1.6 0
     -1.6 -1.6 0
   faces 2
-    2 0 3  1  2 0 3  0
-    1 3 0  1  1 3 0  0
+    2 0 3 1 2 0 3 0
+    1 3 0 1 1 3 0 0
   tverts 4
     0.000499487 0.000499696 0.5
     0.9995 0.000499457 0.5
     0.000499696 0.999501 0.5
     0.999501 0.9995 0.5
 endnode
-endmodelgeom PLC_07L
-donemodel PLC_07L
+endmodelgeom plc_07l
+donemodel plc_07l

@@ -1,29 +1,27 @@
-#Exported from 3ds max by MDL Plug-in Suite 1.0b
-#http://www.bricksbuilder.com/nwn/utils/
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 18:36:35 2019
 #MAXMODEL ASCII
-# model: PLC_DD41
-filedependancy Unknown
-newmodel PLC_DD41
-setsupermodel PLC_DD41 NULL
-classification Character
-setanimationscale 1.0
-#MAXGEOM  ASCII
-beginmodelgeom PLC_DD41
-node dummy PLC_DD41
+filedependency Unknown
+newmodel plc_dd41
+  classification CHARACTER
+  setsupermodel plc_dd41 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom plc_dd41
+node dummy plc_dd41
   parent NULL
 endnode
-node trimesh Object01
-  parent PLC_DD41
+node trimesh object01
+  parent plc_dd41
   position 0 -0.5 0.1
   orientation 0 0 0 0
   wirecolor 0.605469 0.605469 0.605469
   ambient 0 0 0
   diffuse 1 1 1
   specular 0 0 0
-  shininess 1	
-  bitmap LOKTracks
+  shininess 1
+  bitmap loktracks
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 0
@@ -54,41 +52,41 @@ node trimesh Object01
     -1 0.0500003 -0.05
     -1 -0.0499997 -0.05
   faces 34
-    0 1 2  1  0 1 2  0
-    2 3 0  1  2 3 0  0
-    4 5 2  1  4 5 2  0
-    2 1 4  1  2 1 4  0
-    6 7 0  1  6 7 0  0
-    0 3 6  1  0 3 6  0
-    5 6 3  1  11 12 13  0
-    3 2 5  1  13 10 11  0
-    1 0 8  1  0 1 2  0
-    8 9 1  1  2 3 0  0
-    7 10 8  1  4 5 2  0
-    8 0 7  1  2 1 4  0
-    11 4 1  1  6 7 0  0
-    1 9 11  1  0 3 6  0
-    12 13 14  1  0 1 2  0
-    14 15 12  1  2 3 0  0
-    16 17 14  1  4 5 2  0
-    14 13 16  1  2 1 4  0
-    18 19 12  1  6 7 0  0
-    12 15 18  1  0 3 6  0
-    17 18 15  1  11 12 13  0
-    15 14 17  1  13 10 11  0
-    9 8 20  1  0 1 2  0
-    20 21 9  1  2 3 0  0
-    10 22 20  1  4 5 2  0
-    20 8 10  1  2 1 4  0
-    23 11 9  1  6 7 0  0
-    9 21 23  1  0 3 6  0
-    21 20 13  1  0 1 2  0
-    13 12 21  1  2 3 0  0
-    22 16 13  1  4 5 2  0
-    13 20 22  1  2 1 4  0
-    19 23 21  1  6 7 0  0
-    21 12 19  1  0 3 6  0
-  tverts 14
+    0 1 2 1 0 1 2 0
+    2 3 0 1 2 3 0 0
+    4 5 2 1 4 5 2 0
+    2 1 4 1 2 1 4 0
+    6 7 0 1 6 7 0 0
+    0 3 6 1 0 3 6 0
+    5 6 3 1 9 10 11 0
+    3 2 5 1 11 8 9 0
+    1 0 8 1 0 1 2 0
+    8 9 1 1 2 3 0 0
+    7 10 8 1 4 5 2 0
+    8 0 7 1 2 1 4 0
+    11 4 1 1 6 7 0 0
+    1 9 11 1 0 3 6 0
+    12 13 14 1 0 1 2 0
+    14 15 12 1 2 3 0 0
+    16 17 14 1 4 5 2 0
+    14 13 16 1 2 1 4 0
+    18 19 12 1 6 7 0 0
+    12 15 18 1 0 3 6 0
+    17 18 15 1 9 10 11 0
+    15 14 17 1 11 8 9 0
+    9 8 20 1 0 1 2 0
+    20 21 9 1 2 3 0 0
+    10 22 20 1 4 5 2 0
+    20 8 10 1 2 1 4 0
+    23 11 9 1 6 7 0 0
+    9 21 23 1 0 3 6 0
+    21 20 13 1 0 1 2 0
+    13 12 21 1 2 3 0 0
+    22 16 13 1 4 5 2 0
+    13 20 22 1 2 1 4 0
+    19 23 21 1 6 7 0 0
+    21 12 19 1 0 3 6 0
+  tverts 12
     0.00419 0.148251 0
     0.00430939 0.0775298 0
     0.99711 0.080932 0
@@ -97,15 +95,13 @@ node trimesh Object01
     0.997229 0.0102108 0
     0.996871 0.222369 0
     0.00407076 0.218972 0
-    0.0111239 0.0893666 0
-    0.047095 0.0894897 0
     0.0470085 0.140737 0
     0.0110375 0.140614 0
     0.0111239 0.0893667 0
     0.047095 0.0894898 0
 endnode
-node trimesh Object02
-  parent PLC_DD41
+node trimesh object02
+  parent plc_dd41
   position 0 0.5 0.1
   orientation 0 0 0 0
   wirecolor 0.34375 0.34375 0.34375
@@ -113,9 +109,9 @@ node trimesh Object02
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  bitmap LOKTracks
+  bitmap loktracks
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 0
@@ -146,41 +142,41 @@ node trimesh Object02
     -1 0.0500002 -0.05
     -1 -0.0499997 -0.05
   faces 34
-    0 1 2  1  0 1 2  0
-    2 3 0  1  2 3 0  0
-    4 5 2  1  4 5 2  0
-    2 1 4  1  2 1 4  0
-    6 7 0  1  6 7 0  0
-    0 3 6  1  0 3 6  0
-    5 6 3  1  11 12 13  0
-    3 2 5  1  13 10 11  0
-    1 0 8  1  0 1 2  0
-    8 9 1  1  2 3 0  0
-    7 10 8  1  4 5 2  0
-    8 0 7  1  2 1 4  0
-    11 4 1  1  6 7 0  0
-    1 9 11  1  0 3 6  0
-    12 13 14  1  0 1 2  0
-    14 15 12  1  2 3 0  0
-    16 17 14  1  4 5 2  0
-    14 13 16  1  2 1 4  0
-    18 19 12  1  6 7 0  0
-    12 15 18  1  0 3 6  0
-    17 18 15  1  11 12 13  0
-    15 14 17  1  13 10 11  0
-    9 8 20  1  0 1 2  0
-    20 21 9  1  2 3 0  0
-    10 22 20  1  4 5 2  0
-    20 8 10  1  2 1 4  0
-    23 11 9  1  6 7 0  0
-    9 21 23  1  0 3 6  0
-    21 20 13  1  0 1 2  0
-    13 12 21  1  2 3 0  0
-    22 16 13  1  4 5 2  0
-    13 20 22  1  2 1 4  0
-    19 23 21  1  6 7 0  0
-    21 12 19  1  0 3 6  0
-  tverts 14
+    0 1 2 1 0 1 2 0
+    2 3 0 1 2 3 0 0
+    4 5 2 1 4 5 2 0
+    2 1 4 1 2 1 4 0
+    6 7 0 1 6 7 0 0
+    0 3 6 1 0 3 6 0
+    5 6 3 1 9 10 11 0
+    3 2 5 1 11 8 9 0
+    1 0 8 1 0 1 2 0
+    8 9 1 1 2 3 0 0
+    7 10 8 1 4 5 2 0
+    8 0 7 1 2 1 4 0
+    11 4 1 1 6 7 0 0
+    1 9 11 1 0 3 6 0
+    12 13 14 1 0 1 2 0
+    14 15 12 1 2 3 0 0
+    16 17 14 1 4 5 2 0
+    14 13 16 1 2 1 4 0
+    18 19 12 1 6 7 0 0
+    12 15 18 1 0 3 6 0
+    17 18 15 1 9 10 11 0
+    15 14 17 1 11 8 9 0
+    9 8 20 1 0 1 2 0
+    20 21 9 1 2 3 0 0
+    10 22 20 1 4 5 2 0
+    20 8 10 1 2 1 4 0
+    23 11 9 1 6 7 0 0
+    9 21 23 1 0 3 6 0
+    21 20 13 1 0 1 2 0
+    13 12 21 1 2 3 0 0
+    22 16 13 1 4 5 2 0
+    13 20 22 1 2 1 4 0
+    19 23 21 1 6 7 0 0
+    21 12 19 1 0 3 6 0
+  tverts 12
     0.00419 0.148251 0
     0.00430939 0.0775298 0
     0.99711 0.080932 0
@@ -189,15 +185,13 @@ node trimesh Object02
     0.997229 0.0102108 0
     0.996871 0.222369 0
     0.00407076 0.218972 0
-    0.0111239 0.0893666 0
-    0.047095 0.0894897 0
     0.0470085 0.140737 0
     0.0110375 0.140614 0
     0.0111239 0.0893667 0
     0.047095 0.0894898 0
 endnode
-node trimesh Object03
-  parent PLC_DD41
+node trimesh object03
+  parent plc_dd41
   position 4.52205 0 0
   orientation 0 0 1 -0.0349065
   wirecolor 0.34375 0.34375 0.34375
@@ -205,9 +199,9 @@ node trimesh Object03
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  bitmap LOKTracks
+  bitmap loktracks
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 0
@@ -222,16 +216,16 @@ node trimesh Object03
     0.125 -0.75 0
     0.125 0.75 0
   faces 10
-    0 1 2  1  0 1 2  0
-    2 3 0  1  2 3 0  0
-    4 5 2  1  4 5 2  3
-    2 1 4  1  2 1 4  3
-    6 7 0  1  6 7 0  2
-    0 3 6  1  0 3 6  2
-    7 4 1  1  8 9 10  4
-    1 0 7  1  10 11 8  4
-    5 6 3  1  10 11 8  5
-    3 2 5  1  8 9 10  5
+    0 1 2 1 0 1 2 0
+    2 3 0 1 2 3 0 0
+    4 5 2 1 4 5 2 3
+    2 1 4 1 2 1 4 3
+    6 7 0 1 6 7 0 2
+    0 3 6 1 0 3 6 2
+    7 4 1 1 8 9 10 4
+    1 0 7 1 10 11 8 4
+    5 6 3 1 10 11 8 5
+    3 2 5 1 8 9 10 5
   tverts 12
     0.0165523 0.807446 0
     0.0153969 0.621302 0
@@ -246,8 +240,8 @@ node trimesh Object03
     0.936648 0.760316 0
     0.774871 0.761645 0
 endnode
-node trimesh Object04
-  parent PLC_DD41
+node trimesh object04
+  parent plc_dd41
   position 1.16027 0 0
   orientation 0 0 1 -0.0523598
   wirecolor 0.695313 0.695313 0.695313
@@ -255,9 +249,9 @@ node trimesh Object04
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  bitmap LOKTracks
+  bitmap loktracks
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 0
@@ -272,17 +266,17 @@ node trimesh Object04
     0.125 -0.75 0
     0.125 0.75 0
   faces 10
-    0 1 2  1  0 1 2  0
-    2 3 0  1  2 3 0  0
-    4 5 2  1  4 5 2  3
-    2 1 4  1  2 1 4  3
-    6 7 0  1  6 7 0  2
-    0 3 6  1  0 3 6  2
-    7 4 1  1  8 9 10  4
-    1 0 7  1  10 11 8  4
-    5 6 3  1  10 12 8  5
-    3 2 5  1  8 13 10  5
-  tverts 14
+    0 1 2 1 0 1 2 0
+    2 3 0 1 2 3 0 0
+    4 5 2 1 4 5 2 3
+    2 1 4 1 2 1 4 3
+    6 7 0 1 6 7 0 2
+    0 3 6 1 0 3 6 2
+    7 4 1 1 8 9 10 4
+    1 0 7 1 10 11 8 4
+    5 6 3 1 10 11 8 5
+    3 2 5 1 8 9 10 5
+  tverts 12
     0.0153106 0.629937 0
     0.0141551 0.404626 0
     0.984817 0.394973 0
@@ -295,11 +289,9 @@ node trimesh Object04
     0.935175 0.527828 0
     0.935407 0.57289 0
     0.77363 0.574499 0
-    0.773629 0.574499 0
-    0.935176 0.527828 0
 endnode
-node trimesh Object05
-  parent PLC_DD41
+node trimesh object05
+  parent plc_dd41
   position -2.14149 0 0
   orientation 0 0 1 -0.0349065
   wirecolor 0.695313 0.695313 0.695313
@@ -307,9 +299,9 @@ node trimesh Object05
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  bitmap LOKTracks
+  bitmap loktracks
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 0
@@ -324,16 +316,16 @@ node trimesh Object05
     0.125 -0.75 0
     0.125 0.75 0
   faces 10
-    0 1 2  1  0 1 2  0
-    2 3 0  1  2 3 0  0
-    4 5 2  1  4 5 2  3
-    2 1 4  1  2 1 4  3
-    6 7 0  1  6 7 0  2
-    0 3 6  1  0 3 6  2
-    7 4 1  1  8 9 10  4
-    1 0 7  1  10 11 8  4
-    5 6 3  1  10 11 8  5
-    3 2 5  1  8 9 10  5
+    0 1 2 1 0 1 2 0
+    2 3 0 1 2 3 0 0
+    4 5 2 1 4 5 2 3
+    2 1 4 1 2 1 4 3
+    6 7 0 1 6 7 0 2
+    0 3 6 1 0 3 6 2
+    7 4 1 1 8 9 10 4
+    1 0 7 1 10 11 8 4
+    5 6 3 1 10 11 8 5
+    3 2 5 1 8 9 10 5
   tverts 12
     0.0140091 0.406407 0
     0.0128537 0.236208 0
@@ -348,8 +340,8 @@ node trimesh Object05
     0.934105 0.363314 0
     0.772328 0.36453 0
 endnode
-node trimesh Object06
-  parent PLC_DD41
+node trimesh object06
+  parent plc_dd41
   position 0.107103 0 0
   orientation 0 0 0 0
   wirecolor 0.554688 0.554688 0.554688
@@ -357,9 +349,9 @@ node trimesh Object06
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  bitmap LOKTracks
+  bitmap loktracks
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 0
@@ -374,32 +366,32 @@ node trimesh Object06
     0.125 -0.75 0
     0.125 0.75 0
   faces 10
-    0 1 2  1  0 1 2  0
-    2 3 0  1  2 3 0  0
-    4 5 2  1  4 5 2  3
-    2 1 4  1  2 1 4  3
-    6 7 0  1  6 7 0  2
-    0 3 6  1  0 3 6  2
-    7 4 1  1  8 9 10  4
-    1 0 7  1  10 11 8  4
-    5 6 3  1  10 11 8  5
-    3 2 5  1  8 9 10  5
+    0 1 2 1 0 1 2 0
+    2 3 0 1 2 3 0 0
+    4 5 2 1 4 5 2 3
+    2 1 4 1 2 1 4 3
+    6 7 0 1 6 7 0 2
+    0 3 6 1 0 3 6 2
+    7 4 1 1 8 9 10 4
+    1 0 7 1 10 11 8 4
+    5 6 3 1 10 11 8 5
+    3 2 5 1 8 9 10 5
   tverts 12
-    0.522483 0.621103 0
-    0.521327 0.400664 0
-    1.49199 0.391219 0
-    1.49314 0.611659 0
-    0.521096 0.356576 0
-    1.49176 0.347132 0
-    1.49338 0.655747 0
-    0.522714 0.665191 0
-    1.28057 0.522776 0
-    1.44235 0.521202 0
-    1.44258 0.56529 0
-    1.2808 0.566864 0
+    -0.477517 0.621103 0
+    -0.478673 0.400664 0
+    0.49199 0.391219 0
+    0.49314 0.611659 0
+    -0.478904 0.356576 0
+    0.49176 0.347132 0
+    0.49338 0.655747 0
+    -0.477286 0.665191 0
+    0.28057 0.522776 0
+    0.44235 0.521202 0
+    0.44258 0.56529 0
+    0.2808 0.566864 0
 endnode
-node trimesh Object07
-  parent PLC_DD41
+node trimesh object07
+  parent plc_dd41
   position 3.51783 0 0
   orientation 0 0 -1 -0.0349067
   wirecolor 0.554688 0.554688 0.554688
@@ -407,9 +399,9 @@ node trimesh Object07
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  bitmap LOKTracks
+  bitmap loktracks
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 0
@@ -424,16 +416,16 @@ node trimesh Object07
     0.125 -0.75 0
     0.125 0.75 0
   faces 10
-    0 1 2  1  0 1 2  0
-    2 3 0  1  2 3 0  0
-    4 5 2  1  4 5 2  3
-    2 1 4  1  2 1 4  3
-    6 7 0  1  6 7 0  2
-    0 3 6  1  0 3 6  2
-    7 4 1  1  8 9 10  4
-    1 0 7  1  10 11 8  4
-    5 6 3  1  10 11 8  5
-    3 2 5  1  8 9 10  5
+    0 1 2 1 0 1 2 0
+    2 3 0 1 2 3 0 0
+    4 5 2 1 4 5 2 3
+    2 1 4 1 2 1 4 3
+    6 7 0 1 6 7 0 2
+    0 3 6 1 0 3 6 2
+    7 4 1 1 8 9 10 4
+    1 0 7 1 10 11 8 4
+    5 6 3 1 10 11 8 5
+    3 2 5 1 8 9 10 5
   tverts 12
     -0.408535 0.409582 0
     -0.409691 0.239382 0
@@ -448,8 +440,8 @@ node trimesh Object07
     0.511561 0.366488 0
     0.349784 0.367704 0
 endnode
-node trimesh Object08
-  parent PLC_DD41
+node trimesh object08
+  parent plc_dd41
   position 2.30615 0 0
   orientation 0 0 1 -0.0261799
   wirecolor 0.226563 0.226563 0.226563
@@ -457,9 +449,9 @@ node trimesh Object08
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  bitmap LOKTracks
+  bitmap loktracks
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 0
@@ -474,16 +466,16 @@ node trimesh Object08
     0.125 -0.75 0
     0.125 0.75 0
   faces 10
-    0 1 2  1  0 1 2  0
-    2 3 0  1  2 3 0  0
-    4 5 2  1  4 5 2  3
-    2 1 4  1  2 1 4  3
-    6 7 0  1  6 7 0  2
-    0 3 6  1  0 3 6  2
-    7 4 1  1  8 9 10  4
-    1 0 7  1  10 11 8  4
-    5 6 3  1  10 11 8  5
-    3 2 5  1  8 9 10  5
+    0 1 2 1 0 1 2 0
+    2 3 0 1 2 3 0 0
+    4 5 2 1 4 5 2 3
+    2 1 4 1 2 1 4 3
+    6 7 0 1 6 7 0 2
+    0 3 6 1 0 3 6 2
+    7 4 1 1 8 9 10 4
+    1 0 7 1 10 11 8 4
+    5 6 3 1 10 11 8 5
+    3 2 5 1 8 9 10 5
   tverts 12
     -0.375878 0.810671 0
     -0.377033 0.624526 0
@@ -498,8 +490,8 @@ node trimesh Object08
     0.544218 0.763541 0
     0.382441 0.76487 0
 endnode
-node trimesh Object09
-  parent PLC_DD41
+node trimesh object09
+  parent plc_dd41
   position -0.985539 0 0
   orientation 0 0 -1 -0.0436333
   wirecolor 0.226563 0.226563 0.226563
@@ -507,9 +499,9 @@ node trimesh Object09
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  bitmap LOKTracks
+  bitmap loktracks
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 0
@@ -524,17 +516,17 @@ node trimesh Object09
     0.125 -0.75 0
     0.125 0.75 0
   faces 10
-    0 1 2  1  0 1 2  0
-    2 3 0  1  2 3 0  0
-    4 5 2  1  4 5 2  3
-    2 1 4  1  2 1 4  3
-    6 7 0  1  6 7 0  2
-    0 3 6  1  0 3 6  2
-    7 4 1  1  8 9 10  4
-    1 0 7  1  10 11 8  4
-    5 6 3  1  10 11 8  5
-    3 2 5  1  8 12 10  5
-  tverts 13
+    0 1 2 1 0 1 2 0
+    2 3 0 1 2 3 0 0
+    4 5 2 1 4 5 2 3
+    2 1 4 1 2 1 4 3
+    6 7 0 1 6 7 0 2
+    0 3 6 1 0 3 6 2
+    7 4 1 1 8 9 10 4
+    1 0 7 1 10 11 8 4
+    5 6 3 1 10 11 8 5
+    3 2 5 1 8 9 10 5
+  tverts 12
     0.330692 0.6268 0
     0.329536 0.40149 0
     1.3002 0.391837 0
@@ -543,14 +535,13 @@ node trimesh Object09
     1.29997 0.346775 0
     1.30158 0.662209 0
     0.330923 0.671862 0
-    1.08878 0.5263 0
-    1.25056 0.524691 0
-    1.25079 0.569754 0
-    1.08901 0.571362 0
-    1.25056 0.524692 0
+    0.08878 0.5263 0
+    0.25056 0.524691 0
+    0.25079 0.569754 0
+    0.08901 0.571362 0
 endnode
-node trimesh Object10
-  parent PLC_DD41
+node trimesh object10
+  parent plc_dd41
   position -3.30983 0 0
   orientation 0 0 -1 -0.05236
   wirecolor 0.0351563 0.0351563 0.0351563
@@ -558,9 +549,9 @@ node trimesh Object10
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  bitmap LOKTracks
+  bitmap loktracks
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 0
@@ -575,16 +566,16 @@ node trimesh Object10
     0.125 -0.75 0
     0.125 0.75 0
   faces 10
-    0 1 2  1  0 1 2  0
-    2 3 0  1  2 3 0  0
-    4 5 2  1  4 5 2  3
-    2 1 4  1  2 1 4  3
-    6 7 0  1  6 7 0  2
-    0 3 6  1  0 3 6  2
-    7 4 1  1  8 9 10  4
-    1 0 7  1  10 11 8  4
-    5 6 3  1  10 11 8  5
-    3 2 5  1  8 9 10  5
+    0 1 2 1 0 1 2 0
+    2 3 0 1 2 3 0 0
+    4 5 2 1 4 5 2 3
+    2 1 4 1 2 1 4 3
+    6 7 0 1 6 7 0 2
+    0 3 6 1 0 3 6 2
+    7 4 1 1 8 9 10 4
+    1 0 7 1 10 11 8 4
+    5 6 3 1 10 11 8 5
+    3 2 5 1 8 9 10 5
   tverts 12
     -0.375878 0.810671 0
     -0.377033 0.624526 0
@@ -599,8 +590,8 @@ node trimesh Object10
     0.544218 0.763541 0
     0.382441 0.76487 0
 endnode
-node trimesh Object11
-  parent PLC_DD41
+node trimesh object11
+  parent plc_dd41
   position -4.42079 0 0
   orientation 0 0 1 -0.0349065
   wirecolor 0.0351563 0.0351563 0.0351563
@@ -608,9 +599,9 @@ node trimesh Object11
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  bitmap LOKTracks
+  bitmap loktracks
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 0
@@ -625,29 +616,29 @@ node trimesh Object11
     0.125 -0.75 0
     0.125 0.75 0
   faces 10
-    0 1 2  1  0 1 2  0
-    2 3 0  1  2 3 0  0
-    4 5 2  1  4 5 2  3
-    2 1 4  1  2 1 4  3
-    6 7 0  1  6 7 0  2
-    0 3 6  1  0 3 6  2
-    7 4 1  1  8 9 10  4
-    1 0 7  1  10 11 8  4
-    5 6 3  1  10 11 8  5
-    3 2 5  1  8 9 10  5
+    0 1 2 1 0 1 2 0
+    2 3 0 1 2 3 0 0
+    4 5 2 1 4 5 2 3
+    2 1 4 1 2 1 4 3
+    6 7 0 1 6 7 0 2
+    0 3 6 1 0 3 6 2
+    7 4 1 1 8 9 10 4
+    1 0 7 1 10 11 8 4
+    5 6 3 1 10 11 8 5
+    3 2 5 1 8 9 10 5
   tverts 12
-    0.522483 0.621103 0
-    0.521327 0.400664 0
-    1.49199 0.391219 0
-    1.49314 0.611659 0
-    0.521096 0.356576 0
-    1.49176 0.347132 0
-    1.49338 0.655747 0
-    0.522714 0.665191 0
-    1.28057 0.522776 0
-    1.44235 0.521202 0
-    1.44258 0.56529 0
-    1.2808 0.566864 0
+    -0.477517 0.621103 0
+    -0.478673 0.400664 0
+    0.49199 0.391219 0
+    0.49314 0.611659 0
+    -0.478904 0.356576 0
+    0.49176 0.347132 0
+    0.49338 0.655747 0
+    -0.477286 0.665191 0
+    0.28057 0.522776 0
+    0.44235 0.521202 0
+    0.44258 0.56529 0
+    0.2808 0.566864 0
 endnode
-endmodelgeom PLC_DD41
-donemodel PLC_DD41
+endmodelgeom plc_dd41
+donemodel plc_dd41

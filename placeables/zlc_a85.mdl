@@ -1,84 +1,16 @@
-#Exported from 3ds max by MDL Plug-in Suite 1.0b
-#http://www.bricksbuilder.com/nwn/utils/
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 18:43:04 2019
 #MAXMODEL ASCII
-# model: zlc_a85
-filedependancy Unknown
+filedependency Unknown
 newmodel zlc_a85
-setsupermodel zlc_a85 NULL
-classification Character
-setanimationscale 1.0
-#MAXGEOM  ASCII
+  classification CHARACTER
+  setsupermodel zlc_a85 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
 beginmodelgeom zlc_a85
 node dummy zlc_a85
   parent NULL
 endnode
-node emitter burst
-  parent zlc_a85
-  position -0.960402 -1.90459 1.05413
-  orientation 0.0087265 -0.00161737 -0.999961 -2.77509
-  wirecolor 0.894531 0.894531 0.894531
-    colorStart 0.223529 0.223529 0.223529
-    colorEnd 0.823529 0.0980392 0
-    alphaStart 0.9
-    alphaEnd 0.11
-    sizeStart 0.78
-    sizeEnd 2.60389
-    sizeStart_y 0
-    sizeEnd_y 0
-    frameStart 0
-    frameEnd 15
-    birthrate 7
-    spawnType 0
-    lifeExp 1.2
-    mass 0
-    spread 2.0944
-    particleRot 0.1
-    velocity 0.5
-    randvel 0.2
-    fps 16
-    random 0
-    inherit 0
-    inherit_local 1
-    inherit_part 0
-    inheritvel 0
-    xsize 20
-    ysize 20
-    bounce 0
-    bounce_co 0
-    loop 0
-    update Fountain
-    render Normal
-    Blend Normal
-    update_sel 1
-    render_sel 1
-    blend_sel 1
-    deadspace 0
-    opacity 0.5
-    blurlength 10
-    lightningDelay 0
-    lightningRadius 0
-    lightningScale 0
-    blastRadius 0
-    blastLength 0
-    twosidedtex 0
-    p2p 0
-    p2p_sel 1
-    p2p_type Bezier
-    p2p_bezier2 0
-    p2p_bezier3 0
-    combinetime 0
-    drag 0
-    grav 0
-    threshold 0
-    texture fxpa_Smoke01
-    xgrid 4
-    ygrid 4
-    affectedByWind 0
-    m_isTinted 0
-    renderorder 1
-    Splat 0
-endnode
-node trimesh Cone01
+node trimesh cone01
   parent zlc_a85
   position -0.978244 -1.93548 0.666774
   orientation 0 0 -1 -2.77507
@@ -105,27 +37,27 @@ node trimesh Cone01
     -0.224844 0.283798 0.439376
     0 0 0.309551
   faces 21
-    0 8 7  1  0 8 7  2
-    0 1 8  1  0 1 8  2
-    1 9 8  1  1 9 8  2
-    1 2 9  1  1 2 9  2
-    2 10 9  1  2 10 9  2
-    2 3 10  1  2 3 10  2
-    3 11 10  1  3 11 10  2
-    3 4 11  1  3 4 11  2
-    4 12 11  1  4 12 11  2
-    4 5 12  1  4 5 12  2
-    5 13 12  1  5 13 12  2
-    5 6 13  1  5 6 13  2
-    6 7 13  1  6 7 13  2
-    6 0 7  1  6 0 7  2
-    14 7 8  1  14 7 8  0
-    14 8 9  1  14 8 9  0
-    14 9 10  1  14 9 10  0
-    14 10 11  1  14 10 11  0
-    14 11 12  1  14 11 12  0
-    14 12 13  1  14 12 13  0
-    14 13 7  1  14 13 7  0
+    0 8 7 1 0 8 7 2
+    0 1 8 1 0 1 8 2
+    1 9 8 1 1 9 8 2
+    1 2 9 1 1 2 9 2
+    2 10 9 1 2 10 9 2
+    2 3 10 1 2 3 10 2
+    3 11 10 1 3 11 10 2
+    3 4 11 1 3 4 11 2
+    4 12 11 1 4 12 11 2
+    4 5 12 1 4 5 12 2
+    5 13 12 1 5 13 12 2
+    5 6 13 1 5 6 13 2
+    6 7 13 1 6 7 13 2
+    6 0 7 1 6 0 7 2
+    14 7 8 1 14 7 8 0
+    14 8 9 1 14 8 9 0
+    14 9 10 1 14 9 10 0
+    14 10 11 1 14 10 11 0
+    14 11 12 1 14 11 12 0
+    14 12 13 1 14 12 13 0
+    14 13 7 1 14 13 7 0
   tverts 15
     0.776041 0.357408 0
     0.629475 0.654126 0
@@ -143,7 +75,7 @@ node trimesh Cone01
     0.477408 0.245867 0
     0.386765 0.357408 0
 endnode
-node trimesh Cone02
+node trimesh cone02
   parent zlc_a85
   position -2.63996 -1.38922 -0.0448854
   orientation 0.125681 0.248723 0.960386 -0.559962
@@ -170,27 +102,27 @@ node trimesh Cone02
     -0.0427758 0.326143 0.374452
     0.337912 0.1224 0.458206
   faces 21
-    0 8 7  1  0 8 7  2
-    0 1 8  1  0 1 8  2
-    1 9 8  1  1 9 8  2
-    1 2 9  1  1 2 9  2
-    2 10 9  1  2 10 9  2
-    2 3 10  1  2 3 10  2
-    3 11 10  1  3 11 10  2
-    3 4 11  1  3 4 11  2
-    4 12 11  1  4 12 11  2
-    4 5 12  1  4 5 12  2
-    5 13 12  1  5 13 12  2
-    5 6 13  1  5 6 13  2
-    6 7 13  1  6 7 13  2
-    6 0 7  1  6 0 7  2
-    14 7 8  1  14 7 8  0
-    14 8 9  1  14 8 9  0
-    14 9 10  1  14 9 10  0
-    14 10 11  1  14 10 11  0
-    14 11 12  1  14 11 12  0
-    14 12 13  1  14 12 13  0
-    14 13 7  1  14 13 7  0
+    0 8 7 1 0 8 7 2
+    0 1 8 1 0 1 8 2
+    1 9 8 1 1 9 8 2
+    1 2 9 1 1 2 9 2
+    2 10 9 1 2 10 9 2
+    2 3 10 1 2 3 10 2
+    3 11 10 1 3 11 10 2
+    3 4 11 1 3 4 11 2
+    4 12 11 1 4 12 11 2
+    4 5 12 1 4 5 12 2
+    5 13 12 1 5 13 12 2
+    5 6 13 1 5 6 13 2
+    6 7 13 1 6 7 13 2
+    6 0 7 1 6 0 7 2
+    14 7 8 1 14 7 8 0
+    14 8 9 1 14 8 9 0
+    14 9 10 1 14 9 10 0
+    14 10 11 1 14 10 11 0
+    14 11 12 1 14 11 12 0
+    14 12 13 1 14 12 13 0
+    14 13 7 1 14 13 7 0
   tverts 15
     0.974696 0.578033 0
     0.891155 0.737004 0
@@ -208,7 +140,7 @@ node trimesh Cone02
     0.759504 0.475556 0
     0.650099 0.530659 0
 endnode
-node trimesh Cone03
+node trimesh cone03
   parent zlc_a85
   position 0.762685 -2.03027 -0.0462357
   orientation -0.0639133 -0.000835034 -0.997955 -1.04905
@@ -235,27 +167,27 @@ node trimesh Cone03
     -0.134412 0.169654 0.262659
     0.152627 0 0.371841
   faces 21
-    0 8 7  1  0 8 7  2
-    0 1 8  1  0 1 8  2
-    1 9 8  1  1 9 8  2
-    1 2 9  1  1 2 9  2
-    2 10 9  1  2 10 9  2
-    2 3 10  1  2 3 10  2
-    3 11 10  1  3 11 10  2
-    3 4 11  1  3 4 11  2
-    4 12 11  1  4 12 11  2
-    4 5 12  1  4 5 12  2
-    5 13 12  1  5 13 12  2
-    5 6 13  1  5 6 13  2
-    6 7 13  1  6 7 13  2
-    6 0 7  1  6 0 7  2
-    14 7 8  1  14 7 8  0
-    14 8 9  1  14 8 9  0
-    14 9 10  1  14 9 10  0
-    14 10 11  1  14 10 11  0
-    14 11 12  1  14 11 12  0
-    14 12 13  1  14 12 13  0
-    14 13 7  1  14 13 7  0
+    0 8 7 1 0 8 7 2
+    0 1 8 1 0 1 8 2
+    1 9 8 1 1 9 8 2
+    1 2 9 1 1 2 9 2
+    2 10 9 1 2 10 9 2
+    2 3 10 1 2 3 10 2
+    3 11 10 1 3 11 10 2
+    3 4 11 1 3 4 11 2
+    4 12 11 1 4 12 11 2
+    4 5 12 1 4 5 12 2
+    5 13 12 1 5 13 12 2
+    5 6 13 1 5 6 13 2
+    6 7 13 1 6 7 13 2
+    6 0 7 1 6 0 7 2
+    14 7 8 1 14 7 8 0
+    14 8 9 1 14 8 9 0
+    14 9 10 1 14 9 10 0
+    14 10 11 1 14 10 11 0
+    14 11 12 1 14 11 12 0
+    14 12 13 1 14 12 13 0
+    14 13 7 1 14 13 7 0
   tverts 15
     0.70376 0.637322 0
     0.71351 0.76875 0
@@ -273,7 +205,7 @@ node trimesh Cone03
     0.58219 0.655149 0
     0.539733 0.730842 0
 endnode
-node trimesh Cone04
+node trimesh cone04
   parent zlc_a85
   position -0.927742 -1.95488 0.00785088
   orientation 0 0 -1 -2.77507
@@ -300,27 +232,27 @@ node trimesh Cone04
     -0.466983 0.589427 0.91255
     0 0 0.642914
   faces 21
-    0 8 7  1  0 8 7  2
-    0 1 8  1  0 1 8  2
-    1 9 8  1  1 9 8  2
-    1 2 9  1  1 2 9  2
-    2 10 9  1  2 10 9  2
-    2 3 10  1  2 3 10  2
-    3 11 10  1  3 11 10  2
-    3 4 11  1  3 4 11  2
-    4 12 11  1  4 12 11  2
-    4 5 12  1  4 5 12  2
-    5 13 12  1  5 13 12  2
-    5 6 13  1  5 6 13  2
-    6 7 13  1  6 7 13  2
-    6 0 7  1  6 0 7  2
-    14 7 8  1  14 7 8  0
-    14 8 9  1  14 8 9  0
-    14 9 10  1  14 9 10  0
-    14 10 11  1  14 10 11  0
-    14 11 12  1  14 11 12  0
-    14 12 13  1  14 12 13  0
-    14 13 7  1  14 13 7  0
+    0 8 7 1 0 8 7 2
+    0 1 8 1 0 1 8 2
+    1 9 8 1 1 9 8 2
+    1 2 9 1 1 2 9 2
+    2 10 9 1 2 10 9 2
+    2 3 10 1 2 3 10 2
+    3 11 10 1 3 11 10 2
+    3 4 11 1 3 4 11 2
+    4 12 11 1 4 12 11 2
+    4 5 12 1 4 5 12 2
+    5 13 12 1 5 13 12 2
+    5 6 13 1 5 6 13 2
+    6 7 13 1 6 7 13 2
+    6 0 7 1 6 0 7 2
+    14 7 8 1 14 7 8 0
+    14 8 9 1 14 8 9 0
+    14 9 10 1 14 9 10 0
+    14 10 11 1 14 10 11 0
+    14 11 12 1 14 11 12 0
+    14 12 13 1 14 12 13 0
+    14 13 7 1 14 13 7 0
   tverts 15
     0.895981 0.359916 0
     0.707538 0.741411 0
@@ -338,203 +270,249 @@ node trimesh Cone04
     0.512025 0.216506 0
     0.395484 0.359916 0
 endnode
+node emitter burst
+  parent zlc_a85
+  position -0.960402 -1.90459 1.05413
+  orientation 0.0087265 -0.00161737 -0.999961 -2.77509
+  wirecolor 0.894531 0.894531 0.894531
+  colorStart 0.223529 0.223529 0.223529
+  colorEnd 0.823529 0.0980392 0
+  alphaStart 0.9
+  alphaEnd 0.11
+  sizeStart 0.78
+  sizeEnd 2.60389
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 7
+  spawntype 0
+  lifeExp 1.2
+  mass 0
+  spread 2.0944
+  particleRot 0.1
+  velocity 0.5
+  randvel 0.2
+  fps 16
+  random 0
+  inherit 0
+  inherit_local 1
+  inherit_part 0
+  inheritvel 0
+  xsize 20
+  ysize 20
+  bounce 0
+  bounce_co 0
+  loop 0
+  update Fountain
+  render Normal
+  blend Normal
+  deadspace 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  twosidedtex 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+  texture fxpa_smoke01
+  xgrid 4
+  ygrid 4
+  affectedByWind 0
+  m_isTinted 0
+  renderorder 1
+  splat 0
+endnode
 node emitter shater
   parent zlc_a85
   position -0.946514 -1.87747 0.964269
   orientation 0.0127765 0.0089361 -0.999878 -1.18803
   wirecolor 0.34375 0.34375 0.34375
-    colorStart 0.741176 0.113725 0.113725
-    colorEnd 0.768628 0.74902 0.203922
-    alphaStart 0.84
-    alphaEnd 0.15
-    sizeStart 0.7
-    sizeEnd 0.5
-    sizeStart_y 0
-    sizeEnd_y 0
-    frameStart 0
-    frameEnd 3
-    birthrate 50
-    spawnType 0
-    lifeExp 1
-    mass 0.2
-    spread 5.23599
-    particleRot 1.1
-    velocity 2
-    randvel 0.5
-    fps 2
-    random 1
-    inherit 0
-    inherit_local 0
-    inherit_part 0
-    inheritvel 0
-    xsize 0
-    ysize 0
-    bounce 0
-    bounce_co 0.3
-    loop 0
-    update Explosion
-    render Normal
-    Blend Normal
-    update_sel 2
-    render_sel 1
-    blend_sel 1
-    deadspace 0
-    opacity 0.5
-    blurlength 10
-    lightningDelay 0
-    lightningRadius 0
-    lightningScale 0
-    blastRadius 0
-    blastLength 0
-    twosidedtex 0
-    p2p 0
-    p2p_sel 1
-    p2p_type Bezier
-    p2p_bezier2 0
-    p2p_bezier3 0
-    combinetime 0
-    drag 0
-    grav 0
-    threshold 0
-    texture Blood
-    xgrid 2
-    ygrid 2
-    affectedByWind 0
-    m_isTinted 0
-    renderorder 7
-    Splat 0
+  colorStart 0.741176 0.113725 0.113725
+  colorEnd 0.768628 0.74902 0.203922
+  alphaStart 0.84
+  alphaEnd 0.15
+  sizeStart 0.7
+  sizeEnd 0.5
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 3
+  birthrate 50
+  spawntype 0
+  lifeExp 1
+  mass 0.2
+  spread 5.23599
+  particleRot 1.1
+  velocity 2
+  randvel 0.5
+  fps 2
+  random 1
+  inherit 0
+  inherit_local 0
+  inherit_part 0
+  inheritvel 0
+  xsize 0
+  ysize 0
+  bounce 0
+  bounce_co 0.3
+  loop 0
+  update Explosion
+  render Normal
+  blend Normal
+  deadspace 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  twosidedtex 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+  texture blood
+  xgrid 2
+  ygrid 2
+  affectedByWind 0
+  m_isTinted 0
+  renderorder 7
+  splat 0
 endnode
-node emitter UPcloud
+node emitter upcloud
   parent zlc_a85
   position -0.944044 -1.87789 0.80819
   orientation 0.0087265 -0.00161737 -0.999961 -2.77509
   wirecolor 0.34375 0.34375 0.34375
-    colorStart 0.647059 0.243137 0.243137
-    colorEnd 0.133333 0.0431373 0
-    alphaStart 0.2
-    alphaEnd 0.8
-    sizeStart 0.2
-    sizeEnd 2
-    sizeStart_y 0
-    sizeEnd_y 0
-    frameStart 0
-    frameEnd 15
-    birthrate 60
-    spawnType 0
-    lifeExp 1
-    mass 0.3
-    spread 0.523599
-    particleRot 2
-    velocity 4
-    randvel 0.6
-    fps 15
-    random 0
-    inherit 0
-    inherit_local 0
-    inherit_part 0
-    inheritvel 0
-    xsize 20
-    ysize 30
-    bounce 0
-    bounce_co 0
-    loop 0
-    update Fountain
-    render Normal
-    Blend Normal
-    update_sel 1
-    render_sel 1
-    blend_sel 1
-    deadspace 0
-    opacity 0.5
-    blurlength 10
-    lightningDelay 0
-    lightningRadius 0
-    lightningScale 0
-    blastRadius 0
-    blastLength 0
-    twosidedtex 0
-    p2p 0
-    p2p_sel 1
-    p2p_type Bezier
-    p2p_bezier2 0
-    p2p_bezier3 0
-    combinetime 0
-    drag 0
-    grav 0
-    threshold 0
-    texture fxpa_Smoke01
-    xgrid 4
-    ygrid 4
-    affectedByWind 0
-    m_isTinted 0
-    renderorder 1
-    Splat 0
+  colorStart 0.647059 0.243137 0.243137
+  colorEnd 0.133333 0.0431373 0
+  alphaStart 0.2
+  alphaEnd 0.8
+  sizeStart 0.2
+  sizeEnd 2
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 60
+  spawntype 0
+  lifeExp 1
+  mass 0.3
+  spread 0.523599
+  particleRot 2
+  velocity 4
+  randvel 0.6
+  fps 15
+  random 0
+  inherit 0
+  inherit_local 0
+  inherit_part 0
+  inheritvel 0
+  xsize 20
+  ysize 30
+  bounce 0
+  bounce_co 0
+  loop 0
+  update Fountain
+  render Normal
+  blend Normal
+  deadspace 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  twosidedtex 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+  texture fxpa_smoke01
+  xgrid 4
+  ygrid 4
+  affectedByWind 0
+  m_isTinted 0
+  renderorder 1
+  splat 0
 endnode
-node emitter UPcloud01
+node emitter upcloud01
   parent zlc_a85
   position -0.944044 -1.87789 0.870706
   orientation 0.0087265 -0.00161737 -0.999961 -2.77509
   wirecolor 0.34375 0.34375 0.34375
-    colorStart 0 0 0
-    colorEnd 0.623529 0.180392 0.156863
-    alphaStart 0.73
-    alphaEnd 0.22
-    sizeStart 0.2
-    sizeEnd 2
-    sizeStart_y 0
-    sizeEnd_y 0
-    frameStart 0
-    frameEnd 15
-    birthrate 60
-    spawnType 0
-    lifeExp 1
-    mass 0.3
-    spread 0.523599
-    particleRot -2
-    velocity 4
-    randvel 0.3
-    fps 15
-    random 0
-    inherit 0
-    inherit_local 0
-    inherit_part 0
-    inheritvel 0
-    xsize 30
-    ysize 20
-    bounce 0
-    bounce_co 0
-    loop 0
-    update Fountain
-    render Normal
-    Blend Normal
-    update_sel 1
-    render_sel 1
-    blend_sel 1
-    deadspace 0
-    opacity 0.5
-    blurlength 10
-    lightningDelay 0
-    lightningRadius 0
-    lightningScale 0
-    blastRadius 0
-    blastLength 0
-    twosidedtex 0
-    p2p 0
-    p2p_sel 1
-    p2p_type Bezier
-    p2p_bezier2 0
-    p2p_bezier3 0
-    combinetime 0
-    drag 0
-    grav 0
-    threshold 0
-    texture fxpa_Smoke01
-    xgrid 4
-    ygrid 4
-    affectedByWind 0
-    m_isTinted 0
-    renderorder 0
-    Splat 0
+  colorStart 0 0 0
+  colorEnd 0.623529 0.180392 0.156863
+  alphaStart 0.73
+  alphaEnd 0.22
+  sizeStart 0.2
+  sizeEnd 2
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 60
+  spawntype 0
+  lifeExp 1
+  mass 0.3
+  spread 0.523599
+  particleRot -2
+  velocity 4
+  randvel 0.3
+  fps 15
+  random 0
+  inherit 0
+  inherit_local 0
+  inherit_part 0
+  inheritvel 0
+  xsize 30
+  ysize 20
+  bounce 0
+  bounce_co 0
+  loop 0
+  update Fountain
+  render Normal
+  blend Normal
+  deadspace 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  twosidedtex 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+  texture fxpa_smoke01
+  xgrid 4
+  ygrid 4
+  affectedByWind 0
+  m_isTinted 0
+  renderorder 0
+  splat 0
 endnode
 endmodelgeom zlc_a85
 donemodel zlc_a85

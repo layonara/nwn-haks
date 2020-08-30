@@ -1,19 +1,17 @@
-#Exported from 3ds max by MDL Plug-in Suite 1.0b
-#http://www.bricksbuilder.com/nwn/utils/
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 18:35:30 2019
 #MAXMODEL ASCII
-# model: ba_firtree
-filedependancy pinetreedeluxegreen.max
-newmodel ba_firtree
-setsupermodel ba_firtree NULL
-classification Character
-setanimationscale 1.0
-#MAXGEOM  ASCII
-beginmodelgeom ba_firtree
-node dummy ba_firtree
+filedependency Unknown
+newmodel pinel
+  classification CHARACTER
+  setsupermodel pinel NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom pinel
+node dummy pinel
   parent NULL
 endnode
-node trimesh Plane01
-  parent ba_firtree
+node trimesh plane01
+  parent pinel
   position 7.12721 1.08044 16.8953
   orientation 0 0 0 0
   wirecolor 0.105469 0.105469 0.105469
@@ -23,7 +21,7 @@ node trimesh Plane01
   shininess 10
   bitmap treefol06d
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 1
@@ -39,22 +37,22 @@ node trimesh Plane01
     2.35148 -3.11392 -11.3769
     3.89999 -1.11794 -10.1431
   faces 16
-    3 0 4  1  3 0 4  1
-    1 4 0  1  1 4 0  1
-    4 1 5  1  4 1 5  1
-    2 5 1  1  2 5 1  1
-    6 3 7  1  6 3 7  1
-    4 7 3  1  4 7 3  1
-    7 4 8  1  7 4 8  1
-    5 8 4  1  5 8 4  1
-    4 0 3  1  4 0 3  1
-    0 4 1  1  0 4 1  1
-    5 1 4  1  5 1 4  1
-    1 5 2  1  1 5 2  1
-    7 3 6  1  7 3 6  1
-    3 7 4  1  3 7 4  1
-    8 4 7  1  8 4 7  1
-    4 8 5  1  4 8 5  1
+    3 0 4 1 3 0 4 1
+    1 4 0 1 1 4 0 1
+    4 1 5 1 4 1 5 1
+    2 5 1 1 2 5 1 1
+    6 3 7 1 6 3 7 1
+    4 7 3 1 4 7 3 1
+    7 4 8 1 7 4 8 1
+    5 8 4 1 5 8 4 1
+    4 0 3 1 4 0 3 1
+    0 4 1 1 0 4 1 1
+    5 1 4 1 5 1 4 1
+    1 5 2 1 1 5 2 1
+    7 3 6 1 7 3 6 1
+    3 7 4 1 3 7 4 1
+    8 4 7 1 8 4 7 1
+    4 8 5 1 4 8 5 1
   tverts 9
     0.00423212 0.00657552 0
     0.00311328 0.531345 0
@@ -66,8 +64,8 @@ node trimesh Plane01
     0.994453 0.530644 0
     0.985158 0.907344 0
 endnode
-node trimesh Plane02
-  parent ba_firtree
+node trimesh plane02
+  parent pinel
   position 2.38318 5.81198 16.8953
   orientation 0 0 0 0
   wirecolor 0.695313 0.695313 0.695313
@@ -77,7 +75,7 @@ node trimesh Plane02
   shininess 10
   bitmap treefol06d
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 1
@@ -93,22 +91,22 @@ node trimesh Plane02
     3.73038 1.14465 -11.3769
     2.38439 3.28243 -10.1431
   faces 16
-    3 0 4  1  3 0 4  1
-    1 4 0  1  1 4 0  1
-    4 1 5  1  4 1 5  1
-    2 5 1  1  2 5 1  1
-    6 3 7  1  6 3 7  1
-    4 7 3  1  4 7 3  1
-    7 4 8  1  7 4 8  1
-    5 8 4  1  5 8 4  1
-    4 0 3  1  4 0 3  1
-    0 4 1  1  0 4 1  1
-    5 1 4  1  5 1 4  1
-    1 5 2  1  1 5 2  1
-    7 3 6  1  7 3 6  1
-    3 7 4  1  3 7 4  1
-    8 4 7  1  8 4 7  1
-    4 8 5  1  4 8 5  1
+    3 0 4 1 3 0 4 1
+    1 4 0 1 1 4 0 1
+    4 1 5 1 4 1 5 1
+    2 5 1 1 2 5 1 1
+    6 3 7 1 6 3 7 1
+    4 7 3 1 4 7 3 1
+    7 4 8 1 7 4 8 1
+    5 8 4 1 5 8 4 1
+    4 0 3 1 4 0 3 1
+    0 4 1 1 0 4 1 1
+    5 1 4 1 5 1 4 1
+    1 5 2 1 1 5 2 1
+    7 3 6 1 7 3 6 1
+    3 7 4 1 3 7 4 1
+    8 4 7 1 8 4 7 1
+    4 8 5 1 4 8 5 1
   tverts 9
     0.00423212 0.00657552 0
     0.00311328 0.531345 0
@@ -120,8 +118,8 @@ node trimesh Plane02
     0.994453 0.530644 0
     0.985158 0.907344 0
 endnode
-node trimesh Plane03
-  parent ba_firtree
+node trimesh plane03
+  parent pinel
   position -3.83379 2.88371 16.8953
   orientation 0 0 0 0
   wirecolor 0.695313 0.695313 0.695313
@@ -131,7 +129,7 @@ node trimesh Plane03
   shininess 10
   bitmap treefol06d
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 1
@@ -147,22 +145,22 @@ node trimesh Plane03
     0.200251 3.8969 -11.3769
     -2.26897 3.36326 -10.1431
   faces 16
-    3 0 4  1  3 0 4  1
-    1 4 0  1  1 4 0  1
-    4 1 5  1  4 1 5  1
-    2 5 1  1  2 5 1  1
-    6 3 7  1  6 3 7  1
-    4 7 3  1  4 7 3  1
-    7 4 8  1  7 4 8  1
-    5 8 4  1  5 8 4  1
-    4 0 3  1  4 0 3  1
-    0 4 1  1  0 4 1  1
-    5 1 4  1  5 1 4  1
-    1 5 2  1  1 5 2  1
-    7 3 6  1  7 3 6  1
-    3 7 4  1  3 7 4  1
-    8 4 7  1  8 4 7  1
-    4 8 5  1  4 8 5  1
+    3 0 4 1 3 0 4 1
+    1 4 0 1 1 4 0 1
+    4 1 5 1 4 1 5 1
+    2 5 1 1 2 5 1 1
+    6 3 7 1 6 3 7 1
+    4 7 3 1 4 7 3 1
+    7 4 8 1 7 4 8 1
+    5 8 4 1 5 8 4 1
+    4 0 3 1 4 0 3 1
+    0 4 1 1 0 4 1 1
+    5 1 4 1 5 1 4 1
+    1 5 2 1 1 5 2 1
+    7 3 6 1 7 3 6 1
+    3 7 4 1 3 7 4 1
+    8 4 7 1 8 4 7 1
+    4 8 5 1 4 8 5 1
   tverts 9
     0.00423212 0.00657552 0
     0.00311328 0.531345 0
@@ -174,8 +172,8 @@ node trimesh Plane03
     0.994453 0.530644 0
     0.985158 0.907344 0
 endnode
-node trimesh Plane04
-  parent ba_firtree
+node trimesh plane04
+  parent pinel
   position -2.90445 -4.11854 16.8953
   orientation 0 0 0 0
   wirecolor 0.695313 0.695313 0.695313
@@ -185,7 +183,7 @@ node trimesh Plane04
   shininess 10
   bitmap treefol06d
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 1
@@ -201,22 +199,22 @@ node trimesh Plane04
     -3.67955 1.29879 -11.3769
     -3.86918 -1.22032 -10.1431
   faces 16
-    3 0 4  1  3 0 4  1
-    1 4 0  1  1 4 0  1
-    4 1 5  1  4 1 5  1
-    2 5 1  1  2 5 1  1
-    6 3 7  1  6 3 7  1
-    4 7 3  1  4 7 3  1
-    7 4 8  1  7 4 8  1
-    5 8 4  1  5 8 4  1
-    4 0 3  1  4 0 3  1
-    0 4 1  1  0 4 1  1
-    5 1 4  1  5 1 4  1
-    1 5 2  1  1 5 2  1
-    7 3 6  1  7 3 6  1
-    3 7 4  1  3 7 4  1
-    8 4 7  1  8 4 7  1
-    4 8 5  1  4 8 5  1
+    3 0 4 1 3 0 4 1
+    1 4 0 1 1 4 0 1
+    4 1 5 1 4 1 5 1
+    2 5 1 1 2 5 1 1
+    6 3 7 1 6 3 7 1
+    4 7 3 1 4 7 3 1
+    7 4 8 1 7 4 8 1
+    5 8 4 1 5 8 4 1
+    4 0 3 1 4 0 3 1
+    0 4 1 1 0 4 1 1
+    5 1 4 1 5 1 4 1
+    1 5 2 1 1 5 2 1
+    7 3 6 1 7 3 6 1
+    3 7 4 1 3 7 4 1
+    8 4 7 1 8 4 7 1
+    4 8 5 1 4 8 5 1
   tverts 9
     0.00423212 0.00657552 0
     0.00311328 0.531345 0
@@ -228,8 +226,8 @@ node trimesh Plane04
     0.994453 0.530644 0
     0.985158 0.907344 0
 endnode
-node trimesh Plane05
-  parent ba_firtree
+node trimesh plane05
+  parent pinel
   position 3.9581 -5.32156 16.8953
   orientation 0 0 0 0
   wirecolor 0.554688 0.554688 0.554688
@@ -239,7 +237,7 @@ node trimesh Plane05
   shininess 10
   bitmap treefol06d
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 1
@@ -255,22 +253,22 @@ node trimesh Plane05
     -2.34514 -3.1187 -11.3769
     0.000350487 -4.05706 -10.1431
   faces 16
-    3 0 4  1  3 0 4  1
-    1 4 0  1  1 4 0  1
-    4 1 5  1  4 1 5  1
-    2 5 1  1  2 5 1  1
-    6 3 7  1  6 3 7  1
-    4 7 3  1  4 7 3  1
-    7 4 8  1  7 4 8  1
-    5 8 4  1  5 8 4  1
-    4 0 3  1  4 0 3  1
-    0 4 1  1  0 4 1  1
-    5 1 4  1  5 1 4  1
-    1 5 2  1  1 5 2  1
-    7 3 6  1  7 3 6  1
-    3 7 4  1  3 7 4  1
-    8 4 7  1  8 4 7  1
-    4 8 5  1  4 8 5  1
+    3 0 4 1 3 0 4 1
+    1 4 0 1 1 4 0 1
+    4 1 5 1 4 1 5 1
+    2 5 1 1 2 5 1 1
+    6 3 7 1 6 3 7 1
+    4 7 3 1 4 7 3 1
+    7 4 8 1 7 4 8 1
+    5 8 4 1 5 8 4 1
+    4 0 3 1 4 0 3 1
+    0 4 1 1 0 4 1 1
+    5 1 4 1 5 1 4 1
+    1 5 2 1 1 5 2 1
+    7 3 6 1 7 3 6 1
+    3 7 4 1 3 7 4 1
+    8 4 7 1 8 4 7 1
+    4 8 5 1 4 8 5 1
   tverts 9
     0.00423212 0.00657552 0
     0.00311328 0.531345 0
@@ -282,8 +280,8 @@ node trimesh Plane05
     0.994453 0.530644 0
     0.985158 0.907344 0
 endnode
-node trimesh Plane06
-  parent ba_firtree
+node trimesh plane06
+  parent pinel
   position 6.06178 5.18844 19.0966
   orientation 0 0 0 0
   wirecolor 0.554688 0.554688 0.554688
@@ -293,7 +291,7 @@ node trimesh Plane06
   shininess 10
   bitmap treefol06d
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 1
@@ -309,22 +307,22 @@ node trimesh Plane06
     2.41972 -1.6966 -11.6587
     2.40112 0.914979 -10.6179
   faces 16
-    3 0 4  1  3 0 4  1
-    1 4 0  1  1 4 0  1
-    4 1 5  1  4 1 5  1
-    2 5 1  1  2 5 1  1
-    6 3 7  1  6 3 7  1
-    4 7 3  1  4 7 3  1
-    7 4 8  1  7 4 8  1
-    5 8 4  1  5 8 4  1
-    4 0 3  1  4 0 3  1
-    0 4 1  1  0 4 1  1
-    5 1 4  1  5 1 4  1
-    1 5 2  1  1 5 2  1
-    7 3 6  1  7 3 6  1
-    3 7 4  1  3 7 4  1
-    8 4 7  1  8 4 7  1
-    4 8 5  1  4 8 5  1
+    3 0 4 1 3 0 4 1
+    1 4 0 1 1 4 0 1
+    4 1 5 1 4 1 5 1
+    2 5 1 1 2 5 1 1
+    6 3 7 1 6 3 7 1
+    4 7 3 1 4 7 3 1
+    7 4 8 1 7 4 8 1
+    5 8 4 1 5 8 4 1
+    4 0 3 1 4 0 3 1
+    0 4 1 1 0 4 1 1
+    5 1 4 1 5 1 4 1
+    1 5 2 1 1 5 2 1
+    7 3 6 1 7 3 6 1
+    3 7 4 1 3 7 4 1
+    8 4 7 1 8 4 7 1
+    4 8 5 1 4 8 5 1
   tverts 9
     0.00423212 0.00657552 0
     0.00311328 0.531345 0
@@ -336,8 +334,8 @@ node trimesh Plane06
     0.994453 0.530644 0
     0.985158 0.907344 0
 endnode
-node trimesh Plane07
-  parent ba_firtree
+node trimesh plane07
+  parent pinel
   position -2.24025 5.80096 19.0966
   orientation 0 0 0 0
   wirecolor 0.554688 0.554688 0.554688
@@ -347,7 +345,7 @@ node trimesh Plane07
   shininess 10
   bitmap treefol06d
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 1
@@ -363,22 +361,22 @@ node trimesh Plane07
     3.2818 1.98982 -11.3987
     0.76127 2.86644 -10.5141
   faces 16
-    3 0 4  1  3 0 4  1
-    1 4 0  1  1 4 0  1
-    4 1 5  1  4 1 5  1
-    2 5 1  1  2 5 1  1
-    6 3 7  1  6 3 7  1
-    4 7 3  1  4 7 3  1
-    7 4 8  1  7 4 8  1
-    5 8 4  1  5 8 4  1
-    4 0 3  1  4 0 3  1
-    0 4 1  1  0 4 1  1
-    5 1 4  1  5 1 4  1
-    1 5 2  1  1 5 2  1
-    7 3 6  1  7 3 6  1
-    3 7 4  1  3 7 4  1
-    8 4 7  1  8 4 7  1
-    4 8 5  1  4 8 5  1
+    3 0 4 1 3 0 4 1
+    1 4 0 1 1 4 0 1
+    4 1 5 1 4 1 5 1
+    2 5 1 1 2 5 1 1
+    6 3 7 1 6 3 7 1
+    4 7 3 1 4 7 3 1
+    7 4 8 1 7 4 8 1
+    5 8 4 1 5 8 4 1
+    4 0 3 1 4 0 3 1
+    0 4 1 1 0 4 1 1
+    5 1 4 1 5 1 4 1
+    1 5 2 1 1 5 2 1
+    7 3 6 1 7 3 6 1
+    3 7 4 1 3 7 4 1
+    8 4 7 1 8 4 7 1
+    4 8 5 1 4 8 5 1
   tverts 9
     0.00423212 0.00657552 0
     0.00311328 0.531345 0
@@ -390,8 +388,8 @@ node trimesh Plane07
     0.994453 0.530644 0
     0.985158 0.907344 0
 endnode
-node trimesh Plane08
-  parent ba_firtree
+node trimesh plane08
+  parent pinel
   position -5.23782 -1.32084 19.0966
   orientation 0 0 0 0
   wirecolor 0.835938 0.835938 0.835938
@@ -401,7 +399,7 @@ node trimesh Plane08
   shininess 10
   bitmap treefol06d
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 1
@@ -417,22 +415,22 @@ node trimesh Plane08
     -0.697435 3.3752 -11.5231
     -2.37662 1.32711 -10.5798
   faces 16
-    3 0 4  1  3 0 4  1
-    1 4 0  1  1 4 0  1
-    4 1 5  1  4 1 5  1
-    2 5 1  1  2 5 1  1
-    6 3 7  1  6 3 7  1
-    4 7 3  1  4 7 3  1
-    7 4 8  1  7 4 8  1
-    5 8 4  1  5 8 4  1
-    4 0 3  1  4 0 3  1
-    0 4 1  1  0 4 1  1
-    5 1 4  1  5 1 4  1
-    1 5 2  1  1 5 2  1
-    7 3 6  1  7 3 6  1
-    3 7 4  1  3 7 4  1
-    8 4 7  1  8 4 7  1
-    4 8 5  1  4 8 5  1
+    3 0 4 1 3 0 4 1
+    1 4 0 1 1 4 0 1
+    4 1 5 1 4 1 5 1
+    2 5 1 1 2 5 1 1
+    6 3 7 1 6 3 7 1
+    4 7 3 1 4 7 3 1
+    7 4 8 1 7 4 8 1
+    5 8 4 1 5 8 4 1
+    4 0 3 1 4 0 3 1
+    0 4 1 1 0 4 1 1
+    5 1 4 1 5 1 4 1
+    1 5 2 1 1 5 2 1
+    7 3 6 1 7 3 6 1
+    3 7 4 1 3 7 4 1
+    8 4 7 1 8 4 7 1
+    4 8 5 1 4 8 5 1
   tverts 9
     0.00423212 0.00657552 0
     0.00311328 0.531345 0
@@ -444,8 +442,8 @@ node trimesh Plane08
     0.994453 0.530644 0
     0.985158 0.907344 0
 endnode
-node trimesh Plane09
-  parent ba_firtree
+node trimesh plane09
+  parent pinel
   position 0.900378 -6.80896 19.0966
   orientation 0 0 0 0
   wirecolor 0.835938 0.835938 0.835938
@@ -455,7 +453,7 @@ node trimesh Plane09
   shininess 10
   bitmap treefol06d
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 1
@@ -471,22 +469,22 @@ node trimesh Plane09
     -3.33001 0.176201 -11.5559
     -1.85326 -2.00685 -10.5773
   faces 16
-    3 0 4  1  3 0 4  1
-    1 4 0  1  1 4 0  1
-    4 1 5  1  4 1 5  1
-    2 5 1  1  2 5 1  1
-    6 3 7  1  6 3 7  1
-    4 7 3  1  4 7 3  1
-    7 4 8  1  7 4 8  1
-    5 8 4  1  5 8 4  1
-    4 0 3  1  4 0 3  1
-    0 4 1  1  0 4 1  1
-    5 1 4  1  5 1 4  1
-    1 5 2  1  1 5 2  1
-    7 3 6  1  7 3 6  1
-    3 7 4  1  3 7 4  1
-    8 4 7  1  8 4 7  1
-    4 8 5  1  4 8 5  1
+    3 0 4 1 3 0 4 1
+    1 4 0 1 1 4 0 1
+    4 1 5 1 4 1 5 1
+    2 5 1 1 2 5 1 1
+    6 3 7 1 6 3 7 1
+    4 7 3 1 4 7 3 1
+    7 4 8 1 7 4 8 1
+    5 8 4 1 5 8 4 1
+    4 0 3 1 4 0 3 1
+    0 4 1 1 0 4 1 1
+    5 1 4 1 5 1 4 1
+    1 5 2 1 1 5 2 1
+    7 3 6 1 7 3 6 1
+    3 7 4 1 3 7 4 1
+    8 4 7 1 8 4 7 1
+    4 8 5 1 4 8 5 1
   tverts 9
     0.00423212 0.00657552 0
     0.00311328 0.531345 0
@@ -498,8 +496,8 @@ node trimesh Plane09
     0.994453 0.530644 0
     0.985158 0.907344 0
 endnode
-node trimesh Plane10
-  parent ba_firtree
+node trimesh plane10
+  parent pinel
   position 7.94355 -2.63098 19.0966
   orientation 0 0 0 0
   wirecolor 0.835938 0.835938 0.835938
@@ -509,7 +507,7 @@ node trimesh Plane10
   shininess 10
   bitmap treefol06d
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 1
@@ -525,22 +523,22 @@ node trimesh Plane10
     -1.20268 -3.09687 -11.5595
     1.32179 -2.32572 -10.5918
   faces 16
-    3 0 4  1  3 0 4  1
-    1 4 0  1  1 4 0  1
-    4 1 5  1  4 1 5  1
-    2 5 1  1  2 5 1  1
-    6 3 7  1  6 3 7  1
-    4 7 3  1  4 7 3  1
-    7 4 8  1  7 4 8  1
-    5 8 4  1  5 8 4  1
-    4 0 3  1  4 0 3  1
-    0 4 1  1  0 4 1  1
-    5 1 4  1  5 1 4  1
-    1 5 2  1  1 5 2  1
-    7 3 6  1  7 3 6  1
-    3 7 4  1  3 7 4  1
-    8 4 7  1  8 4 7  1
-    4 8 5  1  4 8 5  1
+    3 0 4 1 3 0 4 1
+    1 4 0 1 1 4 0 1
+    4 1 5 1 4 1 5 1
+    2 5 1 1 2 5 1 1
+    6 3 7 1 6 3 7 1
+    4 7 3 1 4 7 3 1
+    7 4 8 1 7 4 8 1
+    5 8 4 1 5 8 4 1
+    4 0 3 1 4 0 3 1
+    0 4 1 1 0 4 1 1
+    5 1 4 1 5 1 4 1
+    1 5 2 1 1 5 2 1
+    7 3 6 1 7 3 6 1
+    3 7 4 1 3 7 4 1
+    8 4 7 1 8 4 7 1
+    4 8 5 1 4 8 5 1
   tverts 9
     0.00423212 0.00657552 0
     0.00311328 0.531345 0
@@ -552,8 +550,8 @@ node trimesh Plane10
     0.994453 0.530644 0
     0.985158 0.907344 0
 endnode
-node trimesh Plane11
-  parent ba_firtree
+node trimesh plane11
+  parent pinel
   position 6.20908 0.910488 20.0668
   orientation 0 0 0 0
   wirecolor 0.605469 0.605469 0.605469
@@ -563,7 +561,7 @@ node trimesh Plane11
   shininess 10
   bitmap treefol06d
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 1
@@ -579,22 +577,22 @@ node trimesh Plane11
     1.97603 -2.61674 -9.56042
     3.2773 -0.939445 -8.52361
   faces 16
-    3 0 4  1  3 0 4  1
-    1 4 0  1  1 4 0  1
-    4 1 5  1  4 1 5  1
-    2 5 1  1  2 5 1  1
-    6 3 7  1  6 3 7  1
-    4 7 3  1  4 7 3  1
-    7 4 8  1  7 4 8  1
-    5 8 4  1  5 8 4  1
-    4 0 3  1  4 0 3  1
-    0 4 1  1  0 4 1  1
-    5 1 4  1  5 1 4  1
-    1 5 2  1  1 5 2  1
-    7 3 6  1  7 3 6  1
-    3 7 4  1  3 7 4  1
-    8 4 7  1  8 4 7  1
-    4 8 5  1  4 8 5  1
+    3 0 4 1 3 0 4 1
+    1 4 0 1 1 4 0 1
+    4 1 5 1 4 1 5 1
+    2 5 1 1 2 5 1 1
+    6 3 7 1 6 3 7 1
+    4 7 3 1 4 7 3 1
+    7 4 8 1 7 4 8 1
+    5 8 4 1 5 8 4 1
+    4 0 3 1 4 0 3 1
+    0 4 1 1 0 4 1 1
+    5 1 4 1 5 1 4 1
+    1 5 2 1 1 5 2 1
+    7 3 6 1 7 3 6 1
+    3 7 4 1 3 7 4 1
+    8 4 7 1 8 4 7 1
+    4 8 5 1 4 8 5 1
   tverts 9
     0.00423212 0.00657552 0
     0.00311328 0.531345 0
@@ -606,8 +604,8 @@ node trimesh Plane11
     0.994453 0.530644 0
     0.985158 0.907344 0
 endnode
-node trimesh Plane12
-  parent ba_firtree
+node trimesh plane12
+  parent pinel
   position 2.2225 4.88657 20.0668
   orientation 0 0 0 0
   wirecolor 0.605469 0.605469 0.605469
@@ -617,7 +615,7 @@ node trimesh Plane12
   shininess 10
   bitmap treefol06d
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 1
@@ -633,22 +631,22 @@ node trimesh Plane12
     3.13477 0.961891 -9.56042
     2.00369 2.75834 -8.52361
   faces 16
-    3 0 4  1  3 0 4  1
-    1 4 0  1  1 4 0  1
-    4 1 5  1  4 1 5  1
-    2 5 1  1  2 5 1  1
-    6 3 7  1  6 3 7  1
-    4 7 3  1  4 7 3  1
-    7 4 8  1  7 4 8  1
-    5 8 4  1  5 8 4  1
-    4 0 3  1  4 0 3  1
-    0 4 1  1  0 4 1  1
-    5 1 4  1  5 1 4  1
-    1 5 2  1  1 5 2  1
-    7 3 6  1  7 3 6  1
-    3 7 4  1  3 7 4  1
-    8 4 7  1  8 4 7  1
-    4 8 5  1  4 8 5  1
+    3 0 4 1 3 0 4 1
+    1 4 0 1 1 4 0 1
+    4 1 5 1 4 1 5 1
+    2 5 1 1 2 5 1 1
+    6 3 7 1 6 3 7 1
+    4 7 3 1 4 7 3 1
+    7 4 8 1 7 4 8 1
+    5 8 4 1 5 8 4 1
+    4 0 3 1 4 0 3 1
+    0 4 1 1 0 4 1 1
+    5 1 4 1 5 1 4 1
+    1 5 2 1 1 5 2 1
+    7 3 6 1 7 3 6 1
+    3 7 4 1 3 7 4 1
+    8 4 7 1 8 4 7 1
+    4 8 5 1 4 8 5 1
   tverts 9
     0.00423212 0.00657552 0
     0.00311328 0.531345 0
@@ -660,8 +658,8 @@ node trimesh Plane12
     0.994453 0.530644 0
     0.985158 0.907344 0
 endnode
-node trimesh Plane13
-  parent ba_firtree
+node trimesh plane13
+  parent pinel
   position -3.00185 2.42584 20.0668
   orientation 0 0 0 0
   wirecolor 0.605469 0.605469 0.605469
@@ -671,7 +669,7 @@ node trimesh Plane13
   shininess 10
   bitmap treefol06d
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 1
@@ -687,22 +685,22 @@ node trimesh Plane13
     0.168278 3.27471 -9.56042
     -1.9067 2.82627 -8.52361
   faces 16
-    3 0 4  1  3 0 4  1
-    1 4 0  1  1 4 0  1
-    4 1 5  1  4 1 5  1
-    2 5 1  1  2 5 1  1
-    6 3 7  1  6 3 7  1
-    4 7 3  1  4 7 3  1
-    7 4 8  1  7 4 8  1
-    5 8 4  1  5 8 4  1
-    4 0 3  1  4 0 3  1
-    0 4 1  1  0 4 1  1
-    5 1 4  1  5 1 4  1
-    1 5 2  1  1 5 2  1
-    7 3 6  1  7 3 6  1
-    3 7 4  1  3 7 4  1
-    8 4 7  1  8 4 7  1
-    4 8 5  1  4 8 5  1
+    3 0 4 1 3 0 4 1
+    1 4 0 1 1 4 0 1
+    4 1 5 1 4 1 5 1
+    2 5 1 1 2 5 1 1
+    6 3 7 1 6 3 7 1
+    4 7 3 1 4 7 3 1
+    7 4 8 1 7 4 8 1
+    5 8 4 1 5 8 4 1
+    4 0 3 1 4 0 3 1
+    0 4 1 1 0 4 1 1
+    5 1 4 1 5 1 4 1
+    1 5 2 1 1 5 2 1
+    7 3 6 1 7 3 6 1
+    3 7 4 1 3 7 4 1
+    8 4 7 1 8 4 7 1
+    4 8 5 1 4 8 5 1
   tverts 9
     0.00423212 0.00657552 0
     0.00311328 0.531345 0
@@ -714,8 +712,8 @@ node trimesh Plane13
     0.994453 0.530644 0
     0.985158 0.907344 0
 endnode
-node trimesh Plane14
-  parent ba_firtree
+node trimesh plane14
+  parent pinel
   position -2.22089 -3.4584 20.0668
   orientation 0 0 0 0
   wirecolor 0.34375 0.34375 0.34375
@@ -725,7 +723,7 @@ node trimesh Plane14
   shininess 10
   bitmap treefol06d
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 1
@@ -741,22 +739,22 @@ node trimesh Plane14
     -3.09206 1.09142 -9.56042
     -3.25141 -1.02548 -8.52361
   faces 16
-    3 0 4  1  3 0 4  1
-    1 4 0  1  1 4 0  1
-    4 1 5  1  4 1 5  1
-    2 5 1  1  2 5 1  1
-    6 3 7  1  6 3 7  1
-    4 7 3  1  4 7 3  1
-    7 4 8  1  7 4 8  1
-    5 8 4  1  5 8 4  1
-    4 0 3  1  4 0 3  1
-    0 4 1  1  0 4 1  1
-    5 1 4  1  5 1 4  1
-    1 5 2  1  1 5 2  1
-    7 3 6  1  7 3 6  1
-    3 7 4  1  3 7 4  1
-    8 4 7  1  8 4 7  1
-    4 8 5  1  4 8 5  1
+    3 0 4 1 3 0 4 1
+    1 4 0 1 1 4 0 1
+    4 1 5 1 4 1 5 1
+    2 5 1 1 2 5 1 1
+    6 3 7 1 6 3 7 1
+    4 7 3 1 4 7 3 1
+    7 4 8 1 7 4 8 1
+    5 8 4 1 5 8 4 1
+    4 0 3 1 4 0 3 1
+    0 4 1 1 0 4 1 1
+    5 1 4 1 5 1 4 1
+    1 5 2 1 1 5 2 1
+    7 3 6 1 7 3 6 1
+    3 7 4 1 3 7 4 1
+    8 4 7 1 8 4 7 1
+    4 8 5 1 4 8 5 1
   tverts 9
     0.00423212 0.00657552 0
     0.00311328 0.531345 0
@@ -768,8 +766,8 @@ node trimesh Plane14
     0.994453 0.530644 0
     0.985158 0.907344 0
 endnode
-node trimesh Plane15
-  parent ba_firtree
+node trimesh plane15
+  parent pinel
   position 3.54596 -4.46934 20.0668
   orientation 0 0 0 0
   wirecolor 0.34375 0.34375 0.34375
@@ -779,7 +777,7 @@ node trimesh Plane15
   shininess 10
   bitmap treefol06d
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 1
@@ -795,22 +793,22 @@ node trimesh Plane15
     -1.97071 -2.62076 -9.56042
     0.00029446 -3.40929 -8.52361
   faces 16
-    3 0 4  1  3 0 4  1
-    1 4 0  1  1 4 0  1
-    4 1 5  1  4 1 5  1
-    2 5 1  1  2 5 1  1
-    6 3 7  1  6 3 7  1
-    4 7 3  1  4 7 3  1
-    7 4 8  1  7 4 8  1
-    5 8 4  1  5 8 4  1
-    4 0 3  1  4 0 3  1
-    0 4 1  1  0 4 1  1
-    5 1 4  1  5 1 4  1
-    1 5 2  1  1 5 2  1
-    7 3 6  1  7 3 6  1
-    3 7 4  1  3 7 4  1
-    8 4 7  1  8 4 7  1
-    4 8 5  1  4 8 5  1
+    3 0 4 1 3 0 4 1
+    1 4 0 1 1 4 0 1
+    4 1 5 1 4 1 5 1
+    2 5 1 1 2 5 1 1
+    6 3 7 1 6 3 7 1
+    4 7 3 1 4 7 3 1
+    7 4 8 1 7 4 8 1
+    5 8 4 1 5 8 4 1
+    4 0 3 1 4 0 3 1
+    0 4 1 1 0 4 1 1
+    5 1 4 1 5 1 4 1
+    1 5 2 1 1 5 2 1
+    7 3 6 1 7 3 6 1
+    3 7 4 1 3 7 4 1
+    8 4 7 1 8 4 7 1
+    4 8 5 1 4 8 5 1
   tverts 9
     0.00423212 0.00657552 0
     0.00311328 0.531345 0
@@ -822,8 +820,8 @@ node trimesh Plane15
     0.994453 0.530644 0
     0.985158 0.907344 0
 endnode
-node trimesh Plane16
-  parent ba_firtree
+node trimesh plane16
+  parent pinel
   position 5.20457 4.33678 21.6405
   orientation 0 0 0 0
   wirecolor 0.34375 0.34375 0.34375
@@ -833,7 +831,7 @@ node trimesh Plane16
   shininess 10
   bitmap treefol06d
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 1
@@ -849,22 +847,22 @@ node trimesh Plane16
     1.47119 -1.50748 -9.1346
     1.43773 0.547411 -8.37442
   faces 16
-    3 0 4  1  3 0 4  1
-    1 4 0  1  1 4 0  1
-    4 1 5  1  4 1 5  1
-    2 5 1  1  2 5 1  1
-    6 3 7  1  6 3 7  1
-    4 7 3  1  4 7 3  1
-    7 4 8  1  7 4 8  1
-    5 8 4  1  5 8 4  1
-    4 0 3  1  4 0 3  1
-    0 4 1  1  0 4 1  1
-    5 1 4  1  5 1 4  1
-    1 5 2  1  1 5 2  1
-    7 3 6  1  7 3 6  1
-    3 7 4  1  3 7 4  1
-    8 4 7  1  8 4 7  1
-    4 8 5  1  4 8 5  1
+    3 0 4 1 3 0 4 1
+    1 4 0 1 1 4 0 1
+    4 1 5 1 4 1 5 1
+    2 5 1 1 2 5 1 1
+    6 3 7 1 6 3 7 1
+    4 7 3 1 4 7 3 1
+    7 4 8 1 7 4 8 1
+    5 8 4 1 5 8 4 1
+    4 0 3 1 4 0 3 1
+    0 4 1 1 0 4 1 1
+    5 1 4 1 5 1 4 1
+    1 5 2 1 1 5 2 1
+    7 3 6 1 7 3 6 1
+    3 7 4 1 3 7 4 1
+    8 4 7 1 8 4 7 1
+    4 8 5 1 4 8 5 1
   tverts 9
     0.00423212 0.00657552 0
     0.00311328 0.531345 0
@@ -876,8 +874,8 @@ node trimesh Plane16
     0.994453 0.530644 0
     0.985158 0.907344 0
 endnode
-node trimesh Plane17
-  parent ba_firtree
+node trimesh plane17
+  parent pinel
   position -1.19329 4.76908 21.6405
   orientation 0 0 0 0
   wirecolor 0.878906 0.878906 0.878906
@@ -887,7 +885,7 @@ node trimesh Plane17
   shininess 10
   bitmap treefol06d
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 1
@@ -903,22 +901,22 @@ node trimesh Plane17
     2.404 1.34593 -8.96034
     0.494876 2.13368 -8.22801
   faces 16
-    3 0 4  1  3 0 4  1
-    1 4 0  1  1 4 0  1
-    4 1 5  1  4 1 5  1
-    2 5 1  1  2 5 1  1
-    6 3 7  1  6 3 7  1
-    4 7 3  1  4 7 3  1
-    7 4 8  1  7 4 8  1
-    5 8 4  1  5 8 4  1
-    4 0 3  1  4 0 3  1
-    0 4 1  1  0 4 1  1
-    5 1 4  1  5 1 4  1
-    1 5 2  1  1 5 2  1
-    7 3 6  1  7 3 6  1
-    3 7 4  1  3 7 4  1
-    8 4 7  1  8 4 7  1
-    4 8 5  1  4 8 5  1
+    3 0 4 1 3 0 4 1
+    1 4 0 1 1 4 0 1
+    4 1 5 1 4 1 5 1
+    2 5 1 1 2 5 1 1
+    6 3 7 1 6 3 7 1
+    4 7 3 1 4 7 3 1
+    7 4 8 1 7 4 8 1
+    5 8 4 1 5 8 4 1
+    4 0 3 1 4 0 3 1
+    0 4 1 1 0 4 1 1
+    5 1 4 1 5 1 4 1
+    1 5 2 1 1 5 2 1
+    7 3 6 1 7 3 6 1
+    3 7 4 1 3 7 4 1
+    8 4 7 1 8 4 7 1
+    4 8 5 1 4 8 5 1
   tverts 9
     0.00423212 0.00657552 0
     0.00311328 0.531345 0
@@ -930,8 +928,8 @@ node trimesh Plane17
     0.994453 0.530644 0
     0.985158 0.907344 0
 endnode
-node trimesh Plane18
-  parent ba_firtree
+node trimesh plane18
+  parent pinel
   position -4.00511 -0.984842 21.6405
   orientation 0 0 0 0
   wirecolor 0.878906 0.878906 0.878906
@@ -941,7 +939,7 @@ node trimesh Plane18
   shininess 10
   bitmap treefol06d
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 1
@@ -957,22 +955,22 @@ node trimesh Plane18
     -0.401463 2.69505 -8.9696
     -1.75271 1.12455 -8.25601
   faces 16
-    3 0 4  1  3 0 4  1
-    1 4 0  1  1 4 0  1
-    4 1 5  1  4 1 5  1
-    2 5 1  1  2 5 1  1
-    6 3 7  1  6 3 7  1
-    4 7 3  1  4 7 3  1
-    7 4 8  1  7 4 8  1
-    5 8 4  1  5 8 4  1
-    4 0 3  1  4 0 3  1
-    0 4 1  1  0 4 1  1
-    5 1 4  1  5 1 4  1
-    1 5 2  1  1 5 2  1
-    7 3 6  1  7 3 6  1
-    3 7 4  1  3 7 4  1
-    8 4 7  1  8 4 7  1
-    4 8 5  1  4 8 5  1
+    3 0 4 1 3 0 4 1
+    1 4 0 1 1 4 0 1
+    4 1 5 1 4 1 5 1
+    2 5 1 1 2 5 1 1
+    6 3 7 1 6 3 7 1
+    4 7 3 1 4 7 3 1
+    7 4 8 1 7 4 8 1
+    5 8 4 1 5 8 4 1
+    4 0 3 1 4 0 3 1
+    0 4 1 1 0 4 1 1
+    5 1 4 1 5 1 4 1
+    1 5 2 1 1 5 2 1
+    7 3 6 1 7 3 6 1
+    3 7 4 1 3 7 4 1
+    8 4 7 1 8 4 7 1
+    4 8 5 1 4 8 5 1
   tverts 9
     0.00423212 0.00657552 0
     0.00311328 0.531345 0
@@ -984,8 +982,8 @@ node trimesh Plane18
     0.994453 0.530644 0
     0.985158 0.907344 0
 endnode
-node trimesh Plane19
-  parent ba_firtree
+node trimesh plane19
+  parent pinel
   position 1.02838 -5.64594 21.6405
   orientation 0 0 0 0
   wirecolor 0.878906 0.878906 0.878906
@@ -995,7 +993,7 @@ node trimesh Plane19
   shininess 10
   bitmap treefol06d
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 1
@@ -1011,22 +1009,22 @@ node trimesh Plane19
     -2.44284 0.660585 -9.02629
     -1.28664 -1.07289 -8.34814
   faces 16
-    3 0 4  1  3 0 4  1
-    1 4 0  1  1 4 0  1
-    4 1 5  1  4 1 5  1
-    2 5 1  1  2 5 1  1
-    6 3 7  1  6 3 7  1
-    4 7 3  1  4 7 3  1
-    7 4 8  1  7 4 8  1
-    5 8 4  1  5 8 4  1
-    4 0 3  1  4 0 3  1
-    0 4 1  1  0 4 1  1
-    5 1 4  1  5 1 4  1
-    1 5 2  1  1 5 2  1
-    7 3 6  1  7 3 6  1
-    3 7 4  1  3 7 4  1
-    8 4 7  1  8 4 7  1
-    4 8 5  1  4 8 5  1
+    3 0 4 1 3 0 4 1
+    1 4 0 1 1 4 0 1
+    4 1 5 1 4 1 5 1
+    2 5 1 1 2 5 1 1
+    6 3 7 1 6 3 7 1
+    4 7 3 1 4 7 3 1
+    7 4 8 1 7 4 8 1
+    5 8 4 1 5 8 4 1
+    4 0 3 1 4 0 3 1
+    0 4 1 1 0 4 1 1
+    5 1 4 1 5 1 4 1
+    1 5 2 1 1 5 2 1
+    7 3 6 1 7 3 6 1
+    3 7 4 1 3 7 4 1
+    8 4 7 1 8 4 7 1
+    4 8 5 1 4 8 5 1
   tverts 9
     0.00423212 0.00657552 0
     0.00311328 0.531345 0
@@ -1038,8 +1036,8 @@ node trimesh Plane19
     0.994453 0.530644 0
     0.985158 0.907344 0
 endnode
-node trimesh Plane20
-  parent ba_firtree
+node trimesh plane20
+  parent pinel
   position 6.76064 -1.99373 21.6405
   orientation 0 0 0 0
   wirecolor 0.898438 0.898438 0.898438
@@ -1049,7 +1047,7 @@ node trimesh Plane20
   shininess 10
   bitmap treefol06d
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 1
@@ -1065,22 +1063,22 @@ node trimesh Plane20
     -1.05214 -2.54615 -8.96038
     0.915912 -1.89473 -8.25042
   faces 16
-    3 0 4  1  3 0 4  1
-    1 4 0  1  1 4 0  1
-    4 1 5  1  4 1 5  1
-    2 5 1  1  2 5 1  1
-    6 3 7  1  6 3 7  1
-    4 7 3  1  4 7 3  1
-    7 4 8  1  7 4 8  1
-    5 8 4  1  5 8 4  1
-    4 0 3  1  4 0 3  1
-    0 4 1  1  0 4 1  1
-    5 1 4  1  5 1 4  1
-    1 5 2  1  1 5 2  1
-    7 3 6  1  7 3 6  1
-    3 7 4  1  3 7 4  1
-    8 4 7  1  8 4 7  1
-    4 8 5  1  4 8 5  1
+    3 0 4 1 3 0 4 1
+    1 4 0 1 1 4 0 1
+    4 1 5 1 4 1 5 1
+    2 5 1 1 2 5 1 1
+    6 3 7 1 6 3 7 1
+    4 7 3 1 4 7 3 1
+    7 4 8 1 7 4 8 1
+    5 8 4 1 5 8 4 1
+    4 0 3 1 4 0 3 1
+    0 4 1 1 0 4 1 1
+    5 1 4 1 5 1 4 1
+    1 5 2 1 1 5 2 1
+    7 3 6 1 7 3 6 1
+    3 7 4 1 3 7 4 1
+    8 4 7 1 8 4 7 1
+    4 8 5 1 4 8 5 1
   tverts 9
     0.00423212 0.00657552 0
     0.00311328 0.531345 0
@@ -1092,8 +1090,8 @@ node trimesh Plane20
     0.994453 0.530644 0
     0.985158 0.907344 0
 endnode
-node trimesh Plane21
-  parent ba_firtree
+node trimesh plane21
+  parent pinel
   position 0.946353 5.23858 23.2396
   orientation 0 0 0 0
   wirecolor 0.898438 0.898438 0.898438
@@ -1103,7 +1101,7 @@ node trimesh Plane21
   shininess 10
   bitmap treefol06d
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 1
@@ -1119,22 +1117,22 @@ node trimesh Plane21
     2.48023 -1.56449 -6.77386
     1.26972 -0.351406 -6.57365
   faces 16
-    3 0 4  1  3 0 4  1
-    1 4 0  1  1 4 0  1
-    4 1 5  1  4 1 5  1
-    2 5 1  1  2 5 1  1
-    6 3 7  1  6 3 7  1
-    4 7 3  1  4 7 3  1
-    7 4 8  1  7 4 8  1
-    5 8 4  1  5 8 4  1
-    4 0 3  1  4 0 3  1
-    0 4 1  1  0 4 1  1
-    5 1 4  1  5 1 4  1
-    1 5 2  1  1 5 2  1
-    7 3 6  1  7 3 6  1
-    3 7 4  1  3 7 4  1
-    8 4 7  1  8 4 7  1
-    4 8 5  1  4 8 5  1
+    3 0 4 1 3 0 4 1
+    1 4 0 1 1 4 0 1
+    4 1 5 1 4 1 5 1
+    2 5 1 1 2 5 1 1
+    6 3 7 1 6 3 7 1
+    4 7 3 1 4 7 3 1
+    7 4 8 1 7 4 8 1
+    5 8 4 1 5 8 4 1
+    4 0 3 1 4 0 3 1
+    0 4 1 1 0 4 1 1
+    5 1 4 1 5 1 4 1
+    1 5 2 1 1 5 2 1
+    7 3 6 1 7 3 6 1
+    3 7 4 1 3 7 4 1
+    8 4 7 1 8 4 7 1
+    4 8 5 1 4 8 5 1
   tverts 9
     0.00423212 0.00657552 0
     0.00311328 0.531345 0
@@ -1146,8 +1144,8 @@ node trimesh Plane21
     0.994453 0.530644 0
     0.985158 0.907344 0
 endnode
-node trimesh Plane23
-  parent ba_firtree
+node trimesh plane23
+  parent pinel
   position -2.81722 -2.68622 23.2396
   orientation 0 0 0 0
   wirecolor 0.335938 0.335938 0.335938
@@ -1157,7 +1155,7 @@ node trimesh Plane23
   shininess 10
   bitmap treefol06d
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 1
@@ -1173,22 +1171,22 @@ node trimesh Plane23
     0.660813 2.67335 -6.84844
     0.0342878 1.08257 -6.61633
   faces 16
-    3 0 4  1  3 0 4  1
-    1 4 0  1  1 4 0  1
-    4 1 5  1  4 1 5  1
-    2 5 1  1  2 5 1  1
-    6 3 7  1  6 3 7  1
-    4 7 3  1  4 7 3  1
-    7 4 8  1  7 4 8  1
-    5 8 4  1  5 8 4  1
-    4 0 3  1  4 0 3  1
-    0 4 1  1  0 4 1  1
-    5 1 4  1  5 1 4  1
-    1 5 2  1  1 5 2  1
-    7 3 6  1  7 3 6  1
-    3 7 4  1  3 7 4  1
-    8 4 7  1  8 4 7  1
-    4 8 5  1  4 8 5  1
+    3 0 4 1 3 0 4 1
+    1 4 0 1 1 4 0 1
+    4 1 5 1 4 1 5 1
+    2 5 1 1 2 5 1 1
+    6 3 7 1 6 3 7 1
+    4 7 3 1 4 7 3 1
+    7 4 8 1 7 4 8 1
+    5 8 4 1 5 8 4 1
+    4 0 3 1 4 0 3 1
+    0 4 1 1 0 4 1 1
+    5 1 4 1 5 1 4 1
+    1 5 2 1 1 5 2 1
+    7 3 6 1 7 3 6 1
+    3 7 4 1 3 7 4 1
+    8 4 7 1 8 4 7 1
+    4 8 5 1 4 8 5 1
   tverts 9
     0.00423212 0.00657552 0
     0.00311328 0.531345 0
@@ -1200,8 +1198,8 @@ node trimesh Plane23
     0.994453 0.530644 0
     0.985158 0.907344 0
 endnode
-node trimesh Plane24
-  parent ba_firtree
+node trimesh plane24
+  parent pinel
   position 6.60671 -1.80666 23.2396
   orientation 0 0 0 0
   wirecolor 0.335938 0.335938 0.335938
@@ -1211,7 +1209,7 @@ node trimesh Plane24
   shininess 10
   bitmap treefol06d
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 1
@@ -1227,22 +1225,22 @@ node trimesh Plane24
     -2.76923 -1.67529 -6.63394
     -1.10706 -1.23339 -6.49631
   faces 16
-    3 0 4  1  3 0 4  1
-    1 4 0  1  1 4 0  1
-    4 1 5  1  4 1 5  1
-    2 5 1  1  2 5 1  1
-    6 3 7  1  6 3 7  1
-    4 7 3  1  4 7 3  1
-    7 4 8  1  7 4 8  1
-    5 8 4  1  5 8 4  1
-    4 0 3  1  4 0 3  1
-    0 4 1  1  0 4 1  1
-    5 1 4  1  5 1 4  1
-    1 5 2  1  1 5 2  1
-    7 3 6  1  7 3 6  1
-    3 7 4  1  3 7 4  1
-    8 4 7  1  8 4 7  1
-    4 8 5  1  4 8 5  1
+    3 0 4 1 3 0 4 1
+    1 4 0 1 1 4 0 1
+    4 1 5 1 4 1 5 1
+    2 5 1 1 2 5 1 1
+    6 3 7 1 6 3 7 1
+    4 7 3 1 4 7 3 1
+    7 4 8 1 7 4 8 1
+    5 8 4 1 5 8 4 1
+    4 0 3 1 4 0 3 1
+    0 4 1 1 0 4 1 1
+    5 1 4 1 5 1 4 1
+    1 5 2 1 1 5 2 1
+    7 3 6 1 7 3 6 1
+    3 7 4 1 3 7 4 1
+    8 4 7 1 8 4 7 1
+    4 8 5 1 4 8 5 1
   tverts 9
     0.00423212 0.00657552 0
     0.00311328 0.531345 0
@@ -1254,8 +1252,8 @@ node trimesh Plane24
     0.994453 0.530644 0
     0.985158 0.907344 0
 endnode
-node trimesh Plane31
-  parent ba_firtree
+node trimesh plane31
+  parent pinel
   position 6.4756 2.66946 24.3107
   orientation 0 0 0 0
   wirecolor 0.335938 0.335938 0.335938
@@ -1265,7 +1263,7 @@ node trimesh Plane31
   shininess 10
   bitmap treefol06d
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 1
@@ -1281,22 +1279,22 @@ node trimesh Plane31
     -1.45826 -3.24616 -6.023
     -0.777221 -1.75983 -6.05591
   faces 16
-    3 0 4  1  3 0 4  1
-    1 4 0  1  1 4 0  1
-    4 1 5  1  4 1 5  1
-    2 5 1  1  2 5 1  1
-    6 3 7  1  6 3 7  1
-    4 7 3  1  4 7 3  1
-    7 4 8  1  7 4 8  1
-    5 8 4  1  5 8 4  1
-    4 0 3  1  4 0 3  1
-    0 4 1  1  0 4 1  1
-    5 1 4  1  5 1 4  1
-    1 5 2  1  1 5 2  1
-    7 3 6  1  7 3 6  1
-    3 7 4  1  3 7 4  1
-    8 4 7  1  8 4 7  1
-    4 8 5  1  4 8 5  1
+    3 0 4 1 3 0 4 1
+    1 4 0 1 1 4 0 1
+    4 1 5 1 4 1 5 1
+    2 5 1 1 2 5 1 1
+    6 3 7 1 6 3 7 1
+    4 7 3 1 4 7 3 1
+    7 4 8 1 7 4 8 1
+    5 8 4 1 5 8 4 1
+    4 0 3 1 4 0 3 1
+    0 4 1 1 0 4 1 1
+    5 1 4 1 5 1 4 1
+    1 5 2 1 1 5 2 1
+    7 3 6 1 7 3 6 1
+    3 7 4 1 3 7 4 1
+    8 4 7 1 8 4 7 1
+    4 8 5 1 4 8 5 1
   tverts 9
     0.00423212 0.00657552 0
     0.00311328 0.531345 0
@@ -1308,8 +1306,8 @@ node trimesh Plane31
     0.994453 0.530644 0
     0.985158 0.907344 0
 endnode
-node trimesh Plane33
-  parent ba_firtree
+node trimesh plane33
+  parent pinel
   position -2.83514 2.95165 24.3107
   orientation 0 0 0 0
   wirecolor 0.0351563 0.0351563 0.0351563
@@ -1319,7 +1317,7 @@ node trimesh Plane33
   shininess 10
   bitmap treefol06d
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 1
@@ -1335,22 +1333,22 @@ node trimesh Plane33
     3.63291 0.281115 -5.97192
     2.00439 0.143803 -6.02804
   faces 16
-    3 0 4  1  3 0 4  1
-    1 4 0  1  1 4 0  1
-    4 1 5  1  4 1 5  1
-    2 5 1  1  2 5 1  1
-    6 3 7  1  6 3 7  1
-    4 7 3  1  4 7 3  1
-    7 4 8  1  7 4 8  1
-    5 8 4  1  5 8 4  1
-    4 0 3  1  4 0 3  1
-    0 4 1  1  0 4 1  1
-    5 1 4  1  5 1 4  1
-    1 5 2  1  1 5 2  1
-    7 3 6  1  7 3 6  1
-    3 7 4  1  3 7 4  1
-    8 4 7  1  8 4 7  1
-    4 8 5  1  4 8 5  1
+    3 0 4 1 3 0 4 1
+    1 4 0 1 1 4 0 1
+    4 1 5 1 4 1 5 1
+    2 5 1 1 2 5 1 1
+    6 3 7 1 6 3 7 1
+    4 7 3 1 4 7 3 1
+    7 4 8 1 7 4 8 1
+    5 8 4 1 5 8 4 1
+    4 0 3 1 4 0 3 1
+    0 4 1 1 0 4 1 1
+    5 1 4 1 5 1 4 1
+    1 5 2 1 1 5 2 1
+    7 3 6 1 7 3 6 1
+    3 7 4 1 3 7 4 1
+    8 4 7 1 8 4 7 1
+    4 8 5 1 4 8 5 1
   tverts 9
     0.00423212 0.00657552 0
     0.00311328 0.531345 0
@@ -1362,8 +1360,8 @@ node trimesh Plane33
     0.994453 0.530644 0
     0.985158 0.907344 0
 endnode
-node trimesh Plane34
-  parent ba_firtree
+node trimesh plane34
+  parent pinel
   position 1.62349 -5.28617 24.3107
   orientation 0 0 0 0
   wirecolor 0.0351563 0.0351563 0.0351563
@@ -1373,7 +1371,7 @@ node trimesh Plane34
   shininess 10
   bitmap treefol06d
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 1
@@ -1389,22 +1387,22 @@ node trimesh Plane34
     -2.00479 2.91627 -6.03463
     -1.05877 1.5827 -6.06213
   faces 16
-    3 0 4  1  3 0 4  1
-    1 4 0  1  1 4 0  1
-    4 1 5  1  4 1 5  1
-    2 5 1  1  2 5 1  1
-    6 3 7  1  6 3 7  1
-    4 7 3  1  4 7 3  1
-    7 4 8  1  7 4 8  1
-    5 8 4  1  5 8 4  1
-    4 0 3  1  4 0 3  1
-    0 4 1  1  0 4 1  1
-    5 1 4  1  5 1 4  1
-    1 5 2  1  1 5 2  1
-    7 3 6  1  7 3 6  1
-    3 7 4  1  3 7 4  1
-    8 4 7  1  8 4 7  1
-    4 8 5  1  4 8 5  1
+    3 0 4 1 3 0 4 1
+    1 4 0 1 1 4 0 1
+    4 1 5 1 4 1 5 1
+    2 5 1 1 2 5 1 1
+    6 3 7 1 6 3 7 1
+    4 7 3 1 4 7 3 1
+    7 4 8 1 7 4 8 1
+    5 8 4 1 5 8 4 1
+    4 0 3 1 4 0 3 1
+    0 4 1 1 0 4 1 1
+    5 1 4 1 5 1 4 1
+    1 5 2 1 1 5 2 1
+    7 3 6 1 7 3 6 1
+    3 7 4 1 3 7 4 1
+    8 4 7 1 8 4 7 1
+    4 8 5 1 4 8 5 1
   tverts 9
     0.00423212 0.00657552 0
     0.00311328 0.531345 0
@@ -1416,8 +1414,8 @@ node trimesh Plane34
     0.994453 0.530644 0
     0.985158 0.907344 0
 endnode
-node trimesh Plane41
-  parent ba_firtree
+node trimesh plane41
+  parent pinel
   position 1.97747 4.66559 22.0448
   orientation 0 0 0 0
   wirecolor 0.0351563 0.0351563 0.0351563
@@ -1427,7 +1425,7 @@ node trimesh Plane41
   shininess 10
   bitmap treefol06d
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 1
@@ -1443,22 +1441,22 @@ node trimesh Plane41
     1.68546 -0.303202 -7.4265
     0.693167 1.0411 -6.80847
   faces 16
-    3 0 4  1  3 0 4  1
-    1 4 0  1  1 4 0  1
-    4 1 5  1  4 1 5  1
-    2 5 1  1  2 5 1  1
-    6 3 7  1  6 3 7  1
-    4 7 3  1  4 7 3  1
-    7 4 8  1  7 4 8  1
-    5 8 4  1  5 8 4  1
-    4 0 3  1  4 0 3  1
-    0 4 1  1  0 4 1  1
-    5 1 4  1  5 1 4  1
-    1 5 2  1  1 5 2  1
-    7 3 6  1  7 3 6  1
-    3 7 4  1  3 7 4  1
-    8 4 7  1  8 4 7  1
-    4 8 5  1  4 8 5  1
+    3 0 4 1 3 0 4 1
+    1 4 0 1 1 4 0 1
+    4 1 5 1 4 1 5 1
+    2 5 1 1 2 5 1 1
+    6 3 7 1 6 3 7 1
+    4 7 3 1 4 7 3 1
+    7 4 8 1 7 4 8 1
+    5 8 4 1 5 8 4 1
+    4 0 3 1 4 0 3 1
+    0 4 1 1 0 4 1 1
+    5 1 4 1 5 1 4 1
+    1 5 2 1 1 5 2 1
+    7 3 6 1 7 3 6 1
+    3 7 4 1 3 7 4 1
+    8 4 7 1 8 4 7 1
+    4 8 5 1 4 8 5 1
   tverts 9
     0.00423212 0.00657552 0
     0.00311328 0.531345 0
@@ -1470,8 +1468,8 @@ node trimesh Plane41
     0.994453 0.530644 0
     0.985158 0.907344 0
 endnode
-node trimesh Plane42
-  parent ba_firtree
+node trimesh plane42
+  parent pinel
   position -2.46126 1.93119 22.0448
   orientation 0 0 0 0
   wirecolor 0.601563 0.601563 0.601563
@@ -1481,7 +1479,7 @@ node trimesh Plane42
   shininess 10
   bitmap treefol06d
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 1
@@ -1497,22 +1495,22 @@ node trimesh Plane42
     0.95573 2.02582 -7.28483
     -0.679795 1.64588 -6.68944
   faces 16
-    3 0 4  1  3 0 4  1
-    1 4 0  1  1 4 0  1
-    4 1 5  1  4 1 5  1
-    2 5 1  1  2 5 1  1
-    6 3 7  1  6 3 7  1
-    4 7 3  1  4 7 3  1
-    7 4 8  1  7 4 8  1
-    5 8 4  1  5 8 4  1
-    4 0 3  1  4 0 3  1
-    0 4 1  1  0 4 1  1
-    5 1 4  1  5 1 4  1
-    1 5 2  1  1 5 2  1
-    7 3 6  1  7 3 6  1
-    3 7 4  1  3 7 4  1
-    8 4 7  1  8 4 7  1
-    4 8 5  1  4 8 5  1
+    3 0 4 1 3 0 4 1
+    1 4 0 1 1 4 0 1
+    4 1 5 1 4 1 5 1
+    2 5 1 1 2 5 1 1
+    6 3 7 1 6 3 7 1
+    4 7 3 1 4 7 3 1
+    7 4 8 1 7 4 8 1
+    5 8 4 1 5 8 4 1
+    4 0 3 1 4 0 3 1
+    0 4 1 1 0 4 1 1
+    5 1 4 1 5 1 4 1
+    1 5 2 1 1 5 2 1
+    7 3 6 1 7 3 6 1
+    3 7 4 1 3 7 4 1
+    8 4 7 1 8 4 7 1
+    4 8 5 1 4 8 5 1
   tverts 9
     0.00423212 0.00657552 0
     0.00311328 0.531345 0
@@ -1524,8 +1522,8 @@ node trimesh Plane42
     0.994453 0.530644 0
     0.985158 0.907344 0
 endnode
-node trimesh Plane43
-  parent ba_firtree
+node trimesh plane43
+  parent pinel
   position -1.60583 -3.20473 22.0448
   orientation 0 0 0 0
   wirecolor 0.601563 0.601563 0.601563
@@ -1535,7 +1533,7 @@ node trimesh Plane43
   shininess 10
   bitmap treefol06d
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 1
@@ -1551,22 +1549,22 @@ node trimesh Plane43
     -1.5381 1.59427 -7.29236
     -1.69101 -0.0831629 -6.7122
   faces 16
-    3 0 4  1  3 0 4  1
-    1 4 0  1  1 4 0  1
-    4 1 5  1  4 1 5  1
-    2 5 1  1  2 5 1  1
-    6 3 7  1  6 3 7  1
-    4 7 3  1  4 7 3  1
-    7 4 8  1  7 4 8  1
-    5 8 4  1  5 8 4  1
-    4 0 3  1  4 0 3  1
-    0 4 1  1  0 4 1  1
-    5 1 4  1  5 1 4  1
-    1 5 2  1  1 5 2  1
-    7 3 6  1  7 3 6  1
-    3 7 4  1  3 7 4  1
-    8 4 7  1  8 4 7  1
-    4 8 5  1  4 8 5  1
+    3 0 4 1 3 0 4 1
+    1 4 0 1 1 4 0 1
+    4 1 5 1 4 1 5 1
+    2 5 1 1 2 5 1 1
+    6 3 7 1 6 3 7 1
+    4 7 3 1 4 7 3 1
+    7 4 8 1 7 4 8 1
+    5 8 4 1 5 8 4 1
+    4 0 3 1 4 0 3 1
+    0 4 1 1 0 4 1 1
+    5 1 4 1 5 1 4 1
+    1 5 2 1 1 5 2 1
+    7 3 6 1 7 3 6 1
+    3 7 4 1 3 7 4 1
+    8 4 7 1 8 4 7 1
+    4 8 5 1 4 8 5 1
   tverts 9
     0.00423212 0.00657552 0
     0.00311328 0.531345 0
@@ -1578,8 +1576,8 @@ node trimesh Plane43
     0.994453 0.530644 0
     0.985158 0.907344 0
 endnode
-node trimesh Plane44
-  parent ba_firtree
+node trimesh plane44
+  parent pinel
   position 3.92633 -3.91344 22.0448
   orientation 0 0 0 0
   wirecolor 0.601563 0.601563 0.601563
@@ -1589,7 +1587,7 @@ node trimesh Plane44
   shininess 10
   bitmap treefol06d
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 1
@@ -1605,22 +1603,22 @@ node trimesh Plane44
     -1.92875 -0.716075 -7.33845
     -0.345076 -1.31757 -6.78711
   faces 16
-    3 0 4  1  3 0 4  1
-    1 4 0  1  1 4 0  1
-    4 1 5  1  4 1 5  1
-    2 5 1  1  2 5 1  1
-    6 3 7  1  6 3 7  1
-    4 7 3  1  4 7 3  1
-    7 4 8  1  7 4 8  1
-    5 8 4  1  5 8 4  1
-    4 0 3  1  4 0 3  1
-    0 4 1  1  0 4 1  1
-    5 1 4  1  5 1 4  1
-    1 5 2  1  1 5 2  1
-    7 3 6  1  7 3 6  1
-    3 7 4  1  3 7 4  1
-    8 4 7  1  8 4 7  1
-    4 8 5  1  4 8 5  1
+    3 0 4 1 3 0 4 1
+    1 4 0 1 1 4 0 1
+    4 1 5 1 4 1 5 1
+    2 5 1 1 2 5 1 1
+    6 3 7 1 6 3 7 1
+    4 7 3 1 4 7 3 1
+    7 4 8 1 7 4 8 1
+    5 8 4 1 5 8 4 1
+    4 0 3 1 4 0 3 1
+    0 4 1 1 0 4 1 1
+    5 1 4 1 5 1 4 1
+    1 5 2 1 1 5 2 1
+    7 3 6 1 7 3 6 1
+    3 7 4 1 3 7 4 1
+    8 4 7 1 8 4 7 1
+    4 8 5 1 4 8 5 1
   tverts 9
     0.00423212 0.00657552 0
     0.00311328 0.531345 0
@@ -1632,8 +1630,8 @@ node trimesh Plane44
     0.994453 0.530644 0
     0.985158 0.907344 0
 endnode
-node trimesh Plane45
-  parent ba_firtree
+node trimesh plane45
+  parent pinel
   position 5.99614 1.21019 22.0448
   orientation 0 0 0 0
   wirecolor 0.894531 0.894531 0.894531
@@ -1643,7 +1641,7 @@ node trimesh Plane45
   shininess 10
   bitmap treefol06d
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 1
@@ -1659,22 +1657,22 @@ node trimesh Plane45
     0.505686 -2.18198 -7.28486
     1.50076 -0.821672 -6.70766
   faces 16
-    3 0 4  1  3 0 4  1
-    1 4 0  1  1 4 0  1
-    4 1 5  1  4 1 5  1
-    2 5 1  1  2 5 1  1
-    6 3 7  1  6 3 7  1
-    4 7 3  1  4 7 3  1
-    7 4 8  1  7 4 8  1
-    5 8 4  1  5 8 4  1
-    4 0 3  1  4 0 3  1
-    0 4 1  1  0 4 1  1
-    5 1 4  1  5 1 4  1
-    1 5 2  1  1 5 2  1
-    7 3 6  1  7 3 6  1
-    3 7 4  1  3 7 4  1
-    8 4 7  1  8 4 7  1
-    4 8 5  1  4 8 5  1
+    3 0 4 1 3 0 4 1
+    1 4 0 1 1 4 0 1
+    4 1 5 1 4 1 5 1
+    2 5 1 1 2 5 1 1
+    6 3 7 1 6 3 7 1
+    4 7 3 1 4 7 3 1
+    7 4 8 1 7 4 8 1
+    5 8 4 1 5 8 4 1
+    4 0 3 1 4 0 3 1
+    0 4 1 1 0 4 1 1
+    5 1 4 1 5 1 4 1
+    1 5 2 1 1 5 2 1
+    7 3 6 1 7 3 6 1
+    3 7 4 1 3 7 4 1
+    8 4 7 1 8 4 7 1
+    4 8 5 1 4 8 5 1
   tverts 9
     0.00423212 0.00657552 0
     0.00311328 0.531345 0
@@ -1687,7 +1685,7 @@ node trimesh Plane45
     0.985158 0.907344 0
 endnode
 node trimesh treetop
-  parent ba_firtree
+  parent pinel
   position 1.91669 0.791143 0.147193
   orientation 0.509271 -0.713058 -0.481862 -1.91024
   wirecolor 0.839844 0.839844 0.839844
@@ -1697,12 +1695,12 @@ node trimesh treetop
   shininess 10
   bitmap ttr01_bark01
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 1
   rotatetexture 0
-  verts 37
+  verts 25
     -2.95269 0.589078 -1.06631
     -2.92605 -0.102185 -1.54684
     -2.92309 -0.77317 -1.03769
@@ -1728,183 +1726,98 @@ node trimesh treetop
     -21.5597 -0.583782 -1.31674
     -21.5652 -0.520378 -1.14421
     -21.5691 -0.33666 -1.15128
-    -2.92605 -0.102185 -1.54684
-    -7.66479 -0.236845 -1.48353
-    -2.92605 -0.102185 -1.54684
-    -7.66479 -0.236845 -1.48353
-    -11.1896 -0.297854 -1.62634
-    -7.66479 -0.236845 -1.48353
-    -11.1896 -0.297854 -1.62634
-    -15.6412 -0.224462 -1.63695
-    -11.1896 -0.297854 -1.62634
-    -15.6412 -0.224462 -1.63695
-    -21.5603 -0.43925 -1.43044
-    -15.6412 -0.224462 -1.63695
   faces 40
-    0 6 5  8  37 38 39  0
-    0 1 6  8  40 1 41  0
-    25 7 26  8  25 42 26  0
-    27 2 7  8  27 43 44  0
-    2 8 7  8  45 46 47  0
-    2 3 8  8  2 48 49  0
-    3 9 8  8  50 51 52  0
-    3 4 9  8  3 53 54  0
-    4 5 9  8  55 56 57  0
-    4 0 5  8  4 0 58  0
-    5 11 10  8  59 60 61  0
-    5 6 11  8  62 6 63  0
-    28 12 29  8  28 64 29  0
-    30 7 12  8  30 65 66  0
-    7 13 12  8  67 68 69  0
-    7 8 13  8  7 70 71  0
-    8 14 13  8  72 73 74  0
-    8 9 14  8  8 75 76  0
-    9 10 14  8  77 78 79  0
-    9 5 10  8  9 5 80  0
-    10 16 15  8  81 82 83  0
-    10 11 16  8  84 11 85  0
-    31 17 32  8  31 86 32  0
-    33 12 17  8  33 87 88  0
-    12 18 17  8  89 90 91  0
-    12 13 18  8  12 92 93  0
-    13 19 18  8  94 95 96  0
-    13 14 19  8  13 97 98  0
-    14 15 19  8  99 100 101  0
-    14 10 15  8  14 10 102  0
-    15 21 20  8  103 104 105  0
-    15 16 21  8  106 16 21  0
-    34 22 35  8  34 107 35  0
-    36 17 22  8  36 108 109  0
-    17 23 22  8  110 111 22  0
-    17 18 23  8  17 112 113  0
-    18 24 23  8  114 115 23  0
-    18 19 24  8  18 116 117  0
-    19 20 24  8  118 119 24  0
-    19 15 20  8  19 15 20  0
-  tverts 120
+    0 6 5 8 27 6 28 0
+    0 1 6 8 27 1 6 0
+    1 7 6 8 1 29 6 0
+    1 2 7 8 1 30 29 0
+    2 8 7 8 2 31 7 0
+    2 3 8 8 2 32 31 0
+    3 9 8 8 3 33 8 0
+    3 4 9 8 3 34 33 0
+    4 5 9 8 4 5 9 0
+    4 0 5 8 4 0 5 0
+    5 11 10 8 28 11 35 0
+    5 6 11 8 28 6 11 0
+    6 12 11 8 6 36 11 0
+    6 7 12 8 6 29 36 0
+    7 13 12 8 7 37 12 0
+    7 8 13 8 7 31 37 0
+    8 14 13 8 8 38 13 0
+    8 9 14 8 8 33 38 0
+    9 10 14 8 9 10 14 0
+    9 5 10 8 9 5 10 0
+    10 16 15 8 10 16 15 0
+    10 11 16 8 35 11 25 0
+    11 17 16 8 11 39 25 0
+    11 12 17 8 11 36 39 0
+    12 18 17 8 12 40 17 0
+    12 13 18 8 12 37 40 0
+    13 19 18 8 13 41 18 0
+    13 14 19 8 13 38 41 0
+    14 15 19 8 14 15 19 0
+    14 10 15 8 14 10 15 0
+    15 21 20 8 42 26 43 0
+    15 16 21 8 15 16 21 0
+    16 22 21 8 25 44 26 0
+    16 17 22 8 25 39 44 0
+    17 23 22 8 17 45 22 0
+    17 18 23 8 17 40 45 0
+    18 24 23 8 18 46 23 0
+    18 19 24 8 18 41 46 0
+    19 20 24 8 19 20 24 0
+    19 15 20 8 19 15 20 0
+  tverts 47
     0.942507 5.22059 0.343425
-    0.999214 5.23269 0.362136
-    1.04449 5.23404 0.652757
+    0.999214 4.23269 0.362136
+    1.04449 4.23404 0.652757
     1.17991 5.22277 0.658325
     1.30862 5.21446 0.398777
     0.843625 3.03002 0.411348
-    0.938058 3.0806 0.376514
-    1.11382 3.08305 0.656575
+    0.938058 2.0806 0.376514
+    1.11382 2.08305 0.656575
     1.09033 3.02825 0.586267
     1.19419 3.02245 0.426147
     0.85615 1.47028 0.419384
-    0.910351 1.4798 0.344085
-    1.23112 1.48096 0.613625
+    0.910351 0.4798 0.344085
+    1.23112 0.48096 0.613625
     1.12081 1.47084 0.549641
     1.14674 1.46529 0.460565
     0.927038 0.26788 0.434256
     0.68335 -0.541892 0.528159
-    1.18288 0.278559 0.616488
+    1.18288 -0.721441 0.616488
     1.16223 0.271206 0.531716
     1.1087 0.265326 0.472738
     0.823578 -3.23266 0.54225
     0.777135 -3.23003 0.576931
-    1.17123 -3.22978 0.609751
+    1.17123 -4.22978 0.609751
     1.19071 -3.23226 0.453564
     0.903918 -3.23404 0.553636
-    0.999214 5.23269 0.362136
-    0.938058 3.0806 0.376514
-    0.999214 5.23269 0.362136
-    0.938058 3.0806 0.376514
-    0.910351 1.4798 0.344085
-    0.938058 3.0806 0.376514
-    0.910351 1.4798 0.344085
-    0.943683 -0.541892 0.341675
-    0.910351 1.4798 0.344085
-    0.943683 -0.541892 0.341675
-    0.846137 -3.23003 0.388568
-    0.943683 -0.541892 0.341675
-    1.31315 5.22059 0.471254
-    0.938058 3.0806 0.376514
-    1.1773 3.03002 0.421813
-    1.31315 5.22059 0.471254
-    0.938058 3.0806 0.376514
-    0.686849 3.08305 0.44309
-    0.694486 5.23404 0.477753
-    0.686849 3.08305 0.44309
-    1.04449 5.23404 0.652757
-    0.827465 3.02825 0.545166
-    1.11382 3.08305 0.656575
-    0.68335 5.22277 0.589954
-    0.827465 3.02825 0.545166
-    1.17991 5.22277 0.658325
+    0.943683 -1.54189 0.341675
+    0.846137 -4.23003 0.388568
+    1.31315 4.22059 0.471254
+    1.1773 2.03002 0.421813
+    0.686849 2.08305 0.44309
+    0.694486 4.23404 0.477753
+    0.827465 2.02825 0.545166
+    0.68335 4.22277 0.589954
     0.852294 3.02245 0.597093
-    1.09033 3.02825 0.586267
     0.797553 5.21446 0.654308
-    0.852294 3.02245 0.597093
-    1.30862 5.21446 0.398777
-    0.843625 3.03002 0.411348
-    1.19419 3.02245 0.426147
-    0.843625 3.03002 0.411348
-    1.1773 3.03002 0.421813
-    0.910351 1.4798 0.344085
-    1.16123 1.47028 0.428075
-    1.1773 3.03002 0.421813
-    0.910351 1.4798 0.344085
-    0.772749 1.48096 0.384438
-    0.686849 3.08305 0.44309
-    0.772749 1.48096 0.384438
-    1.11382 3.08305 0.656575
-    0.900719 1.47084 0.560406
-    1.23112 1.48096 0.613625
-    0.827465 3.02825 0.545166
-    0.900719 1.47084 0.560406
-    1.09033 3.02825 0.586267
+    1.16123 0.47028 0.428075
+    0.772749 0.48096 0.384438
+    0.900719 0.47084 0.560406
     0.92113 1.46529 0.573369
-    1.12081 1.47084 0.549641
-    0.852294 3.02245 0.597093
-    0.92113 1.46529 0.573369
-    1.19419 3.02245 0.426147
-    0.85615 1.47028 0.419384
-    1.14674 1.46529 0.460565
-    0.85615 1.47028 0.419384
-    0.85615 1.47028 0.419384
-    0.68335 -0.541892 0.528159
-    0.927038 0.26788 0.434256
-    1.16123 1.47028 0.428075
-    0.943683 -0.541892 0.341675
-    0.767025 0.278559 0.408561
-    0.772749 1.48096 0.384438
-    0.767025 0.278559 0.408561
-    1.23112 1.48096 0.613625
-    0.936568 0.271206 0.581113
-    1.18288 0.278559 0.616488
-    0.900719 1.47084 0.560406
-    0.936568 0.271206 0.581113
-    1.12081 1.47084 0.549641
+    0.767025 -0.721441 0.408561
+    0.936568 -0.728794 0.581113
     0.945475 0.265326 0.554351
-    1.16223 0.271206 0.531716
-    0.92113 1.46529 0.573369
-    0.945475 0.265326 0.554351
-    1.14674 1.46529 0.460565
-    0.927038 0.26788 0.434256
-    1.1087 0.265326 0.472738
-    0.927038 0.26788 0.434256
-    1.13149 0.26788 0.463519
-    0.846137 -3.23003 0.388568
-    0.9155 -3.23266 0.411789
-    0.927038 0.26788 0.434256
-    0.780498 -3.22978 0.414386
-    0.767025 0.278559 0.408561
-    0.780498 -3.22978 0.414386
-    1.18288 0.278559 0.616488
-    1.09287 -3.23226 0.595354
-    0.936568 0.271206 0.581113
-    1.09287 -3.23226 0.595354
-    1.16223 0.271206 0.531716
+    1.13149 -0.73212 0.463519
+    0.9155 -4.23266 0.411789
+    0.780498 -4.22978 0.414386
+    1.09287 -4.23226 0.595354
     1.10727 -3.23404 0.451959
-    0.945475 0.265326 0.554351
-    1.10727 -3.23404 0.451959
-    1.1087 0.265326 0.472738
-    0.823578 -3.23266 0.54225
 endnode
 node trimesh trunkface
-  parent ba_firtree
+  parent pinel
   position 1.91531 0.790547 0.147974
   orientation 0.509271 -0.713057 -0.481863 -1.91024
   wirecolor 0.839844 0.839844 0.839844
@@ -1913,7 +1826,7 @@ node trimesh trunkface
   specular 0 0 0
   shininess 10
   bitmap ttr01_bark01
-  verts 13
+  verts 10
     0.341118 0.898506 -1.08914
     0.377143 -0.0510465 -1.72492
     0.38052 -0.949632 -1.01802
@@ -1924,54 +1837,40 @@ node trimesh trunkface
     -2.92309 -0.77317 -1.03769
     -2.9479 -0.496598 -0.242475
     -2.96619 0.345317 -0.260163
-    0.377143 -0.0510465 -1.72492
-    -2.92605 -0.102185 -1.54684
-    0.377143 -0.0510465 -1.72492
   faces 10
-    0 6 5  8  13 14 15  0
-    0 1 6  8  16 1 6  0
-    10 7 11  8  10 17 11  0
-    12 2 7  8  12 18 19  0
-    2 8 7  8  20 21 7  0
-    2 3 8  8  2 22 23  0
-    3 9 8  8  24 25 8  0
-    3 4 9  8  3 26 27  0
-    4 5 9  8  28 29 9  0
-    4 0 5  8  4 0 5  0
-  tverts 30
-    0.768772 1.7212 0.296133
+    0 6 5 8 10 6 11 0
+    0 1 6 8 10 1 6 0
+    1 7 6 8 1 12 6 0
+    1 2 7 8 1 13 12 0
+    2 8 7 8 2 14 7 0
+    2 3 8 8 2 15 14 0
+    3 9 8 8 3 16 8 0
+    3 4 9 8 3 17 16 0
+    4 5 9 8 4 5 9 0
+    4 0 5 8 4 0 5 0
+  tverts 18
+    -0.231228 1.7212 0.296133
     0.976629 1.73756 0.24006
     1.19894 1.73909 0.715668
     1.25237 1.72368 0.644031
-    1.26811 1.71263 0.366897
-    0.779137 0.225789 0.366375
+    0.26811 1.71263 0.366897
+    -0.220863 0.225789 0.366375
     0.953412 0.237884 0.280485
     1.20787 0.239228 0.675611
     1.22566 0.227964 0.576582
-    1.14513 0.219658 0.421709
-    0.976629 1.73756 0.24006
-    0.953412 0.237884 0.280485
-    0.976629 1.73756 0.24006
+    0.14513 0.219658 0.421709
     1.40773 1.7212 0.384386
-    0.953412 0.237884 0.280485
     1.26725 0.225789 0.389568
-    1.40773 1.7212 0.384386
     0.648779 0.239228 0.396065
     0.568663 1.73909 0.400529
-    0.648779 0.239228 0.396065
-    1.19894 1.73909 0.715668
     0.846837 0.227964 0.612828
     0.711939 1.72368 0.626184
-    0.846837 0.227964 0.612828
-    1.25237 1.72368 0.644031
     0.843419 0.219658 0.572566
     0.733794 1.71263 0.634054
-    0.843419 0.219658 0.572566
-    1.26811 1.71263 0.366897
-    0.779137 0.225789 0.366375
 endnode
-node trimesh base object
+node trimesh baseobject
   parent trunkface
+  bitmap black
   position 0 0 0
   orientation 0 0 0 0
   wirecolor 0.839844 0.839844 0.839844
@@ -1979,9 +1878,8 @@ node trimesh base object
   diffuse 0 0 0
   specular 0 0 0
   shininess 10
-  bitmap NULL
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 2
@@ -1993,15 +1891,15 @@ node trimesh base object
     -2.96619 0.345317 -0.260163
     -2.92605 -0.102185 -1.54684
   faces 3
-    4 2 3  0  1 4 0  0
-    0 4 3  0  2 1 0  0
-    4 1 2  0  1 3 4  0
+    4 2 3 0 1 4 0 0
+    0 4 3 0 2 1 0 0
+    4 1 2 0 1 3 4 0
   tverts 5
-    0.710456 0.390113 357.216
-    -0.197827 0.400897 357.088
-    -0.241346 0.334308 371.811
-    -0.218121 0.501272 332.023
-    -0.275351 0.494463 332.108
+    0.710456 0.390113 6.216
+    -0.197827 0.400897 6.088
+    -0.241346 0.334308 20.811
+    -0.218121 0.501272 -18.977
+    -0.275351 0.494463 -18.892
 endnode
-endmodelgeom ba_firtree
-donemodel ba_firtree
+endmodelgeom pinel
+donemodel pinel

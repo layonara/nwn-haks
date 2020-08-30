@@ -1,161 +1,93 @@
-#Exported from 3ds max by MDL Plug-in Suite 1.0b
-#http://www.bricksbuilder.com/nwn/utils/
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 18:36:35 2019
 #MAXMODEL ASCII
-# model: PLC_DD29
-filedependancy Unknown
-newmodel PLC_DD29
-setsupermodel PLC_DD29 NULL
-classification Character
-setanimationscale 1.0
-#MAXGEOM  ASCII
-beginmodelgeom PLC_DD29
-node dummy PLC_DD29
+filedependency Unknown
+newmodel plc_dd29
+  classification CHARACTER
+  setsupermodel plc_dd29 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom plc_dd29
+node dummy plc_dd29
   parent NULL
 endnode
-node dummy TCN01_S05_01_D01
-  parent PLC_DD29
+node dummy tcn01_s05_01_d01
+  parent plc_dd29
   position -2.7 2.00123 0.04103
   orientation 0 0 1 -1.5708
   wirecolor 0.347656 0.347656 0.347656
 endnode
-node light TCN01_S05_01ml2
-  parent PLC_DD29
+node light tcn01_s05_01ml2
+  parent plc_dd29
   position -4.54885 1.88148 4.04103
   orientation 0 0 0 0
   wirecolor 0.347656 0.347656 0.347656
-    radius 5
-    multiplier 1
-    color 0.00392157 0.00392157 0.00392157
-    ambientOnly 0
-    nDynamicType 0
-    affectDynamic 1
-    shadow 0
-    lightpriority 5
-    lensflares 0
-    fadingLight 1
+  radius 5
+  multiplier 1
+  color 0.00392157 0.00392157 0.00392157
+  ambientonly 0
+  nDynamicType 0
+  affectdynamic 1
+  shadow 0
+  lightpriority 5
+  lensflares 0
+  fadinglight 1
 endnode
-node light TCN01_S05_01ml1
-  parent PLC_DD29
+node light tcn01_s05_01ml1
+  parent plc_dd29
   position 0 0.00122873 5.04103
   orientation 0 0 0 0
   wirecolor 0.347656 0.347656 0.347656
-    radius 14
-    multiplier 1
-    color 0 0 0
-    ambientOnly 0
-    nDynamicType 0
-    affectDynamic 1
-    shadow 0
-    lightpriority 5
-    lensflares 0
-    fadingLight 1
+  radius 14
+  multiplier 1
+  color 0 0 0
+  ambientonly 0
+  nDynamicType 0
+  affectdynamic 1
+  shadow 0
+  lightpriority 5
+  lensflares 0
+  fadinglight 1
 endnode
-node dummy TCN01_S05_01a
-  parent PLC_DD29
+node dummy tcn01_s05_01a
+  parent plc_dd29
   position 0.0278125 0.0049299 0.04103
   orientation 0 0 0 0
   wirecolor 0.347656 0.347656 0.347656
 endnode
-node light L_dayN27
-  parent TCN01_S05_01a
+node light l_dayn27
+  parent tcn01_s05_01a
   position -2.49174 -1.23885 1.53335
   orientation 0 0 0 0
   wirecolor 0.339844 0.339844 0.339844
-    radius 5
-    multiplier 1
-    color 0 0 0
-    ambientOnly 0
-    nDynamicType 1
-    affectDynamic 1
-    shadow 0
-    lightpriority 5
-    lensflares 0
-    fadingLight 1
+  radius 5
+  multiplier 1
+  color 0 0 0
+  ambientonly 0
+  nDynamicType 1
+  affectdynamic 1
+  shadow 0
+  lightpriority 5
+  lensflares 0
+  fadinglight 1
 endnode
-node emitter OmenEmitter48
-  parent TCN01_S05_01a
-  position 0.0132422 -0.0134619 10.3418
-  orientation 0 0 0 0
-  wirecolor 0.339844 0.339844 0.339844
-    colorStart 0 0 0
-    colorEnd 1 1 1
-    alphaStart 0.3
-    alphaEnd 0
-    sizeStart 2.5
-    sizeEnd 5
-    sizeStart_y 0
-    sizeEnd_y 0
-    frameStart 0
-    frameEnd 24
-    birthrate 0
-    spawnType 0
-    lifeExp 2
-    mass 0.05
-    spread 1.0472
-    particleRot 1.5
-    velocity 1.5
-    randvel 0.2
-    fps 10
-    random 0
-    inherit 0
-    inherit_local 0
-    inherit_part 0
-    inheritvel 0
-    xsize 20
-    ysize 20
-    bounce 0
-    bounce_co 0
-    loop 0
-    update Fountain
-    render Normal
-    Blend Normal
-    update_sel 1
-    render_sel 1
-    blend_sel 1
-    deadspace 0
-    opacity 0.5
-    blurlength 10
-    lightningDelay 0
-    lightningRadius 0
-    lightningScale 0
-    blastRadius 0
-    blastLength 0
-    twosidedtex 0
-    p2p 0
-    p2p_sel 1
-    p2p_type Bezier
-    p2p_bezier2 0
-    p2p_bezier3 0
-    combinetime 0
-    drag 0
-    grav 0
-    threshold 0
-    texture fxpa_Smoke01
-    xgrid 4
-    ygrid 4
-    affectedByWind 0
-    m_isTinted 0
-    renderorder 0
-    Splat 0
-endnode
-node light L_dayN26
-  parent TCN01_S05_01a
+node light l_dayn26
+  parent tcn01_s05_01a
   position 2.38931 0.00675781 1.53335
   orientation 0 0 0 0
   wirecolor 0.339844 0.339844 0.339844
-    radius 5
-    multiplier 1
-    color 0 0 0
-    ambientOnly 0
-    nDynamicType 1
-    affectDynamic 1
-    shadow 0
-    lightpriority 5
-    lensflares 0
-    fadingLight 1
+  radius 5
+  multiplier 1
+  color 0 0 0
+  ambientonly 0
+  nDynamicType 1
+  affectdynamic 1
+  shadow 0
+  lightpriority 5
+  lensflares 0
+  fadinglight 1
 endnode
-node trimesh Groups00609
-  parent TCN01_S05_01a
+node trimesh groups00609
+  parent tcn01_s05_01a
   position 3.06219 1.0963 2.1
   orientation 0 0 0 0
   wirecolor 0.652344 0.652344 0.652344
@@ -164,23 +96,23 @@ node trimesh Groups00609
   specular 0 0 0
   shininess 1
   selfillumcolor 1 1 1
-  bitmap TCN01_glas02
+  bitmap tcn01_glas02
   verts 4
     0.0100002 -0.05 -0.62
     0.0100002 0.45 -0.62
     0.0100002 0.45 0.68
     0.0100002 -0.05 0.68
   faces 2
-    0 1 2  1  0 1 2  0
-    3 0 2  1  3 0 2  0
+    0 1 2 1 0 1 2 0
+    3 0 2 1 3 0 2 0
   tverts 4
-    0.99975 0.000499517 0
-    1.49925 0.000499308 0
-    1.49925 0.9995 0
-    0.99975 0.9995 0
+    -0.00025 0.000499517 0
+    0.49925 0.000499308 0
+    0.49925 0.9995 0
+    -0.00025 0.9995 0
 endnode
-node trimesh Groups00610
-  parent TCN01_S05_01a
+node trimesh groups00610
+  parent tcn01_s05_01a
   position 3.06219 -1.5737 2.1
   orientation 0 0 0 0
   wirecolor 0.605469 0.605469 0.605469
@@ -189,23 +121,23 @@ node trimesh Groups00610
   specular 0 0 0
   shininess 1
   selfillumcolor 1 1 1
-  bitmap TCN01_glas02
+  bitmap tcn01_glas02
   verts 4
     0.0099998 -0.0600001 -0.62
     0.0099998 0.44 -0.62
     0.0099998 0.44 0.68
     0.0099998 -0.0600001 0.68
   faces 2
-    0 1 2  1  0 1 2  0
-    3 0 2  1  3 0 2  0
+    0 1 2 1 0 1 2 0
+    3 0 2 1 3 0 2 0
   tverts 4
-    0.99975 0.000499517 0
-    1.49925 0.000499308 0
-    1.49925 0.9995 0
-    0.99975 0.9995 0
+    -0.00025 0.000499517 0
+    0.49925 0.000499308 0
+    0.49925 0.9995 0
+    -0.00025 0.9995 0
 endnode
-node trimesh Groups00654
-  parent TCN01_S05_01a
+node trimesh groups00654
+  parent tcn01_s05_01a
   position -3.12781 -1.1037 2.12
   orientation 0 0 0 0
   wirecolor 0.890625 0.890625 0.890625
@@ -214,23 +146,84 @@ node trimesh Groups00654
   specular 0 0 0
   shininess 1
   selfillumcolor 1 1 1
-  bitmap TCN01_glas02
+  bitmap tcn01_glas02
   verts 4
     0 0.04 -0.62
     0 -0.46 -0.62
     0 -0.46 0.68
     0 0.04 0.68
   faces 2
-    0 1 2  1  0 1 2  0
-    3 0 2  1  3 0 2  0
+    0 1 2 1 0 1 2 0
+    3 0 2 1 3 0 2 0
   tverts 4
-    0.99975 0.000499517 0
-    1.49925 0.000499308 0
-    1.49925 0.9995 0
-    0.99975 0.9995 0
+    -0.00025 0.000499517 0
+    0.49925 0.000499308 0
+    0.49925 0.9995 0
+    -0.00025 0.9995 0
 endnode
-node trimesh Groups4128
-  parent TCN01_S05_01a
+node emitter omenemitter48
+  parent tcn01_s05_01a
+  position 0.0132422 -0.0134619 10.3418
+  orientation 0 0 0 0
+  wirecolor 0.339844 0.339844 0.339844
+  colorStart 0 0 0
+  colorEnd 1 1 1
+  alphaStart 0.3
+  alphaEnd 0
+  sizeStart 2.5
+  sizeEnd 5
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 24
+  birthrate 0
+  spawntype 0
+  lifeExp 2
+  mass 0.05
+  spread 1.0472
+  particleRot 1.5
+  velocity 1.5
+  randvel 0.2
+  fps 10
+  random 0
+  inherit 0
+  inherit_local 0
+  inherit_part 0
+  inheritvel 0
+  xsize 20
+  ysize 20
+  bounce 0
+  bounce_co 0
+  loop 0
+  update Fountain
+  render Normal
+  blend Normal
+  deadspace 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  twosidedtex 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+  texture fxpa_smoke01
+  xgrid 4
+  ygrid 4
+  affectedByWind 0
+  m_isTinted 0
+  renderorder 0
+  splat 0
+endnode
+node trimesh groups4128
+  parent tcn01_s05_01a
   position 3.08219 -1.5737 2.1
   orientation 0 0 0 0
   wirecolor 0.890625 0.890625 0.890625
@@ -238,9 +231,9 @@ node trimesh Groups4128
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_glas02
+  bitmap tcn01_glas02
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 1
   tilefade 0
@@ -251,16 +244,16 @@ node trimesh Groups4128
     0 0.44 0.68
     0 -0.0600001 0.68
   faces 2
-    0 1 2  1  0 1 2  0
-    3 0 2  1  3 0 2  0
+    0 1 2 1 0 1 2 0
+    3 0 2 1 3 0 2 0
   tverts 4
     0.49975 0.000499517 0
     0.999251 0.000499308 0
     0.999251 0.9995 0
     0.49975 0.9995 0
 endnode
-node trimesh Groups4129
-  parent TCN01_S05_01a
+node trimesh groups4129
+  parent tcn01_s05_01a
   position 3.08219 1.0963 2.1
   orientation 0 0 0 0
   wirecolor 0.347656 0.347656 0.347656
@@ -268,9 +261,9 @@ node trimesh Groups4129
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_glas02
+  bitmap tcn01_glas02
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 1
   tilefade 0
@@ -281,16 +274,16 @@ node trimesh Groups4129
     0 0.45 0.68
     0 -0.05 0.68
   faces 2
-    0 1 2  1  0 1 2  0
-    3 0 2  1  3 0 2  0
+    0 1 2 1 0 1 2 0
+    3 0 2 1 3 0 2 0
   tverts 4
     0.49975 0.000499517 0
     0.999251 0.000499308 0
     0.999251 0.9995 0
     0.49975 0.9995 0
 endnode
-node trimesh Groups4127
-  parent TCN01_S05_01a
+node trimesh groups4127
+  parent tcn01_s05_01a
   position -3.15781 -1.1037 2.12
   orientation 0 0 0 0
   wirecolor 0.691406 0.691406 0.691406
@@ -298,9 +291,9 @@ node trimesh Groups4127
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_glas02
+  bitmap tcn01_glas02
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 1
   tilefade 0
@@ -311,16 +304,16 @@ node trimesh Groups4127
     0 -0.46 0.68
     0 0.04 0.68
   faces 2
-    0 1 2  1  0 1 2  0
-    3 0 2  1  3 0 2  0
+    0 1 2 1 0 1 2 0
+    3 0 2 1 3 0 2 0
   tverts 4
     0.49975 0.000499517 0
     0.999251 0.000499308 0
     0.999251 0.9995 0
     0.49975 0.9995 0
 endnode
-node trimesh Groups00608
-  parent PLC_DD29
+node trimesh groups00608
+  parent plc_dd29
   position -0.01 -1.36877 1.42103
   orientation 0 0 0 0
   wirecolor 0.335938 0.335938 0.335938
@@ -328,7 +321,7 @@ node trimesh Groups00608
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_hrdwd01
+  bitmap tcn01_hrdwd01
   verts 20
     3.01 -0.46 0.1
     3.01 -0.46 -0.05
@@ -351,24 +344,24 @@ node trimesh Groups00608
     3.11 0.24 1.4
     3.11 0.24 0.1
   faces 18
-    0 1 2  1  0 1 2  0
-    0 2 3  1  0 2 3  0
-    4 5 6  1  4 5 6  0
-    4 6 7  1  4 6 7  0
-    2 6 3  1  8 9 10  0
-    2 7 6  1  8 11 9  0
-    5 0 3  1  12 13 14  0
-    6 5 3  1  15 12 14  0
-    8 9 10  1  16 17 18  0
-    11 8 12  1  19 20 21  0
-    11 12 13  1  19 21 22  0
-    14 13 15  1  23 24 25  0
-    10 12 8  1  18 26 16  0
-    14 11 13  1  23 27 24  0
-    16 17 12  1  28 29 30  0
-    18 19 15  1  29 28 31  0
-    18 15 13  1  29 31 32  0
-    16 12 10  1  28 32 31  0
+    0 1 2 1 0 1 2 0
+    0 2 3 1 0 2 3 0
+    4 5 6 1 4 5 6 0
+    4 6 7 1 4 6 7 0
+    2 6 3 1 8 9 10 0
+    2 7 6 1 8 11 9 0
+    5 0 3 1 12 13 14 0
+    6 5 3 1 15 12 14 0
+    8 9 10 1 16 17 18 0
+    11 8 12 1 19 20 21 0
+    11 12 13 1 19 21 22 0
+    14 13 15 1 23 24 25 0
+    10 12 8 1 18 26 16 0
+    14 11 13 1 23 27 24 0
+    16 17 12 1 28 29 30 0
+    18 19 15 1 29 28 31 0
+    18 15 13 1 29 31 32 0
+    16 12 10 1 28 32 31 0
   tverts 33
     0.56866 0.39701 0
     0.455023 0.39701 0
@@ -404,8 +397,8 @@ node trimesh Groups00608
     0.425075 0.000499606 0
     0.425075 0.4334 0
 endnode
-node trimesh Groups00607
-  parent PLC_DD29
+node trimesh groups00607
+  parent plc_dd29
   position 0 0.00122873 7.11103
   orientation 0 0 0 0
   wirecolor 0.445313 0.445313 0.445313
@@ -413,9 +406,9 @@ node trimesh Groups00607
   diffuse 1 1 1
   specular 0 0 0
   shininess 26
-  bitmap TCN01_brick03
+  bitmap tcn01_brick03
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -440,34 +433,34 @@ node trimesh Groups00607
     -0.3 -0.4 2.23
     -0.3 0.4 2.23
   faces 28
-    0 1 2  1  0 1 2  0
-    2 3 0  1  2 3 0  0
-    4 5 6  1  1 0 3  0
-    6 7 4  1  3 2 1  0
-    3 2 8  1  4 5 6  0
-    8 9 3  1  6 7 4  0
-    6 3 9  1  8 9 10  0
-    9 10 6  1  10 11 8  0
-    2 7 11  1  12 13 14  0
-    11 8 2  1  14 15 12  0
-    7 6 10  1  16 17 18  0
-    10 11 7  1  18 19 16  0
-    6 5 12  1  20 21 22  0
-    12 3 6  1  22 23 20  0
-    13 4 7  1  22 21 20  0
-    7 2 13  1  20 23 22  0
-    1 13 2  1  24 22 23  0
-    12 0 3  1  22 24 23  0
-    9 8 14  1  25 26 27  0
-    14 15 9  1  27 28 25  0
-    11 10 16  1  26 25 28  0
-    16 17 11  1  28 27 26  0
-    10 9 15  1  29 30 31  0
-    15 16 10  1  31 32 29  0
-    8 11 17  1  30 29 32  0
-    17 14 8  1  32 31 30  0
-    16 15 14  1  33 34 35  0
-    16 14 17  1  33 35 36  0
+    0 1 2 1 0 1 2 0
+    2 3 0 1 2 3 0 0
+    4 5 6 1 1 0 3 0
+    6 7 4 1 3 2 1 0
+    3 2 8 1 4 5 6 0
+    8 9 3 1 6 7 4 0
+    6 3 9 1 8 9 10 0
+    9 10 6 1 10 11 8 0
+    2 7 11 1 12 13 14 0
+    11 8 2 1 14 15 12 0
+    7 6 10 1 16 17 18 0
+    10 11 7 1 18 19 16 0
+    6 5 12 1 20 21 22 0
+    12 3 6 1 22 23 20 0
+    13 4 7 1 22 21 20 0
+    7 2 13 1 20 23 22 0
+    1 13 2 1 24 22 23 0
+    12 0 3 1 22 24 23 0
+    9 8 14 1 25 26 27 0
+    14 15 9 1 27 28 25 0
+    11 10 16 1 26 25 28 0
+    16 17 11 1 28 27 26 0
+    10 9 15 1 29 30 31 0
+    15 16 10 1 31 32 29 0
+    8 11 17 1 30 29 32 0
+    17 14 8 1 32 31 30 0
+    16 15 14 1 33 34 35 0
+    16 14 17 1 33 35 36 0
   tverts 37
     0.191872 0 0
     0.549999 0 0
@@ -507,8 +500,8 @@ node trimesh Groups00607
     0.37 0.0176662 0
     0.194518 0.0176663 0
 endnode
-node trimesh Groups00632
-  parent PLC_DD29
+node trimesh groups00632
+  parent plc_dd29
   position -3.6 -2.09877 4.29103
   orientation 0 0 0 0
   wirecolor 0.226563 0.226563 0.226563
@@ -516,9 +509,9 @@ node trimesh Groups00632
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_glas02
+  bitmap tcn01_glas02
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -529,16 +522,16 @@ node trimesh Groups00632
     0 -0.46 0.68
     0 0.04 0.68
   faces 2
-    0 1 2  1  0 1 2  0
-    3 0 2  1  3 0 2  0
+    0 1 2 1 0 1 2 0
+    3 0 2 1 3 0 2 0
   tverts 4
     0.49975 0.000499517 0
     0.999251 0.000499308 0
     0.999251 0.9995 0
     0.49975 0.9995 0
 endnode
-node trimesh Groups00613
-  parent PLC_DD29
+node trimesh groups00613
+  parent plc_dd29
   position -0.01 1.30123 1.42103
   orientation 0 0 0 0
   wirecolor 0.722656 0.722656 0.722656
@@ -546,7 +539,7 @@ node trimesh Groups00613
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_hrdwd01
+  bitmap tcn01_hrdwd01
   verts 20
     3.01 -0.45 0.1
     3.01 -0.45 -0.05
@@ -569,24 +562,24 @@ node trimesh Groups00613
     3.11 0.25 1.4
     3.11 0.25 0.1
   faces 18
-    0 1 2  1  0 1 2  0
-    0 2 3  1  0 2 3  0
-    4 5 6  1  4 5 6  0
-    4 6 7  1  4 6 7  0
-    2 6 3  1  8 9 10  0
-    2 7 6  1  8 11 9  0
-    5 0 3  1  12 13 14  0
-    6 5 3  1  15 12 14  0
-    8 9 10  1  16 17 18  0
-    11 8 12  1  19 20 21  0
-    11 12 13  1  19 21 22  0
-    14 13 15  1  23 24 25  0
-    10 12 8  1  18 26 16  0
-    14 11 13  1  23 27 24  0
-    16 17 12  1  28 29 30  0
-    18 19 15  1  29 28 31  0
-    18 15 13  1  29 31 32  0
-    16 12 10  1  28 32 31  0
+    0 1 2 1 0 1 2 0
+    0 2 3 1 0 2 3 0
+    4 5 6 1 4 5 6 0
+    4 6 7 1 4 6 7 0
+    2 6 3 1 8 9 10 0
+    2 7 6 1 8 11 9 0
+    5 0 3 1 12 13 14 0
+    6 5 3 1 15 12 14 0
+    8 9 10 1 16 17 18 0
+    11 8 12 1 19 20 21 0
+    11 12 13 1 19 21 22 0
+    14 13 15 1 23 24 25 0
+    10 12 8 1 18 26 16 0
+    14 11 13 1 23 27 24 0
+    16 17 12 1 28 29 30 0
+    18 19 15 1 29 28 31 0
+    18 15 13 1 29 31 32 0
+    16 12 10 1 28 32 31 0
   tverts 33
     0.56866 0.39701 0
     0.455023 0.39701 0
@@ -622,8 +615,8 @@ node trimesh Groups00613
     0.425075 0.000499606 0
     0.425075 0.4334 0
 endnode
-node trimesh Groups00614
-  parent PLC_DD29
+node trimesh groups00614
+  parent plc_dd29
   position 0 0.00122873 9.04103
   orientation 0 0 0 0
   wirecolor 0.722656 0.722656 0.722656
@@ -631,9 +624,9 @@ node trimesh Groups00614
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_roof01
+  bitmap tcn01_roof01
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -682,109 +675,109 @@ node trimesh Groups00614
     -3.76 -3.6 -3.68
     -3.76 3.6 -3.68
   faces 60
-    0 1 2  1  0 1 2  0
-    2 3 0  1  2 3 0  0
-    1 4 5  1  1 4 5  0
-    5 2 1  1  5 2 1  0
-    3 2 6  1  3 2 6  0
-    5 7 8  1  5 7 8  0
-    8 2 5  1  8 2 5  0
-    9 6 10  1  9 6 10  0
-    10 11 9  1  10 11 9  0
-    11 10 12  1  11 10 12  0
-    12 13 11  1  12 13 11  0
-    14 15 16  1  14 15 16  0
-    16 12 10  1  16 12 10  0
-    13 12 17  1  13 12 17  0
-    17 18 13  1  17 18 13  0
-    12 16 19  1  12 16 19  0
-    19 17 12  1  19 17 12  0
-    2 8 6  1  2 8 6  0
-    6 8 14  1  6 8 14  0
-    6 14 10  1  6 14 10  0
-    14 16 10  1  14 16 10  0
-    8 7 20  1  8 7 20  0
-    14 21 15  1  14 21 15  0
-    1 0 22  1  1 0 22  0
-    4 1 22  1  4 1 22  0
-    22 23 4  1  22 23 4  0
-    18 17 24  1  18 17 24  0
-    17 19 25  1  17 19 25  0
-    25 24 17  1  25 24 17  0
-    3 6 9  1  3 6 9  0
-    26 27 28  1  26 27 2  0
-    28 29 26  1  2 28 26  0
-    27 19 16  1  27 29 5  0
-    16 28 27  1  5 2 27  0
-    29 28 30  1  28 2 6  0
-    16 15 31  1  5 7 8  0
-    31 28 16  1  8 2 5  0
-    32 30 33  1  30 6 10  0
-    33 34 32  1  10 31 30  0
-    34 33 35  1  31 10 12  0
-    35 36 34  1  12 32 31  0
-    37 7 5  1  14 15 16  0
-    5 35 33  1  16 12 10  0
-    36 35 38  1  32 12 33  0
-    38 39 36  1  33 34 32  0
-    35 5 4  1  12 16 19  0
-    4 38 35  1  19 33 12  0
-    28 31 30  1  2 8 6  0
-    30 31 37  1  6 8 14  0
-    30 37 33  1  6 14 10  0
-    37 5 33  1  14 16 10  0
-    31 15 21  1  8 7 20  0
-    37 20 7  1  14 21 15  0
-    27 26 40  1  27 26 35  0
-    19 27 40  1  29 27 35  0
-    40 25 19  1  35 36 29  0
-    39 38 41  1  34 33 37  0
-    38 4 23  1  33 19 38  0
-    23 41 38  1  38 37 33  0
-    29 30 32  1  28 6 30  0
+    0 1 2 1 0 1 2 0
+    2 3 0 1 2 3 0 0
+    1 4 5 1 1 4 5 0
+    5 2 1 1 5 2 1 0
+    3 2 6 1 3 2 6 0
+    5 7 8 1 5 7 8 0
+    8 2 5 1 8 2 5 0
+    9 6 10 1 9 6 10 0
+    10 11 9 1 10 11 9 0
+    11 10 12 1 11 10 12 0
+    12 13 11 1 12 13 11 0
+    14 15 16 1 14 15 16 0
+    16 12 10 1 16 12 10 0
+    13 12 17 1 13 12 17 0
+    17 18 13 1 17 18 13 0
+    12 16 19 1 12 16 19 0
+    19 17 12 1 19 17 12 0
+    2 8 6 1 2 8 6 0
+    6 8 14 1 6 8 14 0
+    6 14 10 1 6 14 10 0
+    14 16 10 1 14 16 10 0
+    8 7 20 1 8 7 20 0
+    14 21 15 1 14 21 15 0
+    1 0 22 1 1 0 22 0
+    4 1 22 1 4 1 22 0
+    22 23 4 1 22 23 4 0
+    18 17 24 1 18 17 24 0
+    17 19 25 1 17 19 25 0
+    25 24 17 1 25 24 17 0
+    3 6 9 1 3 6 9 0
+    26 27 28 1 26 27 2 0
+    28 29 26 1 2 28 26 0
+    27 19 16 1 27 29 5 0
+    16 28 27 1 5 2 27 0
+    29 28 30 1 28 2 6 0
+    16 15 31 1 5 7 8 0
+    31 28 16 1 8 2 5 0
+    32 30 33 1 30 6 10 0
+    33 34 32 1 10 31 30 0
+    34 33 35 1 31 10 12 0
+    35 36 34 1 12 32 31 0
+    37 7 5 1 14 15 16 0
+    5 35 33 1 16 12 10 0
+    36 35 38 1 32 12 33 0
+    38 39 36 1 33 34 32 0
+    35 5 4 1 12 16 19 0
+    4 38 35 1 19 33 12 0
+    28 31 30 1 2 8 6 0
+    30 31 37 1 6 8 14 0
+    30 37 33 1 6 14 10 0
+    37 5 33 1 14 16 10 0
+    31 15 21 1 8 7 20 0
+    37 20 7 1 14 21 15 0
+    27 26 40 1 27 26 35 0
+    19 27 40 1 29 27 35 0
+    40 25 19 1 35 36 29 0
+    39 38 41 1 34 33 37 0
+    38 4 23 1 33 19 38 0
+    23 41 38 1 38 37 33 0
+    29 30 32 1 28 6 30 0
   tverts 39
-    2.07749 0.0386115 0
-    2.06094 0.913615 0
-    1.88775 1.01668 0
-    1.86373 0.0313129 0
-    2.05177 1.999 0
-    1.8885 1.999 0
-    1.333 0.944756 0
-    1.44457 1.999 0
-    1.24327 1.52954 0
-    1.333 0.00139879 0
-    0.667 0.944757 0
-    0.666999 0.00139938 0
-    0.129076 1.01668 0
-    0.128333 0.00100046 0
-    0.757357 1.53098 0
-    0.555426 1.999 0
-    0.128333 1.999 0
-    -0.0147539 1.01668 0
-    -0.015497 0.196246 0
-    -0.0154966 1.999 0
-    1.27521 1.999 0
-    0.724793 1.999 0
-    1.8885 0.0948693 0
-    1.86288 1.999 0
-    0.058064 0.0342428 0
-    0.0756882 2.08994 0
-    2.0206 0.154894 0
-    2.0303 0.876081 0
-    1.8885 0.000998914 0
-    2.02041 1.999 0
-    1.333 0.0438384 0
-    0.666999 0.043839 0
-    0.128333 0.0313145 0
-    -0.039522 0.888208 0
-    -0.0551259 0.0700166 0
-    1.92166 -0.32545 0
-    1.92119 1.999 0
-    0.128333 0.044383 0
-    0.153949 1.999 0
+    1.07749 0.0386115 0
+    1.06094 0.913615 0
+    0.88775 1.01668 0
+    0.86373 0.0313129 0
+    1.05177 1.999 0
+    0.8885 1.999 0
+    0.333 0.944756 0
+    0.44457 1.999 0
+    0.24327 1.52954 0
+    0.333 0.00139879 0
+    -0.333 0.944757 0
+    -0.333001 0.00139938 0
+    -0.870924 1.01668 0
+    -0.871667 0.00100046 0
+    -0.242643 1.53098 0
+    -0.444574 1.999 0
+    -0.871667 1.999 0
+    -1.01475 1.01668 0
+    -1.0155 0.196246 0
+    -1.0155 1.999 0
+    0.27521 1.999 0
+    -0.275207 1.999 0
+    0.8885 0.0948693 0
+    0.86288 1.999 0
+    -0.941936 0.0342428 0
+    -0.924312 2.08994 0
+    1.0206 0.154894 0
+    1.0303 0.876081 0
+    0.8885 0.000998914 0
+    1.02041 1.999 0
+    0.333 0.0438384 0
+    -0.333001 0.043839 0
+    -0.871667 0.0313145 0
+    -1.03952 0.888208 0
+    -1.05513 0.0700166 0
+    0.92166 -0.32545 0
+    0.92119 1.999 0
+    -0.871667 0.044383 0
+    -0.846051 1.999 0
 endnode
-node trimesh Groups00615
-  parent PLC_DD29
+node trimesh groups00615
+  parent plc_dd29
   position 1.35 -3.59877 4.60103
   orientation 0 0 0 0
   wirecolor 0.769531 0.769531 0.769531
@@ -792,9 +785,9 @@ node trimesh Groups00615
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_glas02
+  bitmap tcn01_glas02
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -805,16 +798,16 @@ node trimesh Groups00615
     0.45 0 0.68
     -0.05 0 0.68
   faces 2
-    0 1 2  1  0 1 2  0
-    3 0 2  1  3 0 2  0
+    0 1 2 1 0 1 2 0
+    3 0 2 1 3 0 2 0
   tverts 4
     0.49975 0.000499517 0
     0.999251 0.000499308 0
     0.999251 0.9995 0
     0.49975 0.9995 0
 endnode
-node trimesh Groups00616
-  parent PLC_DD29
+node trimesh groups00616
+  parent plc_dd29
   position -0.59 0.00122873 3.24103
   orientation 0 0 0 0
   wirecolor 0.5625 0.5625 0.5625
@@ -822,9 +815,9 @@ node trimesh Groups00616
   diffuse 1 1 1
   specular 0 0 0
   shininess 26
-  bitmap TCN01_hrdwd02
+  bitmap tcn01_hrdwd02
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -855,39 +848,39 @@ node trimesh Groups00616
     4.09 1 -0.2
     4.09 1 0.0999999
   faces 24
-    0 1 2  1  0 1 2  0
-    0 2 3  1  0 2 3  0
-    1 4 2  1  1 4 2  0
-    5 6 7  1  4 1 2  0
-    6 8 9  1  1 0 3  0
-    6 9 7  1  1 3 2  0
-    8 10 11  1  0 5 6  0
-    8 11 9  1  0 6 3  0
-    10 12 11  1  5 7 6  0
-    13 14 15  1  7 5 6  0
-    14 0 3  1  5 0 3  0
-    14 3 15  1  5 3 6  0
-    4 16 17  1  8 9 10  0
-    4 17 2  1  8 10 11  0
-    16 18 19  1  9 12 13  0
-    16 19 17  1  9 13 10  0
-    18 5 7  1  12 14 15  0
-    18 7 19  1  12 15 13  0
-    12 20 21  1  14 12 13  0
-    12 21 11  1  14 13 15  0
-    20 22 23  1  12 9 10  0
-    20 23 21  1  12 10 13  0
-    22 13 15  1  9 16 11  0
-    22 15 23  1  9 11 10  0
-  tverts 17
-    0.0726724 1.00904 0
-    0.0726724 0.0100397 0
-    0.219721 -0.156461 0
-    0.219721 1.00904 0
-    0.0726724 -0.15646 0
-    0.0726724 2.00804 0
-    0.219721 2.17454 0
-    0.0726724 2.17454 0
+    0 1 2 1 0 1 2 0
+    0 2 3 1 0 2 3 0
+    1 4 2 1 1 4 2 0
+    5 6 7 1 4 1 2 0
+    6 8 9 1 1 0 3 0
+    6 9 7 1 1 3 2 0
+    8 10 11 1 0 5 6 0
+    8 11 9 1 0 6 3 0
+    10 12 11 1 5 7 6 0
+    13 14 15 1 7 5 6 0
+    14 0 3 1 5 0 3 0
+    14 3 15 1 5 3 6 0
+    4 16 17 1 8 9 10 0
+    4 17 2 1 8 10 11 0
+    16 18 19 1 9 12 13 0
+    16 19 17 1 9 13 10 0
+    18 5 7 1 12 14 15 0
+    18 7 19 1 12 15 13 0
+    12 20 21 1 14 12 13 0
+    12 21 11 1 14 13 15 0
+    20 22 23 1 12 9 10 0
+    20 23 21 1 12 10 13 0
+    22 13 15 1 9 8 11 0
+    22 15 23 1 9 11 10 0
+  tverts 16
+    0.0726724 0.00904 0
+    0.0726724 -0.98996 0
+    0.219721 -1.15646 0
+    0.219721 0.00904 0
+    0.0726724 -1.15646 0
+    0.0726724 1.00804 0
+    0.219721 1.17454 0
+    0.0726724 1.17454 0
     0.0725599 1.7373 0
     0.0725599 0.904803 0
     0.219515 0.904803 0
@@ -896,10 +889,9 @@ node trimesh Groups00616
     0.219515 0.238802 0
     0.0725599 -0.593699 0
     0.219515 -0.593699 0
-    0.07256 1.7373 0
 endnode
-node trimesh Groups00617
-  parent PLC_DD29
+node trimesh groups00617
+  parent plc_dd29
   position 0 0.00122873 3.04103
   orientation 0 0 0 0
   wirecolor 0.5625 0.5625 0.5625
@@ -907,9 +899,9 @@ node trimesh Groups00617
   diffuse 1 1 1
   specular 0 0 0
   shininess 26
-  bitmap TCN01_plstr16
+  bitmap tcn01_plstr16
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -940,52 +932,51 @@ node trimesh Groups00617
     -3.5 1 0.3
     -3.5 -1 3
   faces 26
-    0 1 2  1  0 1 2  0
-    0 2 3  1  0 2 3  0
-    1 4 5  1  1 4 5  0
-    1 5 2  1  1 5 2  0
-    6 7 8  1  6 7 2  0
-    6 8 9  1  6 2 8  0
-    7 10 11  1  7 9 10  0
-    7 11 8  1  7 10 2  0
-    12 13 14  1  11 12 13  0
-    15 16 17  1  14 15 16  0
-    12 0 13  1  11 17 12  0
-    0 3 13  1  17 18 12  0
-    4 18 19  1  19 20 21  0
-    4 19 5  1  19 21 22  0
-    18 20 21  1  20 23 24  0
-    18 21 19  1  20 24 21  0
-    20 6 9  1  23 25 26  0
-    20 9 21  1  23 26 24  0
-    10 17 11  1  27 16 28  0
-    17 16 11  1  16 15 28  0
-    22 12 14  1  29 11 13  0
-    13 3 23  1  12 18 30  0
-    15 23 16  1  14 30 15  0
-    10 22 17  1  27 29 16  0
-    15 13 23  1  14 12 30  0
-    22 14 17  1  29 13 16  0
-  tverts 31
-    2.03142 0.099401 0
-    1 0.0994011 0
-    1 1.9975 0
-    2.03142 0.998502 0
-    -0.0314169 0.0994012 0
-    -0.0314168 0.998502 0
-    -0.0223694 0.0994009 0
-    1 0.0994008 0
-    -0.0223693 0.998502 0
-    2.02237 0.0994005 0
-    2.02237 0.998502 0
-    1.94374 0.0994003 0
-    1.81279 0.548951 0
-    1.50724 0.449051 0
-    1.50724 0.648851 0
-    1.07074 0.998502 0
-    1.20169 0.548951 0
-    3.03498 0.0994 0
-    3.03498 0.998501 0
+    0 1 2 1 0 1 2 0
+    0 2 3 1 0 2 3 0
+    1 4 5 1 1 4 5 0
+    1 5 2 1 1 5 2 0
+    6 7 8 1 6 1 2 0
+    6 8 9 1 6 2 7 0
+    7 10 11 1 1 8 9 0
+    7 11 8 1 1 9 2 0
+    12 13 14 1 10 11 12 0
+    15 16 17 1 13 14 15 0
+    12 0 13 1 10 16 11 0
+    0 3 13 1 16 17 11 0
+    4 18 19 1 18 19 20 0
+    4 19 5 1 18 20 21 0
+    18 20 21 1 19 22 23 0
+    18 21 19 1 19 23 20 0
+    20 6 9 1 22 24 25 0
+    20 9 21 1 22 25 23 0
+    10 17 11 1 26 15 27 0
+    17 16 11 1 15 14 27 0
+    22 12 14 1 28 10 12 0
+    13 3 23 1 11 17 29 0
+    15 23 16 1 13 29 14 0
+    10 22 17 1 26 28 15 0
+    15 13 23 1 13 11 29 0
+    22 14 17 1 28 12 15 0
+  tverts 30
+    1.03142 -0.900599 0
+    0 -0.900599 0
+    0 0.9975 0
+    1.03142 -0.001498 0
+    -1.03142 -0.900599 0
+    -1.03142 -0.001498 0
+    -1.02237 -0.900599 0
+    -1.02237 -0.001498 0
+    1.02237 -0.900599 0
+    1.02237 -0.001498 0
+    0.94374 0.0994003 0
+    0.81279 0.548951 0
+    0.50724 0.449051 0
+    0.50724 0.648851 0
+    0.07074 0.998502 0
+    0.20169 0.548951 0
+    2.03498 0.0994 0
+    2.03498 0.998501 0
     2.01997 0.0994005 0
     0.929396 0.0994008 0
     0.929396 0.998502 0
@@ -994,13 +985,13 @@ node trimesh Groups00617
     0.0569356 0.998502 0
     -1.03364 0.099401 0
     -1.03364 0.998502 0
-    -0.0204976 0.0994005 0
-    -0.0204972 0.998502 0
-    1.07074 0.0994004 0
-    1.94374 0.998501 0
+    -1.0205 0.0994005 0
+    -1.0205 0.998502 0
+    0.07074 0.0994004 0
+    0.94374 0.998501 0
 endnode
-node trimesh Groups00618
-  parent PLC_DD29
+node trimesh groups00618
+  parent plc_dd29
   position 1.55 -0.498771 3.87103
   orientation 0 0 0 0
   wirecolor 0.570313 0.570313 0.570313
@@ -1008,9 +999,9 @@ node trimesh Groups00618
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_hrdwd01
+  bitmap tcn01_hrdwd01
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -1037,24 +1028,24 @@ node trimesh Groups00618
     0.25 -3.1 1.41
     0.25 -3.1 0.11
   faces 18
-    0 1 2  1  0 1 2  0
-    0 2 3  1  0 2 3  0
-    4 5 6  1  4 5 6  0
-    4 6 7  1  4 6 7  0
-    2 6 3  1  8 9 10  0
-    2 7 6  1  8 11 9  0
-    5 0 3  1  12 13 14  0
-    6 5 3  1  15 12 14  0
-    8 9 10  1  16 17 18  0
-    11 8 12  1  19 20 21  0
-    11 12 13  1  19 21 22  0
-    14 13 15  1  23 24 25  0
-    10 12 8  1  18 26 16  0
-    14 11 13  1  23 27 24  0
-    16 17 12  1  28 29 30  0
-    18 19 15  1  29 28 31  0
-    18 15 13  1  29 31 32  0
-    16 12 10  1  28 32 31  0
+    0 1 2 1 0 1 2 0
+    0 2 3 1 0 2 3 0
+    4 5 6 1 4 5 6 0
+    4 6 7 1 4 6 7 0
+    2 6 3 1 8 9 10 0
+    2 7 6 1 8 11 9 0
+    5 0 3 1 12 13 14 0
+    6 5 3 1 15 12 14 0
+    8 9 10 1 16 17 18 0
+    11 8 12 1 19 20 21 0
+    11 12 13 1 19 21 22 0
+    14 13 15 1 23 24 25 0
+    10 12 8 1 18 26 16 0
+    14 11 13 1 23 27 24 0
+    16 17 12 1 28 29 30 0
+    18 19 15 1 29 28 31 0
+    18 15 13 1 29 31 32 0
+    16 12 10 1 28 32 31 0
   tverts 33
     0.56866 0.39701 0
     0.455023 0.39701 0
@@ -1090,8 +1081,8 @@ node trimesh Groups00618
     0.425075 0.000499606 0
     0.425075 0.4334 0
 endnode
-node trimesh Groups00636
-  parent PLC_DD29
+node trimesh groups00636
+  parent plc_dd29
   position -3.1 3.15123 0.04103
   orientation 0 0 0 0
   wirecolor 0.242188 0.242188 0.242188
@@ -1099,7 +1090,7 @@ node trimesh Groups00636
   diffuse 1 1 1
   specular 0 0 0
   shininess 26
-  bitmap TCN01_hrdwd02
+  bitmap tcn01_hrdwd02
   verts 12
     0.1 0.05 0
     0 -0.15 0
@@ -1114,14 +1105,14 @@ node trimesh Groups00636
     0.1 -2.15 0
     0.1 -2.15 3
   faces 8
-    0 1 2  1  0 1 2  0
-    2 3 0  1  2 3 0  0
-    1 4 5  1  1 4 5  0
-    5 2 1  1  5 2 1  0
-    6 7 8  1  1 0 2  0
-    9 8 7  1  3 2 0  0
-    10 6 11  1  4 1 5  0
-    8 11 6  1  2 5 1  0
+    0 1 2 1 0 1 2 0
+    2 3 0 1 2 3 0 0
+    1 4 5 1 1 4 5 0
+    5 2 1 1 5 2 1 0
+    6 7 8 1 1 0 2 0
+    9 8 7 1 3 2 0 0
+    10 6 11 1 4 1 5 0
+    8 11 6 1 2 5 1 0
   tverts 6
     0.898999 0.000499457 0
     0.974764 0.000499457 0
@@ -1130,8 +1121,8 @@ node trimesh Groups00636
     0.930576 0.000499457 0
     0.930576 0.999501 0
 endnode
-node trimesh Groups00620
-  parent PLC_DD29
+node trimesh groups00620
+  parent plc_dd29
   position 1.69 0.501229 3.87103
   orientation 0 0 0 0
   wirecolor 0.242188 0.242188 0.242188
@@ -1139,9 +1130,9 @@ node trimesh Groups00620
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_hrdwd01
+  bitmap tcn01_hrdwd01
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -1168,24 +1159,24 @@ node trimesh Groups00620
     -0.25 3.1 1.41
     -0.25 3.1 0.11
   faces 18
-    0 1 2  1  0 1 2  0
-    0 2 3  1  0 2 3  0
-    4 5 6  1  4 5 6  0
-    4 6 7  1  4 6 7  0
-    2 6 3  1  8 9 10  0
-    2 7 6  1  8 11 9  0
-    5 0 3  1  12 13 14  0
-    6 5 3  1  15 12 14  0
-    8 9 10  1  16 17 18  0
-    11 8 12  1  19 20 21  0
-    11 12 13  1  19 21 22  0
-    14 13 15  1  23 24 25  0
-    10 12 8  1  18 26 16  0
-    14 11 13  1  23 27 24  0
-    16 17 12  1  28 29 30  0
-    18 19 15  1  29 28 31  0
-    18 15 13  1  29 31 32  0
-    16 12 10  1  28 32 31  0
+    0 1 2 1 0 1 2 0
+    0 2 3 1 0 2 3 0
+    4 5 6 1 4 5 6 0
+    4 6 7 1 4 6 7 0
+    2 6 3 1 8 9 10 0
+    2 7 6 1 8 11 9 0
+    5 0 3 1 12 13 14 0
+    6 5 3 1 15 12 14 0
+    8 9 10 1 16 17 18 0
+    11 8 12 1 19 20 21 0
+    11 12 13 1 19 21 22 0
+    14 13 15 1 23 24 25 0
+    10 12 8 1 18 26 16 0
+    14 11 13 1 23 27 24 0
+    16 17 12 1 28 29 30 0
+    18 19 15 1 29 28 31 0
+    18 15 13 1 29 31 32 0
+    16 12 10 1 28 32 31 0
   tverts 33
     0.56866 0.39701 0
     0.455023 0.39701 0
@@ -1221,8 +1212,8 @@ node trimesh Groups00620
     0.425075 0.000499606 0
     0.425075 0.4334 0
 endnode
-node trimesh Groups00621
-  parent PLC_DD29
+node trimesh groups00621
+  parent plc_dd29
   position 0 0.00122873 0.04103
   orientation 0 0 0 0
   wirecolor 0.425781 0.425781 0.425781
@@ -1230,7 +1221,7 @@ node trimesh Groups00621
   diffuse 1 1 1
   specular 0 0 0
   shininess 26
-  bitmap TCN01_plstr10
+  bitmap tcn01_plstr10
   verts 32
     -3 1 0
     -3 0 0
@@ -1265,44 +1256,44 @@ node trimesh Groups00621
     -0.3 -3.5 0.5
     -0.4 -3.5 0
   faces 30
-    0 1 2  1  0 1 2  0
-    0 2 3  1  0 2 3  0
-    4 5 6  1  4 5 6  0
-    1 4 2  1  1 4 2  0
-    7 8 9  1  7 8 9  0
-    7 9 10  1  7 9 10  0
-    11 12 13  1  11 12 13  0
-    11 13 14  1  11 13 14  0
-    14 15 11  1  14 15 11  0
-    8 16 17  1  8 16 17  0
-    16 18 17  1  16 18 17  0
-    16 19 18  1  16 19 18  0
-    19 20 18  1  19 20 18  0
-    21 7 10  1  21 7 10  0
-    8 17 9  1  8 17 9  0
-    19 22 23  1  22 23 24  0
-    19 23 20  1  22 24 25  0
-    22 14 13  1  23 26 27  0
-    22 13 23  1  23 27 24  0
-    21 10 24  1  28 29 30  0
-    21 24 25  1  28 30 31  0
-    24 10 26  1  30 29 32  0
-    26 10 27  1  32 29 33  0
-    26 27 28  1  32 33 34  0
-    29 28 27  1  35 34 33  0
-    29 27 6  1  35 33 36  0
-    29 6 30  1  35 36 37  0
-    30 6 5  1  37 36 38  0
-    5 31 30  1  38 39 37  0
-    2 4 6  1  2 4 6  0
-  tverts 40
-    1.43074 0.00049901 0
-    1.65206 0.000498891 0
-    1.86643 0.9995 0
-    1.43074 0.994627 0
-    2.12296 0.00049879 0
-    2.48456 0.000498712 0
-    2.48456 0.9995 0
+    0 1 2 1 0 1 2 0
+    0 2 3 1 0 2 3 0
+    4 5 6 1 4 5 6 0
+    1 4 2 1 1 4 2 0
+    7 8 9 1 7 8 9 0
+    7 9 10 1 7 9 10 0
+    11 12 13 1 11 12 13 0
+    11 13 14 1 11 13 14 0
+    14 15 11 1 14 15 11 0
+    8 16 17 1 8 16 17 0
+    16 18 17 1 16 18 17 0
+    16 19 18 1 16 19 18 0
+    19 20 18 1 19 20 18 0
+    21 7 10 1 21 7 10 0
+    8 17 9 1 8 17 9 0
+    19 22 23 1 22 23 24 0
+    19 23 20 1 22 24 25 0
+    22 14 13 1 23 26 27 0
+    22 13 23 1 23 27 24 0
+    21 10 24 1 28 29 30 0
+    21 24 25 1 28 30 31 0
+    24 10 26 1 30 29 32 0
+    26 10 27 1 32 29 17 0
+    26 27 28 1 32 17 33 0
+    29 28 27 1 34 33 17 0
+    29 27 6 1 34 17 35 0
+    29 6 30 1 34 35 36 0
+    30 6 5 1 36 35 37 0
+    5 31 30 1 37 38 36 0
+    2 4 6 1 2 4 6 0
+  tverts 39
+    0.43074 0.00049901 0
+    0.65206 0.000498891 0
+    0.86643 0.9995 0
+    0.43074 0.994627 0
+    1.12296 0.00049879 0
+    1.48456 0.000498712 0
+    1.48456 0.9995 0
     0 0.000499994 0
     0.5 0.000499785 0
     0 0.9995 0
@@ -1329,7 +1320,6 @@ node trimesh Groups00621
     0.0337995 0.167 0
     0.000499398 0.000499845 0
     0.167 0.3002 0
-    0.5 0.999501 0
     0.3335 0.3335 0
     0.5 0.3002 0
     1.499 0.999501 0
@@ -1337,8 +1327,8 @@ node trimesh Groups00621
     1.499 0.000499636 0
     0.6665 0.000499755 0
 endnode
-node trimesh Groups00622
-  parent PLC_DD29
+node trimesh groups00622
+  parent plc_dd29
   position 1.89 3.60123 4.60103
   orientation 0 0 0 0
   wirecolor 0.601563 0.601563 0.601563
@@ -1346,9 +1336,9 @@ node trimesh Groups00622
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_glas02
+  bitmap tcn01_glas02
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -1359,16 +1349,16 @@ node trimesh Groups00622
     -0.45 0 0.68
     0.05 0 0.68
   faces 2
-    0 1 2  1  0 1 2  0
-    3 0 2  1  3 0 2  0
+    0 1 2 1 0 1 2 0
+    3 0 2 1 3 0 2 0
   tverts 4
     0.49975 0.000499517 0
     0.999251 0.000499308 0
     0.999251 0.9995 0
     0.49975 0.9995 0
 endnode
-node trimesh Line230
-  parent PLC_DD29
+node trimesh line230
+  parent plc_dd29
   position -0.77 1.07123 3.04103
   orientation 0 0 0 0
   wirecolor 0.601563 0.601563 0.601563
@@ -1376,9 +1366,9 @@ node trimesh Line230
   diffuse 0 0 0
   specular 0 0 0
   shininess 1
-  bitmap TCN01_Black
+  bitmap tcn01_black
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 0
   tilefade 2
@@ -1405,24 +1395,24 @@ node trimesh Line230
     3.77 -1.07 0
     0.07 -0.07 0
   faces 18
-    0 1 2  1  0 1 2  0
-    3 4 5  1  3 4 5  0
-    6 3 5  1  6 3 5  0
-    0 2 7  1  0 2 7  0
-    8 9 0  1  8 9 0  0
-    8 0 7  1  8 0 7  0
-    8 7 10  1  8 7 10  0
-    11 12 8  1  11 12 8  0
-    13 14 15  1  13 14 15  0
-    16 17 13  1  16 17 13  0
-    16 13 15  1  16 13 15  0
-    16 15 18  1  16 15 18  0
-    5 16 18  1  5 16 18  0
-    6 5 18  1  6 5 18  0
-    19 6 18  1  19 6 18  0
-    19 18 11  1  19 18 11  0
-    19 11 8  1  19 11 8  0
-    10 19 8  1  10 19 8  0
+    0 1 2 1 0 1 2 0
+    3 4 5 1 3 4 5 0
+    6 3 5 1 6 3 5 0
+    0 2 7 1 0 2 7 0
+    8 9 0 1 8 9 0 0
+    8 0 7 1 8 0 7 0
+    8 7 10 1 8 7 10 0
+    11 12 8 1 11 12 8 0
+    13 14 15 1 13 14 15 0
+    16 17 13 1 16 17 13 0
+    16 13 15 1 16 13 15 0
+    16 15 18 1 16 15 18 0
+    5 16 18 1 5 16 18 0
+    6 5 18 1 6 5 18 0
+    19 6 18 1 19 6 18 0
+    19 18 11 1 19 18 11 0
+    19 11 8 1 19 11 8 0
+    10 19 8 1 10 19 8 0
   tverts 20
     0.0168768 0.956685 0
     0.000499725 0.928143 0
@@ -1445,8 +1435,8 @@ node trimesh Line230
     0.9995 0.5 0
     0.393549 0.642714 0
 endnode
-node trimesh Groups00624
-  parent PLC_DD29
+node trimesh groups00624
+  parent plc_dd29
   position 0.6 -3.11877 4.41103
   orientation 0 0 0 0
   wirecolor 0.882813 0.882813 0.882813
@@ -1454,7 +1444,7 @@ node trimesh Groups00624
   diffuse 1 1 1
   specular 0 0 0
   shininess 26
-  bitmap TCN01_stone01
+  bitmap tcn01_stone01
   verts 20
     -0.55 -0.38 -4.02
     -0.6 -0.38 -4.37
@@ -1477,37 +1467,33 @@ node trimesh Groups00624
     0.9 -0.38 -3.87
     1 -0.38 -4.37
   faces 20
-    0 1 2  1  0 1 2  0
-    2 3 0  1  2 3 0  0
-    4 0 3  1  4 0 3  0
-    3 5 4  1  3 5 4  0
-    6 7 8  1  6 7 5  0
-    8 9 6  1  5 8 6  0
-    10 6 9  1  9 6 8  0
-    9 11 10  1  8 2 9  0
-    12 13 1  1  10 11 12  0
-    12 1 0  1  10 12 13  0
-    14 12 0  1  14 10 13  0
-    14 0 4  1  14 13 15  0
-    15 14 4  1  16 14 15  0
-    15 4 16  1  16 15 17  0
-    17 15 16  1  18 16 17  0
-    17 16 7  1  18 17 19  0
-    18 17 7  1  20 18 19  0
-    18 7 6  1  20 19 21  0
-    19 18 6  1  22 20 21  0
-    10 19 6  1  23 22 21  0
-  tverts 24
+    0 1 2 1 0 1 2 0
+    2 3 0 1 2 3 0 0
+    4 0 3 1 4 0 3 0
+    3 5 4 1 3 5 4 0
+    6 7 8 1 0 4 5 0
+    8 9 6 1 5 3 0 0
+    10 6 9 1 1 0 3 0
+    9 11 10 1 3 2 1 0
+    12 13 1 1 6 7 8 0
+    12 1 0 1 6 8 9 0
+    14 12 0 1 10 6 9 0
+    14 0 4 1 10 9 11 0
+    15 14 4 1 12 10 11 0
+    15 4 16 1 12 11 13 0
+    17 15 16 1 14 12 13 0
+    17 16 7 1 14 13 15 0
+    18 17 7 1 16 14 15 0
+    18 7 6 1 16 15 17 0
+    19 18 6 1 18 16 17 0
+    10 19 6 1 19 18 17 0
+  tverts 20
     0.000499904 0.780447 0
     0.000499487 0.615405 0
     0.165501 0.615405 0
     0.165501 0.780447 0
     0.000500262 0.912544 0
     0.165502 0.912544 0
-    0.000500113 0.780447 0
-    0.000500381 0.912544 0
-    0.165502 0.780447 0
-    0.000499725 0.615405 0
     0.164515 0.999073 0
     0.000499517 0.998645 0
     0.00445597 0.83847 0
@@ -1523,8 +1509,8 @@ node trimesh Groups00624
     0.9995 0.998645 0
     0.995544 0.83847 0
 endnode
-node trimesh Groups00653
-  parent PLC_DD29
+node trimesh groups00653
+  parent plc_dd29
   position -1.39 -1.29877 1.51103
   orientation 0 0 0 0
   wirecolor 0.34375 0.34375 0.34375
@@ -1532,7 +1518,7 @@ node trimesh Groups00653
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_hrdwd01
+  bitmap tcn01_hrdwd01
   verts 20
     -1.61 0.44 0.0300001
     -1.61 0.44 -0.12
@@ -1555,24 +1541,24 @@ node trimesh Groups00653
     -1.71 -0.26 1.33
     -1.71 -0.26 0.0300001
   faces 18
-    0 1 2  1  0 1 2  0
-    0 2 3  1  0 2 3  0
-    4 5 6  1  4 5 6  0
-    4 6 7  1  4 6 7  0
-    2 6 3  1  8 9 10  0
-    2 7 6  1  8 11 9  0
-    5 0 3  1  12 13 14  0
-    6 5 3  1  15 12 14  0
-    8 9 10  1  16 17 18  0
-    11 8 12  1  19 20 21  0
-    11 12 13  1  19 21 22  0
-    14 13 15  1  23 24 25  0
-    10 12 8  1  18 26 16  0
-    14 11 13  1  23 27 24  0
-    16 17 12  1  28 29 30  0
-    18 19 15  1  29 28 31  0
-    18 15 13  1  29 31 32  0
-    16 12 10  1  28 32 31  0
+    0 1 2 1 0 1 2 0
+    0 2 3 1 0 2 3 0
+    4 5 6 1 4 5 6 0
+    4 6 7 1 4 6 7 0
+    2 6 3 1 8 9 10 0
+    2 7 6 1 8 11 9 0
+    5 0 3 1 12 13 14 0
+    6 5 3 1 15 12 14 0
+    8 9 10 1 16 17 18 0
+    11 8 12 1 19 20 21 0
+    11 12 13 1 19 21 22 0
+    14 13 15 1 23 24 25 0
+    10 12 8 1 18 26 16 0
+    14 11 13 1 23 27 24 0
+    16 17 12 1 28 29 30 0
+    18 19 15 1 29 28 31 0
+    18 15 13 1 29 31 32 0
+    16 12 10 1 28 32 31 0
   tverts 33
     0.56866 0.39701 0
     0.455023 0.39701 0
@@ -1608,8 +1594,8 @@ node trimesh Groups00653
     0.425075 0.000499606 0
     0.425075 0.4334 0
 endnode
-node trimesh Groups00639
-  parent PLC_DD29
+node trimesh groups00639
+  parent plc_dd29
   position -2.85 1.70123 0.04103
   orientation 0 0 0 0
   wirecolor 0.34375 0.34375 0.34375
@@ -1617,7 +1603,7 @@ node trimesh Groups00639
   diffuse 1 1 1
   specular 0 0 0
   shininess 26
-  bitmap TCN01_hrdwd02
+  bitmap tcn01_hrdwd02
   verts 8
     0.15 -0.7 0
     0.15 1.3 0
@@ -1628,15 +1614,15 @@ node trimesh Groups00639
     0.15 -0.7 3
     -0.15 -0.7 3
   faces 8
-    0 1 2  1  0 1 2  0
-    0 2 3  1  0 2 3  0
-    1 4 2  1  4 5 6  0
-    2 4 5  1  6 5 7  0
-    6 0 7  1  8 4 9  0
-    7 0 3  1  9 4 10  0
-    5 4 6  1  7 5 8  0
-    5 6 7  1  7 8 9  0
-  tverts 11
+    0 1 2 1 0 1 2 0
+    0 2 3 1 0 2 3 0
+    1 4 2 1 4 5 6 0
+    2 4 5 1 6 5 7 0
+    6 0 7 1 8 4 9 0
+    7 0 3 1 9 4 6 0
+    5 4 6 1 7 5 8 0
+    5 6 7 1 7 8 9 0
+  tverts 10
     -0.0266244 1.00071 0
     -0.0266245 0.00170721 0
     0.0664225 0.00170721 0
@@ -1647,10 +1633,9 @@ node trimesh Groups00639
     -0.0128082 0.803927 0
     0.0570519 0.528241 0
     -0.0128083 0.528241 0
-    -0.0128084 -0.162756 0
 endnode
-node trimesh Groups00651
-  parent PLC_DD29
+node trimesh groups00651
+  parent plc_dd29
   position 0.18 -3.31877 0.04103
   orientation 0 0 0 0
   wirecolor 0.695313 0.695313 0.695313
@@ -1658,7 +1643,7 @@ node trimesh Groups00651
   diffuse 0.776471 0.776471 0.776471
   specular 0 0 0
   shininess 1
-  bitmap TCN01_stone20
+  bitmap tcn01_stone20
   verts 24
     -0.04 0.0299999 0
     0 0 0
@@ -1685,22 +1670,22 @@ node trimesh Groups00651
     0.9 0.0499999 0
     0.9 0.0499999 0.6
   faces 16
-    0 1 2  1  0 1 2  0
-    0 2 3  1  0 2 3  0
-    1 4 5  1  1 4 5  0
-    1 5 2  1  1 5 2  0
-    6 7 8  1  6 7 8  0
-    6 8 9  1  6 8 9  0
-    7 10 11  1  7 10 11  0
-    7 11 8  1  7 11 8  0
-    12 13 14  1  12 13 14  0
-    12 14 15  1  12 14 15  0
-    13 16 17  1  13 16 17  0
-    13 17 14  1  13 17 14  0
-    18 19 20  1  18 19 20  0
-    18 20 21  1  18 20 21  0
-    19 22 23  1  19 22 23  0
-    19 23 20  1  19 23 20  0
+    0 1 2 1 0 1 2 0
+    0 2 3 1 0 2 3 0
+    1 4 5 1 1 4 5 0
+    1 5 2 1 1 5 2 0
+    6 7 8 1 6 7 8 0
+    6 8 9 1 6 8 9 0
+    7 10 11 1 7 10 11 0
+    7 11 8 1 7 11 8 0
+    12 13 14 1 12 13 14 0
+    12 14 15 1 12 14 15 0
+    13 16 17 1 13 16 17 0
+    13 17 14 1 13 17 14 0
+    18 19 20 1 18 19 20 0
+    18 20 21 1 18 20 21 0
+    19 22 23 1 19 22 23 0
+    19 23 20 1 19 23 20 0
   tverts 24
     0.948283 0.996668 0
     0.899909 0.996668 0
@@ -1727,8 +1712,8 @@ node trimesh Groups00651
     0.0199268 0.994507 0
     0.0199267 0.643092 0
 endnode
-node trimesh Groups00629
-  parent PLC_DD29
+node trimesh groups00629
+  parent plc_dd29
   position 0 0.00122873 9.04103
   orientation 0 0 0 0
   wirecolor 0.0273438 0.0273438 0.0273438
@@ -1736,9 +1721,9 @@ node trimesh Groups00629
   diffuse 1 1 1
   specular 0 0 0
   shininess 26
-  bitmap TCN01_hrdwd02
+  bitmap tcn01_hrdwd02
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -1764,21 +1749,21 @@ node trimesh Groups00629
     -3.94 -3.6 -3.16
     -3.56 -3.9 -3.58
   faces 15
-    0 1 2  1  0 1 2  0
-    1 3 4  1  1 3 4  0
-    4 2 1  1  4 2 1  0
-    3 5 6  1  3 5 6  0
-    6 4 3  1  6 4 3  0
-    5 7 8  1  5 7 8  0
-    8 6 5  1  8 6 5  0
-    9 10 11  1  9 7 8  0
-    10 12 13  1  7 5 6  0
-    13 11 10  1  6 8 7  0
-    12 14 15  1  5 3 4  0
-    15 13 12  1  4 6 5  0
-    14 16 17  1  3 1 2  0
-    17 15 14  1  2 4 3  0
-    18 17 16  1  0 2 1  0
+    0 1 2 1 0 1 2 0
+    1 3 4 1 1 3 4 0
+    4 2 1 1 4 2 1 0
+    3 5 6 1 3 5 6 0
+    6 4 3 1 6 4 3 0
+    5 7 8 1 5 7 8 0
+    8 6 5 1 8 6 5 0
+    9 10 11 1 9 7 8 0
+    10 12 13 1 7 5 6 0
+    13 11 10 1 6 8 7 0
+    12 14 15 1 5 3 4 0
+    15 13 12 1 4 6 5 0
+    14 16 17 1 3 1 2 0
+    17 15 14 1 2 4 3 0
+    18 17 16 1 0 2 1 0
   tverts 10
     1.02521 -1.24729 0
     1.05764 -1.13081 0
@@ -1791,8 +1776,8 @@ node trimesh Groups00629
     0.910153 1.66479 0
     1.02521 1.78128 0
 endnode
-node trimesh Groups00630
-  parent PLC_DD29
+node trimesh groups00630
+  parent plc_dd29
   position -3.6 2.54123 4.29103
   orientation 0 0 0 0
   wirecolor 0.542969 0.542969 0.542969
@@ -1800,9 +1785,9 @@ node trimesh Groups00630
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_glas02
+  bitmap tcn01_glas02
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -1813,16 +1798,16 @@ node trimesh Groups00630
     0 -0.46 0.68
     0 0.0399998 0.68
   faces 2
-    0 1 2  1  0 1 2  0
-    3 0 2  1  3 0 2  0
+    0 1 2 1 0 1 2 0
+    3 0 2 1 3 0 2 0
   tverts 4
     0.49975 0.000499517 0
     0.999251 0.000499308 0
     0.999251 0.9995 0
     0.49975 0.9995 0
 endnode
-node trimesh Groups00650
-  parent PLC_DD29
+node trimesh groups00650
+  parent plc_dd29
   position 0.7 -3.04877 0.04103
   orientation 0 0 0 0
   wirecolor 0.542969 0.542969 0.542969
@@ -1830,21 +1815,21 @@ node trimesh Groups00650
   diffuse 0 0 0
   specular 0 0 0
   shininess 1
-  bitmap TCN01_Black
+  bitmap tcn01_black
   verts 4
     0.5 -0.15 0.8
     -0.7 -0.15 0.8
     -0.7 -0.15 0
     0.5 -0.15 0
   faces 2
-    0 1 2  1  0 1 1  0
-    0 2 3  1  0 1 0  0
+    0 1 2 1 0 1 1 0
+    0 2 3 1 0 1 0 0
   tverts 2
     0.000499517 1.01306 0
     0.999501 -0.0214149 0
 endnode
-node trimesh Groups00649
-  parent PLC_DD29
+node trimesh groups00649
+  parent plc_dd29
   position -1.75 0.501229 3.87103
   orientation 0 0 0 0
   wirecolor 0.601563 0.601563 0.601563
@@ -1852,9 +1837,9 @@ node trimesh Groups00649
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_hrdwd01
+  bitmap tcn01_hrdwd01
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -1881,24 +1866,24 @@ node trimesh Groups00649
     -0.25 3.1 1.41
     -0.25 3.1 0.11
   faces 18
-    0 1 2  1  0 1 2  0
-    0 2 3  1  0 2 3  0
-    4 5 6  1  4 5 6  0
-    4 6 7  1  4 6 7  0
-    2 6 3  1  8 9 10  0
-    2 7 6  1  8 11 9  0
-    5 0 3  1  12 13 14  0
-    6 5 3  1  15 12 14  0
-    8 9 10  1  16 17 18  0
-    11 8 12  1  19 20 21  0
-    11 12 13  1  19 21 22  0
-    14 13 15  1  23 24 25  0
-    10 12 8  1  18 26 16  0
-    14 11 13  1  23 27 24  0
-    16 17 12  1  28 29 30  0
-    18 19 15  1  29 28 31  0
-    18 15 13  1  29 31 32  0
-    16 12 10  1  28 32 31  0
+    0 1 2 1 0 1 2 0
+    0 2 3 1 0 2 3 0
+    4 5 6 1 4 5 6 0
+    4 6 7 1 4 6 7 0
+    2 6 3 1 8 9 10 0
+    2 7 6 1 8 11 9 0
+    5 0 3 1 12 13 14 0
+    6 5 3 1 15 12 14 0
+    8 9 10 1 16 17 18 0
+    11 8 12 1 19 20 21 0
+    11 12 13 1 19 21 22 0
+    14 13 15 1 23 24 25 0
+    10 12 8 1 18 26 16 0
+    14 11 13 1 23 27 24 0
+    16 17 12 1 28 29 30 0
+    18 19 15 1 29 28 31 0
+    18 15 13 1 29 31 32 0
+    16 12 10 1 28 32 31 0
   tverts 33
     0.56866 0.39701 0
     0.455023 0.39701 0
@@ -1934,8 +1919,8 @@ node trimesh Groups00649
     0.425075 0.000499606 0
     0.425075 0.4334 0
 endnode
-node trimesh Groups00633
-  parent PLC_DD29
+node trimesh groups00633
+  parent plc_dd29
   position -0.5 -2.29877 3.57103
   orientation 0 0 0 0
   wirecolor 0.878906 0.878906 0.878906
@@ -1943,9 +1928,9 @@ node trimesh Groups00633
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_hrdwd01
+  bitmap tcn01_hrdwd01
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -1972,24 +1957,24 @@ node trimesh Groups00633
     -3.1 -0.26 1.4
     -3.1 -0.26 0.0999999
   faces 18
-    0 1 2  1  0 1 2  0
-    0 2 3  1  0 2 3  0
-    4 5 6  1  4 5 6  0
-    4 6 7  1  4 6 7  0
-    2 6 3  1  8 9 10  0
-    2 7 6  1  8 11 9  0
-    5 0 3  1  12 13 14  0
-    6 5 3  1  15 12 14  0
-    8 9 10  1  16 17 18  0
-    11 8 12  1  19 20 21  0
-    11 12 13  1  19 21 22  0
-    14 13 15  1  23 24 25  0
-    10 12 8  1  18 26 16  0
-    14 11 13  1  23 27 24  0
-    16 17 12  1  28 29 30  0
-    18 19 15  1  29 28 31  0
-    18 15 13  1  29 31 32  0
-    16 12 10  1  28 32 31  0
+    0 1 2 1 0 1 2 0
+    0 2 3 1 0 2 3 0
+    4 5 6 1 4 5 6 0
+    4 6 7 1 4 6 7 0
+    2 6 3 1 8 9 10 0
+    2 7 6 1 8 11 9 0
+    5 0 3 1 12 13 14 0
+    6 5 3 1 15 12 14 0
+    8 9 10 1 16 17 18 0
+    11 8 12 1 19 20 21 0
+    11 12 13 1 19 21 22 0
+    14 13 15 1 23 24 25 0
+    10 12 8 1 18 26 16 0
+    14 11 13 1 23 27 24 0
+    16 17 12 1 28 29 30 0
+    18 19 15 1 29 28 31 0
+    18 15 13 1 29 31 32 0
+    16 12 10 1 28 32 31 0
   tverts 33
     0.56866 0.39701 0
     0.455023 0.39701 0
@@ -2025,8 +2010,8 @@ node trimesh Groups00633
     0.425075 0.000499606 0
     0.425075 0.4334 0
 endnode
-node trimesh Groups00634
-  parent PLC_DD29
+node trimesh groups00634
+  parent plc_dd29
   position -0.59 0.00122873 3.24103
   orientation 0 0 0 0
   wirecolor 0.695313 0.695313 0.695313
@@ -2034,9 +2019,9 @@ node trimesh Groups00634
   diffuse 1 1 1
   specular 0 0 0
   shininess 26
-  bitmap TCN01_hrdwd02
+  bitmap tcn01_hrdwd02
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -2047,16 +2032,16 @@ node trimesh Groups00634
     -2.91 0.7 1.45
     -2.91 -0.7 1.45
   faces 2
-    0 1 2  1  0 1 2  0
-    0 3 1  1  0 3 1  0
+    0 1 2 1 0 1 2 0
+    0 3 1 1 0 3 1 0
   tverts 4
     0.688437 0.508404 0
     0.877424 0.509109 0
     0.788326 0.815384 0
     0.787338 0.192532 0
 endnode
-node trimesh Groups00635
-  parent PLC_DD29
+node trimesh groups00635
+  parent plc_dd29
   position -0.5 2.34123 3.57103
   orientation 0 0 0 0
   wirecolor 0.0273438 0.0273438 0.0273438
@@ -2064,9 +2049,9 @@ node trimesh Groups00635
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_hrdwd01
+  bitmap tcn01_hrdwd01
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -2093,24 +2078,24 @@ node trimesh Groups00635
     -3.1 -0.26 1.4
     -3.1 -0.26 0.0999999
   faces 18
-    0 1 2  1  0 1 2  0
-    0 2 3  1  0 2 3  0
-    4 5 6  1  4 5 6  0
-    4 6 7  1  4 6 7  0
-    2 6 3  1  8 9 10  0
-    2 7 6  1  8 11 9  0
-    5 0 3  1  12 13 14  0
-    6 5 3  1  15 12 14  0
-    8 9 10  1  16 17 18  0
-    11 8 12  1  19 20 21  0
-    11 12 13  1  19 21 22  0
-    14 13 15  1  23 24 25  0
-    10 12 8  1  18 26 16  0
-    14 11 13  1  23 27 24  0
-    16 17 12  1  28 29 30  0
-    18 19 15  1  29 28 31  0
-    18 15 13  1  29 31 32  0
-    16 12 10  1  28 32 31  0
+    0 1 2 1 0 1 2 0
+    0 2 3 1 0 2 3 0
+    4 5 6 1 4 5 6 0
+    4 6 7 1 4 6 7 0
+    2 6 3 1 8 9 10 0
+    2 7 6 1 8 11 9 0
+    5 0 3 1 12 13 14 0
+    6 5 3 1 15 12 14 0
+    8 9 10 1 16 17 18 0
+    11 8 12 1 19 20 21 0
+    11 12 13 1 19 21 22 0
+    14 13 15 1 23 24 25 0
+    10 12 8 1 18 26 16 0
+    14 11 13 1 23 27 24 0
+    16 17 12 1 28 29 30 0
+    18 19 15 1 29 28 31 0
+    18 15 13 1 29 31 32 0
+    16 12 10 1 28 32 31 0
   tverts 33
     0.56866 0.39701 0
     0.455023 0.39701 0
@@ -2146,8 +2131,8 @@ node trimesh Groups00635
     0.425075 0.000499606 0
     0.425075 0.4334 0
 endnode
-node trimesh Groups00652
-  parent PLC_DD29
+node trimesh groups00652
+  parent plc_dd29
   position 0.7 -3.34877 0.04103
   orientation 0 0 0 0
   wirecolor 0.0273438 0.0273438 0.0273438
@@ -2155,23 +2140,23 @@ node trimesh Groups00652
   diffuse 0.972549 0.972549 0.972549
   specular 0 0 0
   shininess 1
-  bitmap TCN01_cobb03
+  bitmap tcn01_cobb03
   verts 4
     0.5 0.15 0
     -0.7 0.15 0
     -0.7 -0.15 0
     0.5 -0.15 0
   faces 2
-    0 1 2  1  0 1 2  0
-    0 2 3  1  0 2 3  0
+    0 1 2 1 0 1 2 0
+    0 2 3 1 0 2 3 0
   tverts 4
     0.760001 0.64 0
     1 0.64 0
     1 0.7 0
     0.760001 0.7 0
 endnode
-node trimesh Groups00643
-  parent PLC_DD29
+node trimesh groups00643
+  parent plc_dd29
   position -1.55 3.60123 4.60103
   orientation 0 0 0 0
   wirecolor 0.554688 0.554688 0.554688
@@ -2179,9 +2164,9 @@ node trimesh Groups00643
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_glas02
+  bitmap tcn01_glas02
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -2192,16 +2177,16 @@ node trimesh Groups00643
     -0.45 0 0.68
     0.05 0 0.68
   faces 2
-    0 1 2  1  0 1 2  0
-    3 0 2  1  3 0 2  0
+    0 1 2 1 0 1 2 0
+    3 0 2 1 3 0 2 0
   tverts 4
     0.49975 0.000499517 0
     0.999251 0.000499308 0
     0.999251 0.9995 0
     0.49975 0.9995 0
 endnode
-node trimesh Groups00648
-  parent PLC_DD29
+node trimesh groups00648
+  parent plc_dd29
   position -1.45 -0.498771 3.87103
   orientation 0 0 0 0
   wirecolor 0.601563 0.601563 0.601563
@@ -2209,9 +2194,9 @@ node trimesh Groups00648
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_hrdwd01
+  bitmap tcn01_hrdwd01
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -2238,24 +2223,24 @@ node trimesh Groups00648
     0.25 -3.1 1.41
     0.25 -3.1 0.11
   faces 18
-    0 1 2  1  0 1 2  0
-    0 2 3  1  0 2 3  0
-    4 5 6  1  4 5 6  0
-    4 6 7  1  4 6 7  0
-    2 6 3  1  8 9 10  0
-    2 7 6  1  8 11 9  0
-    5 0 3  1  12 13 14  0
-    6 5 3  1  15 12 14  0
-    8 9 10  1  16 17 18  0
-    11 8 12  1  19 20 21  0
-    11 12 13  1  19 21 22  0
-    14 13 15  1  23 24 25  0
-    10 12 8  1  18 26 16  0
-    14 11 13  1  23 27 24  0
-    16 17 12  1  28 29 30  0
-    18 19 15  1  29 28 31  0
-    18 15 13  1  29 31 32  0
-    16 12 10  1  28 32 31  0
+    0 1 2 1 0 1 2 0
+    0 2 3 1 0 2 3 0
+    4 5 6 1 4 5 6 0
+    4 6 7 1 4 6 7 0
+    2 6 3 1 8 9 10 0
+    2 7 6 1 8 11 9 0
+    5 0 3 1 12 13 14 0
+    6 5 3 1 15 12 14 0
+    8 9 10 1 16 17 18 0
+    11 8 12 1 19 20 21 0
+    11 12 13 1 19 21 22 0
+    14 13 15 1 23 24 25 0
+    10 12 8 1 18 26 16 0
+    14 11 13 1 23 27 24 0
+    16 17 12 1 28 29 30 0
+    18 19 15 1 29 28 31 0
+    18 15 13 1 29 31 32 0
+    16 12 10 1 28 32 31 0
   tverts 33
     0.56866 0.39701 0
     0.455023 0.39701 0
@@ -2291,8 +2276,8 @@ node trimesh Groups00648
     0.425075 0.000499606 0
     0.425075 0.4334 0
 endnode
-node trimesh Groups00641
-  parent PLC_DD29
+node trimesh groups00641
+  parent plc_dd29
   position -2 1.70123 0.04103
   orientation 0 0 0 0
   wirecolor 0.601563 0.601563 0.601563
@@ -2300,7 +2285,7 @@ node trimesh Groups00641
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_doorway
+  bitmap tcn01_doorway
   verts 8
     -0.7 1.3 0
     1.3 1.3 0
@@ -2311,14 +2296,14 @@ node trimesh Groups00641
     1.3 -0.7 3
     -0.7 -0.7 3
   faces 8
-    0 1 2  1  0 1 0  0
-    2 1 3  1  0 1 1  0
-    4 5 6  1  2 3 2  0
-    6 5 7  1  2 3 3  0
-    1 4 3  1  1 2 1  0
-    3 4 6  1  1 2 2  0
-    1 5 4  1  4 5 6  0
-    1 0 5  1  4 7 5  0
+    0 1 2 1 0 1 0 0
+    2 1 3 1 0 1 1 0
+    4 5 6 1 2 3 2 0
+    6 5 7 1 2 3 3 0
+    1 4 3 1 1 2 1 0
+    3 4 6 1 1 2 2 0
+    1 5 4 1 4 5 6 0
+    1 0 5 1 4 7 5 0
   tverts 8
     0.0720924 0.539988 0
     0.0720924 0.519899 0
@@ -2329,8 +2314,8 @@ node trimesh Groups00641
     0.000499576 0.5 0
     0.9995 0.9995 0
 endnode
-node trimesh Groups00642
-  parent PLC_DD29
+node trimesh groups00642
+  parent plc_dd29
   position -1.65 -3.59877 4.60103
   orientation 0 0 0 0
   wirecolor 0.339844 0.339844 0.339844
@@ -2338,9 +2323,9 @@ node trimesh Groups00642
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_glas02
+  bitmap tcn01_glas02
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -2351,16 +2336,16 @@ node trimesh Groups00642
     0.45 0 0.68
     -0.05 0 0.68
   faces 2
-    0 1 2  1  0 1 2  0
-    3 0 2  1  3 0 2  0
+    0 1 2 1 0 1 2 0
+    3 0 2 1 3 0 2 0
   tverts 4
     0.49975 0.000499517 0
     0.999251 0.000499308 0
     0.999251 0.9995 0
     0.49975 0.9995 0
 endnode
-node trimesh Groups00625
-  parent PLC_DD29
+node trimesh groups00625
+  parent plc_dd29
   position 2.22 -3.50877 0.30103
   orientation 0 0 0 0
   wirecolor 0.34375 0.34375 0.34375
@@ -2368,9 +2353,9 @@ node trimesh Groups00625
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_grassrim02
+  bitmap tcn01_grassrim02
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 1
   tilefade 0
@@ -2381,16 +2366,16 @@ node trimesh Groups00625
     0.76 0 0.45
     0.76 0 -0.45
   faces 2
-    0 1 2  1  0 1 2  0
-    3 2 1  1  3 2 1  0
+    0 1 2 1 0 1 2 0
+    3 2 1 1 3 2 1 0
   tverts 4
     0 0.5 0
     0 0 0
     1 0.5 0
     1 0 0
 endnode
-node trimesh Groups00644
-  parent PLC_DD29
+node trimesh groups00644
+  parent plc_dd29
   position -3.01 -1.32877 0.46103
   orientation 0 0 0 0
   wirecolor 0.34375 0.34375 0.34375
@@ -2398,9 +2383,9 @@ node trimesh Groups00644
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_grassrim02
+  bitmap tcn01_grassrim02
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 1
   tilefade 0
@@ -2411,16 +2396,16 @@ node trimesh Groups00644
     0 -2.18 0.44
     0 -2.18 -0.44
   faces 2
-    0 1 2  1  0 1 2  0
-    3 2 1  1  3 2 1  0
+    0 1 2 1 0 1 2 0
+    3 2 1 1 3 2 1 0
   tverts 4
-    0 0.5 0
-    0 0 0
-    2 0.5 0
-    2 0 0
+    -1 0.5 0
+    -1 0 0
+    1 0.5 0
+    1 0 0
 endnode
-node trimesh Groups00645
-  parent PLC_DD29
+node trimesh groups00645
+  parent plc_dd29
   position -1.7 -3.49877 0.58103
   orientation 0 0 0 0
   wirecolor 0.839844 0.839844 0.839844
@@ -2428,9 +2413,9 @@ node trimesh Groups00645
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_grassrim02
+  bitmap tcn01_grassrim02
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 1
   tilefade 0
@@ -2441,16 +2426,16 @@ node trimesh Groups00645
     1.34 -0.0100001 0.55
     1.34 -0.0100001 -0.54
   faces 2
-    0 1 2  1  0 1 2  0
-    3 2 1  1  3 2 1  0
+    0 1 2 1 0 1 2 0
+    3 2 1 1 3 2 1 0
   tverts 4
     0 0.5 0
     0 0 0
     1.3 0.5 0
     1.3 0 0
 endnode
-node trimesh Groups00646
-  parent PLC_DD29
+node trimesh groups00646
+  parent plc_dd29
   position -1.62 3.51123 0.27103
   orientation 0 0 0 0
   wirecolor 0.105469 0.105469 0.105469
@@ -2458,9 +2443,9 @@ node trimesh Groups00646
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_grassrim02
+  bitmap tcn01_grassrim02
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 1
   tilefade 0
@@ -2471,16 +2456,16 @@ node trimesh Groups00646
     -1.38 0 0.24
     -1.38 0 -0.23
   faces 2
-    0 1 2  1  0 1 2  0
-    3 2 1  1  3 2 1  0
+    0 1 2 1 0 1 2 0
+    3 2 1 1 3 2 1 0
   tverts 4
-    0 0.5 0
-    0 0 0
-    2 0.5 0
-    2 0 0
+    -1 0.5 0
+    -1 0 0
+    1 0.5 0
+    1 0 0
 endnode
-node trimesh Groups00647
-  parent PLC_DD29
+node trimesh groups00647
+  parent plc_dd29
   position -2.03 3.52123 4.33103
   orientation 0 0 0 0
   wirecolor 0.105469 0.105469 0.105469
@@ -2488,9 +2473,9 @@ node trimesh Groups00647
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_splotch02
+  bitmap tcn01_splotch02
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 1
   tilefade 1
@@ -2501,16 +2486,16 @@ node trimesh Groups00647
     1 -0.00999988 -1
     1 -0.00999988 1
   faces 2
-    0 1 2  1  0 1 2  0
-    3 2 1  1  3 2 1  0
+    0 1 2 1 0 1 2 0
+    3 2 1 1 3 2 1 0
   tverts 4
     0 0.75 0
     0 0.5 0
     0.25 0.75 0
     0.25 0.5 0
 endnode
-node trimesh Groups00612
-  parent PLC_DD29
+node trimesh groups00612
+  parent plc_dd29
   position 3.5 1.92123 5.07103
   orientation 0 0 0 0
   wirecolor 0.652344 0.652344 0.652344
@@ -2518,9 +2503,9 @@ node trimesh Groups00612
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_splotch02
+  bitmap tcn01_splotch02
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 1
   tilefade 1
@@ -2531,16 +2516,16 @@ node trimesh Groups00612
     0.0100002 1.4 1.16
     0.0100002 1.4 -1.14
   faces 2
-    0 1 2  1  0 1 2  0
-    3 2 1  1  3 2 1  0
+    0 1 2 1 0 1 2 0
+    3 2 1 1 3 2 1 0
   tverts 4
     0.5 1 0
     0.5 0.75 0
     0.75 1 0
     0.75 0.75 0
 endnode
-node trimesh Groups00631
-  parent PLC_DD29
+node trimesh groups00631
+  parent plc_dd29
   position -3.51 -2.33877 5.25103
   orientation 0 0 0 0
   wirecolor 0.605469 0.605469 0.605469
@@ -2548,9 +2533,9 @@ node trimesh Groups00631
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_splotch02
+  bitmap tcn01_splotch02
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 1
   tilefade 1
@@ -2561,16 +2546,16 @@ node trimesh Groups00631
     0 -0.62 1
     0 -0.62 -0.99
   faces 2
-    0 1 2  1  0 1 2  0
-    3 2 1  1  3 2 1  0
+    0 1 2 1 0 1 2 0
+    3 2 1 1 3 2 1 0
   tverts 4
     0.25 0.97 0
     0.25 0.51 0
     0.51 0.97 0
     0.51 0.51 0
 endnode
-node trimesh Groups00628
-  parent PLC_DD29
+node trimesh groups00628
+  parent plc_dd29
   position 0.6 -3.83877 0.05103
   orientation 0 0 0 0
   wirecolor 0.605469 0.605469 0.605469
@@ -2578,9 +2563,9 @@ node trimesh Groups00628
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_splotch02
+  bitmap tcn01_splotch02
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 1
   tilefade 0
@@ -2591,16 +2576,16 @@ node trimesh Groups00628
     0.95 0.64 0
     0.95 -0.66 0
   faces 2
-    0 1 2  1  0 1 2  0
-    3 2 1  1  3 2 1  0
+    0 1 2 1 0 1 2 0
+    3 2 1 1 3 2 1 0
   tverts 4
     0.5 0.927536 0
     0.5 0.75 0
     0.75 0.927536 0
     0.75 0.75 0
 endnode
-node trimesh Groups00627
-  parent PLC_DD29
+node trimesh groups00627
+  parent plc_dd29
   position 1.41 3.51123 2.34103
   orientation 0 0 0 0
   wirecolor 0.890625 0.890625 0.890625
@@ -2608,9 +2593,9 @@ node trimesh Groups00627
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_splotch02
+  bitmap tcn01_splotch02
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 1
   tilefade 0
@@ -2621,16 +2606,16 @@ node trimesh Groups00627
     -0.7 0 0.71
     -0.7 0 -0.69
   faces 2
-    0 1 2  1  0 1 2  0
-    3 2 1  1  3 2 1  0
+    0 1 2 1 0 1 2 0
+    3 2 1 1 3 2 1 0
   tverts 4
     0 1 0
     0 0.75 0
     0.25 1 0
     0.25 0.75 0
 endnode
-node trimesh Groups00640
-  parent PLC_DD29
+node trimesh groups00640
+  parent plc_dd29
   position -1.33 3.51123 2.38103
   orientation 0 0 0 0
   wirecolor 0.347656 0.347656 0.347656
@@ -2638,9 +2623,9 @@ node trimesh Groups00640
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_splotch02
+  bitmap tcn01_splotch02
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 1
   tilefade 0
@@ -2651,16 +2636,16 @@ node trimesh Groups00640
     -1.67 0 0.66
     -1.68 0 -0.17
   faces 2
-    0 1 2  1  0 1 2  0
-    3 2 1  1  3 2 1  0
+    0 1 2 1 0 1 2 0
+    3 2 1 1 3 2 1 0
   tverts 4
     0.999501 0.9995 0
     0.878732 0.999501 0
     0.9995 0.500499 0
     0.878731 0.5005 0
 endnode
-node trimesh Groups00623
-  parent PLC_DD29
+node trimesh groups00623
+  parent plc_dd29
   position 0 3.57123 7.89103
   orientation 0 0 0 0
   wirecolor 0.691406 0.691406 0.691406
@@ -2668,9 +2653,9 @@ node trimesh Groups00623
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_splotch02
+  bitmap tcn01_splotch02
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 1
   tilefade 1
@@ -2683,8 +2668,8 @@ node trimesh Groups00623
     2.23 -7.17 -0.85
     0 -7.17 1.15
   faces 2
-    0 1 2  1  0 1 2  0
-    3 4 5  1  3 4 5  0
+    0 1 2 1 0 1 2 0
+    3 4 5 1 3 4 5 0
   tverts 6
     0.90503 0.562211 0
     0.90503 0.959007 0
@@ -2693,8 +2678,8 @@ node trimesh Groups00623
     0.900606 0.949576 0
     1.00012 0.740141 0
 endnode
-node trimesh Groups00619
-  parent PLC_DD29
+node trimesh groups00619
+  parent plc_dd29
   position 1.37 -3.50877 2.38103
   orientation 0 0 0 0
   wirecolor 0.691406 0.691406 0.691406
@@ -2702,9 +2687,9 @@ node trimesh Groups00619
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_splotch02
+  bitmap tcn01_splotch02
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 1
   tilefade 0
@@ -2715,16 +2700,16 @@ node trimesh Groups00619
     1.58 0 0.68
     1.58 0 -0.67
   faces 2
-    0 1 2  1  0 1 2  0
-    3 2 1  1  3 2 1  0
+    0 1 2 1 0 1 2 0
+    3 2 1 1 3 2 1 0
   tverts 4
     0.999501 0.9995 0
     0.890573 0.9995 0
     0.9995 0.514992 0
     0.890573 0.514992 0
 endnode
-node trimesh Groups00637
-  parent PLC_DD29
+node trimesh groups00637
+  parent plc_dd29
   position -3.51 2.06123 5.46103
   orientation 0 0 0 0
   wirecolor 0.113281 0.113281 0.113281
@@ -2732,9 +2717,9 @@ node trimesh Groups00637
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_splotch02
+  bitmap tcn01_splotch02
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 1
   tilefade 1
@@ -2745,16 +2730,16 @@ node trimesh Groups00637
     0 -2.24 0.45
     0 -2.24 -0.43
   faces 2
-    0 1 2  1  0 1 2  0
-    3 2 1  1  3 2 1  0
+    0 1 2 1 0 1 2 0
+    3 2 1 1 3 2 1 0
   tverts 4
     0.9995 0.9995 0
     0.902415 0.9995 0
     0.9995 0.507746 0
     0.902414 0.507746 0
 endnode
-node trimesh Groups00611
-  parent PLC_DD29
+node trimesh groups00611
+  parent plc_dd29
   position 3.01 1.80123 2.43103
   orientation 0 0 0 0
   wirecolor 0.527344 0.527344 0.527344
@@ -2762,9 +2747,9 @@ node trimesh Groups00611
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_splotch02
+  bitmap tcn01_splotch02
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 1
   tilefade 0
@@ -2775,16 +2760,16 @@ node trimesh Groups00611
     0 1.7 0.55
     0 1.7 -0.75
   faces 2
-    0 1 2  1  0 1 2  0
-    3 2 1  1  3 2 1  0
+    0 1 2 1 0 1 2 0
+    3 2 1 1 3 2 1 0
   tverts 4
     0.999501 0.9995 0
     0.886626 0.9995 0
     0.9995 0.502915 0
     0.886625 0.502915 0
 endnode
-node trimesh Groups00606
-  parent PLC_DD29
+node trimesh groups00606
+  parent plc_dd29
   position 3.51 -2.33877 4.71103
   orientation 0 0 0 0
   wirecolor 0.527344 0.527344 0.527344
@@ -2792,9 +2777,9 @@ node trimesh Groups00606
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_splotch02
+  bitmap tcn01_splotch02
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 1
   tilefade 1
@@ -2805,1228 +2790,1234 @@ node trimesh Groups00606
     0 -1.09 -0.7
     0 -0.29 1.27
   faces 2
-    0 1 2  1  0 1 2  0
-    3 2 1  1  3 2 1  0
+    0 1 2 1 0 1 2 0
+    3 2 1 1 3 2 1 0
   tverts 4
     0.25 1 0
     0.25 0.5 0
     0.5 1 0
     0.5 0.5 0
 endnode
-endmodelgeom PLC_DD29
+endmodelgeom plc_dd29
 
 #MAXANIM ASCII
-newanim animloop01 PLC_DD29
+newanim animloop01 plc_dd29
   length 0.0333333
   transtime 0
-  animroot PLC_DD29
-node dummy PLC_DD29
-  parent NULL
-endnode
-node dummy TCN01_S05_01_D01
-  parent PLC_DD29
-endnode
-node light TCN01_S05_01ml2
-  parent PLC_DD29
-endnode
-node light TCN01_S05_01ml1
-  parent PLC_DD29
-endnode
-node dummy TCN01_S05_01a
-  parent PLC_DD29
-endnode
-node light L_dayN27
-  parent TCN01_S05_01a
-endnode
-node emitter OmenEmitter48
-  parent TCN01_S05_01a
+  animroot plc_dd29
+  node dummy plc_dd29
+    parent NULL
+  endnode
+  node dummy box01
+    parent plc_dd29
+    #part-number -1
+  endnode
+  node dummy tcn01_s05_01_d01
+    parent plc_dd29
+  endnode
+  node light tcn01_s05_01ml2
+    parent plc_dd29
+  endnode
+  node light tcn01_s05_01ml1
+    parent plc_dd29
+  endnode
+  node dummy tcn01_s05_01a
+    parent plc_dd29
+  endnode
+  node light l_dayn27
+    parent tcn01_s05_01a
+  endnode
+  node light l_dayn26
+    parent tcn01_s05_01a
+  endnode
+  node dummy groups00609
+    parent tcn01_s05_01a
+  endnode
+  node dummy groups00610
+    parent tcn01_s05_01a
+  endnode
+  node dummy groups00654
+    parent tcn01_s05_01a
+  endnode
+  node emitter omenemitter48
+    parent tcn01_s05_01a
     birthratekey
-      0  20
-      0.0333333  20
+      0 20
+      0.0333333 20
     endlist
-endnode
-node light L_dayN26
-  parent TCN01_S05_01a
-endnode
-node trimesh Groups00609
-  parent TCN01_S05_01a
-endnode
-node trimesh Groups00610
-  parent TCN01_S05_01a
-endnode
-node trimesh Groups00654
-  parent TCN01_S05_01a
-endnode
-node trimesh Groups4128
-  parent TCN01_S05_01a
-endnode
-node trimesh Groups4129
-  parent TCN01_S05_01a
-endnode
-node trimesh Groups4127
-  parent TCN01_S05_01a
-endnode
-node trimesh Groups00608
-  parent PLC_DD29
-endnode
-node trimesh Groups00607
-  parent PLC_DD29
-endnode
-node trimesh Groups00632
-  parent PLC_DD29
-endnode
-node trimesh Groups00613
-  parent PLC_DD29
-endnode
-node trimesh Groups00614
-  parent PLC_DD29
-endnode
-node trimesh Groups00615
-  parent PLC_DD29
-endnode
-node trimesh Groups00616
-  parent PLC_DD29
-endnode
-node trimesh Groups00617
-  parent PLC_DD29
-endnode
-node trimesh Groups00618
-  parent PLC_DD29
-endnode
-node trimesh Groups00636
-  parent PLC_DD29
-endnode
-node trimesh Groups00620
-  parent PLC_DD29
-endnode
-node trimesh Groups00621
-  parent PLC_DD29
-endnode
-node trimesh Groups00622
-  parent PLC_DD29
-endnode
-node trimesh Line230
-  parent PLC_DD29
-endnode
-node trimesh Groups00624
-  parent PLC_DD29
-endnode
-node trimesh Groups00653
-  parent PLC_DD29
-endnode
-node trimesh Groups00639
-  parent PLC_DD29
-endnode
-node trimesh Groups00651
-  parent PLC_DD29
-endnode
-node trimesh Groups00629
-  parent PLC_DD29
-endnode
-node trimesh Groups00630
-  parent PLC_DD29
-endnode
-node trimesh Groups00650
-  parent PLC_DD29
-endnode
-node trimesh Groups00649
-  parent PLC_DD29
-endnode
-node trimesh Groups00633
-  parent PLC_DD29
-endnode
-node trimesh Groups00634
-  parent PLC_DD29
-endnode
-node trimesh Groups00635
-  parent PLC_DD29
-endnode
-node trimesh Groups00652
-  parent PLC_DD29
-endnode
-node trimesh Groups00643
-  parent PLC_DD29
-endnode
-node trimesh Groups00648
-  parent PLC_DD29
-endnode
-node trimesh Groups00641
-  parent PLC_DD29
-endnode
-node trimesh Groups00642
-  parent PLC_DD29
-endnode
-node trimesh Groups00625
-  parent PLC_DD29
-endnode
-node trimesh Groups00644
-  parent PLC_DD29
-endnode
-node trimesh Groups00645
-  parent PLC_DD29
-endnode
-node trimesh Groups00646
-  parent PLC_DD29
-endnode
-node trimesh Groups00647
-  parent PLC_DD29
-endnode
-node trimesh Groups00612
-  parent PLC_DD29
-endnode
-node trimesh Groups00631
-  parent PLC_DD29
-endnode
-node trimesh Groups00628
-  parent PLC_DD29
-endnode
-node trimesh Groups00627
-  parent PLC_DD29
-endnode
-node trimesh Groups00640
-  parent PLC_DD29
-endnode
-node trimesh Groups00623
-  parent PLC_DD29
-endnode
-node trimesh Groups00619
-  parent PLC_DD29
-endnode
-node trimesh Groups00637
-  parent PLC_DD29
-endnode
-node trimesh Groups00611
-  parent PLC_DD29
-endnode
-node trimesh Groups00606
-  parent PLC_DD29
-endnode
-node trimesh Box01
-  parent PLC_DD29
-endnode
-doneanim animloop01 PLC_DD29
+  endnode
+  node dummy groups4128
+    parent tcn01_s05_01a
+  endnode
+  node dummy groups4129
+    parent tcn01_s05_01a
+  endnode
+  node dummy groups4127
+    parent tcn01_s05_01a
+  endnode
+  node dummy groups00608
+    parent plc_dd29
+  endnode
+  node dummy groups00607
+    parent plc_dd29
+  endnode
+  node dummy groups00632
+    parent plc_dd29
+  endnode
+  node dummy groups00613
+    parent plc_dd29
+  endnode
+  node dummy groups00614
+    parent plc_dd29
+  endnode
+  node dummy groups00615
+    parent plc_dd29
+  endnode
+  node dummy groups00616
+    parent plc_dd29
+  endnode
+  node dummy groups00617
+    parent plc_dd29
+  endnode
+  node dummy groups00618
+    parent plc_dd29
+  endnode
+  node dummy groups00636
+    parent plc_dd29
+  endnode
+  node dummy groups00620
+    parent plc_dd29
+  endnode
+  node dummy groups00621
+    parent plc_dd29
+  endnode
+  node dummy groups00622
+    parent plc_dd29
+  endnode
+  node dummy line230
+    parent plc_dd29
+  endnode
+  node dummy groups00624
+    parent plc_dd29
+  endnode
+  node dummy groups00653
+    parent plc_dd29
+  endnode
+  node dummy groups00639
+    parent plc_dd29
+  endnode
+  node dummy groups00651
+    parent plc_dd29
+  endnode
+  node dummy groups00629
+    parent plc_dd29
+  endnode
+  node dummy groups00630
+    parent plc_dd29
+  endnode
+  node dummy groups00650
+    parent plc_dd29
+  endnode
+  node dummy groups00649
+    parent plc_dd29
+  endnode
+  node dummy groups00633
+    parent plc_dd29
+  endnode
+  node dummy groups00634
+    parent plc_dd29
+  endnode
+  node dummy groups00635
+    parent plc_dd29
+  endnode
+  node dummy groups00652
+    parent plc_dd29
+  endnode
+  node dummy groups00643
+    parent plc_dd29
+  endnode
+  node dummy groups00648
+    parent plc_dd29
+  endnode
+  node dummy groups00641
+    parent plc_dd29
+  endnode
+  node dummy groups00642
+    parent plc_dd29
+  endnode
+  node dummy groups00625
+    parent plc_dd29
+  endnode
+  node dummy groups00644
+    parent plc_dd29
+  endnode
+  node dummy groups00645
+    parent plc_dd29
+  endnode
+  node dummy groups00646
+    parent plc_dd29
+  endnode
+  node dummy groups00647
+    parent plc_dd29
+  endnode
+  node dummy groups00612
+    parent plc_dd29
+  endnode
+  node dummy groups00631
+    parent plc_dd29
+  endnode
+  node dummy groups00628
+    parent plc_dd29
+  endnode
+  node dummy groups00627
+    parent plc_dd29
+  endnode
+  node dummy groups00640
+    parent plc_dd29
+  endnode
+  node dummy groups00623
+    parent plc_dd29
+  endnode
+  node dummy groups00619
+    parent plc_dd29
+  endnode
+  node dummy groups00637
+    parent plc_dd29
+  endnode
+  node dummy groups00611
+    parent plc_dd29
+  endnode
+  node dummy groups00606
+    parent plc_dd29
+  endnode
+doneanim animloop01 plc_dd29
 
 #MAXANIM ASCII
-newanim Day PLC_DD29
+newanim day plc_dd29
   length 0.3
   transtime 0.25
-  animroot PLC_DD29
-node dummy PLC_DD29
-  parent NULL
-endnode
-node dummy TCN01_S05_01_D01
-  parent PLC_DD29
-endnode
-node light TCN01_S05_01ml2
-  parent PLC_DD29
-endnode
-node light TCN01_S05_01ml1
-  parent PLC_DD29
-endnode
-node dummy TCN01_S05_01a
-  parent PLC_DD29
-endnode
-node light L_dayN27
-  parent TCN01_S05_01a
+  animroot plc_dd29
+  node dummy plc_dd29
+    parent NULL
+  endnode
+  node dummy box01
+    parent plc_dd29
+    #part-number -1
+  endnode
+  node dummy tcn01_s05_01_d01
+    parent plc_dd29
+  endnode
+  node light tcn01_s05_01ml2
+    parent plc_dd29
+  endnode
+  node light tcn01_s05_01ml1
+    parent plc_dd29
+  endnode
+  node dummy tcn01_s05_01a
+    parent plc_dd29
+  endnode
+  node light l_dayn27
+    parent tcn01_s05_01a
     colorkey
-      0  0 0 0
-      0.3  0 0 0
+      0 0 0 0
+      0.3 0 0 0
     endlist
-endnode
-node emitter OmenEmitter48
-  parent TCN01_S05_01a
-endnode
-node light L_dayN26
-  parent TCN01_S05_01a
+  endnode
+  node light l_dayn26
+    parent tcn01_s05_01a
     colorkey
-      0  0 0 0
-      0.3  0 0 0
+      0 0 0 0
+      0.3 0 0 0
     endlist
-endnode
-node trimesh Groups00609
-  parent TCN01_S05_01a
-endnode
-node trimesh Groups00610
-  parent TCN01_S05_01a
-endnode
-node trimesh Groups00654
-  parent TCN01_S05_01a
-endnode
-node trimesh Groups4128
-  parent TCN01_S05_01a
+  endnode
+  node dummy groups00609
+    parent tcn01_s05_01a
+  endnode
+  node dummy groups00610
+    parent tcn01_s05_01a
+  endnode
+  node dummy groups00654
+    parent tcn01_s05_01a
+  endnode
+  node emitter omenemitter48
+    parent tcn01_s05_01a
+  endnode
+  node trimesh groups4128
+    parent tcn01_s05_01a
     alphakey
-      0  1
-      0.3  1
+      0 1
+      0.3 1
     endlist
-endnode
-node trimesh Groups4129
-  parent TCN01_S05_01a
+  endnode
+  node trimesh groups4129
+    parent tcn01_s05_01a
     alphakey
-      0  1
-      0.3  1
+      0 1
+      0.3 1
     endlist
-endnode
-node trimesh Groups4127
-  parent TCN01_S05_01a
+  endnode
+  node trimesh groups4127
+    parent tcn01_s05_01a
     alphakey
-      0  1
-      0.3  1
+      0 1
+      0.3 1
     endlist
-endnode
-node trimesh Groups00608
-  parent PLC_DD29
-endnode
-node trimesh Groups00607
-  parent PLC_DD29
-endnode
-node trimesh Groups00632
-  parent PLC_DD29
-endnode
-node trimesh Groups00613
-  parent PLC_DD29
-endnode
-node trimesh Groups00614
-  parent PLC_DD29
-endnode
-node trimesh Groups00615
-  parent PLC_DD29
-endnode
-node trimesh Groups00616
-  parent PLC_DD29
-endnode
-node trimesh Groups00617
-  parent PLC_DD29
-endnode
-node trimesh Groups00618
-  parent PLC_DD29
-endnode
-node trimesh Groups00636
-  parent PLC_DD29
-endnode
-node trimesh Groups00620
-  parent PLC_DD29
-endnode
-node trimesh Groups00621
-  parent PLC_DD29
-endnode
-node trimesh Groups00622
-  parent PLC_DD29
-endnode
-node trimesh Line230
-  parent PLC_DD29
-endnode
-node trimesh Groups00624
-  parent PLC_DD29
-endnode
-node trimesh Groups00653
-  parent PLC_DD29
-endnode
-node trimesh Groups00639
-  parent PLC_DD29
-endnode
-node trimesh Groups00651
-  parent PLC_DD29
-endnode
-node trimesh Groups00629
-  parent PLC_DD29
-endnode
-node trimesh Groups00630
-  parent PLC_DD29
-endnode
-node trimesh Groups00650
-  parent PLC_DD29
-endnode
-node trimesh Groups00649
-  parent PLC_DD29
-endnode
-node trimesh Groups00633
-  parent PLC_DD29
-endnode
-node trimesh Groups00634
-  parent PLC_DD29
-endnode
-node trimesh Groups00635
-  parent PLC_DD29
-endnode
-node trimesh Groups00652
-  parent PLC_DD29
-endnode
-node trimesh Groups00643
-  parent PLC_DD29
-endnode
-node trimesh Groups00648
-  parent PLC_DD29
-endnode
-node trimesh Groups00641
-  parent PLC_DD29
-endnode
-node trimesh Groups00642
-  parent PLC_DD29
-endnode
-node trimesh Groups00625
-  parent PLC_DD29
-endnode
-node trimesh Groups00644
-  parent PLC_DD29
-endnode
-node trimesh Groups00645
-  parent PLC_DD29
-endnode
-node trimesh Groups00646
-  parent PLC_DD29
-endnode
-node trimesh Groups00647
-  parent PLC_DD29
-endnode
-node trimesh Groups00612
-  parent PLC_DD29
-endnode
-node trimesh Groups00631
-  parent PLC_DD29
-endnode
-node trimesh Groups00628
-  parent PLC_DD29
-endnode
-node trimesh Groups00627
-  parent PLC_DD29
-endnode
-node trimesh Groups00640
-  parent PLC_DD29
-endnode
-node trimesh Groups00623
-  parent PLC_DD29
-endnode
-node trimesh Groups00619
-  parent PLC_DD29
-endnode
-node trimesh Groups00637
-  parent PLC_DD29
-endnode
-node trimesh Groups00611
-  parent PLC_DD29
-endnode
-node trimesh Groups00606
-  parent PLC_DD29
-endnode
-node trimesh Box01
-  parent PLC_DD29
-endnode
-doneanim Day PLC_DD29
+  endnode
+  node dummy groups00608
+    parent plc_dd29
+  endnode
+  node dummy groups00607
+    parent plc_dd29
+  endnode
+  node dummy groups00632
+    parent plc_dd29
+  endnode
+  node dummy groups00613
+    parent plc_dd29
+  endnode
+  node dummy groups00614
+    parent plc_dd29
+  endnode
+  node dummy groups00615
+    parent plc_dd29
+  endnode
+  node dummy groups00616
+    parent plc_dd29
+  endnode
+  node dummy groups00617
+    parent plc_dd29
+  endnode
+  node dummy groups00618
+    parent plc_dd29
+  endnode
+  node dummy groups00636
+    parent plc_dd29
+  endnode
+  node dummy groups00620
+    parent plc_dd29
+  endnode
+  node dummy groups00621
+    parent plc_dd29
+  endnode
+  node dummy groups00622
+    parent plc_dd29
+  endnode
+  node dummy line230
+    parent plc_dd29
+  endnode
+  node dummy groups00624
+    parent plc_dd29
+  endnode
+  node dummy groups00653
+    parent plc_dd29
+  endnode
+  node dummy groups00639
+    parent plc_dd29
+  endnode
+  node dummy groups00651
+    parent plc_dd29
+  endnode
+  node dummy groups00629
+    parent plc_dd29
+  endnode
+  node dummy groups00630
+    parent plc_dd29
+  endnode
+  node dummy groups00650
+    parent plc_dd29
+  endnode
+  node dummy groups00649
+    parent plc_dd29
+  endnode
+  node dummy groups00633
+    parent plc_dd29
+  endnode
+  node dummy groups00634
+    parent plc_dd29
+  endnode
+  node dummy groups00635
+    parent plc_dd29
+  endnode
+  node dummy groups00652
+    parent plc_dd29
+  endnode
+  node dummy groups00643
+    parent plc_dd29
+  endnode
+  node dummy groups00648
+    parent plc_dd29
+  endnode
+  node dummy groups00641
+    parent plc_dd29
+  endnode
+  node dummy groups00642
+    parent plc_dd29
+  endnode
+  node dummy groups00625
+    parent plc_dd29
+  endnode
+  node dummy groups00644
+    parent plc_dd29
+  endnode
+  node dummy groups00645
+    parent plc_dd29
+  endnode
+  node dummy groups00646
+    parent plc_dd29
+  endnode
+  node dummy groups00647
+    parent plc_dd29
+  endnode
+  node dummy groups00612
+    parent plc_dd29
+  endnode
+  node dummy groups00631
+    parent plc_dd29
+  endnode
+  node dummy groups00628
+    parent plc_dd29
+  endnode
+  node dummy groups00627
+    parent plc_dd29
+  endnode
+  node dummy groups00640
+    parent plc_dd29
+  endnode
+  node dummy groups00623
+    parent plc_dd29
+  endnode
+  node dummy groups00619
+    parent plc_dd29
+  endnode
+  node dummy groups00637
+    parent plc_dd29
+  endnode
+  node dummy groups00611
+    parent plc_dd29
+  endnode
+  node dummy groups00606
+    parent plc_dd29
+  endnode
+doneanim day plc_dd29
 
 #MAXANIM ASCII
-newanim Night PLC_DD29
+newanim day2night plc_dd29
+  length 0.0333333
+  transtime 0.25
+  animroot plc_dd29
+  node dummy plc_dd29
+    parent NULL
+  endnode
+  node dummy box01
+    parent plc_dd29
+    #part-number -1
+  endnode
+  node dummy tcn01_s05_01_d01
+    parent plc_dd29
+  endnode
+  node light tcn01_s05_01ml2
+    parent plc_dd29
+  endnode
+  node light tcn01_s05_01ml1
+    parent plc_dd29
+  endnode
+  node dummy tcn01_s05_01a
+    parent plc_dd29
+  endnode
+  node light l_dayn27
+    parent tcn01_s05_01a
+    colorkey
+      0 0 0 0
+      0.0333333 1 0.431373 0
+    endlist
+  endnode
+  node light l_dayn26
+    parent tcn01_s05_01a
+    colorkey
+      0 0 0 0
+      0.0333333 1 0.431373 0
+    endlist
+  endnode
+  node dummy groups00609
+    parent tcn01_s05_01a
+  endnode
+  node dummy groups00610
+    parent tcn01_s05_01a
+  endnode
+  node dummy groups00654
+    parent tcn01_s05_01a
+  endnode
+  node emitter omenemitter48
+    parent tcn01_s05_01a
+  endnode
+  node trimesh groups4128
+    parent tcn01_s05_01a
+    alphakey
+      0 1
+      0.0333333 0
+    endlist
+  endnode
+  node trimesh groups4129
+    parent tcn01_s05_01a
+    alphakey
+      0 1
+      0.0333333 0
+    endlist
+  endnode
+  node trimesh groups4127
+    parent tcn01_s05_01a
+    alphakey
+      0 1
+      0.0333333 0
+    endlist
+  endnode
+  node dummy groups00608
+    parent plc_dd29
+  endnode
+  node dummy groups00607
+    parent plc_dd29
+  endnode
+  node dummy groups00632
+    parent plc_dd29
+  endnode
+  node dummy groups00613
+    parent plc_dd29
+  endnode
+  node dummy groups00614
+    parent plc_dd29
+  endnode
+  node dummy groups00615
+    parent plc_dd29
+  endnode
+  node dummy groups00616
+    parent plc_dd29
+  endnode
+  node dummy groups00617
+    parent plc_dd29
+  endnode
+  node dummy groups00618
+    parent plc_dd29
+  endnode
+  node dummy groups00636
+    parent plc_dd29
+  endnode
+  node dummy groups00620
+    parent plc_dd29
+  endnode
+  node dummy groups00621
+    parent plc_dd29
+  endnode
+  node dummy groups00622
+    parent plc_dd29
+  endnode
+  node dummy line230
+    parent plc_dd29
+  endnode
+  node dummy groups00624
+    parent plc_dd29
+  endnode
+  node dummy groups00653
+    parent plc_dd29
+  endnode
+  node dummy groups00639
+    parent plc_dd29
+  endnode
+  node dummy groups00651
+    parent plc_dd29
+  endnode
+  node dummy groups00629
+    parent plc_dd29
+  endnode
+  node dummy groups00630
+    parent plc_dd29
+  endnode
+  node dummy groups00650
+    parent plc_dd29
+  endnode
+  node dummy groups00649
+    parent plc_dd29
+  endnode
+  node dummy groups00633
+    parent plc_dd29
+  endnode
+  node dummy groups00634
+    parent plc_dd29
+  endnode
+  node dummy groups00635
+    parent plc_dd29
+  endnode
+  node dummy groups00652
+    parent plc_dd29
+  endnode
+  node dummy groups00643
+    parent plc_dd29
+  endnode
+  node dummy groups00648
+    parent plc_dd29
+  endnode
+  node dummy groups00641
+    parent plc_dd29
+  endnode
+  node dummy groups00642
+    parent plc_dd29
+  endnode
+  node dummy groups00625
+    parent plc_dd29
+  endnode
+  node dummy groups00644
+    parent plc_dd29
+  endnode
+  node dummy groups00645
+    parent plc_dd29
+  endnode
+  node dummy groups00646
+    parent plc_dd29
+  endnode
+  node dummy groups00647
+    parent plc_dd29
+  endnode
+  node dummy groups00612
+    parent plc_dd29
+  endnode
+  node dummy groups00631
+    parent plc_dd29
+  endnode
+  node dummy groups00628
+    parent plc_dd29
+  endnode
+  node dummy groups00627
+    parent plc_dd29
+  endnode
+  node dummy groups00640
+    parent plc_dd29
+  endnode
+  node dummy groups00623
+    parent plc_dd29
+  endnode
+  node dummy groups00619
+    parent plc_dd29
+  endnode
+  node dummy groups00637
+    parent plc_dd29
+  endnode
+  node dummy groups00611
+    parent plc_dd29
+  endnode
+  node dummy groups00606
+    parent plc_dd29
+  endnode
+doneanim day2night plc_dd29
+
+#MAXANIM ASCII
+newanim night plc_dd29
   length 0.3
   transtime 0.25
-  animroot PLC_DD29
-node dummy PLC_DD29
-  parent NULL
-endnode
-node dummy TCN01_S05_01_D01
-  parent PLC_DD29
-endnode
-node light TCN01_S05_01ml2
-  parent PLC_DD29
-endnode
-node light TCN01_S05_01ml1
-  parent PLC_DD29
-endnode
-node dummy TCN01_S05_01a
-  parent PLC_DD29
-endnode
-node light L_dayN27
-  parent TCN01_S05_01a
+  animroot plc_dd29
+  node dummy plc_dd29
+    parent NULL
+  endnode
+  node dummy box01
+    parent plc_dd29
+    #part-number -1
+  endnode
+  node dummy tcn01_s05_01_d01
+    parent plc_dd29
+  endnode
+  node light tcn01_s05_01ml2
+    parent plc_dd29
+  endnode
+  node light tcn01_s05_01ml1
+    parent plc_dd29
+  endnode
+  node dummy tcn01_s05_01a
+    parent plc_dd29
+  endnode
+  node light l_dayn27
+    parent tcn01_s05_01a
     colorkey
-      0  1 0.431373 0
-      0.3  1 0.431373 0
+      0 1 0.431373 0
+      0.3 1 0.431373 0
     endlist
-endnode
-node emitter OmenEmitter48
-  parent TCN01_S05_01a
-endnode
-node light L_dayN26
-  parent TCN01_S05_01a
+  endnode
+  node light l_dayn26
+    parent tcn01_s05_01a
     colorkey
-      0  1 0.431373 0
-      0.3  1 0.431373 0
+      0 1 0.431373 0
+      0.3 1 0.431373 0
     endlist
-endnode
-node trimesh Groups00609
-  parent TCN01_S05_01a
-endnode
-node trimesh Groups00610
-  parent TCN01_S05_01a
-endnode
-node trimesh Groups00654
-  parent TCN01_S05_01a
-endnode
-node trimesh Groups4128
-  parent TCN01_S05_01a
+  endnode
+  node dummy groups00609
+    parent tcn01_s05_01a
+  endnode
+  node dummy groups00610
+    parent tcn01_s05_01a
+  endnode
+  node dummy groups00654
+    parent tcn01_s05_01a
+  endnode
+  node emitter omenemitter48
+    parent tcn01_s05_01a
+  endnode
+  node trimesh groups4128
+    parent tcn01_s05_01a
     alphakey
-      0  0
-      0.3  0
+      0 0
+      0.3 0
     endlist
-endnode
-node trimesh Groups4129
-  parent TCN01_S05_01a
+  endnode
+  node trimesh groups4129
+    parent tcn01_s05_01a
     alphakey
-      0  0
-      0.3  0
+      0 0
+      0.3 0
     endlist
-endnode
-node trimesh Groups4127
-  parent TCN01_S05_01a
+  endnode
+  node trimesh groups4127
+    parent tcn01_s05_01a
     alphakey
-      0  0
-      0.3  0
+      0 0
+      0.3 0
     endlist
-endnode
-node trimesh Groups00608
-  parent PLC_DD29
-endnode
-node trimesh Groups00607
-  parent PLC_DD29
-endnode
-node trimesh Groups00632
-  parent PLC_DD29
-endnode
-node trimesh Groups00613
-  parent PLC_DD29
-endnode
-node trimesh Groups00614
-  parent PLC_DD29
-endnode
-node trimesh Groups00615
-  parent PLC_DD29
-endnode
-node trimesh Groups00616
-  parent PLC_DD29
-endnode
-node trimesh Groups00617
-  parent PLC_DD29
-endnode
-node trimesh Groups00618
-  parent PLC_DD29
-endnode
-node trimesh Groups00636
-  parent PLC_DD29
-endnode
-node trimesh Groups00620
-  parent PLC_DD29
-endnode
-node trimesh Groups00621
-  parent PLC_DD29
-endnode
-node trimesh Groups00622
-  parent PLC_DD29
-endnode
-node trimesh Line230
-  parent PLC_DD29
-endnode
-node trimesh Groups00624
-  parent PLC_DD29
-endnode
-node trimesh Groups00653
-  parent PLC_DD29
-endnode
-node trimesh Groups00639
-  parent PLC_DD29
-endnode
-node trimesh Groups00651
-  parent PLC_DD29
-endnode
-node trimesh Groups00629
-  parent PLC_DD29
-endnode
-node trimesh Groups00630
-  parent PLC_DD29
-endnode
-node trimesh Groups00650
-  parent PLC_DD29
-endnode
-node trimesh Groups00649
-  parent PLC_DD29
-endnode
-node trimesh Groups00633
-  parent PLC_DD29
-endnode
-node trimesh Groups00634
-  parent PLC_DD29
-endnode
-node trimesh Groups00635
-  parent PLC_DD29
-endnode
-node trimesh Groups00652
-  parent PLC_DD29
-endnode
-node trimesh Groups00643
-  parent PLC_DD29
-endnode
-node trimesh Groups00648
-  parent PLC_DD29
-endnode
-node trimesh Groups00641
-  parent PLC_DD29
-endnode
-node trimesh Groups00642
-  parent PLC_DD29
-endnode
-node trimesh Groups00625
-  parent PLC_DD29
-endnode
-node trimesh Groups00644
-  parent PLC_DD29
-endnode
-node trimesh Groups00645
-  parent PLC_DD29
-endnode
-node trimesh Groups00646
-  parent PLC_DD29
-endnode
-node trimesh Groups00647
-  parent PLC_DD29
-endnode
-node trimesh Groups00612
-  parent PLC_DD29
-endnode
-node trimesh Groups00631
-  parent PLC_DD29
-endnode
-node trimesh Groups00628
-  parent PLC_DD29
-endnode
-node trimesh Groups00627
-  parent PLC_DD29
-endnode
-node trimesh Groups00640
-  parent PLC_DD29
-endnode
-node trimesh Groups00623
-  parent PLC_DD29
-endnode
-node trimesh Groups00619
-  parent PLC_DD29
-endnode
-node trimesh Groups00637
-  parent PLC_DD29
-endnode
-node trimesh Groups00611
-  parent PLC_DD29
-endnode
-node trimesh Groups00606
-  parent PLC_DD29
-endnode
-node trimesh Box01
-  parent PLC_DD29
-endnode
-doneanim Night PLC_DD29
+  endnode
+  node dummy groups00608
+    parent plc_dd29
+  endnode
+  node dummy groups00607
+    parent plc_dd29
+  endnode
+  node dummy groups00632
+    parent plc_dd29
+  endnode
+  node dummy groups00613
+    parent plc_dd29
+  endnode
+  node dummy groups00614
+    parent plc_dd29
+  endnode
+  node dummy groups00615
+    parent plc_dd29
+  endnode
+  node dummy groups00616
+    parent plc_dd29
+  endnode
+  node dummy groups00617
+    parent plc_dd29
+  endnode
+  node dummy groups00618
+    parent plc_dd29
+  endnode
+  node dummy groups00636
+    parent plc_dd29
+  endnode
+  node dummy groups00620
+    parent plc_dd29
+  endnode
+  node dummy groups00621
+    parent plc_dd29
+  endnode
+  node dummy groups00622
+    parent plc_dd29
+  endnode
+  node dummy line230
+    parent plc_dd29
+  endnode
+  node dummy groups00624
+    parent plc_dd29
+  endnode
+  node dummy groups00653
+    parent plc_dd29
+  endnode
+  node dummy groups00639
+    parent plc_dd29
+  endnode
+  node dummy groups00651
+    parent plc_dd29
+  endnode
+  node dummy groups00629
+    parent plc_dd29
+  endnode
+  node dummy groups00630
+    parent plc_dd29
+  endnode
+  node dummy groups00650
+    parent plc_dd29
+  endnode
+  node dummy groups00649
+    parent plc_dd29
+  endnode
+  node dummy groups00633
+    parent plc_dd29
+  endnode
+  node dummy groups00634
+    parent plc_dd29
+  endnode
+  node dummy groups00635
+    parent plc_dd29
+  endnode
+  node dummy groups00652
+    parent plc_dd29
+  endnode
+  node dummy groups00643
+    parent plc_dd29
+  endnode
+  node dummy groups00648
+    parent plc_dd29
+  endnode
+  node dummy groups00641
+    parent plc_dd29
+  endnode
+  node dummy groups00642
+    parent plc_dd29
+  endnode
+  node dummy groups00625
+    parent plc_dd29
+  endnode
+  node dummy groups00644
+    parent plc_dd29
+  endnode
+  node dummy groups00645
+    parent plc_dd29
+  endnode
+  node dummy groups00646
+    parent plc_dd29
+  endnode
+  node dummy groups00647
+    parent plc_dd29
+  endnode
+  node dummy groups00612
+    parent plc_dd29
+  endnode
+  node dummy groups00631
+    parent plc_dd29
+  endnode
+  node dummy groups00628
+    parent plc_dd29
+  endnode
+  node dummy groups00627
+    parent plc_dd29
+  endnode
+  node dummy groups00640
+    parent plc_dd29
+  endnode
+  node dummy groups00623
+    parent plc_dd29
+  endnode
+  node dummy groups00619
+    parent plc_dd29
+  endnode
+  node dummy groups00637
+    parent plc_dd29
+  endnode
+  node dummy groups00611
+    parent plc_dd29
+  endnode
+  node dummy groups00606
+    parent plc_dd29
+  endnode
+doneanim night plc_dd29
 
 #MAXANIM ASCII
-newanim Day2Night PLC_DD29
+newanim night2day plc_dd29
   length 0.0333333
   transtime 0.25
-  animroot PLC_DD29
-node dummy PLC_DD29
-  parent NULL
-endnode
-node dummy TCN01_S05_01_D01
-  parent PLC_DD29
-endnode
-node light TCN01_S05_01ml2
-  parent PLC_DD29
-endnode
-node light TCN01_S05_01ml1
-  parent PLC_DD29
-endnode
-node dummy TCN01_S05_01a
-  parent PLC_DD29
-endnode
-node light L_dayN27
-  parent TCN01_S05_01a
+  animroot plc_dd29
+  node dummy plc_dd29
+    parent NULL
+  endnode
+  node dummy box01
+    parent plc_dd29
+    #part-number -1
+  endnode
+  node dummy tcn01_s05_01_d01
+    parent plc_dd29
+  endnode
+  node light tcn01_s05_01ml2
+    parent plc_dd29
+  endnode
+  node light tcn01_s05_01ml1
+    parent plc_dd29
+  endnode
+  node dummy tcn01_s05_01a
+    parent plc_dd29
+  endnode
+  node light l_dayn27
+    parent tcn01_s05_01a
     colorkey
-      0  0 0 0
-      0.0333333  1 0.431373 0
+      0 1 0.431373 0
+      0.0333333 0 0 0
     endlist
-endnode
-node emitter OmenEmitter48
-  parent TCN01_S05_01a
-endnode
-node light L_dayN26
-  parent TCN01_S05_01a
+  endnode
+  node light l_dayn26
+    parent tcn01_s05_01a
     colorkey
-      0  0 0 0
-      0.0333333  1 0.431373 0
+      0 1 0.431373 0
+      0.0333333 0 0 0
     endlist
-endnode
-node trimesh Groups00609
-  parent TCN01_S05_01a
-endnode
-node trimesh Groups00610
-  parent TCN01_S05_01a
-endnode
-node trimesh Groups00654
-  parent TCN01_S05_01a
-endnode
-node trimesh Groups4128
-  parent TCN01_S05_01a
+  endnode
+  node dummy groups00609
+    parent tcn01_s05_01a
+  endnode
+  node dummy groups00610
+    parent tcn01_s05_01a
+  endnode
+  node dummy groups00654
+    parent tcn01_s05_01a
+  endnode
+  node emitter omenemitter48
+    parent tcn01_s05_01a
+  endnode
+  node trimesh groups4128
+    parent tcn01_s05_01a
     alphakey
-      0  1
-      0.0333333  0
+      0 0
+      0.0333333 1
     endlist
-endnode
-node trimesh Groups4129
-  parent TCN01_S05_01a
+  endnode
+  node trimesh groups4129
+    parent tcn01_s05_01a
     alphakey
-      0  1
-      0.0333333  0
+      0 0
+      0.0333333 1
     endlist
-endnode
-node trimesh Groups4127
-  parent TCN01_S05_01a
+  endnode
+  node trimesh groups4127
+    parent tcn01_s05_01a
     alphakey
-      0  1
-      0.0333333  0
+      0 0
+      0.0333333 1
     endlist
-endnode
-node trimesh Groups00608
-  parent PLC_DD29
-endnode
-node trimesh Groups00607
-  parent PLC_DD29
-endnode
-node trimesh Groups00632
-  parent PLC_DD29
-endnode
-node trimesh Groups00613
-  parent PLC_DD29
-endnode
-node trimesh Groups00614
-  parent PLC_DD29
-endnode
-node trimesh Groups00615
-  parent PLC_DD29
-endnode
-node trimesh Groups00616
-  parent PLC_DD29
-endnode
-node trimesh Groups00617
-  parent PLC_DD29
-endnode
-node trimesh Groups00618
-  parent PLC_DD29
-endnode
-node trimesh Groups00636
-  parent PLC_DD29
-endnode
-node trimesh Groups00620
-  parent PLC_DD29
-endnode
-node trimesh Groups00621
-  parent PLC_DD29
-endnode
-node trimesh Groups00622
-  parent PLC_DD29
-endnode
-node trimesh Line230
-  parent PLC_DD29
-endnode
-node trimesh Groups00624
-  parent PLC_DD29
-endnode
-node trimesh Groups00653
-  parent PLC_DD29
-endnode
-node trimesh Groups00639
-  parent PLC_DD29
-endnode
-node trimesh Groups00651
-  parent PLC_DD29
-endnode
-node trimesh Groups00629
-  parent PLC_DD29
-endnode
-node trimesh Groups00630
-  parent PLC_DD29
-endnode
-node trimesh Groups00650
-  parent PLC_DD29
-endnode
-node trimesh Groups00649
-  parent PLC_DD29
-endnode
-node trimesh Groups00633
-  parent PLC_DD29
-endnode
-node trimesh Groups00634
-  parent PLC_DD29
-endnode
-node trimesh Groups00635
-  parent PLC_DD29
-endnode
-node trimesh Groups00652
-  parent PLC_DD29
-endnode
-node trimesh Groups00643
-  parent PLC_DD29
-endnode
-node trimesh Groups00648
-  parent PLC_DD29
-endnode
-node trimesh Groups00641
-  parent PLC_DD29
-endnode
-node trimesh Groups00642
-  parent PLC_DD29
-endnode
-node trimesh Groups00625
-  parent PLC_DD29
-endnode
-node trimesh Groups00644
-  parent PLC_DD29
-endnode
-node trimesh Groups00645
-  parent PLC_DD29
-endnode
-node trimesh Groups00646
-  parent PLC_DD29
-endnode
-node trimesh Groups00647
-  parent PLC_DD29
-endnode
-node trimesh Groups00612
-  parent PLC_DD29
-endnode
-node trimesh Groups00631
-  parent PLC_DD29
-endnode
-node trimesh Groups00628
-  parent PLC_DD29
-endnode
-node trimesh Groups00627
-  parent PLC_DD29
-endnode
-node trimesh Groups00640
-  parent PLC_DD29
-endnode
-node trimesh Groups00623
-  parent PLC_DD29
-endnode
-node trimesh Groups00619
-  parent PLC_DD29
-endnode
-node trimesh Groups00637
-  parent PLC_DD29
-endnode
-node trimesh Groups00611
-  parent PLC_DD29
-endnode
-node trimesh Groups00606
-  parent PLC_DD29
-endnode
-node trimesh Box01
-  parent PLC_DD29
-endnode
-doneanim Day2Night PLC_DD29
+  endnode
+  node dummy groups00608
+    parent plc_dd29
+  endnode
+  node dummy groups00607
+    parent plc_dd29
+  endnode
+  node dummy groups00632
+    parent plc_dd29
+  endnode
+  node dummy groups00613
+    parent plc_dd29
+  endnode
+  node dummy groups00614
+    parent plc_dd29
+  endnode
+  node dummy groups00615
+    parent plc_dd29
+  endnode
+  node dummy groups00616
+    parent plc_dd29
+  endnode
+  node dummy groups00617
+    parent plc_dd29
+  endnode
+  node dummy groups00618
+    parent plc_dd29
+  endnode
+  node dummy groups00636
+    parent plc_dd29
+  endnode
+  node dummy groups00620
+    parent plc_dd29
+  endnode
+  node dummy groups00621
+    parent plc_dd29
+  endnode
+  node dummy groups00622
+    parent plc_dd29
+  endnode
+  node dummy line230
+    parent plc_dd29
+  endnode
+  node dummy groups00624
+    parent plc_dd29
+  endnode
+  node dummy groups00653
+    parent plc_dd29
+  endnode
+  node dummy groups00639
+    parent plc_dd29
+  endnode
+  node dummy groups00651
+    parent plc_dd29
+  endnode
+  node dummy groups00629
+    parent plc_dd29
+  endnode
+  node dummy groups00630
+    parent plc_dd29
+  endnode
+  node dummy groups00650
+    parent plc_dd29
+  endnode
+  node dummy groups00649
+    parent plc_dd29
+  endnode
+  node dummy groups00633
+    parent plc_dd29
+  endnode
+  node dummy groups00634
+    parent plc_dd29
+  endnode
+  node dummy groups00635
+    parent plc_dd29
+  endnode
+  node dummy groups00652
+    parent plc_dd29
+  endnode
+  node dummy groups00643
+    parent plc_dd29
+  endnode
+  node dummy groups00648
+    parent plc_dd29
+  endnode
+  node dummy groups00641
+    parent plc_dd29
+  endnode
+  node dummy groups00642
+    parent plc_dd29
+  endnode
+  node dummy groups00625
+    parent plc_dd29
+  endnode
+  node dummy groups00644
+    parent plc_dd29
+  endnode
+  node dummy groups00645
+    parent plc_dd29
+  endnode
+  node dummy groups00646
+    parent plc_dd29
+  endnode
+  node dummy groups00647
+    parent plc_dd29
+  endnode
+  node dummy groups00612
+    parent plc_dd29
+  endnode
+  node dummy groups00631
+    parent plc_dd29
+  endnode
+  node dummy groups00628
+    parent plc_dd29
+  endnode
+  node dummy groups00627
+    parent plc_dd29
+  endnode
+  node dummy groups00640
+    parent plc_dd29
+  endnode
+  node dummy groups00623
+    parent plc_dd29
+  endnode
+  node dummy groups00619
+    parent plc_dd29
+  endnode
+  node dummy groups00637
+    parent plc_dd29
+  endnode
+  node dummy groups00611
+    parent plc_dd29
+  endnode
+  node dummy groups00606
+    parent plc_dd29
+  endnode
+doneanim night2day plc_dd29
 
 #MAXANIM ASCII
-newanim Night2Day PLC_DD29
-  length 0.0333333
-  transtime 0.25
-  animroot PLC_DD29
-node dummy PLC_DD29
-  parent NULL
-endnode
-node dummy TCN01_S05_01_D01
-  parent PLC_DD29
-endnode
-node light TCN01_S05_01ml2
-  parent PLC_DD29
-endnode
-node light TCN01_S05_01ml1
-  parent PLC_DD29
-endnode
-node dummy TCN01_S05_01a
-  parent PLC_DD29
-endnode
-node light L_dayN27
-  parent TCN01_S05_01a
-    colorkey
-      0  1 0.431373 0
-      0.0333333  0 0 0
-    endlist
-endnode
-node emitter OmenEmitter48
-  parent TCN01_S05_01a
-endnode
-node light L_dayN26
-  parent TCN01_S05_01a
-    colorkey
-      0  1 0.431373 0
-      0.0333333  0 0 0
-    endlist
-endnode
-node trimesh Groups00609
-  parent TCN01_S05_01a
-endnode
-node trimesh Groups00610
-  parent TCN01_S05_01a
-endnode
-node trimesh Groups00654
-  parent TCN01_S05_01a
-endnode
-node trimesh Groups4128
-  parent TCN01_S05_01a
-    alphakey
-      0  0
-      0.0333333  1
-    endlist
-endnode
-node trimesh Groups4129
-  parent TCN01_S05_01a
-    alphakey
-      0  0
-      0.0333333  1
-    endlist
-endnode
-node trimesh Groups4127
-  parent TCN01_S05_01a
-    alphakey
-      0  0
-      0.0333333  1
-    endlist
-endnode
-node trimesh Groups00608
-  parent PLC_DD29
-endnode
-node trimesh Groups00607
-  parent PLC_DD29
-endnode
-node trimesh Groups00632
-  parent PLC_DD29
-endnode
-node trimesh Groups00613
-  parent PLC_DD29
-endnode
-node trimesh Groups00614
-  parent PLC_DD29
-endnode
-node trimesh Groups00615
-  parent PLC_DD29
-endnode
-node trimesh Groups00616
-  parent PLC_DD29
-endnode
-node trimesh Groups00617
-  parent PLC_DD29
-endnode
-node trimesh Groups00618
-  parent PLC_DD29
-endnode
-node trimesh Groups00636
-  parent PLC_DD29
-endnode
-node trimesh Groups00620
-  parent PLC_DD29
-endnode
-node trimesh Groups00621
-  parent PLC_DD29
-endnode
-node trimesh Groups00622
-  parent PLC_DD29
-endnode
-node trimesh Line230
-  parent PLC_DD29
-endnode
-node trimesh Groups00624
-  parent PLC_DD29
-endnode
-node trimesh Groups00653
-  parent PLC_DD29
-endnode
-node trimesh Groups00639
-  parent PLC_DD29
-endnode
-node trimesh Groups00651
-  parent PLC_DD29
-endnode
-node trimesh Groups00629
-  parent PLC_DD29
-endnode
-node trimesh Groups00630
-  parent PLC_DD29
-endnode
-node trimesh Groups00650
-  parent PLC_DD29
-endnode
-node trimesh Groups00649
-  parent PLC_DD29
-endnode
-node trimesh Groups00633
-  parent PLC_DD29
-endnode
-node trimesh Groups00634
-  parent PLC_DD29
-endnode
-node trimesh Groups00635
-  parent PLC_DD29
-endnode
-node trimesh Groups00652
-  parent PLC_DD29
-endnode
-node trimesh Groups00643
-  parent PLC_DD29
-endnode
-node trimesh Groups00648
-  parent PLC_DD29
-endnode
-node trimesh Groups00641
-  parent PLC_DD29
-endnode
-node trimesh Groups00642
-  parent PLC_DD29
-endnode
-node trimesh Groups00625
-  parent PLC_DD29
-endnode
-node trimesh Groups00644
-  parent PLC_DD29
-endnode
-node trimesh Groups00645
-  parent PLC_DD29
-endnode
-node trimesh Groups00646
-  parent PLC_DD29
-endnode
-node trimesh Groups00647
-  parent PLC_DD29
-endnode
-node trimesh Groups00612
-  parent PLC_DD29
-endnode
-node trimesh Groups00631
-  parent PLC_DD29
-endnode
-node trimesh Groups00628
-  parent PLC_DD29
-endnode
-node trimesh Groups00627
-  parent PLC_DD29
-endnode
-node trimesh Groups00640
-  parent PLC_DD29
-endnode
-node trimesh Groups00623
-  parent PLC_DD29
-endnode
-node trimesh Groups00619
-  parent PLC_DD29
-endnode
-node trimesh Groups00637
-  parent PLC_DD29
-endnode
-node trimesh Groups00611
-  parent PLC_DD29
-endnode
-node trimesh Groups00606
-  parent PLC_DD29
-endnode
-node trimesh Box01
-  parent PLC_DD29
-endnode
-doneanim Night2Day PLC_DD29
-
-#MAXANIM ASCII
-newanim tiledefault PLC_DD29
+newanim tiledefault plc_dd29
   length 0
   transtime 0
-  animroot PLC_DD29
-node dummy PLC_DD29
-  parent NULL
-endnode
-node dummy TCN01_S05_01_D01
-  parent PLC_DD29
-endnode
-node light TCN01_S05_01ml2
-  parent PLC_DD29
-endnode
-node light TCN01_S05_01ml1
-  parent PLC_DD29
-endnode
-node dummy TCN01_S05_01a
-  parent PLC_DD29
-endnode
-node light L_dayN27
-  parent TCN01_S05_01a
-endnode
-node emitter OmenEmitter48
-  parent TCN01_S05_01a
-endnode
-node light L_dayN26
-  parent TCN01_S05_01a
-endnode
-node trimesh Groups00609
-  parent TCN01_S05_01a
-endnode
-node trimesh Groups00610
-  parent TCN01_S05_01a
-endnode
-node trimesh Groups00654
-  parent TCN01_S05_01a
-endnode
-node trimesh Groups4128
-  parent TCN01_S05_01a
+  animroot plc_dd29
+  node dummy plc_dd29
+    parent NULL
+  endnode
+  node dummy box01
+    parent plc_dd29
+    #part-number -1
+  endnode
+  node dummy tcn01_s05_01_d01
+    parent plc_dd29
+  endnode
+  node light tcn01_s05_01ml2
+    parent plc_dd29
+  endnode
+  node light tcn01_s05_01ml1
+    parent plc_dd29
+  endnode
+  node dummy tcn01_s05_01a
+    parent plc_dd29
+  endnode
+  node light l_dayn27
+    parent tcn01_s05_01a
+  endnode
+  node light l_dayn26
+    parent tcn01_s05_01a
+  endnode
+  node dummy groups00609
+    parent tcn01_s05_01a
+  endnode
+  node dummy groups00610
+    parent tcn01_s05_01a
+  endnode
+  node dummy groups00654
+    parent tcn01_s05_01a
+  endnode
+  node emitter omenemitter48
+    parent tcn01_s05_01a
+  endnode
+  node trimesh groups4128
+    parent tcn01_s05_01a
     alphakey
-      0  1
+      0 1
     endlist
-endnode
-node trimesh Groups4129
-  parent TCN01_S05_01a
+  endnode
+  node trimesh groups4129
+    parent tcn01_s05_01a
     alphakey
-      0  1
+      0 1
     endlist
-endnode
-node trimesh Groups4127
-  parent TCN01_S05_01a
+  endnode
+  node trimesh groups4127
+    parent tcn01_s05_01a
     alphakey
-      0  1
+      0 1
     endlist
-endnode
-node trimesh Groups00608
-  parent PLC_DD29
-endnode
-node trimesh Groups00607
-  parent PLC_DD29
-endnode
-node trimesh Groups00632
-  parent PLC_DD29
-endnode
-node trimesh Groups00613
-  parent PLC_DD29
-endnode
-node trimesh Groups00614
-  parent PLC_DD29
-endnode
-node trimesh Groups00615
-  parent PLC_DD29
-endnode
-node trimesh Groups00616
-  parent PLC_DD29
-endnode
-node trimesh Groups00617
-  parent PLC_DD29
-endnode
-node trimesh Groups00618
-  parent PLC_DD29
-endnode
-node trimesh Groups00636
-  parent PLC_DD29
-endnode
-node trimesh Groups00620
-  parent PLC_DD29
-endnode
-node trimesh Groups00621
-  parent PLC_DD29
-endnode
-node trimesh Groups00622
-  parent PLC_DD29
-endnode
-node trimesh Line230
-  parent PLC_DD29
-endnode
-node trimesh Groups00624
-  parent PLC_DD29
-endnode
-node trimesh Groups00653
-  parent PLC_DD29
-endnode
-node trimesh Groups00639
-  parent PLC_DD29
-endnode
-node trimesh Groups00651
-  parent PLC_DD29
-endnode
-node trimesh Groups00629
-  parent PLC_DD29
-endnode
-node trimesh Groups00630
-  parent PLC_DD29
-endnode
-node trimesh Groups00650
-  parent PLC_DD29
-endnode
-node trimesh Groups00649
-  parent PLC_DD29
-endnode
-node trimesh Groups00633
-  parent PLC_DD29
-endnode
-node trimesh Groups00634
-  parent PLC_DD29
-endnode
-node trimesh Groups00635
-  parent PLC_DD29
-endnode
-node trimesh Groups00652
-  parent PLC_DD29
-endnode
-node trimesh Groups00643
-  parent PLC_DD29
-endnode
-node trimesh Groups00648
-  parent PLC_DD29
-endnode
-node trimesh Groups00641
-  parent PLC_DD29
-endnode
-node trimesh Groups00642
-  parent PLC_DD29
-endnode
-node trimesh Groups00625
-  parent PLC_DD29
-endnode
-node trimesh Groups00644
-  parent PLC_DD29
-endnode
-node trimesh Groups00645
-  parent PLC_DD29
-endnode
-node trimesh Groups00646
-  parent PLC_DD29
-endnode
-node trimesh Groups00647
-  parent PLC_DD29
-endnode
-node trimesh Groups00612
-  parent PLC_DD29
-endnode
-node trimesh Groups00631
-  parent PLC_DD29
-endnode
-node trimesh Groups00628
-  parent PLC_DD29
-endnode
-node trimesh Groups00627
-  parent PLC_DD29
-endnode
-node trimesh Groups00640
-  parent PLC_DD29
-endnode
-node trimesh Groups00623
-  parent PLC_DD29
-endnode
-node trimesh Groups00619
-  parent PLC_DD29
-endnode
-node trimesh Groups00637
-  parent PLC_DD29
-endnode
-node trimesh Groups00611
-  parent PLC_DD29
-endnode
-node trimesh Groups00606
-  parent PLC_DD29
-endnode
-node trimesh Box01
-  parent PLC_DD29
-endnode
-doneanim tiledefault PLC_DD29
-donemodel PLC_DD29
+  endnode
+  node dummy groups00608
+    parent plc_dd29
+  endnode
+  node dummy groups00607
+    parent plc_dd29
+  endnode
+  node dummy groups00632
+    parent plc_dd29
+  endnode
+  node dummy groups00613
+    parent plc_dd29
+  endnode
+  node dummy groups00614
+    parent plc_dd29
+  endnode
+  node dummy groups00615
+    parent plc_dd29
+  endnode
+  node dummy groups00616
+    parent plc_dd29
+  endnode
+  node dummy groups00617
+    parent plc_dd29
+  endnode
+  node dummy groups00618
+    parent plc_dd29
+  endnode
+  node dummy groups00636
+    parent plc_dd29
+  endnode
+  node dummy groups00620
+    parent plc_dd29
+  endnode
+  node dummy groups00621
+    parent plc_dd29
+  endnode
+  node dummy groups00622
+    parent plc_dd29
+  endnode
+  node dummy line230
+    parent plc_dd29
+  endnode
+  node dummy groups00624
+    parent plc_dd29
+  endnode
+  node dummy groups00653
+    parent plc_dd29
+  endnode
+  node dummy groups00639
+    parent plc_dd29
+  endnode
+  node dummy groups00651
+    parent plc_dd29
+  endnode
+  node dummy groups00629
+    parent plc_dd29
+  endnode
+  node dummy groups00630
+    parent plc_dd29
+  endnode
+  node dummy groups00650
+    parent plc_dd29
+  endnode
+  node dummy groups00649
+    parent plc_dd29
+  endnode
+  node dummy groups00633
+    parent plc_dd29
+  endnode
+  node dummy groups00634
+    parent plc_dd29
+  endnode
+  node dummy groups00635
+    parent plc_dd29
+  endnode
+  node dummy groups00652
+    parent plc_dd29
+  endnode
+  node dummy groups00643
+    parent plc_dd29
+  endnode
+  node dummy groups00648
+    parent plc_dd29
+  endnode
+  node dummy groups00641
+    parent plc_dd29
+  endnode
+  node dummy groups00642
+    parent plc_dd29
+  endnode
+  node dummy groups00625
+    parent plc_dd29
+  endnode
+  node dummy groups00644
+    parent plc_dd29
+  endnode
+  node dummy groups00645
+    parent plc_dd29
+  endnode
+  node dummy groups00646
+    parent plc_dd29
+  endnode
+  node dummy groups00647
+    parent plc_dd29
+  endnode
+  node dummy groups00612
+    parent plc_dd29
+  endnode
+  node dummy groups00631
+    parent plc_dd29
+  endnode
+  node dummy groups00628
+    parent plc_dd29
+  endnode
+  node dummy groups00627
+    parent plc_dd29
+  endnode
+  node dummy groups00640
+    parent plc_dd29
+  endnode
+  node dummy groups00623
+    parent plc_dd29
+  endnode
+  node dummy groups00619
+    parent plc_dd29
+  endnode
+  node dummy groups00637
+    parent plc_dd29
+  endnode
+  node dummy groups00611
+    parent plc_dd29
+  endnode
+  node dummy groups00606
+    parent plc_dd29
+  endnode
+doneanim tiledefault plc_dd29
+donemodel plc_dd29

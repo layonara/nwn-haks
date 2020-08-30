@@ -1,19 +1,23 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 18:37:25 2019
 #MAXMODEL ASCII
-# model: plc_mf337
-filedependancy plc_mf337.max
+filedependency Unknown
 newmodel plc_mf337
-setsupermodel plc_mf337 NULL
-classification character
-setanimationscale 1
-#MAXGEOM  ASCII
+  classification CHARACTER
+  setsupermodel plc_mf337 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
 beginmodelgeom plc_mf337
 node dummy plc_mf337
   parent NULL
-  #part-number 0
 endnode
-node emitter OmenEmitter263
+node dummy rectangle134
   parent plc_mf337
-  #part-number 8
+  scale 1
+  orientation 0 0 0 0
+  position 0.010625 -0.00295166 0
+endnode
+node emitter omenemitter263
+  parent plc_mf337
   p2p 0
   p2p_sel 0
   affectedByWind 0
@@ -28,7 +32,7 @@ node emitter OmenEmitter263
   renderorder 0
   spawntype 0
   update Fountain
-  render normal
+  render Normal
   blend Lighten
   texture okto_tx_ball2
   xgrid 2
@@ -69,12 +73,11 @@ node emitter OmenEmitter263
   p2p_bezier3 0
   combinetime 0
   drag 0
-  grav 0.00
+  grav 0
   threshold 0
 endnode
 node emitter lightshaft
   parent plc_mf337
-  #part-number 1
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -91,7 +94,7 @@ node emitter lightshaft
   update Fountain
   render Aligned_to_World_Z
   blend Lighten
-  texture PLC_lightshaft
+  texture plc_lightshaft
   xgrid 0
   ygrid 0
   loop 0
@@ -99,12 +102,12 @@ node emitter lightshaft
   twosidedtex 0
   blastRadius 0
   blastLength 0
-  position 1.79755e-006 0 1
+  position 1.79755e-06 0 1
   orientation 0 0 0 0
   colorStart 0 0 0
-  colorEnd 0.392941 0.329412013 0.399412013
-  alphaStart 0.200000003
-  alphaEnd 0.100000001
+  colorEnd 0.392941 0.329412 0.399412
+  alphaStart 0.2
+  alphaEnd 0.1
   sizeStart 3
   sizeEnd 3
   sizeStart_y 0
@@ -115,7 +118,7 @@ node emitter lightshaft
   lifeExp 5
   mass 0
   spread 0
-  particleRot 1.64999998
+  particleRot 1.65
   velocity 0
   randvel 0
   fps 0
@@ -133,42 +136,5 @@ node emitter lightshaft
   grav 0
   threshold 0
 endnode
-node trimesh Rectangle134
-  parent plc_mf337
-  #part-number 5
-  ambient 0.200000003 0.200000003 0.200000003
-  diffuse 0.800000012 0.800000012 0.800000012
-  specular 0 0 0
-  shininess 1
-  shadow 0
-  render 0
-  bitmap NULL
-  verts 8
-    -0.300000012 -0.300000012 3.75018001
-    0.300000012 -0.300000012 3.75018001
-    0.300000012 0.300000012 3.75018001
-    -0.300000012 0.300000012 3.75018001
-    -0.300000012 -0.300000012 0
-    0.300000012 -0.300000012 0
-    0.300000012 0.300000012 0
-    -0.300000012 0.300000012 0
-  faces 10
-    0 1 2 1 0 0 0 1
-    3 0 2 1 0 0 0 1
-    4 5 1 2 0 0 0 1
-    1 0 4 2 0 0 0 1
-    5 6 2 4 0 0 0 1
-    2 1 5 4 0 0 0 1
-    7 4 0 4 0 0 0 1
-    0 3 7 4 0 0 0 1
-    6 7 3 2 0 0 0 1
-    3 2 6 2 0 0 0 1
-  position 0.0106250001 -0.00295165996 0
-  orientation 0 0 0 0
-  alpha 1
-  scale 1
-  setfillumcolor 0 0 0
-endnode
-
 endmodelgeom plc_mf337
 donemodel plc_mf337

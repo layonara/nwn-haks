@@ -1,18 +1,16 @@
-#Exported from 3ds max by MDL Plug-in Suite 1.0b
-#http://www.bricksbuilder.com/nwn/utils/
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 18:36:07 2019
 #MAXMODEL ASCII
-# model: plc_clt_81
-filedependancy Unknown
+filedependency Unknown
 newmodel plc_clt_81
-setsupermodel plc_clt_81 NULL
-classification Tile
-setanimationscale 1.0
-#MAXGEOM  ASCII
+  classification TILE
+  setsupermodel plc_clt_81 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
 beginmodelgeom plc_clt_81
 node dummy plc_clt_81
   parent NULL
 endnode
-node trimesh Cylinder01
+node trimesh cylinder01
   parent plc_clt_81
   position -0.037235 0.0665792 0
   orientation 0 0 0 0
@@ -23,7 +21,7 @@ node trimesh Cylinder01
   shininess 10
   bitmap tx_bark_02
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 0
@@ -46,34 +44,34 @@ node trimesh Cylinder01
     0.24211 -0.0224703 3.02629
     0.24168 0.0267088 3.02629
   faces 27
-    0 2 1  1  0 26 27  1
-    0 3 2  1  0 28 26  1
-    0 1 3  1  0 27 28  1
-    1 5 4  1  29 30 31  2
-    1 2 5  1  29 32 30  2
-    2 6 5  1  2 33 5  2
-    2 3 6  1  2 34 33  2
-    3 4 6  1  3 4 6  2
-    3 1 4  1  3 1 4  2
-    4 8 7  1  31 35 36  2
-    4 5 8  1  31 30 35  2
-    5 9 8  1  5 37 8  2
-    5 6 9  1  5 33 37  2
-    6 7 9  1  6 7 9  2
-    6 4 7  1  6 4 7  2
-    7 11 10  1  36 38 39  2
-    7 8 11  1  36 35 38  2
-    8 12 11  1  8 40 41  2
-    8 9 12  1  8 37 40  2
-    9 10 12  1  9 10 12  2
-    9 7 10  1  9 7 10  2
-    10 14 13  1  39 42 43  2
-    10 11 14  1  39 38 42  2
-    11 15 14  1  11 44 14  2
-    11 12 15  1  11 45 44  2
-    12 13 15  1  12 13 15  2
-    12 10 13  1  12 10 13  2
-  tverts 63
+    0 2 1 1 0 16 17 1
+    0 3 2 1 0 18 16 1
+    0 1 3 1 0 17 18 1
+    1 5 4 1 19 20 21 2
+    1 2 5 1 19 22 20 2
+    2 6 5 1 2 23 5 2
+    2 3 6 1 2 24 23 2
+    3 4 6 1 3 4 6 2
+    3 1 4 1 3 1 4 2
+    4 8 7 1 21 25 26 2
+    4 5 8 1 21 20 25 2
+    5 9 8 1 5 27 8 2
+    5 6 9 1 5 23 27 2
+    6 7 9 1 6 7 9 2
+    6 4 7 1 6 4 7 2
+    7 11 10 1 26 28 29 2
+    7 8 11 1 26 25 28 2
+    8 12 11 1 8 30 31 2
+    8 9 12 1 8 27 30 2
+    9 10 12 1 9 10 12 2
+    9 7 10 1 9 7 10 2
+    10 14 13 1 29 32 33 2
+    10 11 14 1 29 28 32 2
+    11 15 14 1 11 34 14 2
+    11 12 15 1 11 35 34 2
+    12 13 15 1 12 13 15 2
+    12 10 13 1 12 10 13 2
+  tverts 36
     0.195725 0.5 0
     0.853361 0.132635 0
     0.45749 0.132635 0
@@ -90,16 +88,6 @@ node trimesh Cylinder01
     0.535922 1.26191 0
     0.475159 0.512295 0
     0.524841 1.24373 0
-    0.393619 1.31445 0
-    0.487705 1.29801 0
-    0.380087 1.29801 0
-    0.30025 1.60148 0
-    0.715836 0.51173 0
-    0.284164 1.58907 0
-    0.0454607 1.68966 0
-    0.487705 1.67553 0
-    0.029533 1.67553 0
-    -0.00467718 2.04757 0
     0.220268 0.54251 0
     0.146639 0.5 0
     0.220268 0.45749 0
@@ -120,23 +108,6 @@ node trimesh Cylinder01
     0.464078 1.26191 0
     0.475159 0.487705 0
     0.195338 0.487081 0
-    0.619913 1.29801 0
-    0.606381 1.31445 0
-    0.619913 0.487705 0
-    0.619913 0.512295 0
-    0.715836 1.58907 0
-    0.69975 1.60148 0
-    0.511729 1.58907 0
-    0.48827 1.58907 0
-    0.512295 1.29801 0
-    0.970467 1.67553 0
-    0.954539 1.68966 0
-    0.970467 0.487705 0
-    0.970467 0.512295 0
-    0.715836 0.488271 0
-    1.00468 2.04757 0
-    0.512295 1.67553 0
-    0.5 2.04757 0
 endnode
 node trimesh fade_branch_02
   parent plc_clt_81
@@ -149,7 +120,7 @@ node trimesh fade_branch_02
   shininess 10
   bitmap tx_bark_02
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -169,57 +140,57 @@ node trimesh fade_branch_02
     -1.20831 -0.0195682 1.86787
     -1.70969 0.00710624 2.42564
   faces 21
-    0 4 3  1  13 14 15  2
-    0 1 4  1  13 16 14  2
-    1 5 4  1  1 17 4  2
-    1 2 5  1  1 18 17  2
-    2 3 5  1  2 3 5  2
-    2 0 3  1  2 0 3  2
-    3 7 6  1  15 19 20  2
-    3 4 7  1  15 14 19  2
-    4 8 7  1  4 21 7  2
-    4 5 8  1  4 17 21  2
-    5 6 8  1  5 6 8  2
-    5 3 6  1  5 3 6  2
-    6 10 9  1  20 22 23  2
-    6 7 10  1  20 19 22  2
-    7 11 10  1  7 24 10  2
-    7 8 11  1  7 21 24  2
-    8 9 11  1  8 9 11  2
-    8 6 9  1  8 6 9  2
-    9 10 12  1  23 22 25  2
-    10 11 12  1  10 24 26  2
-    11 9 12  1  11 9 12  2
+    0 4 3 1 13 14 15 2
+    0 1 4 1 13 16 14 2
+    1 5 4 1 1 17 4 2
+    1 2 5 1 1 18 17 2
+    2 3 5 1 2 3 5 2
+    2 0 3 1 2 0 3 2
+    3 7 6 1 15 19 20 2
+    3 4 7 1 15 14 19 2
+    4 8 7 1 4 21 7 2
+    4 5 8 1 4 17 21 2
+    5 6 8 1 5 6 8 2
+    5 3 6 1 5 3 6 2
+    6 10 9 1 20 22 23 2
+    6 7 10 1 20 19 22 2
+    7 11 10 1 7 24 10 2
+    7 8 11 1 7 21 24 2
+    8 9 11 1 8 9 11 2
+    8 6 9 1 8 6 9 2
+    9 10 12 1 23 22 25 2
+    10 11 12 1 10 24 26 2
+    11 9 12 1 11 9 12 2
   tverts 27
-    1.01267 0.197775 0
-    0.475606 0.174988 0
-    0.97709 0.174988 0
-    0.653956 0.779868 0
-    0.474163 0.755111 0
-    0.616676 0.755111 0
-    0.636429 1.38315 0
-    0.475409 1.3745 0
-    0.594724 1.3745 0
-    0.204266 1.88955 0
-    0.475409 1.86184 0
-    0.171915 1.86184 0
-    0.106706 2.62176 0
-    -0.0126712 0.197775 0
-    0.383324 0.755111 0
-    0.346044 0.779868 0
-    0.0229095 0.174988 0
-    0.525837 0.755111 0
-    0.524394 0.174988 0
-    0.405276 1.3745 0
-    0.363571 1.38315 0
-    0.52459 1.3745 0
-    0.828085 1.86184 0
-    0.795734 1.88955 0
-    0.52459 1.86184 0
-    0.893294 2.62176 0
-    0.5 2.62176 0
+    1.01267 -0.802225 0
+    0.475606 -0.825012 0
+    0.97709 -0.825012 0
+    0.653956 -0.220132 0
+    0.474163 -0.244889 0
+    0.616676 -0.244889 0
+    0.636429 0.38315 0
+    0.475409 0.3745 0
+    0.594724 0.3745 0
+    0.204266 0.88955 0
+    0.475409 0.86184 0
+    0.171915 0.86184 0
+    0.106706 1.62176 0
+    -0.0126712 -0.802225 0
+    0.383324 -0.244889 0
+    0.346044 -0.220132 0
+    0.0229095 -0.825012 0
+    0.525837 -0.244889 0
+    0.524394 -0.825012 0
+    0.405276 0.3745 0
+    0.363571 0.38315 0
+    0.52459 0.3745 0
+    0.828085 0.86184 0
+    0.795734 0.88955 0
+    0.52459 0.86184 0
+    0.893294 1.62176 0
+    0.5 1.62176 0
 endnode
-node trimesh Sphere01
+node trimesh sphere01
   parent plc_clt_81
   position 0.26375 0.269448 3.22092
   orientation 0 0 0 0
@@ -230,7 +201,7 @@ node trimesh Sphere01
   shininess 10
   bitmap tx_ivy_04b
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -242,9 +213,9 @@ node trimesh Sphere01
     -0.448603 -0.408131 -0.132675
     -0.638294 -0.256802 0.87438
   faces 3
-    1 0 2  1  1 0 2  1
-    2 0 3  1  2 0 3  1
-    3 0 4  1  3 0 4  1
+    1 0 2 1 1 0 2 1
+    2 0 3 1 2 0 3 1
+    3 0 4 1 3 0 4 1
   tverts 5
     0.526352 1.0812 0
     1.00562 0.992533 0
@@ -252,7 +223,7 @@ node trimesh Sphere01
     0.0652696 0.135735 0
     0.0247016 1.02826 0
 endnode
-node trimesh Sphere05
+node trimesh sphere05
   parent plc_clt_81
   position -0.938493 0.274445 4.26756
   orientation 0 0 0 0
@@ -263,7 +234,7 @@ node trimesh Sphere05
   shininess 10
   bitmap tx_ivy_04b
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -275,9 +246,9 @@ node trimesh Sphere05
     -0.380504 -0.331921 -0.00808663
     -0.312974 -0.209748 0.822885
   faces 3
-    1 0 2  1  1 0 2  1
-    2 0 3  1  2 0 3  1
-    3 0 4  1  3 0 4  1
+    1 0 2 1 1 0 2 1
+    2 0 3 1 2 0 3 1
+    3 0 4 1 3 0 4 1
   tverts 5
     0.526352 1.0812 0
     1.00562 0.992533 0
@@ -285,7 +256,7 @@ node trimesh Sphere05
     0.0652696 0.135735 0
     0.0247016 1.02826 0
 endnode
-node trimesh Sphere06
+node trimesh sphere06
   parent plc_clt_81
   position -0.370205 0.272083 4.58654
   orientation 0 0 0 0
@@ -296,7 +267,7 @@ node trimesh Sphere06
   shininess 10
   bitmap tx_ivy_04b
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -308,9 +279,9 @@ node trimesh Sphere06
     -0.414242 -0.375037 -0.114952
     -0.572869 -0.236042 0.813294
   faces 3
-    1 0 2  1  1 0 2  1
-    2 0 3  1  2 0 3  1
-    3 0 4  1  3 0 4  1
+    1 0 2 1 1 0 2 1
+    2 0 3 1 2 0 3 1
+    3 0 4 1 3 0 4 1
   tverts 5
     0.526352 1.0812 0
     1.00562 0.992533 0
@@ -318,7 +289,7 @@ node trimesh Sphere06
     0.0652696 0.135735 0
     0.0247016 1.02826 0
 endnode
-node trimesh Sphere21
+node trimesh sphere21
   parent plc_clt_81
   position 0.410041 0.26884 1.99497
   orientation 0 0 0 0
@@ -329,7 +300,7 @@ node trimesh Sphere21
   shininess 10
   bitmap tx_ivy_04a
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 0
@@ -341,9 +312,9 @@ node trimesh Sphere21
     -0.512956 -0.44753 -0.014059
     -0.428823 -0.282775 1.10688
   faces 3
-    1 0 2  1  1 0 2  1
-    2 0 3  1  2 0 3  1
-    3 0 4  1  3 0 4  1
+    1 0 2 1 1 0 2 1
+    2 0 3 1 2 0 3 1
+    3 0 4 1 3 0 4 1
   tverts 5
     0.534335 1.04181 0
     1.06109 0.944352 0
@@ -351,7 +322,7 @@ node trimesh Sphere21
     0.0275645 0.00265411 0
     -0.0170233 0.983614 0
 endnode
-node trimesh Sphere25
+node trimesh sphere25
   parent plc_clt_81
   position 0.349534 0.269091 2.37403
   orientation 0 0 0 0
@@ -362,7 +333,7 @@ node trimesh Sphere25
   shininess 10
   bitmap tx_ivy_04a
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -374,9 +345,9 @@ node trimesh Sphere25
     -0.504935 -0.447563 -0.0912866
     -0.591496 -0.282099 1.02936
   faces 3
-    1 0 2  1  1 0 2  1
-    2 0 3  1  2 0 3  1
-    3 0 4  1  3 0 4  1
+    1 0 2 1 1 0 2 1
+    2 0 3 1 2 0 3 1
+    3 0 4 1 3 0 4 1
   tverts 5
     0.534335 1.04181 0
     1.06109 0.944352 0
@@ -384,7 +355,7 @@ node trimesh Sphere25
     0.0275645 0.00265411 0
     -0.0170233 0.983614 0
 endnode
-node trimesh Sphere49
+node trimesh sphere49
   parent plc_clt_81
   position -0.305691 0.352639 2.00387
   orientation 0 0 0 0
@@ -395,7 +366,7 @@ node trimesh Sphere49
   shininess 10
   bitmap tx_ivy_04c
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 0
@@ -407,9 +378,9 @@ node trimesh Sphere49
     -0.627468 -0.570432 0.0971408
     -0.177592 -0.470378 1.44471
   faces 3
-    1 0 2  1  1 0 2  1
-    2 0 3  1  2 0 3  1
-    3 0 4  1  3 0 4  1
+    1 0 2 1 1 0 2 1
+    2 0 3 1 2 0 3 1
+    3 0 4 1 3 0 4 1
   tverts 5
     0.532822 1.03172 0
     1.05958 0.93426 0
@@ -417,7 +388,7 @@ node trimesh Sphere49
     0.0260509 -0.00743818 0
     -0.0185369 0.973522 0
 endnode
-node trimesh Sphere03
+node trimesh sphere03
   parent plc_clt_81
   position -0.183282 0.271306 1.61966
   orientation 0 0 0 0
@@ -428,7 +399,7 @@ node trimesh Sphere03
   shininess 10
   bitmap tx_ivy_04c
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 0
@@ -440,9 +411,9 @@ node trimesh Sphere03
     -0.521085 -0.474072 -0.154112
     -0.741423 -0.298294 1.01565
   faces 3
-    1 0 2  1  1 0 2  1
-    2 0 3  1  2 0 3  1
-    3 0 4  1  3 0 4  1
+    1 0 2 1 1 0 2 1
+    2 0 3 1 2 0 3 1
+    3 0 4 1 3 0 4 1
   tverts 5
     0.532822 1.03172 0
     1.05958 0.93426 0
@@ -450,7 +421,7 @@ node trimesh Sphere03
     0.0260509 -0.00743818 0
     -0.0185369 0.973522 0
 endnode
-node trimesh Sphere09
+node trimesh sphere09
   parent plc_clt_81
   position -0.336491 0.271943 2.65594
   orientation 0 0 0 0
@@ -461,7 +432,7 @@ node trimesh Sphere09
   shininess 10
   bitmap tx_ivy_04a
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -473,9 +444,9 @@ node trimesh Sphere09
     -0.457798 -0.400985 0.0424606
     -0.262405 -0.253867 1.03056
   faces 3
-    1 0 2  1  1 0 2  1
-    2 0 3  1  2 0 3  1
-    3 0 4  1  3 0 4  1
+    1 0 2 1 1 0 2 1
+    2 0 3 1 2 0 3 1
+    3 0 4 1 3 0 4 1
   tverts 5
     0.534335 1.04181 0
     1.06109 0.944352 0
@@ -483,7 +454,7 @@ node trimesh Sphere09
     0.0275645 0.00265411 0
     -0.0170233 0.983614 0
 endnode
-node trimesh Sphere10
+node trimesh sphere10
   parent plc_clt_81
   position -0.64321 0.273218 3.17861
   orientation 0 0 0 0
@@ -494,7 +465,7 @@ node trimesh Sphere10
   shininess 10
   bitmap tx_ivy_04a
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -506,9 +477,9 @@ node trimesh Sphere10
     -0.403447 -0.401211 -0.22007
     -0.794369 -0.251655 0.707814
   faces 3
-    1 0 2  1  1 0 2  1
-    2 0 3  1  2 0 3  1
-    3 0 4  1  3 0 4  1
+    1 0 2 1 1 0 2 1
+    2 0 3 1 2 0 3 1
+    3 0 4 1 3 0 4 1
   tverts 5
     0.534335 1.04181 0
     1.06109 0.944352 0
@@ -516,7 +487,7 @@ node trimesh Sphere10
     0.0275645 0.00265411 0
     -0.0170233 0.983614 0
 endnode
-node trimesh Sphere11
+node trimesh sphere11
   parent plc_clt_81
   position -0.0276466 0.270659 2.8688
   orientation 0 0 0 0
@@ -527,7 +498,7 @@ node trimesh Sphere11
   shininess 10
   bitmap tx_ivy_04a
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -539,9 +510,9 @@ node trimesh Sphere11
     -0.413694 -0.37504 0.116904
     -0.0653597 -0.238151 0.992146
   faces 3
-    1 0 2  1  1 0 2  1
-    2 0 3  1  2 0 3  1
-    3 0 4  1  3 0 4  1
+    1 0 2 1 1 0 2 1
+    2 0 3 1 2 0 3 1
+    3 0 4 1 3 0 4 1
   tverts 5
     0.534335 1.04181 0
     1.06109 0.944352 0
@@ -549,7 +520,7 @@ node trimesh Sphere11
     0.0275645 0.00265411 0
     -0.0170233 0.983614 0
 endnode
-node trimesh Sphere18
+node trimesh sphere18
   parent plc_clt_81
   position 1.05026 0.266179 3.62379
   orientation 0 0 0 0
@@ -560,7 +531,7 @@ node trimesh Sphere18
   shininess 10
   bitmap tx_ivy_04a
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -572,9 +543,9 @@ node trimesh Sphere18
     -0.34929 -0.44821 -0.375112
     -1.09137 -0.280021 0.468543
   faces 3
-    1 0 2  1  1 0 2  1
-    2 0 3  1  2 0 3  1
-    3 0 4  1  3 0 4  1
+    1 0 2 1 1 0 2 1
+    2 0 3 1 2 0 3 1
+    3 0 4 1 3 0 4 1
   tverts 5
     0.534335 1.04181 0
     1.06109 0.944352 0
@@ -582,7 +553,7 @@ node trimesh Sphere18
     0.0275645 0.00265411 0
     -0.0170233 0.983614 0
 endnode
-node trimesh Sphere08
+node trimesh sphere08
   parent plc_clt_81
   position -0.0126207 0.270597 3.94329
   orientation 0 0 0 0
@@ -593,7 +564,7 @@ node trimesh Sphere08
   shininess 10
   bitmap tx_ivy_04b
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -605,9 +576,9 @@ node trimesh Sphere08
     -0.414242 -0.375037 -0.114952
     -0.572869 -0.236042 0.813294
   faces 3
-    1 0 2  1  1 0 2  1
-    2 0 3  1  2 0 3  1
-    3 0 4  1  3 0 4  1
+    1 0 2 1 1 0 2 1
+    2 0 3 1 2 0 3 1
+    3 0 4 1 3 0 4 1
   tverts 5
     0.526352 1.0812 0
     1.00562 0.992533 0
@@ -615,7 +586,7 @@ node trimesh Sphere08
     0.0652696 0.135735 0
     0.0247016 1.02826 0
 endnode
-node trimesh Sphere19
+node trimesh sphere19
   parent plc_clt_81
   position -0.107846 0.351816 2.91669
   orientation 0 0 0 0
@@ -626,7 +597,7 @@ node trimesh Sphere19
   shininess 10
   bitmap tx_ivy_04d
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -638,9 +609,9 @@ node trimesh Sphere19
     -0.680334 -0.589286 -0.0930752
     -0.630139 -0.487479 1.41247
   faces 3
-    1 0 2  1  1 0 2  1
-    2 0 3  1  2 0 3  1
-    3 0 4  1  3 0 4  1
+    1 0 2 1 1 0 2 1
+    2 0 3 1 2 0 3 1
+    3 0 4 1 3 0 4 1
   tverts 5
     0.539365 1.03081 0
     1.06612 0.933354 0
@@ -648,7 +619,7 @@ node trimesh Sphere19
     0.0325943 -0.00834441 0
     -0.0119935 0.972616 0
 endnode
-node trimesh Sphere23
+node trimesh sphere23
   parent plc_clt_81
   position -0.833791 0.27401 4.09221
   orientation 0 0 0 0
@@ -659,7 +630,7 @@ node trimesh Sphere23
   shininess 10
   bitmap tx_ivy_04b
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -671,9 +642,9 @@ node trimesh Sphere23
     -0.380504 -0.331921 -0.00808683
     -0.312974 -0.209748 0.822885
   faces 3
-    1 0 2  1  1 0 2  1
-    2 0 3  1  2 0 3  1
-    3 0 4  1  3 0 4  1
+    1 0 2 1 1 0 2 1
+    2 0 3 1 2 0 3 1
+    3 0 4 1 3 0 4 1
   tverts 5
     0.526352 1.0812 0
     1.00562 0.992533 0
@@ -681,7 +652,7 @@ node trimesh Sphere23
     0.0652696 0.135735 0
     0.0247016 1.02826 0
 endnode
-node trimesh Sphere24
+node trimesh sphere24
   parent plc_clt_81
   position -0.219729 0.271458 1.07603
   orientation 0 0 0 0
@@ -692,7 +663,7 @@ node trimesh Sphere24
   shininess 10
   bitmap tx_ivy_04b
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 0
@@ -704,9 +675,9 @@ node trimesh Sphere24
     -0.378377 -0.33193 -0.0409082
     -0.383104 -0.209456 0.792746
   faces 3
-    1 0 2  1  1 0 2  1
-    2 0 3  1  2 0 3  1
-    3 0 4  1  3 0 4  1
+    1 0 2 1 1 0 2 1
+    2 0 3 1 2 0 3 1
+    3 0 4 1 3 0 4 1
   tverts 5
     0.526352 1.0812 0
     1.00562 0.992533 0
@@ -714,7 +685,7 @@ node trimesh Sphere24
     0.0652696 0.135735 0
     0.0247016 1.02826 0
 endnode
-node trimesh Sphere26
+node trimesh sphere26
   parent plc_clt_81
   position 0.547005 0.268271 1.38087
   orientation 0 0 0 0
@@ -725,7 +696,7 @@ node trimesh Sphere26
   shininess 10
   bitmap tx_ivy_04b
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 0
@@ -737,9 +708,9 @@ node trimesh Sphere26
     -0.332618 -0.33212 -0.184612
     -0.661857 -0.208298 0.581071
   faces 3
-    1 0 2  1  1 0 2  1
-    2 0 3  1  2 0 3  1
-    3 0 4  1  3 0 4  1
+    1 0 2 1 1 0 2 1
+    2 0 3 1 2 0 3 1
+    3 0 4 1 3 0 4 1
   tverts 5
     0.526352 1.0812 0
     1.00562 0.992533 0
@@ -747,7 +718,7 @@ node trimesh Sphere26
     0.0652696 0.135735 0
     0.0247016 1.02826 0
 endnode
-node trimesh Sphere22
+node trimesh sphere22
   parent plc_clt_81
   position -0.252175 0.271592 3.64074
   orientation 0 0 0 0
@@ -758,7 +729,7 @@ node trimesh Sphere22
   shininess 10
   bitmap tx_ivy_04a
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -770,9 +741,9 @@ node trimesh Sphere22
     -0.403447 -0.401211 -0.220071
     -0.794369 -0.251655 0.707814
   faces 3
-    1 0 2  1  1 0 2  1
-    2 0 3  1  2 0 3  1
-    3 0 4  1  3 0 4  1
+    1 0 2 1 1 0 2 1
+    2 0 3 1 2 0 3 1
+    3 0 4 1 3 0 4 1
   tverts 5
     0.534335 1.04181 0
     1.06109 0.944352 0
@@ -780,7 +751,7 @@ node trimesh Sphere22
     0.0275645 0.00265411 0
     -0.0170233 0.983614 0
 endnode
-node trimesh Sphere27
+node trimesh sphere27
   parent plc_clt_81
   position 0.407703 0.26885 2.37167
   orientation 0 0 0 0
@@ -791,7 +762,7 @@ node trimesh Sphere27
   shininess 10
   bitmap tx_ivy_04b
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 0
@@ -803,9 +774,9 @@ node trimesh Sphere27
     -0.414242 -0.375037 -0.114952
     -0.572869 -0.236042 0.813294
   faces 3
-    1 0 2  1  1 0 2  1
-    2 0 3  1  2 0 3  1
-    3 0 4  1  3 0 4  1
+    1 0 2 1 1 0 2 1
+    2 0 3 1 2 0 3 1
+    3 0 4 1 3 0 4 1
   tverts 5
     0.526352 1.0812 0
     1.00562 0.992533 0
@@ -813,7 +784,7 @@ node trimesh Sphere27
     0.0652696 0.135735 0
     0.0247016 1.02826 0
 endnode
-node trimesh Sphere28
+node trimesh sphere28
   parent plc_clt_81
   position -0.849653 0.274076 4.98985
   orientation 0 0 0 0
@@ -824,7 +795,7 @@ node trimesh Sphere28
   shininess 10
   bitmap tx_ivy_04b
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -836,9 +807,9 @@ node trimesh Sphere28
     -0.343823 -0.37533 -0.257636
     -0.830243 -0.234972 0.548477
   faces 3
-    1 0 2  1  1 0 2  1
-    2 0 3  1  2 0 3  1
-    3 0 4  1  3 0 4  1
+    1 0 2 1 1 0 2 1
+    2 0 3 1 2 0 3 1
+    3 0 4 1 3 0 4 1
   tverts 5
     0.526352 1.0812 0
     1.00562 0.992533 0
@@ -846,7 +817,7 @@ node trimesh Sphere28
     0.0652696 0.135735 0
     0.0247016 1.02826 0
 endnode
-node trimesh Sphere29
+node trimesh sphere29
   parent plc_clt_81
   position 0.189258 0.269758 4.65451
   orientation 0 0 0 0
@@ -857,7 +828,7 @@ node trimesh Sphere29
   shininess 10
   bitmap tx_ivy_04b
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -869,9 +840,9 @@ node trimesh Sphere29
     -0.409425 -0.375058 0.131022
     -0.0311685 -0.238294 0.993774
   faces 3
-    1 0 2  1  1 0 2  1
-    2 0 3  1  2 0 3  1
-    3 0 4  1  3 0 4  1
+    1 0 2 1 1 0 2 1
+    2 0 3 1 2 0 3 1
+    3 0 4 1 3 0 4 1
   tverts 5
     0.526352 1.0812 0
     1.00562 0.992533 0
@@ -890,7 +861,7 @@ node trimesh fade_branch_01
   shininess 10
   bitmap tx_bark_02
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -910,61 +881,61 @@ node trimesh fade_branch_01
     0.0400238 0.0544745 4.917
     0.253196 0.0317507 5.31991
   faces 21
-    0 4 3  1  14 16 17  2
-    0 1 4  1  14 13 16  2
-    1 5 4  1  1 18 19  2
-    1 2 5  1  1 15 18  2
-    2 3 5  1  2 3 5  2
-    2 0 3  1  2 0 3  2
-    3 7 6  1  17 20 21  2
-    3 4 7  1  17 16 20  2
-    4 8 7  1  4 22 23  2
-    4 5 8  1  4 24 22  2
-    5 6 8  1  5 6 8  2
-    5 3 6  1  5 3 6  2
-    6 10 9  1  21 25 26  2
-    6 7 10  1  21 20 25  2
-    7 11 10  1  7 27 28  2
-    7 8 11  1  7 29 27  2
-    8 9 11  1  8 9 11  2
-    8 6 9  1  8 6 9  2
-    9 10 12  1  26 25 30  2
-    10 11 12  1  10 31 32  2
-    11 9 12  1  11 9 12  2
+    0 4 3 1 14 16 17 2
+    0 1 4 1 14 13 16 2
+    1 5 4 1 1 18 19 2
+    1 2 5 1 1 15 18 2
+    2 3 5 1 2 3 5 2
+    2 0 3 1 2 0 3 2
+    3 7 6 1 17 20 21 2
+    3 4 7 1 17 16 20 2
+    4 8 7 1 4 22 23 2
+    4 5 8 1 4 24 22 2
+    5 6 8 1 5 6 8 2
+    5 3 6 1 5 3 6 2
+    6 10 9 1 21 25 26 2
+    6 7 10 1 21 20 25 2
+    7 11 10 1 7 27 28 2
+    7 8 11 1 7 29 27 2
+    8 9 11 1 8 9 11 2
+    8 6 9 1 8 6 9 2
+    9 10 12 1 26 25 30 2
+    10 11 12 1 10 31 32 2
+    11 9 12 1 11 9 12 2
   tverts 33
-    0.535922 1.26191 0
+    0.535922 0.26191 0
     0.475159 0.512295 0
-    0.524841 1.24373 0
-    0.393619 1.31445 0
-    0.487705 1.29801 0
-    0.380087 1.29801 0
-    0.30025 1.60148 0
+    0.524841 0.24373 0
+    0.393619 0.31445 0
+    0.487705 0.29801 0
+    0.380087 0.29801 0
+    0.30025 0.60148 0
     0.715836 0.51173 0
-    0.284164 1.58907 0
-    0.0454607 1.68966 0
-    0.487705 1.67553 0
-    0.029533 1.67553 0
-    -0.00467718 2.04757 0
-    0.475159 1.24373 0
-    0.464078 1.26191 0
+    0.284164 0.58907 0
+    0.0454607 0.68966 0
+    0.487705 0.67553 0
+    0.029533 0.67553 0
+    -0.00467718 1.04757 0
+    0.475159 0.24373 0
+    0.464078 0.26191 0
     0.475159 0.487705 0
-    0.619913 1.29801 0
-    0.606381 1.31445 0
+    0.619913 0.29801 0
+    0.606381 0.31445 0
     0.619913 0.487705 0
     0.619913 0.512295 0
-    0.715836 1.58907 0
-    0.69975 1.60148 0
-    0.511729 1.58907 0
-    0.48827 1.58907 0
-    0.512295 1.29801 0
-    0.970467 1.67553 0
-    0.954539 1.68966 0
+    0.715836 0.58907 0
+    0.69975 0.60148 0
+    0.511729 0.58907 0
+    0.48827 0.58907 0
+    0.512295 0.29801 0
+    0.970467 0.67553 0
+    0.954539 0.68966 0
     0.970467 0.487705 0
     0.970467 0.512295 0
     0.715836 0.488271 0
-    1.00468 2.04757 0
-    0.512295 1.67553 0
-    0.5 2.04757 0
+    1.00468 1.04757 0
+    0.512295 0.67553 0
+    0.5 1.04757 0
 endnode
 endmodelgeom plc_clt_81
 donemodel plc_clt_81

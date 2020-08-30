@@ -1,83 +1,86 @@
-filedependancy Unknown
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 18:40:42 2019
+#MAXMODEL ASCII
+filedependency Unknown
 newmodel plc_table03
-setsupermodel plc_table03 NULL
-classification Character
-setanimationscale 1.0
+  classification CHARACTER
+  setsupermodel plc_table03 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
 beginmodelgeom plc_table03
 node dummy plc_table03
-    parent NULL
+  parent NULL
 endnode
-node trimesh Box8050
-    parent plc_table03
-    position 0.0 0.0 0.0
-    orientation 0.0 0.0 -1.0 -0.802851
-    scale 1.0
-    shininess 1.000000
-    render 1
-    shadow  1
-    diffuse 1.0 1.0 1.0
-    ambient 1.0 1.0 1.0
-    specular 0.0 0.0 0.0
-    selfillumcolor 0.0 0.0 0.0
-    alpha 1.0
-    bitmap TIC01_furnat01
-    verts 16
-        1.14 0.03 1.0
-        0.11 1.12 1.0
-        -1.13 -0.05 1.0
-        -0.1 -1.14 1.0
-        1.14 0.03 0.0
-        0.11 1.12 0.0
-        0.1 1.02 0.12
-        1.03 0.03 0.12
-        0.1 1.02 0.88
-        1.03 0.03 0.88
-        -1.13 -0.05 0.0
-        -1.02 -0.04 0.12
-        -1.02 -0.04 0.88
-        -0.1 -1.14 0.0
-        -0.09 -1.03 0.12
-        -0.09 -1.03 0.88
-    faces 26
-        0 1 2 1 0 1 2 1
-        2 3 0 1 2 3 0 1
-        4 5 6 1 4 5 6 5
-        6 7 4 1 6 7 4 5
-        7 6 8 1 7 6 8 5
-        8 9 7 1 8 9 7 5
-        9 8 1 1 9 8 10 5
-        1 0 9 1 10 11 9 5
-        5 10 11 1 5 4 7 4
-        11 6 5 1 7 6 5 4
-        6 11 12 1 6 7 9 4
-        12 8 6 1 9 8 6 4
-        8 12 2 1 8 9 11 4
-        2 1 8 1 11 10 8 4
-        10 13 14 1 4 5 6 6
-        14 11 10 1 6 7 4 6
-        11 14 15 1 7 6 8 6
-        15 12 11 1 8 9 7 6
-        12 15 3 1 9 8 10 6
-        3 2 12 1 10 11 9 6
-        13 4 7 1 5 4 7 3
-        7 14 13 1 7 6 5 3
-        14 7 9 1 6 7 9 3
-        9 15 14 1 9 8 6 3
-        15 9 0 1 8 9 11 3
-        0 3 15 1 11 10 8 3
-    tverts 12
-        0.5 1.0 0
-        0.25 1.0 0
-        0.25 0.072364 0
-        0.5 0.072364 0
-        0.5 0.0 0
-        1.0 0.0 0
-        1.0 0.125 0
-        0.5 0.125 0
-        1.0 0.5 0
-        0.5 0.5 0
-        1.0 0.626982 0
-        0.5 0.626982 0
+node trimesh box8050
+  parent plc_table03
+  position 0 0 0
+  orientation 0 0 -1 -0.802851
+  scale 1
+  shininess 1
+  render 1
+  shadow 1
+  diffuse 1 1 1
+  ambient 1 1 1
+  specular 0 0 0
+  selfillumcolor 0 0 0
+  alpha 1
+  bitmap tic01_furnat01
+  verts 16
+    1.14 0.03 1
+    0.11 1.12 1
+    -1.13 -0.05 1
+    -0.1 -1.14 1
+    1.14 0.03 0
+    0.11 1.12 0
+    0.1 1.02 0.12
+    1.03 0.03 0.12
+    0.1 1.02 0.88
+    1.03 0.03 0.88
+    -1.13 -0.05 0
+    -1.02 -0.04 0.12
+    -1.02 -0.04 0.88
+    -0.1 -1.14 0
+    -0.09 -1.03 0.12
+    -0.09 -1.03 0.88
+  faces 26
+    0 1 2 1 0 1 2 1
+    2 3 0 1 2 3 0 1
+    4 5 6 1 4 5 6 5
+    6 7 4 1 6 7 4 5
+    7 6 8 1 7 6 8 5
+    8 9 7 1 8 9 7 5
+    9 8 1 1 9 8 10 5
+    1 0 9 1 10 11 9 5
+    5 10 11 1 5 4 7 4
+    11 6 5 1 7 6 5 4
+    6 11 12 1 6 7 9 4
+    12 8 6 1 9 8 6 4
+    8 12 2 1 8 9 11 4
+    2 1 8 1 11 10 8 4
+    10 13 14 1 4 5 6 6
+    14 11 10 1 6 7 4 6
+    11 14 15 1 7 6 8 6
+    15 12 11 1 8 9 7 6
+    12 15 3 1 9 8 10 6
+    3 2 12 1 10 11 9 6
+    13 4 7 1 5 4 7 3
+    7 14 13 1 7 6 5 3
+    14 7 9 1 6 7 9 3
+    9 15 14 1 9 8 6 3
+    15 9 0 1 8 9 11 3
+    0 3 15 1 11 10 8 3
+  tverts 12
+    0.5 1 0
+    0.25 1 0
+    0.25 0.072364 0
+    0.5 0.072364 0
+    0.5 0 0
+    1 0 0
+    1 0.125 0
+    0.5 0.125 0
+    1 0.5 0
+    0.5 0.5 0
+    1 0.626982 0
+    0.5 0.626982 0
 endnode
 endmodelgeom plc_table03
 donemodel plc_table03

@@ -1,91 +1,83 @@
-# Exported from NWmax 0.8 b61 at 22.10.2017 14:31:01
-# mdl file
-#
-#NWmax MODEL ASCII
-# model: plc_nat49
-#local file: Unknown
-filedependancy Unknown
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 18:39:31 2019
+#MAXMODEL ASCII
+filedependency Unknown
 newmodel plc_nat49
-setsupermodel plc_nat49 NULL
-classification Character
-setanimationscale 1.0
-#NWmax GEOM  ASCII
+  classification CHARACTER
+  setsupermodel plc_nat49 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
 beginmodelgeom plc_nat49
 node dummy plc_nat49
   parent NULL
 endnode
 node dummy nat49_hand
   parent plc_nat49
-  position 0.0 0.0 1.36
-  orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.101961 0.694118 0.101961 
+  orientation 0 0 0 0
+  position 0 0 1.36
+  wirecolor 0.101961 0.694118 0.101961
 endnode
 node dummy nat49_head
   parent plc_nat49
-  position 0.0 0.0 1.57
-  orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.101961 0.694118 0.101961 
+  orientation 0 0 0 0
+  position 0 0 1.57
+  wirecolor 0.101961 0.694118 0.101961
 endnode
 node dummy nat49_head_hit
   parent plc_nat49
-  position 0.0 0.0 0.5
-  orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.101961 0.694118 0.101961 
+  orientation 0 0 0 0
+  position 0 0 0.5
+  wirecolor 0.101961 0.694118 0.101961
 endnode
 node dummy nat49_impact
   parent plc_nat49
-  position 0.0 0.0 0.07
-  orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.101961 0.694118 0.101961 
+  orientation 0 0 0 0
+  position 0 0 0.07
+  wirecolor 0.101961 0.694118 0.101961
 endnode
 node dummy nat49_ground
   parent plc_nat49
-  position 0.0 0.0 0.0
-  orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.52549 0.231373 0.0313726 
+  orientation 0 0 0 0
+  position 0 0 0
+  wirecolor 0.52549 0.231373 0.0313726
 endnode
 node trimesh webby02
   parent plc_nat49
-  position 0.0 0.0 0.66
-  orientation 1.0 0.0 0.0 0.0
-  wirecolor 1.0 1.0 1.0 
+  orientation 0 0 0 0
+  position 0 0 0.66
+  wirecolor 1 1 1
   tilefade 0
-  scale 1.0
+  scale 1
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   inheritcolor 0
   rotatetexture 0
-  alpha 1.0
+  alpha 1
   transparencyhint 0
-  selfillumcolor 0.0 0.0 0.0 
-  ambient 1.0 1.0 1.0 
-  diffuse 1.0 1.0 1.0 
-  specular 0.0 0.0 0.0 
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
   shininess 1
-  center -0.32895 -0.657895 -32.8948 
+  center -0.32895 -0.657895 -32.8948
   bitmap plc_cobweb01
   verts 6
-    -0.25 8.9407e-007 0.0
-    0.243421 -0.0131588 0.0
-    -0.25 8.9407e-007 -0.328947
+    -0.25 8.9407e-07 0
+    0.243421 -0.0131588 0
+    -0.25 8.9407e-07 -0.328947
     0.243421 -0.0131588 -0.328947
-    -0.25 8.9407e-007 -0.657895
+    -0.25 8.9407e-07 -0.657895
     0.243421 -0.0131588 -0.657895
   faces 8
-    2 0 3  1  6 4 7  1
-    1 3 0  1  5 7 4  1
-    4 2 5  1  8 6 9  1
-    3 5 2  1  7 9 6  1
-    0 2 3  2  4 6 7  1
-    3 1 0  2  7 5 4  1
-    2 4 5  2  6 8 9  1
-    5 3 2  2  9 7 6  1
-  tverts 10
-    0.172454 0.743902 0
-    0.172454 0.995969 0
-    0.471449 0.743903 0
-    0.471449 0.995969 0
+    2 0 3 1 2 0 3 1
+    1 3 0 1 1 3 0 1
+    4 2 5 1 4 2 5 1
+    3 5 2 1 3 5 2 1
+    0 2 3 2 0 2 3 1
+    3 1 0 2 3 1 0 1
+    2 4 5 2 2 4 5 1
+    5 3 2 2 5 3 2 1
+  tverts 6
     0.172454 0.5 0
     0.471449 0.5 0
     0.172454 0.256097 0

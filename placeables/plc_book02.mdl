@@ -1,66 +1,69 @@
-filedependancy Unknown
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 18:35:52 2019
+#MAXMODEL ASCII
+filedependency Unknown
 newmodel plc_book02
-setsupermodel plc_book02 NULL
-classification Character
-setanimationscale 1.0
+  classification CHARACTER
+  setsupermodel plc_book02 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
 beginmodelgeom plc_book02
 node dummy plc_book02
-    parent NULL
+  parent NULL
 endnode
-node trimesh Box4447
-    parent plc_book02
-    position 0.0 0.0 -0.269907
-    orientation 0.0 0.0 1.0 -0.497419
-    scale 1.0
-    shininess 26.000000
-    render 1
-    shadow  1
-    diffuse 1.0 1.0 1.0
-    ambient 1.0 1.0 1.0
-    specular 0.05 0.05 0.05
-    selfillumcolor 0.0 0.0 0.0
-    alpha 1.0
-    bitmap TIC01_book00
-    verts 10
-        -0.53 0.24 0.27
-        -0.39 -0.03 0.37
-        0.17 0.28 0.37
-        0.02 0.54 0.27
-        -0.31 -0.17 0.27
-        0.25 0.14 0.27
-        -0.23 -0.32 0.37
-        0.33 -0.01 0.37
-        -0.08 -0.58 0.27
-        0.48 -0.27 0.27
-    faces 12
-        0 1 2 1 0 1 2 1
-        2 3 0 1 2 3 0 1
-        1 4 5 1 1 4 5 1
-        5 2 1 1 5 2 1 1
-        5 6 7 1 5 6 7 1
-        6 5 4 1 6 5 4 1
-        7 8 9 1 7 8 9 1
-        8 7 6 1 8 7 6 1
-        4 1 0 1 10 11 12 5
-        8 6 4 1 13 14 10 5
-        5 7 9 1 10 14 13 6
-        3 2 5 1 12 11 10 6
-    tverts 15
-        1.00017 1.0 0
-        0.65987 1.0 0
-        0.65987 0.25 0
-        1.00017 0.25 0
-        0.5 1.0 0
-        0.5 0.25 0
-        0.34013 1.0 0
-        0.34013 0.25 0
-        -0.000175 1.0 0
-        -0.000175 0.25 0
-        0.5 0.0 0
-        0.275993 0.247503 0
-        0.0 0.0 0
-        1.0 0.0 0
-        0.724007 0.247503 0
+node trimesh box4447
+  parent plc_book02
+  position 0 0 -0.269907
+  orientation 0 0 1 -0.497419
+  scale 1
+  shininess 26
+  render 1
+  shadow 1
+  diffuse 1 1 1
+  ambient 1 1 1
+  specular 0.05 0.05 0.05
+  selfillumcolor 0 0 0
+  alpha 1
+  bitmap tic01_book00
+  verts 10
+    -0.53 0.24 0.27
+    -0.39 -0.03 0.37
+    0.17 0.28 0.37
+    0.02 0.54 0.27
+    -0.31 -0.17 0.27
+    0.25 0.14 0.27
+    -0.23 -0.32 0.37
+    0.33 -0.01 0.37
+    -0.08 -0.58 0.27
+    0.48 -0.27 0.27
+  faces 12
+    0 1 2 1 0 1 2 1
+    2 3 0 1 2 3 0 1
+    1 4 5 1 1 4 5 1
+    5 2 1 1 5 2 1 1
+    5 6 7 1 5 6 7 1
+    6 5 4 1 6 5 4 1
+    7 8 9 1 7 8 9 1
+    8 7 6 1 8 7 6 1
+    4 1 0 1 10 11 12 5
+    8 6 4 1 13 14 10 5
+    5 7 9 1 10 14 13 6
+    3 2 5 1 12 11 10 6
+  tverts 15
+    1.00017 1 0
+    0.65987 1 0
+    0.65987 0.25 0
+    1.00017 0.25 0
+    0.5 1 0
+    0.5 0.25 0
+    0.34013 1 0
+    0.34013 0.25 0
+    -0.000175 1 0
+    -0.000175 0.25 0
+    0.5 0 0
+    0.275993 0.247503 0
+    0 0 0
+    1 0 0
+    0.724007 0.247503 0
 endnode
 endmodelgeom plc_book02
 donemodel plc_book02

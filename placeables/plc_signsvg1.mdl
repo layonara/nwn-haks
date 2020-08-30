@@ -1,182 +1,47 @@
-#Exported from 3ds max by MDL Plug-in Suite 1.0b
-#http://www.bricksbuilder.com/nwn/utils/
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 18:40:33 2019
 #MAXMODEL ASCII
-# model: PLC_SignSvg1
-filedependancy Orc Sign.max
-newmodel PLC_SignSvg1
-setsupermodel PLC_SignSvg1 NULL
-classification Character
-setanimationscale 1.0
-#MAXGEOM  ASCII
-beginmodelgeom PLC_SignSvg1
-node dummy PLC_SignSvg1
+filedependency Unknown
+newmodel plc_signsvg1
+  classification CHARACTER
+  setsupermodel plc_signsvg1 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom plc_signsvg1
+node dummy plc_signsvg1
   parent NULL
 endnode
-node dummy SignSvg_hand
-  parent PLC_SignSvg1
+node dummy signsvg_hand
+  parent plc_signsvg1
   position 0 -0.5052 0.934402
   orientation 0 0 0 0
   wirecolor 0.0351563 0.0351563 0.0351563
 endnode
-node dummy SignSvg_head
-  parent PLC_SignSvg1
+node dummy signsvg_head
+  parent plc_signsvg1
   position 0 0 1.83386
   orientation 0 0 0 0
   wirecolor 0.0351563 0.0351563 0.0351563
 endnode
-node dummy SignSvg_head_hit
-  parent PLC_SignSvg1
+node dummy signsvg_head_hit
+  parent plc_signsvg1
   position 0 0 1.99388
   orientation 0 0 0 0
   wirecolor 0.0351563 0.0351563 0.0351563
 endnode
-node dummy SignSvg_impact
-  parent PLC_SignSvg1
+node dummy signsvg_impact
+  parent plc_signsvg1
   position 0 0 0.868134
   orientation 0 0 0 0
   wirecolor 0.0351563 0.0351563 0.0351563
 endnode
-node dummy SignSvg_ground
-  parent PLC_SignSvg1
+node dummy signsvg_ground
+  parent plc_signsvg1
   position 0 0 0
   orientation 0 0 0 0
   wirecolor 0.0351563 0.0351563 0.0351563
 endnode
-node emitter ChunkyWood255
-  parent PLC_SignSvg1
-  position 0 0 1.2872
-  orientation 0 0 0 0
-  wirecolor 0.113281 0.113281 0.113281
-    colorStart 1 1 1
-    colorEnd 1 1 1
-    alphaStart 1
-    alphaEnd 1
-    sizeStart 0.1
-    sizeEnd 0.1
-    sizeStart_y 0
-    sizeEnd_y 0
-    frameStart 0
-    frameEnd 24
-    birthrate 2
-    spawnType 0
-    lifeExp 0.75
-    mass 3
-    spread 1.22173
-    particleRot 5
-    velocity 8
-    randvel 0.3
-    fps 0
-    random 0
-    inherit 1
-    inherit_local 0
-    inherit_part 0
-    inheritvel 0
-    xsize 89
-    ysize 40
-    bounce 1
-    bounce_co 0.5
-    loop 0
-    update Explosion
-    render Normal
-    Blend Normal
-    update_sel 2
-    render_sel 1
-    blend_sel 1
-    deadspace 0
-    opacity 0.5
-    blurlength 10
-    lightningDelay 0
-    lightningRadius 0
-    lightningScale 0
-    blastRadius 0
-    blastLength 0
-    twosidedtex 0
-    p2p 0
-    p2p_sel 1
-    p2p_type Bezier
-    p2p_bezier2 0
-    p2p_bezier3 0
-    combinetime 0
-    drag 0
-    grav 0
-    threshold 0
-    texture fxpa_cloud02
-    xgrid 5
-    ygrid 5
-    affectedByWind 0
-    m_isTinted 0
-    renderorder 0
-    Splat 0
-    chunkName PLC_Chunk_W01
-endnode
-node emitter fire!159
-  parent PLC_SignSvg1
-  position 0 0 0.880946
-  orientation -1 0 0 -1.5708
-  wirecolor 0.113281 0.113281 0.113281
-    colorStart 0.443137 0.392157 0.258824
-    colorEnd 0.72549 0.694118 0.560784
-    alphaStart 1
-    alphaEnd 0
-    sizeStart 4
-    sizeEnd 1
-    sizeStart_y 0
-    sizeEnd_y 0
-    frameStart 0
-    frameEnd 24
-    birthrate 10
-    spawnType 0
-    lifeExp 2.5
-    mass 0.09
-    spread 2.96706
-    particleRot 0.5
-    velocity 2
-    randvel 0.5
-    fps 10
-    random 0
-    inherit 1
-    inherit_local 0
-    inherit_part 0
-    inheritvel 0
-    xsize 100
-    ysize 99
-    bounce 0
-    bounce_co 0
-    loop 0
-    update Explosion
-    render Normal
-    Blend Normal
-    update_sel 2
-    render_sel 1
-    blend_sel 1
-    deadspace 0
-    opacity 0.5
-    blurlength 10
-    lightningDelay 0
-    lightningRadius 0
-    lightningScale 0
-    blastRadius 0.2
-    blastLength 1
-    twosidedtex 1
-    p2p 0
-    p2p_sel 1
-    p2p_type Bezier
-    p2p_bezier2 0
-    p2p_bezier3 0
-    combinetime 0
-    drag 0
-    grav 0
-    threshold 0
-    texture fxpa_smoke01
-    xgrid 4
-    ygrid 4
-    affectedByWind 0
-    m_isTinted 1
-    renderorder 0
-    Splat 0
-endnode
 node trimesh damage106
-  parent PLC_SignSvg1
+  parent plc_signsvg1
   position 0 0 0
   orientation 0 0 0 0
   wirecolor 0.425781 0.425781 0.425781
@@ -186,7 +51,7 @@ node trimesh damage106
   shininess 24
   bitmap NULL
   render 0
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 0
@@ -205,26 +70,26 @@ node trimesh damage106
     0.103944 0.0990513 0.25
     -0.103944 0.0990513 0.25
   faces 20
-    0 1 2  1  0 0 0  0
-    2 3 0  1  0 0 0  0
-    4 5 6  1  0 0 0  0
-    6 7 4  1  0 0 0  0
-    0 3 8  1  0 0 0  0
-    8 9 0  1  0 0 0  0
-    9 8 5  1  0 0 0  0
-    5 4 9  1  0 0 0  0
-    3 2 10  1  0 0 0  0
-    10 8 3  1  0 0 0  0
-    8 10 6  1  0 0 0  0
-    6 5 8  1  0 0 0  0
-    2 1 11  1  0 0 0  0
-    11 10 2  1  0 0 0  0
-    10 11 7  1  0 0 0  0
-    7 6 10  1  0 0 0  0
-    1 0 9  1  0 0 0  0
-    9 11 1  1  0 0 0  0
-    11 9 4  1  0 0 0  0
-    4 7 11  1  0 0 0  0
+    0 1 2 1 0 0 0 0
+    2 3 0 1 0 0 0 0
+    4 5 6 1 0 0 0 0
+    6 7 4 1 0 0 0 0
+    0 3 8 1 0 0 0 0
+    8 9 0 1 0 0 0 0
+    9 8 5 1 0 0 0 0
+    5 4 9 1 0 0 0 0
+    3 2 10 1 0 0 0 0
+    10 8 3 1 0 0 0 0
+    8 10 6 1 0 0 0 0
+    6 5 8 1 0 0 0 0
+    2 1 11 1 0 0 0 0
+    11 10 2 1 0 0 0 0
+    10 11 7 1 0 0 0 0
+    7 6 10 1 0 0 0 0
+    1 0 9 1 0 0 0 0
+    9 11 1 1 0 0 0 0
+    11 9 4 1 0 0 0 0
+    4 7 11 1 0 0 0 0
   tverts 1
     0 0 0
 endnode
@@ -237,7 +102,7 @@ node trimesh post
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  bitmap PLC_woodB256
+  bitmap plc_woodb256
   verts 8
     -0.0309734 -0.0442478 0
     -0.0309734 0.0442478 0
@@ -248,21 +113,19 @@ node trimesh post
     0.027904 0.0398629 1.86634
     -0.027904 0.0398629 1.86634
   faces 8
-    0 3 5  0  3 0 1  0
-    5 4 0  0  1 2 3  0
-    3 2 6  0  3 0 1  0
-    6 5 3  0  1 2 3  0
-    2 1 7  0  3 0 1  0
-    7 6 2  0  1 2 3  0
-    1 0 4  0  3 0 1  0
-    4 7 1  0  1 2 3  0
-  tverts 6
+    0 3 5 0 3 0 1 0
+    5 4 0 0 1 2 3 0
+    3 2 6 0 3 0 1 0
+    6 5 3 0 1 2 3 0
+    2 1 7 0 3 0 1 0
+    7 6 2 0 1 2 3 0
+    1 0 4 0 3 0 1 0
+    4 7 1 0 1 2 3 0
+  tverts 4
     1 0 0
     1 1 0
     0.892836 1 0
     0.892836 0 0
-    1 0.102754 0
-    0.892836 0.102754 0
 endnode
 node trimesh skull
   parent post
@@ -273,7 +136,7 @@ node trimesh skull
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap PLC_Trans
+  bitmap plc_trans
   verts 31
     0.0317053 0.0883132 0.0382397
     0 0.09429 0.0438496
@@ -307,64 +170,64 @@ node trimesh skull
     0.04 0.0191173 -0.00219743
     -0.04 0.0191174 -0.00219742
   faces 57
-    0 1 2  1  0 1 2  0
-    2 3 0  1  2 3 0  0
-    3 2 4  1  3 2 4  0
-    5 4 2  1  5 4 2  0
-    6 7 8  1  6 7 8  0
-    8 9 6  1  8 9 6  0
-    10 9 11  1  10 9 11  0
-    1 0 12  1  1 0 12  0
-    13 14 15  1  13 14 15  0
-    13 16 3  1  13 16 3  0
-    11 13 10  1  11 13 10  0
-    14 13 4  1  14 13 4  0
-    3 4 13  1  3 4 13  0
-    17 15 18  1  17 31 18  0
-    14 18 15  1  14 18 15  0
-    18 14 5  1  18 14 5  0
-    4 5 14  1  4 5 14  0
-    10 6 9  1  10 6 9  0
-    0 9 12  1  0 9 12  0
-    16 0 3  1  16 0 3  0
-    16 13 11  1  16 13 11  0
-    2 19 20  1  2 19 20  0
-    19 2 1  1  19 2 1  0
-    2 20 21  1  2 20 21  0
-    21 5 2  1  21 22 2  0
-    22 8 7  1  23 8 7  0
-    8 22 23  1  8 23 24  0
-    8 19 12  1  8 19 12  0
-    24 25 26  1  25 26 27  0
-    27 25 20  1  28 26 20  0
-    25 23 22  1  26 24 23  0
-    25 24 21  1  26 25 21  0
-    21 20 25  1  21 20 26  0
-    26 17 18  1  27 29 30  0
-    18 24 26  1  30 25 27  0
-    24 18 5  1  25 30 22  0
-    5 21 24  1  22 21 25  0
-    12 19 1  1  12 19 1  0
-    19 27 20  1  19 28 20  0
-    25 27 23  1  26 28 24  0
-    15 17 28  1  33 34 32  0
-    10 22 7  0  10 23 7  0
-    10 7 6  0  10 7 6  0
-    10 13 28  1  10 13 32  0
-    22 10 28  1  23 10 32  0
-    15 28 13  1  33 32 13  0
-    26 25 28  1  27 26 32  0
-    17 26 28  1  35 27 32  0
-    22 28 25  1  23 32 26  0
-    11 9 29  2  11 9 36  0
-    9 0 29  2  9 0 36  0
-    0 16 29  2  0 16 36  0
-    16 11 29  2  16 11 36  0
-    8 23 30  2  8 24 37  0
-    19 8 30  2  19 8 37  0
-    27 19 30  2  28 19 37  0
-    23 27 30  2  24 28 37  0
-  tverts 38
+    0 1 2 1 0 1 2 0
+    2 3 0 1 2 3 0 0
+    3 2 4 1 3 2 4 0
+    5 4 2 1 5 4 2 0
+    6 7 8 1 6 7 8 0
+    8 9 6 1 8 9 6 0
+    10 9 11 1 10 9 11 0
+    1 0 12 1 1 0 12 0
+    13 14 15 1 13 14 15 0
+    13 16 3 1 13 16 3 0
+    11 13 10 1 11 13 10 0
+    14 13 4 1 14 13 4 0
+    3 4 13 1 3 4 13 0
+    17 15 18 1 17 15 18 0
+    14 18 15 1 14 18 15 0
+    18 14 5 1 18 14 5 0
+    4 5 14 1 4 5 14 0
+    10 6 9 1 10 6 9 0
+    0 9 12 1 0 9 12 0
+    16 0 3 1 16 0 3 0
+    16 13 11 1 16 13 11 0
+    2 19 20 1 2 19 20 0
+    19 2 1 1 19 2 1 0
+    2 20 21 1 2 20 21 0
+    21 5 2 1 21 22 2 0
+    22 8 7 1 23 8 7 0
+    8 22 23 1 8 23 24 0
+    8 19 12 1 8 19 12 0
+    24 25 26 1 25 26 27 0
+    27 25 20 1 28 26 20 0
+    25 23 22 1 26 24 23 0
+    25 24 21 1 26 25 21 0
+    21 20 25 1 21 20 26 0
+    26 17 18 1 27 29 30 0
+    18 24 26 1 30 25 27 0
+    24 18 5 1 25 30 22 0
+    5 21 24 1 22 21 25 0
+    12 19 1 1 12 19 1 0
+    19 27 20 1 19 28 20 0
+    25 27 23 1 26 28 24 0
+    15 17 28 1 32 33 31 0
+    10 22 7 0 10 23 7 0
+    10 7 6 0 10 7 6 0
+    10 13 28 1 10 13 31 0
+    22 10 28 1 23 10 31 0
+    15 28 13 1 32 31 13 0
+    26 25 28 1 27 26 31 0
+    17 26 28 1 34 27 31 0
+    22 28 25 1 23 31 26 0
+    11 9 29 2 11 9 35 0
+    9 0 29 2 9 0 35 0
+    0 16 29 2 0 16 35 0
+    16 11 29 2 16 11 35 0
+    8 23 30 2 8 24 36 0
+    19 8 30 2 19 8 36 0
+    27 19 30 2 28 19 36 0
+    23 27 30 2 24 28 36 0
+  tverts 37
     0.86367 0.108581 0
     0.874327 0.10985 0
     0.874327 0.163941 0
@@ -396,7 +259,6 @@ node trimesh skull
     0.904382 0.101142 0
     0.988743 0.0957645 0
     0.988743 0.164136 0
-    0.786998 0.0920125 0
     0.873664 0.0761171 0
     0.788299 0.0913619 0
     0.8074 0.10517 0
@@ -404,7 +266,7 @@ node trimesh skull
     0.854863 0.0848013 0.311469
     0.895478 0.0847427 0.31147
 endnode
-node trimesh Sign
+node trimesh sign
   parent post
   position 0 0.06 1.16
   orientation 0 0 0 0
@@ -458,79 +320,79 @@ node trimesh Sign
     -0.339735 0.0135989 0.1724
     0.357506 0.0135988 0.172403
   faces 70
-    0 2 1  0  31 33 32  1
-    38 39 3  0  41 44 42  1
-    3 39 6  0  42 44 43  1
-    4 3 6  0  50 49 52  1
-    5 4 6  0  51 50 52  1
-    0 1 7  0  87 88 89  1
-    7 12 8  0  69 72 70  1
-    8 11 9  0  77 80 78  1
-    9 11 10  0  78 80 79  1
-    8 12 11  0  70 72 71  1
-    7 1 12  0  89 88 90  1
-    1 14 13  0  2 102 101  2
-    1 2 14  0  2 33 102  2
-    38 37 40  0  65 118 114  2
-    38 36 37  0  65 117 118  2
-    3 16 15  0  6 122 121  2
-    3 4 16  0  6 18 122  2
-    4 17 16  0  4 17 16  2
-    4 5 17  0  4 5 17  2
-    27 29 28  0  104 106 105  2
-    27 26 29  0  104 103 106  2
-    7 21 20  0  8 22 21  2
-    7 8 21  0  8 9 22  2
-    8 22 21  0  125 130 129  2
-    8 9 22  0  125 126 130  2
-    9 23 22  0  10 24 23  2
-    9 10 23  0  10 11 24  2
-    10 24 23  0  127 132 131  2
-    10 11 24  0  127 128 132  2
-    11 25 24  0  12 26 25  2
-    11 12 25  0  12 13 26  2
-    32 33 35  0  109 110 112  2
-    32 31 33  0  109 108 110  2
-    19 13 14  0  36 34 35  0
-    41 40 15  0  48 45 46  0
-    18 15 16  0  56 53 54  0
-    18 16 17  0  56 54 55  0
-    41 15 18  0  48 46 47  0
-    22 23 24  0  82 83 84  0
-    22 24 21  0  82 84 81  0
-    24 25 21  0  75 76 74  0
-    25 20 21  0  76 73 74  0
-    13 20 25  0  91 93 94  0
-    19 20 13  0  92 93 91  0
-    2 0 26  0  33 31 37  2
-    26 27 2  0  37 38 33  2
-    14 2 27  0  19 7 28  2
-    27 28 14  0  28 29 19  2
-    19 14 28  0  36 33 39  2
-    28 29 19  0  39 40 36  2
-    0 19 29  0  0 20 30  2
-    29 26 0  0  30 27 0  2
-    0 7 30  0  87 89 95  2
-    12 1 31  0  90 88 96  2
-    31 32 12  0  96 97 90  2
-    1 13 33  0  1 14 63  2
-    33 31 1  0  63 61 1  2
-    20 19 34  0  93 92 99  2
-    19 0 30  0  60 57 107  2
-    30 34 19  0  107 111 60  2
-    7 20 34  0  8 21 59  2
-    34 30 7  0  59 58 8  2
-    25 12 32  0  26 13 62  2
-    32 35 25  0  62 64 26  2
-    13 25 35  0  91 94 100  2
-    35 33 13  0  100 98 91  2
-    38 3 36  0  41 42 85  2
-    40 37 15  0  45 86 46  2
-    3 15 37  0  3 15 68  2
-    37 36 3  0  68 66 3  2
-  tverts 133
-    0.448881 0.10919 0.5
-    0.668888 0.818517 5.85298
+    0 2 1 0 25 27 26 1
+    38 39 3 0 30 33 31 1
+    3 39 6 0 31 33 32 1
+    4 3 6 0 35 34 37 1
+    5 4 6 0 36 35 37 1
+    0 1 7 0 58 59 60 1
+    7 12 8 0 45 48 46 1
+    8 11 9 0 49 52 50 1
+    9 11 10 0 50 52 51 1
+    8 12 11 0 46 48 47 1
+    7 1 12 0 60 59 61 1
+    1 14 13 0 2 66 65 2
+    1 2 14 0 2 27 66 2
+    38 37 40 0 44 79 77 2
+    38 36 37 0 44 78 79 2
+    3 16 15 0 6 81 80 2
+    3 4 16 0 6 17 81 2
+    4 17 16 0 4 16 15 2
+    4 5 17 0 4 5 16 2
+    27 29 28 0 68 70 69 2
+    27 26 29 0 68 67 70 2
+    7 21 20 0 8 9 8 2
+    7 8 21 0 8 9 9 2
+    8 22 21 0 82 87 86 2
+    8 9 22 0 82 83 87 2
+    9 23 22 0 10 20 19 2
+    9 10 23 0 10 11 20 2
+    10 24 23 0 84 89 88 2
+    10 11 24 0 84 85 89 2
+    11 25 24 0 12 13 12 2
+    11 12 25 0 12 13 13 2
+    32 33 35 0 73 74 76 2
+    32 31 33 0 73 72 74 2
+    19 13 14 0 25 26 27 0
+    41 40 15 0 33 30 31 0
+    18 15 16 0 37 34 35 0
+    18 16 17 0 37 35 36 0
+    41 15 18 0 33 31 32 0
+    22 23 24 0 54 55 56 0
+    22 24 21 0 54 56 53 0
+    24 25 21 0 47 48 46 0
+    25 20 21 0 48 45 46 0
+    13 20 25 0 59 60 61 0
+    19 20 13 0 58 60 59 0
+    2 0 26 0 27 25 28 2
+    26 27 2 0 28 29 27 2
+    14 2 27 0 18 7 22 2
+    27 28 14 0 22 23 18 2
+    19 14 28 0 25 27 29 2
+    28 29 19 0 29 28 25 2
+    0 19 29 0 0 0 24 2
+    29 26 0 0 24 21 0 2
+    0 7 30 0 58 60 62 2
+    12 1 31 0 61 59 63 2
+    31 32 12 0 63 64 61 2
+    1 13 33 0 1 14 43 2
+    33 31 1 0 43 41 1 2
+    20 19 34 0 60 58 62 2
+    19 0 30 0 40 38 71 2
+    30 34 19 0 71 75 40 2
+    7 20 34 0 8 8 39 2
+    34 30 7 0 39 39 8 2
+    25 12 32 0 13 13 42 2
+    32 35 25 0 42 42 13 2
+    13 25 35 0 59 61 64 2
+    35 33 13 0 64 63 59 2
+    38 3 36 0 30 31 57 2
+    40 37 15 0 30 57 31 2
+    3 15 37 0 3 3 3 2
+    37 36 3 0 3 3 3 2
+  tverts 90
+    0.448881 0.10919 -0.5
+    0.668888 0.818517 0.85298
     0.324678 0.906417 1
     0.0479117 0.872981 0.5
     0.656225 0.716896 0.5
@@ -543,93 +405,57 @@ node trimesh Sign
     0.418007 0.783766 0.5
     0.755281 0.873679 0.5
     0.623596 0.917368 0.5
-    0.619521 0.818517 5.85298
-    0.0479117 0.872981 1.5
+    0.619521 0.818517 0.85298
     0.68392 0.716896 0.5
     0.68392 0.799061 0.5
     0.680256 0.820939 0.678448
     0.258911 0.546941 0.000726349
-    0.448881 0.10919 1.5
-    0.623596 0.633654 1.5
-    0.755281 0.677343 1.5
     0.391995 0.666383 0.5
     0.391995 0.783766 0.5
-    0.755281 0.873679 1.5
-    0.623596 0.917368 1.5
-    0.437392 0.0630169 0.5
+    0.437392 0.0630169 -0.5
     0.286199 0.615002 0.999274
     0.259508 0.615302 0.999274
-    0.44888 0.0630169 1.5
+    0.44888 0.0630169 0.5
     0.32379 0.597234 0
     0.32379 0.930611 0
     0.19161 0.914104 0
-    0.32379 0.930611 1
-    0.19161 0.914104 1
-    0.32379 0.597234 1
     0.32379 0.580874 0
     0.191611 0.576303 0
-    0.191611 0.576303 1
-    0.32379 0.580874 1
     0.829795 0.898335 0
     0.69549 0.848661 0
     0.69549 0.625428 0
     0.829794 0.575754 0
-    0.829795 0.898335 1
-    0.69549 0.848661 1
-    0.69549 0.625428 1
-    0.829794 0.575754 1
     0.622296 0.875663 0
     0.681448 0.801101 0
     0.681448 0.718344 0
     0.622296 0.643782 0
-    0.622296 0.875663 1
-    0.681448 0.801101 1
-    0.681448 0.718344 1
-    0.622296 0.643782 1
     0.759711 0.776953 0.0110157
     0.671402 0.15578 0.5
-    0.671402 0.15578 1.5
     0.759711 0.797248 0.0110157
-    0.668888 0.906473 4.85298
+    0.668888 0.906473 -0.14702
     0.671401 1.00352 0.5
-    0.619521 0.906473 4.85298
-    0.671401 1.00352 1.5
+    0.619521 0.906473 -0.14702
     0.695879 0.709922 1
-    0.0479117 0.872981 0.5
-    0.697136 0.850003 0.153989
-    0.0479117 0.872981 1.5
     0.62144 0.581517 0
     0.762859 0.633053 0
     0.762859 0.864651 0
     0.621441 0.916187 0
-    0.62144 0.581517 1
-    0.762859 0.633053 1
-    0.762859 0.864651 1
-    0.621441 0.916187 1
     0.254598 0.619038 0
     0.325327 0.708556 0
     0.325377 0.810686 0
     0.254619 0.905199 0
-    0.323114 0.619038 1
-    0.252385 0.708556 1
-    0.252335 0.810686 1
-    0.323094 0.905199 1
+    0.323114 0.619038 0
+    0.252385 0.708556 0
+    0.252335 0.810686 0
+    0.323094 0.905199 0
     0.69549 0.890117 0
-    0.69549 0.890117 1
     0.759385 0.579664 0
     0.759385 0.892089 0
     0.621994 0.595134 0
     0.621992 0.876619 0
-    0.759385 0.892089 1
-    0.759385 0.579664 1
-    0.621994 0.595134 1
-    0.621992 0.876619 1
     0.621994 0.57597 0
     0.759385 0.911253 0
     0.621994 0.911317 0
-    0.759385 0.911253 1
-    0.621994 0.57597 1
-    0.621994 0.911317 1
     0.324678 0.91483 1
     0.190707 0.91483 0.95341
     0.325298 0.561488 0.0129024
@@ -642,18 +468,11 @@ node trimesh Sign
     0.759733 0.918809 0.999809
     0.622174 0.797248 0
     0.621665 0.918809 1
-    0.830481 0.850003 0
     0.695879 0.75316 1
-    0.697136 0.875657 0.153989
-    0.830481 0.875657 0
     0.829036 0.709922 0.974526
     0.829036 0.75316 0.974526
-    0.680201 0.657788 0.321552
-    0.622004 0.657788 0
     0.622657 0.839968 1
     0.680256 0.839968 0.678448
-    0.680201 0.671211 0.321552
-    0.622004 0.671211 0
     0.273841 0.568186 0
     0.273841 0.686344 0.321552
     0.27457 0.918501 0.678448
@@ -663,8 +482,8 @@ node trimesh Sign
     0.304736 0.918501 0.678448
     0.304736 0.808214 1
 endnode
-node trimesh Tube01
-  parent Sign
+node trimesh tube01
+  parent sign
   position 0.22404 0 0.276792
   orientation 0 0 0 0
   wirecolor 0.695313 0.695313 0.695313
@@ -687,23 +506,23 @@ node trimesh Tube01
     -0.144831 0.0163851 0.0702287
     -0.144831 -0.016385 0.0702287
   faces 16
-    0 5 4  0  0 3 2  2
-    0 1 5  0  0 1 3  2
-    1 6 5  0  7 12 11  0
-    1 2 6  0  7 8 12  0
-    3 4 7  0  9 10 13  1
-    3 0 4  0  9 6 10  1
-    4 9 8  0  2 5 4  2
-    4 5 9  0  2 3 5  2
-    5 10 9  0  11 16 15  0
-    5 6 10  0  11 12 16  0
-    7 8 11  0  13 14 17  1
-    7 4 8  0  13 10 14  1
-    8 9 11  0  22 23 25  0
-    11 9 10  0  25 23 24  0
-    0 3 1  0  18 21 19  0
-    1 3 2  0  19 21 20  0
-  tverts 26
+    0 5 4 0 0 3 2 2
+    0 1 5 0 0 1 3 2
+    1 6 5 0 6 9 8 0
+    1 2 6 0 6 7 9 0
+    3 4 7 0 7 8 9 1
+    3 0 4 0 7 6 8 1
+    4 9 8 0 2 5 4 2
+    4 5 9 0 2 3 5 2
+    5 10 9 0 8 11 10 0
+    5 6 10 0 8 9 11 0
+    7 8 11 0 9 10 11 1
+    7 4 8 0 9 8 10 1
+    8 9 11 0 16 17 19 0
+    11 9 10 0 19 17 18 0
+    0 3 1 0 12 15 13 0
+    1 3 2 0 13 15 14 0
+  tverts 20
     0.377705 0.963388 0
     0.377705 0.99455 0
     0.258109 0.963388 0.643104
@@ -711,27 +530,21 @@ node trimesh Tube01
     0.135566 0.963388 1
     0.135566 0.99455 1
     0.37861 0.503401 0
-    0.37861 0.503401 1
     0.378559 0.544414 1
-    0.378559 0.544414 0
     0.258065 0.503323 0
-    0.258065 0.503323 1
     0.258086 0.544356 1
-    0.258086 0.544356 0
     0.135621 0.503337 0
-    0.135621 0.503337 1
     0.13567 0.544367 1
-    0.13567 0.544367 0
     0.459491 0.838076 1
     0.491085 0.838076 1
     0.491085 0.797004 0
     0.459491 0.797004 0
-    0.0396211 0.721965 4.781
-    0.00734437 0.721965 4.781
-    0.00734437 0.681374 5.781
-    0.0396211 0.681374 5.781
+    0.0396211 0.721965 -0.219
+    0.00734437 0.721965 -0.219
+    0.00734437 0.681374 0.781
+    0.0396211 0.681374 0.781
 endnode
-node trimesh Spear01
+node trimesh spear01
   parent post
   position 0.45 -0.0384512 0
   orientation 0 0 0 0
@@ -740,7 +553,7 @@ node trimesh Spear01
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  bitmap PLC_woodB256
+  bitmap plc_woodb256
   verts 9
     0.0311471 0.00133333 -0.0297634
     0.0165877 -0.02 -0.0363985
@@ -752,19 +565,19 @@ node trimesh Spear01
     -0.824718 0.0258667 1.80968
     -0.961816 0 2.11051
   faces 12
-    5 0 4  1  3 0 2  2
-    1 0 5  1  1 14 24  2
-    6 1 5  1  4 7 8  2
-    2 1 6  1  16 9 25  2
-    7 2 6  1  5 17 26  2
-    3 2 7  1  19 18 29  2
-    4 3 7  1  22 20 30  2
-    0 3 4  1  15 21 23  2
-    4 8 5  0  10 6 11  0
-    5 8 6  0  12 33 27  0
-    6 8 7  0  28 34 31  0
-    7 8 4  0  32 35 13  0
-  tverts 36
+    5 0 4 1 3 0 2 2
+    1 0 5 1 1 0 3 2
+    6 1 5 1 4 7 8 2
+    2 1 6 1 11 7 4 2
+    7 2 6 1 5 11 4 2
+    3 2 7 1 12 11 5 2
+    4 3 7 1 2 12 5 2
+    0 3 4 1 0 12 2 2
+    4 8 5 0 9 6 10 0
+    5 8 6 0 10 6 13 0
+    6 8 7 0 13 6 14 0
+    7 8 4 0 14 6 9 0
+  tverts 15
     0.593624 0.000499547 0.557769
     0.633396 0.000499547 0.795501
     0.596363 1.26365 1.01952
@@ -774,35 +587,14 @@ node trimesh Spear01
     0.825031 0.810555 0.10175
     0.463531 0.000499547 0.795501
     0.463531 1.26365 0.795501
-    0.463531 0.000499547 0.795501
     0.760299 0.41638 1.01952
     0.805535 0.41638 0.795501
-    0.805535 0.41638 0.795501
-    0.760299 0.41638 1.01952
-    0.593624 0.000499547 0.557769
-    0.593624 0.000499547 0.557769
-    0.503303 0.000499547 0.557769
-    0.503303 0.000499547 0.557769
     0.503303 0.000499547 0.557769
     0.548463 0.000499547 0.499501
-    0.548463 0.000499547 0.499501
-    0.548463 0.000499547 0.499501
-    0.596363 1.26365 1.01952
-    0.596363 1.26365 1.01952
-    0.633396 1.26365 0.795501
-    0.500564 1.26365 1.01952
-    0.500564 1.26365 1.01952
     0.850772 0.41638 1.01952
-    0.850772 0.41638 1.01952
-    0.548463 1.26365 0.795501
-    0.548463 1.26365 0.795501
     0.909281 0.41638 0.795501
-    0.909281 0.41638 0.795501
-    0.825031 0.810555 0.10175
-    0.825031 0.810555 0.10175
-    0.825031 0.810555 0.10175
 endnode
-node trimesh Spear02
+node trimesh spear02
   parent post
   position -0.45 -0.05 0
   orientation 0 0 0 0
@@ -811,7 +603,7 @@ node trimesh Spear02
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  bitmap PLC_woodB256
+  bitmap plc_woodb256
   verts 9
     -0.0311471 0.00133333 -0.0297634
     -0.0165877 -0.02 -0.0363985
@@ -823,19 +615,19 @@ node trimesh Spear02
     0.824718 0.0258666 1.80968
     0.961816 0 2.11051
   faces 12
-    0 5 4  1  0 3 2  2
-    0 1 5  1  14 1 24  2
-    1 6 5  1  7 4 8  2
-    1 2 6  1  9 16 25  2
-    2 7 6  1  17 5 26  2
-    2 3 7  1  18 19 29  2
-    3 4 7  1  20 22 30  2
-    3 0 4  1  21 15 23  2
-    8 4 5  0  6 10 11  0
-    8 5 6  0  33 12 27  0
-    8 6 7  0  34 28 31  0
-    8 7 4  0  35 32 13  0
-  tverts 36
+    0 5 4 1 0 3 2 2
+    0 1 5 1 0 1 3 2
+    1 6 5 1 7 4 8 2
+    1 2 6 1 7 11 4 2
+    2 7 6 1 11 5 4 2
+    2 3 7 1 11 12 5 2
+    3 4 7 1 12 2 5 2
+    3 0 4 1 12 0 2 2
+    8 4 5 0 6 9 10 0
+    8 5 6 0 6 10 13 0
+    8 6 7 0 6 13 14 0
+    8 7 4 0 6 14 9 0
+  tverts 15
     0.593624 0.000499547 0.557769
     0.633396 0.000499547 0.795501
     0.596363 1.26365 1.01952
@@ -845,279 +637,384 @@ node trimesh Spear02
     0.825031 0.810555 0.10175
     0.463531 0.000499547 0.795501
     0.463531 1.26365 0.795501
-    0.463531 0.000499547 0.795501
     0.760299 0.41638 1.01952
     0.805535 0.41638 0.795501
-    0.805535 0.41638 0.795501
-    0.760299 0.41638 1.01952
-    0.593624 0.000499547 0.557769
-    0.593624 0.000499547 0.557769
-    0.503303 0.000499547 0.557769
-    0.503303 0.000499547 0.557769
     0.503303 0.000499547 0.557769
     0.548463 0.000499547 0.499501
-    0.548463 0.000499547 0.499501
-    0.548463 0.000499547 0.499501
-    0.596363 1.26365 1.01952
-    0.596363 1.26365 1.01952
-    0.633396 1.26365 0.795501
-    0.500564 1.26365 1.01952
-    0.500564 1.26365 1.01952
     0.850772 0.41638 1.01952
-    0.850772 0.41638 1.01952
-    0.548463 1.26365 0.795501
-    0.548463 1.26365 0.795501
     0.909281 0.41638 0.795501
-    0.909281 0.41638 0.795501
-    0.825031 0.810555 0.10175
-    0.825031 0.810555 0.10175
-    0.825031 0.810555 0.10175
 endnode
-endmodelgeom PLC_SignSvg1
-
-#MAXANIM ASCII
-newanim damage PLC_SignSvg1
-  length 0.166667
-  transtime 0.25
-  animroot PLC_SignSvg1
-node dummy PLC_SignSvg1
-  parent NULL
-endnode
-node dummy SignSvg_hand
-  parent PLC_SignSvg1
-endnode
-node dummy SignSvg_head
-  parent PLC_SignSvg1
-endnode
-node dummy SignSvg_head_hit
-  parent PLC_SignSvg1
-endnode
-node dummy SignSvg_impact
-  parent PLC_SignSvg1
-endnode
-node dummy SignSvg_ground
-  parent PLC_SignSvg1
-endnode
-node emitter ChunkyWood255
-  parent PLC_SignSvg1
+node emitter chunkywood255
+  parent plc_signsvg1
+  position 0 0 1.2872
+  orientation 0 0 0 0
+  wirecolor 0.113281 0.113281 0.113281
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 24
+  birthrate 2
+  spawntype 0
+  lifeExp 0.75
+  mass 3
+  spread 1.22173
+  particleRot 5
+  velocity 8
+  randvel 0.3
+  fps 0
+  random 0
+  inherit 1
+  inherit_local 0
+  inherit_part 0
+  inheritvel 0
+  xsize 89
+  ysize 40
+  bounce 1
+  bounce_co 0.5
+  loop 0
+  update Explosion
+  render Normal
+  blend Normal
+  deadspace 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  twosidedtex 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+  texture fxpa_cloud02
+  xgrid 5
+  ygrid 5
+  affectedByWind 0
+  m_isTinted 0
+  renderorder 0
+  splat 0
+  chunkName plc_chunk_w01
 endnode
 node emitter fire!159
-  parent PLC_SignSvg1
+  parent plc_signsvg1
+  position 0 0 0.880946
+  orientation -1 0 0 -1.5708
+  wirecolor 0.113281 0.113281 0.113281
+  colorStart 0.443137 0.392157 0.258824
+  colorEnd 0.72549 0.694118 0.560784
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 4
+  sizeEnd 1
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 24
+  birthrate 10
+  spawntype 0
+  lifeExp 2.5
+  mass 0.09
+  spread 2.96706
+  particleRot 0.5
+  velocity 2
+  randvel 0.5
+  fps 10
+  random 0
+  inherit 1
+  inherit_local 0
+  inherit_part 0
+  inheritvel 0
+  xsize 100
+  ysize 99
+  bounce 0
+  bounce_co 0
+  loop 0
+  update Explosion
+  render Normal
+  blend Normal
+  deadspace 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  blastRadius 0.2
+  blastLength 1
+  twosidedtex 1
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+  texture fxpa_smoke01
+  xgrid 4
+  ygrid 4
+  affectedByWind 0
+  m_isTinted 1
+  renderorder 0
+  splat 0
 endnode
-node trimesh damage106
-  parent PLC_SignSvg1
-    positionkey
-      0  0 0 0
-      0.0333333  0 0 0.0244581
-      0.133333  0 0 0
-      0.166667  0 0 0
-    endlist
-    orientationkey
-      0  0 0 0 0
-      0.0333333  -0.371336 0.928463 -0.00810258 0.0469942
-      0.1  0.599949 -0.799969 -0.0104721 0.0436326
-      0.133333  0 0 0 0
-      0.166667  0 0 0 0
-    endlist
-endnode
-node trimesh post
-  parent damage106
-endnode
-node trimesh skull
-  parent post
-endnode
-node trimesh Sign
-  parent post
-endnode
-node trimesh Tube01
-  parent Sign
-endnode
-node trimesh Spear01
-  parent post
-endnode
-node trimesh Spear02
-  parent post
-endnode
-node trimesh pwk_SignSvg1
-  parent PLC_SignSvg1
-endnode
-doneanim damage PLC_SignSvg1
+endmodelgeom plc_signsvg1
 
 #MAXANIM ASCII
-newanim die PLC_SignSvg1
+newanim damage plc_signsvg1
   length 0.166667
   transtime 0.25
-  animroot PLC_SignSvg1
-node dummy PLC_SignSvg1
-  parent NULL
-endnode
-node dummy SignSvg_hand
-  parent PLC_SignSvg1
-endnode
-node dummy SignSvg_head
-  parent PLC_SignSvg1
-endnode
-node dummy SignSvg_head_hit
-  parent PLC_SignSvg1
-endnode
-node dummy SignSvg_impact
-  parent PLC_SignSvg1
-endnode
-node dummy SignSvg_ground
-  parent PLC_SignSvg1
-endnode
-node emitter ChunkyWood255
-  parent PLC_SignSvg1
-endnode
-node emitter fire!159
-  parent PLC_SignSvg1
-endnode
-node trimesh damage106
-  parent PLC_SignSvg1
+  animroot plc_signsvg1
+  node dummy plc_signsvg1
+    parent NULL
+  endnode
+  node dummy pwk_signsvg1
+    parent plc_signsvg1
+    #part-number -1
+  endnode
+  node dummy signsvg_hand
+    parent plc_signsvg1
+  endnode
+  node dummy signsvg_head
+    parent plc_signsvg1
+  endnode
+  node dummy signsvg_head_hit
+    parent plc_signsvg1
+  endnode
+  node dummy signsvg_impact
+    parent plc_signsvg1
+  endnode
+  node dummy signsvg_ground
+    parent plc_signsvg1
+  endnode
+  node trimesh damage106
+    parent plc_signsvg1
     positionkey
-      0  0 0 0
-      0.166667  0 0 -6.95145
+      0 0 0 0
+      0.0333333 0 0 0.0244581
+      0.133333 0 0 0
+      0.166667 0 0 0
     endlist
     orientationkey
-      0  0 0 0 0
+      0 0 0 0 0
+      0.0333333 -0.371336 0.928463 -0.00810258 0.0469942
+      0.1 0.599949 -0.799969 -0.0104721 0.0436326
+      0.133333 0 0 0 0
+      0.166667 0 0 0 0
     endlist
-endnode
-node trimesh post
-  parent damage106
-endnode
-node trimesh skull
-  parent post
-endnode
-node trimesh Sign
-  parent post
-endnode
-node trimesh Tube01
-  parent Sign
-endnode
-node trimesh Spear01
-  parent post
-endnode
-node trimesh Spear02
-  parent post
-endnode
-node trimesh pwk_SignSvg1
-  parent PLC_SignSvg1
-endnode
-event 0  detonate
-event 0  detonate
-doneanim die PLC_SignSvg1
+  endnode
+  node dummy post
+    parent damage106
+  endnode
+  node dummy skull
+    parent post
+  endnode
+  node dummy sign
+    parent post
+  endnode
+  node dummy tube01
+    parent sign
+  endnode
+  node dummy spear01
+    parent post
+  endnode
+  node dummy spear02
+    parent post
+  endnode
+  node emitter chunkywood255
+    parent plc_signsvg1
+  endnode
+  node emitter fire!159
+    parent plc_signsvg1
+  endnode
+doneanim damage plc_signsvg1
 
 #MAXANIM ASCII
-newanim dead PLC_SignSvg1
+newanim dead plc_signsvg1
   length 0.0333333
   transtime 0.25
-  animroot PLC_SignSvg1
-node dummy PLC_SignSvg1
-  parent NULL
-endnode
-node dummy SignSvg_hand
-  parent PLC_SignSvg1
-endnode
-node dummy SignSvg_head
-  parent PLC_SignSvg1
-endnode
-node dummy SignSvg_head_hit
-  parent PLC_SignSvg1
-endnode
-node dummy SignSvg_impact
-  parent PLC_SignSvg1
-endnode
-node dummy SignSvg_ground
-  parent PLC_SignSvg1
-endnode
-node emitter ChunkyWood255
-  parent PLC_SignSvg1
-endnode
-node emitter fire!159
-  parent PLC_SignSvg1
-endnode
-node trimesh damage106
-  parent PLC_SignSvg1
+  animroot plc_signsvg1
+  node dummy plc_signsvg1
+    parent NULL
+  endnode
+  node dummy pwk_signsvg1
+    parent plc_signsvg1
+    #part-number -1
+  endnode
+  node dummy signsvg_hand
+    parent plc_signsvg1
+  endnode
+  node dummy signsvg_head
+    parent plc_signsvg1
+  endnode
+  node dummy signsvg_head_hit
+    parent plc_signsvg1
+  endnode
+  node dummy signsvg_impact
+    parent plc_signsvg1
+  endnode
+  node dummy signsvg_ground
+    parent plc_signsvg1
+  endnode
+  node trimesh damage106
+    parent plc_signsvg1
     positionkey
-      0  0 0 -6.95145
-      0.0333333  0 0 -6.95145
+      0 0 0 -6.95145
+      0.0333333 0 0 -6.95145
     endlist
-endnode
-node trimesh post
-  parent damage106
-endnode
-node trimesh skull
-  parent post
-endnode
-node trimesh Sign
-  parent post
-endnode
-node trimesh Tube01
-  parent Sign
-endnode
-node trimesh Spear01
-  parent post
-endnode
-node trimesh Spear02
-  parent post
-endnode
-node trimesh pwk_SignSvg1
-  parent PLC_SignSvg1
-endnode
-doneanim dead PLC_SignSvg1
+  endnode
+  node dummy post
+    parent damage106
+  endnode
+  node dummy skull
+    parent post
+  endnode
+  node dummy sign
+    parent post
+  endnode
+  node dummy tube01
+    parent sign
+  endnode
+  node dummy spear01
+    parent post
+  endnode
+  node dummy spear02
+    parent post
+  endnode
+  node emitter chunkywood255
+    parent plc_signsvg1
+  endnode
+  node emitter fire!159
+    parent plc_signsvg1
+  endnode
+doneanim dead plc_signsvg1
 
 #MAXANIM ASCII
-newanim default PLC_SignSvg1
+newanim default plc_signsvg1
   length 0
   transtime 0.25
-  animroot PLC_SignSvg1
-node dummy PLC_SignSvg1
-  parent NULL
-endnode
-node dummy SignSvg_hand
-  parent PLC_SignSvg1
-endnode
-node dummy SignSvg_head
-  parent PLC_SignSvg1
-endnode
-node dummy SignSvg_head_hit
-  parent PLC_SignSvg1
-endnode
-node dummy SignSvg_impact
-  parent PLC_SignSvg1
-endnode
-node dummy SignSvg_ground
-  parent PLC_SignSvg1
-endnode
-node emitter ChunkyWood255
-  parent PLC_SignSvg1
-endnode
-node emitter fire!159
-  parent PLC_SignSvg1
-endnode
-node trimesh damage106
-  parent PLC_SignSvg1
-endnode
-node trimesh post
-  parent damage106
-endnode
-node trimesh skull
-  parent post
-endnode
-node trimesh Sign
-  parent post
-endnode
-node trimesh Tube01
-  parent Sign
-endnode
-node trimesh Spear01
-  parent post
-endnode
-node trimesh Spear02
-  parent post
-endnode
-node trimesh pwk_SignSvg1
-  parent PLC_SignSvg1
-endnode
-doneanim default PLC_SignSvg1
-donemodel PLC_SignSvg1
+  animroot plc_signsvg1
+  node dummy plc_signsvg1
+    parent NULL
+  endnode
+  node dummy pwk_signsvg1
+    parent plc_signsvg1
+    #part-number -1
+  endnode
+  node dummy signsvg_hand
+    parent plc_signsvg1
+  endnode
+  node dummy signsvg_head
+    parent plc_signsvg1
+  endnode
+  node dummy signsvg_head_hit
+    parent plc_signsvg1
+  endnode
+  node dummy signsvg_impact
+    parent plc_signsvg1
+  endnode
+  node dummy signsvg_ground
+    parent plc_signsvg1
+  endnode
+  node dummy damage106
+    parent plc_signsvg1
+  endnode
+  node dummy post
+    parent damage106
+  endnode
+  node dummy skull
+    parent post
+  endnode
+  node dummy sign
+    parent post
+  endnode
+  node dummy tube01
+    parent sign
+  endnode
+  node dummy spear01
+    parent post
+  endnode
+  node dummy spear02
+    parent post
+  endnode
+  node emitter chunkywood255
+    parent plc_signsvg1
+  endnode
+  node emitter fire!159
+    parent plc_signsvg1
+  endnode
+doneanim default plc_signsvg1
+
+#MAXANIM ASCII
+newanim die plc_signsvg1
+  length 0.166667
+  transtime 0.25
+  event 0 detonate
+  animroot plc_signsvg1
+  node dummy plc_signsvg1
+    parent NULL
+  endnode
+  node dummy pwk_signsvg1
+    parent plc_signsvg1
+    #part-number -1
+  endnode
+  node dummy signsvg_hand
+    parent plc_signsvg1
+  endnode
+  node dummy signsvg_head
+    parent plc_signsvg1
+  endnode
+  node dummy signsvg_head_hit
+    parent plc_signsvg1
+  endnode
+  node dummy signsvg_impact
+    parent plc_signsvg1
+  endnode
+  node dummy signsvg_ground
+    parent plc_signsvg1
+  endnode
+  node trimesh damage106
+    parent plc_signsvg1
+    positionkey
+      0 0 0 0
+      0.166667 0 0 -6.95145
+    endlist
+    orientationkey
+      0 0 0 0 0
+    endlist
+  endnode
+  node dummy post
+    parent damage106
+  endnode
+  node dummy skull
+    parent post
+  endnode
+  node dummy sign
+    parent post
+  endnode
+  node dummy tube01
+    parent sign
+  endnode
+  node dummy spear01
+    parent post
+  endnode
+  node dummy spear02
+    parent post
+  endnode
+  node emitter chunkywood255
+    parent plc_signsvg1
+  endnode
+  node emitter fire!159
+    parent plc_signsvg1
+  endnode
+doneanim die plc_signsvg1
+donemodel plc_signsvg1

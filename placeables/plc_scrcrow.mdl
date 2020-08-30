@@ -1,19 +1,17 @@
-#Exported from 3ds max by MDL Plug-in Suite 1.0b
-#http://www.bricksbuilder.com/nwn/utils/
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 18:40:29 2019
 #MAXMODEL ASCII
-# model: PLC_scrcrow
-filedependancy Scarecrow.max
-newmodel PLC_scrcrow
-setsupermodel PLC_scrcrow NULL
-classification Character
-setanimationscale 1.0
-#MAXGEOM  ASCII
-beginmodelgeom PLC_scrcrow
-node dummy PLC_scrcrow
+filedependency Unknown
+newmodel plc_scrcrow
+  classification CHARACTER
+  setsupermodel plc_scrcrow NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom plc_scrcrow
+node dummy plc_scrcrow
   parent NULL
 endnode
-node trimesh Box70
-  parent PLC_scrcrow
+node trimesh box70
+  parent plc_scrcrow
   position 0.00760254 0.00438721 0
   orientation 0 0 -1 -3.14159
   wirecolor 0.605469 0.605469 0.605469
@@ -21,7 +19,7 @@ node trimesh Box70
   diffuse 0.988235 0.988235 0.988235
   specular 0 0 0
   shininess 10
-  bitmap PLC_woodB256
+  bitmap plc_woodb256
   verts 8
     0.0343975 0.0656128 0
     -0.0496025 0.0656128 0
@@ -32,50 +30,26 @@ node trimesh Box70
     0.0133765 -0.0393522 1.71282
     -0.0285816 -0.0393522 1.71282
   faces 8
-    0 1 5  8  16 17 25  1
-    5 4 0  8  25 24 16  1
-    1 3 7  16  13 15 31  1
-    7 5 1  16  31 29 13  1
-    3 2 6  32  19 18 26  1
-    6 7 3  32  26 27 19  1
-    2 0 4  64  14 12 28  1
-    4 6 2  64  28 30 14  1
-  tverts 32
-    0 0 0
-    0.0951253 0 0
-    0.0951253 0.830918 0
-    0 0.830918 0
-    0.22158 -0.447222 1
-    0.325173 -0.447222 1
-    0.325173 1.44722 1
-    0.22158 1.44722 1
-    0.325173 -0.447222 0
-    0.325173 1.44722 0
-    0.22158 -0.447222 0
-    0.22158 1.44722 0
+    0 1 5 8 2 3 5 1
+    5 4 0 8 5 4 2 1
+    1 3 7 16 0 1 7 1
+    7 5 1 16 7 6 0 1
+    3 2 6 32 3 2 4 1
+    6 7 3 32 4 5 3 1
+    2 0 4 64 1 0 6 1
+    4 6 2 64 6 7 1 1
+  tverts 8
     0.107629 -0.667421 0
-    0.107629 -0.667421 1
     0.22478 -0.667421 0
-    0.22478 -0.667421 1
     0.556558 -0.520235 0
     0.443441 -0.520235 0
-    0.556558 -0.520235 1
-    0.443441 -0.520235 1
-    0 0 0
-    1 0 0
-    0 1 0
-    1 1 0
     0.539551 1.55208 0.15035
     0.460449 1.55208 0.15035
-    0.539551 1.55208 0.84965
-    0.460449 1.55208 0.84965
     0.125243 1.46258 0.15035
-    0.125243 1.46258 0.84965
     0.207166 1.46258 0.15035
-    0.207166 1.46258 0.84965
 endnode
 node trimesh shirt
-  parent Box70
+  parent box70
   position -0.00760254 -0.00438718 1.042
   orientation 0 0 0 0
   wirecolor 0.695313 0.695313 0.695313
@@ -119,69 +93,69 @@ node trimesh shirt
     -0.0695741 0 0.65259
     -0.0458248 -0.032092 0.574771
   faces 62
-    0 8 4  1  0 8 4  1
-    4 10 0  1  47 10 0  1
-    1 9 4  1  1 35 45  1
-    4 8 1  1  46 8 1  1
-    17 11 18  1  17 11 18  0
-    19 20 21  2  30 31 42  0
-    16 13 17  1  32 13 17  0
-    0 10 5  1  0 10 5  4
-    5 14 0  1  5 14 0  4
-    2 14 5  1  2 14 5  4
-    5 11 2  1  5 11 2  4
-    1 15 6  1  1 15 33  5
-    6 9 1  1  34 35 1  5
-    3 12 6  1  3 36 37  5
-    6 15 3  1  38 15 3  5
-    15 8 7  1  15 8 7  2
-    8 15 1  1  8 15 1  2
-    8 14 7  1  8 14 7  2
-    14 8 0  1  14 8 0  2
-    2 13 7  1  2 13 7  2
-    7 14 2  1  7 14 2  2
-    3 15 7  1  3 15 7  2
-    7 13 3  1  7 13 3  2
-    16 12 3  1  39 40 3  0
-    13 16 3  1  13 41 3  0
-    17 13 2  1  17 13 2  0
-    11 17 2  1  11 17 2  0
-    17 18 21  2  20 21 42  0
-    21 20 17  2  42 31 20  0
-    16 17 20  2  19 20 31  0
-    20 19 16  2  31 30 19  0
-    22 4 27  1  0 4 25  1
-    4 22 10  1  47 0 10  1
-    23 4 9  1  1 45 9  1
-    4 23 27  1  46 1 25  1
-    24 31 11  1  22 29 11  0
-    19 21 32  2  30 42 44  0
-    16 31 28  1  16 29 26  0
-    22 5 10  1  0 5 10  4
-    5 22 29  1  5 0 27  4
-    24 5 29  1  22 5 27  4
-    5 24 11  1  5 22 11  4
-    23 6 30  1  1 6 28  5
-    6 23 9  1  6 1 9  5
-    25 6 12  1  23 6 12  5
-    6 25 30  1  6 23 28  5
-    30 26 27  1  28 24 25  2
-    27 23 30  1  25 1 28  2
-    27 26 29  1  25 24 27  2
-    29 22 27  1  27 0 25  2
-    24 26 28  1  22 24 26  2
-    26 24 29  1  24 22 27  2
-    25 26 30  1  23 24 28  2
-    26 25 28  1  24 23 26  2
-    16 25 12  1  16 23 12  0
-    28 25 16  1  26 23 16  0
-    31 24 28  1  29 22 26  0
-    18 11 31  1  18 11 29  0
-    31 21 18  2  43 42 21  0
-    21 31 32  2  42 43 44  0
-    16 32 31  2  19 44 43  0
-    32 16 19  2  44 19 30  0
-  tverts 48
+    0 8 4 1 0 8 4 1
+    4 10 0 1 41 10 0 1
+    1 9 4 1 1 34 39 1
+    4 8 1 1 40 8 1 1
+    17 11 18 1 17 11 18 0
+    19 20 21 2 30 31 36 0
+    16 13 17 1 32 13 17 0
+    0 10 5 1 0 10 5 4
+    5 14 0 1 5 14 0 4
+    2 14 5 1 2 14 5 4
+    5 11 2 1 5 11 2 4
+    1 15 6 1 1 15 33 5
+    6 9 1 1 33 34 1 5
+    3 12 6 1 3 35 33 5
+    6 15 3 1 33 15 3 5
+    15 8 7 1 15 8 7 2
+    8 15 1 1 8 15 1 2
+    8 14 7 1 8 14 7 2
+    14 8 0 1 14 8 0 2
+    2 13 7 1 2 13 7 2
+    7 14 2 1 7 14 2 2
+    3 15 7 1 3 15 7 2
+    7 13 3 1 7 13 3 2
+    16 12 3 1 32 35 3 0
+    13 16 3 1 13 32 3 0
+    17 13 2 1 17 13 2 0
+    11 17 2 1 11 17 2 0
+    17 18 21 2 20 21 36 0
+    21 20 17 2 36 31 20 0
+    16 17 20 2 19 20 31 0
+    20 19 16 2 31 30 19 0
+    22 4 27 1 0 4 25 1
+    4 22 10 1 41 0 10 1
+    23 4 9 1 1 39 9 1
+    4 23 27 1 40 1 25 1
+    24 31 11 1 22 29 11 0
+    19 21 32 2 30 36 38 0
+    16 31 28 1 16 29 26 0
+    22 5 10 1 0 5 10 4
+    5 22 29 1 5 0 27 4
+    24 5 29 1 22 5 27 4
+    5 24 11 1 5 22 11 4
+    23 6 30 1 1 6 28 5
+    6 23 9 1 6 1 9 5
+    25 6 12 1 23 6 12 5
+    6 25 30 1 6 23 28 5
+    30 26 27 1 28 24 25 2
+    27 23 30 1 25 1 28 2
+    27 26 29 1 25 24 27 2
+    29 22 27 1 27 0 25 2
+    24 26 28 1 22 24 26 2
+    26 24 29 1 24 22 27 2
+    25 26 30 1 23 24 28 2
+    26 25 28 1 24 23 26 2
+    16 25 12 1 16 23 12 0
+    28 25 16 1 26 23 16 0
+    31 24 28 1 29 22 26 0
+    18 11 31 1 18 11 29 0
+    31 21 18 2 37 36 21 0
+    21 31 32 2 36 37 38 0
+    16 32 31 2 19 38 37 0
+    32 16 19 2 38 19 30 0
+  tverts 42
     0.622622 0.915494 0.52151
     0.622622 0.775582 0.417192
     0.83374 0.885619 0.771266
@@ -216,14 +190,8 @@ node trimesh shirt
     0.964496 0.924094 0.0489077
     0.918232 0.716385 0.258844
     0.747941 0.716385 0.746058
-    0.747941 0.716385 0.746058
     0.612643 0.716385 0.459635
     0.886573 0.716385 0.776471
-    0.747941 0.716385 0.746058
-    0.747941 0.716385 0.746058
-    0.918232 0.716385 0.258844
-    0.886573 0.716385 0.776471
-    0.918232 0.716385 0.258844
     0.992215 0.895877 0.200156
     0.949874 0.941502 0.703606
     0.96424 0.924094 0.0489077
@@ -231,7 +199,7 @@ node trimesh shirt
     0.557627 0.800397 0.0166848
     0.557627 0.938926 0.0166848
 endnode
-node trimesh Neck
+node trimesh neck
   parent shirt
   position 0 0 0.728858
   orientation 0 0 0 0
@@ -257,21 +225,21 @@ node trimesh Neck
     -0.0558057 -0.0540709 -0.092471
     0.0468172 0.0408309 -0.104645
   faces 14
-    0 7 6  8  0 7 6  2
-    0 1 7  8  0 1 7  2
-    1 8 7  8  1 8 7  2
-    2 9 13  8  2 9 13  2
-    2 3 9  8  2 3 9  2
-    3 10 9  8  3 10 9  2
-    3 4 10  8  3 4 10  2
-    4 11 10  8  4 14 10  2
-    5 6 12  8  5 6 12  2
-    5 0 6  8  5 0 6  2
-    5 12 11  8  5 12 11  2
-    4 5 11  8  4 15 16  2
-    2 13 8  8  2 13 8  2
-    1 2 8  8  1 2 8  2
-  tverts 17
+    0 7 6 8 0 7 6 2
+    0 1 7 8 0 1 7 2
+    1 8 7 8 1 8 7 2
+    2 9 13 8 2 9 13 2
+    2 3 9 8 2 3 9 2
+    3 10 9 8 3 10 9 2
+    3 4 10 8 3 4 10 2
+    4 11 10 8 4 14 10 2
+    5 6 12 8 5 6 12 2
+    5 0 6 8 5 0 6 2
+    5 12 11 8 5 12 11 2
+    4 5 11 8 4 15 14 2
+    2 13 8 8 2 13 8 2
+    1 2 8 8 1 2 8 2
+  tverts 16
     0.377552 0.945863 0.561839
     0.334832 0.945863 0.713795
     0.293975 0.945863 0.687865
@@ -288,10 +256,9 @@ node trimesh Neck
     0.276018 0.882036 0.801288
     0.114825 0.825978 0.999031
     0.0439848 0.945863 0.292368
-    0.114825 0.825978 0.999031
 endnode
-node trimesh Head
-  parent Neck
+node trimesh head
+  parent neck
   position 0 0 -0.0406052
   orientation 0 0 0 0
   wirecolor 0.652344 0.652344 0.652344
@@ -316,36 +283,32 @@ node trimesh Head
     0.0897226 0.12632 0.0879304
     -0.0897225 0.12632 0.0879304
   faces 20
-    5 2 12  1  9 3 16  1
-    5 12 3  1  9 16 4  1
-    5 3 13  1  9 4 17  1
-    5 13 0  1  9 17 1  1
-    4 7 6  1  25 11 10  1
-    7 1 10  1  11 2 14  1
-    7 10 6  1  11 14 10  1
-    6 10 0  1  10 14 1  1
-    4 8 7  1  26 12 27  1
-    8 2 11  1  12 3 15  1
-    8 11 7  1  12 15 28  1
-    7 11 1  1  29 15 30  1
-    4 9 8  1  31 13 12  1
-    9 3 12  1  13 4 16  1
-    9 12 8  1  13 16 12  1
-    8 12 2  1  12 16 3  1
-    4 6 9  1  5 10 13  1
-    6 0 13  1  10 1 17  1
-    6 13 9  1  10 17 13  1
-    9 13 3  1  13 17 4  1
-  tverts 32
-    0.309753 0.889387 0.999001
+    5 2 12 1 5 2 12 1
+    5 12 3 1 5 12 3 1
+    5 3 13 1 5 3 13 1
+    5 13 0 1 5 13 0 1
+    4 7 6 1 14 7 6 1
+    7 1 10 1 7 1 10 1
+    7 10 6 1 7 10 6 1
+    6 10 0 1 6 10 0 1
+    4 8 7 1 15 8 16 1
+    8 2 11 1 8 2 11 1
+    8 11 7 1 8 11 16 1
+    7 11 1 1 16 11 17 1
+    4 9 8 1 18 9 8 1
+    9 3 12 1 9 3 12 1
+    9 12 8 1 9 12 8 1
+    8 12 2 1 8 12 2 1
+    4 6 9 1 4 6 9 1
+    6 0 13 1 6 0 13 1
+    6 13 9 1 6 13 9 1
+    9 13 3 1 9 13 3 1
+  tverts 19
     0.355364 0.981165 0.768462
     0.446585 0.981165 0.768462
     0.17292 0.981165 0.768462
     0.264142 0.981165 0.768462
     0.309753 0.864988 0.999001
-    0.355364 0.731011 0.932408
-    0.446585 0.731011 0.932408
-    0.17292 0.731011 0.932408
     0.264142 0.731011 0.932408
     0.355364 0.730098 0.792155
     0.446585 0.730098 0.792155
@@ -355,23 +318,14 @@ node trimesh Head
     0.127309 0.981165 0.768462
     0.218531 0.981165 0.768462
     0.309753 0.981165 0.768462
-    0.400974 0.889387 0.999001
-    0.127309 0.889387 0.999001
-    0.0816984 0.731011 0.932408
-    0.0816984 0.731011 0.932408
-    0.0816984 0.981165 0.768462
-    0.0816984 0.731011 0.932408
-    0.218531 0.889387 0.999001
     0.400974 0.864988 0.999001
     0.127309 0.864988 0.999001
-    0.0816984 0.730098 0.792155
-    0.0816984 0.730098 0.792155
     0.0816984 0.730098 0.792155
     0.0816984 0.981165 0.768462
     0.218531 0.864988 0.999001
 endnode
-node danglymesh Hat
-  parent Head
+node danglymesh hat
+  parent head
   position -0.000571924 0.0528607 0.236646
   orientation 0 0 0 0
   wirecolor 0.722656 0.722656 0.722656
@@ -411,48 +365,48 @@ node danglymesh Hat
     0 0.0235687 0.184159
     -0.0454016 0.0180447 0.177921
   faces 41
-    0 8 7  1  14 15 16  2
-    0 1 8  1  14 17 15  2
-    1 9 8  1  17 18 15  2
-    1 2 9  1  17 19 18  2
-    2 10 9  1  19 20 18  2
-    2 3 10  1  19 21 20  2
-    3 11 10  1  32 22 33  2
-    3 4 11  1  34 23 22  2
-    4 12 11  1  23 24 22  2
-    4 5 12  1  23 25 24  2
-    5 13 12  1  25 26 24  2
-    5 6 13  1  25 27 26  2
-    6 7 13  1  27 16 26  2
-    6 0 7  1  27 14 16  2
-    14 23 24  1  28 29 30  0
-    14 24 9  1  28 30 18  0
-    14 9 10  1  28 18 20  0
-    14 10 11  1  35 36 22  0
-    14 11 12  1  37 22 24  0
-    14 12 22  1  38 24 31  0
-    14 22 23  1  39 31 29  0
-    1 0 15  2  1 0 7  1
-    15 16 1  2  7 8 1  1
-    2 1 16  2  2 1 8  1
-    16 17 2  2  8 9 2  1
-    3 2 17  2  3 2 9  1
-    17 18 3  2  9 10 3  1
-    4 3 18  2  4 3 10  1
-    18 19 4  2  10 11 4  1
-    5 4 19  2  5 4 11  1
-    19 20 5  2  11 12 5  1
-    6 5 20  2  6 5 12  1
-    20 21 6  2  12 13 6  1
-    0 6 21  2  0 6 13  1
-    21 15 0  2  13 7 0  1
-    22 13 7  1  31 26 16  0
-    22 12 13  1  31 24 26  0
-    23 22 7  1  29 31 16  0
-    23 7 8  1  29 16 15  0
-    24 23 8  1  30 29 15  0
-    24 8 9  1  30 15 18  0
-  tverts 40
+    0 8 7 1 14 15 16 2
+    0 1 8 1 14 17 15 2
+    1 9 8 1 17 18 15 2
+    1 2 9 1 17 19 18 2
+    2 10 9 1 19 20 18 2
+    2 3 10 1 19 21 20 2
+    3 11 10 1 32 22 33 2
+    3 4 11 1 32 23 22 2
+    4 12 11 1 23 24 22 2
+    4 5 12 1 23 25 24 2
+    5 13 12 1 25 26 24 2
+    5 6 13 1 25 27 26 2
+    6 7 13 1 27 16 26 2
+    6 0 7 1 27 14 16 2
+    14 23 24 1 28 29 30 0
+    14 24 9 1 28 30 18 0
+    14 9 10 1 28 18 20 0
+    14 10 11 1 34 33 22 0
+    14 11 12 1 34 22 24 0
+    14 12 22 1 34 24 31 0
+    14 22 23 1 34 31 29 0
+    1 0 15 2 1 0 7 1
+    15 16 1 2 7 8 1 1
+    2 1 16 2 2 1 8 1
+    16 17 2 2 8 9 2 1
+    3 2 17 2 3 2 9 1
+    17 18 3 2 9 10 3 1
+    4 3 18 2 4 3 10 1
+    18 19 4 2 10 11 4 1
+    5 4 19 2 5 4 11 1
+    19 20 5 2 11 12 5 1
+    6 5 20 2 6 5 12 1
+    20 21 6 2 12 13 6 1
+    0 6 21 2 0 6 13 1
+    21 15 0 2 13 7 0 1
+    22 13 7 1 31 26 16 0
+    22 12 13 1 31 24 26 0
+    23 22 7 1 29 31 16 0
+    23 7 8 1 29 16 15 0
+    24 23 8 1 30 29 15 0
+    24 8 9 1 30 15 18 0
+  tverts 35
     0.413043 0.636646 0.427106
     0.463166 0.661591 0.427106
     0.475546 0.717641 0.427106
@@ -487,66 +441,35 @@ node danglymesh Hat
     0.196108 0.576058 0.397025
     0.00967194 0.72941 1.05135
     0.129535 0.728092 0.720427
-    0.00967194 0.72941 1.05135
     0.285427 0.700638 0.995188
-    0.129535 0.728092 0.720427
-    0.285427 0.700638 0.995188
-    0.285427 0.700638 0.995188
-    0.285427 0.700638 0.995188
-  colors 25
-    1 1 1
-    1 1 1
-    1 1 1
-    1 1 1
-    1 1 1
-    1 1 1
-    1 1 1
-    0.96 0.96 0.96
-    0.96 0.96 0.96
-    0.96 0.96 0.96
-    0.96 0.96 0.96
-    0.96 0.96 0.96
-    0.96 0.96 0.96
-    0.96 0.96 0.96
-    0.86 0.86 0.86
-    1 1 1
-    1 1 1
-    1 1 1
-    1 1 1
-    1 1 1
-    1 1 1
-    1 1 1
-    0.94 0.94 0.94
-    0.94 0.94 0.94
-    0.94 0.94 0.94
   constraints 25
-    0.0
-    0.0
-    0.0
-    0.0
-    0.0
-    0.0
-    0.0
-    238.0
-    238.0
-    238.0
-    238.0
-    238.0
-    238.0
-    238.0
-    220.0
-    0.0
-    0.0
-    0.0
-    0.0
-    0.0
-    0.0
-    0.0
-    240.0
-    240.0
-    240.0
+    0
+    0
+    0
+    0
+    0
+    0
+    0
+    238
+    238
+    238
+    238
+    238
+    238
+    238
+    220
+    0
+    0
+    0
+    0
+    0
+    0
+    0
+    240
+    240
+    240
 endnode
-node trimesh Belt
+node trimesh belt
   parent shirt
   position 0 0.011 0.210772
   orientation 0 0 0 0
@@ -568,41 +491,40 @@ node trimesh Belt
     -0.07176 -0.112505 -0.00212227
     -0.11611 0.021917 -0.0258245
   faces 13
-    0 2 1  1  10 15 14  1
-    0 3 2  1  10 16 15  1
-    0 4 3  1  10 17 16  1
-    0 6 5  8  0 6 5  2
-    0 1 6  8  0 1 6  2
-    1 7 6  8  1 7 6  2
-    1 2 7  8  1 2 7  2
-    2 8 7  8  2 11 7  2
-    2 3 8  8  2 12 13  2
-    3 9 8  8  3 9 8  2
-    3 4 9  8  3 4 9  2
-    4 5 9  8  4 5 9  2
-    4 0 5  8  4 0 5  2
-  tverts 18
-    0.549841 0.641911 0.950106
-    0.434343 0.641911 1.02387
-    0.330358 0.641911 1.1331
-    0.769323 0.641911 1.1331
-    0.665338 0.641911 1.02387
-    0.549841 0.585142 0.950106
-    0.434343 0.585142 1.02387
-    0.330358 0.585142 1.1331
-    0.769323 0.585142 1.1331
-    0.665338 0.585142 1.02387
+    0 2 1 1 10 14 13 1
+    0 3 2 1 10 15 14 1
+    0 4 3 1 10 16 15 1
+    0 6 5 8 0 6 5 2
+    0 1 6 8 0 1 6 2
+    1 7 6 8 1 7 6 2
+    1 2 7 8 1 2 7 2
+    2 8 7 8 2 11 7 2
+    2 3 8 8 2 12 11 2
+    3 9 8 8 3 9 8 2
+    3 4 9 8 3 4 9 2
+    4 5 9 8 4 5 9 2
+    4 0 5 8 4 0 5 2
+  tverts 17
+    0.549841 0.641911 -0.049894
+    0.434343 0.641911 0.02387
+    0.330358 0.641911 0.1331
+    0.769323 0.641911 0.1331
+    0.665338 0.641911 0.02387
+    0.549841 0.585142 -0.049894
+    0.434343 0.585142 0.02387
+    0.330358 0.585142 0.1331
+    0.769323 0.585142 0.1331
+    0.665338 0.585142 0.02387
     0.149926 0.548585 0.5
-    0.231751 0.585142 1.1331
-    0.231751 0.641911 1.1331
-    0.231751 0.585142 1.1331
+    0.231751 0.585142 0.1331
+    0.231751 0.641911 0.1331
     0.110757 0.578508 0.5
     0.125718 0.626925 0.5
     0.174135 0.626925 0.5
     0.189096 0.578508 0.5
 endnode
-node danglymesh Shirt_bottom
-  parent Belt
+node danglymesh shirt_bottom
+  parent belt
   position 0 -0.011 -0.0163266
   orientation 0 0 0 0
   wirecolor 0.34375 0.34375 0.34375
@@ -629,23 +551,21 @@ node danglymesh Shirt_bottom
     0 0.112966 -0.123899
     0.0456 0.134043 -0.299378
   faces 12
-    11 1 6  8  12 2 7  2
-    1 7 6  8  2 8 7  2
-    1 2 7  8  2 18 21  2
-    2 8 7  8  19 14 22  2
-    2 3 8  8  20 15 16  2
-    3 4 8  8  4 5 9  2
-    8 4 9  8  9 5 10  2
-    4 5 9  8  5 6 10  2
-    4 10 5  8  5 11 6  2
-    0 1 10  8  1 2 11  2
-    4 0 10  8  5 1 11  2
-    10 1 11  8  11 2 12  2
-  tverts 23
-    0.896084 0.82723 0.125969
+    11 1 6 8 10 1 5 2
+    1 7 6 8 1 6 5 2
+    1 2 7 8 1 13 6 2
+    2 8 7 8 13 11 6 2
+    2 3 8 8 13 12 11 2
+    3 4 8 8 2 3 7 2
+    8 4 9 8 7 3 8 2
+    4 5 9 8 3 4 8 2
+    4 10 5 8 3 9 4 2
+    0 1 10 8 0 1 9 2
+    4 0 10 8 3 0 9 2
+    10 1 11 8 9 1 10 2
+  tverts 14
     0.896084 0.839225 0.807641
     0.823177 0.830936 0.742302
-    0.738615 0.817525 0.590127
     0.738307 0.817525 0.590127
     0.822869 0.830936 0.742302
     0.877368 0.980278 0.960121
@@ -655,45 +575,25 @@ node danglymesh Shirt_bottom
     0.806247 0.968493 1.02364
     0.896084 0.910356 0.869487
     0.877676 0.980278 0.960121
-    0.637158 0.817525 0.590127
     0.648826 0.946508 1.11073
     0.637158 0.817525 0.590127
-    0.648826 0.946508 1.11073
     0.738615 0.817525 0.590127
-    0.738615 0.817525 0.590127
-    0.738615 0.817525 0.590127
-    0.738615 0.817525 0.590127
-    0.726947 0.946508 1.11073
-    0.726947 0.946508 1.11073
-  colors 12
-    1 1 1
-    1 1 1
-    1 1 1
-    1 1 1
-    1 1 1
-    0.82 0.82 0.82
-    0.82 0.82 0.82
-    0.82 0.82 0.82
-    0.82 0.82 0.82
-    0.82 0.82 0.82
-    0.88 0.88 0.88
-    0.82 0.82 0.82
   constraints 12
-    0.0
-    0.0
-    0.0
-    0.0
-    0.0
-    210.0
-    210.0
-    210.0
-    210.0
-    210.0
-    218.0
-    210.0
+    0
+    0
+    0
+    0
+    0
+    210
+    210
+    210
+    210
+    210
+    218
+    210
 endnode
-node trimesh Arms
-  parent Box70
+node trimesh arms
+  parent box70
   position -0.00760254 -0.00438721 1.58658
   orientation 0 0 0 0
   wirecolor 0.226563 0.226563 0.226563
@@ -701,7 +601,7 @@ node trimesh Arms
   diffuse 0.988235 0.988235 0.988235
   specular 0 0 0
   shininess 10
-  bitmap PLC_woodB256
+  bitmap plc_woodb256
   verts 8
     0.675 -0.0225001 -0.0225
     -0.675 -0.0224999 -0.0225
@@ -712,17 +612,17 @@ node trimesh Arms
     0.675 0.0224999 0.0225
     -0.675 0.0225 0.0225
   faces 10
-    0 2 3  2  8 10 11  1
-    3 1 0  2  11 9 8  1
-    4 5 7  4  12 13 15  0
-    7 6 4  4  15 14 12  0
-    1 3 7  16  0 1 3  3
-    7 5 1  16  3 2 0  3
-    3 2 6  32  5 4 6  5
-    6 7 3  32  6 7 5  5
-    2 0 4  64  0 1 3  2
-    4 6 2  64  3 2 0  2
-  tverts 16
+    0 2 3 2 8 10 11 1
+    3 1 0 2 11 9 8 1
+    4 5 7 4 8 9 11 0
+    7 6 4 4 11 10 8 0
+    1 3 7 16 0 1 3 3
+    7 5 1 16 3 2 0 3
+    3 2 6 32 5 4 6 5
+    6 7 3 32 6 7 5 5
+    2 0 4 64 0 1 3 2
+    4 6 2 64 3 2 0 2
+  tverts 12
     0.470477 0.470477 0
     0.529523 0.470477 0
     0.470477 0.529523 0
@@ -731,17 +631,13 @@ node trimesh Arms
     0.705651 0.602333 0.5
     0.761344 -0.398347 0.9
     0.767955 0.601615 1.1
-    0.422155 0.569327 1
-    0.422155 -0.57353 1
-    0.345961 0.569327 1
-    0.345961 -0.57353 1
-    0.422155 0.569327 0
-    0.422155 -0.57353 0
-    0.345961 0.569327 0
-    0.345961 -0.57353 0
+    0.422155 1.56933 0
+    0.422155 0.42647 0
+    0.345961 1.56933 0
+    0.345961 0.42647 0
 endnode
-node danglymesh SleeveL
-  parent Arms
+node danglymesh sleevel
+  parent arms
   position -0.16348 0 0.00174271
   orientation 0 0 0 0
   wirecolor 0.113281 0.113281 0.113281
@@ -774,36 +670,36 @@ node danglymesh SleeveL
     -0.0278195 -0.0299411 0.0808606
     -0.0299788 0.0299411 0.0618586
   faces 29
-    6 0 5  1  6 0 5  2
-    1 0 6  1  1 0 6  2
-    17 1 6  1  28 1 6  2
-    2 1 17  1  2 1 28  2
-    3 2 17  1  3 16 27  2
-    3 17 16  1  3 27 26  2
-    4 3 16  1  4 3 26  2
-    4 16 9  1  4 26 9  2
-    5 4 9  1  5 4 9  2
-    0 4 5  1  0 4 5  2
-    11 5 10  1  11 5 10  2
-    6 5 11  1  6 5 11  2
-    12 6 11  1  12 6 11  2
-    7 6 12  1  7 6 12  2
-    13 7 12  1  13 18 19  2
-    8 7 13  1  8 20 13  2
-    14 8 13  1  14 8 13  2
-    9 8 14  1  9 8 14  2
-    10 9 14  1  10 9 14  2
-    5 9 10  1  5 9 10  2
-    11 10 15  2  21 15 25  0
-    12 11 15  2  22 21 25  0
-    13 12 15  2  23 22 25  0
-    14 13 15  2  24 23 25  0
-    10 14 15  2  15 24 25  0
-    16 7 8  1  26 17 8  2
-    9 16 8  1  9 26 8  2
-    16 17 7  1  26 27 17  2
-    17 6 7  1  28 6 7  2
-  tverts 29
+    6 0 5 1 6 0 5 2
+    1 0 6 1 1 0 6 2
+    17 1 6 1 26 1 6 2
+    2 1 17 1 2 1 26 2
+    3 2 17 1 3 16 25 2
+    3 17 16 1 3 25 24 2
+    4 3 16 1 4 3 24 2
+    4 16 9 1 4 24 9 2
+    5 4 9 1 5 4 9 2
+    0 4 5 1 0 4 5 2
+    11 5 10 1 11 5 10 2
+    6 5 11 1 6 5 11 2
+    12 6 11 1 12 6 11 2
+    7 6 12 1 7 6 12 2
+    13 7 12 1 13 17 18 2
+    8 7 13 1 8 17 13 2
+    14 8 13 1 14 8 13 2
+    9 8 14 1 9 8 14 2
+    10 9 14 1 10 9 14 2
+    5 9 10 1 5 9 10 2
+    11 10 15 2 19 15 23 0
+    12 11 15 2 20 19 23 0
+    13 12 15 2 21 20 23 0
+    14 13 15 2 22 21 23 0
+    10 14 15 2 15 22 23 0
+    16 7 8 1 24 17 8 2
+    9 16 8 1 9 24 8 2
+    16 17 7 1 24 25 17 2
+    17 6 7 1 26 6 7 2
+  tverts 27
     0.902521 0.983951 0.17603
     0.902521 0.909025 0.647218
     0.902521 0.878824 1.023
@@ -822,9 +718,7 @@ node danglymesh SleeveL
     0.585091 0.808438 0.76014
     0.902522 0.87904 1.023
     0.766267 0.879003 1.02042
-    0.766267 0.879003 1.02042
     0.586171 0.877211 1.09197
-    0.766267 0.879003 1.02042
     0.616013 0.83206 0.851759
     0.604202 0.870281 1
     0.565981 0.870281 1
@@ -833,47 +727,28 @@ node danglymesh SleeveL
     0.86218 0.906892 1.02224
     0.86094 0.879029 1.02221
     0.86094 0.878835 1.02221
-  colors 18
-    1 1 1
-    1 1 1
-    1 1 1
-    1 1 1
-    1 1 1
-    0.98 0.98 0.98
-    0.98 0.98 0.98
-    0.98 0.98 0.98
-    0.98 0.98 0.98
-    0.98 0.98 0.98
-    0.82 0.82 0.82
-    0.86 0.86 0.86
-    0.9 0.9 0.9
-    0.9 0.9 0.9
-    0.86 0.86 0.86
-    0.98 0.98 0.98
-    1 1 1
-    1 1 1
   constraints 18
-    0.0
-    0.0
-    0.0
-    0.0
-    0.0
-    250.0
-    250.0
-    250.0
-    250.0
-    250.0
-    210.0
-    220.0
-    230.0
-    230.0
-    220.0
-    250.0
-    0.0
-    0.0
+    0
+    0
+    0
+    0
+    0
+    250
+    250
+    250
+    250
+    250
+    210
+    220
+    230
+    230
+    220
+    250
+    0
+    0
 endnode
-node danglymesh SleeveR
-  parent Arms
+node danglymesh sleever
+  parent arms
   position 0.163483 0 0.00174271
   orientation 0 0 0 0
   wirecolor 0.113281 0.113281 0.113281
@@ -906,36 +781,36 @@ node danglymesh SleeveR
     0.0278195 -0.0299411 0.0808606
     0.0299788 0.0299411 0.0618586
   faces 29
-    0 6 5  1  0 6 5  2
-    0 1 6  1  0 1 6  2
-    1 17 6  1  1 28 6  2
-    1 2 17  1  1 2 28  2
-    2 3 17  1  16 3 27  2
-    17 3 16  1  27 3 26  2
-    3 4 16  1  3 4 26  2
-    16 4 9  1  26 4 9  2
-    4 5 9  1  4 5 9  2
-    4 0 5  1  4 0 5  2
-    5 11 10  1  5 11 10  2
-    5 6 11  1  5 6 11  2
-    6 12 11  1  6 12 11  2
-    6 7 12  1  6 7 12  2
-    7 13 12  1  18 13 19  2
-    7 8 13  1  20 8 13  2
-    8 14 13  1  8 14 13  2
-    8 9 14  1  8 9 14  2
-    9 10 14  1  9 10 14  2
-    9 5 10  1  9 5 10  2
-    10 11 15  2  15 21 25  0
-    11 12 15  2  21 22 25  0
-    12 13 15  2  22 23 25  0
-    13 14 15  2  23 24 25  0
-    14 10 15  2  24 15 25  0
-    7 16 8  1  17 26 8  2
-    16 9 8  1  26 9 8  2
-    17 16 7  1  27 26 17  2
-    6 17 7  1  6 28 7  2
-  tverts 29
+    0 6 5 1 0 6 5 2
+    0 1 6 1 0 1 6 2
+    1 17 6 1 1 26 6 2
+    1 2 17 1 1 2 26 2
+    2 3 17 1 16 3 25 2
+    17 3 16 1 25 3 24 2
+    3 4 16 1 3 4 24 2
+    16 4 9 1 24 4 9 2
+    4 5 9 1 4 5 9 2
+    4 0 5 1 4 0 5 2
+    5 11 10 1 5 11 10 2
+    5 6 11 1 5 6 11 2
+    6 12 11 1 6 12 11 2
+    6 7 12 1 6 7 12 2
+    7 13 12 1 17 13 18 2
+    7 8 13 1 17 8 13 2
+    8 14 13 1 8 14 13 2
+    8 9 14 1 8 9 14 2
+    9 10 14 1 9 10 14 2
+    9 5 10 1 9 5 10 2
+    10 11 15 2 15 19 23 0
+    11 12 15 2 19 20 23 0
+    12 13 15 2 20 21 23 0
+    13 14 15 2 21 22 23 0
+    14 10 15 2 22 15 23 0
+    7 16 8 1 17 24 8 2
+    16 9 8 1 24 9 8 2
+    17 16 7 1 25 24 17 2
+    6 17 7 1 6 26 7 2
+  tverts 27
     0.902521 0.983951 0.17603
     0.902521 0.909025 0.647218
     0.902521 0.878824 1.023
@@ -954,9 +829,7 @@ node danglymesh SleeveR
     0.585091 0.808438 0.76014
     0.902522 0.87904 1.023
     0.766267 0.879003 1.02042
-    0.766267 0.879003 1.02042
     0.586171 0.877211 1.09197
-    0.766267 0.879003 1.02042
     0.616013 0.83206 0.851759
     0.604202 0.870281 1
     0.565981 0.870281 1
@@ -965,504 +838,478 @@ node danglymesh SleeveR
     0.86218 0.906892 1.02224
     0.86094 0.879029 1.02221
     0.86094 0.878835 1.02221
-  colors 18
-    1 1 1
-    1 1 1
-    1 1 1
-    1 1 1
-    1 1 1
-    0.98 0.98 0.98
-    0.98 0.98 0.98
-    0.98 0.98 0.98
-    0.98 0.98 0.98
-    0.98 0.98 0.98
-    0.82 0.82 0.82
-    0.86 0.86 0.86
-    0.9 0.9 0.9
-    0.9 0.9 0.9
-    0.86 0.86 0.86
-    0.98 0.98 0.98
-    1 1 1
-    1 1 1
   constraints 18
-    0.0
-    0.0
-    0.0
-    0.0
-    0.0
-    250.0
-    250.0
-    250.0
-    250.0
-    250.0
-    210.0
-    220.0
-    230.0
-    230.0
-    220.0
-    250.0
-    0.0
-    0.0
+    0
+    0
+    0
+    0
+    0
+    250
+    250
+    250
+    250
+    250
+    210
+    220
+    230
+    230
+    220
+    250
+    0
+    0
 endnode
-node dummy F08_hand
-  parent PLC_scrcrow
+node dummy f08_hand
+  parent plc_scrcrow
   position 0.00398926 -0.505195 0.934402
   orientation 0 0 0 0
   wirecolor 0.226563 0.226563 0.226563
 endnode
-node dummy F08_head
-  parent PLC_scrcrow
+node dummy f08_head
+  parent plc_scrcrow
   position 0 0 2.54515
   orientation 0 0 0 0
   wirecolor 0.226563 0.226563 0.226563
 endnode
-node dummy F08_head_hit
-  parent PLC_scrcrow
+node dummy f08_head_hit
+  parent plc_scrcrow
   position 0 0 2.06367
   orientation 0 0 0 0
   wirecolor 0.226563 0.226563 0.226563
 endnode
-node dummy F08_impact
-  parent PLC_scrcrow
+node dummy f08_impact
+  parent plc_scrcrow
   position 0 0 1.11268
   orientation 0 0 0 0
   wirecolor 0.226563 0.226563 0.226563
 endnode
-node dummy F08_ground
-  parent PLC_scrcrow
+node dummy f08_ground
+  parent plc_scrcrow
   position -0.00363281 0.0069873 0
   orientation 0 0 0 0
   wirecolor 0.226563 0.226563 0.226563
 endnode
-node emitter ChunkyWood236
-  parent PLC_scrcrow
+node emitter chunkywood236
+  parent plc_scrcrow
   position -0.000188584 -0.00431519 0.833401
   orientation 0 0 0 0
   wirecolor 0.601563 0.601563 0.601563
-    colorStart 1 1 1
-    colorEnd 1 1 1
-    alphaStart 1
-    alphaEnd 1
-    sizeStart 0.1
-    sizeEnd 0.1
-    sizeStart_y 0
-    sizeEnd_y 0
-    frameStart 0
-    frameEnd 24
-    birthrate 3
-    spawnType 0
-    lifeExp 0.75
-    mass 3
-    spread 1.22173
-    particleRot 5
-    velocity 8
-    randvel 0.3
-    fps 0
-    random 0
-    inherit 1
-    inherit_local 0
-    inherit_part 0
-    inheritvel 0
-    xsize 89
-    ysize 40
-    bounce 1
-    bounce_co 0.5
-    loop 0
-    update Explosion
-    render Normal
-    Blend Normal
-    update_sel 2
-    render_sel 1
-    blend_sel 1
-    deadspace 0
-    opacity 0.5
-    blurlength 10
-    lightningDelay 0
-    lightningRadius 0
-    lightningScale 0
-    blastRadius 0
-    blastLength 0
-    twosidedtex 0
-    p2p 0
-    p2p_sel 1
-    p2p_type Bezier
-    p2p_bezier2 0
-    p2p_bezier3 0
-    combinetime 0
-    drag 0
-    grav 0
-    threshold 0
-    texture fxpa_cloud02
-    xgrid 5
-    ygrid 5
-    affectedByWind 0
-    m_isTinted 0
-    renderorder 0
-    Splat 0
-    chunkName PLC_Chunk_W01
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 24
+  birthrate 3
+  spawntype 0
+  lifeExp 0.75
+  mass 3
+  spread 1.22173
+  particleRot 5
+  velocity 8
+  randvel 0.3
+  fps 0
+  random 0
+  inherit 1
+  inherit_local 0
+  inherit_part 0
+  inheritvel 0
+  xsize 89
+  ysize 40
+  bounce 1
+  bounce_co 0.5
+  loop 0
+  update Explosion
+  render Normal
+  blend Normal
+  deadspace 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  twosidedtex 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+  texture fxpa_cloud02
+  xgrid 5
+  ygrid 5
+  affectedByWind 0
+  m_isTinted 0
+  renderorder 0
+  splat 0
+  chunkName plc_chunk_w01
 endnode
 node emitter fire!144
-  parent PLC_scrcrow
+  parent plc_scrcrow
   position -0.000188584 -0.00431519 0.759357
   orientation -1 0 0 -1.5708
   wirecolor 0.601563 0.601563 0.601563
-    colorStart 0.47451 0.439216 0.364706
-    colorEnd 0.819608 0.796079 0.709804
-    alphaStart 1
-    alphaEnd 0
-    sizeStart 4
-    sizeEnd 1
-    sizeStart_y 0
-    sizeEnd_y 0
-    frameStart 0
-    frameEnd 24
-    birthrate 10
-    spawnType 0
-    lifeExp 2.5
-    mass 0.09
-    spread 2.96706
-    particleRot 0.5
-    velocity 2
-    randvel 0.5
-    fps 10
-    random 0
-    inherit 1
-    inherit_local 0
-    inherit_part 0
-    inheritvel 0
-    xsize 100
-    ysize 99
-    bounce 0
-    bounce_co 0
-    loop 0
-    update Explosion
-    render Normal
-    Blend Normal
-    update_sel 2
-    render_sel 1
-    blend_sel 1
-    deadspace 0
-    opacity 0.5
-    blurlength 10
-    lightningDelay 0
-    lightningRadius 0
-    lightningScale 0
-    blastRadius 0.2
-    blastLength 1
-    twosidedtex 1
-    p2p 0
-    p2p_sel 1
-    p2p_type Bezier
-    p2p_bezier2 0
-    p2p_bezier3 0
-    combinetime 0
-    drag 0
-    grav 0
-    threshold 0
-    texture fxpa_smoke01
-    xgrid 4
-    ygrid 4
-    affectedByWind 0
-    m_isTinted 1
-    renderorder 0
-    Splat 0
+  colorStart 0.47451 0.439216 0.364706
+  colorEnd 0.819608 0.796079 0.709804
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 4
+  sizeEnd 1
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 24
+  birthrate 10
+  spawntype 0
+  lifeExp 2.5
+  mass 0.09
+  spread 2.96706
+  particleRot 0.5
+  velocity 2
+  randvel 0.5
+  fps 10
+  random 0
+  inherit 1
+  inherit_local 0
+  inherit_part 0
+  inheritvel 0
+  xsize 100
+  ysize 99
+  bounce 0
+  bounce_co 0
+  loop 0
+  update Explosion
+  render Normal
+  blend Normal
+  deadspace 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  blastRadius 0.2
+  blastLength 1
+  twosidedtex 1
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+  texture fxpa_smoke01
+  xgrid 4
+  ygrid 4
+  affectedByWind 0
+  m_isTinted 1
+  renderorder 0
+  splat 0
 endnode
-endmodelgeom PLC_scrcrow
+endmodelgeom plc_scrcrow
 
 #MAXANIM ASCII
-newanim damage PLC_scrcrow
+newanim damage plc_scrcrow
   length 0.233333
   transtime 0
-  animroot PLC_scrcrow
-node dummy PLC_scrcrow
-  parent NULL
-endnode
-node trimesh Box70
-  parent PLC_scrcrow
+  animroot plc_scrcrow
+  node dummy plc_scrcrow
+    parent NULL
+  endnode
+  node dummy pwk_scrcrow
+    parent plc_scrcrow
+    #part-number -1
+  endnode
+  node trimesh box70
+    parent plc_scrcrow
     positionkey
-      0  0.00760254 0.00438721 0
-      0.233333  0.00760254 0.00438721 0
+      0 0.00760254 0.00438721 0
+      0.233333 0.00760254 0.00438721 0
     endlist
     orientationkey
-      0  0 0 1 3.14159
-      0.0333333  0.0261708 -0.0218075 0.99942 3.14045
-      0.1  -0.0393004 0.0216489 0.998993 3.13532
-      0.233333  0 0 1 3.14159
+      0 0 0 1 3.14159
+      0.0333333 0.0261708 -0.0218075 0.99942 3.14045
+      0.1 -0.0393004 0.0216489 0.998993 3.13532
+      0.233333 0 0 1 3.14159
     endlist
-endnode
-node trimesh shirt
-  parent Box70
-endnode
-node trimesh Neck
-  parent shirt
-endnode
-node trimesh Head
-  parent Neck
+  endnode
+  node dummy shirt
+    parent box70
+  endnode
+  node dummy neck
+    parent shirt
+  endnode
+  node trimesh head
+    parent neck
     orientationkey
-      0  0 0 0 0
-      0.0666667  0.00370928 -0.999993 -0.000134433 0.1309
-      0.2  -0.0114789 0.999921 0.00516683 0.347707
-      0.233333  0.920703 0.0033674 -0.390249 0.00314714
+      0 0 0 0 0
+      0.0666667 0.00370928 -0.999993 -0.000134433 0.1309
+      0.2 -0.0114789 0.999921 0.00516683 0.347707
+      0.233333 0.920703 0.0033674 -0.390249 0.00314714
     endlist
-endnode
-node danglymesh Hat
-  parent Head
-endnode
-node trimesh Belt
-  parent shirt
-endnode
-node danglymesh Shirt_bottom
-  parent Belt
-endnode
-node trimesh Arms
-  parent Box70
+  endnode
+  node dummy hat
+    parent head
+  endnode
+  node dummy belt
+    parent shirt
+  endnode
+  node dummy shirt_bottom
+    parent belt
+  endnode
+  node trimesh arms
+    parent box70
     orientationkey
-      0  0 0 0 0
-      0.0666667  -0.0356633 -0.507387 -0.86098 0.222911
-      0.166667  -0.0794602 0.648239 0.75728 0.190249
-      0.233333  0 0 0 0
+      0 0 0 0 0
+      0.0666667 -0.0356633 -0.507387 -0.86098 0.222911
+      0.166667 -0.0794602 0.648239 0.75728 0.190249
+      0.233333 0 0 0 0
     endlist
-endnode
-node danglymesh SleeveL
-  parent Arms
-endnode
-node danglymesh SleeveR
-  parent Arms
-endnode
-node dummy F08_hand
-  parent PLC_scrcrow
-endnode
-node dummy F08_head
-  parent PLC_scrcrow
-endnode
-node dummy F08_head_hit
-  parent PLC_scrcrow
-endnode
-node dummy F08_impact
-  parent PLC_scrcrow
-endnode
-node dummy F08_ground
-  parent PLC_scrcrow
-endnode
-node emitter ChunkyWood236
-  parent PLC_scrcrow
-endnode
-node emitter fire!144
-  parent PLC_scrcrow
-endnode
-node trimesh pwk_scrcrow
-  parent PLC_scrcrow
-endnode
-doneanim damage PLC_scrcrow
+  endnode
+  node dummy sleevel
+    parent arms
+  endnode
+  node dummy sleever
+    parent arms
+  endnode
+  node dummy f08_hand
+    parent plc_scrcrow
+  endnode
+  node dummy f08_head
+    parent plc_scrcrow
+  endnode
+  node dummy f08_head_hit
+    parent plc_scrcrow
+  endnode
+  node dummy f08_impact
+    parent plc_scrcrow
+  endnode
+  node dummy f08_ground
+    parent plc_scrcrow
+  endnode
+  node emitter chunkywood236
+    parent plc_scrcrow
+  endnode
+  node emitter fire!144
+    parent plc_scrcrow
+  endnode
+doneanim damage plc_scrcrow
 
 #MAXANIM ASCII
-newanim dead PLC_scrcrow
+newanim dead plc_scrcrow
   length 0.0333333
   transtime 0
-  animroot PLC_scrcrow
-node dummy PLC_scrcrow
-  parent NULL
-endnode
-node trimesh Box70
-  parent PLC_scrcrow
+  animroot plc_scrcrow
+  node dummy plc_scrcrow
+    parent NULL
+  endnode
+  node dummy pwk_scrcrow
+    parent plc_scrcrow
+    #part-number -1
+  endnode
+  node trimesh box70
+    parent plc_scrcrow
     positionkey
-      0  0.00760254 0.00438721 -5.77217
-      0.0333333  0.00760254 0.00438721 -5.77217
+      0 0.00760254 0.00438721 -5.77217
+      0.0333333 0.00760254 0.00438721 -5.77217
     endlist
-endnode
-node trimesh shirt
-  parent Box70
-endnode
-node trimesh Neck
-  parent shirt
-endnode
-node trimesh Head
-  parent Neck
-endnode
-node danglymesh Hat
-  parent Head
-endnode
-node trimesh Belt
-  parent shirt
-endnode
-node danglymesh Shirt_bottom
-  parent Belt
-endnode
-node trimesh Arms
-  parent Box70
-endnode
-node danglymesh SleeveL
-  parent Arms
-endnode
-node danglymesh SleeveR
-  parent Arms
-endnode
-node dummy F08_hand
-  parent PLC_scrcrow
-endnode
-node dummy F08_head
-  parent PLC_scrcrow
-endnode
-node dummy F08_head_hit
-  parent PLC_scrcrow
-endnode
-node dummy F08_impact
-  parent PLC_scrcrow
-endnode
-node dummy F08_ground
-  parent PLC_scrcrow
-endnode
-node emitter ChunkyWood236
-  parent PLC_scrcrow
-endnode
-node emitter fire!144
-  parent PLC_scrcrow
-endnode
-node trimesh pwk_scrcrow
-  parent PLC_scrcrow
-endnode
-doneanim dead PLC_scrcrow
+  endnode
+  node dummy shirt
+    parent box70
+  endnode
+  node dummy neck
+    parent shirt
+  endnode
+  node dummy head
+    parent neck
+  endnode
+  node dummy hat
+    parent head
+  endnode
+  node dummy belt
+    parent shirt
+  endnode
+  node dummy shirt_bottom
+    parent belt
+  endnode
+  node dummy arms
+    parent box70
+  endnode
+  node dummy sleevel
+    parent arms
+  endnode
+  node dummy sleever
+    parent arms
+  endnode
+  node dummy f08_hand
+    parent plc_scrcrow
+  endnode
+  node dummy f08_head
+    parent plc_scrcrow
+  endnode
+  node dummy f08_head_hit
+    parent plc_scrcrow
+  endnode
+  node dummy f08_impact
+    parent plc_scrcrow
+  endnode
+  node dummy f08_ground
+    parent plc_scrcrow
+  endnode
+  node emitter chunkywood236
+    parent plc_scrcrow
+  endnode
+  node emitter fire!144
+    parent plc_scrcrow
+  endnode
+doneanim dead plc_scrcrow
 
 #MAXANIM ASCII
-newanim die PLC_scrcrow
-  length 0.1
-  transtime 0
-  animroot PLC_scrcrow
-node dummy PLC_scrcrow
-  parent NULL
-endnode
-node trimesh Box70
-  parent PLC_scrcrow
-    positionkey
-      0  0.00760254 0.00438721 0
-      0.1  0.00760254 0.00438721 -5.77217
-    endlist
-    orientationkey
-      0  0 0 1 3.14159
-    endlist
-endnode
-node trimesh shirt
-  parent Box70
-endnode
-node trimesh Neck
-  parent shirt
-endnode
-node trimesh Head
-  parent Neck
-endnode
-node danglymesh Hat
-  parent Head
-endnode
-node trimesh Belt
-  parent shirt
-endnode
-node danglymesh Shirt_bottom
-  parent Belt
-endnode
-node trimesh Arms
-  parent Box70
-endnode
-node danglymesh SleeveL
-  parent Arms
-endnode
-node danglymesh SleeveR
-  parent Arms
-endnode
-node dummy F08_hand
-  parent PLC_scrcrow
-endnode
-node dummy F08_head
-  parent PLC_scrcrow
-endnode
-node dummy F08_head_hit
-  parent PLC_scrcrow
-endnode
-node dummy F08_impact
-  parent PLC_scrcrow
-endnode
-node dummy F08_ground
-  parent PLC_scrcrow
-endnode
-node emitter ChunkyWood236
-  parent PLC_scrcrow
-endnode
-node emitter fire!144
-  parent PLC_scrcrow
-endnode
-node trimesh pwk_scrcrow
-  parent PLC_scrcrow
-endnode
-event 0  detonate
-event 0  detonate
-doneanim die PLC_scrcrow
-
-#MAXANIM ASCII
-newanim default PLC_scrcrow
+newanim default plc_scrcrow
   length 0
   transtime 0.25
-  animroot PLC_scrcrow
-node dummy PLC_scrcrow
-  parent NULL
-endnode
-node trimesh Box70
-  parent PLC_scrcrow
+  animroot plc_scrcrow
+  node dummy plc_scrcrow
+    parent NULL
+  endnode
+  node dummy pwk_scrcrow
+    parent plc_scrcrow
+    #part-number -1
+  endnode
+  node trimesh box70
+    parent plc_scrcrow
     positionkey
-      0  0.00760254 0.00438721 0
+      0 0.00760254 0.00438721 0
     endlist
     orientationkey
-      0  0 0 1 3.14159
+      0 0 0 1 3.14159
     endlist
-endnode
-node trimesh shirt
-  parent Box70
-endnode
-node trimesh Neck
-  parent shirt
-endnode
-node trimesh Head
-  parent Neck
-endnode
-node danglymesh Hat
-  parent Head
-endnode
-node trimesh Belt
-  parent shirt
-endnode
-node danglymesh Shirt_bottom
-  parent Belt
-endnode
-node trimesh Arms
-  parent Box70
-endnode
-node danglymesh SleeveL
-  parent Arms
-endnode
-node danglymesh SleeveR
-  parent Arms
-endnode
-node dummy F08_hand
-  parent PLC_scrcrow
-endnode
-node dummy F08_head
-  parent PLC_scrcrow
-endnode
-node dummy F08_head_hit
-  parent PLC_scrcrow
-endnode
-node dummy F08_impact
-  parent PLC_scrcrow
-endnode
-node dummy F08_ground
-  parent PLC_scrcrow
-endnode
-node emitter ChunkyWood236
-  parent PLC_scrcrow
-endnode
-node emitter fire!144
-  parent PLC_scrcrow
-endnode
-node trimesh pwk_scrcrow
-  parent PLC_scrcrow
-endnode
-doneanim default PLC_scrcrow
-donemodel PLC_scrcrow
+  endnode
+  node dummy shirt
+    parent box70
+  endnode
+  node dummy neck
+    parent shirt
+  endnode
+  node dummy head
+    parent neck
+  endnode
+  node dummy hat
+    parent head
+  endnode
+  node dummy belt
+    parent shirt
+  endnode
+  node dummy shirt_bottom
+    parent belt
+  endnode
+  node dummy arms
+    parent box70
+  endnode
+  node dummy sleevel
+    parent arms
+  endnode
+  node dummy sleever
+    parent arms
+  endnode
+  node dummy f08_hand
+    parent plc_scrcrow
+  endnode
+  node dummy f08_head
+    parent plc_scrcrow
+  endnode
+  node dummy f08_head_hit
+    parent plc_scrcrow
+  endnode
+  node dummy f08_impact
+    parent plc_scrcrow
+  endnode
+  node dummy f08_ground
+    parent plc_scrcrow
+  endnode
+  node emitter chunkywood236
+    parent plc_scrcrow
+  endnode
+  node emitter fire!144
+    parent plc_scrcrow
+  endnode
+doneanim default plc_scrcrow
+
+#MAXANIM ASCII
+newanim die plc_scrcrow
+  length 0.1
+  transtime 0
+  event 0 detonate
+  animroot plc_scrcrow
+  node dummy plc_scrcrow
+    parent NULL
+  endnode
+  node dummy pwk_scrcrow
+    parent plc_scrcrow
+    #part-number -1
+  endnode
+  node trimesh box70
+    parent plc_scrcrow
+    positionkey
+      0 0.00760254 0.00438721 0
+      0.1 0.00760254 0.00438721 -5.77217
+    endlist
+    orientationkey
+      0 0 0 1 3.14159
+    endlist
+  endnode
+  node dummy shirt
+    parent box70
+  endnode
+  node dummy neck
+    parent shirt
+  endnode
+  node dummy head
+    parent neck
+  endnode
+  node dummy hat
+    parent head
+  endnode
+  node dummy belt
+    parent shirt
+  endnode
+  node dummy shirt_bottom
+    parent belt
+  endnode
+  node dummy arms
+    parent box70
+  endnode
+  node dummy sleevel
+    parent arms
+  endnode
+  node dummy sleever
+    parent arms
+  endnode
+  node dummy f08_hand
+    parent plc_scrcrow
+  endnode
+  node dummy f08_head
+    parent plc_scrcrow
+  endnode
+  node dummy f08_head_hit
+    parent plc_scrcrow
+  endnode
+  node dummy f08_impact
+    parent plc_scrcrow
+  endnode
+  node dummy f08_ground
+    parent plc_scrcrow
+  endnode
+  node emitter chunkywood236
+    parent plc_scrcrow
+  endnode
+  node emitter fire!144
+    parent plc_scrcrow
+  endnode
+doneanim die plc_scrcrow
+donemodel plc_scrcrow

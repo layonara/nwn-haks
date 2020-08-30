@@ -1,19 +1,17 @@
-#Exported from 3ds max by MDL Plug-in Suite 1.0b
-#http://www.bricksbuilder.com/nwn/utils/
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 18:36:35 2019
 #MAXMODEL ASCII
-# model: PLC_DD35
-filedependancy Unknown
-newmodel PLC_DD35
-setsupermodel PLC_DD35 NULL
-classification Character
-setanimationscale 1.0
-#MAXGEOM  ASCII
-beginmodelgeom PLC_DD35
-node dummy PLC_DD35
+filedependency Unknown
+newmodel plc_dd35
+  classification CHARACTER
+  setsupermodel plc_dd35 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom plc_dd35
+node dummy plc_dd35
   parent NULL
 endnode
-node trimesh Plane01
-  parent PLC_DD35
+node trimesh plane01
+  parent plc_dd35
   position 0.0124055 -0.0252092 0.02
   orientation 0 0 0 0
   wirecolor 0.722656 0.722656 0.722656
@@ -21,9 +19,9 @@ node trimesh Plane01
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  bitmap LOKfootpath2
+  bitmap lokfootpath2
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 1
   tilefade 0
@@ -36,10 +34,10 @@ node trimesh Plane01
     -0.0180889 -0.758011 0
     -0.768089 -0.758011 0
   faces 4
-    3 0 4  1  3 0 4  0
-    1 4 0  1  1 4 0  0
-    4 1 5  1  4 1 5  0
-    2 5 1  1  2 5 1  0
+    3 0 4 1 3 0 4 0
+    1 4 0 1 1 4 0 0
+    4 1 5 1 4 1 5 0
+    2 5 1 1 2 5 1 0
   tverts 6
     0.000499487 0.000499725 0
     0.5 0.000499606 0
@@ -48,5 +46,5 @@ node trimesh Plane01
     0.5 0.9995 0
     0.999501 0.9995 0
 endnode
-endmodelgeom PLC_DD35
-donemodel PLC_DD35
+endmodelgeom plc_dd35
+donemodel plc_dd35

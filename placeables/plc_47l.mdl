@@ -1,19 +1,17 @@
-#Exported from 3ds max by MDL Plug-in Suite 1.0b
-#http://www.bricksbuilder.com/nwn/utils/
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 18:35:40 2019
 #MAXMODEL ASCII
-# model: PLC_47L
-filedependancy jan6.max
-newmodel PLC_47L
-setsupermodel PLC_47L NULL
-classification Character
-setanimationscale 1.0
-#MAXGEOM  ASCII
-beginmodelgeom PLC_47L
-node dummy PLC_47L
+filedependency Unknown
+newmodel plc_47l
+  classification CHARACTER
+  setsupermodel plc_47l NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom plc_47l
+node dummy plc_47l
   parent NULL
 endnode
 node trimesh mossypatch06
-  parent PLC_47L
+  parent plc_47l
   position 0 0.269265 1.6
   orientation 1 0 0 -1.5708
   wirecolor 0.5625 0.5625 0.5625
@@ -23,7 +21,7 @@ node trimesh mossypatch06
   shininess 10
   bitmap tdd02_wallgrth2
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 0
@@ -38,19 +36,15 @@ node trimesh mossypatch06
     -1.6 -1.6 0
     1.6 -1.6 0
   faces 4
-    2 0 3  1  2 0 3  0
-    1 3 0  1  1 3 0  0
-    6 4 7  1  6 4 7  0
-    5 7 4  1  5 7 4  0
-  tverts 8
+    2 0 3 1 2 0 3 0
+    1 3 0 1 1 3 0 0
+    6 4 7 1 3 1 2 0
+    5 7 4 1 0 2 1 0
+  tverts 4
     0.000156075 0.000156283 0.5
     0.999844 0.000156045 0.5
     0.000156313 0.999844 0.5
     0.999844 0.999844 0.5
-    0.999844 0.000156045 0.499966
-    0.000156134 0.000156283 0.500015
-    0.999844 0.999844 0.499985
-    0.000156373 0.999844 0.500034
 endnode
-endmodelgeom PLC_47L
-donemodel PLC_47L
+endmodelgeom plc_47l
+donemodel plc_47l

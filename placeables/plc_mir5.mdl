@@ -1,104 +1,101 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 18:37:51 2019
 #MAXMODEL ASCII
-# model: plc_Mir5
-filedependancy plc_Mir5 NULL.mlk
-newmodel plc_Mir5
-setsupermodel plc_Mir5 NULL
-classification Character
-setanimationscale 0
-
+filedependency Unknown
+newmodel plc_mir5
+  classification CHARACTER
+  setsupermodel plc_mir5 NULL
+  setanimationscale 0
 #MAXGEOM ASCII
-beginmodelgeom plc_Mir5
-node dummy plc_Mir5
+beginmodelgeom plc_mir5
+node dummy plc_mir5
   parent NULL
 endnode
-node dummy Mir5_hand
-  parent PLC_Mir5
-  position 0.003989 0.553636 1.705210
-  orientation 0.000000 0.000000 0.000000 0.000000
+node dummy mir5_hand
+  parent plc_mir5
+  position 0.003989 0.553636 1.70521
+  orientation 0 0 0 0
 endnode
-node dummy Mir5_head
-  parent PLC_Mir5
-  position 0.003989 0.010825 1.569630
-  orientation 0.000000 0.000000 0.000000 0.000000
+node dummy mir5_head
+  parent plc_mir5
+  position 0.003989 0.010825 1.56963
+  orientation 0 0 0 0
 endnode
-node dummy Mir5_head_hit
-  parent PLC_Mir5
-  position 0.003989 0.010825 1.088150
-  orientation 0.000000 0.000000 0.000000 0.000000
+node dummy mir5_head_hit
+  parent plc_mir5
+  position 0.003989 0.010825 1.08815
+  orientation 0 0 0 0
 endnode
-node dummy Mir5_impact
-  parent PLC_Mir5
-  position 0.003989 0.011000 0.544368
-  orientation 0.000000 0.000000 0.000000 0.000000
+node dummy mir5_impact
+  parent plc_mir5
+  position 0.003989 0.011 0.544368
+  orientation 0 0 0 0
 endnode
-node dummy Mir5_ground
-  parent PLC_Mir5
-  position -0.003633 0.006987 0.000000
-  orientation 0.000000 0.000000 0.000000 0.000000
+node dummy mir5_ground
+  parent plc_mir5
+  position -0.003633 0.006987 0
+  orientation 0 0 0 0
 endnode
-
-node emitter Chunkssml
-  parent plc_Mir5
-  position -0.000508 0.000818 2.0
-  orientation 0.000000 0.000000 0.000000 0.000000
-    colorStart 0.000000 0.800000 0.800000
-    colorEnd 1.0 1.0 1.0
-    alphaStart 0.900000
-    alphaEnd 0.100000
-    sizeStart 0.040000
-    sizeEnd 0.01000
-    sizeStart_y 0.000000
-    sizeEnd_y 0.000000
-    frameStart 0
-    frameEnd 0
-    birthrate 0
-    spawnType 0
-    lifeExp 64.000000
-    mass 1.000000
-    spread 3.792530
-    particleRot 10.000000
-    velocity 1.000000
-    randvel 1.000000
-    fps 0
-    random 0
-    inherit 0
-    inherit_local 0
-    inherit_part 0
-    inheritvel 0
-    xsize 0.000000
-    ysize 0.000000
-    bounce 1
-    bounce_co 0.300000
-    loop 0
-    update Explosion
-    render Normal
-    Blend Normal
-    deadspace 0.000000
-    blurlength 10.000000
-    lightningDelay 0.0
-    lightningRadius 0.000000
-    lightningScale 0.000000
-    blastRadius 0.100000
-    blastLength 0.000000
-    twosidedtex 1
-    p2p 0
-    p2p_sel 1
-    p2p_type Bezier
-    p2p_bezier2 0.000000
-    p2p_bezier3 0.000000
-    combinetime 0.000000
-    drag 0.000000
-    grav 0.000000
-    threshold 0.000000
-    texture NULL
-    xgrid 0
-    ygrid 0
-    affectedByWind 0
-    m_isTinted 0
-    Splat 0
+node emitter chunkssml
+  parent plc_mir5
+  position -0.000508 0.000818 2
+  orientation 0 0 0 0
+  colorStart 0 0.8 0.8
+  colorEnd 1 1 1
+  alphaStart 0.9
+  alphaEnd 0.1
+  sizeStart 0.04
+  sizeEnd 0.01
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 0
+  spawntype 0
+  lifeExp 64
+  mass 1
+  spread 3.79253
+  particleRot 10
+  velocity 1
+  randvel 1
+  fps 0
+  random 0
+  inherit 0
+  inherit_local 0
+  inherit_part 0
+  inheritvel 0
+  xsize 0
+  ysize 0
+  bounce 1
+  bounce_co 0.3
+  loop 0
+  update Explosion
+  render Normal
+  blend Normal
+  deadspace 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  blastRadius 0.1
+  blastLength 0
+  twosidedtex 1
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+  texture NULL
+  xgrid 0
+  ygrid 0
+  affectedByWind 0
+  m_isTinted 0
+  splat 0
 endnode
 node emitter fire!91
-  parent PLC_Mir5
+  parent plc_mir5
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -121,14 +118,14 @@ node emitter fire!91
   loop 0
   deadspace 0
   twosidedtex 1
-  blastRadius 0.200000003
+  blastRadius 0.2
   blastLength 1
-  position -0.00243408 -0.0144824004 0.532670975
-  orientation -1 0 0 -1.57079995
-  colorStart 0.44510014 0.44510014 0.44510014
-  colorEnd 1.0 1.0 1.0
-  alphaStart 0.200000
-  alphaEnd 0.100000
+  position -0.00243408 -0.0144824 0.532671
+  orientation -1 0 0 -1.5708
+  colorStart 0.4451 0.4451 0.4451
+  colorEnd 1 1 1
+  alphaStart 0.2
+  alphaEnd 0.1
   sizeStart 4
   sizeEnd 1
   sizeStart_y 0
@@ -137,8 +134,8 @@ node emitter fire!91
   frameEnd 24
   birthrate 10
   lifeExp 2.5
-  mass 0.0900000036
-  spread 2.96706009
+  mass 0.09
+  spread 2.96706
   particleRot 0.5
   velocity 2
   randvel 0.5
@@ -157,152 +154,139 @@ node emitter fire!91
   grav 0
   threshold 0
 endnode
-
-
-
-node trimesh Mirror
-  parent plc_Mir5
+node trimesh mirror
+  parent plc_mir5
+  orientation 0 0 0 0
   position 0 0 0
-  orientation 1 0 0 0
-  alpha 1.0000
+  alpha 1
   wirecolor 1 1 1
-  diffuse 1.000000 1.000000 1.000000
-  ambient 1.000000 1.000000 1.000000
-  specular 1.050000 1.050000 1.050000
-  shininess 26.000000
-    bitmap mirror2
-    verts 14
-     -0.396958 0.015897 0.224155 
-     0.414202 0.015897 0.208665 
-     -0.005329 0.000343 0.216397 
-     -0.138032 0.015897 2.311251 
-     -0.005615 0.000343 2.311171 
-     0.142969 0.015897 2.311225 
-     -0.409424 0.015897 2.024155 
-     0.398712 0.015897 2.024155 
-     0.414202 -0.015211 0.208665 
-     0.142969 -0.015211 2.311225 
-     0.398712 -0.015211 2.024155 
-     -0.396958 -0.015211 0.224155 
-     -0.138032 -0.015211 2.311251 
-     -0.409424 -0.015211 2.024155 
-    faces 24
-     0 1 2  1  0 1 2  0
-     3 4 5  1  3 4 5  0
-     0 6 7  1  0 6 7  0
-     0 7 1  1  0 7 1  0
-     6 3 7  1  6 3 7  0
-     3 5 7  1  3 5 7  0
-     1 8 2  1  1 8 2  0
-     5 4 9  1  5 4 9  0
-     1 7 8  1  1 7 8  0
-     7 10 8  1  7 10 8  0
-     7 5 9  1  7 5 9  0
-     7 9 10  1  7 9 10  0
-     8 11 2  1  8 11 2  0
-     9 4 12  1  9 4 12  0
-     8 10 13  1  8 10 13  0
-     8 13 11  1  8 13 11  0
-     10 9 13  1  10 9 13  0
-     9 12 13  1  9 12 13  0
-     11 0 2  1  11 0 2  0
-     12 4 3  1  12 4 3  0
-     11 13 0  1  11 13 0  0
-     13 6 0  1  13 6 0  0
-     13 12 3  1  13 12 3  0
-     13 3 6  1  13 3 6  0
-    tverts 14
-     0.978115 0.048038 0.0 
-     0.023666 0.041138 0.0 
-     0.496488 0.044583 0.0 
-     0.646048 0.977761 0.0 
-     0.496810 0.977725 0.0 
-     0.329352 0.977749 0.0 
-     0.951913 0.849870 0.0 
-     0.041124 0.849870 0.0 
-     0.023666 0.041138 0.0 
-     0.329352 0.977749 0.0 
-     0.041124 0.849870 0.0 
-     0.978115 0.048038 0.0 
-     0.646048 0.977761 0.0 
-     0.951913 0.849870 0.0 
+  diffuse 1 1 1
+  ambient 1 1 1
+  specular 1.05 1.05 1.05
+  shininess 26
+  bitmap mirror2
+  verts 14
+    -0.396958 0.015897 0.224155
+    0.414202 0.015897 0.208665
+    -0.005329 0.000343 0.216397
+    -0.138032 0.015897 2.31125
+    -0.005615 0.000343 2.31117
+    0.142969 0.015897 2.31122
+    -0.409424 0.015897 2.02415
+    0.398712 0.015897 2.02415
+    0.414202 -0.015211 0.208665
+    0.142969 -0.015211 2.31122
+    0.398712 -0.015211 2.02415
+    -0.396958 -0.015211 0.224155
+    -0.138032 -0.015211 2.31125
+    -0.409424 -0.015211 2.02415
+  faces 24
+    0 1 2 1 0 1 2 0
+    3 4 5 1 3 4 5 0
+    0 6 7 1 0 6 7 0
+    0 7 1 1 0 7 1 0
+    6 3 7 1 6 3 7 0
+    3 5 7 1 3 5 7 0
+    1 8 2 1 1 1 2 0
+    5 4 9 1 5 4 5 0
+    1 7 8 1 1 7 1 0
+    7 10 8 1 7 7 1 0
+    7 5 9 1 7 5 5 0
+    7 9 10 1 7 5 7 0
+    8 11 2 1 1 0 2 0
+    9 4 12 1 5 4 3 0
+    8 10 13 1 1 7 6 0
+    8 13 11 1 1 6 0 0
+    10 9 13 1 7 5 6 0
+    9 12 13 1 5 3 6 0
+    11 0 2 1 0 0 2 0
+    12 4 3 1 3 4 3 0
+    11 13 0 1 0 6 0 0
+    13 6 0 1 6 6 0 0
+    13 12 3 1 6 3 3 0
+    13 3 6 1 6 3 6 0
+  tverts 8
+    0.978115 0.048038 0
+    0.023666 0.041138 0
+    0.496488 0.044583 0
+    0.646048 0.977761 0
+    0.49681 0.977725 0
+    0.329352 0.977749 0
+    0.951913 0.84987 0
+    0.041124 0.84987 0
 endnode
-endmodelgeom plc_Mir5
+endmodelgeom plc_mir5
 
-newanim die plc_Mir5
-length 1.066670
-transtime 0.000000
-animroot plc_Mir5
-  event 0.000000 detonate
-  event 0.000000 detonate
-node dummy plc_Mir5
-  parent NULL
-endnode
-node emitter fire!91
-  parent plc_Mir5
-endnode
-node emitter Chunkssml
-  parent plc_Mir5
-  birthratekey
-    0.000000  0.000000
-    0.033333  200.000000
-  endlist
-endnode
-node dummy Mir5_ground
-  parent plc_Mir5
-endnode
-node dummy Mir5_hand
-  parent plc_Mir5
-endnode
-node dummy Mir5_head
-  parent plc_Mir5
-endnode
-node dummy Mir5_head_hit
-  parent plc_Mir5
-endnode
-node dummy Mir5_impact
-  parent plc_Mir5
-endnode
+#MAXANIM ASCII
+newanim dead plc_mir5
+  length 0.033333
+  transtime 0
+  animroot plc_mir5
+  node dummy plc_mir5
+    parent NULL
+  endnode
+  node dummy mir5_hand
+    parent plc_mir5
+  endnode
+  node dummy mir5_head
+    parent plc_mir5
+  endnode
+  node dummy mir5_head_hit
+    parent plc_mir5
+  endnode
+  node dummy mir5_impact
+    parent plc_mir5
+  endnode
+  node dummy mir5_ground
+    parent plc_mir5
+  endnode
+  node emitter chunkssml
+    parent plc_mir5
+  endnode
+  node emitter fire!91
+    parent plc_mir5
+  endnode
+  node dummy mirror
+    parent plc_mir5
+  endnode
+doneanim dead plc_mir5
 
-node trimesh Mirror
-  parent plc_Mir5
-endnode
-doneanim die plc_Mir5
-
-
-newanim dead plc_Mir5
-length 0.033333
-transtime 0.000000
-animroot plc_Mir5
-node dummy plc_Mir5
-  parent NULL
-endnode
-node emitter fire!91
-  parent plc_Mir5
-endnode
-node emitter Chunkssml
-  parent plc_Mir5
-endnode
-node dummy Mir5_ground
-  parent plc_Mir5
-endnode
-node dummy Mir5_hand
-  parent plc_Mir5
-endnode
-node dummy Mir5_head
-  parent plc_Mir5
-endnode
-node dummy Mir5_head_hit
-  parent plc_Mir5
-endnode
-node dummy Mir5_impact
-  parent plc_Mir5
-endnode
-
-node trimesh Mirror
-  parent plc_Mir5
-endnode
-doneanim dead plc_Mir5
-
-donemodel plc_Mir5
-
+#MAXANIM ASCII
+newanim die plc_mir5
+  length 1.06667
+  transtime 0
+  event 0 detonate
+  animroot plc_mir5
+  node dummy plc_mir5
+    parent NULL
+  endnode
+  node dummy mir5_hand
+    parent plc_mir5
+  endnode
+  node dummy mir5_head
+    parent plc_mir5
+  endnode
+  node dummy mir5_head_hit
+    parent plc_mir5
+  endnode
+  node dummy mir5_impact
+    parent plc_mir5
+  endnode
+  node dummy mir5_ground
+    parent plc_mir5
+  endnode
+  node emitter chunkssml
+    parent plc_mir5
+    birthratekey
+      0 0
+      0.033333 200
+    endlist
+  endnode
+  node emitter fire!91
+    parent plc_mir5
+  endnode
+  node dummy mirror
+    parent plc_mir5
+  endnode
+doneanim die plc_mir5
+donemodel plc_mir5

@@ -1,75 +1,71 @@
-# Exported from NWmax 0.6 at 5/23/2004 2:47:48 PM
-# mdl file
-#
-#NWmax MODEL ASCII
-# model: zlc_h68
-filedependancy check2.gmax
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 18:43:18 2019
+#MAXMODEL ASCII
+filedependency Unknown
 newmodel zlc_h68
-setsupermodel zlc_h68 NULL
-classification Character
-setanimationscale 0.99
-#NWmax GEOM  ASCII
+  classification CHARACTER
+  setsupermodel zlc_h68 NULL
+  setanimationscale 0.99
+#MAXGEOM ASCII
 beginmodelgeom zlc_h68
 node dummy zlc_h68
   parent NULL
 endnode
-node dummy C06_ground
+node dummy c06_ground
   parent zlc_h68
-  position -0.00359647 -0.0034587 0.0
-  orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.109804 0.34902 0.694118 
+  orientation 0 0 0 0
+  position -0.00359647 -0.0034587 0
+  wirecolor 0.109804 0.34902 0.694118
 endnode
-node dummy C06_hand
+node dummy c06_hand
   parent zlc_h68
+  orientation 0 0 0 0
   position 0.00394937 -0.0975341 0.31754
-  orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.109804 0.34902 0.694118 
+  wirecolor 0.109804 0.34902 0.694118
 endnode
-node dummy C06_head
+node dummy c06_head
   parent zlc_h68
+  orientation 0 0 0 0
   position 0.00394937 -0.125369 0.5567
-  orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.109804 0.34902 0.694118 
+  wirecolor 0.109804 0.34902 0.694118
 endnode
-node dummy C06_head_hit
+node dummy c06_head_hit
   parent zlc_h68
+  orientation 0 0 0 0
   position 0.00394937 0.000340794 0.0800382
-  orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.109804 0.34902 0.694118 
+  wirecolor 0.109804 0.34902 0.694118
 endnode
-node dummy C06_impact
+node dummy c06_impact
   parent zlc_h68
+  orientation 0 0 0 0
   position 0.00394937 0.000513005 0.0526574
-  orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.52549 0.231373 0.0313726 
+  wirecolor 0.52549 0.231373 0.0313726
 endnode
 node trimesh damage101
   parent zlc_h68
-  position 0.0376058 -0.123187 0.0
-  orientation 1.0 0.0 0.0 0.0
-  wirecolor 1.0 1.0 1.0 
+  orientation 0 0 0 0
+  position 0.0376058 -0.123187 0
+  wirecolor 1 1 1
   tilefade 0
-  scale 1.0
+  scale 1
   render 0
-  Shadow 0
+  shadow 0
   beaming 0
   inheritcolor 0
-  selfillumcolor 0.0 0.0 0.0 
   rotatetexture 0
-  alpha 1.0
+  alpha 1
   transparencyhint 0
   center undefined
-  ambient 0.0705882 0.0 1.0 
-  diffuse 1.0 0.501961 0.643137 
-  specular 0.0 0.0 0.0 
-  shininess 27.0
-  selfillumcolor 0.0 0.0 0.0 
+  ambient 0.0705882 0 1
+  diffuse 1 0.501961 0.643137
+  specular 0 0 0
+  shininess 27
+  selfillumcolor 0 0 0
   bitmap damage101
   verts 12
-    -0.193461 -0.184354 0.0
-    -0.193461 0.184354 0.0
-    0.193461 0.184354 0.0
-    0.193461 -0.184354 0.0
+    -0.193461 -0.184354 0
+    -0.193461 0.184354 0
+    0.193461 0.184354 0
+    0.193461 -0.184354 0
     -0.193461 -0.184354 0.495
     0.193461 -0.184354 0.495
     0.193461 0.184354 0.495
@@ -79,62 +75,60 @@ node trimesh damage101
     0.102905 0.0980608 0.2475
     -0.102905 0.0980608 0.2475
   faces 20
-    0 1 2  1  0 0 0  2
-    2 3 0  1  0 0 0  2
-    4 5 6  1  0 0 0  1
-    6 7 4  1  0 0 0  1
-    0 3 8  2  0 0 0  5
-    8 9 0  2  0 0 0  5
-    9 8 5  2  0 0 0  5
-    5 4 9  2  0 0 0  5
-    3 2 10  4  0 0 0  4
-    10 8 3  4  0 0 0  4
-    8 10 6  4  0 0 0  4
-    6 5 8  4  0 0 0  4
-    2 1 11  2  0 0 0  6
-    11 10 2  2  0 0 0  6
-    10 11 7  2  0 0 0  6
-    7 6 10  2  0 0 0  6
-    1 0 9  4  0 0 0  3
-    9 11 1  4  0 0 0  3
-    11 9 4  4  0 0 0  3
-    4 7 11  4  0 0 0  3
+    0 1 2 1 0 0 0 2
+    2 3 0 1 0 0 0 2
+    4 5 6 1 0 0 0 1
+    6 7 4 1 0 0 0 1
+    0 3 8 2 0 0 0 5
+    8 9 0 2 0 0 0 5
+    9 8 5 2 0 0 0 5
+    5 4 9 2 0 0 0 5
+    3 2 10 4 0 0 0 4
+    10 8 3 4 0 0 0 4
+    8 10 6 4 0 0 0 4
+    6 5 8 4 0 0 0 4
+    2 1 11 2 0 0 0 6
+    11 10 2 2 0 0 0 6
+    10 11 7 2 0 0 0 6
+    7 6 10 2 0 0 0 6
+    1 0 9 4 0 0 0 3
+    9 11 1 4 0 0 0 3
+    11 9 4 4 0 0 0 3
+    4 7 11 4 0 0 0 3
 endnode
-node danglymesh Plane20
+node danglymesh plane20
   parent damage101
   position -0.0516549 -0.249222 0.206648
   orientation -0.00818713 -0.0271948 -0.999597 -3.36294
-  wirecolor 1.0 1.0 1.0 
+  wirecolor 1 1 1
   tilefade 0
-  scale 1.0
+  scale 1
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   inheritcolor 0
-  selfillumcolor 0.0 0.0 0.0 
   rotatetexture 0
-  alpha 1.0
+  alpha 1
   transparencyhint 0
-  center undefined
-  period 9.0
-  tightness 5.0
+  period 9
+  tightness 5
   displacement 0.05
   showdispl true
   displtype 1
   center undefined
-  ambient 1.0 1.0 1.0 
-  diffuse 1.0 1.0 1.0 
-  specular 0.0 0.0 0.0 
-  shininess 4.0
-  selfillumcolor 0.0 0.0 0.0 
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  selfillumcolor 0 0 0
   bitmap fern2
   verts 18
     -0.164802 -0.152412 -0.0232882
     -0.164802 -0.290913 -0.0910275
     0.164802 -0.152412 -0.0232882
     0.164802 -0.290913 -0.0910275
-    -0.164802 0.0 0.0
-    0.164802 0.0 0.0
+    -0.164802 0 0
+    0.164802 0 0
     -0.164802 0.152412 -0.0232882
     0.164802 0.152412 -0.0232882
     -0.164802 0.290915 -0.0910275
@@ -148,20 +142,20 @@ node danglymesh Plane20
     -0.164802 0.283016 -0.095139
     0.164802 0.283016 -0.095139
   faces 14
-    0 1 2  1  0 1 2  1
-    3 2 1  1  3 2 1  1
-    4 0 5  1  4 0 5  1
-    2 5 0  1  2 5 0  1
-    6 4 7  1  6 4 7  1
-    5 7 4  1  5 7 4  1
-    8 6 9  1  8 6 9  1
-    7 9 6  1  7 9 6  1
-    10 11 12  1  10 11 12  1
-    12 13 10  1  12 13 10  1
-    11 14 15  1  11 14 15  1
-    15 12 11  1  15 12 11  1
-    14 16 17  1  14 16 17  1
-    17 15 14  1  17 15 14  1
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+    4 0 5 1 4 0 5 1
+    2 5 0 1 2 5 0 1
+    6 4 7 1 6 4 7 1
+    5 7 4 1 5 7 4 1
+    8 6 9 1 8 6 9 1
+    7 9 6 1 7 9 6 1
+    10 11 12 1 10 11 12 1
+    12 13 10 1 12 13 10 1
+    11 14 15 1 11 14 15 1
+    15 12 11 1 15 12 11 1
+    14 16 17 1 14 16 17 1
+    17 15 14 1 17 15 14 1
   tverts 18
     0.000499636 0.238309 0
     0.000499547 0.00050056 0
@@ -182,60 +176,58 @@ node danglymesh Plane20
     0.000499934 0.98594 0
     0.9995 0.98594 0
   constraints 18
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
 endnode
-node danglymesh Plane451
+node danglymesh plane451
   parent damage101
   position 0.146064 0.0563716 0.206648
   orientation -0.106178 0.0428388 0.993424 -1.64144
-  wirecolor 1.0 1.0 1.0 
+  wirecolor 1 1 1
   tilefade 0
-  scale 1.0
+  scale 1
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   inheritcolor 0
-  selfillumcolor 0.0 0.0 0.0 
   rotatetexture 0
-  alpha 1.0
+  alpha 1
   transparencyhint 0
-  center undefined
-  period 9.0
-  tightness 5.0
+  period 9
+  tightness 5
   displacement 0.05
   showdispl true
   displtype 1
   center undefined
-  ambient 1.0 1.0 1.0 
-  diffuse 1.0 1.0 1.0 
-  specular 0.0 0.0 0.0 
-  shininess 4.0
-  selfillumcolor 0.0 0.0 0.0 
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  selfillumcolor 0 0 0
   bitmap fern2
   verts 20
     -0.164802 -0.147093 -0.0414846
     -0.164802 -0.250834 -0.153711
     0.164802 -0.147093 -0.0414846
     0.164802 -0.250834 -0.153711
-    -0.164802 0.0 0.0
-    0.164802 0.0 0.0
+    -0.164802 0 0
+    0.164802 0 0
     -0.164802 0.147093 -0.0414846
     0.164802 0.147093 -0.0414846
     -0.164802 0.250834 -0.153711
@@ -251,20 +243,20 @@ node danglymesh Plane451
     -0.173461 0.248991 -0.154672
     0.156145 0.248991 -0.154672
   faces 14
-    0 1 2  1  0 1 2  1
-    3 2 1  1  3 2 1  1
-    4 0 5  1  4 0 5  1
-    2 5 0  1  2 5 0  1
-    6 4 7  1  6 4 7  1
-    5 7 4  1  5 7 4  1
-    8 6 9  1  8 6 9  1
-    7 9 6  1  7 9 6  1
-    10 11 12  1  10 11 12  1
-    12 13 10  1  12 13 10  1
-    14 15 16  1  14 15 16  1
-    16 17 14  1  16 17 14  1
-    15 18 19  1  15 18 19  1
-    19 16 15  1  19 16 15  1
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+    4 0 5 1 4 0 5 1
+    2 5 0 1 2 5 0 1
+    6 4 7 1 6 4 7 1
+    5 7 4 1 5 7 4 1
+    8 6 9 1 8 6 9 1
+    7 9 6 1 7 9 6 1
+    10 11 12 1 10 11 12 1
+    12 13 10 1 12 13 10 1
+    14 15 16 1 14 15 16 1
+    16 17 14 1 16 17 14 1
+    15 18 19 1 15 18 19 1
+    19 16 15 1 19 16 15 1
   tverts 20
     0.0132852 0.208158 0
     0.0132852 0.00232935 0
@@ -287,62 +279,60 @@ node danglymesh Plane451
     -0.0122859 0.994013 0
     0.961146 0.994013 0
   constraints 20
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
 endnode
-node danglymesh Plane452
+node danglymesh plane452
   parent damage101
   position 0.0564647 -0.0775299 0.300256
   orientation 0.297737 -0.147069 -0.943251 -0.72288
-  wirecolor 1.0 1.0 1.0 
+  wirecolor 1 1 1
   tilefade 0
-  scale 1.0
+  scale 1
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   inheritcolor 0
-  selfillumcolor 0.0 0.0 0.0 
   rotatetexture 0
-  alpha 1.0
+  alpha 1
   transparencyhint 1
-  center undefined
-  period 9.0
-  tightness 5.0
+  period 9
+  tightness 5
   displacement 0.0500002
   showdispl true
   displtype 1
   center undefined
-  ambient 1.0 1.0 1.0 
-  diffuse 1.0 1.0 1.0 
-  specular 0.0 0.0 0.0 
-  shininess 4.0
-  selfillumcolor 0.0 0.0 0.0 
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  selfillumcolor 0 0 0
   bitmap fern2
   verts 20
     -0.164802 -0.213285 -0.0601524
     -0.164802 -0.36371 -0.222882
     0.164802 -0.213285 -0.0601524
     0.164802 -0.36371 -0.222882
-    -0.164802 0.0 0.0
-    0.164802 0.0 0.0
+    -0.164802 0 0
+    0.164802 0 0
     -0.164802 0.213285 -0.0601524
     0.164802 0.213285 -0.0601524
     -0.164802 0.36371 -0.222882
@@ -358,20 +348,20 @@ node danglymesh Plane452
     -0.167947 0.361192 -0.228927
     0.161659 0.361192 -0.228927
   faces 14
-    0 1 2  1  0 1 2  1
-    3 2 1  1  3 2 1  1
-    4 0 5  1  4 0 5  1
-    2 5 0  1  2 5 0  1
-    6 4 7  1  6 4 7  1
-    5 7 4  1  5 7 4  1
-    8 6 9  1  8 6 9  1
-    7 9 6  1  7 9 6  1
-    10 11 12  1  10 11 12  1
-    12 13 10  1  12 13 10  1
-    14 15 16  1  14 15 16  1
-    16 17 14  1  16 17 14  1
-    15 18 19  1  15 18 19  1
-    19 16 15  1  19 16 15  1
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+    4 0 5 1 4 0 5 1
+    2 5 0 1 2 5 0 1
+    6 4 7 1 6 4 7 1
+    5 7 4 1 5 7 4 1
+    8 6 9 1 8 6 9 1
+    7 9 6 1 7 9 6 1
+    10 11 12 1 10 11 12 1
+    12 13 10 1 12 13 10 1
+    14 15 16 1 14 15 16 1
+    16 17 14 1 16 17 14 1
+    15 18 19 1 15 18 19 1
+    19 16 15 1 19 16 15 1
   tverts 20
     1.28795 0.591539 0
     1.5844 0.833393 0
@@ -415,41 +405,39 @@ node danglymesh Plane452
     23.3835
     23.3835
 endnode
-node danglymesh Plane453
+node danglymesh plane453
   parent damage101
   position -0.211701 0.186703 0.206648
   orientation -0.297289 -0.0762781 -0.951736 -0.659911
-  wirecolor 1.0 1.0 1.0 
+  wirecolor 1 1 1
   tilefade 0
-  scale 1.0
+  scale 1
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   inheritcolor 0
-  selfillumcolor 0.0 0.0 0.0 
   rotatetexture 0
-  alpha 1.0
+  alpha 1
   transparencyhint 0
-  center undefined
-  period 9.0
-  tightness 5.0
+  period 9
+  tightness 5
   displacement 0.05
   showdispl true
   displtype 1
   center undefined
-  ambient 1.0 1.0 1.0 
-  diffuse 1.0 1.0 1.0 
-  specular 0.0 0.0 0.0 
-  shininess 4.0
-  selfillumcolor 0.0 0.0 0.0 
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  selfillumcolor 0 0 0
   bitmap fern2
   verts 20
     -0.164802 -0.147093 -0.0414843
     -0.164802 -0.250834 -0.153711
     0.164802 -0.147093 -0.0414846
     0.164802 -0.250834 -0.153711
-    -0.164802 0.0 0.0
-    0.164802 0.0 0.0
+    -0.164802 0 0
+    0.164802 0 0
     -0.164802 0.147093 -0.0414843
     0.164802 0.147093 -0.0414846
     -0.164802 0.250834 -0.153711
@@ -465,20 +453,20 @@ node danglymesh Plane453
     -0.173461 0.248991 -0.154672
     0.156145 0.248991 -0.154672
   faces 14
-    0 1 2  1  0 1 2  1
-    3 2 1  1  3 2 1  1
-    4 0 5  1  4 0 5  1
-    2 5 0  1  2 5 0  1
-    6 4 7  1  6 4 7  1
-    5 7 4  1  5 7 4  1
-    8 6 9  1  8 6 9  1
-    7 9 6  1  7 9 6  1
-    10 11 12  1  10 11 12  1
-    12 13 10  1  12 13 10  1
-    14 15 16  1  14 15 16  1
-    16 17 14  1  16 17 14  1
-    15 18 19  1  15 18 19  1
-    19 16 15  1  19 16 15  1
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+    4 0 5 1 4 0 5 1
+    2 5 0 1 2 5 0 1
+    6 4 7 1 6 4 7 1
+    5 7 4 1 5 7 4 1
+    8 6 9 1 8 6 9 1
+    7 9 6 1 7 9 6 1
+    10 11 12 1 10 11 12 1
+    12 13 10 1 12 13 10 1
+    14 15 16 1 14 15 16 1
+    16 17 14 1 16 17 14 1
+    15 18 19 1 15 18 19 1
+    19 16 15 1 19 16 15 1
   tverts 20
     0.0132853 0.208158 0
     0.0132852 0.00232929 0
@@ -501,62 +489,60 @@ node danglymesh Plane453
     -0.0122858 0.994013 0
     0.961146 0.994013 0
   constraints 20
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
 endnode
-node danglymesh Plane454
+node danglymesh plane454
   parent damage101
   position 0.0658746 0.314124 0.206648
   orientation -0.719388 0.126059 0.683074 -0.494197
-  wirecolor 1.0 1.0 1.0 
+  wirecolor 1 1 1
   tilefade 0
-  scale 1.0
+  scale 1
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   inheritcolor 0
-  selfillumcolor 0.0 0.0 0.0 
   rotatetexture 0
-  alpha 1.0
+  alpha 1
   transparencyhint 0
-  center undefined
-  period 9.0
-  tightness 5.0
+  period 9
+  tightness 5
   displacement 0.05
   showdispl true
   displtype 1
   center undefined
-  ambient 1.0 1.0 1.0 
-  diffuse 1.0 1.0 1.0 
-  specular 0.0 0.0 0.0 
-  shininess 4.0
-  selfillumcolor 0.0 0.0 0.0 
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  selfillumcolor 0 0 0
   bitmap fern2
   verts 18
     -0.164802 -0.152412 -0.0232882
     -0.164802 -0.290914 -0.0910275
     0.164802 -0.152412 -0.0232882
     0.164802 -0.290914 -0.0910275
-    -0.164802 0.0 0.0
-    0.164802 0.0 0.0
+    -0.164802 0 0
+    0.164802 0 0
     -0.164802 0.152412 -0.0232882
     0.164802 0.152412 -0.0232881
     -0.164802 0.290915 -0.0910275
@@ -570,20 +556,20 @@ node danglymesh Plane454
     -0.164802 0.283016 -0.095139
     0.164802 0.283016 -0.095139
   faces 14
-    0 1 2  1  0 1 2  1
-    3 2 1  1  3 2 1  1
-    4 0 5  1  4 0 5  1
-    2 5 0  1  2 5 0  1
-    6 4 7  1  6 4 7  1
-    5 7 4  1  5 7 4  1
-    8 6 9  1  8 6 9  1
-    7 9 6  1  7 9 6  1
-    10 11 12  1  10 11 12  1
-    12 13 10  1  12 13 10  1
-    11 14 15  1  11 14 15  1
-    15 12 11  1  15 12 11  1
-    14 16 17  1  14 16 17  1
-    17 15 14  1  17 15 14  1
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+    4 0 5 1 4 0 5 1
+    2 5 0 1 2 5 0 1
+    6 4 7 1 6 4 7 1
+    5 7 4 1 5 7 4 1
+    8 6 9 1 8 6 9 1
+    7 9 6 1 7 9 6 1
+    10 11 12 1 10 11 12 1
+    12 13 10 1 12 13 10 1
+    11 14 15 1 11 14 15 1
+    15 12 11 1 15 12 11 1
+    14 16 17 1 14 16 17 1
+    17 15 14 1 17 15 14 1
   tverts 18
     0.000499517 0.238309 0
     0.000499487 0.000500381 0
@@ -604,52 +590,50 @@ node danglymesh Plane454
     0.000499785 0.98594 0
     0.999501 0.98594 0
   constraints 18
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
 endnode
-node danglymesh Plane455
+node danglymesh plane455
   parent damage101
   position -0.0739068 0.0904337 0.167328
   orientation -0.76639 -0.493369 -0.41138 -0.149952
-  wirecolor 1.0 1.0 1.0 
+  wirecolor 1 1 1
   tilefade 0
-  scale 1.0
+  scale 1
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   inheritcolor 0
-  selfillumcolor 0.0 0.0 0.0 
   rotatetexture 0
-  alpha 1.0
+  alpha 1
   transparencyhint 0
-  center undefined
-  period 9.0
-  tightness 5.0
+  period 9
+  tightness 5
   displacement 0.05
   showdispl true
   displtype 1
   center undefined
-  ambient 1.0 1.0 1.0 
-  diffuse 1.0 1.0 1.0 
-  specular 0.0 0.0 0.0 
-  shininess 4.0
-  selfillumcolor 0.0 0.0 0.0 
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  selfillumcolor 0 0 0
   bitmap fern2
   verts 20
     -0.16129 0.148933 0.162879
@@ -673,20 +657,20 @@ node danglymesh Plane455
     -0.164434 0.723409 -0.00589504
     0.165172 0.723409 -0.00589504
   faces 14
-    0 1 2  1  0 1 2  1
-    3 2 1  1  3 2 1  1
-    4 0 5  1  4 0 5  1
-    2 5 0  1  2 5 0  1
-    6 4 7  1  6 4 7  1
-    5 7 4  1  5 7 4  1
-    8 6 9  1  8 6 9  1
-    7 9 6  1  7 9 6  1
-    10 11 12  1  10 11 12  1
-    12 13 10  1  12 13 10  1
-    14 15 16  1  14 15 16  1
-    16 17 14  1  16 17 14  1
-    15 18 19  1  15 18 19  1
-    19 16 15  1  19 16 15  1
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+    4 0 5 1 4 0 5 1
+    2 5 0 1 2 5 0 1
+    6 4 7 1 6 4 7 1
+    5 7 4 1 5 7 4 1
+    8 6 9 1 8 6 9 1
+    7 9 6 1 7 9 6 1
+    10 11 12 1 10 11 12 1
+    12 13 10 1 12 13 10 1
+    14 15 16 1 14 15 16 1
+    16 17 14 1 16 17 14 1
+    15 18 19 1 15 18 19 1
+    19 16 15 1 19 16 15 1
   tverts 20
     0.00993949 0.209823 0
     0.00993937 0.00395024 0
@@ -709,62 +693,60 @@ node danglymesh Plane455
     0.000500053 0.996054 0
     0.990064 0.996054 0
   constraints 20
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
 endnode
-node danglymesh Plane456
+node danglymesh plane456
   parent damage101
   position -0.234716 -0.264893 0.279112
   orientation -0.0638883 -0.181135 -0.981381 -2.57567
-  wirecolor 1.0 1.0 1.0 
+  wirecolor 1 1 1
   tilefade 0
-  scale 1.0
+  scale 1
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   inheritcolor 0
-  selfillumcolor 0.0 0.0 0.0 
   rotatetexture 0
-  alpha 1.0
+  alpha 1
   transparencyhint 0
-  center undefined
-  period 9.0
-  tightness 5.0
+  period 9
+  tightness 5
   displacement 0.05
   showdispl true
   displtype 1
   center undefined
-  ambient 1.0 1.0 1.0 
-  diffuse 1.0 1.0 1.0 
-  specular 0.0 0.0 0.0 
-  shininess 4.0
-  selfillumcolor 0.0 0.0 0.0 
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  selfillumcolor 0 0 0
   bitmap fern2
   verts 20
     -0.164802 -0.147093 -0.0414846
     -0.164802 -0.250834 -0.153711
     0.164802 -0.147093 -0.0414846
     0.164802 -0.250834 -0.153711
-    -0.164802 0.0 0.0
-    0.164802 0.0 0.0
+    -0.164802 0 0
+    0.164802 0 0
     -0.164802 0.147093 -0.0414846
     0.164802 0.147093 -0.0414846
     -0.164802 0.250834 -0.153711
@@ -780,20 +762,20 @@ node danglymesh Plane456
     -0.173461 0.248991 -0.154672
     0.156145 0.248991 -0.154672
   faces 14
-    0 1 2  1  0 1 2  1
-    3 2 1  1  3 2 1  1
-    4 0 5  1  4 0 5  1
-    2 5 0  1  2 5 0  1
-    6 4 7  1  6 4 7  1
-    5 7 4  1  5 7 4  1
-    8 6 9  1  8 6 9  1
-    7 9 6  1  7 9 6  1
-    10 11 12  1  10 11 12  1
-    12 13 10  1  12 13 10  1
-    14 15 16  1  14 15 16  1
-    16 17 14  1  16 17 14  1
-    15 18 19  1  15 18 19  1
-    19 16 15  1  19 16 15  1
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+    4 0 5 1 4 0 5 1
+    2 5 0 1 2 5 0 1
+    6 4 7 1 6 4 7 1
+    5 7 4 1 5 7 4 1
+    8 6 9 1 8 6 9 1
+    7 9 6 1 7 9 6 1
+    10 11 12 1 10 11 12 1
+    12 13 10 1 12 13 10 1
+    14 15 16 1 14 15 16 1
+    16 17 14 1 16 17 14 1
+    15 18 19 1 15 18 19 1
+    19 16 15 1 19 16 15 1
   tverts 20
     0.0132852 0.208158 0
     0.0132852 0.00232929 0
@@ -816,62 +798,60 @@ node danglymesh Plane456
     -0.0122859 0.994013 0
     0.961146 0.994013 0
   constraints 20
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
 endnode
-node danglymesh Plane457
+node danglymesh plane457
   parent damage101
   position -0.342867 0.0443879 0.206648
   orientation -0.116953 -0.147369 -0.982143 -1.54554
-  wirecolor 1.0 1.0 1.0 
+  wirecolor 1 1 1
   tilefade 0
-  scale 1.0
+  scale 1
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   inheritcolor 0
-  selfillumcolor 0.0 0.0 0.0 
   rotatetexture 0
-  alpha 1.0
+  alpha 1
   transparencyhint 0
-  center undefined
-  period 9.0
-  tightness 5.0
+  period 9
+  tightness 5
   displacement 0.05
   showdispl true
   displtype 1
   center undefined
-  ambient 1.0 1.0 1.0 
-  diffuse 1.0 1.0 1.0 
-  specular 0.0 0.0 0.0 
-  shininess 4.0
-  selfillumcolor 0.0 0.0 0.0 
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  selfillumcolor 0 0 0
   bitmap fern2
   verts 18
     -0.164802 -0.152412 -0.0232882
     -0.164802 -0.290914 -0.0910275
     0.164802 -0.152412 -0.0232882
     0.164802 -0.290914 -0.0910275
-    -0.164802 0.0 0.0
-    0.164802 0.0 0.0
+    -0.164802 0 0
+    0.164802 0 0
     -0.164802 0.152412 -0.0232882
     0.164802 0.152412 -0.0232882
     -0.164802 0.290915 -0.0910275
@@ -885,20 +865,20 @@ node danglymesh Plane457
     -0.164802 0.283016 -0.095139
     0.164802 0.283016 -0.095139
   faces 14
-    0 1 2  1  0 1 2  1
-    3 2 1  1  3 2 1  1
-    4 0 5  1  4 0 5  1
-    2 5 0  1  2 5 0  1
-    6 4 7  1  6 4 7  1
-    5 7 4  1  5 7 4  1
-    8 6 9  1  8 6 9  1
-    7 9 6  1  7 9 6  1
-    10 11 12  1  10 11 12  1
-    12 13 10  1  12 13 10  1
-    11 14 15  1  11 14 15  1
-    15 12 11  1  15 12 11  1
-    14 16 17  1  14 16 17  1
-    17 15 14  1  17 15 14  1
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+    4 0 5 1 4 0 5 1
+    2 5 0 1 2 5 0 1
+    6 4 7 1 6 4 7 1
+    5 7 4 1 5 7 4 1
+    8 6 9 1 8 6 9 1
+    7 9 6 1 7 9 6 1
+    10 11 12 1 10 11 12 1
+    12 13 10 1 12 13 10 1
+    11 14 15 1 11 14 15 1
+    15 12 11 1 15 12 11 1
+    14 16 17 1 14 16 17 1
+    17 15 14 1 17 15 14 1
   tverts 18
     0.000499547 0.238309 0
     0.000499457 0.0005005 0
@@ -919,60 +899,58 @@ node danglymesh Plane457
     0.000499934 0.98594 0
     0.999501 0.98594 0
   constraints 18
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
 endnode
-node danglymesh Plane458
+node danglymesh plane458
   parent damage101
   position -0.32614 -0.0838286 0.348031
   orientation -0.15656 0.0043494 -0.987659 -2.21845
-  wirecolor 1.0 1.0 1.0 
+  wirecolor 1 1 1
   tilefade 0
-  scale 1.0
+  scale 1
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   inheritcolor 0
-  selfillumcolor 0.0 0.0 0.0 
   rotatetexture 0
-  alpha 1.0
+  alpha 1
   transparencyhint 0
-  center undefined
-  period 9.0
-  tightness 5.0
+  period 9
+  tightness 5
   displacement 0.05
   showdispl true
   displtype 1
   center undefined
-  ambient 1.0 1.0 1.0 
-  diffuse 1.0 1.0 1.0 
-  specular 0.0 0.0 0.0 
-  shininess 4.0
-  selfillumcolor 0.0 0.0 0.0 
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  selfillumcolor 0 0 0
   bitmap fern2
   verts 20
     -0.164802 -0.213285 -0.0601524
     -0.164802 -0.363709 -0.222882
     0.164802 -0.213285 -0.0601524
     0.164802 -0.363709 -0.222882
-    -0.164802 0.0 0.0
-    0.164802 0.0 0.0
+    -0.164802 0 0
+    0.164802 0 0
     -0.164802 0.213285 -0.0601524
     0.164802 0.213285 -0.0601524
     -0.164802 0.363709 -0.222882
@@ -988,20 +966,20 @@ node danglymesh Plane458
     -0.167947 0.361192 -0.228927
     0.161659 0.361192 -0.228927
   faces 14
-    0 1 2  1  0 1 2  1
-    3 2 1  1  3 2 1  1
-    4 0 5  1  4 0 5  1
-    2 5 0  1  2 5 0  1
-    6 4 7  1  6 4 7  1
-    5 7 4  1  5 7 4  1
-    8 6 9  1  8 6 9  1
-    7 9 6  1  7 9 6  1
-    10 11 12  1  10 11 12  1
-    12 13 10  1  12 13 10  1
-    14 15 16  1  14 15 16  1
-    16 17 14  1  16 17 14  1
-    15 18 19  1  15 18 19  1
-    19 16 15  1  19 16 15  1
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+    4 0 5 1 4 0 5 1
+    2 5 0 1 2 5 0 1
+    6 4 7 1 6 4 7 1
+    5 7 4 1 5 7 4 1
+    8 6 9 1 8 6 9 1
+    7 9 6 1 7 9 6 1
+    10 11 12 1 10 11 12 1
+    12 13 10 1 12 13 10 1
+    14 15 16 1 14 15 16 1
+    16 17 14 1 16 17 14 1
+    15 18 19 1 15 18 19 1
+    19 16 15 1 19 16 15 1
   tverts 20
     0.00521961 0.208097 0
     0.00521958 0.00222498 0
@@ -1024,279 +1002,291 @@ node danglymesh Plane458
     -0.00422001 0.994329 0
     0.985344 0.994329 0
   constraints 20
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
-    1.0
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
 endnode
 endmodelgeom zlc_h68
-#NWmax ANIM ASCII
+
+#MAXANIM ASCII
 newanim damage zlc_h68
   length 0.133333
   transtime 0.25
   animroot zlc_h68
-    node dummy zlc_h68
-        parent NULL
-    endnode
-    node dummy C06_ground
-        parent zlc_h68
-    endnode
-    node dummy C06_hand
-        parent zlc_h68
-    endnode
-    node dummy C06_head
-        parent zlc_h68
-    endnode
-    node dummy C06_head_hit
-        parent zlc_h68
-    endnode
-    node dummy C06_impact
-        parent zlc_h68
-    endnode
-    node trimesh damage101
-        parent zlc_h68
-        positionkey
-            0.0 0.0376058 -0.123187 0.0
-            0.0333333 0.0376058 -0.123187 0.0242135
-            0.133333 0.0376058 -0.123187 0.0
-        endlist
-    endnode
-    node danglymesh Plane20
-        parent damage101
-    endnode
-    node danglymesh Plane451
-        parent damage101
-    endnode
-    node danglymesh Plane452
-        parent damage101
-    endnode
-    node danglymesh Plane453
-        parent damage101
-    endnode
-    node danglymesh Plane454
-        parent damage101
-    endnode
-    node danglymesh Plane455
-        parent damage101
-    endnode
-    node danglymesh Plane456
-        parent damage101
-    endnode
-    node danglymesh Plane457
-        parent damage101
-    endnode
-    node danglymesh Plane458
-        parent damage101
-    endnode
-    node dummy plc_giantfern_pwk
-        parent zlc_h68
-    endnode
-    node pwk Walkarea
-        parent plc_giantfern_pwk
-    endnode
+  node dummy zlc_h68
+    parent NULL
+  endnode
+  node dummy plc_giantfern_pwk
+    parent zlc_h68
+    #part-number -1
+  endnode
+  node dummy walkarea
+    parent plc_giantfern_pwk
+    #part-number -1
+  endnode
+  node dummy c06_ground
+    parent zlc_h68
+  endnode
+  node dummy c06_hand
+    parent zlc_h68
+  endnode
+  node dummy c06_head
+    parent zlc_h68
+  endnode
+  node dummy c06_head_hit
+    parent zlc_h68
+  endnode
+  node dummy c06_impact
+    parent zlc_h68
+  endnode
+  node trimesh damage101
+    parent zlc_h68
+    positionkey
+      0 0.0376058 -0.123187 0
+      0.0333333 0.0376058 -0.123187 0.0242135
+      0.133333 0.0376058 -0.123187 0
+    endlist
+  endnode
+  node dummy plane20
+    parent damage101
+  endnode
+  node dummy plane451
+    parent damage101
+  endnode
+  node dummy plane452
+    parent damage101
+  endnode
+  node dummy plane453
+    parent damage101
+  endnode
+  node dummy plane454
+    parent damage101
+  endnode
+  node dummy plane455
+    parent damage101
+  endnode
+  node dummy plane456
+    parent damage101
+  endnode
+  node dummy plane457
+    parent damage101
+  endnode
+  node dummy plane458
+    parent damage101
+  endnode
 doneanim damage zlc_h68
-#NWmax ANIM ASCII
-newanim die zlc_h68
-  length 0.0333333
-  transtime 0.25
-  animroot zlc_h68
-    node dummy zlc_h68
-        parent NULL
-    endnode
-    node dummy C06_ground
-        parent zlc_h68
-    endnode
-    node dummy C06_hand
-        parent zlc_h68
-    endnode
-    node dummy C06_head
-        parent zlc_h68
-    endnode
-    node dummy C06_head_hit
-        parent zlc_h68
-    endnode
-    node dummy C06_impact
-        parent zlc_h68
-    endnode
-    node trimesh damage101
-        parent zlc_h68
-        positionkey
-            0.0 0.0376058 -0.123187 0.0
-            0.0333333 0.0376058 -0.123187 -6.88192
-        endlist
-    endnode
-    node danglymesh Plane20
-        parent damage101
-    endnode
-    node danglymesh Plane451
-        parent damage101
-    endnode
-    node danglymesh Plane452
-        parent damage101
-    endnode
-    node danglymesh Plane453
-        parent damage101
-    endnode
-    node danglymesh Plane454
-        parent damage101
-    endnode
-    node danglymesh Plane455
-        parent damage101
-    endnode
-    node danglymesh Plane456
-        parent damage101
-    endnode
-    node danglymesh Plane457
-        parent damage101
-    endnode
-    node danglymesh Plane458
-        parent damage101
-    endnode
-    node dummy plc_giantfern_pwk
-        parent zlc_h68
-    endnode
-    node pwk Walkarea
-        parent plc_giantfern_pwk
-    endnode
-doneanim die zlc_h68
-#NWmax ANIM ASCII
+
+#MAXANIM ASCII
 newanim dead zlc_h68
   length 0.0333333
   transtime 0.25
   animroot zlc_h68
-    node dummy zlc_h68
-        parent NULL
-    endnode
-    node dummy C06_ground
-        parent zlc_h68
-    endnode
-    node dummy C06_hand
-        parent zlc_h68
-    endnode
-    node dummy C06_head
-        parent zlc_h68
-    endnode
-    node dummy C06_head_hit
-        parent zlc_h68
-    endnode
-    node dummy C06_impact
-        parent zlc_h68
-    endnode
-    node trimesh damage101
-        parent zlc_h68
-        positionkey
-            0.0 0.0376058 -0.123187 -6.88192
-            0.0333333 0.0376058 -0.123187 -6.88192
-        endlist
-    endnode
-    node danglymesh Plane20
-        parent damage101
-    endnode
-    node danglymesh Plane451
-        parent damage101
-    endnode
-    node danglymesh Plane452
-        parent damage101
-    endnode
-    node danglymesh Plane453
-        parent damage101
-    endnode
-    node danglymesh Plane454
-        parent damage101
-    endnode
-    node danglymesh Plane455
-        parent damage101
-    endnode
-    node danglymesh Plane456
-        parent damage101
-    endnode
-    node danglymesh Plane457
-        parent damage101
-    endnode
-    node danglymesh Plane458
-        parent damage101
-    endnode
-    node dummy plc_giantfern_pwk
-        parent zlc_h68
-    endnode
-    node pwk Walkarea
-        parent plc_giantfern_pwk
-    endnode
+  node dummy zlc_h68
+    parent NULL
+  endnode
+  node dummy plc_giantfern_pwk
+    parent zlc_h68
+    #part-number -1
+  endnode
+  node dummy walkarea
+    parent plc_giantfern_pwk
+    #part-number -1
+  endnode
+  node dummy c06_ground
+    parent zlc_h68
+  endnode
+  node dummy c06_hand
+    parent zlc_h68
+  endnode
+  node dummy c06_head
+    parent zlc_h68
+  endnode
+  node dummy c06_head_hit
+    parent zlc_h68
+  endnode
+  node dummy c06_impact
+    parent zlc_h68
+  endnode
+  node trimesh damage101
+    parent zlc_h68
+    positionkey
+      0 0.0376058 -0.123187 -6.88192
+      0.0333333 0.0376058 -0.123187 -6.88192
+    endlist
+  endnode
+  node dummy plane20
+    parent damage101
+  endnode
+  node dummy plane451
+    parent damage101
+  endnode
+  node dummy plane452
+    parent damage101
+  endnode
+  node dummy plane453
+    parent damage101
+  endnode
+  node dummy plane454
+    parent damage101
+  endnode
+  node dummy plane455
+    parent damage101
+  endnode
+  node dummy plane456
+    parent damage101
+  endnode
+  node dummy plane457
+    parent damage101
+  endnode
+  node dummy plane458
+    parent damage101
+  endnode
 doneanim dead zlc_h68
-#NWmax ANIM ASCII
+
+#MAXANIM ASCII
 newanim default zlc_h68
-  length 0.0
+  length 0
   transtime 0.25
   animroot zlc_h68
-    node dummy zlc_h68
-        parent NULL
-    endnode
-    node dummy C06_ground
-        parent zlc_h68
-    endnode
-    node dummy C06_hand
-        parent zlc_h68
-    endnode
-    node dummy C06_head
-        parent zlc_h68
-    endnode
-    node dummy C06_head_hit
-        parent zlc_h68
-    endnode
-    node dummy C06_impact
-        parent zlc_h68
-    endnode
-    node trimesh damage101
-        parent zlc_h68
-    endnode
-    node danglymesh Plane20
-        parent damage101
-    endnode
-    node danglymesh Plane451
-        parent damage101
-    endnode
-    node danglymesh Plane452
-        parent damage101
-    endnode
-    node danglymesh Plane453
-        parent damage101
-    endnode
-    node danglymesh Plane454
-        parent damage101
-    endnode
-    node danglymesh Plane455
-        parent damage101
-    endnode
-    node danglymesh Plane456
-        parent damage101
-    endnode
-    node danglymesh Plane457
-        parent damage101
-    endnode
-    node danglymesh Plane458
-        parent damage101
-    endnode
-    node dummy plc_giantfern_pwk
-        parent zlc_h68
-    endnode
-    node pwk Walkarea
-        parent plc_giantfern_pwk
-    endnode
+  node dummy zlc_h68
+    parent NULL
+  endnode
+  node dummy plc_giantfern_pwk
+    parent zlc_h68
+    #part-number -1
+  endnode
+  node dummy walkarea
+    parent plc_giantfern_pwk
+    #part-number -1
+  endnode
+  node dummy c06_ground
+    parent zlc_h68
+  endnode
+  node dummy c06_hand
+    parent zlc_h68
+  endnode
+  node dummy c06_head
+    parent zlc_h68
+  endnode
+  node dummy c06_head_hit
+    parent zlc_h68
+  endnode
+  node dummy c06_impact
+    parent zlc_h68
+  endnode
+  node dummy damage101
+    parent zlc_h68
+  endnode
+  node dummy plane20
+    parent damage101
+  endnode
+  node dummy plane451
+    parent damage101
+  endnode
+  node dummy plane452
+    parent damage101
+  endnode
+  node dummy plane453
+    parent damage101
+  endnode
+  node dummy plane454
+    parent damage101
+  endnode
+  node dummy plane455
+    parent damage101
+  endnode
+  node dummy plane456
+    parent damage101
+  endnode
+  node dummy plane457
+    parent damage101
+  endnode
+  node dummy plane458
+    parent damage101
+  endnode
 doneanim default zlc_h68
+
+#MAXANIM ASCII
+newanim die zlc_h68
+  length 0.0333333
+  transtime 0.25
+  animroot zlc_h68
+  node dummy zlc_h68
+    parent NULL
+  endnode
+  node dummy plc_giantfern_pwk
+    parent zlc_h68
+    #part-number -1
+  endnode
+  node dummy walkarea
+    parent plc_giantfern_pwk
+    #part-number -1
+  endnode
+  node dummy c06_ground
+    parent zlc_h68
+  endnode
+  node dummy c06_hand
+    parent zlc_h68
+  endnode
+  node dummy c06_head
+    parent zlc_h68
+  endnode
+  node dummy c06_head_hit
+    parent zlc_h68
+  endnode
+  node dummy c06_impact
+    parent zlc_h68
+  endnode
+  node trimesh damage101
+    parent zlc_h68
+    positionkey
+      0 0.0376058 -0.123187 0
+      0.0333333 0.0376058 -0.123187 -6.88192
+    endlist
+  endnode
+  node dummy plane20
+    parent damage101
+  endnode
+  node dummy plane451
+    parent damage101
+  endnode
+  node dummy plane452
+    parent damage101
+  endnode
+  node dummy plane453
+    parent damage101
+  endnode
+  node dummy plane454
+    parent damage101
+  endnode
+  node dummy plane455
+    parent damage101
+  endnode
+  node dummy plane456
+    parent damage101
+  endnode
+  node dummy plane457
+    parent damage101
+  endnode
+  node dummy plane458
+    parent damage101
+  endnode
+doneanim die zlc_h68
 donemodel zlc_h68

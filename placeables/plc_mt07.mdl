@@ -1,21 +1,19 @@
-#Exported from 3ds max by MDL Plug-in Suite 1.0b
-#http://www.bricksbuilder.com/nwn/utils/
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 18:39:06 2019
 #MAXMODEL ASCII
-# model: PLC_GR01
-filedependancy Unknown
-newmodel PLC_GR01
-setsupermodel PLC_GR01 NULL
-classification Character
-setanimationscale 1.0
-#MAXGEOM  ASCII
-beginmodelgeom PLC_GR01
-node dummy PLC_GR01
+filedependency Unknown
+newmodel plc_mt07
+  classification CHARACTER
+  setsupermodel plc_mt07 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom plc_mt07
+node dummy plc_mt07
   parent NULL
 endnode
-node trimesh Plane01
-  parent PLC_GR01
+node trimesh plane01
+  parent plc_mt07
+  orientation 0 0 0 0
   position 0 0 0.005
-  orientation -0.999459 -0.0231704 0.0231705 0
   wirecolor 0.554688 0.554688 0.554688
   ambient 1 1 1
   diffuse 1 1 1
@@ -28,13 +26,13 @@ node trimesh Plane01
     0.5 -0.5 0
     -0.5 -0.5 0
   faces 2
-    2 0 3  1  2 0 3  0
-    1 3 0  1  1 3 0  0
+    2 0 3 1 2 0 3 0
+    1 3 0 1 1 3 0 0
   tverts 4
     0.999501 0.9995 0
     0.000499874 0.999501 0
     0.9995 0.000499457 0
     0.000499457 0.000499874 0
 endnode
-endmodelgeom PLC_GR01
-donemodel PLC_GR01
+endmodelgeom plc_mt07
+donemodel plc_mt07

@@ -1,147 +1,140 @@
-#Exported from 3ds max by MDL Plug-in Suite 1.0b
-#http://www.bricksbuilder.com/nwn/utils/
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 18:41:12 2019
 #MAXMODEL ASCII
-# model: PLC_YSPORES
-filedependancy yellow spores.max
-newmodel PLC_YSPORES
-setsupermodel PLC_YSPORES NULL
-classification Effect
-setanimationscale 1.0
-#MAXGEOM  ASCII
-beginmodelgeom PLC_YSPORES
-node dummy PLC_YSPORES
+filedependency Unknown
+newmodel plc_yspores
+  classification EFFECT
+  setsupermodel plc_yspores NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom plc_yspores
+node dummy plc_yspores
   parent NULL
 endnode
-node dummy YMOLDLG_ground
-  parent PLC_YSPORES
+node dummy ymoldlg_ground
+  parent plc_yspores
   position -0.00363281 0.0069873 0
   orientation 0 0 0 0
   wirecolor 0.347656 0.347656 0.347656
 endnode
-node dummy YMOLDLG_impact
-  parent PLC_YSPORES
+node dummy ymoldlg_impact
+  parent plc_yspores
   position 0.00398437 0.011001 0.0153067
   orientation 0 0 0 0
   wirecolor 0.347656 0.347656 0.347656
 endnode
-node dummy YMOLDLG_head_hit
-  parent PLC_YSPORES
+node dummy ymoldlg_head_hit
+  parent plc_yspores
   position 0.00398437 0.0108252 0.126938
   orientation 0 0 0 0
   wirecolor 0.347656 0.347656 0.347656
 endnode
-node dummy YMOLDLG_hand
-  parent PLC_YSPORES
+node dummy ymoldlg_hand
+  parent plc_yspores
   position -0.00298052 0.0249904 0.472766
   orientation 0 0 0 0
   wirecolor 0.347656 0.347656 0.347656
 endnode
-node dummy YMOLDLG_head
-  parent PLC_YSPORES
+node dummy ymoldlg_head
+  parent plc_yspores
   position 0.00398437 0.0108252 0.499138
   orientation 0 0 0 0
   wirecolor 0.347656 0.347656 0.347656
 endnode
 node emitter burst
-  parent PLC_YSPORES
+  parent plc_yspores
   position 0.0615356 0 0
   orientation 1 0 0 -1.5708
   wirecolor 0.601563 0.601563 0.601563
-    colorStart 0.317647 0.305882 0
-    colorEnd 0.262745 0.0431373 0
-    alphaStart 1
-    alphaEnd 0
-    sizeStart 1
-    sizeEnd 3
-    sizeStart_y 0
-    sizeEnd_y 0
-    frameStart 0
-    frameEnd 15
-    birthrate 7
-    spawnType 0
-    lifeExp 2.5
-    mass 0
-    spread 6.28319
-    particleRot 0.1
-    velocity 0.2
-    randvel 0.2
-    fps 16
-    random 0
-    inherit 0
-    inherit_local 0
-    inherit_part 0
-    inheritvel 0
-    xsize 20
-    ysize 20
-    bounce 0
-    bounce_co 0
-    loop 0
-    update Fountain
-    render Normal
-    Blend Normal
-    update_sel 1
-    render_sel 1
-    blend_sel 1
-    deadspace 0
-    opacity 0.5
-    blurlength 10
-    lightningDelay 0
-    lightningRadius 0
-    lightningScale 0
-    blastRadius 0
-    blastLength 0
-    twosidedtex 0
-    p2p 0
-    p2p_sel 1
-    p2p_type Bezier
-    p2p_bezier2 0
-    p2p_bezier3 0
-    combinetime 0
-    drag 0
-    grav 0
-    threshold 0
-    texture fxpa_Smoke01
-    xgrid 4
-    ygrid 4
-    affectedByWind 0
-    m_isTinted 0
-    renderorder 1
-    Splat 0
+  colorStart 0.317647 0.305882 0
+  colorEnd 0.262745 0.0431373 0
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 1
+  sizeEnd 3
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 7
+  spawntype 0
+  lifeExp 2.5
+  mass 0
+  spread 6.28319
+  particleRot 0.1
+  velocity 0.2
+  randvel 0.2
+  fps 16
+  random 0
+  inherit 0
+  inherit_local 0
+  inherit_part 0
+  inheritvel 0
+  xsize 20
+  ysize 20
+  bounce 0
+  bounce_co 0
+  loop 0
+  update Fountain
+  render Normal
+  blend Normal
+  deadspace 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  twosidedtex 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+  texture fxpa_smoke01
+  xgrid 4
+  ygrid 4
+  affectedByWind 0
+  m_isTinted 0
+  renderorder 1
+  splat 0
 endnode
-endmodelgeom PLC_YSPORES
+endmodelgeom plc_yspores
 
 #MAXANIM ASCII
-newanim impact PLC_YSPORES
+newanim impact plc_yspores
   length 3.96667
   transtime 0.25
-  animroot PLC_YSPORES
-node dummy PLC_YSPORES
-  parent NULL
-endnode
-node dummy YMOLDLG_ground
-  parent PLC_YSPORES
-endnode
-node dummy YMOLDLG_impact
-  parent PLC_YSPORES
-endnode
-node dummy YMOLDLG_head_hit
-  parent PLC_YSPORES
-endnode
-node dummy YMOLDLG_hand
-  parent PLC_YSPORES
-endnode
-node dummy YMOLDLG_head
-  parent PLC_YSPORES
-endnode
-node emitter burst
-  parent PLC_YSPORES
+  event 0.1 detonate
+  animroot plc_yspores
+  node dummy plc_yspores
+    parent NULL
+  endnode
+  node dummy ymoldlg_ground
+    parent plc_yspores
+  endnode
+  node dummy ymoldlg_impact
+    parent plc_yspores
+  endnode
+  node dummy ymoldlg_head_hit
+    parent plc_yspores
+  endnode
+  node dummy ymoldlg_hand
+    parent plc_yspores
+  endnode
+  node dummy ymoldlg_head
+    parent plc_yspores
+  endnode
+  node emitter burst
+    parent plc_yspores
     birthratekey
-      0  7
-      0.433333  7
-      0.466667  7
-      0.5  -23
+      0 7
+      0.433333 7
+      0.466667 7
+      0.5 -23
     endlist
-endnode
-event 0.1  detonate
-doneanim impact PLC_YSPORES
-donemodel PLC_YSPORES
+  endnode
+doneanim impact plc_yspores
+donemodel plc_yspores

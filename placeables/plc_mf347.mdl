@@ -1,39 +1,37 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 18:37:25 2019
 #MAXMODEL ASCII
-# model: plc_mf347
-filedependancy plc_mf347.max
+filedependency Unknown
 newmodel plc_mf347
-setsupermodel plc_mf347 NULL
-classification character
-setanimationscale 1
-#MAXGEOM  ASCII
+  classification CHARACTER
+  setsupermodel plc_mf347 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
 beginmodelgeom plc_mf347
 node dummy plc_mf347
   parent NULL
-  #part-number 0
+endnode
+node dummy rectangle134
+  parent plc_mf347
+  scale 1
+  orientation 0 0 0 0
+  position 0.010625 -0.00295166 0
 endnode
 node trimesh hgjdedyj03
   parent plc_mf347
-  #part-number 22
   ambient 1 1 1
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_metl03
+  bitmap tcn01_metl03
+  position 0 0 0.12
+  orientation 0 0 0 0
   verts 6
-    0.00999999978 -0.00999999978 0.159999996
-    -0.100000001 -0.0500000007 -0.0399999991
-    0.0599999987 -0.119999997 -0.0399999991
-    0.119999997 0.0399999991 -0.0399999991
-    -0.0399999991 0.100000001 -0.0399999991
-    0.00999999978 -0.00999999978 -0.129999995
-  tverts 7
-    0.300000012 0.682299018 0
-    0 0.42553401 0
-    0.150000006 0.42553401 0
-    0.300000012 0.42553401 0
-    0.449999988 0.42553401 0
-    0.600000024 0.42553401 0
-    0.300000012 0.317701012 0
+    0.01 -0.01 0.16
+    -0.1 -0.05 -0.04
+    0.06 -0.12 -0.04
+    0.12 0.04 -0.04
+    -0.04 0.1 -0.04
+    0.01 -0.01 -0.13
   faces 8
     0 1 2 1 0 1 2 2
     0 2 3 1 0 2 3 2
@@ -43,14 +41,17 @@ node trimesh hgjdedyj03
     5 3 2 1 6 3 2 2
     5 4 3 1 6 4 3 2
     5 1 4 1 6 5 4 2
-  position 0 0 0.12
-  orientation 0 0 0 0
+  tverts 7
+    0.3 0.682299 0
+    0 0.425534 0
+    0.15 0.425534 0
+    0.3 0.425534 0
+    0.45 0.425534 0
+    0.6 0.425534 0
+    0.3 0.317701 0
 endnode
-
-
-node emitter OmenEmitter200
+node emitter omenemitter200
   parent plc_mf347
-  #part-number 8
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -67,7 +68,7 @@ node emitter OmenEmitter200
   update Fountain
   render Normal
   blend Lighten
-  texture Fxpa_splash
+  texture fxpa_splash
   xgrid 1
   ygrid 1
   loop 0
@@ -76,12 +77,12 @@ node emitter OmenEmitter200
   blastRadius 0
   blastLength 0
   position 0 0 0.1
-  orientation 0 0 -1 -1.57079995
+  orientation 0 0 -1 -1.5708
   colorStart 1 1 1
   colorEnd 1 1 1
   alphaStart 0.6
   alphaEnd 0.365
-  sizeStart 0.100000001
+  sizeStart 0.1
   sizeEnd 0.5
   sizeStart_y 0
   sizeEnd_y 0
@@ -106,13 +107,11 @@ node emitter OmenEmitter200
   p2p_bezier3 0
   combinetime 0
   drag 0
-  grav 0.80
+  grav 0.8
   threshold 0
 endnode
-
-node emitter OmenEmitter265
+node emitter omenemitter265
   parent plc_mf347
-  #part-number 8
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -129,7 +128,7 @@ node emitter OmenEmitter265
   update Fountain
   render Billboard_to_World_Z
   blend Lighten
-  texture PLC_test
+  texture plc_test
   xgrid 1
   ygrid 1
   loop 0
@@ -138,13 +137,13 @@ node emitter OmenEmitter265
   blastRadius 0
   blastLength 0
   position 0 0 0.21
-  orientation 0 0 -1 -1.57079995
-  colorStart 0.647059023 0.670588017 0.847059011
+  orientation 0 0 -1 -1.5708
+  colorStart 0.647059 0.670588 0.847059
   colorEnd 0 0 0
   alphaStart 0
   alphaEnd 0.2
-  sizeStart 0.800000012
-  sizeEnd 0.899999976
+  sizeStart 0.8
+  sizeEnd 0.9
   sizeStart_y 0
   sizeEnd_y 0
   frameStart 0
@@ -171,10 +170,8 @@ node emitter OmenEmitter265
   grav 0
   threshold 0
 endnode
-
-node emitter OmenEmitter290
+node emitter omenemitter290
   parent plc_mf347
-  #part-number 17
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -206,7 +203,7 @@ node emitter OmenEmitter290
   alphaStart 1
   alphaEnd 0
   sizeStart 0
-  sizeEnd 0.699999988
+  sizeEnd 0.7
   sizeStart_y 0
   sizeEnd_y 0
   frameStart 1
@@ -233,43 +230,5 @@ node emitter OmenEmitter290
   grav 0
   threshold 0
 endnode
-
-node trimesh Rectangle134
-  parent plc_mf347
-  #part-number 5
-  ambient 0.200000003 0.200000003 0.200000003
-  diffuse 0.800000012 0.800000012 0.800000012
-  specular 0 0 0
-  shininess 1
-  shadow 0
-  render 0
-  bitmap NULL
-  verts 8
-    -0.300000012 -0.300000012 3.75018001
-    0.300000012 -0.300000012 3.75018001
-    0.300000012 0.300000012 3.75018001
-    -0.300000012 0.300000012 3.75018001
-    -0.300000012 -0.300000012 0
-    0.300000012 -0.300000012 0
-    0.300000012 0.300000012 0
-    -0.300000012 0.300000012 0
-  faces 10
-    0 1 2 1 0 0 0 1
-    3 0 2 1 0 0 0 1
-    4 5 1 2 0 0 0 1
-    1 0 4 2 0 0 0 1
-    5 6 2 4 0 0 0 1
-    2 1 5 4 0 0 0 1
-    7 4 0 4 0 0 0 1
-    0 3 7 4 0 0 0 1
-    6 7 3 2 0 0 0 1
-    3 2 6 2 0 0 0 1
-  position 0.0106250001 -0.00295165996 0
-  orientation 0 0 0 0
-  alpha 1
-  scale 1
-  setfillumcolor 0 0 0
-endnode
-
 endmodelgeom plc_mf347
 donemodel plc_mf347

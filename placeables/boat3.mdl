@@ -1,24 +1,22 @@
-#Exported from 3ds max by MDL Plug-in Suite 1.0b
-#http://www.bricksbuilder.com/nwn/utils/
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 18:34:26 2019
 #MAXMODEL ASCII
-# model: boat3
-filedependancy Unknown
+filedependency Unknown
 newmodel boat3
-setsupermodel boat3 NULL
-classification Character
-setanimationscale 1.0
-#MAXGEOM  ASCII
+  classification CHARACTER
+  setsupermodel boat3 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
 beginmodelgeom boat3
 node dummy boat3
   parent NULL
 endnode
-node dummy B10_ground
+node dummy b10_ground
   parent boat3
   position -0.00363281 0.0069873 0
   orientation 0 0 0 0
   wirecolor 0.722656 0.722656 0.722656
 endnode
-node trimesh Line1837
+node trimesh line1837
   parent boat3
   position 0.517008 2.09057 0.0512813
   orientation 0 0 0 0
@@ -27,7 +25,7 @@ node trimesh Line1837
   diffuse 0.619608 0.619608 0.619608
   specular 0 0 0
   shininess 26
-  bitmap TCN01_barl02
+  bitmap tcn01_barl02
   verts 35
     0.24 2.13 0.79
     -0.29 1.05 -0.02
@@ -65,71 +63,71 @@ node trimesh Line1837
     -0.8 -5.05 0.99
     -1.3 -5.59 0.98
   faces 64
-    0 1 2  1  0 1 2  1
-    1 0 3  1  1 0 3  1
-    4 5 6  1  4 5 6  1
-    7 8 9  1  7 8 9  1
-    9 10 7  1  9 10 7  1
-    11 12 13  1  11 12 13  1
-    14 12 11  1  14 12 11  1
-    15 12 16  1  5 15 8  1
-    16 17 15  1  8 9 5  1
-    18 19 20  1  7 1 2  1
-    20 21 18  1  2 10 7  1
-    18 16 19  1  7 8 1  1
-    8 7 16  1  8 7 8  1
-    1 3 7  1  1 3 7  1
-    16 7 19  1  8 7 1  1
-    3 19 7  1  3 1 7  1
-    22 23 24  1  16 17 18  1
-    25 26 23  1  19 20 17  1
-    24 27 22  1  18 21 16  1
-    23 26 24  1  17 20 18  1
-    27 28 22  1  21 22 16  1
-    0 2 26  1  0 2 23  1
-    26 25 0  1  23 24 0  1
-    24 10 9  1  25 10 9  1
-    9 27 24  1  9 26 25  1
-    4 29 30  1  27 28 29  1
-    30 31 4  1  29 30 27  1
-    30 15 28  1  31 5 26  1
-    17 28 15  1  9 26 5  1
-    15 30 29  1  5 31 32  1
-    21 20 22  1  10 2 33  1
-    23 22 20  1  23 33 2  1
-    1 7 2  1  1 7 2  1
-    10 2 7  1  10 2 7  1
-    19 3 0  1  1 3 0  1
-    0 20 19  1  0 2 1  1
-    2 10 24  1  2 10 25  1
-    24 26 2  1  25 23 2  1
-    23 0 25  1  23 0 24  1
-    0 23 20  1  0 23 2  1
-    5 14 6  1  5 15 6  1
-    29 4 32  1  34 35 36  1
-    33 13 29  1  37 38 34  1
-    12 15 13  1  15 5 6  1
-    13 15 29  1  6 5 32  1
-    31 5 4  1  31 5 4  1
-    8 14 5  1  8 15 5  1
-    5 9 8  1  5 9 8  1
-    16 18 17  1  8 7 9  1
-    21 17 18  1  10 9 7  1
-    16 12 8  1  8 15 8  1
-    14 8 12  1  15 8 15  1
-    27 31 28  1  21 39 22  1
-    30 28 31  1  40 22 39  1
-    9 5 27  1  9 5 26  1
-    31 27 5  1  31 26 5  1
-    17 21 22  1  9 10 33  1
-    22 28 17  1  33 26 9  1
-    33 11 13  1  37 41 38  1
-    14 11 34  1  14 11 42  1
-    14 34 6  1  14 42 43  1
-    32 33 29  1  36 37 34  1
-    32 4 6  1  36 35 44  1
-    34 32 6  1  45 36 44  1
-  tverts 46
+    0 1 2 1 0 1 2 1
+    1 0 3 1 1 0 3 1
+    4 5 6 1 4 5 6 1
+    7 8 9 1 7 8 9 1
+    9 10 7 1 9 10 7 1
+    11 12 13 1 11 12 13 1
+    14 12 11 1 14 12 11 1
+    15 12 16 1 5 15 8 1
+    16 17 15 1 8 9 5 1
+    18 19 20 1 7 1 2 1
+    20 21 18 1 2 10 7 1
+    18 16 19 1 7 8 1 1
+    8 7 16 1 8 7 8 1
+    1 3 7 1 1 3 7 1
+    16 7 19 1 8 7 1 1
+    3 19 7 1 3 1 7 1
+    22 23 24 1 16 17 18 1
+    25 26 23 1 19 20 17 1
+    24 27 22 1 18 21 16 1
+    23 26 24 1 17 20 18 1
+    27 28 22 1 21 22 16 1
+    0 2 26 1 0 2 23 1
+    26 25 0 1 23 24 0 1
+    24 10 9 1 25 10 9 1
+    9 27 24 1 9 26 25 1
+    4 29 30 1 27 28 29 1
+    30 31 4 1 29 30 27 1
+    30 15 28 1 31 5 26 1
+    17 28 15 1 9 26 5 1
+    15 30 29 1 5 31 32 1
+    21 20 22 1 10 2 25 1
+    23 22 20 1 23 25 2 1
+    1 7 2 1 1 7 2 1
+    10 2 7 1 10 2 7 1
+    19 3 0 1 1 3 0 1
+    0 20 19 1 0 2 1 1
+    2 10 24 1 2 10 25 1
+    24 26 2 1 25 23 2 1
+    23 0 25 1 23 0 24 1
+    0 23 20 1 0 23 2 1
+    5 14 6 1 5 15 6 1
+    29 4 32 1 33 34 35 1
+    33 13 29 1 36 37 33 1
+    12 15 13 1 15 5 6 1
+    13 15 29 1 6 5 32 1
+    31 5 4 1 31 5 4 1
+    8 14 5 1 8 15 5 1
+    5 9 8 1 5 9 8 1
+    16 18 17 1 8 7 9 1
+    21 17 18 1 10 9 7 1
+    16 12 8 1 8 15 8 1
+    14 8 12 1 15 8 15 1
+    27 31 28 1 21 38 22 1
+    30 28 31 1 39 22 38 1
+    9 5 27 1 9 5 26 1
+    31 27 5 1 31 26 5 1
+    17 21 22 1 9 10 25 1
+    22 28 17 1 25 26 9 1
+    33 11 13 1 36 40 37 1
+    14 11 34 1 14 11 41 1
+    14 34 6 1 14 41 42 1
+    32 33 29 1 35 36 33 1
+    32 4 6 1 35 34 43 1
+    34 32 6 1 44 35 43 1
+  tverts 45
     -0.826515 0.765596 0
     -0.456961 0.506836 0
     -0.511586 0.764124 0
@@ -163,7 +161,6 @@ node trimesh Line1837
     0.600876 0.508944 0
     0.875479 0.549655 0
     0.943766 0.776528 0
-    -0.242094 0.550348 0
     0.629912 0.775232 0
     0.153556 0.775232 0
     0.319393 0.660607 0
@@ -177,7 +174,7 @@ node trimesh Line1837
     0.145478 0.50085 0
     0.319393 0.500861 0
 endnode
-node trimesh ChamferBox01
+node trimesh chamferbox01
   parent boat3
   position 0.737008 2.06057 0.691281
   orientation 0 0 0 0
@@ -186,7 +183,7 @@ node trimesh ChamferBox01
   diffuse 1 1 1
   specular 0 0 0
   shininess 26
-  bitmap TCN01_cloth01
+  bitmap tcn01_cloth01
   verts 16
     -0.34 0.54 0.97
     -0.47 -0.43 0.97
@@ -205,34 +202,34 @@ node trimesh ChamferBox01
     0.38 -0.6 0.07
     0.52 0.47 0.07
   faces 28
-    0 1 2  1  0 1 2  1
-    0 2 3  1  0 2 3  1
-    0 4 5  1  4 5 6  1
-    0 5 6  1  4 6 7  1
-    0 6 1  1  4 7 8  1
-    1 6 7  1  8 7 9  1
-    1 7 8  1  8 9 10  1
-    1 8 2  1  8 10 11  1
-    2 8 9  1  11 10 12  1
-    2 9 10  1  11 12 13  1
-    2 10 3  1  11 13 14  1
-    3 10 11  1  14 13 15  1
-    3 11 4  1  16 17 5  1
-    3 4 0  1  16 5 4  1
-    4 12 5  1  5 18 6  1
-    5 12 13  1  6 18 19  1
-    5 13 6  1  6 19 7  1
-    6 13 7  1  7 19 9  1
-    7 13 14  1  9 19 20  1
-    7 14 8  1  9 20 10  1
-    8 14 9  1  10 20 12  1
-    9 14 15  1  12 20 21  1
-    9 15 10  1  12 21 13  1
-    10 15 11  1  13 21 15  1
-    11 15 12  1  17 22 18  1
-    11 12 4  1  17 18 5  1
-    15 14 13  1  23 24 25  1
-    15 13 12  1  23 25 26  1
+    0 1 2 1 0 1 2 1
+    0 2 3 1 0 2 3 1
+    0 4 5 1 4 5 6 1
+    0 5 6 1 4 6 7 1
+    0 6 1 1 4 7 8 1
+    1 6 7 1 8 7 9 1
+    1 7 8 1 8 9 10 1
+    1 8 2 1 8 10 11 1
+    2 8 9 1 11 10 12 1
+    2 9 10 1 11 12 13 1
+    2 10 3 1 11 13 14 1
+    3 10 11 1 14 13 15 1
+    3 11 4 1 16 17 5 1
+    3 4 0 1 16 5 4 1
+    4 12 5 1 5 18 6 1
+    5 12 13 1 6 18 19 1
+    5 13 6 1 6 19 7 1
+    6 13 7 1 7 19 9 1
+    7 13 14 1 9 19 20 1
+    7 14 8 1 9 20 10 1
+    8 14 9 1 10 20 12 1
+    9 14 15 1 12 20 21 1
+    9 15 10 1 12 21 13 1
+    10 15 11 1 13 21 15 1
+    11 15 12 1 17 22 18 1
+    11 12 4 1 17 18 5 1
+    15 14 13 1 23 24 25 1
+    15 13 12 1 23 25 26 1
   tverts 27
     0.33839 0.628479 0
     0.33839 0.341138 0
@@ -262,7 +259,7 @@ node trimesh ChamferBox01
     0.638203 0.061916 0
     0.319002 0.062099 0
 endnode
-node trimesh Box838
+node trimesh box838
   parent boat3
   position -0.0129922 -0.369429 0.631281
   orientation 0 0 0 0
@@ -271,7 +268,7 @@ node trimesh Box838
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_crtes01
+  bitmap tcn01_crtes01
   verts 8
     -0.55 -0.47 -0.02
     -0.04 0.42 -0.01
@@ -282,25 +279,25 @@ node trimesh Box838
     0.39 0.17 0.47
     -0.06 0.42 0.46
   faces 12
-    0 1 2  1  0 1 2  1
-    2 3 0  1  2 3 0  1
-    4 5 6  1  0 3 2  1
-    6 7 4  1  2 1 0  1
-    0 3 5  1  1 0 3  1
-    5 4 0  1  3 2 1  1
-    3 2 6  1  0 1 2  1
-    6 5 3  1  2 3 0  1
-    2 1 7  1  1 0 3  1
-    7 6 2  1  3 2 1  1
-    1 0 4  1  0 1 2  1
-    4 7 1  1  2 3 0  1
+    0 1 2 1 0 1 2 1
+    2 3 0 1 2 3 0 1
+    4 5 6 1 0 3 2 1
+    6 7 4 1 2 1 0 1
+    0 3 5 1 1 0 3 1
+    5 4 0 1 3 2 1 1
+    3 2 6 1 0 1 2 1
+    6 5 3 1 2 3 0 1
+    2 1 7 1 1 0 3 1
+    7 6 2 1 3 2 1 1
+    1 0 4 1 0 1 2 1
+    4 7 1 1 2 3 0 1
   tverts 4
     1 0 0
     0.5 0 0
     0.5 0.5 0
     1 0.5 0
 endnode
-node trimesh Tube03
+node trimesh tube03
   parent boat3
   position -0.0929922 -0.709429 1.48128
   orientation 0 0 0 0
@@ -309,7 +306,7 @@ node trimesh Tube03
   diffuse 1 1 1
   specular 0 0 0
   shininess 26
-  bitmap TCN01_cloth01
+  bitmap tcn01_cloth01
   verts 15
     -0.5 1.48 -0.83
     -0.55 -0.03 -0.24
@@ -327,30 +324,30 @@ node trimesh Tube03
     1.01 1.23 -0.79
     0.75 -0.25 -0.84
   faces 24
-    0 1 2  1  0 1 2  1
-    0 3 1  1  0 3 1  1
-    3 4 1  1  4 5 6  1
-    3 5 4  1  4 7 5  1
-    5 2 4  1  8 2 9  1
-    5 0 2  1  8 0 2  1
-    2 6 7  1  2 10 11  1
-    2 1 6  1  2 1 10  1
-    1 8 6  1  6 12 13  1
-    1 4 8  1  6 5 12  1
-    4 7 8  1  9 11 10  1
-    4 2 7  1  9 2 11  1
-    7 9 10  1  11 14 15  1
-    7 6 9  1  11 10 14  1
-    6 11 9  1  13 16 17  1
-    6 8 11  1  13 12 16  1
-    8 10 11  1  10 15 18  1
-    8 7 10  1  10 11 15  1
-    10 12 13  1  15 19 20  1
-    10 9 12  1  15 14 19  1
-    9 14 12  1  17 21 22  1
-    9 11 14  1  17 16 21  1
-    11 13 14  1  18 20 23  1
-    11 10 13  1  18 15 20  1
+    0 1 2 1 0 1 2 1
+    0 3 1 1 0 3 1 1
+    3 4 1 1 4 5 6 1
+    3 5 4 1 4 7 5 1
+    5 2 4 1 8 2 9 1
+    5 0 2 1 8 0 2 1
+    2 6 7 1 2 10 11 1
+    2 1 6 1 2 1 10 1
+    1 8 6 1 6 12 13 1
+    1 4 8 1 6 5 12 1
+    4 7 8 1 9 11 10 1
+    4 2 7 1 9 2 11 1
+    7 9 10 1 11 14 15 1
+    7 6 9 1 11 10 14 1
+    6 11 9 1 13 16 17 1
+    6 8 11 1 13 12 16 1
+    8 10 11 1 10 15 18 1
+    8 7 10 1 10 11 15 1
+    10 12 13 1 15 19 20 1
+    10 9 12 1 15 14 19 1
+    9 14 12 1 17 21 22 1
+    9 11 14 1 17 16 21 1
+    11 13 14 1 18 20 23 1
+    11 10 13 1 18 15 20 1
   tverts 24
     0.869191 0.243387 0
     0.683238 0.878056 0
@@ -377,7 +374,7 @@ node trimesh Tube03
     0.733869 0.058461 0
     0.135005 0.878057 0
 endnode
-node trimesh Line1381
+node trimesh line1381
   parent boat3
   position 0.357008 2.19057 0.701281
   orientation 0 0 0 0
@@ -386,7 +383,7 @@ node trimesh Line1381
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_bridge02
+  bitmap tcn01_bridge02
   verts 16
     -0.86 -0.16 -0.04
     -0.94 -0.15 -0.04
@@ -405,34 +402,34 @@ node trimesh Line1381
     -0.85 0.28 -0.04
     -0.85 0.28 0.01
   faces 28
-    0 1 2  1  0 1 2  1
-    0 2 3  1  0 2 3  1
-    1 4 5  1  1 4 5  1
-    1 5 2  1  1 5 2  1
-    4 6 7  1  4 6 7  1
-    4 7 5  1  4 7 5  1
-    6 8 9  1  6 8 9  1
-    6 9 7  1  6 9 7  1
-    8 10 11  1  8 10 11  1
-    8 11 9  1  8 11 9  1
-    10 12 13  1  10 12 13  1
-    10 13 11  1  10 13 11  1
-    12 14 15  1  14 15 16  1
-    12 15 13  1  14 16 17  1
-    14 0 3  1  15 0 3  1
-    14 3 15  1  15 3 16  1
-    4 8 6  1  18 19 20  1
-    12 0 14  1  21 22 23  1
-    8 12 10  1  19 21 24  1
-    8 0 12  1  19 22 21  1
-    4 0 8  1  18 22 19  1
-    1 0 4  1  25 22 18  1
-    5 7 9  1  18 20 19  1
-    13 15 3  1  21 23 22  1
-    9 11 13  1  19 24 21  1
-    9 13 3  1  19 21 22  1
-    5 9 3  1  18 19 22  1
-    2 5 3  1  25 18 22  1
+    0 1 2 1 0 1 2 1
+    0 2 3 1 0 2 3 1
+    1 4 5 1 1 4 5 1
+    1 5 2 1 1 5 2 1
+    4 6 7 1 4 6 7 1
+    4 7 5 1 4 7 5 1
+    6 8 9 1 6 8 9 1
+    6 9 7 1 6 9 7 1
+    8 10 11 1 8 10 11 1
+    8 11 9 1 8 11 9 1
+    10 12 13 1 10 12 13 1
+    10 13 11 1 10 13 11 1
+    12 14 15 1 14 15 16 1
+    12 15 13 1 14 16 17 1
+    14 0 3 1 15 0 3 1
+    14 3 15 1 15 3 16 1
+    4 8 6 1 18 19 20 1
+    12 0 14 1 21 22 23 1
+    8 12 10 1 19 21 24 1
+    8 0 12 1 19 22 21 1
+    4 0 8 1 18 22 19 1
+    1 0 4 1 25 22 18 1
+    5 7 9 1 18 20 19 1
+    13 15 3 1 21 23 22 1
+    9 11 13 1 19 24 21 1
+    9 13 3 1 19 21 22 1
+    5 9 3 1 18 19 22 1
+    2 5 3 1 25 18 22 1
   tverts 26
     0.061577 0.260346 0
     0.061577 0.348398 0
@@ -461,7 +458,7 @@ node trimesh Line1381
     0.147862 0.481068 0
     0.833282 0.493032 0
 endnode
-node trimesh Box839
+node trimesh box839
   parent boat3
   position 0.157008 0.740571 0.151281
   orientation 0 0 0 0
@@ -470,7 +467,7 @@ node trimesh Box839
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_crtes01
+  bitmap tcn01_crtes01
   verts 8
     -0.48 -0.19 -0.03
     -0.27 0.34 -0.03
@@ -481,25 +478,25 @@ node trimesh Box839
     0.46 0.04 0.86
     -0.29 0.35 0.84
   faces 12
-    0 1 2  1  0 1 2  1
-    2 3 0  1  2 3 0  1
-    4 5 6  1  0 3 2  1
-    6 7 4  1  2 1 0  1
-    0 3 5  1  1 0 3  1
-    5 4 0  1  3 2 1  1
-    3 2 6  1  0 1 2  1
-    6 5 3  1  2 3 0  1
-    2 1 7  1  1 0 3  1
-    7 6 2  1  3 2 1  1
-    1 0 4  1  0 1 2  1
-    4 7 1  1  2 3 0  1
+    0 1 2 1 0 1 2 1
+    2 3 0 1 2 3 0 1
+    4 5 6 1 0 3 2 1
+    6 7 4 1 2 1 0 1
+    0 3 5 1 1 0 3 1
+    5 4 0 1 3 2 1 1
+    3 2 6 1 0 1 2 1
+    6 5 3 1 2 3 0 1
+    2 1 7 1 1 0 3 1
+    7 6 2 1 3 2 1 1
+    1 0 4 1 0 1 2 1
+    4 7 1 1 2 3 0 1
   tverts 4
     0.5 0.5 0
     0 0.5 0
     0 1 0
     0.5 1 0
 endnode
-node trimesh Box212
+node trimesh box212
   parent boat3
   position 0.537008 1.24057 0.151281
   orientation 0 0 0 0
@@ -508,7 +505,7 @@ node trimesh Box212
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_crtes01
+  bitmap tcn01_crtes01
   verts 8
     -0.25 -0.22 -0.02
     -0.25 0.22 -0.02
@@ -519,25 +516,25 @@ node trimesh Box212
     0.24 0.23 0.98
     -0.28 0.23 0.96
   faces 12
-    0 1 2  1  0 1 2  1
-    2 3 0  1  2 3 0  1
-    4 5 6  1  0 3 2  1
-    6 7 4  1  2 1 0  1
-    0 3 5  1  1 0 3  1
-    5 4 0  1  3 2 1  1
-    3 2 6  1  0 1 2  1
-    6 5 3  1  2 3 0  1
-    2 1 7  1  1 0 3  1
-    7 6 2  1  3 2 1  1
-    1 0 4  1  0 1 2  1
-    4 7 1  1  2 3 0  1
+    0 1 2 1 0 1 2 1
+    2 3 0 1 2 3 0 1
+    4 5 6 1 0 3 2 1
+    6 7 4 1 2 1 0 1
+    0 3 5 1 1 0 3 1
+    5 4 0 1 3 2 1 1
+    3 2 6 1 0 1 2 1
+    6 5 3 1 2 3 0 1
+    2 1 7 1 1 0 3 1
+    7 6 2 1 3 2 1 1
+    1 0 4 1 0 1 2 1
+    4 7 1 1 2 3 0 1
   tverts 4
     0.5 0 0
     0 0 0
     0 0.5 0
     0.5 0.5 0
 endnode
-node trimesh Box215
+node trimesh box215
   parent boat3
   position -0.572992 -3.41943 1.25128
   orientation 0 0 0 0
@@ -546,7 +543,7 @@ node trimesh Box215
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_hrdwd01
+  bitmap tcn01_hrdwd01
   verts 10
     0.01 0.02 -0.00999999
     0.03 -0.04 -0.00999999
@@ -559,22 +556,22 @@ node trimesh Box215
     -0.00999999 0 0.47
     0.09 -0.02 0.72
   faces 16
-    0 1 2  1  0 1 2  1
-    2 1 3  1  2 3 4  1
-    3 4 2  1  4 5 2  1
-    4 3 5  1  5 4 6  1
-    1 0 6  1  1 0 7  1
-    6 3 1  1  7 8 1  1
-    0 2 4  1  0 2 5  1
-    4 6 0  1  5 7 0  1
-    4 5 7  1  5 6 9  1
-    5 8 7  1  6 10 9  1
-    7 6 4  1  9 7 5  1
-    6 7 8  1  7 9 10  1
-    3 9 5  1  4 11 6  1
-    3 6 9  1  8 7 12  1
-    6 8 9  1  7 10 12  1
-    8 5 9  1  10 6 12  1
+    0 1 2 1 0 1 2 1
+    2 1 3 1 2 3 4 1
+    3 4 2 1 4 5 2 1
+    4 3 5 1 5 4 6 1
+    1 0 6 1 1 0 7 1
+    6 3 1 1 7 8 1 1
+    0 2 4 1 0 2 5 1
+    4 6 0 1 5 7 0 1
+    4 5 7 1 5 6 9 1
+    5 8 7 1 6 10 9 1
+    7 6 4 1 9 7 5 1
+    6 7 8 1 7 9 10 1
+    3 9 5 1 4 11 6 1
+    3 6 9 1 8 7 12 1
+    6 8 9 1 7 10 12 1
+    8 5 9 1 10 6 12 1
   tverts 13
     0.237647 0.021514 0
     0.184481 0.021514 0
@@ -590,7 +587,7 @@ node trimesh Box215
     0.361247 1.02051 0
     0.19162 1.02051 0
 endnode
-node trimesh Box205
+node trimesh box205
   parent boat3
   position -0.532992 -3.22943 1.05128
   orientation 0 0 0 0
@@ -599,7 +596,7 @@ node trimesh Box205
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_hrdwd01
+  bitmap tcn01_hrdwd01
   verts 8
     -0.25 -0.27 0.18
     0.14 -0.33 0.19
@@ -610,16 +607,16 @@ node trimesh Box205
     0.25 0.27 -0.00999999
     -0.15 0.33 -0.02
   faces 10
-    0 1 2  1  0 1 2  1
-    2 3 0  1  2 3 0  1
-    4 5 1  1  4 5 1  1
-    1 0 4  1  1 0 4  1
-    5 6 2  1  6 7 8  1
-    2 1 5  1  8 9 6  1
-    6 7 3  1  10 11 3  1
-    3 2 6  1  3 2 10  1
-    7 4 0  1  7 6 9  1
-    0 3 7  1  9 8 7  1
+    0 1 2 1 0 1 2 1
+    2 3 0 1 2 3 0 1
+    4 5 1 1 4 5 1 1
+    1 0 4 1 1 0 4 1
+    5 6 2 1 6 7 8 1
+    2 1 5 1 8 9 6 1
+    6 7 3 1 10 11 3 1
+    3 2 6 1 3 2 10 1
+    7 4 0 1 7 6 9 1
+    0 3 7 1 9 8 7 1
   tverts 12
     0.447274 0.082571 0
     0.573391 0.082571 0
@@ -634,7 +631,7 @@ node trimesh Box205
     0.572533 1.03187 0
     0.446416 1.03187 0
 endnode
-node trimesh Box211
+node trimesh box211
   parent boat3
   position 0.137008 2.25057 0.731281
   orientation 0 0 0 0
@@ -643,7 +640,7 @@ node trimesh Box211
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_hrdwd01
+  bitmap tcn01_hrdwd01
   verts 8
     -0.18 -0.81 -0.01
     0.05 0.82 -0.02
@@ -654,18 +651,18 @@ node trimesh Box211
     0.19 0.8 0.04
     0.04 0.82 0.03
   faces 12
-    0 1 2  1  0 1 2  1
-    2 3 0  1  2 3 0  1
-    4 5 6  1  0 3 2  1
-    6 7 4  1  2 1 0  1
-    0 3 5  1  4 5 6  1
-    5 4 0  1  6 7 4  1
-    3 2 6  1  5 8 9  1
-    6 5 3  1  9 6 5  1
-    2 1 7  1  10 11 12  1
-    7 6 2  1  12 13 10  1
-    1 0 4  1  11 4 7  1
-    4 7 1  1  7 12 11  1
+    0 1 2 1 0 1 2 1
+    2 3 0 1 2 3 0 1
+    4 5 6 1 0 3 2 1
+    6 7 4 1 2 1 0 1
+    0 3 5 1 4 5 6 1
+    5 4 0 1 6 7 4 1
+    3 2 6 1 5 8 9 1
+    6 5 3 1 9 6 5 1
+    2 1 7 1 10 11 12 1
+    7 6 2 1 12 13 10 1
+    1 0 4 1 11 4 7 1
+    4 7 1 1 7 12 11 1
   tverts 14
     0.45 0.0005 0
     0.45 0.9995 0
@@ -682,7 +679,7 @@ node trimesh Box211
     0.471618 0.271276 0
     0.47187 0.169955 0
 endnode
-node trimesh Box837
+node trimesh box837
   parent boat3
   position 0.217008 -0.299429 0.151281
   orientation 0 0 0 0
@@ -691,7 +688,7 @@ node trimesh Box837
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_crtes01
+  bitmap tcn01_crtes01
   verts 8
     -0.3 -0.66 -0.02
     -0.22 0.36 -0.02
@@ -702,25 +699,25 @@ node trimesh Box837
     0.28 0.32 0.47
     -0.23 0.36 0.45
   faces 12
-    0 1 2  1  0 1 2  1
-    2 3 0  1  2 3 0  1
-    4 5 6  1  0 3 2  1
-    6 7 4  1  2 1 0  1
-    0 3 5  1  1 0 3  1
-    5 4 0  1  3 2 1  1
-    3 2 6  1  0 1 2  1
-    6 5 3  1  2 3 0  1
-    2 1 7  1  1 0 3  1
-    7 6 2  1  3 2 1  1
-    1 0 4  1  0 1 2  1
-    4 7 1  1  2 3 0  1
+    0 1 2 1 0 1 2 1
+    2 3 0 1 2 3 0 1
+    4 5 6 1 0 3 2 1
+    6 7 4 1 2 1 0 1
+    0 3 5 1 1 0 3 1
+    5 4 0 1 3 2 1 1
+    3 2 6 1 0 1 2 1
+    6 5 3 1 2 3 0 1
+    2 1 7 1 1 0 3 1
+    7 6 2 1 3 2 1 1
+    1 0 4 1 0 1 2 1
+    4 7 1 1 2 3 0 1
   tverts 4
     0.5 0 0
     0 0 0
     0 0.5 0
     0.5 0.5 0
 endnode
-node trimesh Box834
+node trimesh box834
   parent boat3
   position -0.0129923 1.35057 0.141281
   orientation 0 0 0 0
@@ -729,7 +726,7 @@ node trimesh Box834
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_crtes01
+  bitmap tcn01_crtes01
   verts 8
     -0.29 -0.16 -0.02
     -0.19 0.27 -0.02
@@ -740,25 +737,25 @@ node trimesh Box834
     0.3 0.16 0.46
     -0.2 0.27 0.45
   faces 12
-    0 1 2  1  0 1 2  1
-    2 3 0  1  2 3 0  1
-    4 5 6  1  0 3 2  1
-    6 7 4  1  2 1 0  1
-    0 3 5  1  1 0 3  1
-    5 4 0  1  3 2 1  1
-    3 2 6  1  0 1 2  1
-    6 5 3  1  2 3 0  1
-    2 1 7  1  1 0 3  1
-    7 6 2  1  3 2 1  1
-    1 0 4  1  0 1 2  1
-    4 7 1  1  2 3 0  1
+    0 1 2 1 0 1 2 1
+    2 3 0 1 2 3 0 1
+    4 5 6 1 0 3 2 1
+    6 7 4 1 2 1 0 1
+    0 3 5 1 1 0 3 1
+    5 4 0 1 3 2 1 1
+    3 2 6 1 0 1 2 1
+    6 5 3 1 2 3 0 1
+    2 1 7 1 1 0 3 1
+    7 6 2 1 3 2 1 1
+    1 0 4 1 0 1 2 1
+    4 7 1 1 2 3 0 1
   tverts 4
     0.5 0 0
     0 0 0
     0 0.5 0
     0.5 0.5 0
 endnode
-node trimesh Box835
+node trimesh box835
   parent boat3
   position -0.182992 1.91057 0.731281
   orientation 0 0 0 0
@@ -767,7 +764,7 @@ node trimesh Box835
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_hrdwd01
+  bitmap tcn01_hrdwd01
   verts 8
     -0.26 -0.79 -0.02
     0.12 0.81 -0.02
@@ -778,18 +775,18 @@ node trimesh Box835
     0.27 0.78 0.03
     0.12 0.81 0.03
   faces 12
-    0 1 2  1  0 1 2  1
-    2 3 0  1  2 3 0  1
-    4 5 6  1  0 3 2  1
-    6 7 4  1  2 1 0  1
-    0 3 5  1  4 5 6  1
-    5 4 0  1  6 7 4  1
-    3 2 6  1  5 8 9  1
-    6 5 3  1  9 6 5  1
-    2 1 7  1  10 11 12  1
-    7 6 2  1  12 13 10  1
-    1 0 4  1  11 4 7  1
-    4 7 1  1  7 12 11  1
+    0 1 2 1 0 1 2 1
+    2 3 0 1 2 3 0 1
+    4 5 6 1 0 3 2 1
+    6 7 4 1 2 1 0 1
+    0 3 5 1 4 5 6 1
+    5 4 0 1 6 7 4 1
+    3 2 6 1 5 8 9 1
+    6 5 3 1 9 6 5 1
+    2 1 7 1 10 11 12 1
+    7 6 2 1 12 13 10 1
+    1 0 4 1 11 4 7 1
+    4 7 1 1 7 12 11 1
   tverts 14
     0.45 0.0005 0
     0.45 0.9995 0
@@ -806,7 +803,7 @@ node trimesh Box835
     0.471618 0.271276 0
     0.47187 0.169955 0
 endnode
-node trimesh Box836
+node trimesh box836
   parent boat3
   position -0.352992 -0.699429 0.141281
   orientation 0 0 0 0
@@ -815,7 +812,7 @@ node trimesh Box836
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TCN01_crtes01
+  bitmap tcn01_crtes01
   verts 8
     -0.36 -0.63 -0.02
     -0.19 0.38 -0.02
@@ -826,18 +823,18 @@ node trimesh Box836
     0.3 0.29 0.46
     -0.2 0.38 0.45
   faces 12
-    0 1 2  1  0 1 2  1
-    2 3 0  1  2 3 0  1
-    4 5 6  1  0 3 2  1
-    6 7 4  1  2 1 0  1
-    0 3 5  1  1 0 3  1
-    5 4 0  1  3 2 1  1
-    3 2 6  1  0 1 2  1
-    6 5 3  1  2 3 0  1
-    2 1 7  1  1 0 3  1
-    7 6 2  1  3 2 1  1
-    1 0 4  1  0 1 2  1
-    4 7 1  1  2 3 0  1
+    0 1 2 1 0 1 2 1
+    2 3 0 1 2 3 0 1
+    4 5 6 1 0 3 2 1
+    6 7 4 1 2 1 0 1
+    0 3 5 1 1 0 3 1
+    5 4 0 1 3 2 1 1
+    3 2 6 1 0 1 2 1
+    6 5 3 1 2 3 0 1
+    2 1 7 1 1 0 3 1
+    7 6 2 1 3 2 1 1
+    1 0 4 1 0 1 2 1
+    4 7 1 1 2 3 0 1
   tverts 4
     0.5 0 0
     0 0 0
@@ -847,390 +844,229 @@ endnode
 endmodelgeom boat3
 
 #MAXANIM ASCII
-newanim open boat3
+newanim close boat3
   length 0.0333333
   transtime 0.25
   animroot boat3
-node dummy boat3
-  parent NULL
-endnode
-node trimesh Line1837
-  parent boat3
-    positionkey
-      0  0.517008 2.09057 0.0512813
-    endlist
-    orientationkey
-      0  0 0 0 0
-    endlist
-endnode
-node trimesh ChamferBox01
-  parent boat3
-endnode
-node trimesh Box838
-  parent boat3
-endnode
-node trimesh Tube03
-  parent boat3
-endnode
-node trimesh Line1381
-  parent boat3
-endnode
-node trimesh Box839
-  parent boat3
-endnode
-node trimesh Box212
-  parent boat3
-endnode
-node trimesh Box215
-  parent boat3
-endnode
-node trimesh Box205
-  parent boat3
-endnode
-node trimesh Box211
-  parent boat3
-endnode
-node trimesh Box837
-  parent boat3
-endnode
-node trimesh Box834
-  parent boat3
-endnode
-node trimesh Box835
-  parent boat3
-endnode
-node trimesh Box836
-  parent boat3
-endnode
-doneanim open boat3
+  node dummy boat3
+    parent NULL
+  endnode
+  node dummy b10_ground
+    parent boat3
+  endnode
+  node dummy line1837
+    parent boat3
+  endnode
+  node dummy chamferbox01
+    parent boat3
+  endnode
+  node dummy box838
+    parent boat3
+  endnode
+  node dummy tube03
+    parent boat3
+  endnode
+  node dummy line1381
+    parent boat3
+  endnode
+  node dummy box839
+    parent boat3
+  endnode
+  node dummy box212
+    parent boat3
+  endnode
+  node dummy box215
+    parent boat3
+  endnode
+  node dummy box205
+    parent boat3
+  endnode
+  node dummy box211
+    parent boat3
+  endnode
+  node dummy box837
+    parent boat3
+  endnode
+  node dummy box834
+    parent boat3
+  endnode
+  node dummy box835
+    parent boat3
+  endnode
+  node dummy box836
+    parent boat3
+  endnode
+doneanim close boat3
 
 #MAXANIM ASCII
 newanim close2open boat3
   length 0.333333
   transtime 0.25
   animroot boat3
-node dummy boat3
-  parent NULL
-endnode
-node trimesh Line1837
-  parent boat3
+  node dummy boat3
+    parent NULL
+  endnode
+  node dummy b10_ground
+    parent boat3
+  endnode
+  node trimesh line1837
+    parent boat3
     positionkey
-      0.2  0.517008 2.09057 0.113386
+      0.2 0.517008 2.09057 0.113386
     endlist
     orientationkey
-      0.333333  -1 0 0 0.0261803
+      0.333333 -1 0 0 0.0261803
     endlist
-endnode
-node trimesh ChamferBox01
-  parent boat3
-endnode
-node trimesh Box838
-  parent boat3
-endnode
-node trimesh Tube03
-  parent boat3
-endnode
-node trimesh Line1381
-  parent boat3
-endnode
-node trimesh Box839
-  parent boat3
-endnode
-node trimesh Box212
-  parent boat3
-endnode
-node trimesh Box215
-  parent boat3
-endnode
-node trimesh Box205
-  parent boat3
-endnode
-node trimesh Box211
-  parent boat3
-endnode
-node trimesh Box837
-  parent boat3
-endnode
-node trimesh Box834
-  parent boat3
-endnode
-node trimesh Box835
-  parent boat3
-endnode
-node trimesh Box836
-  parent boat3
-endnode
+  endnode
+  node dummy chamferbox01
+    parent boat3
+  endnode
+  node dummy box838
+    parent boat3
+  endnode
+  node dummy tube03
+    parent boat3
+  endnode
+  node dummy line1381
+    parent boat3
+  endnode
+  node dummy box839
+    parent boat3
+  endnode
+  node dummy box212
+    parent boat3
+  endnode
+  node dummy box215
+    parent boat3
+  endnode
+  node dummy box205
+    parent boat3
+  endnode
+  node dummy box211
+    parent boat3
+  endnode
+  node dummy box837
+    parent boat3
+  endnode
+  node dummy box834
+    parent boat3
+  endnode
+  node dummy box835
+    parent boat3
+  endnode
+  node dummy box836
+    parent boat3
+  endnode
 doneanim close2open boat3
-
-#MAXANIM ASCII
-newanim open2close boat3
-  length 0.3
-  transtime 0.25
-  animroot boat3
-node dummy boat3
-  parent NULL
-endnode
-node trimesh Line1837
-  parent boat3
-    positionkey
-      0.1  0.517008 2.09057 0.0512813
-      0.133333  0.517008 2.09057 0.0512813
-    endlist
-    orientationkey
-      0.1  0 0 0 0
-      0.133333  0 0 0 0
-    endlist
-endnode
-node trimesh ChamferBox01
-  parent boat3
-endnode
-node trimesh Box838
-  parent boat3
-endnode
-node trimesh Tube03
-  parent boat3
-endnode
-node trimesh Line1381
-  parent boat3
-endnode
-node trimesh Box839
-  parent boat3
-endnode
-node trimesh Box212
-  parent boat3
-endnode
-node trimesh Box215
-  parent boat3
-endnode
-node trimesh Box205
-  parent boat3
-endnode
-node trimesh Box211
-  parent boat3
-endnode
-node trimesh Box837
-  parent boat3
-endnode
-node trimesh Box834
-  parent boat3
-endnode
-node trimesh Box835
-  parent boat3
-endnode
-node trimesh Box836
-  parent boat3
-endnode
-doneanim open2close boat3
-
-#MAXANIM ASCII
-newanim close boat3
-  length 0.0333333
-  transtime 0.25
-  animroot boat3
-node dummy boat3
-  parent NULL
-endnode
-node trimesh Line1837
-  parent boat3
-endnode
-node trimesh ChamferBox01
-  parent boat3
-endnode
-node trimesh Box838
-  parent boat3
-endnode
-node trimesh Tube03
-  parent boat3
-endnode
-node trimesh Line1381
-  parent boat3
-endnode
-node trimesh Box839
-  parent boat3
-endnode
-node trimesh Box212
-  parent boat3
-endnode
-node trimesh Box215
-  parent boat3
-endnode
-node trimesh Box205
-  parent boat3
-endnode
-node trimesh Box211
-  parent boat3
-endnode
-node trimesh Box837
-  parent boat3
-endnode
-node trimesh Box834
-  parent boat3
-endnode
-node trimesh Box835
-  parent boat3
-endnode
-node trimesh Box836
-  parent boat3
-endnode
-doneanim close boat3
 
 #MAXANIM ASCII
 newanim damage boat3
   length 0.0666667
   transtime 0
   animroot boat3
-node dummy boat3
-  parent NULL
-endnode
-node trimesh Line1837
-  parent boat3
-endnode
-node trimesh ChamferBox01
-  parent boat3
-endnode
-node trimesh Box838
-  parent boat3
-endnode
-node trimesh Tube03
-  parent boat3
-endnode
-node trimesh Line1381
-  parent boat3
-endnode
-node trimesh Box839
-  parent boat3
-endnode
-node trimesh Box212
-  parent boat3
-endnode
-node trimesh Box215
-  parent boat3
-endnode
-node trimesh Box205
-  parent boat3
-endnode
-node trimesh Box211
-  parent boat3
-endnode
-node trimesh Box837
-  parent boat3
-endnode
-node trimesh Box834
-  parent boat3
-endnode
-node trimesh Box835
-  parent boat3
-endnode
-node trimesh Box836
-  parent boat3
-endnode
+  node dummy boat3
+    parent NULL
+  endnode
+  node dummy b10_ground
+    parent boat3
+  endnode
+  node dummy line1837
+    parent boat3
+  endnode
+  node dummy chamferbox01
+    parent boat3
+  endnode
+  node dummy box838
+    parent boat3
+  endnode
+  node dummy tube03
+    parent boat3
+  endnode
+  node dummy line1381
+    parent boat3
+  endnode
+  node dummy box839
+    parent boat3
+  endnode
+  node dummy box212
+    parent boat3
+  endnode
+  node dummy box215
+    parent boat3
+  endnode
+  node dummy box205
+    parent boat3
+  endnode
+  node dummy box211
+    parent boat3
+  endnode
+  node dummy box837
+    parent boat3
+  endnode
+  node dummy box834
+    parent boat3
+  endnode
+  node dummy box835
+    parent boat3
+  endnode
+  node dummy box836
+    parent boat3
+  endnode
 doneanim damage boat3
-
-#MAXANIM ASCII
-newanim die boat3
-  length 0.2
-  transtime 0
-  animroot boat3
-node dummy boat3
-  parent NULL
-endnode
-node trimesh Line1837
-  parent boat3
-endnode
-node trimesh ChamferBox01
-  parent boat3
-endnode
-node trimesh Box838
-  parent boat3
-endnode
-node trimesh Tube03
-  parent boat3
-endnode
-node trimesh Line1381
-  parent boat3
-endnode
-node trimesh Box839
-  parent boat3
-endnode
-node trimesh Box212
-  parent boat3
-endnode
-node trimesh Box215
-  parent boat3
-endnode
-node trimesh Box205
-  parent boat3
-endnode
-node trimesh Box211
-  parent boat3
-endnode
-node trimesh Box837
-  parent boat3
-endnode
-node trimesh Box834
-  parent boat3
-endnode
-node trimesh Box835
-  parent boat3
-endnode
-node trimesh Box836
-  parent boat3
-endnode
-event 0.1  detonate
-event 0.1  detonate
-event 0.1  detonate
-doneanim die boat3
 
 #MAXANIM ASCII
 newanim dead boat3
   length 0.0333333
   transtime 0
   animroot boat3
-node dummy boat3
-  parent NULL
-endnode
-node trimesh Line1837
-  parent boat3
-endnode
-node trimesh ChamferBox01
-  parent boat3
-endnode
-node trimesh Box838
-  parent boat3
-endnode
-node trimesh Tube03
-  parent boat3
-endnode
-node trimesh Line1381
-  parent boat3
-endnode
-node trimesh Box839
-  parent boat3
-endnode
-node trimesh Box212
-  parent boat3
-endnode
-node trimesh Box215
-  parent boat3
-endnode
-node trimesh Box205
-  parent boat3
-endnode
-node trimesh Box211
-  parent boat3
-endnode
-node trimesh Box837
-  parent boat3
-endnode
-node trimesh Box834
-  parent boat3
-endnode
-node trimesh Box835
-  parent boat3
-endnode
-node trimesh Box836
-  parent boat3
-endnode
+  node dummy boat3
+    parent NULL
+  endnode
+  node dummy b10_ground
+    parent boat3
+  endnode
+  node dummy line1837
+    parent boat3
+  endnode
+  node dummy chamferbox01
+    parent boat3
+  endnode
+  node dummy box838
+    parent boat3
+  endnode
+  node dummy tube03
+    parent boat3
+  endnode
+  node dummy line1381
+    parent boat3
+  endnode
+  node dummy box839
+    parent boat3
+  endnode
+  node dummy box212
+    parent boat3
+  endnode
+  node dummy box215
+    parent boat3
+  endnode
+  node dummy box205
+    parent boat3
+  endnode
+  node dummy box211
+    parent boat3
+  endnode
+  node dummy box837
+    parent boat3
+  endnode
+  node dummy box834
+    parent boat3
+  endnode
+  node dummy box835
+    parent boat3
+  endnode
+  node dummy box836
+    parent boat3
+  endnode
 doneanim dead boat3
 
 #MAXANIM ASCII
@@ -1238,50 +1074,233 @@ newanim default boat3
   length 0
   transtime 0.25
   animroot boat3
-node dummy boat3
-  parent NULL
-endnode
-node trimesh Line1837
-  parent boat3
-endnode
-node trimesh ChamferBox01
-  parent boat3
-endnode
-node trimesh Box838
-  parent boat3
-endnode
-node trimesh Tube03
-  parent boat3
-endnode
-node trimesh Line1381
-  parent boat3
-endnode
-node trimesh Box839
-  parent boat3
-endnode
-node trimesh Box212
-  parent boat3
-endnode
-node trimesh Box215
-  parent boat3
-endnode
-node trimesh Box205
-  parent boat3
-endnode
-node trimesh Box211
-  parent boat3
-endnode
-node trimesh Box837
-  parent boat3
-endnode
-node trimesh Box834
-  parent boat3
-endnode
-node trimesh Box835
-  parent boat3
-endnode
-node trimesh Box836
-  parent boat3
-endnode
+  node dummy boat3
+    parent NULL
+  endnode
+  node dummy b10_ground
+    parent boat3
+  endnode
+  node dummy line1837
+    parent boat3
+  endnode
+  node dummy chamferbox01
+    parent boat3
+  endnode
+  node dummy box838
+    parent boat3
+  endnode
+  node dummy tube03
+    parent boat3
+  endnode
+  node dummy line1381
+    parent boat3
+  endnode
+  node dummy box839
+    parent boat3
+  endnode
+  node dummy box212
+    parent boat3
+  endnode
+  node dummy box215
+    parent boat3
+  endnode
+  node dummy box205
+    parent boat3
+  endnode
+  node dummy box211
+    parent boat3
+  endnode
+  node dummy box837
+    parent boat3
+  endnode
+  node dummy box834
+    parent boat3
+  endnode
+  node dummy box835
+    parent boat3
+  endnode
+  node dummy box836
+    parent boat3
+  endnode
 doneanim default boat3
+
+#MAXANIM ASCII
+newanim die boat3
+  length 0.2
+  transtime 0
+  event 0.1 detonate
+  animroot boat3
+  node dummy boat3
+    parent NULL
+  endnode
+  node dummy b10_ground
+    parent boat3
+  endnode
+  node dummy line1837
+    parent boat3
+  endnode
+  node dummy chamferbox01
+    parent boat3
+  endnode
+  node dummy box838
+    parent boat3
+  endnode
+  node dummy tube03
+    parent boat3
+  endnode
+  node dummy line1381
+    parent boat3
+  endnode
+  node dummy box839
+    parent boat3
+  endnode
+  node dummy box212
+    parent boat3
+  endnode
+  node dummy box215
+    parent boat3
+  endnode
+  node dummy box205
+    parent boat3
+  endnode
+  node dummy box211
+    parent boat3
+  endnode
+  node dummy box837
+    parent boat3
+  endnode
+  node dummy box834
+    parent boat3
+  endnode
+  node dummy box835
+    parent boat3
+  endnode
+  node dummy box836
+    parent boat3
+  endnode
+doneanim die boat3
+
+#MAXANIM ASCII
+newanim open boat3
+  length 0.0333333
+  transtime 0.25
+  animroot boat3
+  node dummy boat3
+    parent NULL
+  endnode
+  node dummy b10_ground
+    parent boat3
+  endnode
+  node trimesh line1837
+    parent boat3
+    positionkey
+      0 0.517008 2.09057 0.0512813
+    endlist
+    orientationkey
+      0 0 0 0 0
+    endlist
+  endnode
+  node dummy chamferbox01
+    parent boat3
+  endnode
+  node dummy box838
+    parent boat3
+  endnode
+  node dummy tube03
+    parent boat3
+  endnode
+  node dummy line1381
+    parent boat3
+  endnode
+  node dummy box839
+    parent boat3
+  endnode
+  node dummy box212
+    parent boat3
+  endnode
+  node dummy box215
+    parent boat3
+  endnode
+  node dummy box205
+    parent boat3
+  endnode
+  node dummy box211
+    parent boat3
+  endnode
+  node dummy box837
+    parent boat3
+  endnode
+  node dummy box834
+    parent boat3
+  endnode
+  node dummy box835
+    parent boat3
+  endnode
+  node dummy box836
+    parent boat3
+  endnode
+doneanim open boat3
+
+#MAXANIM ASCII
+newanim open2close boat3
+  length 0.3
+  transtime 0.25
+  animroot boat3
+  node dummy boat3
+    parent NULL
+  endnode
+  node dummy b10_ground
+    parent boat3
+  endnode
+  node trimesh line1837
+    parent boat3
+    positionkey
+      0.1 0.517008 2.09057 0.0512813
+      0.133333 0.517008 2.09057 0.0512813
+    endlist
+    orientationkey
+      0.1 0 0 0 0
+      0.133333 0 0 0 0
+    endlist
+  endnode
+  node dummy chamferbox01
+    parent boat3
+  endnode
+  node dummy box838
+    parent boat3
+  endnode
+  node dummy tube03
+    parent boat3
+  endnode
+  node dummy line1381
+    parent boat3
+  endnode
+  node dummy box839
+    parent boat3
+  endnode
+  node dummy box212
+    parent boat3
+  endnode
+  node dummy box215
+    parent boat3
+  endnode
+  node dummy box205
+    parent boat3
+  endnode
+  node dummy box211
+    parent boat3
+  endnode
+  node dummy box837
+    parent boat3
+  endnode
+  node dummy box834
+    parent boat3
+  endnode
+  node dummy box835
+    parent boat3
+  endnode
+  node dummy box836
+    parent boat3
+  endnode
+doneanim open2close boat3
 donemodel boat3

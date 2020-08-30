@@ -1,19 +1,17 @@
-#Exported from 3ds max by MDL Plug-in Suite 1.0b
-#http://www.bricksbuilder.com/nwn/utils/
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 18:36:34 2019
 #MAXMODEL ASCII
-# model: PLC_DD16
-filedependancy Unknown
-newmodel PLC_DD16
-setsupermodel PLC_DD16 NULL
-classification Character
-setanimationscale 1.0
-#MAXGEOM  ASCII
-beginmodelgeom PLC_DD16
-node dummy PLC_DD16
+filedependency Unknown
+newmodel plc_dd16
+  classification CHARACTER
+  setsupermodel plc_dd16 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom plc_dd16
+node dummy plc_dd16
   parent NULL
 endnode
-node trimesh Plane45
-  parent PLC_DD16
+node trimesh plane45
+  parent plc_dd16
   position 0 0 0.03
   orientation 0 0 0 0
   wirecolor 0.898438 0.898438 0.898438
@@ -21,9 +19,9 @@ node trimesh Plane45
   diffuse 1 1 1
   specular 0.05 0.05 0.05
   shininess 26
-  bitmap TTR01_road03
+  bitmap ttr01_road03
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 1
   tilefade 0
@@ -39,28 +37,24 @@ node trimesh Plane45
     0 2 0
     2 2 0
   faces 8
-    0 1 2  1  0 1 2  0
-    3 2 1  1  3 2 1  0
-    2 3 4  1  2 4 5  0
-    5 4 3  1  6 5 4  0
-    6 0 7  1  7 0 4  0
-    2 7 0  1  2 4 0  0
-    7 2 8  1  8 2 9  0
-    4 8 2  1  5 9 2  0
-  tverts 10
+    0 1 2 1 0 1 2 0
+    3 2 1 1 3 2 1 0
+    2 3 4 1 2 4 0 0
+    5 4 3 1 5 0 4 0
+    6 0 7 1 5 0 4 0
+    2 7 0 1 2 4 0 0
+    7 2 8 1 3 2 1 0
+    4 8 2 1 0 1 2 0
+  tverts 6
     0.000499666 0.5 0
     0.000499547 0.000499785 0
     0.5 0.5 0
     0.5 0.000499666 0
     0.5 0.9995 0
-    0.000499487 0.5 0
     0.000499666 0.999501 0
-    0.000499785 0.9995 0
-    0.5 0.000499606 0
-    0.000499278 0.000499815 0
 endnode
-node trimesh Mesh18
-  parent PLC_DD16
+node trimesh mesh18
+  parent plc_dd16
   position 0 0 0.01
   orientation 0 0 0 0
   wirecolor 0.898438 0.898438 0.898438
@@ -68,9 +62,9 @@ node trimesh Mesh18
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TTR01_road01
+  bitmap ttr01_road01
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 1
   tilefade 0
@@ -95,22 +89,22 @@ node trimesh Mesh18
     -5 -2 0
     -5 2 0
   faces 16
-    0 1 2  1  0 1 2  0
-    2 3 0  1  2 3 0  0
-    1 4 5  1  1 4 5  0
-    5 2 1  1  5 2 1  0
-    6 7 8  1  6 7 8  0
-    8 9 6  1  8 9 6  0
-    10 6 9  1  10 6 9  0
-    9 11 10  1  9 11 10  0
-    12 13 1  1  12 13 1  0
-    1 0 12  1  1 0 12  0
-    13 14 4  1  13 14 4  0
-    4 1 13  1  4 1 13  0
-    15 16 7  1  15 16 7  0
-    7 6 15  1  7 6 15  0
-    17 15 6  1  17 15 6  0
-    6 10 17  1  6 10 17  0
+    0 1 2 1 0 1 2 0
+    2 3 0 1 2 3 0 0
+    1 4 5 1 1 4 5 0
+    5 2 1 1 5 2 1 0
+    6 7 8 1 6 7 8 0
+    8 9 6 1 8 9 6 0
+    10 6 9 1 10 6 9 0
+    9 11 10 1 9 11 10 0
+    12 13 1 1 12 13 1 0
+    1 0 12 1 1 0 12 0
+    13 14 4 1 13 14 4 0
+    4 1 13 1 4 1 13 0
+    15 16 7 1 15 16 7 0
+    7 6 15 1 7 6 15 0
+    17 15 6 1 17 15 6 0
+    6 10 17 1 6 10 17 0
   tverts 18
     0.000499636 0.451049 0
     0.5 0.451049 0
@@ -118,21 +112,21 @@ node trimesh Mesh18
     0.000499696 0.9006 0
     0.9995 0.451049 0
     0.9995 0.9006 0
-    0.5 2.54895 0
-    0.000500053 2.54895 0
-    0.000499964 2.0994 0
-    0.5 2.0994 0
-    0.9995 2.54895 0
-    0.9995 2.0994 0
+    0.5 0.54895 0
+    0.000500053 0.54895 0
+    0.000499964 0.0994 0
+    0.5 0.0994 0
+    0.9995 0.54895 0
+    0.9995 0.0994 0
     0.000499547 0.00149891 0
     0.5 0.00149873 0
     0.9995 0.00149864 0
-    0.5 2.9985 0
-    0.000500143 2.9985 0
-    0.9995 2.9985 0
+    0.5 0.9985 0
+    0.000500143 0.9985 0
+    0.9995 0.9985 0
 endnode
-node trimesh Mesh16
-  parent PLC_DD16
+node trimesh mesh16
+  parent plc_dd16
   position 0 0 0.03
   orientation 0 0 0 0
   wirecolor 0.34375 0.34375 0.34375
@@ -140,9 +134,9 @@ node trimesh Mesh16
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TTR01_road01
+  bitmap ttr01_road01
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 1
   tilefade 0
@@ -167,22 +161,22 @@ node trimesh Mesh16
     -2 5 0
     2 5 0
   faces 16
-    0 1 2  1  0 1 2  0
-    3 2 1  1  3 2 1  0
-    2 3 4  1  2 3 4  0
-    5 4 3  1  5 4 3  0
-    6 7 8  1  6 7 8  0
-    9 8 7  1  9 8 7  0
-    8 9 10  1  8 9 10  0
-    11 10 9  1  11 10 9  0
-    12 13 3  1  12 13 3  0
-    3 1 12  1  3 1 12  0
-    13 14 5  1  13 14 5  0
-    5 3 13  1  5 3 13  0
-    15 16 6  1  15 16 6  0
-    6 8 15  1  6 8 15  0
-    17 15 8  1  17 15 8  0
-    8 10 17  1  8 10 17  0
+    0 1 2 1 0 1 2 0
+    3 2 1 1 3 2 1 0
+    2 3 4 1 2 3 4 0
+    5 4 3 1 5 4 3 0
+    6 7 8 1 6 7 8 0
+    9 8 7 1 9 8 7 0
+    8 9 10 1 8 9 10 0
+    11 10 9 1 11 10 9 0
+    12 13 3 1 12 13 3 0
+    3 1 12 1 3 1 12 0
+    13 14 5 1 13 14 5 0
+    5 3 13 1 5 3 13 0
+    15 16 6 1 15 16 6 0
+    6 8 15 1 6 8 15 0
+    17 15 8 1 17 15 8 0
+    8 10 17 1 8 10 17 0
   tverts 18
     0.000499725 0.9006 0
     0.000499636 0.376124 0
@@ -190,18 +184,18 @@ node trimesh Mesh16
     0.5 0.376124 0
     0.9995 0.900599 0
     0.9995 0.376124 0
-    0.000500083 2.62388 0
-    0.000499964 2.0994 0
-    0.5 2.62388 0
-    0.5 2.0994 0
-    0.9995 2.62388 0
-    0.9995 2.0994 0
+    0.000500083 0.62388 0
+    0.000499964 0.0994 0
+    0.5 0.62388 0
+    0.5 0.0994 0
+    0.9995 0.62388 0
+    0.9995 0.0994 0
     0.000499547 0.00149882 0
     0.5 0.00149873 0
     0.9995 0.00149855 0
-    0.5 2.9985 0
-    0.000500143 2.9985 0
-    0.9995 2.9985 0
+    0.5 0.9985 0
+    0.000500143 0.9985 0
+    0.9995 0.9985 0
 endnode
-endmodelgeom PLC_DD16
-donemodel PLC_DD16
+endmodelgeom plc_dd16
+donemodel plc_dd16

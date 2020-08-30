@@ -1,19 +1,17 @@
-#Exported from 3ds max by MDL Plug-in Suite 1.0b
-#http://www.bricksbuilder.com/nwn/utils/
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 18:41:08 2019
 #MAXMODEL ASCII
-# model: PLC_X14
-filedependancy Unknown
-newmodel PLC_X14
-setsupermodel PLC_X14 NULL
-classification Tile
-setanimationscale 1.0
-#MAXGEOM  ASCII
-beginmodelgeom PLC_X14
-node dummy PLC_X14
+filedependency Unknown
+newmodel plc_x14
+  classification TILE
+  setsupermodel plc_x14 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom plc_x14
+node dummy plc_x14
   parent NULL
 endnode
-node trimesh Line299
-  parent PLC_X14
+node trimesh line299
+  parent plc_x14
   position -1.65621 0.29 3
   orientation 0 0 0 0
   wirecolor 0.0273438 0.0273438 0.0273438
@@ -21,7 +19,7 @@ node trimesh Line299
   diffuse 0 0 0
   specular 0 0 0
   shininess 1
-  bitmap TDM01_black
+  bitmap tdm01_black
   verts 9
     0.32 -3.79 0
     -0.28 -5.29 0
@@ -33,13 +31,13 @@ node trimesh Line299
     -0.28 3.71 0
     -0.28 4.71 0
   faces 7
-    0 1 2  1  0 1 2  0
-    0 2 3  1  0 2 3  0
-    4 0 3  1  4 0 3  0
-    5 4 3  1  5 4 3  0
-    6 5 3  1  6 5 3  0
-    7 6 3  1  7 6 3  0
-    7 3 8  1  7 3 8  0
+    0 1 2 1 0 1 2 0
+    0 2 3 1 0 2 3 0
+    4 0 3 1 4 0 3 0
+    5 4 3 1 5 4 3 0
+    6 5 3 1 6 5 3 0
+    7 6 3 1 7 6 3 0
+    7 3 8 1 7 3 8 0
   tverts 9
     0.533299 0.15035 0
     0.333499 0.000499606 0
@@ -51,8 +49,8 @@ node trimesh Line299
     0.3335 0.8996 0
     0.3335 0.9995 0
 endnode
-node trimesh Line159
-  parent PLC_X14
+node trimesh line159
+  parent plc_x14
   position 0.0637935 -1.62 1
   orientation 0 0 0 0
   wirecolor 0.0273438 0.0273438 0.0273438
@@ -60,7 +58,7 @@ node trimesh Line159
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TDM01_rock01
+  bitmap tdm01_rock01
   verts 28
     -2 6.62 -1
     -2 5.62 -1
@@ -91,42 +89,42 @@ node trimesh Line159
     -1.4 -1.88 2
     -2 -3.38 2
   faces 36
-    0 1 2  1  0 1 2  0
-    3 2 1  1  3 2 1  0
-    1 4 3  1  1 4 3  0
-    5 3 4  1  5 3 4  0
-    4 6 5  1  4 6 5  0
-    7 5 6  1  7 5 6  0
-    6 8 7  1  6 8 7  0
-    9 7 8  1  9 7 8  0
-    8 10 9  1  8 10 9  0
-    11 9 10  1  11 9 10  0
-    10 12 11  1  10 12 11  0
-    13 11 12  1  13 11 12  0
-    3 14 2  1  3 14 2  0
-    15 2 14  1  15 2 14  0
-    5 16 3  1  5 16 3  0
-    14 3 16  1  14 3 16  0
-    7 17 5  1  7 17 5  0
-    16 5 17  1  16 5 17  0
-    9 18 7  1  9 18 7  0
-    17 7 18  1  17 7 18  0
-    11 19 9  1  11 19 9  0
-    18 9 19  1  18 9 19  0
-    13 20 11  1  13 20 11  0
-    19 11 20  1  19 11 20  0
-    14 21 15  1  14 21 15  0
-    22 15 21  1  22 15 21  0
-    16 23 14  1  16 23 14  0
-    21 14 23  1  21 14 23  0
-    17 24 16  1  17 24 16  0
-    23 16 24  1  23 16 24  0
-    18 25 17  1  18 25 17  0
-    24 17 25  1  24 17 25  0
-    19 26 18  1  19 26 18  0
-    25 18 26  1  25 18 26  0
-    20 27 19  1  20 27 19  0
-    26 19 27  1  26 19 27  0
+    0 1 2 1 0 1 2 0
+    3 2 1 1 3 2 1 0
+    1 4 3 1 1 4 3 0
+    5 3 4 1 5 3 4 0
+    4 6 5 1 4 6 5 0
+    7 5 6 1 7 5 6 0
+    6 8 7 1 6 8 7 0
+    9 7 8 1 9 7 8 0
+    8 10 9 1 8 10 9 0
+    11 9 10 1 11 9 10 0
+    10 12 11 1 10 12 11 0
+    13 11 12 1 13 11 12 0
+    3 14 2 1 3 14 2 0
+    15 2 14 1 15 2 14 0
+    5 16 3 1 5 16 3 0
+    14 3 16 1 14 3 16 0
+    7 17 5 1 7 17 5 0
+    16 5 17 1 16 5 17 0
+    9 18 7 1 9 18 7 0
+    17 7 18 1 17 7 18 0
+    11 19 9 1 11 19 9 0
+    18 9 19 1 18 9 19 0
+    13 20 11 1 13 20 11 0
+    19 11 20 1 19 11 20 0
+    14 21 15 1 14 21 15 0
+    22 15 21 1 22 15 21 0
+    16 23 14 1 16 23 14 0
+    21 14 23 1 21 14 23 0
+    17 24 16 1 17 24 16 0
+    23 16 24 1 23 16 24 0
+    18 25 17 1 18 25 17 0
+    24 17 25 1 24 17 25 0
+    19 26 18 1 19 26 18 0
+    25 18 26 1 25 18 26 0
+    20 27 19 1 20 27 19 0
+    26 19 27 1 26 19 27 0
   tverts 28
     -0.75 0.000499606 0
     -0.5 0.000499606 0
@@ -157,8 +155,8 @@ node trimesh Line159
     1.375 0.9995 0
     1.75 0.9995 0
 endnode
-node trimesh Line352
-  parent PLC_X14
+node trimesh line352
+  parent plc_x14
   position -3.81621 3.33 0
   orientation 0 0 0 0
   wirecolor 0.839844 0.839844 0.839844
@@ -166,7 +164,7 @@ node trimesh Line352
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TDM01_rock03
+  bitmap tdm01_rock03
   verts 7
     -0.32 0.21 0
     -0.31 -0.42 0
@@ -176,14 +174,14 @@ node trimesh Line352
     0.45 -0.01 0
     0.12 -0.12 0.11
   faces 8
-    0 1 2  1  0 1 2  0
-    0 2 3  1  0 2 3  0
-    4 5 6  1  4 5 6  0
-    1 4 2  1  1 4 2  0
-    5 0 3  1  5 0 3  0
-    5 3 6  1  5 3 6  0
-    2 6 3  1  2 6 3  0
-    2 4 6  1  2 4 6  0
+    0 1 2 1 0 1 2 0
+    0 2 3 1 0 2 3 0
+    4 5 6 1 4 5 6 0
+    1 4 2 1 1 4 2 0
+    5 0 3 1 5 0 3 0
+    5 3 6 1 5 3 6 0
+    2 6 3 1 2 6 3 0
+    2 4 6 1 2 4 6 0
   tverts 7
     0.9995 0.932406 0
     0.000499696 0.9995 0
@@ -193,8 +191,8 @@ node trimesh Line352
     0.54415 0.000499576 0
     0.530736 0.464682 0
 endnode
-node trimesh Line356
-  parent PLC_X14
+node trimesh line356
+  parent plc_x14
   position -3.04621 -1.61 0
   orientation 0 0 0 0
   wirecolor 0.839844 0.839844 0.839844
@@ -202,7 +200,7 @@ node trimesh Line356
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TDM01_rock03
+  bitmap tdm01_rock03
   verts 7
     -0.31 0.2 0
     -0.31 -0.43 0
@@ -212,14 +210,14 @@ node trimesh Line356
     0.45 -0.01 0
     0.12 -0.13 0.11
   faces 8
-    0 1 2  1  0 1 2  0
-    0 2 3  1  0 2 3  0
-    4 5 6  1  4 5 6  0
-    1 4 2  1  1 4 2  0
-    5 0 3  1  5 0 3  0
-    5 3 6  1  5 3 6  0
-    2 6 3  1  2 6 3  0
-    2 4 6  1  2 4 6  0
+    0 1 2 1 0 1 2 0
+    0 2 3 1 0 2 3 0
+    4 5 6 1 4 5 6 0
+    1 4 2 1 1 4 2 0
+    5 0 3 1 5 0 3 0
+    5 3 6 1 5 3 6 0
+    2 6 3 1 2 6 3 0
+    2 4 6 1 2 4 6 0
   tverts 7
     0.9995 0.932406 0
     0.000499696 0.9995 0
@@ -229,8 +227,8 @@ node trimesh Line356
     0.54415 0.000499576 0
     0.530736 0.464682 0
 endnode
-node trimesh Line350
-  parent PLC_X14
+node trimesh line350
+  parent plc_x14
   position -4.21621 -0.999999 5.24
   orientation 0 0 0 0
   wirecolor 0.839844 0.839844 0.839844
@@ -238,9 +236,9 @@ node trimesh Line350
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TDM01_rock02
+  bitmap tdm01_rock02
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -252,18 +250,17 @@ node trimesh Line350
     0.13 -0.23 0.83
     0.23 0.09 0.83
   faces 6
-    0 1 2  1  0 1 2  0
-    0 3 1  1  3 4 5  0
-    0 4 3  1  6 7 8  0
-    0 2 4  1  9 10 2  0
-    2 1 3  1  11 11 11  0
-    2 3 4  1  11 11 11  0
-  tverts 12
+    0 1 2 1 0 1 2 0
+    0 3 1 1 3 1 4 0
+    0 4 3 1 5 6 7 0
+    0 2 4 1 8 9 2 0
+    2 1 3 1 10 10 10 0
+    2 3 4 1 10 10 10 0
+  tverts 11
     0.242643 0.501684 0
     0.313969 0.9995 0
     0.16987 0.9995 0
     0.242658 0.502229 0
-    0.313974 0.9995 0
     0.169898 0.9995 0
     0.242704 0.501275 0
     0.314154 0.9995 0
@@ -272,14 +269,8 @@ node trimesh Line350
     0.31432 0.9995 0
     0.110438 0.959703 0
 endnode
-node dummy TDM01_G02_01sl1
-  parent PLC_X14
-  position -1.7435 -3.43568 0.291396
-  orientation 0 0 0 0
-  wirecolor 0.839844 0.839844 0.839844
-endnode
-node trimesh Line2676
-  parent PLC_X14
+node trimesh line2676
+  parent plc_x14
   position -1.74621 -3.35 0
   orientation 0 0 0 0
   wirecolor 0.839844 0.839844 0.839844
@@ -287,7 +278,7 @@ node trimesh Line2676
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TDM01_rock03
+  bitmap tdm01_rock03
   verts 9
     -0.16 0.09 0.31
     -0.38 0.01 0
@@ -299,17 +290,17 @@ node trimesh Line2676
     -0.33 0.29 0
     0 -0.12 0.22
   faces 11
-    0 1 2  1  0 1 2  0
-    1 3 2  1  1 3 2  0
-    4 5 6  1  4 5 6  0
-    3 4 2  1  3 4 2  0
-    5 7 0  1  5 7 0  0
-    5 0 6  1  5 0 6  0
-    2 6 8  1  2 6 8  0
-    2 4 6  1  2 4 6  0
-    8 6 0  1  8 6 0  0
-    2 8 0  1  2 8 0  0
-    7 1 0  1  7 1 0  0
+    0 1 2 1 0 1 2 0
+    1 3 2 1 1 3 2 0
+    4 5 6 1 4 5 6 0
+    3 4 2 1 3 4 2 0
+    5 7 0 1 5 7 0 0
+    5 0 6 1 5 0 6 0
+    2 6 8 1 2 6 8 0
+    2 4 6 1 2 4 6 0
+    8 6 0 1 8 6 0 0
+    2 8 0 1 2 8 0 0
+    7 1 0 1 7 1 0 0
   tverts 9
     0.705858 0.763001 0
     0.558453 0.962028 0
@@ -321,8 +312,8 @@ node trimesh Line2676
     0.9995 0.932406 0
     0.499392 0.659777 0
 endnode
-node trimesh Line2677
-  parent PLC_X14
+node trimesh line2677
+  parent plc_x14
   position 0.0168835 1.62245 1
   orientation 0 0 -1 -3.14159
   wirecolor 0.0273438 0.0273438 0.0273438
@@ -330,7 +321,7 @@ node trimesh Line2677
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TDM01_rock01
+  bitmap tdm01_rock01
   verts 28
     -2 6.62 -1
     -2 5.62 -1
@@ -361,42 +352,42 @@ node trimesh Line2677
     -1.4 -1.88 2
     -2 -3.38 2
   faces 36
-    0 1 2  1  0 1 2  0
-    3 2 1  1  3 2 1  0
-    1 4 3  1  1 4 3  0
-    5 3 4  1  5 3 4  0
-    4 6 5  1  4 6 5  0
-    7 5 6  1  7 5 6  0
-    6 8 7  1  6 8 7  0
-    9 7 8  1  9 7 8  0
-    8 10 9  1  8 10 9  0
-    11 9 10  1  11 9 10  0
-    10 12 11  1  10 12 11  0
-    13 11 12  1  13 11 12  0
-    3 14 2  1  3 14 2  0
-    15 2 14  1  15 2 14  0
-    5 16 3  1  5 16 3  0
-    14 3 16  1  14 3 16  0
-    7 17 5  1  7 17 5  0
-    16 5 17  1  16 5 17  0
-    9 18 7  1  9 18 7  0
-    17 7 18  1  17 7 18  0
-    11 19 9  1  11 19 9  0
-    18 9 19  1  18 9 19  0
-    13 20 11  1  13 20 11  0
-    19 11 20  1  19 11 20  0
-    14 21 15  1  14 21 15  0
-    22 15 21  1  22 15 21  0
-    16 23 14  1  16 23 14  0
-    21 14 23  1  21 14 23  0
-    17 24 16  1  17 24 16  0
-    23 16 24  1  23 16 24  0
-    18 25 17  1  18 25 17  0
-    24 17 25  1  24 17 25  0
-    19 26 18  1  19 26 18  0
-    25 18 26  1  25 18 26  0
-    20 27 19  1  20 27 19  0
-    26 19 27  1  26 19 27  0
+    0 1 2 1 0 1 2 0
+    3 2 1 1 3 2 1 0
+    1 4 3 1 1 4 3 0
+    5 3 4 1 5 3 4 0
+    4 6 5 1 4 6 5 0
+    7 5 6 1 7 5 6 0
+    6 8 7 1 6 8 7 0
+    9 7 8 1 9 7 8 0
+    8 10 9 1 8 10 9 0
+    11 9 10 1 11 9 10 0
+    10 12 11 1 10 12 11 0
+    13 11 12 1 13 11 12 0
+    3 14 2 1 3 14 2 0
+    15 2 14 1 15 2 14 0
+    5 16 3 1 5 16 3 0
+    14 3 16 1 14 3 16 0
+    7 17 5 1 7 17 5 0
+    16 5 17 1 16 5 17 0
+    9 18 7 1 9 18 7 0
+    17 7 18 1 17 7 18 0
+    11 19 9 1 11 19 9 0
+    18 9 19 1 18 9 19 0
+    13 20 11 1 13 20 11 0
+    19 11 20 1 19 11 20 0
+    14 21 15 1 14 21 15 0
+    22 15 21 1 22 15 21 0
+    16 23 14 1 16 23 14 0
+    21 14 23 1 21 14 23 0
+    17 24 16 1 17 24 16 0
+    23 16 24 1 23 16 24 0
+    18 25 17 1 18 25 17 0
+    24 17 25 1 24 17 25 0
+    19 26 18 1 19 26 18 0
+    25 18 26 1 25 18 26 0
+    20 27 19 1 20 27 19 0
+    26 19 27 1 26 19 27 0
   tverts 28
     -0.75 0.000499606 0
     -0.5 0.000499606 0
@@ -427,8 +418,8 @@ node trimesh Line2677
     1.375 0.9995 0
     1.75 0.9995 0
 endnode
-node trimesh Line2678
-  parent PLC_X14
+node trimesh line2678
+  parent plc_x14
   position 1.73688 -0.287547 3
   orientation 0 0 -1 -3.14159
   wirecolor 0.0273438 0.0273438 0.0273438
@@ -436,7 +427,7 @@ node trimesh Line2678
   diffuse 0 0 0
   specular 0 0 0
   shininess 1
-  bitmap TDM01_black
+  bitmap tdm01_black
   verts 9
     0.32 -3.79 0
     -0.28 -5.29 0
@@ -448,13 +439,13 @@ node trimesh Line2678
     -0.28 3.71 0
     -0.28 4.71 0
   faces 7
-    0 1 2  1  0 1 2  0
-    0 2 3  1  0 2 3  0
-    4 0 3  1  4 0 3  0
-    5 4 3  1  5 4 3  0
-    6 5 3  1  6 5 3  0
-    7 6 3  1  7 6 3  0
-    7 3 8  1  7 3 8  0
+    0 1 2 1 0 1 2 0
+    0 2 3 1 0 2 3 0
+    4 0 3 1 4 0 3 0
+    5 4 3 1 5 4 3 0
+    6 5 3 1 6 5 3 0
+    7 6 3 1 7 6 3 0
+    7 3 8 1 7 3 8 0
   tverts 9
     0.533299 0.15035 0
     0.333499 0.000499606 0
@@ -466,8 +457,8 @@ node trimesh Line2678
     0.3335 0.8996 0
     0.3335 0.9995 0
 endnode
-node trimesh Line2679
-  parent PLC_X14
+node trimesh line2679
+  parent plc_x14
   position 4.29688 1.00245 5.24
   orientation 0 0 -1 -3.14159
   wirecolor 0.839844 0.839844 0.839844
@@ -475,9 +466,9 @@ node trimesh Line2679
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TDM01_rock02
+  bitmap tdm01_rock02
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -489,18 +480,17 @@ node trimesh Line2679
     0.13 -0.23 0.83
     0.23 0.09 0.83
   faces 6
-    0 1 2  1  0 1 2  0
-    0 3 1  1  3 4 5  0
-    0 4 3  1  6 7 8  0
-    0 2 4  1  9 10 2  0
-    2 1 3  1  11 11 11  0
-    2 3 4  1  11 11 11  0
-  tverts 12
+    0 1 2 1 0 1 2 0
+    0 3 1 1 3 1 4 0
+    0 4 3 1 5 6 7 0
+    0 2 4 1 8 9 2 0
+    2 1 3 1 10 10 10 0
+    2 3 4 1 10 10 10 0
+  tverts 11
     0.242643 0.501684 0
     0.313969 0.9995 0
     0.16987 0.9995 0
     0.242658 0.502229 0
-    0.313974 0.9995 0
     0.169898 0.9995 0
     0.242704 0.501275 0
     0.314154 0.9995 0
@@ -509,8 +499,8 @@ node trimesh Line2679
     0.31432 0.9995 0
     0.110438 0.959703 0
 endnode
-node trimesh Line2680
-  parent PLC_X14
+node trimesh line2680
+  parent plc_x14
   position 3.89688 -3.32755 0
   orientation 0 0 -1 -3.14159
   wirecolor 0.839844 0.839844 0.839844
@@ -518,7 +508,7 @@ node trimesh Line2680
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TDM01_rock03
+  bitmap tdm01_rock03
   verts 7
     -0.32 0.21 0
     -0.31 -0.42 0
@@ -528,14 +518,14 @@ node trimesh Line2680
     0.45 -0.01 0
     0.12 -0.12 0.11
   faces 8
-    0 1 2  1  0 1 2  0
-    0 2 3  1  0 2 3  0
-    4 5 6  1  4 5 6  0
-    1 4 2  1  1 4 2  0
-    5 0 3  1  5 0 3  0
-    5 3 6  1  5 3 6  0
-    2 6 3  1  2 6 3  0
-    2 4 6  1  2 4 6  0
+    0 1 2 1 0 1 2 0
+    0 2 3 1 0 2 3 0
+    4 5 6 1 4 5 6 0
+    1 4 2 1 1 4 2 0
+    5 0 3 1 5 0 3 0
+    5 3 6 1 5 3 6 0
+    2 6 3 1 2 6 3 0
+    2 4 6 1 2 4 6 0
   tverts 7
     0.9995 0.932406 0
     0.000499696 0.9995 0
@@ -545,8 +535,8 @@ node trimesh Line2680
     0.54415 0.000499576 0
     0.530736 0.464682 0
 endnode
-node trimesh Line2681
-  parent PLC_X14
+node trimesh line2681
+  parent plc_x14
   position 3.12688 1.61245 0
   orientation 0 0 -1 -3.14159
   wirecolor 0.839844 0.839844 0.839844
@@ -554,7 +544,7 @@ node trimesh Line2681
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TDM01_rock03
+  bitmap tdm01_rock03
   verts 7
     -0.31 0.2 0
     -0.31 -0.43 0
@@ -564,14 +554,14 @@ node trimesh Line2681
     0.45 -0.01 0
     0.12 -0.13 0.11
   faces 8
-    0 1 2  1  0 1 2  0
-    0 2 3  1  0 2 3  0
-    4 5 6  1  4 5 6  0
-    1 4 2  1  1 4 2  0
-    5 0 3  1  5 0 3  0
-    5 3 6  1  5 3 6  0
-    2 6 3  1  2 6 3  0
-    2 4 6  1  2 4 6  0
+    0 1 2 1 0 1 2 0
+    0 2 3 1 0 2 3 0
+    4 5 6 1 4 5 6 0
+    1 4 2 1 1 4 2 0
+    5 0 3 1 5 0 3 0
+    5 3 6 1 5 3 6 0
+    2 6 3 1 2 6 3 0
+    2 4 6 1 2 4 6 0
   tverts 7
     0.9995 0.932406 0
     0.000499696 0.9995 0
@@ -581,8 +571,8 @@ node trimesh Line2681
     0.54415 0.000499576 0
     0.530736 0.464682 0
 endnode
-node trimesh Line2682
-  parent PLC_X14
+node trimesh line2682
+  parent plc_x14
   position 1.82688 3.35245 0
   orientation 0 0 -1 -3.14159
   wirecolor 0.839844 0.839844 0.839844
@@ -590,7 +580,7 @@ node trimesh Line2682
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap TDM01_rock03
+  bitmap tdm01_rock03
   verts 9
     -0.16 0.0900001 0.31
     -0.38 0.0100001 0
@@ -602,17 +592,17 @@ node trimesh Line2682
     -0.33 0.29 0
     0 -0.12 0.22
   faces 11
-    0 1 2  1  0 1 2  0
-    1 3 2  1  1 3 2  0
-    4 5 6  1  4 5 6  0
-    3 4 2  1  3 4 2  0
-    5 7 0  1  5 7 0  0
-    5 0 6  1  5 0 6  0
-    2 6 8  1  2 6 8  0
-    2 4 6  1  2 4 6  0
-    8 6 0  1  8 6 0  0
-    2 8 0  1  2 8 0  0
-    7 1 0  1  7 1 0  0
+    0 1 2 1 0 1 2 0
+    1 3 2 1 1 3 2 0
+    4 5 6 1 4 5 6 0
+    3 4 2 1 3 4 2 0
+    5 7 0 1 5 7 0 0
+    5 0 6 1 5 0 6 0
+    2 6 8 1 2 6 8 0
+    2 4 6 1 2 4 6 0
+    8 6 0 1 8 6 0 0
+    2 8 0 1 2 8 0 0
+    7 1 0 1 7 1 0 0
   tverts 9
     0.705858 0.763001 0
     0.558453 0.962028 0
@@ -624,11 +614,5 @@ node trimesh Line2682
     0.9995 0.932406 0
     0.499392 0.659777 0
 endnode
-node dummy TDM01_G02_01sl02
-  parent PLC_X14
-  position 1.82417 3.43813 0.291396
-  orientation 0 0 -1 -3.14159
-  wirecolor 0.839844 0.839844 0.839844
-endnode
-endmodelgeom PLC_X14
-donemodel PLC_X14
+endmodelgeom plc_x14
+donemodel plc_x14

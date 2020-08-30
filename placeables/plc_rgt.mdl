@@ -1,65 +1,63 @@
-#Model converted by mdl2ascii
-#For updates/comments check out http://nwn-j3d.sf.net
-filedependancy Unknown
-newmodel PLC_Rgt
-setsupermodel PLC_Rgt NULL
-classification Character
-setanimationscale 1.000000
-#MAXGEOM  ASCII
-beginmodelgeom PLC_Rgt
-node dummy PLC_Rgt
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 18:40:27 2019
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel plc_rgt
+  classification CHARACTER
+  setsupermodel plc_rgt NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom plc_rgt
+node dummy plc_rgt
   parent NULL
 endnode
-node dummy Rgt_hand
-  parent PLC_Rgt
+node dummy rgt_hand
+  parent plc_rgt
   position 0.008067 -0.004942 0.934402
-  orientation 0.000000 0.000000 0.000000 0.000000
+  orientation 0 0 0 0
 endnode
-node dummy Rgt_head
-  parent PLC_Rgt
+node dummy rgt_head
+  parent plc_rgt
   position 0.003984 0.010825 0.983874
-  orientation 0.000000 0.000000 0.000000 0.000000
+  orientation 0 0 0 0
 endnode
-node dummy Rgt_head_hit
-  parent PLC_Rgt
+node dummy rgt_head_hit
+  parent plc_rgt
   position 0.003984 0.010825 0.044079
-  orientation 0.000000 0.000000 0.000000 0.000000
+  orientation 0 0 0 0
 endnode
-node dummy Rgt_impact
-  parent PLC_Rgt
+node dummy rgt_impact
+  parent plc_rgt
   position 0.003984 0.011001 0.027002
-  orientation 0.000000 0.000000 0.000000 0.000000
+  orientation 0 0 0 0
 endnode
-node dummy Rgt_ground
-  parent PLC_Rgt
-  position -0.003633 0.006987 0.000000
-  orientation 0.000000 0.000000 0.000000 0.000000
+node dummy rgt_ground
+  parent plc_rgt
+  position -0.003633 0.006987 0
+  orientation 0 0 0 0
 endnode
-node trimesh Plane14
-  parent PLC_Rgt
-  position 0.000000 0.000000 0.020000
-  orientation 0.000000 0.000000 0.000000 0.000000
-  diffuse 1.000000 1.000000 1.000000
-  ambient 1.000000 1.000000 1.000000
-  specular 0.000000 0.000000 0.000000
-  shininess 1.000000
+node trimesh plane14
+  parent plc_rgt
+  position 0 0 0.02
+  orientation 0 0 0 0
+  diffuse 1 1 1
+  ambient 1 1 1
+  specular 0 0 0
+  shininess 1
   render 1
-    bitmap tigerrug
-    verts 4
-     -0.997136 -0.973878 -0.005000 
-     0.997136 -0.973878 -0.005000 
-     -0.997136 0.973878 -0.005000 
-     0.997136 0.973878 -0.005000 
-    faces 2
-     0 1 2  1  0 1 2  0
-     3 2 1  1  3 2 1  0
-    tverts 4
-     0.000000 0.000000 0.0 
-     0.000000 1.000000 0.0 
-     1.000000 0.000000 0.0 
-     1.000000 1.000000 0.0 
+  bitmap tigerrug
+  verts 4
+    -0.997136 -0.973878 -0.005
+    0.997136 -0.973878 -0.005
+    -0.997136 0.973878 -0.005
+    0.997136 0.973878 -0.005
+  faces 2
+    0 1 2 1 0 1 2 0
+    3 2 1 1 3 2 1 0
+  tverts 4
+    0 0 0
+    0 1 0
+    1 0 0
+    1 1 0
 endnode
-endmodelgeom PLC_Rgt
-donemodel PLC_Rgt
-
-
+endmodelgeom plc_rgt
+donemodel plc_rgt

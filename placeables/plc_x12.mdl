@@ -1,51 +1,49 @@
-#Exported from 3ds max by MDL Plug-in Suite 1.0b
-#http://www.bricksbuilder.com/nwn/utils/
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 18:41:07 2019
 #MAXMODEL ASCII
-# model: PLC_X12
-filedependancy Unknown
-newmodel PLC_X12
-setsupermodel PLC_X12 NULL
-classification Tile
-setanimationscale 1.0
-#MAXGEOM  ASCII
-beginmodelgeom PLC_X12
-node dummy PLC_X12
+filedependency Unknown
+newmodel plc_x12
+  classification TILE
+  setsupermodel plc_x12 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom plc_x12
+node dummy plc_x12
   parent NULL
 endnode
-node light AuroraLight10
-  parent PLC_X12
+node light auroralight10
+  parent plc_x12
   position -2.03671 0.00949496 1.62215
   orientation 0 0 0 0
   wirecolor 0.347656 0.347656 0.347656
-    radius 10
-    multiplier 1
-    color 1 0 0
-    ambientOnly 0
-    nDynamicType 0
-    affectDynamic 1
-    shadow 0
-    lightpriority 5
-    lensflares 0
-    fadingLight 1
+  radius 10
+  multiplier 1
+  color 1 0 0
+  ambientonly 0
+  nDynamicType 0
+  affectdynamic 1
+  shadow 0
+  lightpriority 5
+  lensflares 0
+  fadinglight 1
 endnode
-node light AuroraLight11
-  parent PLC_X12
+node light auroralight11
+  parent plc_x12
   position 2.10315 -0.0304768 1.62215
   orientation 0 0 -1 -3.14159
   wirecolor 0.347656 0.347656 0.347656
-    radius 10
-    multiplier 1
-    color 1 0 0
-    ambientOnly 0
-    nDynamicType 0
-    affectDynamic 1
-    shadow 0
-    lightpriority 5
-    lensflares 0
-    fadingLight 1
+  radius 10
+  multiplier 1
+  color 1 0 0
+  ambientonly 0
+  nDynamicType 0
+  affectdynamic 1
+  shadow 0
+  lightpriority 5
+  lensflares 0
+  fadinglight 1
 endnode
-node trimesh Box19
-  parent PLC_X12
+node trimesh box19
+  parent plc_x12
   position -4.41751 -3.29 -0.01
   orientation 0 0 0 0
   wirecolor 0.527344 0.527344 0.527344
@@ -53,9 +51,9 @@ node trimesh Box19
   diffuse 1 1 1
   specular 0.05 0.05 0.05
   shininess 26
-  bitmap TDE01_chain
+  bitmap tde01_chain
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 1
@@ -78,22 +76,22 @@ node trimesh Box19
     2.08 6.33 3.36
     2.08 6.88 3.36
   faces 16
-    0 1 2  1  0 1 2  0
-    3 2 1  1  3 2 1  0
-    1 0 3  1  1 0 3  0
-    2 3 0  1  2 3 0  0
-    4 5 6  1  0 1 4  0
-    7 6 5  1  5 4 1  0
-    5 4 6  1  1 0 4  0
-    6 7 5  1  4 5 1  0
-    8 9 10  1  0 1 4  0
-    11 10 9  1  5 4 1  0
-    9 8 10  1  1 0 4  0
-    10 11 9  1  4 5 1  0
-    12 13 14  1  0 1 2  0
-    15 14 13  1  3 2 1  0
-    13 12 15  1  1 0 3  0
-    14 15 12  1  2 3 0  0
+    0 1 2 1 0 1 2 0
+    3 2 1 1 3 2 1 0
+    1 0 3 1 1 0 3 0
+    2 3 0 1 2 3 0 0
+    4 5 6 1 0 1 4 0
+    7 6 5 1 5 4 1 0
+    5 4 6 1 1 0 4 0
+    6 7 5 1 4 5 1 0
+    8 9 10 1 0 1 4 0
+    11 10 9 1 5 4 1 0
+    9 8 10 1 1 0 4 0
+    10 11 9 1 4 5 1 0
+    12 13 14 1 0 1 2 0
+    15 14 13 1 3 2 1 0
+    13 12 15 1 1 0 3 0
+    14 15 12 1 2 3 0 0
   tverts 6
     1.6059 0.986519 0
     1.6059 0.827417 0
@@ -102,8 +100,8 @@ node trimesh Box19
     0.433417 0.986519 0
     0.323013 0.827417 0
 endnode
-node trimesh Box22
-  parent PLC_X12
+node trimesh box22
+  parent plc_x12
   position -4.16751 3.34 0
   orientation 0 0 0 0
   wirecolor 0.347656 0.347656 0.347656
@@ -111,7 +109,7 @@ node trimesh Box22
   diffuse 1 1 1
   specular 0.05 0.05 0.05
   shininess 26
-  bitmap TDE01_wall9E
+  bitmap tde01_wall9e
   verts 8
     -0.33 -0.32 0.57
     0.34 -0.32 0.57
@@ -122,16 +120,16 @@ node trimesh Box22
     0.53 0.5 -0.13
     -0.52 0.5 -0.13
   faces 10
-    0 1 2  1  0 1 2  0
-    2 3 0  1  2 3 0  0
-    4 5 1  1  4 5 6  0
-    1 0 4  1  6 7 4  0
-    5 6 2  1  8 9 10  0
-    2 1 5  1  10 11 8  0
-    6 7 3  1  5 4 7  0
-    3 2 6  1  7 6 5  0
-    7 4 0  1  9 8 11  0
-    0 3 7  1  11 10 9  0
+    0 1 2 1 0 1 2 0
+    2 3 0 1 2 3 0 0
+    4 5 1 1 4 5 6 0
+    1 0 4 1 6 7 4 0
+    5 6 2 1 8 9 10 0
+    2 1 5 1 10 11 8 0
+    6 7 3 1 5 4 7 0
+    3 2 6 1 7 6 5 0
+    7 4 0 1 9 8 11 0
+    0 3 7 1 11 10 9 0
   tverts 12
     0.285183 0.810361 0
     0.451623 0.810361 0
@@ -146,8 +144,8 @@ node trimesh Box22
     0.437552 0.753723 0
     0.311096 0.753723 0
 endnode
-node trimesh Box23
-  parent PLC_X12
+node trimesh box23
+  parent plc_x12
   position -4.10751 -3.27 0
   orientation 0 0 0 0
   wirecolor 0.347656 0.347656 0.347656
@@ -155,7 +153,7 @@ node trimesh Box23
   diffuse 1 1 1
   specular 0.05 0.05 0.05
   shininess 26
-  bitmap TDE01_wall9E
+  bitmap tde01_wall9e
   verts 8
     -0.32 -0.32 0.57
     0.34 -0.32 0.57
@@ -166,16 +164,16 @@ node trimesh Box23
     0.53 0.5 -0.13
     -0.52 0.5 -0.13
   faces 10
-    0 1 2  1  0 1 2  0
-    2 3 0  1  2 3 0  0
-    4 5 1  1  4 5 6  0
-    1 0 4  1  6 7 4  0
-    5 6 2  1  8 9 10  0
-    2 1 5  1  10 11 8  0
-    6 7 3  1  5 4 7  0
-    3 2 6  1  7 6 5  0
-    7 4 0  1  9 8 11  0
-    0 3 7  1  11 10 9  0
+    0 1 2 1 0 1 2 0
+    2 3 0 1 2 3 0 0
+    4 5 1 1 4 5 6 0
+    1 0 4 1 6 7 4 0
+    5 6 2 1 8 9 10 0
+    2 1 5 1 10 11 8 0
+    6 7 3 1 5 4 7 0
+    3 2 6 1 7 6 5 0
+    7 4 0 1 9 8 11 0
+    0 3 7 1 11 10 9 0
   tverts 12
     0.285183 0.810361 0
     0.451623 0.810361 0
@@ -190,8 +188,8 @@ node trimesh Box23
     0.437552 0.753723 0
     0.311096 0.753723 0
 endnode
-node trimesh Box24
-  parent PLC_X12
+node trimesh box24
+  parent plc_x12
   position 4.48395 3.26902 -0.0100003
   orientation 0 0 -1 -3.14159
   wirecolor 0.527344 0.527344 0.527344
@@ -199,9 +197,9 @@ node trimesh Box24
   diffuse 1 1 1
   specular 0.05 0.05 0.05
   shininess 26
-  bitmap TDE01_chain
+  bitmap tde01_chain
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 1
@@ -224,22 +222,22 @@ node trimesh Box24
     2.08 6.33 3.36
     2.08 6.88 3.36
   faces 16
-    0 1 2  1  0 1 2  0
-    3 2 1  1  3 2 1  0
-    1 0 3  1  1 0 3  0
-    2 3 0  1  2 3 0  0
-    4 5 6  1  0 1 4  0
-    7 6 5  1  5 4 1  0
-    5 4 6  1  1 0 4  0
-    6 7 5  1  4 5 1  0
-    8 9 10  1  0 1 4  0
-    11 10 9  1  5 4 1  0
-    9 8 10  1  1 0 4  0
-    10 11 9  1  4 5 1  0
-    12 13 14  1  0 1 2  0
-    15 14 13  1  3 2 1  0
-    13 12 15  1  1 0 3  0
-    14 15 12  1  2 3 0  0
+    0 1 2 1 0 1 2 0
+    3 2 1 1 3 2 1 0
+    1 0 3 1 1 0 3 0
+    2 3 0 1 2 3 0 0
+    4 5 6 1 0 1 4 0
+    7 6 5 1 5 4 1 0
+    5 4 6 1 1 0 4 0
+    6 7 5 1 4 5 1 0
+    8 9 10 1 0 1 4 0
+    11 10 9 1 5 4 1 0
+    9 8 10 1 1 0 4 0
+    10 11 9 1 4 5 1 0
+    12 13 14 1 0 1 2 0
+    15 14 13 1 3 2 1 0
+    13 12 15 1 1 0 3 0
+    14 15 12 1 2 3 0 0
   tverts 6
     1.6059 0.986519 0
     1.6059 0.827417 0
@@ -248,8 +246,8 @@ node trimesh Box24
     0.433417 0.986519 0
     0.323013 0.827417 0
 endnode
-node trimesh Box25
-  parent PLC_X12
+node trimesh box25
+  parent plc_x12
   position 4.23395 -3.36098 0
   orientation 0 0 -1 -3.14159
   wirecolor 0.347656 0.347656 0.347656
@@ -257,7 +255,7 @@ node trimesh Box25
   diffuse 1 1 1
   specular 0.05 0.05 0.05
   shininess 26
-  bitmap TDE01_wall9E
+  bitmap tde01_wall9e
   verts 8
     -0.33 -0.32 0.57
     0.34 -0.32 0.57
@@ -268,16 +266,16 @@ node trimesh Box25
     0.53 0.5 -0.13
     -0.52 0.5 -0.13
   faces 10
-    0 1 2  1  0 1 2  0
-    2 3 0  1  2 3 0  0
-    4 5 1  1  4 5 6  0
-    1 0 4  1  6 7 4  0
-    5 6 2  1  8 9 10  0
-    2 1 5  1  10 11 8  0
-    6 7 3  1  5 4 7  0
-    3 2 6  1  7 6 5  0
-    7 4 0  1  9 8 11  0
-    0 3 7  1  11 10 9  0
+    0 1 2 1 0 1 2 0
+    2 3 0 1 2 3 0 0
+    4 5 1 1 4 5 6 0
+    1 0 4 1 6 7 4 0
+    5 6 2 1 8 9 10 0
+    2 1 5 1 10 11 8 0
+    6 7 3 1 5 4 7 0
+    3 2 6 1 7 6 5 0
+    7 4 0 1 9 8 11 0
+    0 3 7 1 11 10 9 0
   tverts 12
     0.285183 0.810361 0
     0.451623 0.810361 0
@@ -292,8 +290,8 @@ node trimesh Box25
     0.437552 0.753723 0
     0.311096 0.753723 0
 endnode
-node trimesh Box26
-  parent PLC_X12
+node trimesh box26
+  parent plc_x12
   position 4.17395 3.24902 0
   orientation 0 0 -1 -3.14159
   wirecolor 0.347656 0.347656 0.347656
@@ -301,7 +299,7 @@ node trimesh Box26
   diffuse 1 1 1
   specular 0.05 0.05 0.05
   shininess 26
-  bitmap TDE01_wall9E
+  bitmap tde01_wall9e
   verts 8
     -0.32 -0.32 0.57
     0.34 -0.32 0.57
@@ -312,16 +310,16 @@ node trimesh Box26
     0.53 0.5 -0.13
     -0.52 0.5 -0.13
   faces 10
-    0 1 2  1  0 1 2  0
-    2 3 0  1  2 3 0  0
-    4 5 1  1  4 5 6  0
-    1 0 4  1  6 7 4  0
-    5 6 2  1  8 9 10  0
-    2 1 5  1  10 11 8  0
-    6 7 3  1  5 4 7  0
-    3 2 6  1  7 6 5  0
-    7 4 0  1  9 8 11  0
-    0 3 7  1  11 10 9  0
+    0 1 2 1 0 1 2 0
+    2 3 0 1 2 3 0 0
+    4 5 1 1 4 5 6 0
+    1 0 4 1 6 7 4 0
+    5 6 2 1 8 9 10 0
+    2 1 5 1 10 11 8 0
+    6 7 3 1 5 4 7 0
+    3 2 6 1 7 6 5 0
+    7 4 0 1 9 8 11 0
+    0 3 7 1 11 10 9 0
   tverts 12
     0.285183 0.810361 0
     0.451623 0.810361 0
@@ -336,8 +334,9 @@ node trimesh Box26
     0.437552 0.753723 0
     0.311096 0.753723 0
 endnode
-node trimesh Line266
-  parent PLC_X12
+node trimesh line266
+  parent plc_x12
+  bitmap black
   position -1.22751 0 3
   orientation 0 0 0 0
   wirecolor 0.527344 0.527344 0.527344
@@ -345,9 +344,8 @@ node trimesh Line266
   diffuse 0 0 0
   specular 0 0 0
   shininess 26
-  bitmap NULL
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 2
@@ -366,21 +364,22 @@ node trimesh Line266
     1.25 -2.5 0
     1.25 0 0
   faces 10
-    0 1 2  1  0 0 0  0
-    3 4 5  1  0 0 0  0
-    3 5 6  1  0 0 0  0
-    3 7 8  1  0 0 0  0
-    9 3 8  1  0 0 0  0
-    0 2 8  1  0 0 0  0
-    3 6 10  1  0 0 0  0
-    3 11 7  1  0 0 0  0
-    3 10 11  1  0 0 0  0
-    2 9 8  1  0 0 0  0
+    0 1 2 1 0 0 0 0
+    3 4 5 1 0 0 0 0
+    3 5 6 1 0 0 0 0
+    3 7 8 1 0 0 0 0
+    9 3 8 1 0 0 0 0
+    0 2 8 1 0 0 0 0
+    3 6 10 1 0 0 0 0
+    3 11 7 1 0 0 0 0
+    3 10 11 1 0 0 0 0
+    2 9 8 1 0 0 0 0
   tverts 1
     0 0 0
 endnode
-node trimesh Line267
-  parent PLC_X12
+node trimesh line267
+  parent plc_x12
+  bitmap black
   position 1.29395 -0.0209822 3
   orientation 0 0 -1 -3.14159
   wirecolor 0.527344 0.527344 0.527344
@@ -388,9 +387,8 @@ node trimesh Line267
   diffuse 0 0 0
   specular 0 0 0
   shininess 26
-  bitmap NULL
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 2
@@ -409,21 +407,22 @@ node trimesh Line267
     1.25 -2.5 0
     1.25 0 0
   faces 10
-    0 1 2  1  0 0 0  0
-    3 4 5  1  0 0 0  0
-    3 5 6  1  0 0 0  0
-    3 7 8  1  0 0 0  0
-    9 3 8  1  0 0 0  0
-    0 2 8  1  0 0 0  0
-    3 6 10  1  0 0 0  0
-    3 11 7  1  0 0 0  0
-    3 10 11  1  0 0 0  0
-    2 9 8  1  0 0 0  0
+    0 1 2 1 0 0 0 0
+    3 4 5 1 0 0 0 0
+    3 5 6 1 0 0 0 0
+    3 7 8 1 0 0 0 0
+    9 3 8 1 0 0 0 0
+    0 2 8 1 0 0 0 0
+    3 6 10 1 0 0 0 0
+    3 11 7 1 0 0 0 0
+    3 10 11 1 0 0 0 0
+    2 9 8 1 0 0 0 0
   tverts 1
     0 0 0
 endnode
-node trimesh Mesh719
-  parent PLC_X12
+node trimesh mesh719
+  parent plc_x12
+  bitmap black
   position -0.607509 0 3.25
   orientation 0 0 0 0
   wirecolor 0.527344 0.527344 0.527344
@@ -431,9 +430,8 @@ node trimesh Mesh719
   diffuse 0 0 0
   specular 0 0 0
   shininess 26
-  bitmap NULL
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -446,10 +444,10 @@ node trimesh Mesh719
     -0.62 -2.5 0.25
     0.63 -2.5 0.25
   faces 4
-    0 1 2  1  0 1 2  0
-    3 2 1  1  3 2 1  0
-    1 4 5  1  1 4 5  0
-    5 3 1  1  5 3 1  0
+    0 1 2 1 0 1 2 0
+    3 2 1 1 3 2 1 0
+    1 4 5 1 1 4 5 0
+    5 3 1 1 5 3 1 0
   tverts 6
     0.0219067 0.926045 0
     0.0219067 0.911353 0
@@ -458,8 +456,9 @@ node trimesh Mesh719
     0.0219067 0.896662 0
     0.0254746 0.896662 0
 endnode
-node trimesh Mesh720
-  parent PLC_X12
+node trimesh mesh720
+  parent plc_x12
+  bitmap black
   position 0.67395 -0.0209822 3.25
   orientation 0 0 -1 -3.14159
   wirecolor 0.527344 0.527344 0.527344
@@ -467,9 +466,8 @@ node trimesh Mesh720
   diffuse 0 0 0
   specular 0 0 0
   shininess 26
-  bitmap NULL
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -482,10 +480,10 @@ node trimesh Mesh720
     -0.62 -2.5 0.25
     0.63 -2.5 0.25
   faces 4
-    0 1 2  1  0 1 2  0
-    3 2 1  1  3 2 1  0
-    1 4 5  1  1 4 5  0
-    5 3 1  1  5 3 1  0
+    0 1 2 1 0 1 2 0
+    3 2 1 1 3 2 1 0
+    1 4 5 1 1 4 5 0
+    5 3 1 1 5 3 1 0
   tverts 6
     0.0219067 0.926045 0
     0.0219067 0.911353 0
@@ -494,8 +492,8 @@ node trimesh Mesh720
     0.0219067 0.896662 0
     0.0254746 0.896662 0
 endnode
-node trimesh Object02
-  parent PLC_X12
+node trimesh object02
+  parent plc_x12
   position -1.23751 3.25 3.5
   orientation 0 0 0 0
   wirecolor 0.527344 0.527344 0.527344
@@ -503,9 +501,9 @@ node trimesh Object02
   diffuse 1 1 1
   specular 0.05 0.05 0.05
   shininess 26
-  bitmap TDE01_wall6
+  bitmap tde01_wall6
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -527,53 +525,52 @@ node trimesh Object02
     1.26 -0.75 -0.5
     -1.24 0.75 0
   faces 21
-    0 1 2  1  0 0 0  0
-    0 3 4  1  0 0 0  0
-    5 6 7  1  1 2 3  0
-    7 8 5  1  3 4 1  0
-    2 1 9  1  5 6 7  0
-    9 10 2  1  7 8 5  0
-    11 12 7  1  9 10 11  0
-    12 11 13  1  10 9 12  0
-    12 4 8  1  13 6 14  0
-    8 7 12  1  14 15 13  0
-    4 3 14  1  6 5 8  0
-    14 8 4  1  8 14 6  0
-    3 0 14  1  10 16 17  0
-    0 2 10  1  16 12 9  0
-    10 14 0  1  9 17 16  0
-    10 9 5  1  8 7 14  0
-    14 10 5  1  18 19 1  0
-    5 8 14  1  1 4 18  0
-    9 11 6  1  7 20 15  0
-    6 5 9  1  15 14 7  0
-    7 6 11  1  11 21 9  0
-  tverts 22
+    0 1 2 1 0 0 0 0
+    0 3 4 1 0 0 0 0
+    5 6 7 1 1 2 3 0
+    7 8 5 1 3 4 1 0
+    2 1 9 1 5 6 7 0
+    9 10 2 1 7 8 5 0
+    11 12 7 1 7 9 10 0
+    12 11 13 1 9 7 11 0
+    12 4 8 1 12 6 13 0
+    8 7 12 1 13 14 12 0
+    4 3 14 1 6 5 8 0
+    14 8 4 1 8 13 6 0
+    3 0 14 1 9 15 16 0
+    0 2 10 1 15 11 7 0
+    10 14 0 1 7 16 15 0
+    10 9 5 1 8 7 13 0
+    14 10 5 1 17 18 1 0
+    5 8 14 1 1 4 17 0
+    9 11 6 1 7 19 14 0
+    6 5 9 1 14 13 7 0
+    7 6 11 1 10 13 7 0
+  tverts 20
     0 0 0
-    -0.5 0.5 0
-    -0.5 1 0
-    -1.1 1 0
-    -1.1 0.5 0
+    0.5 0.5 0
+    0.5 1 0
+    -0.1 1 0
+    -0.1 0.5 0
     0 0.2 0
     0.499999 0.2 0
     0.5 0.4 0
     0 0.4 0
-    -0.5 0.4 0
-    -1.1 0.2 0
-    -1.1 0.6 0
-    -0.5 0.2 0
+    -0.1 0.2 0
+    -0.1 0.6 0
+    0.5 0.2 0
     0.999999 0.2 0
     0.5 0.6 0
     1 0.6 0
-    -0.8 0.2 0
-    -1.1 0.4 0
-    -1.1 0 0
-    -0.5 0 0
+    0.2 0.2 0
+    -0.1 0.4 0
+    -0.1 0 0
+    0.5 0 0
     1 0.4 0
-    -0.5 0.6 0
 endnode
-node trimesh Object16
-  parent PLC_X12
+node trimesh object16
+  parent plc_x12
+  bitmap black
   position 0.642491 0 3
   orientation 0 0 0 0
   wirecolor 0.105469 0.105469 0.105469
@@ -581,7 +578,6 @@ node trimesh Object16
   diffuse 0 0 0
   specular 0 0 0
   shininess 26
-  bitmap NULL
   verts 11
     0.63 -5 0
     -0.62 -2.5 0
@@ -595,15 +591,15 @@ node trimesh Object16
     -1.87 -4 0
     -1.87 -5 0
   faces 9
-    0 1 2  1  0 1 2  0
-    3 4 5  1  3 4 5  0
-    4 3 1  1  4 3 1  0
-    1 0 4  1  1 0 4  0
-    5 4 6  1  5 6 7  0
-    7 8 4  1  8 9 10  0
-    6 4 8  1  7 10 9  0
-    9 10 2  1  11 12 2  0
-    0 2 10  1  13 2 12  0
+    0 1 2 1 0 1 2 0
+    3 4 5 1 3 4 5 0
+    4 3 1 1 4 3 1 0
+    1 0 4 1 1 0 4 0
+    5 4 6 1 5 6 7 0
+    7 8 4 1 8 9 10 0
+    6 4 8 1 7 10 9 0
+    9 10 2 1 11 12 2 0
+    0 2 10 1 13 2 12 0
   tverts 14
     0.0290425 0.896662 0
     0.0254746 0.896662 0
@@ -620,8 +616,8 @@ node trimesh Object16
     0.0219067 0.881971 0
     0.0254746 0.881971 0
 endnode
-node trimesh Object19
-  parent PLC_X12
+node trimesh object19
+  parent plc_x12
   position 1.20249 0 0.77
   orientation 0 0 0 0
   wirecolor 0.582031 0.582031 0.582031
@@ -629,7 +625,7 @@ node trimesh Object19
   diffuse 1 1 1
   specular 0.05 0.05 0.05
   shininess 26
-  bitmap TDE01_wall6
+  bitmap tde01_wall6
   verts 26
     -3.93 1.88 -0.77
     -3.93 0 -0.77
@@ -658,39 +654,39 @@ node trimesh Object19
     -2.24 -1.14 1.23
     -2.62 -1.14 0.23
   faces 32
-    0 1 2  1  0 1 2  0
-    3 2 1  1  3 2 1  0
-    4 5 6  1  4 5 6  0
-    6 5 1  1  6 5 1  0
-    7 8 9  1  7 8 9  0
-    9 10 7  1  9 10 7  0
-    11 7 10  1  11 12 13  0
-    4 12 13  1  14 8 9  0
-    12 4 14  1  8 14 15  0
-    14 4 6  1  15 14 16  0
-    15 11 16  1  17 11 18  0
-    2 17 0  1  14 19 20  0
-    17 2 8  1  19 14 8  0
-    8 2 9  1  8 14 9  0
-    13 12 16  1  9 8 21  0
-    15 16 12  1  7 21 8  0
-    10 9 18  1  22 23 24  0
-    16 19 13  1  22 24 23  0
-    3 20 2  1  3 25 2  0
-    9 2 20  1  26 2 25  0
-    4 13 5  1  4 27 5  0
-    21 5 13  1  28 5 27  0
-    10 16 11  1  13 18 11  0
-    1 5 3  1  1 5 3  0
-    16 10 19  1  29 30 27  0
-    18 19 10  1  26 27 30  0
-    20 3 22  1  31 32 33  0
-    22 23 20  1  33 34 31  0
-    5 21 24  1  32 31 34  0
-    24 25 5  1  34 33 32  0
-    3 5 25  1  35 36 37  0
-    25 22 3  1  37 38 35  0
-  tverts 39
+    0 1 2 1 0 1 2 0
+    3 2 1 1 3 2 1 0
+    4 5 6 1 4 5 6 0
+    6 5 1 1 6 5 1 0
+    7 8 9 1 7 8 9 0
+    9 10 7 1 9 10 7 0
+    11 7 10 1 11 12 13 0
+    4 12 13 1 14 8 9 0
+    12 4 14 1 8 14 15 0
+    14 4 6 1 15 14 16 0
+    15 11 16 1 17 11 18 0
+    2 17 0 1 14 15 16 0
+    17 2 8 1 15 14 8 0
+    8 2 9 1 8 14 9 0
+    13 12 16 1 9 8 10 0
+    15 16 12 1 7 10 8 0
+    10 9 18 1 19 20 21 0
+    16 19 13 1 19 21 20 0
+    3 20 2 1 3 22 2 0
+    9 2 20 1 23 2 22 0
+    4 13 5 1 4 24 5 0
+    21 5 13 1 25 5 24 0
+    10 16 11 1 13 18 11 0
+    1 5 3 1 1 5 3 0
+    16 10 19 1 26 27 24 0
+    18 19 10 1 23 24 27 0
+    20 3 22 1 28 29 30 0
+    22 23 20 1 30 31 28 0
+    5 21 24 1 29 28 31 0
+    24 25 5 1 31 30 29 0
+    3 5 25 1 32 33 34 0
+    25 22 3 1 34 35 32 0
+  tverts 36
     0.9995 0.000499606 0
     0.5 0.000499725 0
     0.9995 0.3335 0
@@ -710,9 +706,6 @@ node trimesh Object19
     0.25 0.000499576 0
     0 0.886224 0
     0.125 0.986224 0
-    0.75 0.000499547 0
-    0.25 0.000499666 0
-    0.583332 0.9995 0
     0.503969 1.00549 0
     0.603967 0.605493 0
     0.703967 0.605493 0
@@ -731,8 +724,8 @@ node trimesh Object19
     0.179844 0.841008 0
     0.81615 0.841008 0
 endnode
-node trimesh Object20
-  parent PLC_X12
+node trimesh object20
+  parent plc_x12
   position -0.607509 0 3.25
   orientation 0 0 0 0
   wirecolor 0.527344 0.527344 0.527344
@@ -740,9 +733,9 @@ node trimesh Object20
   diffuse 1 1 1
   specular 0.05 0.05 0.05
   shininess 26
-  bitmap TDE01_wall9E
+  bitmap tde01_wall9e
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -761,30 +754,24 @@ node trimesh Object20
     0.63 -2.5 -0.25
     0.63 -2.5 0.25
   faces 8
-    0 1 2  1  0 1 2  0
-    2 3 0  1  2 3 0  0
-    4 5 6  1  4 5 6  0
-    6 7 4  1  6 7 4  0
-    1 8 2  1  1 8 2  0
-    9 2 8  1  9 2 8  0
-    10 4 11  1  10 4 11  0
-    7 11 4  1  7 11 4  0
-  tverts 12
+    0 1 2 1 0 1 2 0
+    2 3 0 1 2 3 0 0
+    4 5 6 1 1 0 3 0
+    6 7 4 1 3 2 1 0
+    1 8 2 1 1 4 2 0
+    9 2 8 1 5 2 4 0
+    10 4 11 1 4 1 5 0
+    7 11 4 1 2 5 1 0
+  tverts 6
     -0.133164 0.748027 0
     0.491836 0.748027 0
     0.491836 0.873027 0
     -0.133164 0.873027 0
-    0.491836 0.748028 0
-    -0.133164 0.748028 0
-    -0.133164 0.873028 0
-    0.491836 0.873028 0
     1.11684 0.748027 0
     1.11684 0.873027 0
-    1.11684 0.748028 0
-    1.11684 0.873028 0
 endnode
-node trimesh Object21
-  parent PLC_X12
+node trimesh object21
+  parent plc_x12
   position -1.23751 -3.25 3.5
   orientation 0 0 0 0
   wirecolor 0.527344 0.527344 0.527344
@@ -792,9 +779,9 @@ node trimesh Object21
   diffuse 1 1 1
   specular 0.05 0.05 0.05
   shininess 26
-  bitmap TDE01_wall6
+  bitmap tde01_wall6
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -816,36 +803,35 @@ node trimesh Object21
     1.26 0.75 -0.5
     -1.24 -0.75 0
   faces 21
-    0 1 2  1  0 0 0  0
-    3 1 4  1  0 0 0  0
-    5 6 7  1  1 2 3  0
-    8 7 6  1  4 3 2  0
-    0 2 9  1  5 6 7  0
-    10 9 2  1  8 7 6  0
-    11 12 7  1  9 10 11  0
-    12 11 13  1  10 9 12  0
-    4 11 8  1  5 13 14  0
-    7 8 11  1  15 14 13  0
-    3 4 14  1  16 5 17  0
-    8 14 4  1  14 17 5  0
-    1 3 14  1  14 9 18  0
-    2 1 10  1  12 14 10  0
-    14 10 1  1  18 10 14  0
-    9 10 6  1  7 8 14  0
-    10 14 6  1  19 20 2  0
-    8 6 14  1  4 2 20  0
-    12 9 5  1  21 7 15  0
-    6 5 9  1  14 15 7  0
-    5 7 12  1  22 11 10  0
-  tverts 23
+    0 1 2 1 0 0 0 0
+    3 1 4 1 0 0 0 0
+    5 6 7 1 1 2 3 0
+    8 7 6 1 4 3 2 0
+    0 2 9 1 5 6 2 0
+    10 9 2 1 7 2 6 0
+    11 12 7 1 8 9 10 0
+    12 11 13 1 9 8 11 0
+    4 11 8 1 5 12 13 0
+    7 8 11 1 14 13 12 0
+    3 4 14 1 6 5 7 0
+    8 14 4 1 13 7 5 0
+    1 3 14 1 13 8 15 0
+    2 1 10 1 11 13 9 0
+    14 10 1 1 15 9 13 0
+    9 10 6 1 2 7 13 0
+    10 14 6 1 16 17 2 0
+    8 6 14 1 4 2 17 0
+    12 9 5 1 18 2 14 0
+    6 5 9 1 13 14 2 0
+    5 7 12 1 19 10 9 0
+  tverts 20
     0 0 0
-    1.5 1 0
-    1.5 0.5 0
-    2.1 1 0
-    2.1 0.5 0
+    0.5 1 0
+    0.5 0.5 0
+    1.1 1 0
+    1.1 0.5 0
     0.5 0.3 0
     0 0.3 0
-    0.5 0.5 0
     0 0.5 0
     0.8 0.7 0
     0.2 0.5 0
@@ -854,16 +840,14 @@ node trimesh Object21
     1 0.3 0
     0.5 0.7 0
     1 0.7 0
-    0 0.3 0
-    0 0.5 0
     0.8 0.5 0
-    1.5 0 0
-    2.1 0 0
+    0.5 0 0
+    1.1 0 0
     1 0.5 0
     0.2 0.3 0
 endnode
-node trimesh Object22
-  parent PLC_X12
+node trimesh object22
+  parent plc_x12
   position -2.23751 -4.08 0.74
   orientation 0 0 0 0
   wirecolor 0.105469 0.105469 0.105469
@@ -871,7 +855,7 @@ node trimesh Object22
   diffuse 1 1 1
   specular 0.05 0.05 0.05
   shininess 26
-  bitmap TDE01_wall6
+  bitmap tde01_wall6
   verts 6
     0.81 0.2 0.76
     -0.04 0.71 0.76
@@ -880,10 +864,10 @@ node trimesh Object22
     0.81 0.2 -0.74
     -0.04 0.71 -0.74
   faces 4
-    0 1 2  1  0 1 2  0
-    2 3 0  1  2 3 0  0
-    4 0 3  1  4 5 6  0
-    2 1 5  1  7 8 9  0
+    0 1 2 1 0 1 2 0
+    2 3 0 1 2 3 0 0
+    4 0 3 1 4 5 6 0
+    2 1 5 1 7 8 9 0
   tverts 10
     0.604135 0.759606 0
     0.355742 0.731305 0
@@ -896,8 +880,8 @@ node trimesh Object22
     0.396338 0.727173 0
     0.396338 0.352173 0
 endnode
-node trimesh Object24
-  parent PLC_X12
+node trimesh object24
+  parent plc_x12
   position -1.23751 0 1.5
   orientation 0 0 0 0
   wirecolor 0.105469 0.105469 0.105469
@@ -906,9 +890,9 @@ node trimesh Object24
   specular 0 0 0
   shininess 1
   selfillumcolor 1 1 1
-  bitmap TDE01_lava01
+  bitmap tde01_lava01
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 0
@@ -919,16 +903,16 @@ node trimesh Object24
     -0.18 -1.5 -0.5
     -0.18 1.5 -0.5
   faces 2
-    0 1 2  1  0 1 2  0
-    3 2 1  1  3 2 1  0
+    0 1 2 1 0 1 2 0
+    3 2 1 1 3 2 1 0
   tverts 4
     0.875 0.625 0
     0.125 0.625 0
     0.875 0.375 0
     0.125 0.375 0
 endnode
-node trimesh Object25
-  parent PLC_X12
+node trimesh object25
+  parent plc_x12
   position -1.85751 3.25 1.5
   orientation 0 0 0 0
   wirecolor 0.347656 0.347656 0.347656
@@ -936,7 +920,7 @@ node trimesh Object25
   diffuse 1 1 1
   specular 0.05 0.05 0.05
   shininess 26
-  bitmap TDE01_wall9F
+  bitmap tde01_wall9f
   verts 11
     -0.62 0 -1.5
     0.63 -0.75 -1.5
@@ -950,15 +934,15 @@ node trimesh Object25
     0.43 0.63 -1.5
     -0.42 0.12 -1.5
   faces 9
-    0 1 2  1  0 1 2  0
-    2 3 0  1  2 3 0  0
-    3 2 4  1  3 2 4  0
-    3 5 6  1  5 6 7  0
-    7 8 5  1  8 9 6  0
-    3 6 0  1  5 7 10  0
-    9 8 7  1  11 12 13  0
-    10 0 6  1  14 10 7  0
-    5 8 6  1  6 9 7  0
+    0 1 2 1 0 1 2 0
+    2 3 0 1 2 3 0 0
+    3 2 4 1 3 2 4 0
+    3 5 6 1 5 6 7 0
+    7 8 5 1 8 9 6 0
+    3 6 0 1 5 7 10 0
+    9 8 7 1 11 12 13 0
+    10 0 6 1 14 10 7 0
+    5 8 6 1 6 9 7 0
   tverts 15
     0.217158 -0.00978148 0
     0.782843 -0.00978154 0
@@ -971,13 +955,13 @@ node trimesh Object25
     0.257043 0.000499696 0
     0.333333 0.5 0
     0.742956 0.000499576 0
-    0 2 0
-    2 2 0
-    2 0 0
+    -1 1 0
+    1 1 0
+    1 -1 0
     0.666666 0.000499606 0
 endnode
-node trimesh Object26
-  parent PLC_X12
+node trimesh object26
+  parent plc_x12
   position -1.85751 -3.25 1.5
   orientation 0 0 0 0
   wirecolor 0.105469 0.105469 0.105469
@@ -985,7 +969,7 @@ node trimesh Object26
   diffuse 1 1 1
   specular 0.05 0.05 0.05
   shininess 26
-  bitmap TDE01_wall9F
+  bitmap tde01_wall9f
   verts 11
     0.63 0.75 -1.5
     -0.62 0 -1.5
@@ -999,16 +983,16 @@ node trimesh Object26
     0.43 -0.63 -1.5
     -0.42 -0.12 -1.5
   faces 9
-    0 1 2  1  0 1 2  0
-    3 2 1  1  3 2 1  0
-    2 3 4  1  2 3 4  0
-    5 3 6  1  4 3 5  0
-    7 8 5  1  6 7 4  0
-    6 3 1  1  5 3 1  0
-    7 9 8  1  6 8 7  0
-    1 10 6  1  1 9 5  0
-    7 5 6  1  6 4 5  0
-  tverts 10
+    0 1 2 1 0 1 2 0
+    3 2 1 1 3 2 1 0
+    2 3 4 1 2 3 4 0
+    5 3 6 1 4 3 5 0
+    7 8 5 1 6 0 4 0
+    6 3 1 1 5 3 1 0
+    7 9 8 1 6 7 0 0
+    1 10 6 1 1 8 5 0
+    7 5 6 1 6 4 5 0
+  tverts 9
     0.75 0.00129688 0
     0.25 0.00129697 0
     0.750001 0.801297 0
@@ -1016,12 +1000,11 @@ node trimesh Object26
     0.75 1.2013 0
     0.328502 0.601297 0
     0.671499 0.601297 0
-    0.75 0.00129682 0
     0.671499 0.00129685 0
     0.328502 0.00129694 0
 endnode
-node trimesh Object175
-  parent PLC_X12
+node trimesh object175
+  parent plc_x12
   position -0.607509 4.5 1.5
   orientation 0 0 0 0
   wirecolor 0.105469 0.105469 0.105469
@@ -1029,23 +1012,23 @@ node trimesh Object175
   diffuse 1 1 1
   specular 0.05 0.05 0.05
   shininess 26
-  bitmap TDE01_wall9E
+  bitmap tde01_wall9e
   verts 4
     -0.62 0.5 -1.5
     -0.62 -0.5 -1.5
     -0.62 -0.5 1.5
     -0.62 0.5 1.5
   faces 2
-    0 1 2  1  0 1 2  0
-    2 3 0  1  2 3 0  0
+    0 1 2 1 0 1 2 0
+    2 3 0 1 2 3 0 0
   tverts 4
     0.3 0.00128329 0
     0.7 0.0012832 0
     0.7 1.00143 0
     0.3 1.00143 0
 endnode
-node trimesh Object176
-  parent PLC_X12
+node trimesh object176
+  parent plc_x12
   position -0.607509 -4.5 1.5
   orientation 0 0 0 0
   wirecolor 0.582031 0.582031 0.582031
@@ -1053,23 +1036,23 @@ node trimesh Object176
   diffuse 1 1 1
   specular 0.05 0.05 0.05
   shininess 26
-  bitmap TDE01_wall9E
+  bitmap tde01_wall9e
   verts 4
     -0.62 0.5 -1.5
     -0.62 -0.5 -1.5
     -0.62 -0.5 1.5
     -0.62 0.5 1.5
   faces 2
-    0 1 2  1  0 1 2  0
-    2 3 0  1  2 3 0  0
+    0 1 2 1 0 1 2 0
+    2 3 0 1 2 3 0 0
   tverts 4
     0.3 0.00128329 0
     0.7 0.0012832 0
     0.7 1.00143 0
     0.3 1.00143 0
 endnode
-node trimesh Object177
-  parent PLC_X12
+node trimesh object177
+  parent plc_x12
   position -2.08751 4.18 0.74
   orientation 0 0 0 0
   wirecolor 0.105469 0.105469 0.105469
@@ -1077,7 +1060,7 @@ node trimesh Object177
   diffuse 1 1 1
   specular 0.05 0.05 0.05
   shininess 26
-  bitmap TDE01_wall6
+  bitmap tde01_wall6
   verts 6
     -0.19 -0.81 0.76
     0.66 -0.3 0.76
@@ -1086,10 +1069,10 @@ node trimesh Object177
     -0.19 -0.81 -0.74
     0.66 -0.3 -0.74
   faces 4
-    0 1 2  1  0 1 2  0
-    2 3 0  1  2 3 0  0
-    4 0 3  1  4 5 6  0
-    2 1 5  1  7 8 9  0
+    0 1 2 1 0 1 2 0
+    2 3 0 1 2 3 0 0
+    4 0 3 1 4 5 6 0
+    2 1 5 1 7 8 9 0
   tverts 10
     0.604135 0.759606 0
     0.355742 0.731305 0
@@ -1102,8 +1085,8 @@ node trimesh Object177
     0.396338 0.727173 0
     0.396338 0.352173 0
 endnode
-node trimesh Object831
-  parent PLC_X12
+node trimesh object831
+  parent plc_x12
   position -1.23751 0 1.5
   orientation 0 0 0 0
   wirecolor 0.582031 0.582031 0.582031
@@ -1112,9 +1095,9 @@ node trimesh Object831
   specular 0 0 0
   shininess 1
   selfillumcolor 1 1 1
-  bitmap TDE01_lava01
+  bitmap tde01_lava01
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 0
@@ -1125,16 +1108,16 @@ node trimesh Object831
     -0.18 -1.5 -0.5
     -0.18 1.5 -0.5
   faces 2
-    0 1 2  1  0 1 2  0
-    3 2 1  1  3 2 1  0
+    0 1 2 1 0 1 2 0
+    3 2 1 1 3 2 1 0
   tverts 4
     0.875 0.625 0
     0.125 0.625 0
     0.875 0.375 0
     0.125 0.375 0
 endnode
-node trimesh Object832
-  parent PLC_X12
+node trimesh object832
+  parent plc_x12
   position -2.05751 0 1.5
   orientation 0 0 0 0
   wirecolor 0.898438 0.898438 0.898438
@@ -1142,9 +1125,9 @@ node trimesh Object832
   diffuse 1 1 1
   specular 0.05 0.05 0.05
   shininess 26
-  bitmap TDE01_grate
+  bitmap tde01_grate
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 0
@@ -1155,16 +1138,16 @@ node trimesh Object832
     -0.18 -1.5 -0.5
     -0.18 1.5 -0.5
   faces 2
-    0 1 2  1  0 1 2  0
-    3 2 1  1  3 2 1  0
+    0 1 2 1 0 1 2 0
+    3 2 1 1 3 2 1 0
   tverts 4
     2 1 0
     -1 1 0
     2 0 0
     -1 0 0
 endnode
-node trimesh Object833
-  parent PLC_X12
+node trimesh object833
+  parent plc_x12
   position 1.30395 -3.27098 3.5
   orientation 0 0 -1 -3.14159
   wirecolor 0.527344 0.527344 0.527344
@@ -1172,9 +1155,9 @@ node trimesh Object833
   diffuse 1 1 1
   specular 0.05 0.05 0.05
   shininess 26
-  bitmap TDE01_wall6
+  bitmap tde01_wall6
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -1196,53 +1179,52 @@ node trimesh Object833
     1.26 -0.75 -0.5
     -1.24 0.75 0
   faces 21
-    0 1 2  1  0 0 0  0
-    0 3 4  1  0 0 0  0
-    5 6 7  1  1 2 3  0
-    7 8 5  1  3 4 1  0
-    2 1 9  1  5 6 7  0
-    9 10 2  1  7 8 5  0
-    11 12 7  1  9 10 11  0
-    12 11 13  1  10 9 12  0
-    12 4 8  1  13 6 14  0
-    8 7 12  1  14 15 13  0
-    4 3 14  1  6 5 8  0
-    14 8 4  1  8 14 6  0
-    3 0 14  1  10 16 17  0
-    0 2 10  1  16 12 9  0
-    10 14 0  1  9 17 16  0
-    10 9 5  1  8 7 14  0
-    14 10 5  1  18 19 1  0
-    5 8 14  1  1 4 18  0
-    9 11 6  1  7 20 15  0
-    6 5 9  1  15 14 7  0
-    7 6 11  1  11 21 9  0
-  tverts 22
+    0 1 2 1 0 0 0 0
+    0 3 4 1 0 0 0 0
+    5 6 7 1 1 2 3 0
+    7 8 5 1 3 4 1 0
+    2 1 9 1 5 6 7 0
+    9 10 2 1 7 8 5 0
+    11 12 7 1 7 9 10 0
+    12 11 13 1 9 7 11 0
+    12 4 8 1 12 6 13 0
+    8 7 12 1 13 14 12 0
+    4 3 14 1 6 5 8 0
+    14 8 4 1 8 13 6 0
+    3 0 14 1 9 15 16 0
+    0 2 10 1 15 11 7 0
+    10 14 0 1 7 16 15 0
+    10 9 5 1 8 7 13 0
+    14 10 5 1 17 18 1 0
+    5 8 14 1 1 4 17 0
+    9 11 6 1 7 19 14 0
+    6 5 9 1 14 13 7 0
+    7 6 11 1 10 13 7 0
+  tverts 20
     0 0 0
-    -0.5 0.5 0
-    -0.5 1 0
-    -1.1 1 0
-    -1.1 0.5 0
+    0.5 0.5 0
+    0.5 1 0
+    -0.1 1 0
+    -0.1 0.5 0
     0 0.2 0
     0.499999 0.2 0
     0.5 0.4 0
     0 0.4 0
-    -0.5 0.4 0
-    -1.1 0.2 0
-    -1.1 0.6 0
-    -0.5 0.2 0
+    -0.1 0.2 0
+    -0.1 0.6 0
+    0.5 0.2 0
     0.999999 0.2 0
     0.5 0.6 0
     1 0.6 0
-    -0.8 0.2 0
-    -1.1 0.4 0
-    -1.1 0 0
-    -0.5 0 0
+    0.2 0.2 0
+    -0.1 0.4 0
+    -0.1 0 0
+    0.5 0 0
     1 0.4 0
-    -0.5 0.6 0
 endnode
-node trimesh Object834
-  parent PLC_X12
+node trimesh object834
+  parent plc_x12
+  bitmap black
   position -0.57605 -0.0209823 3
   orientation 0 0 -1 -3.14159
   wirecolor 0.105469 0.105469 0.105469
@@ -1250,7 +1232,6 @@ node trimesh Object834
   diffuse 0 0 0
   specular 0 0 0
   shininess 26
-  bitmap NULL
   verts 11
     0.63 -5 0
     -0.62 -2.5 0
@@ -1264,15 +1245,15 @@ node trimesh Object834
     -1.87 -4 0
     -1.87 -5 0
   faces 9
-    0 1 2  1  0 1 2  0
-    3 4 5  1  3 4 5  0
-    4 3 1  1  4 3 1  0
-    1 0 4  1  1 0 4  0
-    5 4 6  1  5 6 7  0
-    7 8 4  1  8 9 10  0
-    6 4 8  1  7 10 9  0
-    9 10 2  1  11 12 2  0
-    0 2 10  1  13 2 12  0
+    0 1 2 1 0 1 2 0
+    3 4 5 1 3 4 5 0
+    4 3 1 1 4 3 1 0
+    1 0 4 1 1 0 4 0
+    5 4 6 1 5 6 7 0
+    7 8 4 1 8 9 10 0
+    6 4 8 1 7 10 9 0
+    9 10 2 1 11 12 2 0
+    0 2 10 1 13 2 12 0
   tverts 14
     0.0290425 0.896662 0
     0.0254746 0.896662 0
@@ -1289,8 +1270,8 @@ node trimesh Object834
     0.0219067 0.881971 0
     0.0254746 0.881971 0
 endnode
-node trimesh Object835
-  parent PLC_X12
+node trimesh object835
+  parent plc_x12
   position -1.13605 -0.0209826 0.77
   orientation 0 0 -1 -3.14159
   wirecolor 0.582031 0.582031 0.582031
@@ -1298,7 +1279,7 @@ node trimesh Object835
   diffuse 1 1 1
   specular 0.05 0.05 0.05
   shininess 26
-  bitmap TDE01_wall6
+  bitmap tde01_wall6
   verts 26
     -3.93 1.88 -0.77
     -3.93 0 -0.77
@@ -1327,39 +1308,39 @@ node trimesh Object835
     -2.24 -1.14 1.23
     -2.62 -1.14 0.23
   faces 32
-    0 1 2  1  0 1 2  0
-    3 2 1  1  3 2 1  0
-    4 5 6  1  4 5 6  0
-    6 5 1  1  6 5 1  0
-    7 8 9  1  7 8 9  0
-    9 10 7  1  9 10 7  0
-    11 7 10  1  11 12 13  0
-    4 12 13  1  14 8 9  0
-    12 4 14  1  8 14 15  0
-    14 4 6  1  15 14 16  0
-    15 11 16  1  17 11 18  0
-    2 17 0  1  14 19 20  0
-    17 2 8  1  19 14 8  0
-    8 2 9  1  8 14 9  0
-    13 12 16  1  9 8 21  0
-    15 16 12  1  7 21 8  0
-    10 9 18  1  22 23 24  0
-    16 19 13  1  22 24 23  0
-    3 20 2  1  3 25 2  0
-    9 2 20  1  26 2 25  0
-    4 13 5  1  4 27 5  0
-    21 5 13  1  28 5 27  0
-    10 16 11  1  13 18 11  0
-    1 5 3  1  1 5 3  0
-    16 10 19  1  29 30 27  0
-    18 19 10  1  26 27 30  0
-    20 3 22  1  31 32 33  0
-    22 23 20  1  33 34 31  0
-    5 21 24  1  32 31 34  0
-    24 25 5  1  34 33 32  0
-    3 5 25  1  35 36 37  0
-    25 22 3  1  37 38 35  0
-  tverts 39
+    0 1 2 1 0 1 2 0
+    3 2 1 1 3 2 1 0
+    4 5 6 1 4 5 6 0
+    6 5 1 1 6 5 1 0
+    7 8 9 1 7 8 9 0
+    9 10 7 1 9 10 7 0
+    11 7 10 1 11 12 13 0
+    4 12 13 1 14 8 9 0
+    12 4 14 1 8 14 15 0
+    14 4 6 1 15 14 16 0
+    15 11 16 1 17 11 18 0
+    2 17 0 1 14 15 16 0
+    17 2 8 1 15 14 8 0
+    8 2 9 1 8 14 9 0
+    13 12 16 1 9 8 10 0
+    15 16 12 1 7 10 8 0
+    10 9 18 1 19 20 21 0
+    16 19 13 1 19 21 20 0
+    3 20 2 1 3 22 2 0
+    9 2 20 1 23 2 22 0
+    4 13 5 1 4 24 5 0
+    21 5 13 1 25 5 24 0
+    10 16 11 1 13 18 11 0
+    1 5 3 1 1 5 3 0
+    16 10 19 1 26 27 24 0
+    18 19 10 1 23 24 27 0
+    20 3 22 1 28 29 30 0
+    22 23 20 1 30 31 28 0
+    5 21 24 1 29 28 31 0
+    24 25 5 1 31 30 29 0
+    3 5 25 1 32 33 34 0
+    25 22 3 1 34 35 32 0
+  tverts 36
     0.9995 0.000499606 0
     0.5 0.000499725 0
     0.9995 0.3335 0
@@ -1379,9 +1360,6 @@ node trimesh Object835
     0.25 0.000499576 0
     0 0.886224 0
     0.125 0.986224 0
-    0.75 0.000499547 0
-    0.25 0.000499666 0
-    0.583332 0.9995 0
     0.503969 1.00549 0
     0.603967 0.605493 0
     0.703967 0.605493 0
@@ -1400,8 +1378,8 @@ node trimesh Object835
     0.179844 0.841008 0
     0.81615 0.841008 0
 endnode
-node trimesh Object836
-  parent PLC_X12
+node trimesh object836
+  parent plc_x12
   position 0.67395 -0.0209822 3.25
   orientation 0 0 -1 -3.14159
   wirecolor 0.527344 0.527344 0.527344
@@ -1409,9 +1387,9 @@ node trimesh Object836
   diffuse 1 1 1
   specular 0.05 0.05 0.05
   shininess 26
-  bitmap TDE01_wall9E
+  bitmap tde01_wall9e
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -1430,30 +1408,24 @@ node trimesh Object836
     0.63 -2.5 -0.25
     0.63 -2.5 0.25
   faces 8
-    0 1 2  1  0 1 2  0
-    2 3 0  1  2 3 0  0
-    4 5 6  1  4 5 6  0
-    6 7 4  1  6 7 4  0
-    1 8 2  1  1 8 2  0
-    9 2 8  1  9 2 8  0
-    10 4 11  1  10 4 11  0
-    7 11 4  1  7 11 4  0
-  tverts 12
+    0 1 2 1 0 1 2 0
+    2 3 0 1 2 3 0 0
+    4 5 6 1 1 0 3 0
+    6 7 4 1 3 2 1 0
+    1 8 2 1 1 4 2 0
+    9 2 8 1 5 2 4 0
+    10 4 11 1 4 1 5 0
+    7 11 4 1 2 5 1 0
+  tverts 6
     -0.133164 0.748027 0
     0.491836 0.748027 0
     0.491836 0.873027 0
     -0.133164 0.873027 0
-    0.491836 0.748028 0
-    -0.133164 0.748028 0
-    -0.133164 0.873028 0
-    0.491836 0.873028 0
     1.11684 0.748027 0
     1.11684 0.873027 0
-    1.11684 0.748028 0
-    1.11684 0.873028 0
 endnode
-node trimesh Object837
-  parent PLC_X12
+node trimesh object837
+  parent plc_x12
   position 1.30395 3.22902 3.5
   orientation 0 0 -1 -3.14159
   wirecolor 0.527344 0.527344 0.527344
@@ -1461,9 +1433,9 @@ node trimesh Object837
   diffuse 1 1 1
   specular 0.05 0.05 0.05
   shininess 26
-  bitmap TDE01_wall6
+  bitmap tde01_wall6
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   transparencyhint 0
   tilefade 1
@@ -1485,36 +1457,35 @@ node trimesh Object837
     1.26 0.75 -0.5
     -1.24 -0.75 0
   faces 21
-    0 1 2  1  0 0 0  0
-    3 1 4  1  0 0 0  0
-    5 6 7  1  1 2 3  0
-    8 7 6  1  4 3 2  0
-    0 2 9  1  5 6 7  0
-    10 9 2  1  8 7 6  0
-    11 12 7  1  9 10 11  0
-    12 11 13  1  10 9 12  0
-    4 11 8  1  5 13 14  0
-    7 8 11  1  15 14 13  0
-    3 4 14  1  16 5 17  0
-    8 14 4  1  14 17 5  0
-    1 3 14  1  14 9 18  0
-    2 1 10  1  12 14 10  0
-    14 10 1  1  18 10 14  0
-    9 10 6  1  7 8 14  0
-    10 14 6  1  19 20 2  0
-    8 6 14  1  4 2 20  0
-    12 9 5  1  21 7 15  0
-    6 5 9  1  14 15 7  0
-    5 7 12  1  22 11 10  0
-  tverts 23
+    0 1 2 1 0 0 0 0
+    3 1 4 1 0 0 0 0
+    5 6 7 1 1 2 3 0
+    8 7 6 1 4 3 2 0
+    0 2 9 1 5 6 2 0
+    10 9 2 1 7 2 6 0
+    11 12 7 1 8 9 10 0
+    12 11 13 1 9 8 11 0
+    4 11 8 1 5 12 13 0
+    7 8 11 1 14 13 12 0
+    3 4 14 1 6 5 7 0
+    8 14 4 1 13 7 5 0
+    1 3 14 1 13 8 15 0
+    2 1 10 1 11 13 9 0
+    14 10 1 1 15 9 13 0
+    9 10 6 1 2 7 13 0
+    10 14 6 1 16 17 2 0
+    8 6 14 1 4 2 17 0
+    12 9 5 1 18 2 14 0
+    6 5 9 1 13 14 2 0
+    5 7 12 1 19 10 9 0
+  tverts 20
     0 0 0
-    1.5 1 0
-    1.5 0.5 0
-    2.1 1 0
-    2.1 0.5 0
+    0.5 1 0
+    0.5 0.5 0
+    1.1 1 0
+    1.1 0.5 0
     0.5 0.3 0
     0 0.3 0
-    0.5 0.5 0
     0 0.5 0
     0.8 0.7 0
     0.2 0.5 0
@@ -1523,16 +1494,14 @@ node trimesh Object837
     1 0.3 0
     0.5 0.7 0
     1 0.7 0
-    0 0.3 0
-    0 0.5 0
     0.8 0.5 0
-    1.5 0 0
-    2.1 0 0
+    0.5 0 0
+    1.1 0 0
     1 0.5 0
     0.2 0.3 0
 endnode
-node trimesh Object838
-  parent PLC_X12
+node trimesh object838
+  parent plc_x12
   position 2.30395 4.05902 0.74
   orientation 0 0 -1 -3.14159
   wirecolor 0.105469 0.105469 0.105469
@@ -1540,7 +1509,7 @@ node trimesh Object838
   diffuse 1 1 1
   specular 0.05 0.05 0.05
   shininess 26
-  bitmap TDE01_wall6
+  bitmap tde01_wall6
   verts 6
     0.81 0.2 0.76
     -0.04 0.71 0.76
@@ -1549,10 +1518,10 @@ node trimesh Object838
     0.81 0.2 -0.74
     -0.04 0.71 -0.74
   faces 4
-    0 1 2  1  0 1 2  0
-    2 3 0  1  2 3 0  0
-    4 0 3  1  4 5 6  0
-    2 1 5  1  7 8 9  0
+    0 1 2 1 0 1 2 0
+    2 3 0 1 2 3 0 0
+    4 0 3 1 4 5 6 0
+    2 1 5 1 7 8 9 0
   tverts 10
     0.604135 0.759606 0
     0.355742 0.731305 0
@@ -1565,8 +1534,8 @@ node trimesh Object838
     0.396338 0.727173 0
     0.396338 0.352173 0
 endnode
-node trimesh Object839
-  parent PLC_X12
+node trimesh object839
+  parent plc_x12
   position 1.30395 -0.0209823 1.5
   orientation 0 0 -1 -3.14159
   wirecolor 0.105469 0.105469 0.105469
@@ -1575,9 +1544,9 @@ node trimesh Object839
   specular 0 0 0
   shininess 1
   selfillumcolor 1 1 1
-  bitmap TDE01_lava01
+  bitmap tde01_lava01
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 0
@@ -1588,16 +1557,16 @@ node trimesh Object839
     -0.18 -1.5 -0.5
     -0.18 1.5 -0.5
   faces 2
-    0 1 2  1  0 1 2  0
-    3 2 1  1  3 2 1  0
+    0 1 2 1 0 1 2 0
+    3 2 1 1 3 2 1 0
   tverts 4
     0.875 0.625 0
     0.125 0.625 0
     0.875 0.375 0
     0.125 0.375 0
 endnode
-node trimesh Object840
-  parent PLC_X12
+node trimesh object840
+  parent plc_x12
   position 1.92395 -3.27098 1.5
   orientation 0 0 -1 -3.14159
   wirecolor 0.347656 0.347656 0.347656
@@ -1605,7 +1574,7 @@ node trimesh Object840
   diffuse 1 1 1
   specular 0.05 0.05 0.05
   shininess 26
-  bitmap TDE01_wall9F
+  bitmap tde01_wall9f
   verts 11
     -0.62 0 -1.5
     0.63 -0.75 -1.5
@@ -1619,15 +1588,15 @@ node trimesh Object840
     0.43 0.63 -1.5
     -0.42 0.12 -1.5
   faces 9
-    0 1 2  1  0 1 2  0
-    2 3 0  1  2 3 0  0
-    3 2 4  1  3 2 4  0
-    3 5 6  1  5 6 7  0
-    7 8 5  1  8 9 6  0
-    3 6 0  1  5 7 10  0
-    9 8 7  1  11 12 13  0
-    10 0 6  1  14 10 7  0
-    5 8 6  1  6 9 7  0
+    0 1 2 1 0 1 2 0
+    2 3 0 1 2 3 0 0
+    3 2 4 1 3 2 4 0
+    3 5 6 1 5 6 7 0
+    7 8 5 1 8 9 6 0
+    3 6 0 1 5 7 10 0
+    9 8 7 1 11 12 13 0
+    10 0 6 1 14 10 7 0
+    5 8 6 1 6 9 7 0
   tverts 15
     0.217158 -0.00978148 0
     0.782843 -0.00978154 0
@@ -1640,13 +1609,13 @@ node trimesh Object840
     0.257043 0.000499696 0
     0.333333 0.5 0
     0.742956 0.000499576 0
-    0 2 0
-    2 2 0
-    2 0 0
+    -1 1 0
+    1 1 0
+    1 -1 0
     0.666666 0.000499606 0
 endnode
-node trimesh Object841
-  parent PLC_X12
+node trimesh object841
+  parent plc_x12
   position 1.92395 3.22902 1.5
   orientation 0 0 -1 -3.14159
   wirecolor 0.105469 0.105469 0.105469
@@ -1654,7 +1623,7 @@ node trimesh Object841
   diffuse 1 1 1
   specular 0.05 0.05 0.05
   shininess 26
-  bitmap TDE01_wall9F
+  bitmap tde01_wall9f
   verts 11
     0.63 0.75 -1.5
     -0.62 0 -1.5
@@ -1668,16 +1637,16 @@ node trimesh Object841
     0.43 -0.63 -1.5
     -0.42 -0.12 -1.5
   faces 9
-    0 1 2  1  0 1 2  0
-    3 2 1  1  3 2 1  0
-    2 3 4  1  2 3 4  0
-    5 3 6  1  4 3 5  0
-    7 8 5  1  6 7 4  0
-    6 3 1  1  5 3 1  0
-    7 9 8  1  6 8 7  0
-    1 10 6  1  1 9 5  0
-    7 5 6  1  6 4 5  0
-  tverts 10
+    0 1 2 1 0 1 2 0
+    3 2 1 1 3 2 1 0
+    2 3 4 1 2 3 4 0
+    5 3 6 1 4 3 5 0
+    7 8 5 1 6 0 4 0
+    6 3 1 1 5 3 1 0
+    7 9 8 1 6 7 0 0
+    1 10 6 1 1 8 5 0
+    7 5 6 1 6 4 5 0
+  tverts 9
     0.75 0.00129688 0
     0.25 0.00129697 0
     0.750001 0.801297 0
@@ -1685,12 +1654,11 @@ node trimesh Object841
     0.75 1.2013 0
     0.328502 0.601297 0
     0.671499 0.601297 0
-    0.75 0.00129682 0
     0.671499 0.00129685 0
     0.328502 0.00129694 0
 endnode
-node trimesh Object842
-  parent PLC_X12
+node trimesh object842
+  parent plc_x12
   position 0.67395 -4.52098 1.5
   orientation 0 0 -1 -3.14159
   wirecolor 0.105469 0.105469 0.105469
@@ -1698,23 +1666,23 @@ node trimesh Object842
   diffuse 1 1 1
   specular 0.05 0.05 0.05
   shininess 26
-  bitmap TDE01_wall9E
+  bitmap tde01_wall9e
   verts 4
     -0.62 0.5 -1.5
     -0.62 -0.5 -1.5
     -0.62 -0.5 1.5
     -0.62 0.5 1.5
   faces 2
-    0 1 2  1  0 1 2  0
-    2 3 0  1  2 3 0  0
+    0 1 2 1 0 1 2 0
+    2 3 0 1 2 3 0 0
   tverts 4
     0.3 0.00128329 0
     0.7 0.0012832 0
     0.7 1.00143 0
     0.3 1.00143 0
 endnode
-node trimesh Object843
-  parent PLC_X12
+node trimesh object843
+  parent plc_x12
   position 0.67395 4.47902 1.5
   orientation 0 0 -1 -3.14159
   wirecolor 0.582031 0.582031 0.582031
@@ -1722,23 +1690,23 @@ node trimesh Object843
   diffuse 1 1 1
   specular 0.05 0.05 0.05
   shininess 26
-  bitmap TDE01_wall9E
+  bitmap tde01_wall9e
   verts 4
     -0.62 0.5 -1.5
     -0.62 -0.5 -1.5
     -0.62 -0.5 1.5
     -0.62 0.5 1.5
   faces 2
-    0 1 2  1  0 1 2  0
-    2 3 0  1  2 3 0  0
+    0 1 2 1 0 1 2 0
+    2 3 0 1 2 3 0 0
   tverts 4
     0.3 0.00128329 0
     0.7 0.0012832 0
     0.7 1.00143 0
     0.3 1.00143 0
 endnode
-node trimesh Object844
-  parent PLC_X12
+node trimesh object844
+  parent plc_x12
   position 2.15395 -4.20098 0.74
   orientation 0 0 -1 -3.14159
   wirecolor 0.105469 0.105469 0.105469
@@ -1746,7 +1714,7 @@ node trimesh Object844
   diffuse 1 1 1
   specular 0.05 0.05 0.05
   shininess 26
-  bitmap TDE01_wall6
+  bitmap tde01_wall6
   verts 6
     -0.19 -0.81 0.76
     0.66 -0.3 0.76
@@ -1755,10 +1723,10 @@ node trimesh Object844
     -0.19 -0.81 -0.74
     0.66 -0.3 -0.74
   faces 4
-    0 1 2  1  0 1 2  0
-    2 3 0  1  2 3 0  0
-    4 0 3  1  4 5 6  0
-    2 1 5  1  7 8 9  0
+    0 1 2 1 0 1 2 0
+    2 3 0 1 2 3 0 0
+    4 0 3 1 4 5 6 0
+    2 1 5 1 7 8 9 0
   tverts 10
     0.604135 0.759606 0
     0.355742 0.731305 0
@@ -1771,8 +1739,8 @@ node trimesh Object844
     0.396338 0.727173 0
     0.396338 0.352173 0
 endnode
-node trimesh Object845
-  parent PLC_X12
+node trimesh object845
+  parent plc_x12
   position 1.30395 -0.0209823 1.5
   orientation 0 0 -1 -3.14159
   wirecolor 0.582031 0.582031 0.582031
@@ -1781,9 +1749,9 @@ node trimesh Object845
   specular 0 0 0
   shininess 1
   selfillumcolor 1 1 1
-  bitmap TDE01_lava01
+  bitmap tde01_lava01
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 0
   tilefade 0
@@ -1794,16 +1762,16 @@ node trimesh Object845
     -0.18 -1.5 -0.5
     -0.18 1.5 -0.5
   faces 2
-    0 1 2  1  0 1 2  0
-    3 2 1  1  3 2 1  0
+    0 1 2 1 0 1 2 0
+    3 2 1 1 3 2 1 0
   tverts 4
     0.875 0.625 0
     0.125 0.625 0
     0.875 0.375 0
     0.125 0.375 0
 endnode
-node trimesh Object846
-  parent PLC_X12
+node trimesh object846
+  parent plc_x12
   position 2.12395 -0.0209822 1.5
   orientation 0 0 -1 -3.14159
   wirecolor 0.898438 0.898438 0.898438
@@ -1811,9 +1779,9 @@ node trimesh Object846
   diffuse 1 1 1
   specular 0.05 0.05 0.05
   shininess 26
-  bitmap TDE01_grate
+  bitmap tde01_grate
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 0
@@ -1824,77 +1792,77 @@ node trimesh Object846
     -0.18 -1.5 -0.5
     -0.18 1.5 -0.5
   faces 2
-    0 1 2  1  0 1 2  0
-    3 2 1  1  3 2 1  0
+    0 1 2 1 0 1 2 0
+    3 2 1 1 3 2 1 0
   tverts 4
     2 1 0
     -1 1 0
     2 0 0
     -1 0 0
 endnode
-node light TDE01_A02_01ml1
-  parent PLC_X12
+node light tde01_a02_01ml1
+  parent plc_x12
   position -3.72751 0 5
   orientation 0 0 0 0
   wirecolor 0.347656 0.347656 0.347656
-    radius 14
-    multiplier 1
-    color 0 0 0
-    ambientOnly 0
-    nDynamicType 0
-    affectDynamic 1
-    shadow 0
-    lightpriority 5
-    lensflares 0
-    fadingLight 1
+  radius 14
+  multiplier 1
+  color 0 0 0
+  ambientonly 0
+  nDynamicType 0
+  affectdynamic 1
+  shadow 0
+  lightpriority 5
+  lensflares 0
+  fadinglight 1
 endnode
-node light TDE01_A02_01ml2
-  parent PLC_X12
+node light tde01_a02_01ml2
+  parent plc_x12
   position -2.64396 4.47307 4
   orientation 0 0 0 0
   wirecolor 0.347656 0.347656 0.347656
-    radius 5
-    multiplier 1
-    color 0.00392157 0.00392157 0.00392157
-    ambientOnly 0
-    nDynamicType 0
-    affectDynamic 1
-    shadow 0
-    lightpriority 5
-    lensflares 0
-    fadingLight 1
+  radius 5
+  multiplier 1
+  color 0.00392157 0.00392157 0.00392157
+  ambientonly 0
+  nDynamicType 0
+  affectdynamic 1
+  shadow 0
+  lightpriority 5
+  lensflares 0
+  fadinglight 1
 endnode
-node light TDE01_A02_01ml03
-  parent PLC_X12
+node light tde01_a02_01ml03
+  parent plc_x12
   position 3.79395 -0.0209818 5
   orientation 0 0 -1 -3.14159
   wirecolor 0.347656 0.347656 0.347656
-    radius 14
-    multiplier 1
-    color 0 0 0
-    ambientOnly 0
-    nDynamicType 0
-    affectDynamic 1
-    shadow 0
-    lightpriority 5
-    lensflares 0
-    fadingLight 1
+  radius 14
+  multiplier 1
+  color 0 0 0
+  ambientonly 0
+  nDynamicType 0
+  affectdynamic 1
+  shadow 0
+  lightpriority 5
+  lensflares 0
+  fadinglight 1
 endnode
-node light TDE01_A02_01ml04
-  parent PLC_X12
+node light tde01_a02_01ml04
+  parent plc_x12
   position 2.7104 -4.49405 4
   orientation 0 0 -1 -3.14159
   wirecolor 0.347656 0.347656 0.347656
-    radius 5
-    multiplier 1
-    color 0.00392157 0.00392157 0.00392157
-    ambientOnly 0
-    nDynamicType 0
-    affectDynamic 1
-    shadow 0
-    lightpriority 5
-    lensflares 0
-    fadingLight 1
+  radius 5
+  multiplier 1
+  color 0.00392157 0.00392157 0.00392157
+  ambientonly 0
+  nDynamicType 0
+  affectdynamic 1
+  shadow 0
+  lightpriority 5
+  lensflares 0
+  fadinglight 1
 endnode
-endmodelgeom PLC_X12
-donemodel PLC_X12
+endmodelgeom plc_x12
+donemodel plc_x12

@@ -1,18 +1,16 @@
-#Exported from 3ds max by MDL Plug-in Suite 1.0b
-#http://www.bricksbuilder.com/nwn/utils/
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 18:35:06 2019
 #MAXMODEL ASCII
-# model: goldpile8
-filedependancy Unknown
+filedependency Unknown
 newmodel goldpile8
-setsupermodel goldpile8 NULL
-classification Character
-setanimationscale 1.0
-#MAXGEOM  ASCII
+  classification CHARACTER
+  setsupermodel goldpile8 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
 beginmodelgeom goldpile8
 node dummy goldpile8
   parent NULL
 endnode
-node trimesh Cylinder120
+node trimesh cylinder120
   parent goldpile8
   position 3.16614 6.61836 0.223447
   orientation 0 0 0 0
@@ -40,34 +38,34 @@ node trimesh Cylinder120
     -3.41287 -6.5661 -0.203902
     -3.08019 3.50576 -0.203902
   faces 20
-    0 1 2  1  0 3 2  0
-    2 3 4  1  0 3 2  0
-    14 6 3  1  2 1 0  0
-    3 7 5  1  2 1 0  0
-    13 9 1  1  2 1 0  0
-    1 0 8  1  0 3 2  0
-    10 5 7  1  0 3 2  0
-    10 11 9  1  2 1 0  0
-    12 8 0  1  2 1 0  0
-    4 3 6  1  0 3 2  0
-    2 11 7  1  2 1 0  0
-    3 2 7  1  0 3 2  0
-    2 1 11  1  0 3 2  0
-    11 1 9  1  0 3 2  0
-    11 10 7  1  2 1 0  0
-    4 12 0  1  2 1 0  0
-    12 4 6  1  0 3 2  0
-    2 4 0  1  2 1 0  0
-    8 13 1  1  2 1 0  0
-    5 14 3  1  2 1 0  0
+    0 1 2 1 0 3 2 0
+    2 3 4 1 0 3 2 0
+    14 6 3 1 2 1 0 0
+    3 7 5 1 2 1 0 0
+    13 9 1 1 2 1 0 0
+    1 0 8 1 0 3 2 0
+    10 5 7 1 0 3 2 0
+    10 11 9 1 2 1 0 0
+    12 8 0 1 2 1 0 0
+    4 3 6 1 0 3 2 0
+    2 11 7 1 2 1 0 0
+    3 2 7 1 0 3 2 0
+    2 1 11 1 0 3 2 0
+    11 1 9 1 0 3 2 0
+    11 10 7 1 2 1 0 0
+    4 12 0 1 2 1 0 0
+    12 4 6 1 0 3 2 0
+    2 4 0 1 2 1 0 0
+    8 13 1 1 2 1 0 0
+    5 14 3 1 2 1 0 0
   tverts 4
     0 0 0
     0 1 0
     1 1 0
     1 0 0
 endnode
-node trimesh Sphere06
-  parent Cylinder120
+node trimesh sphere06
+  parent cylinder120
   position -3.16614 0.503538 -0.14409
   orientation 0 0 0 0
   wirecolor 0.347656 0.347656 0.347656
@@ -75,7 +73,7 @@ node trimesh Sphere06
   diffuse 1 1 1
   specular 0.79 0.79 0.79
   shininess 26
-  bitmap GI_000
+  bitmap gi_000
   verts 15
     0.329122 0.636895 0.0502882
     0.39899 0.595099 0.0179215
@@ -93,18 +91,18 @@ node trimesh Sphere06
     0.511854 0.697974 0.0141974
     0.452327 0.802896 0.00258381
   faces 12
-    0 1 2  1  0 1 2  2
-    0 2 3  1  0 2 3  2
-    0 3 4  1  0 3 4  2
-    0 4 1  1  0 4 1  2
-    5 6 7  1  5 6 7  2
-    5 7 8  1  5 7 8  2
-    5 8 9  1  5 8 9  2
-    5 9 6  1  5 9 6  2
-    10 11 12  1  10 11 12  2
-    10 12 13  1  10 12 13  2
-    10 13 14  1  10 13 14  2
-    10 14 11  1  10 14 11  2
+    0 1 2 1 0 1 2 2
+    0 2 3 1 0 2 3 2
+    0 3 4 1 0 3 4 2
+    0 4 1 1 0 4 1 2
+    5 6 7 1 5 6 7 2
+    5 7 8 1 5 7 8 2
+    5 8 9 1 5 8 9 2
+    5 9 6 1 5 9 6 2
+    10 11 12 1 10 11 12 2
+    10 12 13 1 10 12 13 2
+    10 13 14 1 10 13 14 2
+    10 14 11 1 10 14 11 2
   tverts 15
     0.606884 0.375121 0
     0.618221 0.292711 0
@@ -122,8 +120,8 @@ node trimesh Sphere06
     0.516579 0.154941 0
     0.614946 0.064294 0
 endnode
-node trimesh Sphere01
-  parent Cylinder120
+node trimesh sphere01
+  parent cylinder120
   position -3.16614 0.836786 -0.0548286
   orientation 0.97573 0.0346229 0.216221 -0.593087
   wirecolor 0.347656 0.347656 0.347656
@@ -131,7 +129,7 @@ node trimesh Sphere01
   diffuse 1 1 1
   specular 0.79 0.79 0.79
   shininess 26
-  bitmap GI_000
+  bitmap gi_000
   verts 15
     0.328752 0.409296 0.0783403
     0.398542 0.382436 0.0279187
@@ -149,18 +147,18 @@ node trimesh Sphere01
     0.511279 0.448548 0.0221172
     0.451819 0.515975 0.00402526
   faces 12
-    0 1 2  1  0 1 2  2
-    0 2 3  1  0 2 3  2
-    0 3 4  1  0 3 4  2
-    0 4 1  1  0 4 1  2
-    5 6 7  1  5 6 7  2
-    5 7 8  1  5 7 8  2
-    5 8 9  1  5 8 9  2
-    5 9 6  1  5 9 6  2
-    10 11 12  1  10 11 12  2
-    10 12 13  1  10 12 13  2
-    10 13 14  1  10 13 14  2
-    10 14 11  1  10 14 11  2
+    0 1 2 1 0 1 2 2
+    0 2 3 1 0 2 3 2
+    0 3 4 1 0 3 4 2
+    0 4 1 1 0 4 1 2
+    5 6 7 1 5 6 7 2
+    5 7 8 1 5 7 8 2
+    5 8 9 1 5 8 9 2
+    5 9 6 1 5 9 6 2
+    10 11 12 1 10 11 12 2
+    10 12 13 1 10 12 13 2
+    10 13 14 1 10 13 14 2
+    10 14 11 1 10 14 11 2
   tverts 15
     0.606884 0.375121 0
     0.618221 0.292711 0
@@ -178,8 +176,8 @@ node trimesh Sphere01
     0.516579 0.154941 0
     0.614946 0.064294 0
 endnode
-node trimesh Sphere02
-  parent Cylinder120
+node trimesh sphere02
+  parent cylinder120
   position -8.05028 -3.16971 -0.0548286
   orientation 0.97573 0.0346229 0.216221 -0.593087
   wirecolor 0.347656 0.347656 0.347656
@@ -187,7 +185,7 @@ node trimesh Sphere02
   diffuse 1 1 1
   specular 0.79 0.79 0.79
   shininess 26
-  bitmap GI_000
+  bitmap gi_000
   verts 15
     0.328752 0.409296 0.0783401
     0.398542 0.382436 0.0279185
@@ -205,18 +203,18 @@ node trimesh Sphere02
     0.511279 0.448548 0.022117
     0.451819 0.515975 0.00402506
   faces 12
-    0 1 2  1  0 1 2  2
-    0 2 3  1  0 2 3  2
-    0 3 4  1  0 3 4  2
-    0 4 1  1  0 4 1  2
-    5 6 7  1  5 6 7  2
-    5 7 8  1  5 7 8  2
-    5 8 9  1  5 8 9  2
-    5 9 6  1  5 9 6  2
-    10 11 12  1  10 11 12  2
-    10 12 13  1  10 12 13  2
-    10 13 14  1  10 13 14  2
-    10 14 11  1  10 14 11  2
+    0 1 2 1 0 1 2 2
+    0 2 3 1 0 2 3 2
+    0 3 4 1 0 3 4 2
+    0 4 1 1 0 4 1 2
+    5 6 7 1 5 6 7 2
+    5 7 8 1 5 7 8 2
+    5 8 9 1 5 8 9 2
+    5 9 6 1 5 9 6 2
+    10 11 12 1 10 11 12 2
+    10 12 13 1 10 12 13 2
+    10 13 14 1 10 13 14 2
+    10 14 11 1 10 14 11 2
   tverts 15
     0.606884 0.375121 0
     0.618221 0.292711 0
@@ -234,8 +232,8 @@ node trimesh Sphere02
     0.516579 0.154941 0
     0.614946 0.064294 0
 endnode
-node trimesh Sphere03
-  parent Cylinder120
+node trimesh sphere03
+  parent cylinder120
   position -5.37066 -4.45409 0.158322
   orientation 0.97573 0.0346229 0.216221 -0.593087
   wirecolor 0.34375 0.34375 0.34375
@@ -243,7 +241,7 @@ node trimesh Sphere03
   diffuse 1 1 1
   specular 0.79 0.79 0.79
   shininess 26
-  bitmap GI_000
+  bitmap gi_000
   verts 15
     0.328752 0.409296 0.0783401
     0.398542 0.382436 0.0279185
@@ -261,18 +259,18 @@ node trimesh Sphere03
     0.511279 0.448548 0.022117
     0.451819 0.515975 0.00402511
   faces 12
-    0 1 2  1  0 1 2  2
-    0 2 3  1  0 2 3  2
-    0 3 4  1  0 3 4  2
-    0 4 1  1  0 4 1  2
-    5 6 7  1  5 6 7  2
-    5 7 8  1  5 7 8  2
-    5 8 9  1  5 8 9  2
-    5 9 6  1  5 9 6  2
-    10 11 12  1  10 11 12  2
-    10 12 13  1  10 12 13  2
-    10 13 14  1  10 13 14  2
-    10 14 11  1  10 14 11  2
+    0 1 2 1 0 1 2 2
+    0 2 3 1 0 2 3 2
+    0 3 4 1 0 3 4 2
+    0 4 1 1 0 4 1 2
+    5 6 7 1 5 6 7 2
+    5 7 8 1 5 7 8 2
+    5 8 9 1 5 8 9 2
+    5 9 6 1 5 9 6 2
+    10 11 12 1 10 11 12 2
+    10 12 13 1 10 12 13 2
+    10 13 14 1 10 13 14 2
+    10 14 11 1 10 14 11 2
   tverts 15
     0.606884 0.375121 0
     0.618221 0.292711 0

@@ -1,18 +1,16 @@
-#Exported from 3ds max by MDL Plug-in Suite 1.0b
-#http://www.bricksbuilder.com/nwn/utils/
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 18:40:55 2019
 #MAXMODEL ASCII
-# model: plc_tn1_99
-filedependancy Unknown
+filedependency Unknown
 newmodel plc_tn1_99
-setsupermodel plc_tn1_99 NULL
-classification Character
-setanimationscale 1.0
-#MAXGEOM  ASCII
+  classification CHARACTER
+  setsupermodel plc_tn1_99 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
 beginmodelgeom plc_tn1_99
 node dummy plc_tn1_99
   parent NULL
 endnode
-node trimesh Plane42
+node trimesh plane42
   parent plc_tn1_99
   position 0.0508149 -0.0301497 0.151691
   orientation 0 0 0 0
@@ -23,7 +21,7 @@ node trimesh Plane42
   shininess 10
   bitmap bramble_03
   render 1
-  Shadow 0
+  shadow 0
   beaming 0
   transparencyhint 1
   tilefade 0
@@ -38,16 +36,16 @@ node trimesh Plane42
     -0.0678227 0.920245 0.343629
     -0.203468 2.76073 0
   faces 10
-    2 0 3  1  2 0 3  0
-    1 3 0  1  1 3 0  0
-    4 0 5  1  4 0 5  0
-    2 5 0  1  2 5 0  0
-    5 2 6  1  5 2 6  0
-    3 6 2  1  3 6 2  0
-    6 3 7  1  6 3 7  0
-    1 7 3  1  1 7 3  0
-    4 5 7  1  4 5 7  0
-    6 7 5  1  6 7 5  0
+    2 0 3 1 2 0 3 0
+    1 3 0 1 1 3 0 0
+    4 0 5 1 4 0 5 0
+    2 5 0 1 2 5 0 0
+    5 2 6 1 5 2 6 0
+    3 6 2 1 3 6 2 0
+    6 3 7 1 6 3 7 0
+    1 7 3 1 1 7 3 0
+    4 5 7 1 4 5 7 0
+    6 7 5 1 6 7 5 0
   tverts 8
     0.000499547 0.000499785 0
     0.9995 0.000499547 0

@@ -1,40 +1,35 @@
-# Exported from NWmax 0.5-beta at 2/17/2004 10:19:34 PM
-# mdl file
-#
-#NWmaxMODEL ASCII
-# model: ori_o04
-filedependancy Unknown
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 18:35:29 2019
+#MAXMODEL ASCII
+filedependency Unknown
 newmodel ori_o04
-setsupermodel ori_o04 NULL
-classification Character
-setanimationscale 1.0
-#NWmaxGEOM  ASCII
+  classification CHARACTER
+  setsupermodel ori_o04 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
 beginmodelgeom ori_o04
 node dummy ori_o04
   parent NULL
 endnode
 node trimesh top01
   parent ori_o04
-  position -0.108226 0.0 0.0449232
-  orientation 0.0 0.0 1.0 -1.5708
-  wirecolor 0.337255 0.87451 0.556863 
+  position -0.108226 0 0.0449232
+  orientation 0 0 1 -1.5708
+  wirecolor 0.337255 0.87451 0.556863
   tilefade 0
-  scale 1.0
+  scale 1
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   inheritcolor 0
-  selfillumcolor 0.0 0.0 0.0 
   rotatetexture 0
-  alpha 1.0
+  alpha 1
   transparencyhint 0
   center undefined
-  gizmo SubAnim:Gizmo
-  ambient 0.0 0.0 0.0 
-  diffuse 0.588 0.588 0.588 
-  specular 0.0 0.0 0.0 
-  shininess 12.0
-  selfillumcolor 0.0 0.0 0.0 
+  ambient 0 0 0
+  diffuse 0.588 0.588 0.588
+  specular 0 0 0
+  shininess 12
+  selfillumcolor 0 0 0
   bitmap mahogany2
   verts 4
     -0.279997 -0.711775 1.67508
@@ -42,8 +37,8 @@ node trimesh top01
     0.219997 0.908227 1.67508
     -0.280003 0.908225 1.67508
   faces 2
-    0 1 2  4  0 1 2  1
-    2 3 0  4  2 3 0  1
+    0 1 2 4 0 1 2 1
+    2 3 0 4 2 3 0 1
   tverts 4
     0.00220835 0.997294 0
     0.997838 0.997295 0
@@ -52,26 +47,24 @@ node trimesh top01
 endnode
 node trimesh left01
   parent top01
-  position 0.0 0.0 0.0
-  orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.337255 0.87451 0.556863 
+  orientation 0 0 0 0
+  position 0 0 0
+  wirecolor 0.337255 0.87451 0.556863
   tilefade 0
-  scale 1.0
+  scale 1
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   inheritcolor 0
-  selfillumcolor 0.0 0.0 0.0 
   rotatetexture 0
-  alpha 1.0
+  alpha 1
   transparencyhint 0
   center undefined
-  gizmo SubAnim:Gizmo
-  ambient 0.0 0.0 0.0 
-  diffuse 0.588 0.588 0.588 
-  specular 0.0 0.0 0.0 
-  shininess 12.0
-  selfillumcolor 0.0 0.0 0.0 
+  ambient 0 0 0
+  diffuse 0.588 0.588 0.588
+  specular 0 0 0
+  shininess 12
+  selfillumcolor 0 0 0
   bitmap mahogany2
   verts 4
     -0.279997 -0.711775 -0.0049232
@@ -79,8 +72,8 @@ node trimesh left01
     0.220003 -0.711773 1.67508
     -0.279997 -0.711775 1.67508
   faces 2
-    0 1 2  8  0 1 2  5
-    2 3 0  8  2 3 0  5
+    0 1 2 8 0 1 2 5
+    2 3 0 8 2 3 0 5
   tverts 4
     0.00220835 0.997294 0
     0.997838 0.997295 0
@@ -90,25 +83,23 @@ endnode
 node trimesh lowerleftlower01
   parent top01
   position 0.0209985 0.246841 0.83776
-  orientation 0.0 -1.0 0.0 -1.5708
-  wirecolor 0.694118 0.101961 0.341176 
+  orientation 0 -1 0 -1.5708
+  wirecolor 0.694118 0.101961 0.341176
   tilefade 0
-  scale 1.0
+  scale 1
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   inheritcolor 0
-  selfillumcolor 0.0 0.0 0.0 
   rotatetexture 0
-  alpha 1.0
+  alpha 1
   transparencyhint 0
   center undefined
-  gizmo SubAnim:Gizmo
-  ambient 0.0 0.0 0.0 
-  diffuse 0.588 0.588 0.588 
-  specular 0.0 0.0 0.0 
-  shininess 12.0
-  selfillumcolor 0.0 0.0 0.0 
+  ambient 0 0 0
+  diffuse 0.588 0.588 0.588
+  specular 0 0 0
+  shininess 12
+  selfillumcolor 0 0 0
   bitmap katanadansu
   verts 4
     0.502682 -0.958614 0.189006
@@ -116,8 +107,8 @@ node trimesh lowerleftlower01
     0.512682 0.261386 0.189002
     0.842682 0.261386 0.189003
   faces 2
-    2 0 3  1  2 0 3  1
-    1 3 0  1  1 3 0  1
+    2 0 3 1 2 0 3 1
+    1 3 0 1 1 3 0 1
   tverts 4
     0.445221 0.389927 0
     0.444365 0.267621 0
@@ -127,25 +118,23 @@ endnode
 node trimesh lowerleftmid01
   parent top01
   position 0.0209985 0.246841 0.83776
-  orientation 0.0 -1.0 0.0 -1.5708
-  wirecolor 0.694118 0.101961 0.341176 
+  orientation 0 -1 0 -1.5708
+  wirecolor 0.694118 0.101961 0.341176
   tilefade 0
-  scale 1.0
+  scale 1
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   inheritcolor 0
-  selfillumcolor 0.0 0.0 0.0 
   rotatetexture 0
-  alpha 1.0
+  alpha 1
   transparencyhint 0
   center undefined
-  gizmo SubAnim:Gizmo
-  ambient 0.0 0.0 0.0 
-  diffuse 0.588 0.588 0.588 
-  specular 0.0 0.0 0.0 
-  shininess 12.0
-  selfillumcolor 0.0 0.0 0.0 
+  ambient 0 0 0
+  diffuse 0.588 0.588 0.588
+  specular 0 0 0
+  shininess 12
+  selfillumcolor 0 0 0
   bitmap katanadansu
   verts 4
     0.162682 -0.958614 0.189005
@@ -153,8 +142,8 @@ node trimesh lowerleftmid01
     0.172682 0.261386 0.189
     0.512682 0.261386 0.189002
   faces 2
-    2 0 3  1  2 0 3  1
-    1 3 0  1  1 3 0  1
+    2 0 3 1 2 0 3 1
+    1 3 0 1 1 3 0 1
   tverts 4
     0.445221 0.389927 0
     0.444365 0.267621 0
@@ -164,25 +153,23 @@ endnode
 node trimesh lowerlefttop01
   parent top01
   position 0.0209985 0.246841 0.83776
-  orientation 0.0 -1.0 0.0 -1.5708
-  wirecolor 0.694118 0.101961 0.341176 
+  orientation 0 -1 0 -1.5708
+  wirecolor 0.694118 0.101961 0.341176
   tilefade 0
-  scale 1.0
+  scale 1
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   inheritcolor 0
-  selfillumcolor 0.0 0.0 0.0 
   rotatetexture 0
-  alpha 1.0
+  alpha 1
   transparencyhint 0
   center undefined
-  gizmo SubAnim:Gizmo
-  ambient 0.0 0.0 0.0 
-  diffuse 0.588 0.588 0.588 
-  specular 0.0 0.0 0.0 
-  shininess 12.0
-  selfillumcolor 0.0 0.0 0.0 
+  ambient 0 0 0
+  diffuse 0.588 0.588 0.588
+  specular 0 0 0
+  shininess 12
+  selfillumcolor 0 0 0
   bitmap katanadansu
   verts 4
     -0.167317 -0.958614 0.189003
@@ -190,8 +177,8 @@ node trimesh lowerlefttop01
     -0.157317 0.261386 0.188999
     0.172682 0.261386 0.189
   faces 2
-    2 0 3  1  2 0 3  1
-    1 3 0  1  1 3 0  1
+    2 0 3 1 2 0 3 1
+    1 3 0 1 1 3 0 1
   tverts 4
     0.445221 0.389927 0
     0.444365 0.267621 0
@@ -201,25 +188,23 @@ endnode
 node trimesh lowerright_bottomdrawer01
   parent top01
   position 0.0209985 0.246841 0.83776
-  orientation 0.0 -1.0 0.0 -1.5708
-  wirecolor 0.694118 0.101961 0.341176 
+  orientation 0 -1 0 -1.5708
+  wirecolor 0.694118 0.101961 0.341176
   tilefade 0
-  scale 1.0
+  scale 1
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   inheritcolor 0
-  selfillumcolor 0.0 0.0 0.0 
   rotatetexture 0
-  alpha 1.0
+  alpha 1
   transparencyhint 0
   center undefined
-  gizmo SubAnim:Gizmo
-  ambient 0.0 0.0 0.0 
-  diffuse 0.588 0.588 0.588 
-  specular 0.0 0.0 0.0 
-  shininess 12.0
-  selfillumcolor 0.0 0.0 0.0 
+  ambient 0 0 0
+  diffuse 0.588 0.588 0.588
+  specular 0 0 0
+  shininess 12
+  selfillumcolor 0 0 0
   bitmap katanadansu
   verts 4
     0.592682 0.261386 0.189002
@@ -227,8 +212,8 @@ node trimesh lowerright_bottomdrawer01
     0.592682 0.661386 0.189
     0.842682 0.661386 0.189001
   faces 2
-    2 0 3  1  2 0 3  1
-    1 3 0  1  1 3 0  1
+    2 0 3 1 2 0 3 1
+    1 3 0 1 1 3 0 1
   tverts 4
     0.434401 0.270511 0
     0.433724 0.145181 0
@@ -238,50 +223,43 @@ endnode
 node trimesh front01
   parent top01
   position 0.0209985 0.246841 0.83776
-  orientation 0.0 -1.0 0.0 -1.5708
-  wirecolor 0.694118 0.101961 0.341176 
+  orientation 0 -1 0 -1.5708
+  wirecolor 0.694118 0.101961 0.341176
   tilefade 0
-  scale 1.0
+  scale 1
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   inheritcolor 0
-  selfillumcolor 0.0 0.0 0.0 
   rotatetexture 0
-  alpha 1.0
+  alpha 1
   transparencyhint 0
   center undefined
-  gizmo SubAnim:Gizmo
-  ambient 0.0 0.0 0.0 
-  diffuse 0.588 0.588 0.588 
-  specular 0.0 0.0 0.0 
-  shininess 12.0
-  selfillumcolor 0.0 0.0 0.0 
+  ambient 0 0 0
+  diffuse 0.588 0.588 0.588
+  specular 0 0 0
+  shininess 12
+  selfillumcolor 0 0 0
   bitmap katanadansu
-  verts 14
+  verts 9
     -0.837317 -0.958614 0.189001
     -0.507317 -0.958614 0.189002
     -0.837317 -0.148614 0.188998
     -0.507317 -0.148614 0.188999
     -0.837317 0.661386 0.188995
     -0.507317 0.661386 0.188996
-    -0.507317 -0.958614 0.189002
     -0.157317 -0.958614 0.189003
-    -0.507317 -0.148614 0.188999
     -0.157317 -0.148614 0.189001
-    -0.507317 -0.148614 0.188999
-    -0.157317 -0.148614 0.189001
-    -0.507317 0.661386 0.188996
     -0.157317 0.661386 0.188998
   faces 8
-    2 0 3  1  2 0 3  1
-    1 3 0  1  1 3 0  1
-    4 2 5  1  4 2 5  1
-    3 5 2  1  3 5 2  1
-    8 6 9  1  3 1 7  1
-    7 9 6  1  6 7 1  1
-    12 10 13  1  5 3 8  1
-    11 13 10  1  7 8 3  1
+    2 0 3 1 2 0 3 1
+    1 3 0 1 1 3 0 1
+    4 2 5 1 4 2 5 1
+    3 5 2 1 3 5 2 1
+    3 1 7 1 3 1 7 1
+    6 7 1 1 6 7 1 1
+    5 3 8 1 5 3 8 1
+    7 8 3 1 7 8 3 1
   tverts 9
     0.42447 0.39786 0
     0.425029 0.217968 0
@@ -293,28 +271,26 @@ node trimesh front01
     0.702679 0.00933949 0
     0.994142 0.00946712 0
 endnode
-node trimesh Lowerright_door01
+node trimesh lowerright_door01
   parent top01
   position 0.0209985 0.246841 0.83776
-  orientation 0.0 -1.0 0.0 -1.5708
-  wirecolor 0.694118 0.101961 0.341176 
+  orientation 0 -1 0 -1.5708
+  wirecolor 0.694118 0.101961 0.341176
   tilefade 0
-  scale 1.0
+  scale 1
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   inheritcolor 0
-  selfillumcolor 0.0 0.0 0.0 
   rotatetexture 0
-  alpha 1.0
+  alpha 1
   transparencyhint 0
   center undefined
-  gizmo SubAnim:Gizmo
-  ambient 0.0 0.0 0.0 
-  diffuse 0.588 0.588 0.588 
-  specular 0.0 0.0 0.0 
-  shininess 12.0
-  selfillumcolor 0.0 0.0 0.0 
+  ambient 0 0 0
+  diffuse 0.588 0.588 0.588
+  specular 0 0 0
+  shininess 12
+  selfillumcolor 0 0 0
   bitmap tannsu_doors
   verts 4
     0.142682 0.261386 0.189
@@ -322,8 +298,8 @@ node trimesh Lowerright_door01
     0.142682 0.661386 0.188999
     0.592682 0.661386 0.189
   faces 2
-    2 0 3  1  2 0 3  1
-    1 3 0  1  1 3 0  1
+    2 0 3 1 2 0 3 1
+    1 3 0 1 1 3 0 1
   tverts 4
     0.00635023 0.978674 0
     0.00635008 0.531471 0
@@ -333,25 +309,23 @@ endnode
 node trimesh lower_right_topshelf01
   parent top01
   position 0.0209985 0.246841 0.83776
-  orientation 0.0 -1.0 0.0 -1.5708
-  wirecolor 0.694118 0.101961 0.341176 
+  orientation 0 -1 0 -1.5708
+  wirecolor 0.694118 0.101961 0.341176
   tilefade 0
-  scale 1.0
+  scale 1
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   inheritcolor 0
-  selfillumcolor 0.0 0.0 0.0 
   rotatetexture 0
-  alpha 1.0
+  alpha 1
   transparencyhint 0
   center undefined
-  gizmo SubAnim:Gizmo
-  ambient 0.0 0.0 0.0 
-  diffuse 0.588 0.588 0.588 
-  specular 0.0 0.0 0.0 
-  shininess 12.0
-  selfillumcolor 0.0 0.0 0.0 
+  ambient 0 0 0
+  diffuse 0.588 0.588 0.588
+  specular 0 0 0
+  shininess 12
+  selfillumcolor 0 0 0
   bitmap katanadansu
   verts 4
     -0.157317 0.261386 0.188999
@@ -359,8 +333,8 @@ node trimesh lower_right_topshelf01
     -0.167317 0.661386 0.188998
     0.142682 0.661386 0.188999
   faces 2
-    2 0 3  1  2 0 3  1
-    1 3 0  1  1 3 0  1
+    2 0 3 1 2 0 3 1
+    1 3 0 1 1 3 0 1
   tverts 4
     0.434401 0.270511 0
     0.433724 0.145181 0
@@ -369,26 +343,24 @@ node trimesh lower_right_topshelf01
 endnode
 node trimesh right01
   parent top01
-  position 0.0 0.0 0.0
-  orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.87451 0.337255 0.556863 
+  orientation 0 0 0 0
+  position 0 0 0
+  wirecolor 0.87451 0.337255 0.556863
   tilefade 0
-  scale 1.0
+  scale 1
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   inheritcolor 0
-  selfillumcolor 0.0 0.0 0.0 
   rotatetexture 0
-  alpha 1.0
+  alpha 1
   transparencyhint 0
   center undefined
-  gizmo SubAnim:Gizmo
-  ambient 0.0 0.0 0.0 
-  diffuse 0.588 0.588 0.588 
-  specular 0.0 0.0 0.0 
-  shininess 12.0
-  selfillumcolor 0.0 0.0 0.0 
+  ambient 0 0 0
+  diffuse 0.588 0.588 0.588
+  specular 0 0 0
+  shininess 12
+  selfillumcolor 0 0 0
   bitmap mahogany2
   verts 4
     0.219997 0.908227 -0.0049232
@@ -396,8 +368,8 @@ node trimesh right01
     -0.280003 0.908225 1.67508
     0.219997 0.908227 1.67508
   faces 2
-    0 1 2  32  0 1 2  6
-    2 3 0  32  2 3 0  6
+    0 1 2 32 0 1 2 6
+    2 3 0 32 2 3 0 6
   tverts 4
     0.00220835 0.997294 0
     0.997838 0.997295 0
@@ -406,26 +378,24 @@ node trimesh right01
 endnode
 node trimesh back01
   parent top01
-  position 0.0 0.0 0.0
-  orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.87451 0.337255 0.556863 
+  orientation 0 0 0 0
+  position 0 0 0
+  wirecolor 0.87451 0.337255 0.556863
   tilefade 0
-  scale 1.0
+  scale 1
   render 1
-  Shadow 1
+  shadow 1
   beaming 0
   inheritcolor 0
-  selfillumcolor 0.0 0.0 0.0 
   rotatetexture 0
-  alpha 1.0
+  alpha 1
   transparencyhint 0
   center undefined
-  gizmo SubAnim:Gizmo
-  ambient 0.0 0.0 0.0 
-  diffuse 0.588 0.588 0.588 
-  specular 0.0 0.0 0.0 
-  shininess 12.0
-  selfillumcolor 0.0 0.0 0.0 
+  ambient 0 0 0
+  diffuse 0.588 0.588 0.588
+  specular 0 0 0
+  shininess 12
+  selfillumcolor 0 0 0
   bitmap mahogany2
   verts 4
     -0.280003 0.908225 -0.0049232
@@ -433,8 +403,8 @@ node trimesh back01
     -0.279997 -0.711775 1.67508
     -0.280003 0.908225 1.67508
   faces 2
-    0 1 2  64  0 1 2  3
-    2 3 0  64  2 3 0  3
+    0 1 2 64 0 1 2 3
+    2 3 0 64 2 3 0 3
   tverts 4
     0.00220835 0.997294 0
     0.997838 0.997295 0

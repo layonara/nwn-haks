@@ -1,62 +1,61 @@
-filedependancy Unknown
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 18:40:23 2019
+#MAXMODEL ASCII
+filedependency Unknown
 newmodel plc_pictu03
-setsupermodel plc_pictu03 NULL
-classification Character
-setanimationscale 1.0
+  classification CHARACTER
+  setsupermodel plc_pictu03 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
 beginmodelgeom plc_pictu03
 node dummy plc_pictu03
-    parent NULL
+  parent NULL
 endnode
-node trimesh Box60
-    parent plc_pictu03
-    position -0.055461 0.0203872 2.3
-    orientation 0.0 0.0 1.0 -1.5708
-    scale 1.0
-    shininess 1.000000
-    render 1
-    diffuse 1.0 1.0 1.0
-    ambient 1.0 1.0 1.0
-    specular 0.0 0.0 0.0
-    selfillumcolor 0.0 0.0 0.0
-    alpha 1.0
-    bitmap TIN01_paint04
-    verts 8
-        0.04 -0.24 -0.25
-        0.04 0.35 -0.25
-        0.04 0.35 0.25
-        0.04 -0.24 0.25
-        0.0 -0.24 -0.25
-        0.0 0.35 -0.25
-        0.0 0.35 0.25
-        0.0 -0.24 0.25
-    faces 10
-        0 1 2 1 0 1 2 1
-        2 3 0 1 2 3 0 1
-        4 5 1 1 4 5 6 5
-        1 0 4 1 6 7 4 5
-        5 6 2 1 8 9 10 4
-        2 1 5 1 10 11 8 4
-        6 7 3 1 5 12 13 6
-        3 2 6 1 13 6 5 6
-        7 4 0 1 9 14 15 3
-        0 3 7 1 15 10 9 3
-    tverts 16
-        0.464285 0.534316 0
-        1.02121 0.534316 0
-        1.02121 0.994669 0
-        0.464285 0.99467 0
-        0.00025 -0.035426 0
-        0.49975 -0.035426 0
-        0.49975 0.036502 0
-        0.00025 0.036502 0
-        0.467426 0.00068 0
-        0.467426 0.500181 0
-        0.527589 0.500181 0
-        0.527589 0.00068 0
-        0.00025 -0.035427 0
-        0.00025 0.036502 0
-        0.467426 0.000681 0
-        0.527589 0.000681 0
+node trimesh box60
+  parent plc_pictu03
+  position -0.055461 0.0203872 2.3
+  orientation 0 0 1 -1.5708
+  scale 1
+  shininess 1
+  render 1
+  diffuse 1 1 1
+  ambient 1 1 1
+  specular 0 0 0
+  selfillumcolor 0 0 0
+  alpha 1
+  bitmap tin01_paint04
+  verts 8
+    0.04 -0.24 -0.25
+    0.04 0.35 -0.25
+    0.04 0.35 0.25
+    0.04 -0.24 0.25
+    0 -0.24 -0.25
+    0 0.35 -0.25
+    0 0.35 0.25
+    0 -0.24 0.25
+  faces 10
+    0 1 2 1 0 1 2 1
+    2 3 0 1 2 3 0 1
+    4 5 1 1 4 5 6 5
+    1 0 4 1 6 7 4 5
+    5 6 2 1 8 9 10 4
+    2 1 5 1 10 11 8 4
+    6 7 3 1 5 4 7 6
+    3 2 6 1 7 6 5 6
+    7 4 0 1 9 8 11 3
+    0 3 7 1 11 10 9 3
+  tverts 12
+    0.464285 0.534316 0
+    1.02121 0.534316 0
+    1.02121 0.994669 0
+    0.464285 0.99467 0
+    0.00025 -0.035426 0
+    0.49975 -0.035426 0
+    0.49975 0.036502 0
+    0.00025 0.036502 0
+    0.467426 0.00068 0
+    0.467426 0.500181 0
+    0.527589 0.500181 0
+    0.527589 0.00068 0
 endnode
 endmodelgeom plc_pictu03
 donemodel plc_pictu03
