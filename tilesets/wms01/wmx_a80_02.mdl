@@ -1,9 +1,10 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 19:15:15 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wmx_a80_02
-setsupermodel wmx_a80_02 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wmx_a80_02 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wmx_a80_02
 node dummy wmx_a80_02
@@ -53,10 +54,10 @@ node trimesh box01
     2 0 4 1 2 0 0 2
     4 6 2 1 0 2 2 2
   tverts 4
-    0.748047 0.896484 0
-    4.25195 0.896484 0
-    0.748047 2.10352 0
-    4.25195 2.10352 0
+    -1.25195 -0.103516 0
+    2.25195 -0.103516 0
+    -1.25195 1.10352 0
+    2.25195 1.10352 0
 endnode
 node trimesh box02
   parent wmx_a80_02
@@ -151,10 +152,10 @@ node trimesh box03
     2 0 4 1 1 0 2 2
     4 6 2 1 2 3 1 2
   tverts 4
-    1 0 0
-    0 0 0
-    1 4 0
-    0 4 0
+    1 -2 0
+    0 -2 0
+    1 2 0
+    0 2 0
 endnode
 node trimesh box04
   parent wmx_a80_02
@@ -200,10 +201,10 @@ node trimesh box04
     2 0 4 1 1 0 2 2
     4 6 2 1 2 3 1 2
   tverts 4
-    1 0 0
-    0 0 0
-    1 4 0
-    0 4 0
+    1 -2 0
+    0 -2 0
+    1 2 0
+    0 2 0
 endnode
 node trimesh box05
   parent wmx_a80_02
@@ -249,10 +250,10 @@ node trimesh box05
     2 0 4 1 1 0 2 2
     4 6 2 1 2 3 1 2
   tverts 4
-    1 0 0
-    0 0 0
-    1 4 0
-    0 4 0
+    1 -2 0
+    0 -2 0
+    1 2 0
+    0 2 0
 endnode
 node trimesh box06
   parent wmx_a80_02
@@ -271,7 +272,7 @@ node trimesh box06
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center -5.05e-005 8.00475 -33.7755
+  center -5.05e-05 8.00475 -33.7755
   bitmap wmx10_oldwood3
   shadow 0
   position 0.13 0.48 12.29
@@ -298,10 +299,10 @@ node trimesh box06
     2 0 4 1 1 0 2 2
     4 6 2 1 2 3 1 2
   tverts 4
-    1 0 0
-    0 0 0
-    1 4 0
-    0 4 0
+    1 -2 0
+    0 -2 0
+    1 2 0
+    0 2 0
 endnode
 node trimesh box07
   parent wmx_a80_02
@@ -320,7 +321,7 @@ node trimesh box07
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center -5.05e-005 8.00475 -33.7755
+  center -5.05e-05 8.00475 -33.7755
   bitmap wmx10_oldwood3
   shadow 0
   position 0.13 1.02 12.29
@@ -347,10 +348,10 @@ node trimesh box07
     2 0 4 1 1 0 2 2
     4 6 2 1 2 3 1 2
   tverts 4
-    1 0 0
-    0 0 0
-    1 4 0
-    0 4 0
+    1 -2 0
+    0 -2 0
+    1 2 0
+    0 2 0
 endnode
 node trimesh box08
   parent wmx_a80_02
@@ -370,7 +371,7 @@ node trimesh box08
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 0 4.96e-005 350.422
+  center 0 4.96e-05 350.422
   bitmap wmx10_oldwood3
   position 3.14 -2.63 12.19
   verts 20
@@ -455,7 +456,7 @@ node trimesh box09
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 0 4.96e-005 214.053
+  center 0 4.96e-05 214.053
   bitmap wmx10_oldwood3
   position 3.14 2.54 14.94
   verts 20
@@ -540,7 +541,7 @@ node trimesh box10
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 0 4.96e-005 214.053
+  center 0 4.96e-05 214.053
   bitmap wmx10_oldwood3
   position -3.13 2.54 14.94
   verts 20
@@ -625,7 +626,7 @@ node trimesh box11
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 0 4.96e-005 350.422
+  center 0 4.96e-05 350.422
   bitmap wmx10_oldwood3
   position -3.13 -2.63 12.19
   verts 20
@@ -710,7 +711,7 @@ node trimesh box12
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 0 4.96e-005 350.422
+  center 0 4.96e-05 350.422
   bitmap wmx10_oldwood3
   position -1.63 -2.63 12.19
   verts 20
@@ -795,7 +796,7 @@ node trimesh box13
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 0 4.96e-005 350.422
+  center 0 4.96e-05 350.422
   bitmap wmx10_oldwood3
   position 1.63 -2.63 12.19
   verts 20
@@ -879,7 +880,7 @@ node trimesh box14
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center -0.000285 4.96e-005 324.598
+  center -0.000285 4.96e-05 324.598
   bitmap wmx10_oldwood3
   shadow 0
   position -3.26 2.54 19.23
@@ -964,7 +965,7 @@ node trimesh box15
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center -0.000115 4.96e-005 260.035
+  center -0.000115 4.96e-05 260.035
   bitmap wmx10_oldwood3
   shadow 0
   position -3.26 2.54 19.23
@@ -1049,7 +1050,7 @@ node trimesh box16
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 0.00026 -4.96e-005 260.035
+  center 0.00026 -4.96e-05 260.035
   bitmap wmx10_oldwood3
   shadow 0
   position 2.99 -2.46 19.23
@@ -1134,7 +1135,7 @@ node trimesh box17
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center -0.0003401 -4.96e-005 324.598
+  center -0.0003401 -4.96e-05 324.598
   bitmap wmx10_oldwood3
   shadow 0
   position 2.99 -2.46 19.23
@@ -1219,7 +1220,7 @@ node trimesh box18
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center -2e-005 0 324.598
+  center -2e-05 0 324.598
   bitmap wmx10_oldwood3
   shadow 0
   position 2.99 -0.04 19.23
@@ -1389,7 +1390,7 @@ node trimesh box20
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 1.5e-005 4.96e-005 260.035
+  center 1.5e-05 4.96e-05 260.035
   bitmap wmx10_oldwood3
   shadow 0
   position 3.45 -3.41 14.28
@@ -1474,7 +1475,7 @@ node trimesh box21
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 2.49e-005 4.96e-005 260.035
+  center 2.49e-05 4.96e-05 260.035
   bitmap wmx10_oldwood3
   shadow 0
   position -3.31 -3.21 14.28
@@ -1559,7 +1560,7 @@ node trimesh box22
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center -9.9e-006 -4.96e-005 273.326
+  center -9.9e-06 -4.96e-05 273.326
   bitmap wmx10_oldwood3
   shadow 0
   position 3.35 -2.78 15.93
@@ -1644,7 +1645,7 @@ node trimesh box23
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 3.99e-005 4.96e-005 323.875
+  center 3.99e-05 4.96e-05 323.875
   bitmap wmx10_oldwood3
   shadow 0
   position 3.26 2.73 15.93
@@ -1729,7 +1730,7 @@ node trimesh box24
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center -3e-005 4.96e-005 273.326
+  center -3e-05 4.96e-05 273.326
   bitmap wmx10_oldwood3
   shadow 0
   position -3.33 -2.78 15.93
@@ -1814,7 +1815,7 @@ node trimesh box25
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 2.49e-005 -4.96e-005 94.1725
+  center 2.49e-05 -4.96e-05 94.1725
   bitmap wmx10_oldwood3
   shadow 0
   position -1.42 -2.85 15.93
@@ -1899,7 +1900,7 @@ node trimesh box26
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 1.5e-005 4.96e-005 94.1725
+  center 1.5e-05 4.96e-05 94.1725
   bitmap wmx10_oldwood3
   shadow 0
   position 3.31 -2.85 15.93
@@ -1974,7 +1975,7 @@ node light wmx_a80_02ml1
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 1
@@ -1989,7 +1990,7 @@ node light wmx_a80_02ml2
   multiplier 1
   color 0.0039216 0.0039216 0.0039216
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 1
@@ -2007,6 +2008,8 @@ node aabb plane01
   orientation 0 0 0 0
   bitmap NULL
   position 0 0 0
+  render 0
+  shadow 0
   verts 63
     -5 -5 15
     -1.35 -5 15
@@ -2399,17 +2402,17 @@ node trimesh pyramid01
     0 3 4 1 0 3 4 65536
     0 4 1 1 5 7 6 65536
   tverts 11
-    1.5 1.5 0
-    0.00195313 0.00195313 0
-    2.99805 0.00195313 0
-    2.99805 2.99805 0
-    0.00195313 2.99805 0
-    1.5 2.58398 0
-    2.48047 0.720703 0
-    0.519531 0.720703 0
-    1.5 2.57227 0
-    0.529297 0.726563 0
-    2.4707 0.726563 0
+    0.5 0.5 0
+    -0.998047 -0.998047 0
+    1.99805 -0.998047 0
+    1.99805 1.99805 0
+    -0.998047 1.99805 0
+    0.5 1.58398 0
+    1.48047 -0.279297 0
+    -0.480469 -0.279297 0
+    0.5 1.57227 0
+    -0.470703 -0.273437 0
+    1.4707 -0.273437 0
 endnode
 node trimesh pyramid02
   parent wmx_a80_02
@@ -2444,11 +2447,11 @@ node trimesh pyramid02
     3 0 4 1 3 0 4 65536
     4 0 1 1 4 0 1 65536
   tverts 5
-    1.5 1.5 0
-    0.00195313 0.00195313 0
-    2.99805 0.00195313 0
-    2.99805 2.99805 0
-    0.00195313 2.99805 0
+    0.5 0.5 0
+    -0.998047 -0.998047 0
+    1.99805 -0.998047 0
+    1.99805 1.99805 0
+    -0.998047 1.99805 0
 endnode
 node trimesh tsh01_
   parent wmx_a80_02

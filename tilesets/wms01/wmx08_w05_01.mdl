@@ -1,54 +1,14 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 19:22:00 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wmx08_w05_01
-setsupermodel wmx08_w05_01 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wmx08_w05_01 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wmx08_w05_01
 node dummy wmx08_w05_01
   parent NULL
-endnode
-node dummy wmx08_w05_01a
-  parent wmx08_w05_01
-  orientation 0 0 0 0
-  wirecolor 1 0 0
-  position 0 0 0
-endnode
-node trimesh plane287
-  parent wmx08_w05_01a
-  orientation 0 0 0 0
-  wirecolor 0.890196 0.890196 0.890196
-  tilefade 0
-  scale 1
-  render 1
-  beaming 0
-  inheritcolor 0
-  alpha 1
-  transparencyhint 1
-  selfillumcolor 0 0 0
-  ambient 1 1 1
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 1
-  center 300 0 0
-  bitmap wmx01_waterxx
-  rotatetexture 1
-  shadow 0
-  position -1.5 -1.5 -1
-  verts 4
-    -0.5 3.5 0
-    -0.5 -3.5 0
-    6.5 3.5 0
-    6.5 -3.5 0
-  faces 2
-    0 1 2 1 0 1 2 65536
-    3 2 1 1 3 2 1 65536
-  tverts 4
-    0 1 0
-    0 0 0
-    1 1 0
-    1 0 0
 endnode
 node light wmx08_w05_01ml2
   parent wmx08_w05_01
@@ -58,7 +18,7 @@ node light wmx08_w05_01ml2
   multiplier 1
   color 0.0039216 0.0039216 0.0039216
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 1
@@ -103,14 +63,14 @@ node trimesh line336
     6 4 7 1 6 4 7 65536
     7 4 5 1 7 4 5 65536
   tverts 8
-    2 0.0507813 0
-    3 0.0507813 0
-    2 0.449219 0
-    3 0.449219 0
     1 0.0507813 0
+    2 0.0507813 0
     1 0.449219 0
-    0.498047 0.0507813 0
-    0.498047 0.449219 0
+    2 0.449219 0
+    0 0.0507813 0
+    0 0.449219 0
+    -0.501953 0.0507813 0
+    -0.501953 0.449219 0
 endnode
 node light wmx08_w05_01ml1
   parent wmx08_w05_01
@@ -120,7 +80,7 @@ node light wmx08_w05_01ml1
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 1
@@ -548,21 +508,21 @@ node trimesh line334
     10 17 8 1 10 13 8 65536
     0 18 2 1 0 14 2 65536
   tverts 15
-    0 0.666016 0
-    0 0.0507813 0
-    0.525391 0.666016 0
-    0.630859 0.0507813 0
-    0.548828 1 0
-    1.24219 0.666016 0
-    1.21094 0.0507813 0
-    1.27734 1 0
-    1.59375 0.666016 0
-    1.61914 0.0507813 0
-    2 0.0507813 0
-    2 0.666016 0
-    0.990234 0.0507813 0
-    2 0.458984 0
-    0 0.464844 0
+    -1 0.666016 0
+    -1 0.0507813 0
+    -0.474609 0.666016 0
+    -0.369141 0.0507813 0
+    -0.451172 1 0
+    0.24219 0.666016 0
+    0.21094 0.0507813 0
+    0.27734 1 0
+    0.59375 0.666016 0
+    0.61914 0.0507813 0
+    1 0.0507813 0
+    1 0.666016 0
+    -0.009766 0.0507813 0
+    1 0.458984 0
+    -1 0.464844 0
 endnode
 node aabb plane01
   parent wmx08_w05_01
@@ -574,6 +534,8 @@ node aabb plane01
   orientation 0 0 0 0
   bitmap NULL
   position 0 0 0
+  render 0
+  shadow 0
   verts 36
     -5 -5 0
     -4.02 -5 0
@@ -761,6 +723,47 @@ node aabb plane01
     4.02 3.79 0 5 5 0 -1
     4.02 3.79 0 5 5 0 49
     4.02 3.79 0 5 5 0 48
+endnode
+node dummy wmx08_w05_01a
+  parent wmx08_w05_01
+  orientation 0 0 0 0
+  wirecolor 1 0 0
+  position 0 0 0
+endnode
+node trimesh plane287
+  parent wmx08_w05_01a
+  orientation 0 0 0 0
+  wirecolor 0.890196 0.890196 0.890196
+  tilefade 0
+  scale 1
+  render 1
+  beaming 0
+  inheritcolor 0
+  alpha 1
+  transparencyhint 1
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  center 300 0 0
+  bitmap wmx01_waterxx
+  rotatetexture 1
+  shadow 0
+  position -1.5 -1.5 -1
+  verts 4
+    -0.5 3.5 0
+    -0.5 -3.5 0
+    6.5 3.5 0
+    6.5 -3.5 0
+  faces 2
+    0 1 2 1 0 1 2 65536
+    3 2 1 1 3 2 1 65536
+  tverts 4
+    0 1 0
+    0 0 0
+    1 1 0
+    1 0 0
 endnode
 endmodelgeom wmx08_w05_01
 donemodel wmx08_w05_01

@@ -1,9 +1,10 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 19:34:29 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wmx10_s77_02
-setsupermodel wmx10_s77_02 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wmx10_s77_02 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wmx10_s77_02
 node dummy wmx10_s77_02
@@ -523,6 +524,8 @@ node aabb wok
   orientation 0 0 0 0
   bitmap NULL
   position 0 0 0
+  render 0
+  shadow 0
   verts 121
     -5 -5 3
     -4 -5 3
@@ -1246,6 +1249,36 @@ node aabb wok
     4 4 -2 5 5 -1.76 198
     4 4 -2 5 5 -1.76 199
 endnode
+node light wmx10_s77_02ml1
+  parent wmx10_s77_02
+  wirecolor 0.768628 0.768628 0.768628
+  radius 0
+  multiplier 1
+  color 1 1 1
+  ambientonly 0
+  nDynamicType 0
+  affectdynamic 0
+  shadow 0
+  lightpriority 3
+  fadinglight 1
+  orientation 0 0 0 0
+  position 3.96 -3.04 2.55
+endnode
+node light wmx10_s77_02ml2
+  parent wmx10_s77_02
+  wirecolor 0.768628 0.768628 0.768628
+  radius 0
+  multiplier 1
+  color 1 1 1
+  ambientonly 0
+  nDynamicType 0
+  affectdynamic 0
+  shadow 0
+  lightpriority 3
+  fadinglight 1
+  orientation 0 0 0 0
+  position -2.31 2.63 3.86
+endnode
 node dummy wmx10_s77_02a
   parent wmx10_s77_02
   wirecolor 0.6 0.894118 0.839216
@@ -1254,15 +1287,12 @@ node dummy wmx10_s77_02a
 endnode
 node emitter waterfall36
   parent wmx10_s77_02a
+  alpha 0.5
   orientation 0 0 -1 -1.53589
   wirecolor 0.721569 0.721569 0.721569
-  update_sel 1
   update Fountain
-  render_sel 1
   render Normal
-  blend_sel 3
   blend Lighten
-  spawntype_sel 0
   spawntype 0
   xsize 4
   ysize 224
@@ -1274,7 +1304,6 @@ node emitter waterfall36
   threshold 0
   combinetime 0
   deadspace 0
-  opacity 0.5
   colorStart 1 1 1
   colorEnd 1 1 1
   alphaStart 0.4
@@ -1296,7 +1325,7 @@ node emitter waterfall36
   bounce 1
   m_isTinted 0
   splat 0
-  affectedByWind false
+  affectedByWind 0
   texture fxpa_splash
   twosidedtex 0
   xgrid 1
@@ -1312,7 +1341,6 @@ node emitter waterfall36
   blastRadius 0
   blastLength 0
   p2p 0
-  p2p_type Bezier
   p2p_sel 1
   p2p_bezier2 0
   p2p_bezier3 0
@@ -1322,15 +1350,12 @@ node emitter waterfall36
 endnode
 node emitter waterfall34
   parent wmx10_s77_02a
+  alpha 0.5
   orientation 0 0 -1 -1.53589
   wirecolor 0.721569 0.721569 0.721569
-  update_sel 1
   update Fountain
-  render_sel 1
   render Normal
-  blend_sel 3
   blend Lighten
-  spawntype_sel 0
   spawntype 0
   xsize 4
   ysize 224
@@ -1342,7 +1367,6 @@ node emitter waterfall34
   threshold 0
   combinetime 0
   deadspace 0
-  opacity 0.5
   colorStart 1 1 1
   colorEnd 1 1 1
   alphaStart 0.4
@@ -1364,7 +1388,7 @@ node emitter waterfall34
   bounce 1
   m_isTinted 0
   splat 0
-  affectedByWind false
+  affectedByWind 0
   texture fxpa_splash
   twosidedtex 0
   xgrid 1
@@ -1380,7 +1404,6 @@ node emitter waterfall34
   blastRadius 0
   blastLength 0
   p2p 0
-  p2p_type Bezier
   p2p_sel 1
   p2p_bezier2 0
   p2p_bezier3 0
@@ -1390,15 +1413,12 @@ node emitter waterfall34
 endnode
 node emitter waterfall33
   parent wmx10_s77_02a
+  alpha 0.5
   orientation -0.139027 0.157799 -0.977635 -1.5708
   wirecolor 0.721569 0.721569 0.721569
-  update_sel 1
   update Fountain
-  render_sel 1
   render Normal
-  blend_sel 3
   blend Lighten
-  spawntype_sel 0
   spawntype 0
   xsize 13
   ysize 251
@@ -1410,7 +1430,6 @@ node emitter waterfall33
   threshold 0
   combinetime 0
   deadspace 0
-  opacity 0.5
   colorStart 1 1 1
   colorEnd 1 1 1
   alphaStart 0.4
@@ -1432,7 +1451,7 @@ node emitter waterfall33
   bounce 1
   m_isTinted 0
   splat 0
-  affectedByWind false
+  affectedByWind 0
   texture fxpa_splash
   twosidedtex 0
   xgrid 1
@@ -1448,7 +1467,6 @@ node emitter waterfall33
   blastRadius 0
   blastLength 0
   p2p 0
-  p2p_type Bezier
   p2p_sel 1
   p2p_bezier2 0
   p2p_bezier3 0
@@ -2133,36 +2151,6 @@ node trimesh waterbase
     0.900391 1 0
     1 1 0
 endnode
-node light wmx10_s77_02ml1
-  parent wmx10_s77_02
-  wirecolor 0.768628 0.768628 0.768628
-  radius 0
-  multiplier 1
-  color 1 1 1
-  ambientonly 0
-  ndynamictype 0
-  affectdynamic 0
-  shadow 0
-  lightpriority 3
-  fadinglight 1
-  orientation 0 0 0 0
-  position 3.96 -3.04 2.55
-endnode
-node light wmx10_s77_02ml2
-  parent wmx10_s77_02
-  wirecolor 0.768628 0.768628 0.768628
-  radius 0
-  multiplier 1
-  color 1 1 1
-  ambientonly 0
-  ndynamictype 0
-  affectdynamic 0
-  shadow 0
-  lightpriority 3
-  fadinglight 1
-  orientation 0 0 0 0
-  position -2.31 2.63 3.86
-endnode
 endmodelgeom wmx10_s77_02
 
 #MAXANIM ASCII
@@ -2177,6 +2165,12 @@ newanim animloop01 wmx10_s77_02
     parent wmx10_s77_02
   endnode
   node dummy wok
+    parent wmx10_s77_02
+  endnode
+  node light wmx10_s77_02ml1
+    parent wmx10_s77_02
+  endnode
+  node light wmx10_s77_02ml2
     parent wmx10_s77_02
   endnode
   node dummy wmx10_s77_02a
@@ -2205,12 +2199,6 @@ newanim animloop01 wmx10_s77_02
   endnode
   node dummy waterbase
     parent wmx10_s77_02a
-  endnode
-  node light wmx10_s77_02ml1
-    parent wmx10_s77_02
-  endnode
-  node light wmx10_s77_02ml2
-    parent wmx10_s77_02
   endnode
 doneanim animloop01 wmx10_s77_02
 
@@ -2228,6 +2216,12 @@ newanim tiledefault wmx10_s77_02
   node dummy wok
     parent wmx10_s77_02
   endnode
+  node light wmx10_s77_02ml1
+    parent wmx10_s77_02
+  endnode
+  node light wmx10_s77_02ml2
+    parent wmx10_s77_02
+  endnode
   node dummy wmx10_s77_02a
     parent wmx10_s77_02
   endnode
@@ -2254,12 +2248,6 @@ newanim tiledefault wmx10_s77_02
   endnode
   node dummy waterbase
     parent wmx10_s77_02a
-  endnode
-  node light wmx10_s77_02ml1
-    parent wmx10_s77_02
-  endnode
-  node light wmx10_s77_02ml2
-    parent wmx10_s77_02
   endnode
 doneanim tiledefault wmx10_s77_02
 donemodel wmx10_s77_02

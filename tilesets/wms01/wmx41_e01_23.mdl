@@ -1,9 +1,10 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 19:45:18 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wmx41_e01_23
-setsupermodel wmx41_e01_23 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wmx41_e01_23 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wmx41_e01_23
 node dummy wmx41_e01_23
@@ -17,7 +18,7 @@ node light wmx41_e01_23ml1
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -33,7 +34,7 @@ node light wmx41_e01_23ml2
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -532,6 +533,8 @@ node aabb wmesh01_01
   shininess 1
   bitmap NULL
   position 0 0 0
+  render 0
+  shadow 0
   verts 132
     5 -5 -2
     5 -4 -2
@@ -1501,36 +1504,36 @@ node trimesh sphere02_02_01
     0 0.191406 0
     0.349609 0.396484 0
     0.109375 0.167969 0
-    0.333984 1.8457 0
-    0.375 1.95898 0
-    0.609375 1.92188 0
+    0.333984 0.8457 0
+    0.375 0.95898 0
+    0.609375 0.92188 0
     0 1 0
-    0.837891 1.69727 0
-    0.685547 0.980469 0
-    0.103516 1.72461 0
+    0.837891 0.69727 0
+    0.685547 -0.019531 0
+    0.103516 0.72461 0
     0 0.494141 0
     0.470703 0.660156 0
     1 0.273438 0
     0.916016 0.703125 0
     1 0.564453 0
-    1 0.984375 0
+    1 -0.015625 0
     0.53125 0.375 0
     0.533203 0.103516 0
     0.333984 0.144531 0
     0.242188 0.253906 0
-    0.556641 0.984375 0
-    0.314453 1.27344 0
-    0.201172 1.69727 0
-    0.371094 1.70313 0
+    0.556641 -0.015625 0
+    0.314453 0.27344 0
+    0.201172 0.69727 0
+    0.371094 0.70313 0
     0.798828 0.837891 0
     0.544922 0.609375 0
-    0.177734 0.984375 0
+    0.177734 -0.015625 0
     0.269531 0.0585938 0
     0.832031 0.916016 0
     0.603516 0.958984 0
     0.746094 0.994141 0
-    0.3125 1.08789 0
-    0 0.984375 0
+    0.3125 0.08789 0
+    0 -0.015625 0
 endnode
 node dummy wmx41_e01_23a
   parent wmx41_e01_23
@@ -1540,6 +1543,7 @@ node dummy wmx41_e01_23a
 endnode
 node emitter waterfall18
   parent wmx41_e01_23a
+  alpha 0.5
   orientation -0.396819 0.0867263 -0.913791 -1.54741
   wirecolor 0.605469 0.605469 0.605469
   colorStart 1 1 1
@@ -1574,11 +1578,7 @@ node emitter waterfall18
   update Fountain
   render Normal
   blend Lighten
-  update_sel 1
-  render_sel 1
-  blend_sel 3
   deadspace 0
-  opacity 0.5
   blurlength 10
   lightningDelay 0
   lightningRadius 0
@@ -1588,7 +1588,6 @@ node emitter waterfall18
   twosidedtex 0
   p2p 0
   p2p_sel 1
-  p2p_type Bezier
   p2p_bezier2 0
   p2p_bezier3 0
   combinetime 0
@@ -1606,6 +1605,7 @@ node emitter waterfall18
 endnode
 node emitter waterfall16
   parent wmx41_e01_23a
+  alpha 0.5
   orientation 0.0657127 -0.0634599 -0.995819 -1.54008
   wirecolor 0.605469 0.605469 0.605469
   colorStart 1 1 1
@@ -1640,11 +1640,7 @@ node emitter waterfall16
   update Fountain
   render Normal
   blend Lighten
-  update_sel 1
-  render_sel 1
-  blend_sel 3
   deadspace 0
-  opacity 0.5
   blurlength 10
   lightningDelay 0
   lightningRadius 0
@@ -1654,7 +1650,6 @@ node emitter waterfall16
   twosidedtex 0
   p2p 0
   p2p_sel 1
-  p2p_type Bezier
   p2p_bezier2 0
   p2p_bezier3 0
   combinetime 0
@@ -1672,6 +1667,7 @@ node emitter waterfall16
 endnode
 node emitter waterfall15
   parent wmx41_e01_23a
+  alpha 0.5
   orientation -0.130436 0.125959 -0.983423 -1.5526
   wirecolor 0.605469 0.605469 0.605469
   colorStart 1 1 1
@@ -1706,11 +1702,7 @@ node emitter waterfall15
   update Fountain
   render Normal
   blend Lighten
-  update_sel 1
-  render_sel 1
-  blend_sel 3
   deadspace 0
-  opacity 0.5
   blurlength 10
   lightningDelay 0
   lightningRadius 0
@@ -1720,7 +1712,6 @@ node emitter waterfall15
   twosidedtex 0
   p2p 0
   p2p_sel 1
-  p2p_type Bezier
   p2p_bezier2 0
   p2p_bezier3 0
   combinetime 0
@@ -1738,6 +1729,7 @@ node emitter waterfall15
 endnode
 node emitter waterfall14
   parent wmx41_e01_23a
+  alpha 0.5
   orientation -0.0181321 0.0407356 -0.999005 -1.54284
   wirecolor 0.605469 0.605469 0.605469
   colorStart 1 1 1
@@ -1772,11 +1764,7 @@ node emitter waterfall14
   update Fountain
   render Normal
   blend Lighten
-  update_sel 1
-  render_sel 1
-  blend_sel 3
   deadspace 0
-  opacity 0.5
   blurlength 10
   lightningDelay 0
   lightningRadius 0
@@ -1786,7 +1774,6 @@ node emitter waterfall14
   twosidedtex 0
   p2p 0
   p2p_sel 1
-  p2p_type Bezier
   p2p_bezier2 0
   p2p_bezier3 0
   combinetime 0
@@ -1804,6 +1791,7 @@ node emitter waterfall14
 endnode
 node emitter waterfall013
   parent wmx41_e01_23a
+  alpha 0.5
   orientation 0 0 1 -1.6057
   wirecolor 0.605469 0.605469 0.605469
   colorStart 1 1 1
@@ -1838,11 +1826,7 @@ node emitter waterfall013
   update Fountain
   render Normal
   blend Lighten
-  update_sel 1
-  render_sel 1
-  blend_sel 3
   deadspace 0
-  opacity 0.5
   blurlength 10
   lightningDelay 0
   lightningRadius 0
@@ -1852,7 +1836,6 @@ node emitter waterfall013
   twosidedtex 0
   p2p 0
   p2p_sel 1
-  p2p_type Bezier
   p2p_bezier2 0
   p2p_bezier3 0
   combinetime 0
@@ -1870,6 +1853,7 @@ node emitter waterfall013
 endnode
 node emitter waterfall011
   parent wmx41_e01_23a
+  alpha 0.5
   orientation 0.153078 0.134868 0.978968 -1.62376
   wirecolor 0.605469 0.605469 0.605469
   colorStart 1 1 1
@@ -1904,11 +1888,7 @@ node emitter waterfall011
   update Fountain
   render Normal
   blend Lighten
-  update_sel 1
-  render_sel 1
-  blend_sel 3
   deadspace 0
-  opacity 0.5
   blurlength 10
   lightningDelay 0
   lightningRadius 0
@@ -1918,7 +1898,6 @@ node emitter waterfall011
   twosidedtex 0
   p2p 0
   p2p_sel 1
-  p2p_type Bezier
   p2p_bezier2 0
   p2p_bezier3 0
   combinetime 0
@@ -1936,6 +1915,7 @@ node emitter waterfall011
 endnode
 node emitter waterfall10
   parent wmx41_e01_23a
+  alpha 0.5
   orientation 0.187231 -0.159643 -0.969257 -1.5708
   wirecolor 0.605469 0.605469 0.605469
   colorStart 1 1 1
@@ -1970,11 +1950,7 @@ node emitter waterfall10
   update Fountain
   render Normal
   blend Lighten
-  update_sel 1
-  render_sel 1
-  blend_sel 3
   deadspace 0
-  opacity 0.5
   blurlength 10
   lightningDelay 0
   lightningRadius 0
@@ -1984,7 +1960,6 @@ node emitter waterfall10
   twosidedtex 0
   p2p 0
   p2p_sel 1
-  p2p_type Bezier
   p2p_bezier2 0
   p2p_bezier3 0
   combinetime 0
@@ -2002,6 +1977,7 @@ node emitter waterfall10
 endnode
 node emitter waterfall09
   parent wmx41_e01_23a
+  alpha 0.5
   orientation 0.0723912 -0.0415723 -0.99651 -1.04558
   wirecolor 0.605469 0.605469 0.605469
   colorStart 1 1 1
@@ -2036,11 +2012,7 @@ node emitter waterfall09
   update Fountain
   render Normal
   blend Lighten
-  update_sel 1
-  render_sel 1
-  blend_sel 3
   deadspace 0
-  opacity 0.5
   blurlength 10
   lightningDelay 0
   lightningRadius 0
@@ -2050,7 +2022,6 @@ node emitter waterfall09
   twosidedtex 0
   p2p 0
   p2p_sel 1
-  p2p_type Bezier
   p2p_bezier2 0
   p2p_bezier3 0
   combinetime 0
@@ -2068,6 +2039,7 @@ node emitter waterfall09
 endnode
 node emitter waterfall08
   parent wmx41_e01_23a
+  alpha 0.5
   orientation -0.158058 0.152633 -0.975562 -1.5708
   wirecolor 0.835938 0.835938 0.835938
   colorStart 1 1 1
@@ -2102,11 +2074,7 @@ node emitter waterfall08
   update Fountain
   render Normal
   blend Lighten
-  update_sel 1
-  render_sel 1
-  blend_sel 3
   deadspace 0
-  opacity 0.5
   blurlength 10
   lightningDelay 0
   lightningRadius 0
@@ -2116,7 +2084,6 @@ node emitter waterfall08
   twosidedtex 0
   p2p 0
   p2p_sel 1
-  p2p_type Bezier
   p2p_bezier2 0
   p2p_bezier3 0
   combinetime 0
@@ -2134,6 +2101,7 @@ node emitter waterfall08
 endnode
 node emitter waterfall06
   parent wmx41_e01_23a
+  alpha 0.5
   orientation 0 0 1 -1.6057
   wirecolor 0.835938 0.835938 0.835938
   colorStart 1 1 1
@@ -2168,11 +2136,7 @@ node emitter waterfall06
   update Fountain
   render Normal
   blend Lighten
-  update_sel 1
-  render_sel 1
-  blend_sel 3
   deadspace 0
-  opacity 0.5
   blurlength 10
   lightningDelay 0
   lightningRadius 0
@@ -2182,7 +2146,6 @@ node emitter waterfall06
   twosidedtex 0
   p2p 0
   p2p_sel 1
-  p2p_type Bezier
   p2p_bezier2 0
   p2p_bezier3 0
   combinetime 0
@@ -2200,6 +2163,7 @@ node emitter waterfall06
 endnode
 node emitter waterfall05
   parent wmx41_e01_23a
+  alpha 0.5
   orientation 0 0 1 -1.6057
   wirecolor 0.835938 0.835938 0.835938
   colorStart 1 1 1
@@ -2234,11 +2198,7 @@ node emitter waterfall05
   update Fountain
   render Normal
   blend Lighten
-  update_sel 1
-  render_sel 1
-  blend_sel 3
   deadspace 0
-  opacity 0.5
   blurlength 10
   lightningDelay 0
   lightningRadius 0
@@ -2248,7 +2208,6 @@ node emitter waterfall05
   twosidedtex 0
   p2p 0
   p2p_sel 1
-  p2p_type Bezier
   p2p_bezier2 0
   p2p_bezier3 0
   combinetime 0
@@ -2266,6 +2225,7 @@ node emitter waterfall05
 endnode
 node emitter waterfall02
   parent wmx41_e01_23a
+  alpha 0.5
   orientation 0 0 1 -1.6057
   wirecolor 0.835938 0.835938 0.835938
   colorStart 1 1 1
@@ -2300,11 +2260,7 @@ node emitter waterfall02
   update Fountain
   render Normal
   blend Lighten
-  update_sel 1
-  render_sel 1
-  blend_sel 3
   deadspace 0
-  opacity 0.5
   blurlength 10
   lightningDelay 0
   lightningRadius 0
@@ -2314,7 +2270,6 @@ node emitter waterfall02
   twosidedtex 0
   p2p 0
   p2p_sel 1
-  p2p_type Bezier
   p2p_bezier2 0
   p2p_bezier3 0
   combinetime 0
@@ -2332,6 +2287,7 @@ node emitter waterfall02
 endnode
 node emitter waterfall01
   parent wmx41_e01_23a
+  alpha 0.5
   orientation 0 0 1 -1.6057
   wirecolor 0.835938 0.835938 0.835938
   colorStart 1 1 1
@@ -2366,11 +2322,7 @@ node emitter waterfall01
   update Fountain
   render Normal
   blend Lighten
-  update_sel 1
-  render_sel 1
-  blend_sel 3
   deadspace 0
-  opacity 0.5
   blurlength 10
   lightningDelay 0
   lightningRadius 0
@@ -2380,7 +2332,6 @@ node emitter waterfall01
   twosidedtex 0
   p2p 0
   p2p_sel 1
-  p2p_type Bezier
   p2p_bezier2 0
   p2p_bezier3 0
   combinetime 0

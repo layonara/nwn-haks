@@ -1,9 +1,10 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 19:44:03 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wmx40_m01_06
-setsupermodel wmx40_m01_06 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wmx40_m01_06 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wmx40_m01_06
 node dummy wmx40_m01_06
@@ -16,7 +17,7 @@ node light wmx40_m01_06ml1
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -31,7 +32,7 @@ node light wmx40_m01_06ml2
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -45,6 +46,8 @@ node aabb wmesh_06
   bitmap NULL
   orientation 0 0 0 0
   position 0 0 0
+  render 0
+  shadow 0
   verts 135
     -5 -5 3.84
     -4 -5 3.84
@@ -892,11 +895,11 @@ node trimesh terrain_06
     0 4 1 1 0 4 1 65536
     0 1 2 1 0 1 2 65536
   tverts 5
-    1.98438 1.49023 0
-    0.994141 0.5 0
-    1.98438 0.5 0
-    0.994141 1.49023 0
-    0.994141 0.994141 0
+    0.98438 1.49023 0
+    -0.005859 0.5 0
+    0.98438 0.5 0
+    -0.005859 1.49023 0
+    -0.005859 0.994141 0
 endnode
 endmodelgeom wmx40_m01_06
 donemodel wmx40_m01_06

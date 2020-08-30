@@ -1,9 +1,10 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 19:34:49 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wmx10_u41_03
-setsupermodel wmx10_u41_03 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wmx10_u41_03 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wmx10_u41_03
 node dummy wmx10_u41_03
@@ -16,7 +17,7 @@ node light wmx10_u41_03ml1
   multiplier 1
   color 0.639216 0.639216 0.639216
   ambientonly 0
-  ndynamictype 1
+  nDynamicType 1
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -31,7 +32,7 @@ node light wmx10_u41_03ml2
   multiplier 1
   color 0.639216 0.639216 0.639216
   ambientonly 0
-  ndynamictype 1
+  nDynamicType 1
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -49,6 +50,8 @@ node aabb wok
   orientation 0 0 0 0
   bitmap NULL
   position 0 0 0
+  render 0
+  shadow 0
   verts 29
     -5 -5 -0.5
     -2.5 -5 -0.5
@@ -278,31 +281,31 @@ node trimesh object21
     16 24 23 2 16 24 23 1
     23 14 16 2 23 14 16 1
   tverts 25
-    0.00195313 0.00195313 0
-    0.5 0.00195313 0
-    1 0.00195313 0
-    1.5 0.00195313 0
-    0.00195313 0.5 0
-    0.238281 0.5 0
-    0.800781 0.251953 0
-    1.42578 0.330078 0
-    1.99805 0.00195313 0
-    1.99805 1.99805 0
-    1.99805 1.5 0
-    1.5 1.73047 0
-    1.5 1.99805 0
-    1.99805 1 0
-    1.82422 0.902344 0
-    1.99805 0.5 0
-    1.71289 1.19727 0
-    0.00195313 0.701172 0
-    0.228516 0.703125 0
-    0.724609 0.443359 0
-    1.17969 0.53125 0
-    1.29688 1.62109 0
-    1.29883 1.99805 0
-    1.5 0.828125 0
-    1.50586 1.23242 0
+    -0.998047 -0.998047 0
+    -0.5 -0.998047 0
+    0 -0.998047 0
+    0.5 -0.998047 0
+    -0.998047 -0.5 0
+    -0.761719 -0.5 0
+    -0.199219 -0.748047 0
+    0.42578 -0.669922 0
+    0.99805 -0.998047 0
+    0.99805 0.99805 0
+    0.99805 0.5 0
+    0.5 0.73047 0
+    0.5 0.99805 0
+    0.99805 0 0
+    0.82422 -0.097656 0
+    0.99805 -0.5 0
+    0.71289 0.19727 0
+    -0.998047 -0.298828 0
+    -0.771484 -0.296875 0
+    -0.275391 -0.556641 0
+    0.17969 -0.46875 0
+    0.29688 0.62109 0
+    0.29883 0.99805 0
+    0.5 -0.171875 0
+    0.50586 0.23242 0
 endnode
 node trimesh cliff
   parent wmx10_u41_03
@@ -471,6 +474,7 @@ node dummy fried_fix_01
   position 0 0 -5.5
 endnode
 node trimesh grassrim
+  parent fried_fix_01
   wirecolor 0.337255 0.337255 0.337255
   tilefade 0
   scale 1
@@ -488,7 +492,6 @@ node trimesh grassrim
   shininess 11
   center -123.5 110.5 25
   bitmap wmx11_stnetile
-  parent fried_fix_01
   orientation 0 0 0 0
   position 0 0 5
   verts 16
@@ -524,24 +527,25 @@ node trimesh grassrim
     3 6 11 0 3 6 11 1
     3 11 15 0 3 11 15 1
   tverts 16
-    0 0.0195313 0
+    -7 0.0195313 0
+    -6 0.0195313 0
+    -3 0.0195313 0
+    -0.80078 0.0195313 0
+    5.5 0.0195313 0
+    7 0.0195313 0
     1 0.0195313 0
-    4 0.0195313 0
-    6.19922 0.0195313 0
-    12.5 0.0195313 0
-    14 0.0195313 0
-    8 0.0195313 0
-    10 0.0195313 0
-    14 0.970703 0
-    12.5 0.970703 0
-    10 0.970703 0
-    8 0.970703 0
+    3 0.0195313 0
+    7 0.970703 0
+    5.5 0.970703 0
+    3 0.970703 0
     1 0.970703 0
-    0 0.970703 0
-    4 0.970703 0
-    6.19922 0.970703 0
+    -6 0.970703 0
+    -7 0.970703 0
+    -3 0.970703 0
+    -0.80078 0.970703 0
 endnode
 node trimesh d_patch
+  parent fried_fix_01
   wirecolor 0.87451 0.337255 0.556863
   tilefade 0
   scale 1
@@ -559,7 +563,6 @@ node trimesh d_patch
   shininess 11
   center 0.5 -0.5 0
   bitmap tno01_dirt04
-  parent fried_fix_01
   orientation 0 0 0 0
   position 0.56 -3.67 5.11
   verts 6
@@ -575,14 +578,15 @@ node trimesh d_patch
     0 1 3 2 0 1 3 21
     3 2 0 2 3 2 0 21
   tverts 6
-    0.912109 0 0
-    1.69336 0 0
-    0.955078 0.5 0
-    1.61914 0.5 0
-    0.923828 0.970703 0
-    1.68359 1 0
+    -0.087891 0 0
+    0.69336 0 0
+    -0.044922 0.5 0
+    0.61914 0.5 0
+    -0.076172 0.970703 0
+    0.68359 1 0
 endnode
 node trimesh moss01
+  parent fried_fix_01
   wirecolor 0.337255 0.337255 0.337255
   tilefade 0
   scale 1
@@ -600,7 +604,6 @@ node trimesh moss01
   shininess 11
   center -14.5 77.5 -560
   bitmap wmx01_pt_grass01
-  parent fried_fix_01
   orientation 0 0 0 0
   position -1.23 1.1 2.75
   verts 24
@@ -655,44 +658,45 @@ node trimesh moss01
     8 17 23 1 13 23 34 2
     4 23 17 1 5 35 33 2
   tverts 36
-    1.38477 1.01563 0
-    2.01758 1.27148 0
-    1.53711 1.23438 0
-    1.03906 1.03516 0
+    0.38477 1.01563 0
+    1.01758 0.27148 0
+    0.53711 0.23438 0
+    0.03906 1.03516 0
     1.07227 1.08789 0
     0.787109 0.990234 0
-    0.994141 0.998047 0
+    -0.005859 0.998047 0
     1.07227 0.886719 0
     0.701172 1.02539 0
-    1.90039 0.984375 0
-    0.955078 0.435547 0
-    1.2793 0.996094 0
-    0.826172 1.50391 0
+    0.90039 -0.015625 0
+    -0.044922 0.435547 0
+    0.2793 -0.003906 0
+    -0.173828 0.50391 0
     0.951172 0.421875 0
     0.544922 0.533203 0
-    1.06055 0.455078 0
+    0.06055 0.455078 0
     0.505859 0.976563 0
-    0.957031 1.22266 0
-    1.52734 1.53125 0
-    1.75586 1.50977 0
+    -0.042969 0.22266 0
+    0.52734 0.53125 0
+    0.75586 0.50977 0
     0.478516 0.962891 0
     0.488281 1.03125 0
     0.712891 1.02344 0
     1.00781 0.923828 0
     0.521484 0.542969 0
-    1.52148 1.00391 0
-    1.52539 0.673828 0
-    1.38086 0.505859 0
+    0.52148 1.00391 0
+    0.52539 0.673828 0
+    0.38086 0.505859 0
     0.806641 0.400391 0
     0.541016 0.554688 0
-    1.42188 0.507813 0
-    1.57813 0.728516 0
+    0.42188 0.507813 0
+    0.57813 0.728516 0
     0.71875 0.537109 0
     0.9375 0.427734 0
     0.796875 0.994141 0
     0.78125 0.505859 0
 endnode
 node danglymesh bush36
+  parent fried_fix_01
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
   scale 1
@@ -715,7 +719,6 @@ node danglymesh bush36
   displtype 1
   center 0 0 82.5
   bitmap tno01_bush03
-  parent fried_fix_01
   orientation 0 0 0 0
   position -2.7 -2.86 5.13
   verts 6
@@ -741,6 +744,7 @@ node danglymesh bush36
     0
 endnode
 node danglymesh bush37
+  parent fried_fix_01
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
   scale 1
@@ -763,7 +767,6 @@ node danglymesh bush37
   displtype 1
   center 0 0 100.5
   bitmap tno01_bush03
-  parent fried_fix_01
   orientation 0 0 0 0
   position -2.7 -2.86 4.96
   verts 6
@@ -789,6 +792,7 @@ node danglymesh bush37
     0
 endnode
 node danglymesh bush38
+  parent fried_fix_01
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
   scale 1
@@ -811,7 +815,6 @@ node danglymesh bush38
   displtype 1
   center 0 0 100.5
   bitmap tno01_bush03
-  parent fried_fix_01
   orientation 0 0 0 0
   position -2.7 -2.86 4.96
   verts 6
@@ -837,6 +840,7 @@ node danglymesh bush38
     0
 endnode
 node danglymesh bush39
+  parent fried_fix_01
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
   scale 1
@@ -859,7 +863,6 @@ node danglymesh bush39
   displtype 1
   center -0.5 -0.5 60
   bitmap tno01_bush03
-  parent fried_fix_01
   orientation 0 0 0 0
   position -2.45 -2.8 5.16
   verts 6
@@ -885,6 +888,7 @@ node danglymesh bush39
     0
 endnode
 node danglymesh bush40
+  parent fried_fix_01
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
   scale 1
@@ -907,7 +911,6 @@ node danglymesh bush40
   displtype 1
   center -1.50001 -48 60
   bitmap tno01_bush03
-  parent fried_fix_01
   orientation 0 0 0 0
   position -2.63 -3.1 5.16
   verts 6
@@ -933,6 +936,7 @@ node danglymesh bush40
     0
 endnode
 node danglymesh bush41
+  parent fried_fix_01
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
   scale 1
@@ -955,7 +959,6 @@ node danglymesh bush41
   displtype 1
   center -13 -9 60
   bitmap tno01_bush03
-  parent fried_fix_01
   orientation 0 0 0 0
   position -2.95 -2.89 5.16
   verts 6
@@ -981,6 +984,7 @@ node danglymesh bush41
     0
 endnode
 node danglymesh bush42
+  parent fried_fix_01
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
   scale 1
@@ -1003,7 +1007,6 @@ node danglymesh bush42
   displtype 1
   center 0 0 99
   bitmap tno01_bush03
-  parent fried_fix_01
   orientation 0 0 0 0
   position -3.64 -3.14 5.19
   verts 6
@@ -1029,6 +1032,7 @@ node danglymesh bush42
     0
 endnode
 node danglymesh bush43
+  parent fried_fix_01
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
   scale 1
@@ -1051,7 +1055,6 @@ node danglymesh bush43
   displtype 1
   center 0 0 120
   bitmap tno01_bush03
-  parent fried_fix_01
   orientation 0 0 0 0
   position -3.64 -3.14 4.98
   verts 6
@@ -1077,6 +1080,7 @@ node danglymesh bush43
     0
 endnode
 node danglymesh bush44
+  parent fried_fix_01
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
   scale 1
@@ -1099,7 +1103,6 @@ node danglymesh bush44
   displtype 1
   center 0 0 120
   bitmap tno01_bush03
-  parent fried_fix_01
   orientation 0 0 0 0
   position -3.64 -3.14 4.98
   verts 6
@@ -1125,6 +1128,7 @@ node danglymesh bush44
     0
 endnode
 node danglymesh bush45
+  parent fried_fix_01
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
   scale 1
@@ -1147,7 +1151,6 @@ node danglymesh bush45
   displtype 1
   center -5 44.5 72
   bitmap tno01_bush03
-  parent fried_fix_01
   orientation 0 0 0 0
   position -3.41 -2.93 5.23
   verts 6
@@ -1173,6 +1176,7 @@ node danglymesh bush45
     0
 endnode
 node danglymesh bush46
+  parent fried_fix_01
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
   scale 1
@@ -1195,7 +1199,6 @@ node danglymesh bush46
   displtype 1
   center -11 -15.5 72
   bitmap tno01_bush03
-  parent fried_fix_01
   orientation 0 0 0 0
   position -3.41 -3.35 5.23
   verts 6
@@ -1221,6 +1224,7 @@ node danglymesh bush46
     0
 endnode
 node danglymesh bush47
+  parent fried_fix_01
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
   scale 1
@@ -1243,7 +1247,6 @@ node danglymesh bush47
   displtype 1
   center -58 -2 72
   bitmap tno01_bush03
-  parent fried_fix_01
   orientation 0 0 0 0
   position -3.88 -3.32 5.23
   verts 6
@@ -1269,6 +1272,7 @@ node danglymesh bush47
     0
 endnode
 node danglymesh bush48
+  parent fried_fix_01
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
   scale 1
@@ -1291,7 +1295,6 @@ node danglymesh bush48
   displtype 1
   center 0 0 58
   bitmap tno01_bush03
-  parent fried_fix_01
   orientation 0 0 0 0
   position -1.15 -3.89 5.04
   verts 6
@@ -1317,6 +1320,7 @@ node danglymesh bush48
     0
 endnode
 node danglymesh bush49
+  parent fried_fix_01
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
   scale 1
@@ -1339,7 +1343,6 @@ node danglymesh bush49
   displtype 1
   center 0 0 70.5
   bitmap tno01_bush03
-  parent fried_fix_01
   orientation 0 0 0 0
   position -1.15 -3.89 4.91
   verts 6
@@ -1365,6 +1368,7 @@ node danglymesh bush49
     0
 endnode
 node danglymesh bush50
+  parent fried_fix_01
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
   scale 1
@@ -1387,7 +1391,6 @@ node danglymesh bush50
   displtype 1
   center 0 0 70.5
   bitmap tno01_bush03
-  parent fried_fix_01
   orientation 0 0 0 0
   position -1.15 -3.89 4.91
   verts 6
@@ -1413,6 +1416,7 @@ node danglymesh bush50
     0
 endnode
 node danglymesh bush51
+  parent fried_fix_01
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
   scale 1
@@ -1435,7 +1439,6 @@ node danglymesh bush51
   displtype 1
   center -0.499998 -0.499998 42
   bitmap tno01_bush03
-  parent fried_fix_01
   orientation 0 0 0 0
   position -0.98 -3.84 5.06
   verts 6
@@ -1461,6 +1464,7 @@ node danglymesh bush51
     0
 endnode
 node danglymesh bush52
+  parent fried_fix_01
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
   scale 1
@@ -1483,7 +1487,6 @@ node danglymesh bush52
   displtype 1
   center -1 -33.5 42
   bitmap tno01_bush03
-  parent fried_fix_01
   orientation 0 0 0 0
   position -1.09 -4.06 5.06
   verts 6
@@ -1509,6 +1512,7 @@ node danglymesh bush52
     0
 endnode
 node danglymesh bush53
+  parent fried_fix_01
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
   scale 1
@@ -1531,7 +1535,6 @@ node danglymesh bush53
   displtype 1
   center -9 -6.5 42
   bitmap tno01_bush03
-  parent fried_fix_01
   orientation 0 0 0 0
   position -1.32 -3.91 5.06
   verts 6
@@ -1557,6 +1560,7 @@ node danglymesh bush53
     0
 endnode
 node danglymesh bush54
+  parent fried_fix_01
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
   scale 1
@@ -1579,7 +1583,6 @@ node danglymesh bush54
   displtype 1
   center 0 0 69.5
   bitmap tno01_bush03
-  parent fried_fix_01
   orientation 0 0 0 0
   position -1.8 -4.09 5.08
   verts 6
@@ -1605,6 +1608,7 @@ node danglymesh bush54
     0
 endnode
 node danglymesh bush55
+  parent fried_fix_01
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
   scale 1
@@ -1627,7 +1631,6 @@ node danglymesh bush55
   displtype 1
   center 0 0 84.5
   bitmap tno01_bush03
-  parent fried_fix_01
   orientation 0 0 0 0
   position -1.8 -4.09 4.93
   verts 6
@@ -1653,6 +1656,7 @@ node danglymesh bush55
     0
 endnode
 node danglymesh bush56
+  parent fried_fix_01
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
   scale 1
@@ -1675,7 +1679,6 @@ node danglymesh bush56
   displtype 1
   center 0 0 84.5
   bitmap tno01_bush03
-  parent fried_fix_01
   orientation 0 0 0 0
   position -1.8 -4.09 4.93
   verts 6
@@ -1701,6 +1704,7 @@ node danglymesh bush56
     0
 endnode
 node danglymesh bush57
+  parent fried_fix_01
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
   scale 1
@@ -1723,7 +1727,6 @@ node danglymesh bush57
   displtype 1
   center -3.5 31.5 50.5
   bitmap tno01_bush03
-  parent fried_fix_01
   orientation 0 0 0 0
   position -1.65 -3.94 5.1
   verts 6
@@ -1749,6 +1752,7 @@ node danglymesh bush57
     0
 endnode
 node danglymesh bush58
+  parent fried_fix_01
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
   scale 1
@@ -1771,7 +1775,6 @@ node danglymesh bush58
   displtype 1
   center -7.5 -10.5 50.5
   bitmap tno01_bush03
-  parent fried_fix_01
   orientation 0 0 0 0
   position -1.65 -4.23 5.1
   verts 6
@@ -1797,6 +1800,7 @@ node danglymesh bush58
     0
 endnode
 node danglymesh bush59
+  parent fried_fix_01
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
   scale 1
@@ -1819,7 +1823,6 @@ node danglymesh bush59
   displtype 1
   center -40.5 -1.5 50.5
   bitmap tno01_bush03
-  parent fried_fix_01
   orientation 0 0 0 0
   position -1.98 -4.21 5.1
   verts 6
@@ -1845,6 +1848,7 @@ node danglymesh bush59
     0
 endnode
 node danglymesh bush84
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -1868,7 +1872,6 @@ node danglymesh bush84
   displtype 1
   center 0 0 82.5
   bitmap tno01_bush03
-  parent fried_fix_01
   position 2.16 -2.71 5.13
   verts 6
     0 1.29 -0.25
@@ -1893,6 +1896,7 @@ node danglymesh bush84
     0
 endnode
 node danglymesh bush85
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -1916,7 +1920,6 @@ node danglymesh bush85
   displtype 1
   center 0 0 100.5
   bitmap tno01_bush03
-  parent fried_fix_01
   position 2.16 -2.71 4.96
   verts 6
     1.12 0.64 -0.07
@@ -1941,6 +1944,7 @@ node danglymesh bush85
     0
 endnode
 node danglymesh bush86
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -1964,7 +1968,6 @@ node danglymesh bush86
   displtype 1
   center 0 0 100.5
   bitmap tno01_bush03
-  parent fried_fix_01
   position 2.16 -2.71 4.96
   verts 6
     -1.12 0.64 -0.07
@@ -1989,6 +1992,7 @@ node danglymesh bush86
     0
 endnode
 node danglymesh bush87
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -2012,7 +2016,6 @@ node danglymesh bush87
   displtype 1
   center -0.5 -0.5 60
   bitmap tno01_bush03
-  parent fried_fix_01
   position 2.3 -2.92 5.16
   verts 6
     -0.87 0.64 -0.18
@@ -2037,6 +2040,7 @@ node danglymesh bush87
     0
 endnode
 node danglymesh bush88
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -2060,7 +2064,6 @@ node danglymesh bush88
   displtype 1
   center -1.50001 -48 60
   bitmap tno01_bush03
-  parent fried_fix_01
   position 1.95 -2.86 5.16
   verts 6
     1.06 0.25 -0.18
@@ -2085,6 +2088,7 @@ node danglymesh bush88
     0
 endnode
 node danglymesh bush89
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -2108,7 +2112,6 @@ node danglymesh bush89
   displtype 1
   center -13 -9 60
   bitmap tno01_bush03
-  parent fried_fix_01
   position 2.05 -2.48 5.16
   verts 6
     -0.48 -0.97 -0.18
@@ -2133,6 +2136,7 @@ node danglymesh bush89
     0
 endnode
 node danglymesh bush90
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -2156,7 +2160,6 @@ node danglymesh bush90
   displtype 1
   center 0 0 99
   bitmap tno01_bush03
-  parent fried_fix_01
   position 1.57 -1.92 5.19
   verts 6
     -0.76 1.34 -0.31
@@ -2181,6 +2184,7 @@ node danglymesh bush90
     0
 endnode
 node danglymesh bush91
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -2204,7 +2208,6 @@ node danglymesh bush91
   displtype 1
   center 0 0 120
   bitmap tno01_bush03
-  parent fried_fix_01
   position 1.57 -1.92 4.98
   verts 6
     0.78 1.34 -0.1
@@ -2229,6 +2232,7 @@ node danglymesh bush91
     0
 endnode
 node danglymesh bush92
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -2252,7 +2256,6 @@ node danglymesh bush92
   displtype 1
   center 0 0 120
   bitmap tno01_bush03
-  parent fried_fix_01
   position 1.57 -1.92 4.98
   verts 6
     -1.55 0 -0.1
@@ -2277,6 +2280,7 @@ node danglymesh bush92
     0
 endnode
 node danglymesh bush93
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -2300,7 +2304,6 @@ node danglymesh bush93
   displtype 1
   center -5 44.5 72
   bitmap tno01_bush03
-  parent fried_fix_01
   position 1.85 -2.06 5.23
   verts 6
     -1.29 0.15 -0.22
@@ -2325,6 +2328,7 @@ node danglymesh bush93
     0
 endnode
 node danglymesh bush94
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -2348,7 +2352,6 @@ node danglymesh bush94
   displtype 1
   center -11 -15.5 72
   bitmap tno01_bush03
-  parent fried_fix_01
   position 1.45 -2.2 5.23
   verts 6
     0.95 0.89 -0.22
@@ -2373,6 +2376,7 @@ node danglymesh bush94
     0
 endnode
 node danglymesh bush95
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -2396,7 +2400,6 @@ node danglymesh bush95
   displtype 1
   center -58 -2 72
   bitmap tno01_bush03
-  parent fried_fix_01
   position 1.32 -1.75 5.23
   verts 6
     0.09 -1.3 -0.22
@@ -2421,6 +2424,7 @@ node danglymesh bush95
     0
 endnode
 node danglymesh bush96
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -2444,7 +2448,6 @@ node danglymesh bush96
   displtype 1
   center 0 0 58
   bitmap tno01_bush03
-  parent fried_fix_01
   position 1.72 -4.52 5.04
   verts 6
     0 0.9 -0.17
@@ -2469,6 +2472,7 @@ node danglymesh bush96
     0
 endnode
 node danglymesh bush97
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -2492,7 +2496,6 @@ node danglymesh bush97
   displtype 1
   center 0 0 70.5
   bitmap tno01_bush03
-  parent fried_fix_01
   position 1.72 -4.52 4.91
   verts 6
     0.78 0.45 -0.04
@@ -2517,6 +2520,7 @@ node danglymesh bush97
     0
 endnode
 node danglymesh bush98
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -2540,7 +2544,6 @@ node danglymesh bush98
   displtype 1
   center 0 0 70.5
   bitmap tno01_bush03
-  parent fried_fix_01
   position 1.72 -4.52 4.91
   verts 6
     -0.78 0.45 -0.04
@@ -2565,6 +2568,7 @@ node danglymesh bush98
     0
 endnode
 node danglymesh bush99
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -2588,7 +2592,6 @@ node danglymesh bush99
   displtype 1
   center -0.499998 -0.499998 42
   bitmap tno01_bush03
-  parent fried_fix_01
   position 1.82 -4.67 5.06
   verts 6
     -0.61 0.45 -0.12
@@ -2613,6 +2616,7 @@ node danglymesh bush99
     0
 endnode
 node danglymesh bush100
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -2636,7 +2640,6 @@ node danglymesh bush100
   displtype 1
   center -1 -33.5 42
   bitmap tno01_bush03
-  parent fried_fix_01
   position 1.58 -4.62 5.06
   verts 6
     0.75 0.18 -0.12
@@ -2661,6 +2664,7 @@ node danglymesh bush100
     0
 endnode
 node danglymesh bush101
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -2684,7 +2688,6 @@ node danglymesh bush101
   displtype 1
   center -9 -6.5 42
   bitmap tno01_bush03
-  parent fried_fix_01
   position 1.64 -4.36 5.06
   verts 6
     -0.34 -0.68 -0.12
@@ -2709,6 +2712,7 @@ node danglymesh bush101
     0
 endnode
 node danglymesh bush102
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -2732,7 +2736,6 @@ node danglymesh bush102
   displtype 1
   center 0 0 69.5
   bitmap tno01_bush03
-  parent fried_fix_01
   position 1.31 -3.97 5.08
   verts 6
     -0.54 0.94 -0.21
@@ -2757,6 +2760,7 @@ node danglymesh bush102
     0
 endnode
 node danglymesh bush103
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -2780,7 +2784,6 @@ node danglymesh bush103
   displtype 1
   center 0 0 84.5
   bitmap tno01_bush03
-  parent fried_fix_01
   position 1.31 -3.97 4.93
   verts 6
     0.54 0.94 -0.06
@@ -2805,6 +2808,7 @@ node danglymesh bush103
     0
 endnode
 node danglymesh bush104
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -2828,7 +2832,6 @@ node danglymesh bush104
   displtype 1
   center 0 0 84.5
   bitmap tno01_bush03
-  parent fried_fix_01
   position 1.31 -3.97 4.93
   verts 6
     -1.08 0 -0.06
@@ -2853,6 +2856,7 @@ node danglymesh bush104
     0
 endnode
 node danglymesh bush105
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -2876,7 +2880,6 @@ node danglymesh bush105
   displtype 1
   center -3.5 31.5 50.5
   bitmap tno01_bush03
-  parent fried_fix_01
   position 1.51 -4.06 5.1
   verts 6
     -0.9 0.09 -0.15
@@ -2901,6 +2904,7 @@ node danglymesh bush105
     0
 endnode
 node danglymesh bush106
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -2924,7 +2928,6 @@ node danglymesh bush106
   displtype 1
   center -7.5 -10.5 50.5
   bitmap tno01_bush03
-  parent fried_fix_01
   position 1.23 -4.16 5.1
   verts 6
     0.67 0.63 -0.15
@@ -2949,6 +2952,7 @@ node danglymesh bush106
     0
 endnode
 node danglymesh bush107
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -2972,7 +2976,6 @@ node danglymesh bush107
   displtype 1
   center -40.5 -1.5 50.5
   bitmap tno01_bush03
-  parent fried_fix_01
   position 1.13 -3.85 5.1
   verts 6
     0.05 -0.9 -0.15
@@ -2997,6 +3000,7 @@ node danglymesh bush107
     0
 endnode
 node danglymesh bush108
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -3020,7 +3024,6 @@ node danglymesh bush108
   displtype 1
   center 0 0 82.5
   bitmap tno01_bush03
-  parent fried_fix_01
   position 3.59 3.47 5.13
   verts 6
     0 1.28 -0.25
@@ -3045,6 +3048,7 @@ node danglymesh bush108
     0
 endnode
 node danglymesh bush109
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -3068,7 +3072,6 @@ node danglymesh bush109
   displtype 1
   center 0 0 100.5
   bitmap tno01_bush03
-  parent fried_fix_01
   position 3.59 3.47 4.96
   verts 6
     1.12 0.64 -0.07
@@ -3093,6 +3096,7 @@ node danglymesh bush109
     0
 endnode
 node danglymesh bush110
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -3116,7 +3120,6 @@ node danglymesh bush110
   displtype 1
   center 0 0 100.5
   bitmap tno01_bush03
-  parent fried_fix_01
   position 3.59 3.47 4.96
   verts 6
     -1.12 0.64 -0.07
@@ -3141,6 +3144,7 @@ node danglymesh bush110
     0
 endnode
 node danglymesh bush111
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -3164,7 +3168,6 @@ node danglymesh bush111
   displtype 1
   center -0.5 -0.5 60
   bitmap tno01_bush03
-  parent fried_fix_01
   position 3.73 3.26 5.16
   verts 6
     -0.87 0.64 -0.18
@@ -3189,6 +3192,7 @@ node danglymesh bush111
     0
 endnode
 node danglymesh bush112
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -3212,7 +3216,6 @@ node danglymesh bush112
   displtype 1
   center -1.50001 -48 60
   bitmap tno01_bush03
-  parent fried_fix_01
   position 3.38 3.31 5.16
   verts 6
     1.05 0.25 -0.18
@@ -3237,6 +3240,7 @@ node danglymesh bush112
     0
 endnode
 node danglymesh bush113
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -3260,7 +3264,6 @@ node danglymesh bush113
   displtype 1
   center -13 -9 60
   bitmap tno01_bush03
-  parent fried_fix_01
   position 3.48 3.7 5.16
   verts 6
     -0.48 -0.97 -0.18
@@ -3285,6 +3288,7 @@ node danglymesh bush113
     0
 endnode
 node danglymesh bush114
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -3308,7 +3312,6 @@ node danglymesh bush114
   displtype 1
   center 0 0 99
   bitmap tno01_bush03
-  parent fried_fix_01
   position 3 4.26 5.19
   verts 6
     -0.76 1.34 -0.31
@@ -3333,6 +3336,7 @@ node danglymesh bush114
     0
 endnode
 node danglymesh bush115
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -3356,7 +3360,6 @@ node danglymesh bush115
   displtype 1
   center 0 0 120
   bitmap tno01_bush03
-  parent fried_fix_01
   position 3 4.26 4.98
   verts 6
     0.78 1.34 -0.1
@@ -3381,6 +3384,7 @@ node danglymesh bush115
     0
 endnode
 node danglymesh bush116
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -3404,7 +3408,6 @@ node danglymesh bush116
   displtype 1
   center 0 0 120
   bitmap tno01_bush03
-  parent fried_fix_01
   position 3 4.26 4.98
   verts 6
     -1.54 0 -0.1
@@ -3429,6 +3432,7 @@ node danglymesh bush116
     0
 endnode
 node danglymesh bush117
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -3452,7 +3456,6 @@ node danglymesh bush117
   displtype 1
   center -5 44.5 72
   bitmap tno01_bush03
-  parent fried_fix_01
   position 3.28 4.12 5.23
   verts 6
     -1.29 0.15 -0.22
@@ -3477,6 +3480,7 @@ node danglymesh bush117
     0
 endnode
 node danglymesh bush118
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -3500,7 +3504,6 @@ node danglymesh bush118
   displtype 1
   center -11 -15.5 72
   bitmap tno01_bush03
-  parent fried_fix_01
   position 2.88 3.98 5.23
   verts 6
     0.95 0.89 -0.22
@@ -3525,6 +3528,7 @@ node danglymesh bush118
     0
 endnode
 node danglymesh bush119
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -3548,7 +3552,6 @@ node danglymesh bush119
   displtype 1
   center -58 -2 72
   bitmap tno01_bush03
-  parent fried_fix_01
   position 2.75 4.42 5.23
   verts 6
     0.08 -1.3 -0.22
@@ -3573,6 +3576,7 @@ node danglymesh bush119
     0
 endnode
 node danglymesh bush120
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -3596,7 +3600,6 @@ node danglymesh bush120
   displtype 1
   center 0 0 58
   bitmap tno01_bush03
-  parent fried_fix_01
   position 3.15 1.66 5.04
   verts 6
     0 0.9 -0.17
@@ -3621,6 +3624,7 @@ node danglymesh bush120
     0
 endnode
 node danglymesh bush121
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -3644,7 +3648,6 @@ node danglymesh bush121
   displtype 1
   center 0 0 70.5
   bitmap tno01_bush03
-  parent fried_fix_01
   position 3.15 1.66 4.91
   verts 6
     0.78 0.45 -0.04
@@ -3669,6 +3672,7 @@ node danglymesh bush121
     0
 endnode
 node danglymesh bush122
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -3692,7 +3696,6 @@ node danglymesh bush122
   displtype 1
   center 0 0 70.5
   bitmap tno01_bush03
-  parent fried_fix_01
   position 3.15 1.66 4.91
   verts 6
     -0.78 0.45 -0.04
@@ -3717,6 +3720,7 @@ node danglymesh bush122
     0
 endnode
 node danglymesh bush123
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -3740,7 +3744,6 @@ node danglymesh bush123
   displtype 1
   center -0.499998 -0.499998 42
   bitmap tno01_bush03
-  parent fried_fix_01
   position 3.25 1.51 5.06
   verts 6
     -0.61 0.45 -0.12
@@ -3765,6 +3768,7 @@ node danglymesh bush123
     0
 endnode
 node danglymesh bush124
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -3788,7 +3792,6 @@ node danglymesh bush124
   displtype 1
   center -1 -33.5 42
   bitmap tno01_bush03
-  parent fried_fix_01
   position 3.01 1.55 5.06
   verts 6
     0.74 0.18 -0.12
@@ -3813,6 +3816,7 @@ node danglymesh bush124
     0
 endnode
 node danglymesh bush125
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -3836,7 +3840,6 @@ node danglymesh bush125
   displtype 1
   center -9 -6.5 42
   bitmap tno01_bush03
-  parent fried_fix_01
   position 3.07 1.82 5.06
   verts 6
     -0.34 -0.68 -0.12
@@ -3861,6 +3864,7 @@ node danglymesh bush125
     0
 endnode
 node danglymesh bush126
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -3884,7 +3888,6 @@ node danglymesh bush126
   displtype 1
   center 0 0 69.5
   bitmap tno01_bush03
-  parent fried_fix_01
   position 2.74 2.21 5.08
   verts 6
     -0.54 0.94 -0.21
@@ -3909,6 +3912,7 @@ node danglymesh bush126
     0
 endnode
 node danglymesh bush127
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -3932,7 +3936,6 @@ node danglymesh bush127
   displtype 1
   center 0 0 84.5
   bitmap tno01_bush03
-  parent fried_fix_01
   position 2.74 2.21 4.93
   verts 6
     0.54 0.94 -0.06
@@ -3957,6 +3960,7 @@ node danglymesh bush127
     0
 endnode
 node danglymesh bush128
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -3980,7 +3984,6 @@ node danglymesh bush128
   displtype 1
   center 0 0 84.5
   bitmap tno01_bush03
-  parent fried_fix_01
   position 2.74 2.21 4.93
   verts 6
     -1.08 0 -0.06
@@ -4005,6 +4008,7 @@ node danglymesh bush128
     0
 endnode
 node danglymesh bush129
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -4028,7 +4032,6 @@ node danglymesh bush129
   displtype 1
   center -3.5 31.5 50.5
   bitmap tno01_bush03
-  parent fried_fix_01
   position 2.94 2.12 5.1
   verts 6
     -0.9 0.09 -0.15
@@ -4053,6 +4056,7 @@ node danglymesh bush129
     0
 endnode
 node danglymesh bush130
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -4076,7 +4080,6 @@ node danglymesh bush130
   displtype 1
   center -7.5 -10.5 50.5
   bitmap tno01_bush03
-  parent fried_fix_01
   position 2.66 2.02 5.1
   verts 6
     0.67 0.63 -0.15
@@ -4101,6 +4104,7 @@ node danglymesh bush130
     0
 endnode
 node danglymesh bush131
+  parent fried_fix_01
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -4124,7 +4128,6 @@ node danglymesh bush131
   displtype 1
   center -40.5 -1.5 50.5
   bitmap tno01_bush03
-  parent fried_fix_01
   position 2.56 2.33 5.1
   verts 6
     0.06 -0.9 -0.15
@@ -4190,16 +4193,16 @@ node trimesh cliff_1
     4 5 8 1 4 5 8 3
     6 8 7 1 6 8 7 3
   tverts 10
-    0.400391 0 0
+    -0.599609 0 0
+    -1 0 0
+    -1 1 0
+    -0.800781 1 0
     0 0 0
     0 1 0
-    0.199219 1 0
-    1 0 0
+    0.59961 0 0
     1 1 0
-    1.59961 0 0
-    2 1 0
-    1.69922 1 0
-    2 0 0
+    0.69922 1 0
+    1 0 0
 endnode
 node trimesh cliff_2
   parent wmx10_u41_03
@@ -4303,39 +4306,39 @@ node trimesh cliff_2
     31 19 30 1 31 19 30 1
     20 29 32 1 20 29 32 1
   tverts 33
-    0 1 0
-    0.193359 1 0
-    0.599609 1 0
-    0.257813 0.900391 0
-    0 0.900391 0
-    0.599609 0.900391 0
-    0 0.636719 0
-    0.300781 0.699219 0
-    0.599609 0.699219 0
-    0.900391 1 0
-    0.900391 0.900391 0
-    0.900391 0.699219 0
-    1 0 0
-    1.80078 1 0
-    2 1 0
-    1.19922 1 0
-    1.80078 0.900391 0
-    2 0.900391 0
-    1.20898 0.900391 0
-    1.72266 0.636719 0
-    2 0.636719 0
-    1.23047 0.78125 0
-    1.5 0.800781 0
-    1.5 0.900391 0
-    1.5 1 0
-    0.0996094 0 0
+    -1 1 0
+    -0.806641 1 0
+    -0.400391 1 0
+    -0.742187 0.900391 0
+    -1 0.900391 0
+    -0.400391 0.900391 0
+    -1 0.636719 0
+    -0.699219 0.699219 0
+    -0.400391 0.699219 0
+    -0.099609 1 0
+    -0.099609 0.900391 0
+    -0.099609 0.699219 0
     0 0 0
-    0.800781 0.300781 0
-    0.666016 0 0
-    2 0 0
-    1.33398 0 0
-    1.18555 0.289063 0
-    1.66602 0 0
+    0.80078 1 0
+    1 1 0
+    0.19922 1 0
+    0.80078 0.900391 0
+    1 0.900391 0
+    0.20898 0.900391 0
+    0.72266 0.636719 0
+    1 0.636719 0
+    0.23047 0.78125 0
+    0.5 0.800781 0
+    0.5 0.900391 0
+    0.5 1 0
+    -0.900391 0 0
+    -1 0 0
+    -0.199219 0.300781 0
+    -0.333984 0 0
+    1 0 0
+    0.33398 0 0
+    0.18555 0.289063 0
+    0.66602 0 0
 endnode
 endmodelgeom wmx10_u41_03
 donemodel wmx10_u41_03

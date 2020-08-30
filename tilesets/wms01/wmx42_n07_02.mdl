@@ -1,13 +1,147 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 19:47:20 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wmx42_n07_02
-setsupermodel wmx42_n07_02 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wmx42_n07_02 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wmx42_n07_02
 node dummy wmx42_n07_02
   parent NULL
+endnode
+node trimesh terrain_07
+  parent wmx42_n07_02
+  orientation 0 0 0 0
+  wirecolor 0.777344 0.777344 0.777344
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap wmx_nowtr5
+  render 1
+  shadow 0
+  beaming 0
+  transparencyhint 0
+  tilefade 0
+  rotatetexture 0
+  position -5 30 -2
+  verts 9
+    0 -35 0
+    5 -35 0
+    10 -35 0
+    0 -30 0
+    5 -30 0
+    10 -30 0
+    0 -25 0
+    5 -25 0
+    10 -25 0
+  faces 8
+    0 1 4 1 0 1 4 0
+    4 3 0 1 4 3 0 0
+    1 2 5 1 1 2 5 0
+    5 4 1 1 5 4 1 0
+    3 4 7 1 3 4 7 0
+    7 6 3 1 7 6 3 0
+    4 5 8 1 4 5 8 0
+    8 7 4 1 8 7 4 0
+  tverts 9
+    0.5 0.00390625 0
+    1 0.00390625 0
+    1.49805 0.00390625 0
+    0.5 0.503906 0
+    1 0.503906 0
+    1.49805 0.503906 0
+    0.5 1.00195 0
+    1 1.00195 0
+    1.49805 1.00195 0
+endnode
+node light wmx42_n07_02ml1
+  parent wmx42_n07_02
+  orientation 0 0 0 0
+  wirecolor 0.695313 0.695313 0.695313
+  radius 1400
+  multiplier 1
+  color 0 0 0
+  ambientonly 0
+  nDynamicType 1
+  affectdynamic 1
+  shadow 0
+  lightpriority 5
+  lensflares 0
+  fadinglight 1
+  position -1.5 -1.5 5.85
+endnode
+node light wmx42_n07_02ml2
+  parent wmx42_n07_02
+  orientation 0 0 0 0
+  wirecolor 0.695313 0.695313 0.695313
+  radius 500
+  multiplier 1
+  color 0 0 0
+  ambientonly 0
+  nDynamicType 1
+  affectdynamic 1
+  shadow 0
+  lightpriority 5
+  lensflares 0
+  fadinglight 1
+  position 1.5 1.5 11.85
+endnode
+node aabb wmesh_07
+  parent wmx42_n07_02
+  orientation 0 0 0 0
+  wirecolor 0.894531 0.894531 0.894531
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap NULL
+  position 0 0 0
+  render 0
+  shadow 0
+  verts 11
+    -1.54 3.7 -3
+    -5 -5 -3
+    -5 3.43 7.66
+    -5 0.27 -3
+    5 -5 -3
+    -5 5 7.75
+    5 5 -3
+    5 -1.59 -3
+    -1.69 5 1.98
+    -1.02 5 -3
+    -3.42 5 7.77
+  faces 10
+    3 0 8 1 0 0 0 2
+    8 10 2 1 0 0 0 2
+    3 8 2 1 0 0 0 2
+    1 0 3 2 0 0 0 2
+    4 7 0 2 0 0 0 2
+    0 1 4 2 0 0 0 2
+    8 0 9 4 0 0 0 2
+    5 2 10 2 0 0 0 2
+    9 0 7 2 0 0 0 2
+    7 6 9 2 0 0 0 2
+  aabb     -5 -5 -3 5 5 7.77 -1
+    -5 -5 -3 5 5 1.98 -1
+    -5 -5 -3 5 5 1.98 -1
+    -5 -5 -3 -1.54 5 1.98 -1
+    -5 -5 -3 -1.54 3.7 -3 3
+    -5 0.27 -3 -1.54 5 1.98 0
+    -5 -5 -3 5 5 1.98 -1
+    -1.69 3.7 -3 -1.02 5 1.98 6
+    -5 -5 -3 5 3.7 -3 5
+    -1.54 -5 -3 5 5 -3 -1
+    -1.54 -5 -3 5 3.7 -3 4
+    -1.54 -1.59 -3 5 5 -3 -1
+    -1.54 -1.59 -3 5 5 -3 8
+    -1.02 -1.59 -3 5 5 -3 9
+    -5 0.27 -3 -1.69 5 7.77 -1
+    -5 0.27 -3 -1.69 5 7.66 2
+    -5 3.43 1.98 -1.69 5 7.77 -1
+    -5 3.43 1.98 -1.69 5 7.77 1
+    -5 3.43 7.66 -3.42 5 7.77 7
 endnode
 node dummy wmx42_n07_02a
   parent wmx42_n07_02
@@ -22,6 +156,7 @@ node dummy fried_fix_01
   position 0 0 -0.5
 endnode
 node trimesh waterfx14
+  parent fried_fix_01
   orientation 0 0 0 0
   wirecolor 0.34375 0.34375 0.34375
   ambient 1 1 1
@@ -29,7 +164,6 @@ node trimesh waterfx14
   specular 0 0 0
   shininess 10
   bitmap wmx01_waterxx
-  parent fried_fix_01
   rotatetexture 1
   shadow 0
   position 0 0 -0.5
@@ -478,137 +612,6 @@ node trimesh waterfx14
     0.800781 1 0
     0.900391 1 0
     1 1 0
-endnode
-node trimesh terrain_07
-  parent wmx42_n07_02
-  orientation 0 0 0 0
-  wirecolor 0.777344 0.777344 0.777344
-  ambient 1 1 1
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 10
-  bitmap wmx_nowtr5
-  render 1
-  shadow 0
-  beaming 0
-  transparencyhint 0
-  tilefade 0
-  rotatetexture 0
-  position -5 30 -2
-  verts 9
-    0 -35 0
-    5 -35 0
-    10 -35 0
-    0 -30 0
-    5 -30 0
-    10 -30 0
-    0 -25 0
-    5 -25 0
-    10 -25 0
-  faces 8
-    0 1 4 1 0 1 4 0
-    4 3 0 1 4 3 0 0
-    1 2 5 1 1 2 5 0
-    5 4 1 1 5 4 1 0
-    3 4 7 1 3 4 7 0
-    7 6 3 1 7 6 3 0
-    4 5 8 1 4 5 8 0
-    8 7 4 1 8 7 4 0
-  tverts 9
-    0.5 0.00390625 0
-    1 0.00390625 0
-    1.49805 0.00390625 0
-    0.5 0.503906 0
-    1 0.503906 0
-    1.49805 0.503906 0
-    0.5 1.00195 0
-    1 1.00195 0
-    1.49805 1.00195 0
-endnode
-node light wmx42_n07_02ml1
-  parent wmx42_n07_02
-  orientation 0 0 0 0
-  wirecolor 0.695313 0.695313 0.695313
-  radius 1400
-  multiplier 1
-  color 0 0 0
-  ambientonly 0
-  ndynamictype 1
-  affectdynamic 1
-  shadow 0
-  lightpriority 5
-  lensflares 0
-  fadinglight 1
-  position -1.5 -1.5 5.85
-endnode
-node light wmx42_n07_02ml2
-  parent wmx42_n07_02
-  orientation 0 0 0 0
-  wirecolor 0.695313 0.695313 0.695313
-  radius 500
-  multiplier 1
-  color 0 0 0
-  ambientonly 0
-  ndynamictype 1
-  affectdynamic 1
-  shadow 0
-  lightpriority 5
-  lensflares 0
-  fadinglight 1
-  position 1.5 1.5 11.85
-endnode
-node aabb wmesh_07
-  parent wmx42_n07_02
-  orientation 0 0 0 0
-  wirecolor 0.894531 0.894531 0.894531
-  ambient 1 1 1
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 10
-  bitmap NULL
-  position 0 0 0
-  verts 11
-    -1.54 3.7 -3
-    -5 -5 -3
-    -5 3.43 7.66
-    -5 0.27 -3
-    5 -5 -3
-    -5 5 7.75
-    5 5 -3
-    5 -1.59 -3
-    -1.69 5 1.98
-    -1.02 5 -3
-    -3.42 5 7.77
-  faces 10
-    3 0 8 1 0 0 0 2
-    8 10 2 1 0 0 0 2
-    3 8 2 1 0 0 0 2
-    1 0 3 2 0 0 0 2
-    4 7 0 2 0 0 0 2
-    0 1 4 2 0 0 0 2
-    8 0 9 4 0 0 0 2
-    5 2 10 2 0 0 0 2
-    9 0 7 2 0 0 0 2
-    7 6 9 2 0 0 0 2
-  aabb     -5 -5 -3 5 5 7.77 -1
-    -5 -5 -3 5 5 1.98 -1
-    -5 -5 -3 5 5 1.98 -1
-    -5 -5 -3 -1.54 5 1.98 -1
-    -5 -5 -3 -1.54 3.7 -3 3
-    -5 0.27 -3 -1.54 5 1.98 0
-    -5 -5 -3 5 5 1.98 -1
-    -1.69 3.7 -3 -1.02 5 1.98 6
-    -5 -5 -3 5 3.7 -3 5
-    -1.54 -5 -3 5 5 -3 -1
-    -1.54 -5 -3 5 3.7 -3 4
-    -1.54 -1.59 -3 5 5 -3 -1
-    -1.54 -1.59 -3 5 5 -3 8
-    -1.02 -1.59 -3 5 5 -3 9
-    -5 0.27 -3 -1.69 5 7.77 -1
-    -5 0.27 -3 -1.69 5 7.66 2
-    -5 3.43 1.98 -1.69 5 7.77 -1
-    -5 3.43 1.98 -1.69 5 7.77 1
-    -5 3.43 7.66 -3.42 5 7.77 7
 endnode
 endmodelgeom wmx42_n07_02
 donemodel wmx42_n07_02

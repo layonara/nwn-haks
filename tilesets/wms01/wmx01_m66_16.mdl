@@ -1,9 +1,10 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 19:17:54 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wmx01_m66_16
-setsupermodel wmx01_m66_16 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wmx01_m66_16 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wmx01_m66_16
 node dummy wmx01_m66_16
@@ -19,6 +20,8 @@ node aabb wok16
   orientation 0 0 0 0
   bitmap NULL
   position 0 0 0
+  render 0
+  shadow 0
   verts 56
     -5 -5 3.41
     5 -5 0
@@ -315,7 +318,7 @@ node light wmx01_m66_16ml1
   multiplier 1
   color 1 1 1
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -330,7 +333,7 @@ node light wmx01_m66_16ml2
   multiplier 1
   color 1 1 1
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5

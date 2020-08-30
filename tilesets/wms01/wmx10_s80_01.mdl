@@ -1,9 +1,10 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 19:34:30 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wmx10_s80_01
-setsupermodel wmx10_s80_01 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wmx10_s80_01 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wmx10_s80_01
 node dummy wmx10_s80_01
@@ -486,6 +487,8 @@ node aabb wok
   orientation 0 0 0 0
   bitmap NULL
   position 0 0 0
+  render 0
+  shadow 0
   verts 121
     -5 -5 0
     -4 -5 0
@@ -1209,6 +1212,36 @@ node aabb wok
     4 4 -2 5 5 -1.99 198
     4 4 -2 5 5 -1.99 199
 endnode
+node light wmx10_s80_01ml1
+  parent wmx10_s80_01
+  wirecolor 0.878431 0.341176 0.560784
+  radius 0
+  multiplier 1
+  color 1 1 1
+  ambientonly 0
+  nDynamicType 0
+  affectdynamic 0
+  shadow 0
+  lightpriority 5
+  fadinglight 0
+  orientation 0 0 0 0
+  position 0 0 1.7
+endnode
+node light wmx10_s80_01ml2
+  parent wmx10_s80_01
+  wirecolor 0.878431 0.341176 0.560784
+  radius 0
+  multiplier 1
+  color 1 1 1
+  ambientonly 0
+  nDynamicType 0
+  affectdynamic 0
+  shadow 0
+  lightpriority 5
+  fadinglight 0
+  orientation 0 0 0 0
+  position -1.94 -2.06 1.7
+endnode
 node dummy wmx10_s80_01a
   parent wmx10_s80_01
   wirecolor 0.898039 0.603922 0.843137
@@ -1681,36 +1714,6 @@ node trimesh water01
     0.800781 1 0
     0.900391 1 0
     1 1 0
-endnode
-node light wmx10_s80_01ml1
-  parent wmx10_s80_01
-  wirecolor 0.878431 0.341176 0.560784
-  radius 0
-  multiplier 1
-  color 1 1 1
-  ambientonly 0
-  ndynamictype 0
-  affectdynamic 0
-  shadow 0
-  lightpriority 5
-  fadinglight 0
-  orientation 0 0 0 0
-  position 0 0 1.7
-endnode
-node light wmx10_s80_01ml2
-  parent wmx10_s80_01
-  wirecolor 0.878431 0.341176 0.560784
-  radius 0
-  multiplier 1
-  color 1 1 1
-  ambientonly 0
-  ndynamictype 0
-  affectdynamic 0
-  shadow 0
-  lightpriority 5
-  fadinglight 0
-  orientation 0 0 0 0
-  position -1.94 -2.06 1.7
 endnode
 endmodelgeom wmx10_s80_01
 donemodel wmx10_s80_01

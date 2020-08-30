@@ -1,9 +1,10 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 19:34:49 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wmx10_u41_02
-setsupermodel wmx10_u41_02 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wmx10_u41_02 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wmx10_u41_02
 node dummy wmx10_u41_02
@@ -82,29 +83,29 @@ node trimesh object14
     17 18 10 1 17 18 10 1
     10 19 17 1 10 19 17 1
   tverts 23
-    0.00195313 0.00195313 0
-    0.5 0.00195313 0
-    1 0.00195313 0
-    1.5 0.00195313 0
-    0.00195313 0.5 0
+    -0.998047 -0.998047 0
+    -0.5 -0.998047 0
+    0 -0.998047 0
+    0.5 -0.998047 0
+    -0.998047 -0.5 0
+    -0.5 -0.5 0
+    0 -0.5 0
+    -0.998047 -0.298828 0
+    -0.742187 -0.300781 0
+    -0.404297 -0.160156 0
+    0.5 -0.5 0
+    0.99805 -0.998047 0
+    -0.183594 0.12891 0
+    0.99805 0.99805 0
+    0.99805 0.5 0
     0.5 0.5 0
-    1 0.5 0
-    0.00195313 0.701172 0
-    0.257813 0.699219 0
-    0.595703 0.839844 0
-    1.5 0.5 0
-    1.99805 0.00195313 0
-    0.816406 1.12891 0
-    1.99805 1.99805 0
-    1.99805 1.5 0
-    1.5 1.5 0
-    1.5 1.99805 0
-    1.99805 1 0
-    1.5 1 0
-    1.99805 0.5 0
-    1.27344 1.83203 0
-    1.29883 1.99805 0
-    0.939453 1.375 0
+    0.5 0.99805 0
+    0.99805 0 0
+    0.5 0 0
+    0.99805 -0.5 0
+    0.27344 0.83203 0
+    0.29883 0.99805 0
+    -0.060547 0.375 0
 endnode
 node aabb wok
   parent wmx10_u41_02
@@ -116,6 +117,8 @@ node aabb wok
   orientation 0 0 0 0
   bitmap NULL
   position 0 0 0
+  render 0
+  shadow 0
   verts 24
     -3.88 1.6 -15.5
     -5 1.6 -15.5
@@ -409,20 +412,20 @@ node trimesh base07
     5 3 12 1 5 3 12 3
     11 5 13 1 11 5 13 3
   tverts 14
-    0.5 0 0
+    -0.5 0 0
+    -1 0 0
+    -1 1 0
+    -0.666016 1 0
     0 0 0
-    0 1 0
-    0.333984 1 0
-    1 0 0
-    0.894531 0.619141 0
-    0.957031 0.333984 0
-    1.5 0 0
-    2 1 0
-    1.66602 1 0
-    2 0 0
-    1.33398 1 0
-    0.666016 1 0
+    -0.105469 0.619141 0
+    -0.042969 0.333984 0
+    0.5 0 0
     1 1 0
+    0.66602 1 0
+    1 0 0
+    0.33398 1 0
+    -0.333984 1 0
+    0 1 0
 endnode
 node light wmx10_u41_02ml1
   parent wmx10_u41_02
@@ -431,7 +434,7 @@ node light wmx10_u41_02ml1
   multiplier 1
   color 0.639216 0.639216 0.639216
   ambientonly 0
-  ndynamictype 1
+  nDynamicType 1
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -446,7 +449,7 @@ node light wmx10_u41_02ml2
   multiplier 1
   color 0.639216 0.639216 0.639216
   ambientonly 0
-  ndynamictype 1
+  nDynamicType 1
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -542,34 +545,34 @@ node trimesh base02
     20 18 26 1 20 18 26 1
     26 27 20 1 26 27 20 1
   tverts 28
-    0 1 0
-    0.216797 1 0
-    0.585938 1 0
-    0.279297 0.900391 0
-    0 0.900391 0
-    0.623047 0.900391 0
-    0 0.677734 0
-    0.232422 0.677734 0
-    0.503906 0.587891 0
-    0.978516 1 0
-    0.902344 0.900391 0
-    0.886719 0.677734 0
-    1.86914 1 0
-    2 1 0
-    1.26172 1 0
-    1.83398 0.900391 0
-    2 0.900391 0
-    1.23242 0.900391 0
-    1.86914 0.677734 0
-    2 0.677734 0
-    1.23047 0.777344 0
-    0.333984 0 0
+    -1 1 0
+    -0.783203 1 0
+    -0.414062 1 0
+    -0.720703 0.900391 0
+    -1 0.900391 0
+    -0.376953 0.900391 0
+    -1 0.677734 0
+    -0.767578 0.677734 0
+    -0.496094 0.587891 0
+    -0.021484 1 0
+    -0.097656 0.900391 0
+    -0.113281 0.677734 0
+    0.86914 1 0
+    1 1 0
+    0.26172 1 0
+    0.83398 0.900391 0
+    1 0.900391 0
+    0.23242 0.900391 0
+    0.86914 0.677734 0
+    1 0.677734 0
+    0.23047 0.777344 0
+    -0.666016 0 0
+    -1 0 0
     0 0 0
+    -0.333984 0 0
     1 0 0
-    0.666016 0 0
-    2 0 0
-    1.66602 0 0
-    1.33398 0 0
+    0.66602 0 0
+    0.33398 0 0
 endnode
 node trimesh blackbase
   parent wmx10_u41_02
@@ -675,6 +678,7 @@ node dummy fried_fix_01
   position 0 0 -5.5
 endnode
 node danglymesh mesh02
+  parent fried_fix_01
   wirecolor 0.337255 0.337255 0.337255
   tilefade 0
   scale 1
@@ -697,7 +701,6 @@ node danglymesh mesh02
   displtype 1
   center 3.5 -18.5 -22
   bitmap ttf01_fern01
-  parent fried_fix_01
   orientation 0 0 0 0
   position -2.4 1.5 -1.87
   verts 8
@@ -730,6 +733,7 @@ node danglymesh mesh02
     138
 endnode
 node trimesh plant
+  parent fried_fix_01
   wirecolor 0.337255 0.337255 0.337255
   tilefade 0
   scale 1
@@ -747,7 +751,6 @@ node trimesh plant
   shininess 11
   center -245 90 -753.5
   bitmap ttf01_treefol03
-  parent fried_fix_01
   orientation 0 0 0 0
   position 0 0 5.01
   verts 4
@@ -765,6 +768,7 @@ node trimesh plant
     0.599609 1 0
 endnode
 node danglymesh mesh01
+  parent fried_fix_01
   wirecolor 0.337255 0.337255 0.337255
   tilefade 0
   scale 1
@@ -787,7 +791,6 @@ node danglymesh mesh01
   displtype 1
   center 7 -17 -23
   bitmap ttf01_fern01
-  parent fried_fix_01
   orientation 0 0 0 0
   position -2.87 1.5 -2.02
   verts 8
@@ -820,6 +823,7 @@ node danglymesh mesh01
     143
 endnode
 node trimesh object25
+  parent fried_fix_01
   wirecolor 0.337255 0.337255 0.337255
   tilefade 0
   scale 1
@@ -837,7 +841,6 @@ node trimesh object25
   shininess 11
   center -175 174.5 8
   bitmap wmx11_stnetile
-  parent fried_fix_01
   orientation 0 0 0 0
   position 0 0 5
   verts 14
@@ -869,22 +872,23 @@ node trimesh object25
     2 3 13 0 2 3 13 1
     2 13 9 0 2 13 9 1
   tverts 14
+    -7 0.0195313 0
+    -5.5 0.0195313 0
+    -3 0.0195313 0
     0 0.0195313 0
-    1.5 0.0195313 0
-    4 0.0195313 0
+    5.5 0.0195313 0
     7 0.0195313 0
-    12.5 0.0195313 0
-    14 0.0195313 0
-    10 0.0195313 0
-    1.5 0.970703 0
-    0 0.970703 0
-    4 0.970703 0
-    14 0.970703 0
-    12.5 0.970703 0
-    10 0.970703 0
+    3 0.0195313 0
+    -5.5 0.970703 0
+    -7 0.970703 0
+    -3 0.970703 0
     7 0.970703 0
+    5.5 0.970703 0
+    3 0.970703 0
+    0 0.970703 0
 endnode
 node trimesh object36
+  parent fried_fix_01
   wirecolor 0.894118 0.721569 0.6
   tilefade 0
   scale 1
@@ -902,7 +906,6 @@ node trimesh object36
   shininess 11
   center 0 0 0
   bitmap wmx01_pt_grass01
-  parent fried_fix_01
   orientation 0 0 0 0
   position 2.02 -2 5.04
   verts 6
@@ -919,14 +922,15 @@ node trimesh object36
     4 1 5 1 4 1 5 9
     5 1 0 1 5 1 0 9
   tverts 6
-    0.998047 0.474609 0
-    1.29297 0.771484 0
-    0.998047 1.00781 0
-    1 0.769531 0
-    1.53125 1.00781 0
-    1.53125 0.560547 0
+    -0.001953 0.474609 0
+    0.29297 0.771484 0
+    -0.001953 1.00781 0
+    0 0.769531 0
+    0.53125 1.00781 0
+    0.53125 0.560547 0
 endnode
 node danglymesh mesh10
+  parent fried_fix_01
   orientation 0 0 -1 -0.436332
   wirecolor 0.337255 0.337255 0.337255
   tilefade 0
@@ -950,7 +954,6 @@ node danglymesh mesh10
   displtype 1
   center -1.5 1.5 -14
   bitmap ttf01_fern01
-  parent fried_fix_01
   position 2.66 -1.82 5.44
   verts 8
     0 0.25 -0.43
@@ -982,6 +985,7 @@ node danglymesh mesh10
     143
 endnode
 node trimesh moss
+  parent fried_fix_01
   wirecolor 0.0313726 0.431373 0.521569
   tilefade 0
   scale 1
@@ -999,7 +1003,6 @@ node trimesh moss
   shininess 11
   center 52 -55.5 -249
   bitmap wmx01_pt_grass01
-  parent fried_fix_01
   orientation 0 0 0 0
   position -2.18 2.17 -2.51
   verts 23
@@ -1058,33 +1061,33 @@ node trimesh moss
     0.974609 0.740234 0
     0.791016 0.820313 0
     0.894531 0.53125 0
-    1.14844 0.964844 0
-    1.08594 1.48828 0
-    0.912109 1.36914 0
-    1.30078 1.03906 0
-    1.33398 1.51563 0
+    0.14844 -0.035156 0
+    0.08594 0.48828 0
+    -0.087891 0.36914 0
+    0.30078 0.03906 0
+    0.33398 0.51563 0
     0.630859 0.455078 0
     0.59375 1.04883 0
     0.716797 0.898438 0
-    1.23828 1.57422 0
-    1.2793 1.58789 0
+    0.23828 0.57422 0
+    0.2793 0.58789 0
     0.990234 0.935547 0
-    0.0761719 1.60742 0
-    0.316406 1.29883 0
-    0.599609 1.24805 0
-    1.06445 1.09766 0
-    0.980469 1.44922 0
-    0.0175781 0.964844 0
-    0.943359 0.964844 0
-    0.00976563 1.16602 0
-    0.0253906 1.45898 0
-    0.0488281 1.32617 0
-    0.939453 0.710938 0
-    1.06055 0.529297 0
-    1.39258 0.501953 0
-    1.55859 0.597656 0
-    1.17383 1.04688 0
-    1.42383 1.0957 0
+    0.0761719 0.60742 0
+    0.316406 0.29883 0
+    0.599609 0.24805 0
+    1.06445 0.09766 0
+    0.980469 0.44922 0
+    0.0175781 -0.035156 0
+    0.943359 -0.035156 0
+    0.00976563 0.16602 0
+    0.0253906 0.45898 0
+    0.0488281 0.32617 0
+    -0.060547 0.710938 0
+    0.06055 0.529297 0
+    0.39258 0.501953 0
+    0.55859 0.597656 0
+    0.17383 1.04688 0
+    0.42383 1.0957 0
 endnode
 endmodelgeom wmx10_u41_02
 donemodel wmx10_u41_02

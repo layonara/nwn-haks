@@ -1,9 +1,10 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 19:18:26 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wmx01_s10_01
-setsupermodel wmx01_s10_01 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wmx01_s10_01 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wmx01_s10_01
 node dummy wmx01_s10_01
@@ -16,7 +17,7 @@ node light wmx01_s10_01ml1
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 0
   shadow 0
   lightpriority 5
@@ -105,31 +106,31 @@ node trimesh plane101
     23 18 24 1 23 18 24 65536
     19 24 18 1 19 24 18 65536
   tverts 25
+    -2 -2 0
+    -1 -2 0
+    0 -2 0
+    1 -2 0
+    2 -2 0
+    -2 -1 0
+    -1 -1 0
+    0 -1 0
+    1 -1 0
+    2 -1 0
+    -2 0 0
+    -1 0 0
     0 0 0
     1 0 0
     2 0 0
-    3 0 0
-    4 0 0
+    -2 1 0
+    -1 1 0
     0 1 0
     1 1 0
     2 1 0
-    3 1 0
-    4 1 0
+    -2 2 0
+    -1 2 0
     0 2 0
     1 2 0
     2 2 0
-    3 2 0
-    4 2 0
-    0 3 0
-    1 3 0
-    2 3 0
-    3 3 0
-    4 3 0
-    0 4 0
-    1 4 0
-    2 4 0
-    3 4 0
-    4 4 0
 endnode
 node aabb wok_s10_01
   parent wmx01_s10_01
@@ -137,6 +138,8 @@ node aabb wok_s10_01
   bitmap NULL
   orientation 0 0 0 0
   position 0 0 0
+  render 0
+  shadow 0
   verts 25
     -5 -5 4
     -2.5 -5 4
@@ -267,7 +270,7 @@ node light wmx01_s10_01ml2
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 0
   shadow 0
   lightpriority 5

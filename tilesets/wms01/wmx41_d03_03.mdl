@@ -1,9 +1,10 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 19:44:56 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wmx41_d03_03
-setsupermodel wmx41_d03_03 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wmx41_d03_03 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wmx41_d03_03
 node dummy wmx41_d03_03
@@ -17,7 +18,7 @@ node light wmx41_d03_03ml1
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -33,7 +34,7 @@ node light wmx41_d03_03ml2
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -41,7 +42,7 @@ node light wmx41_d03_03ml2
   fadinglight 1
   position 2 2 4
 endnode
-node trimesh 0011_01_03_01
+node trimesh 11010301
   parent wmx41_d03_03
   orientation 0 0 0 0
   wirecolor 0.0351563 0.0351563 0.0351563
@@ -292,22 +293,22 @@ node trimesh box967_02_01_03_03_01
     0 2 4 1 12 13 14 2
     6 4 2 1 15 14 13 2
   tverts 16
-    0.798828 0.519531 0
-    0.46875 0.519531 0
-    0.773438 1.61719 0
-    0.496094 1.61719 0
-    0.507813 0.519531 0
-    0.185547 0.519531 0
-    0.482422 1.61719 0
-    0.212891 1.61719 0
-    0.523438 0.519531 0
-    0.193359 0.519531 0
-    0.492188 1.61719 0
-    0.226563 1.61719 0
-    0.816406 0.519531 0
-    0.492188 0.519531 0
-    0.794922 1.61719 0
-    0.523438 1.61719 0
+    0.798828 -0.480469 0
+    0.46875 -0.480469 0
+    0.773438 0.61719 0
+    0.496094 0.61719 0
+    0.507813 -0.480469 0
+    0.185547 -0.480469 0
+    0.482422 0.61719 0
+    0.212891 0.61719 0
+    0.523438 -0.480469 0
+    0.193359 -0.480469 0
+    0.492188 0.61719 0
+    0.226563 0.61719 0
+    0.816406 -0.480469 0
+    0.492188 -0.480469 0
+    0.794922 0.61719 0
+    0.523438 0.61719 0
 endnode
 node trimesh post-top379_02_01_03_03_01
   parent wmx41_d03_03
@@ -344,6 +345,8 @@ node aabb wwwmesh_01
   shininess 1
   bitmap NULL
   position 0 0 0
+  render 0
+  shadow 0
   verts 26
     5 5 2.5
     1.67 5 2.5
@@ -504,22 +507,22 @@ node trimesh box967_02_01_03_03_02
     0 2 4 1 12 13 14 2
     6 4 2 1 15 14 13 2
   tverts 16
-    0.798828 0.519531 0
-    0.46875 0.519531 0
-    0.773438 1.61719 0
-    0.496094 1.61719 0
-    0.507813 0.519531 0
-    0.185547 0.519531 0
-    0.482422 1.61719 0
-    0.212891 1.61719 0
-    0.523438 0.519531 0
-    0.193359 0.519531 0
-    0.492188 1.61719 0
-    0.226563 1.61719 0
-    0.816406 0.519531 0
-    0.492188 0.519531 0
-    0.794922 1.61719 0
-    0.523438 1.61719 0
+    0.798828 -0.480469 0
+    0.46875 -0.480469 0
+    0.773438 0.61719 0
+    0.496094 0.61719 0
+    0.507813 -0.480469 0
+    0.185547 -0.480469 0
+    0.482422 0.61719 0
+    0.212891 0.61719 0
+    0.523438 -0.480469 0
+    0.193359 -0.480469 0
+    0.492188 0.61719 0
+    0.226563 0.61719 0
+    0.816406 -0.480469 0
+    0.492188 -0.480469 0
+    0.794922 0.61719 0
+    0.523438 0.61719 0
 endnode
 node trimesh post-top379_02_01_03_03_02
   parent wmx41_d03_03

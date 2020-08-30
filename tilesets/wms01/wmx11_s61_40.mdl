@@ -1,9 +1,10 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 19:37:23 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wmx11_s61_40
-setsupermodel wmx11_s61_40 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wmx11_s61_40 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wmx11_s61_40
 node dummy wmx11_s61_40
@@ -69,21 +70,21 @@ node trimesh box67
     4 14 15 8 18 19 17 1
     14 2 15 16 19 15 17 1
   tverts 20
-    0.451172 1.44336 0
-    0.376953 1 0
-    0.222656 1.20117 0
-    0 1 0
-    0.210938 1.20898 0
-    0.371094 1 0
-    0.445313 1.44336 0
-    1 0.884766 0
-    1 1.2168 0
-    0.443359 1.44336 0
-    0.449219 1.44336 0
-    0 1.36914 0
-    0 1.33203 0
-    0 1.24414 0
-    0 1.28125 0
+    0.451172 0.44336 0
+    0.376953 0 0
+    0.222656 0.20117 0
+    0 0 0
+    0.210938 0.20898 0
+    0.371094 0 0
+    0.445313 0.44336 0
+    1 -0.115234 0
+    1 0.2168 0
+    0.443359 0.44336 0
+    0.449219 0.44336 0
+    0 0.36914 0
+    0 0.33203 0
+    0 0.24414 0
+    0 0.28125 0
     0.273438 0.130859 0
     0.265625 0.0683594 0
     0.150391 0.173828 0
@@ -128,14 +129,14 @@ node trimesh line522
     4 6 7 1 4 6 7 3
     4 7 5 1 4 7 5 3
   tverts 8
-    0.119141 0.0410156 0
-    1.26563 0.0410156 0
-    1.24219 0.429688 0
-    0.103516 0.429688 0
-    1.89648 0.0410156 0
-    1.88477 0.429688 0
-    2.96094 0.0410156 0
-    2.93555 0.429688 0
+    -0.880859 0.0410156 0
+    0.26563 0.0410156 0
+    0.24219 0.429688 0
+    -0.896484 0.429688 0
+    0.89648 0.0410156 0
+    0.88477 0.429688 0
+    1.96094 0.0410156 0
+    1.93555 0.429688 0
 endnode
 node trimesh object617
   parent wmx11_s61_40
@@ -197,20 +198,20 @@ node trimesh object617
     0.990234 0.996094 0
     0.988281 0.767578 0
     0.453125 0.990234 0
-    1.39063 0.666016 0
-    1 0.369141 0
-    1 0.585938 0
-    1.45117 0.443359 0
-    1.44531 0.443359 0
-    1.38477 0.666016 0
-    1 1 0
-    2 0.216797 0
-    2 0.646484 0
-    1.44336 0.443359 0
-    2.00195 0.998047 0
-    1.34375 1 0
-    1.44922 0.443359 0
-    1.34961 1 0
+    0.39063 0.666016 0
+    0 0.369141 0
+    0 0.585938 0
+    0.45117 0.443359 0
+    0.44531 0.443359 0
+    0.38477 0.666016 0
+    0 1 0
+    1 0.216797 0
+    1 0.646484 0
+    0.44336 0.443359 0
+    1.00195 0.998047 0
+    0.34375 1 0
+    0.44922 0.443359 0
+    0.34961 1 0
 endnode
 node trimesh terrain
   parent wmx11_s61_40
@@ -613,7 +614,7 @@ node trimesh terrain
     0.599609 0.900391 0
     0.599609 1 0
     0.5 0 0
-    0.611328 0.916016 0
+    0.611328 -0.083984 0
     0.0878906 0.613281 0
     0.412109 0.566406 0
     0.376953 0.494141 0
@@ -624,7 +625,7 @@ node trimesh terrain
     0.5 0.900391 0
     0.5 1 0
     0.400391 0 0
-    0.675781 1.10938 0
+    0.675781 0.10938 0
     0.373047 0.199219 0
     0.214844 0.724609 0
     0.287109 0.675781 0
@@ -697,9 +698,9 @@ node trimesh terrain
     0.5 0.0996094 0
     0.5 0.199219 0
     0.400391 0.0996094 0
-    0.425781 0.90625 0
-    0.419922 1.47461 0
-    0.238281 1.08398 0
+    0.425781 -0.09375 0
+    0.419922 0.47461 0
+    0.238281 0.08398 0
     0.300781 0.199219 0
     0.199219 0.199219 0
     0.0996094 0.199219 0
@@ -741,6 +742,8 @@ node aabb wok
   orientation 0 0 0 0
   bitmap NULL
   position 0 0 0
+  render 0
+  shadow 0
   verts 121
     -5 -5 3
     -4 -5 3
@@ -1464,6 +1467,36 @@ node aabb wok
     4 4 0 5 5 0 198
     4 4 0 5 5 0 199
 endnode
+node light wmx11_s61_40ml1
+  parent wmx11_s61_40
+  wirecolor 1 1 1
+  radius 14
+  multiplier 1
+  color 0 0 0
+  ambientonly 0
+  nDynamicType 0
+  affectdynamic 1
+  shadow 0
+  lightpriority 5
+  fadinglight 1
+  orientation 0 0 0 0
+  position 0 0 5
+endnode
+node light wmx11_s61_40ml2
+  parent wmx11_s61_40
+  wirecolor 1 1 1
+  radius 5
+  multiplier 1
+  color 0.0039216 0.0039216 0.0039216
+  ambientonly 0
+  nDynamicType 0
+  affectdynamic 1
+  shadow 0
+  lightpriority 5
+  fadinglight 1
+  orientation 0 0 0 0
+  position -2.48 -0.23 4
+endnode
 node dummy wmx11_s61_40a
   parent wmx11_s61_40
   wirecolor 0.839216 0.898039 0.65098
@@ -1472,15 +1505,12 @@ node dummy wmx11_s61_40a
 endnode
 node emitter waterfall32
   parent wmx11_s61_40a
+  alpha 0.5
   orientation -0.0663938 -0.992542 0.10224 -1.15877
   wirecolor 1 1 1
-  update_sel 1
   update Fountain
-  render_sel 7
   render Motion_Blur
-  blend_sel 3
   blend Lighten
-  spawntype_sel 0
   spawntype 0
   xsize 100
   ysize 60
@@ -1492,7 +1522,6 @@ node emitter waterfall32
   threshold 0
   combinetime 0
   deadspace 0
-  opacity 0.5
   colorStart 1 1 1
   colorEnd 1 1 1
   alphaStart 0.6
@@ -1514,7 +1543,7 @@ node emitter waterfall32
   bounce 0
   m_isTinted 0
   splat 0
-  affectedByWind false
+  affectedByWind 0
   texture fxpa_splash
   twosidedtex 0
   xgrid 1
@@ -1530,7 +1559,6 @@ node emitter waterfall32
   blastRadius 0
   blastLength 0
   p2p 0
-  p2p_type Bezier
   p2p_sel 1
   p2p_bezier2 0
   p2p_bezier3 0
@@ -1540,15 +1568,12 @@ node emitter waterfall32
 endnode
 node emitter omenemitter35
   parent wmx11_s61_40a
+  alpha 0.5
   orientation 0 0 -1 -3.00801
   wirecolor 1 1 1
-  update_sel 1
   update Fountain
-  render_sel 4
   render Billboard_to_World_Z
-  blend_sel 3
   blend Lighten
-  spawntype_sel 0
   spawntype 0
   xsize 140
   ysize 180
@@ -1560,7 +1585,6 @@ node emitter omenemitter35
   threshold 0
   combinetime 0
   deadspace 0
-  opacity 0.5
   colorStart 0.796079 0.917647 0.901961
   colorEnd 0 0 0
   alphaStart 0.7
@@ -1582,7 +1606,7 @@ node emitter omenemitter35
   bounce 0
   m_isTinted 0
   splat 0
-  affectedByWind false
+  affectedByWind 0
   texture fxpa_splash
   twosidedtex 0
   xgrid 1
@@ -1598,7 +1622,6 @@ node emitter omenemitter35
   blastRadius 0
   blastLength 0
   p2p 0
-  p2p_type Bezier
   p2p_sel 1
   p2p_bezier2 0
   p2p_bezier3 0
@@ -2073,36 +2096,6 @@ node trimesh water
     0.900391 1 0
     1 1 0
 endnode
-node light wmx11_s61_40ml1
-  parent wmx11_s61_40
-  wirecolor 1 1 1
-  radius 14
-  multiplier 1
-  color 0 0 0
-  ambientonly 0
-  ndynamictype 0
-  affectdynamic 1
-  shadow 0
-  lightpriority 5
-  fadinglight 1
-  orientation 0 0 0 0
-  position 0 0 5
-endnode
-node light wmx11_s61_40ml2
-  parent wmx11_s61_40
-  wirecolor 1 1 1
-  radius 5
-  multiplier 1
-  color 0.0039216 0.0039216 0.0039216
-  ambientonly 0
-  ndynamictype 0
-  affectdynamic 1
-  shadow 0
-  lightpriority 5
-  fadinglight 1
-  orientation 0 0 0 0
-  position -2.48 -0.23 4
-endnode
 endmodelgeom wmx11_s61_40
 
 #MAXANIM ASCII
@@ -2128,6 +2121,12 @@ newanim animloop01 wmx11_s61_40
   node dummy wok
     parent wmx11_s61_40
   endnode
+  node light wmx11_s61_40ml1
+    parent wmx11_s61_40
+  endnode
+  node light wmx11_s61_40ml2
+    parent wmx11_s61_40
+  endnode
   node dummy wmx11_s61_40a
     parent wmx11_s61_40
   endnode
@@ -2147,12 +2146,6 @@ newanim animloop01 wmx11_s61_40
   endnode
   node dummy water
     parent wmx11_s61_40a
-  endnode
-  node light wmx11_s61_40ml1
-    parent wmx11_s61_40
-  endnode
-  node light wmx11_s61_40ml2
-    parent wmx11_s61_40
   endnode
 doneanim animloop01 wmx11_s61_40
 
@@ -2179,6 +2172,12 @@ newanim tiledefault wmx11_s61_40
   node dummy wok
     parent wmx11_s61_40
   endnode
+  node light wmx11_s61_40ml1
+    parent wmx11_s61_40
+  endnode
+  node light wmx11_s61_40ml2
+    parent wmx11_s61_40
+  endnode
   node dummy wmx11_s61_40a
     parent wmx11_s61_40
   endnode
@@ -2196,12 +2195,6 @@ newanim tiledefault wmx11_s61_40
   endnode
   node dummy water
     parent wmx11_s61_40a
-  endnode
-  node light wmx11_s61_40ml1
-    parent wmx11_s61_40
-  endnode
-  node light wmx11_s61_40ml2
-    parent wmx11_s61_40
   endnode
 doneanim tiledefault wmx11_s61_40
 donemodel wmx11_s61_40

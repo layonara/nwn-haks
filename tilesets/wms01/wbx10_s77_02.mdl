@@ -1,9 +1,10 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 18:56:36 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wbx10_s77_02
-setsupermodel wbx10_s77_02 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wbx10_s77_02 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wbx10_s77_02
 node dummy wbx10_s77_02
@@ -523,6 +524,8 @@ node aabb wok
   orientation 0 0 0 0
   bitmap NULL
   position 0 0 0
+  render 0
+  shadow 0
   verts 121
     -5 -5 3
     -4 -5 3
@@ -1246,215 +1249,41 @@ node aabb wok
     4 4 -2 5 5 -1.76 198
     4 4 -2 5 5 -1.76 199
 endnode
+node light wbx10_s77_02ml1
+  parent wbx10_s77_02
+  wirecolor 0.768628 0.768628 0.768628
+  radius 0
+  multiplier 1
+  color 1 1 1
+  ambientonly 0
+  nDynamicType 0
+  affectdynamic 0
+  shadow 0
+  lightpriority 3
+  fadinglight 1
+  orientation 0 0 0 0
+  position 3.96 -3.04 2.55
+endnode
+node light wbx10_s77_02ml2
+  parent wbx10_s77_02
+  wirecolor 0.768628 0.768628 0.768628
+  radius 0
+  multiplier 1
+  color 1 1 1
+  ambientonly 0
+  nDynamicType 0
+  affectdynamic 0
+  shadow 0
+  lightpriority 3
+  fadinglight 1
+  orientation 0 0 0 0
+  position -2.31 2.63 3.86
+endnode
 node dummy wbx10_s77_02a
   parent wbx10_s77_02
   wirecolor 0.6 0.894118 0.839216
   orientation 0 0 0 0
   position 0 0 0
-endnode
-node emitter waterfall36
-  parent wbx10_s77_02a
-  orientation 0 0 -1 -1.53589
-  wirecolor 0.721569 0.721569 0.721569
-  update_sel 1
-  update Fountain
-  render_sel 1
-  render Normal
-  blend_sel 3
-  blend Lighten
-  spawntype_sel 0
-  spawntype 0
-  xsize 4
-  ysize 224
-  inherit 1
-  inherit_local 0
-  inheritvel 0
-  inherit_part 0
-  renderorder 0
-  threshold 0
-  combinetime 0
-  deadspace 0
-  opacity 0.5
-  colorStart 1 1 1
-  colorEnd 1 1 1
-  alphaStart 0.4
-  alphaEnd 0.33
-  sizeStart 0.6
-  sizeEnd 4
-  sizeStart_y 0
-  sizeEnd_y 0
-  birthrate 8
-  lifeExp 1.6
-  mass 0.4
-  spread 1.0472
-  particleRot 0.3
-  velocity 1.8
-  randvel 0.05
-  bounce_co 0.9
-  blurlength 10
-  loop 0
-  bounce 1
-  m_isTinted 0
-  splat 0
-  affectedByWind false
-  texture fxpa_splash
-  twosidedtex 0
-  xgrid 1
-  ygrid 1
-  fps 0
-  frameStart 0
-  frameEnd 0
-  random 0
-  lightningDelay 0
-  lightningRadius 0
-  lightningSubDiv 0
-  lightningScale 0
-  blastRadius 0
-  blastLength 0
-  p2p 0
-  p2p_type Bezier
-  p2p_sel 1
-  p2p_bezier2 0
-  p2p_bezier3 0
-  grav 0
-  drag 0
-  position -2.59 1.24 2.38
-endnode
-node emitter waterfall34
-  parent wbx10_s77_02a
-  orientation 0 0 -1 -1.53589
-  wirecolor 0.721569 0.721569 0.721569
-  update_sel 1
-  update Fountain
-  render_sel 1
-  render Normal
-  blend_sel 3
-  blend Lighten
-  spawntype_sel 0
-  spawntype 0
-  xsize 4
-  ysize 224
-  inherit 1
-  inherit_local 0
-  inheritvel 0
-  inherit_part 0
-  renderorder 0
-  threshold 0
-  combinetime 0
-  deadspace 0
-  opacity 0.5
-  colorStart 1 1 1
-  colorEnd 1 1 1
-  alphaStart 0.4
-  alphaEnd 0.33
-  sizeStart 0.6
-  sizeEnd 4
-  sizeStart_y 0
-  sizeEnd_y 0
-  birthrate 8
-  lifeExp 1.6
-  mass 0.4
-  spread 1.0472
-  particleRot 0.3
-  velocity 1.8
-  randvel 0.05
-  bounce_co 0.9
-  blurlength 10
-  loop 0
-  bounce 1
-  m_isTinted 0
-  splat 0
-  affectedByWind false
-  texture fxpa_splash
-  twosidedtex 0
-  xgrid 1
-  ygrid 1
-  fps 0
-  frameStart 0
-  frameEnd 0
-  random 0
-  lightningDelay 0
-  lightningRadius 0
-  lightningSubDiv 0
-  lightningScale 0
-  blastRadius 0
-  blastLength 0
-  p2p 0
-  p2p_type Bezier
-  p2p_sel 1
-  p2p_bezier2 0
-  p2p_bezier3 0
-  grav 0
-  drag 0
-  position 0.92 0.93 -1.01
-endnode
-node emitter waterfall33
-  parent wbx10_s77_02a
-  orientation -0.139027 0.157799 -0.977635 -1.5708
-  wirecolor 0.721569 0.721569 0.721569
-  update_sel 1
-  update Fountain
-  render_sel 1
-  render Normal
-  blend_sel 3
-  blend Lighten
-  spawntype_sel 0
-  spawntype 0
-  xsize 13
-  ysize 251
-  inherit 1
-  inherit_local 0
-  inheritvel 0
-  inherit_part 0
-  renderorder 0
-  threshold 0
-  combinetime 0
-  deadspace 0
-  opacity 0.5
-  colorStart 1 1 1
-  colorEnd 1 1 1
-  alphaStart 0.4
-  alphaEnd 0.33
-  sizeStart 0.6
-  sizeEnd 4
-  sizeStart_y 0
-  sizeEnd_y 0
-  birthrate 8
-  lifeExp 1.6
-  mass 0.4
-  spread 1.0472
-  particleRot 0.3
-  velocity 1.8
-  randvel 0.05
-  bounce_co 0.9
-  blurlength 10
-  loop 0
-  bounce 1
-  m_isTinted 0
-  splat 0
-  affectedByWind false
-  texture fxpa_splash
-  twosidedtex 0
-  xgrid 1
-  ygrid 1
-  fps 0
-  frameStart 0
-  frameEnd 0
-  random 0
-  lightningDelay 0
-  lightningRadius 0
-  lightningSubDiv 0
-  lightningScale 0
-  blastRadius 0
-  blastLength 0
-  p2p 0
-  p2p_type Bezier
-  p2p_sel 1
-  p2p_bezier2 0
-  p2p_bezier3 0
-  grav 0
-  drag 0
-  position 0.13 -0.39 0.16
 endnode
 node trimesh water
   parent wbx10_s77_02a
@@ -2133,35 +1962,194 @@ node trimesh waterbase
     0.900391 1 0
     1 1 0
 endnode
-node light wbx10_s77_02ml1
-  parent wbx10_s77_02
-  wirecolor 0.768628 0.768628 0.768628
-  radius 0
-  multiplier 1
-  color 1 1 1
-  ambientonly 0
-  ndynamictype 0
-  affectdynamic 0
-  shadow 0
-  lightpriority 3
-  fadinglight 1
-  orientation 0 0 0 0
-  position 3.96 -3.04 2.55
+node emitter waterfall36
+  parent wbx10_s77_02a
+  alpha 0.5
+  orientation 0 0 -1 -1.53589
+  wirecolor 0.721569 0.721569 0.721569
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  xsize 4
+  ysize 224
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0
+  combinetime 0
+  deadspace 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 0.4
+  alphaEnd 0.33
+  sizeStart 0.6
+  sizeEnd 4
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 8
+  lifeExp 1.6
+  mass 0.4
+  spread 1.0472
+  particleRot 0.3
+  velocity 1.8
+  randvel 0.05
+  bounce_co 0.9
+  blurlength 10
+  loop 0
+  bounce 1
+  m_isTinted 0
+  splat 0
+  affectedByWind 0
+  texture fxpa_splash
+  twosidedtex 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  frameStart 0
+  frameEnd 0
+  random 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -2.59 1.24 2.38
 endnode
-node light wbx10_s77_02ml2
-  parent wbx10_s77_02
-  wirecolor 0.768628 0.768628 0.768628
-  radius 0
-  multiplier 1
-  color 1 1 1
-  ambientonly 0
-  ndynamictype 0
-  affectdynamic 0
-  shadow 0
-  lightpriority 3
-  fadinglight 1
-  orientation 0 0 0 0
-  position -2.31 2.63 3.86
+node emitter waterfall34
+  parent wbx10_s77_02a
+  alpha 0.5
+  orientation 0 0 -1 -1.53589
+  wirecolor 0.721569 0.721569 0.721569
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  xsize 4
+  ysize 224
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0
+  combinetime 0
+  deadspace 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 0.4
+  alphaEnd 0.33
+  sizeStart 0.6
+  sizeEnd 4
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 8
+  lifeExp 1.6
+  mass 0.4
+  spread 1.0472
+  particleRot 0.3
+  velocity 1.8
+  randvel 0.05
+  bounce_co 0.9
+  blurlength 10
+  loop 0
+  bounce 1
+  m_isTinted 0
+  splat 0
+  affectedByWind 0
+  texture fxpa_splash
+  twosidedtex 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  frameStart 0
+  frameEnd 0
+  random 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position 0.92 0.93 -1.01
+endnode
+node emitter waterfall33
+  parent wbx10_s77_02a
+  alpha 0.5
+  orientation -0.139027 0.157799 -0.977635 -1.5708
+  wirecolor 0.721569 0.721569 0.721569
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  xsize 13
+  ysize 251
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0
+  combinetime 0
+  deadspace 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 0.4
+  alphaEnd 0.33
+  sizeStart 0.6
+  sizeEnd 4
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 8
+  lifeExp 1.6
+  mass 0.4
+  spread 1.0472
+  particleRot 0.3
+  velocity 1.8
+  randvel 0.05
+  bounce_co 0.9
+  blurlength 10
+  loop 0
+  bounce 1
+  m_isTinted 0
+  splat 0
+  affectedByWind 0
+  texture fxpa_splash
+  twosidedtex 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  frameStart 0
+  frameEnd 0
+  random 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position 0.13 -0.39 0.16
 endnode
 endmodelgeom wbx10_s77_02
 
@@ -2179,8 +2167,20 @@ newanim animloop01 wbx10_s77_02
   node dummy wok
     parent wbx10_s77_02
   endnode
+  node light wbx10_s77_02ml1
+    parent wbx10_s77_02
+  endnode
+  node light wbx10_s77_02ml2
+    parent wbx10_s77_02
+  endnode
   node dummy wbx10_s77_02a
     parent wbx10_s77_02
+  endnode
+  node dummy water
+    parent wbx10_s77_02a
+  endnode
+  node dummy waterbase
+    parent wbx10_s77_02a
   endnode
   node emitter waterfall36
     parent wbx10_s77_02a
@@ -2199,18 +2199,6 @@ newanim animloop01 wbx10_s77_02
     birthratekey
       0 8
     endlist
-  endnode
-  node dummy water
-    parent wbx10_s77_02a
-  endnode
-  node dummy waterbase
-    parent wbx10_s77_02a
-  endnode
-  node light wbx10_s77_02ml1
-    parent wbx10_s77_02
-  endnode
-  node light wbx10_s77_02ml2
-    parent wbx10_s77_02
   endnode
 doneanim animloop01 wbx10_s77_02
 
@@ -2228,8 +2216,20 @@ newanim tiledefault wbx10_s77_02
   node dummy wok
     parent wbx10_s77_02
   endnode
+  node light wbx10_s77_02ml1
+    parent wbx10_s77_02
+  endnode
+  node light wbx10_s77_02ml2
+    parent wbx10_s77_02
+  endnode
   node dummy wbx10_s77_02a
     parent wbx10_s77_02
+  endnode
+  node dummy water
+    parent wbx10_s77_02a
+  endnode
+  node dummy waterbase
+    parent wbx10_s77_02a
   endnode
   node emitter waterfall36
     parent wbx10_s77_02a
@@ -2248,18 +2248,6 @@ newanim tiledefault wbx10_s77_02
     birthratekey
       0 0
     endlist
-  endnode
-  node dummy water
-    parent wbx10_s77_02a
-  endnode
-  node dummy waterbase
-    parent wbx10_s77_02a
-  endnode
-  node light wbx10_s77_02ml1
-    parent wbx10_s77_02
-  endnode
-  node light wbx10_s77_02ml2
-    parent wbx10_s77_02
   endnode
 doneanim tiledefault wbx10_s77_02
 donemodel wbx10_s77_02

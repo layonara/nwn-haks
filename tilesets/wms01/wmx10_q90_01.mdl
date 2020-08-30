@@ -1,296 +1,14 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 19:31:37 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wmx10_q90_01
-setsupermodel wmx10_q90_01 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wmx10_q90_01 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wmx10_q90_01
 node dummy wmx10_q90_01
   parent NULL
-endnode
-node dummy wmx10_q90_01a
-  parent wmx10_q90_01
-  orientation 0 0 0 0
-  wirecolor 1 0 0
-  position 0 0 0
-endnode
-node dummy fried_fix_01
-  parent wmx10_q90_01a
-  wirecolor 0.52549 0.431373 0.0313726
-  orientation 0 0 0 0
-  position 0 0 -0.5
-endnode
-node emitter em_smoke02
-  orientation 1 0 0 -3.14159
-  wirecolor 0.721569 0.894118 0.6
-  update_sel 1
-  update Fountain
-  render_sel 1
-  render Normal
-  blend_sel 1
-  blend Normal
-  spawntype_sel 0
-  spawntype 0
-  xsize 60
-  ysize 25
-  inherit 0
-  inherit_local 1
-  inheritvel 0
-  inherit_part 0
-  renderorder 0
-  threshold 0
-  combinetime 0
-  deadspace 0
-  opacity 0.5
-  colorStart 0.709804 0.709804 0.709804
-  colorEnd 0.12549 0.12549 0.12549
-  alphaStart 0.4
-  alphaEnd 0
-  sizeStart 0.25
-  sizeEnd 0.8
-  sizeStart_y 0.4
-  sizeEnd_y 0.8
-  birthrate 5
-  lifeExp 4.5
-  mass -0.02
-  spread 0.698132
-  particleRot 2
-  velocity 0
-  randvel 0
-  bounce_co 0
-  blurlength 10
-  loop 0
-  bounce 0
-  m_isTinted 1
-  splat 0
-  affectedByWind true
-  texture fxpa_mist
-  twosidedtex 1
-  xgrid 4
-  ygrid 4
-  fps 12
-  frameStart 0
-  frameEnd 11
-  random 1
-  lightningDelay 0
-  lightningRadius 0
-  lightningSubDiv 0
-  lightningScale 0
-  blastRadius 0
-  blastLength 0
-  p2p 0
-  p2p_type Bezier
-  p2p_sel 1
-  p2p_bezier2 0
-  p2p_bezier3 0
-  grav 0
-  drag 0
-  parent fried_fix_01
-  position 2.27 0.12 13.73
-endnode
-node trimesh tower1_windowshutters01
-  wirecolor 0.87451 0.337255 0.337255
-  tilefade 0
-  scale 1
-  render 1
-  shadow 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 1 1 1
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 11
-  center 30.5 0.5 -0.499998
-  bitmap wms01_shutty2
-  parent fried_fix_01
-  orientation 0 0 0 0
-  position 1.48 -2.62 6.47
-  verts 8
-    0 0.02 -0.59
-    0.61 0.02 -0.58
-    0 0.05 0.56
-    0.61 0.05 0.58
-    0 -0.04 -0.59
-    0.61 -0.04 -0.58
-    0 -0.01 0.56
-    0.61 -0.01 0.58
-  faces 10
-    3 1 0 4 11 9 8 2
-    0 2 3 4 8 10 11 2
-    7 6 4 2 11 10 8 1
-    4 5 7 2 8 9 11 1
-    5 4 0 8 5 4 0 5
-    0 1 5 8 0 1 5 5
-    7 5 1 16 6 7 3 4
-    1 3 7 16 3 2 6 4
-    6 7 3 32 4 6 2 6
-    3 2 6 32 2 0 4 6
-  tverts 12
-    2.69922 0.964844 0
-    2.69922 0.732422 0
-    3.00586 0.964844 0
-    3.00586 0.732422 0
-    2.00586 0.964844 0
-    2.00586 0.732422 0
-    2.3125 0.964844 0
-    2.3125 0.732422 0
-    0 0 0
-    0.453125 0 0
-    0 1 0
-    0.5 1 0
-endnode
-node trimesh tower1_windowshutters
-  wirecolor 0.0313726 0.239216 0.537255
-  tilefade 0
-  scale 1
-  render 1
-  shadow 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 1 1 1
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 11
-  center -31 0.5 -0.5
-  bitmap wms01_shutty2
-  parent fried_fix_01
-  orientation 0 0 0 0
-  position 0.11 -2.62 6.49
-  verts 8
-    -0.62 0.02 -0.58
-    -0.04 0.02 -0.58
-    -0.6 0.05 0.57
-    0 0.05 0.57
-    -0.62 -0.04 -0.58
-    -0.04 -0.04 -0.58
-    -0.6 -0.01 0.57
-    0 -0.01 0.57
-  faces 10
-    3 1 0 4 11 9 8 2
-    0 2 3 4 8 10 11 2
-    7 6 4 2 11 10 8 1
-    4 5 7 2 8 9 11 1
-    5 4 0 8 5 4 0 5
-    0 1 5 8 0 1 5 5
-    6 7 3 32 6 7 3 6
-    3 2 6 32 3 2 6 6
-    4 6 2 64 4 6 2 3
-    2 0 4 64 2 0 4 3
-  tverts 12
-    2.69922 0.964844 0
-    2.69922 0.732422 0
-    3.00586 0.964844 0
-    3.00586 0.732422 0
-    2.00586 0.964844 0
-    2.00586 0.732422 0
-    2.3125 0.964844 0
-    2.3125 0.732422 0
-    0 0 0
-    0.453125 0 0
-    0 1 0
-    0.5 1 0
-endnode
-node trimesh tower2_window
-  wirecolor 0.0313726 0.239216 0.537255
-  tilefade 0
-  scale 1
-  render 1
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  specular 0 0 0
-  shininess 12
-  center -73 0 0.5
-  bitmap tno01_window07
-  parent fried_fix_01
-  orientation 0 0 0 0
-  ambient 1 1 1
-  diffuse 1 1 1
-  shadow 0
-  position -1.96 0.25 11.14
-  verts 8
-    -0.59 1.07 -1.3
-    -0.59 -1.06 -1.38
-    -0.67 1.15 1.39
-    -0.67 -1.14 1.39
-    -0.79 1.1 -1.33
-    -0.79 -1.1 -1.41
-    -0.87 -1.18 1.42
-    -0.87 1.18 1.42
-  faces 10
-    4 5 1 1 10 12 0 1
-    1 0 4 1 0 1 10 1
-    3 1 5 1 2 3 11 1
-    5 6 3 1 11 0 2 1
-    0 2 7 1 4 5 0 1
-    7 4 0 1 0 11 4 1
-    3 2 0 1 6 7 8 1
-    0 1 3 1 8 9 6 1
-    3 6 7 1 0 13 14 1
-    7 2 3 1 14 1 0 1
-  tverts 15
-    0.996094 0.0625 0
-    0.00195313 0.046875 0
-    0.996094 0.0253906 0
-    0.00390625 0.015625 0
-    0.00390625 0.0078125 0
-    0.996094 0.0175781 0
-    0.976563 0.951172 0
-    0.015625 0.951172 0
-    0.015625 0.0566406 0
-    0.976563 0.0566406 0
-    0.00195313 0.0117188 0
-    0.00390625 0.046875 0
-    0.998047 0.0214844 0
-    0.998047 0.0292969 0
-    0.00195313 0.0195313 0
-endnode
-node trimesh tower1_window
-  wirecolor 0.0313726 0.239216 0.537255
-  tilefade 0
-  scale 1
-  render 1
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 1 1 1
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 11
-  center -0.5 -42.5 0
-  bitmap tno01_window05
-  parent fried_fix_01
-  orientation 0 0 0 0
-  shadow 0
-  position 0.78 -2.02 6.48
-  verts 4
-    -0.62 -0.44 -0.6
-    0.61 -0.44 -0.63
-    0.6 -0.41 0.6
-    -0.57 -0.41 0.63
-  faces 2
-    0 1 2 2 0 1 2 1
-    2 3 0 2 2 3 0 1
-  tverts 4
-    0.988281 0.0195313 0
-    0.0117188 0 0
-    0.0175781 0.980469 0
-    0.951172 1 0
 endnode
 node light wmx10_q90_01ml1
   parent wmx10_q90_01
@@ -299,7 +17,7 @@ node light wmx10_q90_01ml1
   multiplier 1
   color 1 1 1
   ambientonly 0
-  ndynamictype 1
+  nDynamicType 1
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -314,7 +32,7 @@ node light wmx10_q90_01ml2
   multiplier 1
   color 1 1 1
   ambientonly 0
-  ndynamictype 1
+  nDynamicType 1
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -404,40 +122,40 @@ node trimesh chimenystack
     13 10 14 0 37 36 38 1
     19 5 21 4 23 20 24 3
   tverts 44
-    94.3398 5.85742 0
-    94.3398 44.9277 0
-    5.78906 5.85742 0
-    5.78906 44.9277 0
+    44.3398 -19.1426 0
+    44.3398 19.9277 0
+    -44.2109 -19.1426 0
+    -44.2109 19.9277 0
     0.435547 0.263672 0
     0.564453 0.263672 0
-    0.626953 1.49609 0
-    0.373047 1.49609 0
+    0.626953 0.49609 0
+    0.373047 0.49609 0
     0.556641 0.277344 0
     0.433594 0.277344 0
-    99.6328 0.5625 0
-    99.6328 50.2227 0
-    0.494141 50.2227 0
-    0.494141 0.5625 0
+    49.6328 -24.4375 0
+    49.6328 25.2227 0
+    -49.5059 25.2227 0
+    -49.5059 -24.4375 0
     0.4375 0.634766 0
     0.5625 0.634766 0
     0.433594 0.628906 0
     0.554688 0.628906 0
     0.625 0.267578 0
     0.378906 0.267578 0
-    0.677734 1.49414 0
+    0.677734 0.49414 0
     0.625 0.636719 0
     0.378906 0.636719 0
-    0.677734 1 0
-    0.322266 1.49414 0
-    0.322266 1 0
-    0.626953 1 0
-    0.373047 1 0
+    0.677734 0 0
+    0.322266 0.49414 0
+    0.322266 0 0
+    0.626953 0 0
+    0.373047 0 0
     0.373047 0.496094 0
     0.615234 0.496094 0
-    0.623047 1.63086 0
-    0.376953 1.63086 0
-    0.4375 1.62891 0
-    0.5625 1.62891 0
+    0.623047 0.63086 0
+    0.376953 0.63086 0
+    0.4375 0.62891 0
+    0.5625 0.62891 0
     0.433594 0.626953 0
     0.554688 0.626953 0
     0.75 0.878906 0
@@ -628,54 +346,54 @@ node trimesh groundplane
     39 23 24 1 39 23 24 65536
     33 39 38 1 33 39 38 65536
   tverts 53
-    0.00195313 0.00195313 0
-    0.5 0.00195313 0
-    1 0.00195313 0
-    0.667969 0.974609 0
-    0.333984 0.333984 0
-    0.625 0.207031 0
-    0.998047 0.296875 0
-    1.09766 0.982422 0
-    0.931641 0.730469 0
-    0.00195313 0.5 0
-    0.333984 0.666016 0
-    0.621094 0.414063 0
-    1.00586 0.439453 0
-    0.816406 1.10742 0
-    0.960938 1.08203 0
-    1.99805 1 0
-    0.00195313 1 0
-    0.333984 1.01758 0
-    0.666016 1 0
-    1.68945 1 0
-    0.333984 1.25391 0
-    0.626953 1.48242 0
+    -0.998047 -0.998047 0
+    -0.5 -0.998047 0
+    0 -0.998047 0
+    0.667969 -0.025391 0
+    -0.666016 -0.666016 0
+    -0.375 -0.792969 0
+    -0.001953 -0.703125 0
+    1.09766 -0.017578 0
+    -0.068359 0.730469 0
+    -0.998047 -0.5 0
+    -0.666016 -0.333984 0
+    -0.378906 -0.585937 0
+    0.00586 -0.560547 0
+    0.816406 0.10742 0
+    0.960938 0.08203 0
+    0.99805 0 0
+    -0.998047 0 0
+    -0.666016 0.01758 0
+    -0.333984 0 0
+    0.68945 0 0
+    -0.666016 0.25391 0
+    -0.373047 0.48242 0
     0.894531 0.496094 0
-    1.33398 1.46484 0
-    1.68945 1.47266 0
-    1.99805 1.5 0
-    0.00195313 1.5 0
-    0.333984 1.66016 0
-    0.582031 1.83008 0
+    0.33398 0.46484 0
+    0.68945 0.47266 0
+    0.99805 0.5 0
+    -0.998047 0.5 0
+    -0.666016 0.66016 0
+    -0.417969 0.83008 0
     0.650391 0.660156 0
-    1.33398 1.74219 0
-    0.00195313 1.99805 0
-    1 1.99805 0
-    1.5 1.99805 0
-    1.99805 1.99805 0
-    0.5 1.99805 0
-    0.916016 0.964844 0
-    0.824219 1.17383 0
-    1.81641 1.80664 0
-    1.63281 1.6543 0
-    0.964844 1.15625 0
-    1.09961 1.4082 0
-    0.960938 1.41211 0
-    1.09766 1.19531 0
-    0.882813 0.978516 0
-    1.18555 0.96875 0
-    0.914063 1.08398 0
-    1.19727 1.08984 0
+    0.33398 0.74219 0
+    -0.998047 0.99805 0
+    0 0.99805 0
+    0.5 0.99805 0
+    0.99805 0.99805 0
+    -0.5 0.99805 0
+    -0.083984 0.964844 0
+    0.824219 0.17383 0
+    0.81641 0.80664 0
+    0.63281 0.6543 0
+    0.964844 0.15625 0
+    1.09961 0.4082 0
+    0.960938 0.41211 0
+    1.09766 0.19531 0
+    0.882813 -0.021484 0
+    0.18555 0.96875 0
+    -0.085937 1.08398 0
+    0.19727 1.08984 0
     0.324219 0.875 0
     0.761719 0.203125 0
     0.523438 0.568359 0
@@ -802,94 +520,94 @@ node trimesh tower1_corner
     42 43 35 16 82 83 81 4
     35 33 42 16 81 40 82 4
   tverts 88
-    0.0527344 0.626953 0
-    0.466797 0.46875 0
-    0.0527344 0.46875 0
-    0.0527344 2.35938 0
-    0.464844 1.93164 0
-    0.0507813 1.93164 0
-    0.00976563 0.638672 0
-    0.509766 0.638672 0
-    0.509766 0.46875 0
+    0.0527344 -0.373047 0
+    0.466797 -0.53125 0
+    0.0527344 -0.53125 0
+    0.0527344 1.35938 0
+    0.464844 0.93164 0
+    0.0507813 0.93164 0
+    0.00976563 -0.361328 0
+    0.509766 -0.361328 0
+    0.509766 -0.53125 0
     0.0292969 1.67188 0
     0.443359 1.67188 0
-    0.449219 2.50195 0
-    0.0136719 0.634766 0
-    0.515625 0.634766 0
-    0.0449219 2.43945 0
-    0.427734 2.4375 0
-    0.480469 2.58203 0
-    0.00976563 0.46875 0
-    0.509766 0.626953 0
-    0.0527344 2.70313 0
-    0.466797 2.70313 0
+    0.449219 1.50195 0
+    0.0136719 -0.365234 0
+    0.515625 -0.365234 0
+    0.0449219 1.43945 0
+    0.427734 1.4375 0
+    0.480469 1.58203 0
+    0.00976563 -0.53125 0
+    0.509766 -0.373047 0
+    0.0527344 1.70313 0
+    0.466797 1.70313 0
     0.439453 1.85742 0
-    0.464844 0.314453 0
-    0.435547 2.35742 0
-    0.0507813 0.314453 0
-    0.447266 2.12695 0
-    0.0410156 2.12695 0
+    0.464844 -0.685547 0
+    0.435547 1.35742 0
+    0.0507813 -0.685547 0
+    0.447266 1.12695 0
+    0.0410156 1.12695 0
     0.466797 1.31445 0
-    0.447266 2.11133 0
-    0.0410156 2.11133 0
-    0.0664063 2.58203 0
+    0.447266 1.11133 0
+    0.0410156 1.11133 0
+    0.0664063 1.58203 0
     0.46875 1.28516 0
     0.0625 1.28516 0
     0.0566406 1.85742 0
     0.462891 1.27734 0
     0.0566406 1.27734 0
-    0.509766 2.28711 0
-    0.515625 2.2832 0
+    0.509766 1.28711 0
+    0.515625 1.2832 0
     0.478516 1.27148 0
     0.46875 0.134766 0
-    0.455078 2.12109 0
-    0.466797 0.626953 0
-    0.00976563 2.28711 0
-    0.0136719 2.2832 0
+    0.455078 1.12109 0
+    0.466797 -0.373047 0
+    0.00976563 1.28711 0
+    0.0136719 1.2832 0
     0.0625 0.134766 0
-    0.439453 2.14453 0
-    0.0527344 2.14453 0
-    0.439453 0.966797 0
-    0.0527344 0.966797 0
-    0.466797 2.27539 0
-    0.0527344 2.27539 0
-    0.435547 0.833984 0
-    0.0527344 0.833984 0
-    0.0664063 2.50391 0
-    0.449219 0.978516 0
-    0.0664063 0.978516 0
+    0.439453 1.14453 0
+    0.0527344 1.14453 0
+    0.439453 -0.033203 0
+    0.0527344 -0.033203 0
+    0.466797 1.27539 0
+    0.0527344 1.27539 0
+    0.435547 -0.166016 0
+    0.0527344 -0.166016 0
+    0.0664063 1.50391 0
+    0.449219 -0.021484 0
+    0.0664063 -0.021484 0
     0.078125 1.31445 0
     0.466797 0.136719 0
     0.078125 0.136719 0
-    0.509766 2.11719 0
-    0.00976563 2.11719 0
-    0.466797 2.11719 0
-    0.0527344 2.11719 0
+    0.509766 1.11719 0
+    0.00976563 1.11719 0
+    0.466797 1.11719 0
+    0.0527344 1.11719 0
     0.462891 0.126953 0
     0.0566406 0.126953 0
     0.443359 0.146484 0
     0.0292969 0.146484 0
-    0.447266 0.976563 0
-    0.0410156 0.976563 0
+    0.447266 -0.023437 0
+    0.0410156 -0.023437 0
     0.0722656 1.27148 0
     0.478516 0.121094 0
     0.0722656 0.121094 0
-    0.480469 0.966797 0
-    0.0664063 0.966797 0
-    0.427734 0.816406 0
-    0.0449219 0.816406 0
-    0.447266 0.960938 0
-    0.0410156 0.960938 0
-    0.00976563 0.626953 0
-    0.509766 2.27539 0
-    0.00976563 2.27539 0
-    0.0273438 2.12109 0
-    0.455078 0.970703 0
-    0.0273438 0.970703 0
+    0.480469 -0.033203 0
+    0.0664063 -0.033203 0
+    0.427734 -0.183594 0
+    0.0449219 -0.183594 0
+    0.447266 -0.039062 0
+    0.0410156 -0.039062 0
+    0.00976563 -0.373047 0
+    0.509766 1.27539 0
+    0.00976563 1.27539 0
+    0.0273438 1.12109 0
+    0.455078 -0.029297 0
+    0.0273438 -0.029297 0
     0.439453 0.136719 0
     0.0566406 0.136719 0
-    0.466797 0.972656 0
-    0.0527344 0.972656 0
+    0.466797 -0.027344 0
+    0.0527344 -0.027344 0
 endnode
 node trimesh tower1_lowerwall1
   parent wmx10_q90_01
@@ -972,10 +690,10 @@ node trimesh tower1_lowerwall2
     3 1 0 2 3 2 1 5
     0 2 3 2 1 0 3 5
   tverts 4
-    0.705078 0.00195313 0
-    0.767578 0.998047 0
-    2.23242 0.998047 0
-    2.29492 0.00195313 0
+    -0.294922 0.00195313 0
+    -0.232422 0.998047 0
+    1.23242 0.998047 0
+    1.29492 0.00195313 0
 endnode
 node trimesh tower1_lowerwall3
   parent wmx10_q90_01
@@ -1007,10 +725,10 @@ node trimesh tower1_lowerwall3
     0 1 3 1 0 1 2 4
     3 2 0 1 2 3 0 4
   tverts 4
-    2.28906 0.992188 0
-    0.710938 0.992188 0
-    0.644531 0.0078125 0
-    2.35547 0.0078125 0
+    1.28906 0.992188 0
+    -0.289062 0.992188 0
+    -0.355469 0.0078125 0
+    1.35547 0.0078125 0
 endnode
 node trimesh tower1_lowerwall4
   parent wmx10_q90_01
@@ -1042,10 +760,10 @@ node trimesh tower1_lowerwall4
     2 0 1 2 0 1 2 6
     1 3 2 2 2 3 0 6
   tverts 4
-    1.99414 0.015625 0
-    1.93359 0.984375 0
-    0.503906 0.984375 0
-    0.443359 0.015625 0
+    0.99414 0.015625 0
+    0.93359 0.984375 0
+    -0.496094 0.984375 0
+    -0.556641 0.015625 0
 endnode
 node trimesh tower1_roof
   parent wmx10_q90_01
@@ -1147,32 +865,32 @@ node trimesh tower1_roof
     11 1 30 2 24 30 47 5
     14 2 3 2 26 36 46 5
   tverts 48
-    0.990234 0.046875 0
-    1.52148 0.980469 0
-    1.17383 0.410156 0
-    1.9375 0.326172 0
-    1.36719 0.765625 0
-    1.69336 0.708984 0
-    2.14063 0.00976563 0
-    1.54297 0.330078 0
-    1.41797 0.0332031 0
-    1.66016 0.994141 0
-    0.789063 2.01953 0
-    0.822266 2.01953 0
-    1.41992 1.99414 0
-    0.613281 1.34375 0
+    -0.009766 0.046875 0
+    0.52148 0.980469 0
+    0.17383 0.410156 0
+    0.9375 0.326172 0
+    0.36719 0.765625 0
+    0.69336 0.708984 0
+    1.14063 0.00976563 0
+    0.54297 0.330078 0
+    0.41797 0.0332031 0
+    0.66016 -0.005859 0
+    -0.210937 1.01953 0
+    0.822266 1.01953 0
+    0.41992 0.99414 0
+    -0.386719 0.34375 0
     0.900391 1.01563 0
-    0.392578 1.32227 0
-    1.53711 1.35742 0
-    0.738281 1.70313 0
-    1.48047 1.70117 0
-    1.10156 1.99609 0
-    1.23438 1.33594 0
-    1.08594 1.33594 0
-    1.23047 1.69922 0
+    0.392578 0.32227 0
+    0.53711 0.35742 0
+    -0.261719 0.70313 0
+    0.48047 0.70117 0
+    0.10156 0.99609 0
+    0.23438 0.33594 0
+    0.08594 0.33594 0
+    0.23047 0.69922 0
     0.285156 0.97266 0
     1.07422 0.373047 0
-    1.21484 1.3418 0
+    1.21484 0.3418 0
     0.146484 0.330078 0
     0.902344 0.791016 0
     0.769531 0.0078125 0
@@ -1184,15 +902,15 @@ node trimesh tower1_roof
     1.1582 0.0136719 0
     0.070312 0.00781 0
     0.273438 0.00585938 0
-    0.652344 1.7168 0
-    1.00586 1.70703 0
-    0.210938 0.943359 0
-    1.38672 1.01758 0
-    0.785156 1.03125 0
-    0.808594 1.32031 0
-    1.08203 1.69531 0
-    1.16797 1 0
-    0.535156 1.01953 0
+    0.652344 0.7168 0
+    1.00586 0.70703 0
+    0.210938 -0.056641 0
+    1.38672 0.01758 0
+    0.785156 0.03125 0
+    0.808594 0.32031 0
+    0.08203 0.69531 0
+    0.16797 0 0
+    -0.464844 0.01953 0
     0.269531 0.248047 0
     0.761719 0.255859 0
 endnode
@@ -1316,19 +1034,19 @@ node trimesh tower1_upperwall1
     8 2 1 1 8 2 1 3
     7 1 10 1 10 9 12 3
   tverts 13
-    2.14063 0.958984 0
-    2.16992 0.0371094 0
-    2.00781 0.958984 0
-    0.960938 0.0214844 0
-    1.35938 0.0214844 0
-    0.847656 0.958984 0
-    2.32422 0.0214844 0
-    0.816406 0.0371094 0
-    1.26758 0.958984 0
-    2.30469 0.671875 0
-    0.982422 0.671875 0
-    1.91406 0.0214844 0
-    1.60938 0.0585938 0
+    1.14063 0.958984 0
+    1.16992 0.0371094 0
+    1.00781 0.958984 0
+    -0.039062 0.0214844 0
+    0.35938 0.0214844 0
+    -0.152344 0.958984 0
+    1.32422 0.0214844 0
+    -0.183594 0.0371094 0
+    0.26758 0.958984 0
+    1.30469 0.671875 0
+    -0.017578 0.671875 0
+    0.91406 0.0214844 0
+    0.60938 0.0585938 0
 endnode
 node trimesh tower1_upperwall2
   parent wmx10_q90_01
@@ -1374,20 +1092,20 @@ node trimesh tower1_upperwall2
     5 4 9 2 5 4 13 5
     0 2 7 2 1 2 9 5
   tverts 14
-    0.888672 1.00586 0
-    0.755859 0.0078125 0
-    2.1875 0.0078125 0
-    1.33594 0.0605469 0
-    1.66211 0.398438 0
-    2.11328 1.00586 0
-    1.33984 0.398438 0
-    2.14063 0.0605469 0
-    1.29492 0.748047 0
-    2.16602 0.748047 0
-    0.779297 0.748047 0
-    0.859375 0.0605469 0
-    1.64844 0.748047 0
-    1.66406 0.0605469 0
+    -0.111328 1.00586 0
+    -0.244141 0.0078125 0
+    1.1875 0.0078125 0
+    0.33594 0.0605469 0
+    0.66211 0.398438 0
+    1.11328 1.00586 0
+    0.33984 0.398438 0
+    1.14063 0.0605469 0
+    0.29492 0.748047 0
+    1.16602 0.748047 0
+    -0.220703 0.748047 0
+    -0.140625 0.0605469 0
+    0.64844 0.748047 0
+    0.66406 0.0605469 0
 endnode
 node trimesh tower1_upperwall3
   parent wmx10_q90_01
@@ -1423,14 +1141,14 @@ node trimesh tower1_upperwall3
     4 5 3 1 6 7 4 4
     3 2 4 1 4 3 6 4
   tverts 8
-    2.13086 0.0898438 0
-    0.78125 0.0898438 0
-    0.802734 0.734375 0
-    0.826172 0.980469 0
-    2.17383 0.980469 0
-    2.11133 0.734375 0
-    0.794922 0.0195313 0
-    2.20508 0.0195313 0
+    1.13086 0.0898438 0
+    -0.21875 0.0898438 0
+    -0.197266 0.734375 0
+    -0.173828 0.980469 0
+    1.17383 0.980469 0
+    1.11133 0.734375 0
+    -0.205078 0.0195313 0
+    1.20508 0.0195313 0
 endnode
 node trimesh tower1_upperwall4
   parent wmx10_q90_01
@@ -1466,14 +1184,14 @@ node trimesh tower1_upperwall4
     2 3 5 2 0 3 5 6
     5 4 2 2 5 4 0 6
   tverts 8
-    2.11523 0.976563 0
-    2.22656 0.0898438 0
-    0.966797 0.0898438 0
-    0.882813 0.976563 0
-    2.14453 0.0234375 0
-    0.855469 0.0234375 0
-    2.20703 0.740234 0
-    0.986328 0.740234 0
+    1.11523 0.976563 0
+    1.22656 0.0898438 0
+    -0.033203 0.0898438 0
+    -0.117187 0.976563 0
+    1.14453 0.0234375 0
+    -0.144531 0.0234375 0
+    1.20703 0.740234 0
+    -0.013672 0.740234 0
 endnode
 node trimesh tower1_windowframe
   parent wmx10_q90_01
@@ -1751,29 +1469,29 @@ node trimesh tower2_roof
     10 8 7 4 22 21 20 1
     10 3 8 4 22 3 21 1
   tverts 23
-    0.660156 1.00977 0
-    1.11914 0.935547 0
-    0.951172 0.925781 0
-    1.28906 1.01953 0
-    0.978516 2.00391 0
+    0.660156 0.00977 0
+    1.11914 -0.064453 0
+    -0.048828 -0.074219 0
+    1.28906 0.01953 0
+    0.978516 1.00391 0
     0.144531 0.00195313 0
     0.859375 0.00390625 0
     0.498047 1.00977 0
     0.335938 0.417969 0
     0.650391 0.460938 0
     0.324219 0.015625 0
-    1.5957 0.984375 0
-    1.26758 1.99219 0
-    1.125 1.42383 0
-    1.41602 1.42578 0
-    1.27344 0.970703 0
-    0.380859 1.02344 0
-    0.681641 2.02148 0
-    0.902344 1.42188 0
-    0.585938 1.46289 0
-    0.84375 1.46484 0
-    1.08984 1.43945 0
-    1.05078 0.998047 0
+    0.5957 -0.015625 0
+    0.26758 0.99219 0
+    0.125 0.42383 0
+    0.41602 0.42578 0
+    0.27344 -0.029297 0
+    0.380859 0.02344 0
+    0.681641 1.02148 0
+    0.902344 0.42188 0
+    0.585938 0.46289 0
+    0.84375 0.46484 0
+    1.08984 0.43945 0
+    1.05078 -0.001953 0
 endnode
 node trimesh tower2_roofunder
   parent wmx10_q90_01
@@ -1830,15 +1548,15 @@ node trimesh tower2_roofunder
     0.113281 0.148438 0
     0.113281 0.837891 0
     0.728516 0.949219 0
-    0.808594 1.09961 0
+    0.808594 0.09961 0
     0.820313 0.865234 0
-    0.138672 1.10547 0
-    0.9375 1.00977 0
-    0.0488281 1.01367 0
+    0.138672 0.10547 0
+    0.9375 0.00977 0
+    0.0488281 0.01367 0
     0.0605469 0.957031 0
     0.919922 0.947266 0
     0.576172 0.976563 0
-    0.486328 0.998047 0
+    0.486328 -0.001953 0
     0.148438 0.873047 0
 endnode
 node trimesh tower2_wall1
@@ -1885,16 +1603,16 @@ node trimesh tower2_wall1
     5 9 1 8 6 9 1 4
     4 5 1 8 5 6 1 4
   tverts 10
-    1.0332 1.30469 0
-    1.96484 1.30469 0
-    1.96484 2.24609 0
-    1.0332 2.24609 0
-    0.986328 2.29492 0
-    0.964844 0.263672 0
-    2.0332 0.263672 0
-    2.01172 2.29492 0
-    0.986328 1.30273 0
-    2.01172 1.30469 0
+    0.0332 0.30469 0
+    0.96484 0.30469 0
+    0.96484 1.24609 0
+    0.0332 1.24609 0
+    -0.013672 1.29492 0
+    -0.035156 -0.736328 0
+    1.0332 -0.736328 0
+    1.01172 1.29492 0
+    -0.013672 0.30273 0
+    1.01172 0.30469 0
 endnode
 node trimesh tower2_wall2
   parent wmx10_q90_01
@@ -1936,15 +1654,15 @@ node trimesh tower2_wall2
     5 3 8 1 5 3 8 5
     8 3 4 1 8 3 4 5
   tverts 9
-    1.21289 0.285156 0
-    1.50195 0.287109 0
-    1.21484 0.652344 0
-    0.978516 1.25195 0
-    0.984375 0.919922 0
-    1.50391 1.26367 0
-    1.50391 0.751953 0
-    1.35156 0.554688 0
-    1.19727 0.705078 0
+    0.21289 0.285156 0
+    0.50195 0.287109 0
+    0.21484 0.652344 0
+    -0.021484 1.25195 0
+    -0.015625 0.919922 0
+    0.50391 1.26367 0
+    0.50391 0.751953 0
+    0.35156 0.554688 0
+    0.19727 0.705078 0
 endnode
 node trimesh tower2_wall3
   parent wmx10_q90_01
@@ -1986,15 +1704,15 @@ node trimesh tower2_wall3
     7 8 6 1 7 8 6 6
     0 2 5 1 0 2 5 6
   tverts 9
-    1.24023 0.279297 0
-    1.48633 0.279297 0
-    1.24023 0.617188 0
-    1 1.26758 0
-    0.998047 0.90625 0
-    1.36719 0.541016 0
-    1.24219 0.660156 0
-    1.48828 1.26758 0
-    1.48828 0.757813 0
+    0.24023 0.279297 0
+    0.48633 0.279297 0
+    0.24023 0.617188 0
+    0 1.26758 0
+    -0.001953 0.90625 0
+    0.36719 0.541016 0
+    0.24219 0.660156 0
+    0.48828 1.26758 0
+    0.48828 0.757813 0
 endnode
 node trimesh tower2_wall4
   parent wmx10_q90_01
@@ -2026,10 +1744,10 @@ node trimesh tower2_wall4
     3 2 0 2 3 2 0 3
     0 1 3 2 0 1 3 3
   tverts 4
-    1.49023 0.923828 0
-    0.998047 0.923828 0
-    1.49023 0.423828 0
-    0.998047 0.423828 0
+    0.49023 0.923828 0
+    -0.001953 0.923828 0
+    0.49023 0.423828 0
+    -0.001953 0.423828 0
 endnode
 node trimesh shadow_roof
   parent wmx10_q90_01
@@ -2075,6 +1793,8 @@ node aabb walkmesh
   bitmap NULL
   orientation 0 0 0 0
   position 0 0 0
+  render 0
+  shadow 0
   verts 63
     -5 -5 -0.5
     -2.5 -5 -0.5
@@ -2953,6 +2673,284 @@ node trimesh tower2_buttress
     0.734375 0.00585938 0
     0.742188 0.992187 0
 endnode
+node dummy wmx10_q90_01a
+  parent wmx10_q90_01
+  orientation 0 0 0 0
+  wirecolor 1 0 0
+  position 0 0 0
+endnode
+node dummy fried_fix_01
+  parent wmx10_q90_01a
+  wirecolor 0.52549 0.431373 0.0313726
+  orientation 0 0 0 0
+  position 0 0 -0.5
+endnode
+node trimesh tower1_windowshutters01
+  parent fried_fix_01
+  wirecolor 0.87451 0.337255 0.337255
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  center 30.5 0.5 -0.499998
+  bitmap wms01_shutty2
+  orientation 0 0 0 0
+  position 1.48 -2.62 6.47
+  verts 8
+    0 0.02 -0.59
+    0.61 0.02 -0.58
+    0 0.05 0.56
+    0.61 0.05 0.58
+    0 -0.04 -0.59
+    0.61 -0.04 -0.58
+    0 -0.01 0.56
+    0.61 -0.01 0.58
+  faces 10
+    3 1 0 4 11 9 8 2
+    0 2 3 4 8 10 11 2
+    7 6 4 2 11 10 8 1
+    4 5 7 2 8 9 11 1
+    5 4 0 8 5 4 0 5
+    0 1 5 8 0 1 5 5
+    7 5 1 16 6 7 3 4
+    1 3 7 16 3 2 6 4
+    6 7 3 32 4 6 2 6
+    3 2 6 32 2 0 4 6
+  tverts 12
+    0.69922 0.964844 0
+    0.69922 0.732422 0
+    1.00586 0.964844 0
+    1.00586 0.732422 0
+    0.00586 0.964844 0
+    0.00586 0.732422 0
+    0.3125 0.964844 0
+    0.3125 0.732422 0
+    0 0 0
+    0.453125 0 0
+    0 1 0
+    0.5 1 0
+endnode
+node trimesh tower1_windowshutters
+  parent fried_fix_01
+  wirecolor 0.0313726 0.239216 0.537255
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  center -31 0.5 -0.5
+  bitmap wms01_shutty2
+  orientation 0 0 0 0
+  position 0.11 -2.62 6.49
+  verts 8
+    -0.62 0.02 -0.58
+    -0.04 0.02 -0.58
+    -0.6 0.05 0.57
+    0 0.05 0.57
+    -0.62 -0.04 -0.58
+    -0.04 -0.04 -0.58
+    -0.6 -0.01 0.57
+    0 -0.01 0.57
+  faces 10
+    3 1 0 4 11 9 8 2
+    0 2 3 4 8 10 11 2
+    7 6 4 2 11 10 8 1
+    4 5 7 2 8 9 11 1
+    5 4 0 8 5 4 0 5
+    0 1 5 8 0 1 5 5
+    6 7 3 32 6 7 3 6
+    3 2 6 32 3 2 6 6
+    4 6 2 64 4 6 2 3
+    2 0 4 64 2 0 4 3
+  tverts 12
+    0.69922 0.964844 0
+    0.69922 0.732422 0
+    1.00586 0.964844 0
+    1.00586 0.732422 0
+    0.00586 0.964844 0
+    0.00586 0.732422 0
+    0.3125 0.964844 0
+    0.3125 0.732422 0
+    0 0 0
+    0.453125 0 0
+    0 1 0
+    0.5 1 0
+endnode
+node trimesh tower2_window
+  parent fried_fix_01
+  wirecolor 0.0313726 0.239216 0.537255
+  tilefade 0
+  scale 1
+  render 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  specular 0 0 0
+  shininess 12
+  center -73 0 0.5
+  bitmap tno01_window07
+  orientation 0 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  shadow 0
+  position -1.96 0.25 11.14
+  verts 8
+    -0.59 1.07 -1.3
+    -0.59 -1.06 -1.38
+    -0.67 1.15 1.39
+    -0.67 -1.14 1.39
+    -0.79 1.1 -1.33
+    -0.79 -1.1 -1.41
+    -0.87 -1.18 1.42
+    -0.87 1.18 1.42
+  faces 10
+    4 5 1 1 10 12 0 1
+    1 0 4 1 0 1 10 1
+    3 1 5 1 2 3 11 1
+    5 6 3 1 11 0 2 1
+    0 2 7 1 4 5 0 1
+    7 4 0 1 0 11 4 1
+    3 2 0 1 6 7 8 1
+    0 1 3 1 8 9 6 1
+    3 6 7 1 0 13 14 1
+    7 2 3 1 14 1 0 1
+  tverts 15
+    0.996094 0.0625 0
+    0.00195313 0.046875 0
+    0.996094 0.0253906 0
+    0.00390625 0.015625 0
+    0.00390625 0.0078125 0
+    0.996094 0.0175781 0
+    0.976563 0.951172 0
+    0.015625 0.951172 0
+    0.015625 0.0566406 0
+    0.976563 0.0566406 0
+    0.00195313 0.0117188 0
+    0.00390625 0.046875 0
+    0.998047 0.0214844 0
+    0.998047 0.0292969 0
+    0.00195313 0.0195313 0
+endnode
+node trimesh tower1_window
+  parent fried_fix_01
+  wirecolor 0.0313726 0.239216 0.537255
+  tilefade 0
+  scale 1
+  render 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  center -0.5 -42.5 0
+  bitmap tno01_window05
+  orientation 0 0 0 0
+  shadow 0
+  position 0.78 -2.02 6.48
+  verts 4
+    -0.62 -0.44 -0.6
+    0.61 -0.44 -0.63
+    0.6 -0.41 0.6
+    -0.57 -0.41 0.63
+  faces 2
+    0 1 2 2 0 1 2 1
+    2 3 0 2 2 3 0 1
+  tverts 4
+    0.988281 0.0195313 0
+    0.0117188 0 0
+    0.0175781 0.980469 0
+    0.951172 1 0
+endnode
+node emitter em_smoke02
+  parent fried_fix_01
+  alpha 0.5
+  orientation 1 0 0 -3.14159
+  wirecolor 0.721569 0.894118 0.6
+  update Fountain
+  render Normal
+  blend Normal
+  spawntype 0
+  xsize 60
+  ysize 25
+  inherit 0
+  inherit_local 1
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0
+  combinetime 0
+  deadspace 0
+  colorStart 0.709804 0.709804 0.709804
+  colorEnd 0.12549 0.12549 0.12549
+  alphaStart 0.4
+  alphaEnd 0
+  sizeStart 0.25
+  sizeEnd 0.8
+  sizeStart_y 0.4
+  sizeEnd_y 0.8
+  birthrate 5
+  lifeExp 4.5
+  mass -0.02
+  spread 0.698132
+  particleRot 2
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  loop 0
+  bounce 0
+  m_isTinted 1
+  splat 0
+  affectedByWind 1
+  texture fxpa_mist
+  twosidedtex 1
+  xgrid 4
+  ygrid 4
+  fps 12
+  frameStart 0
+  frameEnd 11
+  random 1
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position 2.27 0.12 13.73
+endnode
 endmodelgeom wmx10_q90_01
 
 #MAXANIM ASCII
@@ -2962,51 +2960,6 @@ newanim animloop01 wmx10_q90_01
   animroot wmx10_q90_01
   node dummy wmx10_q90_01
     parent NULL
-  endnode
-  node dummy wmx10_q90_01a
-    parent wmx10_q90_01
-  endnode
-  node dummy fried_fix_01
-    parent wmx10_q90_01a
-  endnode
-  node emitter em_smoke02
-    parent fried_fix_01
-    orientationkey
-      0 1 0 0 -3.1416
-      10 1 0 0 -3.1416
-    endlist
-    birthratekey
-      0 6
-      3.33333 3
-      6.66667 2
-      10 5
-    endlist
-    lifeexpkey
-      0 4.5
-      6.66667 6.5
-      10 4.5
-    endlist
-    spreadkey
-      0 0.698131
-      10 0.698131
-    endlist
-    particlerotkey
-      0 2
-      6.66667 12
-      10 2
-    endlist
-  endnode
-  node dummy tower1_windowshutters01
-    parent fried_fix_01
-  endnode
-  node dummy tower1_windowshutters
-    parent fried_fix_01
-  endnode
-  node dummy tower2_window
-    parent fried_fix_01
-  endnode
-  node dummy tower1_window
-    parent fried_fix_01
   endnode
   node light wmx10_q90_01ml1
     parent wmx10_q90_01
@@ -3107,6 +3060,51 @@ newanim animloop01 wmx10_q90_01
   node dummy tower2_buttress
     parent wmx10_q90_01
   endnode
+  node dummy wmx10_q90_01a
+    parent wmx10_q90_01
+  endnode
+  node dummy fried_fix_01
+    parent wmx10_q90_01a
+  endnode
+  node dummy tower1_windowshutters01
+    parent fried_fix_01
+  endnode
+  node dummy tower1_windowshutters
+    parent fried_fix_01
+  endnode
+  node dummy tower2_window
+    parent fried_fix_01
+  endnode
+  node dummy tower1_window
+    parent fried_fix_01
+  endnode
+  node emitter em_smoke02
+    parent fried_fix_01
+    orientationkey
+      0 1 0 0 -3.1416
+      10 1 0 0 -3.1416
+    endlist
+    birthratekey
+      0 6
+      3.33333 3
+      6.66667 2
+      10 5
+    endlist
+    lifeExpkey
+      0 4.5
+      6.66667 6.5
+      10 4.5
+    endlist
+    particleRotkey
+      0 2
+      6.66667 12
+      10 2
+    endlist
+    spreadkey
+      0 0.698131
+      10 0.698131
+    endlist
+  endnode
 doneanim animloop01 wmx10_q90_01
 
 #MAXANIM ASCII
@@ -3117,14 +3115,110 @@ newanim animloop02 wmx10_q90_01
   node dummy wmx10_q90_01
     parent NULL
   endnode
+  node light wmx10_q90_01ml1
+    parent wmx10_q90_01
+  endnode
+  node light wmx10_q90_01ml2
+    parent wmx10_q90_01
+  endnode
+  node dummy chimenystack
+    parent wmx10_q90_01
+  endnode
+  node dummy doorstep1
+    parent wmx10_q90_01
+  endnode
+  node dummy groundplane
+    parent wmx10_q90_01
+  endnode
+  node dummy tower1_corner
+    parent wmx10_q90_01
+  endnode
+  node dummy tower1_lowerwall1
+    parent wmx10_q90_01
+  endnode
+  node dummy tower1_lowerwall2
+    parent wmx10_q90_01
+  endnode
+  node dummy tower1_lowerwall3
+    parent wmx10_q90_01
+  endnode
+  node dummy tower1_lowerwall4
+    parent wmx10_q90_01
+  endnode
+  node dummy tower1_roof
+    parent wmx10_q90_01
+  endnode
+  node dummy tower1_roofunder
+    parent wmx10_q90_01
+  endnode
+  node dummy tower1_upperwall1
+    parent wmx10_q90_01
+  endnode
+  node dummy tower1_upperwall2
+    parent wmx10_q90_01
+  endnode
+  node dummy tower1_upperwall3
+    parent wmx10_q90_01
+  endnode
+  node dummy tower1_upperwall4
+    parent wmx10_q90_01
+  endnode
+  node dummy tower1_windowframe
+    parent wmx10_q90_01
+  endnode
+  node dummy tower1_windowstone
+    parent wmx10_q90_01
+  endnode
+  node dummy tower2_floorsplit
+    parent wmx10_q90_01
+  endnode
+  node dummy tower2_roof
+    parent wmx10_q90_01
+  endnode
+  node dummy tower2_roofunder
+    parent wmx10_q90_01
+  endnode
+  node dummy tower2_wall1
+    parent wmx10_q90_01
+  endnode
+  node dummy tower2_wall2
+    parent wmx10_q90_01
+  endnode
+  node dummy tower2_wall3
+    parent wmx10_q90_01
+  endnode
+  node dummy tower2_wall4
+    parent wmx10_q90_01
+  endnode
+  node dummy shadow_roof
+    parent wmx10_q90_01
+  endnode
+  node dummy walkmesh
+    parent wmx10_q90_01
+  endnode
+  node dummy doorstep2
+    parent wmx10_q90_01
+  endnode
+  node dummy door
+    parent wmx10_q90_01
+  endnode
+  node dummy tower1_lintel
+    parent wmx10_q90_01
+  endnode
+  node dummy mesh03
+    parent wmx10_q90_01
+  endnode
+  node dummy chimenystack01
+    parent wmx10_q90_01
+  endnode
+  node dummy tower2_buttress
+    parent wmx10_q90_01
+  endnode
   node dummy wmx10_q90_01a
     parent wmx10_q90_01
   endnode
   node dummy fried_fix_01
     parent wmx10_q90_01a
-  endnode
-  node emitter em_smoke02
-    parent fried_fix_01
   endnode
   node trimesh tower1_windowshutters01
     parent fried_fix_01
@@ -3155,104 +3249,8 @@ newanim animloop02 wmx10_q90_01
   node dummy tower1_window
     parent fried_fix_01
   endnode
-  node light wmx10_q90_01ml1
-    parent wmx10_q90_01
-  endnode
-  node light wmx10_q90_01ml2
-    parent wmx10_q90_01
-  endnode
-  node dummy chimenystack
-    parent wmx10_q90_01
-  endnode
-  node dummy doorstep1
-    parent wmx10_q90_01
-  endnode
-  node dummy groundplane
-    parent wmx10_q90_01
-  endnode
-  node dummy tower1_corner
-    parent wmx10_q90_01
-  endnode
-  node dummy tower1_lowerwall1
-    parent wmx10_q90_01
-  endnode
-  node dummy tower1_lowerwall2
-    parent wmx10_q90_01
-  endnode
-  node dummy tower1_lowerwall3
-    parent wmx10_q90_01
-  endnode
-  node dummy tower1_lowerwall4
-    parent wmx10_q90_01
-  endnode
-  node dummy tower1_roof
-    parent wmx10_q90_01
-  endnode
-  node dummy tower1_roofunder
-    parent wmx10_q90_01
-  endnode
-  node dummy tower1_upperwall1
-    parent wmx10_q90_01
-  endnode
-  node dummy tower1_upperwall2
-    parent wmx10_q90_01
-  endnode
-  node dummy tower1_upperwall3
-    parent wmx10_q90_01
-  endnode
-  node dummy tower1_upperwall4
-    parent wmx10_q90_01
-  endnode
-  node dummy tower1_windowframe
-    parent wmx10_q90_01
-  endnode
-  node dummy tower1_windowstone
-    parent wmx10_q90_01
-  endnode
-  node dummy tower2_floorsplit
-    parent wmx10_q90_01
-  endnode
-  node dummy tower2_roof
-    parent wmx10_q90_01
-  endnode
-  node dummy tower2_roofunder
-    parent wmx10_q90_01
-  endnode
-  node dummy tower2_wall1
-    parent wmx10_q90_01
-  endnode
-  node dummy tower2_wall2
-    parent wmx10_q90_01
-  endnode
-  node dummy tower2_wall3
-    parent wmx10_q90_01
-  endnode
-  node dummy tower2_wall4
-    parent wmx10_q90_01
-  endnode
-  node dummy shadow_roof
-    parent wmx10_q90_01
-  endnode
-  node dummy walkmesh
-    parent wmx10_q90_01
-  endnode
-  node dummy doorstep2
-    parent wmx10_q90_01
-  endnode
-  node dummy door
-    parent wmx10_q90_01
-  endnode
-  node dummy tower1_lintel
-    parent wmx10_q90_01
-  endnode
-  node dummy mesh03
-    parent wmx10_q90_01
-  endnode
-  node dummy chimenystack01
-    parent wmx10_q90_01
-  endnode
-  node dummy tower2_buttress
-    parent wmx10_q90_01
+  node emitter em_smoke02
+    parent fried_fix_01
   endnode
 doneanim animloop02 wmx10_q90_01
 
@@ -3264,35 +3262,6 @@ newanim day wmx10_q90_01
   node dummy wmx10_q90_01
     parent NULL
   endnode
-  node dummy wmx10_q90_01a
-    parent wmx10_q90_01
-  endnode
-  node dummy fried_fix_01
-    parent wmx10_q90_01a
-  endnode
-  node emitter em_smoke02
-    parent fried_fix_01
-  endnode
-  node dummy tower1_windowshutters01
-    parent fried_fix_01
-  endnode
-  node dummy tower1_windowshutters
-    parent fried_fix_01
-  endnode
-  node trimesh tower2_window
-    parent fried_fix_01
-    selfillumcolorkey
-      0 0 0 0
-      0.0333333 0 0 0
-    endlist
-  endnode
-  node trimesh tower1_window
-    parent fried_fix_01
-    selfillumcolorkey
-      0 0 0 0
-      0.0333333 0 0 0
-    endlist
-  endnode
   node light wmx10_q90_01ml1
     parent wmx10_q90_01
   endnode
@@ -3391,6 +3360,35 @@ newanim day wmx10_q90_01
   endnode
   node dummy tower2_buttress
     parent wmx10_q90_01
+  endnode
+  node dummy wmx10_q90_01a
+    parent wmx10_q90_01
+  endnode
+  node dummy fried_fix_01
+    parent wmx10_q90_01a
+  endnode
+  node dummy tower1_windowshutters01
+    parent fried_fix_01
+  endnode
+  node dummy tower1_windowshutters
+    parent fried_fix_01
+  endnode
+  node trimesh tower2_window
+    parent fried_fix_01
+    selfillumcolorkey
+      0 0 0 0
+      0.0333333 0 0 0
+    endlist
+  endnode
+  node trimesh tower1_window
+    parent fried_fix_01
+    selfillumcolorkey
+      0 0 0 0
+      0.0333333 0 0 0
+    endlist
+  endnode
+  node emitter em_smoke02
+    parent fried_fix_01
   endnode
 doneanim day wmx10_q90_01
 
@@ -3402,35 +3400,6 @@ newanim day2night wmx10_q90_01
   node dummy wmx10_q90_01
     parent NULL
   endnode
-  node dummy wmx10_q90_01a
-    parent wmx10_q90_01
-  endnode
-  node dummy fried_fix_01
-    parent wmx10_q90_01a
-  endnode
-  node emitter em_smoke02
-    parent fried_fix_01
-  endnode
-  node dummy tower1_windowshutters01
-    parent fried_fix_01
-  endnode
-  node dummy tower1_windowshutters
-    parent fried_fix_01
-  endnode
-  node trimesh tower2_window
-    parent fried_fix_01
-    selfillumcolorkey
-      0 0 0 0
-      0.566667 0.882353 0.882353 0.882353
-    endlist
-  endnode
-  node trimesh tower1_window
-    parent fried_fix_01
-    selfillumcolorkey
-      0 0 0 0
-      0.566667 0.882353 0.882353 0.882353
-    endlist
-  endnode
   node light wmx10_q90_01ml1
     parent wmx10_q90_01
   endnode
@@ -3529,6 +3498,35 @@ newanim day2night wmx10_q90_01
   endnode
   node dummy tower2_buttress
     parent wmx10_q90_01
+  endnode
+  node dummy wmx10_q90_01a
+    parent wmx10_q90_01
+  endnode
+  node dummy fried_fix_01
+    parent wmx10_q90_01a
+  endnode
+  node dummy tower1_windowshutters01
+    parent fried_fix_01
+  endnode
+  node dummy tower1_windowshutters
+    parent fried_fix_01
+  endnode
+  node trimesh tower2_window
+    parent fried_fix_01
+    selfillumcolorkey
+      0 0 0 0
+      0.566667 0.882353 0.882353 0.882353
+    endlist
+  endnode
+  node trimesh tower1_window
+    parent fried_fix_01
+    selfillumcolorkey
+      0 0 0 0
+      0.566667 0.882353 0.882353 0.882353
+    endlist
+  endnode
+  node emitter em_smoke02
+    parent fried_fix_01
   endnode
 doneanim day2night wmx10_q90_01
 
@@ -3540,35 +3538,6 @@ newanim night wmx10_q90_01
   node dummy wmx10_q90_01
     parent NULL
   endnode
-  node dummy wmx10_q90_01a
-    parent wmx10_q90_01
-  endnode
-  node dummy fried_fix_01
-    parent wmx10_q90_01a
-  endnode
-  node emitter em_smoke02
-    parent fried_fix_01
-  endnode
-  node dummy tower1_windowshutters01
-    parent fried_fix_01
-  endnode
-  node dummy tower1_windowshutters
-    parent fried_fix_01
-  endnode
-  node trimesh tower2_window
-    parent fried_fix_01
-    selfillumcolorkey
-      0 0.882353 0.882353 0.882353
-      0.0333333 0.882353 0.882353 0.882353
-    endlist
-  endnode
-  node trimesh tower1_window
-    parent fried_fix_01
-    selfillumcolorkey
-      0 0.882353 0.882353 0.882353
-      0.0333333 0.882353 0.882353 0.882353
-    endlist
-  endnode
   node light wmx10_q90_01ml1
     parent wmx10_q90_01
   endnode
@@ -3667,6 +3636,35 @@ newanim night wmx10_q90_01
   endnode
   node dummy tower2_buttress
     parent wmx10_q90_01
+  endnode
+  node dummy wmx10_q90_01a
+    parent wmx10_q90_01
+  endnode
+  node dummy fried_fix_01
+    parent wmx10_q90_01a
+  endnode
+  node dummy tower1_windowshutters01
+    parent fried_fix_01
+  endnode
+  node dummy tower1_windowshutters
+    parent fried_fix_01
+  endnode
+  node trimesh tower2_window
+    parent fried_fix_01
+    selfillumcolorkey
+      0 0.882353 0.882353 0.882353
+      0.0333333 0.882353 0.882353 0.882353
+    endlist
+  endnode
+  node trimesh tower1_window
+    parent fried_fix_01
+    selfillumcolorkey
+      0 0.882353 0.882353 0.882353
+      0.0333333 0.882353 0.882353 0.882353
+    endlist
+  endnode
+  node emitter em_smoke02
+    parent fried_fix_01
   endnode
 doneanim night wmx10_q90_01
 
@@ -3678,14 +3676,110 @@ newanim night2day wmx10_q90_01
   node dummy wmx10_q90_01
     parent NULL
   endnode
+  node light wmx10_q90_01ml1
+    parent wmx10_q90_01
+  endnode
+  node light wmx10_q90_01ml2
+    parent wmx10_q90_01
+  endnode
+  node dummy chimenystack
+    parent wmx10_q90_01
+  endnode
+  node dummy doorstep1
+    parent wmx10_q90_01
+  endnode
+  node dummy groundplane
+    parent wmx10_q90_01
+  endnode
+  node dummy tower1_corner
+    parent wmx10_q90_01
+  endnode
+  node dummy tower1_lowerwall1
+    parent wmx10_q90_01
+  endnode
+  node dummy tower1_lowerwall2
+    parent wmx10_q90_01
+  endnode
+  node dummy tower1_lowerwall3
+    parent wmx10_q90_01
+  endnode
+  node dummy tower1_lowerwall4
+    parent wmx10_q90_01
+  endnode
+  node dummy tower1_roof
+    parent wmx10_q90_01
+  endnode
+  node dummy tower1_roofunder
+    parent wmx10_q90_01
+  endnode
+  node dummy tower1_upperwall1
+    parent wmx10_q90_01
+  endnode
+  node dummy tower1_upperwall2
+    parent wmx10_q90_01
+  endnode
+  node dummy tower1_upperwall3
+    parent wmx10_q90_01
+  endnode
+  node dummy tower1_upperwall4
+    parent wmx10_q90_01
+  endnode
+  node dummy tower1_windowframe
+    parent wmx10_q90_01
+  endnode
+  node dummy tower1_windowstone
+    parent wmx10_q90_01
+  endnode
+  node dummy tower2_floorsplit
+    parent wmx10_q90_01
+  endnode
+  node dummy tower2_roof
+    parent wmx10_q90_01
+  endnode
+  node dummy tower2_roofunder
+    parent wmx10_q90_01
+  endnode
+  node dummy tower2_wall1
+    parent wmx10_q90_01
+  endnode
+  node dummy tower2_wall2
+    parent wmx10_q90_01
+  endnode
+  node dummy tower2_wall3
+    parent wmx10_q90_01
+  endnode
+  node dummy tower2_wall4
+    parent wmx10_q90_01
+  endnode
+  node dummy shadow_roof
+    parent wmx10_q90_01
+  endnode
+  node dummy walkmesh
+    parent wmx10_q90_01
+  endnode
+  node dummy doorstep2
+    parent wmx10_q90_01
+  endnode
+  node dummy door
+    parent wmx10_q90_01
+  endnode
+  node dummy tower1_lintel
+    parent wmx10_q90_01
+  endnode
+  node dummy mesh03
+    parent wmx10_q90_01
+  endnode
+  node dummy chimenystack01
+    parent wmx10_q90_01
+  endnode
+  node dummy tower2_buttress
+    parent wmx10_q90_01
+  endnode
   node dummy wmx10_q90_01a
     parent wmx10_q90_01
   endnode
   node dummy fried_fix_01
     parent wmx10_q90_01a
-  endnode
-  node emitter em_smoke02
-    parent fried_fix_01
   endnode
   node dummy tower1_windowshutters01
     parent fried_fix_01
@@ -3707,6 +3801,19 @@ newanim night2day wmx10_q90_01
       0.6 0 0 0
     endlist
   endnode
+  node emitter em_smoke02
+    parent fried_fix_01
+  endnode
+doneanim night2day wmx10_q90_01
+
+#MAXANIM ASCII
+newanim tiledefault wmx10_q90_01
+  length 0.0333333
+  transtime 0.25
+  animroot wmx10_q90_01
+  node dummy wmx10_q90_01
+    parent NULL
+  endnode
   node light wmx10_q90_01ml1
     parent wmx10_q90_01
   endnode
@@ -3806,44 +3913,11 @@ newanim night2day wmx10_q90_01
   node dummy tower2_buttress
     parent wmx10_q90_01
   endnode
-doneanim night2day wmx10_q90_01
-
-#MAXANIM ASCII
-newanim tiledefault wmx10_q90_01
-  length 0.0333333
-  transtime 0.25
-  animroot wmx10_q90_01
-  node dummy wmx10_q90_01
-    parent NULL
-  endnode
   node dummy wmx10_q90_01a
     parent wmx10_q90_01
   endnode
   node dummy fried_fix_01
     parent wmx10_q90_01a
-  endnode
-  node emitter em_smoke02
-    parent fried_fix_01
-    orientationkey
-      0 1 0 0 -3.14159
-      0.0333333 1 0 0 -3.14159
-    endlist
-    birthratekey
-      0 0
-      0.0333333 0
-    endlist
-    lifeexpkey
-      0 4.5
-      0.0333333 4.5
-    endlist
-    spreadkey
-      0 0.698132
-      0.0333333 0.698132
-    endlist
-    particlerotkey
-      0 2
-      0.0333333 2
-    endlist
   endnode
   node trimesh tower1_windowshutters01
     parent fried_fix_01
@@ -3851,9 +3925,17 @@ newanim tiledefault wmx10_q90_01
       0 0 0 0 0
       0.0333333 0 0 0 0
     endlist
+    orientationkey
+      0 0 0 0 0
+      0.0333333 0 0 0 0
+    endlist
   endnode
   node trimesh tower1_windowshutters
     parent fried_fix_01
+    orientationkey
+      0 0 0 0 0
+      0.0333333 0 0 0 0
+    endlist
     orientationkey
       0 0 0 0 0
       0.0333333 0 0 0 0
@@ -3873,104 +3955,36 @@ newanim tiledefault wmx10_q90_01
       0.0333333 0 0 0
     endlist
   endnode
-  node light wmx10_q90_01ml1
-    parent wmx10_q90_01
-  endnode
-  node light wmx10_q90_01ml2
-    parent wmx10_q90_01
-  endnode
-  node dummy chimenystack
-    parent wmx10_q90_01
-  endnode
-  node dummy doorstep1
-    parent wmx10_q90_01
-  endnode
-  node dummy groundplane
-    parent wmx10_q90_01
-  endnode
-  node dummy tower1_corner
-    parent wmx10_q90_01
-  endnode
-  node dummy tower1_lowerwall1
-    parent wmx10_q90_01
-  endnode
-  node dummy tower1_lowerwall2
-    parent wmx10_q90_01
-  endnode
-  node dummy tower1_lowerwall3
-    parent wmx10_q90_01
-  endnode
-  node dummy tower1_lowerwall4
-    parent wmx10_q90_01
-  endnode
-  node dummy tower1_roof
-    parent wmx10_q90_01
-  endnode
-  node dummy tower1_roofunder
-    parent wmx10_q90_01
-  endnode
-  node dummy tower1_upperwall1
-    parent wmx10_q90_01
-  endnode
-  node dummy tower1_upperwall2
-    parent wmx10_q90_01
-  endnode
-  node dummy tower1_upperwall3
-    parent wmx10_q90_01
-  endnode
-  node dummy tower1_upperwall4
-    parent wmx10_q90_01
-  endnode
-  node dummy tower1_windowframe
-    parent wmx10_q90_01
-  endnode
-  node dummy tower1_windowstone
-    parent wmx10_q90_01
-  endnode
-  node dummy tower2_floorsplit
-    parent wmx10_q90_01
-  endnode
-  node dummy tower2_roof
-    parent wmx10_q90_01
-  endnode
-  node dummy tower2_roofunder
-    parent wmx10_q90_01
-  endnode
-  node dummy tower2_wall1
-    parent wmx10_q90_01
-  endnode
-  node dummy tower2_wall2
-    parent wmx10_q90_01
-  endnode
-  node dummy tower2_wall3
-    parent wmx10_q90_01
-  endnode
-  node dummy tower2_wall4
-    parent wmx10_q90_01
-  endnode
-  node dummy shadow_roof
-    parent wmx10_q90_01
-  endnode
-  node dummy walkmesh
-    parent wmx10_q90_01
-  endnode
-  node dummy doorstep2
-    parent wmx10_q90_01
-  endnode
-  node dummy door
-    parent wmx10_q90_01
-  endnode
-  node dummy tower1_lintel
-    parent wmx10_q90_01
-  endnode
-  node dummy mesh03
-    parent wmx10_q90_01
-  endnode
-  node dummy chimenystack01
-    parent wmx10_q90_01
-  endnode
-  node dummy tower2_buttress
-    parent wmx10_q90_01
+  node emitter em_smoke02
+    parent fried_fix_01
+    orientationkey
+      0 1 0 0 -3.14159
+      0.0333333 1 0 0 -3.14159
+    endlist
+    birthratekey
+      0 0
+      0.0333333 0
+    endlist
+    lifeExpkey
+      0 4.5
+      0.0333333 4.5
+    endlist
+    lifeExpkey
+      0 4.5
+      0.0333333 4.5
+    endlist
+    particleRotkey
+      0 2
+      0.0333333 2
+    endlist
+    particleRotkey
+      0 2
+      0.0333333 2
+    endlist
+    spreadkey
+      0 0.698132
+      0.0333333 0.698132
+    endlist
   endnode
 doneanim tiledefault wmx10_q90_01
 donemodel wmx10_q90_01

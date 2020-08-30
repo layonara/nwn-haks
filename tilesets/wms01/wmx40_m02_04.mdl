@@ -1,85 +1,14 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 19:44:25 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wmx40_m02_04
-setsupermodel wmx40_m02_04 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wmx40_m02_04 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wmx40_m02_04
 node dummy wmx40_m02_04
   parent NULL
-endnode
-node dummy wmx40_m02_04a
-  parent wmx40_m02_04
-  orientation 0 0 0 0
-  wirecolor 1 0 0
-  position 0 0 0
-endnode
-node emitter smoke03
-  parent wmx40_m02_04a
-  orientation 0 0 0 0
-  wirecolor 0.898438 0.898438 0.898438
-  colorStart 0 0 0
-  colorEnd 1 1 1
-  alphaStart 0.3
-  alphaEnd 0
-  sizeStart 1
-  sizeEnd 3
-  sizeStart_y 0
-  sizeEnd_y 0
-  frameStart 5
-  frameEnd 27
-  birthrate 2
-  spawntype 0
-  lifeExp 3
-  mass 0.1
-  spread 1.74533
-  particleRot 1
-  velocity 1.5
-  randvel 0.5
-  fps 0
-  random 0
-  inherit 1
-  inherit_local 0
-  inherit_part 0
-  inheritvel 0
-  xsize 0
-  ysize 0
-  bounce 0
-  bounce_co 0.9
-  loop 0
-  update Fountain
-  render Normal
-  blend Normal
-  update_sel 1
-  render_sel 1
-  blend_sel 1
-  deadspace 0
-  opacity 0.5
-  blurlength 10
-  lightningDelay 0
-  lightningRadius 0
-  lightningScale 0
-  blastRadius 0
-  blastLength 0
-  twosidedtex 0
-  p2p 0
-  p2p_sel 1
-  p2p_type Bezier
-  p2p_bezier2 0
-  p2p_bezier3 0
-  combinetime 0
-  drag 0
-  grav 0
-  threshold 0
-  texture fxpa_smoke01
-  xgrid 4
-  ygrid 4
-  affectedByWind 0
-  m_isTinted 0
-  renderorder 0
-  splat 0
-  position -1.19 4.01 8.95
 endnode
 node light wmx40_m02_04ml1
   parent wmx40_m02_04
@@ -89,7 +18,7 @@ node light wmx40_m02_04ml1
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -105,7 +34,7 @@ node light wmx40_m02_04ml2
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -138,10 +67,10 @@ node trimesh terrain_04
     1 0 3 1 1 0 3 0
     3 2 1 1 3 2 1 0
   tverts 4
-    1.49805 0.501953 0
-    0.498047 0.501953 0
-    0.498047 1.5 0
-    1.49805 1.5 0
+    1.49805 -0.498047 0
+    0.498047 -0.498047 0
+    0.498047 0.5 0
+    1.49805 0.5 0
 endnode
 node aabb wmesh_04
   parent wmx40_m02_04
@@ -153,6 +82,8 @@ node aabb wmesh_04
   shininess 1
   bitmap NULL
   position 0 0 0
+  render 0
+  shadow 0
   verts 141
     -5 -5 -0.5
     -4 -5 -0.5
@@ -1010,6 +941,74 @@ node aabb wmesh_04
     1 4.01 5.5 2 5 5.5 231
     1 4.01 5.5 2 5 5.5 230
 endnode
+node dummy wmx40_m02_04a
+  parent wmx40_m02_04
+  orientation 0 0 0 0
+  wirecolor 1 0 0
+  position 0 0 0
+endnode
+node emitter smoke03
+  parent wmx40_m02_04a
+  alpha 0.5
+  orientation 0 0 0 0
+  wirecolor 0.898438 0.898438 0.898438
+  colorStart 0 0 0
+  colorEnd 1 1 1
+  alphaStart 0.3
+  alphaEnd 0
+  sizeStart 1
+  sizeEnd 3
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 5
+  frameEnd 27
+  birthrate 2
+  spawntype 0
+  lifeExp 3
+  mass 0.1
+  spread 1.74533
+  particleRot 1
+  velocity 1.5
+  randvel 0.5
+  fps 0
+  random 0
+  inherit 1
+  inherit_local 0
+  inherit_part 0
+  inheritvel 0
+  xsize 0
+  ysize 0
+  bounce 0
+  bounce_co 0.9
+  loop 0
+  update Fountain
+  render Normal
+  blend Normal
+  deadspace 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  twosidedtex 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+  texture fxpa_smoke01
+  xgrid 4
+  ygrid 4
+  affectedByWind 0
+  m_isTinted 0
+  renderorder 0
+  splat 0
+  position -1.19 4.01 8.95
+endnode
 endmodelgeom wmx40_m02_04
 
 #MAXANIM ASCII
@@ -1019,15 +1018,6 @@ newanim animloop01 wmx40_m02_04
   animroot wmx40_m02_04
   node dummy wmx40_m02_04
     parent NULL
-  endnode
-  node dummy wmx40_m02_04a
-    parent wmx40_m02_04
-  endnode
-  node emitter smoke03
-    parent wmx40_m02_04a
-    birthratekey
-      0 2
-    endlist
   endnode
   node light wmx40_m02_04ml1
     parent wmx40_m02_04
@@ -1040,6 +1030,15 @@ newanim animloop01 wmx40_m02_04
   endnode
   node dummy wmesh_04
     parent wmx40_m02_04
+  endnode
+  node dummy wmx40_m02_04a
+    parent wmx40_m02_04
+  endnode
+  node emitter smoke03
+    parent wmx40_m02_04a
+    birthratekey
+      0 2
+    endlist
   endnode
 doneanim animloop01 wmx40_m02_04
 
@@ -1051,15 +1050,6 @@ newanim tiledefault wmx40_m02_04
   node dummy wmx40_m02_04
     parent NULL
   endnode
-  node dummy wmx40_m02_04a
-    parent wmx40_m02_04
-  endnode
-  node emitter smoke03
-    parent wmx40_m02_04a
-    birthratekey
-      0 0
-    endlist
-  endnode
   node light wmx40_m02_04ml1
     parent wmx40_m02_04
   endnode
@@ -1071,6 +1061,15 @@ newanim tiledefault wmx40_m02_04
   endnode
   node dummy wmesh_04
     parent wmx40_m02_04
+  endnode
+  node dummy wmx40_m02_04a
+    parent wmx40_m02_04
+  endnode
+  node emitter smoke03
+    parent wmx40_m02_04a
+    birthratekey
+      0 0
+    endlist
   endnode
 doneanim tiledefault wmx40_m02_04
 donemodel wmx40_m02_04

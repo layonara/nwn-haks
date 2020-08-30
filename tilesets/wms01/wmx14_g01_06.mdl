@@ -1,51 +1,14 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 19:38:23 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wmx14_g01_06
-setsupermodel wmx14_g01_06 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wmx14_g01_06 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wmx14_g01_06
 node dummy wmx14_g01_06
   parent NULL
-endnode
-node dummy wmx14_g01_06a
-  parent wmx14_g01_06
-  orientation 0 0 0 0
-  wirecolor 1 0 0
-  position 0 0 0
-endnode
-node dummy fried_fix_01
-  parent wmx14_g01_06a
-  orientation 0 0 0 0
-  wirecolor 0.695313 0.695313 0.695313
-  position 0 0 -0.37
-endnode
-node trimesh water_fx01_03
-  orientation 0 0 0 0
-  wirecolor 0.0273438 0.0273438 0.0273438
-  ambient 1 1 1
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 10
-  bitmap wmx01_waterxx
-  parent fried_fix_01
-  rotatetexture 1
-  shadow 0
-  position 0 0 -0.63
-  verts 4
-    5 5 0
-    -5 5 0
-    5 -5 0
-    -5 -5 0
-  faces 2
-    0 1 3 1 0 1 2 0
-    3 2 0 1 2 3 0 0
-  tverts 4
-    0 0 0
-    1 0 0
-    1 1 0
-    0 1 0
 endnode
 node light wmx14_g01_06ml1
   parent wmx14_g01_06
@@ -55,7 +18,7 @@ node light wmx14_g01_06ml1
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -71,7 +34,7 @@ node light wmx14_g01_06ml2
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -192,20 +155,20 @@ node trimesh ropes03_03
     13 4 2 1 13 12 9 3
     2 12 13 1 9 10 13 3
   tverts 14
-    0.0878906 0.351563 0
-    0.150391 0.380859 0
-    0.150391 8.85156 0
-    0 8.85156 0
-    0.0585938 17.623 0
-    0 18.2207 0
-    0.150391 16.709 0
-    0 0.351563 0
-    0 16.2754 0
-    0.046875 16.7344 0
-    0.111328 0.253906 0
-    0 0.253906 0
-    0.150391 17.748 0
-    0.150391 0.267578 0
+    0.0878906 -8.64844 0
+    0.150391 -8.61914 0
+    0.150391 -0.14844 0
+    0 -0.14844 0
+    0.0585938 8.623 0
+    0 9.2207 0
+    0.150391 7.709 0
+    0 -8.64844 0
+    0 7.2754 0
+    0.046875 7.7344 0
+    0.111328 -8.74609 0
+    0 -8.74609 0
+    0.150391 8.748 0
+    0.150391 -8.73242 0
 endnode
 node trimesh object08_03
   parent wmx14_g01_06
@@ -1052,6 +1015,8 @@ node aabb mesh01_03
   shininess 1
   bitmap NULL
   position 0 0 0
+  render 0
+  shadow 0
   verts 26
     2.1 5 -0.51
     -2.1 5 -0.51
@@ -1266,20 +1231,20 @@ node trimesh brdgp07_03
     0.863281 0 0
     0.962891 0.25 0
     0.962891 0 0
-    0.59375 2.25 0
-    0.59375 2.75 0
-    0.519531 2.25 0
-    0.519531 2.75 0
-    0.59375 2 0
-    0.519531 2 0
-    0.59375 1.5 0
-    0.519531 1.5 0
+    0.59375 1.25 0
+    0.59375 1.75 0
+    0.519531 1.25 0
+    0.519531 1.75 0
     0.59375 1 0
     0.519531 1 0
-    0.59375 0.75 0
-    0.519531 0.75 0
-    0.59375 0.25 0
-    0.519531 0.25 0
+    0.59375 0.5 0
+    0.519531 0.5 0
+    0.59375 0 0
+    0.519531 0 0
+    0.59375 -0.25 0
+    0.519531 -0.25 0
+    0.59375 -0.75 0
+    0.519531 -0.75 0
     0.136719 0 0
     0.136719 0.25 0
     0.0371094 0 0
@@ -1374,22 +1339,22 @@ node trimesh brdgp05_03
     11 6 0 1 11 10 13 0
     0 3 11 1 13 12 11 0
   tverts 16
-    0.679688 2.08203 0
-    0.578125 2.08203 0
-    0.578125 1.41211 0
-    0.679688 1.41211 0
-    0.578125 0.792969 0
-    0.679688 0.792969 0
+    0.679688 1.08203 0
+    0.578125 1.08203 0
+    0.578125 0.41211 0
+    0.679688 0.41211 0
+    0.578125 -0.207031 0
+    0.679688 -0.207031 0
     0.568359 0.462891 0
     0.568359 0.369141 0
     0.589844 0.369141 0
     0.589844 0.462891 0
-    0.572266 1.91602 0
-    0.572266 1.41602 0
-    0.595703 1.41602 0
-    0.595703 1.91602 0
-    0.572266 0.916016 0
-    0.595703 0.916016 0
+    0.572266 0.91602 0
+    0.572266 0.41602 0
+    0.595703 0.41602 0
+    0.595703 0.91602 0
+    0.572266 -0.083984 0
+    0.595703 -0.083984 0
 endnode
 node trimesh brdgp04_03
   parent wmx14_g01_06
@@ -1433,22 +1398,22 @@ node trimesh brdgp04_03
     11 6 0 1 11 10 13 0
     0 3 11 1 13 12 11 0
   tverts 16
-    0.675781 2.08594 0
-    0.576172 2.08594 0
-    0.576172 1.41602 0
-    0.675781 1.41602 0
-    0.576172 0.796875 0
-    0.675781 0.796875 0
+    0.675781 1.08594 0
+    0.576172 1.08594 0
+    0.576172 0.41602 0
+    0.675781 0.41602 0
+    0.576172 -0.203125 0
+    0.675781 -0.203125 0
     0.570313 0.466797 0
     0.570313 0.373047 0
     0.591797 0.373047 0
     0.591797 0.466797 0
-    0.574219 1.91992 0
-    0.574219 1.41992 0
-    0.597656 1.41992 0
-    0.597656 1.91992 0
-    0.574219 0.919922 0
-    0.597656 0.919922 0
+    0.574219 0.91992 0
+    0.574219 0.41992 0
+    0.597656 0.41992 0
+    0.597656 0.91992 0
+    0.574219 -0.080078 0
+    0.597656 -0.080078 0
 endnode
 node trimesh brdgp03_03
   parent wmx14_g01_06
@@ -1649,6 +1614,44 @@ node trimesh staybase01_03
     0.509766 0.0957031 0
     0.507813 0.0957031 0
     0.507813 0.0800781 0
+endnode
+node dummy wmx14_g01_06a
+  parent wmx14_g01_06
+  orientation 0 0 0 0
+  wirecolor 1 0 0
+  position 0 0 0
+endnode
+node dummy fried_fix_01
+  parent wmx14_g01_06a
+  orientation 0 0 0 0
+  wirecolor 0.695313 0.695313 0.695313
+  position 0 0 -0.37
+endnode
+node trimesh water_fx01_03
+  parent fried_fix_01
+  orientation 0 0 0 0
+  wirecolor 0.0273438 0.0273438 0.0273438
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap wmx01_waterxx
+  rotatetexture 1
+  shadow 0
+  position 0 0 -0.63
+  verts 4
+    5 5 0
+    -5 5 0
+    5 -5 0
+    -5 -5 0
+  faces 2
+    0 1 3 1 0 1 2 0
+    3 2 0 1 2 3 0 0
+  tverts 4
+    0 0 0
+    1 0 0
+    1 1 0
+    0 1 0
 endnode
 endmodelgeom wmx14_g01_06
 donemodel wmx14_g01_06

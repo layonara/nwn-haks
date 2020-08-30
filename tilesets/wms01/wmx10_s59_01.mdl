@@ -1,9 +1,10 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 19:34:05 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wmx10_s59_01
-setsupermodel wmx10_s59_01 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wmx10_s59_01 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wmx10_s59_01
 node dummy wmx10_s59_01
@@ -16,7 +17,7 @@ node light wmx10_s59_01ml1
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -31,7 +32,7 @@ node light wmx10_s59_01ml2
   multiplier 1
   color 0.0039216 0.0039216 0.0039216
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -389,7 +390,7 @@ node trimesh terrain
     0.0332031 0.693359 0
     0.0234375 0.607422 0
     0.0136719 0.523438 0
-    0.0820313 1.58984 0
+    0.0820313 0.58984 0
     1 0.599609 0
     1 0.699219 0
     1 0.800781 0
@@ -401,7 +402,7 @@ node trimesh terrain
     0.128906 0.701172 0
     0.121094 0.619141 0
     0.111328 0.519531 0
-    0.175781 1.05664 0
+    0.175781 0.05664 0
     0.900391 0.699219 0
     0.900391 0.800781 0
     0.900391 0.900391 0
@@ -445,7 +446,7 @@ node trimesh terrain
     0.412109 0.566406 0
     0.376953 0.494141 0
     0.412109 0.265625 0
-    0.966797 0.675781 0
+    -0.033203 0.675781 0
     0.5 0.699219 0
     0.5 0.800781 0
     0.5 0.900391 0
@@ -456,7 +457,7 @@ node trimesh terrain
     0.509766 0.623047 0
     0.5 0.511719 0
     0.476563 0.40625 0
-    0.96875 0.140625 0
+    -0.03125 0.140625 0
     0.400391 0.699219 0
     0.400391 0.800781 0
     0.400391 0.900391 0
@@ -467,7 +468,7 @@ node trimesh terrain
     0.476563 0.214844 0
     0.607422 0.599609 0
     0.597656 0.488281 0
-    1.22852 0.630859 0
+    0.22852 0.630859 0
     0.300781 0.699219 0
     0.300781 0.800781 0
     0.300781 0.900391 0
@@ -478,7 +479,7 @@ node trimesh terrain
     0.582031 0.273438 0
     0.570313 0.154297 0
     0.703125 0.599609 0
-    1.16797 0.128906 0
+    0.16797 0.128906 0
     0.199219 0.699219 0
     0.199219 0.800781 0
     0.199219 0.900391 0
@@ -517,29 +518,29 @@ node trimesh terrain
     0.986328 0.511719 0
     0.976563 0.427734 0
     0.966797 0.199219 0
-    0.238281 1.42773 0
-    0.341797 1.66602 0
-    0.494141 0.988281 0
-    0.564453 1.72461 0
-    0.71875 1.10742 0
+    0.238281 0.42773 0
+    0.341797 0.66602 0
+    0.494141 -0.011719 0
+    0.564453 0.72461 0
+    0.71875 0.10742 0
     0.359375 0.0253906 0
     0.800781 0.199219 0
     0.507813 0.697266 0
     0.535156 0.0703125 0
     0.814453 0.580078 0
     0.826172 0.0117188 0
-    1.41211 0.628906 0
+    0.41211 0.628906 0
     0.699219 0.199219 0
-    1.47656 0.103516 0
-    1.67578 0.568359 0
-    1.71094 0.0078125 0
-    0.466797 1.54297 0
-    0.416016 1.14063 0
+    0.47656 0.103516 0
+    0.67578 0.568359 0
+    0.71094 0.0078125 0
+    0.466797 0.54297 0
+    0.416016 0.14063 0
     0.599609 0.199219 0
-    1.9668 0.466797 0
-    1.94727 0.0800781 0
-    0.660156 1.36523 0
-    0.621094 0.892578 0
+    0.9668 0.466797 0
+    0.94727 0.0800781 0
+    0.660156 0.36523 0
+    0.621094 -0.107422 0
     0.5 0.199219 0
     0.400391 0.199219 0
     0.300781 0.199219 0
@@ -557,6 +558,8 @@ node aabb wok
   bitmap NULL
   orientation 0 0 0 0
   position 0 0 0
+  render 0
+  shadow 0
   verts 121
     -5 -5 1
     -4 -5 1
@@ -1755,15 +1758,12 @@ node trimesh water
 endnode
 node emitter omenemitter35
   parent wmx10_s59_01a
+  alpha 0.5
   orientation 0 0 -1 -3.0504
   wirecolor 1 1 1
-  update_sel 1
   update Fountain
-  render_sel 4
   render Billboard_to_World_Z
-  blend_sel 3
   blend Lighten
-  spawntype_sel 0
   spawntype 0
   xsize 140
   ysize 180
@@ -1775,7 +1775,6 @@ node emitter omenemitter35
   threshold 0
   combinetime 0
   deadspace 0
-  opacity 0.5
   colorStart 0.796079 0.917647 0.901961
   colorEnd 0 0 0
   alphaStart 0.7
@@ -1797,7 +1796,7 @@ node emitter omenemitter35
   bounce 0
   m_isTinted 0
   splat 0
-  affectedByWind false
+  affectedByWind 0
   texture fxpa_splash
   twosidedtex 0
   xgrid 1
@@ -1813,7 +1812,6 @@ node emitter omenemitter35
   blastRadius 0
   blastLength 0
   p2p 0
-  p2p_type Bezier
   p2p_sel 1
   p2p_bezier2 0
   p2p_bezier3 0
@@ -1823,15 +1821,12 @@ node emitter omenemitter35
 endnode
 node emitter waterfall32
   parent wmx10_s59_01a
+  alpha 0.5
   orientation -0.0454699 -0.996509 0.0700199 -1.15511
   wirecolor 1 1 1
-  update_sel 1
   update Fountain
-  render_sel 7
   render Motion_Blur
-  blend_sel 3
   blend Lighten
-  spawntype_sel 0
   spawntype 0
   xsize 100
   ysize 60
@@ -1843,7 +1838,6 @@ node emitter waterfall32
   threshold 0
   combinetime 0
   deadspace 0
-  opacity 0.5
   colorStart 1 1 1
   colorEnd 1 1 1
   alphaStart 0.6
@@ -1865,7 +1859,7 @@ node emitter waterfall32
   bounce 0
   m_isTinted 0
   splat 0
-  affectedByWind false
+  affectedByWind 0
   texture fxpa_splash
   twosidedtex 0
   xgrid 1
@@ -1881,7 +1875,6 @@ node emitter waterfall32
   blastRadius 0
   blastLength 0
   p2p 0
-  p2p_type Bezier
   p2p_sel 1
   p2p_bezier2 0
   p2p_bezier3 0
@@ -1891,15 +1884,12 @@ node emitter waterfall32
 endnode
 node emitter omenemitter01
   parent wmx10_s59_01a
+  alpha 0.5
   orientation 0 0 -1 -3.0504
   wirecolor 1 1 1
-  update_sel 1
   update Fountain
-  render_sel 4
   render Billboard_to_World_Z
-  blend_sel 3
   blend Lighten
-  spawntype_sel 0
   spawntype 0
   xsize 140
   ysize 180
@@ -1911,7 +1901,6 @@ node emitter omenemitter01
   threshold 0
   combinetime 0
   deadspace 0
-  opacity 0.5
   colorStart 0.796079 0.917647 0.901961
   colorEnd 0 0 0
   alphaStart 0.7
@@ -1933,7 +1922,7 @@ node emitter omenemitter01
   bounce 0
   m_isTinted 0
   splat 0
-  affectedByWind false
+  affectedByWind 0
   texture fxpa_splash
   twosidedtex 0
   xgrid 1
@@ -1949,7 +1938,6 @@ node emitter omenemitter01
   blastRadius 0
   blastLength 0
   p2p 0
-  p2p_type Bezier
   p2p_sel 1
   p2p_bezier2 0
   p2p_bezier3 0
@@ -1959,15 +1947,12 @@ node emitter omenemitter01
 endnode
 node emitter waterfall33
   parent wmx10_s59_01a
+  alpha 0.5
   orientation -0.0651001 -0.994773 0.0786735 -0.925446
   wirecolor 1 1 1
-  update_sel 1
   update Fountain
-  render_sel 7
   render Motion_Blur
-  blend_sel 3
   blend Lighten
-  spawntype_sel 0
   spawntype 0
   xsize 100
   ysize 60
@@ -1979,7 +1964,6 @@ node emitter waterfall33
   threshold 0
   combinetime 0
   deadspace 0
-  opacity 0.5
   colorStart 1 1 1
   colorEnd 1 1 1
   alphaStart 0.6
@@ -2001,7 +1985,7 @@ node emitter waterfall33
   bounce 0
   m_isTinted 0
   splat 0
-  affectedByWind false
+  affectedByWind 0
   texture fxpa_splash
   twosidedtex 0
   xgrid 1
@@ -2017,7 +2001,6 @@ node emitter waterfall33
   blastRadius 0
   blastLength 0
   p2p 0
-  p2p_type Bezier
   p2p_sel 1
   p2p_bezier2 0
   p2p_bezier3 0
@@ -2027,15 +2010,12 @@ node emitter waterfall33
 endnode
 node emitter omenemitter02
   parent wmx10_s59_01a
+  alpha 0.5
   orientation 0 0 -1 -3.0504
   wirecolor 1 1 1
-  update_sel 1
   update Fountain
-  render_sel 4
   render Billboard_to_World_Z
-  blend_sel 3
   blend Lighten
-  spawntype_sel 0
   spawntype 0
   xsize 140
   ysize 180
@@ -2047,7 +2027,6 @@ node emitter omenemitter02
   threshold 0
   combinetime 0
   deadspace 0
-  opacity 0.5
   colorStart 0.796079 0.917647 0.901961
   colorEnd 0 0 0
   alphaStart 0.7
@@ -2069,7 +2048,7 @@ node emitter omenemitter02
   bounce 0
   m_isTinted 0
   splat 0
-  affectedByWind false
+  affectedByWind 0
   texture fxpa_splash
   twosidedtex 0
   xgrid 1
@@ -2085,7 +2064,6 @@ node emitter omenemitter02
   blastRadius 0
   blastLength 0
   p2p 0
-  p2p_type Bezier
   p2p_sel 1
   p2p_bezier2 0
   p2p_bezier3 0
@@ -2095,15 +2073,12 @@ node emitter omenemitter02
 endnode
 node emitter waterfall34
   parent wmx10_s59_01a
+  alpha 0.5
   orientation -0.0454699 -0.996509 0.0700199 -1.15511
   wirecolor 1 1 1
-  update_sel 1
   update Fountain
-  render_sel 7
   render Motion_Blur
-  blend_sel 3
   blend Lighten
-  spawntype_sel 0
   spawntype 0
   xsize 100
   ysize 60
@@ -2115,7 +2090,6 @@ node emitter waterfall34
   threshold 0
   combinetime 0
   deadspace 0
-  opacity 0.5
   colorStart 1 1 1
   colorEnd 1 1 1
   alphaStart 0.6
@@ -2137,7 +2111,7 @@ node emitter waterfall34
   bounce 0
   m_isTinted 0
   splat 0
-  affectedByWind false
+  affectedByWind 0
   texture fxpa_splash
   twosidedtex 0
   xgrid 1
@@ -2153,7 +2127,6 @@ node emitter waterfall34
   blastRadius 0
   blastLength 0
   p2p 0
-  p2p_type Bezier
   p2p_sel 1
   p2p_bezier2 0
   p2p_bezier3 0
@@ -2163,15 +2136,12 @@ node emitter waterfall34
 endnode
 node emitter waterfall01
   parent wmx10_s59_01a
+  alpha 0.5
   orientation -0.0454699 -0.996509 0.0700199 -1.15511
   wirecolor 1 1 1
-  update_sel 1
   update Fountain
-  render_sel 7
   render Motion_Blur
-  blend_sel 3
   blend Lighten
-  spawntype_sel 0
   spawntype 0
   xsize 100
   ysize 60
@@ -2183,7 +2153,6 @@ node emitter waterfall01
   threshold 0
   combinetime 0
   deadspace 0
-  opacity 0.5
   colorStart 1 1 1
   colorEnd 1 1 1
   alphaStart 0.6
@@ -2205,7 +2174,7 @@ node emitter waterfall01
   bounce 0
   m_isTinted 0
   splat 0
-  affectedByWind false
+  affectedByWind 0
   texture fxpa_splash
   twosidedtex 0
   xgrid 1
@@ -2221,7 +2190,6 @@ node emitter waterfall01
   blastRadius 0
   blastLength 0
   p2p 0
-  p2p_type Bezier
   p2p_sel 1
   p2p_bezier2 0
   p2p_bezier3 0
@@ -2231,15 +2199,12 @@ node emitter waterfall01
 endnode
 node emitter waterfall02
   parent wmx10_s59_01a
+  alpha 0.5
   orientation -0.0454699 -0.996509 0.0700199 -1.15511
   wirecolor 1 1 1
-  update_sel 1
   update Fountain
-  render_sel 7
   render Motion_Blur
-  blend_sel 3
   blend Lighten
-  spawntype_sel 0
   spawntype 0
   xsize 100
   ysize 60
@@ -2251,7 +2216,6 @@ node emitter waterfall02
   threshold 0
   combinetime 0
   deadspace 0
-  opacity 0.5
   colorStart 1 1 1
   colorEnd 1 1 1
   alphaStart 0.6
@@ -2273,7 +2237,7 @@ node emitter waterfall02
   bounce 0
   m_isTinted 0
   splat 0
-  affectedByWind false
+  affectedByWind 0
   texture fxpa_splash
   twosidedtex 0
   xgrid 1
@@ -2289,7 +2253,6 @@ node emitter waterfall02
   blastRadius 0
   blastLength 0
   p2p 0
-  p2p_type Bezier
   p2p_sel 1
   p2p_bezier2 0
   p2p_bezier3 0

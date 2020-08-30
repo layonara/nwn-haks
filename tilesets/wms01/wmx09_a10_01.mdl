@@ -1,9 +1,10 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 19:22:22 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wmx09_a10_01
-setsupermodel wmx09_a10_01 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wmx09_a10_01 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wmx09_a10_01
 node dummy wmx09_a10_01
@@ -15,6 +16,8 @@ node aabb rectangle136
   bitmap NULL
   orientation 0 0 0 0
   position 0 0 0
+  render 0
+  shadow 0
   verts 4
     5 -5 13
     5 5 13

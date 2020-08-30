@@ -1,54 +1,14 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 19:15:13 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wmx_a22_01
-setsupermodel wmx_a22_01 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wmx_a22_01 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wmx_a22_01
 node dummy wmx_a22_01
   parent NULL
-endnode
-node dummy wmx_a22_01a
-  parent wmx_a22_01
-  wirecolor 0.694118 0.109804 0.584314
-  orientation 0 0 0 0
-  position 0 0 0
-endnode
-node trimesh plane291
-  parent wmx_a22_01a
-  wirecolor 0.52549 0.52549 0.52549
-  tilefade 0
-  scale 1
-  render 1
-  beaming 0
-  inheritcolor 0
-  rotatetexture 1
-  alpha 1
-  transparencyhint 1
-  selfillumcolor 0 0 0
-  ambient 1 1 1
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 1
-  center 150 150 0
-  bitmap wmx01_waterxx
-  orientation 0 0 0 0
-  shadow 0
-  position -1.5 -1.5 -1
-  verts 4
-    -3.5 6.5 0
-    -3.5 -3.5 0
-    6.5 -3.5 0
-    6.5 6.5 0
-  faces 2
-    0 1 2 1 0 1 2 0
-    2 3 0 1 2 3 0 0
-  tverts 4
-    0 1 0
-    0 0 0
-    1 0 0
-    1 1 0
 endnode
 node light wmx_a22_01ml2
   parent wmx_a22_01
@@ -57,7 +17,7 @@ node light wmx_a22_01ml2
   multiplier 1
   color 0.0039216 0.0039216 0.0039216
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -72,7 +32,7 @@ node light wmx_a22_01ml1
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -200,44 +160,44 @@ node trimesh line345
     21 22 29 1 19 20 25 65536
     40 21 29 1 36 19 25 65536
   tverts 38
-    2.99805 0.0507813 0
-    2.34766 0.0507813 0
-    2.54297 0.1875 0
-    1.9082 0.0507813 0
-    2.16406 0.160156 0
-    2.04102 0.166016 0
-    1.35547 0.109375 0
-    1.24219 0.0507813 0
-    0.972656 0.185547 0
-    0.691406 0.0507813 0
-    0.617188 0.113281 0
-    0.00195313 0.0507813 0
-    2.99805 0.705078 0
-    2.66016 0.705078 0
-    1.96875 0.359375 0
-    2.35547 0.699219 0
-    2.35742 1 0
-    1.64844 0.365234 0
-    1.27734 0.365234 0
-    0.916016 0.642578 0
-    0.486328 0.705078 0
-    0.00195313 0.705078 0
-    1.5 0.0507813 0
-    2.64453 1 0
-    2.99805 1 0
-    0.96875 1 0
-    0.515625 1 0
-    0.00195313 1 0
-    1.79297 0.978516 0
-    1.79688 0.515625 0
-    1.47656 0.515625 0
-    1.47461 0.978516 0
-    1 0.515625 0
-    1 0.978516 0
-    1.5 0.978516 0
-    1.5 0.515625 0
-    1.25977 0.978516 0
-    1.99219 0.978516 0
+    1.99805 0.0507813 0
+    1.34766 0.0507813 0
+    1.54297 0.1875 0
+    0.9082 0.0507813 0
+    1.16406 0.160156 0
+    1.04102 0.166016 0
+    0.35547 0.109375 0
+    0.24219 0.0507813 0
+    -0.027344 0.185547 0
+    -0.308594 0.0507813 0
+    -0.382812 0.113281 0
+    -0.998047 0.0507813 0
+    1.99805 0.705078 0
+    1.66016 0.705078 0
+    0.96875 0.359375 0
+    1.35547 0.699219 0
+    1.35742 1 0
+    0.64844 0.365234 0
+    0.27734 0.365234 0
+    -0.083984 0.642578 0
+    -0.513672 0.705078 0
+    -0.998047 0.705078 0
+    0.5 0.0507813 0
+    1.64453 1 0
+    1.99805 1 0
+    -0.03125 1 0
+    -0.484375 1 0
+    -0.998047 1 0
+    0.79297 0.978516 0
+    0.79688 0.515625 0
+    0.47656 0.515625 0
+    0.47461 0.978516 0
+    0 0.515625 0
+    0 0.978516 0
+    0.5 0.978516 0
+    0.5 0.515625 0
+    0.25977 0.978516 0
+    0.99219 0.978516 0
 endnode
 node aabb cm061
   parent wmx_a22_01
@@ -249,6 +209,8 @@ node aabb cm061
   orientation 0 0 0 0
   bitmap NULL
   position 0 0 0
+  render 0
+  shadow 0
   verts 35
     -1 5 -3
     -5 5 -3.4
@@ -567,15 +529,56 @@ node trimesh mesh94
     8 6 2 1 8 6 2 65536
     2 5 8 1 2 5 8 65536
   tverts 9
-    0.998047 0.740234 0
-    0.998047 1 0
-    0.660156 1.02734 0
-    0.613281 0.720703 0
-    0.998047 1.25977 0
-    0.677734 1.36133 0
-    0.404297 1.09766 0
-    0.365234 0.84375 0
-    0.333984 1.41797 0
+    0.998047 -0.259766 0
+    0.998047 0 0
+    0.660156 0.02734 0
+    0.613281 -0.279297 0
+    0.998047 0.25977 0
+    0.677734 0.36133 0
+    0.404297 0.09766 0
+    0.365234 -0.15625 0
+    0.333984 0.41797 0
+endnode
+node dummy wmx_a22_01a
+  parent wmx_a22_01
+  wirecolor 0.694118 0.109804 0.584314
+  orientation 0 0 0 0
+  position 0 0 0
+endnode
+node trimesh plane291
+  parent wmx_a22_01a
+  wirecolor 0.52549 0.52549 0.52549
+  tilefade 0
+  scale 1
+  render 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 1
+  alpha 1
+  transparencyhint 1
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  center 150 150 0
+  bitmap wmx01_waterxx
+  orientation 0 0 0 0
+  shadow 0
+  position -1.5 -1.5 -1
+  verts 4
+    -3.5 6.5 0
+    -3.5 -3.5 0
+    6.5 -3.5 0
+    6.5 6.5 0
+  faces 2
+    0 1 2 1 0 1 2 0
+    2 3 0 1 2 3 0 0
+  tverts 4
+    0 1 0
+    0 0 0
+    1 0 0
+    1 1 0
 endnode
 endmodelgeom wmx_a22_01
 donemodel wmx_a22_01

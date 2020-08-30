@@ -1,484 +1,14 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 19:17:38 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wmx01_m29_11
-setsupermodel wmx01_m29_11 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wmx01_m29_11 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wmx01_m29_11
 node dummy wmx01_m29_11
   parent NULL
-endnode
-node dummy wmx01_m29_11a
-  parent wmx01_m29_11
-  orientation 0 0 0 0
-  wirecolor 1 0 0
-  position 0 0 0
-endnode
-node dummy fried_fix_01
-  parent wmx01_m29_11a
-  wirecolor 0.776471 0.878431 0.341176
-  orientation 0 0 0 0
-  position 0 0 -5
-endnode
-node emitter em_smoke01
-  orientation 0 -1.5e-006 1 -3.14159
-  wirecolor 0.721569 0.894118 0.6
-  update_sel 1
-  update Fountain
-  render_sel 1
-  render Normal
-  blend_sel 1
-  blend Normal
-  spawntype_sel 0
-  spawntype 0
-  xsize 15
-  ysize 15
-  inherit 0
-  inherit_local 1
-  inheritvel 0
-  inherit_part 0
-  renderorder 0
-  threshold 0
-  combinetime 0
-  deadspace 0
-  opacity 0.5
-  colorStart 0.709804 0.709804 0.709804
-  colorEnd 0.027451 0.027451 0.027451
-  alphaStart 0.4
-  alphaEnd 0
-  sizeStart 0.25
-  sizeEnd 1
-  sizeStart_y 0.5
-  sizeEnd_y 1
-  birthrate 0
-  lifeExp 4.5
-  mass -0.02
-  spread 0.174533
-  particleRot 2
-  velocity 0
-  randvel 0.2
-  bounce_co 0
-  blurlength 10
-  loop 0
-  bounce 0
-  m_isTinted 1
-  splat 0
-  affectedByWind true
-  texture fxpa_mist
-  twosidedtex 0
-  xgrid 4
-  ygrid 4
-  fps 12
-  frameStart 0
-  frameEnd 11
-  random 1
-  lightningDelay 0
-  lightningRadius 0
-  lightningSubDiv 0
-  lightningScale 0
-  blastRadius 0
-  blastLength 0
-  p2p 0
-  p2p_type Bezier
-  p2p_sel 1
-  p2p_bezier2 0
-  p2p_bezier3 0
-  grav 0
-  drag 0
-  parent fried_fix_01
-  position 2.45 2.92 19.68
-endnode
-node emitter em_smoke02
-  orientation 0 -1.5e-006 1 -3.14159
-  wirecolor 0.721569 0.894118 0.6
-  update_sel 1
-  update Fountain
-  render_sel 1
-  render Normal
-  blend_sel 1
-  blend Normal
-  spawntype_sel 0
-  spawntype 0
-  xsize 15
-  ysize 15
-  inherit 0
-  inherit_local 1
-  inheritvel 0
-  inherit_part 0
-  renderorder 0
-  threshold 0
-  combinetime 0
-  deadspace 0
-  opacity 0.5
-  colorStart 0.709804 0.709804 0.709804
-  colorEnd 0.027451 0.027451 0.027451
-  alphaStart 0.4
-  alphaEnd 0
-  sizeStart 0.25
-  sizeEnd 1
-  sizeStart_y 0.5
-  sizeEnd_y 1
-  birthrate 0
-  lifeExp 4.5
-  mass -0.02
-  spread 0.174533
-  particleRot 2
-  velocity 0
-  randvel 0.2
-  bounce_co 0
-  blurlength 10
-  loop 0
-  bounce 0
-  m_isTinted 1
-  splat 0
-  affectedByWind true
-  texture fxpa_mist
-  twosidedtex 0
-  xgrid 4
-  ygrid 4
-  fps 12
-  frameStart 0
-  frameEnd 11
-  random 1
-  lightningDelay 0
-  lightningRadius 0
-  lightningSubDiv 0
-  lightningScale 0
-  blastRadius 0
-  blastLength 0
-  p2p 0
-  p2p_type Bezier
-  p2p_sel 1
-  p2p_bezier2 0
-  p2p_bezier3 0
-  grav 0
-  drag 0
-  parent fried_fix_01
-  position 3.16 2.92 19.68
-endnode
-node emitter em_smoke03
-  orientation 0 -1.5e-006 1 -3.14159
-  wirecolor 0.721569 0.894118 0.6
-  update_sel 1
-  update Fountain
-  render_sel 1
-  render Normal
-  blend_sel 1
-  blend Normal
-  spawntype_sel 0
-  spawntype 0
-  xsize 15
-  ysize 15
-  inherit 0
-  inherit_local 1
-  inheritvel 0
-  inherit_part 0
-  renderorder 0
-  threshold 0
-  combinetime 0
-  deadspace 0
-  opacity 0.5
-  colorStart 0.709804 0.709804 0.709804
-  colorEnd 0.027451 0.027451 0.027451
-  alphaStart 0.4
-  alphaEnd 0
-  sizeStart 0.25
-  sizeEnd 1
-  sizeStart_y 0.5
-  sizeEnd_y 1
-  birthrate 0
-  lifeExp 4.5
-  mass -0.02
-  spread 0.174533
-  particleRot 2
-  velocity 0
-  randvel 0.2
-  bounce_co 0
-  blurlength 10
-  loop 0
-  bounce 0
-  m_isTinted 1
-  splat 0
-  affectedByWind true
-  texture fxpa_mist
-  twosidedtex 0
-  xgrid 4
-  ygrid 4
-  fps 12
-  frameStart 0
-  frameEnd 11
-  random 1
-  lightningDelay 0
-  lightningRadius 0
-  lightningSubDiv 0
-  lightningScale 0
-  blastRadius 0
-  blastLength 0
-  p2p 0
-  p2p_type Bezier
-  p2p_sel 1
-  p2p_bezier2 0
-  p2p_bezier3 0
-  grav 0
-  drag 0
-  parent fried_fix_01
-  position 5.88 2.92 19.68
-endnode
-node emitter em_smoke04
-  orientation 0 -1.5e-006 1 -3.14159
-  wirecolor 0.721569 0.894118 0.6
-  update_sel 1
-  update Fountain
-  render_sel 1
-  render Normal
-  blend_sel 1
-  blend Normal
-  spawntype_sel 0
-  spawntype 0
-  xsize 15
-  ysize 15
-  inherit 0
-  inherit_local 1
-  inheritvel 0
-  inherit_part 0
-  renderorder 0
-  threshold 0
-  combinetime 0
-  deadspace 0
-  opacity 0.5
-  colorStart 0.709804 0.709804 0.709804
-  colorEnd 0.027451 0.027451 0.027451
-  alphaStart 0.4
-  alphaEnd 0
-  sizeStart 0.25
-  sizeEnd 1
-  sizeStart_y 0.5
-  sizeEnd_y 1
-  birthrate 0
-  lifeExp 4.5
-  mass -0.02
-  spread 0.174533
-  particleRot 2
-  velocity 0
-  randvel 0.2
-  bounce_co 0
-  blurlength 10
-  loop 0
-  bounce 0
-  m_isTinted 1
-  splat 0
-  affectedByWind true
-  texture fxpa_mist
-  twosidedtex 0
-  xgrid 4
-  ygrid 4
-  fps 12
-  frameStart 0
-  frameEnd 11
-  random 1
-  lightningDelay 0
-  lightningRadius 0
-  lightningSubDiv 0
-  lightningScale 0
-  blastRadius 0
-  blastLength 0
-  p2p 0
-  p2p_type Bezier
-  p2p_sel 1
-  p2p_bezier2 0
-  p2p_bezier3 0
-  grav 0
-  drag 0
-  parent fried_fix_01
-  position 6.61 2.92 19.64
-endnode
-node emitter em_smoke05
-  orientation 0 -1.5e-006 1 -3.14159
-  wirecolor 0.721569 0.894118 0.6
-  update_sel 1
-  update Fountain
-  render_sel 1
-  render Normal
-  blend_sel 1
-  blend Normal
-  spawntype_sel 0
-  spawntype 0
-  xsize 15
-  ysize 15
-  inherit 0
-  inherit_local 1
-  inheritvel 0
-  inherit_part 0
-  renderorder 0
-  threshold 0
-  combinetime 0
-  deadspace 0
-  opacity 0.5
-  colorStart 0.709804 0.709804 0.709804
-  colorEnd 0.027451 0.027451 0.027451
-  alphaStart 0.4
-  alphaEnd 0
-  sizeStart 0.25
-  sizeEnd 1
-  sizeStart_y 0.5
-  sizeEnd_y 1
-  birthrate 0
-  lifeExp 4.5
-  mass -0.02
-  spread 0.174533
-  particleRot 2
-  velocity 0
-  randvel 0.2
-  bounce_co 0
-  blurlength 10
-  loop 0
-  bounce 0
-  m_isTinted 1
-  splat 0
-  affectedByWind true
-  texture fxpa_mist
-  twosidedtex 0
-  xgrid 4
-  ygrid 4
-  fps 12
-  frameStart 0
-  frameEnd 11
-  random 1
-  lightningDelay 0
-  lightningRadius 0
-  lightningSubDiv 0
-  lightningScale 0
-  blastRadius 0
-  blastLength 0
-  p2p 0
-  p2p_type Bezier
-  p2p_sel 1
-  p2p_bezier2 0
-  p2p_bezier3 0
-  grav 0
-  drag 0
-  parent fried_fix_01
-  position 9.34 2.92 19.69
-endnode
-node emitter em_smoke06
-  orientation 0 -1.5e-006 1 -3.14159
-  wirecolor 0.721569 0.894118 0.6
-  update_sel 1
-  update Fountain
-  render_sel 1
-  render Normal
-  blend_sel 1
-  blend Normal
-  spawntype_sel 0
-  spawntype 0
-  xsize 15
-  ysize 15
-  inherit 0
-  inherit_local 1
-  inheritvel 0
-  inherit_part 0
-  renderorder 0
-  threshold 0
-  combinetime 0
-  deadspace 0
-  opacity 0.5
-  colorStart 0.709804 0.709804 0.709804
-  colorEnd 0.027451 0.027451 0.027451
-  alphaStart 0.4
-  alphaEnd 0
-  sizeStart 0.25
-  sizeEnd 1
-  sizeStart_y 0.5
-  sizeEnd_y 1
-  birthrate -1
-  lifeExp 4.5
-  mass -0.02
-  spread 0.174533
-  particleRot 2
-  velocity 0
-  randvel 0.2
-  bounce_co 0
-  blurlength 10
-  loop 0
-  bounce 0
-  m_isTinted 1
-  splat 0
-  affectedByWind true
-  texture fxpa_mist
-  twosidedtex 0
-  xgrid 4
-  ygrid 4
-  fps 12
-  frameStart 0
-  frameEnd 11
-  random 1
-  lightningDelay 0
-  lightningRadius 0
-  lightningSubDiv 0
-  lightningScale 0
-  blastRadius 0
-  blastLength 0
-  p2p 0
-  p2p_type Bezier
-  p2p_sel 1
-  p2p_bezier2 0
-  p2p_bezier3 0
-  grav 0
-  drag 0
-  parent fried_fix_01
-  position 10.09 2.92 19.69
-endnode
-node trimesh window05
-  wirecolor 0.776471 0.87451 0.337255
-  tilefade 0
-  scale 1
-  render 1
-  shadow 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 1 1 1
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 1
-  center 0 0 0
-  bitmap tno01_window07
-  parent fried_fix_01
-  orientation 0 0 0 0
-  position -1.91 1.35 13.15
-  verts 8
-    0.1 1 -0.95
-    0.1 1 0.95
-    0.1 -1 -0.95
-    0.1 -1 0.95
-    -0.1 1 -0.95
-    -0.1 1 0.95
-    -0.1 -1 -0.95
-    -0.1 -1 0.95
-  faces 10
-    0 2 1 1 0 1 2 1
-    2 3 1 1 1 3 2 1
-    7 5 1 0 5 6 4 1
-    1 3 7 0 4 7 5 1
-    5 4 0 0 4 7 5 1
-    0 1 5 0 5 6 4 1
-    4 6 2 0 4 7 5 1
-    2 0 4 0 5 6 4 1
-    6 7 3 0 5 6 4 1
-    3 2 6 0 4 7 5 1
-  tverts 8
-    0 0 0
-    1 0 0
-    0 1 0
-    1 1 0
-    0.771484 0.958984 0
-    2.22852 1.05664 0
-    0.771484 1.05664 0
-    2.22852 0.958984 0
 endnode
 node light wmx01_m29_11ml1
   parent wmx01_m29_11
@@ -487,7 +17,7 @@ node light wmx01_m29_11ml1
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -502,7 +32,7 @@ node light wmx01_m29_11ml2
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -682,15 +212,15 @@ node trimesh f_object16
     13 12 7 1 8 7 6 1
     13 6 4 1 8 5 3 1
   tverts 9
-    1.46094 0.275391 0
-    0.994141 0.242188 0
-    0.994141 0.244141 0
-    1.13281 0.578125 0
-    1.37305 0.578125 0
-    1.13281 0.978516 0
-    1.37305 0.978516 0
-    1.46094 1.50781 0
-    0.994141 1.50781 0
+    0.46094 0.275391 0
+    -0.005859 0.242188 0
+    -0.005859 0.244141 0
+    0.13281 0.578125 0
+    0.37305 0.578125 0
+    0.13281 0.978516 0
+    0.37305 0.978516 0
+    0.46094 1.50781 0
+    -0.005859 1.50781 0
 endnode
 node trimesh f_object17
   parent wmx01_m29_11
@@ -781,12 +311,12 @@ node trimesh f_object28
     8 3 6 0 8 3 6 2
     9 1 4 0 9 1 4 2
   tverts 22
-    1.72461 0.126953 0
+    0.72461 0.126953 0
     0.982422 0.126953 0
     0.822266 0.00585938 0
     0.982422 0.00585938 0
     0.958984 0.328125 0
-    1.72461 0.328125 0
+    0.72461 0.328125 0
     0.957031 0.328125 0
     0.849609 0.328125 0
     0.90625 0.0585938 0
@@ -801,8 +331,8 @@ node trimesh f_object28
     0.341797 0.00585938 0
     0.341797 0.328125 0
     0.0800781 0.328125 0
-    1.46484 0.126953 0
-    1.46484 0.328125 0
+    0.46484 0.126953 0
+    0.46484 0.328125 0
 endnode
 node trimesh f_object46
   parent wmx01_m29_11
@@ -924,14 +454,14 @@ node trimesh f_object62
     0 1 5 4 0 1 5 1
     5 4 0 4 5 4 0 1
   tverts 8
-    0.939453 1.19141 0
-    0.939453 0.476563 0
-    0.03125 0.789063 0
-    0.03125 1.50195 0
-    1.06055 1.19141 0
-    1.06055 0.476563 0
-    0.0605469 0.789063 0
-    0.0605469 1.50195 0
+    -0.060547 1.19141 0
+    -0.060547 0.476563 0
+    0.03125 -0.210937 0
+    0.03125 0.50195 0
+    0.06055 1.19141 0
+    0.06055 0.476563 0
+    0.0605469 -0.210937 0
+    0.0605469 0.50195 0
 endnode
 node trimesh f_object63
   parent wmx01_m29_11
@@ -967,14 +497,14 @@ node trimesh f_object63
     0 1 5 4 0 5 6 1
     5 4 0 4 6 7 0 1
   tverts 8
-    0.939453 0.878906 0
-    0.0605469 0.960938 0
-    0.0605469 1.78906 0
-    0.03125 1.78906 0
-    0.03125 0.960938 0
-    0.939453 0.191406 0
-    1.06055 0.191406 0
-    1.06055 1.01953 0
+    -0.060547 0.878906 0
+    0.0605469 -0.039062 0
+    0.0605469 0.78906 0
+    0.03125 0.78906 0
+    0.03125 -0.039062 0
+    -0.060547 0.191406 0
+    0.06055 0.191406 0
+    0.06055 1.01953 0
 endnode
 node trimesh f_object65
   parent wmx01_m29_11
@@ -1019,21 +549,21 @@ node trimesh f_object65
     4 8 3 2 6 13 4 1
     6 9 8 8 10 14 12 1
   tverts 15
-    0.388672 3.21289 0
-    0.388672 0.787109 0
-    0.408203 0.767578 0
-    0.408203 3.23242 0
-    1.01758 0.767578 0
-    1.01758 3.23242 0
-    0.976563 3.23242 0
-    0.976563 0.767578 0
-    0.591797 3.23242 0
-    0.591797 0.767578 0
-    0.611328 0.787109 0
-    0.611328 3.21289 0
-    0.591797 2.00586 0
-    0.976563 1.99414 0
-    0.611328 2.00586 0
+    0.388672 2.21289 0
+    0.388672 -0.212891 0
+    0.408203 -0.232422 0
+    0.408203 2.23242 0
+    1.01758 -0.232422 0
+    1.01758 2.23242 0
+    0.976563 2.23242 0
+    0.976563 -0.232422 0
+    0.591797 2.23242 0
+    0.591797 -0.232422 0
+    0.611328 -0.212891 0
+    0.611328 2.21289 0
+    0.591797 1.00586 0
+    0.976563 0.99414 0
+    0.611328 1.00586 0
 endnode
 node trimesh f_object66
   parent wmx01_m29_11
@@ -1073,13 +603,13 @@ node trimesh f_object66
     4 5 7 8 2 10 11 1
     7 6 4 8 11 3 2 1
   tverts 12
-    0.212891 1.38867 0
+    0.212891 0.38867 0
     1.01758 0.591797 0
     0.232422 0.591797 0
     0.212891 0.611328 0
-    0.212891 0.701172 0
-    0.232422 0.771484 0
-    0.232422 1.4082 0
+    0.212891 -0.298828 0
+    0.232422 -0.228516 0
+    0.232422 0.4082 0
     1.01758 1.22852 0
     0.976563 1.22852 0
     0.976563 0.591797 0
@@ -1124,16 +654,16 @@ node trimesh f_object67
     5 4 6 8 5 4 6 1
     6 7 5 8 6 7 5 1
   tverts 12
-    2.21289 1.70117 0
-    2.21289 0.986328 0
+    0.21289 0.70117 0
+    0.21289 -0.013672 0
     1.01758 1.01367 0
     1.01758 0.228516 0
-    2.23242 1.01367 0
-    2.23242 0.228516 0
-    2.21289 1.01367 0
-    2.21289 0.306641 0
-    2.23242 0.986328 0
-    2.23242 1.77148 0
+    0.23242 1.01367 0
+    0.23242 0.228516 0
+    0.21289 1.01367 0
+    0.21289 0.306641 0
+    0.23242 -0.013672 0
+    0.23242 0.77148 0
     0.976563 1.01367 0
     0.976563 0.228516 0
 endnode
@@ -1169,11 +699,11 @@ node trimesh f_object79
     2 1 3 1 2 1 3 1
     1 0 3 1 1 0 3 1
   tverts 5
-    1.0957 2.28711 0
-    1.0957 1.70117 0
-    1.0957 0.986328 0
-    0.599609 1.74219 0
-    0.607422 0.984375 0
+    1.0957 1.28711 0
+    1.0957 0.70117 0
+    1.0957 -0.013672 0
+    0.599609 0.74219 0
+    0.607422 -0.015625 0
 endnode
 node trimesh f_object84
   parent wmx01_m29_11
@@ -1205,10 +735,10 @@ node trimesh f_object84
     2 3 1 1 1 2 3 1
     1 0 2 1 3 0 1 1
   tverts 4
-    1.28906 1.99023 0
-    0.742188 2 0
-    0.742188 1.40039 0
-    1.28711 0.904297 0
+    0.28906 0.99023 0
+    -0.257812 1 0
+    -0.257812 0.40039 0
+    0.28711 -0.095703 0
 endnode
 node trimesh object01
   parent wmx01_m29_11
@@ -1358,19 +888,19 @@ node trimesh object15
     0 1 8 1 8 9 12 1
     5 8 1 1 11 12 9 1
   tverts 13
-    0.996094 0.945313 0
-    0.996094 0.173828 0
-    1.50977 0.173828 0
-    1.50977 0.945313 0
-    1.50586 0.189453 0
-    1.50586 0.945313 0
-    0.994141 0.945313 0
-    0.994141 0.189453 0
-    0.994141 1.93945 0
-    0.994141 0.931641 0
-    1.50586 1.93945 0
-    1.50586 0.931641 0
-    1.50586 1.43555 0
+    -0.003906 0.945313 0
+    -0.003906 0.173828 0
+    0.50977 0.173828 0
+    0.50977 0.945313 0
+    0.50586 0.189453 0
+    0.50586 0.945313 0
+    -0.005859 0.945313 0
+    -0.005859 0.189453 0
+    -0.005859 0.93945 0
+    -0.005859 -0.068359 0
+    0.50586 0.93945 0
+    0.50586 -0.068359 0
+    0.50586 0.43555 0
 endnode
 node trimesh object16
   parent wmx01_m29_11
@@ -1680,32 +1210,32 @@ node trimesh object21
     10 17 15 4 20 23 25 1
     14 16 11 4 24 22 21 1
   tverts 26
-    0.470703 0.0527344 0
-    1.29883 0.0527344 0
-    2.01367 0.0527344 0
-    0.470703 0.560547 0
-    2.01367 0.580078 0
-    1.29883 0.580078 0
-    0.410156 0.298828 0
-    2.01367 0.285156 0
-    1.29883 0.285156 0
-    1.67383 0.818359 0
-    1.41406 0.818359 0
-    0.410156 0.898438 0
-    2.01367 0.898438 0
-    1.26953 0.898438 0
-    1.41406 0.898438 0
-    1.67383 0.898438 0
-    0.410156 0.148438 0
-    2.01367 0.148438 0
-    1.26953 0.148438 0
-    0.410156 0.929688 0
-    2.01367 0.929688 0
-    1.26953 0.929688 0
-    1.41406 0.796875 0
-    1.67383 0.796875 0
-    1.41406 0.929688 0
-    1.67383 0.929688 0
+    -0.529297 0.0527344 0
+    0.29883 0.0527344 0
+    1.01367 0.0527344 0
+    -0.529297 0.560547 0
+    1.01367 0.580078 0
+    0.29883 0.580078 0
+    -0.589844 0.298828 0
+    1.01367 0.285156 0
+    0.29883 0.285156 0
+    0.67383 0.818359 0
+    0.41406 0.818359 0
+    -0.589844 0.898438 0
+    1.01367 0.898438 0
+    0.26953 0.898438 0
+    0.41406 0.898438 0
+    0.67383 0.898438 0
+    -0.589844 0.148438 0
+    1.01367 0.148438 0
+    0.26953 0.148438 0
+    -0.589844 0.929688 0
+    1.01367 0.929688 0
+    0.26953 0.929688 0
+    0.41406 0.796875 0
+    0.67383 0.796875 0
+    0.41406 0.929688 0
+    0.67383 0.929688 0
 endnode
 node trimesh object24
   parent wmx01_m29_11
@@ -1771,22 +1301,22 @@ node trimesh object24
     0.140625 0.132813 0
     0.140625 0.253906 0
     0.455078 0.238281 0
-    0.349609 1.38477 0
-    0.349609 0.984375 0
-    0.369141 0.984375 0
-    0.369141 1.38477 0
-    0.212891 0.984375 0
-    0.212891 1.38477 0
-    0.193359 1.38477 0
-    0.193359 0.984375 0
-    0.492188 0.978516 0
-    0.492188 1.37695 0
-    0.455078 1.37695 0
-    0.455078 0.978516 0
-    0.105469 1.39258 0
-    0.105469 0.994141 0
-    0.140625 0.994141 0
-    0.140625 1.39258 0
+    0.349609 0.38477 0
+    0.349609 -0.015625 0
+    0.369141 -0.015625 0
+    0.369141 0.38477 0
+    0.212891 -0.015625 0
+    0.212891 0.38477 0
+    0.193359 0.38477 0
+    0.193359 -0.015625 0
+    0.492188 -0.021484 0
+    0.492188 0.37695 0
+    0.455078 0.37695 0
+    0.455078 -0.021484 0
+    0.105469 0.39258 0
+    0.105469 -0.005859 0
+    0.140625 -0.005859 0
+    0.140625 0.39258 0
 endnode
 node trimesh object28
   parent wmx01_m29_11
@@ -1891,10 +1421,10 @@ node trimesh object76
     2 5 7 1 6 7 5 3
     7 6 2 1 5 4 6 3
   tverts 8
-    2 1 0
     1 1 0
-    1.99609 0.296875 0
-    0.998047 0.296875 0
+    0 1 0
+    0.99609 0.296875 0
+    -0.001953 0.296875 0
     1 0.298828 0
     1 0.318359 0
     0.921875 0.298828 0
@@ -1940,22 +1470,22 @@ node trimesh object78
     6 5 4 1 6 5 4 2
     4 7 6 1 4 7 6 2
   tverts 16
-    0.96875 1.00195 0
-    0.568359 1.00195 0
+    0.96875 0.00195 0
+    0.568359 0.00195 0
     0.998047 0.816406 0
-    1.00195 0.816406 0
-    1.03125 0.855469 0
-    1.43164 0.855469 0
-    1.43164 0.816406 0
-    1.03125 0.816406 0
+    0.00195 0.816406 0
+    0.03125 0.855469 0
+    0.43164 0.855469 0
+    0.43164 0.816406 0
+    0.03125 0.816406 0
     0.896484 0.855469 0
     0.896484 0.816406 0
     0.998047 0.855469 0
-    1.10352 0.816406 0
-    1.10352 0.855469 0
-    1.00195 0.855469 0
-    0.96875 1.10352 0
-    0.568359 1.10352 0
+    0.10352 0.816406 0
+    0.10352 0.855469 0
+    0.00195 0.855469 0
+    0.96875 0.10352 0
+    0.568359 0.10352 0
 endnode
 node trimesh object96
   parent wmx01_m29_11
@@ -2088,24 +1618,24 @@ node trimesh object99
     6 0 17 16 6 0 17 1
     4 6 17 16 4 6 17 1
   tverts 18
-    0.537109 0.691406 0
-    2 0.691406 0
-    0.537109 2 0
-    2 2 0
-    0.537109 1.58594 0
-    1.06055 0.691406 0
-    0.537109 1.00977 0
-    0.804688 0.691406 0
-    1.5 0 0
-    2 0 0
-    0.499999 0 0
-    1 0 0
-    0 0 0
-    0 0.5 0
-    0 1.5 0
-    0 2 0
-    0 1 0
-    0.699219 0.974609 0
+    -0.462891 -0.308594 0
+    1 -0.308594 0
+    -0.462891 1 0
+    1 1 0
+    -0.462891 0.58594 0
+    0.06055 -0.308594 0
+    -0.462891 0.00977 0
+    -0.195312 -0.308594 0
+    0.5 -1 0
+    1 -1 0
+    -0.500001 -1 0
+    0 -1 0
+    -1 -1 0
+    -1 -0.5 0
+    -1 0.5 0
+    -1 1 0
+    -1 0 0
+    -0.300781 -0.025391 0
 endnode
 node trimesh object102
   parent wmx01_m29_11
@@ -2182,12 +1712,12 @@ node trimesh object108
     8 9 7 2 7 9 8 1
     0 2 1 2 0 2 1 1
   tverts 10
-    0.931641 0.703125 0
-    1.64453 0.703125 0
-    1.25586 0.560547 0
-    1.07422 0.595703 0
+    -0.068359 0.703125 0
+    0.64453 0.703125 0
+    0.25586 0.560547 0
+    0.07422 0.595703 0
     1.19141 0.595703 0
-    0.892578 0.560547 0
+    -0.107422 0.560547 0
     1.37305 0.560547 0
     1.33398 0.701172 0
     1.00977 0.560547 0
@@ -2241,17 +1771,17 @@ node trimesh object110
     3 1 0 1 3 1 0 1
     2 3 0 1 2 3 0 1
   tverts 14
-    1.8457 0.703125 0
-    1.8457 0.00390625 0
-    0.824219 0.560547 0
-    0.978516 0.457031 0
-    1.11719 0.00390625 0
+    0.8457 0.703125 0
+    0.8457 0.00390625 0
+    -0.175781 0.560547 0
+    -0.021484 0.457031 0
+    0.11719 0.00390625 0
     1.14844 0.00390625 0
     1.14844 0.121094 0
     1.28516 0.455078 0
     1.18359 0.302734 0
-    1.11719 0.121094 0
-    1.08008 0.302734 0
+    0.11719 0.121094 0
+    0.08008 0.302734 0
     0.539063 0.00390625 0
     0.537109 0.699219 0
     1.44141 0.560547 0
@@ -2367,17 +1897,17 @@ node trimesh object116
     6 5 9 1 1 0 2 1
     10 6 9 1 10 1 2 1
   tverts 11
-    1.62305 0.595703 0
-    1.44141 0.560547 0
-    1.62305 0.701172 0
-    2.8457 0.703125 0
-    0.419922 0.703125 0
-    1.64258 0.595703 0
-    1.82422 0.560547 0
-    1.46094 0.560547 0
-    2.73242 0.701172 0
-    1.80469 0.560547 0
-    0.537109 0.699219 0
+    0.62305 0.595703 0
+    0.44141 0.560547 0
+    0.62305 0.701172 0
+    1.8457 0.703125 0
+    -0.580078 0.703125 0
+    0.64258 0.595703 0
+    0.82422 0.560547 0
+    0.46094 0.560547 0
+    1.73242 0.701172 0
+    0.80469 0.560547 0
+    -0.462891 0.699219 0
 endnode
 node trimesh object140
   parent wmx01_m29_11
@@ -2841,6 +2371,8 @@ node aabb wok01
   orientation 0 0 0 0
   bitmap NULL
   position 0 0 0
+  render 0
+  shadow 0
   verts 59
     -1.84 -1.07 10.09
     5 -1.07 10.13
@@ -3184,6 +2716,447 @@ node aabb wok01
     3.42 2 12.25 5 5 14.84 75
     3.42 3.98 14 5 5 14.87 74
 endnode
+node dummy wmx01_m29_11a
+  parent wmx01_m29_11
+  orientation 0 0 0 0
+  wirecolor 1 0 0
+  position 0 0 0
+endnode
+node dummy fried_fix_01
+  parent wmx01_m29_11a
+  wirecolor 0.776471 0.878431 0.341176
+  orientation 0 0 0 0
+  position 0 0 -5
+endnode
+node trimesh window05
+  parent fried_fix_01
+  wirecolor 0.776471 0.87451 0.337255
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  center 0 0 0
+  bitmap tno01_window07
+  orientation 0 0 0 0
+  position -1.91 1.35 13.15
+  verts 8
+    0.1 1 -0.95
+    0.1 1 0.95
+    0.1 -1 -0.95
+    0.1 -1 0.95
+    -0.1 1 -0.95
+    -0.1 1 0.95
+    -0.1 -1 -0.95
+    -0.1 -1 0.95
+  faces 10
+    0 2 1 1 0 1 2 1
+    2 3 1 1 1 3 2 1
+    7 5 1 0 5 6 4 1
+    1 3 7 0 4 7 5 1
+    5 4 0 0 4 7 5 1
+    0 1 5 0 5 6 4 1
+    4 6 2 0 4 7 5 1
+    2 0 4 0 5 6 4 1
+    6 7 3 0 5 6 4 1
+    3 2 6 0 4 7 5 1
+  tverts 8
+    0 0 0
+    1 0 0
+    0 1 0
+    1 1 0
+    -0.228516 -0.041016 0
+    1.22852 0.05664 0
+    -0.228516 0.05664 0
+    1.22852 -0.041016 0
+endnode
+node emitter em_smoke01
+  parent fried_fix_01
+  alpha 0.5
+  orientation 0 -1.5e-06 1 -3.14159
+  wirecolor 0.721569 0.894118 0.6
+  update Fountain
+  render Normal
+  blend Normal
+  spawntype 0
+  xsize 15
+  ysize 15
+  inherit 0
+  inherit_local 1
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0
+  combinetime 0
+  deadspace 0
+  colorStart 0.709804 0.709804 0.709804
+  colorEnd 0.027451 0.027451 0.027451
+  alphaStart 0.4
+  alphaEnd 0
+  sizeStart 0.25
+  sizeEnd 1
+  sizeStart_y 0.5
+  sizeEnd_y 1
+  birthrate 0
+  lifeExp 4.5
+  mass -0.02
+  spread 0.174533
+  particleRot 2
+  velocity 0
+  randvel 0.2
+  bounce_co 0
+  blurlength 10
+  loop 0
+  bounce 0
+  m_isTinted 1
+  splat 0
+  affectedByWind 1
+  texture fxpa_mist
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 12
+  frameStart 0
+  frameEnd 11
+  random 1
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position 2.45 2.92 19.68
+endnode
+node emitter em_smoke02
+  parent fried_fix_01
+  alpha 0.5
+  orientation 0 -1.5e-06 1 -3.14159
+  wirecolor 0.721569 0.894118 0.6
+  update Fountain
+  render Normal
+  blend Normal
+  spawntype 0
+  xsize 15
+  ysize 15
+  inherit 0
+  inherit_local 1
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0
+  combinetime 0
+  deadspace 0
+  colorStart 0.709804 0.709804 0.709804
+  colorEnd 0.027451 0.027451 0.027451
+  alphaStart 0.4
+  alphaEnd 0
+  sizeStart 0.25
+  sizeEnd 1
+  sizeStart_y 0.5
+  sizeEnd_y 1
+  birthrate 0
+  lifeExp 4.5
+  mass -0.02
+  spread 0.174533
+  particleRot 2
+  velocity 0
+  randvel 0.2
+  bounce_co 0
+  blurlength 10
+  loop 0
+  bounce 0
+  m_isTinted 1
+  splat 0
+  affectedByWind 1
+  texture fxpa_mist
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 12
+  frameStart 0
+  frameEnd 11
+  random 1
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position 3.16 2.92 19.68
+endnode
+node emitter em_smoke03
+  parent fried_fix_01
+  alpha 0.5
+  orientation 0 -1.5e-06 1 -3.14159
+  wirecolor 0.721569 0.894118 0.6
+  update Fountain
+  render Normal
+  blend Normal
+  spawntype 0
+  xsize 15
+  ysize 15
+  inherit 0
+  inherit_local 1
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0
+  combinetime 0
+  deadspace 0
+  colorStart 0.709804 0.709804 0.709804
+  colorEnd 0.027451 0.027451 0.027451
+  alphaStart 0.4
+  alphaEnd 0
+  sizeStart 0.25
+  sizeEnd 1
+  sizeStart_y 0.5
+  sizeEnd_y 1
+  birthrate 0
+  lifeExp 4.5
+  mass -0.02
+  spread 0.174533
+  particleRot 2
+  velocity 0
+  randvel 0.2
+  bounce_co 0
+  blurlength 10
+  loop 0
+  bounce 0
+  m_isTinted 1
+  splat 0
+  affectedByWind 1
+  texture fxpa_mist
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 12
+  frameStart 0
+  frameEnd 11
+  random 1
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position 5.88 2.92 19.68
+endnode
+node emitter em_smoke04
+  parent fried_fix_01
+  alpha 0.5
+  orientation 0 -1.5e-06 1 -3.14159
+  wirecolor 0.721569 0.894118 0.6
+  update Fountain
+  render Normal
+  blend Normal
+  spawntype 0
+  xsize 15
+  ysize 15
+  inherit 0
+  inherit_local 1
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0
+  combinetime 0
+  deadspace 0
+  colorStart 0.709804 0.709804 0.709804
+  colorEnd 0.027451 0.027451 0.027451
+  alphaStart 0.4
+  alphaEnd 0
+  sizeStart 0.25
+  sizeEnd 1
+  sizeStart_y 0.5
+  sizeEnd_y 1
+  birthrate 0
+  lifeExp 4.5
+  mass -0.02
+  spread 0.174533
+  particleRot 2
+  velocity 0
+  randvel 0.2
+  bounce_co 0
+  blurlength 10
+  loop 0
+  bounce 0
+  m_isTinted 1
+  splat 0
+  affectedByWind 1
+  texture fxpa_mist
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 12
+  frameStart 0
+  frameEnd 11
+  random 1
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position 6.61 2.92 19.64
+endnode
+node emitter em_smoke05
+  parent fried_fix_01
+  alpha 0.5
+  orientation 0 -1.5e-06 1 -3.14159
+  wirecolor 0.721569 0.894118 0.6
+  update Fountain
+  render Normal
+  blend Normal
+  spawntype 0
+  xsize 15
+  ysize 15
+  inherit 0
+  inherit_local 1
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0
+  combinetime 0
+  deadspace 0
+  colorStart 0.709804 0.709804 0.709804
+  colorEnd 0.027451 0.027451 0.027451
+  alphaStart 0.4
+  alphaEnd 0
+  sizeStart 0.25
+  sizeEnd 1
+  sizeStart_y 0.5
+  sizeEnd_y 1
+  birthrate 0
+  lifeExp 4.5
+  mass -0.02
+  spread 0.174533
+  particleRot 2
+  velocity 0
+  randvel 0.2
+  bounce_co 0
+  blurlength 10
+  loop 0
+  bounce 0
+  m_isTinted 1
+  splat 0
+  affectedByWind 1
+  texture fxpa_mist
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 12
+  frameStart 0
+  frameEnd 11
+  random 1
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position 9.34 2.92 19.69
+endnode
+node emitter em_smoke06
+  parent fried_fix_01
+  alpha 0.5
+  orientation 0 -1.5e-06 1 -3.14159
+  wirecolor 0.721569 0.894118 0.6
+  update Fountain
+  render Normal
+  blend Normal
+  spawntype 0
+  xsize 15
+  ysize 15
+  inherit 0
+  inherit_local 1
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0
+  combinetime 0
+  deadspace 0
+  colorStart 0.709804 0.709804 0.709804
+  colorEnd 0.027451 0.027451 0.027451
+  alphaStart 0.4
+  alphaEnd 0
+  sizeStart 0.25
+  sizeEnd 1
+  sizeStart_y 0.5
+  sizeEnd_y 1
+  birthrate -1
+  lifeExp 4.5
+  mass -0.02
+  spread 0.174533
+  particleRot 2
+  velocity 0
+  randvel 0.2
+  bounce_co 0
+  blurlength 10
+  loop 0
+  bounce 0
+  m_isTinted 1
+  splat 0
+  affectedByWind 1
+  texture fxpa_mist
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 12
+  frameStart 0
+  frameEnd 11
+  random 1
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position 10.09 2.92 19.69
+endnode
 endmodelgeom wmx01_m29_11
 
 #MAXANIM ASCII
@@ -3194,11 +3167,155 @@ newanim animloop01 wmx01_m29_11
   node dummy wmx01_m29_11
     parent NULL
   endnode
+  node light wmx01_m29_11ml1
+    parent wmx01_m29_11
+  endnode
+  node light wmx01_m29_11ml2
+    parent wmx01_m29_11
+  endnode
+  node dummy shad_door2
+    parent wmx01_m29_11
+  endnode
+  node dummy f_a23
+    parent wmx01_m29_11
+  endnode
+  node dummy f_object16
+    parent wmx01_m29_11
+  endnode
+  node dummy f_object17
+    parent wmx01_m29_11
+  endnode
+  node dummy f_object28
+    parent wmx01_m29_11
+  endnode
+  node dummy f_object46
+    parent wmx01_m29_11
+  endnode
+  node dummy f_object49
+    parent wmx01_m29_11
+  endnode
+  node dummy f_object62
+    parent wmx01_m29_11
+  endnode
+  node dummy f_object63
+    parent wmx01_m29_11
+  endnode
+  node dummy f_object65
+    parent wmx01_m29_11
+  endnode
+  node dummy f_object66
+    parent wmx01_m29_11
+  endnode
+  node dummy f_object67
+    parent wmx01_m29_11
+  endnode
+  node dummy f_object79
+    parent wmx01_m29_11
+  endnode
+  node dummy f_object84
+    parent wmx01_m29_11
+  endnode
+  node dummy object01
+    parent wmx01_m29_11
+  endnode
+  node dummy object14
+    parent wmx01_m29_11
+  endnode
+  node dummy object15
+    parent wmx01_m29_11
+  endnode
+  node dummy object16
+    parent wmx01_m29_11
+  endnode
+  node dummy object17
+    parent wmx01_m29_11
+  endnode
+  node dummy object21
+    parent wmx01_m29_11
+  endnode
+  node dummy object24
+    parent wmx01_m29_11
+  endnode
+  node dummy object28
+    parent wmx01_m29_11
+  endnode
+  node dummy object76
+    parent wmx01_m29_11
+  endnode
+  node dummy object78
+    parent wmx01_m29_11
+  endnode
+  node dummy object96
+    parent wmx01_m29_11
+  endnode
+  node dummy object99
+    parent wmx01_m29_11
+  endnode
+  node dummy object102
+    parent wmx01_m29_11
+  endnode
+  node dummy object108
+    parent wmx01_m29_11
+  endnode
+  node dummy object110
+    parent wmx01_m29_11
+  endnode
+  node dummy object112
+    parent wmx01_m29_11
+  endnode
+  node dummy object116
+    parent wmx01_m29_11
+  endnode
+  node dummy object140
+    parent wmx01_m29_11
+  endnode
+  node dummy object141
+    parent wmx01_m29_11
+  endnode
+  node dummy object146
+    parent wmx01_m29_11
+  endnode
+  node dummy object150
+    parent wmx01_m29_11
+  endnode
+  node dummy object155
+    parent wmx01_m29_11
+  endnode
+  node dummy object158
+    parent wmx01_m29_11
+  endnode
+  node dummy object159
+    parent wmx01_m29_11
+  endnode
+  node dummy object164
+    parent wmx01_m29_11
+  endnode
+  node dummy object166
+    parent wmx01_m29_11
+  endnode
+  node dummy object170
+    parent wmx01_m29_11
+  endnode
+  node dummy shad_win00
+    parent wmx01_m29_11
+  endnode
+  node dummy shad_win01
+    parent wmx01_m29_11
+  endnode
+  node dummy shad_win06
+    parent wmx01_m29_11
+  endnode
+  node dummy wok01
+    parent wmx01_m29_11
+  endnode
   node dummy wmx01_m29_11a
     parent wmx01_m29_11
   endnode
   node dummy fried_fix_01
     parent wmx01_m29_11a
+  endnode
+  node dummy window05
+    parent fried_fix_01
   endnode
   node emitter em_smoke01
     parent fried_fix_01
@@ -3242,8 +3359,15 @@ newanim animloop01 wmx01_m29_11
       0.0333333 5
     endlist
   endnode
-  node dummy window05
-    parent fried_fix_01
+doneanim animloop01 wmx01_m29_11
+
+#MAXANIM ASCII
+newanim day wmx01_m29_11
+  length 0.0333333
+  transtime 0.25
+  animroot wmx01_m29_11
+  node dummy wmx01_m29_11
+    parent NULL
   endnode
   node light wmx01_m29_11ml1
     parent wmx01_m29_11
@@ -3386,21 +3510,18 @@ newanim animloop01 wmx01_m29_11
   node dummy wok01
     parent wmx01_m29_11
   endnode
-doneanim animloop01 wmx01_m29_11
-
-#MAXANIM ASCII
-newanim day wmx01_m29_11
-  length 0.0333333
-  transtime 0.25
-  animroot wmx01_m29_11
-  node dummy wmx01_m29_11
-    parent NULL
-  endnode
   node dummy wmx01_m29_11a
     parent wmx01_m29_11
   endnode
   node dummy fried_fix_01
     parent wmx01_m29_11a
+  endnode
+  node trimesh window05
+    parent fried_fix_01
+    selfillumcolorkey
+      0 0 0 0
+      0.0333333 0 0 0
+    endlist
   endnode
   node emitter em_smoke01
     parent fried_fix_01
@@ -3419,154 +3540,6 @@ newanim day wmx01_m29_11
   endnode
   node emitter em_smoke06
     parent fried_fix_01
-  endnode
-  node trimesh window05
-    parent fried_fix_01
-    selfillumcolorkey
-      0 0 0 0
-      0.0333333 0 0 0
-    endlist
-  endnode
-  node light wmx01_m29_11ml1
-    parent wmx01_m29_11
-  endnode
-  node light wmx01_m29_11ml2
-    parent wmx01_m29_11
-  endnode
-  node dummy shad_door2
-    parent wmx01_m29_11
-  endnode
-  node dummy f_a23
-    parent wmx01_m29_11
-  endnode
-  node dummy f_object16
-    parent wmx01_m29_11
-  endnode
-  node dummy f_object17
-    parent wmx01_m29_11
-  endnode
-  node dummy f_object28
-    parent wmx01_m29_11
-  endnode
-  node dummy f_object46
-    parent wmx01_m29_11
-  endnode
-  node dummy f_object49
-    parent wmx01_m29_11
-  endnode
-  node dummy f_object62
-    parent wmx01_m29_11
-  endnode
-  node dummy f_object63
-    parent wmx01_m29_11
-  endnode
-  node dummy f_object65
-    parent wmx01_m29_11
-  endnode
-  node dummy f_object66
-    parent wmx01_m29_11
-  endnode
-  node dummy f_object67
-    parent wmx01_m29_11
-  endnode
-  node dummy f_object79
-    parent wmx01_m29_11
-  endnode
-  node dummy f_object84
-    parent wmx01_m29_11
-  endnode
-  node dummy object01
-    parent wmx01_m29_11
-  endnode
-  node dummy object14
-    parent wmx01_m29_11
-  endnode
-  node dummy object15
-    parent wmx01_m29_11
-  endnode
-  node dummy object16
-    parent wmx01_m29_11
-  endnode
-  node dummy object17
-    parent wmx01_m29_11
-  endnode
-  node dummy object21
-    parent wmx01_m29_11
-  endnode
-  node dummy object24
-    parent wmx01_m29_11
-  endnode
-  node dummy object28
-    parent wmx01_m29_11
-  endnode
-  node dummy object76
-    parent wmx01_m29_11
-  endnode
-  node dummy object78
-    parent wmx01_m29_11
-  endnode
-  node dummy object96
-    parent wmx01_m29_11
-  endnode
-  node dummy object99
-    parent wmx01_m29_11
-  endnode
-  node dummy object102
-    parent wmx01_m29_11
-  endnode
-  node dummy object108
-    parent wmx01_m29_11
-  endnode
-  node dummy object110
-    parent wmx01_m29_11
-  endnode
-  node dummy object112
-    parent wmx01_m29_11
-  endnode
-  node dummy object116
-    parent wmx01_m29_11
-  endnode
-  node dummy object140
-    parent wmx01_m29_11
-  endnode
-  node dummy object141
-    parent wmx01_m29_11
-  endnode
-  node dummy object146
-    parent wmx01_m29_11
-  endnode
-  node dummy object150
-    parent wmx01_m29_11
-  endnode
-  node dummy object155
-    parent wmx01_m29_11
-  endnode
-  node dummy object158
-    parent wmx01_m29_11
-  endnode
-  node dummy object159
-    parent wmx01_m29_11
-  endnode
-  node dummy object164
-    parent wmx01_m29_11
-  endnode
-  node dummy object166
-    parent wmx01_m29_11
-  endnode
-  node dummy object170
-    parent wmx01_m29_11
-  endnode
-  node dummy shad_win00
-    parent wmx01_m29_11
-  endnode
-  node dummy shad_win01
-    parent wmx01_m29_11
-  endnode
-  node dummy shad_win06
-    parent wmx01_m29_11
-  endnode
-  node dummy wok01
-    parent wmx01_m29_11
   endnode
 doneanim day wmx01_m29_11
 
@@ -3578,37 +3551,6 @@ newanim day2night wmx01_m29_11
   node dummy wmx01_m29_11
     parent NULL
   endnode
-  node dummy wmx01_m29_11a
-    parent wmx01_m29_11
-  endnode
-  node dummy fried_fix_01
-    parent wmx01_m29_11a
-  endnode
-  node emitter em_smoke01
-    parent fried_fix_01
-  endnode
-  node emitter em_smoke02
-    parent fried_fix_01
-  endnode
-  node emitter em_smoke03
-    parent fried_fix_01
-  endnode
-  node emitter em_smoke04
-    parent fried_fix_01
-  endnode
-  node emitter em_smoke05
-    parent fried_fix_01
-  endnode
-  node emitter em_smoke06
-    parent fried_fix_01
-  endnode
-  node trimesh window05
-    parent fried_fix_01
-    selfillumcolorkey
-      0 0 0 0
-      0.566667 0.882353 0.882353 0.882353
-    endlist
-  endnode
   node light wmx01_m29_11ml1
     parent wmx01_m29_11
   endnode
@@ -3749,6 +3691,37 @@ newanim day2night wmx01_m29_11
   endnode
   node dummy wok01
     parent wmx01_m29_11
+  endnode
+  node dummy wmx01_m29_11a
+    parent wmx01_m29_11
+  endnode
+  node dummy fried_fix_01
+    parent wmx01_m29_11a
+  endnode
+  node trimesh window05
+    parent fried_fix_01
+    selfillumcolorkey
+      0 0 0 0
+      0.566667 0.882353 0.882353 0.882353
+    endlist
+  endnode
+  node emitter em_smoke01
+    parent fried_fix_01
+  endnode
+  node emitter em_smoke02
+    parent fried_fix_01
+  endnode
+  node emitter em_smoke03
+    parent fried_fix_01
+  endnode
+  node emitter em_smoke04
+    parent fried_fix_01
+  endnode
+  node emitter em_smoke05
+    parent fried_fix_01
+  endnode
+  node emitter em_smoke06
+    parent fried_fix_01
   endnode
 doneanim day2night wmx01_m29_11
 
@@ -3760,37 +3733,6 @@ newanim night wmx01_m29_11
   node dummy wmx01_m29_11
     parent NULL
   endnode
-  node dummy wmx01_m29_11a
-    parent wmx01_m29_11
-  endnode
-  node dummy fried_fix_01
-    parent wmx01_m29_11a
-  endnode
-  node emitter em_smoke01
-    parent fried_fix_01
-  endnode
-  node emitter em_smoke02
-    parent fried_fix_01
-  endnode
-  node emitter em_smoke03
-    parent fried_fix_01
-  endnode
-  node emitter em_smoke04
-    parent fried_fix_01
-  endnode
-  node emitter em_smoke05
-    parent fried_fix_01
-  endnode
-  node emitter em_smoke06
-    parent fried_fix_01
-  endnode
-  node trimesh window05
-    parent fried_fix_01
-    selfillumcolorkey
-      0 0.882353 0.882353 0.882353
-      0.0333333 0.882353 0.882353 0.882353
-    endlist
-  endnode
   node light wmx01_m29_11ml1
     parent wmx01_m29_11
   endnode
@@ -3931,6 +3873,37 @@ newanim night wmx01_m29_11
   endnode
   node dummy wok01
     parent wmx01_m29_11
+  endnode
+  node dummy wmx01_m29_11a
+    parent wmx01_m29_11
+  endnode
+  node dummy fried_fix_01
+    parent wmx01_m29_11a
+  endnode
+  node trimesh window05
+    parent fried_fix_01
+    selfillumcolorkey
+      0 0.882353 0.882353 0.882353
+      0.0333333 0.882353 0.882353 0.882353
+    endlist
+  endnode
+  node emitter em_smoke01
+    parent fried_fix_01
+  endnode
+  node emitter em_smoke02
+    parent fried_fix_01
+  endnode
+  node emitter em_smoke03
+    parent fried_fix_01
+  endnode
+  node emitter em_smoke04
+    parent fried_fix_01
+  endnode
+  node emitter em_smoke05
+    parent fried_fix_01
+  endnode
+  node emitter em_smoke06
+    parent fried_fix_01
   endnode
 doneanim night wmx01_m29_11
 
@@ -3942,11 +3915,159 @@ newanim night2day wmx01_m29_11
   node dummy wmx01_m29_11
     parent NULL
   endnode
+  node light wmx01_m29_11ml1
+    parent wmx01_m29_11
+  endnode
+  node light wmx01_m29_11ml2
+    parent wmx01_m29_11
+  endnode
+  node dummy shad_door2
+    parent wmx01_m29_11
+  endnode
+  node dummy f_a23
+    parent wmx01_m29_11
+  endnode
+  node dummy f_object16
+    parent wmx01_m29_11
+  endnode
+  node dummy f_object17
+    parent wmx01_m29_11
+  endnode
+  node dummy f_object28
+    parent wmx01_m29_11
+  endnode
+  node dummy f_object46
+    parent wmx01_m29_11
+  endnode
+  node dummy f_object49
+    parent wmx01_m29_11
+  endnode
+  node dummy f_object62
+    parent wmx01_m29_11
+  endnode
+  node dummy f_object63
+    parent wmx01_m29_11
+  endnode
+  node dummy f_object65
+    parent wmx01_m29_11
+  endnode
+  node dummy f_object66
+    parent wmx01_m29_11
+  endnode
+  node dummy f_object67
+    parent wmx01_m29_11
+  endnode
+  node dummy f_object79
+    parent wmx01_m29_11
+  endnode
+  node dummy f_object84
+    parent wmx01_m29_11
+  endnode
+  node dummy object01
+    parent wmx01_m29_11
+  endnode
+  node dummy object14
+    parent wmx01_m29_11
+  endnode
+  node dummy object15
+    parent wmx01_m29_11
+  endnode
+  node dummy object16
+    parent wmx01_m29_11
+  endnode
+  node dummy object17
+    parent wmx01_m29_11
+  endnode
+  node dummy object21
+    parent wmx01_m29_11
+  endnode
+  node dummy object24
+    parent wmx01_m29_11
+  endnode
+  node dummy object28
+    parent wmx01_m29_11
+  endnode
+  node dummy object76
+    parent wmx01_m29_11
+  endnode
+  node dummy object78
+    parent wmx01_m29_11
+  endnode
+  node dummy object96
+    parent wmx01_m29_11
+  endnode
+  node dummy object99
+    parent wmx01_m29_11
+  endnode
+  node dummy object102
+    parent wmx01_m29_11
+  endnode
+  node dummy object108
+    parent wmx01_m29_11
+  endnode
+  node dummy object110
+    parent wmx01_m29_11
+  endnode
+  node dummy object112
+    parent wmx01_m29_11
+  endnode
+  node dummy object116
+    parent wmx01_m29_11
+  endnode
+  node dummy object140
+    parent wmx01_m29_11
+  endnode
+  node dummy object141
+    parent wmx01_m29_11
+  endnode
+  node dummy object146
+    parent wmx01_m29_11
+  endnode
+  node dummy object150
+    parent wmx01_m29_11
+  endnode
+  node dummy object155
+    parent wmx01_m29_11
+  endnode
+  node dummy object158
+    parent wmx01_m29_11
+  endnode
+  node dummy object159
+    parent wmx01_m29_11
+  endnode
+  node dummy object164
+    parent wmx01_m29_11
+  endnode
+  node dummy object166
+    parent wmx01_m29_11
+  endnode
+  node dummy object170
+    parent wmx01_m29_11
+  endnode
+  node dummy shad_win00
+    parent wmx01_m29_11
+  endnode
+  node dummy shad_win01
+    parent wmx01_m29_11
+  endnode
+  node dummy shad_win06
+    parent wmx01_m29_11
+  endnode
+  node dummy wok01
+    parent wmx01_m29_11
+  endnode
   node dummy wmx01_m29_11a
     parent wmx01_m29_11
   endnode
   node dummy fried_fix_01
     parent wmx01_m29_11a
+  endnode
+  node trimesh window05
+    parent fried_fix_01
+    selfillumcolorkey
+      0 0.882353 0.882353 0.882353
+      0.6 0 0 0
+    endlist
   endnode
   node emitter em_smoke01
     parent fried_fix_01
@@ -3966,12 +4087,15 @@ newanim night2day wmx01_m29_11
   node emitter em_smoke06
     parent fried_fix_01
   endnode
-  node trimesh window05
-    parent fried_fix_01
-    selfillumcolorkey
-      0 0.882353 0.882353 0.882353
-      0.6 0 0 0
-    endlist
+doneanim night2day wmx01_m29_11
+
+#MAXANIM ASCII
+newanim tiledefault wmx01_m29_11
+  length 0.0333333
+  transtime 0.25
+  animroot wmx01_m29_11
+  node dummy wmx01_m29_11
+    parent NULL
   endnode
   node light wmx01_m29_11ml1
     parent wmx01_m29_11
@@ -4114,21 +4238,18 @@ newanim night2day wmx01_m29_11
   node dummy wok01
     parent wmx01_m29_11
   endnode
-doneanim night2day wmx01_m29_11
-
-#MAXANIM ASCII
-newanim tiledefault wmx01_m29_11
-  length 0.0333333
-  transtime 0.25
-  animroot wmx01_m29_11
-  node dummy wmx01_m29_11
-    parent NULL
-  endnode
   node dummy wmx01_m29_11a
     parent wmx01_m29_11
   endnode
   node dummy fried_fix_01
     parent wmx01_m29_11a
+  endnode
+  node trimesh window05
+    parent fried_fix_01
+    selfillumcolorkey
+      0 0 0 0
+      0.0333333 0 0 0
+    endlist
   endnode
   node emitter em_smoke01
     parent fried_fix_01
@@ -4171,154 +4292,6 @@ newanim tiledefault wmx01_m29_11
       0 -1
       0.0333333 -1
     endlist
-  endnode
-  node trimesh window05
-    parent fried_fix_01
-    selfillumcolorkey
-      0 0 0 0
-      0.0333333 0 0 0
-    endlist
-  endnode
-  node light wmx01_m29_11ml1
-    parent wmx01_m29_11
-  endnode
-  node light wmx01_m29_11ml2
-    parent wmx01_m29_11
-  endnode
-  node dummy shad_door2
-    parent wmx01_m29_11
-  endnode
-  node dummy f_a23
-    parent wmx01_m29_11
-  endnode
-  node dummy f_object16
-    parent wmx01_m29_11
-  endnode
-  node dummy f_object17
-    parent wmx01_m29_11
-  endnode
-  node dummy f_object28
-    parent wmx01_m29_11
-  endnode
-  node dummy f_object46
-    parent wmx01_m29_11
-  endnode
-  node dummy f_object49
-    parent wmx01_m29_11
-  endnode
-  node dummy f_object62
-    parent wmx01_m29_11
-  endnode
-  node dummy f_object63
-    parent wmx01_m29_11
-  endnode
-  node dummy f_object65
-    parent wmx01_m29_11
-  endnode
-  node dummy f_object66
-    parent wmx01_m29_11
-  endnode
-  node dummy f_object67
-    parent wmx01_m29_11
-  endnode
-  node dummy f_object79
-    parent wmx01_m29_11
-  endnode
-  node dummy f_object84
-    parent wmx01_m29_11
-  endnode
-  node dummy object01
-    parent wmx01_m29_11
-  endnode
-  node dummy object14
-    parent wmx01_m29_11
-  endnode
-  node dummy object15
-    parent wmx01_m29_11
-  endnode
-  node dummy object16
-    parent wmx01_m29_11
-  endnode
-  node dummy object17
-    parent wmx01_m29_11
-  endnode
-  node dummy object21
-    parent wmx01_m29_11
-  endnode
-  node dummy object24
-    parent wmx01_m29_11
-  endnode
-  node dummy object28
-    parent wmx01_m29_11
-  endnode
-  node dummy object76
-    parent wmx01_m29_11
-  endnode
-  node dummy object78
-    parent wmx01_m29_11
-  endnode
-  node dummy object96
-    parent wmx01_m29_11
-  endnode
-  node dummy object99
-    parent wmx01_m29_11
-  endnode
-  node dummy object102
-    parent wmx01_m29_11
-  endnode
-  node dummy object108
-    parent wmx01_m29_11
-  endnode
-  node dummy object110
-    parent wmx01_m29_11
-  endnode
-  node dummy object112
-    parent wmx01_m29_11
-  endnode
-  node dummy object116
-    parent wmx01_m29_11
-  endnode
-  node dummy object140
-    parent wmx01_m29_11
-  endnode
-  node dummy object141
-    parent wmx01_m29_11
-  endnode
-  node dummy object146
-    parent wmx01_m29_11
-  endnode
-  node dummy object150
-    parent wmx01_m29_11
-  endnode
-  node dummy object155
-    parent wmx01_m29_11
-  endnode
-  node dummy object158
-    parent wmx01_m29_11
-  endnode
-  node dummy object159
-    parent wmx01_m29_11
-  endnode
-  node dummy object164
-    parent wmx01_m29_11
-  endnode
-  node dummy object166
-    parent wmx01_m29_11
-  endnode
-  node dummy object170
-    parent wmx01_m29_11
-  endnode
-  node dummy shad_win00
-    parent wmx01_m29_11
-  endnode
-  node dummy shad_win01
-    parent wmx01_m29_11
-  endnode
-  node dummy shad_win06
-    parent wmx01_m29_11
-  endnode
-  node dummy wok01
-    parent wmx01_m29_11
   endnode
 doneanim tiledefault wmx01_m29_11
 donemodel wmx01_m29_11

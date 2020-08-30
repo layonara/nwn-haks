@@ -1,9 +1,10 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 19:17:49 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wmx01_m66_07
-setsupermodel wmx01_m66_07 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wmx01_m66_07 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wmx01_m66_07
 node dummy wmx01_m66_07
@@ -19,6 +20,8 @@ node aabb wok07
   orientation 0 0 0 0
   bitmap NULL
   position 0 0 0
+  render 0
+  shadow 0
   verts 76
     -5 -5 -0.52
     5 -5 5.15
@@ -640,32 +643,32 @@ node trimesh tower_stonepillars02
     5 6 24 1 1 2 25 5
     25 5 24 1 23 1 25 5
   tverts 26
-    1.8125 0.699219 0
-    1.6875 0.699219 0
-    1.5625 0.699219 0
-    1.3125 0 0
-    1.1875 0 0
-    1.0625 0 0
-    1.9375 0 0
-    1.4375 0.699219 0
+    0.8125 0.699219 0
+    0.6875 0.699219 0
+    0.5625 0.699219 0
+    0.3125 0 0
+    0.1875 0 0
+    0.0625 0 0
     0.9375 0 0
-    1.8125 0 0
-    1.4375 0 0
-    1.8125 1 0
-    1.6875 1 0
-    1.5625 1 0
-    1.4375 1 0
-    1.3125 1 0
-    1.1875 1 0
-    1.0625 1 0
+    0.4375 0.699219 0
+    -0.0625 0 0
+    0.8125 0 0
+    0.4375 0 0
+    0.8125 1 0
+    0.6875 1 0
+    0.5625 1 0
+    0.4375 1 0
+    0.3125 1 0
+    0.1875 1 0
+    0.0625 1 0
+    -0.0625 1 0
     0.9375 1 0
-    1.9375 1 0
-    1.8125 0.201172 0
-    1.4375 0.201172 0
-    1.6875 0 0
-    1.6875 0.201172 0
-    1.5625 0 0
-    1.5625 0.201172 0
+    0.8125 0.201172 0
+    0.4375 0.201172 0
+    0.6875 0 0
+    0.6875 0.201172 0
+    0.5625 0 0
+    0.5625 0.201172 0
 endnode
 node trimesh tower_pillarsupport01
   parent wmx01_m66_07
@@ -842,26 +845,26 @@ node trimesh object39
     6 5 4 0 4 3 2 1
     4 7 6 0 2 5 4 1
   tverts 20
-    0.414063 1.74805 0
-    2.58594 1.74609 0
-    1.40039 1.55078 0
-    1.40039 1.75 0
-    1.60156 1.74609 0
-    1.60156 1.54688 0
-    1.39844 1.74609 0
-    1.39844 1.54688 0
-    1.59961 1.55078 0
-    1.59961 1.74805 0
-    1.39844 0.521484 0
-    1.39844 0.414063 0
-    1.59961 0.414063 0
-    1.59961 0.521484 0
-    0.521484 1.75 0
-    0.414063 1.55078 0
-    0.521484 1.55078 0
-    2.47852 1.54688 0
-    2.58594 1.54688 0
-    2.47852 1.74609 0
+    0.414063 0.74805 0
+    0.58594 0.74609 0
+    0.40039 0.55078 0
+    0.40039 0.75 0
+    0.60156 0.74609 0
+    0.60156 0.54688 0
+    0.39844 0.74609 0
+    0.39844 0.54688 0
+    0.59961 0.55078 0
+    0.59961 0.74805 0
+    0.39844 0.521484 0
+    0.39844 0.414063 0
+    0.59961 0.414063 0
+    0.59961 0.521484 0
+    0.521484 0.75 0
+    0.414063 0.55078 0
+    0.521484 0.55078 0
+    0.47852 0.54688 0
+    0.58594 0.54688 0
+    0.47852 0.74609 0
 endnode
 node trimesh object38
   parent wmx01_m66_07
@@ -905,26 +908,26 @@ node trimesh object38
     7 6 5 0 6 5 4 1
     5 4 7 0 4 3 6 1
   tverts 20
-    2.00195 1.74609 0
-    1.80078 1.74805 0
-    1.80078 1.55273 0
-    0.998047 1.55078 0
-    0.998047 1.74609 0
-    1.19922 1.75 0
-    1.19922 1.55273 0
-    1.80078 0.521484 0
-    1.80078 0.414063 0
-    2.00195 0.414063 0
-    2.00195 0.521484 0
-    0.521484 1.74609 0
-    0.414063 1.74609 0
-    0.414063 1.55078 0
-    0.521484 1.55078 0
-    2.47852 1.55273 0
-    2.58594 1.55273 0
-    2.58594 1.74805 0
-    2.47852 1.75 0
-    2.00195 1.55078 0
+    1.00195 0.74609 0
+    0.80078 0.74805 0
+    0.80078 0.55273 0
+    -0.001953 0.55078 0
+    -0.001953 0.74609 0
+    0.19922 0.75 0
+    0.19922 0.55273 0
+    0.80078 0.521484 0
+    0.80078 0.414063 0
+    1.00195 0.414063 0
+    1.00195 0.521484 0
+    0.521484 0.74609 0
+    0.414063 0.74609 0
+    0.414063 0.55078 0
+    0.521484 0.55078 0
+    0.47852 0.55273 0
+    0.58594 0.55273 0
+    0.58594 0.74805 0
+    0.47852 0.75 0
+    1.00195 0.55078 0
 endnode
 node trimesh object42
   parent wmx01_m66_07
@@ -966,22 +969,22 @@ node trimesh object42
     4 3 2 0 4 3 2 1
     4 2 7 0 4 2 15 1
   tverts 16
-    2.20117 1.54492 0
-    2.20117 1.74219 0
-    0.599609 1.73828 0
-    0.798828 1.74219 0
-    0.798828 1.54492 0
-    2.40039 1.73828 0
-    2.39648 1.24023 0
-    2.20117 0.521484 0
-    2.20117 0.414063 0
-    2.40039 0.414063 0
-    2.40039 0.521484 0
-    2.47852 1.54492 0
-    2.58594 1.54492 0
-    2.58594 1.74219 0
-    2.47852 1.74219 0
-    0.603516 1.27148 0
+    0.20117 0.54492 0
+    0.20117 0.74219 0
+    0.599609 0.73828 0
+    0.798828 0.74219 0
+    0.798828 0.54492 0
+    0.40039 0.73828 0
+    0.39648 0.24023 0
+    0.20117 0.521484 0
+    0.20117 0.414063 0
+    0.40039 0.414063 0
+    0.40039 0.521484 0
+    0.47852 0.54492 0
+    0.58594 0.54492 0
+    0.58594 0.74219 0
+    0.47852 0.74219 0
+    0.603516 0.27148 0
 endnode
 node trimesh object36
   parent wmx01_m66_07
@@ -1023,22 +1026,22 @@ node trimesh object36
     7 4 2 0 15 3 1 1
     4 3 2 0 3 2 1 1
   tverts 16
-    0.796875 1.74023 0
-    2.20313 1.54297 0
-    2.20313 1.74023 0
-    2.40234 1.73828 0
-    0.597656 1.73633 0
-    0.523438 1.74023 0
-    0.414063 1.74023 0
-    0.414063 1.54297 0
-    0.523438 1.54297 0
-    2.47852 0.597656 0
-    2.58594 0.597656 0
-    2.58594 0.796875 0
-    2.47656 0.796875 0
-    0.796875 1.54297 0
-    0.603516 1.24023 0
-    2.39648 1.27148 0
+    0.796875 0.74023 0
+    0.20313 0.54297 0
+    0.20313 0.74023 0
+    0.40234 0.73828 0
+    0.597656 0.73633 0
+    0.523438 0.74023 0
+    0.414063 0.74023 0
+    0.414063 0.54297 0
+    0.523438 0.54297 0
+    0.47852 0.597656 0
+    0.58594 0.597656 0
+    0.58594 0.796875 0
+    0.47656 0.796875 0
+    0.796875 0.54297 0
+    0.603516 0.24023 0
+    0.39648 0.27148 0
 endnode
 node trimesh object33
   parent wmx01_m66_07
@@ -1082,26 +1085,26 @@ node trimesh object33
     1 2 3 0 18 0 1 1
     3 0 1 0 1 19 18 1
   tverts 20
-    1.19922 1.75391 0
-    0.998047 1.74805 0
-    1.80078 1.75391 0
-    2.00195 1.74805 0
-    2.47656 0.998047 0
-    2.58594 0.998047 0
-    2.58594 1.19922 0
-    2.47656 1.19922 0
-    0.523438 1.75391 0
-    0.414063 1.75391 0
-    0.414063 1.55664 0
-    0.523438 1.55664 0
-    2.47656 1.55078 0
-    2.58594 1.55078 0
-    2.58594 1.74805 0
-    2.47656 1.74805 0
-    1.80078 1.55664 0
-    2.00195 1.55078 0
-    1.19922 1.55664 0
-    0.998047 1.55078 0
+    0.19922 0.75391 0
+    -0.001953 0.74805 0
+    0.80078 0.75391 0
+    1.00195 0.74805 0
+    0.47656 -0.001953 0
+    0.58594 -0.001953 0
+    0.58594 0.19922 0
+    0.47656 0.19922 0
+    0.523438 0.75391 0
+    0.414063 0.75391 0
+    0.414063 0.55664 0
+    0.523438 0.55664 0
+    0.47656 0.55078 0
+    0.58594 0.55078 0
+    0.58594 0.74805 0
+    0.47656 0.74805 0
+    0.80078 0.55664 0
+    1.00195 0.55078 0
+    0.19922 0.55664 0
+    -0.001953 0.55078 0
 endnode
 node trimesh towerfloor
   parent wmx01_m66_07
@@ -1149,18 +1152,18 @@ node trimesh towerfloor
     3 11 5 0 3 11 5 2
     3 2 11 0 3 2 11 2
   tverts 12
-    0.400391 0.351563 0
-    1.59766 0.351563 0
-    0.349609 0.402344 0
-    0.349609 1 0
-    1.59766 1.64648 0
-    1 1.64648 0
-    1.64844 0.402344 0
-    1.65039 1 0
-    1.64844 1.5957 0
-    0.351563 1.59766 0
-    0.402344 1.64844 0
-    1 0.351563 0
+    0.400391 -0.648437 0
+    1.59766 -0.648437 0
+    0.349609 -0.597656 0
+    0.349609 0 0
+    1.59766 0.64648 0
+    1 0.64648 0
+    1.64844 -0.597656 0
+    1.65039 0 0
+    1.64844 0.5957 0
+    0.351563 0.59766 0
+    0.402344 0.64844 0
+    1 -0.648437 0
 endnode
 node trimesh tower_stonewallmid2
   parent wmx01_m66_07
@@ -1210,22 +1213,22 @@ node trimesh tower_stonewallmid2
     15 7 6 0 15 7 6 2
     6 14 15 0 6 14 15 2
   tverts 16
-    0.128906 0.998047 0
-    0.902344 0.998047 0
+    0.128906 -0.001953 0
+    0.902344 -0.001953 0
     0.162109 0.0683594 0
     1.01563 0.0527344 0
     0.142578 0.162109 0
     0.916016 0.132813 0
-    0.613281 0.0585938 0
-    1.38672 0.0585938 0
-    0.128906 1.90234 0
-    0.902344 1.90234 0
+    -0.386719 0.0585938 0
+    0.38672 0.0585938 0
+    0.128906 0.90234 0
+    0.902344 0.90234 0
     0.162109 0.986328 0
     1.01563 0.986328 0
     0.142578 0.992188 0
     0.916016 0.992188 0
-    0.613281 0.951172 0
-    1.38672 0.951172 0
+    -0.386719 0.951172 0
+    0.38672 0.951172 0
 endnode
 node trimesh tower_windowframes
   parent wmx01_m66_07
@@ -1683,18 +1686,18 @@ node trimesh object78
     0.65625 0.816406 0
     0.802734 0.914063 0
     0.65625 0.914063 0
-    0.173828 1.67773 0
-    0.0273438 1.67773 0
-    0.173828 0.876953 0
-    0.173828 0.935547 0
-    0.0273438 0.935547 0
-    0.0273438 0.876953 0
-    0.173828 1.39258 0
-    0.0273438 1.39258 0
-    0.173828 1.50781 0
-    0.0273438 1.50781 0
-    0.173828 1.60547 0
-    0.0273438 1.60547 0
+    0.173828 0.67773 0
+    0.0273438 0.67773 0
+    0.173828 -0.123047 0
+    0.173828 -0.064453 0
+    0.0273438 -0.064453 0
+    0.0273438 -0.123047 0
+    0.173828 0.39258 0
+    0.0273438 0.39258 0
+    0.173828 0.50781 0
+    0.0273438 0.50781 0
+    0.173828 0.60547 0
+    0.0273438 0.60547 0
 endnode
 node trimesh object81
   parent wmx01_m66_07
@@ -1755,39 +1758,37 @@ node trimesh object81
     7 8 0 0 4 5 10 2
     8 9 0 0 5 6 10 2
     8 11 9 0 5 8 6 2
-    21 18 3 0 21 18 25 2
-    3 18 15 0 25 18 15 2
-    3 12 21 0 25 24 21 2
-    22 21 23 0 22 21 23 2
-    21 13 19 0 21 13 19 2
-    21 19 17 0 21 19 17 2
-    21 17 18 0 21 17 18 2
-    19 16 17 0 19 16 17 2
-    21 12 23 0 21 24 23 2
-    22 20 13 0 22 20 13 2
-    20 14 13 0 20 14 13 2
-    22 13 21 0 22 13 21 2
-  tverts 26
-    0.748047 0.00585938 0
-    1.2168 0 0
-    1.28906 0.109375 0
-    1.25195 0.0625 0
-    0.775391 0.820313 0
-    0.78125 0.792969 0
-    1.0293 0.472656 0
-    0.767578 0.988281 0
-    0.763672 0.630859 0
-    0.738281 0.433594 0
-    1.5 1 0
-    1.5 0.474609 0
-    1.5 0.201172 0
+    21 18 3 0 19 17 23 2
+    3 18 15 0 23 17 15 2
+    3 12 21 0 23 22 19 2
+    22 21 23 0 20 19 21 2
+    21 13 19 0 19 13 11 2
+    21 19 17 0 19 11 16 2
+    21 17 18 0 19 16 17 2
+    19 16 17 0 11 12 16 2
+    21 12 23 0 19 22 21 2
+    22 20 13 0 20 18 13 2
+    20 14 13 0 18 14 13 2
+    22 13 21 0 20 13 19 2
+  tverts 24
+    -0.251953 0.00585938 0
+    0.2168 0 0
+    0.28906 0.109375 0
+    0.25195 0.0625 0
+    -0.224609 0.820313 0
+    -0.21875 0.792969 0
+    0.0293 0.472656 0
+    -0.232422 0.988281 0
+    -0.236328 0.630859 0
+    -0.261719 0.433594 0
+    0.5 1 0
+    0.5 0.474609 0
+    0.5 0.201172 0
     0.5 0.994141 0
     1.23242 0.988281 0
     0.785156 0 0
-    0.5 0.201172 0
     0.710938 0.109375 0
     0.75 0.0625 0
-    0.5 0.474609 0
     1.22461 0.820313 0
     0.974609 0.474609 0
     1.21875 0.792969 0
@@ -1825,10 +1826,10 @@ node trimesh object59
     0 2 3 0 1 3 2 2
     3 1 0 0 2 0 1 2
   tverts 4
-    0.324219 1.02148 0
-    0.273438 1.07227 0
-    0.324219 0.964844 0
-    0.273438 1.01563 0
+    0.324219 0.02148 0
+    0.273438 0.07227 0
+    0.324219 -0.035156 0
+    0.273438 0.01563 0
 endnode
 node trimesh object60
   parent wmx01_m66_07
@@ -2035,10 +2036,10 @@ node trimesh object64
     1 3 2 0 1 2 3 2
     2 0 1 0 3 0 1 2
   tverts 4
-    0.726563 1.07227 0
-    0.675781 1.02148 0
-    0.675781 0.964844 0
-    0.726563 1.01563 0
+    0.726563 0.07227 0
+    0.675781 0.02148 0
+    0.675781 -0.035156 0
+    0.726563 0.01563 0
 endnode
 node trimesh object65
   parent wmx01_m66_07
@@ -2082,7 +2083,7 @@ node light wmx01_m66_07ml1
   multiplier 1
   color 1 1 1
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -2097,738 +2098,13 @@ node light wmx01_m66_07ml2
   multiplier 1
   color 1 1 1
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
   fadinglight 1
   orientation 0 0 0 0
   position -2 -2 14
-endnode
-node trimesh shadow200
-  parent wmx01_m66_07
-  orientation 0 0 0 0
-  wirecolor 0.337255 0.337255 0.337255
-  tilefade 0
-  scale 1
-  render 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 0 0 0
-  diffuse 0 0 0
-  specular 0 0 0
-  shininess 1
-  center 29.1615 24.7075 0
-  shadow 0
-  bitmap NULL
-  position 1.16 0.28 6.49
-  verts 6
-    -1.64 0.2 0.99
-    0.56 -0.15 1.38
-    1.09 -0.79 -0.34
-    -0.5 -1.09 -0.17
-    -0.45 1.58 1.65
-    2.23 0.2 -1.65
-  faces 5
-    3 2 1 1 0 0 0 1
-    3 1 0 1 0 0 0 1
-    0 1 4 1 0 0 0 1
-    2 5 1 1 0 0 0 1
-    1 5 4 1 0 0 0 1
-endnode
-node trimesh shadow201
-  parent wmx01_m66_07
-  orientation 0 0 0 0
-  wirecolor 0.337255 0.337255 0.337255
-  tilefade 0
-  scale 1
-  render 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 0 0 0
-  diffuse 0 0 0
-  specular 0 0 0
-  shininess 1
-  center 71.551 10.288 -0.46151
-  shadow 0
-  bitmap NULL
-  position 1.98 3.65 7.79
-  verts 6
-    1.41 2 -1.12
-    -1.27 -1.79 0.35
-    1.41 -0.59 0.63
-    1.28 -1.63 -2.43
-    2.7 0.7 -1.26
-    -1 0.13 2.42
-  faces 5
-    1 3 2 1 0 0 0 1
-    5 4 0 1 0 0 0 1
-    2 3 4 1 0 0 0 1
-    1 2 5 1 0 0 0 1
-    2 4 5 1 0 0 0 1
-endnode
-node trimesh shadow202
-  parent wmx01_m66_07
-  orientation 0 0 0 0
-  wirecolor 0.337255 0.337255 0.337255
-  tilefade 0
-  scale 1
-  render 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 0 0 0
-  diffuse 0 0 0
-  specular 0 0 0
-  shininess 1
-  center 0.0064506 0.351002 -0.237
-  shadow 0
-  bitmap NULL
-  position -1.44 1.57 8.69
-  verts 5
-    0.96 -1.09 -1.21
-    0.96 1.09 1.14
-    -0.96 -0.61 0.48
-    0.09 -0.66 0.93
-    0.7 -0.34 1.21
-  faces 3
-    0 3 2 1 0 0 0 1
-    4 0 1 1 0 0 0 1
-    0 4 3 1 0 0 0 1
-endnode
-node trimesh shadow203
-  parent wmx01_m66_07
-  orientation 0 0 0 0
-  wirecolor 0.337255 0.337255 0.337255
-  tilefade 0
-  scale 1
-  render 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 0 0 0
-  diffuse 0 0 0
-  specular 0 0 0
-  shininess 1
-  center 0.440399 -0.416401 0.0159988
-  shadow 0
-  bitmap NULL
-  position -1.47 1.79 11.42
-  verts 6
-    -0.98 -0.37 0.1
-    0.04 -0.15 1.8
-    0.07 0.56 0.75
-    0.99 0.87 -1.59
-    0.12 -0.88 -1.8
-    0.73 -0.56 -1.52
-  faces 4
-    5 1 4 1 0 0 0 1
-    1 5 3 1 0 0 0 1
-    1 0 4 1 0 0 0 1
-    1 3 2 1 0 0 0 1
-endnode
-node trimesh shadow204
-  parent wmx01_m66_07
-  orientation 0 0 0 0
-  wirecolor 0.337255 0.337255 0.337255
-  tilefade 0
-  scale 1
-  render 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 0 0 0
-  diffuse 0 0 0
-  specular 0 0 0
-  shininess 1
-  center 6.14095 -37.574 0.284496
-  shadow 0
-  bitmap NULL
-  position -2.33 1.54 10.34
-  verts 4
-    -0.85 -0.2 0.31
-    -0.12 -0.12 1.18
-    -0.07 -0.58 -1.17
-    0.98 -0.63 -0.72
-  faces 2
-    3 1 2 1 0 0 0 1
-    1 0 2 1 0 0 0 1
-endnode
-node trimesh shadow205
-  parent wmx01_m66_07
-  orientation 0 0 0 0
-  wirecolor 0.337255 0.337255 0.337255
-  tilefade 0
-  scale 1
-  render 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 0 0 0
-  diffuse 0 0 0
-  specular 0 0 0
-  shininess 1
-  center 44.8005 -21.1978 -0.203499
-  shadow 0
-  bitmap NULL
-  position -4.27 1.13 10.18
-  verts 7
-    1.09 0.21 0.47
-    -0.07 0.32 1.9
-    -0.98 0.29 1.4
-    0.69 -0.74 -0.45
-    -0.83 -0.39 -0.1
-    0.45 -0.7 -1.9
-    1.87 -0.17 -1.01
-  faces 6
-    3 1 4 1 0 0 0 1
-    1 2 4 1 0 0 0 1
-    0 1 3 1 0 0 0 1
-    5 3 4 1 0 0 0 1
-    5 6 3 1 0 0 0 1
-    6 0 3 1 0 0 0 1
-endnode
-node trimesh shadow206
-  parent wmx01_m66_07
-  orientation 0 0 0 0
-  wirecolor 0.337255 0.337255 0.337255
-  tilefade 0
-  scale 1
-  render 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 0 0 0
-  diffuse 0 0 0
-  specular 0 0 0
-  shininess 1
-  center 3.60365 21.801 17.51
-  shadow 0
-  bitmap NULL
-  position -4.58 1.02 8.53
-  verts 6
-    -0.52 -0.28 1.55
-    -0.7 -1.05 -0.01
-    0.76 -0.59 -0.25
-    -0.72 0 -0.84
-    0.67 -0.1 -1.02
-    0.8 1.48 -1.2
-  faces 4
-    1 2 0 1 0 0 0 1
-    1 3 4 1 0 0 0 1
-    4 2 1 1 0 0 0 1
-    4 3 5 0 0 0 0 4
-endnode
-node trimesh shadow207
-  parent wmx01_m66_07
-  orientation 0 0 0 0
-  wirecolor 0.337255 0.337255 0.337255
-  tilefade 0
-  scale 1
-  render 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 0 0 0
-  diffuse 0 0 0
-  specular 0 0 0
-  shininess 1
-  center 57.4995 -21.4815 -0.370003
-  shadow 0
-  bitmap NULL
-  position -2.77 1.13 7.08
-  verts 8
-    2.29 -0.65 0.4
-    0.05 -1.8 -1.47
-    -1.05 -0.7 1.2
-    -0.52 -1.14 -1.8
-    -1.14 -0.21 0.43
-    0.37 -0.17 2.09
-    -0.36 0.63 -2.09
-    -1.01 1.37 0.25
-  faces 6
-    1 4 3 1 0 0 0 1
-    1 2 4 1 0 0 0 1
-    0 2 1 1 0 0 0 1
-    2 0 5 1 0 0 0 1
-    3 4 6 2 0 0 0 3
-    6 4 7 2 0 0 0 3
-endnode
-node trimesh shadow208
-  parent wmx01_m66_07
-  orientation 0 0 0 0
-  wirecolor 0.337255 0.337255 0.337255
-  tilefade 0
-  scale 1
-  render 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 0 0 0
-  diffuse 0 0 0
-  specular 0 0 0
-  shininess 1
-  center 0.297501 -0.101952 0.116501
-  shadow 0
-  bitmap NULL
-  position -1.07 -0.48 4.91
-  verts 6
-    -1.72 0.01 -1.97
-    0.59 0.96 2.57
-    -1.65 -0.19 0.7
-    1.73 -0.33 1.41
-    -0.14 -0.97 -0.23
-    -1.47 -0.76 -2.56
-  faces 4
-    5 4 2 1 0 0 0 1
-    2 3 1 1 0 0 0 1
-    4 3 2 1 0 0 0 1
-    5 2 0 1 0 0 0 1
-endnode
-node trimesh shadow209
-  parent wmx01_m66_07
-  orientation 0 0 0 0
-  wirecolor 0.337255 0.337255 0.337255
-  tilefade 0
-  scale 1
-  render 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 0 0 0
-  diffuse 0 0 0
-  specular 0 0 0
-  shininess 1
-  center -31.8494 26.365 -0.0875015
-  shadow 0
-  bitmap NULL
-  position -2.66 -0.05 4.25
-  verts 4
-    -0.13 -0.42 -1.31
-    -0.01 1.15 -1.37
-    -0.06 -0.62 1.36
-    -0.63 0.04 1.03
-  faces 2
-    2 3 0 1 0 0 0 1
-    0 3 1 0 0 0 0 2
-endnode
-node trimesh shadow210
-  parent wmx01_m66_07
-  orientation 0 0 0 0
-  wirecolor 0.337255 0.337255 0.337255
-  tilefade 0
-  scale 1
-  render 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 0 0 0
-  diffuse 0 0 0
-  specular 0 0 0
-  shininess 1
-  center -19.9211 -0.985001 0.177498
-  shadow 0
-  bitmap NULL
-  position -2.41 -0.59 1.37
-  verts 5
-    -0.38 -1.71 -1.57
-    -0.38 0.12 1.57
-    -0.26 1.69 1.51
-    -0.02 0.72 -1.57
-    -0.13 -0.65 0.98
-  faces 3
-    0 1 2 0 0 0 0 1
-    3 0 2 0 0 0 0 1
-    4 1 0 1 0 0 0 1
-endnode
-node trimesh shadow211
-  parent wmx01_m66_07
-  orientation 0 0 0 0
-  wirecolor 0.337255 0.337255 0.337255
-  tilefade 0
-  scale 1
-  render 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 0 0 0
-  diffuse 0 0 0
-  specular 0 0 0
-  shininess 1
-  center 17.8065 -13.4464 0.051506
-  shadow 0
-  bitmap NULL
-  position -1.16 3.03 11.8
-  verts 5
-    -0.29 0.41 1.41
-    -0.32 0 1.97
-    -0.24 -0.68 0.37
-    0.68 -0.37 -1.97
-    0.64 0.4 -0.04
-  faces 3
-    4 1 2 1 0 0 0 1
-    0 1 4 1 0 0 0 1
-    3 4 2 1 0 0 0 1
-endnode
-node trimesh shadow212
-  parent wmx01_m66_07
-  orientation 0 0 0 0
-  wirecolor 0.337255 0.337255 0.337255
-  tilefade 0
-  scale 1
-  render 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 0 0 0
-  diffuse 0 0 0
-  specular 0 0 0
-  shininess 1
-  center 62.3022 30.1575 0.490448
-  shadow 0
-  bitmap NULL
-  position -0.39 3.53 10.79
-  verts 4
-    1.37 0.25 -0.58
-    -0.09 -0.87 -0.96
-    -0.13 -0.1 0.97
-    0.6 1.47 0.02
-  faces 2
-    0 3 2 1 0 0 0 1
-    1 0 2 1 0 0 0 1
-endnode
-node trimesh shadow213
-  parent wmx01_m66_07
-  orientation 0 0 0 0
-  wirecolor 0.337255 0.337255 0.337255
-  tilefade 0
-  scale 1
-  render 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 0 0 0
-  diffuse 0 0 0
-  specular 0 0 0
-  shininess 1
-  center 19.1485 36.469 -17.9745
-  shadow 0
-  bitmap NULL
-  position -0.81 3.85 12.23
-  verts 4
-    -0.64 -0.41 0.98
-    0.04 -0.15 1.06
-    0.29 -0.42 -0.47
-    1.02 1.15 -1.42
-  faces 2
-    3 1 2 1 0 0 0 1
-    1 0 2 1 0 0 0 1
-endnode
-node trimesh shadow214
-  parent wmx01_m66_07
-  orientation 0 0 0 0
-  wirecolor 0.337255 0.337255 0.337255
-  tilefade 0
-  scale 1
-  render 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 0 0 0
-  diffuse 0 0 0
-  specular 0 0 0
-  shininess 1
-  center 22.2455 -7.39851 0.466507
-  shadow 0
-  bitmap NULL
-  position -0.9 4.91 12.92
-  verts 5
-    -0.67 0.45 2.12
-    0.13 -1.21 0.37
-    0.48 -0.37 1.44
-    0.15 1.07 0.6
-    1.11 0.09 -2.11
-  faces 3
-    2 3 0 1 0 0 0 1
-    4 3 2 1 0 0 0 1
-    4 2 1 1 0 0 0 1
-endnode
-node trimesh shadow215
-  parent wmx01_m66_07
-  orientation 0 0 0 0
-  wirecolor 0.337255 0.337255 0.337255
-  tilefade 0
-  scale 1
-  render 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 0 0 0
-  diffuse 0 0 0
-  specular 0 0 0
-  shininess 1
-  center 23.1547 17.1 -3.8765
-  shadow 0
-  bitmap NULL
-  position -1.24 4.23 14.64
-  verts 6
-    -0.21 -0.79 -1.43
-    -0.33 1.13 0.4
-    -0.36 0.3 1.35
-    -0.31 -0.54 0.68
-    0.47 -0.53 -1.35
-    0.82 0.31 -0.28
-  faces 4
-    1 2 5 1 0 0 0 1
-    3 0 4 1 0 0 0 1
-    3 4 5 1 0 0 0 1
-    5 2 3 1 0 0 0 1
-endnode
-node trimesh shadow216
-  parent wmx01_m66_07
-  orientation 0 0 0 0
-  wirecolor 0.337255 0.337255 0.337255
-  tilefade 0
-  scale 1
-  render 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 0 0 0
-  diffuse 0 0 0
-  specular 0 0 0
-  shininess 1
-  center 7.04055 -24.93 23.5754
-  shadow 0
-  bitmap NULL
-  position 0.18 3.07 8.94
-  verts 3
-    0.53 -1.21 -0.8
-    0.8 0.71 1.27
-    -0.66 -0.41 0.89
-  faces 1
-    2 0 1 1 0 0 0 1
-endnode
-node trimesh shadow217
-  parent wmx01_m66_07
-  orientation 0 0 0 0
-  wirecolor 0.337255 0.337255 0.337255
-  tilefade 0
-  scale 1
-  render 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 0 0 0
-  diffuse 0 0 0
-  specular 0 0 0
-  shininess 1
-  center 51.3575 -69.649 18.3456
-  shadow 0
-  bitmap NULL
-  position -0.4 2.27 8.47
-  verts 3
-    -0.08 -1.79 -0.99
-    1.11 -0.41 -0.33
-    -0.08 0.39 1.36
-  faces 1
-    0 1 2 1 0 0 0 1
-endnode
-node trimesh shadow218
-  parent wmx01_m66_07
-  orientation 0 0 0 0
-  wirecolor 0.337255 0.337255 0.337255
-  tilefade 0
-  scale 1
-  render 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 0 0 0
-  diffuse 0 0 0
-  specular 0 0 0
-  shininess 1
-  center -27.7475 -21.5985 21.3225
-  shadow 0
-  bitmap NULL
-  position -2.34 -1.99 0.86
-  verts 3
-    -0.45 -0.31 -1.06
-    -0.11 -1.18 -0.86
-    -0.2 0.75 1.49
-  faces 1
-    1 2 0 1 0 0 0 1
-endnode
-node trimesh shadow219
-  parent wmx01_m66_07
-  orientation 0 0 0 0
-  wirecolor 0.337255 0.337255 0.337255
-  tilefade 0
-  scale 1
-  render 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 0 0 0
-  diffuse 0 0 0
-  specular 0 0 0
-  shininess 1
-  center 33.9059 -33.701 49
-  shadow 0
-  bitmap NULL
-  position 1.71 1.59 6
-  verts 3
-    -1 0.27 2.14
-    1.68 -1.11 -1.16
-    1.55 0.43 -0.64
-  faces 1
-    1 2 0 1 0 0 0 1
-endnode
-node trimesh shadow220
-  parent wmx01_m66_07
-  orientation 0 0 0 0
-  wirecolor 0.337255 0.337255 0.337255
-  tilefade 0
-  scale 1
-  render 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 0 0 0
-  diffuse 0 0 0
-  specular 0 0 0
-  shininess 1
-  center 25.7189 -26.0075 -17.0849
-  shadow 0
-  bitmap NULL
-  position -4.81 2.02 7.68
-  verts 3
-    -0.49 -1 0.01
-    1.03 0.48 -0.35
-    -0.51 0.48 -0.35
-  faces 1
-    0 2 1 0 0 0 0 4
-endnode
-node trimesh shadow221
-  parent wmx01_m66_07
-  orientation 0 0 0 0
-  wirecolor 0.337255 0.337255 0.337255
-  tilefade 0
-  scale 1
-  render 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 0 0 0
-  diffuse 0 0 0
-  specular 0 0 0
-  shininess 1
-  center 38.3549 16.5501 -24.2085
-  shadow 0
-  bitmap NULL
-  position 3.65 5.04 5.91
-  verts 3
-    -0.26 0.61 0.76
-    1.03 -0.69 0.62
-    0.17 1.02 -1.25
-  faces 1
-    0 1 2 1 0 0 0 1
-endnode
-node trimesh shadow222
-  parent wmx01_m66_07
-  orientation 0 0 0 0
-  wirecolor 0.337255 0.337255 0.337255
-  tilefade 0
-  scale 1
-  render 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 0 0 0
-  diffuse 0 0 0
-  specular 0 0 0
-  shininess 1
-  center -23.8494 -14.3977 -35.0079
-  shadow 0
-  bitmap NULL
-  position -2.74 1.02 4.43
-  verts 3
-    0.07 0.08 -1.55
-    -0.55 -1.03 0.85
-    -0.39 0.74 0.56
-  faces 1
-    0 1 2 0 0 0 0 2
 endnode
 node trimesh ground_rock17
   parent wmx01_m66_07
@@ -3011,21 +2287,21 @@ node trimesh ground_rock17
     0.871094 0.958984 0
     0.285156 0.732422 0
     0.460938 0.302734 0
-    0.476563 1.97266 0
+    0.476563 0.97266 0
     0.712891 0.966797 0
-    0.423828 1.31641 0
-    0.998047 1.74023 0
-    0.0859375 0.990234 0
+    0.423828 0.31641 0
+    0.998047 0.74023 0
+    0.0859375 -0.009766 0
     0.0585938 0.771484 0
     0.478516 0.314453 0
-    0.349609 0.96875 0
-    0.654297 1.20703 0
+    0.349609 -0.03125 0
+    0.654297 0.20703 0
     0.740234 0.318359 0
     0.472656 0.609375 0
-    0.140625 1.69727 0
-    0.410156 1.71289 0
-    0.964844 0.998047 0
-    0.863281 0.892578 0
+    0.140625 0.69727 0
+    0.410156 0.71289 0
+    -0.035156 0.998047 0
+    -0.136719 0.892578 0
     0.21875 0.796875 0
     0.875 0.896484 0
     0.742188 1.05273 0
@@ -3035,7 +2311,7 @@ node trimesh ground_rock17
     0.519531 0.695313 0
     1.02344 0.558594 0
     0.824219 0.138672 0
-    1.27734 0.832031 0
+    0.27734 0.832031 0
     0.511719 1.05859 0
     0.175781 1.05078 0
     0.335938 0.76563 0
@@ -3058,20 +2334,20 @@ node trimesh ground_rock17
     0.150391 0.775391 0
     0.609375 1.0293 0
     0.175781 0.992188 0
-    1.64453 0.988281 0
+    0.64453 0.988281 0
     0.826172 0.898438 0
     0.203125 0.974609 0
-    1.49414 0.857422 0
-    0.970703 0.990234 0
+    0.49414 0.857422 0
+    -0.029297 0.990234 0
     0.337891 0.681641 0
     0.839844 1.02344 0
     0.150391 0.607422 0
     0.21875 1 0
     0.671875 0.701172 0
-    1.48438 0.716797 0
+    0.48438 0.716797 0
     1.01953 0.875 0
-    0.974609 0.96875 0
-    1.50586 0.980469 0
+    -0.025391 0.96875 0
+    0.50586 0.980469 0
     1.14258 0.816406 0
     0.478516 1.01172 0
     0.494141 0.722656 0
@@ -3081,14 +2357,14 @@ node trimesh ground_rock17
     1.23242 0.904297 0
     1.33594 0.589844 0
     0.914063 0.464844 0
-    0.960938 0.759766 0
+    -0.039062 0.759766 0
     0.210938 0.8125 0
     0.189453 0.998047 0
-    1.45313 0.998047 0
+    0.45313 0.998047 0
     0.728516 0.994141 0
     1.03516 0.830078 0
     0.353516 0.984375 0
-    0.796875 0.994141 0
+    -0.203125 0.994141 0
     1.11523 1.00391 0
     0.242188 0.9375 0
     0.210938 0.839844 0
@@ -3098,25 +2374,25 @@ node trimesh ground_rock17
     0.609375 0.26953 0
     0.910156 0.89844 0
     0.181641 0.324219 0
-    0.941406 0.789063 0
+    -0.058594 0.789063 0
     0.527344 0.882813 0
     0.59375 0.798828 0
-    1.12695 0.998047 0
+    0.12695 0.998047 0
     0.744141 0.605469 0
     0.714844 1.00977 0
-    0.914063 0.751953 0
-    1.19727 0.607422 0
+    -0.085937 0.751953 0
+    0.19727 0.607422 0
     0.857422 0.501953 0
-    1.51172 0.722656 0
+    0.51172 0.722656 0
     0.371094 0.460938 0
-    0.814453 0.419922 0
+    -0.185547 0.419922 0
     0.8125 0.212891 0
     0.462891 0.15625 0
     0.759766 0.623047 0
     0.462891 0.626953 0
     0.662109 0.541016 0
     0.556641 0.964844 0
-    0.978516 0.189453 0
+    -0.021484 0.189453 0
     0.226563 0.464844 0
     0.117188 0.685547 0
     0.0410156 0.955078 0
@@ -3124,14 +2400,14 @@ node trimesh ground_rock17
     0.71875 0.994141 0
     0.521484 0.613281 0
     0.568359 0.955078 0
-    0.990234 1.00195 0
+    -0.009766 1.00195 0
     0.185547 0.996094 0
-    0.919922 0.628906 0
-    1.78516 0.996094 0
+    -0.080078 0.628906 0
+    0.78516 0.996094 0
     0.285156 1.01367 0
     0.791016 0.576172 0
-    1.5957 0.185547 0
-    1.14844 0.564453 0
+    0.5957 0.185547 0
+    0.14844 0.564453 0
 endnode
 endmodelgeom wmx01_m66_07
 donemodel wmx01_m66_07

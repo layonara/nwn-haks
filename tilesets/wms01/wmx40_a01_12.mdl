@@ -1,9 +1,10 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 19:43:45 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wmx40_a01_12
-setsupermodel wmx40_a01_12 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wmx40_a01_12 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wmx40_a01_12
 node dummy wmx40_a01_12
@@ -50,6 +51,8 @@ node aabb 00lorewmesh12_12
   bitmap NULL
   orientation 0 0 0 0
   position 0 0 0
+  render 0
+  shadow 0
   verts 4
     -5 -5 -0.5
     5 -5 -0.5

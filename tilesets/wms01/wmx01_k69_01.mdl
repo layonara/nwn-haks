@@ -1,9 +1,10 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 19:17:06 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wmx01_k69_01
-setsupermodel wmx01_k69_01 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wmx01_k69_01 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wmx01_k69_01
 node dummy wmx01_k69_01
@@ -486,6 +487,8 @@ node aabb wok
   bitmap NULL
   orientation 0 0 0 0
   position 0 0 0
+  render 0
+  shadow 0
   verts 121
     -5 5 3
     -5 4 3
@@ -1217,7 +1220,7 @@ node light wmx01_k69_01ml1
   multiplier 1
   color 1 1 1
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 0
   shadow 0
   lightpriority 3
@@ -1232,7 +1235,7 @@ node light wmx01_k69_01ml2
   multiplier 1
   color 1 1 1
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 0
   shadow 0
   lightpriority 3

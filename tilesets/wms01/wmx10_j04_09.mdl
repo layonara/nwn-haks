@@ -1,9 +1,10 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 19:24:44 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wmx10_j04_09
-setsupermodel wmx10_j04_09 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wmx10_j04_09 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wmx10_j04_09
 node dummy wmx10_j04_09
@@ -16,48 +17,13 @@ node light wmx10_j04_09ml1
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
   fadinglight 1
   orientation 0 0 0 0
   position 0 0 5
-endnode
-node trimesh graves133
-  parent wmx10_j04_09
-  orientation 0 0 0 0
-  wirecolor 1 1 1
-  tilefade 0
-  scale 1
-  render 1
-  shadow 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 1
-  selfillumcolor 0 0 0
-  ambient 1 1 1
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 1
-  center 0.5 -0.499998 0
-  bitmap ttr01_splotch01
-  position 2.22 2.97 0.01
-  verts 4
-    -0.55 -0.5 0
-    0.46 -0.59 0
-    -0.46 0.58 0
-    0.56 0.49 0
-  faces 2
-    0 1 2 1 0 1 2 1
-    3 2 1 1 3 2 1 1
-  tverts 4
-    0 0.296875 0
-    0 0.0410156 0
-    0.25 0.296875 0
-    0.25 0.0410156 0
 endnode
 node trimesh graves123
   parent wmx10_j04_09
@@ -108,41 +74,6 @@ node trimesh graves123
     0.5 1 0
     0 1 0
 endnode
-node trimesh graves130
-  parent wmx10_j04_09
-  orientation 0 0 0 0
-  wirecolor 1 1 1
-  tilefade 0
-  scale 1
-  render 1
-  shadow 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 1
-  selfillumcolor 0 0 0
-  ambient 1 1 1
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 1
-  center 0.5 -1 0
-  bitmap ttr01_splotch01
-  position 1.6 0.24 0.01
-  verts 4
-    -1.97 0.39 0
-    -0.54 -1.95 0
-    0.55 1.93 0
-    1.98 -0.4 0
-  faces 2
-    0 1 2 1 0 1 2 1
-    3 2 1 1 3 2 1 1
-  tverts 4
-    0.486328 0.982422 0
-    0.486328 0.507813 0
-    0.767578 0.972656 0
-    0.767578 0.498047 0
-endnode
 node trimesh graves137
   parent wmx10_j04_09
   orientation 0 0 0 0
@@ -191,41 +122,6 @@ node trimesh graves137
     0.5 0 0
     0.5 1 0
     0 1 0
-endnode
-node trimesh graves132
-  parent wmx10_j04_09
-  orientation 0 0 0 0
-  wirecolor 1 1 1
-  tilefade 0
-  scale 1
-  render 1
-  shadow 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 1
-  selfillumcolor 0 0 0
-  ambient 1 1 1
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 1
-  center 8.5 8 0
-  bitmap ttr01_splotch01
-  position -2.73 -2.59 0.01
-  verts 4
-    -0.77 1.17 0
-    -0.77 -1.01 0
-    0.94 1.17 0
-    0.94 -1.01 0
-  faces 2
-    0 1 2 1 0 1 2 1
-    3 2 1 1 3 2 1 1
-  tverts 4
-    0.988281 0.486328 0
-    0.00390625 0.486328 0
-    0.988281 0.00195313 0
-    0.00390625 0.00195313 0
 endnode
 node trimesh graves138
   parent wmx10_j04_09
@@ -341,17 +237,17 @@ node trimesh graves138
     0.5 0.208984 0
     0.5 0.291016 0
     0.529297 0.291016 0
-    0.5 0.998047 0
-    0.732422 1.12305 0
-    0.75 0.998047 0
-    0.689453 1.125 0
-    0.525391 1.18945 0
-    0.550781 1.18945 0
-    0.673828 1.17773 0
-    0.630859 1.22852 0
-    0.5625 1.22852 0
-    0.59375 1.26758 0
-    0.625 1.27734 0
+    0.5 -0.001953 0
+    0.732422 0.12305 0
+    0.75 -0.001953 0
+    0.689453 0.125 0
+    0.525391 0.18945 0
+    0.550781 0.18945 0
+    0.673828 0.17773 0
+    0.630859 0.22852 0
+    0.5625 0.22852 0
+    0.59375 0.26758 0
+    0.625 0.27734 0
 endnode
 node trimesh graves134
   parent wmx10_j04_09
@@ -534,41 +430,6 @@ node trimesh graves135
     0.560547 0.138672 0
     0.560547 0.275391 0
 endnode
-node trimesh graves136
-  parent wmx10_j04_09
-  orientation 0 0 0 0
-  wirecolor 1 1 1
-  tilefade 0
-  scale 1
-  render 1
-  shadow 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 1
-  selfillumcolor 0 0 0
-  ambient 1 1 1
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 1
-  center 0.499998 0 0
-  bitmap ttr01_splotch01
-  position -1.08 -1.75 0.01
-  verts 4
-    -0.54 0.51 0
-    -0.54 -0.51 0
-    0.55 0.51 0
-    0.55 -0.51 0
-  faces 2
-    0 1 2 1 0 1 2 1
-    3 2 1 1 3 2 1 1
-  tverts 4
-    0 0.296875 0
-    0 0.0410156 0
-    0.25 0.296875 0
-    0.25 0.0410156 0
-endnode
 node trimesh graves142
   parent wmx10_j04_09
   orientation 0 0 0 0
@@ -635,21 +496,21 @@ node trimesh graves142
     0.560547 0.00390625 0
     0.681641 0.214844 0
     0.681641 0.00390625 0
-    0.75 1.13281 0
-    0.75 0.998047 0
-    0.679688 1.19727 0
-    0.5 0.998047 0
-    0.5 1.23047 0
-    0.568359 1.16406 0
-    0.5 1.20703 0
-    0.568359 1.1543 0
-    0.724609 0.998047 0
-    0.75 1.10938 0
-    0.679688 1.14453 0
+    0.75 0.13281 0
+    0.75 -0.001953 0
+    0.679688 0.19727 0
+    0.5 -0.001953 0
+    0.5 0.23047 0
+    0.568359 0.16406 0
+    0.5 0.20703 0
+    0.568359 0.1543 0
+    0.724609 -0.001953 0
+    0.75 0.10938 0
+    0.679688 0.14453 0
     0.681641 0.142578 0
     0.560547 0.160156 0
-    0.626953 1.18945 0
-    0.626953 1.20313 0
+    0.626953 0.18945 0
+    0.626953 0.20313 0
     0.681641 0.318359 0
     0.560547 0.332031 0
     0.681641 0.439453 0
@@ -1093,6 +954,8 @@ node aabb line858
   orientation 0 0 0 0
   bitmap NULL
   position 0 0 0
+  render 0
+  shadow 0
   verts 42
     1.82 3 0
     2.62 3 0
@@ -1366,7 +1229,7 @@ node light wmx10_j04_09ml2
   multiplier 1
   color 0.0039216 0.0039216 0.0039216
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -1709,7 +1572,7 @@ node trimesh terrain
     119 108 120 1 119 108 120 1
     109 120 108 1 109 120 108 1
   tverts 121
-    -1e-007 0 0
+    -1e-07 0 0
     0.0996094 0 0
     0.199219 0 0
     0.300781 0 0
@@ -1719,7 +1582,7 @@ node trimesh terrain
     0.699219 0 0
     0.800781 0 0
     0.900391 0 0
-    1 -1e-007 0
+    1 -1e-07 0
     0 0.0996094 0
     0.0996094 0.0996094 0
     0.199219 0.0996094 0
@@ -1830,6 +1693,152 @@ node trimesh terrain
     0.800781 1 0
     0.900391 1 0
     1 1 0
+endnode
+node dummy wmx10_j04_09a
+  parent wmx10_j04_09
+  wirecolor 1 0 0
+  orientation 0 0 0 0
+  position 0 0 0
+endnode
+node trimesh graves133
+  parent wmx10_j04_09a
+  orientation 0 0 0 0
+  wirecolor 1 1 1
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 1
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  center 0.5 -0.499998 0
+  bitmap ttr01_splotch01
+  position 2.22 2.97 0.01
+  verts 4
+    -0.55 -0.5 0
+    0.46 -0.59 0
+    -0.46 0.58 0
+    0.56 0.49 0
+  faces 2
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+  tverts 4
+    0 0.296875 0
+    0 0.0410156 0
+    0.25 0.296875 0
+    0.25 0.0410156 0
+endnode
+node trimesh graves130
+  parent wmx10_j04_09a
+  orientation 0 0 0 0
+  wirecolor 1 1 1
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 1
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  center 0.5 -1 0
+  bitmap ttr01_splotch01
+  position 1.6 0.24 0.01
+  verts 4
+    -1.97 0.39 0
+    -0.54 -1.95 0
+    0.55 1.93 0
+    1.98 -0.4 0
+  faces 2
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+  tverts 4
+    0.486328 0.982422 0
+    0.486328 0.507813 0
+    0.767578 0.972656 0
+    0.767578 0.498047 0
+endnode
+node trimesh graves132
+  parent wmx10_j04_09a
+  orientation 0 0 0 0
+  wirecolor 1 1 1
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 1
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  center 8.5 8 0
+  bitmap ttr01_splotch01
+  position -2.73 -2.59 0.01
+  verts 4
+    -0.77 1.17 0
+    -0.77 -1.01 0
+    0.94 1.17 0
+    0.94 -1.01 0
+  faces 2
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+  tverts 4
+    0.988281 0.486328 0
+    0.00390625 0.486328 0
+    0.988281 0.00195313 0
+    0.00390625 0.00195313 0
+endnode
+node trimesh graves136
+  parent wmx10_j04_09a
+  orientation 0 0 0 0
+  wirecolor 1 1 1
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 1
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  center 0.499998 0 0
+  bitmap ttr01_splotch01
+  position -1.08 -1.75 0.01
+  verts 4
+    -0.54 0.51 0
+    -0.54 -0.51 0
+    0.55 0.51 0
+    0.55 -0.51 0
+  faces 2
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+  tverts 4
+    0 0.296875 0
+    0 0.0410156 0
+    0.25 0.296875 0
+    0.25 0.0410156 0
 endnode
 endmodelgeom wmx10_j04_09
 donemodel wmx10_j04_09

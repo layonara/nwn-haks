@@ -1,9 +1,10 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 19:20:29 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wmx05_a02_15
-setsupermodel wmx05_a02_15 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wmx05_a02_15 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wmx05_a02_15
 node dummy wmx05_a02_15
@@ -23,7 +24,7 @@ node light wmx05_a02_15ml2
   multiplier 1
   color 0.0039216 0.0039216 0.0039216
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -38,7 +39,7 @@ node light wmx05_a02_15ml1
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -51,6 +52,8 @@ node aabb walkmesh2
   bitmap NULL
   orientation 0 0 0 0
   position 0 0 0
+  render 0
+  shadow 0
   verts 70
     -5 5 0
     5 5 0
@@ -511,12 +514,12 @@ node trimesh deck02
     4 3 2 0 4 3 2 1
     2 5 4 0 2 5 4 1
   tverts 6
-    0.154297 0.439453 0
-    0.154297 1.56055 0
-    1.06641 0.232422 0
-    1.06641 1.76758 0
-    1.49609 1.35938 0
-    1.49609 0.640625 0
+    0.154297 -0.560547 0
+    0.154297 0.56055 0
+    1.06641 -0.767578 0
+    1.06641 0.76758 0
+    1.49609 0.35938 0
+    1.49609 -0.359375 0
 endnode
 node trimesh deck04
   parent wmx05_a02_15
@@ -612,135 +615,6 @@ node trimesh deck03
     1.76953 0.587891 0
     1.76953 0.140625 0
 endnode
-node dummy wmx05_a02_15a
-  parent wmx05_a02_15
-  wirecolor 0.52549 0.431373 0.0313726
-  orientation 0 0 0 0
-  position 0 0 0
-endnode
-node trimesh daywindow
-  parent wmx05_a02_15a
-  orientation 0 0 -1 -1.5708
-  wirecolor 0.423529 0.423529 0.423529
-  tilefade 0
-  scale 1
-  render 1
-  shadow 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 1 1 1
-  diffuse 1 1 1
-  specular 0.05 0.05 0.05
-  shininess 26
-  center -12.3216 0 -13.489
-  bitmap ttf01_glas03
-  position 0 -4.31 9.33
-  verts 6
-    0.09 0 -0.55
-    -0.35 0 0.26
-    -0.35 -1.07 0.26
-    0.09 -1.09 -0.55
-    0.09 1.09 -0.55
-    -0.35 1.07 0.26
-  faces 4
-    0 1 2 1 0 1 2 0
-    2 3 0 1 2 3 0 0
-    4 5 1 1 3 2 1 0
-    1 0 4 1 1 0 3 0
-  tverts 4
-    0.500004 0 0
-    0.499997 1 0
-    1 1 0
-    1 0 0
-endnode
-node light auroralight02
-  parent wmx05_a02_15a
-  wirecolor 0.882353 0.882353 0.882353
-  radius 4
-  multiplier 1
-  color 0 0 0
-  ambientonly 0
-  ndynamictype 1
-  affectdynamic 1
-  shadow 0
-  lightpriority 5
-  fadinglight 1
-  orientation 0 0 0 0
-  position 0 -4.39 8.65
-endnode
-node trimesh exhaust
-  parent wmx05_a02_15a
-  orientation 0 0.707107 -0.707107 -3.14159
-  wirecolor 0.65098 0.65098 0.65098
-  tilefade 0
-  scale 1
-  render 1
-  shadow 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 1
-  selfillumcolor 0 0 0
-  ambient 1 1 1
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 10
-  center 0 -9.92e-005 -9.5e-006
-  bitmap tds01_metal03
-  position 0 13.03 4.3
-  verts 13
-    -0.46 0 -0.08
-    -0.23 -0.4 -0.08
-    0.23 -0.4 -0.08
-    0.46 0 -0.08
-    0.23 0.39 -0.08
-    -0.23 0.39 -0.08
-    -0.67 0 0.08
-    -0.34 -0.58 0.08
-    0.34 -0.58 0.08
-    0.67 0 0.08
-    0.34 0.57 0.08
-    -0.34 0.57 0.08
-    0 0 0
-  faces 18
-    0 7 6 8 0 7 6 0
-    0 1 7 8 0 1 7 0
-    1 8 7 8 1 8 7 0
-    1 2 8 8 1 2 8 0
-    2 9 8 8 2 9 8 0
-    2 3 9 8 2 3 9 0
-    3 10 9 8 3 10 9 0
-    3 4 10 8 3 4 10 0
-    4 11 10 8 4 11 10 0
-    4 5 11 8 4 5 11 0
-    5 6 11 8 5 6 11 0
-    5 0 6 8 5 0 6 0
-    12 1 0 1 12 1 0 1
-    12 2 1 1 12 2 1 1
-    12 3 2 1 12 3 2 1
-    12 4 3 1 12 4 3 1
-    12 5 4 1 12 5 4 1
-    12 0 5 1 12 0 5 1
-  tverts 13
-    0.373047 0.640625 0
-    0.3125 0.746094 0
-    0.191406 0.746094 0
-    0.130859 0.640625 0
-    0.191406 0.535156 0
-    0.3125 0.535156 0
-    0.431641 0.640625 0
-    0.341797 0.796875 0
-    0.162109 0.796875 0
-    0.0742188 0.640625 0
-    0.162109 0.486328 0
-    0.341797 0.486328 0
-    0.251953 0.640625 0
-endnode
 node trimesh ropes05
   parent wmx05_a02_15
   orientation 0 0 0 0
@@ -797,22 +671,22 @@ node trimesh ropes05
     14 12 15 1 14 12 15 65536
     13 15 12 1 13 15 12 65536
   tverts 16
-    0.861328 1.125 0
-    0.539063 1.12109 0
-    0.859375 18.7402 0
-    0.544922 18.7402 0
-    0.527344 0.435547 0
-    0.115234 0.423828 0
-    0.529297 16.918 0
-    0.0917969 16.9277 0
-    0.816406 0.767578 0
-    0.621094 0.890625 0
-    0.816406 18.6348 0
-    0.621094 18.7129 0
-    0.496094 1.0293 0
-    0.195313 1.00977 0
-    0.453125 17.7129 0
-    0.164063 17.6328 0
+    0.861328 -7.875 0
+    0.539063 -7.87891 0
+    0.859375 9.7402 0
+    0.544922 9.7402 0
+    0.527344 -7.56445 0
+    0.115234 -7.57617 0
+    0.529297 8.918 0
+    0.0917969 8.9277 0
+    0.816406 -8.23242 0
+    0.621094 -8.10938 0
+    0.816406 9.6348 0
+    0.621094 9.7129 0
+    0.496094 -7.9707 0
+    0.195313 -7.99023 0
+    0.453125 8.7129 0
+    0.164063 8.6328 0
 endnode
 node trimesh planks
   parent wmx05_a02_15
@@ -1017,37 +891,37 @@ node trimesh hull01
     30 28 27 1 30 28 27 65536
     30 21 28 1 30 21 28 65536
   tverts 31
-    0.921875 0.808594 0
-    4.97852 0.808594 0
-    4.08594 0.808594 0
-    3.26953 0.808594 0
-    2.45313 0.808594 0
-    1.75977 0.808594 0
-    1.26758 0.808594 0
-    1.13672 0.404297 0
-    4.72656 0.404297 0
-    4.02539 0.404297 0
-    3.26953 0.404297 0
-    2.51563 0.404297 0
-    1.875 0.404297 0
-    1.46289 0.404297 0
-    1.53906 0.0371094 0
-    4.23438 0.0371094 0
-    3.80078 0.0371094 0
-    3.26953 0.0371094 0
-    2.69141 0.0371094 0
-    2.20313 0.0371094 0
-    1.8457 0.0371094 0
-    2.27344 0.431641 0
-    4.38477 0.431641 0
-    3.95313 0.431641 0
-    3.58203 0.431641 0
-    3.26953 0.431641 0
-    2.95703 0.431641 0
-    2.69141 0.431641 0
-    2.51563 0.431641 0
-    4.54297 0.0371094 0
-    3.27148 0.0605469 0
+    -1.07812 0.808594 0
+    2.97852 0.808594 0
+    2.08594 0.808594 0
+    1.26953 0.808594 0
+    0.45313 0.808594 0
+    -0.24023 0.808594 0
+    -0.73242 0.808594 0
+    -0.86328 0.404297 0
+    2.72656 0.404297 0
+    2.02539 0.404297 0
+    1.26953 0.404297 0
+    0.51563 0.404297 0
+    -0.125 0.404297 0
+    -0.53711 0.404297 0
+    -0.46094 0.0371094 0
+    2.23438 0.0371094 0
+    1.80078 0.0371094 0
+    1.26953 0.0371094 0
+    0.69141 0.0371094 0
+    0.20313 0.0371094 0
+    -0.1543 0.0371094 0
+    0.27344 0.431641 0
+    2.38477 0.431641 0
+    1.95313 0.431641 0
+    1.58203 0.431641 0
+    1.26953 0.431641 0
+    0.95703 0.431641 0
+    0.69141 0.431641 0
+    0.51563 0.431641 0
+    2.54297 0.0371094 0
+    1.27148 0.0605469 0
 endnode
 node trimesh hull02
   parent wmx05_a02_15
@@ -1149,37 +1023,37 @@ node trimesh hull02
     30 2 29 1 30 2 29 65536
     1 2 30 1 1 2 30 65536
   tverts 31
-    4.54297 0.0371094 0
-    2.51563 0.431641 0
-    3.27148 0.0605469 0
-    0.921875 0.808594 0
-    1.13672 0.404297 0
-    1.53906 0.0371094 0
-    2.27344 0.431641 0
-    4.38477 0.431641 0
-    4.97852 0.808594 0
-    4.08594 0.808594 0
-    3.26953 0.808594 0
-    2.45313 0.808594 0
-    1.75977 0.808594 0
-    1.26758 0.808594 0
-    4.72656 0.404297 0
-    4.02539 0.404297 0
-    3.26953 0.404297 0
-    2.51563 0.404297 0
-    1.875 0.404297 0
-    1.46289 0.404297 0
-    4.23438 0.0371094 0
-    3.80078 0.0371094 0
-    3.26953 0.0371094 0
-    2.69141 0.0371094 0
-    2.20313 0.0371094 0
-    1.8457 0.0371094 0
-    3.95313 0.431641 0
-    3.58203 0.431641 0
-    3.26953 0.431641 0
-    2.95703 0.431641 0
-    2.69141 0.431641 0
+    2.54297 0.0371094 0
+    0.51563 0.431641 0
+    1.27148 0.0605469 0
+    -1.07812 0.808594 0
+    -0.86328 0.404297 0
+    -0.46094 0.0371094 0
+    0.27344 0.431641 0
+    2.38477 0.431641 0
+    2.97852 0.808594 0
+    2.08594 0.808594 0
+    1.26953 0.808594 0
+    0.45313 0.808594 0
+    -0.24023 0.808594 0
+    -0.73242 0.808594 0
+    2.72656 0.404297 0
+    2.02539 0.404297 0
+    1.26953 0.404297 0
+    0.51563 0.404297 0
+    -0.125 0.404297 0
+    -0.53711 0.404297 0
+    2.23438 0.0371094 0
+    1.80078 0.0371094 0
+    1.26953 0.0371094 0
+    0.69141 0.0371094 0
+    0.20313 0.0371094 0
+    -0.1543 0.0371094 0
+    1.95313 0.431641 0
+    1.58203 0.431641 0
+    1.26953 0.431641 0
+    0.95703 0.431641 0
+    0.69141 0.431641 0
 endnode
 node trimesh keel02
   parent wmx05_a02_15
@@ -1198,7 +1072,7 @@ node trimesh keel02
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 0 0 -9.92e-005
+  center 0 0 -9.92e-05
   bitmap tcn01_hrdwd01
   shadow 0
   position 0 2.26 1.7
@@ -1223,10 +1097,10 @@ node trimesh keel02
     0.615234 0.486328 0
     0.583984 1.27344 0
     0.615234 1.27344 0
-    0.894531 0.677734 0
-    1.01172 0.714844 0
-    0.949219 1.29492 0
-    1.01172 1.33203 0
+    0.894531 -0.322266 0
+    1.01172 -0.285156 0
+    0.949219 0.29492 0
+    1.01172 0.33203 0
 endnode
 node trimesh keel03
   parent wmx05_a02_15
@@ -1245,7 +1119,7 @@ node trimesh keel03
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 0 0 -9.92e-005
+  center 0 0 -9.92e-05
   bitmap tcn01_hrdwd01
   shadow 0
   position 0 -1.61 1.7
@@ -1331,18 +1205,18 @@ node trimesh ropes02
     12 14 15 1 5 4 6 65536
     15 13 12 1 6 7 5 65536
   tverts 12
-    1.01563 0 0
-    1.01563 1.28906 0
-    0.984375 1.28906 0
-    0.984375 0 0
-    1.01758 0.996094 0
-    1.01758 0.00195313 0
-    0.988281 0.998047 0
-    0.988281 0 0
-    0.990234 0.216797 0
-    0.990234 1.35156 0
-    1.01563 1.35156 0
-    1.01563 0.216797 0
+    0.01563 0 0
+    0.01563 1.28906 0
+    -0.015625 1.28906 0
+    -0.015625 0 0
+    0.01758 0.996094 0
+    0.01758 0.00195313 0
+    -0.011719 0.998047 0
+    -0.011719 0 0
+    -0.009766 0.216797 0
+    -0.009766 1.35156 0
+    0.01563 1.35156 0
+    0.01563 0.216797 0
 endnode
 node trimesh ropes04
   parent wmx05_a02_15
@@ -1416,10 +1290,10 @@ node trimesh ropes04
     22 1 7 0 2 0 1 2
     23 7 1 0 3 1 0 2
   tverts 4
-    1.02344 0 0
-    0.980469 1.26758 0
-    0.980469 0 0
-    1.02344 1.26758 0
+    0.02344 0 0
+    -0.019531 1.26758 0
+    -0.019531 0 0
+    0.02344 1.26758 0
 endnode
 node trimesh ring01
   parent wmx05_a02_15
@@ -1837,44 +1711,44 @@ node trimesh balloon01
     49 37 48 1 35 36 11 1
     44 37 49 1 7 0 12 1
   tverts 38
-    8.76367 1.375 0
-    6.28125 0.626953 0
-    6.99023 0.626953 0
-    5.57227 0.626953 0
-    4.86133 0.626953 0
-    4.15234 0.626953 0
-    7.70117 0.626953 0
-    8.41016 0.626953 0
-    3.44336 0.626953 0
-    2.73438 0.626953 0
-    2.02344 0.626953 0
-    1.31445 0.626953 0
-    9.11914 0.626953 0
-    6.28125 1.31641 0
-    6.99023 1.31641 0
-    5.57227 1.31641 0
-    4.86133 1.31641 0
-    4.15234 1.31641 0
-    7.70117 1.31641 0
-    8.41016 1.31641 0
-    3.44336 1.31641 0
-    2.73438 1.31641 0
-    2.02344 1.31641 0
-    1.31445 1.31641 0
-    9.11914 1.31641 0
-    6.63672 1.375 0
-    5.92578 1.375 0
-    5.2168 1.375 0
-    4.50781 1.375 0
-    7.3457 1.375 0
-    8.05469 1.375 0
-    3.79883 1.375 0
-    3.08789 1.375 0
-    2.37891 1.375 0
-    1.66992 1.375 0
-    0.605469 0.626953 0
-    0.958984 1.375 0
-    0.605469 1.31641 0
+    4.76367 0.375 0
+    2.28125 -0.373047 0
+    2.99023 -0.373047 0
+    1.57227 -0.373047 0
+    0.86133 -0.373047 0
+    0.15234 -0.373047 0
+    3.70117 -0.373047 0
+    4.41016 -0.373047 0
+    -0.55664 -0.373047 0
+    -1.26562 -0.373047 0
+    -1.97656 -0.373047 0
+    -2.68555 -0.373047 0
+    5.11914 -0.373047 0
+    2.28125 0.31641 0
+    2.99023 0.31641 0
+    1.57227 0.31641 0
+    0.86133 0.31641 0
+    0.15234 0.31641 0
+    3.70117 0.31641 0
+    4.41016 0.31641 0
+    -0.55664 0.31641 0
+    -1.26562 0.31641 0
+    -1.97656 0.31641 0
+    -2.68555 0.31641 0
+    5.11914 0.31641 0
+    2.63672 0.375 0
+    1.92578 0.375 0
+    1.2168 0.375 0
+    0.50781 0.375 0
+    3.3457 0.375 0
+    4.05469 0.375 0
+    -0.20117 0.375 0
+    -0.91211 0.375 0
+    -1.62109 0.375 0
+    -2.33008 0.375 0
+    -3.39453 -0.373047 0
+    -3.04102 0.375 0
+    -3.39453 0.31641 0
 endnode
 node trimesh ringframe
   parent wmx05_a02_15
@@ -2092,45 +1966,45 @@ node trimesh ringframe
     59 48 60 1 23 12 24 1
     60 71 59 1 24 35 23 1
   tverts 39
-    0.552734 6.58203 0
+    0.552734 3.58203 0
+    0.552734 -1.91406 0
+    0.552734 -1.41992 0
+    0.552734 -0.91406 0
+    0.552734 -0.41406 0
+    0.552734 0.08594 0
+    0.552734 0.58594 0
     0.552734 1.08594 0
-    0.552734 1.58008 0
+    0.552734 1.58594 0
     0.552734 2.08594 0
     0.552734 2.58594 0
     0.552734 3.08594 0
-    0.552734 3.58594 0
-    0.552734 4.08594 0
-    0.552734 4.58594 0
-    0.552734 5.08594 0
-    0.552734 5.58594 0
-    0.552734 6.08594 0
-    0.46875 6.58203 0
+    0.46875 3.58203 0
+    0.46875 -1.91406 0
+    0.46875 -1.41992 0
+    0.46875 -0.91406 0
+    0.46875 -0.41406 0
+    0.46875 0.08594 0
+    0.46875 0.58594 0
     0.46875 1.08594 0
-    0.46875 1.58008 0
+    0.46875 1.58594 0
     0.46875 2.08594 0
     0.46875 2.58594 0
     0.46875 3.08594 0
-    0.46875 3.58594 0
-    0.46875 4.08594 0
-    0.46875 4.58594 0
-    0.46875 5.08594 0
-    0.46875 5.58594 0
-    0.46875 6.08594 0
-    0.509766 6.58203 0
+    0.509766 3.58203 0
+    0.509766 -1.91406 0
+    0.509766 -1.41992 0
+    0.509766 -0.91406 0
+    0.509766 -0.41406 0
+    0.509766 0.08594 0
+    0.509766 0.58594 0
     0.509766 1.08594 0
-    0.509766 1.58008 0
+    0.509766 1.58594 0
     0.509766 2.08594 0
     0.509766 2.58594 0
     0.509766 3.08594 0
-    0.509766 3.58594 0
-    0.509766 4.08594 0
-    0.509766 4.58594 0
-    0.509766 5.08594 0
-    0.509766 5.58594 0
-    0.509766 6.08594 0
-    0.46875 0.585938 0
-    0.552734 0.585938 0
-    0.509766 0.585938 0
+    0.46875 -2.41406 0
+    0.552734 -2.41406 0
+    0.509766 -2.41406 0
 endnode
 node trimesh railbar07
   parent wmx05_a02_15
@@ -2149,7 +2023,7 @@ node trimesh railbar07
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 0 0 -4.96e-005
+  center 0 0 -4.96e-05
   bitmap tin01_barel
   shadow 0
   position 5.04 0.48 7.78
@@ -2168,14 +2042,14 @@ node trimesh railbar07
     3 2 5 1 3 2 5 3
     0 2 3 1 0 2 3 3
   tverts 8
-    1.99805 0.962891 0
-    1.33203 0.962891 0
-    1.66602 0.962891 0
-    1.99805 1.67773 0
-    1.33203 1.67773 0
-    1.66602 1.67773 0
-    0.998047 0.962891 0
-    0.998047 1.67773 0
+    0.99805 -0.037109 0
+    0.33203 -0.037109 0
+    0.66602 -0.037109 0
+    0.99805 0.67773 0
+    0.33203 0.67773 0
+    0.66602 0.67773 0
+    -0.001953 -0.037109 0
+    -0.001953 0.67773 0
 endnode
 node trimesh railbar03
   parent wmx05_a02_15
@@ -2194,7 +2068,7 @@ node trimesh railbar03
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center -5e-006 0 -4.96e-005
+  center -5e-06 0 -4.96e-05
   bitmap tin01_barel
   shadow 0
   position 4.91 -1.13 7.78
@@ -2213,14 +2087,14 @@ node trimesh railbar03
     3 2 5 1 3 2 5 3
     0 2 3 1 0 2 3 3
   tverts 8
-    1.99805 0.962891 0
-    1.33203 0.962891 0
-    1.66602 0.962891 0
-    1.99805 1.67773 0
-    1.33203 1.67773 0
-    1.66602 1.67773 0
-    0.998047 0.962891 0
-    0.998047 1.67773 0
+    0.99805 -0.037109 0
+    0.33203 -0.037109 0
+    0.66602 -0.037109 0
+    0.99805 0.67773 0
+    0.33203 0.67773 0
+    0.66602 0.67773 0
+    -0.001953 -0.037109 0
+    -0.001953 0.67773 0
 endnode
 node trimesh railbar01
   parent wmx05_a02_15
@@ -2239,7 +2113,7 @@ node trimesh railbar01
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 0 9.8e-006 -4.96e-005
+  center 0 9.8e-06 -4.96e-05
   bitmap tin01_barel
   shadow 0
   position 4.79 -2.79 7.78
@@ -2258,14 +2132,14 @@ node trimesh railbar01
     3 2 5 1 3 2 5 3
     0 2 3 1 0 2 3 3
   tverts 8
-    1.99805 0.962891 0
-    1.33203 0.962891 0
-    1.66602 0.962891 0
-    1.99805 1.67773 0
-    1.33203 1.67773 0
-    1.66602 1.67773 0
-    0.998047 0.962891 0
-    0.998047 1.67773 0
+    0.99805 -0.037109 0
+    0.33203 -0.037109 0
+    0.66602 -0.037109 0
+    0.99805 0.67773 0
+    0.33203 0.67773 0
+    0.66602 0.67773 0
+    -0.001953 -0.037109 0
+    -0.001953 0.67773 0
 endnode
 node trimesh rail16
   parent wmx05_a02_15
@@ -2284,7 +2158,7 @@ node trimesh rail16
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 4.50005 0 -4.51e-005
+  center 4.50005 0 -4.51e-05
   bitmap tin01_plank
   shadow 0
   position 4.9 -1.19 8.24
@@ -2349,7 +2223,7 @@ node trimesh rail04
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center -4.5 0 7.49e-005
+  center -4.5 0 7.49e-05
   bitmap tin01_plank
   shadow 0
   position -4.9 -1.19 8.24
@@ -2414,7 +2288,7 @@ node trimesh railbar19
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 1e-005 5e-006 -4.96e-005
+  center 1e-005 5e-006 -4.96e-05
   bitmap tin01_barel
   shadow 0
   position -4.79 -2.79 7.78
@@ -2433,14 +2307,14 @@ node trimesh railbar19
     2 3 5 1 2 3 5 3
     2 0 3 1 2 0 3 3
   tverts 8
-    1.99805 0.962891 0
-    1.33203 0.962891 0
-    1.66602 0.962891 0
-    1.99805 1.67773 0
-    1.33203 1.67773 0
-    1.66602 1.67773 0
-    0.998047 0.962891 0
-    0.998047 1.67773 0
+    0.99805 -0.037109 0
+    0.33203 -0.037109 0
+    0.66602 -0.037109 0
+    0.99805 0.67773 0
+    0.33203 0.67773 0
+    0.66602 0.67773 0
+    -0.001953 -0.037109 0
+    -0.001953 0.67773 0
 endnode
 node trimesh railbar18
   parent wmx05_a02_15
@@ -2459,7 +2333,7 @@ node trimesh railbar18
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center -1e-005 0 -4.96e-005
+  center -1e-05 0 -4.96e-05
   bitmap tin01_barel
   shadow 0
   position -4.91 -1.13 7.78
@@ -2478,14 +2352,14 @@ node trimesh railbar18
     2 3 5 1 2 3 5 3
     2 0 3 1 2 0 3 3
   tverts 8
-    1.99805 0.962891 0
-    1.33203 0.962891 0
-    1.66602 0.962891 0
-    1.99805 1.67773 0
-    1.33203 1.67773 0
-    1.66602 1.67773 0
-    0.998047 0.962891 0
-    0.998047 1.67773 0
+    0.99805 -0.037109 0
+    0.33203 -0.037109 0
+    0.66602 -0.037109 0
+    0.99805 0.67773 0
+    0.33203 0.67773 0
+    0.66602 0.67773 0
+    -0.001953 -0.037109 0
+    -0.001953 0.67773 0
 endnode
 node trimesh railbar17
   parent wmx05_a02_15
@@ -2504,7 +2378,7 @@ node trimesh railbar17
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 4.8e-006 -5e-006 -4.96e-005
+  center 4.8e-06 -5e-06 -4.96e-05
   bitmap tin01_barel
   shadow 0
   position -5.04 0.48 7.78
@@ -2523,14 +2397,14 @@ node trimesh railbar17
     2 3 5 1 2 3 5 3
     2 0 3 1 2 0 3 3
   tverts 8
-    1.99805 0.962891 0
-    1.33203 0.962891 0
-    1.66602 0.962891 0
-    1.99805 1.67773 0
-    1.33203 1.67773 0
-    1.66602 1.67773 0
-    0.998047 0.962891 0
-    0.998047 1.67773 0
+    0.99805 -0.037109 0
+    0.33203 -0.037109 0
+    0.66602 -0.037109 0
+    0.99805 0.67773 0
+    0.33203 0.67773 0
+    0.66602 0.67773 0
+    -0.001953 -0.037109 0
+    -0.001953 0.67773 0
 endnode
 node trimesh leftwall
   parent wmx05_a02_15
@@ -2584,7 +2458,7 @@ node trimesh stairsrim01
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 0 0 -5.01e-005
+  center 0 0 -5.01e-05
   bitmap tcn01_hrdwd01
   shadow 0
   position 1.62 0.18 7.03
@@ -2627,7 +2501,7 @@ node trimesh stairsrim03
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center -4.96e-005 0 -9.97e-005
+  center -4.96e-05 0 -9.97e-05
   bitmap tcn01_hrdwd01
   shadow 0
   position -1.62 0.18 7.03
@@ -2670,7 +2544,7 @@ node trimesh stairsrim02
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 0 4.96e-005 0
+  center 0 4.96e-05 0
   bitmap tcn01_hrdwd01
   shadow 0
   position 0 2.35 7.03
@@ -2734,14 +2608,14 @@ node trimesh deck07
     3 7 2 0 3 7 2 65536
     4 3 2 0 4 3 2 65536
   tverts 8
-    0.216797 2.14648 0
-    0.216797 0.853516 0
-    0.822266 1.95117 0
-    0.664063 1.04883 0
-    0.664063 1.95117 0
-    0.664063 2.14648 0
-    0.664063 0.853516 0
-    0.822266 1.04883 0
+    0.216797 1.14648 0
+    0.216797 -0.146484 0
+    0.822266 0.95117 0
+    0.664063 0.04883 0
+    0.664063 0.95117 0
+    0.664063 1.14648 0
+    0.664063 -0.146484 0
+    0.822266 0.04883 0
 endnode
 node trimesh rightwall
   parent wmx05_a02_15
@@ -2795,7 +2669,7 @@ node trimesh rim09
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 4.96e-005 0 5.01e-005
+  center 4.96e-05 0 5.01e-05
   bitmap ttr01_bridge02
   shadow 0
   position -4.85 -1.32 7.24
@@ -2820,14 +2694,14 @@ node trimesh rim09
     0.0996094 1.41016 0
     0 0 0
     0.0996094 0.0332031 0
-    0.117188 0.777344 0
-    0.117188 1.87109 0
-    0.00976563 0.794922 0
-    0.00976563 1.85352 0
-    0.117188 0.373047 0
-    0.00976563 0.355469 0
-    0.117188 2.24219 0
-    0.00976563 2.25977 0
+    0.117188 -0.222656 0
+    0.117188 0.87109 0
+    0.00976563 -0.205078 0
+    0.00976563 0.85352 0
+    0.117188 -0.626953 0
+    0.00976563 -0.644531 0
+    0.117188 1.24219 0
+    0.00976563 1.25977 0
 endnode
 node trimesh rim10
   parent wmx05_a02_15
@@ -2846,7 +2720,7 @@ node trimesh rim10
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center -4.58e-005 0 0.0001001
+  center -4.58e-05 0 0.0001001
   bitmap ttr01_bridge02
   shadow 0
   position -4.52 2.73 7.24
@@ -2867,16 +2741,16 @@ node trimesh rim10
     4 5 1 0 4 10 11 1
     1 0 4 0 11 6 4 1
   tverts 12
-    0 2 0
-    0.0996094 2.0332 0
-    0 0.591797 0
-    0.0996094 0.642578 0
+    0 1 0
+    0.0996094 1.0332 0
+    0 -0.408203 0
+    0.0996094 -0.357422 0
     0.117188 0.242188 0
-    0.117188 2.37305 0
+    0.117188 1.37305 0
     0.00976563 0.259766 0
-    0.00976563 2.35547 0
-    0.117188 0.875 0
-    0.00976563 0.857422 0
+    0.00976563 1.35547 0
+    0.117188 -0.125 0
+    0.00976563 -0.142578 0
     0.117188 1.7207 0
     0.00976563 1.73633 0
 endnode
@@ -2897,7 +2771,7 @@ node trimesh rim25
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center -4.96e-005 0 5.01e-005
+  center -4.96e-05 0 5.01e-05
   bitmap ttr01_bridge02
   shadow 0
   position 4.85 -1.32 7.24
@@ -2922,14 +2796,14 @@ node trimesh rim25
     0.0996094 1.41016 0
     0 0 0
     0.0996094 0.0332031 0
-    0.117188 1.87109 0
-    0.117188 0.777344 0
-    0.00976563 1.85352 0
-    0.00976563 0.794922 0
-    0.117188 2.27734 0
-    0.00976563 2.29297 0
-    0.117188 0.40625 0
-    0.00976563 0.388672 0
+    0.117188 0.87109 0
+    0.117188 -0.222656 0
+    0.00976563 0.85352 0
+    0.00976563 -0.205078 0
+    0.117188 1.27734 0
+    0.00976563 1.29297 0
+    0.117188 -0.59375 0
+    0.00976563 -0.611328 0
 endnode
 node trimesh rim24
   parent wmx05_a02_15
@@ -2969,18 +2843,18 @@ node trimesh rim24
     5 4 0 0 10 4 6 1
     0 1 5 0 6 11 10 1
   tverts 12
-    0 2 0
-    0.0996094 2.0332 0
-    0 0.591797 0
-    0.0996094 0.642578 0
-    0.117188 2.40625 0
-    0.117188 0.277344 0
-    0.00976563 2.38867 0
-    0.00976563 0.292969 0
-    0.117188 1.77344 0
-    0.00976563 1.79102 0
-    0.117188 0.929688 0
-    0.00976563 0.912109 0
+    0 1 0
+    0.0996094 1.0332 0
+    0 -0.408203 0
+    0.0996094 -0.357422 0
+    0.117188 1.40625 0
+    0.117188 -0.722656 0
+    0.00976563 1.38867 0
+    0.00976563 -0.707031 0
+    0.117188 0.77344 0
+    0.00976563 0.79102 0
+    0.117188 -0.070312 0
+    0.00976563 -0.087891 0
 endnode
 node trimesh stair23
   parent wmx05_a02_15
@@ -3085,7 +2959,7 @@ node trimesh stair21
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 0 5.05e-005 8.49e-005
+  center 0 5.05e-05 8.49e-05
   bitmap tin01_plank
   shadow 0
   position 0 1.49 6.43
@@ -3128,7 +3002,7 @@ node trimesh stair20
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 0 0 8.01e-005
+  center 0 0 8.01e-05
   bitmap tin01_plank
   shadow 0
   position 0 1.21 6.23
@@ -3171,7 +3045,7 @@ node trimesh stair19
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 0 0 7.49e-005
+  center 0 0 7.49e-05
   bitmap tin01_plank
   shadow 0
   position 0 0.94 6.03
@@ -3214,7 +3088,7 @@ node trimesh stair18
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 0 0 8.01e-005
+  center 0 0 8.01e-05
   bitmap tin01_plank
   shadow 0
   position 0 0.66 5.83
@@ -3257,7 +3131,7 @@ node trimesh stair17
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 0 0 8.01e-005
+  center 0 0 8.01e-05
   bitmap tin01_plank
   shadow 0
   position 0 0.39 5.63
@@ -3300,7 +3174,7 @@ node trimesh stair16
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 0 0 8.01e-005
+  center 0 0 8.01e-05
   bitmap tin01_plank
   shadow 0
   position 0 0.11 5.43
@@ -3343,7 +3217,7 @@ node trimesh stair15
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 0 0 9.01e-005
+  center 0 0 9.01e-05
   bitmap tin01_plank
   shadow 0
   position 0 -0.16 5.23
@@ -3386,7 +3260,7 @@ node trimesh stair08
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 0 0 -7.49e-005
+  center 0 0 -7.49e-05
   bitmap tin01_plank
   shadow 0
   position -3.19 -3.98 7.23
@@ -3429,7 +3303,7 @@ node trimesh stair09
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 0 0 -8.01e-005
+  center 0 0 -8.01e-05
   bitmap tin01_plank
   shadow 0
   position -3.12 -4.25 7.43
@@ -3472,7 +3346,7 @@ node trimesh stair10
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 0 0 -2e-005
+  center 0 0 -2e-05
   bitmap tin01_plank
   shadow 0
   position -3.06 -4.53 7.63
@@ -3515,7 +3389,7 @@ node trimesh stair11
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 0 0 -1.48e-005
+  center 0 0 -1.48e-05
   bitmap tin01_plank
   shadow 0
   position -2.96 -4.8 7.83
@@ -3558,7 +3432,7 @@ node trimesh stair12
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 0 0 -1.48e-005
+  center 0 0 -1.48e-05
   bitmap tin01_plank
   shadow 0
   position -2.86 -5.08 8.03
@@ -3579,10 +3453,10 @@ node trimesh stair12
     0.769531 0.53125 0
     0.675781 1.03711 0
     0.675781 0.558594 0
-    0.986328 0.574219 0
-    0.986328 0.525391 0
-    1.46875 0.574219 0
-    1.46875 0.525391 0
+    -0.013672 0.574219 0
+    -0.013672 0.525391 0
+    0.46875 0.574219 0
+    0.46875 0.525391 0
 endnode
 node trimesh stair13
   parent wmx05_a02_15
@@ -3601,7 +3475,7 @@ node trimesh stair13
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 0 0 -2e-005
+  center 0 0 -2e-05
   bitmap tin01_plank
   shadow 0
   position -2.76 -5.35 8.23
@@ -3622,10 +3496,10 @@ node trimesh stair13
     0.767578 0.583984 0
     0.675781 1.03711 0
     0.675781 0.558594 0
-    0.962891 0.625 0
-    0.962891 0.574219 0
-    1.44141 0.625 0
-    1.44141 0.574219 0
+    -0.037109 0.625 0
+    -0.037109 0.574219 0
+    0.44141 0.625 0
+    0.44141 0.574219 0
 endnode
 node trimesh stair14
   parent wmx05_a02_15
@@ -3657,10 +3531,10 @@ node trimesh stair14
     1 0 2 0 0 2 1 65536
     3 2 0 0 3 1 2 65536
   tverts 4
-    0.939453 0.597656 0
-    1.41602 0.597656 0
-    0.939453 0.550781 0
-    1.41602 0.550781 0
+    -0.060547 0.597656 0
+    0.41602 0.597656 0
+    -0.060547 0.550781 0
+    0.41602 0.550781 0
 endnode
 node trimesh stair01
   parent wmx05_a02_15
@@ -3679,7 +3553,7 @@ node trimesh stair01
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 0 0 -2e-005
+  center 0 0 -2e-05
   bitmap tin01_plank
   shadow 0
   position 3.19 -3.98 7.23
@@ -3722,7 +3596,7 @@ node trimesh stair02
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 0 0 -8.01e-005
+  center 0 0 -8.01e-05
   bitmap tin01_plank
   shadow 0
   position 3.12 -4.25 7.43
@@ -3765,7 +3639,7 @@ node trimesh stair03
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 0 -5.01e-005 -2e-005
+  center 0 -5.01e-05 -2e-05
   bitmap tin01_plank
   shadow 0
   position 3.06 -4.53 7.63
@@ -3808,7 +3682,7 @@ node trimesh stair04
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 0 0 -1.48e-005
+  center 0 0 -1.48e-05
   bitmap tin01_plank
   shadow 0
   position 2.96 -4.8 7.83
@@ -3851,7 +3725,7 @@ node trimesh stair05
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 0 0 -1.48e-005
+  center 0 0 -1.48e-05
   bitmap tin01_plank
   shadow 0
   position 2.86 -5.08 8.03
@@ -3894,7 +3768,7 @@ node trimesh stair06
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 0 0 -2e-005
+  center 0 0 -2e-05
   bitmap tin01_plank
   shadow 0
   position 2.76 -5.35 8.23
@@ -3993,16 +3867,16 @@ node trimesh doorframe01
     6 4 7 1 6 4 7 65536
     7 4 5 1 7 4 5 65536
   tverts 10
-    3.82813 1.25195 0
-    3.82813 0.667969 0
-    4.17188 0.470703 0
-    0.828125 1.25195 0
-    0.828125 0.986328 0
-    2.82813 0.470703 0
-    0.828125 0.470703 0
-    2.62891 0.470703 0
-    0.828125 0.667969 0
-    3.82813 0.986328 0
+    1.82813 1.25195 0
+    1.82813 0.667969 0
+    2.17188 0.470703 0
+    -1.17188 1.25195 0
+    -1.17188 0.986328 0
+    0.82813 0.470703 0
+    -1.17188 0.470703 0
+    0.62891 0.470703 0
+    -1.17188 0.667969 0
+    1.82813 0.986328 0
 endnode
 node trimesh doorframe02
   parent wmx05_a02_15
@@ -4038,14 +3912,14 @@ node trimesh doorframe02
     5 2 1 1 2 5 4 65536
     1 4 5 1 4 1 2 65536
   tverts 8
-    2.33008 1.35742 0
-    2.33008 0.994141 0
-    2.68555 0.453125 0
-    0.669922 1.35742 0
-    0.669922 0.994141 0
-    0.314453 0.453125 0
-    0.669922 0.613281 0
-    2.33008 0.613281 0
+    1.33008 1.35742 0
+    1.33008 0.994141 0
+    1.68555 0.453125 0
+    -0.330078 1.35742 0
+    -0.330078 0.994141 0
+    -0.685547 0.453125 0
+    -0.330078 0.613281 0
+    1.33008 0.613281 0
 endnode
 node trimesh doorframe03
   parent wmx05_a02_15
@@ -4085,16 +3959,16 @@ node trimesh doorframe03
     4 6 7 1 4 6 7 65536
     4 7 5 1 4 7 5 65536
   tverts 10
-    3.82813 1.25195 0
-    3.82813 0.667969 0
-    4.17188 0.470703 0
-    0.828125 1.25195 0
-    0.828125 0.986328 0
-    2.82813 0.470703 0
-    0.828125 0.470703 0
-    2.62891 0.470703 0
-    0.828125 0.667969 0
-    3.82813 0.986328 0
+    1.82813 1.25195 0
+    1.82813 0.667969 0
+    2.17188 0.470703 0
+    -1.17188 1.25195 0
+    -1.17188 0.986328 0
+    0.82813 0.470703 0
+    -1.17188 0.470703 0
+    0.62891 0.470703 0
+    -1.17188 0.667969 0
+    1.82813 0.986328 0
 endnode
 node trimesh onlyshadow
   parent wmx05_a02_15
@@ -4164,14 +4038,14 @@ node trimesh keel04
     6 7 1 0 4 6 7 1
     1 0 6 0 7 5 4 1
   tverts 8
-    0.615234 1.31641 0
-    0.583984 1.31641 0
-    0.615234 0.802734 0
-    0.583984 0.802734 0
-    0.953125 1.4375 0
-    1.01172 1.47461 0
-    0.949219 0.859375 0
-    1.01172 0.896484 0
+    0.615234 0.31641 0
+    0.583984 0.31641 0
+    0.615234 -0.197266 0
+    0.583984 -0.197266 0
+    0.953125 0.4375 0
+    1.01172 0.47461 0
+    0.949219 -0.140625 0
+    1.01172 -0.103516 0
 endnode
 node trimesh dark
   parent wmx05_a02_15
@@ -4230,7 +4104,7 @@ node trimesh cabinwall03
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 0 -4.58e-005 4.58e-005
+  center 0 -4.58e-05 4.58e-05
   bitmap airxhip_wood02
   shadow 0
   position -1.77 -2.99 7.83
@@ -4279,7 +4153,7 @@ node trimesh cabinwall01
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 0 0 3.5e-005
+  center 0 0 3.5e-05
   bitmap airxhip_wood02
   shadow 0
   position 0 -2.15 8.5
@@ -4314,7 +4188,7 @@ node trimesh cabinwall02
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 0 0 4.58e-005
+  center 0 0 4.58e-05
   bitmap airxhip_wood02
   shadow 0
   position 1.76 -2.99 7.83
@@ -4808,7 +4682,7 @@ node trimesh terrain
     119 108 120 1 119 108 120 1
     109 120 108 1 109 120 108 1
   tverts 121
-    -1e-007 0 0
+    -1e-07 0 0
     0.0996094 0 0
     0.199219 0 0
     0.300781 0 0
@@ -4818,7 +4692,7 @@ node trimesh terrain
     0.699219 0 0
     0.800781 0 0
     0.900391 0 0
-    1 -1e-007 0
+    1 -1e-07 0
     0 0.0996094 0
     0.0996094 0.0996094 0
     0.199219 0.0996094 0
@@ -4930,6 +4804,135 @@ node trimesh terrain
     0.900391 1 0
     1 1 0
 endnode
+node dummy wmx05_a02_15a
+  parent wmx05_a02_15
+  wirecolor 0.52549 0.431373 0.0313726
+  orientation 0 0 0 0
+  position 0 0 0
+endnode
+node light auroralight02
+  parent wmx05_a02_15a
+  wirecolor 0.882353 0.882353 0.882353
+  radius 4
+  multiplier 1
+  color 0 0 0
+  ambientonly 0
+  nDynamicType 1
+  affectdynamic 1
+  shadow 0
+  lightpriority 5
+  fadinglight 1
+  orientation 0 0 0 0
+  position 0 -4.39 8.65
+endnode
+node trimesh exhaust
+  parent wmx05_a02_15a
+  orientation 0 0.707107 -0.707107 -3.14159
+  wirecolor 0.65098 0.65098 0.65098
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 1
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  center 0 -9.92e-05 -9.5e-06
+  bitmap tds01_metal03
+  position 0 13.03 4.3
+  verts 13
+    -0.46 0 -0.08
+    -0.23 -0.4 -0.08
+    0.23 -0.4 -0.08
+    0.46 0 -0.08
+    0.23 0.39 -0.08
+    -0.23 0.39 -0.08
+    -0.67 0 0.08
+    -0.34 -0.58 0.08
+    0.34 -0.58 0.08
+    0.67 0 0.08
+    0.34 0.57 0.08
+    -0.34 0.57 0.08
+    0 0 0
+  faces 18
+    0 7 6 8 0 7 6 0
+    0 1 7 8 0 1 7 0
+    1 8 7 8 1 8 7 0
+    1 2 8 8 1 2 8 0
+    2 9 8 8 2 9 8 0
+    2 3 9 8 2 3 9 0
+    3 10 9 8 3 10 9 0
+    3 4 10 8 3 4 10 0
+    4 11 10 8 4 11 10 0
+    4 5 11 8 4 5 11 0
+    5 6 11 8 5 6 11 0
+    5 0 6 8 5 0 6 0
+    12 1 0 1 12 1 0 1
+    12 2 1 1 12 2 1 1
+    12 3 2 1 12 3 2 1
+    12 4 3 1 12 4 3 1
+    12 5 4 1 12 5 4 1
+    12 0 5 1 12 0 5 1
+  tverts 13
+    0.373047 0.640625 0
+    0.3125 0.746094 0
+    0.191406 0.746094 0
+    0.130859 0.640625 0
+    0.191406 0.535156 0
+    0.3125 0.535156 0
+    0.431641 0.640625 0
+    0.341797 0.796875 0
+    0.162109 0.796875 0
+    0.0742188 0.640625 0
+    0.162109 0.486328 0
+    0.341797 0.486328 0
+    0.251953 0.640625 0
+endnode
+node trimesh daywindow
+  parent wmx05_a02_15a
+  orientation 0 0 -1 -1.5708
+  wirecolor 0.423529 0.423529 0.423529
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0.05 0.05 0.05
+  shininess 26
+  center -12.3216 0 -13.489
+  bitmap ttf01_glas03
+  position 0 -4.31 9.33
+  verts 6
+    0.09 0 -0.55
+    -0.35 0 0.26
+    -0.35 -1.07 0.26
+    0.09 -1.09 -0.55
+    0.09 1.09 -0.55
+    -0.35 1.07 0.26
+  faces 4
+    0 1 2 1 0 1 2 0
+    2 3 0 1 2 3 0 0
+    4 5 1 1 3 2 1 0
+    1 0 4 1 1 0 3 0
+  tverts 4
+    0.500004 0 0
+    0.499997 1 0
+    1 1 0
+    1 0 0
+endnode
 endmodelgeom wmx05_a02_15
 
 #MAXANIM ASCII
@@ -4960,22 +4963,6 @@ newanim animloop01 wmx05_a02_15
   endnode
   node dummy deck03
     parent wmx05_a02_15
-  endnode
-  node dummy wmx05_a02_15a
-    parent wmx05_a02_15
-  endnode
-  node dummy daywindow
-    parent wmx05_a02_15a
-  endnode
-  node light auroralight02
-    parent wmx05_a02_15a
-  endnode
-  node trimesh exhaust
-    parent wmx05_a02_15a
-    positionkey
-      0 0 14.03 4.3
-      0.0333333 0 14.03 4.3
-    endlist
   endnode
   node dummy ropes05
     parent wmx05_a02_15
@@ -5180,6 +5167,22 @@ newanim animloop01 wmx05_a02_15
   endnode
   node dummy terrain
     parent wmx05_a02_15
+  endnode
+  node dummy wmx05_a02_15a
+    parent wmx05_a02_15
+  endnode
+  node light auroralight02
+    parent wmx05_a02_15a
+  endnode
+  node trimesh exhaust
+    parent wmx05_a02_15a
+    positionkey
+      0 0 14.03 4.3
+      0.0333333 0 14.03 4.3
+    endlist
+  endnode
+  node dummy daywindow
+    parent wmx05_a02_15a
   endnode
 doneanim animloop01 wmx05_a02_15
 
@@ -5212,26 +5215,6 @@ newanim day wmx05_a02_15
   node dummy deck03
     parent wmx05_a02_15
   endnode
-  node dummy wmx05_a02_15a
-    parent wmx05_a02_15
-  endnode
-  node trimesh daywindow
-    parent wmx05_a02_15a
-    alphakey
-      0 1
-      0.3 1
-    endlist
-  endnode
-  node light auroralight02
-    parent wmx05_a02_15a
-    colorkey
-      0 0 0 0
-      0.3 0 0 0
-    endlist
-  endnode
-  node dummy exhaust
-    parent wmx05_a02_15a
-  endnode
   node dummy ropes05
     parent wmx05_a02_15
   endnode
@@ -5435,6 +5418,26 @@ newanim day wmx05_a02_15
   endnode
   node dummy terrain
     parent wmx05_a02_15
+  endnode
+  node dummy wmx05_a02_15a
+    parent wmx05_a02_15
+  endnode
+  node light auroralight02
+    parent wmx05_a02_15a
+    colorkey
+      0 0 0 0
+      0.3 0 0 0
+    endlist
+  endnode
+  node dummy exhaust
+    parent wmx05_a02_15a
+  endnode
+  node trimesh daywindow
+    parent wmx05_a02_15a
+    alphakey
+      0 1
+      0.3 1
+    endlist
   endnode
 doneanim day wmx05_a02_15
 
@@ -5467,26 +5470,6 @@ newanim day2night wmx05_a02_15
   node dummy deck03
     parent wmx05_a02_15
   endnode
-  node dummy wmx05_a02_15a
-    parent wmx05_a02_15
-  endnode
-  node trimesh daywindow
-    parent wmx05_a02_15a
-    alphakey
-      0 1
-      0.0333333 0
-    endlist
-  endnode
-  node light auroralight02
-    parent wmx05_a02_15a
-    colorkey
-      0 0 0 0
-      0.0333333 1 0.431373 0
-    endlist
-  endnode
-  node dummy exhaust
-    parent wmx05_a02_15a
-  endnode
   node dummy ropes05
     parent wmx05_a02_15
   endnode
@@ -5690,6 +5673,26 @@ newanim day2night wmx05_a02_15
   endnode
   node dummy terrain
     parent wmx05_a02_15
+  endnode
+  node dummy wmx05_a02_15a
+    parent wmx05_a02_15
+  endnode
+  node light auroralight02
+    parent wmx05_a02_15a
+    colorkey
+      0 0 0 0
+      0.0333333 1 0.431373 0
+    endlist
+  endnode
+  node dummy exhaust
+    parent wmx05_a02_15a
+  endnode
+  node trimesh daywindow
+    parent wmx05_a02_15a
+    alphakey
+      0 1
+      0.0333333 0
+    endlist
   endnode
 doneanim day2night wmx05_a02_15
 
@@ -5722,26 +5725,6 @@ newanim night wmx05_a02_15
   node dummy deck03
     parent wmx05_a02_15
   endnode
-  node dummy wmx05_a02_15a
-    parent wmx05_a02_15
-  endnode
-  node trimesh daywindow
-    parent wmx05_a02_15a
-    alphakey
-      0 0
-      0.3 0
-    endlist
-  endnode
-  node light auroralight02
-    parent wmx05_a02_15a
-    colorkey
-      0 1 0.431373 0
-      0.3 1 0.431373 0
-    endlist
-  endnode
-  node dummy exhaust
-    parent wmx05_a02_15a
-  endnode
   node dummy ropes05
     parent wmx05_a02_15
   endnode
@@ -5945,6 +5928,26 @@ newanim night wmx05_a02_15
   endnode
   node dummy terrain
     parent wmx05_a02_15
+  endnode
+  node dummy wmx05_a02_15a
+    parent wmx05_a02_15
+  endnode
+  node light auroralight02
+    parent wmx05_a02_15a
+    colorkey
+      0 1 0.431373 0
+      0.3 1 0.431373 0
+    endlist
+  endnode
+  node dummy exhaust
+    parent wmx05_a02_15a
+  endnode
+  node trimesh daywindow
+    parent wmx05_a02_15a
+    alphakey
+      0 0
+      0.3 0
+    endlist
   endnode
 doneanim night wmx05_a02_15
 
@@ -5977,26 +5980,6 @@ newanim night2day wmx05_a02_15
   node dummy deck03
     parent wmx05_a02_15
   endnode
-  node dummy wmx05_a02_15a
-    parent wmx05_a02_15
-  endnode
-  node trimesh daywindow
-    parent wmx05_a02_15a
-    alphakey
-      0 0
-      0.0333333 1
-    endlist
-  endnode
-  node light auroralight02
-    parent wmx05_a02_15a
-    colorkey
-      0 1 0.431373 0
-      0.0333333 0 0 0
-    endlist
-  endnode
-  node dummy exhaust
-    parent wmx05_a02_15a
-  endnode
   node dummy ropes05
     parent wmx05_a02_15
   endnode
@@ -6200,6 +6183,26 @@ newanim night2day wmx05_a02_15
   endnode
   node dummy terrain
     parent wmx05_a02_15
+  endnode
+  node dummy wmx05_a02_15a
+    parent wmx05_a02_15
+  endnode
+  node light auroralight02
+    parent wmx05_a02_15a
+    colorkey
+      0 1 0.431373 0
+      0.0333333 0 0 0
+    endlist
+  endnode
+  node dummy exhaust
+    parent wmx05_a02_15a
+  endnode
+  node trimesh daywindow
+    parent wmx05_a02_15a
+    alphakey
+      0 0
+      0.0333333 1
+    endlist
   endnode
 doneanim night2day wmx05_a02_15
 
@@ -6232,30 +6235,6 @@ newanim tiledefault wmx05_a02_15
   node dummy deck03
     parent wmx05_a02_15
   endnode
-  node dummy wmx05_a02_15a
-    parent wmx05_a02_15
-  endnode
-  node trimesh daywindow
-    parent wmx05_a02_15a
-    alphakey
-      0 1
-    endlist
-  endnode
-  node light auroralight02
-    parent wmx05_a02_15a
-    colorkey
-      0 0 0 0
-    endlist
-  endnode
-  node trimesh exhaust
-    parent wmx05_a02_15a
-    positionkey
-      0 0 13.03 4.3
-    endlist
-    orientationkey
-      0 0 0.707107 -0.707107 -3.14159
-    endlist
-  endnode
   node dummy ropes05
     parent wmx05_a02_15
   endnode
@@ -6459,6 +6438,30 @@ newanim tiledefault wmx05_a02_15
   endnode
   node dummy terrain
     parent wmx05_a02_15
+  endnode
+  node dummy wmx05_a02_15a
+    parent wmx05_a02_15
+  endnode
+  node light auroralight02
+    parent wmx05_a02_15a
+    colorkey
+      0 0 0 0
+    endlist
+  endnode
+  node trimesh exhaust
+    parent wmx05_a02_15a
+    positionkey
+      0 0 13.03 4.3
+    endlist
+    orientationkey
+      0 0 0.707107 -0.707107 -3.14159
+    endlist
+  endnode
+  node trimesh daywindow
+    parent wmx05_a02_15a
+    alphakey
+      0 1
+    endlist
   endnode
 doneanim tiledefault wmx05_a02_15
 donemodel wmx05_a02_15

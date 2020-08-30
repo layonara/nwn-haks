@@ -1,54 +1,14 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 19:15:14 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wmx_a39_01
-setsupermodel wmx_a39_01 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wmx_a39_01 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wmx_a39_01
 node dummy wmx_a39_01
   parent NULL
-endnode
-node dummy wmx_a39_01a
-  parent wmx_a39_01
-  orientation 0 0 0 0
-  wirecolor 1 0 0
-  position 0 0 0
-endnode
-node trimesh plane542
-  parent wmx_a39_01a
-  orientation 0 0 0 0
-  wirecolor 0.898039 0.898039 0.898039
-  tilefade 0
-  scale 1
-  render 1
-  beaming 0
-  inheritcolor 0
-  rotatetexture 1
-  alpha 1
-  transparencyhint 1
-  selfillumcolor 0 0 0
-  ambient 1 1 1
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 1
-  center 0 150 0
-  bitmap wmx01_waterxx
-  shadow 0
-  position -1.5 -1.5 -1
-  verts 4
-    -3.5 6.5 0
-    -3.5 -3.5 0
-    3.5 6.5 0
-    3.5 -3.5 0
-  faces 2
-    0 1 2 1 0 1 2 65536
-    3 2 1 1 3 2 1 65536
-  tverts 4
-    0 1 0
-    0 0 0
-    1 1 0
-    1 0 0
 endnode
 node light wmx_a39_01ml2
   parent wmx_a39_01
@@ -57,7 +17,7 @@ node light wmx_a39_01ml2
   multiplier 1
   color 0.0039216 0.0039216 0.0039216
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -72,7 +32,7 @@ node light wmx_a39_01ml1
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -225,21 +185,21 @@ node trimesh line661
     18 19 7 1 14 6 5 65536
     7 6 18 1 5 4 14 65536
   tverts 15
-    1.99805 0.0507813 0
-    1.58984 0.0507813 0
-    1.13672 0.0507813 0
-    1.04492 0.0507813 0
-    0.855469 0.0507813 0
-    0.384766 0.0507813 0
-    0.00195313 0.0507813 0
-    1.74219 0.705078 0
-    1.99805 0.705078 0
-    1.43945 0.705078 0
-    1.01953 0.705078 0
-    0.804688 0.705078 0
-    0.492188 0.705078 0
-    0.00195313 0.705078 0
-    1 0.0507813 0
+    0.99805 0.0507813 0
+    0.58984 0.0507813 0
+    0.13672 0.0507813 0
+    0.04492 0.0507813 0
+    -0.144531 0.0507813 0
+    -0.615234 0.0507813 0
+    -0.998047 0.0507813 0
+    0.74219 0.705078 0
+    0.99805 0.705078 0
+    0.43945 0.705078 0
+    0.01953 0.705078 0
+    -0.195312 0.705078 0
+    -0.507812 0.705078 0
+    -0.998047 0.705078 0
+    0 0.0507813 0
 endnode
 node trimesh mesh214
   parent wmx_a39_01
@@ -291,20 +251,20 @@ node trimesh mesh214
     10 12 13 1 10 12 13 65536
     10 13 11 1 10 13 11 65536
   tverts 14
-    1.99805 0.705078 0
-    1.74219 0.705078 0
-    1.74219 1 0
-    1.99805 1 0
-    1.43945 0.705078 0
-    1.43945 1 0
-    1.01953 0.705078 0
-    1.01953 1 0
-    0.804688 0.705078 0
-    0.804688 1 0
-    0.492188 0.705078 0
-    0.492188 1 0
-    0.00195313 0.705078 0
-    0.00195313 1 0
+    0.99805 0.705078 0
+    0.74219 0.705078 0
+    0.74219 1 0
+    0.99805 1 0
+    0.43945 0.705078 0
+    0.43945 1 0
+    0.01953 0.705078 0
+    0.01953 1 0
+    -0.195312 0.705078 0
+    -0.195312 1 0
+    -0.507812 0.705078 0
+    -0.507812 1 0
+    -0.998047 0.705078 0
+    -0.998047 1 0
 endnode
 node aabb cm048
   parent wmx_a39_01
@@ -312,6 +272,8 @@ node aabb cm048
   bitmap NULL
   orientation 0 0 0 0
   position 0 0 0
+  render 0
+  shadow 0
   verts 39
     -2 5 -3.4
     -1.49 2.96 -3.4
@@ -527,76 +489,6 @@ node aabb cm048
     2.5 2.5 0 5 5 0 50
     2.5 2.5 0 5 5 0 51
 endnode
-node trimesh rectangle186
-  parent wmx_a39_01
-  orientation 0 0 0 0
-  wirecolor 0.894118 0.894118 0.894118
-  tilefade 0
-  scale 1
-  render 1
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 1
-  selfillumcolor 0 0 0
-  ambient 1 1 1
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 1
-  center 0 -1 0
-  bitmap ttr01_splotch01
-  shadow 0
-  position 2.62 2.98 0.01
-  verts 4
-    0.03 -1.78 0
-    1.77 0.02 0
-    -0.03 1.76 0
-    -1.77 -0.04 0
-  faces 2
-    0 1 2 1 0 1 2 65536
-    3 0 2 1 3 0 2 65536
-  tverts 4
-    0.0136719 0.00195313 0
-    0.228516 0.00195313 0
-    0.228516 0.269531 0
-    0.0136719 0.269531 0
-endnode
-node trimesh rectangle185
-  parent wmx_a39_01
-  orientation 0 0 0 0
-  wirecolor 0.894118 0.894118 0.894118
-  tilefade 0
-  scale 1
-  render 1
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 1
-  selfillumcolor 0 0 0
-  ambient 1 1 1
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 1
-  center 0.5 -0.5 0
-  bitmap ttr01_splotch01
-  shadow 0
-  position 2.09 -1.89 0.01
-  verts 4
-    -2.73 -0.58 0
-    -1.17 -2.54 0
-    2.74 0.57 0
-    1.18 2.53 0
-  faces 2
-    0 1 2 1 0 1 2 65536
-    3 0 2 1 3 0 2 65536
-  tverts 4
-    0.230469 0.511719 0
-    0.505859 0.511719 0
-    0.505859 0.966797 0
-    0.230469 0.966797 0
-endnode
 node trimesh line728
   parent wmx_a39_01
   orientation 0 0 0 0
@@ -647,20 +539,131 @@ node trimesh line728
     12 10 13 1 12 10 13 65536
     13 10 11 1 13 10 11 65536
   tverts 14
-    6.96875 0.0507813 0
-    7.99609 0.0507813 0
-    6.96875 0.449219 0
-    7.99609 0.449219 0
-    5.75586 0.0507813 0
-    5.75586 0.449219 0
-    4.07617 0.0507813 0
-    4.07617 0.449219 0
-    3.21484 0.0507813 0
-    3.21484 0.449219 0
-    1.96484 0.0507813 0
-    1.96484 0.449219 0
-    0.00390625 0.0507813 0
-    0.00390625 0.449219 0
+    3.96875 0.0507813 0
+    4.99609 0.0507813 0
+    3.96875 0.449219 0
+    4.99609 0.449219 0
+    2.75586 0.0507813 0
+    2.75586 0.449219 0
+    1.07617 0.0507813 0
+    1.07617 0.449219 0
+    0.21484 0.0507813 0
+    0.21484 0.449219 0
+    -1.03516 0.0507813 0
+    -1.03516 0.449219 0
+    -2.99609 0.0507813 0
+    -2.99609 0.449219 0
+endnode
+node dummy wmx_a39_01a
+  parent wmx_a39_01
+  orientation 0 0 0 0
+  wirecolor 1 0 0
+  position 0 0 0
+endnode
+node trimesh rectangle186
+  parent wmx_a39_01a
+  orientation 0 0 0 0
+  wirecolor 0.894118 0.894118 0.894118
+  tilefade 0
+  scale 1
+  render 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 1
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  center 0 -1 0
+  bitmap ttr01_splotch01
+  shadow 0
+  position 2.62 2.98 0.01
+  verts 4
+    0.03 -1.78 0
+    1.77 0.02 0
+    -0.03 1.76 0
+    -1.77 -0.04 0
+  faces 2
+    0 1 2 1 0 1 2 65536
+    3 0 2 1 3 0 2 65536
+  tverts 4
+    0.0136719 0.00195313 0
+    0.228516 0.00195313 0
+    0.228516 0.269531 0
+    0.0136719 0.269531 0
+endnode
+node trimesh rectangle185
+  parent wmx_a39_01a
+  orientation 0 0 0 0
+  wirecolor 0.894118 0.894118 0.894118
+  tilefade 0
+  scale 1
+  render 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 1
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  center 0.5 -0.5 0
+  bitmap ttr01_splotch01
+  shadow 0
+  position 2.09 -1.89 0.01
+  verts 4
+    -2.73 -0.58 0
+    -1.17 -2.54 0
+    2.74 0.57 0
+    1.18 2.53 0
+  faces 2
+    0 1 2 1 0 1 2 65536
+    3 0 2 1 3 0 2 65536
+  tverts 4
+    0.230469 0.511719 0
+    0.505859 0.511719 0
+    0.505859 0.966797 0
+    0.230469 0.966797 0
+endnode
+node trimesh plane542
+  parent wmx_a39_01a
+  orientation 0 0 0 0
+  wirecolor 0.898039 0.898039 0.898039
+  tilefade 0
+  scale 1
+  render 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 1
+  alpha 1
+  transparencyhint 1
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  center 0 150 0
+  bitmap wmx01_waterxx
+  shadow 0
+  position -1.5 -1.5 -1
+  verts 4
+    -3.5 6.5 0
+    -3.5 -3.5 0
+    3.5 6.5 0
+    3.5 -3.5 0
+  faces 2
+    0 1 2 1 0 1 2 65536
+    3 2 1 1 3 2 1 65536
+  tverts 4
+    0 1 0
+    0 0 0
+    1 1 0
+    1 0 0
 endnode
 endmodelgeom wmx_a39_01
 donemodel wmx_a39_01

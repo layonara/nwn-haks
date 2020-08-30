@@ -1,9 +1,10 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 19:26:51 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wmx10_l02_12
-setsupermodel wmx10_l02_12 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wmx10_l02_12 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wmx10_l02_12
 node dummy wmx10_l02_12
@@ -16,7 +17,7 @@ node light wmx10_l02_12ml1
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -31,7 +32,7 @@ node light wmx10_l02_12ml2
   multiplier 1
   color 0.0039216 0.0039216 0.0039216
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -143,64 +144,64 @@ node trimesh groups00214
     23 16 31 1 56 40 57 65536
     16 24 31 1 40 42 57 65536
   tverts 58
+    -2 0.132813 0
+    -1.5 0.132813 0
+    -1.99023 0 0
+    -1.47461 0 0
+    -1 0.132813 0
+    -1.01172 0 0
+    -0.5 0.132813 0
+    -0.48047 0 0
     0 0.132813 0
+    -0.00781 0 0
     0.5 0.132813 0
-    0.00976563 0 0
-    0.525391 0 0
+    0.51758 0 0
     1 0.132813 0
-    0.988281 0 0
+    0.98828 0 0
     1.5 0.132813 0
     1.51953 0 0
     2 0.132813 0
-    1.99219 0 0
-    2.5 0.132813 0
-    2.51758 0 0
-    3 0.132813 0
-    2.98828 0 0
-    3.5 0.132813 0
-    3.51953 0 0
-    4 0.132813 0
-    3.98242 0 0
-    0.486328 0.00390625 0
-    0.115234 0.5 0
-    0.412109 0.5 0
-    0.611328 0.5 0
-    0.898438 0.5 0
+    1.98242 0 0
+    -1.51367 0.00390625 0
+    -1.88477 0.5 0
+    -1.58789 0.5 0
+    -1.38867 0.5 0
+    -1.10156 0.5 0
     0.0136719 0 0
     0.488281 0 0
     0.126953 0.496094 0
     0.400391 0.5 0
-    1.61914 0.5 0
-    1.92578 0.5 0
+    -0.38086 0.5 0
+    -0.07422 0.5 0
     0.0117188 0 0
     0.125 0.5 0
     0.386719 0.5 0
-    2.61523 0.5 0
-    2.9375 0.5 0
+    0.61523 0.5 0
+    0.9375 0.5 0
     0.0195313 0 0
     0.486328 0 0
     0.107422 0.5 0
     0.396484 0.5 0
-    3.60742 0.5 0
-    3.91406 0.5 0
-    3.87305 0.125 0
-    4.36523 0.125 0
-    3.87305 0.0625 0
-    4.36523 0.0625 0
-    4.875 0.125 0
-    4.875 0.0625 0
-    0.871094 0.125 0
-    1.37305 0.125 0
-    0.871094 0.0625 0
-    1.37305 0.0625 0
-    1.89258 0.125 0
-    1.89258 0.0625 0
-    2.36719 0.125 0
-    2.36719 0.0625 0
-    2.87109 0.125 0
-    2.87109 0.0625 0
-    3.36914 0.125 0
-    3.36914 0.0625 0
+    1.60742 0.5 0
+    1.91406 0.5 0
+    1.87305 0.125 0
+    2.36523 0.125 0
+    1.87305 0.0625 0
+    2.36523 0.0625 0
+    2.875 0.125 0
+    2.875 0.0625 0
+    -1.12891 0.125 0
+    -0.62695 0.125 0
+    -1.12891 0.0625 0
+    -0.62695 0.0625 0
+    -0.10742 0.125 0
+    -0.10742 0.0625 0
+    0.36719 0.125 0
+    0.36719 0.0625 0
+    0.87109 0.125 0
+    0.87109 0.0625 0
+    1.36914 0.125 0
+    1.36914 0.0625 0
 endnode
 node trimesh groups00215
   parent wmx10_l02_12
@@ -255,6 +256,8 @@ node aabb groups00226
   bitmap NULL
   orientation 0 0 0 0
   position 0 0 0
+  render 0
+  shadow 0
   verts 24
     -2.31 -0.96 -0.5
     -5 5 -0.5
@@ -422,41 +425,6 @@ node trimesh groups00220
     0.527344 0 0
     0.466797 0 0
 endnode
-node trimesh groups00217
-  parent wmx10_l02_12
-  orientation 0 0 0 0
-  wirecolor 0.894118 0.894118 0.894118
-  tilefade 0
-  scale 1
-  render 1
-  shadow 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 1
-  selfillumcolor 0 0 0
-  specular 0 0 0
-  shininess 1
-  center 1.00001 -1.00001 0
-  bitmap tcn01_splotch01
-  ambient 1 1 1
-  diffuse 1 1 1
-  position 1.37 0.72 -0.29
-  verts 4
-    -1.06 -0.02 0
-    -0.13 -1.07 0
-    0.14 1.05 0
-    1.08 0 0
-  faces 2
-    0 1 2 1 0 1 2 65536
-    3 2 1 1 3 2 1 65536
-  tverts 4
-    0.564453 0.242188 0
-    0.568359 0.00195313 0
-    0.787109 0.242188 0
-    0.789063 0.00195313 0
-endnode
 node trimesh groups00223
   parent wmx10_l02_12
   orientation 0 0 0 0
@@ -507,41 +475,6 @@ node trimesh groups00223
     0.527344 0.585938 0
     0.527344 0 0
     0.466797 0 0
-endnode
-node trimesh groups00212
-  parent wmx10_l02_12
-  orientation 0 0 0 0
-  wirecolor 0.0156863 0.0156863 0.0156863
-  tilefade 0
-  scale 1
-  render 1
-  shadow 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 1
-  selfillumcolor 0 0 0
-  ambient 1 1 1
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 1
-  center 1 0 0
-  bitmap tcn01_splotch02
-  position -1.13 -2.21 -0.49
-  verts 4
-    -1.52 1.48 0
-    -1.96 -0.8 0
-    1.98 0.8 0
-    1.54 -1.48 0
-  faces 2
-    0 1 2 1 0 1 2 65536
-    3 2 1 1 3 2 1 65536
-  tverts 4
-    0.503906 0.763672 0
-    0.5 0.5 0
-    0.800781 0.767578 0
-    0.796875 0.503906 0
 endnode
 node trimesh groups00218
   parent wmx10_l02_12
@@ -645,41 +578,6 @@ node trimesh groups00221
     0.527344 0 0
     0.466797 0 0
 endnode
-node trimesh groups00216
-  parent wmx10_l02_12
-  orientation 0 0 0 0
-  wirecolor 0.890196 0.890196 0.890196
-  tilefade 0
-  scale 1
-  render 1
-  shadow 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 1
-  selfillumcolor 0 0 0
-  specular 0 0 0
-  shininess 1
-  center 0.5 -1 0
-  bitmap tcn01_splotch01
-  ambient 1 1 1
-  diffuse 1 1 1
-  position 2.35 -0.28 -0.49
-  verts 4
-    -0.96 0.15 0
-    0.05 -0.99 0
-    -0.04 0.97 0
-    0.97 -0.17 0
-  faces 2
-    0 1 2 1 0 1 2 65536
-    3 2 1 1 3 2 1 65536
-  tverts 4
-    0.537109 0.451172 0
-    0.537109 0.25 0
-    0.732422 0.451172 0
-    0.732422 0.25 0
-endnode
 node trimesh groups00219
   parent wmx10_l02_12
   orientation 0 0 0 0
@@ -752,26 +650,26 @@ node trimesh groups00219
     15 2 14 1 1 0 2 65536
     15 1 2 1 1 3 0 65536
   tverts 20
-    7 1 0
-    6 0 0
-    6 1 0
-    7 0 0
-    8 1 0
-    8 0 0
-    1 1 0
-    0 0 0
-    0 1 0
-    1 0 0
-    2 1 0
-    2 0 0
     3 1 0
+    2 0 0
+    2 1 0
     3 0 0
     4 1 0
     4 0 0
+    -3 1 0
+    -4 0 0
+    -4 1 0
+    -3 0 0
+    -2 1 0
+    -2 0 0
+    -1 1 0
+    -1 0 0
+    0 1 0
+    0 0 0
+    1 1 0
+    1 0 0
     5 1 0
     5 0 0
-    9 1 0
-    9 0 0
 endnode
 node trimesh plane01
   parent wmx10_l02_12
@@ -1579,11 +1477,11 @@ node trimesh clone
     173 172 174 1 3 2 4 1
     172 170 174 1 2 0 4 1
   tverts 5
-    0.972656 0.914062 0
-    0.978516 1.70508 0
-    0.654297 1.47852 0
-    0.376953 2.15234 0
-    0.335938 1.25781 0
+    0.972656 -0.085938 0
+    0.978516 0.70508 0
+    0.654297 0.47852 0
+    0.376953 1.15234 0
+    0.335938 0.25781 0
 endnode
 node trimesh node0
   parent wmx10_l02_12
@@ -1924,11 +1822,11 @@ node trimesh node0
     172 173 174 1 2 3 4 1
     170 172 174 1 0 2 4 1
   tverts 5
-    0.972656 0.914062 0
-    0.978516 1.70508 0
-    0.654297 1.47852 0
-    0.376953 2.15234 0
-    0.335938 1.25781 0
+    0.972656 -0.085938 0
+    0.978516 0.70508 0
+    0.654297 0.47852 0
+    0.376953 1.15234 0
+    0.335938 0.25781 0
 endnode
 node trimesh tree01
   parent wmx10_l02_12
@@ -2031,40 +1929,151 @@ node trimesh tree01
     2 23 31 1 2 23 31 1
     32 2 31 1 32 2 31 1
   tverts 34
-    0.5 0.910156 0
-    0.552734 0.910156 0
-    0.529297 0.910156 0
-    0.5 1.56055 0
-    0.541016 1.56055 0
-    0.523438 1.56055 0
-    0.5 2.36133 0
-    0.470703 0.910156 0
-    0.447266 0.910156 0
-    0.476563 1.56055 0
-    0.458984 1.56055 0
-    0.507813 0.855469 0
-    0.539063 0.853516 0
-    0.431641 0.853516 0
-    0.496094 0.857422 0
-    0.464844 0.839844 0
-    0.492188 0.826172 0
-    0.535156 0.822266 0
-    0.580078 0.814453 0
-    0.453125 0.814453 0
-    0.5 0.828125 0
-    0.488281 0.802734 0
-    0.490234 0.802734 0
-    0.507813 0.794922 0
-    0.498047 0.828125 0
-    0.539063 0.845703 0
-    0.568359 0.857422 0
-    0.460938 0.857422 0
-    0.484375 0.857422 0
-    0.416016 0.794922 0
-    0.449219 0.808594 0
-    0.509766 0.794922 0
-    0.550781 0.794922 0
-    0.412109 0.794922 0
+    0.5 -0.089844 0
+    0.552734 -0.089844 0
+    0.529297 -0.089844 0
+    0.5 0.56055 0
+    0.541016 0.56055 0
+    0.523438 0.56055 0
+    0.5 1.36133 0
+    0.470703 -0.089844 0
+    0.447266 -0.089844 0
+    0.476563 0.56055 0
+    0.458984 0.56055 0
+    0.507813 -0.144531 0
+    0.539063 -0.146484 0
+    0.431641 -0.146484 0
+    0.496094 -0.142578 0
+    0.464844 -0.160156 0
+    0.492188 -0.173828 0
+    0.535156 -0.177734 0
+    0.580078 -0.185547 0
+    0.453125 -0.185547 0
+    0.5 -0.171875 0
+    0.488281 -0.197266 0
+    0.490234 -0.197266 0
+    0.507813 -0.205078 0
+    0.498047 -0.171875 0
+    0.539063 -0.154297 0
+    0.568359 -0.142578 0
+    0.460938 -0.142578 0
+    0.484375 -0.142578 0
+    0.416016 -0.205078 0
+    0.449219 -0.191406 0
+    0.509766 -0.205078 0
+    0.550781 -0.205078 0
+    0.412109 -0.205078 0
+endnode
+node dummy wmx10_l02_12a
+  parent wmx10_l02_12
+  wirecolor 1 0 0
+  orientation 0 0 0 0
+  position 0 0 0
+endnode
+node trimesh groups00217
+  parent wmx10_l02_12a
+  orientation 0 0 0 0
+  wirecolor 0.894118 0.894118 0.894118
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 1
+  selfillumcolor 0 0 0
+  specular 0 0 0
+  shininess 1
+  center 1.00001 -1.00001 0
+  bitmap tcn01_splotch01
+  ambient 1 1 1
+  diffuse 1 1 1
+  position 1.37 0.72 -0.29
+  verts 4
+    -1.06 -0.02 0
+    -0.13 -1.07 0
+    0.14 1.05 0
+    1.08 0 0
+  faces 2
+    0 1 2 1 0 1 2 65536
+    3 2 1 1 3 2 1 65536
+  tverts 4
+    0.564453 0.242188 0
+    0.568359 0.00195313 0
+    0.787109 0.242188 0
+    0.789063 0.00195313 0
+endnode
+node trimesh groups00212
+  parent wmx10_l02_12a
+  orientation 0 0 0 0
+  wirecolor 0.0156863 0.0156863 0.0156863
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 1
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  center 1 0 0
+  bitmap tcn01_splotch02
+  position -1.13 -2.21 -0.49
+  verts 4
+    -1.52 1.48 0
+    -1.96 -0.8 0
+    1.98 0.8 0
+    1.54 -1.48 0
+  faces 2
+    0 1 2 1 0 1 2 65536
+    3 2 1 1 3 2 1 65536
+  tverts 4
+    0.503906 0.763672 0
+    0.5 0.5 0
+    0.800781 0.767578 0
+    0.796875 0.503906 0
+endnode
+node trimesh groups00216
+  parent wmx10_l02_12a
+  orientation 0 0 0 0
+  wirecolor 0.890196 0.890196 0.890196
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 1
+  selfillumcolor 0 0 0
+  specular 0 0 0
+  shininess 1
+  center 0.5 -1 0
+  bitmap tcn01_splotch01
+  ambient 1 1 1
+  diffuse 1 1 1
+  position 2.35 -0.28 -0.49
+  verts 4
+    -0.96 0.15 0
+    0.05 -0.99 0
+    -0.04 0.97 0
+    0.97 -0.17 0
+  faces 2
+    0 1 2 1 0 1 2 65536
+    3 2 1 1 3 2 1 65536
+  tverts 4
+    0.537109 0.451172 0
+    0.537109 0.25 0
+    0.732422 0.451172 0
+    0.732422 0.25 0
 endnode
 endmodelgeom wmx10_l02_12
 donemodel wmx10_l02_12

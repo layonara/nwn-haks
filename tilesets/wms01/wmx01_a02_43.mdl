@@ -1,9 +1,10 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 19:16:36 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wmx01_a02_43
-setsupermodel wmx01_a02_43 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wmx01_a02_43 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wmx01_a02_43
 node dummy wmx01_a02_43
@@ -16,7 +17,7 @@ node light wmx01_a02_43ml1
   multiplier 1
   color 1 1 1
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -31,7 +32,7 @@ node light wmx01_a02_43ml2
   multiplier 1
   color 1 1 1
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -49,6 +50,8 @@ node aabb wok_03
   orientation 0 0 0 0
   bitmap NULL
   position 0 0 0
+  render 0
+  shadow 0
   verts 123
     -5 -5 -0.5
     -4 -5 -0.5
@@ -1897,13 +1900,13 @@ node trimesh plc_bc_templee01b_03
     0.294922 0.775391 0
     0.28125 0.775391 0
     0.294922 0.859375 0
-    1.16797 0.224609 0
-    1.16797 0.28125 0
-    1.05859 0.28125 0
-    0.994141 0.28125 0
-    0.994141 0.224609 0
-    1.16797 0.314453 0
-    0.994141 0.314453 0
+    0.16797 0.224609 0
+    0.16797 0.28125 0
+    0.05859 0.28125 0
+    -0.005859 0.28125 0
+    -0.005859 0.224609 0
+    0.16797 0.314453 0
+    -0.005859 0.314453 0
     0.419922 0.367188 0
     0.394531 0.353516 0
     0.408203 0.339844 0
@@ -2050,11 +2053,11 @@ node trimesh plc_bc_templee01b_03
     0.0625 0.0585938 0
     0.298828 0.828125 0
     0.294922 0.826172 0
-    1.30859 0.382813 0
-    0.994141 0.382813 0
-    1.23438 0.326172 0
-    1.30859 0.326172 0
-    0.994141 0.326172 0
+    0.30859 0.382813 0
+    -0.005859 0.382813 0
+    0.23438 0.326172 0
+    0.30859 0.326172 0
+    -0.005859 0.326172 0
     0.4375 0.0410156 0
     0.4375 0.0253906 0
     0.4375 0.0429688 0

@@ -1,193 +1,14 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 19:17:39 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wmx01_m29_13
-setsupermodel wmx01_m29_13 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wmx01_m29_13 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wmx01_m29_13
 node dummy wmx01_m29_13
   parent NULL
-endnode
-node dummy wmx01_m29_13a
-  parent wmx01_m29_13
-  orientation 0 0 0 0
-  wirecolor 1 0 0
-  position 0 0 0
-endnode
-node dummy fried_fix_01
-  parent wmx01_m29_13a
-  wirecolor 0.345098 0.345098 0.882353
-  orientation 0 0 0 0
-  position 0 0 -5
-endnode
-node trimesh window06
-  wirecolor 0.776471 0.87451 0.337255
-  tilefade 0
-  scale 1
-  render 1
-  shadow 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 1 1 1
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 1
-  center 0 0 0
-  bitmap tno01_window07
-  parent fried_fix_01
-  orientation 0 0 0 0
-  position -1.91 -1.35 13.15
-  verts 8
-    0.1 1 -0.95
-    0.1 1 0.95
-    0.1 -1 -0.95
-    0.1 -1 0.95
-    -0.1 1 -0.95
-    -0.1 1 0.95
-    -0.1 -1 -0.95
-    -0.1 -1 0.95
-  faces 10
-    7 5 1 0 1 2 0 1
-    1 3 7 0 0 3 1 1
-    5 4 0 0 0 3 1 1
-    0 1 5 0 1 2 0 1
-    4 6 2 0 0 3 1 1
-    2 0 4 0 1 2 0 1
-    6 7 3 0 1 2 0 1
-    3 2 6 0 0 3 1 1
-    0 2 1 1 4 5 6 1
-    2 3 1 1 5 7 6 1
-  tverts 8
-    0.771484 0.958984 0
-    2.22852 1.05664 0
-    0.771484 1.05664 0
-    2.22852 0.958984 0
-    0 0 0
-    1 0 0
-    0 1 0
-    1 1 0
-endnode
-node trimesh window07
-  wirecolor 0.776471 0.87451 0.337255
-  tilefade 0
-  scale 1
-  render 1
-  shadow 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 1 1 1
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 1
-  center 0 0 0
-  bitmap tno01_window07
-  parent fried_fix_01
-  orientation 0 0 0 0
-  position -1.81 -5 16.5
-  verts 4
-    0 -0.3 1
-    0 -0.3 -1
-    0 0.3 -1
-    0 0.3 1
-  faces 2
-    3 2 0 1 3 2 0 1
-    2 1 0 1 2 1 0 1
-  tverts 4
-    0.732422 0.984375 0
-    0.732422 0.015625 0
-    0.267578 0.015625 0
-    0.267578 0.984375 0
-endnode
-node trimesh window01
-  wirecolor 0.831373 0.603922 0.894118
-  tilefade 0
-  scale 1
-  render 1
-  shadow 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 1 1 1
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 1
-  center -0.5 0 0
-  bitmap tno01_window01
-  parent fried_fix_01
-  orientation 0 0 0 0
-  position 1.64 1.16 12.75
-  verts 8
-    -2.24 0 -0.65
-    -1.24 0 -0.65
-    -1.24 0 0.65
-    -2.24 0 0.65
-    1.23 0 -0.65
-    2.23 0 -0.65
-    2.23 0 0.65
-    1.23 0 0.65
-  faces 4
-    2 1 0 1 2 1 0 2
-    0 3 2 1 0 3 2 2
-    6 5 4 1 2 1 0 2
-    4 7 6 1 0 3 2 2
-  tverts 4
-    0.689453 0.300781 0
-    0.310547 0.300781 0
-    0.310547 0.800781 0
-    0.689453 0.800781 0
-endnode
-node trimesh window08
-  wirecolor 0.694118 0.109804 0.584314
-  tilefade 0
-  scale 1
-  render 1
-  shadow 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 1 1 1
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 1
-  center 0 0 0
-  bitmap tno01_window07
-  parent fried_fix_01
-  orientation 0 0 0 0
-  position 3.5 -5 7.13
-  verts 8
-    -0.25 -2.7 0.65
-    0.25 -2.7 0.65
-    -0.25 -2.7 -0.65
-    0.25 -2.7 -0.65
-    0.25 2.7 0.65
-    -0.25 2.7 0.65
-    0.25 2.7 -0.65
-    -0.25 2.7 -0.65
-  faces 4
-    1 0 2 1 1 0 2 2
-    1 2 3 1 1 2 3 2
-    5 4 6 1 1 0 2 2
-    5 6 7 1 1 2 3 2
-  tverts 4
-    0.537109 0.935547 0
-    0.699219 0.935547 0
-    0.537109 0.611328 0
-    0.699219 0.611328 0
 endnode
 node light wmx01_m29_13ml1
   parent wmx01_m29_13
@@ -196,7 +17,7 @@ node light wmx01_m29_13ml1
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -211,7 +32,7 @@ node light wmx01_m29_13ml2
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -315,38 +136,38 @@ node trimesh box04
     24 26 28 1 8 10 12 5
     30 28 26 1 14 12 10 5
   tverts 32
-    1.15625 0.933594 0
-    1.14258 0.933594 0
-    1.1582 0.96875 0
-    1.14063 1.07031 0
-    1.12109 0.933594 0
-    1.17773 0.933594 0
-    1.125 0.96875 0
-    1.17578 1.07031 0
-    1.17578 1.26758 0
-    1.125 1.26758 0
-    1.17773 1.30273 0
-    1.12109 1.07031 0
-    1.14063 1.26758 0
-    1.1582 1.26758 0
-    1.14258 1.30273 0
-    1.15625 1.07031 0
-    1.36523 1.07031 0
-    1.36523 1.23047 0
-    1.33203 1.07031 0
-    1.33203 1.23047 0
-    1.15625 1.23047 0
-    1.12109 1.23047 0
-    1.14063 0.96875 0
-    1.17578 0.96875 0
-    1.14063 1.23047 0
-    1.17578 1.23047 0
-    1.0332 1.07031 0
-    1.0332 1.23047 0
-    0.998047 1.07031 0
-    0.998047 1.23047 0
-    1.12109 1.30273 0
-    1.15625 1.30273 0
+    0.15625 0.933594 0
+    0.14258 0.933594 0
+    0.1582 0.96875 0
+    0.14063 0.07031 0
+    0.12109 0.933594 0
+    0.17773 0.933594 0
+    0.125 0.96875 0
+    0.17578 0.07031 0
+    0.17578 0.26758 0
+    0.125 0.26758 0
+    0.17773 0.30273 0
+    0.12109 0.07031 0
+    0.14063 0.26758 0
+    0.1582 0.26758 0
+    0.14258 0.30273 0
+    0.15625 0.07031 0
+    0.36523 0.07031 0
+    0.36523 0.23047 0
+    0.33203 0.07031 0
+    0.33203 0.23047 0
+    0.15625 0.23047 0
+    0.12109 0.23047 0
+    0.14063 0.96875 0
+    0.17578 0.96875 0
+    0.14063 0.23047 0
+    0.17578 0.23047 0
+    0.0332 0.07031 0
+    0.0332 0.23047 0
+    -0.001953 0.07031 0
+    -0.001953 0.23047 0
+    0.12109 0.30273 0
+    0.15625 0.30273 0
 endnode
 node trimesh f_object27
   parent wmx01_m29_13
@@ -396,24 +217,24 @@ node trimesh f_object27
     7 11 10 8 16 14 13 1
     10 8 7 8 13 17 16 1
   tverts 18
-    0.470703 0.990234 0
-    2.01367 0.990234 0
-    1.26953 0.990234 0
-    0.470703 0.496094 0
-    2.01367 0.496094 0
-    1.26953 0.496094 0
-    0.470703 0.8125 0
-    2.01367 0.8125 0
-    1.29883 0.8125 0
-    0.470703 0.275391 0
-    2.01367 0.275391 0
-    1.26953 0.275391 0
-    0.470703 0.0742188 0
-    1.29883 0.0742188 0
-    2.01367 0.0742188 0
-    0.470703 0.560547 0
-    2.01367 0.560547 0
-    1.29883 0.560547 0
+    -0.529297 0.990234 0
+    1.01367 0.990234 0
+    0.26953 0.990234 0
+    -0.529297 0.496094 0
+    1.01367 0.496094 0
+    0.26953 0.496094 0
+    -0.529297 0.8125 0
+    1.01367 0.8125 0
+    0.29883 0.8125 0
+    -0.529297 0.275391 0
+    1.01367 0.275391 0
+    0.26953 0.275391 0
+    -0.529297 0.0742188 0
+    0.29883 0.0742188 0
+    1.01367 0.0742188 0
+    -0.529297 0.560547 0
+    1.01367 0.560547 0
+    0.29883 0.560547 0
 endnode
 node trimesh f_object45
   parent wmx01_m29_13
@@ -449,14 +270,14 @@ node trimesh f_object45
     1 5 3 8 4 5 6 1
     3 0 1 8 6 7 4 1
   tverts 8
-    0.322266 1.88867 0
-    0.318359 1.25195 0
-    0.363281 1.30664 0
-    0.369141 1.84961 0
-    2.5293 0.990234 0
-    2.5293 1.41211 0
-    2.38867 1.42578 0
-    2.38867 0.990234 0
+    0.322266 0.88867 0
+    0.318359 0.25195 0
+    0.363281 0.30664 0
+    0.369141 0.84961 0
+    0.5293 -0.009766 0
+    0.5293 0.41211 0
+    0.38867 0.42578 0
+    0.38867 -0.009766 0
 endnode
 node trimesh f_object47
   parent wmx01_m29_13
@@ -492,14 +313,14 @@ node trimesh f_object47
     2 5 4 2 2 5 4 1
     4 1 2 2 4 1 2 1
   tverts 8
-    2.38867 1.93555 0
+    0.38867 0.93555 0
     0.314453 0.619141 0
     0.357422 0.669922 0
-    2.38867 1.42578 0
+    0.38867 0.42578 0
     0.318359 1.25195 0
     0.363281 1.30664 0
-    2.5293 1.41211 0
-    2.5293 1.90625 0
+    0.5293 0.41211 0
+    0.5293 0.90625 0
 endnode
 node trimesh f_object48
   parent wmx01_m29_13
@@ -537,10 +358,10 @@ node trimesh f_object48
   tverts 8
     0.3125 0.130859 0
     0.353516 0.132813 0
-    2.5293 2.32422 0
-    2.38867 2.21289 0
-    2.38867 1.93555 0
-    2.5293 1.90625 0
+    0.5293 0.32422 0
+    0.38867 0.21289 0
+    0.38867 -0.06445 0
+    0.5293 -0.09375 0
     0.357422 0.669922 0
     0.314453 0.619141 0
 endnode
@@ -578,14 +399,14 @@ node trimesh f_object56
     1 0 4 8 5 0 6 1
     4 5 1 8 6 7 5 1
   tverts 8
-    0.939453 1.10156 0
+    -0.060547 0.10156 0
     0.0605469 0.191406 0
     0.0605469 1.01953 0
     0.03125 1.01953 0
     0.03125 0.191406 0
-    0.939453 1.78906 0
-    1.06055 0.960938 0
-    1.06055 1.78906 0
+    -0.060547 0.78906 0
+    0.06055 -0.039062 0
+    0.06055 0.78906 0
 endnode
 node trimesh f_object57
   parent wmx01_m29_13
@@ -621,12 +442,12 @@ node trimesh f_object57
     1 0 4 8 1 0 4 1
     4 5 1 8 4 5 1 1
   tverts 8
-    0.939453 0.789063 0
-    0.939453 1.50195 0
+    -0.060547 -0.210937 0
+    -0.060547 0.50195 0
     0.03125 1.19141 0
     0.03125 0.476563 0
-    1.06055 0.789063 0
-    1.06055 1.50195 0
+    0.06055 -0.210937 0
+    0.06055 0.50195 0
     0.0605469 0.476563 0
     0.0605469 1.19141 0
 endnode
@@ -668,18 +489,18 @@ node trimesh f_object72
     5 4 6 8 5 4 6 1
     6 7 5 8 6 7 5 1
   tverts 12
-    0.787109 1.70117 0
-    0.787109 0.986328 0
-    1.01758 1.77148 0
-    1.01758 0.986328 0
+    0.787109 0.70117 0
+    0.787109 -0.013672 0
+    1.01758 0.77148 0
+    1.01758 -0.013672 0
     0.767578 0.228516 0
     0.767578 1.01367 0
     0.787109 0.306641 0
     0.787109 1.01367 0
-    0.767578 1.77148 0
-    0.767578 0.986328 0
-    0.976563 1.77148 0
-    0.976563 0.986328 0
+    0.767578 0.77148 0
+    0.767578 -0.013672 0
+    0.976563 0.77148 0
+    0.976563 -0.013672 0
 endnode
 node trimesh f_object73
   parent wmx01_m29_13
@@ -719,16 +540,16 @@ node trimesh f_object73
     5 4 6 8 10 2 3 1
     6 7 5 8 3 11 10 1
   tverts 12
-    0.787109 1.38867 0
-    1.01758 1.4082 0
+    0.787109 0.38867 0
+    1.01758 0.4082 0
     0.767578 0.591797 0
     0.787109 0.611328 0
-    0.787109 0.701172 0
-    0.767578 1.4082 0
-    0.767578 0.771484 0
-    1.01758 0.771484 0
-    0.976563 1.4082 0
-    0.976563 0.771484 0
+    0.787109 -0.298828 0
+    0.767578 0.4082 0
+    0.767578 -0.228516 0
+    1.01758 -0.228516 0
+    0.976563 0.4082 0
+    0.976563 -0.228516 0
     0.767578 1.22852 0
     0.787109 1.30664 0
 endnode
@@ -764,11 +585,11 @@ node trimesh f_object75
     1 2 4 1 1 4 3 1
     0 1 3 1 0 1 2 1
   tverts 5
-    0.900391 2.28906 0
-    0.898438 1.67969 0
-    1.39844 1.74219 0
-    1.39844 0.970703 0
-    0.898438 0.966797 0
+    -0.099609 1.28906 0
+    -0.101562 0.67969 0
+    0.39844 0.74219 0
+    0.39844 -0.029297 0
+    -0.101562 -0.033203 0
 endnode
 node trimesh f_object83
   parent wmx01_m29_13
@@ -800,10 +621,10 @@ node trimesh f_object83
     2 3 1 1 0 1 2 1
     1 0 2 1 2 3 0 1
   tverts 4
-    0.742188 1.60156 0
-    0.742188 1 0
-    1.28906 0.990234 0
-    1.28906 2.09961 0
+    -0.257812 0.60156 0
+    -0.257812 0 0
+    0.28906 -0.009766 0
+    0.28906 1.09961 0
 endnode
 node trimesh object04
   parent wmx01_m29_13
@@ -1121,32 +942,32 @@ node trimesh object13
     20 2 0 1 20 2 0 1
     20 0 21 1 20 0 21 1
   tverts 26
-    1.62109 0.00195313 0
+    0.62109 0.00195313 0
     0.570313 0.00195313 0
-    0.839844 0.00195313 0
+    -0.160156 0.00195313 0
     1.33398 0.00195313 0
-    1.58789 0.78125 0
+    0.58789 0.78125 0
     0.597656 0.78125 0
-    0.839844 0.78125 0
+    -0.160156 0.78125 0
     1.33398 0.78125 0
-    1.39648 0.642578 0
-    1.39648 0.0429688 0
-    1.79492 0.0429688 0
-    1.79492 0.642578 0
-    1.79492 0.00195313 0
-    1.39648 0.00195313 0
+    0.39648 0.642578 0
+    0.39648 0.0429688 0
+    0.79492 0.0429688 0
+    0.79492 0.642578 0
+    0.79492 0.00195313 0
+    0.39648 0.00195313 0
     0.927734 0.558594 0
     1.06836 0.558594 0
     0.927734 0.298828 0
     1.06836 0.298828 0
-    1.12109 0.558594 0
-    1.26172 0.558594 0
-    1.12109 0.298828 0
-    1.26172 0.298828 0
-    1.00977 0.78125 0
-    0.988281 0.00195313 0
-    2.17969 0.78125 0
-    2.20117 0.00195313 0
+    0.12109 0.558594 0
+    0.26172 0.558594 0
+    0.12109 0.298828 0
+    0.26172 0.298828 0
+    0.00977 0.78125 0
+    -0.011719 0.00195313 0
+    1.17969 0.78125 0
+    1.20117 0.00195313 0
 endnode
 node trimesh object22
   parent wmx01_m29_13
@@ -1432,14 +1253,14 @@ node trimesh object107
     2 0 1 2 5 0 9 1
   tverts 10
     1.33398 0.703125 0
-    1.25586 0.560547 0
-    1.07422 0.595703 0
+    0.25586 0.560547 0
+    0.07422 0.595703 0
     1.19141 0.595703 0
     1.37109 0.560547 0
     1.00977 0.560547 0
-    0.953125 0.701172 0
-    0.892578 0.560547 0
-    1.66602 0.697266 0
+    -0.046875 0.701172 0
+    -0.107422 0.560547 0
+    0.66602 0.697266 0
     0.619141 0.703125 0
 endnode
 node trimesh object109
@@ -1490,11 +1311,11 @@ node trimesh object109
     11 10 13 1 4 3 12 1
     8 12 9 1 1 13 2 1
   tverts 14
-    1.09766 0.00390625 0
-    0.955078 0.453125 0
-    0.804688 0.560547 0
-    1.09766 0.121094 0
-    1.06055 0.302734 0
+    0.09766 0.00390625 0
+    -0.044922 0.453125 0
+    -0.195312 0.560547 0
+    0.09766 0.121094 0
+    0.06055 0.302734 0
     0.419922 0.00390625 0
     1.16797 0.00390625 0
     1.16797 0.121094 0
@@ -1502,8 +1323,8 @@ node trimesh object109
     0.419922 0.703125 0
     1.30664 0.457031 0
     1.46094 0.560547 0
-    1.73047 0.00390625 0
-    1.73242 0.701172 0
+    0.73047 0.00390625 0
+    0.73242 0.701172 0
 endnode
 node trimesh object114
   parent wmx01_m29_13
@@ -2023,24 +1844,24 @@ node trimesh plane01
     7 2 17 16 7 2 17 1
     6 4 17 16 6 4 17 1
   tverts 18
-    0.537109 0 0
-    2 0 0
-    0.537109 1.32031 0
-    2 1.32031 0
-    0.537109 0.392578 0
-    1.06055 1.32031 0
-    0.537109 0.976563 0
-    0.761719 1.32031 0
-    1 2 0
-    0.5 2 0
-    2 2 0
-    1.5 2 0
-    0 2 0
-    0 1.5 0
-    0 0.5 0
-    0 0 0
+    -0.462891 -1 0
+    1 -1 0
+    -0.462891 0.32031 0
+    1 0.32031 0
+    -0.462891 -0.607422 0
+    0.06055 0.32031 0
+    -0.462891 -0.023437 0
+    -0.238281 0.32031 0
     0 1 0
-    0.751953 1.11133 0
+    -0.5 1 0
+    1 1 0
+    0.5 1 0
+    -1 1 0
+    -1 0.5 0
+    -1 -0.5 0
+    -1 -1 0
+    -1 0 0
+    -0.248047 0.11133 0
 endnode
 node trimesh shad_win
   parent wmx01_m29_13
@@ -2118,6 +1939,8 @@ node aabb wok02
   orientation 0 0 0 0
   bitmap NULL
   position 0 0 0
+  render 0
+  shadow 0
   verts 52
     -1.84 1.06 10.09
     5 1.06 10.13
@@ -2409,6 +2232,186 @@ node aabb wok02
     3.42 -5 13.91 5 -4 14.87 78
     3.42 -4 12.28 5 -2 13.91 76
 endnode
+node dummy wmx01_m29_13a
+  parent wmx01_m29_13
+  orientation 0 0 0 0
+  wirecolor 1 0 0
+  position 0 0 0
+endnode
+node dummy fried_fix_01
+  parent wmx01_m29_13a
+  wirecolor 0.345098 0.345098 0.882353
+  orientation 0 0 0 0
+  position 0 0 -5
+endnode
+node trimesh window06
+  parent fried_fix_01
+  wirecolor 0.776471 0.87451 0.337255
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  center 0 0 0
+  bitmap tno01_window07
+  orientation 0 0 0 0
+  position -1.91 -1.35 13.15
+  verts 8
+    0.1 1 -0.95
+    0.1 1 0.95
+    0.1 -1 -0.95
+    0.1 -1 0.95
+    -0.1 1 -0.95
+    -0.1 1 0.95
+    -0.1 -1 -0.95
+    -0.1 -1 0.95
+  faces 10
+    7 5 1 0 1 2 0 1
+    1 3 7 0 0 3 1 1
+    5 4 0 0 0 3 1 1
+    0 1 5 0 1 2 0 1
+    4 6 2 0 0 3 1 1
+    2 0 4 0 1 2 0 1
+    6 7 3 0 1 2 0 1
+    3 2 6 0 0 3 1 1
+    0 2 1 1 4 5 6 1
+    2 3 1 1 5 7 6 1
+  tverts 8
+    -0.228516 -0.041016 0
+    1.22852 0.05664 0
+    -0.228516 0.05664 0
+    1.22852 -0.041016 0
+    0 0 0
+    1 0 0
+    0 1 0
+    1 1 0
+endnode
+node trimesh window07
+  parent fried_fix_01
+  wirecolor 0.776471 0.87451 0.337255
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  center 0 0 0
+  bitmap tno01_window07
+  orientation 0 0 0 0
+  position -1.81 -5 16.5
+  verts 4
+    0 -0.3 1
+    0 -0.3 -1
+    0 0.3 -1
+    0 0.3 1
+  faces 2
+    3 2 0 1 3 2 0 1
+    2 1 0 1 2 1 0 1
+  tverts 4
+    0.732422 0.984375 0
+    0.732422 0.015625 0
+    0.267578 0.015625 0
+    0.267578 0.984375 0
+endnode
+node trimesh window01
+  parent fried_fix_01
+  wirecolor 0.831373 0.603922 0.894118
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  center -0.5 0 0
+  bitmap tno01_window01
+  orientation 0 0 0 0
+  position 1.64 1.16 12.75
+  verts 8
+    -2.24 0 -0.65
+    -1.24 0 -0.65
+    -1.24 0 0.65
+    -2.24 0 0.65
+    1.23 0 -0.65
+    2.23 0 -0.65
+    2.23 0 0.65
+    1.23 0 0.65
+  faces 4
+    2 1 0 1 2 1 0 2
+    0 3 2 1 0 3 2 2
+    6 5 4 1 2 1 0 2
+    4 7 6 1 0 3 2 2
+  tverts 4
+    0.689453 0.300781 0
+    0.310547 0.300781 0
+    0.310547 0.800781 0
+    0.689453 0.800781 0
+endnode
+node trimesh window08
+  parent fried_fix_01
+  wirecolor 0.694118 0.109804 0.584314
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  center 0 0 0
+  bitmap tno01_window07
+  orientation 0 0 0 0
+  position 3.5 -5 7.13
+  verts 8
+    -0.25 -2.7 0.65
+    0.25 -2.7 0.65
+    -0.25 -2.7 -0.65
+    0.25 -2.7 -0.65
+    0.25 2.7 0.65
+    -0.25 2.7 0.65
+    0.25 2.7 -0.65
+    -0.25 2.7 -0.65
+  faces 4
+    1 0 2 1 1 0 2 2
+    1 2 3 1 1 2 3 2
+    5 4 6 1 1 0 2 2
+    5 6 7 1 1 2 3 2
+  tverts 4
+    0.537109 0.935547 0
+    0.699219 0.935547 0
+    0.537109 0.611328 0
+    0.699219 0.611328 0
+endnode
 endmodelgeom wmx01_m29_13
 
 #MAXANIM ASCII
@@ -2418,40 +2421,6 @@ newanim day wmx01_m29_13
   animroot wmx01_m29_13
   node dummy wmx01_m29_13
     parent NULL
-  endnode
-  node dummy wmx01_m29_13a
-    parent wmx01_m29_13
-  endnode
-  node dummy fried_fix_01
-    parent wmx01_m29_13a
-  endnode
-  node trimesh window06
-    parent fried_fix_01
-    selfillumcolorkey
-      0 0 0 0
-      0.0333333 0 0 0
-    endlist
-  endnode
-  node trimesh window07
-    parent fried_fix_01
-    selfillumcolorkey
-      0 0 0 0
-      0.0333333 0 0 0
-    endlist
-  endnode
-  node trimesh window01
-    parent fried_fix_01
-    selfillumcolorkey
-      0 0 0 0
-      0.0333333 0 0 0
-    endlist
-  endnode
-  node trimesh window08
-    parent fried_fix_01
-    selfillumcolorkey
-      0 0 0 0
-      0.0333333 0 0 0
-    endlist
   endnode
   node light wmx01_m29_13ml1
     parent wmx01_m29_13
@@ -2563,6 +2532,40 @@ newanim day wmx01_m29_13
   endnode
   node dummy wok02
     parent wmx01_m29_13
+  endnode
+  node dummy wmx01_m29_13a
+    parent wmx01_m29_13
+  endnode
+  node dummy fried_fix_01
+    parent wmx01_m29_13a
+  endnode
+  node trimesh window06
+    parent fried_fix_01
+    selfillumcolorkey
+      0 0 0 0
+      0.0333333 0 0 0
+    endlist
+  endnode
+  node trimesh window07
+    parent fried_fix_01
+    selfillumcolorkey
+      0 0 0 0
+      0.0333333 0 0 0
+    endlist
+  endnode
+  node trimesh window01
+    parent fried_fix_01
+    selfillumcolorkey
+      0 0 0 0
+      0.0333333 0 0 0
+    endlist
+  endnode
+  node trimesh window08
+    parent fried_fix_01
+    selfillumcolorkey
+      0 0 0 0
+      0.0333333 0 0 0
+    endlist
   endnode
 doneanim day wmx01_m29_13
 
@@ -2574,40 +2577,6 @@ newanim day2night wmx01_m29_13
   node dummy wmx01_m29_13
     parent NULL
   endnode
-  node dummy wmx01_m29_13a
-    parent wmx01_m29_13
-  endnode
-  node dummy fried_fix_01
-    parent wmx01_m29_13a
-  endnode
-  node trimesh window06
-    parent fried_fix_01
-    selfillumcolorkey
-      0 0 0 0
-      0.566667 0.882353 0.882353 0.882353
-    endlist
-  endnode
-  node trimesh window07
-    parent fried_fix_01
-    selfillumcolorkey
-      0 0 0 0
-      0.566667 0.882353 0.882353 0.882353
-    endlist
-  endnode
-  node trimesh window01
-    parent fried_fix_01
-    selfillumcolorkey
-      0 0 0 0
-      0.566667 0.882353 0.882353 0.882353
-    endlist
-  endnode
-  node trimesh window08
-    parent fried_fix_01
-    selfillumcolorkey
-      0 0 0 0
-      0.566667 0.882353 0.882353 0.882353
-    endlist
-  endnode
   node light wmx01_m29_13ml1
     parent wmx01_m29_13
   endnode
@@ -2718,6 +2687,40 @@ newanim day2night wmx01_m29_13
   endnode
   node dummy wok02
     parent wmx01_m29_13
+  endnode
+  node dummy wmx01_m29_13a
+    parent wmx01_m29_13
+  endnode
+  node dummy fried_fix_01
+    parent wmx01_m29_13a
+  endnode
+  node trimesh window06
+    parent fried_fix_01
+    selfillumcolorkey
+      0 0 0 0
+      0.566667 0.882353 0.882353 0.882353
+    endlist
+  endnode
+  node trimesh window07
+    parent fried_fix_01
+    selfillumcolorkey
+      0 0 0 0
+      0.566667 0.882353 0.882353 0.882353
+    endlist
+  endnode
+  node trimesh window01
+    parent fried_fix_01
+    selfillumcolorkey
+      0 0 0 0
+      0.566667 0.882353 0.882353 0.882353
+    endlist
+  endnode
+  node trimesh window08
+    parent fried_fix_01
+    selfillumcolorkey
+      0 0 0 0
+      0.566667 0.882353 0.882353 0.882353
+    endlist
   endnode
 doneanim day2night wmx01_m29_13
 
@@ -2729,40 +2732,6 @@ newanim night wmx01_m29_13
   node dummy wmx01_m29_13
     parent NULL
   endnode
-  node dummy wmx01_m29_13a
-    parent wmx01_m29_13
-  endnode
-  node dummy fried_fix_01
-    parent wmx01_m29_13a
-  endnode
-  node trimesh window06
-    parent fried_fix_01
-    selfillumcolorkey
-      0 0.882353 0.882353 0.882353
-      0.0333333 0.882353 0.882353 0.882353
-    endlist
-  endnode
-  node trimesh window07
-    parent fried_fix_01
-    selfillumcolorkey
-      0 0.882353 0.882353 0.882353
-      0.0333333 0.882353 0.882353 0.882353
-    endlist
-  endnode
-  node trimesh window01
-    parent fried_fix_01
-    selfillumcolorkey
-      0 0.882353 0.882353 0.882353
-      0.0333333 0.882353 0.882353 0.882353
-    endlist
-  endnode
-  node trimesh window08
-    parent fried_fix_01
-    selfillumcolorkey
-      0 0.882353 0.882353 0.882353
-      0.0333333 0.882353 0.882353 0.882353
-    endlist
-  endnode
   node light wmx01_m29_13ml1
     parent wmx01_m29_13
   endnode
@@ -2873,6 +2842,40 @@ newanim night wmx01_m29_13
   endnode
   node dummy wok02
     parent wmx01_m29_13
+  endnode
+  node dummy wmx01_m29_13a
+    parent wmx01_m29_13
+  endnode
+  node dummy fried_fix_01
+    parent wmx01_m29_13a
+  endnode
+  node trimesh window06
+    parent fried_fix_01
+    selfillumcolorkey
+      0 0.882353 0.882353 0.882353
+      0.0333333 0.882353 0.882353 0.882353
+    endlist
+  endnode
+  node trimesh window07
+    parent fried_fix_01
+    selfillumcolorkey
+      0 0.882353 0.882353 0.882353
+      0.0333333 0.882353 0.882353 0.882353
+    endlist
+  endnode
+  node trimesh window01
+    parent fried_fix_01
+    selfillumcolorkey
+      0 0.882353 0.882353 0.882353
+      0.0333333 0.882353 0.882353 0.882353
+    endlist
+  endnode
+  node trimesh window08
+    parent fried_fix_01
+    selfillumcolorkey
+      0 0.882353 0.882353 0.882353
+      0.0333333 0.882353 0.882353 0.882353
+    endlist
   endnode
 doneanim night wmx01_m29_13
 
@@ -2884,40 +2887,6 @@ newanim night2day wmx01_m29_13
   node dummy wmx01_m29_13
     parent NULL
   endnode
-  node dummy wmx01_m29_13a
-    parent wmx01_m29_13
-  endnode
-  node dummy fried_fix_01
-    parent wmx01_m29_13a
-  endnode
-  node trimesh window06
-    parent fried_fix_01
-    selfillumcolorkey
-      0 0.882353 0.882353 0.882353
-      0.6 0 0 0
-    endlist
-  endnode
-  node trimesh window07
-    parent fried_fix_01
-    selfillumcolorkey
-      0 0.882353 0.882353 0.882353
-      0.6 0 0 0
-    endlist
-  endnode
-  node trimesh window01
-    parent fried_fix_01
-    selfillumcolorkey
-      0 0.882353 0.882353 0.882353
-      0.6 0 0 0
-    endlist
-  endnode
-  node trimesh window08
-    parent fried_fix_01
-    selfillumcolorkey
-      0 0.882353 0.882353 0.882353
-      0.6 0 0 0
-    endlist
-  endnode
   node light wmx01_m29_13ml1
     parent wmx01_m29_13
   endnode
@@ -3028,6 +2997,40 @@ newanim night2day wmx01_m29_13
   endnode
   node dummy wok02
     parent wmx01_m29_13
+  endnode
+  node dummy wmx01_m29_13a
+    parent wmx01_m29_13
+  endnode
+  node dummy fried_fix_01
+    parent wmx01_m29_13a
+  endnode
+  node trimesh window06
+    parent fried_fix_01
+    selfillumcolorkey
+      0 0.882353 0.882353 0.882353
+      0.6 0 0 0
+    endlist
+  endnode
+  node trimesh window07
+    parent fried_fix_01
+    selfillumcolorkey
+      0 0.882353 0.882353 0.882353
+      0.6 0 0 0
+    endlist
+  endnode
+  node trimesh window01
+    parent fried_fix_01
+    selfillumcolorkey
+      0 0.882353 0.882353 0.882353
+      0.6 0 0 0
+    endlist
+  endnode
+  node trimesh window08
+    parent fried_fix_01
+    selfillumcolorkey
+      0 0.882353 0.882353 0.882353
+      0.6 0 0 0
+    endlist
   endnode
 doneanim night2day wmx01_m29_13
 
@@ -3039,40 +3042,6 @@ newanim tiledefault wmx01_m29_13
   node dummy wmx01_m29_13
     parent NULL
   endnode
-  node dummy wmx01_m29_13a
-    parent wmx01_m29_13
-  endnode
-  node dummy fried_fix_01
-    parent wmx01_m29_13a
-  endnode
-  node trimesh window06
-    parent fried_fix_01
-    selfillumcolorkey
-      0 0 0 0
-      0.0333333 0 0 0
-    endlist
-  endnode
-  node trimesh window07
-    parent fried_fix_01
-    selfillumcolorkey
-      0 0 0 0
-      0.0333333 0 0 0
-    endlist
-  endnode
-  node trimesh window01
-    parent fried_fix_01
-    selfillumcolorkey
-      0 0 0 0
-      0.0333333 0 0 0
-    endlist
-  endnode
-  node trimesh window08
-    parent fried_fix_01
-    selfillumcolorkey
-      0 0 0 0
-      0.0333333 0 0 0
-    endlist
-  endnode
   node light wmx01_m29_13ml1
     parent wmx01_m29_13
   endnode
@@ -3183,6 +3152,40 @@ newanim tiledefault wmx01_m29_13
   endnode
   node dummy wok02
     parent wmx01_m29_13
+  endnode
+  node dummy wmx01_m29_13a
+    parent wmx01_m29_13
+  endnode
+  node dummy fried_fix_01
+    parent wmx01_m29_13a
+  endnode
+  node trimesh window06
+    parent fried_fix_01
+    selfillumcolorkey
+      0 0 0 0
+      0.0333333 0 0 0
+    endlist
+  endnode
+  node trimesh window07
+    parent fried_fix_01
+    selfillumcolorkey
+      0 0 0 0
+      0.0333333 0 0 0
+    endlist
+  endnode
+  node trimesh window01
+    parent fried_fix_01
+    selfillumcolorkey
+      0 0 0 0
+      0.0333333 0 0 0
+    endlist
+  endnode
+  node trimesh window08
+    parent fried_fix_01
+    selfillumcolorkey
+      0 0 0 0
+      0.0333333 0 0 0
+    endlist
   endnode
 doneanim tiledefault wmx01_m29_13
 donemodel wmx01_m29_13

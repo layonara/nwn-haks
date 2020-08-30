@@ -1,447 +1,14 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 19:22:00 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wmx08_w09_01
-setsupermodel wmx08_w09_01 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wmx08_w09_01 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wmx08_w09_01
 node dummy wmx08_w09_01
   parent NULL
-endnode
-node dummy wmx08_w09_01a
-  parent wmx08_w09_01
-  wirecolor 0.839216 0.898039 0.65098
-  orientation 0 0 0 0
-  position 0 0 0
-endnode
-node trimesh plane328
-  parent wmx08_w09_01a
-  orientation 0 0 0 0
-  wirecolor 0.54902 0.54902 0.54902
-  tilefade 0
-  scale 1
-  render 1
-  beaming 0
-  inheritcolor 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 1 1 1
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 1
-  center 40 44 4598.5
-  bitmap wmx01_waterxx
-  rotatetexture 1
-  shadow 0
-  position 0 1.48 -42.04
-  verts 10
-    -2.27 0.32 50.42
-    1.74 -0.21 50.42
-    -1.09 3.33 50.93
-    4.11 1.88 50.93
-    -2.81 -0.51 45.52
-    -0.25 -2.36 45.92
-    -3.31 -1.29 41.04
-    0.45 -2.45 41.04
-    0.67 -1.94 48.69
-    -2.66 -0.13 48.43
-  faces 8
-    0 1 2 1 0 1 2 1
-    3 2 1 1 3 2 1 1
-    4 8 1 1 4 8 1 1
-    1 9 4 1 1 9 4 1
-    6 7 5 1 6 7 5 1
-    5 4 6 1 5 4 6 1
-    4 5 8 1 4 5 8 1
-    1 0 9 1 1 0 9 1
-  tverts 10
-    0.890625 2.30664 0
-    0.890625 0.970703 0
-    2 2.09961 0
-    2 0.900391 0
-    0.802734 2.14258 0
-    0.800781 1.18555 0
-    0.890625 2.14258 0
-    0.890625 1.18555 0
-    0.855469 1.05273 0
-    0.853516 2.24023 0
-endnode
-node trimesh plane566
-  parent wmx08_w09_01a
-  orientation 0 0 0 0
-  wirecolor 0.894118 0.894118 0.894118
-  tilefade 0
-  scale 1
-  render 1
-  beaming 0
-  inheritcolor 0
-  alpha 1
-  transparencyhint 1
-  selfillumcolor 0 0 0
-  ambient 1 1 1
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 1
-  center 0 0 0
-  bitmap wmx01_waterxx
-  rotatetexture 1
-  shadow 0
-  position -2 -2 -1
-  verts 4
-    -3 3 0
-    -3 -3 0
-    3 3 0
-    3 -3 0
-  faces 2
-    0 1 2 1 0 1 2 65536
-    3 2 1 1 3 2 1 65536
-  tverts 4
-    0 1 0
-    0 0 0
-    1 1 0
-    1 0 0
-endnode
-node emitter e_g07_01c
-  parent wmx08_w09_01a
-  orientation 0.542068 0.297567 -0.785886 -4.10463
-  wirecolor 0.87451 0.87451 0.87451
-  update_sel 1
-  update Fountain
-  render_sel 1
-  render Normal
-  blend_sel 3
-  blend Lighten
-  spawntype_sel 0
-  spawntype 0
-  xsize 4
-  ysize 146
-  inherit 1
-  inherit_local 0
-  inheritvel 0
-  inherit_part 0
-  renderorder 0
-  threshold 0
-  combinetime 0
-  deadspace 0
-  opacity 0
-  colorStart 1 1 1
-  colorEnd 1 1 1
-  alphaStart 0.6
-  alphaEnd 0.3
-  sizeStart 1
-  sizeEnd 3
-  sizeStart_y 0
-  sizeEnd_y 0
-  birthrate 15
-  lifeExp 2.5
-  mass 0.5
-  spread 0.698132
-  particleRot -0.6
-  velocity 1.9
-  randvel 0.2
-  bounce_co 0
-  blurlength 10
-  loop 0
-  bounce 0
-  m_isTinted 1
-  splat 0
-  affectedByWind false
-  texture fxpa_splash
-  twosidedtex 0
-  xgrid 1
-  ygrid 1
-  fps 0
-  frameStart 0
-  frameEnd 0
-  random 0
-  lightningDelay 0
-  lightningRadius 0
-  lightningSubDiv 0
-  lightningScale 0
-  blastRadius 0
-  blastLength 0
-  p2p 0
-  p2p_type Bezier
-  p2p_sel 1
-  p2p_bezier2 0
-  p2p_bezier3 0
-  grav 0
-  drag 0
-  position -1.47 2.35 8.62
-endnode
-node emitter e_g07_01a
-  parent wmx08_w09_01a
-  orientation 0.510421 0.292845 -0.808525 -3.90187
-  wirecolor 0.54902 0.54902 0.54902
-  update_sel 1
-  update Fountain
-  render_sel 1
-  render Normal
-  blend_sel 3
-  blend Lighten
-  spawntype_sel 0
-  spawntype 0
-  xsize 4
-  ysize 138
-  inherit 1
-  inherit_local 0
-  inheritvel 0
-  inherit_part 0
-  renderorder 0
-  threshold 0
-  combinetime 0
-  deadspace 0
-  opacity 0
-  colorStart 1 1 1
-  colorEnd 1 1 1
-  alphaStart 0.6
-  alphaEnd 0.3
-  sizeStart 1
-  sizeEnd 3
-  sizeStart_y 0
-  sizeEnd_y 0
-  birthrate 20
-  lifeExp 2.5
-  mass 0.5
-  spread 0.698132
-  particleRot 0.8
-  velocity 1.9
-  randvel 0.2
-  bounce_co 0
-  blurlength 10
-  loop 0
-  bounce 0
-  m_isTinted 1
-  splat 0
-  affectedByWind false
-  texture fxpa_splash
-  twosidedtex 0
-  xgrid 1
-  ygrid 1
-  fps 0
-  frameStart 0
-  frameEnd 0
-  random 0
-  lightningDelay 0
-  lightningRadius 0
-  lightningSubDiv 0
-  lightningScale 0
-  blastRadius 0
-  blastLength 0
-  p2p 0
-  p2p_type Bezier
-  p2p_sel 1
-  p2p_bezier2 0
-  p2p_bezier3 0
-  grav 0
-  drag 0
-  position 0.55 1.18 8.59
-endnode
-node emitter e_g07_01e
-  parent wmx08_w09_01a
-  orientation 0 0 -1 -0.969964
-  wirecolor 0.54902 0.54902 0.54902
-  update_sel 1
-  update Fountain
-  render_sel 4
-  render Billboard_to_World_Z
-  blend_sel 3
-  blend Lighten
-  spawntype_sel 0
-  spawntype 0
-  xsize 100
-  ysize 508
-  inherit 1
-  inherit_local 0
-  inheritvel 0
-  inherit_part 0
-  renderorder 0
-  threshold 0
-  combinetime 0
-  deadspace 0
-  opacity 0
-  colorStart 1 1 1
-  colorEnd 1 1 1
-  alphaStart 1
-  alphaEnd 0
-  sizeStart 1
-  sizeEnd 3
-  sizeStart_y 0
-  sizeEnd_y 0
-  birthrate 5
-  lifeExp 1
-  mass 0
-  spread 0
-  particleRot 0.1
-  velocity 0
-  randvel 0
-  bounce_co 0
-  blurlength 10
-  loop 0
-  bounce 0
-  m_isTinted 1
-  splat 0
-  affectedByWind false
-  texture fxpa_splash
-  twosidedtex 0
-  xgrid 1
-  ygrid 1
-  fps 0
-  frameStart 0
-  frameEnd 0
-  random 0
-  lightningDelay 0
-  lightningRadius 0
-  lightningSubDiv 0
-  lightningScale 0
-  blastRadius 0
-  blastLength 0
-  p2p 0
-  p2p_type Bezier
-  p2p_sel 1
-  p2p_bezier2 0
-  p2p_bezier3 0
-  grav 0
-  drag 0
-  position -1.43 -1.63 -0.95
-endnode
-node emitter e_g07_01b
-  parent wmx08_w09_01a
-  orientation 0.51792 0.333478 -0.78775 -4.10599
-  wirecolor 0.54902 0.54902 0.54902
-  update_sel 1
-  update Fountain
-  render_sel 1
-  render Normal
-  blend_sel 3
-  blend Lighten
-  spawntype_sel 0
-  spawntype 0
-  xsize 4
-  ysize 170
-  inherit 1
-  inherit_local 0
-  inheritvel 0
-  inherit_part 0
-  renderorder 0
-  threshold 0
-  combinetime 0
-  deadspace 0
-  opacity 0
-  colorStart 1 1 1
-  colorEnd 1 1 1
-  alphaStart 0.4
-  alphaEnd 0.33
-  sizeStart 0.6
-  sizeEnd 4
-  sizeStart_y 0
-  sizeEnd_y 0
-  birthrate 20
-  lifeExp 2.5
-  mass 0.4
-  spread 1.0472
-  particleRot 0.3
-  velocity 1.8
-  randvel 0.05
-  bounce_co 0
-  blurlength 10
-  loop 0
-  bounce 0
-  m_isTinted 1
-  splat 0
-  affectedByWind false
-  texture fxpa_splash
-  twosidedtex 0
-  xgrid 1
-  ygrid 1
-  fps 0
-  frameStart 0
-  frameEnd 0
-  random 0
-  lightningDelay 0
-  lightningRadius 0
-  lightningSubDiv 0
-  lightningScale 0
-  blastRadius 0
-  blastLength 0
-  p2p 0
-  p2p_type Bezier
-  p2p_sel 1
-  p2p_bezier2 0
-  p2p_bezier3 0
-  grav 0
-  drag 0
-  position -0.37 1.87 8.57
-endnode
-node emitter e_g07_01d
-  parent wmx08_w09_01a
-  orientation 0 0 -1 -0.969964
-  wirecolor 0.54902 0.54902 0.54902
-  update_sel 1
-  update Fountain
-  render_sel 1
-  render Normal
-  blend_sel 1
-  blend Normal
-  spawntype_sel 0
-  spawntype 0
-  xsize 230
-  ysize 505
-  inherit 1
-  inherit_local 0
-  inheritvel 0
-  inherit_part 0
-  renderorder 0
-  threshold 0
-  combinetime 0
-  deadspace 0
-  opacity 0
-  colorStart 1 1 1
-  colorEnd 1 1 1
-  alphaStart 0.5
-  alphaEnd 0
-  sizeStart 2
-  sizeEnd 5
-  sizeStart_y 0
-  sizeEnd_y 0
-  birthrate 10
-  lifeExp 5
-  mass 0
-  spread 3.14159
-  particleRot 0.3
-  velocity 0.2
-  randvel 0.1
-  bounce_co 0
-  blurlength 10
-  loop 0
-  bounce 0
-  m_isTinted 1
-  splat 0
-  affectedByWind false
-  texture fxpa_smoke01
-  twosidedtex 0
-  xgrid 4
-  ygrid 4
-  fps 15
-  frameStart 0
-  frameEnd 15
-  random 0
-  lightningDelay 0
-  lightningRadius 0
-  lightningSubDiv 0
-  lightningScale 0
-  blastRadius 0
-  blastLength 0
-  p2p 0
-  p2p_type Bezier
-  p2p_sel 1
-  p2p_bezier2 0
-  p2p_bezier3 0
-  grav 0
-  drag 0
-  position -1.8 -2.07 -0.35
 endnode
 node trimesh object01
   parent wmx08_w09_01
@@ -572,27 +139,27 @@ node trimesh mesh239
     11 13 21 1 11 13 19 65536
     2 3 22 1 2 3 20 65536
   tverts 21
-    6 0.0507813 0
-    5.34766 0.0507813 0
-    5.49609 0.662109 0
-    6 0.662109 0
-    5.28711 0.662109 0
-    4.94531 0.0507813 0
-    4.98438 0.662109 0
-    4.64453 0.0507813 0
-    4.71484 0.662109 0
-    4.34375 0.0507813 0
-    4.10547 0.662109 0
-    3.57813 0.0507813 0
-    3.44141 0.662109 0
     3 0.0507813 0
+    2.34766 0.0507813 0
+    2.49609 0.662109 0
     3 0.662109 0
-    5.30469 0.0507813 0
-    4.42773 0.0507813 0
-    3.75 0.0507813 0
+    2.28711 0.662109 0
+    1.94531 0.0507813 0
+    1.98438 0.662109 0
+    1.64453 0.0507813 0
+    1.71484 0.662109 0
+    1.34375 0.0507813 0
+    1.10547 0.662109 0
+    0.57813 0.0507813 0
+    0.44141 0.662109 0
     0 0.0507813 0
-    3 0.458984 0
-    6 0.464844 0
+    0 0.662109 0
+    2.30469 0.0507813 0
+    1.42773 0.0507813 0
+    0.75 0.0507813 0
+    -3 0.0507813 0
+    0 0.458984 0
+    3 0.464844 0
 endnode
 node aabb tsh01_m01_01_gr_3_3_3_0_walkmesh
   parent wmx08_w09_01
@@ -600,6 +167,8 @@ node aabb tsh01_m01_01_gr_3_3_3_0_walkmesh
   bitmap NULL
   orientation 0 0 0 0
   position 0 0 0
+  render 0
+  shadow 0
   verts 51
     -1.1 3 11.8
     -1.01 3.8 13.2
@@ -876,7 +445,7 @@ node light wmx08_w09_01ml1
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 1
@@ -1263,13 +832,422 @@ node light wmx08_w09_01ml2
   multiplier 1
   color 0.0039216 0.0039216 0.0039216
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 1
   fadinglight 0
   orientation 0 0 0 0
   position -1.28 -0.62 11.48
+endnode
+node dummy wmx08_w09_01a
+  parent wmx08_w09_01
+  wirecolor 0.839216 0.898039 0.65098
+  orientation 0 0 0 0
+  position 0 0 0
+endnode
+node trimesh plane328
+  parent wmx08_w09_01a
+  orientation 0 0 0 0
+  wirecolor 0.54902 0.54902 0.54902
+  tilefade 0
+  scale 1
+  render 1
+  beaming 0
+  inheritcolor 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  center 40 44 4598.5
+  bitmap wmx01_waterxx
+  rotatetexture 1
+  shadow 0
+  position 0 1.48 -42.04
+  verts 10
+    -2.27 0.32 50.42
+    1.74 -0.21 50.42
+    -1.09 3.33 50.93
+    4.11 1.88 50.93
+    -2.81 -0.51 45.52
+    -0.25 -2.36 45.92
+    -3.31 -1.29 41.04
+    0.45 -2.45 41.04
+    0.67 -1.94 48.69
+    -2.66 -0.13 48.43
+  faces 8
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+    4 8 1 1 4 8 1 1
+    1 9 4 1 1 9 4 1
+    6 7 5 1 6 7 5 1
+    5 4 6 1 5 4 6 1
+    4 5 8 1 4 5 8 1
+    1 0 9 1 1 0 9 1
+  tverts 10
+    -0.109375 1.30664 0
+    -0.109375 -0.029297 0
+    1 1.09961 0
+    1 -0.099609 0
+    -0.197266 1.14258 0
+    -0.199219 0.18555 0
+    -0.109375 1.14258 0
+    -0.109375 0.18555 0
+    -0.144531 0.05273 0
+    -0.146484 1.24023 0
+endnode
+node trimesh plane566
+  parent wmx08_w09_01a
+  orientation 0 0 0 0
+  wirecolor 0.894118 0.894118 0.894118
+  tilefade 0
+  scale 1
+  render 1
+  beaming 0
+  inheritcolor 0
+  alpha 1
+  transparencyhint 1
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  center 0 0 0
+  bitmap wmx01_waterxx
+  rotatetexture 1
+  shadow 0
+  position -2 -2 -1
+  verts 4
+    -3 3 0
+    -3 -3 0
+    3 3 0
+    3 -3 0
+  faces 2
+    0 1 2 1 0 1 2 65536
+    3 2 1 1 3 2 1 65536
+  tverts 4
+    0 1 0
+    0 0 0
+    1 1 0
+    1 0 0
+endnode
+node emitter e_g07_01c
+  parent wmx08_w09_01a
+  alpha 0
+  orientation 0.542068 0.297567 -0.785886 -4.10463
+  wirecolor 0.87451 0.87451 0.87451
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  xsize 4
+  ysize 146
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0
+  combinetime 0
+  deadspace 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 0.6
+  alphaEnd 0.3
+  sizeStart 1
+  sizeEnd 3
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 15
+  lifeExp 2.5
+  mass 0.5
+  spread 0.698132
+  particleRot -0.6
+  velocity 1.9
+  randvel 0.2
+  bounce_co 0
+  blurlength 10
+  loop 0
+  bounce 0
+  m_isTinted 1
+  splat 0
+  affectedByWind 0
+  texture fxpa_splash
+  twosidedtex 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  frameStart 0
+  frameEnd 0
+  random 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -1.47 2.35 8.62
+endnode
+node emitter e_g07_01a
+  parent wmx08_w09_01a
+  alpha 0
+  orientation 0.510421 0.292845 -0.808525 -3.90187
+  wirecolor 0.54902 0.54902 0.54902
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  xsize 4
+  ysize 138
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0
+  combinetime 0
+  deadspace 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 0.6
+  alphaEnd 0.3
+  sizeStart 1
+  sizeEnd 3
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 20
+  lifeExp 2.5
+  mass 0.5
+  spread 0.698132
+  particleRot 0.8
+  velocity 1.9
+  randvel 0.2
+  bounce_co 0
+  blurlength 10
+  loop 0
+  bounce 0
+  m_isTinted 1
+  splat 0
+  affectedByWind 0
+  texture fxpa_splash
+  twosidedtex 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  frameStart 0
+  frameEnd 0
+  random 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position 0.55 1.18 8.59
+endnode
+node emitter e_g07_01e
+  parent wmx08_w09_01a
+  alpha 0
+  orientation 0 0 -1 -0.969964
+  wirecolor 0.54902 0.54902 0.54902
+  update Fountain
+  render Billboard_to_World_Z
+  blend Lighten
+  spawntype 0
+  xsize 100
+  ysize 508
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0
+  combinetime 0
+  deadspace 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 1
+  sizeEnd 3
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 5
+  lifeExp 1
+  mass 0
+  spread 0
+  particleRot 0.1
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  loop 0
+  bounce 0
+  m_isTinted 1
+  splat 0
+  affectedByWind 0
+  texture fxpa_splash
+  twosidedtex 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  frameStart 0
+  frameEnd 0
+  random 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -1.43 -1.63 -0.95
+endnode
+node emitter e_g07_01b
+  parent wmx08_w09_01a
+  alpha 0
+  orientation 0.51792 0.333478 -0.78775 -4.10599
+  wirecolor 0.54902 0.54902 0.54902
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  xsize 4
+  ysize 170
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0
+  combinetime 0
+  deadspace 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 0.4
+  alphaEnd 0.33
+  sizeStart 0.6
+  sizeEnd 4
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 20
+  lifeExp 2.5
+  mass 0.4
+  spread 1.0472
+  particleRot 0.3
+  velocity 1.8
+  randvel 0.05
+  bounce_co 0
+  blurlength 10
+  loop 0
+  bounce 0
+  m_isTinted 1
+  splat 0
+  affectedByWind 0
+  texture fxpa_splash
+  twosidedtex 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  frameStart 0
+  frameEnd 0
+  random 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.37 1.87 8.57
+endnode
+node emitter e_g07_01d
+  parent wmx08_w09_01a
+  alpha 0
+  orientation 0 0 -1 -0.969964
+  wirecolor 0.54902 0.54902 0.54902
+  update Fountain
+  render Normal
+  blend Normal
+  spawntype 0
+  xsize 230
+  ysize 505
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0
+  combinetime 0
+  deadspace 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 0.5
+  alphaEnd 0
+  sizeStart 2
+  sizeEnd 5
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 10
+  lifeExp 5
+  mass 0
+  spread 3.14159
+  particleRot 0.3
+  velocity 0.2
+  randvel 0.1
+  bounce_co 0
+  blurlength 10
+  loop 0
+  bounce 0
+  m_isTinted 1
+  splat 0
+  affectedByWind 0
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 15
+  frameStart 0
+  frameEnd 15
+  random 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -1.8 -2.07 -0.35
 endnode
 endmodelgeom wmx08_w09_01
 
@@ -1280,6 +1258,24 @@ newanim animloop01 wmx08_w09_01
   animroot wmx08_w09_01
   node dummy wmx08_w09_01
     parent NULL
+  endnode
+  node dummy object01
+    parent wmx08_w09_01
+  endnode
+  node dummy mesh239
+    parent wmx08_w09_01
+  endnode
+  node dummy tsh01_m01_01_gr_3_3_3_0_walkmesh
+    parent wmx08_w09_01
+  endnode
+  node light wmx08_w09_01ml1
+    parent wmx08_w09_01
+  endnode
+  node dummy tsh01_m01_01_gr_3_3_3_0_walkmesh01
+    parent wmx08_w09_01
+  endnode
+  node light wmx08_w09_01ml2
+    parent wmx08_w09_01
   endnode
   node dummy wmx08_w09_01a
     parent wmx08_w09_01
@@ -1320,6 +1316,16 @@ newanim animloop01 wmx08_w09_01
       0 10
     endlist
   endnode
+doneanim animloop01 wmx08_w09_01
+
+#MAXANIM ASCII
+newanim tiledefault wmx08_w09_01
+  length 0
+  transtime 0.25
+  animroot wmx08_w09_01
+  node dummy wmx08_w09_01
+    parent NULL
+  endnode
   node dummy object01
     parent wmx08_w09_01
   endnode
@@ -1337,16 +1343,6 @@ newanim animloop01 wmx08_w09_01
   endnode
   node light wmx08_w09_01ml2
     parent wmx08_w09_01
-  endnode
-doneanim animloop01 wmx08_w09_01
-
-#MAXANIM ASCII
-newanim tiledefault wmx08_w09_01
-  length 0
-  transtime 0.25
-  animroot wmx08_w09_01
-  node dummy wmx08_w09_01
-    parent NULL
   endnode
   node dummy wmx08_w09_01a
     parent wmx08_w09_01
@@ -1386,24 +1382,6 @@ newanim tiledefault wmx08_w09_01
     birthratekey
       0 0
     endlist
-  endnode
-  node dummy object01
-    parent wmx08_w09_01
-  endnode
-  node dummy mesh239
-    parent wmx08_w09_01
-  endnode
-  node dummy tsh01_m01_01_gr_3_3_3_0_walkmesh
-    parent wmx08_w09_01
-  endnode
-  node light wmx08_w09_01ml1
-    parent wmx08_w09_01
-  endnode
-  node dummy tsh01_m01_01_gr_3_3_3_0_walkmesh01
-    parent wmx08_w09_01
-  endnode
-  node light wmx08_w09_01ml2
-    parent wmx08_w09_01
   endnode
 doneanim tiledefault wmx08_w09_01
 donemodel wmx08_w09_01

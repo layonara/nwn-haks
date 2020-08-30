@@ -1,9 +1,10 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 19:35:17 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wmx10_z02_01
-setsupermodel wmx10_z02_01 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wmx10_z02_01 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wmx10_z02_01
 node dummy wmx10_z02_01
@@ -26,7 +27,7 @@ node trimesh spike611
   diffuse 0 0 0
   specular 0 0 0
   shininess 10
-  center -5e-006 0 0
+  center -5e-06 0 0
   bitmap gg_black
   shadow 0
   position 2.31 0 2.35
@@ -63,7 +64,7 @@ node trimesh toprail04
   diffuse 0 0 0
   specular 0 0 0
   shininess 10
-  center 0 0.0020065 4.8e-006
+  center 0 0.0020065 4.8e-06
   bitmap gg_black
   shadow 0
   position 2.57 0 1.96
@@ -127,10 +128,10 @@ node trimesh fencebody06
     2 0 4 64 1 0 2 2
     4 6 2 64 2 3 1 2
   tverts 4
-    1.99805 0 0
-    0.00195313 0 0
-    1.99805 1 0
-    0.00195313 1 0
+    0.99805 0 0
+    -0.998047 0 0
+    0.99805 1 0
+    -0.998047 1 0
 endnode
 node trimesh fencebody07
   parent wmx10_z02_01
@@ -169,13 +170,13 @@ node trimesh fencebody07
     4 6 2 64 4 6 2 2
   tverts 8
     1.00586 0 0
-    0.994141 0 0
+    -0.005859 0 0
     0.00195313 0 0
-    1.99805 0 0
+    0.99805 0 0
     1.00586 1 0
-    0.994141 1 0
+    -0.005859 1 0
     0.00195313 1 0
-    1.99805 1 0
+    0.99805 1 0
 endnode
 node trimesh col-body11
   parent wmx10_z02_01
@@ -237,14 +238,14 @@ node trimesh col-body11
     15 12 4 64 7 6 2 2
     4 6 15 64 2 3 7 2
   tverts 8
-    0.804688 0.0605469 0
-    0.195313 0.0605469 0
-    0.804688 2.23438 0
-    0.195313 2.23438 0
-    0.804688 0.785156 0
-    0.195313 0.785156 0
-    0.804688 1.50977 0
-    0.195313 1.50977 0
+    0.804688 -0.939453 0
+    0.195313 -0.939453 0
+    0.804688 1.23438 0
+    0.195313 1.23438 0
+    0.804688 -0.214844 0
+    0.195313 -0.214844 0
+    0.804688 0.50977 0
+    0.195313 0.50977 0
 endnode
 node trimesh col-logo11
   parent wmx10_z02_01
@@ -261,7 +262,7 @@ node trimesh col-logo11
   selfillumcolor 0 0 0
   specular 0 0 0
   shininess 10
-  center 0 0 -5.15e-005
+  center 0 0 -5.15e-05
   bitmap wmx01_fieldstne4
   ambient 1 1 1
   diffuse 1 1 1
@@ -359,7 +360,7 @@ node trimesh col-logo12
   selfillumcolor 0 0 0
   specular 0 0 0
   shininess 10
-  center 0 -1.5e-005 -5.15e-005
+  center 0 -1.5e-05 -5.15e-05
   bitmap wmx01_fieldstne4
   ambient 1 1 1
   diffuse 1 1 1
@@ -496,14 +497,14 @@ node trimesh col-body12
     15 12 4 64 7 6 2 2
     4 6 15 64 2 3 7 2
   tverts 8
-    0.804688 0.0605469 0
-    0.195313 0.0605469 0
-    0.804688 2.23438 0
-    0.195313 2.23438 0
-    0.804688 0.785156 0
-    0.195313 0.785156 0
-    0.804688 1.50977 0
-    0.195313 1.50977 0
+    0.804688 -0.939453 0
+    0.195313 -0.939453 0
+    0.804688 1.23438 0
+    0.195313 1.23438 0
+    0.804688 -0.214844 0
+    0.195313 -0.214844 0
+    0.804688 0.50977 0
+    0.195313 0.50977 0
 endnode
 node trimesh box1440
   parent wmx10_z02_01
@@ -577,7 +578,7 @@ node trimesh col-logo14
   selfillumcolor 0 0 0
   specular 0 0 0
   shininess 10
-  center 0 0 -5.15e-005
+  center 0 0 -5.15e-05
   bitmap wmx01_fieldstne4
   ambient 1 1 1
   diffuse 1 1 1
@@ -639,10 +640,10 @@ node trimesh fencebody09
     2 0 4 64 1 0 2 2
     4 6 2 64 2 3 1 2
   tverts 4
-    1.99805 0 0
-    0.00195313 0 0
-    1.99805 1 0
-    0.00195313 1 0
+    0.99805 0 0
+    -0.998047 0 0
+    0.99805 1 0
+    -0.998047 1 0
 endnode
 node trimesh toprail05
   parent wmx10_z02_01
@@ -661,7 +662,7 @@ node trimesh toprail05
   diffuse 0 0 0
   specular 0 0 0
   shininess 10
-  center 0 0 4.8e-006
+  center 0 0 4.8e-06
   bitmap gg_black
   shadow 0
   position 0 -2.48 1.96
@@ -725,13 +726,13 @@ node trimesh fencebody10
     2 0 4 64 2 0 4 2
     4 6 2 64 4 6 2 2
   tverts 8
-    1.99805 0 0
+    0.99805 0 0
     0.00195313 0 0
-    0.986328 0 0
+    -0.013672 0 0
     1.01367 0 0
-    1.99805 1 0
+    0.99805 1 0
     0.00195313 1 0
-    0.986328 1 0
+    -0.013672 1 0
     1.01367 1 0
 endnode
 node trimesh col-body14
@@ -794,14 +795,14 @@ node trimesh col-body14
     15 12 4 64 7 6 2 2
     4 6 15 64 2 3 7 2
   tverts 8
-    0.804688 0.0605469 0
-    0.195313 0.0605469 0
-    0.804688 2.23438 0
-    0.195313 2.23438 0
-    0.804688 0.785156 0
-    0.195313 0.785156 0
-    0.804688 1.50977 0
-    0.195313 1.50977 0
+    0.804688 -0.939453 0
+    0.195313 -0.939453 0
+    0.804688 1.23438 0
+    0.195313 1.23438 0
+    0.804688 -0.214844 0
+    0.195313 -0.214844 0
+    0.804688 0.50977 0
+    0.195313 0.50977 0
 endnode
 node trimesh backpanel
   parent wmx10_z02_01
@@ -818,7 +819,7 @@ node trimesh backpanel
   selfillumcolor 0 0 0
   specular 0 0 0
   shininess 10
-  center 0 1.5e-005 -5.15e-005
+  center 0 1.5e-05 -5.15e-05
   bitmap wmx01_fieldstne4
   ambient 1 1 1
   diffuse 1 1 1
@@ -855,7 +856,7 @@ node trimesh spike608
   diffuse 0 0 0
   specular 0 0 0
   shininess 10
-  center -5e-006 0 0
+  center -5e-06 0 0
   bitmap gg_black
   shadow 0
   position 0.99 0 2.35
@@ -892,7 +893,7 @@ node trimesh spike609
   diffuse 0 0 0
   specular 0 0 0
   shininess 10
-  center -5e-006 0 0
+  center -5e-06 0 0
   bitmap gg_black
   shadow 0
   position 1.43 0 2.47
@@ -929,7 +930,7 @@ node trimesh spike610
   diffuse 0 0 0
   specular 0 0 0
   shininess 10
-  center -5e-006 0 0
+  center -5e-06 0 0
   bitmap gg_black
   shadow 0
   position 1.87 0 2.47
@@ -956,7 +957,7 @@ node light wmx10_z02_01ml2
   multiplier 1
   color 0.0039216 0.0039216 0.0039216
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -981,7 +982,7 @@ node trimesh spike612
   diffuse 0 0 0
   specular 0 0 0
   shininess 10
-  center -5e-006 0 0
+  center -5e-06 0 0
   bitmap gg_black
   shadow 0
   position 2.75 0 2.28
@@ -1018,7 +1019,7 @@ node trimesh spike613
   diffuse 0 0 0
   specular 0 0 0
   shininess 10
-  center -5e-006 0 0
+  center -5e-06 0 0
   bitmap gg_black
   shadow 0
   position 0.55 0 2.28
@@ -1055,7 +1056,7 @@ node trimesh spike614
   diffuse 0 0 0
   specular 0 0 0
   shininess 10
-  center -5e-006 0 0
+  center -5e-06 0 0
   bitmap gg_black
   shadow 0
   position 4.31 0 2.35
@@ -1092,7 +1093,7 @@ node trimesh spike615
   diffuse 0 0 0
   specular 0 0 0
   shininess 10
-  center -5e-006 0 0
+  center -5e-06 0 0
   bitmap gg_black
   shadow 0
   position 4.75 0 2.47
@@ -1129,7 +1130,7 @@ node trimesh spike616
   diffuse 0 0 0
   specular 0 0 0
   shininess 10
-  center -5e-006 0 0
+  center -5e-06 0 0
   bitmap gg_black
   shadow 0
   position 3.87 0 2.28
@@ -1240,7 +1241,7 @@ node trimesh spike622
   diffuse 0 0 0
   specular 0 0 0
   shininess 10
-  center -5e-006 0 0
+  center -5e-06 0 0
   bitmap gg_black
   shadow 0
   position 0 -1.9 2.47
@@ -1277,7 +1278,7 @@ node trimesh spike623
   diffuse 0 0 0
   specular 0 0 0
   shininess 10
-  center -5e-006 0 0
+  center -5e-06 0 0
   bitmap gg_black
   shadow 0
   position 0 -1.46 2.47
@@ -1314,7 +1315,7 @@ node trimesh spike624
   diffuse 0 0 0
   specular 0 0 0
   shininess 10
-  center -5e-006 0 0
+  center -5e-06 0 0
   bitmap gg_black
   shadow 0
   position 0 -1.01 2.35
@@ -1351,7 +1352,7 @@ node trimesh spike625
   diffuse 0 0 0
   specular 0 0 0
   shininess 10
-  center -5e-006 0 0
+  center -5e-06 0 0
   bitmap gg_black
   shadow 0
   position 0 -0.57 2.28
@@ -1489,7 +1490,7 @@ node light wmx10_z02_01ml1
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -1512,7 +1513,7 @@ node trimesh fencecolumn
   selfillumcolor 0 0 0
   specular 0 0 0
   shininess 10
-  center 0 0 -4.96e-005
+  center 0 0 -4.96e-05
   bitmap wmx_city1f
   ambient 1 1 1
   diffuse 1 1 1
@@ -1628,6 +1629,8 @@ node aabb walkm240
   bitmap NULL
   orientation 0 0 0 0
   position 0 0 0
+  render 0
+  shadow 0
   verts 16
     5 5 0
     0.39 5 0
@@ -2035,7 +2038,7 @@ node trimesh terrain
     119 108 120 1 119 108 120 1
     109 120 108 1 109 120 108 1
   tverts 121
-    -1e-007 0 0
+    -1e-07 0 0
     0.0996094 0 0
     0.199219 0 0
     0.300781 0 0
@@ -2045,7 +2048,7 @@ node trimesh terrain
     0.699219 0 0
     0.800781 0 0
     0.900391 0 0
-    1 -1e-007 0
+    1 -1e-07 0
     0 0.0996094 0
     0.0996094 0.0996094 0
     0.199219 0.0996094 0

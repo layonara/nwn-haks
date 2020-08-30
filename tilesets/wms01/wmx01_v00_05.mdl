@@ -1,892 +1,14 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 19:18:57 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wmx01_v00_05
-setsupermodel wmx01_v00_05 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wmx01_v00_05 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wmx01_v00_05
 node dummy wmx01_v00_05
   parent NULL
-endnode
-node dummy wmx01_v00_05a
-  parent wmx01_v00_05
-  orientation 0 0 0 0
-  wirecolor 1 0 0
-  position 0 0 0
-endnode
-node dummy fried_fix_01
-  parent wmx01_v00_05a
-  wirecolor 0.0313726 0.0313726 0.533333
-  orientation 0 0 0 0
-  position 0 0 -5
-endnode
-node emitter em_top_mist
-  orientation 1 0 0 -0.785398
-  wirecolor 0.831373 0.603922 0.894118
-  update_sel 1
-  update Fountain
-  render_sel 1
-  render Normal
-  blend_sel 3
-  blend Lighten
-  spawntype_sel 0
-  spawntype 0
-  xsize 350
-  ysize 80
-  inherit 0
-  inherit_local 1
-  inheritvel 0
-  inherit_part 0
-  renderorder 1
-  threshold 0
-  combinetime 0
-  deadspace 0
-  opacity 0.5
-  colorStart 0.854902 0.854902 0.854902
-  colorEnd 1 1 1
-  alphaStart 0.5
-  alphaEnd 0.1
-  sizeStart 0.3
-  sizeEnd 0.7
-  sizeStart_y 0
-  sizeEnd_y 0
-  birthrate 100
-  lifeExp 0.5
-  mass 1.2
-  spread 0.523599
-  particleRot 2
-  velocity 1.8
-  randvel 0.3
-  bounce_co 1
-  blurlength 10
-  loop 0
-  bounce 0
-  m_isTinted 1
-  splat 0
-  affectedByWind false
-  texture fxpa_mist
-  twosidedtex 1
-  xgrid 4
-  ygrid 4
-  fps 8
-  frameStart 1
-  frameEnd 16
-  random 1
-  lightningDelay 0
-  lightningRadius 0
-  lightningSubDiv 0
-  lightningScale 0
-  blastRadius 0
-  blastLength 0
-  p2p 0
-  p2p_type Bezier
-  p2p_sel 1
-  p2p_bezier2 0
-  p2p_bezier3 0
-  grav 0
-  drag 0
-  parent fried_fix_01
-  position 0 -2.43 4
-endnode
-node emitter em_stream_top01
-  orientation 1 0 0 -0.523599
-  wirecolor 0.831373 0.603922 0.894118
-  update_sel 1
-  update Fountain
-  render_sel 1
-  render Normal
-  blend_sel 3
-  blend Lighten
-  spawntype_sel 0
-  spawntype 0
-  xsize 350
-  ysize 20
-  inherit 0
-  inherit_local 1
-  inheritvel 0
-  inherit_part 0
-  renderorder 1
-  threshold 0
-  combinetime 0
-  deadspace 0
-  opacity 0.5
-  colorStart 0.862745 0.862745 0.862745
-  colorEnd 1 1 1
-  alphaStart 0.5
-  alphaEnd 0.3
-  sizeStart 0.3
-  sizeEnd 0.95
-  sizeStart_y 0
-  sizeEnd_y 0
-  birthrate 120
-  lifeExp 1
-  mass 1.2
-  spread 0.523599
-  particleRot 1
-  velocity 2
-  randvel 0.2
-  bounce_co 1
-  blurlength 10
-  loop 0
-  bounce 0
-  m_isTinted 1
-  splat 0
-  affectedByWind false
-  texture fxpa_splash
-  twosidedtex 1
-  xgrid 0
-  ygrid 0
-  fps 0
-  frameStart 0
-  frameEnd 0
-  random 0
-  lightningDelay 0
-  lightningRadius 0
-  lightningSubDiv 0
-  lightningScale 0
-  blastRadius 0
-  blastLength 0
-  p2p 0
-  p2p_type Bezier
-  p2p_sel 1
-  p2p_bezier2 0
-  p2p_bezier3 0
-  grav 0
-  drag 0
-  parent fried_fix_01
-  position 0 -1.85 4
-endnode
-node emitter em_stream_top02
-  orientation 1 0 0 -0.0872664
-  wirecolor 0.831373 0.603922 0.894118
-  update_sel 1
-  update Fountain
-  render_sel 1
-  render Normal
-  blend_sel 3
-  blend Lighten
-  spawntype_sel 0
-  spawntype 0
-  xsize 300
-  ysize 80
-  inherit 0
-  inherit_local 1
-  inheritvel 0
-  inherit_part 0
-  renderorder 0
-  threshold 0
-  combinetime 0
-  deadspace 0
-  opacity 0.5
-  colorStart 0.862745 0.862745 0.862745
-  colorEnd 1 1 1
-  alphaStart 0.5
-  alphaEnd 0.3
-  sizeStart 0.35
-  sizeEnd 0.6
-  sizeStart_y 0
-  sizeEnd_y 0
-  birthrate 100
-  lifeExp 0.4
-  mass 1.2
-  spread 0.523599
-  particleRot 2
-  velocity 1.8
-  randvel 0.3
-  bounce_co 1
-  blurlength 10
-  loop 0
-  bounce 0
-  m_isTinted 1
-  splat 0
-  affectedByWind false
-  texture fxpa_splash
-  twosidedtex 1
-  xgrid 0
-  ygrid 0
-  fps 0
-  frameStart 0
-  frameEnd 0
-  random 0
-  lightningDelay 0
-  lightningRadius 0
-  lightningSubDiv 0
-  lightningScale 0
-  blastRadius 0
-  blastLength 0
-  p2p 0
-  p2p_type Bezier
-  p2p_sel 1
-  p2p_bezier2 0
-  p2p_bezier3 0
-  grav 0
-  drag 0
-  parent fried_fix_01
-  position 0.22 -0.76 -0.07
-endnode
-node emitter em_stream_top03
-  orientation 0.986068 0.0430527 -0.160675 -0.530657
-  wirecolor 0.831373 0.603922 0.894118
-  update_sel 1
-  update Fountain
-  render_sel 1
-  render Normal
-  blend_sel 3
-  blend Lighten
-  spawntype_sel 0
-  spawntype 0
-  xsize 120
-  ysize 20
-  inherit 0
-  inherit_local 1
-  inheritvel 0
-  inherit_part 0
-  renderorder 0
-  threshold 0
-  combinetime 0
-  deadspace 0
-  opacity 0.5
-  colorStart 0.866667 0.866667 0.866667
-  colorEnd 1 1 1
-  alphaStart 0.5
-  alphaEnd 0.7
-  sizeStart 0.3
-  sizeEnd 0.98
-  sizeStart_y 0
-  sizeEnd_y 0
-  birthrate 100
-  lifeExp 1.8
-  mass 1.1
-  spread 0.523599
-  particleRot 0.3
-  velocity 1.5
-  randvel 0.2
-  bounce_co 1
-  blurlength 10
-  loop 0
-  bounce 0
-  m_isTinted 1
-  splat 0
-  affectedByWind false
-  texture fxpa_splash
-  twosidedtex 1
-  xgrid 0
-  ygrid 0
-  fps 0
-  frameStart 0
-  frameEnd 0
-  random 0
-  lightningDelay 0
-  lightningRadius 0
-  lightningSubDiv 0
-  lightningScale 0
-  blastRadius 0
-  blastLength 0
-  p2p 0
-  p2p_type Bezier
-  p2p_sel 1
-  p2p_bezier2 0
-  p2p_bezier3 0
-  grav 0
-  drag 0
-  parent fried_fix_01
-  position 0.13 -0.44 -0.1
-endnode
-node trimesh water_01
-  wirecolor 0.776471 0.87451 0.337255
-  tilefade 0
-  scale 1
-  render 1
-  beaming 0
-  inheritcolor 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 1 1 1
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 10
-  center 0 0 0
-  bitmap wmx01_waterxx
-  parent fried_fix_01
-  orientation 0 0 0 0
-  rotatetexture 1
-  shadow 0
-  position 0 0 -9
-  verts 21
-    -5 -5 0
-    0 -5 0
-    5 -5 0
-    -5 0 0
-    -4.5 -4.5 0
-    0 -4.5 0
-    4.5 -4.5 0
-    5 0 0
-    -4.5 0 0
-    0 0 0
-    4.5 0 0
-    -4.5 4.5 0
-    0 4.5 0
-    4.5 4.5 0
-    -5 5 0
-    0 5 0
-    5 5 0
-    2.5 -2.5 0
-    2.5 2.5 0
-    -2.5 2.5 0
-    -2.5 -2.5 0
-  faces 32
-    0 1 4 1 0 1 4 20
-    4 3 0 1 4 3 0 20
-    5 4 1 1 5 4 1 20
-    6 5 1 1 6 5 1 20
-    2 7 6 1 2 7 6 20
-    6 1 2 1 6 1 2 20
-    3 4 8 1 3 4 8 20
-    7 10 6 1 7 10 6 20
-    3 8 11 1 3 8 11 20
-    7 13 10 1 7 13 10 20
-    11 15 14 1 11 15 14 20
-    14 3 11 1 14 3 11 20
-    11 12 15 1 11 12 15 20
-    12 13 15 1 12 13 15 20
-    13 7 16 1 13 7 16 20
-    16 15 13 1 16 15 13 20
-    9 20 17 1 9 20 17 20
-    5 6 17 1 5 6 17 20
-    6 10 17 1 6 10 17 20
-    10 18 17 1 10 18 17 20
-    12 19 18 1 12 19 18 20
-    9 17 18 1 9 17 18 20
-    10 13 18 1 10 13 18 20
-    13 12 18 1 13 12 18 20
-    11 8 19 1 11 8 19 20
-    8 20 19 1 8 20 19 20
-    9 18 19 1 9 18 19 20
-    12 11 19 1 12 11 19 20
-    8 4 20 1 8 4 20 20
-    4 5 20 1 4 5 20 20
-    5 17 20 1 5 17 20 20
-    9 19 20 1 9 19 20 20
-  tverts 21
-    0 0 0
-    0.5 0 0
-    1 0 0
-    0 0.5 0
-    0.0507813 0.0507813 0
-    0.5 0.0507813 0
-    0.949219 0.0507813 0
-    1 0.5 0
-    0.0507813 0.5 0
-    0.5 0.5 0
-    0.949219 0.5 0
-    0.0507813 0.949219 0
-    0.5 0.949219 0
-    0.949219 0.949219 0
-    0 1 0
-    0.5 1 0
-    1 1 0
-    0.75 0.25 0
-    0.75 0.75 0
-    0.25 0.75 0
-    0.25 0.25 0
-endnode
-node emitter em_stream_bottom
-  wirecolor 0.831373 0.603922 0.894118
-  update_sel 1
-  update Fountain
-  render_sel 1
-  render Normal
-  blend_sel 3
-  blend Lighten
-  spawntype_sel 0
-  spawntype 0
-  xsize 300
-  ysize 100
-  inherit 0
-  inherit_local 1
-  inheritvel 0
-  inherit_part 0
-  renderorder 0
-  threshold 0
-  combinetime 0
-  deadspace 0
-  opacity 0.5
-  colorStart 0.886275 0.886275 0.886275
-  colorEnd 1 1 1
-  alphaStart 0.3
-  alphaEnd 0.01
-  sizeStart 0.8
-  sizeEnd 1.5
-  sizeStart_y 0
-  sizeEnd_y 0
-  birthrate 60
-  lifeExp 0.3
-  mass -0.1
-  spread 0.523599
-  particleRot 2
-  velocity 1.8
-  randvel 0.3
-  bounce_co 1
-  blurlength 10
-  loop 0
-  bounce 0
-  m_isTinted 1
-  splat 0
-  affectedByWind false
-  texture fxpa_mist
-  twosidedtex 1
-  xgrid 4
-  ygrid 4
-  fps 8
-  frameStart 1
-  frameEnd 16
-  random 1
-  lightningDelay 0
-  lightningRadius 0
-  lightningSubDiv 0
-  lightningScale 0
-  blastRadius 0
-  blastLength 0
-  p2p 0
-  p2p_type Bezier
-  p2p_sel 1
-  p2p_bezier2 0
-  p2p_bezier3 0
-  grav 0
-  drag 0
-  parent fried_fix_01
-  orientation 0 0 0 0
-  position 0.29 1.1 -8.99
-endnode
-node trimesh object03
-  wirecolor 0.337255 0.556863 0.882353
-  tilefade 0
-  scale 1
-  render 1
-  shadow 0
-  beaming 0
-  inheritcolor 0
-  alpha 1
-  transparencyhint 1
-  selfillumcolor 0 0 0
-  ambient 1 1 1
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 11
-  center 17 42 -438.5
-  bitmap wmx01_waterxx
-  parent fried_fix_01
-  orientation 0 0 0 0
-  rotatetexture 1
-  position 0.01 -0.66 -0.22
-  verts 10
-    1.06 0.23 0
-    -0.72 -0.09 0
-    1.06 0.53 -0.15
-    -0.72 0.21 -0.15
-    1.06 0.63 -0.44
-    -0.72 0.31 -0.44
-    1.06 0.78 -8.76
-    -0.72 0.63 -8.76
-    0.17 0.78 -0.44
-    0.17 0.93 -8.76
-  faces 9
-    1 0 2 1 1 0 2 7
-    2 3 1 1 2 3 1 7
-    8 5 3 1 8 5 3 7
-    4 8 3 1 4 8 3 7
-    4 3 2 1 4 3 2 7
-    9 8 4 1 9 8 4 7
-    4 6 9 1 4 6 9 7
-    7 5 8 1 7 5 8 7
-    8 9 7 1 8 9 7 7
-  tverts 10
-    0.677734 2.37695 0
-    0.322266 2.37695 0
-    0.677734 2.34766 0
-    0.322266 2.34766 0
-    0.677734 2.28711 0
-    0.322266 2.28711 0
-    0.677734 0.623047 0
-    0.322266 0.623047 0
-    0.5 2.28711 0
-    0.5 0.623047 0
-endnode
-node trimesh object04
-  wirecolor 0.337255 0.556863 0.882353
-  tilefade 0
-  scale 1
-  render 1
-  shadow 0
-  beaming 0
-  inheritcolor 0
-  alpha 1
-  transparencyhint 1
-  selfillumcolor 0 0 0
-  ambient 1 1 1
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 11
-  center 14 -14.5 7.5
-  bitmap wmx01_waterxx
-  parent fried_fix_01
-  orientation 0 0 0 0
-  rotatetexture 1
-  position 0.01 -0.66 -0.22
-  verts 4
-    1.43 -0.52 0.16
-    -1.15 -0.52 0.16
-    1.06 0.23 0
-    -0.72 -0.09 0
-  faces 2
-    1 0 2 1 1 0 2 7
-    2 3 1 1 2 3 1 7
-  tverts 4
-    1 0.375 0
-    0 0.375 0
-    0.855469 0.625 0
-    0.166016 0.517578 0
-endnode
-node danglymesh bush00
-  wirecolor 0.337255 0.694118 0.101961
-  tilefade 0
-  scale 1
-  render 1
-  shadow 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 1 1 1
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 11
-  period 0.8
-  tightness 1
-  displacement 0.3
-  showdispl true
-  displtype 1
-  center 0 0 82.5
-  bitmap tno01_bush03
-  parent fried_fix_01
-  orientation 0 0 0 0
-  position -3.34 -2.82 5.19
-  verts 6
-    0 1.29 -0.25
-    0 -1.29 -0.25
-    0 0 1.9
-    0 -1.29 -0.25
-    0 0 1.9
-    0 1.29 -0.25
-  faces 2
-    1 2 0 1 1 2 0 1
-    4 3 5 1 2 1 0 1
-  tverts 3
-    0.0136719 0 0
-    0.986328 0 0
-    0.5 0.970703 0
-  constraints 6
-    0
-    0
-    112.838
-    0
-    112.838
-    0
-endnode
-node danglymesh bush01
-  wirecolor 0.337255 0.694118 0.101961
-  tilefade 0
-  scale 1
-  render 1
-  shadow 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 1 1 1
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 11
-  period 0.8
-  tightness 1
-  displacement 0.3
-  showdispl true
-  displtype 1
-  center 0 0 100.5
-  bitmap tno01_bush03
-  parent fried_fix_01
-  orientation 0 0 0 0
-  position -3.34 -2.82 5.01
-  verts 6
-    1.11 0.64 -0.06
-    -1.13 -0.64 -0.06
-    0 0 2.08
-    -1.13 -0.64 -0.06
-    0 0 2.08
-    1.11 0.64 -0.06
-  faces 2
-    1 2 0 1 1 2 0 1
-    4 3 5 1 2 1 0 1
-  tverts 3
-    0.0136719 0 0
-    0.986328 0 0
-    0.5 0.970703 0
-  constraints 6
-    0
-    0
-    138
-    0
-    138
-    0
-endnode
-node danglymesh bush02
-  wirecolor 0.337255 0.694118 0.101961
-  tilefade 0
-  scale 1
-  render 1
-  shadow 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 1 1 1
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 11
-  period 0.8
-  tightness 1
-  displacement 0.3
-  showdispl true
-  displtype 1
-  center 0 0 100.5
-  bitmap tno01_bush03
-  parent fried_fix_01
-  orientation 0 0 0 0
-  position -3.34 -2.82 5.01
-  verts 6
-    -1.13 0.64 -0.06
-    1.11 -0.64 -0.06
-    0 0 2.08
-    1.11 -0.64 -0.06
-    0 0 2.08
-    -1.13 0.64 -0.06
-  faces 2
-    1 2 0 1 1 2 0 1
-    4 3 5 1 2 1 0 1
-  tverts 3
-    0.0136719 0 0
-    0.986328 0 0
-    0.5 0.970703 0
-  constraints 6
-    0
-    0
-    168
-    0
-    168
-    0
-endnode
-node danglymesh bush03
-  wirecolor 0.337255 0.694118 0.101961
-  tilefade 0
-  scale 1
-  render 1
-  shadow 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 1 1 1
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 11
-  period 0.8
-  tightness 1
-  displacement 0.3
-  showdispl true
-  displtype 1
-  center -0.5 -0.5 60
-  bitmap tno01_bush03
-  parent fried_fix_01
-  orientation 0 0 0 0
-  position -3.1 -2.76 5.22
-  verts 6
-    -0.87 0.64 -0.18
-    0.64 -0.87 -0.18
-    0.87 0.86 1.38
-    0.64 -0.87 -0.18
-    0.87 0.86 1.38
-    -0.87 0.64 -0.18
-  faces 2
-    1 2 0 1 1 2 0 1
-    4 3 5 1 2 1 0 1
-  tverts 3
-    0.0136719 0 0
-    0.986328 0 0
-    0.5 0.970703 0
-  constraints 6
-    0
-    0
-    119
-    0
-    119
-    0
-endnode
-node danglymesh bush04
-  wirecolor 0.337255 0.694118 0.101961
-  tilefade 0
-  scale 1
-  render 1
-  shadow 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 1 1 1
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 11
-  period 0.8
-  tightness 1
-  displacement 0.3
-  showdispl true
-  displtype 1
-  center -1.50001 -48 60
-  bitmap tno01_bush03
-  parent fried_fix_01
-  orientation 0 0 0 0
-  position -3.27 -3.06 5.22
-  verts 6
-    1.04 0.25 -0.18
-    -1.08 0.07 -0.18
-    0.11 -1.21 1.38
-    -1.08 0.07 -0.18
-    0.11 -1.21 1.38
-    1.04 0.25 -0.18
-  faces 2
-    1 2 0 1 1 2 0 1
-    4 3 5 1 2 1 0 1
-  tverts 3
-    0.0136719 0 0
-    0.986328 0 0
-    0.5 0.970703 0
-  constraints 6
-    0
-    0
-    112
-    0
-    112
-    0
-endnode
-node danglymesh bush05
-  wirecolor 0.337255 0.694118 0.101961
-  tilefade 0
-  scale 1
-  render 1
-  shadow 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 1 1 1
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 11
-  period 0.8
-  tightness 1
-  displacement 0.3
-  showdispl true
-  displtype 1
-  center -13 -9 60
-  bitmap tno01_bush03
-  parent fried_fix_01
-  orientation 0 0 0 0
-  position -3.6 -2.85 5.22
-  verts 6
-    -0.48 -0.97 -0.18
-    0.74 0.8 -0.18
-    -1 0.7 1.38
-    0.74 0.8 -0.18
-    -1 0.7 1.38
-    -0.48 -0.97 -0.18
-  faces 2
-    1 2 0 1 1 2 0 1
-    4 3 5 1 2 1 0 1
-  tverts 3
-    0.0136719 0 0
-    0.986328 0 0
-    0.5 0.970703 0
-  constraints 6
-    0
-    0
-    104
-    0
-    104
-    0
-endnode
-node trimesh water_fall
-  wirecolor 0.337255 0.556863 0.882353
-  tilefade 0
-  scale 1
-  render 1
-  shadow 0
-  beaming 0
-  inheritcolor 0
-  alpha 1
-  transparencyhint 1
-  selfillumcolor 0 0 0
-  ambient 1 1 1
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 11
-  center 0 -295.5 -238.5
-  bitmap wmx01_waterxx
-  parent fried_fix_01
-  orientation 0 0 0 0
-  rotatetexture 1
-  position 0 0 4.6
-  verts 8
-    -5 -5 0
-    5 -5 0
-    2.01 -2 0
-    -1.99 -2 0
-    1.84 -1.55 -0.3
-    -1.96 -1.55 -0.3
-    2.01 -0.91 -4.77
-    -1.99 -0.91 -4.77
-  faces 6
-    0 1 2 1 8 9 10 1
-    2 3 0 1 10 11 8 1
-    4 5 3 1 6 7 1 1
-    3 2 4 1 1 0 6 1
-    6 7 5 1 4 5 3 1
-    5 4 6 1 3 2 4 1
-  tverts 12
-    0.902344 0.0996094 0
-    0.101563 0.0996094 0
-    0.132813 1.24023 0
-    0.890625 1.24023 0
-    0.0976563 0.345703 0
-    0.898438 0.345703 0
-    0.867188 0.189453 0
-    0.109375 0.189453 0
-    0.00195313 0.00195313 0
-    1.99805 0.00195313 0
-    1.40234 0.599609 0
-    0.601563 0.599609 0
 endnode
 node light wmx01_v00_05ml1
   parent wmx01_v00_05
@@ -895,7 +17,7 @@ node light wmx01_v00_05ml1
   multiplier 1
   color 0.639216 0.639216 0.639216
   ambientonly 0
-  ndynamictype 1
+  nDynamicType 1
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -910,7 +32,7 @@ node light wmx01_v00_05ml2
   multiplier 1
   color 0.639216 0.639216 0.639216
   ambientonly 0
-  ndynamictype 1
+  nDynamicType 1
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -974,22 +96,22 @@ node trimesh mesh04
     14 11 15 1 14 11 15 2
     10 15 1 1 10 15 1 2
   tverts 16
-    0.189453 1.29883 0
-    0.867188 0.931641 0
-    1.81836 1.29883 0
-    0.00195313 1.29883 0
-    1.99805 1.29883 0
-    0.00195313 1.99805 0
-    0.5 1.99805 0
-    1 1.99805 0
-    1.5 1.99805 0
-    1.99805 1.99805 0
-    1.26172 0.972656 0
-    0.740234 1.28906 0
-    1.50781 1.33203 0
-    0.439453 1.31445 0
-    0.337891 1.63477 0
-    0.958984 1.65625 0
+    -0.810547 0.29883 0
+    -0.132812 -0.068359 0
+    0.81836 0.29883 0
+    -0.998047 0.29883 0
+    0.99805 0.29883 0
+    -0.998047 0.99805 0
+    -0.5 0.99805 0
+    0 0.99805 0
+    0.5 0.99805 0
+    0.99805 0.99805 0
+    0.26172 -0.027344 0
+    -0.259766 0.28906 0
+    0.50781 0.33203 0
+    -0.560547 0.31445 0
+    -0.662109 0.63477 0
+    -0.041016 0.65625 0
 endnode
 node trimesh cliff00
   parent wmx01_v00_05
@@ -1100,43 +222,43 @@ node trimesh cliff00
     9 4 36 256 9 4 36 1
     18 17 4 256 18 17 4 1
   tverts 37
-    0.00195313 1 0
-    0.166016 1 0
-    1.79688 1 0
-    1.99805 1 0
-    0.166016 0.900391 0
-    0.00195313 0.900391 0
-    1.79688 0.900391 0
-    1.99805 0.900391 0
-    0.00195313 0.699219 0
-    0.224609 0.699219 0
-    1.8125 0.699219 0
-    1.99805 0.699219 0
-    0.189453 0 0
-    0.00195313 0 0
-    1.66406 0 0
-    1.99805 0 0
-    0.740234 0.740234 0
-    0.556641 0.900391 0
-    0.339844 1 0
-    1.65625 1 0
-    1.43945 0.900391 0
-    1 0.648438 0
-    1.25977 0.740234 0
-    1.40039 0 0
-    1.3418 0.699219 0
-    0.560547 0 0
-    0.652344 0.699219 0
-    0.998047 0 0
-    1.22461 0 0
-    0.765625 0 0
-    1.29688 0.423828 0
-    1.39844 0.441406 0
-    0.755859 0.265625 0
-    0.5625 0.332031 0
-    1.54688 0.699219 0
-    1.60352 0.900391 0
-    0.519531 0.699219 0
+    -0.998047 1 0
+    -0.833984 1 0
+    0.79688 1 0
+    0.99805 1 0
+    -0.833984 0.900391 0
+    -0.998047 0.900391 0
+    0.79688 0.900391 0
+    0.99805 0.900391 0
+    -0.998047 0.699219 0
+    -0.775391 0.699219 0
+    0.8125 0.699219 0
+    0.99805 0.699219 0
+    -0.810547 0 0
+    -0.998047 0 0
+    0.66406 0 0
+    0.99805 0 0
+    -0.259766 0.740234 0
+    -0.443359 0.900391 0
+    -0.660156 1 0
+    0.65625 1 0
+    0.43945 0.900391 0
+    0 0.648438 0
+    0.25977 0.740234 0
+    0.40039 0 0
+    0.3418 0.699219 0
+    -0.439453 0 0
+    -0.347656 0.699219 0
+    -0.001953 0 0
+    0.22461 0 0
+    -0.234375 0 0
+    0.29688 0.423828 0
+    0.39844 0.441406 0
+    -0.244141 0.265625 0
+    -0.4375 0.332031 0
+    0.54688 0.699219 0
+    0.60352 0.900391 0
+    -0.480469 0.699219 0
 endnode
 node trimesh cliff02
   parent wmx01_v00_05
@@ -1239,38 +361,38 @@ node trimesh cliff02
     23 26 30 1 23 26 30 2
     31 15 27 1 31 15 27 2
   tverts 32
-    0.00195313 0 0
-    0.189453 0 0
-    1 0 0
-    1.74219 0 0
-    1.99805 0 0
-    0.189453 1 0
-    0.00195313 1 0
-    1.03711 0.882813 0
-    1.66406 1 0
-    1.99805 1 0
-    1.40039 1 0
-    0.560547 1 0
-    0.998047 0.927734 0
-    1.22461 0.949219 0
-    0.765625 0.992188 0
-    1.33203 0 0
-    0.476563 0 0
-    1.29492 0.96875 0
-    1.1543 0.587891 0
-    0.677734 0.96875 0
-    0.722656 0.699219 0
-    1.04688 1 0
-    1.23828 1.07227 0
-    1.14844 0.884766 0
-    1.08984 1.07422 0
-    1.18164 1.11719 0
-    1.16406 1.03516 0
-    1.3418 0.675781 0
-    1.15234 0.919922 0
-    1.30664 0.783203 0
-    1.23828 0.957031 0
-    1.56055 0 0
+    -0.998047 0 0
+    -0.810547 0 0
+    0 0 0
+    0.74219 0 0
+    0.99805 0 0
+    -0.810547 1 0
+    -0.998047 1 0
+    0.03711 0.882813 0
+    0.66406 1 0
+    0.99805 1 0
+    0.40039 1 0
+    -0.439453 1 0
+    -0.001953 0.927734 0
+    0.22461 0.949219 0
+    -0.234375 0.992188 0
+    0.33203 0 0
+    -0.523437 0 0
+    0.29492 0.96875 0
+    0.1543 0.587891 0
+    -0.322266 0.96875 0
+    -0.277344 0.699219 0
+    0.04688 1 0
+    0.23828 1.07227 0
+    0.14844 0.884766 0
+    0.08984 1.07422 0
+    0.18164 1.11719 0
+    0.16406 1.03516 0
+    0.3418 0.675781 0
+    0.15234 0.919922 0
+    0.30664 0.783203 0
+    0.23828 0.957031 0
+    0.56055 0 0
 endnode
 node trimesh cliff01
   parent wmx01_v00_05
@@ -1343,28 +465,28 @@ node trimesh cliff01
     1 12 20 1 1 12 20 3
     12 21 20 1 12 21 20 3
   tverts 22
-    0.189453 0 0
-    0.867188 0.142578 0
-    1.81836 0 0
-    0.00195313 0 0
-    1.99805 0 0
-    0.00195313 1 0
-    0.189453 1 0
-    1 1 0
-    1.74219 1 0
-    1.99805 1 0
-    1.26172 0 0
-    1.33203 1 0
-    0.740234 0.0917969 0
-    0.476563 1 0
-    1.50781 0 0
-    1.56055 1 0
-    1.55469 0.654297 0
-    1.74219 0.505859 0
-    1.36133 0.556641 0
-    1.55859 0.824219 0
-    0.527344 0.566406 0
-    0.439453 0.0917969 0
+    -0.810547 0 0
+    -0.132812 0.142578 0
+    0.81836 0 0
+    -0.998047 0 0
+    0.99805 0 0
+    -0.998047 1 0
+    -0.810547 1 0
+    0 1 0
+    0.74219 1 0
+    0.99805 1 0
+    0.26172 0 0
+    0.33203 1 0
+    -0.259766 0.0917969 0
+    -0.523437 1 0
+    0.50781 0 0
+    0.56055 1 0
+    0.55469 0.654297 0
+    0.74219 0.505859 0
+    0.36133 0.556641 0
+    0.55859 0.824219 0
+    -0.472656 0.566406 0
+    -0.560547 0.0917969 0
 endnode
 node aabb wok
   parent wmx01_v00_05
@@ -1376,6 +498,8 @@ node aabb wok
   orientation 0 0 0 0
   bitmap NULL
   position 0 0 0
+  render 0
+  shadow 0
   verts 58
     -5 -1.5 0
     -4.17 -1.5 0
@@ -1826,32 +950,32 @@ node trimesh object102
     21 24 10 1 21 24 10 199
     10 7 21 1 10 7 21 199
   tverts 26
-    1.55859 0.00195313 0
+    0.55859 0.00195313 0
     0.441406 0.00195313 0
     0.300781 0.00195313 0
-    1.69922 0.00195313 0
-    1.4668 0.5 0
+    0.69922 0.00195313 0
+    0.4668 0.5 0
     0.552734 0.5 0
     0.386719 0.5 0
-    1.62891 0.5 0
+    0.62891 0.5 0
     0.556641 0.662109 0
     0.339844 0.654297 0
-    1.65625 0.623047 0
-    1.43945 0.621094 0
-    1.55859 0.25 0
+    0.65625 0.623047 0
+    0.43945 0.621094 0
+    0.55859 0.25 0
     0.441406 0.25 0
     0.00195313 0.00195313 0
     0.101563 0.00195313 0
-    1.89844 0.00195313 0
-    1.99805 0.00195313 0
+    0.89844 0.00195313 0
+    0.99805 0.00195313 0
     0.166016 0.5 0
     0.00195313 0.5 0
-    1.99805 0.5 0
-    1.78711 0.5 0
+    0.99805 0.5 0
+    0.78711 0.5 0
     0.00195313 0.701172 0
     0.166016 0.701172 0
-    1.79688 0.701172 0
-    1.99805 0.701172 0
+    0.79688 0.701172 0
+    0.99805 0.701172 0
 endnode
 node trimesh grassrim
   parent wmx01_v00_05
@@ -1929,32 +1053,32 @@ node trimesh grassrim
     27 11 5 1 24 25 17 1
     5 21 27 1 17 16 24 1
   tverts 26
-    2.00195 0.970703 0
-    1.00391 0.970703 0
-    1.00391 0.0195313 0
-    2.00195 0.0195313 0
-    0.00390625 0.970703 0
-    0.00390625 0.0195313 0
-    2.48242 0.970703 0
-    2.48242 0.0195313 0
-    2.64844 0.970703 0
-    2.64844 0.0195313 0
-    0.00585938 0.0195313 0
-    1.00195 0.0195313 0
-    10.7832 0.0195313 0
-    11.9941 0.0195313 0
-    3.33789 0.0195313 0
-    2.04492 0.0195313 0
-    9.93164 0.0195313 0
-    8.63672 0.0195313 0
     1.00195 0.970703 0
-    0.00585938 0.970703 0
-    11.9941 0.970703 0
-    10.7832 0.970703 0
-    3.33789 0.970703 0
-    2.04492 0.970703 0
-    9.93164 0.970703 0
-    8.63672 0.970703 0
+    0.00391 0.970703 0
+    0.00391 0.0195313 0
+    1.00195 0.0195313 0
+    -0.996094 0.970703 0
+    -0.996094 0.0195313 0
+    1.48242 0.970703 0
+    1.48242 0.0195313 0
+    1.64844 0.970703 0
+    1.64844 0.0195313 0
+    -0.994141 0.0195313 0
+    0.00195 0.0195313 0
+    0.7832 0.0195313 0
+    1.9941 0.0195313 0
+    2.33789 0.0195313 0
+    1.04492 0.0195313 0
+    -0.06836 0.0195313 0
+    -1.36328 0.0195313 0
+    0.00195 0.970703 0
+    -0.994141 0.970703 0
+    1.9941 0.970703 0
+    0.7832 0.970703 0
+    2.33789 0.970703 0
+    1.04492 0.970703 0
+    -0.06836 0.970703 0
+    -1.36328 0.970703 0
 endnode
 node trimesh terrain
   parent wmx01_v00_05
@@ -2171,6 +1295,860 @@ node trimesh terrain
     0.900391 0.400391 0
     1 0.400391 0
 endnode
+node dummy wmx01_v00_05a
+  parent wmx01_v00_05
+  orientation 0 0 0 0
+  wirecolor 1 0 0
+  position 0 0 0
+endnode
+node dummy fried_fix_01
+  parent wmx01_v00_05a
+  wirecolor 0.0313726 0.0313726 0.533333
+  orientation 0 0 0 0
+  position 0 0 -5
+endnode
+node danglymesh bush00
+  parent fried_fix_01
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0 0 82.5
+  bitmap tno01_bush03
+  orientation 0 0 0 0
+  position -3.34 -2.82 5.19
+  verts 6
+    0 1.29 -0.25
+    0 -1.29 -0.25
+    0 0 1.9
+    0 -1.29 -0.25
+    0 0 1.9
+    0 1.29 -0.25
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    112.838
+    0
+    112.838
+    0
+endnode
+node danglymesh bush01
+  parent fried_fix_01
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0 0 100.5
+  bitmap tno01_bush03
+  orientation 0 0 0 0
+  position -3.34 -2.82 5.01
+  verts 6
+    1.11 0.64 -0.06
+    -1.13 -0.64 -0.06
+    0 0 2.08
+    -1.13 -0.64 -0.06
+    0 0 2.08
+    1.11 0.64 -0.06
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    138
+    0
+    138
+    0
+endnode
+node danglymesh bush02
+  parent fried_fix_01
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center 0 0 100.5
+  bitmap tno01_bush03
+  orientation 0 0 0 0
+  position -3.34 -2.82 5.01
+  verts 6
+    -1.13 0.64 -0.06
+    1.11 -0.64 -0.06
+    0 0 2.08
+    1.11 -0.64 -0.06
+    0 0 2.08
+    -1.13 0.64 -0.06
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    168
+    0
+    168
+    0
+endnode
+node danglymesh bush03
+  parent fried_fix_01
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -0.5 -0.5 60
+  bitmap tno01_bush03
+  orientation 0 0 0 0
+  position -3.1 -2.76 5.22
+  verts 6
+    -0.87 0.64 -0.18
+    0.64 -0.87 -0.18
+    0.87 0.86 1.38
+    0.64 -0.87 -0.18
+    0.87 0.86 1.38
+    -0.87 0.64 -0.18
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    119
+    0
+    119
+    0
+endnode
+node danglymesh bush04
+  parent fried_fix_01
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -1.50001 -48 60
+  bitmap tno01_bush03
+  orientation 0 0 0 0
+  position -3.27 -3.06 5.22
+  verts 6
+    1.04 0.25 -0.18
+    -1.08 0.07 -0.18
+    0.11 -1.21 1.38
+    -1.08 0.07 -0.18
+    0.11 -1.21 1.38
+    1.04 0.25 -0.18
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    112
+    0
+    112
+    0
+endnode
+node danglymesh bush05
+  parent fried_fix_01
+  wirecolor 0.337255 0.694118 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  period 0.8
+  tightness 1
+  displacement 0.3
+  showdispl true
+  displtype 1
+  center -13 -9 60
+  bitmap tno01_bush03
+  orientation 0 0 0 0
+  position -3.6 -2.85 5.22
+  verts 6
+    -0.48 -0.97 -0.18
+    0.74 0.8 -0.18
+    -1 0.7 1.38
+    0.74 0.8 -0.18
+    -1 0.7 1.38
+    -0.48 -0.97 -0.18
+  faces 2
+    1 2 0 1 1 2 0 1
+    4 3 5 1 2 1 0 1
+  tverts 3
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
+  constraints 6
+    0
+    0
+    104
+    0
+    104
+    0
+endnode
+node emitter em_top_mist
+  parent fried_fix_01
+  alpha 0.5
+  orientation 1 0 0 -0.785398
+  wirecolor 0.831373 0.603922 0.894118
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  xsize 350
+  ysize 80
+  inherit 0
+  inherit_local 1
+  inheritvel 0
+  inherit_part 0
+  renderorder 1
+  threshold 0
+  combinetime 0
+  deadspace 0
+  colorStart 0.854902 0.854902 0.854902
+  colorEnd 1 1 1
+  alphaStart 0.5
+  alphaEnd 0.1
+  sizeStart 0.3
+  sizeEnd 0.7
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 100
+  lifeExp 0.5
+  mass 1.2
+  spread 0.523599
+  particleRot 2
+  velocity 1.8
+  randvel 0.3
+  bounce_co 1
+  blurlength 10
+  loop 0
+  bounce 0
+  m_isTinted 1
+  splat 0
+  affectedByWind 0
+  texture fxpa_mist
+  twosidedtex 1
+  xgrid 4
+  ygrid 4
+  fps 8
+  frameStart 1
+  frameEnd 16
+  random 1
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position 0 -2.43 4
+endnode
+node emitter em_stream_top01
+  parent fried_fix_01
+  alpha 0.5
+  orientation 1 0 0 -0.523599
+  wirecolor 0.831373 0.603922 0.894118
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  xsize 350
+  ysize 20
+  inherit 0
+  inherit_local 1
+  inheritvel 0
+  inherit_part 0
+  renderorder 1
+  threshold 0
+  combinetime 0
+  deadspace 0
+  colorStart 0.862745 0.862745 0.862745
+  colorEnd 1 1 1
+  alphaStart 0.5
+  alphaEnd 0.3
+  sizeStart 0.3
+  sizeEnd 0.95
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 120
+  lifeExp 1
+  mass 1.2
+  spread 0.523599
+  particleRot 1
+  velocity 2
+  randvel 0.2
+  bounce_co 1
+  blurlength 10
+  loop 0
+  bounce 0
+  m_isTinted 1
+  splat 0
+  affectedByWind 0
+  texture fxpa_splash
+  twosidedtex 1
+  xgrid 0
+  ygrid 0
+  fps 0
+  frameStart 0
+  frameEnd 0
+  random 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position 0 -1.85 4
+endnode
+node emitter em_stream_top02
+  parent fried_fix_01
+  alpha 0.5
+  orientation 1 0 0 -0.0872664
+  wirecolor 0.831373 0.603922 0.894118
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  xsize 300
+  ysize 80
+  inherit 0
+  inherit_local 1
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0
+  combinetime 0
+  deadspace 0
+  colorStart 0.862745 0.862745 0.862745
+  colorEnd 1 1 1
+  alphaStart 0.5
+  alphaEnd 0.3
+  sizeStart 0.35
+  sizeEnd 0.6
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 100
+  lifeExp 0.4
+  mass 1.2
+  spread 0.523599
+  particleRot 2
+  velocity 1.8
+  randvel 0.3
+  bounce_co 1
+  blurlength 10
+  loop 0
+  bounce 0
+  m_isTinted 1
+  splat 0
+  affectedByWind 0
+  texture fxpa_splash
+  twosidedtex 1
+  xgrid 0
+  ygrid 0
+  fps 0
+  frameStart 0
+  frameEnd 0
+  random 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position 0.22 -0.76 -0.07
+endnode
+node emitter em_stream_top03
+  parent fried_fix_01
+  alpha 0.5
+  orientation 0.986068 0.0430527 -0.160675 -0.530657
+  wirecolor 0.831373 0.603922 0.894118
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  xsize 120
+  ysize 20
+  inherit 0
+  inherit_local 1
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0
+  combinetime 0
+  deadspace 0
+  colorStart 0.866667 0.866667 0.866667
+  colorEnd 1 1 1
+  alphaStart 0.5
+  alphaEnd 0.7
+  sizeStart 0.3
+  sizeEnd 0.98
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 100
+  lifeExp 1.8
+  mass 1.1
+  spread 0.523599
+  particleRot 0.3
+  velocity 1.5
+  randvel 0.2
+  bounce_co 1
+  blurlength 10
+  loop 0
+  bounce 0
+  m_isTinted 1
+  splat 0
+  affectedByWind 0
+  texture fxpa_splash
+  twosidedtex 1
+  xgrid 0
+  ygrid 0
+  fps 0
+  frameStart 0
+  frameEnd 0
+  random 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position 0.13 -0.44 -0.1
+endnode
+node trimesh water_01
+  parent fried_fix_01
+  wirecolor 0.776471 0.87451 0.337255
+  tilefade 0
+  scale 1
+  render 1
+  beaming 0
+  inheritcolor 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  center 0 0 0
+  bitmap wmx01_waterxx
+  orientation 0 0 0 0
+  rotatetexture 1
+  shadow 0
+  position 0 0 -9
+  verts 21
+    -5 -5 0
+    0 -5 0
+    5 -5 0
+    -5 0 0
+    -4.5 -4.5 0
+    0 -4.5 0
+    4.5 -4.5 0
+    5 0 0
+    -4.5 0 0
+    0 0 0
+    4.5 0 0
+    -4.5 4.5 0
+    0 4.5 0
+    4.5 4.5 0
+    -5 5 0
+    0 5 0
+    5 5 0
+    2.5 -2.5 0
+    2.5 2.5 0
+    -2.5 2.5 0
+    -2.5 -2.5 0
+  faces 32
+    0 1 4 1 0 1 4 20
+    4 3 0 1 4 3 0 20
+    5 4 1 1 5 4 1 20
+    6 5 1 1 6 5 1 20
+    2 7 6 1 2 7 6 20
+    6 1 2 1 6 1 2 20
+    3 4 8 1 3 4 8 20
+    7 10 6 1 7 10 6 20
+    3 8 11 1 3 8 11 20
+    7 13 10 1 7 13 10 20
+    11 15 14 1 11 15 14 20
+    14 3 11 1 14 3 11 20
+    11 12 15 1 11 12 15 20
+    12 13 15 1 12 13 15 20
+    13 7 16 1 13 7 16 20
+    16 15 13 1 16 15 13 20
+    9 20 17 1 9 20 17 20
+    5 6 17 1 5 6 17 20
+    6 10 17 1 6 10 17 20
+    10 18 17 1 10 18 17 20
+    12 19 18 1 12 19 18 20
+    9 17 18 1 9 17 18 20
+    10 13 18 1 10 13 18 20
+    13 12 18 1 13 12 18 20
+    11 8 19 1 11 8 19 20
+    8 20 19 1 8 20 19 20
+    9 18 19 1 9 18 19 20
+    12 11 19 1 12 11 19 20
+    8 4 20 1 8 4 20 20
+    4 5 20 1 4 5 20 20
+    5 17 20 1 5 17 20 20
+    9 19 20 1 9 19 20 20
+  tverts 21
+    0 0 0
+    0.5 0 0
+    1 0 0
+    0 0.5 0
+    0.0507813 0.0507813 0
+    0.5 0.0507813 0
+    0.949219 0.0507813 0
+    1 0.5 0
+    0.0507813 0.5 0
+    0.5 0.5 0
+    0.949219 0.5 0
+    0.0507813 0.949219 0
+    0.5 0.949219 0
+    0.949219 0.949219 0
+    0 1 0
+    0.5 1 0
+    1 1 0
+    0.75 0.25 0
+    0.75 0.75 0
+    0.25 0.75 0
+    0.25 0.25 0
+endnode
+node emitter em_stream_bottom
+  parent fried_fix_01
+  alpha 0.5
+  wirecolor 0.831373 0.603922 0.894118
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  xsize 300
+  ysize 100
+  inherit 0
+  inherit_local 1
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0
+  combinetime 0
+  deadspace 0
+  colorStart 0.886275 0.886275 0.886275
+  colorEnd 1 1 1
+  alphaStart 0.3
+  alphaEnd 0.01
+  sizeStart 0.8
+  sizeEnd 1.5
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 60
+  lifeExp 0.3
+  mass -0.1
+  spread 0.523599
+  particleRot 2
+  velocity 1.8
+  randvel 0.3
+  bounce_co 1
+  blurlength 10
+  loop 0
+  bounce 0
+  m_isTinted 1
+  splat 0
+  affectedByWind 0
+  texture fxpa_mist
+  twosidedtex 1
+  xgrid 4
+  ygrid 4
+  fps 8
+  frameStart 1
+  frameEnd 16
+  random 1
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  orientation 0 0 0 0
+  position 0.29 1.1 -8.99
+endnode
+node trimesh object03
+  parent fried_fix_01
+  wirecolor 0.337255 0.556863 0.882353
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  alpha 1
+  transparencyhint 1
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  center 17 42 -438.5
+  bitmap wmx01_waterxx
+  orientation 0 0 0 0
+  rotatetexture 1
+  position 0.01 -0.66 -0.22
+  verts 10
+    1.06 0.23 0
+    -0.72 -0.09 0
+    1.06 0.53 -0.15
+    -0.72 0.21 -0.15
+    1.06 0.63 -0.44
+    -0.72 0.31 -0.44
+    1.06 0.78 -8.76
+    -0.72 0.63 -8.76
+    0.17 0.78 -0.44
+    0.17 0.93 -8.76
+  faces 9
+    1 0 2 1 1 0 2 7
+    2 3 1 1 2 3 1 7
+    8 5 3 1 8 5 3 7
+    4 8 3 1 4 8 3 7
+    4 3 2 1 4 3 2 7
+    9 8 4 1 9 8 4 7
+    4 6 9 1 4 6 9 7
+    7 5 8 1 7 5 8 7
+    8 9 7 1 8 9 7 7
+  tverts 10
+    0.677734 1.37695 0
+    0.322266 1.37695 0
+    0.677734 1.34766 0
+    0.322266 1.34766 0
+    0.677734 1.28711 0
+    0.322266 1.28711 0
+    0.677734 -0.376953 0
+    0.322266 -0.376953 0
+    0.5 1.28711 0
+    0.5 -0.376953 0
+endnode
+node trimesh object04
+  parent fried_fix_01
+  wirecolor 0.337255 0.556863 0.882353
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  alpha 1
+  transparencyhint 1
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  center 14 -14.5 7.5
+  bitmap wmx01_waterxx
+  orientation 0 0 0 0
+  rotatetexture 1
+  position 0.01 -0.66 -0.22
+  verts 4
+    1.43 -0.52 0.16
+    -1.15 -0.52 0.16
+    1.06 0.23 0
+    -0.72 -0.09 0
+  faces 2
+    1 0 2 1 1 0 2 7
+    2 3 1 1 2 3 1 7
+  tverts 4
+    1 0.375 0
+    0 0.375 0
+    0.855469 0.625 0
+    0.166016 0.517578 0
+endnode
+node trimesh water_fall
+  parent fried_fix_01
+  wirecolor 0.337255 0.556863 0.882353
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  alpha 1
+  transparencyhint 1
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  center 0 -295.5 -238.5
+  bitmap wmx01_waterxx
+  orientation 0 0 0 0
+  rotatetexture 1
+  position 0 0 4.6
+  verts 8
+    -5 -5 0
+    5 -5 0
+    2.01 -2 0
+    -1.99 -2 0
+    1.84 -1.55 -0.3
+    -1.96 -1.55 -0.3
+    2.01 -0.91 -4.77
+    -1.99 -0.91 -4.77
+  faces 6
+    0 1 2 1 8 9 10 1
+    2 3 0 1 10 11 8 1
+    4 5 3 1 6 7 1 1
+    3 2 4 1 1 0 6 1
+    6 7 5 1 4 5 3 1
+    5 4 6 1 3 2 4 1
+  tverts 12
+    0.902344 0.0996094 0
+    0.101563 0.0996094 0
+    0.132813 1.24023 0
+    0.890625 1.24023 0
+    0.0976563 0.345703 0
+    0.898438 0.345703 0
+    0.867188 0.189453 0
+    0.109375 0.189453 0
+    -0.998047 0.00195313 0
+    0.99805 0.00195313 0
+    0.40234 0.599609 0
+    -0.398437 0.599609 0
+endnode
 endmodelgeom wmx01_v00_05
 
 #MAXANIM ASCII
@@ -2181,11 +2159,62 @@ newanim animloop01 wmx01_v00_05
   node dummy wmx01_v00_05
     parent NULL
   endnode
+  node light wmx01_v00_05ml1
+    parent wmx01_v00_05
+  endnode
+  node light wmx01_v00_05ml2
+    parent wmx01_v00_05
+  endnode
+  node dummy mesh04
+    parent wmx01_v00_05
+  endnode
+  node dummy cliff00
+    parent wmx01_v00_05
+  endnode
+  node dummy cliff02
+    parent wmx01_v00_05
+  endnode
+  node dummy cliff01
+    parent wmx01_v00_05
+  endnode
+  node dummy wok
+    parent wmx01_v00_05
+  endnode
+  node dummy object101
+    parent wmx01_v00_05
+  endnode
+  node dummy object102
+    parent wmx01_v00_05
+  endnode
+  node dummy grassrim
+    parent wmx01_v00_05
+  endnode
+  node dummy terrain
+    parent wmx01_v00_05
+  endnode
   node dummy wmx01_v00_05a
     parent wmx01_v00_05
   endnode
   node dummy fried_fix_01
     parent wmx01_v00_05a
+  endnode
+  node dummy bush00
+    parent fried_fix_01
+  endnode
+  node dummy bush01
+    parent fried_fix_01
+  endnode
+  node dummy bush02
+    parent fried_fix_01
+  endnode
+  node dummy bush03
+    parent fried_fix_01
+  endnode
+  node dummy bush04
+    parent fried_fix_01
+  endnode
+  node dummy bush05
+    parent fried_fix_01
   endnode
   node emitter em_top_mist
     parent fried_fix_01
@@ -2226,26 +2255,18 @@ newanim animloop01 wmx01_v00_05
   node dummy object04
     parent fried_fix_01
   endnode
-  node dummy bush00
-    parent fried_fix_01
-  endnode
-  node dummy bush01
-    parent fried_fix_01
-  endnode
-  node dummy bush02
-    parent fried_fix_01
-  endnode
-  node dummy bush03
-    parent fried_fix_01
-  endnode
-  node dummy bush04
-    parent fried_fix_01
-  endnode
-  node dummy bush05
-    parent fried_fix_01
-  endnode
   node dummy water_fall
     parent fried_fix_01
+  endnode
+doneanim animloop01 wmx01_v00_05
+
+#MAXANIM ASCII
+newanim tiledefault wmx01_v00_05
+  length 0
+  transtime 0.25
+  animroot wmx01_v00_05
+  node dummy wmx01_v00_05
+    parent NULL
   endnode
   node light wmx01_v00_05ml1
     parent wmx01_v00_05
@@ -2280,21 +2301,29 @@ newanim animloop01 wmx01_v00_05
   node dummy terrain
     parent wmx01_v00_05
   endnode
-doneanim animloop01 wmx01_v00_05
-
-#MAXANIM ASCII
-newanim tiledefault wmx01_v00_05
-  length 0
-  transtime 0.25
-  animroot wmx01_v00_05
-  node dummy wmx01_v00_05
-    parent NULL
-  endnode
   node dummy wmx01_v00_05a
     parent wmx01_v00_05
   endnode
   node dummy fried_fix_01
     parent wmx01_v00_05a
+  endnode
+  node dummy bush00
+    parent fried_fix_01
+  endnode
+  node dummy bush01
+    parent fried_fix_01
+  endnode
+  node dummy bush02
+    parent fried_fix_01
+  endnode
+  node dummy bush03
+    parent fried_fix_01
+  endnode
+  node dummy bush04
+    parent fried_fix_01
+  endnode
+  node dummy bush05
+    parent fried_fix_01
   endnode
   node emitter em_top_mist
     parent fried_fix_01
@@ -2335,59 +2364,8 @@ newanim tiledefault wmx01_v00_05
   node dummy object04
     parent fried_fix_01
   endnode
-  node dummy bush00
-    parent fried_fix_01
-  endnode
-  node dummy bush01
-    parent fried_fix_01
-  endnode
-  node dummy bush02
-    parent fried_fix_01
-  endnode
-  node dummy bush03
-    parent fried_fix_01
-  endnode
-  node dummy bush04
-    parent fried_fix_01
-  endnode
-  node dummy bush05
-    parent fried_fix_01
-  endnode
   node dummy water_fall
     parent fried_fix_01
-  endnode
-  node light wmx01_v00_05ml1
-    parent wmx01_v00_05
-  endnode
-  node light wmx01_v00_05ml2
-    parent wmx01_v00_05
-  endnode
-  node dummy mesh04
-    parent wmx01_v00_05
-  endnode
-  node dummy cliff00
-    parent wmx01_v00_05
-  endnode
-  node dummy cliff02
-    parent wmx01_v00_05
-  endnode
-  node dummy cliff01
-    parent wmx01_v00_05
-  endnode
-  node dummy wok
-    parent wmx01_v00_05
-  endnode
-  node dummy object101
-    parent wmx01_v00_05
-  endnode
-  node dummy object102
-    parent wmx01_v00_05
-  endnode
-  node dummy grassrim
-    parent wmx01_v00_05
-  endnode
-  node dummy terrain
-    parent wmx01_v00_05
   endnode
 doneanim tiledefault wmx01_v00_05
 donemodel wmx01_v00_05

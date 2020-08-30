@@ -1,60 +1,14 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 19:17:54 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wmx01_m71_11
-setsupermodel wmx01_m71_11 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wmx01_m71_11 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wmx01_m71_11
 node dummy wmx01_m71_11
   parent NULL
-endnode
-node dummy wmx01_m71_11a
-  parent wmx01_m71_11
-  orientation 0 0 0 0
-  wirecolor 1 0 0
-  position 0 0 0
-endnode
-node dummy fried_fix_01
-  parent wmx01_m71_11a
-  wirecolor 0.603922 0.603922 0.898039
-  orientation 0 0 0 0
-  position 0 0 -5
-endnode
-node trimesh plane76_03
-  wirecolor 0.87451 0.87451 0.87451
-  tilefade 0
-  scale 1
-  render 1
-  shadow 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 1 1 1
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 1
-  center -0.5 0 0
-  bitmap tno01_window07
-  parent fried_fix_01
-  orientation 0 0 0 0
-  position 3.69 0.52 16.31
-  verts 4
-    -0.74 0 -1.24
-    0.72 0 -1.24
-    -0.74 0 1.24
-    0.72 0 1.24
-  faces 2
-    3 2 0 1 3 2 0 0
-    0 1 3 1 0 1 3 0
-  tverts 4
-    0.259766 0.00976563 0
-    0.740234 0.00976563 0
-    0.259766 0.990234 0
-    0.740234 0.990234 0
 endnode
 node trimesh blck01
   parent wmx01_m71_11
@@ -259,20 +213,20 @@ node trimesh box43_03
     0 2 7 4 0 2 7 2
     7 4 0 4 7 4 0 2
   tverts 14
-    0.910156 1.55664 0
-    1.08984 1.55664 0
-    0.869141 1.55664 0
-    0.980469 1.55664 0
-    0.910156 0.910156 0
-    1.08984 0.910156 0
-    0.980469 0.910156 0
-    0.869141 0.910156 0
-    0.980469 0.869141 0
-    1.01953 0.869141 0
-    1.01953 0.910156 0
-    1.01953 1.55664 0
-    1.13086 1.55664 0
-    1.13086 0.910156 0
+    0.910156 0.55664 0
+    0.08984 0.55664 0
+    0.869141 0.55664 0
+    0.980469 0.55664 0
+    0.910156 -0.089844 0
+    0.08984 -0.089844 0
+    0.980469 -0.089844 0
+    0.869141 -0.089844 0
+    0.980469 -0.130859 0
+    1.01953 -0.130859 0
+    1.01953 -0.089844 0
+    1.01953 0.55664 0
+    0.13086 0.55664 0
+    0.13086 -0.089844 0
 endnode
 node trimesh box45_04
   parent wmx01_m71_11
@@ -316,22 +270,22 @@ node trimesh box45_04
     7 4 0 4 7 4 0 2
     0 2 7 4 0 2 7 2
   tverts 16
-    1.0293 1.49414 0
-    0.970703 1.49414 0
-    0.988281 1.49414 0
-    0.980469 1.49414 0
-    1.0293 0.845703 0
-    0.970703 0.845703 0
-    0.980469 0.845703 0
-    0.988281 0.845703 0
-    1.01953 1.0293 0
-    0.980469 1.0293 0
-    0.980469 0.988281 0
-    1.01953 0.988281 0
-    1.01953 0.845703 0
-    1.01953 1.49414 0
-    1.01172 0.845703 0
-    1.01172 1.49414 0
+    0.0293 0.49414 0
+    0.970703 0.49414 0
+    -0.011719 0.49414 0
+    0.980469 0.49414 0
+    0.0293 -0.154297 0
+    0.970703 -0.154297 0
+    0.980469 -0.154297 0
+    -0.011719 -0.154297 0
+    1.01953 0.0293 0
+    0.980469 0.0293 0
+    0.980469 -0.011719 0
+    1.01953 -0.011719 0
+    1.01953 -0.154297 0
+    1.01953 0.49414 0
+    1.01172 -0.154297 0
+    1.01172 0.49414 0
 endnode
 node trimesh box46_03
   parent wmx01_m71_11
@@ -375,22 +329,22 @@ node trimesh box46_03
     0 2 7 4 0 2 7 2
     7 4 0 4 7 4 0 2
   tverts 16
-    0.941406 1.55859 0
-    1.05859 1.55859 0
-    0.900391 1.55859 0
-    0.980469 1.55859 0
-    0.941406 0.90625 0
-    1.05859 0.90625 0
-    0.980469 0.90625 0
-    0.900391 0.90625 0
+    0.941406 0.55859 0
+    0.05859 0.55859 0
+    0.900391 0.55859 0
+    0.980469 0.55859 0
+    0.941406 -0.09375 0
+    0.05859 -0.09375 0
+    0.980469 -0.09375 0
+    0.900391 -0.09375 0
     0.980469 0.900391 0
     1.01953 0.900391 0
     1.01953 0.941406 0
     0.980469 0.941406 0
-    1.01953 1.55859 0
-    1.01953 0.90625 0
-    1.09961 1.55859 0
-    1.09961 0.90625 0
+    1.01953 0.55859 0
+    1.01953 -0.09375 0
+    0.09961 0.55859 0
+    0.09961 -0.09375 0
 endnode
 node trimesh box47_01
   parent wmx01_m71_11
@@ -432,19 +386,19 @@ node trimesh box47_01
     3 2 7 2 2 1 5 65536
     7 6 3 2 5 4 2 65536
   tverts 13
-    0.662109 1.07813 0
+    0.662109 0.07813 0
     0.640625 0.962891 0
     0.662109 0.962891 0
-    0.662109 1.79297 0
+    0.662109 0.79297 0
     0.662109 0.248047 0
     0.640625 0.248047 0
     0.662109 0.263672 0
     0.662109 0.980469 0
     0.640625 0.246094 0
-    0.640625 1.07813 0
-    0.640625 1.79297 0
-    0.640625 1.0957 0
-    0.640625 1.81055 0
+    0.640625 0.07813 0
+    0.640625 0.79297 0
+    0.640625 0.0957 0
+    0.640625 0.81055 0
 endnode
 node trimesh box48_01
   parent wmx01_m71_11
@@ -576,10 +530,10 @@ node trimesh box49_01
     3 2 6 2 0 1 3 5
     6 7 3 2 3 2 0 5
   tverts 4
-    0.447266 0.996094 0
-    0.447266 1.46484 0
-    0.425781 0.996094 0
-    0.425781 1.46484 0
+    0.447266 -0.003906 0
+    0.447266 0.46484 0
+    0.425781 -0.003906 0
+    0.425781 0.46484 0
 endnode
 node trimesh box49_04
   parent wmx01_m71_11
@@ -668,22 +622,22 @@ node trimesh box50_04
     7 4 0 4 4 3 0 2
     0 2 7 4 0 1 4 2
   tverts 16
-    1.01953 1.59766 0
-    0.980469 1.59766 0
-    0.9375 1.59766 0
-    1.01953 0.949219 0
-    0.980469 0.949219 0
-    0.9375 0.949219 0
+    1.01953 0.59766 0
+    0.980469 0.59766 0
+    0.9375 0.59766 0
+    1.01953 -0.050781 0
+    0.980469 -0.050781 0
+    0.9375 -0.050781 0
     0.976563 1.01953 0
     0.9375 1.01953 0
     0.9375 0.980469 0
     0.976563 0.980469 0
-    1.02344 0.949219 0
-    1.0625 0.949219 0
-    1.0625 1.59766 0
-    1.02344 1.59766 0
-    0.976563 0.949219 0
-    0.976563 1.59766 0
+    0.02344 -0.050781 0
+    0.0625 -0.050781 0
+    0.0625 0.59766 0
+    0.02344 0.59766 0
+    0.976563 -0.050781 0
+    0.976563 0.59766 0
 endnode
 node trimesh box51_04
   parent wmx01_m71_11
@@ -727,26 +681,26 @@ node trimesh box51_04
     7 4 0 4 7 4 0 2
     0 2 7 4 0 2 7 2
   tverts 20
-    1.03125 1.52539 0
-    0.96875 1.52539 0
-    0.992188 1.52539 0
-    0.841797 1.52539 0
-    1.03125 0.876953 0
-    0.96875 0.876953 0
-    0.841797 0.876953 0
-    0.992188 0.876953 0
-    0.880859 1.03125 0
-    0.841797 1.03125 0
-    0.841797 0.992188 0
-    0.880859 0.992188 0
-    1.11914 0.876953 0
-    1.1582 0.876953 0
-    1.1582 1.52539 0
-    1.11914 1.52539 0
-    1.00781 0.876953 0
-    1.00781 1.52539 0
-    0.880859 0.876953 0
-    0.880859 1.52539 0
+    0.03125 0.52539 0
+    0.96875 0.52539 0
+    -0.007812 0.52539 0
+    0.841797 0.52539 0
+    0.03125 -0.123047 0
+    0.96875 -0.123047 0
+    0.841797 -0.123047 0
+    -0.007812 -0.123047 0
+    0.880859 0.03125 0
+    0.841797 0.03125 0
+    0.841797 -0.007812 0
+    0.880859 -0.007812 0
+    0.11914 -0.123047 0
+    0.1582 -0.123047 0
+    0.1582 0.52539 0
+    0.11914 0.52539 0
+    1.00781 -0.123047 0
+    1.00781 0.52539 0
+    0.880859 -0.123047 0
+    0.880859 0.52539 0
 endnode
 node trimesh box52_04
   parent wmx01_m71_11
@@ -790,26 +744,26 @@ node trimesh box52_04
     7 4 0 4 7 4 0 2
     0 2 7 4 0 2 7 2
   tverts 20
-    1.06445 1.51953 0
-    0.935547 1.51953 0
-    1.02539 1.51953 0
-    0.908203 1.51953 0
-    1.06445 0.871094 0
-    0.935547 0.871094 0
-    0.908203 0.871094 0
-    1.02539 0.871094 0
-    0.949219 1.06445 0
-    0.908203 1.06445 0
-    0.908203 1.02539 0
-    0.949219 1.02539 0
-    1.05078 0.871094 0
-    1.0918 0.871094 0
-    1.0918 1.51953 0
-    1.05078 1.51953 0
-    0.974609 0.871094 0
-    0.974609 1.51953 0
-    0.949219 0.871094 0
-    0.949219 1.51953 0
+    0.06445 0.51953 0
+    0.935547 0.51953 0
+    0.02539 0.51953 0
+    0.908203 0.51953 0
+    0.06445 -0.128906 0
+    0.935547 -0.128906 0
+    0.908203 -0.128906 0
+    0.02539 -0.128906 0
+    0.949219 0.06445 0
+    0.908203 0.06445 0
+    0.908203 0.02539 0
+    0.949219 0.02539 0
+    0.05078 -0.128906 0
+    0.0918 -0.128906 0
+    0.0918 0.51953 0
+    0.05078 0.51953 0
+    0.974609 -0.128906 0
+    0.974609 0.51953 0
+    0.949219 -0.128906 0
+    0.949219 0.51953 0
 endnode
 node trimesh box53_04
   parent wmx01_m71_11
@@ -853,26 +807,26 @@ node trimesh box53_04
     7 4 0 4 7 4 0 2
     0 2 7 4 0 2 7 2
   tverts 20
-    1.15625 1.49023 0
-    0.84375 1.49023 0
-    1.11523 1.49023 0
-    0.896484 1.49023 0
-    1.15625 0.841797 0
-    0.84375 0.841797 0
-    0.896484 0.841797 0
-    1.11523 0.841797 0
-    0.935547 1.15625 0
-    0.896484 1.15625 0
-    0.896484 1.11523 0
-    0.935547 1.11523 0
-    1.06445 0.841797 0
-    1.10352 0.841797 0
-    1.10352 1.49023 0
-    1.06445 1.49023 0
-    0.884766 0.841797 0
-    0.884766 1.49023 0
-    0.935547 0.841797 0
-    0.935547 1.49023 0
+    0.15625 0.49023 0
+    0.84375 0.49023 0
+    0.11523 0.49023 0
+    0.896484 0.49023 0
+    0.15625 -0.158203 0
+    0.84375 -0.158203 0
+    0.896484 -0.158203 0
+    0.11523 -0.158203 0
+    0.935547 0.15625 0
+    0.896484 0.15625 0
+    0.896484 0.11523 0
+    0.935547 0.11523 0
+    0.06445 -0.158203 0
+    0.10352 -0.158203 0
+    0.10352 0.49023 0
+    0.06445 0.49023 0
+    0.884766 -0.158203 0
+    0.884766 0.49023 0
+    0.935547 -0.158203 0
+    0.935547 0.49023 0
 endnode
 node trimesh object07
   parent wmx01_m71_11
@@ -910,10 +864,10 @@ node trimesh object07
     7 6 4 1 2 1 0 1
     4 5 7 1 0 3 2 1
   tverts 4
-    0.5 0 0
-    0.5 3 0
-    1 3 0
-    1 0 0
+    0.5 -1 0
+    0.5 2 0
+    1 2 0
+    1 -1 0
 endnode
 node trimesh object08
   parent wmx01_m71_11
@@ -951,10 +905,10 @@ node trimesh object08
     7 6 4 1 2 1 0 1
     4 5 7 1 0 3 2 1
   tverts 4
-    0.5 0 0
-    0.5 3 0
-    1 3 0
-    1 0 0
+    0.5 -1 0
+    0.5 2 0
+    1 2 0
+    1 -1 0
 endnode
 node trimesh object14
   parent wmx01_m71_11
@@ -992,10 +946,10 @@ node trimesh object14
     0 1 6 1 0 1 3 2
     6 7 0 1 3 2 0 2
   tverts 4
-    0.882813 4 0
-    1 0.5 0
-    0 4 0
-    0 0.5 0
+    0.882813 2 0
+    1 -1.5 0
+    0 2 0
+    0 -1.5 0
 endnode
 node trimesh object15
   parent wmx01_m71_11
@@ -1039,13 +993,13 @@ node trimesh object15
     0 2 6 1 0 1 4 3
     6 4 0 1 4 3 0 3
   tverts 11
-    1.10547 0.339844 0
-    1.09961 0.458984 0
-    0.992188 0.341797 0
-    0.986328 0.339844 0
-    0.986328 0.458984 0
-    1.10547 0.458984 0
-    0.992188 0.458984 0
+    0.10547 0.339844 0
+    0.09961 0.458984 0
+    -0.007812 0.341797 0
+    -0.013672 0.339844 0
+    -0.013672 0.458984 0
+    0.10547 0.458984 0
+    -0.007812 0.458984 0
     1 1 0
     1 0.300781 0
     0 0.300781 0
@@ -1219,37 +1173,37 @@ node trimesh object34
     0 29 17 1 0 29 17 2
     30 5 26 1 30 5 26 2
   tverts 31
-    0.927734 0.947266 0
-    0.927734 1.66406 0
-    0.683594 1.66406 0
-    1.24609 0.947266 0
-    2 0.427734 0
-    1.24609 0.427734 0
-    0.683594 2 0
-    0 1 0
-    0 0.5 0
-    0.499999 0 0
-    0 1.5 0
-    0.999999 0 0
-    0 2 0
-    2 0 0
-    1.5 0 0
-    0 0 0
-    0.681641 0.873047 0
-    0.589844 1.16797 0
-    0.462891 1.3125 0
-    0.359375 1.51367 0
-    0.3125 1.80469 0
-    0.291016 2 0
-    0.759766 0.703125 0
-    0.90625 0.542969 0
-    1.01367 0.308594 0
-    1.11719 0.207031 0
-    1.41797 0.162109 0
-    1.71289 0.212891 0
-    2 0.185547 0
-    0.927734 1.32813 0
-    1.61133 0.427734 0
+    -0.072266 -0.052734 0
+    -0.072266 0.66406 0
+    -0.316406 0.66406 0
+    0.24609 -0.052734 0
+    1 -0.572266 0
+    0.24609 -0.572266 0
+    -0.316406 1 0
+    -1 0 0
+    -1 -0.5 0
+    -0.500001 -1 0
+    -1 0.5 0
+    -1e-06 -1 0
+    -1 1 0
+    1 -1 0
+    0.5 -1 0
+    -1 -1 0
+    -0.318359 -0.126953 0
+    -0.410156 0.16797 0
+    -0.537109 0.3125 0
+    -0.640625 0.51367 0
+    -0.6875 0.80469 0
+    -0.708984 1 0
+    -0.240234 -0.296875 0
+    -0.09375 -0.457031 0
+    0.01367 -0.691406 0
+    0.11719 -0.792969 0
+    0.41797 -0.837891 0
+    0.71289 -0.787109 0
+    1 -0.814453 0
+    -0.072266 0.32813 0
+    0.61133 -0.572266 0
 endnode
 node trimesh object52
   parent wmx01_m71_11
@@ -1291,19 +1245,19 @@ node trimesh object52
     3 2 7 2 3 2 6 65536
     7 6 3 2 6 5 3 65536
   tverts 13
-    0.662109 0.246094 0
-    0.662109 0.248047 0
-    0.640625 1.79297 0
-    0.662109 1.79297 0
-    0.662109 1.0293 0
-    0.662109 1.01367 0
-    0.640625 1.01367 0
-    0.662109 1.79492 0
-    0.640625 1.77734 0
-    0.640625 0.248047 0
-    0.640625 1.0293 0
-    0.640625 0.263672 0
-    0.640625 1.04688 0
+    0.662109 -0.753906 0
+    0.662109 -0.751953 0
+    0.640625 0.79297 0
+    0.662109 0.79297 0
+    0.662109 0.0293 0
+    0.662109 0.01367 0
+    0.640625 0.01367 0
+    0.662109 0.79492 0
+    0.640625 0.77734 0
+    0.640625 -0.751953 0
+    0.640625 0.0293 0
+    0.640625 -0.736328 0
+    0.640625 0.04688 0
 endnode
 node trimesh object53
   parent wmx01_m71_11
@@ -1805,7 +1759,7 @@ node trimesh object85
     12 4 1 2 9 14 12 2
     10 1 4 1 8 1 2 2
   tverts 15
-    1.08203 0.800781 0
+    0.08203 0.800781 0
     0.427734 0.800781 0
     0.367188 0.00195313 0
     1.0625 0.314453 0
@@ -1814,12 +1768,12 @@ node trimesh object85
     1.14844 0.376953 0
     1.625 0.244141 0
     0.625 0.244141 0
-    1.7168 0.00195313 0
+    0.7168 0.00195313 0
     0.625 0.00195313 0
-    1.08203 0.00195313 0
-    2.06836 0.800781 0
+    0.08203 0.00195313 0
+    1.06836 0.800781 0
     1.625 0.800781 0
-    2.1543 0.00195313 0
+    1.1543 0.00195313 0
 endnode
 node trimesh object86
   parent wmx01_m71_11
@@ -2139,10 +2093,10 @@ node trimesh plane11_04
     10 12 8 4 7 8 5 2
     8 6 10 4 5 4 7 2
   tverts 14
-    0.990234 0.888672 0
-    2.54102 0.888672 0
-    2.54102 0.578125 0
-    0.990234 0.578125 0
+    -0.009766 0.888672 0
+    1.54102 0.888672 0
+    1.54102 0.578125 0
+    -0.009766 0.578125 0
     0.396484 0.199219 0
     0.396484 0.800781 0
     0.117188 0.537109 0
@@ -2190,10 +2144,10 @@ node trimesh plane56_04
     7 5 4 1 1 0 3 1
     4 6 7 1 3 2 1 1
   tverts 4
-    1 4 0
-    0.5 4 0
-    0.5 0.5 0
-    1 0.5 0
+    1 2 0
+    0.5 2 0
+    0.5 -1.5 0
+    1 -1.5 0
 endnode
 node trimesh plane71_03
   parent wmx01_m71_11
@@ -2231,10 +2185,10 @@ node trimesh plane71_03
     3 7 6 1 2 1 0 2
     6 2 3 1 0 3 2 2
   tverts 4
-    0.0820313 0 0
-    0.0820313 3 0
-    0.798828 3 0
-    0.917969 0 0
+    0.0820313 -1 0
+    0.0820313 2 0
+    0.798828 2 0
+    0.917969 -1 0
 endnode
 node trimesh plane71_04
   parent wmx01_m71_11
@@ -2272,10 +2226,10 @@ node trimesh plane71_04
     3 7 6 1 2 1 0 2
     6 2 3 1 0 3 2 2
   tverts 4
-    0.0820313 0 0
-    0.0820313 3 0
-    0.798828 3 0
-    0.917969 0 0
+    0.0820313 -1 0
+    0.0820313 2 0
+    0.798828 2 0
+    0.917969 -1 0
 endnode
 node trimesh plane75_03
   parent wmx01_m71_11
@@ -2329,24 +2283,24 @@ node trimesh plane75_03
     8 6 10 4 8 9 3 2
     10 12 8 4 3 2 8 2
   tverts 18
-    1.98438 0.46875 0
-    1.01563 0.46875 0
-    1.01563 0.0566406 0
-    1.98438 0.0566406 0
-    2.09961 0.0371094 0
-    2.16406 0.443359 0
-    0.84375 0.439453 0
-    0.908203 0.0332031 0
-    1.01563 0.167969 0
-    1.98438 0.167969 0
+    0.98438 0.46875 0
+    0.01563 0.46875 0
+    0.01563 0.0566406 0
+    0.98438 0.0566406 0
+    1.09961 0.0371094 0
+    1.16406 0.443359 0
+    -0.15625 0.439453 0
+    -0.091797 0.0332031 0
+    0.01563 0.167969 0
+    0.98438 0.167969 0
     0.173828 0.988281 0
     0.173828 0.00390625 0
     0.498047 0.00390625 0
     0.498047 0.988281 0
-    1.17383 0.015625 0
-    1.17383 1 0
-    0.869141 1 0
-    0.869141 0.015625 0
+    0.17383 0.015625 0
+    0.17383 1 0
+    -0.130859 1 0
+    -0.130859 0.015625 0
 endnode
 node trimesh plane75_04
   parent wmx01_m71_11
@@ -2400,24 +2354,24 @@ node trimesh plane75_04
     8 6 10 4 8 9 3 2
     10 12 8 4 3 2 8 2
   tverts 18
-    1.98438 0.46875 0
-    1.01563 0.46875 0
-    1.01563 0.0566406 0
-    1.98438 0.0566406 0
-    2.09961 0.0371094 0
-    2.16406 0.443359 0
-    0.84375 0.439453 0
-    0.908203 0.0332031 0
-    1.01563 0.167969 0
-    1.98438 0.167969 0
+    0.98438 0.46875 0
+    0.01563 0.46875 0
+    0.01563 0.0566406 0
+    0.98438 0.0566406 0
+    1.09961 0.0371094 0
+    1.16406 0.443359 0
+    -0.15625 0.439453 0
+    -0.091797 0.0332031 0
+    0.01563 0.167969 0
+    0.98438 0.167969 0
     0.173828 0.988281 0
     0.173828 0.00390625 0
     0.498047 0.00390625 0
     0.498047 0.988281 0
-    1.17383 0.015625 0
-    1.17383 1 0
-    0.869141 1 0
-    0.869141 0.015625 0
+    0.17383 0.015625 0
+    0.17383 1 0
+    -0.130859 1 0
+    -0.130859 0.015625 0
 endnode
 node aabb wok01
   parent wmx01_m71_11
@@ -2429,6 +2383,8 @@ node aabb wok01
   orientation 0 0 0 0
   bitmap NULL
   position 0 0 0
+  render 0
+  shadow 0
   verts 73
     -1.73 5 0.07
     -5 5 0
@@ -2874,7 +2830,7 @@ node light wmx01_m71_11ml1
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -2889,13 +2845,60 @@ node light wmx01_m71_11ml2
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
   fadinglight 1
   orientation 0 0 0 0
   position -2 0 6
+endnode
+node dummy wmx01_m71_11a
+  parent wmx01_m71_11
+  orientation 0 0 0 0
+  wirecolor 1 0 0
+  position 0 0 0
+endnode
+node dummy fried_fix_01
+  parent wmx01_m71_11a
+  wirecolor 0.603922 0.603922 0.898039
+  orientation 0 0 0 0
+  position 0 0 -5
+endnode
+node trimesh plane76_03
+  parent fried_fix_01
+  wirecolor 0.87451 0.87451 0.87451
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  center -0.5 0 0
+  bitmap tno01_window07
+  orientation 0 0 0 0
+  position 3.69 0.52 16.31
+  verts 4
+    -0.74 0 -1.24
+    0.72 0 -1.24
+    -0.74 0 1.24
+    0.72 0 1.24
+  faces 2
+    3 2 0 1 3 2 0 0
+    0 1 3 1 0 1 3 0
+  tverts 4
+    0.259766 0.00976563 0
+    0.740234 0.00976563 0
+    0.259766 0.990234 0
+    0.740234 0.990234 0
 endnode
 endmodelgeom wmx01_m71_11
 
@@ -2906,19 +2909,6 @@ newanim day wmx01_m71_11
   animroot wmx01_m71_11
   node dummy wmx01_m71_11
     parent NULL
-  endnode
-  node dummy wmx01_m71_11a
-    parent wmx01_m71_11
-  endnode
-  node dummy fried_fix_01
-    parent wmx01_m71_11a
-  endnode
-  node trimesh plane76_03
-    parent fried_fix_01
-    selfillumcolorkey
-      0 0 0 0
-      0.0333333 0 0 0
-    endlist
   endnode
   node dummy blck01
     parent wmx01_m71_11
@@ -3079,6 +3069,19 @@ newanim day wmx01_m71_11
   node light wmx01_m71_11ml2
     parent wmx01_m71_11
   endnode
+  node dummy wmx01_m71_11a
+    parent wmx01_m71_11
+  endnode
+  node dummy fried_fix_01
+    parent wmx01_m71_11a
+  endnode
+  node trimesh plane76_03
+    parent fried_fix_01
+    selfillumcolorkey
+      0 0 0 0
+      0.0333333 0 0 0
+    endlist
+  endnode
 doneanim day wmx01_m71_11
 
 #MAXANIM ASCII
@@ -3088,6 +3091,165 @@ newanim day2night wmx01_m71_11
   animroot wmx01_m71_11
   node dummy wmx01_m71_11
     parent NULL
+  endnode
+  node dummy blck01
+    parent wmx01_m71_11
+  endnode
+  node dummy blck02
+    parent wmx01_m71_11
+  endnode
+  node dummy blck05
+    parent wmx01_m71_11
+  endnode
+  node dummy blck06
+    parent wmx01_m71_11
+  endnode
+  node dummy box25_04
+    parent wmx01_m71_11
+  endnode
+  node dummy box43_03
+    parent wmx01_m71_11
+  endnode
+  node dummy box45_04
+    parent wmx01_m71_11
+  endnode
+  node dummy box46_03
+    parent wmx01_m71_11
+  endnode
+  node dummy box47_01
+    parent wmx01_m71_11
+  endnode
+  node dummy box48_01
+    parent wmx01_m71_11
+  endnode
+  node dummy box48_04
+    parent wmx01_m71_11
+  endnode
+  node dummy box49_01
+    parent wmx01_m71_11
+  endnode
+  node dummy box49_04
+    parent wmx01_m71_11
+  endnode
+  node dummy box50_04
+    parent wmx01_m71_11
+  endnode
+  node dummy box51_04
+    parent wmx01_m71_11
+  endnode
+  node dummy box52_04
+    parent wmx01_m71_11
+  endnode
+  node dummy box53_04
+    parent wmx01_m71_11
+  endnode
+  node dummy object07
+    parent wmx01_m71_11
+  endnode
+  node dummy object08
+    parent wmx01_m71_11
+  endnode
+  node dummy object14
+    parent wmx01_m71_11
+  endnode
+  node dummy object15
+    parent wmx01_m71_11
+  endnode
+  node dummy object16
+    parent wmx01_m71_11
+  endnode
+  node dummy object18
+    parent wmx01_m71_11
+  endnode
+  node dummy object34
+    parent wmx01_m71_11
+  endnode
+  node dummy object52
+    parent wmx01_m71_11
+  endnode
+  node dummy object53
+    parent wmx01_m71_11
+  endnode
+  node dummy object54
+    parent wmx01_m71_11
+  endnode
+  node dummy object55
+    parent wmx01_m71_11
+  endnode
+  node dummy object56
+    parent wmx01_m71_11
+  endnode
+  node dummy object57
+    parent wmx01_m71_11
+  endnode
+  node dummy object58
+    parent wmx01_m71_11
+  endnode
+  node dummy object59
+    parent wmx01_m71_11
+  endnode
+  node dummy object60
+    parent wmx01_m71_11
+  endnode
+  node dummy object61
+    parent wmx01_m71_11
+  endnode
+  node dummy object62
+    parent wmx01_m71_11
+  endnode
+  node dummy object63
+    parent wmx01_m71_11
+  endnode
+  node dummy object85
+    parent wmx01_m71_11
+  endnode
+  node dummy object86
+    parent wmx01_m71_11
+  endnode
+  node dummy object88
+    parent wmx01_m71_11
+  endnode
+  node dummy object89
+    parent wmx01_m71_11
+  endnode
+  node dummy object90
+    parent wmx01_m71_11
+  endnode
+  node dummy object91
+    parent wmx01_m71_11
+  endnode
+  node dummy object92
+    parent wmx01_m71_11
+  endnode
+  node dummy object93
+    parent wmx01_m71_11
+  endnode
+  node dummy plane11_04
+    parent wmx01_m71_11
+  endnode
+  node dummy plane56_04
+    parent wmx01_m71_11
+  endnode
+  node dummy plane71_03
+    parent wmx01_m71_11
+  endnode
+  node dummy plane71_04
+    parent wmx01_m71_11
+  endnode
+  node dummy plane75_03
+    parent wmx01_m71_11
+  endnode
+  node dummy plane75_04
+    parent wmx01_m71_11
+  endnode
+  node dummy wok01
+    parent wmx01_m71_11
+  endnode
+  node light wmx01_m71_11ml1
+    parent wmx01_m71_11
+  endnode
+  node light wmx01_m71_11ml2
+    parent wmx01_m71_11
   endnode
   node dummy wmx01_m71_11a
     parent wmx01_m71_11
@@ -3102,6 +3264,16 @@ newanim day2night wmx01_m71_11
       0.566667 0.882353 0.882353 0.882353
     endlist
   endnode
+doneanim day2night wmx01_m71_11
+
+#MAXANIM ASCII
+newanim night wmx01_m71_11
+  length 0.0333333
+  transtime 0.25
+  animroot wmx01_m71_11
+  node dummy wmx01_m71_11
+    parent NULL
+  endnode
   node dummy blck01
     parent wmx01_m71_11
   endnode
@@ -3260,16 +3432,6 @@ newanim day2night wmx01_m71_11
   endnode
   node light wmx01_m71_11ml2
     parent wmx01_m71_11
-  endnode
-doneanim day2night wmx01_m71_11
-
-#MAXANIM ASCII
-newanim night wmx01_m71_11
-  length 0.0333333
-  transtime 0.25
-  animroot wmx01_m71_11
-  node dummy wmx01_m71_11
-    parent NULL
   endnode
   node dummy wmx01_m71_11a
     parent wmx01_m71_11
@@ -3284,6 +3446,16 @@ newanim night wmx01_m71_11
       0.0333333 0.882353 0.882353 0.882353
     endlist
   endnode
+doneanim night wmx01_m71_11
+
+#MAXANIM ASCII
+newanim night2day wmx01_m71_11
+  length 0.6
+  transtime 0.25
+  animroot wmx01_m71_11
+  node dummy wmx01_m71_11
+    parent NULL
+  endnode
   node dummy blck01
     parent wmx01_m71_11
   endnode
@@ -3442,16 +3614,6 @@ newanim night wmx01_m71_11
   endnode
   node light wmx01_m71_11ml2
     parent wmx01_m71_11
-  endnode
-doneanim night wmx01_m71_11
-
-#MAXANIM ASCII
-newanim night2day wmx01_m71_11
-  length 0.6
-  transtime 0.25
-  animroot wmx01_m71_11
-  node dummy wmx01_m71_11
-    parent NULL
   endnode
   node dummy wmx01_m71_11a
     parent wmx01_m71_11
@@ -3466,6 +3628,16 @@ newanim night2day wmx01_m71_11
       0.6 0 0 0
     endlist
   endnode
+doneanim night2day wmx01_m71_11
+
+#MAXANIM ASCII
+newanim tiledefault wmx01_m71_11
+  length 0.0333333
+  transtime 0.25
+  animroot wmx01_m71_11
+  node dummy wmx01_m71_11
+    parent NULL
+  endnode
   node dummy blck01
     parent wmx01_m71_11
   endnode
@@ -3624,16 +3796,6 @@ newanim night2day wmx01_m71_11
   endnode
   node light wmx01_m71_11ml2
     parent wmx01_m71_11
-  endnode
-doneanim night2day wmx01_m71_11
-
-#MAXANIM ASCII
-newanim tiledefault wmx01_m71_11
-  length 0.0333333
-  transtime 0.25
-  animroot wmx01_m71_11
-  node dummy wmx01_m71_11
-    parent NULL
   endnode
   node dummy wmx01_m71_11a
     parent wmx01_m71_11
@@ -3647,165 +3809,6 @@ newanim tiledefault wmx01_m71_11
       0 0 0 0
       0.0333333 0 0 0
     endlist
-  endnode
-  node dummy blck01
-    parent wmx01_m71_11
-  endnode
-  node dummy blck02
-    parent wmx01_m71_11
-  endnode
-  node dummy blck05
-    parent wmx01_m71_11
-  endnode
-  node dummy blck06
-    parent wmx01_m71_11
-  endnode
-  node dummy box25_04
-    parent wmx01_m71_11
-  endnode
-  node dummy box43_03
-    parent wmx01_m71_11
-  endnode
-  node dummy box45_04
-    parent wmx01_m71_11
-  endnode
-  node dummy box46_03
-    parent wmx01_m71_11
-  endnode
-  node dummy box47_01
-    parent wmx01_m71_11
-  endnode
-  node dummy box48_01
-    parent wmx01_m71_11
-  endnode
-  node dummy box48_04
-    parent wmx01_m71_11
-  endnode
-  node dummy box49_01
-    parent wmx01_m71_11
-  endnode
-  node dummy box49_04
-    parent wmx01_m71_11
-  endnode
-  node dummy box50_04
-    parent wmx01_m71_11
-  endnode
-  node dummy box51_04
-    parent wmx01_m71_11
-  endnode
-  node dummy box52_04
-    parent wmx01_m71_11
-  endnode
-  node dummy box53_04
-    parent wmx01_m71_11
-  endnode
-  node dummy object07
-    parent wmx01_m71_11
-  endnode
-  node dummy object08
-    parent wmx01_m71_11
-  endnode
-  node dummy object14
-    parent wmx01_m71_11
-  endnode
-  node dummy object15
-    parent wmx01_m71_11
-  endnode
-  node dummy object16
-    parent wmx01_m71_11
-  endnode
-  node dummy object18
-    parent wmx01_m71_11
-  endnode
-  node dummy object34
-    parent wmx01_m71_11
-  endnode
-  node dummy object52
-    parent wmx01_m71_11
-  endnode
-  node dummy object53
-    parent wmx01_m71_11
-  endnode
-  node dummy object54
-    parent wmx01_m71_11
-  endnode
-  node dummy object55
-    parent wmx01_m71_11
-  endnode
-  node dummy object56
-    parent wmx01_m71_11
-  endnode
-  node dummy object57
-    parent wmx01_m71_11
-  endnode
-  node dummy object58
-    parent wmx01_m71_11
-  endnode
-  node dummy object59
-    parent wmx01_m71_11
-  endnode
-  node dummy object60
-    parent wmx01_m71_11
-  endnode
-  node dummy object61
-    parent wmx01_m71_11
-  endnode
-  node dummy object62
-    parent wmx01_m71_11
-  endnode
-  node dummy object63
-    parent wmx01_m71_11
-  endnode
-  node dummy object85
-    parent wmx01_m71_11
-  endnode
-  node dummy object86
-    parent wmx01_m71_11
-  endnode
-  node dummy object88
-    parent wmx01_m71_11
-  endnode
-  node dummy object89
-    parent wmx01_m71_11
-  endnode
-  node dummy object90
-    parent wmx01_m71_11
-  endnode
-  node dummy object91
-    parent wmx01_m71_11
-  endnode
-  node dummy object92
-    parent wmx01_m71_11
-  endnode
-  node dummy object93
-    parent wmx01_m71_11
-  endnode
-  node dummy plane11_04
-    parent wmx01_m71_11
-  endnode
-  node dummy plane56_04
-    parent wmx01_m71_11
-  endnode
-  node dummy plane71_03
-    parent wmx01_m71_11
-  endnode
-  node dummy plane71_04
-    parent wmx01_m71_11
-  endnode
-  node dummy plane75_03
-    parent wmx01_m71_11
-  endnode
-  node dummy plane75_04
-    parent wmx01_m71_11
-  endnode
-  node dummy wok01
-    parent wmx01_m71_11
-  endnode
-  node light wmx01_m71_11ml1
-    parent wmx01_m71_11
-  endnode
-  node light wmx01_m71_11ml2
-    parent wmx01_m71_11
   endnode
 doneanim tiledefault wmx01_m71_11
 donemodel wmx01_m71_11

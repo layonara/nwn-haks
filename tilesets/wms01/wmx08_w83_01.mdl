@@ -1,54 +1,14 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 19:22:02 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wmx08_w83_01
-setsupermodel wmx08_w83_01 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wmx08_w83_01 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wmx08_w83_01
 node dummy wmx08_w83_01
   parent NULL
-endnode
-node dummy wmx08_w83_01a
-  parent wmx08_w83_01
-  orientation 0 0 0 0
-  wirecolor 1 0 0
-  position 0 0 0
-endnode
-node trimesh plane165
-  parent wmx08_w83_01a
-  orientation 0 0 0 0
-  wirecolor 0.223529 0.223529 0.223529
-  tilefade 0
-  scale 1
-  render 1
-  beaming 0
-  inheritcolor 0
-  rotatetexture 1
-  alpha 1
-  transparencyhint 1
-  selfillumcolor 0 0 0
-  ambient 1 1 1
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 1
-  center 0 0 0
-  bitmap wmx01_waterxx
-  shadow 0
-  position 0 0 -1
-  verts 4
-    -5 5 0
-    -5 -5 0
-    5 5 0
-    5 -5 0
-  faces 2
-    0 1 2 1 0 1 2 65536
-    3 2 1 1 3 2 1 65536
-  tverts 4
-    0 1 0
-    0 0 0
-    1 1 0
-    1 0 0
 endnode
 node light wmx08_w83_01ml1
   parent wmx08_w83_01
@@ -57,7 +17,7 @@ node light wmx08_w83_01ml1
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -120,6 +80,8 @@ node aabb cm167
   orientation 0 0 0 0
   bitmap NULL
   position 0 0 0
+  render 0
+  shadow 0
   verts 9
     -5 0 -1
     -5 -5 -1
@@ -162,13 +124,54 @@ node light wmx08_w83_01ml2
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
   fadinglight 1
   orientation 0 0 0 0
   position 4.02 2.73 5
+endnode
+node dummy wmx08_w83_01a
+  parent wmx08_w83_01
+  orientation 0 0 0 0
+  wirecolor 1 0 0
+  position 0 0 0
+endnode
+node trimesh plane165
+  parent wmx08_w83_01a
+  orientation 0 0 0 0
+  wirecolor 0.223529 0.223529 0.223529
+  tilefade 0
+  scale 1
+  render 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 1
+  alpha 1
+  transparencyhint 1
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  center 0 0 0
+  bitmap wmx01_waterxx
+  shadow 0
+  position 0 0 -1
+  verts 4
+    -5 5 0
+    -5 -5 0
+    5 5 0
+    5 -5 0
+  faces 2
+    0 1 2 1 0 1 2 65536
+    3 2 1 1 3 2 1 65536
+  tverts 4
+    0 1 0
+    0 0 0
+    1 1 0
+    1 0 0
 endnode
 endmodelgeom wmx08_w83_01
 donemodel wmx08_w83_01

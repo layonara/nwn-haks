@@ -1,9 +1,10 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 19:44:25 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wmx40_m02_05
-setsupermodel wmx40_m02_05 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wmx40_m02_05 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wmx40_m02_05
 node dummy wmx40_m02_05
@@ -17,7 +18,7 @@ node light wmx40_m02_05ml1
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -33,7 +34,7 @@ node light wmx40_m02_05ml2
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -66,10 +67,10 @@ node trimesh terrain_05
     0 1 2 1 0 1 2 0
     2 3 0 1 2 3 0 0
   tverts 4
-    0.501953 1.49805 0
-    0.501953 0.5 0
-    1.50195 0.5 0
-    1.50195 1.49805 0
+    -0.498047 1.49805 0
+    -0.498047 0.5 0
+    0.50195 0.5 0
+    0.50195 1.49805 0
 endnode
 node aabb wmesh_05
   parent wmx40_m02_05
@@ -81,6 +82,8 @@ node aabb wmesh_05
   shininess 1
   bitmap NULL
   position 0 0 0
+  render 0
+  shadow 0
   verts 153
     -5 -5 -0.5
     -4 -5 -0.5

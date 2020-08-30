@@ -1,9 +1,10 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 19:41:43 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wmx14_n14_02
-setsupermodel wmx14_n14_02 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wmx14_n14_02 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wmx14_n14_02
 node dummy wmx14_n14_02
@@ -16,7 +17,7 @@ node light wmx14_n14_02ml1
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -31,7 +32,7 @@ node light wmx14_n14_02ml2
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -1187,15 +1188,15 @@ node trimesh plc_br_stable03
   tverts 118
     0.892578 0.945313 0
     0.892578 0.439453 0
-    0.25 0.751953 0
+    0.25 -0.248047 0
     0.912109 0.476563 0
     0.75 0.498047 0
     0.912109 0.953125 0
     0.998047 0.498047 0
     0.894531 0.462891 0
-    0.5 1.25 0
+    0.5 0.25 0
     0.894531 0.966797 0
-    0.25 1.25 0
+    0.25 0.25 0
     0.90625 0.417969 0
     0.871094 0.417969 0
     0.933594 0.417969 0
@@ -1211,7 +1212,7 @@ node trimesh plc_br_stable03
     0.75 0.25 0
     0.998047 0.5 0
     0.998047 1 0
-    0.5 0.751953 0
+    0.5 -0.248047 0
     0.894531 0.484375 0
     0.892578 0.929688 0
     0.914063 0.470703 0
@@ -1295,14 +1296,14 @@ node trimesh plc_br_stable03
     0.945313 0.640625 0
     0.796875 0.457031 0
     0.892578 0.685547 0
-    1.48438 0.115234 0
-    1.47266 0.115234 0
-    1.48438 0.177734 0
-    1.47266 0.177734 0
-    1.47266 0.199219 0
-    1.48438 0.199219 0
-    1.47266 0.183594 0
-    1.48438 0.183594 0
+    0.48438 0.115234 0
+    0.47266 0.115234 0
+    0.48438 0.177734 0
+    0.47266 0.177734 0
+    0.47266 0.199219 0
+    0.48438 0.199219 0
+    0.47266 0.183594 0
+    0.48438 0.183594 0
 endnode
 node aabb wmesh_01
   parent wmx14_n14_02
@@ -1314,6 +1315,8 @@ node aabb wmesh_01
   orientation 0 0 0 0
   bitmap NULL
   position 0 0 0
+  render 0
+  shadow 0
   verts 76
     -0.73 4.16 0
     -0.92 3.98 0

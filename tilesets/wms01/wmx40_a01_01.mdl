@@ -1,9 +1,10 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 19:43:40 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wmx40_a01_01
-setsupermodel wmx40_a01_01 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wmx40_a01_01 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wmx40_a01_01
 node dummy wmx40_a01_01
@@ -19,6 +20,8 @@ node aabb walkmesh_v01_08
   bitmap NULL
   orientation 0 0 0 0
   position 0 0 0
+  render 0
+  shadow 0
   verts 23
     4.76 4.76 6.5
     4.96 4.96 5
@@ -133,7 +136,7 @@ node light wmx40_a01_01ml04
   multiplier 1
   color 1 1 1
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -149,7 +152,7 @@ node light wmx40_a01_01ml03
   multiplier 1
   color 1 1 1
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -216,27 +219,27 @@ node trimesh boden_auswmx01
     16 17 20 1 16 17 20 1
     20 19 16 1 20 19 16 1
   tverts 21
-    2.50977 2.5 0
-    2.00586 2.5 0
-    1.5 2.5 0
-    0.994141 2.5 0
-    0.490234 2.5 0
-    2.50977 2 0
-    2.00586 2 0
-    1.5 2 0
-    0.994141 2 0
-    0.490234 2 0
-    2.50977 1.5 0
-    2.00586 1.5 0
-    1.5 1.5 0
-    0.994141 1.54688 0
-    0.490234 1.54688 0
-    2.50977 1 0
-    2.00586 1 0
-    1.54883 1 0
-    2.50977 0.5 0
-    2.00586 0.5 0
-    1.54883 0.5 0
+    1.50977 1.5 0
+    1.00586 1.5 0
+    0.5 1.5 0
+    -0.005859 1.5 0
+    -0.509766 1.5 0
+    1.50977 1 0
+    1.00586 1 0
+    0.5 1 0
+    -0.005859 1 0
+    -0.509766 1 0
+    1.50977 0.5 0
+    1.00586 0.5 0
+    0.5 0.5 0
+    -0.005859 0.54688 0
+    -0.509766 0.54688 0
+    1.50977 0 0
+    1.00586 0 0
+    0.54883 0 0
+    1.50977 -0.5 0
+    1.00586 -0.5 0
+    0.54883 -0.5 0
 endnode
 endmodelgeom wmx40_a01_01
 donemodel wmx40_a01_01

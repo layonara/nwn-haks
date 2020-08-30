@@ -1,9 +1,10 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 19:15:57 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wmx01_a02_09
-setsupermodel wmx01_a02_09 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wmx01_a02_09 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wmx01_a02_09
 node dummy wmx01_a02_09
@@ -16,7 +17,7 @@ node light wmx01_a02_09ml1
   multiplier 1
   color 1 1 1
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -31,7 +32,7 @@ node light wmx01_a02_09ml2
   multiplier 1
   color 1 1 1
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -1522,10 +1523,10 @@ node trimesh plc_br_templee01_g_03
     0.453125 1.00195 0
     0.00390625 1.00195 0
     0.00390625 0.0078125 0
-    0.878906 2.01367 0
-    0.445313 2.01367 0
-    0.445313 0.996094 0
-    0.878906 0.996094 0
+    0.878906 1.01367 0
+    0.445313 1.01367 0
+    0.445313 -0.003906 0
+    0.878906 -0.003906 0
 endnode
 node trimesh terrain_03
   parent wmx01_a02_09
@@ -1872,7 +1873,7 @@ node trimesh terrain_03
     99 109 120 1 99 109 120 1
     120 119 99 1 120 119 99 1
   tverts 121
-    -1e-007 0 0
+    -1e-07 0 0
     0.0996094 0 0
     0.199219 0 0
     0.300781 0 0
@@ -1972,7 +1973,7 @@ node trimesh terrain_03
     0.699219 0.900391 0
     0.800781 0.900391 0
     0.900391 0.900391 0
-    1 -1e-007 0
+    1 -1e-07 0
     1 0.0996094 0
     1 0.199219 0
     1 0.300781 0
@@ -2004,6 +2005,8 @@ node aabb wok_03
   orientation 0 0 0 0
   bitmap NULL
   position 0 0 0
+  render 0
+  shadow 0
   verts 121
     -5 -5 0
     -4 -5 0

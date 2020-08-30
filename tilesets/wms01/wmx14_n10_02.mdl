@@ -1,9 +1,10 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Oct 13 19:41:09 2019
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wmx14_n10_02
-setsupermodel wmx14_n10_02 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wmx14_n10_02 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wmx14_n10_02
 node dummy wmx14_n10_02
@@ -16,7 +17,7 @@ node light wmx14_n10_02ml1
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -31,7 +32,7 @@ node light wmx14_n10_02ml2
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -84,6 +85,8 @@ node aabb wmesh_01
   orientation 0 0 0 0
   bitmap NULL
   position 0 0 0
+  render 0
+  shadow 0
   verts 121
     5 5 -0.5
     4 5 -0.5
@@ -808,6 +811,7 @@ node aabb wmesh_01
     4 4 -0.5 5 5 -0.5 1
 endnode
 node trimesh plc_mr_mercstl1a
+  parent wmx14_n10_02
   wirecolor 0.721569 0.721569 0.721569
   tilefade 0
   scale 1
@@ -826,7 +830,6 @@ node trimesh plc_mr_mercstl1a
   center -1.5 28.5 180.5
   bitmap wmx01_marketnw2
   orientation 0 0 0 0
-  parent wmx14_n10_02
   position -1.2 -0.02 -0.5
   verts 1548
     2.12 2.58 0.01
@@ -5895,6 +5898,7 @@ node trimesh plc_mr_mercstl1a
     0.929688 0.0820313 0
 endnode
 node trimesh plane01
+  parent wmx14_n10_02
   orientation 0 0 -1 -0.913778
   wirecolor 0.341176 0.878431 0.776471
   tilefade 0
@@ -5913,7 +5917,6 @@ node trimesh plane01
   specular 0 0 0
   shininess 10
   bitmap wmx10_cliffsxtra
-  parent wmx14_n10_02
   position 0 0 -0.49
   verts 4
     -2.75 -2.75 0
