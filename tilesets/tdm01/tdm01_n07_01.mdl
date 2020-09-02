@@ -1,4 +1,4 @@
-# Exported from NWmax 0.8 b60 at 24.12.2009 20:21:34
+# Exported from NWmax 0.8 b61 at 07.06.2020 10:35:17
 # mdl file
 #
 #NWmax MODEL ASCII
@@ -18,7 +18,7 @@ node trimesh Cylinder142
   parent tdm01_n07_01
   position 2.96 0.81 0.01
   orientation  0.0 0.0 0.0  0.0
-  wirecolor 0.0235294 0.0235294 0.0235294 
+  wirecolor 0.0196078 0.0196078 0.0196078 
   tilefade 0
   scale 1.0
   render 1
@@ -100,7 +100,7 @@ node trimesh Box1541
   parent tdm01_n07_01
   position 2.51 0.81 0.0
   orientation  0.0 0.0 0.0  0.0
-  wirecolor 0.0235294 0.0235294 0.0235294 
+  wirecolor 0.0196078 0.0196078 0.0196078 
   tilefade 0
   scale 1.0
   render 1
@@ -154,7 +154,7 @@ node trimesh Cylinder141
   parent tdm01_n07_01
   position 3.84 0.84 -1.68
   orientation  0.0 0.0 0.0  0.0
-  wirecolor 0.0235294 0.0235294 0.0235294 
+  wirecolor 0.0196078 0.0196078 0.0196078 
   tilefade 0
   scale 1.0
   render 1
@@ -312,7 +312,7 @@ node trimesh Line1555
   parent tdm01_n07_01
   position 0.18 0.37 -1.1
   orientation  0.0 0.0 0.0  0.0
-  wirecolor 0.0235294 0.0235294 0.0235294 
+  wirecolor 0.0196078 0.0196078 0.0196078 
   tilefade 0
   scale 1.0
   render 1
@@ -494,7 +494,7 @@ node trimesh Object278
   parent tdm01_n07_01
   position 0.96 0.97 -6.12
   orientation  0.0 0.0 0.0  0.0
-  wirecolor 0.52549 0.52549 0.52549 
+  wirecolor 0.521569 0.521569 0.521569 
   tilefade 0
   scale 1.0
   render 1
@@ -532,7 +532,7 @@ node trimesh Line1558
   parent tdm01_n07_01
   position -0.17 4.37 -1.0
   orientation  0.0 0.0 0.0  0.0
-  wirecolor 0.52549 0.52549 0.52549 
+  wirecolor 0.521569 0.521569 0.521569 
   tilefade 0
   scale 1.0
   render 1
@@ -603,7 +603,7 @@ node trimesh Line1559
   parent tdm01_n07_01
   position -0.17 4.37 -6.0
   orientation  0.0 0.0 0.0  0.0
-  wirecolor 0.52549 0.52549 0.52549 
+  wirecolor 0.521569 0.521569 0.521569 
   tilefade 0
   scale 1.0
   render 1
@@ -619,7 +619,7 @@ node trimesh Line1559
   specular 0.0 0.0 0.0 
   shininess 1
   center 39.0 -67.0 250.0 
-  bitmap tdm01_volcano02
+  bitmap tdm01_volcano01
   verts 19
     -1.33 0.63 0.0
     -1.28 -0.52 0.0
@@ -691,7 +691,7 @@ node trimesh Line1556
   parent tdm01_n07_01
   position 0.16 -4.36 -1.0
   orientation  0.0 0.0 0.0  0.0
-  wirecolor 0.52549 0.52549 0.52549 
+  wirecolor 0.521569 0.521569 0.521569 
   tilefade 0
   scale 1.0
   render 1
@@ -792,7 +792,7 @@ node trimesh Line1557
   specular 0.0 0.0 0.0 
   shininess 1
   center 18.5 142.5 261.5 
-  bitmap tdm01_volcano02
+  bitmap tdm01_volcano01
   verts 25
     1.61 0.71 0.0
     1.21 2.89 0.0
@@ -888,7 +888,7 @@ node trimesh Plane53
   tilefade 0
   scale 1.0
   render 1
-  Shadow 1
+  Shadow 0
   beaming 0
   inheritcolor 0
   rotatetexture 1
@@ -1735,13 +1735,13 @@ node dummy tdm01_n07_01a
   parent tdm01_n07_01
   position 0.0 0.0 0.0
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.341176 0.878431 0.776471 
+  wirecolor 0.878431 0.560784 0.341176 
 endnode
 node dummy tdm01_n07_01_U01
   parent tdm01_n07_01
   position 0.499961 0.818511 0.0
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.341176 0.878431 0.776471 
+  wirecolor 0.878431 0.560784 0.341176 
 endnode
 node light tdm01_n07_01ml2
   parent tdm01_n07_01
@@ -2006,7 +2006,7 @@ node trimesh Line713
   parent tdm01_n07_01
   position -2.81 0.81 2.65
   orientation  0.0 0.0 0.0  0.0
-  wirecolor 0.345098 0.345098 0.345098 
+  wirecolor 0.341176 0.341176 0.341176 
   tilefade 2
   scale 1.0
   render 1
@@ -2021,7 +2021,7 @@ node trimesh Line713
   diffuse 0.0 0.0 0.0 
   specular 0.0 0.0 0.0 
   shininess 1
-  center 310.0 3.0 -1.49999 
+  center 310.0 3.0 -1.5 
   bitmap tdm01_black
   verts 12
     0.18 0.35 0.0
@@ -2051,7 +2051,7 @@ node trimesh ceiling11
   parent tdm01_n07_01
   position 0.0 0.0 9.15
   orientation  0.0 0.0 0.0  0.0
-  wirecolor 0.345098 0.345098 0.345098 
+  wirecolor 0.341176 0.341176 0.341176 
   tilefade 1
   scale 1.0
   render 1
@@ -2066,7 +2066,7 @@ node trimesh ceiling11
   diffuse 1.0 1.0 1.0 
   specular 0.0 0.0 0.0 
   shininess 10
-  center 0.0 0.0 -58.546 
+  center 0.0 0.0 -59.0 
   bitmap tdm01_floor01
   verts 25
     2.5 2.5 -0.65

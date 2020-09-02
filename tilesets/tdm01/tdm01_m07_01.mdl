@@ -1,4 +1,4 @@
-# Exported from NWmax 0.8 b60 at 26.05.2010 16:33:09
+# Exported from NWmax 0.8 b61 at 10.06.2020 20:29:32
 # mdl file
 #
 #NWmax MODEL ASCII
@@ -8,7 +8,6 @@ filedependancy Unknown
 newmodel tdm01_m07_01
 setsupermodel tdm01_m07_01 NULL
 classification Tile
-setanimationscale 1.0
 #NWmax GEOM  ASCII
 beginmodelgeom tdm01_m07_01
 node dummy tdm01_m07_01
@@ -18,139 +17,75 @@ node dummy tdm01_m07_01a
   parent tdm01_m07_01
   position 0.0 0.0 0.0
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.690196 0.101961 0.101961 
+  wirecolor 0.6 0.894118 0.721569 
 endnode
 node emitter Waterfall07
   parent tdm01_m07_01a
   position -1.45596 0.723848 4.36471
-  orientation -0.999676 0.00547066 0.0248734 -3.1496
-  wirecolor 0.347656 0.347656 0.347656
-    color_start 0.6 0.835295 0.921569
-    color_end 1 1 1
-    alpha_start 0.7
-    alpha_end 0.13
-    size_start 0.2
-    size_end 1
-    size_start_y 0
-    size_end_y 0
-    frame_start 0
-    frame_end 0
-    birthrate 0
-    spawn_type 0
-    life_exp 2.3
-    mass 0.3
-    spread 1.0472
-    particle_rot 0
-    velocity 1.8
-    randvel 0
-    fps 0
-    random 0
-    inherit 1
-    inherit_local 0
-    inherit_part 0
-    inheritvel 0
-    xsize 0
-    ysize 0
-    bounce 0
-    bounce_co 0
-    loop 0
-    update Fountain
-    render Linked
-    Blend Lighten
-    update_sel 1
-    render_sel 2
-    blend_sel 3
-    deadspace 0
-    opacity 0.5
-    blurlength 10
-    lightning_delay 0
-    lightning_radius 0
-    lightning_scale 0
-    blast_radius 0
-    blast_length 0
-    twosidedtex 0
-    p2p 0
-    p2p_sel 1
-    p2p_type Bezier
-    p2p_bezier2 0
-    p2p_bezier3 0
-    combinetime 0
-    drag 0
-    grav 0
-    threshold 0
-    texture Fxpa_splash
-    xgrid 1
-    ygrid 1
-    affected_by_wind 0
-    m_is_tinted 1
-    renderorder 0
-    Splat 0
-endnode
-node emitter Splash06
-  parent tdm01_m07_01a
-  position -1.46319 0.648784 -0.768738
-  orientation 0 0 0 0
-  wirecolor 0.347656 0.347656 0.347656
-    color_start 1 1 1
-    color_end 1 1 1
-    alpha_start 0.25
-    alpha_end 0
-    size_start 0
-    size_end 4
-    size_start_y 0
-    size_end_y 0
-    frame_start 1
-    frame_end 1
-    birthrate 0
-    spawn_type 0
-    life_exp 2
-    mass 0
-    spread 0
-    particle_rot 0
-    velocity 0
-    randvel 0
-    fps 0
-    random 0
-    inherit 1
-    inherit_local 0
-    inherit_part 0
-    inheritvel 0
-    xsize 108
-    ysize 129
-    bounce 0
-    bounce_co 0
-    loop 0
-    update Fountain
-    render Billboard_to_World_Z
-    Blend Lighten
-    update_sel 1
-    render_sel 4
-    blend_sel 3
-    deadspace 0
-    opacity 0.5
-    blurlength 10
-    lightning_delay 0
-    lightning_radius 0
-    lightning_scale 0
-    blast_radius 0
-    blast_length 0
-    twosidedtex 0
-    p2p 0
-    p2p_sel 1
-    p2p_type Bezier
-    p2p_bezier2 0
-    p2p_bezier3 0
-    combinetime 0
-    drag 0
-    grav 0
-    threshold 0
-    texture fxpa_ripple
-    xgrid 2
-    ygrid 2
-    affected_by_wind 0
-    m_is_tinted 1
-    renderorder 0
-    Splat 0
+  orientation 0.999676 -0.0054707 -0.0248736 -3.13359
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 2
+  render Linked
+  blend_sel 3
+  Blend Lighten
+  spawntype_sel 0
+  spawnType 0
+  xSize 0.0
+  ySize 0.0
+  inherit 1
+  inherit_local 1
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.6 0.835295 0.921569 
+  colorEnd 1.0 1.0 1.0 
+  alphaStart 0.7
+  alphaEnd 0.13
+  sizeStart 0.2
+  sizeEnd 1.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 0
+  lifeExp 2.3
+  mass 0.3
+  spread 1.0472
+  particleRot 0.0
+  velocity 1.8
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 1
+  splat 0
+  affectedByWind false
+  texture Fxpa_splash
+  twosidedtex 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  framestart 0
+  frameend 0
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
 endnode
 node light tdm01_m07_01ml1
   parent tdm01_m07_01
@@ -1915,7 +1850,7 @@ node trimesh Plane15
   tilefade 0
   scale 1.0
   render 1
-  Shadow 1
+  Shadow 0
   beaming 0
   inheritcolor 0
   rotatetexture 1
@@ -2151,13 +2086,6 @@ newanim animloop01 tdm01_m07_01
             0.0333333 10 
         endlist
     endnode
-    node emitter Splash06
-        parent tdm01_m07_01a
-        birthratekey
-            0.0 5 
-            0.0333333 5 
-        endlist
-    endnode
     node light tdm01_m07_01ml1
         parent tdm01_m07_01
     endnode
@@ -2266,13 +2194,7 @@ newanim tiledefault tdm01_m07_01
             0.0 -1.45596 0.723848 4.36471
         endlist
         birthratekey
-            0.0 0.0
-        endlist
-    endnode
-    node emitter Splash06
-        parent tdm01_m07_01a
-        birthratekey
-            0.0 0.0
+            0.0 0 
         endlist
     endnode
     node light tdm01_m07_01ml1

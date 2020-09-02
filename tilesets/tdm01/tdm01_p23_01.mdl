@@ -1,4 +1,4 @@
-# Exported from NWmax 0.8 b60 at 21.06.2010 20:07:17
+# Exported from NWmax 0.8 b61 at 07.06.2020 11:06:49
 # mdl file
 #
 #NWmax MODEL ASCII
@@ -17,7 +17,7 @@ node dummy tdm01_p23_01a
   parent tdm01_p23_01
   position 0.0 0.0 -1.0
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.52549 0.231373 0.0313726 
+  wirecolor 0.333333 0.109804 0.694118 
 endnode
 node emitter R_eye154
   parent tdm01_p23_01a
@@ -52,7 +52,7 @@ node emitter R_eye154
   sizeStart_y 0.0
   sizeEnd_y 0.0
   birthrate 0
-  lifeExp 0.0
+  lifeExp 2.5
   mass 0.0
   spread 0.0
   particleRot 0.0
@@ -120,7 +120,7 @@ node emitter R_eye155
   sizeStart_y 0.0
   sizeEnd_y 0.0
   birthrate 0
-  lifeExp 0.0
+  lifeExp 2.0
   mass 0.0
   spread 0.0
   particleRot 0.0
@@ -154,67 +154,6 @@ node emitter R_eye155
   p2p_bezier3 0.0
   grav 0.0
   drag 0.0
-endnode
-node trimesh Object578
-  parent tdm01_p23_01a
-  position -1.2 -0.52 -10.66
-  orientation 1.0 0.0 0.0 0.0
-  wirecolor 1.0 1.0 1.0 
-  tilefade 0
-  scale 1.0
-  render 1
-  Shadow 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1.0
-  transparencyhint 0
-  selfillumcolor 0.0 0.0 0.0 
-  ambient 1.0 1.0 1.0 
-  diffuse 1.0 1.0 1.0 
-  specular 0.05 0.05 0.05 
-  shininess 26
-  center -13.0 -13.5 1332.5 
-  bitmap tdm01_moss
-  verts 12
-    -0.26 -0.03 13.0
-    0.08 0.53 11.98
-    -0.97 0.58 13.0
-    -0.48 -0.85 13.0
-    0.71 -0.77 12.16
-    -0.96 0.16 14.01
-    -0.41 -0.22 14.01
-    -0.58 -0.73 14.01
-    -0.87 0.13 14.87
-    -0.5 -0.15 14.87
-    -0.62 -0.53 14.87
-    0.61 -0.26 11.78
-  faces 12
-    0 1 2  1  0 1 2  2
-    3 4 0  1  3 4 0  2
-    0 2 5  1  0 2 5  2
-    5 6 0  1  5 6 0  2
-    3 0 6  1  3 0 6  2
-    6 7 3  1  6 7 3  2
-    6 5 8  1  6 5 8  2
-    8 9 6  1  8 9 6  2
-    7 6 9  1  7 6 9  2
-    9 10 7  1  9 10 7  2
-    11 1 0  1  11 1 0  2
-    4 11 0  1  4 11 0  2
-  tverts 12
-    0.636053 0.564036 0
-    0.99075 0.718113 0
-    0.636016 0.772929 0
-    0.636089 0.283197 0
-    0.927867 0.216821 0
-    0.281672 0.71678 0
-    0.281709 0.499435 0
-    0.281745 0.325828 0
-    -0.0163522 0.704357 0
-    -0.0163364 0.522075 0
-    -0.0163 0.393919 0
-    1.05731 0.394037 0
 endnode
 node trimesh Box1878
   parent tdm01_p23_01a
@@ -1320,127 +1259,185 @@ node light tdm01_p23_01ml1
   lightpriority 5
   fadingLight 1
 endnode
+#Tile trimesh node
+node trimesh Object578
+  parent tdm01_p23_01
+  position -1.2 -0.52 -11.66
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 1
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.05 0.05 0.05 
+  shininess 26
+  center -13.0 -13.5 1332.5 
+  bitmap tdm01_moss
+  verts 12
+    -0.26 -0.03 13.0
+    0.08 0.53 11.98
+    -0.97 0.58 13.0
+    -0.48 -0.85 13.0
+    0.71 -0.77 12.16
+    -0.96 0.16 14.01
+    -0.41 -0.22 14.01
+    -0.58 -0.73 14.01
+    -0.87 0.13 14.87
+    -0.5 -0.15 14.87
+    -0.62 -0.53 14.87
+    0.61 -0.26 11.78
+  faces 12
+    0 1 2  1  0 1 2  2
+    3 4 0  1  3 4 0  2
+    0 2 5  1  0 2 5  2
+    5 6 0  1  5 6 0  2
+    3 0 6  1  3 0 6  2
+    6 7 3  1  6 7 3  2
+    6 5 8  1  6 5 8  2
+    8 9 6  1  8 9 6  2
+    7 6 9  1  7 6 9  2
+    9 10 7  1  9 10 7  2
+    11 1 0  1  11 1 0  2
+    4 11 0  1  4 11 0  2
+  tverts 12
+    0.636053 0.564036 0
+    0.99075 0.718113 0
+    0.636016 0.772929 0
+    0.636089 0.283197 0
+    0.927867 0.216821 0
+    0.281672 0.71678 0
+    0.281709 0.499435 0
+    0.281745 0.325828 0
+    -0.0163522 0.704357 0
+    -0.0163364 0.522075 0
+    -0.0163 0.393919 0
+    1.05731 0.394037 0
+endnode
 endmodelgeom tdm01_p23_01
-#MAXANIM ASCII
+#NWmax ANIM ASCII
+newanim tiledefaul tdm01_p23_01
+  length 0.0
+  transtime 0.25
+  animroot tdm01_p23_01
+    node dummy tdm01_p23_01
+        parent NULL
+    endnode
+    node dummy tdm01_p23_01a
+        parent tdm01_p23_01
+    endnode
+    node emitter R_eye154
+        parent tdm01_p23_01a
+        birthratekey
+          0 0
+        endlist
+    endnode
+    node emitter R_eye155
+        parent tdm01_p23_01a
+        birthratekey
+          0 0
+        endlist
+    endnode
+    node trimesh Box1878
+        parent tdm01_p23_01a
+        alphakey
+          0 0
+        endlist
+        selfillumcolorkey
+          0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh ceiling03
+        parent tdm01_p23_01
+    endnode
+    node trimesh Object43
+        parent tdm01_p23_01
+    endnode
+    node aabb A15_282
+        parent tdm01_p23_01
+    endnode
+    node trimesh A15_172
+        parent tdm01_p23_01
+    endnode
+    node trimesh Object662
+        parent tdm01_p23_01
+    endnode
+    node light tdm01_p23_01ml2
+        parent tdm01_p23_01
+    endnode
+    node light tdm01_p23_01ml1
+        parent tdm01_p23_01
+    endnode
+    node trimesh Object578
+        parent tdm01_p23_01
+    endnode
+doneanim tiledefault tdm01_p23_01
+#NWmax ANIM ASCII
 newanim animloop01 tdm01_p23_01
-  length 0
+  length 0.0333333
   transtime 0.25
   animroot tdm01_p23_01
-  node dummy tdm01_p23_01
-    parent NULL
-  endnode
-  node dummy tdm01_p23_01a
-    parent tdm01_p23_01
-  endnode
-  node emitter R_eye154
-    parent tdm01_p23_01a
-  endnode
-  node emitter R_eye155
-    parent tdm01_p23_01a
-  endnode
-  node trimesh Object578
-    parent tdm01_p23_01a
-    ambient 0.2 0.2 0.2
-    diffuse 0.8 0.8 0.8
-    specular 0 0 0
-    shininess 1
-    selfillumcolor 0.376471 0.733333 0.647059
-  endnode
-  node trimesh Box1878
-    parent tdm01_p23_01a
-    ambient 0.2 0.2 0.2
-    diffuse 0.8 0.8 0.8
-    specular 0 0 0
-    shininess 1
-  endnode
-  node dummy ceiling03
-    parent tdm01_p23_01
-  endnode
-  node dummy Object43
-    parent tdm01_p23_01
-  endnode
-  node dummy A15_282
-    parent tdm01_p23_01
-  endnode
-  node trimesh A15_172
-    parent tdm01_p23_01
-    ambient 0.2 0.2 0.2
-    diffuse 0.8 0.8 0.8
-    specular 0 0 0
-    shininess 1
-  endnode
-  node dummy Object662
-    parent tdm01_p23_01
-  endnode
-  node light tdm01_p23_01ml2
-    parent tdm01_p23_01
-  endnode
-  node light tdm01_p23_01ml1
-    parent tdm01_p23_01
-  endnode
+    node dummy tdm01_p23_01
+        parent NULL
+    endnode
+    node dummy tdm01_p23_01a
+        parent tdm01_p23_01
+    endnode
+    node emitter R_eye154
+        parent tdm01_p23_01a
+        birthratekey
+          0 3
+          0.0333333 3
+        endlist
+    endnode
+    node emitter R_eye155
+        parent tdm01_p23_01a
+        birthratekey
+          0 2
+          0.0333333 2
+        endlist
+    endnode
+    node trimesh Box1878
+        parent tdm01_p23_01a
+        alphakey
+          0 1
+          0.0333333 1
+        endlist
+        selfillumcolorkey
+          0 1 1 1
+          0.0333333 1 1 1
+        endlist
+    endnode
+    node trimesh ceiling03
+        parent tdm01_p23_01
+    endnode
+    node trimesh Object43
+        parent tdm01_p23_01
+    endnode
+    node aabb A15_282
+        parent tdm01_p23_01
+    endnode
+    node trimesh A15_172
+        parent tdm01_p23_01
+    endnode
+    node trimesh Object662
+        parent tdm01_p23_01
+    endnode
+    node light tdm01_p23_01ml2
+        parent tdm01_p23_01
+    endnode
+    node light tdm01_p23_01ml1
+        parent tdm01_p23_01
+    endnode
+    node trimesh Object578
+        parent tdm01_p23_01
+    endnode
 doneanim animloop01 tdm01_p23_01
-
-#MAXANIM ASCII
-newanim animloop02 tdm01_p23_01
-  length 0
-  transtime 0.25
-  animroot tdm01_p23_01
-  node dummy tdm01_p23_01
-    parent NULL
-  endnode
-  node dummy tdm01_p23_01a
-    parent tdm01_p23_01
-  endnode
-  node emitter R_eye154
-    parent tdm01_p23_01a
-    birthrate 3
-    lifeExp 2.5
-  endnode
-  node emitter R_eye155
-    parent tdm01_p23_01a
-    birthrate 2
-    lifeExp 2
-  endnode
-  node trimesh Object578
-    parent tdm01_p23_01a
-    ambient 0.2 0.2 0.2
-    diffuse 0.8 0.8 0.8
-    specular 0 0 0
-    shininess 1
-  endnode
-  node trimesh Box1878
-    parent tdm01_p23_01a
-    ambient 0.2 0.2 0.2
-    diffuse 0.8 0.8 0.8
-    specular 0 0 0
-    shininess 1
-    alpha 1
-    selfillumcolor 1 1 1
-  endnode
-  node dummy ceiling03
-    parent tdm01_p23_01
-  endnode
-  node dummy Object43
-    parent tdm01_p23_01
-  endnode
-  node dummy A15_282
-    parent tdm01_p23_01
-  endnode
-  node trimesh A15_172
-    parent tdm01_p23_01
-    ambient 0.2 0.2 0.2
-    diffuse 0.8 0.8 0.8
-    specular 0 0 0
-    shininess 1
-  endnode
-  node dummy Object662
-    parent tdm01_p23_01
-  endnode
-  node light tdm01_p23_01ml2
-    parent tdm01_p23_01
-  endnode
-  node light tdm01_p23_01ml1
-    parent tdm01_p23_01
-  endnode
-doneanim animloop02 tdm01_p23_01
 donemodel tdm01_p23_01

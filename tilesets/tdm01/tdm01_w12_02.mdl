@@ -1,4 +1,4 @@
-# Exported from NWmax 0.8 b60 at 04.06.2010 17:00:22
+# Exported from NWmax 0.8 b61 at 07.06.2020 12:58:28
 # mdl file
 #
 #NWmax MODEL ASCII
@@ -1978,54 +1978,6 @@ node trimesh xblacky02
     0.688896 0.979361 0
     0.975292 0.815688 0
     0.987927 0.786826 0
-endnode
-#Tile trimesh node
-node trimesh xmoss01
-  parent tdm01_w12_02
-  position -4.24 -2.78 0.0
-  orientation  0.0 0.0 0.0  0.0
-  wirecolor 1.0 1.0 1.0 
-  tilefade 0
-  scale 1.0
-  render 1
-  Shadow 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1.0
-  transparencyhint 0
-  selfillumcolor 0.0 0.0 0.0 
-  ambient 1.0 1.0 1.0 
-  diffuse 1.0 1.0 1.0 
-  specular 0.05 0.05 0.05 
-  shininess 26
-  center 252.5 36.5 96.0 
-  bitmap tdm01_moss
-  verts 8
-    2.82 1.55 0.0
-    2.28 0.86 0.0
-    2.72 1.89 0.88
-    1.73 0.54 1.92
-    2.19 1.5 1.92
-    2.67 -0.44 0.0
-    2.63 -1.05 1.87
-    3.32 -1.16 0.0
-  faces 6
-    1 0 2  1  1 0 2  2
-    4 3 2  1  4 3 2  2
-    5 3 6  1  5 3 6  2
-    7 5 6  1  7 5 6  2
-    1 3 5  1  1 3 5  2
-    1 2 3  1  1 2 3  2
-  tverts 8
-    0.931901 0.368114 0
-    0.681388 0.368115 0
-    1.05649 0.659157 0
-    0.564961 1.00603 0
-    0.913271 1.00603 0
-    0.209214 0.368115 0
-    -0.0122227 0.98992 0
-    -0.0531833 0.368115 0
 endnode
 #Tile trimesh node
 node trimesh xpart01
@@ -4075,6 +4027,54 @@ node trimesh shroom02
     0.452586 0.398017 0
     0.537688 0.398606 0
     0.495313 0.374551 0
+endnode
+#Tile trimesh node
+node trimesh xmoss01
+  parent tdm01_w12_02
+  position -4.24 -2.78 0.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 1
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.05 0.05 0.05 
+  shininess 26
+  center 252.5 36.5 96.0 
+  bitmap tdm01_moss
+  verts 8
+    2.82 1.55 0.0
+    2.28 0.86 0.0
+    2.72 1.89 0.88
+    1.73 0.54 1.92
+    2.19 1.5 1.92
+    2.67 -0.44 0.0
+    2.63 -1.05 1.87
+    3.32 -1.16 0.0
+  faces 6
+    1 0 2  1  1 0 2  2
+    4 3 2  1  4 3 2  2
+    5 3 6  1  5 3 6  2
+    7 5 6  1  7 5 6  2
+    1 3 5  1  1 3 5  2
+    1 2 3  1  1 2 3  2
+  tverts 8
+    0.931901 0.368114 0
+    0.681388 0.368115 0
+    1.05649 0.659157 0
+    0.564961 1.00603 0
+    0.913271 1.00603 0
+    0.209214 0.368115 0
+    -0.0122227 0.98992 0
+    -0.0531833 0.368115 0
 endnode
 endmodelgeom tdm01_w12_02
 donemodel tdm01_w12_02

@@ -1,4 +1,4 @@
-# Exported from NWmax 0.8 b60 at 04.06.2010 21:36:20
+# Exported from NWmax 0.8 b61 at 07.06.2020 12:58:58
 # mdl file
 #
 #NWmax MODEL ASCII
@@ -250,7 +250,7 @@ node trimesh rargh072
   diffuse 1.0 1.0 1.0 
   specular 0.0 0.0 0.0 
   shininess 1
-  center 0.0 0.0 0.0 
+  center -201.5 -231.5 -0.5 
   bitmap tdm01_floor02
   verts 18
     -2.5 -2.51 0.0
@@ -2260,51 +2260,6 @@ node aabb walkmesh
         -0.61 0.94 3.0 5.0 5.0 3.0 47
 endnode
 #Tile trimesh node
-node trimesh moss01
-  parent tdm01_w13_02
-  position -3.64 -3.33 1.5
-  orientation  0.0 0.0 0.0  0.0
-  wirecolor 1.0 1.0 1.0 
-  tilefade 0
-  scale 1.0
-  render 1
-  Shadow 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1.0
-  transparencyhint 0
-  selfillumcolor 0.0 0.0 0.0 
-  ambient 1.0 1.0 1.0 
-  diffuse 1.0 1.0 1.0 
-  specular 0.05 0.05 0.05 
-  shininess 26
-  center 221.5 143.0 0.5 
-  bitmap tdm01_moss
-  verts 7
-    2.25 1.29 -1.49
-    1.33 2.1 0.22
-    1.5 1.87 -1.49
-    3.1 1.22 -1.49
-    2.91 0.76 0.22
-    1.72 1.04 1.5
-    1.87 0.82 1.5
-  faces 5
-    1 0 2  1  1 0 2  1
-    4 3 0  1  4 3 0  1
-    0 5 6  1  0 5 6  1
-    0 1 5  1  0 1 5  1
-    0 6 4  1  0 6 4  1
-  tverts 7
-    0.959755 0.485747 0
-    0.361764 0.767444 0
-    0.949794 0.727886 0
-    0.966677 0.287509 0
-    0.385913 0.262854 0
-    -0.0265889 0.553973 0
-    -0.0105627 0.4732 0
-endnode
-#Tile trimesh node
 node trimesh new01
   parent tdm01_w13_02
   position -3.64 -3.33 1.5
@@ -3133,6 +3088,51 @@ node trimesh shroom02
     0.522541 0.4553 0
     0.57018 0.292599 0
     0.397167 0.33524 0
+endnode
+#Tile trimesh node
+node trimesh moss01
+  parent tdm01_w13_02
+  position -3.64 -3.33 1.5
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 1
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.05 0.05 0.05 
+  shininess 26
+  center 221.5 143.0 0.5 
+  bitmap tdm01_moss
+  verts 7
+    2.25 1.29 -1.49
+    1.33 2.1 0.22
+    1.5 1.87 -1.49
+    3.1 1.22 -1.49
+    2.91 0.76 0.22
+    1.72 1.04 1.5
+    1.87 0.82 1.5
+  faces 5
+    1 0 2  1  1 0 2  1
+    4 3 0  1  4 3 0  1
+    0 5 6  1  0 5 6  1
+    0 1 5  1  0 1 5  1
+    0 6 4  1  0 6 4  1
+  tverts 7
+    0.959755 0.485747 0
+    0.361764 0.767444 0
+    0.949794 0.727886 0
+    0.966677 0.287509 0
+    0.385913 0.262854 0
+    -0.0265889 0.553973 0
+    -0.0105627 0.4732 0
 endnode
 endmodelgeom tdm01_w13_02
 donemodel tdm01_w13_02

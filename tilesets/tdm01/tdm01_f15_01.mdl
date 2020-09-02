@@ -1,4 +1,4 @@
-# Exported from NWmax 0.8 b60 at 18.06.2011 21:27:03
+# Exported from NWmax 0.8 b61 at 06.06.2020 20:34:17
 # mdl file
 #
 #NWmax MODEL ASCII
@@ -17,14 +17,14 @@ node dummy tdm01_f15_01_D01
   parent tdm01_f15_01
   position -5.0 0.0 0.0
   orientation 0.0 0.0 -1.0 -1.5708
-  wirecolor 0.65098 0.898039 0.898039 
+  wirecolor 0.0235294 0.52549 0.443137 
 endnode
 #Tile trimesh node
 node trimesh Line2538
   parent tdm01_f15_01
   position -1.33 3.37 0.14
   orientation  0.0 0.0 0.0  0.0
-  wirecolor 0.345098 0.345098 0.345098 
+  wirecolor 0.341176 0.341176 0.341176 
   tilefade 0
   scale 1.0
   render 1
@@ -72,7 +72,7 @@ node trimesh Line2541
   parent tdm01_f15_01
   position 5.0 5.01 3.0
   orientation  0.0 0.0 0.0  0.0
-  wirecolor 0.345098 0.345098 0.345098 
+  wirecolor 0.341176 0.341176 0.341176 
   tilefade 0
   scale 1.0
   render 1
@@ -143,7 +143,7 @@ node aabb walkmesh
   parent tdm01_f15_01
   position 0.0 0.0 1.5
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.345098 0.345098 0.345098 
+  wirecolor 0.341176 0.341176 0.341176 
   multimaterial 20
     Dirt
     Obscuring
@@ -303,7 +303,7 @@ node trimesh Line2534
   parent tdm01_f15_01
   position -1.02 -0.86 0.0
   orientation  0.0 0.0 0.0  0.0
-  wirecolor 0.345098 0.345098 0.345098 
+  wirecolor 0.341176 0.341176 0.341176 
   tilefade 0
   scale 1.0
   render 1
@@ -413,7 +413,7 @@ node trimesh Line2537
   parent tdm01_f15_01
   position -0.53 -1.36 0.16
   orientation  0.0 0.0 0.0  0.0
-  wirecolor 0.345098 0.345098 0.345098 
+  wirecolor 0.341176 0.341176 0.341176 
   tilefade 0
   scale 1.0
   render 1
@@ -691,7 +691,7 @@ node dummy tdm01_f15_01sl1
   parent tdm01_f15_01
   position 0.0687935 -2.58799 0.261145
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.0235294 0.52549 0.0235294 
+  wirecolor 0.878431 0.560784 0.341176 
 endnode
 #Tile trimesh node
 node trimesh Line2692
@@ -1407,8 +1407,8 @@ node trimesh Plane12
   diffuse 1.0 1.0 1.0 
   specular 0.0 0.0 0.0 
   shininess 1
-  center -25.0 57.365 441.153 
-  bitmap tdm01_rock01
+  center -25.0 57.5 441.0 
+  bitmap tdm01_floor01
   verts 47
     3.0 5.0 2.98
     2.5 5.0 4.0

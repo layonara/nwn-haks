@@ -1,4 +1,4 @@
-# Exported from NWmax 0.8 b60 at 18.06.2011 21:43:11
+# Exported from NWmax 0.8 b61 at 06.06.2020 20:57:13
 # mdl file
 #
 #NWmax MODEL ASCII
@@ -17,7 +17,7 @@ node light AuroraLight13
   parent tdm01_g15_01
   position -0.229365 -0.788975 0.44236
   orientation 0.0 0.0 -1.0 -3.41212
-  wirecolor 0.341176 0.341176 0.341176 
+  wirecolor 0.337255 0.337255 0.337255 
   radius 5.0
   multiplier 1.0
   color 0.407843 0.788235 0.658824 
@@ -33,7 +33,7 @@ node trimesh Line411
   parent tdm01_g15_01
   position 5.0 0.0 3.92
   orientation  0.0 0.0 0.0  0.0
-  wirecolor 0.341176 0.341176 0.341176 
+  wirecolor 0.337255 0.337255 0.337255 
   tilefade 1
   scale 1.0
   render 1
@@ -407,7 +407,7 @@ node trimesh Shape11
   parent tdm01_g15_01
   position -2.42 2.48 3.0
   orientation  0.0 0.0 0.0  0.0
-  wirecolor 0.552941 0.552941 0.552941 
+  wirecolor 0.54902 0.54902 0.54902 
   tilefade 0
   scale 1.0
   render 1
@@ -464,7 +464,7 @@ node trimesh Shape09
   parent tdm01_g15_01
   position -3.95 -3.5 3.0
   orientation  0.0 0.0 0.0  0.0
-  wirecolor 0.552941 0.552941 0.552941 
+  wirecolor 0.54902 0.54902 0.54902 
   tilefade 0
   scale 1.0
   render 1
@@ -515,7 +515,7 @@ node trimesh Mesh98
   parent tdm01_g15_01
   position -5.0 0.0 3.32
   orientation  0.0 0.0 0.0  0.0
-  wirecolor 0.552941 0.552941 0.552941 
+  wirecolor 0.54902 0.54902 0.54902 
   tilefade 1
   scale 1.0
   render 1
@@ -582,7 +582,7 @@ node trimesh Line403
   parent tdm01_g15_01
   position 0.08 -0.78 -1.3
   orientation  0.0 0.0 0.0  0.0
-  wirecolor 0.223529 0.223529 0.223529 
+  wirecolor 0.219608 0.219608 0.219608 
   tilefade 0
   scale 1.0
   render 1
@@ -686,7 +686,7 @@ node trimesh Line413
   parent tdm01_g15_01
   position -5.0 0.0 3.92
   orientation  0.0 0.0 0.0  0.0
-  wirecolor 0.223529 0.223529 0.223529 
+  wirecolor 0.219608 0.219608 0.219608 
   tilefade 1
   scale 1.0
   render 1
@@ -790,7 +790,7 @@ node trimesh Shape10
   parent tdm01_g15_01
   position -2.42 2.48 3.0
   orientation  0.0 0.0 0.0  0.0
-  wirecolor 0.223529 0.223529 0.223529 
+  wirecolor 0.219608 0.219608 0.219608 
   tilefade 0
   scale 1.0
   render 1
@@ -844,14 +844,14 @@ node trimesh Line409
   parent tdm01_g15_01
   position -0.02 -0.78 -0.09
   orientation  0.0 0.0 0.0  0.0
-  wirecolor 0.223529 0.223529 0.223529 
+  wirecolor 0.219608 0.219608 0.219608 
   tilefade 0
   scale 1.0
   render 1
-  Shadow 1
+  Shadow 0
   beaming 0
   inheritcolor 0
-  rotatetexture 1
+  rotatetexture 0
   alpha 1.0
   transparencyhint 1
   selfillumcolor 0.0 0.0 0.0 
@@ -1387,19 +1387,19 @@ node dummy tdm01_g15_01_D03
   parent tdm01_g15_01
   position 5.0 0.0 0.0
   orientation 0.0 0.0 1.0 -1.5708
-  wirecolor 0.0235294 0.52549 0.0235294 
+  wirecolor 0.603922 0.603922 0.898039 
 endnode
 node dummy tdm01_g15_01_D01
   parent tdm01_g15_01
   position 0.0 5.0 0.0
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.0235294 0.52549 0.0235294 
+  wirecolor 0.603922 0.603922 0.898039 
 endnode
 node dummy tdm01_g15_01_D02
   parent tdm01_g15_01
   position -5.0 0.0 0.0
   orientation 0.0 0.0 -1.0 -1.5708
-  wirecolor 0.0235294 0.52549 0.0235294 
+  wirecolor 0.603922 0.603922 0.898039 
 endnode
 #Tile trimesh node
 node trimesh Line402
@@ -2065,7 +2065,7 @@ node trimesh Plane15
   diffuse 1.0 1.0 1.0 
   specular 0.0 0.0 0.0 
   shininess 10
-  center 14.0 -30.0 477.992 
+  center 14.0 -30.0 478.0 
   bitmap tdm01_floor01
   verts 64
     1.7 3.8 3.0

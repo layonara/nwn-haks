@@ -362,7 +362,7 @@ node emitter R_eye253
   sizeStart_y 0.0
   sizeEnd_y 0.0
   birthrate 0
-  lifeExp 0.0
+  lifeExp 2.0
   mass 0.0
   spread 0.0
   particleRot 0.0
@@ -430,7 +430,7 @@ node emitter R_eye254
   sizeStart_y 0.0
   sizeEnd_y 0.0
   birthrate 0
-  lifeExp 0.0
+  lifeExp 2.5
   mass 0.0
   spread 0.0
   particleRot 0.0
@@ -498,7 +498,7 @@ node emitter R_eye252
   sizeStart_y 0.0
   sizeEnd_y 0.0
   birthrate 0
-  lifeExp 0.0
+  lifeExp 2.0
   mass 0.0
   spread 0.0
   particleRot 0.0
@@ -566,7 +566,7 @@ node emitter R_eye251
   sizeStart_y 0.0
   sizeEnd_y 0.0
   birthrate 0
-  lifeExp 0.0
+  lifeExp 2.5
   mass 0.0
   spread 0.0
   particleRot 0.0
@@ -2791,7 +2791,7 @@ node trimesh stalag02
 endnode
 endmodelgeom tdm01_u15_01
 #NWmax ANIM ASCII
-newanim animloop01 tdm01_u15_01
+newanim tiledefault tdm01_u15_01
   length 0.0
   transtime 0.25
   animroot tdm01_u15_01
@@ -2803,25 +2803,164 @@ newanim animloop01 tdm01_u15_01
     endnode
     node trimesh Object570
         parent tdm01_u15_01a
-        selfillumcolor 0.376471 0.733333 0.647059
     endnode
     node trimesh Box1869
         parent tdm01_u15_01a
+        alphakey
+          0 0
+        endlist
+        selfillumcolorkey
+          0 0.0 0.0 0.0
+        endlist
     endnode
     node trimesh Box1868
         parent tdm01_u15_01a
+        alphakey
+          0 0
+        endlist
+        selfillumcolorkey
+          0 0.0 0.0 0.0
+        endlist
     endnode
     node emitter R_eye253
         parent tdm01_u15_01a
+        birthratekey
+          0 0
+        endlist
     endnode
     node emitter R_eye254
         parent tdm01_u15_01a
+        birthratekey
+          0 0
+        endlist
     endnode
     node emitter R_eye252
         parent tdm01_u15_01a
+        birthratekey
+          0 0
+        endlist
     endnode
     node emitter R_eye251
         parent tdm01_u15_01a
+        birthratekey
+          0 0
+        endlist
+    endnode
+    node trimesh Line330
+        parent tdm01_u15_01a
+    endnode
+    node trimesh Object04
+        parent tdm01_u15_01
+    endnode
+    node trimesh Plane05
+        parent tdm01_u15_01
+    endnode
+    node trimesh Object69
+        parent tdm01_u15_01
+    endnode
+    node trimesh Mesh30
+        parent tdm01_u15_01
+    endnode
+    node trimesh Object714
+        parent tdm01_u15_01
+    endnode
+    node trimesh Object66
+        parent tdm01_u15_01
+    endnode
+    node trimesh Plane06
+        parent tdm01_u15_01
+    endnode
+    node trimesh Object72
+        parent tdm01_u15_01
+    endnode
+    node trimesh Object26
+        parent tdm01_u15_01
+    endnode
+    node trimesh Object35
+        parent tdm01_u15_01
+    endnode
+    node aabb walkmesh
+        parent tdm01_u15_01
+    endnode
+    node light tdm01_u15_01ml2
+        parent tdm01_u15_01
+    endnode
+    node light tdm01_u15_01ml1
+        parent tdm01_u15_01
+    endnode
+    node trimesh ceiling03
+        parent tdm01_u15_01
+    endnode
+    node trimesh stalag01
+        parent tdm01_u15_01
+    endnode
+    node trimesh stalag02
+        parent tdm01_u15_01
+    endnode
+doneanim tiledefault tdm01_u15_01
+#NWmax ANIM ASCII
+newanim animloop01 tdm01_u15_01
+  length 0.0333333
+  transtime 0.25
+  animroot tdm01_u15_01
+    node dummy tdm01_u15_01
+        parent NULL
+    endnode
+    node dummy tdm01_u15_01a
+        parent tdm01_u15_01
+    endnode
+    node trimesh Object570
+        parent tdm01_u15_01a
+    endnode
+    node trimesh Box1869
+        parent tdm01_u15_01a
+        alphakey
+          0 1
+          0.0333333 1
+        endlist
+        selfillumcolorkey
+          0 1 1 1
+          0.0333333 1 1 1
+        endlist
+    endnode
+    node trimesh Box1868
+        parent tdm01_u15_01a
+        alphakey
+          0 1
+          0.0333333 1
+        endlist
+        selfillumcolorkey
+          0 1 1 1
+          0.0333333 1 1 1
+        endlist
+    endnode
+    node emitter R_eye253
+        parent tdm01_u15_01a
+        birthratekey
+          0 2
+          0.0333333 2
+        endlist
+    endnode
+    node emitter R_eye254
+        parent tdm01_u15_01a
+        birthratekey
+          0 3
+          0.0333333 3
+        endlist
+    endnode
+    node emitter R_eye252
+        parent tdm01_u15_01a
+        birthratekey
+          0 2
+          0.0333333 2
+        endlist
+    endnode
+    node emitter R_eye251
+        parent tdm01_u15_01a
+        birthratekey
+          0 3
+          0.0333333 3
+        endlist
     endnode
     node trimesh Line330
         parent tdm01_u15_01a
@@ -2875,98 +3014,4 @@ newanim animloop01 tdm01_u15_01
         parent tdm01_u15_01
     endnode
 doneanim animloop01 tdm01_u15_01
-#NWmax ANIM ASCII
-newanim animloop02 tdm01_u15_01
-  length 0.0
-  transtime 0.25
-  animroot tdm01_u15_01
-    node dummy tdm01_u15_01
-        parent NULL
-    endnode
-    node dummy tdm01_u15_01a
-        parent tdm01_u15_01
-    endnode
-    node trimesh Object570
-        parent tdm01_u15_01a
-    endnode
-    node trimesh Box1869
-        parent tdm01_u15_01a
-        alpha 1
-    endnode
-    node trimesh Box1868
-        parent tdm01_u15_01a
-        alpha 1
-    endnode
-    node emitter R_eye253
-        parent tdm01_u15_01a
-        birthrate 2
-        lifeExp 2
-    endnode
-    node emitter R_eye254
-        parent tdm01_u15_01a
-        birthrate 3
-        lifeExp 2.5
-    endnode
-    node emitter R_eye252
-        parent tdm01_u15_01a
-        birthrate 2
-        lifeExp 2
-    endnode
-    node emitter R_eye251
-        parent tdm01_u15_01a
-        birthrate 3
-        lifeExp 2.5
-    endnode
-    node trimesh Line330
-        parent tdm01_u15_01a
-    endnode
-    node trimesh Object04
-        parent tdm01_u15_01
-    endnode
-    node trimesh Plane05
-        parent tdm01_u15_01
-    endnode
-    node trimesh Object69
-        parent tdm01_u15_01
-    endnode
-    node trimesh Mesh30
-        parent tdm01_u15_01
-    endnode
-    node trimesh Object714
-        parent tdm01_u15_01
-    endnode
-    node trimesh Object66
-        parent tdm01_u15_01
-    endnode
-    node trimesh Plane06
-        parent tdm01_u15_01
-    endnode
-    node trimesh Object72
-        parent tdm01_u15_01
-    endnode
-    node trimesh Object26
-        parent tdm01_u15_01
-    endnode
-    node trimesh Object35
-        parent tdm01_u15_01
-    endnode
-    node aabb walkmesh
-        parent tdm01_u15_01
-    endnode
-    node light tdm01_u15_01ml2
-        parent tdm01_u15_01
-    endnode
-    node light tdm01_u15_01ml1
-        parent tdm01_u15_01
-    endnode
-    node trimesh ceiling03
-        parent tdm01_u15_01
-    endnode
-    node trimesh stalag01
-        parent tdm01_u15_01
-    endnode
-    node trimesh stalag02
-        parent tdm01_u15_01
-    endnode
-doneanim animloop02 tdm01_u15_01
 donemodel tdm01_u15_01

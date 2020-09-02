@@ -1,4 +1,4 @@
-# Exported from NWmax 0.8 b60 at 22.06.2011 20:28:58
+# Exported from NWmax 0.8 b61 at 07.06.2020 10:23:14
 # mdl file
 #
 #NWmax MODEL ASCII
@@ -17,13 +17,13 @@ node dummy tdm01_u23_01_U01
   parent tdm01_u23_01
   position 2.78487 0.0 0.0
   orientation 0.0 0.0 1.0 -1.5708
-  wirecolor 0.603922 0.72549 0.898039 
+  wirecolor 0.603922 0.603922 0.898039 
 endnode
 node dummy tdm01_u23_01a
   parent tdm01_u23_01
   position 0.0 0.0 -1.0
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.603922 0.72549 0.898039 
+  wirecolor 0.603922 0.603922 0.898039 
 endnode
 node trimesh Box1871
   parent tdm01_u23_01a
@@ -154,72 +154,6 @@ node trimesh Box1871
     0.0939076 -0.159111 0
     0.149215 1.23056 0
     0.546569 1.19978 0
-endnode
-node trimesh Object573
-  parent tdm01_u23_01a
-  position 2.14 2.5 2.3
-  orientation 0.0 0.0 1.0 -1.5708
-  wirecolor 1.0 1.0 1.0 
-  tilefade 0
-  scale 1.0
-  render 1
-  Shadow 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1.0
-  transparencyhint 0
-  selfillumcolor 0.0 0.0 0.0 
-  ambient 1.0 1.0 1.0 
-  diffuse 1.0 1.0 1.0 
-  specular 0.05 0.05 0.05 
-  shininess 26
-  center 221.0 -226.0 -5.0 
-  bitmap tdm01_moss
-  verts 15
-    -0.81 -2.08 -0.25
-    0.95 -1.99 -0.42
-    0.77 -1.68 0.88
-    0.06 -2.2 0.95
-    0.41 -1.69 1.7
-    -0.19 -1.99 1.7
-    0.43 -2.87 -1.69
-    0.97 -1.58 1.7
-    5.1 -1.35 -1.73
-    4.19 -2.63 -1.8
-    5.08 -2.87 1.07
-    5.23 -3.17 -0.72
-    4.44 -1.5 1.13
-    4.2 -1.53 1.7
-    4.97 -2.62 1.7
-  faces 11
-    0 1 2  1  0 1 2  2
-    3 4 5  1  3 4 5  2
-    0 2 3  1  0 2 3  2
-    1 0 6  1  1 0 6  2
-    2 7 4  1  2 7 4  2
-    2 4 3  1  2 4 3  2
-    8 9 10  1  8 9 10  2
-    9 11 10  1  9 11 10  2
-    12 8 10  1  12 8 10  2
-    13 10 14  1  13 10 14  2
-    12 10 13  1  12 10 13  2
-  tverts 15
-    0.359444 0.829718 0
-    0.365053 0.306116 0
-    0.741267 0.276492 0
-    0.695947 0.663536 0
-    0.961401 0.524064 0
-    0.90353 0.712836 0
-    -0.0761927 0.524727 0
-    1.0064 0.31502 0
-    0.0338944 0.732077 0
-    -0.0089022 1.11789 0
-    0.826738 1.23562 0
-    0.317296 1.3688 0
-    0.818655 0.729739 0
-    0.969265 0.726926 0
-    1.0056 1.17833 0
 endnode
 node trimesh Box1870
   parent tdm01_u23_01a
@@ -384,7 +318,7 @@ node emitter R_eye258
   sizeStart_y 0.0
   sizeEnd_y 0.0
   birthrate 0
-  lifeExp 0.0
+  lifeExp 2.5
   mass 0.0
   spread 0.0
   particleRot 0.0
@@ -452,7 +386,7 @@ node emitter R_eye257
   sizeStart_y 0.0
   sizeEnd_y 0.0
   birthrate 0
-  lifeExp 0.0
+  lifeExp 2.0
   mass 0.0
   spread 0.0
   particleRot 0.0
@@ -520,7 +454,7 @@ node emitter R_eye256
   sizeStart_y 0.0
   sizeEnd_y 0.0
   birthrate 0
-  lifeExp 0.0
+  lifeExp 2.5
   mass 0.0
   spread 0.0
   particleRot 0.0
@@ -588,7 +522,7 @@ node emitter R_eye255
   sizeStart_y 0.0
   sizeEnd_y 0.0
   birthrate 0
-  lifeExp 0.0
+  lifeExp 2.0
   mass 0.0
   spread 0.0
   particleRot 0.0
@@ -2642,119 +2576,77 @@ node trimesh ceiling01
     0.25025 0.9995 0
     0.000499517 0.9995 0
 endnode
+#Tile trimesh node
+node trimesh Object573
+  parent tdm01_u23_01
+  position 2.14 2.5 1.3
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 1
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.05 0.05 0.05 
+  shininess 26
+  center 221.0 -226.0 -5.0 
+  bitmap tdm01_moss
+  verts 15
+    -2.08 0.81 -0.25
+    -1.99 -0.95 -0.42
+    -1.68 -0.77 0.88
+    -2.2 -0.06 0.95
+    -1.69 -0.41 1.7
+    -1.99 0.19 1.7
+    -2.87 -0.43 -1.69
+    -1.58 -0.97 1.7
+    -1.35 -5.1 -1.73
+    -2.63 -4.19 -1.8
+    -2.87 -5.08 1.07
+    -3.17 -5.23 -0.72
+    -1.5 -4.44 1.13
+    -1.53 -4.2 1.7
+    -2.62 -4.97 1.7
+  faces 11
+    0 1 2  1  0 1 2  2
+    3 4 5  1  3 4 5  2
+    0 2 3  1  0 2 3  2
+    1 0 6  1  1 0 6  2
+    2 7 4  1  2 7 4  2
+    2 4 3  1  2 4 3  2
+    8 9 10  1  8 9 10  2
+    9 11 10  1  9 11 10  2
+    12 8 10  1  12 8 10  2
+    13 10 14  1  13 10 14  2
+    12 10 13  1  12 10 13  2
+  tverts 15
+    0.359444 0.829718 0
+    0.365053 0.306116 0
+    0.741267 0.276492 0
+    0.695947 0.663536 0
+    0.961401 0.524064 0
+    0.90353 0.712836 0
+    -0.0761927 0.524727 0
+    1.0064 0.31502 0
+    0.0338944 0.732077 0
+    -0.0089022 1.11789 0
+    0.826738 1.23562 0
+    0.317296 1.3688 0
+    0.818655 0.729739 0
+    0.969265 0.726926 0
+    1.0056 1.17833 0
+endnode
 endmodelgeom tdm01_u23_01
 #NWmax ANIM ASCII
-newanim animloop02 tdm01_u23_01
-  length 0.0
-  transtime 0.25
-  animroot tdm01_u23_01
-    node dummy tdm01_u23_01
-        parent NULL
-    endnode
-    node dummy tdm01_u23_01_U01
-        parent tdm01_u23_01
-    endnode
-    node dummy tdm01_u23_01a
-        parent tdm01_u23_01
-    endnode
-    node trimesh Box1871
-        parent tdm01_u23_01a
-        alpha 1
-    endnode
-    node trimesh Object573
-        parent tdm01_u23_01a
-    endnode
-    node trimesh Box1870
-        parent tdm01_u23_01a
-        alpha 1
-    endnode
-    node emitter R_eye258
-        parent tdm01_u23_01a
-        birthrate 3
-        lifeExp 2.5
-    endnode
-    node emitter R_eye257
-        parent tdm01_u23_01a
-        birthrate 2
-        lifeExp 2
-    endnode
-    node emitter R_eye256
-        parent tdm01_u23_01a
-        birthrate 3
-        lifeExp 2.5
-    endnode
-    node emitter R_eye255
-        parent tdm01_u23_01a
-        birthrate 2
-        lifeExp 2
-    endnode
-    node trimesh Line717
-        parent tdm01_u23_01a
-    endnode
-    node trimesh Mesh01
-        parent tdm01_u23_01
-    endnode
-    node trimesh Mesh78
-        parent tdm01_u23_01
-    endnode
-    node trimesh Plane407
-        parent tdm01_u23_01
-    endnode
-    node trimesh Object11
-        parent tdm01_u23_01
-    endnode
-    node trimesh Plane408
-        parent tdm01_u23_01
-    endnode
-    node trimesh Mesh05
-        parent tdm01_u23_01
-    endnode
-    node trimesh Object133
-        parent tdm01_u23_01
-    endnode
-    node trimesh Object134
-        parent tdm01_u23_01
-    endnode
-    node trimesh Object136
-        parent tdm01_u23_01
-    endnode
-    node trimesh Mesh04
-        parent tdm01_u23_01
-    endnode
-    node trimesh Mesh77
-        parent tdm01_u23_01
-    endnode
-    node trimesh Object132
-        parent tdm01_u23_01
-    endnode
-    node trimesh Object135
-        parent tdm01_u23_01
-    endnode
-    node trimesh Plane597
-        parent tdm01_u23_01
-    endnode
-    node aabb walkmesh
-        parent tdm01_u23_01
-    endnode
-    node light tdm01_u23_01ml2
-        parent tdm01_u23_01
-    endnode
-    node light tdm01_u23_01ml1
-        parent tdm01_u23_01
-    endnode
-    node trimesh Mesh80
-        parent tdm01_u23_01
-    endnode
-    node trimesh Line715
-        parent tdm01_u23_01
-    endnode
-    node trimesh ceiling01
-        parent tdm01_u23_01
-    endnode
-doneanim animloop02 tdm01_u23_01
-#NWmax ANIM ASCII
 newanim animloop01 tdm01_u23_01
-  length 0.0
+  length 0.0333333
   transtime 0.25
   animroot tdm01_u23_01
     node dummy tdm01_u23_01
@@ -2768,25 +2660,53 @@ newanim animloop01 tdm01_u23_01
     endnode
     node trimesh Box1871
         parent tdm01_u23_01a
-    endnode
-    node trimesh Object573
-        parent tdm01_u23_01a
-        selfillumcolor 0.376471 0.733333 0.647059
+        alphakey
+          0 1
+          0.0333333 1
+        endlist
+        selfillumcolorkey
+          0 1 1 1
+          0.0333333 1 1 1
+        endlist
     endnode
     node trimesh Box1870
         parent tdm01_u23_01a
+        alphakey
+          0 1
+          0.0333333 1
+        endlist
+        selfillumcolorkey
+          0 1 1 1
+          0.0333333 1 1 1
+        endlist
     endnode
     node emitter R_eye258
         parent tdm01_u23_01a
+        birthratekey
+          0 3
+          0.0333333 3
+        endlist
     endnode
     node emitter R_eye257
         parent tdm01_u23_01a
+        birthratekey
+          0 2
+          0.0333333 2
+        endlist
     endnode
     node emitter R_eye256
         parent tdm01_u23_01a
+        birthratekey
+          0 3
+          0.0333333 3
+        endlist
     endnode
     node emitter R_eye255
         parent tdm01_u23_01a
+        birthratekey
+          0 2
+          0.0333333 2
+        endlist
     endnode
     node trimesh Line717
         parent tdm01_u23_01a
@@ -2849,7 +2769,133 @@ newanim animloop01 tdm01_u23_01
         parent tdm01_u23_01
     endnode
     node trimesh ceiling01
+        parent tdm01_u23_01
+    endnode
+    node trimesh Object573
         parent tdm01_u23_01
     endnode
 doneanim animloop01 tdm01_u23_01
+#NWmax ANIM ASCII
+newanim tiledefault tdm01_u23_01
+  length 0.0
+  transtime 0.25
+  animroot tdm01_u23_01
+    node dummy tdm01_u23_01
+        parent NULL
+    endnode
+    node dummy tdm01_u23_01_U01
+        parent tdm01_u23_01
+    endnode
+    node dummy tdm01_u23_01a
+        parent tdm01_u23_01
+    endnode
+    node trimesh Box1871
+        parent tdm01_u23_01a
+        alphakey
+          0 0
+        endlist
+        selfillumcolorkey
+          0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Box1870
+        parent tdm01_u23_01a
+        alphakey
+          0 0
+        endlist
+        selfillumcolorkey
+          0 0.0 0.0 0.0
+        endlist
+    endnode
+    node emitter R_eye258
+        parent tdm01_u23_01a
+        birthratekey
+          0 0
+        endlist
+    endnode
+    node emitter R_eye257
+        parent tdm01_u23_01a
+        birthratekey
+          0 0
+        endlist
+    endnode
+    node emitter R_eye256
+        parent tdm01_u23_01a
+        birthratekey
+          0 0
+        endlist
+    endnode
+    node emitter R_eye255
+        parent tdm01_u23_01a
+        birthratekey
+          0 0
+        endlist
+    endnode
+    node trimesh Line717
+        parent tdm01_u23_01a
+    endnode
+    node trimesh Mesh01
+        parent tdm01_u23_01
+    endnode
+    node trimesh Mesh78
+        parent tdm01_u23_01
+    endnode
+    node trimesh Plane407
+        parent tdm01_u23_01
+    endnode
+    node trimesh Object11
+        parent tdm01_u23_01
+    endnode
+    node trimesh Plane408
+        parent tdm01_u23_01
+    endnode
+    node trimesh Mesh05
+        parent tdm01_u23_01
+    endnode
+    node trimesh Object133
+        parent tdm01_u23_01
+    endnode
+    node trimesh Object134
+        parent tdm01_u23_01
+    endnode
+    node trimesh Object136
+        parent tdm01_u23_01
+    endnode
+    node trimesh Mesh04
+        parent tdm01_u23_01
+    endnode
+    node trimesh Mesh77
+        parent tdm01_u23_01
+    endnode
+    node trimesh Object132
+        parent tdm01_u23_01
+    endnode
+    node trimesh Object135
+        parent tdm01_u23_01
+    endnode
+    node trimesh Plane597
+        parent tdm01_u23_01
+    endnode
+    node aabb walkmesh
+        parent tdm01_u23_01
+    endnode
+    node light tdm01_u23_01ml2
+        parent tdm01_u23_01
+    endnode
+    node light tdm01_u23_01ml1
+        parent tdm01_u23_01
+    endnode
+    node trimesh Mesh80
+        parent tdm01_u23_01
+    endnode
+    node trimesh Line715
+        parent tdm01_u23_01
+    endnode
+    node trimesh ceiling01
+        parent tdm01_u23_01
+    endnode
+    node trimesh Object573
+        parent tdm01_u23_01
+    endnode
+doneanim tiledefault tdm01_u23_01
 donemodel tdm01_u23_01

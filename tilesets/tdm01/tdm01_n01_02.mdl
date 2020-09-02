@@ -1,4 +1,4 @@
-# Exported from NWmax 0.8 b60 at 24.12.2009 19:23:56
+# Exported from NWmax 0.8 b61 at 07.06.2020 10:31:23
 # mdl file
 #
 #NWmax MODEL ASCII
@@ -34,7 +34,7 @@ node trimesh Object265
   specular 0.0 0.0 0.0 
   shininess 1
   center -163.0 -125.5 -50.0 
-  bitmap tdm01_volcano02
+  bitmap tdm01_volcano01
   verts 18
     -0.5 -2.27 -3.0
     0.27 -1.35 -3.0
@@ -112,7 +112,7 @@ node trimesh Mesh218
   specular 0.0 0.0 0.0 
   shininess 1
   center 15.0 -11.0 -260.0 
-  bitmap tdm01_volcano02
+  bitmap tdm01_volcano01
   verts 21
     2.3 -0.41 -5.1
     1.7 1.29 -5.1
@@ -497,7 +497,7 @@ node trimesh Line1444
   diffuse 1.0 1.0 1.0 
   specular 0.0 0.0 0.0 
   shininess 1
-  center 6.49999 -4.0 -6.5 
+  center 6.5 -4.0 -6.5 
   bitmap tdm01_crystal01
   verts 10
     0.08 -0.01 -0.28
@@ -839,7 +839,7 @@ node trimesh Plane49
   tilefade 0
   scale 1.0
   render 1
-  Shadow 1
+  Shadow 0
   beaming 0
   inheritcolor 0
   rotatetexture 1
@@ -907,7 +907,7 @@ node trimesh Object266
   parent tdm01_n01_02
   position 2.0 -2.73 -3.0
   orientation  0.0 0.0 0.0  0.0
-  wirecolor 0.560784 0.560784 0.560784 
+  wirecolor 0.556863 0.556863 0.556863 
   tilefade 0
   scale 1.0
   render 1
@@ -923,7 +923,7 @@ node trimesh Object266
   specular 0.0 0.0 0.0 
   shininess 1
   center -51.0 77.5 -118.5 
-  bitmap tdm01_volcano02
+  bitmap tdm01_volcano01
   verts 25
     -0.45 2.48 0.1
     0.3 2.11 -1.37
@@ -1014,7 +1014,7 @@ node aabb walkmesh
   parent tdm01_n01_02
   position 0.0 0.0 0.0
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.560784 0.560784 0.560784 
+  wirecolor 0.556863 0.556863 0.556863 
   multimaterial 20
     Dirt
     Obscuring
@@ -1309,7 +1309,7 @@ node trimesh Object251
   parent tdm01_n01_02
   position 3.8 -2.83 -0.7
   orientation  0.0 0.0 0.0  0.0
-  wirecolor 0.560784 0.560784 0.560784 
+  wirecolor 0.556863 0.556863 0.556863 
   tilefade 0
   scale 1.0
   render 1
@@ -1324,7 +1324,7 @@ node trimesh Object251
   diffuse 1.0 1.0 1.0 
   specular 0.0 0.0 0.0 
   shininess 1
-  center -11.5 98.0 678.484 
+  center -11.5 98.0 678.5 
   bitmap tdm01_floor01
   verts 11
     -0.15 1.51 3.7
@@ -1379,7 +1379,7 @@ node trimesh Object252
   parent tdm01_n01_02
   position 3.8 -2.83 -0.7
   orientation  0.0 0.0 0.0  0.0
-  wirecolor 0.560784 0.560784 0.560784 
+  wirecolor 0.556863 0.556863 0.556863 
   tilefade 2
   scale 1.0
   render 1
@@ -1420,7 +1420,7 @@ node light tdm01_n01_02ml2
   parent tdm01_n01_02
   position 2.84309 -0.00843984 4.0
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.560784 0.560784 0.560784 
+  wirecolor 0.556863 0.556863 0.556863 
   radius 5.0
   multiplier 1.0
   color 0.00392157 0.00392157 0.00392157 
@@ -1435,7 +1435,7 @@ node light tdm01_n01_02ml1
   parent tdm01_n01_02
   position 0.0 0.0 5.0
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.560784 0.560784 0.560784 
+  wirecolor 0.556863 0.556863 0.556863 
   radius 14.0
   multiplier 1.0
   color 0.0 0.0 0.0 
@@ -1451,7 +1451,7 @@ node trimesh ceiling01
   parent tdm01_n01_02
   position 0.0 0.0 9.15
   orientation  0.0 0.0 0.0  0.0
-  wirecolor 0.878431 0.878431 0.878431 
+  wirecolor 0.87451 0.87451 0.87451 
   tilefade 1
   scale 1.0
   render 1
@@ -1466,7 +1466,7 @@ node trimesh ceiling01
   diffuse 1.0 1.0 1.0 
   specular 0.0 0.0 0.0 
   shininess 10
-  center 0.0 0.0 -58.546 
+  center 0.0 0.0 -59.0 
   bitmap tdm01_floor01
   verts 25
     2.5 2.5 -0.65

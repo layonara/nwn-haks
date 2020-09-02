@@ -1,4 +1,4 @@
-# Exported from NWmax 0.8 b60 at 18.06.2011 21:24:28
+# Exported from NWmax 0.8 b61 at 06.06.2020 20:01:35
 # mdl file
 #
 #NWmax MODEL ASCII
@@ -1594,7 +1594,7 @@ node dummy tdm01_f07_01_D01
   parent tdm01_f07_01
   position 5.0 0.0 0.0
   orientation 0.0 0.0 1.0 -1.5708
-  wirecolor 0.603922 0.72549 0.898039 
+  wirecolor 0.109804 0.34902 0.694118 
 endnode
 #Tile trimesh node
 node trimesh Box1994
@@ -2241,7 +2241,7 @@ node trimesh Box1977
   parent tdm01_f07_01
   position -5.0 -2.1 0.0
   orientation  0.0 0.0 0.0  0.0
-  wirecolor 0.0196078 0.0196078 0.0196078 
+  wirecolor 0.0156863 0.0156863 0.0156863 
   tilefade 0
   scale 1.0
   render 1
@@ -2285,7 +2285,7 @@ node trimesh Box1976
   parent tdm01_f07_01
   position -2.1 -5.0 0.0
   orientation  0.0 0.0 0.0  0.0
-  wirecolor 0.0196078 0.0196078 0.0196078 
+  wirecolor 0.0156863 0.0156863 0.0156863 
   tilefade 0
   scale 1.0
   render 1
@@ -2329,7 +2329,7 @@ node trimesh Arc51
   parent tdm01_f07_01
   position -5.0 -5.0 0.01
   orientation  0.0 0.0 0.0  0.0
-  wirecolor 0.0196078 0.0196078 0.0196078 
+  wirecolor 0.0156863 0.0156863 0.0156863 
   tilefade 0
   scale 1.0
   render 1
@@ -2466,14 +2466,14 @@ node dummy tdm01_f07_01sl1
   parent tdm01_f07_01
   position -2.89094 2.89483 2.22715
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.894118 0.839216 0.6 
+  wirecolor 0.839216 0.898039 0.65098 
 endnode
 #Tile trimesh node
 node trimesh Box2376
   parent tdm01_f07_01
   position -2.84 2.9 2.06
   orientation  0.0 0.0 0.0  0.0
-  wirecolor 0.0196078 0.0196078 0.0196078 
+  wirecolor 0.0156863 0.0156863 0.0156863 
   tilefade 0
   scale 1.0
   render 1
@@ -3162,7 +3162,7 @@ node trimesh Plane06
   specular 0.0 0.0 0.0 
   shininess 1
   center 0.0 0.0 436.0 
-  bitmap tdm01_rock01
+  bitmap tdm01_floor01
   verts 79
     3.0 5.0 3.0
     2.5 5.0 4.0
@@ -3496,7 +3496,7 @@ node trimesh Cylinder02
   shininess 1
   center -26.5 8.5 280.0 
   bitmap tdm01_rock01
-  verts 37
+  verts 38
     -1.12 0.0 0.0
     -0.37 -0.91 0.0
     0.6 -1.03 0.0
@@ -3534,7 +3534,8 @@ node trimesh Cylinder02
     0.96 1.36 5.12
     -0.26 1.74 5.5
     -1.6 -0.69 5.46
-  faces 61
+    1.19 -0.75 5.29
+  faces 62
     0 7 6  1  44 45 8  2
     0 1 7  1  44 46 45  2
     1 8 7  1  1 47 7  2
@@ -3587,7 +3588,7 @@ node trimesh Cylinder02
     24 25 31  1  64 25 31  2
     25 32 31  1  25 72 31  2
     25 26 32  1  25 27 72  2
-    26 33 32  1  73 74 75  2
+    26 37 32  1  73 84 75  2
     26 27 33  1  27 67 76  2
     27 34 33  1  28 77 74  2
     27 28 34  1  28 68 77  2
@@ -3596,7 +3597,8 @@ node trimesh Cylinder02
     29 30 35  1  69 80 78  2
     29 24 30  1  30 26 71  2
     24 31 36  1  26 70 83  2
-  tverts 84
+    26 33 37  1  73 74 84  2
+  tverts 85
     0.568877 0.527507 0
     0.472539 0.000499517 0
     0.722846 0.000499517 0
@@ -3681,6 +3683,7 @@ node trimesh Cylinder02
     0.519885 0.9995 0
     0.000499517 0.918899 0
     0.745981 0.893461 0
+    0.247344 0.866696 0
 endnode
 endmodelgeom tdm01_f07_01
 donemodel tdm01_f07_01

@@ -1,4 +1,4 @@
-# Exported from NWmax 0.8 b60 at 04.06.2010 17:18:35
+# Exported from NWmax 0.8 b61 at 07.06.2020 12:57:54
 # mdl file
 #
 #NWmax MODEL ASCII
@@ -1485,7 +1485,7 @@ node trimesh Box545
   diffuse 1.0 1.0 1.0 
   specular 0.05 0.05 0.05 
   shininess 26
-  center 0.0 0.0 0.0 
+  center 146.0 91.0 0.0 
   bitmap tdm01_rock04
   verts 48
     2.38 -1.67 0.8
@@ -2064,51 +2064,6 @@ node trimesh Object50
     1.15821 -1.91106 0
 endnode
 #Tile trimesh node
-node trimesh Object562
-  parent tdm01_w08_04
-  position -3.64 -3.33 1.5
-  orientation  0.0 0.0 0.0  0.0
-  wirecolor 1.0 1.0 1.0 
-  tilefade 0
-  scale 1.0
-  render 1
-  Shadow 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1.0
-  transparencyhint 0
-  selfillumcolor 0.0 0.0 0.0 
-  ambient 1.0 1.0 1.0 
-  diffuse 1.0 1.0 1.0 
-  specular 0.05 0.05 0.05 
-  shininess 26
-  center 221.5 143.0 0.5 
-  bitmap tdm01_moss
-  verts 7
-    2.25 1.29 -1.49
-    1.33 2.1 0.22
-    1.5 1.87 -1.49
-    3.1 1.22 -1.49
-    2.91 0.76 0.22
-    1.72 1.04 1.5
-    1.87 0.82 1.5
-  faces 5
-    1 0 2  1  1 0 2  1
-    4 3 0  1  4 3 0  1
-    0 5 6  1  0 5 6  1
-    0 1 5  1  0 1 5  1
-    0 6 4  1  0 6 4  1
-  tverts 7
-    0.959755 0.485747 0
-    0.361764 0.767444 0
-    0.949794 0.727886 0
-    0.966677 0.287509 0
-    0.385913 0.262854 0
-    -0.0265889 0.553973 0
-    -0.0105627 0.4732 0
-endnode
-#Tile trimesh node
 node trimesh Rectangle10
   parent tdm01_w08_04
   position 0.75 -0.33 0.01
@@ -2588,6 +2543,51 @@ node aabb walkmesh
         2.23 -0.4 0.25 3.4 5.0 6.0 -1
         2.27 2.89 0.25 3.4 5.0 6.0 16
         2.23 -0.4 3.0 3.4 5.0 6.0 28
+endnode
+#Tile trimesh node
+node trimesh Object562
+  parent tdm01_w08_04
+  position -3.64 -3.33 1.5
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 1
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.05 0.05 0.05 
+  shininess 26
+  center 221.5 143.0 0.5 
+  bitmap tdm01_moss
+  verts 7
+    2.25 1.29 -1.49
+    1.33 2.1 0.22
+    1.5 1.87 -1.49
+    3.1 1.22 -1.49
+    2.91 0.76 0.22
+    1.72 1.04 1.5
+    1.87 0.82 1.5
+  faces 5
+    1 0 2  1  1 0 2  1
+    4 3 0  1  4 3 0  1
+    0 5 6  1  0 5 6  1
+    0 1 5  1  0 1 5  1
+    0 6 4  1  0 6 4  1
+  tverts 7
+    0.959755 0.485747 0
+    0.361764 0.767444 0
+    0.949794 0.727886 0
+    0.966677 0.287509 0
+    0.385913 0.262854 0
+    -0.0265889 0.553973 0
+    -0.0105627 0.4732 0
 endnode
 endmodelgeom tdm01_w08_04
 donemodel tdm01_w08_04

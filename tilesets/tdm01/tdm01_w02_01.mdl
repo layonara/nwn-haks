@@ -182,7 +182,7 @@ node emitter R_eye219
   sizeStart_y 0.0
   sizeEnd_y 0.0
   birthrate 0
-  lifeExp 0.0
+  lifeExp 2.5
   mass 0.0
   spread 0.0
   particleRot 0.0
@@ -250,7 +250,7 @@ node emitter R_eye220
   sizeStart_y 0.0
   sizeEnd_y 0.0
   birthrate 0
-  lifeExp 0.0
+  lifeExp 2.0
   mass 0.0
   spread 0.0
   particleRot 0.0
@@ -2481,7 +2481,7 @@ node trimesh Object567
 endnode
 endmodelgeom tdm01_w02_01
 #MAXANIM ASCII
-newanim animloop01 tdm01_w02_01
+newanim tiledefault tdm01_w02_01
   length 0
   transtime 0.25
   animroot tdm01_w02_01
@@ -2493,31 +2493,30 @@ newanim animloop01 tdm01_w02_01
   endnode
   node trimesh Box1846
     parent tdm01_w02_01a
-    ambient 0.2 0.2 0.2
-    diffuse 0.8 0.8 0.8
-    specular 0 0 0
-    shininess 1
+        alphakey
+          0 0
+        endlist
+        selfillumcolorkey
+          0 0.0 0.0 0.0
+        endlist
   endnode
   node trimesh Object567
-    parent tdm01_w02_01a
-    ambient 0.2 0.2 0.2
-    diffuse 0.8 0.8 0.8
-    specular 0 0 0
-    shininess 1
-    selfillumcolor 0.376471 0.733333 0.647059
+    parent tdm01_w02_01
   endnode
   node emitter R_eye219
     parent tdm01_w02_01a
+        birthratekey
+          0 0
+        endlist
   endnode
   node emitter R_eye220
     parent tdm01_w02_01a
+        birthratekey
+          0 0
+        endlist
   endnode
   node trimesh Mesh188
     parent tdm01_w02_01
-    ambient 0.2 0.2 0.2
-    diffuse 0.8 0.8 0.8
-    specular 0 0 0
-    shininess 1
   endnode
   node dummy Mesh189
     parent tdm01_w02_01
@@ -2533,17 +2532,9 @@ newanim animloop01 tdm01_w02_01
   endnode
   node trimesh Mesh52
     parent tdm01_w02_01
-    ambient 0.2 0.2 0.2
-    diffuse 0.8 0.8 0.8
-    specular 0 0 0
-    shininess 1
   endnode
   node trimesh Mesh53
     parent tdm01_w02_01
-    ambient 0.2 0.2 0.2
-    diffuse 0.8 0.8 0.8
-    specular 0 0 0
-    shininess 1
   endnode
   node dummy Plane583
     parent tdm01_w02_01
@@ -2553,10 +2544,6 @@ newanim animloop01 tdm01_w02_01
   endnode
   node trimesh Plane32
     parent tdm01_w02_01
-    ambient 0.2 0.2 0.2
-    diffuse 0.8 0.8 0.8
-    specular 0 0 0
-    shininess 1
   endnode
   node dummy Mesh824
     parent tdm01_w02_01
@@ -2576,11 +2563,10 @@ newanim animloop01 tdm01_w02_01
   node light tdm01_w02_01ml1
     parent tdm01_w02_01
   endnode
-doneanim animloop01 tdm01_w02_01
-
+doneanim tiledefault tdm01_w02_01
 #MAXANIM ASCII
-newanim animloop02 tdm01_w02_01
-  length 0
+newanim animloop01 tdm01_w02_01
+  length 0.0333333
   transtime 0.25
   animroot tdm01_w02_01
   node dummy tdm01_w02_01
@@ -2591,35 +2577,34 @@ newanim animloop02 tdm01_w02_01
   endnode
   node trimesh Box1846
     parent tdm01_w02_01a
-    ambient 0.2 0.2 0.2
-    diffuse 0.8 0.8 0.8
-    specular 0 0 0
-    shininess 1
-    alpha 1
+        alphakey
+          0 1
+          0.0333333 1
+        endlist
+        selfillumcolorkey
+          0 1 1 1
+          0.0333333 1 1 1
+        endlist
   endnode
   node trimesh Object567
-    parent tdm01_w02_01a
-    ambient 0.2 0.2 0.2
-    diffuse 0.8 0.8 0.8
-    specular 0 0 0
-    shininess 1
+    parent tdm01_w02_01
   endnode
   node emitter R_eye219
     parent tdm01_w02_01a
-    birthrate 3
-    lifeExp 2.5
+        birthratekey
+          0 2
+          0.0333333 2
+        endlist
   endnode
   node emitter R_eye220
     parent tdm01_w02_01a
-    birthrate 2
-    lifeExp 2
+        birthratekey
+          0 3
+          0.0333333 3
+        endlist
   endnode
   node trimesh Mesh188
     parent tdm01_w02_01
-    ambient 0.2 0.2 0.2
-    diffuse 0.8 0.8 0.8
-    specular 0 0 0
-    shininess 1
   endnode
   node dummy Mesh189
     parent tdm01_w02_01
@@ -2635,17 +2620,9 @@ newanim animloop02 tdm01_w02_01
   endnode
   node trimesh Mesh52
     parent tdm01_w02_01
-    ambient 0.2 0.2 0.2
-    diffuse 0.8 0.8 0.8
-    specular 0 0 0
-    shininess 1
   endnode
   node trimesh Mesh53
     parent tdm01_w02_01
-    ambient 0.2 0.2 0.2
-    diffuse 0.8 0.8 0.8
-    specular 0 0 0
-    shininess 1
   endnode
   node dummy Plane583
     parent tdm01_w02_01
@@ -2655,10 +2632,6 @@ newanim animloop02 tdm01_w02_01
   endnode
   node trimesh Plane32
     parent tdm01_w02_01
-    ambient 0.2 0.2 0.2
-    diffuse 0.8 0.8 0.8
-    specular 0 0 0
-    shininess 1
   endnode
   node dummy Mesh824
     parent tdm01_w02_01

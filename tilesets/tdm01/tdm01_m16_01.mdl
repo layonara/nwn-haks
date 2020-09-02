@@ -1,4 +1,4 @@
-# Exported from NWmax 0.8 b60 at 27.05.2010 20:15:00
+# Exported from NWmax 0.8 b61 at 06.06.2020 23:12:28
 # mdl file
 #
 #NWmax MODEL ASCII
@@ -17,7 +17,7 @@ node dummy tdm01_m16_01a
   parent tdm01_m16_01
   position 0.0 0.0 0.0
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.443137 0.52549 0.0235294 
+  wirecolor 0.337255 0.337255 0.337255 
 endnode
 node emitter FX_LavaSpurt_EMIT07
   parent tdm01_m16_01a
@@ -331,7 +331,7 @@ node trimesh Plane23
   tilefade 0
   scale 1.0
   render 1
-  Shadow 1
+  Shadow 0
   beaming 0
   inheritcolor 0
   rotatetexture 1
@@ -1533,7 +1533,7 @@ node trimesh ceiling24
   diffuse 1.0 1.0 1.0 
   specular 0.0 0.0 0.0 
   shininess 10
-  center 0.0 0.0 0.0 
+  center 100.0 500.0 510.0 
   bitmap tdm01_floor01
   verts 99
     4.0 0.0 2.5

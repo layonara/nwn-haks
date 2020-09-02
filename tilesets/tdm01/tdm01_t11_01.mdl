@@ -1,4 +1,4 @@
-# Exported from NWmax 0.8 b60 at 19.06.2011 12:58:17
+# Exported from NWmax 0.8 b61 at 07.06.2020 19:57:53
 # mdl file
 #
 #NWmax MODEL ASCII
@@ -12,66 +12,6 @@ classification Tile
 beginmodelgeom tdm01_t11_01
 node dummy tdm01_t11_01
   parent NULL
-endnode
-node emitter OmenEmitter27
-  parent tdm01_t11_01
-  p2p 0
-  p2p_sel 1
-  affectedByWind 0
-  m_isTinted 0
-  bounce 0
-  random 0
-  inherit 1
-  inheritvel 0
-  inherit_local 1
-  inherit_part 0
-  splat 0
-  renderorder 0
-  spawntype 0
-  update Fountain
-  render Normal
-  blend Normal
-  texture fxpa_Smoke01
-  xgrid 4
-  ygrid 4
-  loop 0
-  deadspace 0
-  twosidedtex 0
-  blastRadius 0
-  blastLength 0
-  position -0.551758 2.52042 5.3687
-  orientation 0 0 0 0
-  colorStart 0 0 0
-  colorEnd 1 1 1
-  alphaStart 0.5
-  alphaEnd 0
-  sizeStart 0.2
-  sizeEnd 3
-  sizeStart_y 0
-  sizeEnd_y 0
-  frameStart 0
-  frameEnd 24
-  birthrate 0
-  lifeExp 2
-  mass -0.06
-  spread 0
-  particleRot 0
-  velocity 0.3
-  randvel 0.6
-  fps 10
-  xsize 0
-  ysize 1
-  bounce_co 0
-  blurlength 10
-  lightningDelay 0
-  lightningRadius 0
-  lightningScale 0
-  p2p_bezier2 0
-  p2p_bezier3 0
-  combinetime 0
-  drag 0
-  grav 0
-  threshold 0
 endnode
 node light tdm01_t11_01ml2
   parent tdm01_t11_01
@@ -92,67 +32,143 @@ node dummy tdm01_t11_01a
   parent tdm01_t11_01
   position 0.146367 0.0386426 0.0
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.65098 0.898039 0.898039 
+  wirecolor 0.109804 0.34902 0.694118 
 endnode
 node emitter OmenEmitter01
   parent tdm01_t11_01a
-  p2p 0
-  p2p_sel 1
-  affectedByWind 0
-  m_isTinted 0
-  bounce 0
-  random 0
-  inherit 1
-  inheritvel 0
-  inherit_local 1
-  inherit_part 0
-  splat 0
-  renderorder 0
-  spawntype 0
-  update Fountain
-  render Normal
-  blend Normal
-  texture fxpa_Smoke01
-  xgrid 4
-  ygrid 4
-  loop 0
-  deadspace 0
-  twosidedtex 0
-  blastRadius 0
-  blastLength 0
   position -1.48668 2.15021 0.280384
-  orientation -0.06250989 0.8860718 -0.4593139 -1.0344
-  colorStart 0.682353 0.537255 0.45098
-  colorEnd 0 0 0
+  orientation -0.0625099 0.886072 -0.459314 -1.0344
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawntype_sel 0
+  spawnType 0
+  xSize 40.0
+  ySize 40.0
+  inherit 1
+  inherit_local 1
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.682353 0.537255 0.45098 
+  colorEnd 0.0 0.0 0.0 
   alphaStart 0.5
-  alphaEnd 0
-  sizeStart 1
-  sizeEnd 2
-  sizeStart_y 0
-  sizeEnd_y 0
-  frameStart 0
-  frameEnd 24
+  alphaEnd 0.0
+  sizeStart 1.0
+  sizeEnd 2.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
   birthrate 10
-  lifeExp 2
+  lifeExp 2.0
   mass -0.06
-  spread 0
-  particleRot 0
+  spread 0.0
+  particleRot 0.0
   velocity 0.5
   randvel 0.6
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_Smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
   fps 10
-  xsize 40
-  ysize 40
-  bounce_co 0
-  blurlength 10
-  lightningDelay 0
-  lightningRadius 0
-  lightningScale 0
-  p2p_bezier2 0
-  p2p_bezier3 0
-  combinetime 0
-  drag 0
-  grav 0
-  threshold 0
+  framestart 0
+  frameend 24
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node emitter OmenEmitter27
+  parent tdm01_t11_01a
+  position -0.698125 2.48178 5.3687
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawntype_sel 0
+  spawnType 0
+  xSize 0.0
+  ySize 1.0
+  inherit 1
+  inherit_local 1
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.0 0.0 0.0 
+  colorEnd 1.0 1.0 1.0 
+  alphaStart 0.5
+  alphaEnd 0.0
+  sizeStart 0.2
+  sizeEnd 3.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 0
+  lifeExp 2.0
+  mass -0.06
+  spread 0.0
+  particleRot 0.0
+  velocity 0.3
+  randvel 0.6
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_Smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 10
+  framestart 0
+  frameend 24
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
 endnode
 node light tdm01_t11_01ml1
   parent tdm01_t11_01
@@ -1601,7 +1617,7 @@ node trimesh Object192
   parent tdm01_t11_01
   position -0.57 2.47 0.0
   orientation  0.0 0.0 0.0  0.0
-  wirecolor 0.0196078 0.0196078 0.0196078 
+  wirecolor 0.0156863 0.0156863 0.0156863 
   tilefade 0
   scale 1.0
   render 1
@@ -1674,7 +1690,7 @@ node trimesh Rectangle65
   parent tdm01_t11_01
   position 2.0 4.0 -0.05
   orientation  0.0 0.0 0.0  0.0
-  wirecolor 0.0196078 0.0196078 0.0196078 
+  wirecolor 0.0156863 0.0156863 0.0156863 
   tilefade 0
   scale 1.0
   render 1
@@ -1716,7 +1732,7 @@ node trimesh Mesh467
   parent tdm01_t11_01
   position -0.43 2.49 4.31
   orientation  0.0 0.0 0.0  0.0
-  wirecolor 0.0196078 0.0196078 0.0196078 
+  wirecolor 0.0156863 0.0156863 0.0156863 
   tilefade 0
   scale 1.0
   render 1
@@ -1855,7 +1871,7 @@ node trimesh Line858
   parent tdm01_t11_01
   position -0.48 2.46 2.74
   orientation  0.0 0.0 0.0  0.0
-  wirecolor 0.0196078 0.0196078 0.0196078 
+  wirecolor 0.0156863 0.0156863 0.0156863 
   tilefade 2
   scale 1.0
   render 1
@@ -2080,25 +2096,24 @@ newanim animloop01 tdm01_t11_01
     node dummy tdm01_t11_01
         parent NULL
     endnode
-    node emitter OmenEmitter27
-        parent tdm01_t11_01
-        birthratekey
-            0.0 5 
-            0.0333333 5 
-        endlist
-    endnode
     node light tdm01_t11_01ml2
         parent tdm01_t11_01
     endnode
     node dummy tdm01_t11_01a
         parent tdm01_t11_01
     endnode
+    node emitter OmenEmitter01
+        parent tdm01_t11_01a
+    endnode
+    node emitter OmenEmitter27
+        parent tdm01_t11_01a
+        birthratekey
+            0.0 5 
+            0.0333333 5 
+        endlist
+    endnode
     node light tdm01_t11_01ml1
         parent tdm01_t11_01
-        birthratekey
-            0.0 10
-            0.0333333 10 
-        endlist
     endnode
     node trimesh Box1202
         parent tdm01_t11_01
@@ -2175,19 +2190,16 @@ newanim tiledefault tdm01_t11_01
     node dummy tdm01_t11_01
         parent NULL
     endnode
-    node emitter OmenEmitter27
-        parent tdm01_t11_01
-        birthratekey
-            0.0 0 
-        endlist
-    endnode
     node light tdm01_t11_01ml2
         parent tdm01_t11_01
     endnode
     node dummy tdm01_t11_01a
         parent tdm01_t11_01
     endnode
-    node emitter OmenEmitter10
+    node emitter OmenEmitter01
+        parent tdm01_t11_01a
+    endnode
+    node emitter OmenEmitter27
         parent tdm01_t11_01a
         birthratekey
             0.0 0 

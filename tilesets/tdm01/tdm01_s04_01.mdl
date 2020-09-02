@@ -1,4 +1,4 @@
-# Exported from NWmax 0.8 b60 at 19.06.2011 12:16:13
+# Exported from NWmax 0.8 b61 at 06.06.2020 21:13:44
 # mdl file
 #
 #NWmax MODEL ASCII
@@ -13,11 +13,30 @@ beginmodelgeom tdm01_s04_01
 node dummy tdm01_s04_01
   parent NULL
 endnode
+#Tile trimesh node
 node trimesh tdm01_s04_01a
   parent tdm01_s04_01
   position 0.0 0.0 0.0
-  orientation  0.0 0.0 0.0 0.0
-  wirecolor 0.223529 0.223529 0.223529 
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.219608 0.219608 0.219608 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 0.0 0.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 0
+  center undefined
+  bitmap NULL
+  verts 0
+  faces 0
 endnode
 #Tile trimesh node
 node trimesh Rectangle63
@@ -28,7 +47,7 @@ node trimesh Rectangle63
   tilefade 0
   scale 1.0
   render 1
-  Shadow 1
+  Shadow 0
   beaming 0
   inheritcolor 0
   rotatetexture 1
@@ -1272,7 +1291,7 @@ node dummy tdm01_s04_01sl1
   parent tdm01_s04_01
   position -0.576715 2.21215 0.477659
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.568627 0.109804 0.694118 
+  wirecolor 0.721569 0.894118 0.6 
 endnode
 #Tile trimesh node
 node trimesh Line2701

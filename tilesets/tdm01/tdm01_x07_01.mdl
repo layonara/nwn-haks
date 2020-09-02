@@ -1,4 +1,4 @@
-# Exported from NWmax 0.8 b60 at 07.06.2010 16:49:26
+# Exported from NWmax 0.8 b61 at 09.06.2020 18:57:42
 # mdl file
 #
 #NWmax MODEL ASCII
@@ -17,52 +17,7 @@ node dummy tdm01_x07_01a
   parent tdm01_x07_01
   position 0.0 0.0 -1.0
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.878431 0.341176 0.560784 
-endnode
-node trimesh Object1436
-  parent tdm01_x07_01a
-  position -1.22 1.82 1.0
-  orientation 1.0 0.0 0.0 0.0
-  wirecolor 1.0 1.0 1.0 
-  tilefade 0
-  scale 1.0
-  render 1
-  Shadow 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1.0
-  transparencyhint 0
-  selfillumcolor 0.0 0.0 0.0 
-  ambient 1.0 1.0 1.0 
-  diffuse 1.0 1.0 1.0 
-  specular 0.05 0.05 0.05 
-  shininess 26
-  center 125.5 52.0 105.5 
-  bitmap tdm01_moss
-  verts 8
-    0.58 0.72 2.11
-    1.23 0.67 0.0
-    1.87 1.93 0.0
-    1.18 -0.05 1.45
-    1.74 -0.89 0.0
-    1.93 0.18 0.25
-    1.49 -0.79 1.45
-    0.63 1.67 2.11
-  faces 4
-    0 1 2  1  0 1 2  2
-    3 4 5  1  3 4 5  2
-    4 3 6  1  4 3 6  2
-    2 7 0  1  2 7 0  2
-  tverts 8
-    -0.0162247 0.393725 0
-    0.808963 0.215194 0
-    1.03824 0.704095 0
-    0.400605 0.977434 0
-    0.93306 0.642163 0
-    0.908737 1.03945 0
-    0.435276 0.726623 0
-    0.0428641 0.706567 0
+  wirecolor 0.65098 0.898039 0.898039 
 endnode
 node trimesh Box1861
   parent tdm01_x07_01a
@@ -227,7 +182,7 @@ node emitter R_eye229
   sizeStart_y 0.0
   sizeEnd_y 0.0
   birthrate 0
-  lifeExp 0.0
+  lifeExp 2.0
   mass 0.0
   spread 0.0
   particleRot 0.0
@@ -295,7 +250,7 @@ node emitter R_eye230
   sizeStart_y 0.0
   sizeEnd_y 0.0
   birthrate 0
-  lifeExp 0.0
+  lifeExp 2.5
   mass 0.0
   spread 0.0
   particleRot 0.0
@@ -1347,7 +1302,7 @@ node trimesh Object814
   diffuse 1.0 1.0 1.0 
   specular 0.05 0.05 0.05 
   shininess 26
-  center -219.5 301.0 270.0 
+  center -93.0 66.0 150.0 
   bitmap tdm01_rock04
   verts 62
     -0.04 3.18 2.3
@@ -2292,9 +2247,55 @@ node trimesh ceiling4all
     0.25025 0.9995 0
     0.000499517 0.9995 0
 endnode
+#Tile trimesh node
+node trimesh Object1436
+  parent tdm01_x07_01
+  position -1.22 1.82 0.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 1
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.05 0.05 0.05 
+  shininess 26
+  center 125.5 52.0 105.5 
+  bitmap tdm01_moss
+  verts 8
+    0.58 0.72 2.11
+    1.23 0.67 0.0
+    1.87 1.93 0.0
+    1.18 -0.05 1.45
+    1.74 -0.89 0.0
+    1.93 0.18 0.25
+    1.49 -0.79 1.45
+    0.63 1.67 2.11
+  faces 4
+    0 1 2  1  0 1 2  2
+    3 4 5  1  3 4 5  2
+    4 3 6  1  4 3 6  2
+    2 7 0  1  2 7 0  2
+  tverts 8
+    -0.0162247 0.393725 0
+    0.808963 0.215194 0
+    1.03824 0.704095 0
+    0.400605 0.977434 0
+    0.93306 0.642163 0
+    0.908737 1.03945 0
+    0.435276 0.726623 0
+    0.0428641 0.706567 0
+endnode
 endmodelgeom tdm01_x07_01
 #NWmax ANIM ASCII
-newanim animloop01 tdm01_x07_01
+newanim tiledefault tdm01_x07_01
   length 0.0
   transtime 0.25
   animroot tdm01_x07_01
@@ -2304,22 +2305,26 @@ newanim animloop01 tdm01_x07_01
     node dummy tdm01_x07_01a
         parent tdm01_x07_01
     endnode
-    node trimesh Object1436
-        parent tdm01_x07_01a
-    endnode
     node trimesh Box1861
         parent tdm01_x07_01a
-        alpha 1.0
+        alphakey
+          0 0
+        endlist
+        selfillumcolorkey
+          0 0.0 0.0 0.0
+        endlist
     endnode
     node emitter R_eye229
         parent tdm01_x07_01a
-        birthrate 2
-        lifeExp 2
+        birthratekey
+          0 0
+        endlist
     endnode
     node emitter R_eye230
         parent tdm01_x07_01a
-        birthrate 3
-        lifeExp 2.5
+        birthratekey
+          0 0
+        endlist
     endnode
     node trimesh Mesh161
         parent tdm01_x07_01
@@ -2367,6 +2372,97 @@ newanim animloop01 tdm01_x07_01
         parent tdm01_x07_01
     endnode
     node trimesh ceiling4all
+        parent tdm01_x07_01
+    endnode
+    node trimesh Object1436
+        parent tdm01_x07_01
+    endnode
+doneanim tiledefault tdm01_x07_01
+#NWmax ANIM ASCII
+newanim animloop01 tdm01_x07_01
+  length 0.0333333
+  transtime 0.25
+  animroot tdm01_x07_01
+    node dummy tdm01_x07_01
+        parent NULL
+    endnode
+    node dummy tdm01_x07_01a
+        parent tdm01_x07_01
+    endnode
+    node trimesh Box1861
+        parent tdm01_x07_01a
+        alphakey
+          0 1
+          0.0333333 1
+        endlist
+        selfillumcolorkey
+          0 1 1 1
+          0.0333333 1 1 1
+        endlist
+    endnode
+    node emitter R_eye229
+        parent tdm01_x07_01a
+        birthratekey
+          0 2
+          0.0333333 2
+        endlist
+    endnode
+    node emitter R_eye230
+        parent tdm01_x07_01a
+        birthratekey
+          0 3
+          0.0333333 3
+        endlist
+    endnode
+    node trimesh Mesh161
+        parent tdm01_x07_01
+    endnode
+    node trimesh Mesh160
+        parent tdm01_x07_01
+    endnode
+    node trimesh Mesh2046
+        parent tdm01_x07_01
+    endnode
+    node trimesh Object234
+        parent tdm01_x07_01
+    endnode
+    node trimesh Mesh2050
+        parent tdm01_x07_01
+    endnode
+    node trimesh Line1722
+        parent tdm01_x07_01
+    endnode
+    node aabb walkmesh
+        parent tdm01_x07_01
+    endnode
+    node trimesh Object814
+        parent tdm01_x07_01
+    endnode
+    node trimesh Mesh2049
+        parent tdm01_x07_01
+    endnode
+    node trimesh Mesh2048
+        parent tdm01_x07_01
+    endnode
+    node trimesh Mesh2047
+        parent tdm01_x07_01
+    endnode
+    node trimesh Plane887
+        parent tdm01_x07_01
+    endnode
+    node trimesh Mesh3275
+        parent tdm01_x07_01
+    endnode
+    node light tdm01_x07_01ml2
+        parent tdm01_x07_01
+    endnode
+    node light tdm01_x07_01ml1
+        parent tdm01_x07_01
+    endnode
+    node trimesh ceiling4all
+        parent tdm01_x07_01
+    endnode
+    node trimesh Object1436
         parent tdm01_x07_01
     endnode
 doneanim animloop01 tdm01_x07_01

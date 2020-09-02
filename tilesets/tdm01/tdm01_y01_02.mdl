@@ -1,4 +1,4 @@
-# Exported from NWmax 0.8 b60 at 26.06.2011 23:50:42
+# Exported from NWmax 0.8 b61 at 09.06.2020 20:28:55
 # mdl file
 #
 #NWmax MODEL ASCII
@@ -17,7 +17,7 @@ node dummy tdm01_y01_02a
   parent tdm01_y01_02
   position 0.0 0.0 0.0
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.0313726 0.0313726 0.533333 
+  wirecolor 0.109804 0.34902 0.694118 
 endnode
 node emitter OmenEmitter01
   parent tdm01_y01_02a
@@ -96,8 +96,8 @@ node emitter AuroraEmitter01
   update Fountain
   render_sel 1
   render Normal
-  blend_sel 2
-  Blend Punch-Through
+  blend_sel 3
+  Blend Lighten
   spawntype_sel 0
   spawnType 0
   xSize 1.0
@@ -4859,14 +4859,21 @@ newanim tiledefault tdm01_y01_02
     endnode
     node emitter OmenEmitter01
         parent tdm01_y01_02a
-        birthrate 0
+        birthratekey
+            0.0 0 
+        endlist
     endnode
     node emitter AuroraEmitter01
         parent tdm01_y01_02a
-        birthrate 0
+        birthratekey
+            0.0 0 
+        endlist
     endnode
     node emitter em_smoke01
         parent tdm01_y01_02a
+        birthratekey
+            0.0 0 
+        endlist
     endnode
     node trimesh Plane01
         parent tdm01_y01_02
@@ -4964,7 +4971,7 @@ newanim tiledefault tdm01_y01_02
 doneanim tiledefault tdm01_y01_02
 #NWmax ANIM ASCII
 newanim animloop01 tdm01_y01_02
-  length 0.0
+  length 0.0333333
   transtime 0.0
   animroot tdm01_y01_02
     node dummy tdm01_y01_02
@@ -4975,12 +4982,24 @@ newanim animloop01 tdm01_y01_02
     endnode
     node emitter OmenEmitter01
         parent tdm01_y01_02a
+        birthratekey
+            0.0 5 
+            0.0333333 5 
+        endlist
     endnode
     node emitter AuroraEmitter01
         parent tdm01_y01_02a
+        birthratekey
+            0.0 6 
+            0.0333333 3 
+        endlist
     endnode
     node emitter em_smoke01
         parent tdm01_y01_02a
+        birthratekey
+            0.0 20 
+            0.0333333 20 
+        endlist
     endnode
     node trimesh Plane01
         parent tdm01_y01_02
