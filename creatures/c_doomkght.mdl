@@ -1,15 +1,11 @@
-# Exported from NWmax 0.8 b60 at 11/12/2008 13:05:57 PM
-# mdl file
-#
-#NWmax MODEL ASCII
-# model: c_doomkgnt
-#local file: Unknown
-filedependancy Unknown
+#MAXMODEL ASCII
+# model: c_doomkght
+filedependancy c_doomkght.max
 newmodel c_doomkght
 setsupermodel c_doomkght a_da
 classification Character
 setanimationscale 1.0
-#NWmax GEOM  ASCII
+#MAXGEOM  ASCII
 beginmodelgeom c_doomkght
 node dummy c_doomkght
   parent NULL
@@ -40,7 +36,7 @@ node trimesh pelvis_g
   Specular 0.0 0.0 0.0 
   shininess 1
   center -0.00220013 -4.06935 -17.2153 
-  bitmap c_DoomKght01
+  bitmap doom_kght
   verts 24
     0.0 0.0848738 -0.280789
     -0.0756641 0.0507141 -0.275402
@@ -142,7 +138,7 @@ node trimesh belt_g
   Specular 0.0 0.0 0.0 
   shininess 1
   center 0.00469971 -5.6788 -13.9752 
-  bitmap c_DoomKght01
+  bitmap doom_kght
   verts 42
     -0.120463 -0.195225 -0.170884
     -0.131874 -0.110648 0.00952348
@@ -324,7 +320,7 @@ node trimesh crotchskull01
   Specular 0.0 0.0 0.0 
   shininess 1
   center 1.4467 -4.7342 28.2888 
-  bitmap c_DoomKght01
+  bitmap doom_kght
   verts 43
     -0.0681162 -0.011308 0.309522
     -0.0666654 -0.0427206 0.22312
@@ -492,7 +488,7 @@ node trimesh rthigh_g
   Specular 0.0 0.0 0.0 
   shininess 1
   center 2.1436 -1.3282 -19.5639 
-  bitmap c_DoomKght01
+  bitmap doom_kght
   verts 43
     -0.00928486 -0.00536269 0.0710594
     -0.0848425 0.0505892 -0.00309268
@@ -1033,9 +1029,7 @@ node trimesh rshin_g
   Specular 0.0 0.0 0.0 
   shininess 1
   center undefined
-  multimaterial 1
-    c_DoomKght01
-  bitmap c_DoomKght01
+  bitmap doom_kght
   verts 56
     0.0871955 -0.0269943 0.00726111
     0.0850216 0.0109035 -0.00535657
@@ -1532,7 +1526,7 @@ node trimesh rfoot_g
   Specular 0.0 0.0 0.0 
   shininess 1
   center 4.86561 11.2941 -4.97404 
-  bitmap c_DoomKght01
+  bitmap doom_kght
   verts 11
     0.0986318 -0.000560682 -0.130443
     0.0962418 -0.00997276 0.00490864
@@ -1604,7 +1598,7 @@ node trimesh lthigh_g
   Specular 0.0 0.0 0.0 
   shininess 1
   center -2.1436 -1.3282 -19.5639 
-  bitmap c_DoomKght01
+  bitmap doom_kght
   verts 43
     0.00928486 -0.0053627 0.0710594
     0.0848425 0.0505892 -0.00309268
@@ -2145,7 +2139,7 @@ node trimesh lshin_g
   Specular 0.0 0.0 0.0 
   shininess 1
   center undefined
-  bitmap c_DoomKght01
+  bitmap doom_kght
   verts 56
     -0.0872005 -0.0269944 0.00726111
     -0.0850266 0.0109034 -0.00535657
@@ -2642,7 +2636,7 @@ node trimesh lfoot_g
   Specular 0.0 0.0 0.0 
   shininess 1
   center -2.38304 11.5808 -4.97404 
-  bitmap c_DoomKght01
+  bitmap doom_kght
   verts 11
     -0.096298 0.00941497 0.00490864
     -0.0967636 0.0191146 -0.130443
@@ -2714,7 +2708,7 @@ node trimesh torso_g
   Specular 0.0 0.0 0.0 
   shininess 1
   center -0.357651 -2.7365 28.5196 
-  bitmap c_DoomKght01
+  bitmap doom_kght
   verts 76
     -0.00357635 -0.141515 -0.000662379
     -0.00357635 -0.222583 0.477614
@@ -3003,7 +2997,7 @@ node trimesh neck_g
   Specular 0.0 0.0 0.0 
   shininess 1
   center -0.0292997 0.22053 3.39616 
-  bitmap c_DoomKght01
+  bitmap doom_kght
   verts 14
     0.119027 0.0419716 -0.0198286
     -0.00029288 -0.0205247 -0.0990637
@@ -3076,7 +3070,7 @@ node trimesh head_g
   Specular 0.0 0.0 0.0 
   shininess 1
   center 0.0 -0.5025 8.92079 
-  bitmap c_DoomKght01
+  bitmap doom_kght
   verts 56
     -0.102119 0.105327 0.0886611
     -0.0857604 0.0350359 -0.033738
@@ -3291,7 +3285,7 @@ node trimesh lowerjaw
   Specular 0.0 0.0 0.0 
   shininess 1
   center 4.28805 -2.4874 6.15134 
-  bitmap c_DoomKght01
+  bitmap doom_kght
   verts 42
     -0.0686432 -0.0825994 0.124956
     -0.0665371 0.0290174 -0.0172523
@@ -3478,7 +3472,7 @@ node trimesh headskull
   Specular 0.0 0.0 0.0 
   shininess 1
   center 1.44755 -5.19825 23.9746 
-  bitmap c_DoomKght01
+  bitmap doom_kght
   verts 77
     0.0144754 0.023953 0.278954
     -0.0433293 0.0242083 0.23748
@@ -3829,7 +3823,7 @@ node trimesh lbicep_g
   Specular 0.0 0.0 0.0 
   shininess 1
   center -6.0452 0.7532 -13.8515 
-  bitmap c_DoomKght01
+  bitmap doom_kght
   verts 87
     -0.101609 0.0921476 -0.0937285
     -0.102807 -0.0304886 0.0175284
@@ -4176,7 +4170,7 @@ node trimesh lforearm_g
   Specular 0.0 0.0 0.0 
   shininess 1
   center -2.15799 0.66058 -17.6622 
-  bitmap c_DoomKght01
+  bitmap doom_kght
   verts 23
     -0.0553071 0.0126094 0.0208064
     -0.0188266 -0.0696979 0.0644176
@@ -4287,7 +4281,7 @@ node trimesh l_bracer
   Specular 0.0 0.0 0.0 
   shininess 1
   center -0.19624 0.593705 7.9657 
-  bitmap c_DoomKght01
+  bitmap doom_kght
   verts 12
     0.0363077 -0.0628868 0.0
     0.0363077 0.0628868 0.0
@@ -4358,7 +4352,7 @@ node trimesh lhand_g
   Specular 0.0 0.0 0.0 
   shininess 1
   center -0.16937 2.67326 -7.34923 
-  bitmap c_DoomKght01
+  bitmap doom_kght
   verts 50
     -0.074722 0.0472758 -0.0700125
     -0.0389833 0.0883364 -0.0926329
@@ -4585,7 +4579,7 @@ node trimesh Box01
   Specular 0.0 0.0 0.0 
   shininess 1
   center 14.5866 -14.8836 -17.0502 
-  bitmap c_DoomKght01
+  bitmap doom_kght
   verts 67
     -0.0776125 -0.117024 0.00853702
     -0.053205 0.0438112 -0.0115262
@@ -4831,7 +4825,7 @@ node trimesh rbicep_g
   Specular 0.0 0.0 0.0 
   shininess 1
   center 6.0452 0.7532 -13.8515 
-  bitmap c_DoomKght01
+  bitmap doom_kght
   verts 87
     0.102807 -0.0304886 0.0175284
     0.101609 0.0921476 -0.0937285
@@ -5178,7 +5172,7 @@ node trimesh rforearm_g
   Specular 0.0 0.0 0.0 
   shininess 1
   center 2.35491 0.330285 -17.6622 
-  bitmap c_DoomKght01
+  bitmap doom_kght
   verts 26
     -0.00636627 -0.0730008 0.0644176
     0.0572769 0.00930658 0.0208064
@@ -5292,7 +5286,7 @@ node trimesh r_bracer
   Specular 0.0 0.0 0.0 
   shininess 1
   center -0.784595 -0.695415 8.02536 
-  bitmap c_DoomKght01
+  bitmap doom_kght
   verts 12
     0.0 0.0724386 0.0050654
     -0.062693 -0.0358751 -0.00745473
@@ -5357,7 +5351,7 @@ node trimesh rhand_g
   Specular 0.0 0.0 0.0 
   shininess 1
   center 0.16932 2.67326 -7.34913 
-  bitmap c_DoomKght01
+  bitmap doom_kght
   verts 50
     0.0747215 0.0472757 -0.0700115
     0.0389828 0.0883363 -0.092632

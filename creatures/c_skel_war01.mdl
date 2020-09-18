@@ -1,15 +1,11 @@
-# Exported from NWmax 0.8 b60 at 11/12/2008 23:05:30 PM
-# mdl file
-#
-#NWmax MODEL ASCII
+#MAXMODEL ASCII
 # model: c_skel_war01
-#local file: Unknown
-filedependancy Unknown
+filedependancy c_skel_war01.max
 newmodel c_skel_war01
-setsupermodel c_skel_war01 c_skel_anims
+setsupermodel c_skel_war01 a_skeleton
 classification Character
 setanimationscale 1.02
-#NWmax GEOM  ASCII
+#MAXGEOM  ASCII
 beginmodelgeom c_skel_war01
 node dummy c_skel_war01
   parent NULL
@@ -40,7 +36,7 @@ node trimesh pelvis_g
   Specular 0.05 0.05 0.05 
   shininess 26
   center undefined
-  bitmap c_isg1_bone
+  bitmap skel_bone
   verts 53
     0.0 -0.0450269 -0.139063
     0.0 -0.075455 -0.183957
@@ -262,7 +258,7 @@ node trimesh rthigh_g
   Specular 0.05 0.05 0.05 
   shininess 26
   center undefined
-  bitmap c_isg1_bone
+  bitmap skel_bone
   verts 24
     -0.00907267 0.0385091 0.0163315
     -0.00907268 -0.0102741 0.0236222
@@ -377,7 +373,7 @@ node trimesh rshin_g
   Specular 0.05 0.05 0.05 
   shininess 26
   center undefined
-  bitmap c_isg1_shin
+  bitmap skel_shin
   verts 41
     0.0812423 -0.0248857 0.00740528
     0.0794848 0.0100545 -0.00546475
@@ -627,7 +623,7 @@ node trimesh rfoot_g
   Specular 0.05 0.05 0.05 
   shininess 26
   center undefined
-  bitmap c_isg1_shin
+  bitmap skel_shin
   verts 25
     0.0753026 0.0109035 -0.134249
     0.068608 0.0137524 0.0154769
@@ -752,7 +748,7 @@ node trimesh lthigh_g
   Specular 0.05 0.05 0.05 
   shininess 26
   center undefined
-  bitmap c_isg1_bone
+  bitmap skel_bone
   verts 24
     0.00907268 -0.0102741 0.0236222
     0.00907267 0.0385091 0.0163315
@@ -867,7 +863,7 @@ node trimesh lshin_g
   Specular 0.05 0.05 0.05 
   shininess 26
   center undefined
-  bitmap c_isg1_shin
+  bitmap skel_shin
   verts 41
     -0.0812423 -0.0248857 0.00740526
     -0.0794848 0.0100545 -0.00546474
@@ -1129,7 +1125,7 @@ node trimesh lfoot_g
   Specular 0.05 0.05 0.05 
   shininess 26
   center undefined
-  bitmap c_isg1_shin
+  bitmap skel_shin
   verts 25
     -0.0753026 0.0109037 -0.134249
     -0.068608 0.0137523 0.0154769
@@ -1254,7 +1250,7 @@ node trimesh belts
   Specular 0.0 0.0 0.0 
   shininess 10
   center undefined
-  bitmap c_isg1_chain2
+  bitmap skel_chain
   verts 48
     0.00135935 -0.00480788 -0.00152948
     0.13606 0.0638494 0.0250491
@@ -1469,7 +1465,7 @@ node danglymesh Mesh01
   showdispl true
   displtype 1
   center undefined
-  bitmap c_isg1_chain2
+  bitmap skel_chain
   verts 15
     -0.0927108 0.0755047 -0.62481
     0.00104185 0.0999735 -0.371105
@@ -1635,7 +1631,7 @@ node danglymesh Mesh03
   showdispl true
   displtype 1
   center undefined
-  bitmap c_isg1_chain2
+  bitmap skel_chain
   verts 15
     -0.0943785 0.0834224 -0.545583
     0.0 0.104617 -0.372729
@@ -1795,7 +1791,7 @@ node trimesh torso_g
   Specular 0.05 0.05 0.05 
   shininess 26
   center undefined
-  bitmap c_isg1_chest
+  bitmap skel_chest
   verts 113
     0.0 -0.174717 0.143921
     0.0 0.120889 0.0107189
@@ -2294,7 +2290,7 @@ node trimesh rbicep_g
   Specular 0.0 0.0 0.0 
   shininess 26
   center undefined
-  bitmap c_isg1_bone
+  bitmap skel_bone
   verts 17
     0.0272068 0.0182803 -0.332816
     0.00487329 0.0274714 -0.305394
@@ -2392,7 +2388,7 @@ node trimesh rforearm_g
   Specular 0.0 0.0 0.0 
   shininess 26
   center undefined
-  bitmap c_isg1_bone
+  bitmap skel_bone
   verts 8
     -0.00395805 -0.0074486 0.0210275
     -0.00656433 -0.0344731 -0.0253405
@@ -2452,7 +2448,7 @@ node trimesh rhand_g
   Specular 0.05 0.05 0.05 
   shininess 26
   center undefined
-  bitmap c_isg1_bone
+  bitmap skel_bone
   verts 22
     -0.0238532 -0.0247159 -0.0994197
     -0.0160108 0.0500218 -0.100922
@@ -2589,7 +2585,7 @@ node trimesh lbicep_g
   Specular 0.0 0.0 0.0 
   shininess 26
   center undefined
-  bitmap c_isg1_bone
+  bitmap skel_bone
   verts 17
     -0.00487329 0.0274714 -0.305394
     -0.0272068 0.0182803 -0.332816
@@ -2687,7 +2683,7 @@ node trimesh lforearm_g
   Specular 0.0 0.0 0.0 
   shininess 26
   center undefined
-  bitmap c_isg1_bone
+  bitmap skel_bone
   verts 8
     0.00656433 -0.034473 -0.0253405
     0.00395805 -0.0074486 0.0210275
@@ -2747,7 +2743,7 @@ node trimesh lhand_g
   Specular 0.05 0.05 0.05 
   shininess 26
   center undefined
-  bitmap c_isg1_bone
+  bitmap skel_bone
   verts 22
     0.0160107 0.0500218 -0.100922
     0.0238531 -0.0247158 -0.0994197
@@ -2889,7 +2885,7 @@ node trimesh neck_g
   Specular 0.05 0.05 0.05 
   shininess 26
   center undefined
-  bitmap c_isg1_bone
+  bitmap skel_bone
   verts 8
     0.0215781 0.00376451 0.124021
     -0.0215781 0.00376451 0.124021
@@ -2941,7 +2937,7 @@ node trimesh head_g
   Specular 0.0 0.0 0.0 
   shininess 10
   center undefined
-  bitmap c_isg1_mhead
+  bitmap skel_head
   verts 106
     -0.0342751 0.134878 0.142883
     -0.0558818 0.108769 0.153452
@@ -3410,7 +3406,7 @@ node trimesh cowl
   Specular 0.0 0.0 0.0 
   shininess 1
   center undefined
-  bitmap c_isg1_chain2
+  bitmap skel_chain
   verts 67
     0.000566587 0.154832 0.178509
     0.0629162 0.134773 0.177147
@@ -3734,7 +3730,7 @@ node trimesh shoulders
   Specular 0.045 0.045 0.045 
   shininess 26
   center undefined
-  bitmap c_isg1_sholdr
+  bitmap skel_sholdr
   verts 38
     -0.0583726 0.127168 0.0461118
     -0.0440773 0.110841 0.0871305

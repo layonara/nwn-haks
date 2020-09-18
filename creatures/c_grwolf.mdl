@@ -1,15 +1,11 @@
-# Exported from NWmax 0.8 b61 at 12/16/2018 9:14:28 AM
-# mdl file
-#
-#NWmax MODEL ASCII
+#MAXMODEL ASCII
 # model: c_grwolf
-#local file: Unknown
-filedependancy Unknown
+filedependancy c_grwolf.max
 newmodel c_grwolf
 setsupermodel c_grwolf NULL
 classification Character
 setanimationscale 1.0
-#NWmax GEOM  ASCII
+#MAXGEOM  ASCII
 beginmodelgeom c_grwolf
 node dummy c_grwolf
   parent NULL
@@ -40,7 +36,7 @@ node trimesh Wolf_ribcage
   specular 0.05 0.05 0.05 
   shininess 26
   center 0.0 17.6246 -2.805 
-  bitmap c_grwolf
+  bitmap NULL
   verts 17
     0.0 0.216691 0.182395
     -0.116083 0.390633 0.160058
@@ -125,7 +121,7 @@ node trimesh Wolf_Lfrontupperleg
   specular 0.05 0.05 0.05 
   shininess 26
   center 0.531065 -0.4832 -7.84455 
-  bitmap c_grwolf
+  bitmap NULL
   verts 12
     -0.0415185 -0.0110219 0.0831211
     -0.0415185 -0.0870625 0.056665
@@ -194,7 +190,7 @@ node trimesh Wolf_LfrontbotlegA
   specular 0.05 0.05 0.05 
   shininess 26
   center 0.31502 -0.278565 -16.4769 
-  bitmap c_grwolf
+  bitmap NULL
   verts 8
     0.0156862 -0.0314075 0.015124
     -0.0453082 -0.000125524 -0.0101773
@@ -247,7 +243,7 @@ node trimesh Wolf_LfrontbotlegB
   specular 0.05 0.05 0.05 
   shininess 26
   center 0.159565 0.0369501 -5.63415 
-  bitmap c_grwolf
+  bitmap NULL
   verts 10
     0.0322909 -0.0396119 -0.10748
     -0.0297107 -0.0370459 -0.104177
@@ -308,7 +304,7 @@ node trimesh Wolf_Lfrontpaw
   specular 0.05 0.05 0.05 
   shininess 26
   center 1.57376 3.31989 -0.99065 
-  bitmap c_grwolf
+  bitmap NULL
   verts 9
     -0.0156569 -0.0458122 0.0064071
     0.0439469 -0.0429617 -0.00119449
@@ -369,7 +365,7 @@ node trimesh Wolf_Rfrontupperleg
   specular 0.05 0.05 0.05 
   shininess 26
   center -0.531065 -0.48315 -7.84455 
-  bitmap c_grwolf
+  bitmap NULL
   verts 12
     0.0415185 -0.0870625 0.056665
     0.0415185 -0.0110219 0.0831211
@@ -438,7 +434,7 @@ node trimesh Wolf_RfrontbotlegA
   specular 0.05 0.05 0.05 
   shininess 26
   center -0.31502 -0.278565 -16.4769 
-  bitmap c_grwolf
+  bitmap NULL
   verts 8
     0.0453082 -0.000125527 -0.0101773
     -0.0156862 -0.0314075 0.015124
@@ -491,7 +487,7 @@ node trimesh Wolf_RfrontbotlegB
   specular 0.05 0.05 0.05 
   shininess 26
   center -0.159565 0.0369501 -5.63415 
-  bitmap c_grwolf
+  bitmap NULL
   verts 10
     0.0297107 -0.0370459 -0.104177
     -0.0322909 -0.0396119 -0.10748
@@ -552,7 +548,7 @@ node trimesh Wolf_Rfrontpaw
   specular 0.05 0.05 0.05 
   shininess 26
   center -1.57376 3.31989 -0.99065 
-  bitmap c_grwolf
+  bitmap NULL
   verts 9
     -0.0439469 -0.0429617 -0.00119449
     0.0156569 -0.0458122 0.0064071
@@ -613,7 +609,7 @@ node trimesh Wolf_neck
   specular 0.05 0.05 0.05 
   shininess 26
   center 0.00959921 3.50655 4.6266 
-  bitmap c_grwolf
+  bitmap NULL
   verts 20
     -0.116754 -0.0619037 -0.0527379
     -0.00337758 -0.10757 -0.115878
@@ -720,7 +716,7 @@ node trimesh Wolf_head
   specular 0.05 0.05 0.05 
   shininess 26
   center -0.0335002 19.8547 -1.90395 
-  bitmap c_grwolf
+  bitmap NULL
   verts 28
     2.21949e-006 0.115373 -0.145689
     7.94085e-006 0.0321446 -0.158425
@@ -852,7 +848,7 @@ node trimesh Wolf_Rear
   specular 0.05 0.05 0.05 
   shininess 26
   center 0.118935 0.0465651 9.03354 
-  bitmap c_grwolf
+  bitmap NULL
   verts 10
     0.0403732 0.0297948 0.0224218
     0.0403732 0.0181405 0.0254358
@@ -913,7 +909,7 @@ node trimesh Wolf_Lear
   specular 0.05 0.05 0.05 
   shininess 26
   center -0.118935 0.0465698 9.03354 
-  bitmap c_grwolf
+  bitmap NULL
   verts 10
     -0.0403732 0.0181405 0.0254359
     -0.0403732 0.0297948 0.0224218
@@ -980,7 +976,7 @@ node trimesh Wolf_pelvis
   specular 0.05 0.05 0.05 
   shininess 26
   center 0.0 -20.0279 -1.2651 
-  bitmap c_grwolf
+  bitmap NULL
   verts 12
     -0.147073 -0.249408 0.143463
     0.0 -0.249408 0.16796
@@ -1046,7 +1042,7 @@ node trimesh Wolf_Rbacktopleg
   specular 0.05 0.05 0.05 
   shininess 26
   center -0.671269 4.46075 -19.5524 
-  bitmap c_grwolf
+  bitmap NULL
   verts 13
     -0.0215964 0.0451209 0.0532265
     -0.0407948 -0.0654797 -0.000818014
@@ -1119,7 +1115,7 @@ node trimesh Wolf_Rbackmidleg
   specular 0.05 0.05 0.05 
   shininess 26
   center undefined
-  bitmap c_grwolf
+  bitmap NULL
   verts 10
     0.0371082 -0.0720165 -0.00704623
     0.0380867 0.0767161 0.00901158
@@ -1180,7 +1176,7 @@ node trimesh Wolf_Rbackbotleg
   specular 0.05 0.05 0.05 
   shininess 26
   center undefined
-  bitmap c_grwolf
+  bitmap NULL
   verts 8
     0.00537371 0.050883 -0.00358804
     -0.0340707 -0.0253674 0.0148515
@@ -1233,7 +1229,7 @@ node trimesh Wolf_Rbackpaw
   specular 0.05 0.05 0.05 
   shininess 26
   center undefined
-  bitmap c_grwolf
+  bitmap NULL
   verts 9
     -0.0305523 -0.0379385 0.00157023
     0.0320306 -0.0438053 0.00346889
@@ -1294,7 +1290,7 @@ node trimesh Wolf_Lbacktopleg
   specular 0.05 0.05 0.05 
   shininess 26
   center 0.671269 4.46075 -19.5524 
-  bitmap c_grwolf
+  bitmap NULL
   verts 13
     0.0407948 -0.0654797 -0.000818014
     0.0215964 0.0451209 0.0532265
@@ -1367,7 +1363,7 @@ node trimesh Wolf_Lbackmidleg
   specular 0.05 0.05 0.05 
   shininess 26
   center undefined
-  bitmap c_grwolf
+  bitmap NULL
   verts 10
     -0.0380867 0.0767161 0.00901157
     -0.0371082 -0.0720165 -0.00704623
@@ -1428,7 +1424,7 @@ node trimesh Wolf_Lbackbotleg
   specular 0.05 0.05 0.05 
   shininess 26
   center undefined
-  bitmap c_grwolf
+  bitmap NULL
   verts 8
     0.0340707 -0.0253674 0.0148515
     -0.00537371 0.050883 -0.00358802
@@ -1481,7 +1477,7 @@ node trimesh Wolf_Lbackpaw
   specular 0.05 0.05 0.05 
   shininess 26
   center undefined
-  bitmap c_grwolf
+  bitmap NULL
   verts 9
     -0.0320306 -0.0438054 0.00346891
     0.0305523 -0.0379385 0.00157027
@@ -1542,7 +1538,7 @@ node trimesh Wolf_tail
   specular 0.05 0.05 0.05 
   shininess 26
   center 0.0 -17.1312 -1.79063 
-  bitmap c_grwolf
+  bitmap NULL
   verts 9
     -0.0462257 -0.312939 -0.0857224
     -0.0332247 -0.0193254 -0.0266298
@@ -1599,7 +1595,7 @@ node trimesh Wolf_tailend
   specular 0.05 0.05 0.05 
   shininess 26
   center 0.0 -14.5454 2.07104 
-  bitmap c_grwolf
+  bitmap NULL
   verts 8
     -0.0360403 -0.17187 -0.0224949
     -0.0462257 -0.00204587 -0.0724121
@@ -1654,7 +1650,7 @@ node skin wolfback
   diffuse 1.0 1.0 1.0 
   specular 0.0 0.0 0.0 
   shininess 96.0
-  bitmap c_grwolf
+  bitmap grey_wolf
   verts 396
     -0.0969258 -0.140728 -0.0310042
     -0.111474 -0.182588 -0.0386328
@@ -3591,7 +3587,7 @@ node skin WolfBody
   diffuse 1.0 1.0 1.0 
   specular 0.0 0.0 0.0 
   shininess 96.0
-  bitmap c_grwolf
+  bitmap grey_wolf
   verts 1538
     -0.0142134 1.06726 0.75654
     -0.0108278 1.07559 0.758997
@@ -10784,7 +10780,8 @@ node skin WolfBody
      Wolf_Rfrontpaw 1.0 
 endnode
 endmodelgeom c_grwolf
-#NWmax ANIM ASCII
+
+#MAXANIM ASCII
 newanim ca1slashl c_grwolf
   length 1.0
   transtime 0.25
@@ -11164,7 +11161,7 @@ newanim ca1slashl c_grwolf
         parent c_grwolf
     endnode
 doneanim ca1slashl c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim ca1slashr c_grwolf
   length 1.0
   transtime 0.25
@@ -11554,7 +11551,7 @@ newanim ca1slashr c_grwolf
         parent c_grwolf
     endnode
 doneanim ca1slashr c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim ca1stab c_grwolf
   length 1.0
   transtime 0.25
@@ -11934,7 +11931,7 @@ newanim ca1stab c_grwolf
         parent c_grwolf
     endnode
 doneanim ca1stab c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim creach c_grwolf
   length 1.0
   transtime 0.25
@@ -12314,7 +12311,7 @@ newanim creach c_grwolf
         parent c_grwolf
     endnode
 doneanim creach c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim cconjure1 c_grwolf
   length 1.0
   transtime 0.25
@@ -12586,7 +12583,7 @@ newanim cconjure1 c_grwolf
         parent c_grwolf
     endnode
 doneanim cconjure1 c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim ccastout c_grwolf
   length 0.5
   transtime 0.25
@@ -12825,7 +12822,7 @@ newanim ccastout c_grwolf
         parent c_grwolf
     endnode
 doneanim ccastout c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim cparryl c_grwolf
   length 1.0
   transtime 0.25
@@ -13135,7 +13132,7 @@ newanim cparryl c_grwolf
         parent c_grwolf
     endnode
 doneanim cparryl c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim cparryr c_grwolf
   length 1.0
   transtime 0.25
@@ -13445,7 +13442,7 @@ newanim cparryr c_grwolf
         parent c_grwolf
     endnode
 doneanim cparryr c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim cdodgelr c_grwolf
   length 1.0
   transtime 0.3
@@ -13755,7 +13752,7 @@ newanim cdodgelr c_grwolf
         parent c_grwolf
     endnode
 doneanim cdodgelr c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim cdodges c_grwolf
   length 1.0
   transtime 0.3
@@ -14065,7 +14062,7 @@ newanim cdodges c_grwolf
         parent c_grwolf
     endnode
 doneanim cdodges c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim creadyr c_grwolf
   length 1.0
   transtime 0.5
@@ -14286,7 +14283,7 @@ newanim creadyr c_grwolf
         parent c_grwolf
     endnode
 doneanim creadyr c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim creadyl c_grwolf
   length 1.0
   transtime 0.5
@@ -14507,7 +14504,7 @@ newanim creadyl c_grwolf
         parent c_grwolf
     endnode
 doneanim creadyl c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim cdamagel c_grwolf
   length 0.666667
   transtime 0.125
@@ -14746,7 +14743,7 @@ newanim cdamagel c_grwolf
         parent c_grwolf
     endnode
 doneanim cdamagel c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim cdamager c_grwolf
   length 0.666667
   transtime 0.125
@@ -14985,7 +14982,7 @@ newanim cdamager c_grwolf
         parent c_grwolf
     endnode
 doneanim cdamager c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim cdamages c_grwolf
   length 0.666667
   transtime 0.125
@@ -15224,7 +15221,7 @@ newanim cdamages c_grwolf
         parent c_grwolf
     endnode
 doneanim cdamages c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim ckdbck c_grwolf
   length 0.666667
   transtime 0.125
@@ -15527,7 +15524,7 @@ newanim ckdbck c_grwolf
         parent c_grwolf
     endnode
 doneanim ckdbck c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim ckdbckps c_grwolf
   length 1.0
   transtime 0.25
@@ -15795,7 +15792,7 @@ newanim ckdbckps c_grwolf
         parent c_grwolf
     endnode
 doneanim ckdbckps c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim ckdbckdie c_grwolf
   length 1.0
   transtime 0.25
@@ -16104,7 +16101,7 @@ newanim ckdbckdie c_grwolf
         parent c_grwolf
     endnode
 doneanim ckdbckdie c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim cguptokdb c_grwolf
   length 1.0
   transtime 0.25
@@ -16384,7 +16381,7 @@ newanim cguptokdb c_grwolf
         parent c_grwolf
     endnode
 doneanim cguptokdb c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim cgustandb c_grwolf
   length 1.16667
   transtime 0.25
@@ -16748,7 +16745,7 @@ newanim cgustandb c_grwolf
         parent c_grwolf
     endnode
 doneanim cgustandb c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim cwalk c_grwolf
   length 0.933333
   transtime 0.25
@@ -17041,7 +17038,7 @@ newanim cwalk c_grwolf
         parent c_grwolf
     endnode
 doneanim cwalk c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim crun c_grwolf
   length 0.6
   transtime 0.25
@@ -17402,7 +17399,7 @@ newanim crun c_grwolf
         parent c_grwolf
     endnode
 doneanim crun c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim ccwalkf c_grwolf
   length 0.5
   transtime 0.25
@@ -17653,7 +17650,7 @@ newanim ccwalkf c_grwolf
         parent c_grwolf
     endnode
 doneanim ccwalkf c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim ccwalkb c_grwolf
   length 0.5
   transtime 0.25
@@ -17910,7 +17907,7 @@ newanim ccwalkb c_grwolf
         parent c_grwolf
     endnode
 doneanim ccwalkb c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim ccwalkl c_grwolf
   length 0.5
   transtime 0.25
@@ -18160,7 +18157,7 @@ newanim ccwalkl c_grwolf
         parent c_grwolf
     endnode
 doneanim ccwalkl c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim ccwalkr c_grwolf
   length 0.5
   transtime 0.25
@@ -18406,7 +18403,7 @@ newanim ccwalkr c_grwolf
         parent c_grwolf
     endnode
 doneanim ccwalkr c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim cpause1 c_grwolf
   length 1.96667
   transtime 0.25
@@ -18675,7 +18672,7 @@ newanim cpause1 c_grwolf
         parent c_grwolf
     endnode
 doneanim cpause1 c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim chturnl c_grwolf
   length 1.0
   transtime 0.25
@@ -18916,7 +18913,7 @@ newanim chturnl c_grwolf
         parent c_grwolf
     endnode
 doneanim chturnl c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim chturnr c_grwolf
   length 1.0
   transtime 0.25
@@ -19158,7 +19155,7 @@ newanim chturnr c_grwolf
         parent c_grwolf
     endnode
 doneanim chturnr c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim ctaunt c_grwolf
   length 1.0
   transtime 0.25
@@ -19430,7 +19427,7 @@ newanim ctaunt c_grwolf
         parent c_grwolf
     endnode
 doneanim ctaunt c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim ccloseh c_grwolf
   length 1.1
   transtime 0.25
@@ -19834,7 +19831,7 @@ newanim ccloseh c_grwolf
         parent c_grwolf
     endnode
 doneanim ccloseh c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim cclosel c_grwolf
   length 1.1
   transtime 0.25
@@ -20236,7 +20233,7 @@ newanim cclosel c_grwolf
         parent c_grwolf
     endnode
 doneanim cclosel c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim ckdbckdmg c_grwolf
   length 0.333333
   transtime 0.125
@@ -20460,7 +20457,7 @@ newanim ckdbckdmg c_grwolf
         parent c_grwolf
     endnode
 doneanim ckdbckdmg c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim cgetmid c_grwolf
   length 0.5
   transtime 0.25
@@ -20682,7 +20679,7 @@ newanim cgetmid c_grwolf
         parent c_grwolf
     endnode
 doneanim cgetmid c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim ccastoutlp c_grwolf
   length 1.0
   transtime 0.25
@@ -20903,7 +20900,7 @@ newanim ccastoutlp c_grwolf
         parent c_grwolf
     endnode
 doneanim ccastoutlp c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim cdead c_grwolf
   length 0.0333333
   transtime 0.25
@@ -21084,7 +21081,7 @@ newanim cdead c_grwolf
         parent c_grwolf
     endnode
 doneanim cdead c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim cspasm c_grwolf
   length 1.0
   transtime 0.25
@@ -21451,7 +21448,7 @@ newanim cspasm c_grwolf
         parent c_grwolf
     endnode
 doneanim cspasm c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim cappear c_grwolf
   length 1.0
   transtime 0.25
@@ -21672,7 +21669,7 @@ newanim cappear c_grwolf
         parent c_grwolf
     endnode
 doneanim cappear c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim cdisappear c_grwolf
   length 1.0
   transtime 0.25
@@ -21893,7 +21890,7 @@ newanim cdisappear c_grwolf
         parent c_grwolf
     endnode
 doneanim cdisappear c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim cgetmidlp c_grwolf
   length 0.0333333
   transtime 0.25
@@ -22093,7 +22090,7 @@ newanim cgetmidlp c_grwolf
         parent c_grwolf
     endnode
 doneanim cgetmidlp c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim ccturnr c_grwolf
   length 0.5
   transtime 0.25
@@ -22499,7 +22496,7 @@ newanim ccturnr c_grwolf
         parent c_grwolf
     endnode
 doneanim ccturnr c_grwolf
-#NWmax ANIM ASCII
+#MAXANIM ASCII
 newanim cdisappearlp c_grwolf
   length 1.0
   transtime 0.25
