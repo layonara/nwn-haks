@@ -1,88 +1,14 @@
-# Rewritten by CleanModels 3 Version 3.1.1 Sun Oct 26 01:39:37 2008
+# Rewritten by CleanModels 3 Version 3.5.2d Wed Jun 17 09:22:53 2020
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wsf14_p01_04
-setsupermodel wsf14_p01_04 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wsf14_p01_04 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wsf14_p01_04
 node dummy wsf14_p01_04
   parent NULL
-endnode
-node dummy wsf14_p01_04a
-  parent wsf14_p01_04
-  position 0 0 0
-  wirecolor 0.694118 0.580392 0.101961
-  orientation 0 0 0 0
-endnode
-node emitter smoke01
-  parent wsf14_p01_04a
-  position 2.2153 1.16646 9.27064
-  wirecolor 0.552941 0.552941 0.552941
-  update_sel 1
-  update Fountain
-  render_sel 1
-  render Normal
-  blend_sel 1
-  blend Normal
-  spawntype_sel 0
-  spawntype 0
-  xsize 0
-  ysize 0
-  inherit 1
-  inherit_local 0
-  inheritvel 0
-  inherit_part 0
-  renderorder 0
-  threshold 0
-  combinetime 0
-  deadspace 0
-  opacity 0.5
-  colorStart 0 0 0
-  colorEnd 1 1 1
-  alphaStart 0.3
-  alphaEnd 0
-  sizeStart 1
-  sizeEnd 3
-  sizeStart_y 0
-  sizeEnd_y 0
-  birthrate 2
-  lifeExp 3
-  mass 0.1
-  spread 1.74533
-  particleRot 1
-  velocity 1.5
-  randvel 0.5
-  bounce_co 0.9
-  blurlength 10
-  loop 0
-  bounce 0
-  m_isTinted 0
-  splat 0
-  affectedByWind false
-  texture fxpa_smoke01
-  twosidedtex 0
-  xgrid 4
-  ygrid 4
-  fps 0
-  frameStart 3
-  frameEnd 24
-  random 0
-  lightningDelay 0
-  lightningRadius 0
-  lightningSubDiv 0
-  lightningScale 0
-  blastRadius 0
-  blastLength 0
-  p2p 0
-  p2p_type Bezier
-  p2p_sel 1
-  p2p_bezier2 0
-  p2p_bezier3 0
-  grav 0
-  drag 0
-  orientation 0 0 0 0
 endnode
 node light wsf14_p01_04ml1
   parent wsf14_p01_04
@@ -92,7 +18,7 @@ node light wsf14_p01_04ml1
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -107,7 +33,7 @@ node light wsf14_p01_04ml2
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -144,10 +70,10 @@ node trimesh cobble_04
     1 0 3 1 1 0 3 65536
     0 1 2 1 0 1 2 65536
   tverts 4
-    0.999501 0.9995 0
-    0.000499517 0.000499755 0
-    0.9995 0.000499517 0
-    0.000499755 0.999501 0
+    1 1 0
+    0 0 0
+    1 0 0
+    0 1 0
 endnode
 node aabb wmesh_04
   parent wsf14_p01_04
@@ -155,6 +81,8 @@ node aabb wmesh_04
   wirecolor 0.898039 0.898039 0.898039
   bitmap NULL
   orientation 0 0 0 0
+  render 0
+  shadow 0
   verts 209
     -5 -4.67 -0.5
     -4 -4.67 8.12
@@ -1458,6 +1386,75 @@ node aabb wmesh_04
     2 3.71 8.12 2.9 3.94 8.12 216
     2 3.71 8.12 2.9 3.94 8.12 217
 endnode
+node dummy wsf14_p01_04a
+  parent wsf14_p01_04
+  position 0 0 0
+  wirecolor 0.694118 0.580392 0.101961
+  orientation 0 0 0 0
+endnode
+node emitter smoke01
+  parent wsf14_p01_04a
+  alpha 0.5
+  position 2.2153 1.16646 9.27064
+  wirecolor 0.552941 0.552941 0.552941
+  update Fountain
+  render Normal
+  blend Normal
+  spawntype 0
+  xsize 0
+  ysize 0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0
+  combinetime 0
+  deadspace 0
+  colorStart 0 0 0
+  colorEnd 1 1 1
+  alphaStart 0.3
+  alphaEnd 0
+  sizeStart 1
+  sizeEnd 3
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 2
+  lifeExp 3
+  mass 0.1
+  spread 1.74533
+  particleRot 1
+  velocity 1.5
+  randvel 0.5
+  bounce_co 0.9
+  blurlength 10
+  loop 0
+  bounce 0
+  m_isTinted 0
+  splat 0
+  affectedByWind 0
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 0
+  frameStart 3
+  frameEnd 24
+  random 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  orientation 0 0 0 0
+endnode
 endmodelgeom wsf14_p01_04
 
 #MAXANIM ASCII
@@ -1467,15 +1464,6 @@ newanim animloop01 wsf14_p01_04
   animroot wsf14_p01_04
   node dummy wsf14_p01_04
     parent NULL
-  endnode
-  node dummy wsf14_p01_04a
-    parent wsf14_p01_04
-  endnode
-  node emitter smoke01
-    parent wsf14_p01_04a
-    birthratekey
-      0 2
-    endlist
   endnode
   node light wsf14_p01_04ml1
     parent wsf14_p01_04
@@ -1488,6 +1476,15 @@ newanim animloop01 wsf14_p01_04
   endnode
   node dummy wmesh_04
     parent wsf14_p01_04
+  endnode
+  node dummy wsf14_p01_04a
+    parent wsf14_p01_04
+  endnode
+  node emitter smoke01
+    parent wsf14_p01_04a
+    birthratekey
+      0 2
+    endlist
   endnode
 doneanim animloop01 wsf14_p01_04
 
@@ -1499,15 +1496,6 @@ newanim tiledefault wsf14_p01_04
   node dummy wsf14_p01_04
     parent NULL
   endnode
-  node dummy wsf14_p01_04a
-    parent wsf14_p01_04
-  endnode
-  node emitter smoke01
-    parent wsf14_p01_04a
-    birthratekey
-      0 0
-    endlist
-  endnode
   node light wsf14_p01_04ml1
     parent wsf14_p01_04
   endnode
@@ -1519,6 +1507,15 @@ newanim tiledefault wsf14_p01_04
   endnode
   node dummy wmesh_04
     parent wsf14_p01_04
+  endnode
+  node dummy wsf14_p01_04a
+    parent wsf14_p01_04
+  endnode
+  node emitter smoke01
+    parent wsf14_p01_04a
+    birthratekey
+      0 0
+    endlist
   endnode
 doneanim tiledefault wsf14_p01_04
 donemodel wsf14_p01_04

@@ -1,10 +1,10 @@
-# Rewritten by CleanModels 3 Version 3.1.1 Sun Oct 26 02:41:41 2008
+# Rewritten by CleanModels 3 Version 3.5.2d Wed Jun 17 09:42:17 2020
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wsf40_m02_02
-setsupermodel wsf40_m02_02 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wsf40_m02_02 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wsf40_m02_02
 node dummy wsf40_m02_02
@@ -19,7 +19,7 @@ node light wsf40_m02_02ml1
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -35,7 +35,7 @@ node light wsf40_m02_02ml2
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -67,10 +67,10 @@ node trimesh terrain_02
     1 0 2 1 1 0 2 0
     2 3 1 1 2 3 1 0
   tverts 4
-    0.500999 0.500999 0.5
-    0.500999 1.5 0.5
-    1.5 0.500999 0.5
-    1.5 1.5 0.5
+    -0.498047 -0.498047 0
+    -0.498047 0.5 0
+    0.5 -0.498047 0
+    0.5 0.5 0
 endnode
 node aabb wmesh_02
   parent wsf40_m02_02
@@ -82,6 +82,8 @@ node aabb wmesh_02
   shininess 1
   bitmap NULL
   position 0 0 0
+  render 0
+  shadow 0
   verts 134
     -5 -5 -0.5
     -4 -5 -0.5

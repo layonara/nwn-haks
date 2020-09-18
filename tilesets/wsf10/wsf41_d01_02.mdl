@@ -1,10 +1,10 @@
-# Rewritten by CleanModels 3 Version 3.1.1 Sun Oct 26 02:59:56 2008
+# Rewritten by CleanModels 3 Version 3.5.2d Wed Jun 17 09:43:45 2020
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wsf41_d01_02
-setsupermodel wsf41_d01_02 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wsf41_d01_02 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wsf41_d01_02
 node dummy wsf41_d01_02
@@ -19,7 +19,7 @@ node light wsf41_d01_02ml1
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -35,14 +35,14 @@ node light wsf41_d01_02ml2
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
   lensflares 0
   fadinglight 1
 endnode
-node trimesh 0011_02
+node trimesh 1102
   parent wsf41_d01_02
   position 0 0 1
   orientation 0 0 0 0
@@ -73,15 +73,15 @@ node trimesh 0011_02
     5 7 3 1 5 7 3 0
     1 7 8 1 1 7 8 0
   tverts 9
-    0.000499517 0.000499755 0
-    0.9995 0.000499517 0
-    0.000499755 0.999501 0
-    0.999501 0.9995 0
-    0.000499636 0.5 0
+    0 0 0
+    1 0 0
+    0 1 0
+    1 1 0
+    0 0.5 0
     0.5 0.5 0
-    0.5 0.9995 0
-    0.9995 0.5 0
-    0.5 0.000499636 0
+    0.5 1 0
+    1 0.5 0
+    0.5 0 0
 endnode
 node aabb 0011_wmesh_02
   parent wsf41_d01_02
@@ -93,6 +93,8 @@ node aabb 0011_wmesh_02
   specular 0 0 0
   shininess 1
   bitmap NULL
+  render 0
+  shadow 0
   verts 9
     5 5 -0.5
     -5 5 -0.5

@@ -1,10 +1,10 @@
-# Rewritten by CleanModels 3 Version 3.1.1 Sun Oct 26 02:18:15 2008
+# Rewritten by CleanModels 3 Version 3.5.2d Wed Jun 17 09:38:58 2020
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wsf40_a01_02
-setsupermodel wsf40_a01_02 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wsf40_a01_02 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wsf40_a01_02
 node dummy wsf40_a01_02
@@ -20,6 +20,8 @@ node aabb walkmesh_v01_07
   bitmap NULL
   orientation 0 0 0 0
   position 0 0 0
+  render 0
+  shadow 0
   verts 31
     5 2.07 5
     5 2.3 3.5
@@ -175,7 +177,7 @@ node light wsf40_a01_02ml03
   multiplier 1
   color 1 1 1
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -191,7 +193,7 @@ node light wsf40_a01_02ml04
   multiplier 1
   color 1 1 1
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5

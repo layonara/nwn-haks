@@ -1,10 +1,10 @@
-# Rewritten by CleanModels 3 Version 3.1.1 Sat Oct 25 20:32:51 2008
+# Rewritten by CleanModels 3 Version 3.5.2d Tue Jun 16 15:58:38 2020
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wsf01_s09_05
-setsupermodel wsf01_s09_05 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wsf01_s09_05 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wsf01_s09_05
 node dummy wsf01_s09_05
@@ -18,7 +18,7 @@ node light wsf01_s09_05ml1
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -33,7 +33,7 @@ node light wsf01_s09_05ml2
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -59,8 +59,8 @@ node trimesh plane05
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  center 0.0414963 -0.280499 -3.50475e-005
-  bitmap wsf01_pt_dirt01
+  center 0.0414963 -0.280499 -3.50475e-05
+  bitmap tno01_pt_dirt01
   verts 4
     0 1.23 0
     -1.24 0 0
@@ -70,10 +70,10 @@ node trimesh plane05
     2 0 3 1 2 0 3 1
     1 3 0 1 1 3 0 1
   tverts 4
-    0.001 0.50146 0
-    0.4954 0.50146 0
-    0.001 1 0
-    0.4954 1 0
+    0.00195313 0.501953 0
+    0.496094 0.501953 0
+    0.00195313 1 0
+    0.496094 1 0
 endnode
 node trimesh object04
   parent wsf01_s09_05
@@ -94,7 +94,7 @@ node trimesh object04
   specular 0 0 0
   shininess 10
   center 0.499998 -0.500004 0
-  bitmap wsf01_flrslabs06
+  bitmap tno01_flrslabs06
   shadow 0
   verts 6
     -0.32 -0.6 0
@@ -109,12 +109,12 @@ node trimesh object04
     2 4 5 1 2 4 5 1
     3 4 1 1 3 4 1 1
   tverts 6
-    0.437448 0.107697 0
-    0.684167 0.28512 0
-    0.202313 0.440891 0
-    0.602718 0.561806 0
-    0.298045 0.220035 0
-    0.370077 0.602632 0
+    0.4375 0.107422 0
+    0.683594 0.285156 0
+    0.203125 0.441406 0
+    0.603516 0.5625 0
+    0.298828 0.220703 0
+    0.369141 0.603516 0
 endnode
 node trimesh plane04
   parent wsf01_s09_05
@@ -135,7 +135,7 @@ node trimesh plane04
   specular 0 0 0
   shininess 10
   center 1.5 -0.5 0
-  bitmap wsf01_rough06
+  bitmap tno01_rough06
   shadow 0
   verts 12
     -0.35 -0.67 -0.05
@@ -164,26 +164,26 @@ node trimesh plane04
     1 3 9 0 1 3 9 1
     9 7 1 0 9 7 1 1
   tverts 20
-    0.353981 0.48 0
-    0.297794 0.48 0
-    0.726342 0.48 0
-    0.614665 0.48 0
-    0.586434 0.48 0
-    0.481452 0.48 0
-    0.364991 0.52 0
-    0.317391 0.52 0
-    0.7073 0.52 0
-    0.602575 0.52 0
-    0.578415 0.52 0
-    0.486899 0.52 0
-    0.76502 0.48 0
-    0.739142 0.52 0
-    0.685743 0.48 0
-    0.663576 0.52 0
-    0.266352 0.48 0
-    0.293309 0.52 0
-    0.319077 0.48 0
-    0.337793 0.52 0
+    0.353516 0.480469 0
+    0.296875 0.480469 0
+    0.726563 0.480469 0
+    0.615234 0.480469 0
+    0.585938 0.480469 0
+    0.482422 0.480469 0
+    0.365234 0.519531 0
+    0.318359 0.519531 0
+    0.707031 0.519531 0
+    0.603516 0.519531 0
+    0.578125 0.519531 0
+    0.486328 0.519531 0
+    0.765625 0.480469 0
+    0.738281 0.519531 0
+    0.685547 0.480469 0
+    0.664063 0.519531 0
+    0.265625 0.480469 0
+    0.292969 0.519531 0
+    0.318359 0.480469 0
+    0.337891 0.519531 0
 endnode
 node trimesh plane03
   parent wsf01_s09_05
@@ -204,7 +204,7 @@ node trimesh plane03
   specular 0 0 0
   shininess 10
   center 0 0 0
-  bitmap wsf01_flrslabs06
+  bitmap tno01_flrslabs06
   shadow 0
   verts 25
     -5 -5 0
@@ -266,31 +266,31 @@ node trimesh plane03
     23 18 24 1 23 18 24 1
     19 24 18 1 19 24 18 1
   tverts 25
-    0.00199807 0.00199902 0
-    1.001 0.00199878 0
-    2 0.00199854 0
-    2.999 0.00199831 0
-    3.998 0.00199807 0
-    0.00199831 1.001 0
-    1.001 1.001 0
-    2 1.001 0
-    2.999 1.001 0
-    3.998 1.001 0
-    0.00199854 2 0
-    1.001 2 0
-    2 2 0
-    2.999 2 0
-    3.998 2 0
-    0.00199878 2.999 0
-    1.001 2.999 0
-    2 2.999 0
-    2.999 2.999 0
-    3.998 2.999 0
-    0.00199902 3.998 0
-    1.001 3.998 0
-    2 3.998 0
-    2.999 3.998 0
-    3.998 3.998 0
+    -1.99805 -1.99805 0
+    -0.998047 -1.99805 0
+    0 -1.99805 0
+    0.998047 -1.99805 0
+    1.99805 -1.99805 0
+    -1.99805 -0.998047 0
+    -0.998047 -0.998047 0
+    0 -0.998047 0
+    0.998047 -0.998047 0
+    1.99805 -0.998047 0
+    -1.99805 0 0
+    -0.998047 0 0
+    0 0 0
+    0.998047 0 0
+    1.99805 0 0
+    -1.99805 0.998047 0
+    -0.998047 0.998047 0
+    0 0.998047 0
+    0.998047 0.998047 0
+    1.99805 0.998047 0
+    -1.99805 1.99805 0
+    -0.998047 1.99805 0
+    0 1.99805 0
+    0.998047 1.99805 0
+    1.99805 1.99805 0
 endnode
 node aabb wok
   parent wsf01_s09_05
@@ -302,6 +302,8 @@ node aabb wok
   orientation 0 0 0 0
   bitmap NULL
   position 0 0 0
+  render 0
+  shadow 0
   verts 37
     0.81 -1.78 13
     1.64 -1.62 13

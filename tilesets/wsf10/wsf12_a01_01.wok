@@ -1,4 +1,4 @@
-# Rewritten by CleanModels 3 Version 3.1.1 Sun Oct 26 00:30:52 2008
+# Rewritten by CleanModels 3 Version 3.5.2d Wed Jun 17 09:07:46 2020
 #MAXWALKMESH  ASCII
 beginwalkmeshgeom wsf12_a01_01
 node aabb walkmesh_01
@@ -7,6 +7,8 @@ node aabb walkmesh_01
   wirecolor 0.0235294 0.0235294 0.0235294
   bitmap NULL
   orientation 0 0 0 0
+  render 0
+  shadow 0
   verts 17
     -5 -5 -0.5
     0 -5 -0.5
@@ -25,7 +27,7 @@ node aabb walkmesh_01
     -5 5 -0.5
     0.51 5 1.61
     0 5 1.61
-  faces 19
+  faces 20
     0 1 3 1 0 0 0 4
     3 2 0 1 0 0 0 4
     1 9 10 1 0 0 0 4
@@ -43,8 +45,9 @@ node aabb walkmesh_01
     13 15 6 2 0 0 0 4
     7 6 15 2 0 0 0 7
     15 16 7 2 0 0 0 7
-    12 3 7 4 0 0 0 7
+    7 5 3 4 0 0 0 7
     7 16 12 4 0 0 0 7
+    7 12 5 4 0 0 0 7
   aabb     -5 -5 -0.5 5 5 1.61 -1
     -5 -5 -0.5 0 5 1.61 -1
     -5 -5 -0.5 0 0.75 -0.5 -1
@@ -59,7 +62,9 @@ node aabb walkmesh_01
     -5 0.75 -0.5 0 5 -0.5 12
     -5 0.75 -0.5 0 5 -0.5 11
     0 0 -0.5 0 5 1.61 -1
-    0 0 -0.5 0 5 0.92 17
+    0 0 -0.5 0 3.21 0.92 17
+    0 0.75 -0.5 0 5 1.61 -1
+    0 0.75 -0.5 0 5 0.92 19
     0 3.21 -0.5 0 5 1.61 18
     0 -5 -0.5 5 5 1.61 -1
     0 -5 -0.5 5 3.21 0.92 -1

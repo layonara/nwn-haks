@@ -1,10 +1,10 @@
-# Rewritten by CleanModels 3 Version 3.1.1 Sat Oct 25 20:41:36 2008
+# Rewritten by CleanModels 3 Version 3.5.2d Tue Jun 16 18:52:19 2020
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wsf02_m66_02
-setsupermodel wsf02_m66_02 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wsf02_m66_02 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wsf02_m66_02
 node dummy wsf02_m66_02
@@ -20,6 +20,8 @@ node aabb wok02
   shininess 10
   orientation 0 0 0 0
   bitmap NULL
+  render 0
+  shadow 0
   verts 49
     -5 0.56 3.11
     -5 -5 0
@@ -335,39 +337,39 @@ node trimesh rock01
     5 11 2 1 18 13 15 1
     0 9 5 1 14 12 16 1
   tverts 33
-    1.58564 0.580931 0
-    0.992912 0.593776 0
-    0.87271 0.229591 0
-    1.85477 0.746709 0
-    1.43644 0.960302 0
-    1.18622 0.0654436 0
-    0.90997 0.961054 0
-    0.769176 0.520448 0
-    1.0759 0.794434 0
-    1.0227 0.195606 0
-    0.57887 0.997338 0
-    0.215827 0.44853 0
-    0.918278 0.59458 0
-    0.766005 0.41519 0
-    0.477848 0.70496 0
-    0.864321 0.92141 0
-    1.01176 0.96836 0
-    0.058472 0.68824 0
-    0.384153 0.9172 0
-    1.56941 0.936301 0
-    0.918343 0.17655 0
-    1.68154 0.375078 0
-    0.764803 0.906863 0
-    1.08342 0.924654 0
-    0.0834213 0.687386 0
-    1.34732 0.699664 0
-    0.467792 0.304704 0
-    1.03556 0.88272 0
-    0.52736 0.908375 0
-    0.319822 0.984168 0
-    0.257766 0.502614 0
-    0.777117 0.308413 0
-    0.773112 0.998993 0
+    0.585938 0.580078 0
+    -0.0078125 0.59375 0
+    0.873047 0.230469 0
+    0.855469 0.746094 0
+    0.435547 0.960938 0
+    0.185547 0.0664063 0
+    0.910156 0.960938 0
+    0.769531 0.519531 0
+    0.0761719 0.794922 0
+    1.02344 0.195313 0
+    0.578125 0.998047 0
+    0.216797 0.449219 0
+    0.917969 0.59375 0
+    0.765625 0.416016 0
+    0.478516 0.705078 0
+    0.865234 0.921875 0
+    1.01172 0.96875 0
+    0.0585938 0.6875 0
+    0.384766 0.917969 0
+    0.570313 0.935547 0
+    -0.0820313 0.175781 0
+    0.681641 0.375 0
+    0.765625 0.90625 0
+    1.08398 0.923828 0
+    0.0839844 0.6875 0
+    1.34766 0.699219 0
+    0.46875 0.304688 0
+    1.03516 0.882813 0
+    0.527344 0.908203 0
+    0.320313 0.984375 0
+    0.257813 0.501953 0
+    0.777344 0.308594 0
+    0.773438 0.998047 0
 endnode
 node trimesh ground_dirtgrassa_10
   parent wsf02_m66_02
@@ -407,154 +409,22 @@ node trimesh ground_dirtgrassa_10
     4 0 2 -2147483648 8 6 7 1
     7 1 0 -2147483648 15 14 13 1
   tverts 16
-    1.61165 0.981099 0
-    0.869654 0.988198 0
-    1.32451 0.407171 0
-    0.992814 0.312173 0
-    0.961395 0.991281 0
-    1.1953 0.533803 0
-    0.99991 0.129919 0
-    1.40466 0.219038 0
-    1.08092 0.981093 0
-    1.61275 1.00271 0
-    0.777418 0.958247 0
-    0.713334 0.233373 0
-    0.2604 0.917451 0
-    0.502177 0.344123 0
-    0.111594 0.581586 0
-    0.557334 1.14799 0
-endnode
-node trimesh shadow227
-  parent wsf02_m66_02
-  position -6.42 0.2 0.9
-  orientation 0 0 0 0
-  wirecolor 0.337255 0.337255 0.337255
-  tilefade 0
-  scale 1
-  render 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 0 0 0
-  diffuse 0 0 0
-  specular 0 0 0
-  shininess 1
-  center 0 0.5 0.5
-  bitmap black
-  shadow 0
-  verts 4
-    -1.61 -1.18 -0.78
-    1.61 -1.53 -0.95
-    -0.03 0.04 0.96
-    0.57 1.54 -0.67
-  faces 2
-    0 1 2 1 0 0 0 1
-    0 2 3 1 0 0 0 1
-endnode
-node trimesh shadow225
-  parent wsf02_m66_02
-  position -4.7 0.79 1.53
-  orientation 0 0 0 0
-  wirecolor 0.337255 0.337255 0.337255
-  tilefade 0
-  scale 1
-  render 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 0 0 0
-  diffuse 0 0 0
-  specular 0 0 0
-  shininess 1
-  center 0.5 0 0
-  bitmap black
-  shadow 0
-  verts 7
-    -0.11 -2.12 -1.58
-    -0.3 -0.23 1.58
-    1.76 0.21 0.77
-    -1.75 -0.55 0.33
-    0.11 -1.51 0.68
-    0.71 2.12 0.64
-    -1.15 0.95 -1.3
-  faces 7
-    0 2 4 1 0 0 0 1
-    1 2 5 1 0 0 0 1
-    0 4 3 1 0 0 0 1
-    4 1 3 1 0 0 0 1
-    3 1 6 1 0 0 0 1
-    6 1 5 1 0 0 0 1
-    2 1 4 1 0 0 0 1
-endnode
-node trimesh shadow226
-  parent wsf02_m66_02
-  position -3.19 1.14 1.08
-  orientation 0 0 0 0
-  wirecolor 0.337255 0.337255 0.337255
-  tilefade 0
-  scale 1
-  render 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 0 0 0
-  diffuse 0 0 0
-  specular 0 0 0
-  shininess 1
-  center 0 0.5 0
-  bitmap black
-  shadow 0
-  verts 5
-    0.25 -0.14 1.22
-    -0.13 2.48 -0.93
-    1.62 1.66 -1.07
-    1.24 -0.14 -1.22
-    -1.62 -2.47 -1.13
-  faces 3
-    0 2 1 1 0 0 0 1
-    0 3 2 1 0 0 0 1
-    4 3 0 1 0 0 0 1
-endnode
-node trimesh shadow228
-  parent wsf02_m66_02
-  position -4.4 2.52 1.22
-  orientation 0 0 0 0
-  wirecolor 0.337255 0.337255 0.337255
-  tilefade 0
-  scale 1
-  render 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1
-  transparencyhint 0
-  selfillumcolor 0 0 0
-  ambient 0 0 0
-  diffuse 0 0 0
-  specular 0 0 0
-  shininess 1
-  center 0.5 0 0.5
-  bitmap black
-  shadow 0
-  verts 5
-    1.46 -1.52 1.08
-    1.08 1.1 -1.07
-    0.41 0.39 0.95
-    -1.01 1.52 -1.01
-    -1.45 -0.78 -0.99
-  faces 3
-    0 1 2 1 0 0 0 1
-    1 3 2 1 0 0 0 1
-    4 2 3 1 0 0 0 1
+    0.611328 0.980469 0
+    -0.130859 0.988281 0
+    0.324219 0.40625 0
+    -0.0078125 0.3125 0
+    -0.0390625 0.992188 0
+    0.195313 0.533203 0
+    0 0.130859 0
+    0.404297 0.21875 0
+    0.0800781 0.980469 0
+    0.613281 1.00195 0
+    0.777344 0.958984 0
+    0.712891 0.232422 0
+    0.259766 0.917969 0
+    0.501953 0.34375 0
+    0.111328 0.582031 0
+    0.556641 1.14844 0
 endnode
 node light wsf02_m66_02ml1
   parent wsf02_m66_02
@@ -564,7 +434,7 @@ node light wsf02_m66_02ml1
   multiplier 1
   color 1 1 1
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -579,7 +449,7 @@ node light wsf02_m66_02ml2
   multiplier 1
   color 1 1 1
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -641,21 +511,21 @@ node trimesh grass
     8 13 11 -2147483648 8 13 11 1
     8 14 13 -2147483648 8 14 13 1
   tverts 15
-    0.359607 0.809946 0
-    0.000499547 0.000499785 0
-    0.0163303 0.470542 0
-    0.417097 0.000499636 0
-    0.625396 0.000499576 0
-    0.208798 0.000499725 0
-    0.236294 0.469262 0
-    0.479587 0.459016 0
-    0.833695 0.398819 0
-    0.286286 0.999501 0
-    0.254624 0.768962 0
-    0.527859 0.817719 0
-    0.833695 0.000499487 0
-    0.746209 0.830439 0
-    0.999501 0.861177 0
+    0.359375 0.810547 0
+    0 0 0
+    0.015625 0.470703 0
+    0.417969 0 0
+    0.625 0 0
+    0.208984 0 0
+    0.236328 0.46875 0
+    0.480469 0.458984 0
+    0.833984 0.398438 0
+    0.287109 1 0
+    0.253906 0.769531 0
+    0.527344 0.818359 0
+    0.833984 0 0
+    0.746094 0.830078 0
+    1 0.861328 0
 endnode
 endmodelgeom wsf02_m66_02
 donemodel wsf02_m66_02

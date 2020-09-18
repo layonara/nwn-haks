@@ -1,10 +1,10 @@
-# Rewritten by CleanModels 3 Version 3.1.1 Sun Oct 26 02:18:23 2008
+# Rewritten by CleanModels 3 Version 3.5.2d Wed Jun 17 09:39:32 2020
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wsf40_a01_14
-setsupermodel wsf40_a01_14 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wsf40_a01_14 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wsf40_a01_14
 node dummy wsf40_a01_14
@@ -40,10 +40,10 @@ node trimesh 00lore26_14
     3 2 0 1 3 2 0 65536
     0 1 3 1 0 1 3 65536
   tverts 4
-    0.000499517 0.000499755 0
-    0.9995 0.000499517 0
-    0.000499755 0.999501 0
-    0.999501 0.9995 0
+    0 0 0
+    1 0 0
+    0 1 0
+    1 1 0
 endnode
 node aabb 00lorewmesh14_14
   parent wsf40_a01_14
@@ -51,6 +51,8 @@ node aabb 00lorewmesh14_14
   wirecolor 0.878431 0.878431 0.878431
   bitmap NULL
   orientation 0 0 0 0
+  render 0
+  shadow 0
   verts 4
     -5 -5 -0.5
     5 -5 -0.5

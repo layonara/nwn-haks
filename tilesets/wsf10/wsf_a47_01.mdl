@@ -1,10 +1,10 @@
-# Rewritten by CleanModels 3 Version 3.1.1 Sat Oct 25 19:31:52 2008
+# Rewritten by CleanModels 3 Version 3.5.2d Wed Jun 17 06:30:42 2020
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wsf_a47_01
-setsupermodel wsf_a47_01 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wsf_a47_01 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wsf_a47_01
 node dummy wsf_a47_01
@@ -19,7 +19,7 @@ node light wsf_a47_01ml2
   multiplier 1
   color 0.00392157 0.00392157 0.00392157
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -35,7 +35,7 @@ node light wsf_a47_01ml1
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -118,31 +118,31 @@ node trimesh a15_111
     23 18 24 1 23 18 24 0
     19 24 18 1 19 24 18 0
   tverts 25
-    0.000499547 0.25025 0
-    0.000499487 0.000499696 0
-    0.25025 0.25025 0
-    0.25025 0.000499636 0
-    0.5 0.25025 0
-    0.5 0.000499606 0
-    0.74975 0.25025 0
-    0.74975 0.000499547 0
-    0.9995 0.25025 0
-    0.9995 0.000499487 0
-    0.000499606 0.5 0
-    0.25025 0.5 0
+    0 0.25 0
+    0 0 0
+    0.25 0.25 0
+    0.25 0 0
+    0.5 0.25 0
+    0.5 0 0
+    0.75 0.25 0
+    0.75 0 0
+    1 0.25 0
+    1 0 0
+    0 0.5 0
+    0.25 0.5 0
     0.5 0.5 0
-    0.74975 0.5 0
-    0.9995 0.5 0
-    0.000499636 0.74975 0
-    0.25025 0.74975 0
-    0.5 0.74975 0
-    0.74975 0.74975 0
-    0.9995 0.74975 0
-    0.000499696 0.999501 0
-    0.25025 0.9995 0
-    0.5 0.9995 0
-    0.74975 0.9995 0
-    0.999501 0.9995 0
+    0.75 0.5 0
+    1 0.5 0
+    0 0.75 0
+    0.25 0.75 0
+    0.5 0.75 0
+    0.75 0.75 0
+    1 0.75 0
+    0 1 0
+    0.25 1 0
+    0.5 1 0
+    0.75 1 0
+    1 1 0
 endnode
 node aabb plane44
   parent wsf_a47_01
@@ -154,6 +154,8 @@ node aabb plane44
   specular 0 0 0
   shininess 1
   bitmap NULL
+  render 0
+  shadow 0
   verts 13
     -5 0 0
     -5 -5 0

@@ -1,10 +1,10 @@
-# Rewritten by CleanModels 3 Version 3.1.1 Sat Oct 25 21:50:15 2008
+# Rewritten by CleanModels 3 Version 3.5.2d Wed Jun 17 07:43:00 2020
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wsf09_a10_01
-setsupermodel wsf09_a10_01 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wsf09_a10_01 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wsf09_a10_01
 node dummy wsf09_a10_01
@@ -16,6 +16,8 @@ node aabb rectangle136
   bitmap NULL
   orientation 0 0 0 0
   position 0 0 0
+  render 0
+  shadow 0
   verts 4
     5 -5 13
     5 5 13
@@ -58,10 +60,10 @@ node trimesh rectangle132
     0 1 2 1 0 1 2 1
     3 0 2 1 3 0 2 1
   tverts 4
-    0.0530786 0.28592 0
-    0.0530786 0.357275 0
-    0.000499576 0.357275 0
-    0.000499576 0.28592 0
+    0.0527344 0.285156 0
+    0.0527344 0.357422 0
+    0 0.357422 0
+    0 0.285156 0
 endnode
 node trimesh rectangle149
   parent wsf09_a10_01
@@ -93,10 +95,10 @@ node trimesh rectangle149
     0 1 2 1 0 1 2 1
     3 0 2 1 3 0 2 1
   tverts 4
-    0.0530786 0.28592 0
-    0.0530786 0.357275 0
-    0.000499576 0.357275 0
-    0.000499576 0.28592 0
+    0.0527344 0.285156 0
+    0.0527344 0.357422 0
+    0 0.357422 0
+    0 0.285156 0
 endnode
 node trimesh line153
   parent wsf09_a10_01
@@ -138,10 +140,10 @@ node trimesh line153
     6 0 3 2 3 0 0 3
     6 3 7 2 3 0 3 3
   tverts 4
-    0.000499517 0.000499755 0
-    0.9995 0.000499517 0
-    0.999501 0.9995 0
-    0.000499755 0.999501 0
+    0 0 0
+    1 0 0
+    1 1 0
+    0 1 0
 endnode
 endmodelgeom wsf09_a10_01
 donemodel wsf09_a10_01

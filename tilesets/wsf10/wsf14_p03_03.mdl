@@ -1,10 +1,10 @@
-# Rewritten by CleanModels 3 Version 3.1.1 Sun Oct 26 01:41:30 2008
+# Rewritten by CleanModels 3 Version 3.5.2d Wed Jun 17 09:23:21 2020
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wsf14_p03_03
-setsupermodel wsf14_p03_03 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wsf14_p03_03 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wsf14_p03_03
 node dummy wsf14_p03_03
@@ -18,7 +18,7 @@ node light wsf14_p03_03ml1
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -33,7 +33,7 @@ node light wsf14_p03_03ml2
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -70,10 +70,10 @@ node trimesh cobble_03
     0 1 3 1 0 1 3 65536
     3 2 0 1 3 2 0 65536
   tverts 4
-    0.000499636 0.999501 0
-    0.999501 0.9995 0
-    0.000499874 1.9985 0
-    0.999501 1.9985 0
+    0 0 0
+    1 0 0
+    0 0.998047 0
+    1 0.998047 0
 endnode
 node aabb wmesh_03
   parent wsf14_p03_03
@@ -81,6 +81,8 @@ node aabb wmesh_03
   wirecolor 0.337255 0.337255 0.337255
   bitmap NULL
   orientation 0 0 0 0
+  render 0
+  shadow 0
   verts 145
     -5 -5 -0.5
     -4.51 -5 -0.5

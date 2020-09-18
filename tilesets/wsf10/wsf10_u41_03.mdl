@@ -1,10 +1,10 @@
-# Rewritten by CleanModels 3 Version 3.1.1 Sun Oct 26 00:02:42 2008
+# Rewritten by CleanModels 3 Version 3.5.2d Wed Jun 17 08:33:05 2020
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wsf10_u41_03
-setsupermodel wsf10_u41_03 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wsf10_u41_03 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wsf10_u41_03
 node dummy wsf10_u41_03
@@ -18,7 +18,7 @@ node light wsf10_u41_03ml1
   multiplier 1
   color 0.639216 0.639216 0.639216
   ambientonly 0
-  ndynamictype 1
+  nDynamicType 1
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -33,7 +33,7 @@ node light wsf10_u41_03ml2
   multiplier 1
   color 0.639216 0.639216 0.639216
   ambientonly 0
-  ndynamictype 1
+  nDynamicType 1
   affectdynamic 1
   shadow 0
   lightpriority 5
@@ -50,6 +50,8 @@ node aabb wok
   orientation 0 0 0 0
   bitmap NULL
   position 0 0 0
+  render 0
+  shadow 0
   verts 29
     -5 -5 -0.5
     -2.5 -5 -0.5
@@ -176,8 +178,8 @@ node aabb wok
     0.9 -3.35 -0.5 5 -0.49 -0.1 -1
     0.9 -3.35 -0.5 2.6 -0.86 -0.1 24
     2.14 -3.35 -0.5 5 -0.49 -0.1 -1
-    2.14 -3.35 -0.5 4.23 -0.49 -0.1 23
     2.14 -3.35 -0.5 5 -0.49 -0.5 26
+    2.14 -3.35 -0.5 4.23 -0.49 -0.1 23
     2.6 -2.5 -0.5 5 0.98 -0.1 -1
     4.23 -2.5 -0.5 5 0 -0.5 25
     2.6 -0.86 -0.5 4.23 0.98 -0.1 28
@@ -279,31 +281,31 @@ node trimesh object21
     16 24 23 2 16 24 23 1
     23 14 16 2 23 14 16 1
   tverts 25
-    0.000999033 0.000999451 0
-    0.500499 0.000999331 0
-    1 0.000999212 0
-    1.4995 0.000999093 0
-    0.000999153 0.5005 0
-    0.239134 0.5005 0
-    0.801514 0.251837 0
-    1.42675 0.329708 0
-    1.999 0.000998974 0
-    1.999 1.999 0
-    1.999 1.4995 0
-    1.4995 1.73118 0
-    1.4995 1.999 0
-    1.999 0.999999 0
-    1.8249 0.901753 0
-    1.999 0.500499 0
-    1.7121 1.19647 0
-    0.000999212 0.7003 0
-    0.227675 0.703913 0
-    0.725388 0.442511 0
-    1.1798 0.531268 0
-    1.29702 1.62123 0
-    1.2997 1.999 0
-    1.49903 0.828839 0
-    1.50595 1.23334 0
+    -0.998047 -0.998047 0
+    -0.5 -0.998047 0
+    0 -0.998047 0
+    0.5 -0.998047 0
+    -0.998047 -0.5 0
+    -0.761719 -0.5 0
+    -0.199219 -0.748047 0
+    0.425781 -0.669922 0
+    0.998047 -0.998047 0
+    0.998047 0.998047 0
+    0.998047 0.5 0
+    0.5 0.730469 0
+    0.5 0.998047 0
+    0.998047 0 0
+    0.824219 -0.0976563 0
+    0.998047 -0.5 0
+    0.712891 0.197266 0
+    -0.998047 -0.298828 0
+    -0.771484 -0.296875 0
+    -0.275391 -0.556641 0
+    0.179688 -0.46875 0
+    0.296875 0.621094 0
+    0.298828 0.998047 0
+    0.5 -0.171875 0
+    0.505859 0.232422 0
 endnode
 node trimesh cliff
   parent wsf10_u41_03
@@ -351,33 +353,33 @@ node trimesh cliff
     9 4 11 1 9 4 11 2
     4 5 11 1 4 5 11 2
   tverts 16
-    0.9995 0.0913178 0
-    0.890455 0.0913178 0
-    0.434924 0.000499547 0
-    0.774374 0.9995 0
-    0.000499547 0.0913178 0
-    0.259044 0.0913178 0
-    0.950254 0.9995 0
-    0.999501 0.9995 0
-    0.538694 0.9995 0
-    0.000499576 0.9995 0
-    0.489447 0.9995 0
-    0.186933 0.9995 0
-    0.547488 0.000499547 0
-    0.29422 0.9995 0
-    0.153516 0.9995 0
-    0.208038 0.0913178 0
+    1 0.0917969 0
+    0.890625 0.0917969 0
+    0.435547 0 0
+    0.773438 1 0
+    0 0.0917969 0
+    0.259766 0.0917969 0
+    0.951172 1 0
+    1 1 0
+    0.539063 1 0
+    0 1 0
+    0.490234 1 0
+    0.1875 1 0
+    0.546875 0 0
+    0.294922 1 0
+    0.154297 1 0
+    0.208984 0.0917969 0
 endnode
 node trimesh blackbase
   parent wsf10_u41_03
+  diffuse 1 1 1
+  ambient 1 1 1
   position 0 0 -15
   orientation 0 0 0 0
   wirecolor 0.894118 0.839216 0.6
   specular 0 0 0
   shininess 10
-  bitmap wsf01_black01
-  ambient 0 0 0
-  diffuse 0 0 0
+  bitmap tno01_black01
   shadow 0
   verts 25
     -5 -5 0
@@ -472,6 +474,7 @@ node dummy cm3_repair_1
   orientation 0 0 0 0
 endnode
 node trimesh grassrim
+  parent cm3_repair_1
   position 0 0 5
   wirecolor 0.337255 0.337255 0.337255
   tilefade 0
@@ -490,7 +493,6 @@ node trimesh grassrim
   shininess 11
   center -123.5 110.5 25
   bitmap wsf11_stnetile
-  parent cm3_repair_1
   orientation 0 0 0 0
   verts 16
     -5 -1.5 0
@@ -525,24 +527,25 @@ node trimesh grassrim
     3 6 11 0 3 6 11 1
     3 11 15 0 3 11 15 1
   tverts 16
-    0 0.02 0
-    1 0.02 0
-    4 0.02 0
-    6.2 0.02 0
-    12.5 0.02 0
-    14 0.02 0
-    8 0.02 0
-    10 0.02 0
-    14 0.97 0
-    12.5 0.97 0
-    10 0.97 0
-    8 0.97 0
-    1 0.97 0
-    0 0.97 0
-    4 0.97 0
-    6.2 0.97 0
+    -7 0.0195313 0
+    -6 0.0195313 0
+    -3 0.0195313 0
+    -0.800781 0.0195313 0
+    5.5 0.0195313 0
+    7 0.0195313 0
+    1 0.0195313 0
+    3 0.0195313 0
+    7 0.970703 0
+    5.5 0.970703 0
+    3 0.970703 0
+    1 0.970703 0
+    -6 0.970703 0
+    -7 0.970703 0
+    -3 0.970703 0
+    -0.800781 0.970703 0
 endnode
 node trimesh d_patch
+  parent cm3_repair_1
   position 0.562783 -3.673 5.11
   wirecolor 0.87451 0.337255 0.556863
   tilefade 0
@@ -560,8 +563,7 @@ node trimesh d_patch
   specular 0 0 0
   shininess 11
   center 0.5 -0.5 0
-  bitmap wsf01_dirt04
-  parent cm3_repair_1
+  bitmap tno01_dirt04
   orientation 0 0 0 0
   verts 6
     -0.56 -1.33 -0.1
@@ -576,14 +578,15 @@ node trimesh d_patch
     0 1 3 2 0 1 3 21
     3 2 0 2 3 2 0 21
   tverts 6
-    0.911894 0 0
-    1.69408 0 0
-    0.955947 0.5 0
-    1.61821 0.5 0
-    0.924131 0.970631 0
-    1.68429 1 0
+    -0.0878906 0 0
+    0.693359 0 0
+    -0.0449219 0.5 0
+    0.619141 0.5 0
+    -0.0761719 0.970703 0
+    0.683594 1 0
 endnode
 node trimesh moss01
+  parent cm3_repair_1
   position -1.235 1.105 2.75
   wirecolor 0.337255 0.337255 0.337255
   tilefade 0
@@ -602,7 +605,6 @@ node trimesh moss01
   shininess 11
   center -14.5 77.5 -560
   bitmap wsf01_pt_grass01
-  parent cm3_repair_1
   orientation 0 0 0 0
   verts 24
     0.02 -1.9 -0.41
@@ -656,44 +658,45 @@ node trimesh moss01
     8 17 23 1 13 23 34 2
     4 23 17 1 5 35 33 2
   tverts 36
-    1.38444 1.0148 0
-    2.01733 1.27183 0
-    1.53631 1.23346 0
-    1.0384 1.03525 0
-    1.07136 1.08708 0
-    0.78745 0.990526 0
-    0.994938 0.99757 0
-    1.07195 0.886883 0
-    0.70158 1.02525 0
-    1.90079 0.98407 0
-    0.95477 0.43647 0
-    1.28021 0.99619 0
-    0.82673 1.50468 0
-    0.950342 0.421931 0
-    0.544615 0.532587 0
-    1.05982 0.45562 0
-    0.50642 0.976319 0
-    0.9575 1.22275 0
-    1.52805 1.5315 0
-    1.75651 1.50962 0
-    0.47829 0.962703 0
-    0.488934 1.03205 0
-    0.712846 1.02356 0
-    1.00862 0.922954 0
-    0.52167 0.543392 0
-    1.52135 1.00407 0
-    1.52484 0.67327 0
-    1.38154 0.50599 0
-    0.80729 0.400746 0
-    0.54077 0.555655 0
-    1.42212 0.50772 0
-    1.5785 0.7278 0
-    0.7197 0.537246 0
-    0.93709 0.427081 0
-    0.797675 0.994704 0
-    0.78205 0.505651 0
+    0.384766 1.01563 0
+    1.01758 0.271484 0
+    0.537109 0.234375 0
+    0.0390625 1.03516 0
+    1.07227 1.08789 0
+    0.787109 0.990234 0
+    -0.00585938 0.998047 0
+    1.07227 0.886719 0
+    0.701172 1.02539 0
+    0.900391 -0.015625 0
+    -0.0449219 0.435547 0
+    0.279297 -0.00390625 0
+    -0.173828 0.503906 0
+    0.951172 0.421875 0
+    0.544922 0.533203 0
+    0.0605469 0.455078 0
+    0.505859 0.976563 0
+    -0.0429688 0.222656 0
+    0.527344 0.53125 0
+    0.755859 0.509766 0
+    0.478516 0.962891 0
+    0.488281 1.03125 0
+    0.712891 1.02344 0
+    1.00781 0.923828 0
+    0.521484 0.542969 0
+    0.521484 1.00391 0
+    0.525391 0.673828 0
+    0.380859 0.505859 0
+    0.806641 0.400391 0
+    0.541016 0.554688 0
+    0.421875 0.507813 0
+    0.578125 0.728516 0
+    0.71875 0.537109 0
+    0.9375 0.427734 0
+    0.796875 0.994141 0
+    0.78125 0.505859 0
 endnode
 node danglymesh bush36
+  parent cm3_repair_1
   position -2.69901 -2.86044 5.13259
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -716,8 +719,7 @@ node danglymesh bush36
   showdispl true
   displtype 1
   center 0 0 82.5
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   orientation 0 0 0 0
   verts 6
     0 1.29 -0.25
@@ -730,9 +732,9 @@ node danglymesh bush36
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -742,6 +744,7 @@ node danglymesh bush36
     0
 endnode
 node danglymesh bush37
+  parent cm3_repair_1
   position -2.69901 -2.86044 4.95726
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -764,8 +767,7 @@ node danglymesh bush37
   showdispl true
   displtype 1
   center 0 0 100.5
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   orientation 0 0 0 0
   verts 6
     1.12 0.64 -0.07
@@ -778,9 +780,9 @@ node danglymesh bush37
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -790,6 +792,7 @@ node danglymesh bush37
     0
 endnode
 node danglymesh bush38
+  parent cm3_repair_1
   position -2.69901 -2.86044 4.95726
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -812,8 +815,7 @@ node danglymesh bush38
   showdispl true
   displtype 1
   center 0 0 100.5
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   orientation 0 0 0 0
   verts 6
     -1.12 0.64 -0.07
@@ -826,9 +828,9 @@ node danglymesh bush38
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -838,6 +840,7 @@ node danglymesh bush38
     0
 endnode
 node danglymesh bush39
+  parent cm3_repair_1
   position -2.44962 -2.79925 5.16544
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -860,8 +863,7 @@ node danglymesh bush39
   showdispl true
   displtype 1
   center -0.5 -0.5 60
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   orientation 0 0 0 0
   verts 6
     -0.87 0.64 -0.18
@@ -874,9 +876,9 @@ node danglymesh bush39
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -886,6 +888,7 @@ node danglymesh bush39
     0
 endnode
 node danglymesh bush40
+  parent cm3_repair_1
   position -2.62425 -3.10405 5.16544
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -908,8 +911,7 @@ node danglymesh bush40
   showdispl true
   displtype 1
   center -1.50001 -48 60
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   orientation 0 0 0 0
   verts 6
     1.05 0.25 -0.18
@@ -922,9 +924,9 @@ node danglymesh bush40
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -934,6 +936,7 @@ node danglymesh bush40
     0
 endnode
 node danglymesh bush41
+  parent cm3_repair_1
   position -2.95058 -2.8869 5.16544
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -956,8 +959,7 @@ node danglymesh bush41
   showdispl true
   displtype 1
   center -13 -9 60
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   orientation 0 0 0 0
   verts 6
     -0.48 -0.97 -0.18
@@ -970,9 +972,9 @@ node danglymesh bush41
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -982,6 +984,7 @@ node danglymesh bush41
     0
 endnode
 node danglymesh bush42
+  parent cm3_repair_1
   position -3.63758 -3.14113 5.18536
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -1004,8 +1007,7 @@ node danglymesh bush42
   showdispl true
   displtype 1
   center 0 0 99
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   orientation 0 0 0 0
   verts 6
     -0.77 1.34 -0.3
@@ -1018,9 +1020,9 @@ node danglymesh bush42
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -1030,6 +1032,7 @@ node danglymesh bush42
     0
 endnode
 node danglymesh bush43
+  parent cm3_repair_1
   position -3.63758 -3.14113 4.97498
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -1052,8 +1055,7 @@ node danglymesh bush43
   showdispl true
   displtype 1
   center 0 0 120
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   orientation 0 0 0 0
   verts 6
     0.77 1.34 -0.09
@@ -1066,9 +1068,9 @@ node danglymesh bush43
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -1078,6 +1080,7 @@ node danglymesh bush43
     0
 endnode
 node danglymesh bush44
+  parent cm3_repair_1
   position -3.63758 -3.14113 4.97498
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -1100,8 +1103,7 @@ node danglymesh bush44
   showdispl true
   displtype 1
   center 0 0 120
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   orientation 0 0 0 0
   verts 6
     -1.55 0 -0.09
@@ -1114,9 +1116,9 @@ node danglymesh bush44
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -1126,6 +1128,7 @@ node danglymesh bush44
     0
 endnode
 node danglymesh bush45
+  parent cm3_repair_1
   position -3.41512 -2.92791 5.22478
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -1148,8 +1151,7 @@ node danglymesh bush45
   showdispl true
   displtype 1
   center -5 44.5 72
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   orientation 0 0 0 0
   verts 6
     -1.29 0.15 -0.22
@@ -1162,9 +1164,9 @@ node danglymesh bush45
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -1174,6 +1176,7 @@ node danglymesh bush45
     0
 endnode
 node danglymesh bush46
+  parent cm3_repair_1
   position -3.41372 -3.34944 5.22478
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -1196,8 +1199,7 @@ node danglymesh bush46
   showdispl true
   displtype 1
   center -11 -15.5 72
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   orientation 0 0 0 0
   verts 6
     0.94 0.89 -0.22
@@ -1210,9 +1212,9 @@ node danglymesh bush46
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -1222,6 +1224,7 @@ node danglymesh bush46
     0
 endnode
 node danglymesh bush47
+  parent cm3_repair_1
   position -3.88314 -3.31957 5.22478
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -1244,8 +1247,7 @@ node danglymesh bush47
   showdispl true
   displtype 1
   center -58 -2 72
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   orientation 0 0 0 0
   verts 6
     0.08 -1.3 -0.22
@@ -1258,9 +1260,9 @@ node danglymesh bush47
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -1270,6 +1272,7 @@ node danglymesh bush47
     0
 endnode
 node danglymesh bush48
+  parent cm3_repair_1
   position -1.14723 -3.88874 5.04067
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -1292,8 +1295,7 @@ node danglymesh bush48
   showdispl true
   displtype 1
   center 0 0 58
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   orientation 0 0 0 0
   verts 6
     0 0.9 -0.17
@@ -1306,9 +1308,9 @@ node danglymesh bush48
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -1318,6 +1320,7 @@ node danglymesh bush48
     0
 endnode
 node danglymesh bush49
+  parent cm3_repair_1
   position -1.14723 -3.88874 4.91794
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -1340,8 +1343,7 @@ node danglymesh bush49
   showdispl true
   displtype 1
   center 0 0 70.5
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   orientation 0 0 0 0
   verts 6
     0.78 0.45 -0.05
@@ -1354,9 +1356,9 @@ node danglymesh bush49
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -1366,6 +1368,7 @@ node danglymesh bush49
     0
 endnode
 node danglymesh bush50
+  parent cm3_repair_1
   position -1.14723 -3.88874 4.91794
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -1388,8 +1391,7 @@ node danglymesh bush50
   showdispl true
   displtype 1
   center 0 0 70.5
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   orientation 0 0 0 0
   verts 6
     -0.78 0.45 -0.05
@@ -1402,9 +1404,9 @@ node danglymesh bush50
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -1414,6 +1416,7 @@ node danglymesh bush50
     0
 endnode
 node danglymesh bush51
+  parent cm3_repair_1
   position -0.972664 -3.84591 5.06367
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -1436,8 +1439,7 @@ node danglymesh bush51
   showdispl true
   displtype 1
   center -0.499998 -0.499998 42
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   orientation 0 0 0 0
   verts 6
     -0.61 0.45 -0.13
@@ -1450,9 +1452,9 @@ node danglymesh bush51
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -1462,6 +1464,7 @@ node danglymesh bush51
     0
 endnode
 node danglymesh bush52
+  parent cm3_repair_1
   position -1.0949 -4.05927 5.06367
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -1484,8 +1487,7 @@ node danglymesh bush52
   showdispl true
   displtype 1
   center -1 -33.5 42
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   orientation 0 0 0 0
   verts 6
     0.74 0.18 -0.13
@@ -1498,9 +1500,9 @@ node danglymesh bush52
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -1510,6 +1512,7 @@ node danglymesh bush52
     0
 endnode
 node danglymesh bush53
+  parent cm3_repair_1
   position -1.32333 -3.90726 5.06367
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -1532,8 +1535,7 @@ node danglymesh bush53
   showdispl true
   displtype 1
   center -9 -6.5 42
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   orientation 0 0 0 0
   verts 6
     -0.34 -0.68 -0.13
@@ -1546,9 +1548,9 @@ node danglymesh bush53
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -1558,6 +1560,7 @@ node danglymesh bush53
     0
 endnode
 node danglymesh bush54
+  parent cm3_repair_1
   position -1.80423 -4.08522 5.07762
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -1580,8 +1583,7 @@ node danglymesh bush54
   showdispl true
   displtype 1
   center 0 0 69.5
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   orientation 0 0 0 0
   verts 6
     -0.54 0.94 -0.21
@@ -1594,9 +1596,9 @@ node danglymesh bush54
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -1606,6 +1608,7 @@ node danglymesh bush54
     0
 endnode
 node danglymesh bush55
+  parent cm3_repair_1
   position -1.80423 -4.08522 4.93034
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -1628,8 +1631,7 @@ node danglymesh bush55
   showdispl true
   displtype 1
   center 0 0 84.5
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   orientation 0 0 0 0
   verts 6
     0.54 0.94 -0.06
@@ -1642,9 +1644,9 @@ node danglymesh bush55
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -1654,6 +1656,7 @@ node danglymesh bush55
     0
 endnode
 node danglymesh bush56
+  parent cm3_repair_1
   position -1.80423 -4.08522 4.93034
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -1676,8 +1679,7 @@ node danglymesh bush56
   showdispl true
   displtype 1
   center 0 0 84.5
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   orientation 0 0 0 0
   verts 6
     -1.08 0 -0.06
@@ -1690,9 +1692,9 @@ node danglymesh bush56
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -1702,6 +1704,7 @@ node danglymesh bush56
     0
 endnode
 node danglymesh bush57
+  parent cm3_repair_1
   position -1.64851 -3.93597 5.10521
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -1724,8 +1727,7 @@ node danglymesh bush57
   showdispl true
   displtype 1
   center -3.5 31.5 50.5
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   orientation 0 0 0 0
   verts 6
     -0.9 0.1 -0.15
@@ -1738,9 +1740,9 @@ node danglymesh bush57
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -1750,6 +1752,7 @@ node danglymesh bush57
     0
 endnode
 node danglymesh bush58
+  parent cm3_repair_1
   position -1.64753 -4.23104 5.10521
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -1772,8 +1775,7 @@ node danglymesh bush58
   showdispl true
   displtype 1
   center -7.5 -10.5 50.5
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   orientation 0 0 0 0
   verts 6
     0.66 0.63 -0.15
@@ -1786,9 +1788,9 @@ node danglymesh bush58
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -1798,6 +1800,7 @@ node danglymesh bush58
     0
 endnode
 node danglymesh bush59
+  parent cm3_repair_1
   position -1.97612 -4.21013 5.10521
   wirecolor 0.337255 0.694118 0.101961
   tilefade 0
@@ -1820,8 +1823,7 @@ node danglymesh bush59
   showdispl true
   displtype 1
   center -40.5 -1.5 50.5
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   orientation 0 0 0 0
   verts 6
     0.05 -0.91 -0.15
@@ -1834,9 +1836,9 @@ node danglymesh bush59
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -1846,6 +1848,7 @@ node danglymesh bush59
     0
 endnode
 node danglymesh bush84
+  parent cm3_repair_1
   position 2.15736 -2.70939 5.13259
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -1869,8 +1872,7 @@ node danglymesh bush84
   showdispl true
   displtype 1
   center 0 0 82.5
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     0 1.29 -0.25
     0 -1.29 -0.25
@@ -1882,9 +1884,9 @@ node danglymesh bush84
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -1894,6 +1896,7 @@ node danglymesh bush84
     0
 endnode
 node danglymesh bush85
+  parent cm3_repair_1
   position 2.15736 -2.70939 4.95726
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -1917,8 +1920,7 @@ node danglymesh bush85
   showdispl true
   displtype 1
   center 0 0 100.5
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     1.12 0.64 -0.07
     -1.12 -0.64 -0.07
@@ -1930,9 +1932,9 @@ node danglymesh bush85
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -1942,6 +1944,7 @@ node danglymesh bush85
     0
 endnode
 node danglymesh bush86
+  parent cm3_repair_1
   position 2.15736 -2.70939 4.95726
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -1965,8 +1968,7 @@ node danglymesh bush86
   showdispl true
   displtype 1
   center 0 0 100.5
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     -1.12 0.64 -0.07
     1.12 -0.64 -0.07
@@ -1978,9 +1980,9 @@ node danglymesh bush86
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -1990,6 +1992,7 @@ node danglymesh bush86
     0
 endnode
 node danglymesh bush87
+  parent cm3_repair_1
   position 2.30015 -2.92281 5.16544
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -2013,8 +2016,7 @@ node danglymesh bush87
   showdispl true
   displtype 1
   center -0.5 -0.5 60
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     -0.87 0.64 -0.18
     0.64 -0.87 -0.18
@@ -2026,9 +2028,9 @@ node danglymesh bush87
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -2038,6 +2040,7 @@ node danglymesh bush87
     0
 endnode
 node danglymesh bush88
+  parent cm3_repair_1
   position 1.95401 -2.86296 5.16544
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -2061,8 +2064,7 @@ node danglymesh bush88
   showdispl true
   displtype 1
   center -1.50001 -48 60
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     1.05 0.25 -0.18
     -1.08 0.07 -0.18
@@ -2074,9 +2076,9 @@ node danglymesh bush88
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -2086,6 +2088,7 @@ node danglymesh bush88
     0
 endnode
 node danglymesh bush89
+  parent cm3_repair_1
   position 2.04645 -2.48204 5.16544
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -2109,8 +2112,7 @@ node danglymesh bush89
   showdispl true
   displtype 1
   center -13 -9 60
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     -0.48 -0.97 -0.18
     0.74 0.79 -0.18
@@ -2122,9 +2124,9 @@ node danglymesh bush89
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -2134,6 +2136,7 @@ node danglymesh bush89
     0
 endnode
 node danglymesh bush90
+  parent cm3_repair_1
   position 1.57258 -1.92343 5.18536
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -2157,8 +2160,7 @@ node danglymesh bush90
   showdispl true
   displtype 1
   center 0 0 99
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     -0.77 1.34 -0.3
     0.77 -1.34 -0.3
@@ -2170,9 +2172,9 @@ node danglymesh bush90
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -2182,6 +2184,7 @@ node danglymesh bush90
     0
 endnode
 node danglymesh bush91
+  parent cm3_repair_1
   position 1.57258 -1.92343 4.97498
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -2205,8 +2208,7 @@ node danglymesh bush91
   showdispl true
   displtype 1
   center 0 0 120
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     0.77 1.34 -0.09
     -0.77 -1.34 -0.09
@@ -2218,9 +2220,9 @@ node danglymesh bush91
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -2230,6 +2232,7 @@ node danglymesh bush91
     0
 endnode
 node danglymesh bush92
+  parent cm3_repair_1
   position 1.57258 -1.92343 4.97498
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -2253,8 +2256,7 @@ node danglymesh bush92
   showdispl true
   displtype 1
   center 0 0 120
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     -1.55 0 -0.09
     1.55 0 -0.09
@@ -2266,9 +2268,9 @@ node danglymesh bush92
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -2278,6 +2280,7 @@ node danglymesh bush92
     0
 endnode
 node danglymesh bush93
+  parent cm3_repair_1
   position 1.84903 -2.05954 5.22478
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -2301,8 +2304,7 @@ node danglymesh bush93
   showdispl true
   displtype 1
   center -5 44.5 72
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     -1.29 0.15 -0.22
     1.19 -0.52 -0.22
@@ -2314,9 +2316,9 @@ node danglymesh bush93
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -2326,6 +2328,7 @@ node danglymesh bush93
     0
 endnode
 node danglymesh bush94
+  parent cm3_repair_1
   position 1.4534 -2.20503 5.22478
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -2349,8 +2352,7 @@ node danglymesh bush94
   showdispl true
   displtype 1
   center -11 -15.5 72
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     0.94 0.89 -0.22
     -1.16 -0.58 -0.22
@@ -2362,9 +2364,9 @@ node danglymesh bush94
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -2374,6 +2376,7 @@ node danglymesh bush94
     0
 endnode
 node danglymesh bush95
+  parent cm3_repair_1
   position 1.32092 -1.7537 5.22478
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -2397,8 +2400,7 @@ node danglymesh bush95
   showdispl true
   displtype 1
   center -58 -2 72
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     0.08 -1.3 -0.22
     0.3 1.26 -0.22
@@ -2410,9 +2412,9 @@ node danglymesh bush95
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -2422,6 +2424,7 @@ node danglymesh bush95
     0
 endnode
 node danglymesh bush96
+  parent cm3_repair_1
   position 1.72181 -4.51928 5.04067
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -2445,8 +2448,7 @@ node danglymesh bush96
   showdispl true
   displtype 1
   center 0 0 58
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     0 0.9 -0.17
     0 -0.9 -0.17
@@ -2458,9 +2460,9 @@ node danglymesh bush96
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -2470,6 +2472,7 @@ node danglymesh bush96
     0
 endnode
 node danglymesh bush97
+  parent cm3_repair_1
   position 1.72181 -4.51928 4.91794
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -2493,8 +2496,7 @@ node danglymesh bush97
   showdispl true
   displtype 1
   center 0 0 70.5
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     0.78 0.45 -0.05
     -0.78 -0.45 -0.05
@@ -2506,9 +2508,9 @@ node danglymesh bush97
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -2518,6 +2520,7 @@ node danglymesh bush97
     0
 endnode
 node danglymesh bush98
+  parent cm3_repair_1
   position 1.72181 -4.51928 4.91794
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -2541,8 +2544,7 @@ node danglymesh bush98
   showdispl true
   displtype 1
   center 0 0 70.5
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     -0.78 0.45 -0.05
     0.78 -0.45 -0.05
@@ -2554,9 +2556,9 @@ node danglymesh bush98
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -2566,6 +2568,7 @@ node danglymesh bush98
     0
 endnode
 node danglymesh bush99
+  parent cm3_repair_1
   position 1.82176 -4.66867 5.06367
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -2589,8 +2592,7 @@ node danglymesh bush99
   showdispl true
   displtype 1
   center -0.499998 -0.499998 42
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     -0.61 0.45 -0.13
     0.45 -0.61 -0.13
@@ -2602,9 +2604,9 @@ node danglymesh bush99
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -2614,6 +2616,7 @@ node danglymesh bush99
     0
 endnode
 node danglymesh bush100
+  parent cm3_repair_1
   position 1.57947 -4.62678 5.06367
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -2637,8 +2640,7 @@ node danglymesh bush100
   showdispl true
   displtype 1
   center -1 -33.5 42
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     0.74 0.18 -0.13
     -0.76 0.05 -0.13
@@ -2650,9 +2652,9 @@ node danglymesh bush100
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -2662,6 +2664,7 @@ node danglymesh bush100
     0
 endnode
 node danglymesh bush101
+  parent cm3_repair_1
   position 1.64417 -4.36014 5.06367
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -2685,8 +2688,7 @@ node danglymesh bush101
   showdispl true
   displtype 1
   center -9 -6.5 42
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     -0.34 -0.68 -0.13
     0.52 0.55 -0.13
@@ -2698,9 +2700,9 @@ node danglymesh bush101
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -2710,6 +2712,7 @@ node danglymesh bush101
     0
 endnode
 node danglymesh bush102
+  parent cm3_repair_1
   position 1.31247 -3.96911 5.07762
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -2733,8 +2736,7 @@ node danglymesh bush102
   showdispl true
   displtype 1
   center 0 0 69.5
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     -0.54 0.94 -0.21
     0.54 -0.94 -0.21
@@ -2746,9 +2748,9 @@ node danglymesh bush102
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -2758,6 +2760,7 @@ node danglymesh bush102
     0
 endnode
 node danglymesh bush103
+  parent cm3_repair_1
   position 1.31247 -3.96911 4.93034
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -2781,8 +2784,7 @@ node danglymesh bush103
   showdispl true
   displtype 1
   center 0 0 84.5
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     0.54 0.94 -0.06
     -0.54 -0.94 -0.06
@@ -2794,9 +2796,9 @@ node danglymesh bush103
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -2806,6 +2808,7 @@ node danglymesh bush103
     0
 endnode
 node danglymesh bush104
+  parent cm3_repair_1
   position 1.31247 -3.96911 4.93034
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -2829,8 +2832,7 @@ node danglymesh bush104
   showdispl true
   displtype 1
   center 0 0 84.5
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     -1.08 0 -0.06
     1.08 0 -0.06
@@ -2842,9 +2844,9 @@ node danglymesh bush104
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -2854,6 +2856,7 @@ node danglymesh bush104
     0
 endnode
 node danglymesh bush105
+  parent cm3_repair_1
   position 1.50598 -4.06438 5.10521
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -2877,8 +2880,7 @@ node danglymesh bush105
   showdispl true
   displtype 1
   center -3.5 31.5 50.5
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     -0.9 0.1 -0.15
     0.83 -0.36 -0.15
@@ -2890,9 +2892,9 @@ node danglymesh bush105
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -2902,6 +2904,7 @@ node danglymesh bush105
     0
 endnode
 node danglymesh bush106
+  parent cm3_repair_1
   position 1.22904 -4.16623 5.10521
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -2925,8 +2928,7 @@ node danglymesh bush106
   showdispl true
   displtype 1
   center -7.5 -10.5 50.5
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     0.66 0.63 -0.15
     -0.81 -0.41 -0.15
@@ -2938,9 +2940,9 @@ node danglymesh bush106
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -2950,6 +2952,7 @@ node danglymesh bush106
     0
 endnode
 node danglymesh bush107
+  parent cm3_repair_1
   position 1.1363 -3.8503 5.10521
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -2973,8 +2976,7 @@ node danglymesh bush107
   showdispl true
   displtype 1
   center -40.5 -1.5 50.5
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     0.05 -0.91 -0.15
     0.21 0.88 -0.15
@@ -2986,9 +2988,9 @@ node danglymesh bush107
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -2998,6 +3000,7 @@ node danglymesh bush107
     0
 endnode
 node danglymesh bush108
+  parent cm3_repair_1
   position 3.58608 3.46889 5.13259
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -3021,8 +3024,7 @@ node danglymesh bush108
   showdispl true
   displtype 1
   center 0 0 82.5
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     0 1.29 -0.25
     0 -1.29 -0.25
@@ -3034,9 +3036,9 @@ node danglymesh bush108
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -3046,6 +3048,7 @@ node danglymesh bush108
     0
 endnode
 node danglymesh bush109
+  parent cm3_repair_1
   position 3.58608 3.46889 4.95726
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -3069,8 +3072,7 @@ node danglymesh bush109
   showdispl true
   displtype 1
   center 0 0 100.5
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     1.12 0.64 -0.07
     -1.12 -0.64 -0.07
@@ -3082,9 +3084,9 @@ node danglymesh bush109
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -3094,6 +3096,7 @@ node danglymesh bush109
     0
 endnode
 node danglymesh bush110
+  parent cm3_repair_1
   position 3.58608 3.46889 4.95726
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -3117,8 +3120,7 @@ node danglymesh bush110
   showdispl true
   displtype 1
   center 0 0 100.5
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     -1.12 0.64 -0.07
     1.12 -0.64 -0.07
@@ -3130,9 +3132,9 @@ node danglymesh bush110
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -3142,6 +3144,7 @@ node danglymesh bush110
     0
 endnode
 node danglymesh bush111
+  parent cm3_repair_1
   position 3.72887 3.25547 5.16544
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -3165,8 +3168,7 @@ node danglymesh bush111
   showdispl true
   displtype 1
   center -0.5 -0.5 60
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     -0.87 0.64 -0.18
     0.64 -0.87 -0.18
@@ -3178,9 +3180,9 @@ node danglymesh bush111
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -3190,6 +3192,7 @@ node danglymesh bush111
     0
 endnode
 node danglymesh bush112
+  parent cm3_repair_1
   position 3.38272 3.31532 5.16544
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -3213,8 +3216,7 @@ node danglymesh bush112
   showdispl true
   displtype 1
   center -1.50001 -48 60
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     1.05 0.25 -0.18
     -1.08 0.07 -0.18
@@ -3226,9 +3228,9 @@ node danglymesh bush112
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -3238,6 +3240,7 @@ node danglymesh bush112
     0
 endnode
 node danglymesh bush113
+  parent cm3_repair_1
   position 3.47516 3.69624 5.16544
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -3261,8 +3264,7 @@ node danglymesh bush113
   showdispl true
   displtype 1
   center -13 -9 60
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     -0.48 -0.97 -0.18
     0.74 0.79 -0.18
@@ -3274,9 +3276,9 @@ node danglymesh bush113
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -3286,6 +3288,7 @@ node danglymesh bush113
     0
 endnode
 node danglymesh bush114
+  parent cm3_repair_1
   position 3.0013 4.25485 5.18536
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -3309,8 +3312,7 @@ node danglymesh bush114
   showdispl true
   displtype 1
   center 0 0 99
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     -0.77 1.34 -0.3
     0.77 -1.34 -0.3
@@ -3322,9 +3324,9 @@ node danglymesh bush114
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -3334,6 +3336,7 @@ node danglymesh bush114
     0
 endnode
 node danglymesh bush115
+  parent cm3_repair_1
   position 3.0013 4.25485 4.97498
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -3357,8 +3360,7 @@ node danglymesh bush115
   showdispl true
   displtype 1
   center 0 0 120
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     0.77 1.34 -0.09
     -0.77 -1.34 -0.09
@@ -3370,9 +3372,9 @@ node danglymesh bush115
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -3382,6 +3384,7 @@ node danglymesh bush115
     0
 endnode
 node danglymesh bush116
+  parent cm3_repair_1
   position 3.0013 4.25485 4.97498
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -3405,8 +3408,7 @@ node danglymesh bush116
   showdispl true
   displtype 1
   center 0 0 120
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     -1.55 0 -0.09
     1.55 0 -0.09
@@ -3418,9 +3420,9 @@ node danglymesh bush116
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -3430,6 +3432,7 @@ node danglymesh bush116
     0
 endnode
 node danglymesh bush117
+  parent cm3_repair_1
   position 3.27775 4.11874 5.22478
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -3453,8 +3456,7 @@ node danglymesh bush117
   showdispl true
   displtype 1
   center -5 44.5 72
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     -1.29 0.15 -0.22
     1.19 -0.52 -0.22
@@ -3466,9 +3468,9 @@ node danglymesh bush117
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -3478,6 +3480,7 @@ node danglymesh bush117
     0
 endnode
 node danglymesh bush118
+  parent cm3_repair_1
   position 2.88212 3.97325 5.22478
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -3501,8 +3504,7 @@ node danglymesh bush118
   showdispl true
   displtype 1
   center -11 -15.5 72
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     0.94 0.89 -0.22
     -1.16 -0.58 -0.22
@@ -3514,9 +3516,9 @@ node danglymesh bush118
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -3526,6 +3528,7 @@ node danglymesh bush118
     0
 endnode
 node danglymesh bush119
+  parent cm3_repair_1
   position 2.74963 4.42458 5.22478
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -3549,8 +3552,7 @@ node danglymesh bush119
   showdispl true
   displtype 1
   center -58 -2 72
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     0.08 -1.3 -0.22
     0.3 1.26 -0.22
@@ -3562,9 +3564,9 @@ node danglymesh bush119
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -3574,6 +3576,7 @@ node danglymesh bush119
     0
 endnode
 node danglymesh bush120
+  parent cm3_repair_1
   position 3.15052 1.659 5.04067
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -3597,8 +3600,7 @@ node danglymesh bush120
   showdispl true
   displtype 1
   center 0 0 58
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     0 0.9 -0.17
     0 -0.9 -0.17
@@ -3610,9 +3612,9 @@ node danglymesh bush120
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -3622,6 +3624,7 @@ node danglymesh bush120
     0
 endnode
 node danglymesh bush121
+  parent cm3_repair_1
   position 3.15052 1.659 4.91794
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -3645,8 +3648,7 @@ node danglymesh bush121
   showdispl true
   displtype 1
   center 0 0 70.5
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     0.78 0.45 -0.05
     -0.78 -0.45 -0.05
@@ -3658,9 +3660,9 @@ node danglymesh bush121
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -3670,6 +3672,7 @@ node danglymesh bush121
     0
 endnode
 node danglymesh bush122
+  parent cm3_repair_1
   position 3.15052 1.659 4.91794
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -3693,8 +3696,7 @@ node danglymesh bush122
   showdispl true
   displtype 1
   center 0 0 70.5
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     -0.78 0.45 -0.05
     0.78 -0.45 -0.05
@@ -3706,9 +3708,9 @@ node danglymesh bush122
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -3718,6 +3720,7 @@ node danglymesh bush122
     0
 endnode
 node danglymesh bush123
+  parent cm3_repair_1
   position 3.25048 1.50961 5.06367
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -3741,8 +3744,7 @@ node danglymesh bush123
   showdispl true
   displtype 1
   center -0.499998 -0.499998 42
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     -0.61 0.45 -0.13
     0.45 -0.61 -0.13
@@ -3754,9 +3756,9 @@ node danglymesh bush123
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -3766,6 +3768,7 @@ node danglymesh bush123
     0
 endnode
 node danglymesh bush124
+  parent cm3_repair_1
   position 3.00818 1.5515 5.06367
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -3789,8 +3792,7 @@ node danglymesh bush124
   showdispl true
   displtype 1
   center -1 -33.5 42
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     0.74 0.18 -0.13
     -0.76 0.05 -0.13
@@ -3802,9 +3804,9 @@ node danglymesh bush124
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -3814,6 +3816,7 @@ node danglymesh bush124
     0
 endnode
 node danglymesh bush125
+  parent cm3_repair_1
   position 3.07289 1.81814 5.06367
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -3837,8 +3840,7 @@ node danglymesh bush125
   showdispl true
   displtype 1
   center -9 -6.5 42
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     -0.34 -0.68 -0.13
     0.52 0.55 -0.13
@@ -3850,9 +3852,9 @@ node danglymesh bush125
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -3862,6 +3864,7 @@ node danglymesh bush125
     0
 endnode
 node danglymesh bush126
+  parent cm3_repair_1
   position 2.74119 2.20917 5.07762
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -3885,8 +3888,7 @@ node danglymesh bush126
   showdispl true
   displtype 1
   center 0 0 69.5
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     -0.54 0.94 -0.21
     0.54 -0.94 -0.21
@@ -3898,9 +3900,9 @@ node danglymesh bush126
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -3910,6 +3912,7 @@ node danglymesh bush126
     0
 endnode
 node danglymesh bush127
+  parent cm3_repair_1
   position 2.74119 2.20917 4.93034
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -3933,8 +3936,7 @@ node danglymesh bush127
   showdispl true
   displtype 1
   center 0 0 84.5
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     0.54 0.94 -0.06
     -0.54 -0.94 -0.06
@@ -3946,9 +3948,9 @@ node danglymesh bush127
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -3958,6 +3960,7 @@ node danglymesh bush127
     0
 endnode
 node danglymesh bush128
+  parent cm3_repair_1
   position 2.74119 2.20917 4.93034
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -3981,8 +3984,7 @@ node danglymesh bush128
   showdispl true
   displtype 1
   center 0 0 84.5
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     -1.08 0 -0.06
     1.08 0 -0.06
@@ -3994,9 +3996,9 @@ node danglymesh bush128
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -4006,6 +4008,7 @@ node danglymesh bush128
     0
 endnode
 node danglymesh bush129
+  parent cm3_repair_1
   position 2.9347 2.11389 5.10521
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -4029,8 +4032,7 @@ node danglymesh bush129
   showdispl true
   displtype 1
   center -3.5 31.5 50.5
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     -0.9 0.1 -0.15
     0.83 -0.36 -0.15
@@ -4042,9 +4044,9 @@ node danglymesh bush129
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -4054,6 +4056,7 @@ node danglymesh bush129
     0
 endnode
 node danglymesh bush130
+  parent cm3_repair_1
   position 2.65775 2.01205 5.10521
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -4077,8 +4080,7 @@ node danglymesh bush130
   showdispl true
   displtype 1
   center -7.5 -10.5 50.5
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     0.66 0.63 -0.15
     -0.81 -0.41 -0.15
@@ -4090,9 +4092,9 @@ node danglymesh bush130
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -4102,6 +4104,7 @@ node danglymesh bush130
     0
 endnode
 node danglymesh bush131
+  parent cm3_repair_1
   position 2.56502 2.32798 5.10521
   orientation 0 0 1 -1.22173
   wirecolor 0.337255 0.694118 0.101961
@@ -4125,8 +4128,7 @@ node danglymesh bush131
   showdispl true
   displtype 1
   center -40.5 -1.5 50.5
-  bitmap wsf01_bush03
-  parent cm3_repair_1
+  bitmap tno01_bush03
   verts 6
     0.05 -0.91 -0.15
     0.21 0.88 -0.15
@@ -4138,9 +4140,9 @@ node danglymesh bush131
     1 2 0 1 1 2 0 1
     4 3 5 1 2 1 0 1
   tverts 3
-    0.014554 0.000111094 0
-    0.985428 0.000111094 0
-    0.499078 0.970985 0
+    0.0136719 0 0
+    0.986328 0 0
+    0.5 0.970703 0
   constraints 6
     0
     0
@@ -4191,16 +4193,16 @@ node trimesh cliff_1
     4 5 8 1 4 5 8 3
     6 8 7 1 6 8 7 3
   tverts 10
-    0.4 0 0
+    -0.599609 0 0
+    -1 0 0
+    -1 1 0
+    -0.800781 1 0
     0 0 0
     0 1 0
-    0.2 1 0
-    1 0 0
+    0.599609 0 0
     1 1 0
-    1.6 0 0
-    2 1 0
-    1.7 1 0
-    2 0 0
+    0.699219 1 0
+    1 0 0
 endnode
 node trimesh cliff_2
   parent wsf10_u41_03
@@ -4304,39 +4306,39 @@ node trimesh cliff_2
     31 19 30 1 31 19 30 1
     20 29 32 1 20 29 32 1
   tverts 33
-    0 1 0
-    0.192681 1 0
-    0.6 1 0
-    0.257296 0.9 0
-    0 0.9 0
-    0.6 0.9 0
-    0 0.636364 0
-    0.3 0.7 0
-    0.6 0.7 0
-    0.9 1 0
-    0.9 0.9 0
-    0.9 0.7 0
-    1 0 0
-    1.8 1 0
-    2 1 0
-    1.2 1 0
-    1.8 0.9 0
-    2 0.9 0
-    1.2096 0.9 0
-    1.72345 0.636364 0
-    2 0.636364 0
-    1.23114 0.781818 0
-    1.5 0.8 0
-    1.5 0.9 0
-    1.5 1 0
-    0.1 0 0
+    -1 1 0
+    -0.806641 1 0
+    -0.400391 1 0
+    -0.742188 0.900391 0
+    -1 0.900391 0
+    -0.400391 0.900391 0
+    -1 0.636719 0
+    -0.699219 0.699219 0
+    -0.400391 0.699219 0
+    -0.0996094 1 0
+    -0.0996094 0.900391 0
+    -0.0996094 0.699219 0
     0 0 0
-    0.8 0.3 0
-    0.666667 0 0
-    2 0 0
-    1.33333 0 0
-    1.18499 0.289091 0
-    1.66667 0 0
+    0.800781 1 0
+    1 1 0
+    0.199219 1 0
+    0.800781 0.900391 0
+    1 0.900391 0
+    0.208984 0.900391 0
+    0.722656 0.636719 0
+    1 0.636719 0
+    0.230469 0.78125 0
+    0.5 0.800781 0
+    0.5 0.900391 0
+    0.5 1 0
+    -0.900391 0 0
+    -1 0 0
+    -0.199219 0.300781 0
+    -0.333984 0 0
+    1 0 0
+    0.333984 0 0
+    0.185547 0.289063 0
+    0.666016 0 0
 endnode
 endmodelgeom wsf10_u41_03
 donemodel wsf10_u41_03

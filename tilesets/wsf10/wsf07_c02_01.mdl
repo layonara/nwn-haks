@@ -1,10 +1,10 @@
-# Rewritten by CleanModels 3 Version 3.1.1 Sat Oct 25 21:49:05 2008
+# Rewritten by CleanModels 3 Version 3.5.2d Wed Jun 17 07:29:32 2020
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wsf07_c02_01
-setsupermodel wsf07_c02_01 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wsf07_c02_01 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wsf07_c02_01
 node dummy wsf07_c02_01
@@ -18,7 +18,7 @@ node light wsf07_c02_01ml1
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 1
@@ -34,7 +34,7 @@ node light wsf07_c02_01ml2
   multiplier 1
   color 0.0039216 0.0039216 0.0039216
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 1
   shadow 0
   lightpriority 1
@@ -95,24 +95,24 @@ node trimesh plane01
     16 14 17 1 16 14 17 0
     15 17 14 1 15 17 14 0
   tverts 18
-    0.0004995 0.0004998 0
-    0.9995 0.0004995 0
-    0.0004995 0.12545 0
-    0.9995 0.12545 0
-    0.0004995 0.2503 0
-    0.9995 0.2503 0
-    0.0004996 0.37515 0
-    0.9995 0.37515 0
-    0.0004996 0.5 0
-    0.9995 0.5 0
-    0.0004996 0.62485 0
-    0.9995 0.62485 0
-    0.0004997 0.7497 0
-    0.9995 0.7497 0
-    0.0004997 0.87455 0
-    0.999501 0.87455 0
-    0.0004997 0.999501 0
-    0.999501 0.9995 0
+    0 0 0
+    1 0 0
+    0 0.125 0
+    1 0.125 0
+    0 0.25 0
+    1 0.25 0
+    0 0.375 0
+    1 0.375 0
+    0 0.5 0
+    1 0.5 0
+    0 0.625 0
+    1 0.625 0
+    0 0.75 0
+    1 0.75 0
+    0 0.875 0
+    1 0.875 0
+    0 1 0
+    1 1 0
 endnode
 node aabb plane02
   parent wsf07_c02_01
@@ -124,6 +124,8 @@ node aabb plane02
   shininess 1
   bitmap NULL
   position 0 0 0
+  render 0
+  shadow 0
   verts 18
     -5 -5 10
     5 -5 10

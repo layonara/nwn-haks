@@ -1,10 +1,10 @@
-# Rewritten by CleanModels 3 Version 3.1.1 Sat Oct 25 20:32:46 2008
+# Rewritten by CleanModels 3 Version 3.5.2d Tue Jun 16 15:58:36 2020
 #MAXMODEL ASCII
 filedependency Unknown
 newmodel wsf01_s09_01
-setsupermodel wsf01_s09_01 null
-setanimationscale 1
-classification TILE
+  classification TILE
+  setsupermodel wsf01_s09_01 NULL
+  setanimationscale 1
 #MAXGEOM ASCII
 beginmodelgeom wsf01_s09_01
 node dummy wsf01_s09_01
@@ -18,7 +18,7 @@ node light wsf01_s09_01ml2
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 0
   shadow 0
   lightpriority 5
@@ -44,7 +44,7 @@ node trimesh plane08
   specular 0 0 0
   shininess 10
   center 0 0 0
-  bitmap wsf01_flrslabs06
+  bitmap tno01_flrslabs06
   shadow 0
   verts 25
     -5 -5 0
@@ -106,31 +106,31 @@ node trimesh plane08
     23 18 24 1 23 18 24 65536
     19 24 18 1 19 24 18 65536
   tverts 25
-    0.5 0.5 0
-    1.5 0.5 0
+    -1.5 -1.5 0
+    -0.5 -1.5 0
+    0.5 -1.5 0
+    1.5 -1.5 0
+    2.5 -1.5 0
+    -1.5 -0.5 0
+    -0.582031 -0.537109 0
+    0.544922 -0.558594 0
+    1.54492 -0.595703 0
+    2.5 -0.5 0
+    -1.5 0.5 0
+    -0.470703 0.433594 0
+    0.447266 0.441406 0
+    1.4707 0.455078 0
     2.5 0.5 0
-    3.5 0.5 0
-    4.5 0.5 0
-    0.5 1.5 0
-    1.41829 1.46286 0
-    2.54457 1.44057 0
-    3.54457 1.40344 0
-    4.5 1.5 0
+    -1.5 1.5 0
+    -0.544922 1.60352 0
+    0.529297 1.46289 0
+    1.58203 1.44727 0
+    2.5 1.5 0
+    -1.5 2.5 0
+    -0.5 2.5 0
     0.5 2.5 0
-    1.52971 2.43315 0
-    2.448 2.44057 0
-    3.47029 2.45543 0
-    4.5 2.5 0
-    0.5 3.5 0
-    1.45543 3.60399 0
-    2.52971 3.46286 0
-    3.58171 3.448 0
-    4.5 3.5 0
-    0.5 4.5 0
-    1.5 4.5 0
-    2.5 4.5 0
-    3.5 4.5 0
-    4.5 4.5 0
+    1.5 2.5 0
+    2.5 2.5 0
 endnode
 node aabb wok_s09_01
   parent wsf01_s09_01
@@ -138,6 +138,8 @@ node aabb wok_s09_01
   bitmap NULL
   orientation 0 0 0 0
   position 0 0 0
+  render 0
+  shadow 0
   verts 25
     -5 -5 13
     -2.5 -5 13
@@ -269,7 +271,7 @@ node light wsf01_s09_01ml1
   multiplier 1
   color 0 0 0
   ambientonly 0
-  ndynamictype 0
+  nDynamicType 0
   affectdynamic 0
   shadow 0
   lightpriority 5
