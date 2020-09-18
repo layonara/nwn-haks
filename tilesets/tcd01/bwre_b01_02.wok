@@ -1,50 +1,57 @@
-# Exported from NWmax 0.7 at 5/04/2005 9:56:13 PM
-# wok file
-#
-#NWmax WALKMESH  ASCII
+# Rewritten by CleanModels 3 Version 3.5.2d Tue Sep 01 13:33:38 2020
+#MAXWALKMESH  ASCII
 beginwalkmeshgeom bwre_b01_02
-node aabb WOK
+node aabb wok.001
   parent bwre_b01_02
-  position 0.0 0.0 1.8
-  orientation 1.0 0.0 0.0 0.0
-  wirecolor 1.0 1.0 1.0 
-  multimaterial 20
-    Dirt
-    Obscuring
-    Grass
-    Stone
-    Wood
-    Water
-    Nonwalk
-    Transparent
-    Carpet
-    Metal
-    Puddles
-    Swamp
-    Mud
-    Leaves
-    Lava
-    BottomlessPit
-    DeepWater
-    Door
-    Snow
-    Sand
-  ambient 0.0 0.0 0.0 
-  diffuse 0.5 0.5 0.5 
-  specular 0.0 0.0 0.0 
-  shininess 11.0
-  selfillumcolor 0.0 0.0 0.0 
-  bitmap Stone
-  verts 4
-    -5.0 5.0 0.0
-    -5.0 -5.0 0.0
-    5.0 5.0 0.0
-    5.0 -5.0 0.0
-  faces 2
-    0 1 2  1  0 0 0  4
-    3 2 1  1  0 0 0  4
-    aabb         -5.0 -5.0 0.0 5.0 5.0 0.0 -1
-        -5.0 -5.0 0.0 5.0 5.0 0.0 0
-        -5.0 -5.0 0.0 5.0 5.0 0.0 1
+  position 0 0 0
+  bitmap NULL
+  orientation 0 0 0 0
+  render 0
+  shadow 0
+  verts 8
+    -5 5 1.84
+    -5 -5 1.84
+    5 5 1.84
+    5 -5 1.84
+    -5 5 1.89
+    -5 -5 1.89
+    5 5 1.89
+    5 -5 1.89
+  faces 12
+    2 3 1 0 0 0 0 4
+    2 1 0 0 0 0 0 4
+    6 5 7 0 0 0 0 4
+    6 4 5 0 0 0 0 4
+    0 6 2 0 0 0 0 4
+    1 4 0 0 0 0 0 4
+    3 5 1 0 0 0 0 4
+    2 7 3 0 0 0 0 4
+    0 4 6 0 0 0 0 4
+    1 5 4 0 0 0 0 4
+    3 7 5 0 0 0 0 4
+    2 6 7 0 0 0 0 4
+  aabb     -5 -5 1.84 5 5 1.89 -1
+    -5 -5 1.84 5 5 1.89 -1
+    -5 -5 1.84 -5 5 1.89 -1
+    -5 -5 1.84 -5 5 1.89 9
+    -5 -5 1.84 -5 5 1.89 5
+    -5 -5 1.84 5 5 1.89 -1
+    -5 -5 1.84 5 -5 1.89 6
+    -5 -5 1.84 5 5 1.89 -1
+    -5 -5 1.84 5 5 1.89 -1
+    -5 -5 1.84 5 5 1.84 1
+    -5 -5 1.89 5 5 1.89 3
+    -5 5 1.84 5 5 1.89 8
+    -5 -5 1.84 5 5 1.89 -1
+    -5 -5 1.84 5 5 1.89 -1
+    -5 -5 1.84 5 5 1.89 -1
+    -5 -5 1.84 5 -5 1.89 10
+    -5 -5 1.84 5 5 1.89 -1
+    -5 -5 1.84 5 5 1.84 0
+    -5 -5 1.89 5 5 1.89 2
+    -5 5 1.84 5 5 1.89 4
+    5 -5 1.84 5 5 1.89 -1
+    5 -5 1.84 5 5 1.89 7
+    5 -5 1.84 5 5 1.89 11
 endnode
 endwalkmeshgeom bwre_b01_02
