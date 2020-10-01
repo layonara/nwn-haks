@@ -1,0 +1,60 @@
+# Exported from NWgMax Plus v6.11.28 at 9/28/2020 6:34:21 AM
+# pwk file
+#
+#NWgMax Plus PWKMESH  ASCII
+node trimesh psp_a20_wg
+  parent psp_a21_pwk
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.521569 0.431373 0.0313726 
+  multimaterial 30
+    Dirt
+    Obscuring
+    Grass
+    Stone
+    Wood
+    Water
+    Nonwalk
+    Transparent
+    Carpet
+    Metal
+    Puddles
+    Swamp
+    Mud
+    Leaves
+    Lava
+    BottomlessPit
+    DeepWater
+    Door
+    Snow
+    Sand
+    BareBones
+    StoneBridge
+    Temp1
+    Temp2
+    Temp3
+    Temp4
+    Temp5
+    Temp6
+    Temp7
+    Trigger
+  ambient 0.0 0.0 0.0 
+  diffuse 0.705882 0.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 10.0
+  bitmap Nonwalk
+  verts 4
+    -0.623252 -1.51577 0.0
+    0.582192 -1.51577 0.0
+    -0.749243 1.36615 0.0
+    0.549663 1.36615 0.0
+  faces 2
+    2 0 3  1  0 0 0  7
+    1 3 0  1  0 0 0  7
+endnode
+node dummy J10_pwk_use01
+  parent psp_a21_pwk
+  position -1.1 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.835294 0.603922 0.898039 
+endnode
