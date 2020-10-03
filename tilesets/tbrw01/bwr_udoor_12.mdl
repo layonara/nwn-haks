@@ -1,0 +1,58 @@
+# Exported from NWmax 0.8 b47 at 1/14/2006 9:15:55 AM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: bwr_udoor_12
+filedependancy Tents03.max
+newmodel bwr_udoor_12
+setsupermodel bwr_udoor_12 NULL
+classification Door
+#NWmax GEOM  ASCII
+beginmodelgeom bwr_udoor_12
+node dummy bwr_udoor_12
+  parent NULL
+endnode
+node trimesh sam
+  parent bwr_udoor_12
+  position 0.0 6.10352e-007 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.345098 0.560784 0.882353 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 0.5
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 0.384314 0.478431 0.784314 
+  Diffuse 0.384314 0.478431 0.784314 
+  Specular 0.384314 0.478431 0.784314 
+  shininess 1
+  center 1.14441e-005 -6.29425e-005 108.541 
+  bitmap 23 - Default
+  verts 4
+    -0.94 -0.16 -0.03
+    0.94 -0.16 -0.03
+    -0.91 0.16 2.2
+    0.91 0.16 2.2
+  faces 2
+    2 0 3  1  7 5 8  1
+    1 3 0  1  6 8 5  1
+  tverts 11
+    0.0 0.0 0
+    0.5 0.0 0
+    1.0 0.0 0
+    0.0 0.0 0
+    1.0 0.0 0
+    0.0 0.0 0
+    1.0 0.0 0
+    0.0 0.5 0
+    1.0 0.5 0
+    0.0 1.0 0
+    1.0 1.0 0
+endnode
+endmodelgeom bwr_udoor_12
+donemodel bwr_udoor_12
