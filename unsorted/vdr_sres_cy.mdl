@@ -1,18 +1,18 @@
 #MAXMODEL ASCII
-# model: vdr_spellres
-filedependancy vdr_spellres.max
-newmodel vdr_spellres
-setsupermodel vdr_spellres NULL
+# model: vdr_sres_cy
+filedependancy vdr_sres_cy.max
+newmodel vdr_sres_cy
+setsupermodel vdr_sres_cy NULL
 classification effect
 setanimationscale 1
 #MAXGEOM  ASCII
-beginmodelgeom vdr_spellres
-node dummy vdr_spellres
+beginmodelgeom vdr_sres_cy
+node dummy vdr_sres_cy
   parent NULL
   #part-number 0
 endnode
 node emitter dom3
-  parent vdr_spellres
+  parent vdr_sres_cy
   #part-number 1
   p2p 0
   p2p_sel 1
@@ -73,7 +73,7 @@ node emitter dom3
   threshold 0
 endnode
 node emitter dom05
-  parent vdr_spellres
+  parent vdr_sres_cy
   #part-number 2
   p2p 0
   p2p_sel 1
@@ -134,7 +134,7 @@ node emitter dom05
   threshold 0
 endnode
 node emitter dom1
-  parent vdr_spellres
+  parent vdr_sres_cy
   #part-number 3
   p2p 0
   p2p_sel 1
@@ -195,7 +195,7 @@ node emitter dom1
   threshold 0
 endnode
 node emitter dom2
-  parent vdr_spellres
+  parent vdr_sres_cy
   #part-number 4
   p2p 0
   p2p_sel 1
@@ -256,7 +256,7 @@ node emitter dom2
   threshold 0
 endnode
 node emitter dom4
-  parent vdr_spellres
+  parent vdr_sres_cy
   #part-number 5
   p2p 0
   p2p_sel 1
@@ -316,19 +316,19 @@ node emitter dom4
   grav 0
   threshold 0
 endnode
-endmodelgeom vdr_spellres
+endmodelgeom vdr_sres_cy
 
 #MAXANIM ASCII
-newanim impact vdr_spellres
+newanim impact vdr_sres_cy
   length 0.300000012
   transtime 0.25
-  animroot vdr_spellres
-node dummy vdr_spellres
+  animroot vdr_sres_cy
+node dummy vdr_sres_cy
   parent NULL
   #part-number 0
 endnode
 node emitter dom3
-  parent vdr_spellres
+  parent vdr_sres_cy
   #part-number 1
   alphaStartkey 3
     0 -0.400000006
@@ -340,7 +340,7 @@ node emitter dom3
     0.300000012 0.5
 endnode
 node emitter dom05
-  parent vdr_spellres
+  parent vdr_sres_cy
   #part-number 2
   alphaStartkey 3
     0 -0.400000006
@@ -352,7 +352,7 @@ node emitter dom05
     0.300000012 0.5
 endnode
 node emitter dom1
-  parent vdr_spellres
+  parent vdr_sres_cy
   #part-number 3
   alphaStartkey 3
     0 -0.200000003
@@ -364,7 +364,7 @@ node emitter dom1
     0.300000012 0.5
 endnode
 node emitter dom2
-  parent vdr_spellres
+  parent vdr_sres_cy
   #part-number 4
   alphaStartkey 3
     0 -0.200000003
@@ -376,7 +376,7 @@ node emitter dom2
     0.300000012 0.5
 endnode
 node emitter dom4
-  parent vdr_spellres
+  parent vdr_sres_cy
   #part-number 5
   alphaStartkey 3
     0 0
@@ -387,19 +387,19 @@ node emitter dom4
     0.266667008 0.5
     0.300000012 0.5
 endnode
-doneanim impact vdr_spellres
+doneanim impact vdr_sres_cy
 
 #MAXANIM ASCII
-newanim duration vdr_spellres
+newanim duration vdr_sres_cy
   length 1.33333004
   transtime 0.25
-  animroot vdr_spellres
-node dummy vdr_spellres
+  animroot vdr_sres_cy
+node dummy vdr_sres_cy
   parent NULL
   #part-number 0
 endnode
 node emitter dom3
-  parent vdr_spellres
+  parent vdr_sres_cy
   #part-number 1
   alphaStartkey 3
     0 0.5
@@ -411,7 +411,7 @@ node emitter dom3
     1.33333004 0.5
 endnode
 node emitter dom05
-  parent vdr_spellres
+  parent vdr_sres_cy
   #part-number 2
   alphaStartkey 3
     0 0.5
@@ -423,7 +423,7 @@ node emitter dom05
     1.33333004 0.5
 endnode
 node emitter dom1
-  parent vdr_spellres
+  parent vdr_sres_cy
   #part-number 3
   alphaStartkey 3
     0 0.5
@@ -435,7 +435,7 @@ node emitter dom1
     1.33333004 0.5
 endnode
 node emitter dom2
-  parent vdr_spellres
+  parent vdr_sres_cy
   #part-number 4
   alphaStartkey 3
     0 0.5
@@ -447,7 +447,7 @@ node emitter dom2
     1.33333004 0.5
 endnode
 node emitter dom4
-  parent vdr_spellres
+  parent vdr_sres_cy
   #part-number 5
   alphaStartkey 3
     0 0.5
@@ -458,19 +458,19 @@ node emitter dom4
     0.666666985 0.899999976
     1.33333004 0.5
 endnode
-doneanim duration vdr_spellres
+doneanim duration vdr_sres_cy
 
 #MAXANIM ASCII
-newanim cessation vdr_spellres
+newanim cessation vdr_sres_cy
   length 1
   transtime 0.25
-  animroot vdr_spellres
-node dummy vdr_spellres
+  animroot vdr_sres_cy
+node dummy vdr_sres_cy
   parent NULL
   #part-number 0
 endnode
 node emitter dom3
-  parent vdr_spellres
+  parent vdr_sres_cy
   #part-number 1
   alphaStartkey 2
     0 0.5
@@ -480,7 +480,7 @@ node emitter dom3
     0.666666985 -0.5
 endnode
 node emitter dom05
-  parent vdr_spellres
+  parent vdr_sres_cy
   #part-number 2
   alphaStartkey 2
     0 0.5
@@ -490,7 +490,7 @@ node emitter dom05
     0.666666985 -0.5
 endnode
 node emitter dom1
-  parent vdr_spellres
+  parent vdr_sres_cy
   #part-number 3
   alphaStartkey 2
     0 0.5
@@ -500,7 +500,7 @@ node emitter dom1
     0.666666985 -0.5
 endnode
 node emitter dom2
-  parent vdr_spellres
+  parent vdr_sres_cy
   #part-number 4
   alphaStartkey 2
     0 0.5
@@ -510,7 +510,7 @@ node emitter dom2
     0.666666985 -0.5
 endnode
 node emitter dom4
-  parent vdr_spellres
+  parent vdr_sres_cy
   #part-number 5
   alphaStartkey 3
     0 0.5
@@ -521,6 +521,6 @@ node emitter dom4
     0.0333333015 0.5
     0.666666985 -0.100000001
 endnode
-doneanim cessation vdr_spellres
+doneanim cessation vdr_sres_cy
 
-donemodel vdr_spellres
+donemodel vdr_sres_cy
