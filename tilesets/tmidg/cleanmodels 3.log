@@ -1,0 +1,88 @@
+CleanModels 3 Version 3.5.2d Sat Oct 03 21:13:00 2020
+Input Directory: z:/tmp/tmidg
+Files: *.mdl
+Output Directory: z:/tmp/tmidg.out
+Output Model Class: automatic
+Snap: none
+Snap tverts: no
+Shadow: default
+Repivot: none
+Force non-black nodes to ambient/diffuse 1 1 1: no
+Apply Water Fixups: yes
+Water Bitmap Key(s): water
+Dynamic Water: yes
+Set rotatetexture to: 1
+Tile Water Repeat Pattern: no_change
+Tree Foliage: tilefade
+Foliage Bitmap Key(s): trefol
+Splotches: animate
+Splotch Bitmap Key(s): splotch
+Ground rotatetexture to: 1
+Tile Edge Chamfers: no_change
+Tile ground planes: no_change
+Ground Key(s): ground
+Repair aabb overhangs: interior_only
+Change walkmesh materials: from 28 to 1
+Slice: no
+Tile raise/lower: no
+MeshMerge by bitmap: no
+Placeable with transparency: no
+Cull Invisible Meshes: yes
+
+Cannot load edge tiles from 2da file
+
+genfldl.mdl loaded.
+  aabb node plane01 set to render 0
+  aabb node plane01 set to shadow 0
+  unsupported multimaterial deleted in object plane02
+  unused bitmap dirt in aabb plane01 set to NULL
+  vertices welded in [a15_209,line921,line926,plane01]
+  unused tverts in unrendered node plane01 deleted
+  out of range tvert(s) in face(s) of plane01 set to zero
+  unused tverts deleted from [line01,line926,line987]
+  tverts welded in [line921,line922,line926,line987]
+  renormalized tverts in 38 objects
+  re-pivoted walkmesh to model origin
+  aabb data rebuilt
+  Fixes made = 701
+genfldl.mdl written.
+genfldl.wok written
+
+
+mggd.mdl loaded.
+  new dummy node mggda created
+  changed parent of wasser to mggda
+  changed parent of rectangle174 to mggda
+  changed parent of rectangle173 to mggda
+  aabb node plane14 set to render 0
+  aabb node plane14 set to shadow 0
+  unused bitmap dirt in aabb plane14 set to NULL
+  vertices welded in [object19,plane14]
+  unused tverts in unrendered node plane14 deleted
+  out of range tvert(s) in face(s) of plane14 set to zero
+  unused tverts deleted from 6 objects
+  tverts welded in [tboden]
+  renormalized tverts in 14 objects
+  warning - aabb node plane14 has 2 downward-pointing face(s) [21,27] 
+  face 21: [[0,-5,0],[-0.3,-5,-1],[-2.707375476580401,-4.996336806095135,0]]
+  face 27: [[5,0.3,-1],[5,0,0],[4.999496438888325,1.9323087351815913,0]]
+  aabb data rebuilt
+  Fixes made = 826
+mggd.mdl written.
+mggd.wok written
+
+
+ttr02_f05_02.mdl loaded.
+  aabb node plane46 set to render 0
+  aabb node plane46 set to shadow 0
+  renormalized tverts in [object21,object22,plane45,plane47]
+  re-pivoted walkmesh to model origin
+  1 edges of aabb node plane46 snapped to tile
+  aabb data rebuilt
+  warning - model ttr02_f05_02 contains data that will be ignored by the NWN engine [lensflares] 
+  Fixes made = 42
+ttr02_f05_02.mdl written.
+ttr02_f05_02.wok written
+
+
+Total Fixes = 1569

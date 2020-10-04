@@ -1,0 +1,252 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sat Oct 03 21:00:26 2020
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel ttr01_neusl1
+  classification TILE
+  setsupermodel ttr01_neusl1 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ttr01_neusl1
+node dummy ttr01_neusl1
+  parent NULL
+endnode
+node trimesh object55
+  parent ttr01_neusl1
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 0.776471 0.776471 0.776471
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  center undefined
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  selfillumcolor 0 0 0
+  bitmap ttr01_grass02
+  verts 10
+    5 5 0
+    2.5 5 0
+    0 5 0
+    -2.5 5 0
+    -5 5 0
+    5 2.5 0
+    2.5 2.11 0
+    -0.19 1.83 0
+    -2.5 1.8 0
+    -5 2.5 0
+  faces 8
+    5 0 6 1 5 0 6 65536
+    1 6 0 1 1 6 0 65536
+    6 1 7 1 6 1 7 65536
+    2 7 1 1 2 7 1 65536
+    7 2 8 1 7 2 8 65536
+    3 8 2 1 3 8 2 65536
+    8 3 9 1 8 3 9 65536
+    4 9 3 1 4 9 3 65536
+  tverts 10
+    0.000999093 0.000500202 0
+    0.500499 0.000500023 0
+    1 0.000499845 0
+    1.4995 0.000499636 0
+    1.999 0.000499457 0
+    0.000999212 0.781552 0
+    0.5005 0.902142 0
+    1.03789 0.991682 0
+    1.4995 0.9995 0
+    1.999 0.781551 0
+endnode
+node trimesh object56
+  parent ttr01_neusl1
+  position 0 1.9 -0.03
+  orientation 0 0 0 0
+  wirecolor 0.341176 0.341176 0.341176
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 1
+  center undefined
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  selfillumcolor 0 0 0
+  bitmap ttr01_grassrim01
+  verts 10
+    2.50414 0.21414 0.03
+    -0.18586 -0.06586 0.03
+    -0.18586 -0.58586 -0.03
+    2.50414 -0.27586 0.01
+    -2.49586 -0.09586 0.03
+    -2.49586 -0.60586 -0.01
+    -4.99586 0.60414 0.03
+    -4.99586 0.10414 -0.03
+    5.00414 0.60414 0.03
+    5.00414 0.10414 -0.03
+  faces 8
+    0 1 2 1 0 1 2 65536
+    0 2 3 1 0 2 3 65536
+    1 4 5 1 1 4 5 65536
+    1 5 2 1 1 5 2 65536
+    4 6 7 1 4 6 7 65536
+    4 7 5 1 4 7 5 65536
+    8 0 3 1 8 10 11 65536
+    8 3 9 1 8 11 9 65536
+  tverts 12
+    1.94908 0.05 0
+    0.91512 0.05 0
+    0.91512 0.45 0
+    1.94908 0.45 0
+    -0.172237 0.05 0
+    -0.172237 0.45 0
+    -0.996503 0.05 0
+    -0.996503 0.45 0
+    0.94785 0.05 0
+    0.94785 0.45 0
+    -0.15301 0.05 0
+    -0.15301 0.45 0
+endnode
+node trimesh object57
+  parent ttr01_neusl1
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 0.776471 0.776471 0.776471
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  center undefined
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  selfillumcolor 0 0 0
+  bitmap ttr01_rock00
+  verts 20
+    5 2.5 0
+    2.5 2.11 0
+    -0.19 1.83 0
+    -2.5 1.8 0
+    -5 2.5 0
+    5 0 -0.5
+    2.5 0.2 -0.52
+    0 -0.42 -0.77
+    -2.5 -0.45 -0.8
+    -5 0 -0.8
+    5 -2.5 -0.85
+    2.63 -2.67 -1
+    0 -2.86 -1.23
+    -2.5 -3.35 -1.35
+    -5 -2.5 -1.2
+    5 -5 -0.8
+    2.5 -5 -1.09
+    0 -5 -2
+    -2.5 -5 -2
+    -5 -5 -2
+  faces 24
+    5 0 6 1 5 0 6 1
+    1 6 0 1 1 6 0 1
+    6 1 7 1 6 1 7 1
+    2 7 1 1 2 7 1 1
+    7 2 8 1 7 2 8 1
+    3 8 2 1 3 8 2 1
+    8 3 9 1 8 3 9 1
+    4 9 3 1 4 9 3 1
+    10 5 11 1 10 5 11 1
+    6 11 5 1 6 11 5 1
+    11 6 12 1 11 6 12 1
+    7 12 6 1 7 12 6 1
+    12 7 13 1 12 7 13 1
+    8 13 7 1 8 13 7 1
+    13 8 14 1 13 8 14 1
+    9 14 8 1 9 14 8 1
+    15 10 16 1 15 10 16 1
+    11 16 10 1 11 16 10 1
+    16 11 17 1 16 11 17 1
+    12 17 11 1 12 17 11 1
+    17 12 18 1 17 12 18 1
+    13 18 12 1 13 18 12 1
+    18 13 19 1 18 13 19 1
+    14 19 13 1 14 19 13 1
+  tverts 20
+    0.000999093 0.000999749 0
+    0.500499 0.103827 0
+    1.03789 0.180178 0
+    1.4995 0.186843 0
+    1.999 0.000999153 0
+    0.000999212 0.667 0
+    0.5005 0.61268 0
+    1 0.779198 0
+    1.4995 0.788015 0
+    1.999 0.666999 0
+    0.000999331 1.333 0
+    0.474544 1.37731 0
+    1 1.42946 0
+    1.4995 1.55859 0
+    1.999 1.333 0
+    0.000999451 1.999 0
+    0.5005 1.999 0
+    1 1.999 0
+    1.4995 1.999 0
+    1.999 1.999 0
+endnode
+node dummy ttr01_neusl1a
+  parent ttr01_neusl1
+  wirecolor 1 0 0
+  orientation 0 0 0 0
+  position 0 0 0
+endnode
+node trimesh plane434
+  parent ttr01_neusl1a
+  position 0 0 -1
+  orientation 0 0 0 0
+  wirecolor 0.878431 0.878431 0.878431
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 1
+  alpha 1
+  transparencyhint 1
+  center undefined
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 2
+  selfillumcolor 0 0 0
+  bitmap ttr01_water01
+  verts 4
+    -5 5 0
+    -5 -5 0
+    5 5 0
+    5 -5 0
+  faces 2
+    0 1 2 1 0 1 2 65536
+    3 2 1 1 3 2 1 65536
+  tverts 4
+    -0.99996 1.9994 0
+    -0.99996 -1.0006 0
+    2.00007 1.9994 0
+    2.00007 -1.0006 0
+endnode
+endmodelgeom ttr01_neusl1
+donemodel ttr01_neusl1

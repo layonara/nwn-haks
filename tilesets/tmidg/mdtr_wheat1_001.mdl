@@ -1,0 +1,1863 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sat Oct 03 21:00:03 2020
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel mdtr_wheat1_001
+  classification TILE
+  setsupermodel mdtr_wheat1_001 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom mdtr_wheat1_001
+node dummy mdtr_wheat1_001
+  parent NULL
+endnode
+node trimesh plane01
+  parent mdtr_wheat1_001
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 0.894118 0.647059 0.839216
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  center 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 12
+  selfillumcolor 0 0 0
+  bitmap ttr01_wheatbr3
+  verts 4
+    5 -5 0
+    5 5 0
+    -5 -5 0
+    -5 5 0
+  faces 2
+    2 0 3 1 2 0 3 1
+    1 3 0 1 1 3 0 1
+  tverts 4
+    0.998827 0.00394091 0
+    0.997963 0.997022 0
+    0.00203645 0.00297831 0
+    0.00297831 0.999298 0
+endnode
+node aabb walk
+  parent mdtr_wheat1_001
+  bitmap NULL
+  orientation 0 0 0 0
+  position 0 0 0
+  wirecolor 0.439216 0.521569 0.0156863
+  ambient 0.588 0.588 0.588
+  diffuse 0.6 0.34 0.16
+  specular 0 0 0
+  shininess 11
+  selfillumcolor 0 0 0
+  render 0
+  shadow 0
+  verts 9
+    -5 -5 0
+    0 -5 0
+    5 -5 0
+    -5 0 0
+    0 0 0
+    5 0 0
+    -5 5 0
+    0 5 0
+    5 5 0
+  faces 8
+    3 0 4 1 0 0 0 1
+    1 4 0 1 0 0 0 1
+    4 1 5 1 0 0 0 3
+    2 5 1 1 0 0 0 3
+    6 3 7 1 0 0 0 1
+    4 7 3 1 0 0 0 1
+    7 4 8 1 0 0 0 1
+    5 8 4 1 0 0 0 1
+  aabb     -5 -5 0 5 5 0 -1
+    -5 -5 0 0 5 0 -1
+    -5 -5 0 0 0 0 -1
+    -5 -5 0 0 0 0 0
+    -5 -5 0 0 0 0 1
+    -5 0 0 0 5 0 -1
+    -5 0 0 0 5 0 4
+    -5 0 0 0 5 0 5
+    0 -5 0 5 5 0 -1
+    0 -5 0 5 0 0 -1
+    0 -5 0 5 0 0 2
+    0 -5 0 5 0 0 3
+    0 0 0 5 5 0 -1
+    0 0 0 5 5 0 6
+    0 0 0 5 5 0 7
+endnode
+node danglymesh halb1a06
+  parent mdtr_wheat1_001
+  shadow 0
+  position -5.025 -3.064 0
+  orientation 0 0 -1 -1.5708
+  wirecolor 0.839216 0.894118 0.6
+  period 0.4
+  tightness 0.6
+  displacement 0.9
+  showdispl true
+  displtype 1
+  center 9.40002 -750 52.5
+  ambient 0.8 0.8 0.8
+  diffuse 0 0 0
+  specular 0 0 0
+  shininess 12
+  selfillumcolor 0 0 0
+  bitmap wheatmain3
+  verts 5
+    0 -10.01 0
+    0 -10.01 1
+    0.16 -7.51 1.05
+    0.18 -4.99 1.05
+    0 -4.99 0
+  faces 6
+    0 4 2 0 4 0 2 1
+    0 2 1 0 4 2 3 1
+    2 4 3 0 2 0 1 1
+    4 0 2 0 4 0 2 1
+    2 0 1 0 2 0 1 1
+    4 2 3 0 4 2 3 1
+  tverts 5
+    2 0.00738275 0
+    2 0.994463 0
+    0.00277 0.994463 0
+    -1.99446 0.994463 0
+    -1.99446 0.00738275 0
+  constraints 5
+    0
+    0
+    225
+    225
+    0
+endnode
+node danglymesh halb10
+  parent mdtr_wheat1_001
+  shadow 0
+  position -5.025 -1.564 0
+  orientation 0 0 -1 -1.5708
+  wirecolor 0.839216 0.894118 0.6
+  period 0.4
+  tightness 0.6
+  displacement 0.9
+  showdispl true
+  displtype 1
+  center 0.40004 -761 52.5
+  ambient 0.6 0.6 0.6
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  selfillumcolor 0 0 0
+  bitmap wheatmain3
+  verts 5
+    0 -10 0
+    0 -10 1
+    0.04 -7.5 0.9
+    -0.04 -5.23 1.05
+    0 -5.23 0
+  faces 6
+    0 4 3 0 4 0 1 1
+    0 3 2 0 4 1 2 1
+    0 2 1 0 4 2 3 1
+    4 0 3 0 4 0 3 1
+    3 0 2 0 3 0 2 1
+    2 0 1 0 2 0 1 1
+  tverts 5
+    2.45594 0.00716138 0
+    2.45594 0.992839 0
+    0.46072 0.992839 0
+    -1.53451 0.992839 0
+    -1.53451 0.00716138 0
+  constraints 5
+    0
+    0
+    225
+    225
+    0
+endnode
+node danglymesh halb11
+  parent mdtr_wheat1_001
+  shadow 0
+  position -5.025 -2.064 0
+  orientation 0 0 -1 -1.5708
+  wirecolor 0.839216 0.894118 0.6
+  period 0.4
+  tightness 0.6
+  displacement 0.9
+  showdispl true
+  displtype 1
+  center -5.09996 -757.5 55
+  ambient 0.6 0.6 0.6
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  selfillumcolor 0 0 0
+  bitmap wheatmain3
+  verts 5
+    0 -10 0
+    0 -10 1
+    0 -7.5 1.1
+    -0.11 -5.2 1.05
+    0 -5.16 0
+  faces 6
+    0 4 2 0 4 0 2 1
+    0 2 1 0 4 2 3 1
+    2 4 3 0 2 0 1 1
+    4 0 2 0 4 0 2 1
+    2 0 1 0 2 0 1 1
+    4 2 3 0 4 2 3 1
+  tverts 5
+    2 0.00738275 0
+    2 0.994463 0
+    0.00369 0.994463 0
+    -1.99262 0.994463 0
+    -1.99262 0.00738275 0
+  constraints 5
+    0
+    0
+    225
+    225
+    0
+endnode
+node danglymesh halb09
+  parent mdtr_wheat1_001
+  shadow 0
+  position -5.025 -0.564004 0
+  orientation 0 0 -1 -1.5708
+  wirecolor 0.839216 0.894118 0.6
+  period 0.4
+  tightness 0.6
+  displacement 0.9
+  showdispl true
+  displtype 1
+  center 0.40044 -761.5 50
+  ambient 0.6 0.6 0.6
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  selfillumcolor 0 0 0
+  bitmap wheatmain3
+  verts 5
+    0 -10 0
+    0 -10 1
+    0.05 -7.5 1
+    -0.05 -5.24 0.95
+    0 -5.24 0
+  faces 6
+    0 4 2 0 4 0 2 1
+    0 2 1 0 4 2 3 1
+    2 4 3 0 2 0 1 1
+    4 0 2 0 4 0 2 1
+    2 0 1 0 2 0 1 1
+    4 2 3 0 4 2 3 1
+  tverts 5
+    2.36545 0.00553709 0
+    2.36545 0.996309 0
+    0.36822 0.996309 0
+    -1.62901 0.996309 0
+    -1.62901 0.00553709 0
+  constraints 5
+    0
+    0
+    225
+    225
+    0
+endnode
+node danglymesh halb13
+  parent mdtr_wheat1_001
+  shadow 0
+  position -5.025 -4.064 0
+  orientation 0 0 -1 -1.5708
+  wirecolor 0.839216 0.894118 0.6
+  period 0.4
+  tightness 0.6
+  displacement 0.9
+  showdispl true
+  displtype 1
+  center 6.40005 -750 55
+  ambient 0.6 0.6 0.6
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  selfillumcolor 0 0 0
+  bitmap wheatmain3
+  verts 5
+    0 -10.01 0
+    0 -10.01 1
+    0.12 -7.51 0.9
+    0.07 -4.99 1.1
+    0 -4.99 0
+  faces 6
+    0 4 3 0 4 0 1 1
+    0 3 2 0 4 1 2 1
+    0 2 1 0 4 2 3 1
+    4 0 3 0 4 0 3 1
+    3 0 2 0 3 0 2 1
+    2 0 1 0 2 0 1 1
+  tverts 5
+    2 0.00849706 0
+    2 0.995752 0
+    0.00212 0.995752 0
+    -1.99575 0.995752 0
+    -1.99575 0.00849706 0
+  constraints 5
+    0
+    0
+    225
+    225
+    0
+endnode
+node danglymesh halb1a04
+  parent mdtr_wheat1_001
+  shadow 0
+  position -5.025 -1.064 0
+  orientation 0 0 -1 -1.5708
+  wirecolor 0.839216 0.894118 0.6
+  period 0.4
+  tightness 0.6
+  displacement 0.9
+  showdispl true
+  displtype 1
+  center 8.40004 -756.5 55
+  ambient 0.6 0.6 0.6
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  selfillumcolor 0 0 0
+  bitmap wheatmain3
+  verts 5
+    0 -10 0
+    0 -10 1
+    0.05 -7.5 1.1
+    0.16 -5.14 0.95
+    0 -5.14 0
+  faces 6
+    0 4 2 0 4 0 2 1
+    0 2 1 0 4 2 3 1
+    2 4 3 0 2 0 1 1
+    4 0 2 0 4 0 2 1
+    2 0 1 0 2 0 1 1
+    4 2 3 0 4 2 3 1
+  tverts 5
+    2 0.00738281 0
+    2 0.994463 0
+    0.00369 0.994463 0
+    -1.99262 0.994463 0
+    -1.99262 0.00738281 0
+  constraints 5
+    0
+    0
+    225
+    225
+    0
+endnode
+node danglymesh halb2a02
+  parent mdtr_wheat1_001
+  shadow 0
+  position -5.025 -2.564 0
+  orientation 0 0 -1 -1.5708
+  wirecolor 0.839216 0.894118 0.6
+  period 0.4
+  tightness 0.6
+  displacement 0.9
+  showdispl true
+  displtype 1
+  center 2.40002 -755.5 55
+  ambient 0.6 0.6 0.6
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  selfillumcolor 0 0 0
+  bitmap wheatmain3
+  verts 5
+    0 -10 0
+    0 -10 1
+    -0.1 -7.5 0.9
+    0.14 -5.12 1.1
+    0 -5.12 0
+  faces 6
+    0 4 3 0 4 0 1 1
+    0 3 2 0 4 1 2 1
+    0 2 1 0 4 2 3 1
+    4 0 3 0 4 0 3 1
+    3 0 2 0 3 0 2 1
+    2 0 1 0 2 0 1 1
+  tverts 5
+    2.30239 0.00621347 0
+    2.30239 0.993787 0
+    0.30446 0.993787 0
+    -1.69347 0.993787 0
+    -1.69347 0.00621347 0
+  constraints 5
+    0
+    0
+    225
+    225
+    0
+endnode
+node trimesh halm01
+  parent mdtr_wheat1_001
+  position 2.42 0.71 -0.06
+  orientation 0 0 0 0
+  wirecolor 0.223529 0.0313726 0.533333
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  center -0.135944 0.0453407 42.5929
+  ambient 1 1 1
+  diffuse 0 0 0
+  specular 0 0 0
+  shininess 11
+  selfillumcolor 0 0 0
+  bitmap onewheat
+  verts 4
+    0.149049 0.170688 0
+    -0.150951 -0.169312 0
+    0.149049 0.170688 0.86
+    -0.150951 -0.169312 0.86
+  faces 4
+    0 1 3 16 0 1 3 4
+    3 2 0 16 3 2 0 4
+    1 0 2 64 1 0 2 3
+    2 3 1 64 2 3 1 3
+  tverts 4
+    0.0119411 0.0139403 0
+    0.992769 0.00569182 0
+    0.00959178 0.994896 0
+    0.987925 0.990796 0
+endnode
+node trimesh halm
+  parent mdtr_wheat1_001
+  position 2.1 -1.36 0.52
+  orientation 0 0 0 0
+  wirecolor 0.223529 0.0313726 0.533333
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  center 0.0590515 0.0552673 42.6063
+  ambient 1 1 1
+  diffuse 0 0 0
+  specular 0 0 0
+  shininess 11
+  selfillumcolor 0 0 0
+  bitmap onewheat
+  verts 4
+    0.23 0 0
+    -0.22 0 0
+    0.23 0 0.86
+    -0.22 0 0.86
+  faces 4
+    0 1 3 16 0 1 3 4
+    3 2 0 16 3 2 0 4
+    1 0 2 64 1 0 2 3
+    2 3 1 64 2 3 1 3
+  tverts 4
+    0.0119411 0.0139403 0
+    0.992769 0.00569182 0
+    0.00959178 0.994896 0
+    0.987925 0.990796 0
+endnode
+node trimesh halm_grob
+  parent mdtr_wheat1_001
+  position -0.22 4.03 0.02
+  orientation 0 0 0 0
+  wirecolor 1 1 1
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  center -32.9065 -26.3042 78.7222
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  selfillumcolor 0 0 0
+  bitmap ttr01_leaf02
+  verts 9
+    -0.02 0.02 -0.01
+    -0.01 -0.04 -0.01
+    -0.05 -0.06 0.47
+    -0.06 -0.03 0.47
+    -0.02 -0.04 0.48
+    -0.38 -0.31 1.25
+    -0.4 -0.28 1.26
+    -0.35 -0.33 1.26
+    -0.65 -0.55 1.58
+  faces 14
+    0 1 2 1 0 1 2 3
+    0 2 3 1 0 2 3 3
+    1 4 2 1 1 4 2 3
+    1 0 3 1 1 0 3 3
+    1 3 4 1 1 3 4 3
+    3 2 5 1 3 2 5 3
+    3 5 6 1 3 5 6 3
+    2 4 7 1 2 4 7 3
+    2 7 5 1 2 7 5 3
+    4 3 6 1 4 8 9 3
+    4 6 7 1 4 9 7 3
+    6 5 8 1 6 5 10 3
+    5 7 8 1 5 7 10 3
+    7 6 8 1 7 9 10 3
+  tverts 11
+    0.00107657 -0.998501 0
+    0.116792 -0.998501 0
+    0.119477 -0.223331 0
+    -0.00380523 -0.223331 0
+    0.188309 -0.223331 0
+    0.103736 1.22333 0
+    -0.00226858 1.22333 0
+    0.164911 1.22333 0
+    0.296195 -0.223331 0
+    0.297731 1.22333 0
+    0.162896 1.9985 0
+endnode
+node danglymesh bogen03
+  parent mdtr_wheat1_001
+  shadow 0
+  position 3.05095 0.426615 0.512002
+  orientation 0 0 -1 -0.797896
+  wirecolor 0.603922 0.72549 0.898039
+  period 0.4
+  tightness 0.6
+  displacement 0.9
+  showdispl true
+  displtype 1
+  center -16.7361 -15.9797 -0.200241
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  selfillumcolor 0 0 0
+  bitmap wheatmain
+  verts 8
+    0.39 -0.26 0.5
+    -1.39 1.01 0.37
+    -1.38 1.17 -0.5
+    0.17 -0.46 -0.5
+    0.85 -1.49 0.2
+    1.05 -1.47 -0.5
+    -0.52 0.36 -0.5
+    -0.32 0.54 0.5
+  faces 12
+    0 3 6 0 4 3 8 1
+    0 6 7 0 4 10 9 1
+    3 0 6 0 5 0 11 1
+    7 6 0 0 12 11 0 1
+    5 0 4 0 7 4 6 1
+    5 3 0 0 7 3 4 1
+    6 2 7 0 10 1 9 1
+    7 2 1 0 9 1 2 1
+    2 7 1 0 1 9 2 1
+    2 6 7 0 1 10 9 1
+    0 3 5 0 4 3 7 1
+    5 4 0 0 7 6 4 1
+  tverts 13
+    1.40588 0.979907 0
+    2 0.00738272 0
+    2.00489 0.981633 0
+    -0.36757 0.00990978 0
+    -0.36152 0.968694 0
+    1.37032 0.00769019 0
+    -1.78221 0.983983 0
+    -1.78536 0.00738272 0
+    0.96175 0.00557442 0
+    0.98058 0.981633 0
+    0.96001 0.00664642 0
+    0.01951 0.00664642 0
+    0.03659 0.981633 0
+  constraints 8
+    0
+    0
+    0
+    95.167
+    0
+    0
+    96.1182
+    0
+endnode
+node danglymesh halb79
+  parent mdtr_wheat1_001
+  shadow 0
+  position -5.025 -3.564 0
+  orientation 0 0 -1 -1.5708
+  wirecolor 0.109804 0.34902 0.694118
+  period 0.4
+  tightness 0.6
+  displacement 0.9
+  showdispl true
+  displtype 1
+  center -0.0999756 -750 50
+  ambient 0.6 0.6 0.6
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  selfillumcolor 0 0 0
+  bitmap wheatmain3
+  verts 5
+    0 -10.01 0
+    0 -10.01 1
+    0.14 -7.51 0.9
+    -0.15 -4.99 0.95
+    0 -4.99 0
+  faces 6
+    0 4 2 0 4 0 2 1
+    0 2 1 0 4 2 3 1
+    2 4 3 0 2 0 1 1
+    4 0 2 0 4 0 2 1
+    2 0 1 0 2 0 1 1
+    4 2 3 0 4 2 3 1
+  tverts 5
+    2.48357 0.00553715 0
+    2.48357 0.998154 0
+    0.48726 0.998154 0
+    -1.50904 0.998154 0
+    -1.50904 0.00553715 0
+  constraints 5
+    0
+    0
+    225
+    225
+    0
+endnode
+node danglymesh halb01
+  parent mdtr_wheat1_001
+  shadow 0
+  orientation 0 0 0 0
+  position 4.5 5 0
+  wirecolor 0.839216 0.894118 0.6
+  period 0.4
+  tightness 0.6
+  displacement 0.9
+  showdispl true
+  displtype 1
+  center -6 -750 55
+  ambient 0.6 0.6 0.6
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  selfillumcolor 0 0 0
+  bitmap wheatmain3
+  verts 5
+    0 -10 0
+    0 -10 1
+    -0.17 -7.5 1.1
+    0.05 -5 0.9
+    0 -5 0
+  faces 6
+    0 4 2 0 4 0 2 1
+    0 2 1 0 4 2 3 1
+    2 4 3 0 2 0 1 1
+    4 0 2 0 4 0 2 1
+    2 0 1 0 2 0 1 1
+    4 2 3 0 4 2 3 1
+  tverts 5
+    2.299 0.00553709 0
+    2.299 0.996309 0
+    0.30177 0.996309 0
+    -1.69546 0.996309 0
+    -1.69546 0.00553709 0
+  constraints 5
+    0
+    0
+    225
+    225
+    0
+endnode
+node danglymesh halb1a10
+  parent mdtr_wheat1_001
+  shadow 0
+  orientation 0 0 0 0
+  position 1.49999 5 0
+  wirecolor 0.839216 0.894118 0.6
+  period 0.4
+  tightness 0.6
+  displacement 0.9
+  showdispl true
+  displtype 1
+  center 5.50101 -750 50
+  ambient 0.6 0.6 0.6
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  selfillumcolor 0 0 0
+  bitmap wheatmain3
+  verts 5
+    0 -10 0
+    0 -10 1
+    0.18 -7.5 1
+    -0.07 -5 1
+    0 -5 0
+  faces 6
+    0 4 2 0 4 0 2 1
+    0 2 1 0 4 2 3 1
+    2 4 3 0 2 0 1 1
+    4 0 2 0 4 0 2 1
+    2 0 1 0 2 0 1 1
+    4 2 3 0 4 2 3 1
+  tverts 5
+    2 0.00738275 0
+    2 0.994463 0
+    0.00277 0.994463 0
+    -1.99446 0.994463 0
+    -1.99446 0.00738275 0
+  constraints 5
+    0
+    0
+    225
+    225
+    0
+endnode
+node danglymesh halb23
+  parent mdtr_wheat1_001
+  shadow 0
+  orientation 0 0 0 0
+  position 0.499994 5 0
+  wirecolor 0.839216 0.894118 0.6
+  period 0.4
+  tightness 0.6
+  displacement 0.9
+  showdispl true
+  displtype 1
+  center 4.5006 -750 50
+  ambient 0.6 0.6 0.6
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  selfillumcolor 0 0 0
+  bitmap wheatmain3
+  verts 5
+    0 -10 0
+    0 -10 1
+    0.09 -7.4 1
+    0.08 -5 1
+    0 -5 0
+  faces 6
+    0 4 3 0 4 0 1 1
+    0 3 2 0 4 1 2 1
+    0 2 1 0 4 2 3 1
+    4 0 3 0 4 0 3 1
+    3 0 2 0 3 0 2 1
+    2 0 1 0 2 0 1 1
+  tverts 5
+    2 0.00849706 0
+    2 0.995752 0
+    0.00212 0.995752 0
+    -1.99575 0.995752 0
+    -1.99575 0.00849706 0
+  constraints 5
+    0
+    0
+    225
+    225
+    0
+endnode
+node danglymesh halb2a04
+  parent mdtr_wheat1_001
+  shadow 0
+  orientation 0 0 0 0
+  position 1.99999 5 0
+  wirecolor 0.839216 0.894118 0.6
+  period 0.4
+  tightness 0.6
+  displacement 0.9
+  showdispl true
+  displtype 1
+  center 5.50101 -750 50
+  ambient 0.6 0.6 0.6
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  selfillumcolor 0 0 0
+  bitmap wheatmain3
+  verts 5
+    0 -10 0
+    0 -10 1
+    -0.07 -7.5 1
+    0.18 -5 1
+    0 -5 0
+  faces 6
+    0 4 3 0 4 0 1 1
+    0 3 2 0 4 1 2 1
+    0 2 1 0 4 2 3 1
+    4 0 3 0 4 0 3 1
+    3 0 2 0 3 0 2 1
+    2 0 1 0 2 0 1 1
+  tverts 5
+    2.30239 0.00621347 0
+    2.30239 0.993787 0
+    0.30446 0.993787 0
+    -1.69347 0.993787 0
+    -1.69347 0.00621347 0
+  constraints 5
+    0
+    0
+    225
+    225
+    0
+endnode
+node danglymesh halb1a11
+  parent mdtr_wheat1_001
+  shadow 0
+  orientation 0 0 0 0
+  position 3.49999 5 0
+  wirecolor 0.839216 0.894118 0.6
+  period 0.4
+  tightness 0.6
+  displacement 0.9
+  showdispl true
+  displtype 1
+  center 1.00098 -750 52.5
+  ambient 0.6 0.6 0.6
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  selfillumcolor 0 0 0
+  bitmap wheatmain3
+  verts 5
+    0 -10 0
+    0 -10 1
+    0.05 -7.5 1.05
+    -0.03 -5 1.05
+    0 -5 0
+  faces 6
+    0 4 2 0 4 0 2 1
+    0 2 1 0 4 2 3 1
+    2 4 3 0 2 0 1 1
+    4 0 2 0 4 0 2 1
+    2 0 1 0 2 0 1 1
+    4 2 3 0 4 2 3 1
+  tverts 5
+    2 0.00738281 0
+    2 0.994463 0
+    0.00369 0.994463 0
+    -1.99262 0.994463 0
+    -1.99262 0.00738281 0
+  constraints 5
+    0
+    0
+    225
+    225
+    0
+endnode
+node danglymesh halb25
+  parent mdtr_wheat1_001
+  shadow 0
+  orientation 0 0 0 0
+  position 2.99999 5 0
+  wirecolor 0.839216 0.894118 0.6
+  period 0.4
+  tightness 0.6
+  displacement 0.9
+  showdispl true
+  displtype 1
+  center -3.49902 -750 57.5
+  ambient 0.6 0.6 0.6
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  selfillumcolor 0 0 0
+  bitmap wheatmain3
+  verts 5
+    0 -10 0
+    0 -10 1
+    -0.05 -7.5 1
+    -0.07 -5 1.15
+    0 -5 0
+  faces 6
+    0 4 3 0 4 0 1 1
+    0 3 2 0 4 1 2 1
+    0 2 1 0 4 2 3 1
+    4 0 3 0 4 0 3 1
+    3 0 2 0 3 0 2 1
+    2 0 1 0 2 0 1 1
+  tverts 5
+    2.45594 0.00716138 0
+    2.45594 0.992839 0
+    0.46072 0.992839 0
+    -1.53451 0.992839 0
+    -1.53451 0.00716138 0
+  constraints 5
+    0
+    0
+    225
+    225
+    0
+endnode
+node danglymesh halb26
+  parent mdtr_wheat1_001
+  shadow 0
+  orientation 0 0 0 0
+  position 3.99999 5 0
+  wirecolor 0.839216 0.894118 0.6
+  period 0.4
+  tightness 0.6
+  displacement 0.9
+  showdispl true
+  displtype 1
+  center -3.99899 -750 50
+  ambient 0.6 0.6 0.6
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  selfillumcolor 0 0 0
+  bitmap wheatmain3
+  verts 5
+    0 -10 0
+    0 -10 1
+    0.08 -7.5 0.9
+    -0.16 -5 0.9
+    0 -5 0
+  faces 6
+    0 4 2 0 4 0 2 1
+    0 2 1 0 4 2 3 1
+    2 4 3 0 2 0 1 1
+    4 0 2 0 4 0 2 1
+    2 0 1 0 2 0 1 1
+    4 2 3 0 4 2 3 1
+  tverts 5
+    2.36545 0.00553709 0
+    2.36545 0.996309 0
+    0.36822 0.996309 0
+    -1.62901 0.996309 0
+    -1.62901 0.00553709 0
+  constraints 5
+    0
+    0
+    225
+    225
+    0
+endnode
+node danglymesh plane02
+  parent mdtr_wheat1_001
+  orientation 0 0 0 0
+  position 2.5 -2.5 0.8
+  wirecolor 0.337255 0.337255 0.882353
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  period 0.4
+  tightness 0.6
+  displacement 0.9
+  showdispl true
+  displtype 1
+  center -1.52588e-05 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 12
+  selfillumcolor 1 1 1
+  bitmap wheattop
+  verts 16
+    2.5 -2.5 0
+    2.5 -0.83 0
+    2.5 0.83 0
+    2.5 2.5 0
+    0.83 -2.5 0
+    0.83 -0.83 0
+    0.83 0.83 0
+    0.83 2.5 0
+    -0.83 -2.5 0
+    -0.83 -0.83 0
+    -0.83 0.83 0
+    -0.83 2.5 0
+    -2.5 -2.5 0
+    -2.5 -0.83 0
+    -2.5 0.83 0
+    -2.5 2.5 0
+  faces 18
+    4 0 5 1 4 0 5 1
+    1 5 0 1 1 5 0 1
+    5 1 6 1 5 1 6 1
+    2 6 1 1 2 6 1 1
+    6 2 7 1 6 2 7 1
+    3 7 2 1 3 7 2 1
+    8 4 9 1 8 4 9 1
+    5 9 4 1 5 9 4 1
+    9 5 10 1 9 5 10 1
+    6 10 5 1 6 10 5 1
+    10 6 11 1 10 6 11 1
+    7 11 6 1 7 11 6 1
+    12 8 13 1 12 8 13 1
+    9 13 8 1 9 13 8 1
+    13 9 14 1 13 9 14 1
+    10 14 9 1 10 14 9 1
+    14 10 15 1 14 10 15 1
+    11 15 10 1 11 15 10 1
+  tverts 16
+    0 0 0
+    0.171461 0 0
+    0.342922 0 0
+    0.492546 0.000951947 0
+    0 0.17192 0
+    0.171461 0.17192 0
+    0.342922 0.17192 0
+    0.492546 0.172872 0
+    0 0.343841 0
+    0.171461 0.343841 0
+    0.342922 0.343841 0
+    0.492546 0.344792 0
+    0.00284819 0.48904 0
+    0.17241 0.490058 0
+    0.343871 0.490058 0
+    0.490648 0.490058 0
+  constraints 16
+    0
+    0
+    0
+    0
+    0
+    231
+    231
+    231
+    0
+    231
+    231
+    231
+    0
+    231
+    231
+    231
+endnode
+node danglymesh halb14
+  parent mdtr_wheat1_001
+  shadow 0
+  position -5.025 -4.564 0
+  orientation 0 0 -1 -1.5708
+  wirecolor 0.839216 0.894118 0.6
+  period 0.4
+  tightness 0.6
+  displacement 0.9
+  showdispl true
+  displtype 1
+  center 6.40005 -750 56.5
+  ambient 0.6 0.6 0.6
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  selfillumcolor 0 0 0
+  bitmap wheatmain3
+  verts 5
+    0 -10.01 0
+    0 -10.01 1
+    -0.16 -7.51 1.05
+    0.28 -4.99 1.13
+    0 -4.99 0
+  faces 6
+    0 4 2 0 4 0 2 1
+    0 2 1 0 4 2 3 1
+    2 4 3 0 2 0 1 1
+    4 0 2 0 4 0 2 1
+    2 0 1 0 2 0 1 1
+    4 2 3 0 4 2 3 1
+  tverts 5
+    2.299 0.00553709 0
+    2.299 0.996309 0
+    0.30177 0.996309 0
+    -1.69546 0.996309 0
+    -1.69546 0.00553709 0
+  constraints 5
+    0
+    0
+    225
+    225
+    0
+endnode
+node danglymesh aussen
+  parent mdtr_wheat1_001
+  shadow 0
+  orientation 0 0 0 0
+  position 2.5 -2.3 0
+  wirecolor 0.329412 0.109804 0.694118
+  period 0.4
+  tightness 0.6
+  displacement 0.9
+  showdispl true
+  displtype 1
+  center -10 -9.99994 50
+  ambient 0.6 0.6 0.6
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  selfillumcolor 0 0 0
+  bitmap wheatmain
+  verts 32
+    -2.5 2.5 0
+    -1.25 2.5 0
+    0 2.5 0
+    1.25 2.5 0
+    2.5 2.5 0
+    -2.5 2.5 1
+    -1.25 2.5 1
+    0 2.5 1
+    1.25 2.5 1
+    2.5 2.5 1
+    -2.5 2.5 0
+    -1.25 2.5 0
+    0 2.5 0
+    1.25 2.5 0
+    2.5 2.5 0
+    -2.7 -2.7 0
+    -2.7 -1.45 0
+    -2.7 -0.2 0
+    -2.7 1.05 0
+    -2.7 2.3 0
+    -2.7 -2.7 1
+    -2.7 -1.45 1
+    -2.7 -0.2 1
+    -2.7 1.05 1
+    -2.7 2.3 1
+    -2.7 -2.7 0
+    -2.7 -1.45 0
+    -2.7 -0.2 0
+    -2.7 1.05 0
+    -2.7 2.3 0
+    -2.7 2.3 1
+    -2.5 2.5 1
+  faces 36
+    8 9 4 1 7 6 11 6
+    4 3 8 1 11 12 7 6
+    7 8 3 1 8 7 12 6
+    3 2 7 1 12 13 8 6
+    6 7 2 1 9 8 13 6
+    2 1 6 1 13 14 9 6
+    5 6 1 1 15 9 14 6
+    1 0 5 1 14 0 15 6
+    10 11 6 2 17 18 1 1
+    6 5 10 2 1 16 17 1
+    11 12 7 2 18 19 2 1
+    7 6 11 2 2 1 18 1
+    12 13 8 2 19 20 3 1
+    8 7 12 2 3 2 19 1
+    13 14 9 2 20 5 21 1
+    9 8 13 2 21 3 20 1
+    23 24 19 1 1 16 17 3
+    19 18 23 1 17 18 1 3
+    22 23 18 1 2 1 18 3
+    18 17 22 1 18 19 2 3
+    21 22 17 1 3 2 19 3
+    17 16 21 1 19 20 3 3
+    20 21 16 1 21 3 20 3
+    16 15 20 1 20 5 21 3
+    25 26 21 2 11 12 7 1
+    21 20 25 2 7 6 11 1
+    26 27 22 2 12 13 8 1
+    22 21 26 2 8 7 12 1
+    27 28 23 2 13 14 9 1
+    23 22 27 2 9 8 13 1
+    28 29 24 2 14 0 15 1
+    24 23 28 2 15 9 14 1
+    0 19 30 1 22 23 24 1
+    0 30 31 1 22 24 25 1
+    5 24 29 4 27 10 26 1
+    29 10 5 4 26 4 27 1
+  tverts 28
+    2.1 0.000499517 0
+    -0.266666 0.9995 0
+    0.566667 0.9995 0
+    1.4 0.9995 0
+    0.200415 0.00560144 0
+    2.23333 0.000499517 0
+    -1.23333 0.9995 0
+    -0.4 0.9995 0
+    0.433333 0.9995 0
+    1.26667 0.9995 0
+    0.0107366 0.991455 0
+    -1.23333 0.000499517 0
+    -0.4 0.000499517 0
+    0.433333 0.000499517 0
+    1.26667 0.000499517 0
+    2.1 0.9995 0
+    -1.1 0.9995 0
+    -1.1 0.000499517 0
+    -0.266666 0.000499517 0
+    0.566667 0.000499517 0
+    1.4 0.000499517 0
+    2.23333 0.9995 0
+    0.709686 0.00318361 0
+    0.89373 0.00318361 0
+    0.89373 0.994672 0
+    0.709686 0.994672 0
+    0.00885847 0.00560144 0
+    0.202293 0.991455 0
+  constraints 32
+    0
+    0
+    0
+    0
+    0
+    225
+    225
+    225
+    225
+    0
+    0
+    0
+    0
+    0
+    0
+    0
+    0
+    0
+    0
+    0
+    0
+    225
+    225
+    225
+    235
+    0
+    0
+    0
+    0
+    0
+    235
+    225
+endnode
+node danglymesh innen1b01
+  parent mdtr_wheat1_001
+  shadow 0
+  orientation 0 0 0 0
+  position -5 0 0
+  wirecolor 0.686275 0.101961 0.101961
+  period 0.4
+  tightness 0.6
+  displacement 0.9
+  showdispl true
+  displtype 1
+  center 750 -250 50
+  ambient 0.6 0.6 0.6
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  selfillumcolor 0 0 0
+  bitmap wheatmain3
+  verts 10
+    10 0 0
+    10 0 1
+    7.5 0 1
+    5 0 1
+    5 0 0
+    5 -5 0
+    5 -5 1
+    5 -2.5 1
+    5 0 1
+    5 0 0
+  faces 12
+    0 4 2 0 4 0 2 1
+    0 2 1 0 4 2 3 1
+    2 4 3 0 2 0 1 1
+    4 0 2 0 4 0 2 1
+    2 0 1 0 2 0 1 1
+    4 2 3 0 4 2 3 1
+    5 9 7 0 9 5 7 1
+    5 7 6 0 9 7 8 1
+    7 9 8 0 7 5 6 1
+    9 5 7 0 9 5 7 1
+    7 5 6 0 7 5 6 1
+    9 7 8 0 9 7 8 1
+  tverts 10
+    2.36545 0.00553709 0
+    2.36545 0.996309 0
+    0.36822 0.996309 0
+    -1.62901 0.996309 0
+    -1.62901 0.00553709 0
+    2 0.00489473 0
+    2 0.995105 0
+    0.00245 0.995105 0
+    -1.99511 0.995105 0
+    -1.99511 0.00489473 0
+  constraints 10
+    0
+    0
+    225
+    225
+    0
+    0
+    0
+    225
+    225
+    0
+endnode
+node danglymesh halb22
+  parent mdtr_wheat1_001
+  shadow 0
+  orientation 0 0 0 0
+  position 0.999994 5 0
+  wirecolor 0.839216 0.894118 0.6
+  period 0.4
+  tightness 0.6
+  displacement 0.9
+  showdispl true
+  displtype 1
+  center 3.5006 -750 55
+  ambient 0.6 0.6 0.6
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  selfillumcolor 0 0 0
+  bitmap wheatmain3
+  verts 5
+    0 -10 0
+    0 -10 1
+    -0.09 -7.5 1.1
+    0.16 -5 1.1
+    0 -5 0
+  faces 6
+    0 4 2 0 4 0 2 1
+    0 2 1 0 4 2 3 1
+    2 4 3 0 2 0 1 1
+    4 0 2 0 4 0 2 1
+    2 0 1 0 2 0 1 1
+    4 2 3 0 4 2 3 1
+  tverts 5
+    2.48357 0.00553715 0
+    2.48357 0.998154 0
+    0.48726 0.998154 0
+    -1.50904 0.998154 0
+    -1.50904 0.00553715 0
+  constraints 5
+    0
+    0
+    225
+    225
+    0
+endnode
+node danglymesh halb21
+  parent mdtr_wheat1_001
+  shadow 0
+  orientation 0 0 0 0
+  position 2.49999 5 0
+  wirecolor 0.839216 0.894118 0.6
+  period 0.4
+  tightness 0.6
+  displacement 0.9
+  showdispl true
+  displtype 1
+  center -0.499008 -750 55
+  ambient 0.6 0.6 0.6
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  selfillumcolor 0 0 0
+  bitmap wheatmain3
+  verts 5
+    0 -10 0
+    0 -10 1
+    -0.13 -7.5 1.05
+    0.12 -5 1.1
+    0 -5 0
+  faces 6
+    0 4 2 0 4 0 2 1
+    0 2 1 0 4 2 3 1
+    2 4 3 0 2 0 1 1
+    4 0 2 0 4 0 2 1
+    2 0 1 0 2 0 1 1
+    4 2 3 0 4 2 3 1
+  tverts 5
+    2 0.00738275 0
+    2 0.994463 0
+    0.00369 0.994463 0
+    -1.99262 0.994463 0
+    -1.99262 0.00738275 0
+  constraints 5
+    0
+    0
+    225
+    225
+    0
+endnode
+node trimesh bogen04
+  parent mdtr_wheat1_001
+  position 2.32 -3.25 0.51
+  orientation 0 0 0 0
+  wirecolor 0.6 0.894118 0.839216
+  ambient 0.6 0.6 0.6
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  selfillumcolor 0 0 0
+  bitmap wheatmain3
+  verts 21
+    3.22113 -0.442008 -0.51
+    3.22113 -0.442008 0.49
+    1.16113 -1.74201 0.49
+    -2.17887 0.147992 0.49
+    -2.29887 2.52799 0.49
+    -2.29887 2.52799 -0.51
+    3.22113 -0.442008 -0.51
+    -2.29887 2.52799 -0.51
+    3.22113 -0.442008 0.49
+    -2.29887 2.52799 0.49
+    1.14113 -1.73201 -0.51
+    1.14113 -1.73201 -0.51
+    -2.18887 0.157992 -0.51
+    -1.13887 -1.02201 0.51
+    -1.13887 -1.02201 -0.51
+    -1.13887 -1.02201 -0.51
+    -2.48887 1.17799 -0.51
+    -2.48887 1.17799 0.49
+    2.42113 -1.52201 0.51
+    2.42113 -1.52201 -0.51
+    2.42113 -1.52201 -0.51
+  faces 24
+    13 12 3 0 12 9 10 1
+    16 5 4 0 18 0 1 1
+    4 17 16 0 1 17 18 1
+    16 17 9 0 19 20 3 1
+    9 7 16 0 3 4 19 1
+    18 20 10 0 21 24 6 1
+    18 10 2 0 21 6 5 1
+    19 18 2 0 23 22 8 1
+    11 19 2 0 7 23 8 1
+    3 12 16 0 10 9 16 1
+    13 15 12 0 12 15 9 1
+    14 13 12 0 13 14 11 1
+    3 12 13 0 2 11 14 1
+    11 2 13 0 7 8 14 1
+    13 14 11 0 14 13 7 1
+    13 2 10 0 12 5 6 1
+    10 15 13 0 6 15 12 1
+    3 16 17 0 10 18 17 1
+    12 3 16 0 11 2 19 1
+    17 16 3 0 20 19 2 1
+    1 0 18 0 3 4 21 1
+    18 6 8 0 22 0 1 1
+    19 6 18 0 23 0 22 1
+    18 0 20 0 21 4 24 1
+  tverts 25
+    4 0.00738272 0
+    4 0.996309 0
+    -1.59901 0.994584 0
+    -3.99262 0.996309 0
+    -3.99262 0.00738272 0
+    -1.54781 0.987997 0
+    -1.54781 0.00738272 0
+    1.55519 0.00738272 0
+    1.5552 0.987997 0
+    1.63243 0.00990978 0
+    1.63359 0.98337 0
+    -1.62968 0.00769022 0
+    0.2129 0.998659 0
+    -0.20726 0.00738272 0
+    -0.20203 0.99953 0
+    0.21464 0.00738272 0
+    2.96175 0.00557442 0
+    2.97569 0.996309 0
+    2.96001 0.00664642 0
+    -2.98049 0.00664642 0
+    -2.9683 0.996309 0
+    -2.66836 0.994476 0
+    2.67052 0.989658 0
+    2.674 0.00738272 0
+    -2.66662 0.00738272 0
+endnode
+node trimesh bogen02
+  parent mdtr_wheat1_001
+  position 3.43 -2.21 0.51
+  orientation 0 0 0 0
+  wirecolor 0.52549 0.231373 0.0313726
+  ambient 0.6 0.6 0.6
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  selfillumcolor 0 0 0
+  bitmap wheatmain3
+  verts 21
+    -2.86228 -1.50878 -0.51
+    -2.86228 -1.50878 0.49
+    -1.95228 0.751221 0.49
+    1.29772 0.601221 0.49
+    1.38772 -1.52878 0.49
+    1.38772 -1.52878 -0.51
+    -2.86228 -1.50878 -0.51
+    1.38772 -1.52878 -0.51
+    -2.86228 -1.50878 0.49
+    1.38772 -1.52878 0.49
+    -1.92228 0.751221 -0.51
+    -1.92228 0.751221 -0.51
+    1.31772 0.601221 -0.51
+    0.337723 1.51122 0.51
+    0.337723 1.51122 -0.51
+    0.337723 1.51122 -0.51
+    1.81772 -0.368779 -0.51
+    1.81772 -0.368779 0.49
+    -2.85228 -0.168779 0.51
+    -2.85228 -0.168779 -0.51
+    -2.85228 -0.168779 -0.51
+  faces 24
+    13 12 3 0 12 9 10 1
+    16 5 4 0 18 0 1 1
+    4 17 16 0 1 17 18 1
+    16 17 9 0 19 20 3 1
+    9 7 16 0 3 4 19 1
+    18 20 10 0 21 24 6 1
+    18 10 2 0 21 6 5 1
+    19 18 2 0 23 22 8 1
+    11 19 2 0 7 23 8 1
+    3 12 16 0 10 9 16 1
+    13 15 12 0 12 15 9 1
+    14 13 12 0 13 14 11 1
+    3 12 13 0 2 11 14 1
+    11 2 13 0 7 8 14 1
+    13 14 11 0 14 13 7 1
+    13 2 10 0 12 5 6 1
+    10 15 13 0 6 15 12 1
+    3 16 17 0 10 18 17 1
+    12 3 16 0 11 2 19 1
+    17 16 3 0 20 19 2 1
+    1 0 18 0 3 4 21 1
+    18 6 8 0 22 0 1 1
+    19 6 18 0 23 0 22 1
+    18 0 20 0 21 4 24 1
+  tverts 25
+    4 0.00738272 0
+    4 0.996309 0
+    -1.59901 0.994584 0
+    -3.99262 0.996309 0
+    -3.99262 0.00738272 0
+    -1.54781 0.987997 0
+    -1.54781 0.00738272 0
+    1.55519 0.00738272 0
+    1.5552 0.987997 0
+    1.63243 0.00990978 0
+    1.63359 0.98337 0
+    -1.62968 0.00769022 0
+    0.2129 0.998659 0
+    -0.20726 0.00738272 0
+    -0.20203 0.99953 0
+    0.21464 0.00738272 0
+    2.96175 0.00557442 0
+    2.97569 0.996309 0
+    2.96001 0.00664642 0
+    -2.98049 0.00664642 0
+    -2.9683 0.996309 0
+    -2.66836 0.994476 0
+    2.67052 0.989658 0
+    2.674 0.00738272 0
+    -2.66662 0.00738272 0
+endnode
+node trimesh bogen01
+  parent mdtr_wheat1_001
+  position 2.86 -3.18 0.51
+  orientation 0 0 0 0
+  wirecolor 0.568627 0.109804 0.694118
+  ambient 0.6 0.6 0.6
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  selfillumcolor 0 0 0
+  bitmap wheatmain3
+  verts 21
+    -0.828501 3.12286 -0.51
+    -0.828501 3.12286 0.49
+    1.1615 1.73286 0.49
+    0.711499 -2.07714 0.49
+    -1.4485 -3.10714 0.49
+    -1.4485 -3.10714 -0.51
+    -0.828501 3.12286 -0.51
+    -1.4485 -3.10714 -0.51
+    -0.828501 3.12286 0.49
+    -1.4485 -3.10714 0.49
+    1.1615 1.70286 -0.51
+    1.1615 1.70286 -0.51
+    0.711499 -2.08714 -0.51
+    1.3915 -0.667136 0.51
+    1.3915 -0.667136 -0.51
+    1.3915 -0.667136 -0.51
+    -0.128501 -2.76714 -0.51
+    -0.128501 -2.76714 0.49
+    0.461499 2.81286 0.51
+    0.461499 2.81286 -0.51
+    0.461499 2.81286 -0.51
+  faces 24
+    13 12 3 0 12 9 10 1
+    16 5 4 0 18 0 1 1
+    4 17 16 0 1 17 18 1
+    16 17 9 0 19 20 3 1
+    9 7 16 0 3 4 19 1
+    18 20 10 0 21 24 6 1
+    18 10 2 0 21 6 5 1
+    19 18 2 0 23 22 8 1
+    11 19 2 0 7 23 8 1
+    3 12 16 0 10 9 16 1
+    13 15 12 0 12 15 9 1
+    14 13 12 0 13 14 11 1
+    3 12 13 0 2 11 14 1
+    11 2 13 0 7 8 14 1
+    13 14 11 0 14 13 7 1
+    13 2 10 0 12 5 6 1
+    10 15 13 0 6 15 12 1
+    3 16 17 0 10 18 17 1
+    12 3 16 0 11 2 19 1
+    17 16 3 0 20 19 2 1
+    1 0 18 0 3 4 21 1
+    18 6 8 0 22 0 1 1
+    19 6 18 0 23 0 22 1
+    18 0 20 0 21 4 24 1
+  tverts 25
+    4 0.00738272 0
+    4 0.996309 0
+    -1.59901 0.994584 0
+    -3.99262 0.996309 0
+    -3.99262 0.00738272 0
+    -1.54781 0.987997 0
+    -1.54781 0.00738272 0
+    1.55519 0.00738272 0
+    1.5552 0.987997 0
+    1.63243 0.00990978 0
+    1.63359 0.98337 0
+    -1.62968 0.00769022 0
+    0.2129 0.998659 0
+    -0.20726 0.00738272 0
+    -0.20203 0.99953 0
+    0.21464 0.00738272 0
+    2.96175 0.00557442 0
+    2.97569 0.996309 0
+    2.96001 0.00664642 0
+    -2.98049 0.00664642 0
+    -2.9683 0.996309 0
+    -2.66836 0.994476 0
+    2.67052 0.989658 0
+    2.674 0.00738272 0
+    -2.66662 0.00738272 0
+endnode
+node trimesh line29
+  parent mdtr_wheat1_001
+  position -1.16 -2.81 0
+  orientation 0 0 0 0
+  wirecolor 1 1 1
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  center -5.68127 -22.0774 54.4855
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  selfillumcolor 0 0 0
+  bitmap ttr01_leaf02
+  verts 9
+    -0.03 0.01 0
+    0.01 -0.03 0
+    -0.01 -0.05 0.31
+    -0.03 -0.03 0.31
+    0.01 -0.01 0.32
+    -0.07 -0.26 0.84
+    -0.11 -0.24 0.84
+    -0.03 -0.26 0.85
+    -0.12 -0.45 1.09
+  faces 14
+    0 1 2 1 0 1 2 3
+    0 2 3 1 0 2 3 3
+    1 4 2 1 1 4 2 3
+    1 0 3 1 1 0 3 3
+    1 3 4 1 1 3 4 3
+    3 2 5 1 3 2 5 3
+    3 5 6 1 3 5 6 3
+    2 4 7 1 2 4 7 3
+    2 7 5 1 2 7 5 3
+    4 3 6 1 4 8 9 3
+    4 6 7 1 4 9 7 3
+    6 5 8 1 6 5 10 3
+    5 7 8 1 5 7 10 3
+    7 6 8 1 7 9 10 3
+  tverts 11
+    0.00107657 -0.998501 0
+    0.116792 -0.998501 0
+    0.119477 -0.223331 0
+    -0.00380523 -0.223331 0
+    0.188309 -0.223331 0
+    0.103736 1.22333 0
+    -0.00226858 1.22333 0
+    0.164911 1.22333 0
+    0.296195 -0.223331 0
+    0.297731 1.22333 0
+    0.162896 1.9985 0
+endnode
+node trimesh line47
+  parent mdtr_wheat1_001
+  position -0.11 -3.49 0
+  orientation 0 0 0 0
+  wirecolor 1 1 1
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  center 1.32404 -2.56766 9.48551
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  selfillumcolor 0 0 0
+  bitmap ttr01_rock00
+  verts 8
+    0.32 0.03 0
+    0.11 0.22 0
+    0.02 0.06 0.19
+    -0.19 0.18 0
+    -0.15 -0.11 0.17
+    -0.3 -0.15 0
+    0.09 -0.28 0
+    0.02 -0.16 0.18
+  faces 9
+    0 1 2 1 0 1 2 3
+    2 3 4 1 2 3 4 3
+    1 3 2 1 1 3 2 3
+    3 5 4 1 3 5 4 3
+    5 6 7 1 5 6 7 3
+    5 7 4 1 5 7 4 3
+    7 0 2 1 7 0 2 3
+    6 0 7 1 6 0 7 3
+    4 7 2 1 4 7 2 1
+  tverts 8
+    0.251911 0.134858 0
+    0.14886 0.248268 0
+    0.111491 0.151772 0
+    0.00573379 0.219916 0
+    0.025742 0.0549733 0
+    -0.0457917 0.0285358 0
+    0.143135 -0.0494339 0
+    0.10897 0.0206254 0
+endnode
+node trimesh line28
+  parent mdtr_wheat1_001
+  position -1.16 -2.81 0
+  orientation 0 0 0 0
+  wirecolor 1 1 1
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  center -12.1813 13.9226 20.9855
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  selfillumcolor 0 0 0
+  bitmap ttr01_leaf02
+  verts 9
+    0.03 0.03 0
+    -0.03 0.01 0
+    -0.03 0.03 0.15
+    -0.01 0.04 0.16
+    -0.01 0 0.17
+    -0.16 0.17 0.37
+    -0.13 0.2 0.38
+    -0.18 0.15 0.39
+    -0.27 0.28 0.42
+  faces 14
+    0 1 2 1 0 1 2 3
+    0 2 3 1 0 2 3 3
+    1 4 2 1 1 4 2 3
+    1 0 3 1 1 0 3 3
+    1 3 4 1 1 3 4 3
+    3 2 5 1 3 2 5 3
+    3 5 6 1 3 5 6 3
+    2 4 7 1 2 4 7 3
+    2 7 5 1 2 7 5 3
+    4 3 6 1 4 8 9 3
+    4 6 7 1 4 9 7 3
+    6 5 8 1 6 5 10 3
+    5 7 8 1 5 7 10 3
+    7 6 8 1 7 9 10 3
+  tverts 11
+    0.00107657 -0.998501 0
+    0.116792 -0.998501 0
+    0.119477 -0.223331 0
+    -0.00380523 -0.223331 0
+    0.188309 -0.223331 0
+    0.103736 1.22333 0
+    -0.00226858 1.22333 0
+    0.164911 1.22333 0
+    0.296195 -0.223331 0
+    0.297731 1.22333 0
+    0.162896 1.9985 0
+endnode
+node dummy mdtr_wheat1_001a
+  parent mdtr_wheat1_001
+  wirecolor 1 0 0
+  orientation 0 0 0 0
+  position 0 0 0
+endnode
+node trimesh erdfleck
+  parent mdtr_wheat1_001a
+  position -0.3 -3.3 0.01
+  orientation 0 0 0 0
+  wirecolor 1 1 1
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 1
+  center -0.491455 -0.444122 0.293488
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  selfillumcolor 0 0 0
+  bitmap ttr01_splotch01
+  verts 4
+    -0.87 -0.87 0
+    0.86 -0.87 0
+    0.86 0.86 0
+    -0.87 0.86 0
+  faces 2
+    0 1 2 1 0 1 2 1
+    3 0 2 1 3 0 2 1
+  tverts 4
+    0.000124879 0.294811 0
+    0.216325 0.294811 0
+    0.216325 0.481759 0
+    0.000124939 0.481759 0
+endnode
+endmodelgeom mdtr_wheat1_001
+donemodel mdtr_wheat1_001
