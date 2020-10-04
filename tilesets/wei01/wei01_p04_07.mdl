@@ -1,0 +1,566 @@
+# Exported from NWmax 0.8 b60 at 12.04.2006 4:19:31
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: wei01_p04_07
+#local file: Unknown
+filedependancy Unknown
+newmodel wei01_p04_07
+setsupermodel wei01_p04_07 NULL
+classification Tile
+#NWmax GEOM  ASCII
+beginmodelgeom wei01_p04_07
+node dummy wei01_p04_07
+  parent NULL
+endnode
+#Tile trimesh node
+node trimesh black
+  parent wei01_p04_07
+  position 0.0 4.0 3.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.0 0.0 0.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 0.0 0.0 0.0 
+  Diffuse 0.0 0.0 0.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center undefined
+  bitmap NULL
+  verts 4
+    -5.0 -1.0 0.0
+    5.0 -1.0 0.0
+    -5.0 1.0 0.0
+    5.0 1.0 0.0
+  faces 2
+    2 0 3  1  6 4 7  65536
+    1 3 0  1  5 7 4  65536
+  tverts 8
+    0.0 0.0 0
+    1.0 0.0 0
+    0.0 0.0 0
+    1.0 0.0 0
+    0.0 0.0 0
+    1.0 0.0 0
+    0.0 1.0 0
+    1.0 1.0 0
+endnode
+#Tile trimesh node
+node trimesh floor2
+  parent wei01_p04_07
+  position 0.0 0.0 0.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.486275 0.486275 0.486275 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 1
+  center undefined
+  bitmap TTF01_grass01
+  verts 4
+    -5.0 -5.0 0.0
+    5.0 -5.0 0.0
+    -5.0 3.0 0.0
+    5.0 3.0 0.0
+  faces 2
+    1 3 2  0  1 3 2  1
+    1 2 0  0  1 2 0  1
+  tverts 4
+    2.16667 1.83333 0
+    -1.16667 1.83333 0
+    2.16667 -0.833334 0
+    -1.16667 -0.833333 0
+endnode
+#Tile trimesh node
+node trimesh wall
+  parent wei01_p04_07
+  position 0.0 3.0 1.5
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.0 0.0 0.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 1
+  center undefined
+  bitmap wei01_wall01
+  verts 8
+    5.0 0.0 1.5
+    -5.0 0.0 1.5
+    5.0 0.0 0.09
+    -5.0 0.0 0.09
+    -5.0 -0.15 -1.5
+    5.0 -0.15 -1.5
+    5.0 -0.15 0.09
+    -5.0 -0.15 0.09
+  faces 6
+    1 3 2  0  8 9 10  1
+    1 2 0  0  1 11 0  1
+    7 4 5  0  12 4 13  1
+    7 5 6  0  14 5 15  1
+    3 7 6  0  16 7 17  1
+    3 6 2  0  3 6 2  1
+  tverts 18
+    1.99599 1.0 0
+    -1.03431 1.0 0
+    -0.995989 0.46311 0
+    2.03431 0.463109 0
+    -1.03431 0.0 0
+    1.99599 0.0 0
+    -0.995989 0.528327 0
+    2.03431 0.528326 0
+    -1.03431 1.0 0
+    -1.03431 0.530649 0
+    1.99599 0.530649 0
+    1.99599 0.530649 0
+    -1.03431 0.530649 0
+    1.99599 0.0 0
+    -1.03431 0.530649 0
+    1.99599 0.530649 0
+    2.03431 0.463109 0
+    -0.995989 0.528327 0
+endnode
+node light wei01_p04_07ml1
+  parent wei01_p04_07
+  position 3.03521 -2.0 3.0
+  orientation 0.0 0.0 -1.0 -3.14159
+  wirecolor 0.439216 0.439216 0.439216 
+  radius 14.0
+  multiplier 1.0
+  color 0.0 0.0 0.0 
+  ambientonly 0
+  nDynamicType 0
+  affectDynamic 1
+  shadow 0
+  lightpriority 3
+  fadingLight 1
+endnode
+node light wei01_p04_07ml2
+  parent wei01_p04_07
+  position -3.38247 -2.0 3.0
+  orientation 0.0 0.0 -1.0 -3.14159
+  wirecolor 0.87451 0.87451 0.87451 
+  radius 5.0
+  multiplier 1.0
+  color 0.0 0.0 0.0 
+  ambientonly 0
+  nDynamicType 0
+  affectDynamic 1
+  shadow 0
+  lightpriority 3
+  fadingLight 1
+endnode
+node dummy Group01
+  parent wei01_p04_07
+  position 0.134625 2.955 1.5
+  orientation 0.0 0.0 1.0 -3.14159
+  wirecolor 0.603922 0.843137 0.898039 
+endnode
+#Tile trimesh node
+node trimesh NGon17
+  parent wei01_p04_07
+  position -0.77 2.12 3.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 0.0 0.0 0.0 
+  Diffuse 0.0 0.0 0.0 
+  Specular 0.0 0.0 0.0 
+  shininess 26
+  center undefined
+  bitmap TTF01_black
+  verts 8
+    0.62 0.57 0.0
+    0.85 0.41 0.0
+    1.1 0.54 0.0
+    0.49 0.8 0.0
+    0.64 1.04 0.0
+    1.23 0.77 0.0
+    0.88 1.12 0.0
+    1.12 1.01 0.0
+  faces 6
+    0 1 2  1  0 1 2  1
+    3 0 2  1  3 0 2  1
+    4 3 2  1  4 3 2  1
+    4 2 5  1  4 2 5  1
+    6 4 5  1  6 4 5  1
+    7 6 5  1  7 6 5  1
+  tverts 8
+    0.1468 0.8532 0
+    0.000499636 0.5 0
+    0.1468 0.1468 0
+    0.5 0.9995 0
+    0.8532 0.8532 0
+    0.5 0.000499636 0
+    0.9995 0.5 0
+    0.8532 0.1468 0
+endnode
+#Tile trimesh node
+node trimesh Mesh208
+  parent wei01_p04_07
+  position 0.11 2.94 0.34
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.0156863 0.521569 0.227451 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 1
+  center undefined
+  bitmap TTF01_bark02
+  verts 24
+    0.02 0.55 -0.34
+    -0.25 0.27 1.07
+    0.02 0.36 1.07
+    -0.27 0.3 -0.34
+    -0.45 0.02 1.07
+    -0.57 0.02 -0.34
+    -0.27 -0.25 1.07
+    -0.3 -0.47 -0.34
+    -0.02 -0.47 1.07
+    0.11 -0.52 -0.34
+    0.26 -0.28 1.07
+    0.47 -0.4 -0.34
+    0.42 -0.03 1.07
+    0.62 -0.04 -0.34
+    0.28 0.24 1.07
+    0.49 0.36 -0.34
+    0.0 0.3 2.66
+    -0.24 0.22 2.66
+    -0.39 -0.02 2.66
+    -0.26 -0.25 2.66
+    -0.03 -0.41 2.66
+    0.22 -0.28 2.66
+    0.35 -0.05 2.66
+    0.24 0.19 2.66
+  faces 32
+    0 1 2  1  0 1 2  3
+    0 3 1  1  0 3 1  3
+    3 4 1  1  3 4 1  3
+    3 5 4  1  3 5 4  3
+    5 6 4  1  6 7 8  3
+    5 7 6  1  6 9 7  3
+    7 8 6  1  9 10 7  3
+    7 9 8  1  9 11 10  3
+    9 10 8  1  11 12 10  3
+    9 11 10  1  11 13 12  3
+    11 12 10  1  13 14 12  3
+    11 13 12  1  13 15 14  3
+    13 14 12  1  15 16 14  3
+    13 15 14  1  15 17 16  3
+    15 2 14  1  17 2 16  3
+    15 0 2  1  17 0 2  3
+    2 1 16  1  2 1 18  3
+    17 16 1  1  19 18 1  3
+    1 4 17  1  1 4 19  3
+    18 17 4  1  20 19 4  3
+    4 6 18  1  8 7 21  3
+    19 18 6  1  22 21 7  3
+    6 8 19  1  7 10 22  3
+    20 19 8  1  23 22 10  3
+    8 10 20  1  10 12 23  3
+    21 20 10  1  24 23 12  3
+    10 12 22  1  12 14 25  3
+    22 21 10  1  25 24 12  3
+    12 14 22  1  14 16 25  3
+    23 22 14  1  26 25 16  3
+    14 2 23  1  16 2 26  3
+    16 23 2  1  18 26 2  3
+  tverts 27
+    0.75 0.0136162 0
+    0.875 0.354112 0
+    0.75 0.354112 0
+    0.875 0.0136162 0
+    1.0 0.354112 0
+    1.0 0.0136162 0
+    0.0 0.0136162 0
+    0.125 0.354112 0
+    0.0 0.354112 0
+    0.125 0.0136162 0
+    0.25 0.354112 0
+    0.25 0.0136162 0
+    0.375 0.354112 0
+    0.375 0.0136162 0
+    0.5 0.354112 0
+    0.5 0.0136162 0
+    0.625 0.354112 0
+    0.625 0.0136162 0
+    0.75 0.977722 0
+    0.875 0.977722 0
+    1.0 0.977722 0
+    0.0 0.977722 0
+    0.125 0.977722 0
+    0.25 0.977722 0
+    0.375 0.977722 0
+    0.5 0.977722 0
+    0.625 0.977722 0
+endnode
+node dummy Group02
+  parent wei01_p04_07
+  position 5.00997 2.955 1.5
+  orientation 0.0 0.0 1.0 -3.14159
+  wirecolor 0.6 0.894118 0.6 
+endnode
+#Tile trimesh node
+node trimesh Mesh209
+  parent wei01_p04_07
+  position 4.98 2.94 0.34
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.0156863 0.521569 0.227451 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 1
+  center undefined
+  bitmap TTF01_bark02
+  verts 24
+    0.02 0.55 -0.34
+    -0.25 0.27 1.07
+    0.02 0.36 1.07
+    -0.27 0.3 -0.34
+    -0.45 0.02 1.07
+    -0.57 0.02 -0.34
+    -0.27 -0.25 1.07
+    -0.3 -0.47 -0.34
+    -0.02 -0.47 1.07
+    0.11 -0.52 -0.34
+    0.26 -0.28 1.07
+    0.47 -0.4 -0.34
+    0.42 -0.03 1.07
+    0.62 -0.04 -0.34
+    0.28 0.24 1.07
+    0.49 0.36 -0.34
+    0.0 0.3 2.66
+    -0.24 0.22 2.66
+    -0.39 -0.02 2.66
+    -0.26 -0.25 2.66
+    -0.03 -0.41 2.66
+    0.22 -0.28 2.66
+    0.35 -0.05 2.66
+    0.24 0.19 2.66
+  faces 32
+    0 1 2  1  0 1 2  3
+    0 3 1  1  0 3 1  3
+    3 4 1  1  3 4 1  3
+    3 5 4  1  3 5 4  3
+    5 6 4  1  6 7 8  3
+    5 7 6  1  6 9 7  3
+    7 8 6  1  9 10 7  3
+    7 9 8  1  9 11 10  3
+    9 10 8  1  11 12 10  3
+    9 11 10  1  11 13 12  3
+    11 12 10  1  13 14 12  3
+    11 13 12  1  13 15 14  3
+    13 14 12  1  15 16 14  3
+    13 15 14  1  15 17 16  3
+    15 2 14  1  17 2 16  3
+    15 0 2  1  17 0 2  3
+    2 1 16  1  2 1 18  3
+    17 16 1  1  19 18 1  3
+    1 4 17  1  1 4 19  3
+    18 17 4  1  20 19 4  3
+    4 6 18  1  8 7 21  3
+    19 18 6  1  22 21 7  3
+    6 8 19  1  7 10 22  3
+    20 19 8  1  23 22 10  3
+    8 10 20  1  10 12 23  3
+    21 20 10  1  24 23 12  3
+    10 12 22  1  12 14 25  3
+    22 21 10  1  25 24 12  3
+    12 14 22  1  14 16 25  3
+    23 22 14  1  26 25 16  3
+    14 2 23  1  16 2 26  3
+    16 23 2  1  18 26 2  3
+  tverts 27
+    0.75 0.0136162 0
+    0.875 0.354112 0
+    0.75 0.354112 0
+    0.875 0.0136162 0
+    1.0 0.354112 0
+    1.0 0.0136162 0
+    0.0 0.0136162 0
+    0.125 0.354112 0
+    0.0 0.354112 0
+    0.125 0.0136162 0
+    0.25 0.354112 0
+    0.25 0.0136162 0
+    0.375 0.354112 0
+    0.375 0.0136162 0
+    0.5 0.354112 0
+    0.5 0.0136162 0
+    0.625 0.354112 0
+    0.625 0.0136162 0
+    0.75 0.977722 0
+    0.875 0.977722 0
+    1.0 0.977722 0
+    0.0 0.977722 0
+    0.125 0.977722 0
+    0.25 0.977722 0
+    0.375 0.977722 0
+    0.5 0.977722 0
+    0.625 0.977722 0
+endnode
+#Tile trimesh node
+node trimesh NGon18
+  parent wei01_p04_07
+  position 4.1 2.12 3.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 0.0 0.0 0.0 
+  Diffuse 0.0 0.0 0.0 
+  Specular 0.0 0.0 0.0 
+  shininess 26
+  center undefined
+  bitmap TTF01_black
+  verts 8
+    0.62 0.57 0.0
+    0.85 0.41 0.0
+    1.1 0.54 0.0
+    0.49 0.8 0.0
+    0.64 1.04 0.0
+    1.23 0.77 0.0
+    0.88 1.12 0.0
+    1.12 1.01 0.0
+  faces 6
+    0 1 2  1  0 1 2  1
+    3 0 2  1  3 0 2  1
+    4 3 2  1  4 3 2  1
+    4 2 5  1  4 2 5  1
+    6 4 5  1  6 4 5  1
+    7 6 5  1  7 6 5  1
+  tverts 8
+    0.1468 0.8532 0
+    0.000499636 0.5 0
+    0.1468 0.1468 0
+    0.5 0.9995 0
+    0.8532 0.8532 0
+    0.5 0.000499636 0
+    0.9995 0.5 0
+    0.8532 0.1468 0
+endnode
+node aabb Walkmesh
+  parent wei01_p04_07
+  position 0.0 0.0 1.48
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0 1.0 0.0 
+  multimaterial 20
+    Dirt
+    Obscuring
+    Grass
+    Stone
+    Wood
+    Water
+    Nonwalk
+    Transparent
+    Carpet
+    Metal
+    Puddles
+    Swamp
+    Mud
+    Leaves
+    Lava
+    BottomlessPit
+    DeepWater
+    Door
+    Snow
+    Sand
+  ambient 0.588 0.588 0.588 
+  diffuse 0.0 0.501961 0.0 
+  specular 0.0 0.0 0.0 
+  shininess 10.0
+  bitmap Grass
+  verts 8
+    -5.0 -5.0 -1.48
+    5.0 -5.0 -1.48
+    -5.0 2.53 -1.48
+    5.0 2.53 -1.48
+    -5.0 2.53 1.48
+    5.0 2.53 1.48
+    -5.0 5.0 1.48
+    5.0 5.0 1.48
+  faces 6
+    2 0 3  1  0 0 0  3
+    1 3 0  1  0 0 0  3
+    4 2 5  2  0 0 0  2
+    3 5 2  2  0 0 0  2
+    6 4 7  1  0 0 0  7
+    5 7 4  1  0 0 0  7
+    aabb         -5.0 -5.0 -1.48 5.0 5.0 1.48 -1
+        -5.0 -5.0 -1.48 5.0 5.0 1.48 -1
+        -5.0 -5.0 -1.48 5.0 2.53 -1.48 0
+        -5.0 2.53 -1.48 5.0 5.0 1.48 -1
+        -5.0 2.53 -1.48 5.0 2.53 1.48 2
+        -5.0 2.53 1.48 5.0 5.0 1.48 4
+        -5.0 -5.0 -1.48 5.0 5.0 1.48 -1
+        -5.0 -5.0 -1.48 5.0 2.53 -1.48 1
+        -5.0 2.53 -1.48 5.0 5.0 1.48 -1
+        -5.0 2.53 -1.48 5.0 2.53 1.48 3
+        -5.0 2.53 1.48 5.0 5.0 1.48 5
+endnode
+endmodelgeom wei01_p04_07
+donemodel wei01_p04_07
