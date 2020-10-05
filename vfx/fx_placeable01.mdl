@@ -1,0 +1,32 @@
+#MAXMODEL ASCII
+# model: FX_PLACEABLE01
+filedependancy FX_PLACEABLE01.max
+newmodel FX_PLACEABLE01
+setsupermodel FX_PLACEABLE01 NULL
+classification effect
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom FX_PLACEABLE01
+node dummy FX_PLACEABLE01
+  parent NULL
+  #part-number 0
+endnode
+node light AuroraLight01
+  parent FX_PLACEABLE01
+  #part-number 1
+  ambientonly 0
+  shadow 1
+  isdynamic 0
+  affectdynamic 1
+  lightpriority 4
+  fadingLight 1
+  position 0 0 0
+  orientation 0 0 0 0
+  radius 10
+  color 0 0 0
+  shadowradius 15
+  verticaldisplacement 3
+endnode
+endmodelgeom FX_PLACEABLE01
+
+donemodel FX_PLACEABLE01
