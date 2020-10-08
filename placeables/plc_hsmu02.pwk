@@ -1,0 +1,56 @@
+# Exported from NWmax 0.8 b60 at 25.11.2015 18:45:32
+# pwk file
+#
+#NWmax PWKMESH  ASCII
+node trimesh pwk
+  parent plc_hsmu02_pwk
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.882353 0.345098 0.780392 
+  multimaterial 12
+    NoWalk
+    WalkDirt
+    WalkGrass
+    WalkStone
+    WalkWood
+    WalkCarpet
+    WalkMetal
+    WalkSwamp
+    WalkMud
+    WalkLeaves
+    WalkWater
+    WalkPuddles
+  ambient 0.0 0.0 0.0 
+  diffuse 0.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 10.0
+  bitmap WalkMetal
+  verts 8
+    -4.87121 4.74911 0.0
+    -6.96574 4.74911 0.0
+    -6.96574 -4.73669 0.0
+    -4.79587 -4.73669 0.0
+    -4.79587 -7.79881 0.0
+    4.84765 -7.79881 0.0
+    4.84765 7.66004 0.0
+    -4.87121 7.66004 0.0
+  faces 6
+    3 4 5  0  0 0 0  7
+    5 6 7  0  0 0 0  7
+    5 7 0  0  0 0 0  7
+    3 5 0  0  0 0 0  7
+    0 1 2  0  0 0 0  7
+    3 0 2  0  0 0 0  7
+endnode
+node dummy u02_pwk_use01
+  parent plc_hsmu02_pwk
+  position 5.57414 2.78807 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.898039 0.603922 0.843137 
+endnode
+node dummy u02_pwk_use02
+  parent plc_hsmu02_pwk
+  position -0.13077 -9.04933 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.898039 0.603922 0.843137 
+endnode

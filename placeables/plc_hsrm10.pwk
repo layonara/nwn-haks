@@ -1,0 +1,84 @@
+# Exported from NWmax 0.8 b60 at 04.10.2014 20:45:35
+# pwk file
+#
+#NWmax PWKMESH  ASCII
+node dummy m10_pwk_use01
+  parent plc_hsrm10_pwk
+  position 0.0 -4.05 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.109804 0.109804 0.694118 
+endnode
+node dummy m10_pwk_use02
+  parent plc_hsrm10_pwk
+  position -2.48675 3.64675 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.101961 0.694118 0.580392 
+endnode
+node trimesh PWK
+  parent plc_hsrm10_pwk
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.694118 0.101961 0.337255 
+  multimaterial 20
+    Dirt
+    Obscuring
+    Grass
+    Stone
+    Wood
+    Water
+    Nonwalk
+    Transparent
+    Carpet
+    Metal
+    Puddles
+    Swamp
+    Mud
+    Leaves
+    Lava
+    BottomlessPit
+    DeepWater
+    Door
+    Snow
+    Sand
+  ambient 0.0 0.0 0.0 
+  diffuse 0.705882 0.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 10.0
+  bitmap Nonwalk
+  verts 18
+    -3.2 -3.42 0.0
+    3.24 3.26 0.0
+    3.17 -3.43 0.0
+    -3.17 3.27 0.0
+    -2.15 3.31 0.0
+    2.2 3.4 0.0
+    2.17 -4.34 0.0
+    0.68 -4.41 0.0
+    2.15 -3.39 0.0
+    0.68 -3.25 0.0
+    -0.76 -4.45 0.0
+    -2.16 -4.35 0.0
+    -0.71 -3.27 0.0
+    -2.15 -3.45 0.0
+    -2.13 4.2 0.0
+    2.17 4.17 0.0
+    -0.93 4.58 0.0
+    0.96 4.57 0.0
+  faces 16
+    0 13 4  0  0 0 0  7
+    0 4 3  0  0 0 0  7
+    11 10 12  0  0 0 0  7
+    11 12 13  0  0 0 0  7
+    13 12 4  0  0 0 0  7
+    4 12 5  0  0 0 0  7
+    12 9 5  0  0 0 0  7
+    9 7 6  0  0 0 0  7
+    9 6 8  0  0 0 0  7
+    9 8 5  0  0 0 0  7
+    5 8 2  0  0 0 0  7
+    5 2 1  0  0 0 0  7
+    4 5 15  0  0 0 0  7
+    4 15 14  0  0 0 0  7
+    14 15 16  0  0 0 0  7
+    16 15 17  0  0 0 0  7
+endnode

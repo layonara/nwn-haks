@@ -1,0 +1,1663 @@
+# Exported from NWmax 0.8 b60 at 10.11.2015 16:54:59
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: nwn2_door_06
+#local file: Unknown
+filedependancy Unknown
+newmodel nwn2_door_06
+setsupermodel nwn2_door_06 NULL
+classification Door
+#NWmax GEOM  ASCII
+beginmodelgeom nwn2_door_06
+node dummy nwn2_door_06
+  parent NULL
+endnode
+node trimesh sam
+  parent nwn2_door_06
+  position -0.04 0.0236107 0.15
+  orientation 0.0 0.0 -1.0 -1.5708
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 0.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 1.0 
+  ambient 0.2 0.2 0.2 
+  diffuse 0.8 0.8 0.8 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center -1.62476 -2.0 144.167 
+  bitmap NULL
+  verts 8
+    0.00272512 -0.86 -0.016665
+    0.00272394 0.82 -0.0166602
+    0.00272394 0.82 2.90001
+    0.00272512 -0.86 2.9
+    -0.0352204 0.82 -0.0166602
+    -0.0352192 -0.86 -0.016665
+    -0.0352204 0.82 2.90001
+    -0.0352192 -0.86 2.9
+  faces 4
+    0 1 2  1  0 0 0  18
+    2 3 0  1  0 0 0  18
+    4 5 6  1  0 0 0  18
+    7 6 5  1  0 0 0  18
+endnode
+node emitter fire!12
+  parent nwn2_door_06
+  position 0.029346 0.033142 0.872178
+  orientation 0.0 -0.707107 -0.707107 -3.14159
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawntype_sel 0
+  spawnType 0
+  xSize 158.0
+  ySize 167.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.47451 0.439216 0.364706 
+  colorEnd 0.819608 0.796079 0.709804 
+  alphaStart 1.0
+  alphaEnd 0.0
+  sizeStart 4.0
+  sizeEnd 1.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 25
+  lifeExp 2.5
+  mass 0.09
+  spread 2.96706
+  particleRot 0.5
+  velocity 2.0
+  randvel 0.5
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 1
+  splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 10
+  framestart 0
+  frameend 24
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.2
+  blastLength 1.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node emitter ChunkyWood11
+  parent nwn2_door_06
+  position 0.029346 0.033142 1.28697
+  orientation 0.0 0.0 -1.0 -3.14159
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawntype_sel 0
+  spawnType 0
+  xSize 134.0
+  ySize 40.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.482353 0.435294 0.317647 
+  colorEnd 0.584314 0.533333 0.407843 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 3
+  lifeExp 0.75
+  mass 3.0
+  spread 1.22173
+  particleRot 2.9
+  velocity 8.0
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10.0
+  loop 0
+  bounce 1
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_cloud02
+  twosidedtex 1
+  xgrid 5
+  ygrid 5
+  fps 0
+  framestart 0
+  frameend 24
+  random 0
+  chunkName PLC_Chunk_M01
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node emitter ChunkyWood12
+  parent nwn2_door_06
+  position 0.029346 0.033142 0.387764
+  orientation 0.0 0.0 -1.0 -3.14159
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawntype_sel 0
+  spawnType 0
+  xSize 137.0
+  ySize 40.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 1.0 1.0 
+  colorEnd 1.0 1.0 1.0 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 3
+  lifeExp 0.75
+  mass 3.0
+  spread 1.22173
+  particleRot 5.0
+  velocity 8.0
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10.0
+  loop 0
+  bounce 1
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_cloud02
+  twosidedtex 0
+  xgrid 5
+  ygrid 5
+  fps 0
+  framestart 0
+  frameend 24
+  random 0
+  chunkName PLC_Chunk_S01
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node dummy nwn2_door_06grnd
+  parent nwn2_door_06
+  position 1.51771e-006 2.354e-006 0.02
+  orientation 0.0 0.0 -1.0 -1.5708
+  wirecolor 0.109804 0.584314 0.694118 
+endnode
+node dummy nwn2_door_06hhit
+  parent nwn2_door_06
+  position 1.51771e-006 2.354e-006 1.49518
+  orientation 0.0 0.0 -1.0 -1.5708
+  wirecolor 0.109804 0.584314 0.694118 
+endnode
+node dummy nwn2_door_06impc
+  parent nwn2_door_06
+  position 1.51771e-006 2.354e-006 1.58351
+  orientation 0.0 0.0 -1.0 -1.5708
+  wirecolor 0.109804 0.584314 0.694118 
+endnode
+node dummy nwn2_door_06head
+  parent nwn2_door_06
+  position 1.51771e-006 2.354e-006 2.43312
+  orientation 0.0 0.0 -1.0 -1.5708
+  wirecolor 0.109804 0.584314 0.694118 
+endnode
+node trimesh samadoor01
+  parent nwn2_door_06
+  position -0.85 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.87451 0.776471 0.337255 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 15
+  center 84.918 -1.04225 160.166 
+  bitmap plc_wareh01
+  verts 231
+    0.00281959 0.0405355 0.00331883
+    0.00281959 0.0405355 0.00331883
+    1.69554 0.0405355 0.00331883
+    1.69554 0.0405355 0.00331883
+    0.00281944 0.0405355 1.72443
+    1.69554 0.0405355 1.72443
+    0.05 0.0405355 2.39804
+    1.65 0.0405355 2.39804
+    0.05 0.0405355 2.6
+    1.65 0.0405355 2.6
+    0.849181 0.0405355 3.2
+    0.849181 0.0405355 3.2
+    0.00281959 -0.0405355 0.00331868
+    0.00281959 -0.0405355 0.00331868
+    1.69554 -0.0405355 0.00331868
+    1.69554 -0.0405355 0.00331868
+    0.00281944 -0.0405356 1.72443
+    1.69554 -0.0405356 1.72443
+    0.05 -0.0405356 2.39804
+    1.65 -0.0405356 2.39804
+    0.05 -0.0405356 2.6
+    1.65 -0.0405356 2.6
+    0.849181 -0.0405356 3.2
+    0.849181 -0.0405356 3.2
+    0.849181 0.0405355 0.00331883
+    0.849181 -0.0405355 0.00331868
+    1.58433 -0.0339855 1.66208
+    1.58433 -0.0339855 1.66208
+    1.49798 -0.0339855 1.66208
+    1.49798 -0.0339855 1.66208
+    1.58433 -0.0339855 1.61135
+    1.58433 -0.0339855 1.61135
+    1.49798 -0.0339855 1.61135
+    1.49798 -0.0339855 1.61135
+    1.58434 -0.157551 1.59354
+    1.58434 -0.157551 1.59354
+    1.58434 -0.157551 1.59354
+    1.49798 -0.157551 1.59354
+    1.49798 -0.157551 1.59354
+    1.49798 -0.157551 1.59354
+    1.49798 -0.0936492 1.59354
+    1.49798 -0.0936492 1.59354
+    1.49798 -0.0936492 1.59354
+    1.58434 -0.0936492 1.59354
+    1.58434 -0.0936492 1.59354
+    1.58434 -0.0936492 1.59354
+    1.58434 -0.142939 1.63382
+    1.58434 -0.142939 1.63382
+    1.49798 -0.142939 1.63382
+    1.49798 -0.142939 1.63382
+    1.49798 -0.0923305 1.60571
+    1.49798 -0.0923305 1.60571
+    1.58434 -0.0923304 1.60571
+    1.58434 -0.0923304 1.60571
+    1.58434 -0.0876138 1.65941
+    1.58434 -0.0876138 1.65941
+    1.49798 -0.0876138 1.65941
+    1.49798 -0.0876138 1.65941
+    1.49798 -0.0623095 1.61998
+    1.49798 -0.0623095 1.61998
+    1.58434 -0.0623095 1.61998
+    1.58434 -0.0623095 1.61998
+    1.56474 -0.0990447 1.59354
+    1.56474 -0.152156 1.59354
+    1.56474 -0.152156 1.59354
+    1.51758 -0.152156 1.59354
+    1.51758 -0.0990447 1.59354
+    1.51758 -0.152156 1.19357
+    1.58434 -0.0936491 0.793597
+    1.58434 -0.0936491 0.793597
+    1.58434 -0.0936491 0.793597
+    1.58434 -0.157551 0.793597
+    1.58434 -0.157551 0.793597
+    1.58434 -0.157551 0.793597
+    1.49798 -0.157551 0.793597
+    1.49798 -0.157551 0.793597
+    1.49798 -0.157551 0.793597
+    1.49798 -0.0936492 0.793597
+    1.49798 -0.0936492 0.793597
+    1.49798 -0.0936492 0.793597
+    1.58433 -0.0339855 0.725061
+    1.58433 -0.0339855 0.725061
+    1.49798 -0.0339855 0.725061
+    1.49798 -0.0339855 0.725061
+    1.49798 -0.0876137 0.727732
+    1.49798 -0.0876137 0.727732
+    1.58434 -0.0876137 0.727732
+    1.58434 -0.0876137 0.727732
+    1.49798 -0.0339855 0.775785
+    1.49798 -0.0339855 0.775785
+    1.49798 -0.0623095 0.767153
+    1.49798 -0.0623095 0.767153
+    1.58433 -0.0339855 0.775785
+    1.58433 -0.0339855 0.775785
+    1.58434 -0.0623095 0.767153
+    1.58434 -0.0623095 0.767153
+    1.49798 -0.142939 0.753313
+    1.49798 -0.142939 0.753313
+    1.58434 -0.142939 0.753313
+    1.58434 -0.142939 0.753313
+    1.49798 -0.0923305 0.781432
+    1.49798 -0.0923305 0.781432
+    1.58434 -0.0923304 0.781432
+    1.58434 -0.0923304 0.781432
+    1.56474 -0.0990446 0.793597
+    1.56474 -0.152156 0.793597
+    1.56474 -0.152156 0.793597
+    1.56474 -0.152156 1.19357
+    1.56474 -0.152156 1.19357
+    1.56474 -0.0990447 1.19357
+    1.51758 -0.152156 0.793597
+    1.51758 -0.0990446 0.793597
+    1.51758 -0.0990447 1.19357
+    1.49798 0.0728046 1.59354
+    1.49798 0.0728046 1.59354
+    1.49798 0.0728046 1.59354
+    1.49798 0.136706 1.59354
+    1.49798 0.136706 1.59354
+    1.49798 0.136706 1.59354
+    1.58434 0.136706 1.59354
+    1.58434 0.136706 1.59354
+    1.58434 0.136706 1.59354
+    1.58434 0.0728047 1.59354
+    1.58434 0.0728047 1.59354
+    1.58434 0.0728047 1.59354
+    1.49798 0.013141 1.66208
+    1.49798 0.013141 1.66208
+    1.58434 0.013141 1.66208
+    1.58434 0.013141 1.66208
+    1.58434 0.0667692 1.65941
+    1.58434 0.0667692 1.65941
+    1.49798 0.0667692 1.65941
+    1.49798 0.0667692 1.65941
+    1.58434 0.0131409 1.61135
+    1.58434 0.0131409 1.61135
+    1.58434 0.041465 1.61998
+    1.58434 0.041465 1.61998
+    1.49798 0.013141 1.61135
+    1.49798 0.013141 1.61135
+    1.49798 0.041465 1.61998
+    1.49798 0.041465 1.61998
+    1.58434 0.122094 1.63382
+    1.58434 0.122094 1.63382
+    1.49798 0.122094 1.63382
+    1.49798 0.122094 1.63382
+    1.58434 0.0714859 1.60571
+    1.58434 0.0714859 1.60571
+    1.49798 0.0714859 1.60571
+    1.49798 0.0714859 1.60571
+    1.51758 0.0791048 1.59354
+    1.51758 0.132216 1.59354
+    1.51758 0.132216 1.19357
+    1.51758 0.0791048 1.19357
+    1.56474 0.132216 1.59354
+    1.56474 0.132216 1.19357
+    1.56474 0.0791048 1.59354
+    1.56474 0.0791048 1.19357
+    1.49798 0.0728047 0.793597
+    1.49798 0.0728047 0.793597
+    1.49798 0.0728047 0.793597
+    1.58434 0.0728048 0.793597
+    1.58434 0.0728048 0.793597
+    1.58434 0.0728048 0.793597
+    1.58434 0.136706 0.793597
+    1.58434 0.136706 0.793597
+    1.58434 0.136706 0.793597
+    1.49798 0.136706 0.793597
+    1.49798 0.136706 0.793597
+    1.49798 0.136706 0.793597
+    1.49798 0.0131411 0.725061
+    1.49798 0.0131411 0.725061
+    1.49798 0.0667693 0.727732
+    1.49798 0.0667693 0.727732
+    1.58434 0.0667693 0.727732
+    1.58434 0.0667693 0.727732
+    1.58434 0.0131411 0.725061
+    1.58434 0.0131411 0.725061
+    1.58434 0.0414651 0.767153
+    1.58434 0.0414651 0.767153
+    1.58434 0.0131411 0.775785
+    1.58434 0.0131411 0.775785
+    1.49798 0.0414651 0.767153
+    1.49798 0.0414651 0.767153
+    1.49798 0.0131411 0.775785
+    1.49798 0.0131411 0.775785
+    1.58434 0.122094 0.753313
+    1.58434 0.122094 0.753313
+    1.49798 0.122094 0.753313
+    1.49798 0.122094 0.753313
+    1.58434 0.071486 0.781432
+    1.58434 0.071486 0.781432
+    1.49798 0.071486 0.781432
+    1.49798 0.071486 0.781432
+    1.51758 0.0791048 0.793597
+    1.51758 0.132216 0.793597
+    1.56474 0.132216 0.793597
+    1.56474 0.0791048 0.793597
+    1.42 -0.0405356 3.07
+    1.42 0.0405355 3.07
+    0.28 -0.0405356 3.07
+    0.28 0.0405355 3.07
+    0.00281959 -0.0405355 0.00331868
+    1.69554 -0.0405355 0.00331868
+    0.00281944 -0.0405356 1.72443
+    1.69554 -0.0405356 1.72443
+    0.05 -0.0405356 2.39804
+    1.65 -0.0405356 2.39804
+    0.05 -0.0405356 2.6
+    1.65 -0.0405356 2.6
+    0.849181 -0.0405356 3.2
+    0.849181 -0.0405355 0.00331868
+    0.849181 -0.0405356 1.72443
+    0.849181 -0.0405356 2.39804
+    0.849181 -0.0405356 2.8
+    1.42 -0.0405356 3.07
+    0.28 -0.0405356 3.07
+    0.00281959 0.0405355 0.00331883
+    1.69554 0.0405355 0.00331883
+    0.00281944 0.0405355 1.72443
+    1.69554 0.0405355 1.72443
+    0.05 0.0405355 2.39804
+    1.65 0.0405355 2.39804
+    0.05 0.0405355 2.6
+    1.65 0.0405355 2.6
+    0.849181 0.0405355 3.2
+    0.849181 0.0405355 1.72443
+    0.849181 0.0405355 0.00331883
+    0.849181 0.0405355 2.39804
+    0.849181 0.0405355 2.8
+    1.42 0.0405355 3.07
+    0.28 0.0405355 3.07
+  faces 192
+    12 0 24  1  12 0 24  1
+    24 25 12  1  24 25 12  1
+    17 14 2  1  17 14 2  1
+    2 5 17  1  2 5 17  1
+    19 17 5  1  19 17 5  1
+    5 7 19  1  5 7 19  1
+    21 19 7  1  21 19 7  1
+    7 9 21  1  7 9 21  1
+    10 22 197  1  10 22 185  1
+    197 198 10  1  185 186 10  1
+    8 20 199  1  8 20 187  1
+    199 200 8  1  187 188 8  1
+    18 20 8  1  18 20 8  1
+    8 6 18  1  8 6 18  1
+    16 18 6  1  16 18 6  1
+    6 4 16  1  6 4 16  1
+    13 16 4  1  13 16 4  1
+    4 1 13  1  4 1 13  1
+    25 24 3  1  25 24 3  1
+    3 15 25  1  3 15 25  1
+    34 37 40  1  34 37 40  1
+    40 43 34  1  40 43 34  1
+    28 56 54  1  28 56 54  1
+    54 26 28  1  54 26 28  1
+    32 58 57  1  32 58 57  1
+    57 29 32  1  57 29 32  1
+    30 60 59  1  30 60 59  1
+    59 33 30  1  59 33 30  1
+    31 27 55  1  31 27 55  1
+    55 61 31  1  55 61 31  1
+    38 35 46  2  38 35 46  1
+    46 48 38  2  46 48 38  1
+    41 39 49  1  41 39 49  1
+    49 50 41  1  49 50 41  1
+    44 42 51  1  44 42 51  1
+    51 52 44  1  51 52 44  1
+    47 36 45  1  47 36 45  1
+    45 53 47  1  45 53 47  1
+    48 46 54  1  48 46 54  1
+    54 56 48  1  54 56 48  1
+    50 49 57  1  50 49 57  1
+    57 58 50  1  57 58 50  1
+    52 51 59  2  52 51 59  1
+    59 60 52  2  59 60 52  1
+    55 47 53  1  55 47 53  1
+    53 61 55  1  53 61 55  1
+    63 107 109  1  63 107 109  1
+    109 62 63  1  109 62 63  1
+    65 67 108  1  65 67 108  1
+    108 64 65  1  108 64 65  1
+    66 112 67  2  66 112 67  1
+    67 65 66  2  67 65 66  1
+    62 109 112  4  62 109 112  1
+    112 66 62  4  112 66 62  1
+    71 68 77  1  71 68 77  1
+    77 74 71  1  77 74 71  1
+    82 80 86  1  82 80 86  1
+    86 84 82  1  86 84 82  1
+    88 83 85  1  88 83 85  1
+    85 90 88  1  85 90 88  1
+    92 89 91  1  92 89 91  1
+    91 94 92  1  91 94 92  1
+    93 95 87  1  93 95 87  1
+    87 81 93  1  87 81 93  1
+    75 96 98  2  75 96 98  1
+    98 72 75  2  98 72 75  1
+    78 100 97  1  78 100 97  1
+    97 76 78  1  97 76 78  1
+    69 102 101  1  69 102 101  1
+    101 79 69  1  101 79 69  1
+    99 103 70  1  99 103 70  1
+    70 73 99  1  70 73 99  1
+    96 84 86  1  96 84 86  1
+    86 98 96  1  86 98 96  1
+    100 90 85  1  100 90 85  1
+    85 97 100  1  85 97 100  1
+    102 94 91  2  102 94 91  1
+    91 101 102  2  91 101 102  1
+    87 95 103  1  87 95 103  1
+    103 99 87  1  103 99 87  1
+    105 104 109  1  105 104 109  1
+    109 107 105  1  109 107 105  1
+    110 106 108  1  110 106 108  1
+    108 67 110  1  108 67 110  1
+    111 110 67  2  111 110 67  1
+    67 112 111  2  67 112 111  1
+    104 111 112  4  104 111 112  1
+    112 109 104  4  112 109 104  1
+    116 119 122  1  116 119 122  1
+    122 113 116  1  122 113 116  1
+    127 129 131  1  127 129 131  1
+    131 125 127  1  131 125 127  1
+    133 135 130  1  133 135 130  1
+    130 128 133  1  130 128 133  1
+    137 139 136  1  137 139 136  1
+    136 134 137  1  136 134 137  1
+    138 126 132  1  138 126 132  1
+    132 140 138  1  132 140 138  1
+    120 117 143  2  120 117 143  1
+    143 141 120  2  143 141 120  1
+    123 121 142  1  123 121 142  1
+    142 145 123  1  142 145 123  1
+    114 124 146  1  114 124 146  1
+    146 147 114  1  146 147 114  1
+    144 118 115  1  144 118 115  1
+    115 148 144  1  115 148 144  1
+    141 143 131  1  141 143 131  1
+    131 129 141  1  131 129 141  1
+    145 142 130  1  145 142 130  1
+    130 135 145  1  130 135 145  1
+    147 146 136  2  147 146 136  1
+    136 139 147  2  136 139 147  1
+    132 144 148  1  132 144 148  1
+    148 140 132  1  148 140 132  1
+    150 151 152  1  231 232 233  1
+    152 149 150  1  234 235 236  1
+    153 154 151  2  237 238 239  1
+    151 150 153  2  240 219 241  1
+    155 156 154  1  242 243 244  1
+    154 153 155  1  245 223 246  1
+    149 152 156  2  247 248 249  1
+    156 155 149  2  250 225 222  1
+    166 157 160  1  158 149 152  1
+    160 163 166  1  152 155 158  1
+    175 169 171  1  167 161 163  1
+    171 173 175  1  163 165 167  1
+    179 176 174  1  171 168 166  1
+    174 177 179  1  166 169 171  1
+    183 180 178  1  175 172 170  1
+    178 181 183  1  170 173 175  1
+    184 182 172  1  176 174 164  1
+    172 170 184  1  164 162 176  1
+    164 185 187  2  156 177 179  1
+    187 167 164  2  179 159 156  1
+    161 189 186  1  153 181 178  1
+    186 165 161  1  178 157 153  1
+    158 191 190  1  150 183 182  1
+    190 162 158  1  182 154 150  1
+    188 192 159  1  180 184 151  1
+    159 168 188  1  151 160 180  1
+    185 173 171  1  177 165 163  1
+    171 187 185  1  163 179 177  1
+    189 177 174  1  181 169 166  1
+    174 186 189  1  166 178 181  1
+    191 181 178  2  183 173 170  1
+    178 190 191  2  170 182 183  1
+    172 182 192  1  164 174 184  1
+    192 188 172  1  184 180 164  1
+    194 193 152  1  251 252 253  1
+    152 151 194  1  254 255 256  1
+    195 194 151  2  257 227 258  1
+    151 154 195  2  220 259 260  1
+    196 195 154  1  261 229 262  1
+    154 156 196  1  224 263 264  1
+    193 196 156  2  265 230 266  1
+    156 152 193  2  226 221 228  1
+    198 197 21  1  186 185 21  1
+    21 9 198  1  21 9 186  1
+    200 199 23  1  188 187 23  1
+    23 11 200  1  23 11 188  1
+    203 201 210  1  191 189 198  1
+    210 211 203  1  198 199 191  1
+    205 203 211  1  193 191 199  1
+    211 212 205  1  199 200 193  1
+    207 205 212  1  195 193 200  1
+    212 213 207  1  200 201 195  1
+    211 210 202  1  199 198 190  1
+    202 204 211  1  190 192 199  1
+    206 212 211  1  194 200 199  1
+    211 204 206  1  199 192 194  1
+    208 213 212  1  196 201 200  1
+    212 206 208  1  200 194 196  1
+    213 209 215  1  201 197 203  1
+    213 214 209  1  201 202 197  1
+    213 208 214  1  201 196 202  1
+    215 207 213  1  203 195 201  1
+    226 216 218  1  214 204 206  1
+    218 225 226  1  206 213 214  1
+    225 218 220  1  213 206 208  1
+    220 227 225  1  208 215 213  1
+    227 220 222  1  215 208 210  1
+    222 228 227  1  210 216 215  1
+    226 225 219  1  214 213 207  1
+    219 217 226  1  207 205 214  1
+    225 227 221  1  213 215 209  1
+    221 219 225  1  209 207 213  1
+    227 228 223  1  215 216 211  1
+    223 221 227  1  211 209 215  1
+    229 223 228  1  217 211 216  1
+    228 230 224  1  216 218 212  1
+    228 222 230  1  216 210 218  1
+    228 224 229  1  216 212 217  1
+  tverts 267
+    0.670315 0.000831112 0
+    0.686645 0.000831105 0
+    0.686645 0.000831105 0
+    0.562413 0.000831112 0
+    0.686645 0.141111 0
+    0.686645 0.141111 0
+    0.686645 0.196102 0
+    0.686645 0.196102 0
+    0.686645 0.222411 0
+    0.686645 0.222411 0
+    0.686645 0.249995 0
+    0.686645 0.249995 0
+    0.670315 0.000831105 0
+    0.694335 0.000831105 0
+    0.694335 0.000831105 0
+    0.562413 0.000831105 0
+    0.694335 0.141111 0
+    0.694335 0.141111 0
+    0.694335 0.196102 0
+    0.694335 0.196102 0
+    0.694335 0.222411 0
+    0.694335 0.222411 0
+    0.694335 0.249995 0
+    0.694335 0.249995 0
+    0.616364 0.000831112 0
+    0.616364 0.000831105 0
+    0.735308 0.0053905 0
+    0.723773 0.0469025 0
+    0.725796 0.0053905 0
+    0.723773 0.0469025 0
+    0.746494 0.0690788 0
+    0.74665 0.0469025 0
+    0.74665 0.0469025 0
+    0.724034 0.0690788 0
+    0.746591 0.0918635 0
+    0.735308 0.042897 0
+    0.723773 0.100388 0
+    0.724023 0.0918635 0
+    0.725796 0.042897 0
+    0.723773 0.100388 0
+    0.724023 0.069295 0
+    0.74665 0.100388 0
+    0.724034 0.08924 0
+    0.746591 0.069295 0
+    0.746494 0.08924 0
+    0.74665 0.100388 0
+    0.735308 0.0312845 0
+    0.723773 0.0813913 0
+    0.725796 0.0312845 0
+    0.723773 0.0813913 0
+    0.74665 0.0813913 0
+    0.724034 0.085398 0
+    0.746494 0.085398 0
+    0.74665 0.0813913 0
+    0.735308 0.0172058 0
+    0.723773 0.0621015 0
+    0.725796 0.0172058 0
+    0.723773 0.0621015 0
+    0.74665 0.0621015 0
+    0.724034 0.0766568 0
+    0.746494 0.0766568 0
+    0.74665 0.0621015 0
+    0.706295 0.100843 0
+    0.701224 0.100843 0
+    0.720374 0.100843 0
+    0.715871 0.100843 0
+    0.710799 0.100843 0
+    0.715871 0.0516865 0
+    0.746591 0.0692952 0
+    0.746494 0.0892403 0
+    0.74665 0.100388 0
+    0.746591 0.0918635 0
+    0.735308 0.0428973 0
+    0.723773 0.100388 0
+    0.724023 0.0918635 0
+    0.725796 0.0428973 0
+    0.723773 0.100388 0
+    0.724023 0.0692952 0
+    0.74665 0.100388 0
+    0.724034 0.0892403 0
+    0.735308 0.0053905 0
+    0.723773 0.0469025 0
+    0.725796 0.0053905 0
+    0.723773 0.0469025 0
+    0.725796 0.0172058 0
+    0.723773 0.0621015 0
+    0.735308 0.0172058 0
+    0.723773 0.0621015 0
+    0.74665 0.0469025 0
+    0.724034 0.0690788 0
+    0.74665 0.0621015 0
+    0.724034 0.0766568 0
+    0.746494 0.0690788 0
+    0.74665 0.0469025 0
+    0.746494 0.0766568 0
+    0.74665 0.0621015 0
+    0.725796 0.0312845 0
+    0.723773 0.0813913 0
+    0.735308 0.0312845 0
+    0.723773 0.0813913 0
+    0.74665 0.0813913 0
+    0.724034 0.085398 0
+    0.746494 0.085398 0
+    0.74665 0.0813913 0
+    0.706295 0.0025303 0
+    0.701224 0.0025303 0
+    0.720374 0.0025303 0
+    0.701224 0.0516865 0
+    0.720374 0.0516865 0
+    0.706295 0.0516865 0
+    0.715871 0.0025303 0
+    0.710799 0.0025303 0
+    0.710799 0.0516865 0
+    0.746591 0.069295 0
+    0.746494 0.08924 0
+    0.74665 0.100388 0
+    0.746591 0.0918635 0
+    0.735308 0.042897 0
+    0.723773 0.100388 0
+    0.724023 0.0918635 0
+    0.725796 0.042897 0
+    0.723773 0.100388 0
+    0.724023 0.069295 0
+    0.74665 0.100388 0
+    0.724034 0.08924 0
+    0.735308 0.0053905 0
+    0.723773 0.0469025 0
+    0.725796 0.0053905 0
+    0.723773 0.0469025 0
+    0.725796 0.0172058 0
+    0.723773 0.0621015 0
+    0.735308 0.0172058 0
+    0.723773 0.0621015 0
+    0.74665 0.0469025 0
+    0.724034 0.0690788 0
+    0.74665 0.0621015 0
+    0.724034 0.0766568 0
+    0.746494 0.0690788 0
+    0.74665 0.0469025 0
+    0.746494 0.0766568 0
+    0.74665 0.0621015 0
+    0.725796 0.0312845 0
+    0.723773 0.0813913 0
+    0.735308 0.0312845 0
+    0.723773 0.0813913 0
+    0.74665 0.0813913 0
+    0.724034 0.085398 0
+    0.746494 0.085398 0
+    0.74665 0.0813913 0
+    0.746591 0.0692952 0
+    0.746494 0.0892403 0
+    0.74665 0.100388 0
+    0.724023 0.0692952 0
+    0.74665 0.100388 0
+    0.724034 0.0892403 0
+    0.724023 0.0918635 0
+    0.725796 0.0428973 0
+    0.723773 0.100388 0
+    0.746591 0.0918635 0
+    0.735308 0.0428973 0
+    0.723773 0.100388 0
+    0.735308 0.0053905 0
+    0.723773 0.0469025 0
+    0.735308 0.0172058 0
+    0.723773 0.0621015 0
+    0.725796 0.0172058 0
+    0.723773 0.0621015 0
+    0.725796 0.0053905 0
+    0.723773 0.0469025 0
+    0.74665 0.0621015 0
+    0.724034 0.0766568 0
+    0.74665 0.0469025 0
+    0.724034 0.0690788 0
+    0.746494 0.0766568 0
+    0.74665 0.0621015 0
+    0.746494 0.0690788 0
+    0.74665 0.0469025 0
+    0.725796 0.0312845 0
+    0.723773 0.0813913 0
+    0.735308 0.0312845 0
+    0.723773 0.0813913 0
+    0.74665 0.0813913 0
+    0.724034 0.085398 0
+    0.746494 0.085398 0
+    0.74665 0.0813913 0
+    0.694335 0.236203 0
+    0.686645 0.236203 0
+    0.694335 0.236203 0
+    0.686645 0.236203 0
+    0.672074 0.000122374 0
+    0.559284 0.000122374 0
+    0.672074 0.1319 0
+    0.559284 0.1319 0
+    0.66891 0.183475 0
+    0.562339 0.183475 0
+    0.668931 0.198938 0
+    0.562319 0.198938 0
+    0.615679 0.244878 0
+    0.615679 0.000122374 0
+    0.615679 0.1319 0
+    0.615679 0.183475 0
+    0.615679 0.214252 0
+    0.577644 0.234924 0
+    0.653605 0.234924 0
+    0.672074 0.00012114 0
+    0.559284 0.00012114 0
+    0.672074 0.130554 0
+    0.559284 0.130554 0
+    0.66891 0.181603 0
+    0.562339 0.181603 0
+    0.668931 0.196909 0
+    0.562319 0.196909 0
+    0.615679 0.242379 0
+    0.615679 0.130554 0
+    0.615679 0.00012114 0
+    0.615679 0.181603 0
+    0.615679 0.212065 0
+    0.577644 0.232527 0
+    0.653605 0.232527 0
+    0.71337 0.100033 0
+    0.71337 0.0500831 0
+    0.705719 0.0500831 0
+    0.705719 0.100033 0
+    0.713852 0.100033 0
+    0.713852 0.0500831 0
+    0.71337 0.100033 0
+    0.71337 0.0500831 0
+    0.71337 0.000132815 0
+    0.705719 0.000132815 0
+    0.713852 0.000132815 0
+    0.71337 0.000132815 0
+    0.705237 0.100033 0
+    0.705237 0.0500831 0
+    0.713852 0.0500831 0
+    0.713852 0.0500831 0
+    0.713852 0.100033 0
+    0.705237 0.100033 0
+    0.705719 0.100033 0
+    0.705719 0.0500831 0
+    0.71337 0.0500831 0
+    0.71337 0.0500831 0
+    0.705719 0.100033 0
+    0.705237 0.100033 0
+    0.705237 0.0500831 0
+    0.713852 0.0500831 0
+    0.713852 0.0500831 0
+    0.705237 0.100033 0
+    0.705719 0.100033 0
+    0.705719 0.0500831 0
+    0.71337 0.0500831 0
+    0.71337 0.0500831 0
+    0.705237 0.000132815 0
+    0.713852 0.000132815 0
+    0.713852 0.0500831 0
+    0.713852 0.0500831 0
+    0.705237 0.0500831 0
+    0.705237 0.000132815 0
+    0.705719 0.000132815 0
+    0.71337 0.0500831 0
+    0.705719 0.0500831 0
+    0.705719 0.000132815 0
+    0.705237 0.000132815 0
+    0.713852 0.0500831 0
+    0.705237 0.0500831 0
+    0.705237 0.000132815 0
+    0.705719 0.000132815 0
+    0.71337 0.0500831 0
+endnode
+endmodelgeom nwn2_door_06
+#NWmax ANIM ASCII
+newanim opening1 nwn2_door_06
+  length 0.966667
+  transtime 0.25
+  animroot nwn2_door_06
+    node dummy nwn2_door_06
+        parent NULL
+    endnode
+    node trimesh sam
+        parent nwn2_door_06
+        alphakey
+            0.0 0.0 
+            0.966667 0.0 
+        endlist
+    endnode
+    node emitter fire!12
+        parent nwn2_door_06
+    endnode
+    node emitter ChunkyWood11
+        parent nwn2_door_06
+    endnode
+    node emitter ChunkyWood12
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06grnd
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06hhit
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06impc
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06head
+        parent nwn2_door_06
+    endnode
+    node trimesh samadoor01
+        parent nwn2_door_06
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.9 0.0 0.0 1.0 -1.4564
+            0.966667 0.0 0.0 1.0 -1.50972
+        endlist
+    endnode
+    node dummy nwn2_door_06_DWK
+        parent nwn2_door_06
+    endnode
+    node dummy 06_DWK_dp_closed_01
+        parent nwn2_door_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open1_01
+        parent nwn2_door_06_DWK
+    endnode
+    node dummy 06_DWK_dp_closed_02
+        parent nwn2_door_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open2_01
+        parent nwn2_door_06_DWK
+    endnode
+    node trimesh 06_DWK_wg_open1
+        parent nwn2_door_06_DWK
+    endnode
+    node trimesh 06_DWK_wg_closed
+        parent nwn2_door_06_DWK
+    endnode
+    node trimesh 06_DWK_wg_open2
+        parent nwn2_door_06_DWK
+    endnode
+doneanim opening1 nwn2_door_06
+#NWmax ANIM ASCII
+newanim opened1 nwn2_door_06
+  length 0.0333333
+  transtime 0.25
+  animroot nwn2_door_06
+    node dummy nwn2_door_06
+        parent NULL
+    endnode
+    node trimesh sam
+        parent nwn2_door_06
+        alphakey
+            0.0 0.0 
+            0.0333333 0.0 
+        endlist
+    endnode
+    node emitter fire!12
+        parent nwn2_door_06
+    endnode
+    node emitter ChunkyWood11
+        parent nwn2_door_06
+    endnode
+    node emitter ChunkyWood12
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06grnd
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06hhit
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06impc
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06head
+        parent nwn2_door_06
+    endnode
+    node trimesh samadoor01
+        parent nwn2_door_06
+        orientationkey
+            0.0 0.0 0.0 1.0 -1.50972
+            0.0333333 0.0 0.0 1.0 -1.50972
+        endlist
+    endnode
+    node dummy nwn2_door_06_DWK
+        parent nwn2_door_06
+    endnode
+    node dummy 06_DWK_dp_closed_01
+        parent nwn2_door_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open1_01
+        parent nwn2_door_06_DWK
+    endnode
+    node dummy 06_DWK_dp_closed_02
+        parent nwn2_door_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open2_01
+        parent nwn2_door_06_DWK
+    endnode
+    node trimesh 06_DWK_wg_open1
+        parent nwn2_door_06_DWK
+    endnode
+    node trimesh 06_DWK_wg_closed
+        parent nwn2_door_06_DWK
+    endnode
+    node trimesh 06_DWK_wg_open2
+        parent nwn2_door_06_DWK
+    endnode
+doneanim opened1 nwn2_door_06
+#NWmax ANIM ASCII
+newanim closing1 nwn2_door_06
+  length 0.966667
+  transtime 0.25
+  animroot nwn2_door_06
+    node dummy nwn2_door_06
+        parent NULL
+    endnode
+    node trimesh sam
+        parent nwn2_door_06
+        alphakey
+            0.0 0.0 
+            0.966667 0.0 
+        endlist
+    endnode
+    node emitter fire!12
+        parent nwn2_door_06
+    endnode
+    node emitter ChunkyWood11
+        parent nwn2_door_06
+    endnode
+    node emitter ChunkyWood12
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06grnd
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06hhit
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06impc
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06head
+        parent nwn2_door_06
+    endnode
+    node trimesh samadoor01
+        parent nwn2_door_06
+        orientationkey
+            0.0 0.0 0.0 1.0 -1.50972
+            0.933333 0.0 0.0 -1.0 -0.0134999
+            0.966667 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node dummy nwn2_door_06_DWK
+        parent nwn2_door_06
+    endnode
+    node dummy 06_DWK_dp_closed_01
+        parent nwn2_door_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open1_01
+        parent nwn2_door_06_DWK
+    endnode
+    node dummy 06_DWK_dp_closed_02
+        parent nwn2_door_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open2_01
+        parent nwn2_door_06_DWK
+    endnode
+    node trimesh 06_DWK_wg_open1
+        parent nwn2_door_06_DWK
+    endnode
+    node trimesh 06_DWK_wg_closed
+        parent nwn2_door_06_DWK
+    endnode
+    node trimesh 06_DWK_wg_open2
+        parent nwn2_door_06_DWK
+    endnode
+doneanim closing1 nwn2_door_06
+#NWmax ANIM ASCII
+newanim closed nwn2_door_06
+  length 0.0333333
+  transtime 0.25
+  animroot nwn2_door_06
+    node dummy nwn2_door_06
+        parent NULL
+    endnode
+    node trimesh sam
+        parent nwn2_door_06
+        alphakey
+            0.0 0.0 
+            0.0333333 0.0 
+        endlist
+    endnode
+    node emitter fire!12
+        parent nwn2_door_06
+    endnode
+    node emitter ChunkyWood11
+        parent nwn2_door_06
+    endnode
+    node emitter ChunkyWood12
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06grnd
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06hhit
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06impc
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06head
+        parent nwn2_door_06
+    endnode
+    node trimesh samadoor01
+        parent nwn2_door_06
+        orientationkey
+            0.0333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node dummy nwn2_door_06_DWK
+        parent nwn2_door_06
+    endnode
+    node dummy 06_DWK_dp_closed_01
+        parent nwn2_door_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open1_01
+        parent nwn2_door_06_DWK
+    endnode
+    node dummy 06_DWK_dp_closed_02
+        parent nwn2_door_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open2_01
+        parent nwn2_door_06_DWK
+    endnode
+    node trimesh 06_DWK_wg_open1
+        parent nwn2_door_06_DWK
+    endnode
+    node trimesh 06_DWK_wg_closed
+        parent nwn2_door_06_DWK
+    endnode
+    node trimesh 06_DWK_wg_open2
+        parent nwn2_door_06_DWK
+    endnode
+doneanim closed nwn2_door_06
+#NWmax ANIM ASCII
+newanim opening2 nwn2_door_06
+  length 1.0
+  transtime 0.25
+  animroot nwn2_door_06
+    node dummy nwn2_door_06
+        parent NULL
+    endnode
+    node trimesh sam
+        parent nwn2_door_06
+        alphakey
+            0.0 0.0 
+            0.966667 0.0 
+            1.0 0.0 
+        endlist
+    endnode
+    node emitter fire!12
+        parent nwn2_door_06
+    endnode
+    node emitter ChunkyWood11
+        parent nwn2_door_06
+    endnode
+    node emitter ChunkyWood12
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06grnd
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06hhit
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06impc
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06head
+        parent nwn2_door_06
+    endnode
+    node trimesh samadoor01
+        parent nwn2_door_06
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.933333 0.0 0.0 -1.0 -1.5419
+            1.0 0.0 0.0 -1.0 -1.4224
+        endlist
+    endnode
+    node dummy nwn2_door_06_DWK
+        parent nwn2_door_06
+    endnode
+    node dummy 06_DWK_dp_closed_01
+        parent nwn2_door_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open1_01
+        parent nwn2_door_06_DWK
+    endnode
+    node dummy 06_DWK_dp_closed_02
+        parent nwn2_door_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open2_01
+        parent nwn2_door_06_DWK
+    endnode
+    node trimesh 06_DWK_wg_open1
+        parent nwn2_door_06_DWK
+    endnode
+    node trimesh 06_DWK_wg_closed
+        parent nwn2_door_06_DWK
+    endnode
+    node trimesh 06_DWK_wg_open2
+        parent nwn2_door_06_DWK
+    endnode
+doneanim opening2 nwn2_door_06
+#NWmax ANIM ASCII
+newanim opened2 nwn2_door_06
+  length 0.0
+  transtime 0.25
+  animroot nwn2_door_06
+    node dummy nwn2_door_06
+        parent NULL
+    endnode
+    node trimesh sam
+        parent nwn2_door_06
+    endnode
+    node emitter fire!12
+        parent nwn2_door_06
+    endnode
+    node emitter ChunkyWood11
+        parent nwn2_door_06
+    endnode
+    node emitter ChunkyWood12
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06grnd
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06hhit
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06impc
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06head
+        parent nwn2_door_06
+    endnode
+    node trimesh samadoor01
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06_DWK
+        parent nwn2_door_06
+    endnode
+    node dummy 06_DWK_dp_closed_01
+        parent nwn2_door_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open1_01
+        parent nwn2_door_06_DWK
+    endnode
+    node dummy 06_DWK_dp_closed_02
+        parent nwn2_door_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open2_01
+        parent nwn2_door_06_DWK
+    endnode
+    node trimesh 06_DWK_wg_open1
+        parent nwn2_door_06_DWK
+    endnode
+    node trimesh 06_DWK_wg_closed
+        parent nwn2_door_06_DWK
+    endnode
+    node trimesh 06_DWK_wg_open2
+        parent nwn2_door_06_DWK
+    endnode
+doneanim opened2 nwn2_door_06
+#NWmax ANIM ASCII
+newanim closing2 nwn2_door_06
+  length 0.966667
+  transtime 0.25
+  animroot nwn2_door_06
+    node dummy nwn2_door_06
+        parent NULL
+    endnode
+    node trimesh sam
+        parent nwn2_door_06
+        alphakey
+            0.966667 0.0 
+        endlist
+    endnode
+    node emitter fire!12
+        parent nwn2_door_06
+    endnode
+    node emitter ChunkyWood11
+        parent nwn2_door_06
+    endnode
+    node emitter ChunkyWood12
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06grnd
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06hhit
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06impc
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06head
+        parent nwn2_door_06
+    endnode
+    node trimesh samadoor01
+        parent nwn2_door_06
+        orientationkey
+            0.0 0.0 0.0 -1.0 -1.4224
+            0.933333 0.0 0.0 1.0 -0.0264801
+            0.966667 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node dummy nwn2_door_06_DWK
+        parent nwn2_door_06
+    endnode
+    node dummy 06_DWK_dp_closed_01
+        parent nwn2_door_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open1_01
+        parent nwn2_door_06_DWK
+    endnode
+    node dummy 06_DWK_dp_closed_02
+        parent nwn2_door_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open2_01
+        parent nwn2_door_06_DWK
+    endnode
+    node trimesh 06_DWK_wg_open1
+        parent nwn2_door_06_DWK
+    endnode
+    node trimesh 06_DWK_wg_closed
+        parent nwn2_door_06_DWK
+    endnode
+    node trimesh 06_DWK_wg_open2
+        parent nwn2_door_06_DWK
+    endnode
+doneanim closing2 nwn2_door_06
+#NWmax ANIM ASCII
+newanim trans nwn2_door_06
+  length 0.0333333
+  transtime 0.25
+  animroot nwn2_door_06
+    node dummy nwn2_door_06
+        parent NULL
+    endnode
+    node trimesh sam
+        parent nwn2_door_06
+        alphakey
+            0.0 0.25 
+            0.0333333 0.25 
+        endlist
+    endnode
+    node emitter fire!12
+        parent nwn2_door_06
+    endnode
+    node emitter ChunkyWood11
+        parent nwn2_door_06
+    endnode
+    node emitter ChunkyWood12
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06grnd
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06hhit
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06impc
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06head
+        parent nwn2_door_06
+    endnode
+    node trimesh samadoor01
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06_DWK
+        parent nwn2_door_06
+    endnode
+    node dummy 06_DWK_dp_closed_01
+        parent nwn2_door_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open1_01
+        parent nwn2_door_06_DWK
+    endnode
+    node dummy 06_DWK_dp_closed_02
+        parent nwn2_door_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open2_01
+        parent nwn2_door_06_DWK
+    endnode
+    node trimesh 06_DWK_wg_open1
+        parent nwn2_door_06_DWK
+    endnode
+    node trimesh 06_DWK_wg_closed
+        parent nwn2_door_06_DWK
+    endnode
+    node trimesh 06_DWK_wg_open2
+        parent nwn2_door_06_DWK
+    endnode
+doneanim trans nwn2_door_06
+#NWmax ANIM ASCII
+newanim die nwn2_door_06
+  length 0.166667
+  transtime 0.0
+  animroot nwn2_door_06
+  event 0.0333333 detonate
+  event 0.0333333 detonate
+  event 0.0333333 detonate
+    node dummy nwn2_door_06
+        parent NULL
+    endnode
+    node trimesh sam
+        parent nwn2_door_06
+    endnode
+    node emitter fire!12
+        parent nwn2_door_06
+    endnode
+    node emitter ChunkyWood11
+        parent nwn2_door_06
+    endnode
+    node emitter ChunkyWood12
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06grnd
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06hhit
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06impc
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06head
+        parent nwn2_door_06
+    endnode
+    node trimesh samadoor01
+        parent nwn2_door_06
+        positionkey
+            0.0 -1.0 -0.0663891 0.05
+            0.166667 -1.0 -0.0663891 -2.97054
+        endlist
+    endnode
+    node dummy nwn2_door_06_DWK
+        parent nwn2_door_06
+    endnode
+    node dummy 06_DWK_dp_closed_01
+        parent nwn2_door_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open1_01
+        parent nwn2_door_06_DWK
+    endnode
+    node dummy 06_DWK_dp_closed_02
+        parent nwn2_door_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open2_01
+        parent nwn2_door_06_DWK
+    endnode
+    node trimesh 06_DWK_wg_open1
+        parent nwn2_door_06_DWK
+    endnode
+    node trimesh 06_DWK_wg_closed
+        parent nwn2_door_06_DWK
+    endnode
+    node trimesh 06_DWK_wg_open2
+        parent nwn2_door_06_DWK
+    endnode
+doneanim die nwn2_door_06
+#NWmax ANIM ASCII
+newanim dead nwn2_door_06
+  length 0.0333333
+  transtime 0.25
+  animroot nwn2_door_06
+    node dummy nwn2_door_06
+        parent NULL
+    endnode
+    node trimesh sam
+        parent nwn2_door_06
+    endnode
+    node emitter fire!12
+        parent nwn2_door_06
+    endnode
+    node emitter ChunkyWood11
+        parent nwn2_door_06
+    endnode
+    node emitter ChunkyWood12
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06grnd
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06hhit
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06impc
+        parent nwn2_door_06
+    endnode
+    node dummy nwn2_door_06head
+        parent nwn2_door_06
+    endnode
+    node trimesh samadoor01
+        parent nwn2_door_06
+        orientationkey
+            0.0333333 0.159236 -0.331927 -0.929768 -0.5875
+        endlist
+    endnode
+    node dummy nwn2_door_06_DWK
+        parent nwn2_door_06
+    endnode
+    node dummy 06_DWK_dp_closed_01
+        parent nwn2_door_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open1_01
+        parent nwn2_door_06_DWK
+    endnode
+    node dummy 06_DWK_dp_closed_02
+        parent nwn2_door_06_DWK
+    endnode
+    node dummy 06_DWK_dp_open2_01
+        parent nwn2_door_06_DWK
+    endnode
+    node trimesh 06_DWK_wg_open1
+        parent nwn2_door_06_DWK
+    endnode
+    node trimesh 06_DWK_wg_closed
+        parent nwn2_door_06_DWK
+    endnode
+    node trimesh 06_DWK_wg_open2
+        parent nwn2_door_06_DWK
+    endnode
+doneanim dead nwn2_door_06
+donemodel nwn2_door_06

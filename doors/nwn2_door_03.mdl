@@ -1,0 +1,1389 @@
+# Exported from NWmax 0.8 b60 at 08.11.2015 17:39:27
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: nwn2_door_03
+#local file: Unknown
+filedependancy Unknown
+newmodel nwn2_door_03
+setsupermodel nwn2_door_03 NULL
+classification Door
+#NWmax GEOM  ASCII
+beginmodelgeom nwn2_door_03
+node dummy nwn2_door_03
+  parent NULL
+endnode
+node trimesh sam
+  parent nwn2_door_03
+  position 0.0400003 0.0236107 0.15
+  orientation 0.0 0.0 -1.0 -1.5708
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 0.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 1.0 
+  ambient 0.2 0.2 0.2 
+  diffuse 0.8 0.8 0.8 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center -1.62473 6.0 129.334 
+  bitmap NULL
+  verts 8
+    0.00272571 -0.7 -0.016665
+    0.00272394 0.82 -0.0166602
+    0.00272394 0.82 2.60335
+    0.00272571 -0.7 2.60334
+    -0.0352204 0.82 -0.0166602
+    -0.0352186 -0.7 -0.016665
+    -0.0352204 0.82 2.60335
+    -0.0352186 -0.7 2.60334
+  faces 4
+    0 1 2  1  0 0 0  18
+    2 3 0  1  0 0 0  18
+    4 5 6  1  0 0 0  18
+    7 6 5  1  0 0 0  18
+endnode
+node emitter fire!12
+  parent nwn2_door_03
+  position 0.029346 0.033142 0.872178
+  orientation 0.0 -0.707107 -0.707107 -3.14159
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawntype_sel 0
+  spawnType 0
+  xSize 158.0
+  ySize 167.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.47451 0.439216 0.364706 
+  colorEnd 0.819608 0.796079 0.709804 
+  alphaStart 1.0
+  alphaEnd 0.0
+  sizeStart 4.0
+  sizeEnd 1.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 25
+  lifeExp 2.5
+  mass 0.09
+  spread 2.96706
+  particleRot 0.5
+  velocity 2.0
+  randvel 0.5
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 1
+  splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 10
+  framestart 0
+  frameend 24
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.2
+  blastLength 1.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node emitter ChunkyWood11
+  parent nwn2_door_03
+  position 0.029346 0.033142 1.28697
+  orientation 0.0 0.0 -1.0 -3.14159
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawntype_sel 0
+  spawnType 0
+  xSize 134.0
+  ySize 40.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.482353 0.435294 0.317647 
+  colorEnd 0.584314 0.533333 0.407843 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 3
+  lifeExp 0.75
+  mass 3.0
+  spread 1.22173
+  particleRot 2.9
+  velocity 8.0
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10.0
+  loop 0
+  bounce 1
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_cloud02
+  twosidedtex 1
+  xgrid 5
+  ygrid 5
+  fps 0
+  framestart 0
+  frameend 24
+  random 0
+  chunkName PLC_Chunk_M01
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node emitter ChunkyWood12
+  parent nwn2_door_03
+  position 0.029346 0.033142 0.387764
+  orientation 0.0 0.0 -1.0 -3.14159
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawntype_sel 0
+  spawnType 0
+  xSize 137.0
+  ySize 40.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 1.0 1.0 
+  colorEnd 1.0 1.0 1.0 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 3
+  lifeExp 0.75
+  mass 3.0
+  spread 1.22173
+  particleRot 5.0
+  velocity 8.0
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10.0
+  loop 0
+  bounce 1
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_cloud02
+  twosidedtex 0
+  xgrid 5
+  ygrid 5
+  fps 0
+  framestart 0
+  frameend 24
+  random 0
+  chunkName PLC_Chunk_S01
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node dummy nwn2_door_03grnd
+  parent nwn2_door_03
+  position 1.51771e-006 2.354e-006 0.02
+  orientation 0.0 0.0 -1.0 -1.5708
+  wirecolor 0.0313726 0.0313726 0.533333 
+endnode
+node dummy nwn2_door_03hhit
+  parent nwn2_door_03
+  position 1.51771e-006 2.354e-006 2.98709
+  orientation 0.0 0.0 -1.0 -1.5708
+  wirecolor 0.0313726 0.0313726 0.533333 
+endnode
+node dummy nwn2_door_03impc
+  parent nwn2_door_03
+  position 1.51771e-006 2.354e-006 1.58351
+  orientation 0.0 0.0 -1.0 -1.5708
+  wirecolor 0.0313726 0.0313726 0.533333 
+endnode
+node dummy nwn2_door_03head
+  parent nwn2_door_03
+  position 1.51771e-006 2.354e-006 3.43892
+  orientation 0.0 0.0 -1.0 -1.5708
+  wirecolor 0.0313726 0.0313726 0.533333 
+endnode
+node trimesh slumdoor01
+  parent nwn2_door_03
+  position -0.75 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0313726 0.0313726 0.529412 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 10
+  center 75.0235 -0.55589 135.0 
+  bitmap slum01
+  verts 168
+    1.33924 -0.111117 1.00154
+    1.33924 -0.111117 1.00154
+    1.33924 -0.111117 1.00154
+    1.33924 -0.00865132 1.00154
+    1.33924 -0.00865132 1.00154
+    1.38543 -0.00865132 1.00154
+    1.38543 -0.111117 1.00154
+    1.38543 -0.111117 1.00154
+    1.38543 -0.111117 1.00154
+    1.33924 -0.111117 1.25803
+    1.33924 -0.111117 1.25803
+    1.33924 -0.111117 1.25803
+    1.33924 -0.111117 1.25803
+    1.33924 -0.111117 1.25803
+    1.38543 -0.111117 1.25804
+    1.38543 -0.111117 1.25804
+    1.38543 -0.111117 1.25804
+    1.38543 -0.111117 1.25804
+    1.38543 -0.00865132 1.25804
+    1.38543 -0.00865132 1.25804
+    1.38543 -0.00865132 1.25804
+    1.38543 -0.00865132 1.25804
+    1.33924 -0.00865132 1.25804
+    1.33924 -0.00865132 1.25804
+    1.5 -1.24924e-006 0.0
+    1.5 -1.24924e-006 0.0
+    1.49953 -1.60166e-006 2.7
+    1.49953 -1.60166e-006 2.7
+    1.49953 -1.60166e-006 2.7
+    1.49953 -1.60166e-006 2.7
+    1.49953 -1.60166e-006 2.7
+    0.74328 -1.95407e-006 0.0
+    0.74328 -1.95407e-006 0.0
+    0.74328 -1.95407e-006 0.0
+    0.74328 -1.95407e-006 0.0
+    0.742809 -2.30649e-006 2.7
+    0.742809 -2.30649e-006 2.7
+    0.742809 -2.30649e-006 2.7
+    0.742809 -2.30649e-006 2.7
+    0.742809 -2.30649e-006 2.7
+    1.5 0.0999992 0.0
+    1.5 0.0999992 0.0
+    1.5 0.0999992 0.0
+    1.5 0.0999992 0.0
+    1.49953 0.0999988 2.7
+    1.49953 0.0999988 2.7
+    1.49953 0.0999988 2.7
+    1.49953 0.0999988 2.7
+    0.74328 0.0999985 0.0
+    0.74328 0.0999985 0.0
+    0.74328 0.0999985 0.0
+    0.742809 0.0999981 2.7
+    0.742809 0.0999981 2.7
+    0.742809 0.0999981 2.7
+    0.742809 0.0999981 2.7
+    0.742809 0.0999981 2.7
+    0.742809 0.0999981 2.7
+    0.0 0.0999981 2.7
+    0.0 0.0999981 2.7
+    0.0 0.0999981 2.7
+    0.0 0.0999981 2.7
+    0.0 0.0999981 2.7
+    -1.78593e-007 0.0999985 0.0
+    -1.78593e-007 0.0999985 0.0
+    -1.78593e-007 -1.95407e-006 0.0
+    -1.78593e-007 -1.95407e-006 0.0
+    -1.78593e-007 -1.95407e-006 0.0
+    -1.78593e-007 -1.95407e-006 2.7
+    -1.78593e-007 -1.95407e-006 2.7
+    -1.78593e-007 -1.95407e-006 2.7
+    -1.78593e-007 -1.95407e-006 2.7
+    -1.78593e-007 -1.95407e-006 2.7
+    0.000474396 -0.00982734 0.759883
+    0.000474396 -0.00982734 0.759883
+    1.50047 -0.00982663 0.759883
+    0.000474396 -0.00982734 0.937572
+    1.50044 -0.00982666 0.937572
+    1.50044 -0.00982666 0.937572
+    0.925784 -0.00080335 1.47675
+    0.925784 -0.00080335 1.47675
+    0.925784 -0.00080335 1.47675
+    0.574215 -0.00080335 1.47675
+    0.574215 -0.00080335 1.47675
+    0.574215 -0.00080335 1.47675
+    0.925784 -0.00080335 2.16885
+    0.925784 -0.00080335 2.16885
+    0.925784 -0.00080335 2.16885
+    0.574215 -0.00080335 2.16885
+    0.574215 -0.00080335 2.16885
+    0.574215 -0.00080335 2.16885
+    0.65441 -0.0165726 1.56802
+    0.65441 -0.0165726 1.56802
+    0.65441 -0.0165726 1.56802
+    0.845589 -0.0165726 1.56802
+    0.845589 -0.0165726 1.56802
+    0.845589 -0.0165726 1.56802
+    0.845589 -0.0165726 2.07758
+    0.845589 -0.0165726 2.07758
+    0.845589 -0.0165726 2.07758
+    0.65441 -0.0165726 2.07758
+    0.65441 -0.0165726 2.07758
+    0.65441 -0.0165726 2.07758
+    0.592501 -0.0572775 1.51274
+    0.592501 -0.0572775 1.51274
+    0.592501 -0.0572775 1.51274
+    0.592501 -0.0572775 1.51274
+    0.592501 -0.0572775 1.51274
+    0.592501 -0.0572775 1.51274
+    0.907498 -0.0572775 1.51274
+    0.907498 -0.0572775 1.51274
+    0.907498 -0.0572775 1.51274
+    0.907498 -0.0572775 1.51274
+    0.907498 -0.0572775 1.51274
+    0.907498 -0.0572775 1.51274
+    0.907498 -0.0572775 2.13286
+    0.907498 -0.0572775 2.13286
+    0.907498 -0.0572775 2.13286
+    0.907498 -0.0572775 2.13286
+    0.907498 -0.0572775 2.13286
+    0.907498 -0.0572775 2.13286
+    0.592501 -0.0572775 2.13286
+    0.592501 -0.0572775 2.13286
+    0.592501 -0.0572775 2.13286
+    0.592501 -0.0572775 2.13286
+    0.592501 -0.0572775 2.13286
+    0.592501 -0.0572775 2.13286
+    0.845589 -0.0572775 1.56802
+    0.845589 -0.0572775 1.56802
+    0.845589 -0.0572775 1.56802
+    0.845589 -0.0572775 1.56802
+    0.845589 -0.0572775 1.56802
+    0.845589 -0.0572775 1.56802
+    0.65441 -0.0572775 1.56802
+    0.65441 -0.0572775 1.56802
+    0.65441 -0.0572775 1.56802
+    0.65441 -0.0572775 1.56802
+    0.65441 -0.0572775 1.56802
+    0.65441 -0.0572775 1.56802
+    0.65441 -0.0572775 2.07758
+    0.65441 -0.0572775 2.07758
+    0.65441 -0.0572775 2.07758
+    0.65441 -0.0572775 2.07758
+    0.65441 -0.0572775 2.07758
+    0.65441 -0.0572775 2.07758
+    0.845589 -0.0572775 2.07758
+    0.845589 -0.0572775 2.07758
+    0.845589 -0.0572775 2.07758
+    0.845589 -0.0572775 2.07758
+    0.845589 -0.0572775 2.07758
+    0.845589 -0.0572775 2.07758
+    0.65441 -0.0165726 1.56802
+    0.65441 -0.0165726 1.56802
+    0.845589 -0.0165726 1.56802
+    0.845589 -0.0165726 2.07758
+    0.845589 -0.0165726 2.07758
+    0.65441 -0.0165726 2.07758
+    1.28127 -0.010036 1.42506
+    1.28127 -0.010036 1.42506
+    1.28127 -0.010036 0.938026
+    1.49848 -0.010036 1.42506
+    1.49848 -0.010036 0.938026
+    1.49848 -0.010036 0.938026
+    0.000474396 -0.00982734 0.470928
+    0.426957 -0.00982734 0.564276
+    0.000474396 -0.00982734 0.657623
+    0.000474396 -0.00982734 2.1436
+    0.426957 -0.00982734 2.23695
+    0.000474396 -0.00982734 2.3303
+  faces 56
+    18 22 9  1  18 22 9  1
+    10 14 19  1  10 14 19  1
+    15 11 0  1  15 11 0  1
+    1 6 16  1  1 6 16  1
+    20 17 7  1  20 17 7  1
+    8 5 21  1  8 5 21  1
+    12 23 3  1  12 23 3  1
+    4 2 13  1  4 2 13  1
+    48 62 57  1  57 74 69  1
+    58 51 49  1  70 60 58  1
+    52 44 40  1  61 53 49  1
+    41 50 53  1  50 59 62  1
+    42 45 26  1  51 54 26  1
+    27 24 43  1  27 24 52  1
+    35 28 46  1  35 28 55  1
+    47 54 36  1  56 63 36  1
+    67 37 55  1  79 37 64  1
+    56 59 68  1  65 71 80  1
+    69 64 31  1  81 76 31  1
+    32 38 70  1  32 38 82  1
+    29 39 33  1  29 39 33  1
+    34 25 30  1  34 25 30  1
+    65 71 60  1  77 83 72  1
+    61 63 66  1  73 75 78  1
+    76 75 72  1  88 87 84  1
+    73 74 77  1  85 86 89  1
+    102 108 126  1  120 126 144  1
+    127 132 103  1  145 150 121  1
+    109 114 144  1  127 132 162  1
+    145 128 110  1  163 146 128  1
+    115 120 138  1  133 138 156  1
+    139 146 116  1  157 164 134  1
+    121 104 133  1  139 122 151  1
+    134 140 122  1  152 158 140  1
+    81 78 111  1  93 90 129  1
+    112 105 82  1  130 123 94  1
+    79 84 117  1  91 96 135  1
+    118 113 80  1  136 131 92  1
+    85 87 123  1  97 99 141  1
+    124 119 86  1  142 137 98  1
+    88 83 106  1  100 95 124  1
+    107 125 89  1  125 143 101  1
+    93 90 135  1  107 102 153  1
+    136 129 94  1  154 147 108  1
+    91 99 141  1  103 116 159  1
+    142 137 92  1  160 155 104  1
+    100 96 147  1  117 111 165  1
+    148 143 101  1  166 161 118  1
+    97 95 130  1  112 109 148  1
+    131 149 98  1  149 167 113  1
+    150 152 153  1  168 170 171  1
+    154 155 151  1  172 173 169  1
+    160 159 156  1  178 177 174  1
+    157 158 161  1  175 176 179  1
+    162 163 164  1  186 187 188  1
+    165 166 167  1  189 190 191  1
+  tverts 192
+    0.943866 0.848368 0
+    0.943866 0.848368 0
+    0.955668 0.848368 0
+    0.934606 0.848368 0
+    0.934606 0.848368 0
+    0.937868 0.848368 0
+    0.960527 0.848368 0
+    0.916805 0.848368 0
+    0.916805 0.848368 0
+    0.943866 0.867837 0
+    0.943866 0.867837 0
+    0.943866 0.908368 0
+    0.955668 0.908368 0
+    0.955668 0.908368 0
+    0.960527 0.867837 0
+    0.960527 0.908368 0
+    0.960527 0.908368 0
+    0.916805 0.908368 0
+    0.960527 0.8889 0
+    0.960527 0.8889 0
+    0.937868 0.908368 0
+    0.937868 0.908368 0
+    0.943866 0.8889 0
+    0.934606 0.908368 0
+    0.772003 -0.583153 0
+    0.749928 -0.583153 0
+    0.772003 0.0309771 0
+    0.772003 0.0309771 0
+    0.749928 0.0102951 0
+    0.749928 0.0309771 0
+    0.749928 0.0309771 0
+    0.887785 -0.583153 0
+    0.887785 -0.583153 0
+    0.887785 -0.583153 0
+    0.887785 -0.583153 0
+    0.887785 0.0102951 0
+    0.887785 0.0102951 0
+    0.887785 0.0102951 0
+    0.887785 0.0309771 0
+    0.887785 0.0309771 0
+    0.0568082 0.881967 0
+    0.0568082 0.881967 0
+    0.127458 0.881966 0
+    0.0568084 0.916973 0
+    0.127458 0.916972 0
+    0.127458 0.916972 0
+    1.14757 -0.0825991 0
+    1.0473 -0.0995168 0
+    1.14757 -0.116438 0
+    0.749928 -0.583153 0
+    0.749928 -0.583153 0
+    0.749928 -0.583153 0
+    0.749928 -0.583153 0
+    0.749928 0.0309771 0
+    0.749928 0.0309771 0
+    0.749928 0.0250317 0
+    0.749928 0.0250317 0
+    0.887785 -0.583153 0
+    0.887785 -0.583153 0
+    0.887785 -0.583153 0
+    0.887785 0.0309771 0
+    0.887785 0.0309771 0
+    0.887785 0.0309771 0
+    0.887785 0.0250317 0
+    0.887785 0.0250317 0
+    0.887785 0.0250317 0
+    1.14757 -0.0825991 0
+    1.0473 -0.0995168 0
+    1.14757 -0.116438 0
+    0.750683 0.0309771 0
+    0.750683 0.0309771 0
+    0.750683 0.0250317 0
+    0.772003 0.0309771 0
+    0.772003 0.0309771 0
+    0.750683 -0.583153 0
+    0.772003 -0.583153 0
+    0.750683 -0.583153 0
+    0.749928 -0.583153 0
+    0.749928 -0.583153 0
+    0.750683 0.0102951 0
+    0.750683 0.0102951 0
+    0.750683 0.0309771 0
+    0.750683 0.0309771 0
+    0.749928 0.0309771 0
+    0.749867 -0.583153 0
+    0.749867 -0.583153 0
+    1.01197 -0.583153 0
+    0.749872 -0.542736 0
+    1.01197 -0.542736 0
+    1.01197 -0.542736 0
+    0.757299 0.766298 0
+    0.765606 0.732686 0
+    0.765606 0.732686 0
+    0.757299 0.858434 0
+    0.757299 0.858434 0
+    0.757299 0.732686 0
+    0.765606 0.892046 0
+    0.765606 0.766298 0
+    0.765606 0.766298 0
+    0.765606 0.858434 0
+    0.757299 0.892046 0
+    0.757299 0.892046 0
+    0.765606 0.837417 0
+    0.765606 0.753703 0
+    0.765606 0.753703 0
+    0.172081 0.879358 0
+    0.172081 0.879358 0
+    0.765606 0.787315 0
+    0.765606 0.787315 0
+    0.757299 0.753703 0
+    0.199673 0.879358 0
+    0.757299 0.787315 0
+    0.757299 0.871029 0
+    0.757299 0.871029 0
+    0.199673 0.9529 0
+    0.199673 0.9529 0
+    0.765606 0.871029 0
+    0.757299 0.837417 0
+    0.757299 0.837417 0
+    0.172081 0.9529 0
+    0.90478 0.732686 0
+    0.90478 0.732686 0
+    0.90478 0.732686 0
+    0.765606 0.858434 0
+    0.765606 0.732686 0
+    0.765606 0.732686 0
+    0.996916 0.732686 0
+    0.996916 0.732686 0
+    0.996916 0.732686 0
+    0.765606 0.766298 0
+    0.765606 0.766298 0
+    0.757299 0.732686 0
+    0.996916 0.892046 0
+    0.996916 0.887005 0
+    0.996916 0.887005 0
+    0.757299 0.892046 0
+    0.757299 0.892046 0
+    0.757299 0.766298 0
+    0.90478 0.887005 0
+    0.90478 0.892046 0
+    0.90478 0.892046 0
+    0.757299 0.858434 0
+    0.757299 0.858434 0
+    0.765606 0.892046 0
+    0.975899 0.753703 0
+    0.975899 0.753703 0
+    0.975899 0.753703 0
+    0.757299 0.787315 0
+    0.765606 0.753703 0
+    0.765606 0.753703 0
+    0.925797 0.753703 0
+    0.925797 0.753703 0
+    0.925797 0.753703 0
+    0.757299 0.837417 0
+    0.757299 0.837417 0
+    0.757299 0.753703 0
+    0.922039 0.871029 0
+    0.922039 0.871029 0
+    0.925797 0.871029 0
+    0.757299 0.871029 0
+    0.757299 0.871029 0
+    0.765606 0.837417 0
+    0.975899 0.871029 0
+    0.975899 0.871029 0
+    0.979657 0.871029 0
+    0.765606 0.787315 0
+    0.765606 0.787315 0
+    0.765606 0.871029 0
+    0.187864 0.319433 0
+    0.187864 0.319433 0
+    0.215456 0.319433 0
+    0.215456 0.373343 0
+    0.215456 0.373343 0
+    0.187864 0.373343 0
+    0.57949 0.0193308 0
+    0.57949 0.0193308 0
+    0.65014 0.0193298 0
+    0.579491 0.0543368 0
+    0.65014 0.0543358 0
+    0.65014 0.0543358 0
+    1.14757 -0.0825991 0
+    1.0473 -0.0995168 0
+    1.14757 -0.116438 0
+    1.14757 -0.0825991 0
+    1.0473 -0.0995168 0
+    1.14757 -0.116438 0
+    0.746548 0.487209 0
+    0.646278 0.470292 0
+    0.746548 0.453371 0
+    0.746548 0.487209 0
+    0.646278 0.470292 0
+    0.746548 0.453371 0
+endnode
+endmodelgeom nwn2_door_03
+#NWmax ANIM ASCII
+newanim opening1 nwn2_door_03
+  length 0.966667
+  transtime 0.25
+  animroot nwn2_door_03
+    node dummy nwn2_door_03
+        parent NULL
+    endnode
+    node trimesh sam
+        parent nwn2_door_03
+        alphakey
+            0.0 0.0 
+            0.966667 0.0 
+        endlist
+    endnode
+    node emitter fire!12
+        parent nwn2_door_03
+    endnode
+    node emitter ChunkyWood11
+        parent nwn2_door_03
+    endnode
+    node emitter ChunkyWood12
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03grnd
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03hhit
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03impc
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03head
+        parent nwn2_door_03
+    endnode
+    node trimesh slumdoor01
+        parent nwn2_door_03
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.9 0.0 0.0 1.0 -1.4564
+            0.966667 0.0 0.0 1.0 -1.50972
+        endlist
+    endnode
+    node dummy nwn2_door_03_DWK
+        parent nwn2_door_03
+    endnode
+    node dummy 03_DWK_dp_closed_01
+        parent nwn2_door_03_DWK
+    endnode
+    node dummy 03_DWK_dp_open1_01
+        parent nwn2_door_03_DWK
+    endnode
+    node dummy 03_DWK_dp_closed_02
+        parent nwn2_door_03_DWK
+    endnode
+    node dummy 03_DWK_dp_open2_01
+        parent nwn2_door_03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open1
+        parent nwn2_door_03_DWK
+    endnode
+    node trimesh 03_DWK_wg_closed
+        parent nwn2_door_03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open2
+        parent nwn2_door_03_DWK
+    endnode
+doneanim opening1 nwn2_door_03
+#NWmax ANIM ASCII
+newanim opened1 nwn2_door_03
+  length 0.0333333
+  transtime 0.25
+  animroot nwn2_door_03
+    node dummy nwn2_door_03
+        parent NULL
+    endnode
+    node trimesh sam
+        parent nwn2_door_03
+        alphakey
+            0.0 0.0 
+            0.0333333 0.0 
+        endlist
+    endnode
+    node emitter fire!12
+        parent nwn2_door_03
+    endnode
+    node emitter ChunkyWood11
+        parent nwn2_door_03
+    endnode
+    node emitter ChunkyWood12
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03grnd
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03hhit
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03impc
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03head
+        parent nwn2_door_03
+    endnode
+    node trimesh slumdoor01
+        parent nwn2_door_03
+        orientationkey
+            0.0 0.0 0.0 1.0 -1.50972
+            0.0333333 0.0 0.0 1.0 -1.50972
+        endlist
+    endnode
+    node dummy nwn2_door_03_DWK
+        parent nwn2_door_03
+    endnode
+    node dummy 03_DWK_dp_closed_01
+        parent nwn2_door_03_DWK
+    endnode
+    node dummy 03_DWK_dp_open1_01
+        parent nwn2_door_03_DWK
+    endnode
+    node dummy 03_DWK_dp_closed_02
+        parent nwn2_door_03_DWK
+    endnode
+    node dummy 03_DWK_dp_open2_01
+        parent nwn2_door_03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open1
+        parent nwn2_door_03_DWK
+    endnode
+    node trimesh 03_DWK_wg_closed
+        parent nwn2_door_03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open2
+        parent nwn2_door_03_DWK
+    endnode
+doneanim opened1 nwn2_door_03
+#NWmax ANIM ASCII
+newanim closing1 nwn2_door_03
+  length 0.966667
+  transtime 0.25
+  animroot nwn2_door_03
+    node dummy nwn2_door_03
+        parent NULL
+    endnode
+    node trimesh sam
+        parent nwn2_door_03
+        alphakey
+            0.0 0.0 
+            0.966667 0.0 
+        endlist
+    endnode
+    node emitter fire!12
+        parent nwn2_door_03
+    endnode
+    node emitter ChunkyWood11
+        parent nwn2_door_03
+    endnode
+    node emitter ChunkyWood12
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03grnd
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03hhit
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03impc
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03head
+        parent nwn2_door_03
+    endnode
+    node trimesh slumdoor01
+        parent nwn2_door_03
+        orientationkey
+            0.0 0.0 0.0 1.0 -1.50972
+            0.933333 0.0 0.0 -1.0 -0.0134999
+            0.966667 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node dummy nwn2_door_03_DWK
+        parent nwn2_door_03
+    endnode
+    node dummy 03_DWK_dp_closed_01
+        parent nwn2_door_03_DWK
+    endnode
+    node dummy 03_DWK_dp_open1_01
+        parent nwn2_door_03_DWK
+    endnode
+    node dummy 03_DWK_dp_closed_02
+        parent nwn2_door_03_DWK
+    endnode
+    node dummy 03_DWK_dp_open2_01
+        parent nwn2_door_03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open1
+        parent nwn2_door_03_DWK
+    endnode
+    node trimesh 03_DWK_wg_closed
+        parent nwn2_door_03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open2
+        parent nwn2_door_03_DWK
+    endnode
+doneanim closing1 nwn2_door_03
+#NWmax ANIM ASCII
+newanim closed nwn2_door_03
+  length 0.0333333
+  transtime 0.25
+  animroot nwn2_door_03
+    node dummy nwn2_door_03
+        parent NULL
+    endnode
+    node trimesh sam
+        parent nwn2_door_03
+        alphakey
+            0.0 0.0 
+            0.0333333 0.0 
+        endlist
+    endnode
+    node emitter fire!12
+        parent nwn2_door_03
+    endnode
+    node emitter ChunkyWood11
+        parent nwn2_door_03
+    endnode
+    node emitter ChunkyWood12
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03grnd
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03hhit
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03impc
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03head
+        parent nwn2_door_03
+    endnode
+    node trimesh slumdoor01
+        parent nwn2_door_03
+        orientationkey
+            0.0333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node dummy nwn2_door_03_DWK
+        parent nwn2_door_03
+    endnode
+    node dummy 03_DWK_dp_closed_01
+        parent nwn2_door_03_DWK
+    endnode
+    node dummy 03_DWK_dp_open1_01
+        parent nwn2_door_03_DWK
+    endnode
+    node dummy 03_DWK_dp_closed_02
+        parent nwn2_door_03_DWK
+    endnode
+    node dummy 03_DWK_dp_open2_01
+        parent nwn2_door_03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open1
+        parent nwn2_door_03_DWK
+    endnode
+    node trimesh 03_DWK_wg_closed
+        parent nwn2_door_03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open2
+        parent nwn2_door_03_DWK
+    endnode
+doneanim closed nwn2_door_03
+#NWmax ANIM ASCII
+newanim opening2 nwn2_door_03
+  length 1.0
+  transtime 0.25
+  animroot nwn2_door_03
+    node dummy nwn2_door_03
+        parent NULL
+    endnode
+    node trimesh sam
+        parent nwn2_door_03
+        alphakey
+            0.0 0.0 
+            0.966667 0.0 
+            1.0 0.0 
+        endlist
+    endnode
+    node emitter fire!12
+        parent nwn2_door_03
+    endnode
+    node emitter ChunkyWood11
+        parent nwn2_door_03
+    endnode
+    node emitter ChunkyWood12
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03grnd
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03hhit
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03impc
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03head
+        parent nwn2_door_03
+    endnode
+    node trimesh slumdoor01
+        parent nwn2_door_03
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.933333 0.0 0.0 -1.0 -1.5419
+            1.0 0.0 0.0 -1.0 -1.4224
+        endlist
+    endnode
+    node dummy nwn2_door_03_DWK
+        parent nwn2_door_03
+    endnode
+    node dummy 03_DWK_dp_closed_01
+        parent nwn2_door_03_DWK
+    endnode
+    node dummy 03_DWK_dp_open1_01
+        parent nwn2_door_03_DWK
+    endnode
+    node dummy 03_DWK_dp_closed_02
+        parent nwn2_door_03_DWK
+    endnode
+    node dummy 03_DWK_dp_open2_01
+        parent nwn2_door_03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open1
+        parent nwn2_door_03_DWK
+    endnode
+    node trimesh 03_DWK_wg_closed
+        parent nwn2_door_03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open2
+        parent nwn2_door_03_DWK
+    endnode
+doneanim opening2 nwn2_door_03
+#NWmax ANIM ASCII
+newanim opened2 nwn2_door_03
+  length 0.0
+  transtime 0.25
+  animroot nwn2_door_03
+    node dummy nwn2_door_03
+        parent NULL
+    endnode
+    node trimesh sam
+        parent nwn2_door_03
+    endnode
+    node emitter fire!12
+        parent nwn2_door_03
+    endnode
+    node emitter ChunkyWood11
+        parent nwn2_door_03
+    endnode
+    node emitter ChunkyWood12
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03grnd
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03hhit
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03impc
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03head
+        parent nwn2_door_03
+    endnode
+    node trimesh slumdoor01
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03_DWK
+        parent nwn2_door_03
+    endnode
+    node dummy 03_DWK_dp_closed_01
+        parent nwn2_door_03_DWK
+    endnode
+    node dummy 03_DWK_dp_open1_01
+        parent nwn2_door_03_DWK
+    endnode
+    node dummy 03_DWK_dp_closed_02
+        parent nwn2_door_03_DWK
+    endnode
+    node dummy 03_DWK_dp_open2_01
+        parent nwn2_door_03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open1
+        parent nwn2_door_03_DWK
+    endnode
+    node trimesh 03_DWK_wg_closed
+        parent nwn2_door_03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open2
+        parent nwn2_door_03_DWK
+    endnode
+doneanim opened2 nwn2_door_03
+#NWmax ANIM ASCII
+newanim closing2 nwn2_door_03
+  length 0.966667
+  transtime 0.25
+  animroot nwn2_door_03
+    node dummy nwn2_door_03
+        parent NULL
+    endnode
+    node trimesh sam
+        parent nwn2_door_03
+        alphakey
+            0.966667 0.0 
+        endlist
+    endnode
+    node emitter fire!12
+        parent nwn2_door_03
+    endnode
+    node emitter ChunkyWood11
+        parent nwn2_door_03
+    endnode
+    node emitter ChunkyWood12
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03grnd
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03hhit
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03impc
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03head
+        parent nwn2_door_03
+    endnode
+    node trimesh slumdoor01
+        parent nwn2_door_03
+        orientationkey
+            0.0 0.0 0.0 -1.0 -1.4224
+            0.933333 0.0 0.0 1.0 -0.0264801
+            0.966667 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node dummy nwn2_door_03_DWK
+        parent nwn2_door_03
+    endnode
+    node dummy 03_DWK_dp_closed_01
+        parent nwn2_door_03_DWK
+    endnode
+    node dummy 03_DWK_dp_open1_01
+        parent nwn2_door_03_DWK
+    endnode
+    node dummy 03_DWK_dp_closed_02
+        parent nwn2_door_03_DWK
+    endnode
+    node dummy 03_DWK_dp_open2_01
+        parent nwn2_door_03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open1
+        parent nwn2_door_03_DWK
+    endnode
+    node trimesh 03_DWK_wg_closed
+        parent nwn2_door_03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open2
+        parent nwn2_door_03_DWK
+    endnode
+doneanim closing2 nwn2_door_03
+#NWmax ANIM ASCII
+newanim trans nwn2_door_03
+  length 0.0333333
+  transtime 0.25
+  animroot nwn2_door_03
+    node dummy nwn2_door_03
+        parent NULL
+    endnode
+    node trimesh sam
+        parent nwn2_door_03
+        alphakey
+            0.0 0.25 
+            0.0333333 0.25 
+        endlist
+    endnode
+    node emitter fire!12
+        parent nwn2_door_03
+    endnode
+    node emitter ChunkyWood11
+        parent nwn2_door_03
+    endnode
+    node emitter ChunkyWood12
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03grnd
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03hhit
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03impc
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03head
+        parent nwn2_door_03
+    endnode
+    node trimesh slumdoor01
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03_DWK
+        parent nwn2_door_03
+    endnode
+    node dummy 03_DWK_dp_closed_01
+        parent nwn2_door_03_DWK
+    endnode
+    node dummy 03_DWK_dp_open1_01
+        parent nwn2_door_03_DWK
+    endnode
+    node dummy 03_DWK_dp_closed_02
+        parent nwn2_door_03_DWK
+    endnode
+    node dummy 03_DWK_dp_open2_01
+        parent nwn2_door_03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open1
+        parent nwn2_door_03_DWK
+    endnode
+    node trimesh 03_DWK_wg_closed
+        parent nwn2_door_03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open2
+        parent nwn2_door_03_DWK
+    endnode
+doneanim trans nwn2_door_03
+#NWmax ANIM ASCII
+newanim die nwn2_door_03
+  length 0.166667
+  transtime 0.0
+  animroot nwn2_door_03
+  event 0.0333333 detonate
+  event 0.0333333 detonate
+  event 0.0333333 detonate
+    node dummy nwn2_door_03
+        parent NULL
+    endnode
+    node trimesh sam
+        parent nwn2_door_03
+    endnode
+    node emitter fire!12
+        parent nwn2_door_03
+    endnode
+    node emitter ChunkyWood11
+        parent nwn2_door_03
+    endnode
+    node emitter ChunkyWood12
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03grnd
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03hhit
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03impc
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03head
+        parent nwn2_door_03
+    endnode
+    node trimesh slumdoor01
+        parent nwn2_door_03
+        positionkey
+            0.0 -1.0 -0.0663891 0.05
+            0.166667 -1.0 -0.0663891 -2.97054
+        endlist
+    endnode
+    node dummy nwn2_door_03_DWK
+        parent nwn2_door_03
+    endnode
+    node dummy 03_DWK_dp_closed_01
+        parent nwn2_door_03_DWK
+    endnode
+    node dummy 03_DWK_dp_open1_01
+        parent nwn2_door_03_DWK
+    endnode
+    node dummy 03_DWK_dp_closed_02
+        parent nwn2_door_03_DWK
+    endnode
+    node dummy 03_DWK_dp_open2_01
+        parent nwn2_door_03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open1
+        parent nwn2_door_03_DWK
+    endnode
+    node trimesh 03_DWK_wg_closed
+        parent nwn2_door_03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open2
+        parent nwn2_door_03_DWK
+    endnode
+doneanim die nwn2_door_03
+#NWmax ANIM ASCII
+newanim dead nwn2_door_03
+  length 0.0333333
+  transtime 0.25
+  animroot nwn2_door_03
+    node dummy nwn2_door_03
+        parent NULL
+    endnode
+    node trimesh sam
+        parent nwn2_door_03
+    endnode
+    node emitter fire!12
+        parent nwn2_door_03
+    endnode
+    node emitter ChunkyWood11
+        parent nwn2_door_03
+    endnode
+    node emitter ChunkyWood12
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03grnd
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03hhit
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03impc
+        parent nwn2_door_03
+    endnode
+    node dummy nwn2_door_03head
+        parent nwn2_door_03
+    endnode
+    node trimesh slumdoor01
+        parent nwn2_door_03
+        orientationkey
+            0.0333333 0.159236 -0.331927 -0.929768 -0.5875
+        endlist
+    endnode
+    node dummy nwn2_door_03_DWK
+        parent nwn2_door_03
+    endnode
+    node dummy 03_DWK_dp_closed_01
+        parent nwn2_door_03_DWK
+    endnode
+    node dummy 03_DWK_dp_open1_01
+        parent nwn2_door_03_DWK
+    endnode
+    node dummy 03_DWK_dp_closed_02
+        parent nwn2_door_03_DWK
+    endnode
+    node dummy 03_DWK_dp_open2_01
+        parent nwn2_door_03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open1
+        parent nwn2_door_03_DWK
+    endnode
+    node trimesh 03_DWK_wg_closed
+        parent nwn2_door_03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open2
+        parent nwn2_door_03_DWK
+    endnode
+doneanim dead nwn2_door_03
+donemodel nwn2_door_03

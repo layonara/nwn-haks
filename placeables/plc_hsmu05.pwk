@@ -1,0 +1,72 @@
+# Exported from NWmax 0.8 b60 at 25.11.2015 19:19:21
+# pwk file
+#
+#NWmax PWKMESH  ASCII
+node trimesh pwk
+  parent plc_hsmu05_pwk
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0313726 0.239216 0.541176 
+  multimaterial 12
+    NoWalk
+    WalkDirt
+    WalkGrass
+    WalkStone
+    WalkWood
+    WalkCarpet
+    WalkMetal
+    WalkSwamp
+    WalkMud
+    WalkLeaves
+    WalkWater
+    WalkPuddles
+  ambient 0.0 0.0 0.0 
+  diffuse 0.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 10.0
+  bitmap WalkMetal
+  verts 16
+    2.57842 5.32764 0.0
+    -8.68937 5.32764 0.0
+    -8.68937 -4.79289 0.0
+    1.89682 -4.79289 0.0
+    1.89682 -6.74182 0.0
+    9.56483 -6.74182 0.0
+    9.56483 8.49419 0.0
+    2.57842 8.49419 0.0
+    -5.58649 5.32764 0.0
+    -5.58649 4.37494 0.0
+    -7.65485 4.37494 0.0
+    -7.65485 2.49573 0.0
+    1.32115 2.49573 0.0
+    1.32116 4.37494 0.0
+    -3.41998 4.37494 0.0
+    -3.41998 5.32764 0.0
+  faces 14
+    0 13 12  0  0 0 0  7
+    12 3 0  0  0 0 0  7
+    5 6 0  0  0 0 0  7
+    0 3 5  0  0 0 0  7
+    0 15 14  0  0 0 0  7
+    14 13 0  0  0 0 0  7
+    10 9 8  0  0 0 0  7
+    8 1 10  0  0 0 0  7
+    11 10 1  0  0 0 0  7
+    1 2 11  0  0 0 0  7
+    12 11 2  0  0 0 0  7
+    2 3 12  0  0 0 0  7
+    6 7 0  0  0 0 0  7
+    3 4 5  0  0 0 0  7
+endnode
+node dummy u05_pwk_use01
+  parent plc_hsmu05_pwk
+  position 2.0724 6.47807 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.890196 0.596078 0.596078 
+endnode
+node dummy u05_pwk_use02
+  parent plc_hsmu05_pwk
+  position -4.53642 5.02752 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.890196 0.596078 0.596078 
+endnode
