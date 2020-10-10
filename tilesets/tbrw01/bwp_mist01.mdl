@@ -16,37 +16,37 @@ node dummy T03_ground02
   orientation  0.0 0.0 0.0  0.0
   wirecolor 0.721569 0.894118 0.6  
 endnode
-node emitter fire!06 
+node emitter fire!15 
   parent bwp_mist01 
-  position 0.0466596 -0.184915 2.36826
+  position 0.124359 -0.184915 2.27569
   orientation  1.0 0.0 0.0  -1.42244
   wirecolor 1.0 1.0 1.0  
-    colorStart 0.831373 0.831373 0.831373  
-    colorEnd 0.909804 0.909804 0.968628  
-    alphaStart 0.4 
+    colorStart 0.886275 0.909804 0.682353  
+    colorEnd 0.545098 0.470588 0.368627  
+    alphaStart 0.1 
     alphaEnd 0.0 
-    sizeStart 12.0 
+    sizeStart 2.0 
     sizeEnd 12.0 
     sizeStart_y 0.0 
     sizeEnd_y 0.0 
     frameStart 0 
-    frameEnd 24 
-    birthrate 0 
+    frameEnd 44 
+    birthrate 2 
     spawnType 0 
-    lifeExp -1.0 
+    lifeExp 10.0 
     mass 0.0 
-    spread 0.0 
-    particleRot 0.0 
-    velocity 0.0 
-    randvel 0.0 
+    spread 1.0472 
+    particleRot 0.2 
+    velocity 0.1 
+    randvel 0.1 
     fps 10 
     random 1 
     inherit 1 
     inherit_local 0 
     inherit_part 0 
     inheritvel 0 
-    xSize 40 
-    ySize 40 
+    xSize 60 
+    ySize 60 
     bounce 0 
     bounce_co 0.0 
     loop 0 
@@ -77,7 +77,7 @@ node emitter fire!06
     texture fxpa_smoke01 
     xgrid 4 
     ygrid 4 
-    affectedByWind false 
+    affectedByWind true 
     m_isTinted 0 
     renderorder 0 
     Splat 0 
