@@ -163,13 +163,13 @@ node emitter OmenEmitter240
   m_isTinted 0
   splat 0
   affectedByWind false
-  texture fxpa_flame00
+  texture fxpa_flame01
   twosidedtex 0
-  xgrid 4
-  ygrid 4
-  fps 24
+  xgrid 8
+  ygrid 8
+  fps 8
   framestart 0
-  frameend 15
+  frameend 63
   random 1
   lightningDelay 0.0
   lightningRadius 0.0
@@ -231,10 +231,10 @@ node emitter fire!03
   m_isTinted 0
   splat 0
   affectedByWind false
-  texture fxpa_smoke01
+  texture fxpa_mist
   twosidedtex 0
-  xgrid 5
-  ygrid 5
+  xgrid 4
+  ygrid 4
   fps 10
   framestart 0
   frameend 24
@@ -3213,8 +3213,8 @@ newanim animloop02 tfm01_s03_01
     node emitter OmenEmitter240
         parent tfm01_s03_01a
         birthratekey
-            0.0 6 
-            0.0333333 3 
+            0.0 1 
+            0.0333333 1
         endlist
     endnode
     node emitter fire!03
