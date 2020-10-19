@@ -1,0 +1,232 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Wed Oct 14 13:26:59 2020
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel trm02_k01_b22_02
+  classification TILE
+  setsupermodel trm02_k01_b22_02 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom trm02_k01_b22_02
+node dummy trm02_k01_b22_02
+  parent NULL
+endnode
+node light trm02_k01_b22_02ml1
+  parent trm02_k01_b22_02
+  position -1.5 -1.5 -6.5
+  ambientonly 0
+  shadow 0
+  nDynamicType 0
+  affectdynamic 1
+  lightpriority 5
+  fadinglight 0
+  flareradius 0
+  orientation 0 0 0 0
+  radius 14
+  multiplier 1
+  color 0 0 0
+endnode
+node light trm02_k01_b22_02ml2
+  parent trm02_k01_b22_02
+  position 1.5 1.5 -6
+  ambientonly 0
+  shadow 0
+  nDynamicType 0
+  affectdynamic 1
+  lightpriority 5
+  fadinglight 0
+  flareradius 0
+  orientation 0 0 0 0
+  radius 5
+  multiplier 1
+  color 0 0 0
+endnode
+node trimesh ground
+  parent trm02_k01_b22_02
+  position 0 0 -13.4
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  shadow 0
+  rotatetexture 1
+  bitmap trm02_gravel
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  verts 9
+    0 5 0
+    -5 5 0
+    0 0 0
+    -5 0 0
+    0 -5 0
+    -5 -5 0
+    5 5 0
+    5 0 0
+    5 -5 0
+  faces 8
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+    2 3 4 1 2 3 4 1
+    5 4 3 1 5 4 3 1
+    6 0 7 1 6 0 7 1
+    2 7 0 1 2 7 0 1
+    7 2 8 1 7 2 8 1
+    4 8 2 1 4 8 2 1
+  tverts 9
+    0 1 0
+    -1 1 0
+    0 0 0
+    -1 0 0
+    0 -1 0
+    -1 -1 0
+    1 1 0
+    1 0 0
+    1 -1 0
+endnode
+node aabb wok
+  parent trm02_k01_b22_02
+  position 0 0 0
+  bitmap NULL
+  ambient 0 0 0
+  diffuse 0 0 0.376471
+  specular 0 0 0
+  shininess 10
+  shadow 0
+  transparencyhint 0
+  orientation 0 0 0 0
+  render 0
+  verts 4
+    5 5 -13.4
+    -5 5 -13.4
+    5 -5 -13.4
+    -5 -5 -13.4
+  faces 2
+    0 1 2 1 0 0 0 17
+    3 2 1 1 0 0 0 17
+  aabb     -5 -5 -13.4 5 5 -13.4 -1
+    -5 -5 -13.4 5 5 -13.4 1
+    -5 -5 -13.4 5 5 -13.4 0
+endnode
+node trimesh water01
+  parent trm02_k01_b22_02
+  position 0 0 -11
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  shadow 0
+  rotatetexture 1
+  bitmap trm02_water01
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  verts 33
+    1.7 -1.55 0
+    1.82 -1.82 0
+    5 -5 0
+    5 5 0
+    -5 5 0
+    1.04 -1.04 0
+    2.69 -4.19 0
+    2.74 -5 0
+    2.63 -3.42 0
+    2.02 -2.23 0
+    1.92 -2.03 0
+    1.86 -1.9 0
+    1.9 -2.01 0
+    -5 -5 0
+    -2.76 -5 0
+    -2.74 -4.76 0
+    -2.71 -4.26 0
+    -2.71 -4.19 0
+    -2.64 -3.42 0
+    -2.13 -2.43 0
+    -2.1 -2.37 0
+    -2.04 -2.24 0
+    -1.93 -2.03 0
+    -1.92 -2.01 0
+    -1.87 -1.9 0
+    -1.71 -1.55 0
+    0.38 -0.53 0
+    0.19 -0.35 0
+    0.17 -0.35 0
+    -0.01 -0.35 0
+    -0.18 -0.35 0
+    -0.2 -0.35 0
+    -0.39 -0.53 0
+  faces 34
+    0 1 2 1 0 1 2 1
+    0 2 3 1 0 2 3 1
+    3 4 5 1 3 4 5 1
+    0 3 5 1 0 3 5 1
+    6 7 2 1 6 7 2 1
+    8 6 2 1 8 6 2 1
+    9 8 2 1 9 8 2 1
+    10 9 2 1 10 9 2 1
+    2 1 11 1 2 1 11 1
+    2 11 12 1 2 11 12 1
+    10 2 12 1 10 2 12 1
+    0 5 1 1 0 5 1 1
+    11 1 5 1 11 1 5 1
+    13 14 15 1 13 14 15 1
+    13 15 16 1 13 16 17 1
+    13 16 17 1 13 17 18 1
+    13 17 18 1 13 18 19 1
+    13 18 19 1 13 19 20 1
+    13 19 20 1 13 20 21 1
+    13 20 21 1 13 21 22 1
+    13 21 22 1 13 23 24 1
+    13 22 23 1 13 24 25 1
+    13 23 24 1 13 25 26 1
+    13 24 25 1 13 26 27 1
+    26 5 4 1 28 5 4 1
+    27 26 4 1 29 28 4 1
+    28 27 4 1 30 29 4 1
+    29 28 4 1 31 30 4 1
+    30 29 4 1 32 31 4 1
+    31 30 4 1 33 32 4 1
+    32 31 4 1 34 33 4 1
+    25 32 4 1 27 34 4 1
+    13 25 4 1 13 27 4 1
+    30 31 32 1 32 33 34 1
+  tverts 35
+    1.33932 0.690143 0
+    1.36378 0.636219 0
+    1.999 0.000999 0
+    1.999 1.999 0
+    0.0009995 1.999 0
+    1.20875 0.791254 0
+    1.53816 0.162478 0
+    1.54842 0.0009991 0
+    1.52537 0.316643 0
+    1.40361 0.553697 0
+    1.38313 0.593561 0
+    1.37085 0.620633 0
+    1.38051 0.599343 0
+    0.000999 0.0009995 0
+    0.449251 0.0009994 0
+    0.452263 0.0484047 0
+    0.452342 0.0496451 0
+    0.458691 0.149573 0
+    0.459511 0.162478 0
+    0.472301 0.316643 0
+    0.573432 0.513529 0
+    0.580498 0.527284 0
+    0.593105 0.551829 0
+    0.593252 0.552115 0
+    0.614541 0.593561 0
+    0.61656 0.598012 0
+    0.62663 0.620211 0
+    0.658352 0.690144 0
+    1.07541 0.894504 0
+    1.03777 0.929275 0
+    1.03412 0.929276 0
+    0.998836 0.929275 0
+    0.963551 0.929276 0
+    0.9599 0.929276 0
+    0.922264 0.894505 0
+endnode
+endmodelgeom trm02_k01_b22_02
+donemodel trm02_k01_b22_02
