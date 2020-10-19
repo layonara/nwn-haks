@@ -1,0 +1,105 @@
+#MAXMODEL ASCII
+# model: PNL_CHR_ALIGN
+filedependancy PNL_CHR_ALIGN.max
+newmodel PNL_CHR_ALIGN
+setsupermodel PNL_CHR_ALIGN NULL
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom PNL_CHR_ALIGN
+node dummy PNL_CHR_ALIGN
+  parent NULL
+  #part-number 0
+endnode
+node dummy CEButton
+  parent PNL_CHR_ALIGN
+  #part-number 1
+  position -1.38 -0.680000007 0.00999999978
+  orientation 0 0 0 0
+endnode
+node dummy TitleLabel
+  parent PNL_CHR_ALIGN
+  #part-number 2
+  position -3.5999999 2.1099999 0.00999999978
+  orientation 0 0 0 0
+endnode
+node dummy HelpText
+  parent PNL_CHR_ALIGN
+  #part-number 3
+  position 0.170000002 -1.76999998 0.00999999978
+  orientation 0 0 0 0
+endnode
+node dummy CancelButton
+  parent PNL_CHR_ALIGN
+  #part-number 4
+  position 2.48000002 -2.25999999 0.00999999978
+  orientation 0 0 0 0
+endnode
+node dummy OkButton
+  parent PNL_CHR_ALIGN
+  #part-number 5
+  position 0.170000002 -2.25999999 0.00999999978
+  orientation 0 0 0 0
+endnode
+node dummy NButton
+  parent PNL_CHR_ALIGN
+  #part-number 6
+  position -2.36999989 -0.0599999987 0.00999999978
+  orientation 0 0 0 0
+endnode
+node dummy LNButton
+  parent PNL_CHR_ALIGN
+  #part-number 10
+  position -3.5999999 -0.0599999987 0.00999999978
+  orientation 0 0 0 0
+endnode
+node dummy LGButton
+  parent PNL_CHR_ALIGN
+  #part-number 11
+  position -3.3599999 0.579999983 0.00999999978
+  orientation 0 0 0 0
+endnode
+node dummy NGButton
+  parent PNL_CHR_ALIGN
+  #part-number 12
+  position -2.36999989 1.13 0.00999999978
+  orientation 0 0 0 0
+endnode
+node dummy CGButton
+  parent PNL_CHR_ALIGN
+  #part-number 13
+  position -1.38 0.579999983 0.00999999978
+  orientation 0 0 0 0
+endnode
+node trimesh Plane06
+  parent PNL_CHR_ALIGN
+  #part-number 14
+  ambient 0.100000001 0.100000001 0.100000001
+  diffuse 1 1 1
+  specular 0.0450000018 0.0450000018 0.0450000018
+  shininess 26
+  bitmap gui_boxes_chrgen
+  verts 4
+    -3.71000004 2.40499997 0
+    -3.71000004 -2.40499997 0
+    3.71000004 2.40499997 0
+    3.71000004 -2.40499997 0
+  tverts 4
+    0.390583009 0.939328015 0
+    0.390583009 -0.00208645989 0
+    0.421916991 0.939328015 0
+    0.421916991 -0.00208682008 0
+  faces 2
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+  position 0 0.0350000001 -0.0500000007
+  orientation 0 0 0 0
+endnode
+node dummy ResetButton
+  parent PNL_CHR_ALIGN
+  #part-number 15
+  position 1.32000005 -2.25999999 0
+  orientation 0 0 0 0
+endnode
+endmodelgeom PNL_CHR_ALIGN
+
+donemodel PNL_CHR_ALIGN
