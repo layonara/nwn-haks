@@ -1,7 +1,5 @@
-# Exported from NWmax 0.8 b60 at 04.06.2010 16:47:45
-# wok file
-#
-#NWmax WALKMESH  ASCII
+# Rewritten by CleanModels 3 Version 3.5.2d Sat Oct 24 15:29:44 2020
+#MAXWALKMESH  ASCII
 beginwalkmeshgeom tdm01_a10_01
 node aabb wok
   parent tdm01_a10_01
@@ -13,16 +11,18 @@ node aabb wok
   specular 0 0 0
   shininess 1
   bitmap NULL
+  render 0
+  shadow 0
   verts 4
     -5 5 3
     -5 -5 3
     5 5 3
     5 -5 3
   faces 2
-    0 1 2  1  0 0 0  2
-    3 2 1  1  0 0 0  2
-  aabb     -5.00 -5.00 3.00   5.00 5.00 3.00   -1
-     -5.00 -5.00 3.00   5.00 5.00 3.00   1
-     -5.00 -5.00 3.00   5.00 5.00 3.00   0
+    0 1 2 1 0 0 0 2
+    3 2 1 1 0 0 0 2
+  aabb     -5 -5 3 5 5 3 -1
+    -5 -5 3 5 5 3 0
+    -5 -5 3 5 5 3 1
 endnode
 endwalkmeshgeom tdm01_a10_01

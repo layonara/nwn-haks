@@ -1,70 +1,49 @@
-# Exported from NWmax 0.8 b60 at 06.06.2010 15:49:16
-# wok file
-#
-#NWmax WALKMESH  ASCII
+# Rewritten by CleanModels 3 Version 3.5.2d Sat Oct 24 15:34:18 2020
+#MAXWALKMESH  ASCII
 beginwalkmeshgeom tdm01_v10_02
 node aabb wok
   parent tdm01_v10_02
-  position 0.0 0.0 0.0
-  orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.109804 0.109804 0.109804 
-  multimaterial 20
-    Dirt
-    Obscuring
-    Grass
-    Stone
-    Wood
-    Water
-    Nonwalk
-    Transparent
-    Carpet
-    Metal
-    Puddles
-    Swamp
-    Mud
-    Leaves
-    Lava
-    BottomlessPit
-    DeepWater
-    Door
-    Snow
-    Sand
-  ambient 0.0 0.0 0.0 
-  diffuse 1.0 1.0 1.0 
-  specular 0.0 0.0 0.0 
-  shininess 10.0
-  bitmap Obscuring
+  bitmap NULL
+  orientation 0 0 0 0
+  position 0 0 0
+  wirecolor 0.109804 0.109804 0.109804
+  ambient 0 0 0
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  render 0
+  shadow 0
   verts 7
-    -5.0 5.0 6.0
-    -5.0 -5.0 3.0
-    5.0 5.0 3.0
-    5.0 -5.0 6.0
-    0.0 0.0 3.0
+    -5 5 6
+    -5 -5 3
+    5 5 3
+    5 -5 6
+    0 0 3
     2.32 -2.32 4.39
-    -2.0 2.0 4.2
+    -2 2 4.2
   faces 8
-    6 1 4  1  0 0 0  2
-    3 5 1  1  0 0 0  2
-    3 2 5  1  0 0 0  2
-    6 4 2  1  0 0 0  2
-    5 2 4  1  0 0 0  2
-    5 4 1  1  0 0 0  2
-    0 6 2  1  0 0 0  2
-    0 1 6  1  0 0 0  2
-    aabb         -5.0 -5.0 3.0 5.0 5.0 6.0 -1
-        -5.0 -5.0 3.0 5.0 5.0 6.0 -1
-        -5.0 -5.0 3.0 0.0 5.0 6.0 -1
-        -5.0 -5.0 3.0 0.0 2.0 4.2 0
-        -5.0 -5.0 3.0 -2.0 5.0 6.0 7
-        -5.0 -5.0 3.0 5.0 5.0 6.0 -1
-        -5.0 -5.0 3.0 2.32 0.0 4.39 5
-        -5.0 2.0 3.0 5.0 5.0 6.0 6
-        -5.0 -5.0 3.0 5.0 5.0 6.0 -1
-        -5.0 -5.0 3.0 5.0 5.0 6.0 -1
-        -5.0 -5.0 3.0 5.0 -2.32 6.0 1
-        -2.0 0.0 3.0 5.0 5.0 4.2 3
-        0.0 -5.0 3.0 5.0 5.0 6.0 -1
-        2.32 -5.0 3.0 5.0 5.0 6.0 2
-        0.0 -2.32 3.0 5.0 5.0 4.39 4
+    6 1 4 1 0 0 0 2
+    3 5 1 1 0 0 0 2
+    3 2 5 1 0 0 0 2
+    6 4 2 1 0 0 0 2
+    5 2 4 1 0 0 0 2
+    5 4 1 1 0 0 0 2
+    0 6 2 1 0 0 0 2
+    0 1 6 1 0 0 0 2
+  aabb     -5 -5 3 5 5 6 -1
+    -5 -5 3 5 5 6 -1
+    -5 -5 3 0 5 6 -1
+    -5 -5 3 0 2 4.2 0
+    -5 -5 3 -2 5 6 7
+    -5 -5 3 5 5 6 -1
+    -5 -5 3 2.32 0 4.39 5
+    -5 2 3 5 5 6 6
+    -5 -5 3 5 5 6 -1
+    -5 -5 3 5 5 6 -1
+    -5 -5 3 5 -2.32 6 1
+    -2 0 3 5 5 4.2 3
+    0 -5 3 5 5 6 -1
+    2.32 -5 3 5 5 6 2
+    0 -2.32 3 5 5 4.39 4
 endnode
 endwalkmeshgeom tdm01_v10_02
