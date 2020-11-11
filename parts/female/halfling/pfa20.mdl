@@ -2,19 +2,19 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: pfa660
-filedependancy pfa660.max
-newmodel pfa660
-setsupermodel pfa660 dbh_anims
+# model: pfa20
+filedependancy pfa20.max
+newmodel pfa20
+setsupermodel pfa20 dbh_anims
 classification Character
 setanimationscale 0.64
 #NWmax GEOM  ASCII
-beginmodelgeom pfa660
-node dummy pfa660
+beginmodelgeom pfa20
+node dummy pfa20
   parent NULL
 endnode
 node dummy rootdummy
-  parent pfa660
+  parent pfa20
   position 0.000249023 -0.0325529 0.758
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.882353 0.345098 0.780392 
@@ -332,21 +332,21 @@ node dummy TF3_g01
   wirecolor 0.0235294 0.52549 0.0235294 
 endnode
 node dummy headconjure
-  parent pfa660
+  parent pfa20
   position -9.15547e-005 -0.103016 1.64265
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.0235294 0.52549 0.0235294 
 endnode
 node dummy handconjure
-  parent pfa660
+  parent pfa20
   position 0.00713316 0.173026 0.913801
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.0235294 0.52549 0.0235294 
 endnode
-endmodelgeom pfa660
+endmodelgeom pfa20
 
 #NWmax ANIM ASCII
-newanim sitdown pfa660
+newanim sitdown pfa20
   length 1.16667
   transtime 0.3
   animroot rootdummy
@@ -368,11 +368,11 @@ newanim sitdown pfa660
   event 0.466667 snd_footstep
   event 0.2 snd_footstep
   event 0.466667 snd_footstep
-    node dummy pfa660
+    node dummy pfa20
         parent NULL
     endnode
     node dummy rootdummy
-        parent pfa660
+        parent pfa20
         positionkey
             0.0 0.049056 -0.0608577 0.744641
             0.133333 0.00760741 0.0726637 0.748084
@@ -1062,24 +1062,24 @@ newanim sitdown pfa660
         endlist
     endnode
     node dummy headconjure
-        parent pfa660
+        parent pfa20
     endnode
     node dummy handconjure
-        parent pfa660
+        parent pfa20
     endnode
-doneanim sitdown pfa660
+doneanim sitdown pfa20
 
 
 #NWmax ANIM ASCII
-newanim sit pfa660
+newanim sit pfa20
   length 2.0
   transtime 0.4
   animroot rootdummy
-    node dummy pfa660
+    node dummy pfa20
         parent NULL
     endnode
     node dummy rootdummy
-        parent pfa660
+        parent pfa20
         positionkey
             0.0 0.000249065 -0.00393576 0.67347
             2.0 0.000249065 -0.00393576 0.67347
@@ -1458,11 +1458,11 @@ newanim sit pfa660
         endlist
     endnode
     node dummy headconjure
-        parent pfa660
+        parent pfa20
     endnode
     node dummy handconjure
-        parent pfa660
+        parent pfa20
     endnode
-doneanim sit pfa660
+doneanim sit pfa20
 
-donemodel pfa660
+donemodel pfa20

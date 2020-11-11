@@ -2,20 +2,20 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: pfh660
+# model: pfh20
 #local file: Unknown
 filedependancy Unknown
-newmodel pfh660
-setsupermodel pfh660 dbh_anims
+newmodel pfh20
+setsupermodel pfh20 dbh_anims
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
-beginmodelgeom pfh660
-node dummy pfh660
+beginmodelgeom pfh20
+node dummy pfh20
   parent NULL
 endnode
 node trimesh rootdummy
-  parent pfh660
+  parent pfh20
   position -0.00336336 0.0204976 1.2072
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.521569 0.521569 0.521569 
@@ -377,16 +377,16 @@ node dummy TF1R_g
   wirecolor 0.6 0.894118 0.6 
 endnode
 node dummy handconjure
-  parent pfh660
+  parent pfh20
   position 0.0 0.278383 1.4067
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.6 0.894118 0.6 
 endnode
 node dummy headconjure
-  parent pfh660
+  parent pfh20
   position 0.0 -0.0278785 2.31815
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.6 0.894118 0.6 
 endnode
-endmodelgeom pfh660
-donemodel pfh660
+endmodelgeom pfh20
+donemodel pfh20

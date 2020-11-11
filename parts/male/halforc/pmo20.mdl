@@ -2,19 +2,19 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: pmo660
-filedependancy pmo660.max
-newmodel pmo660
-setsupermodel pmo660 dbh_anims
+# model: pmo20
+filedependancy pmo20.max
+newmodel pmo20
+setsupermodel pmo20 dbh_anims
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
-beginmodelgeom pmo660
-node dummy pmo660
+beginmodelgeom pmo20
+node dummy pmo20
   parent NULL
 endnode
 node dummy rootdummy
-  parent pmo660
+  parent pmo20
   position -0.000405273 0.0200069 1.2072
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.603922 0.72549 0.898039 
@@ -332,16 +332,16 @@ node dummy TF1R_g
   wirecolor 0.878431 0.560784 0.341176 
 endnode
 node dummy headconjure
-  parent pmo660
+  parent pmo20
   position 0.0 -0.223819 2.76816
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.878431 0.560784 0.341176 
 endnode
 node dummy handconjure
-  parent pmo660
+  parent pmo20
   position 0.0 0.493417 1.68779
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.878431 0.560784 0.341176 
 endnode
-endmodelgeom pmo660
-donemodel pmo660
+endmodelgeom pmo20
+donemodel pmo20

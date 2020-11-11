@@ -2,19 +2,19 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: pmg660
+# model: pmg20
 filedependancy Unknown
-newmodel pmg660
-setsupermodel pmg660 dbh_anims
+newmodel pmg20
+setsupermodel pmg20 dbh_anims
 classification Character
 setanimationscale 0.62
 #NWmax GEOM  ASCII
-beginmodelgeom pmg660
-node dummy pmg660
+beginmodelgeom pmg20
+node dummy pmg20
   parent NULL
 endnode
 node dummy rootdummy
-  parent pmg660
+  parent pmg20
   position 0.00398691 0.0174597 1.16508
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.109804 0.584314 0.694118 
@@ -332,21 +332,21 @@ node dummy TF1R_g
   wirecolor 0.894118 0.721569 0.6 
 endnode
 node dummy handconjure
-  parent pmg660
+  parent pmg20
   position 0.00713318 0.305157 1.03104
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.894118 0.721569 0.6 
 endnode
 node dummy headconjure
-  parent pmg660
+  parent pmg20
   position -9.15527e-005 -0.147674 1.84923
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.882353 0.345098 0.780392 
 endnode
-endmodelgeom pmg660
+endmodelgeom pmg20
 
 #NWmax ANIM ASCII
-newanim sitdown pmg660
+newanim sitdown pmg20
   length 1.16667
   transtime 0.3
   animroot rootdummy
@@ -358,11 +358,11 @@ newanim sitdown pmg660
   event 0.466667 snd_footstep
   event 0.2 snd_footstep
   event 0.466667 snd_footstep
-    node dummy pmg660
+    node dummy pmg20
         parent NULL
     endnode
     node dummy rootdummy
-        parent pmg660
+        parent pmg20
         positionkey
             0.0 0.0479087 -0.00801201 0.743946
             0.133333 0.00687879 0.124161 0.747354
@@ -1081,24 +1081,24 @@ newanim sitdown pmg660
         endlist
     endnode
     node dummy handconjure
-        parent pmg660
+        parent pmg20
     endnode
     node dummy headconjure
-        parent pmg660
+        parent pmg20
     endnode
-doneanim sitdown pmg660
+doneanim sitdown pmg20
 
 
 #NWmax ANIM ASCII
-newanim sit pmg660
+newanim sit pmg20
   length 2.0
   transtime 0.4
   animroot rootdummy
-    node dummy pmg660
+    node dummy pmg20
         parent NULL
     endnode
     node dummy rootdummy
-        parent pmg660
+        parent pmg20
         positionkey
             0.0 -0.00040523 -0.00679978 0.653365
             2.0 -0.00040523 -0.00679978 0.653365
@@ -1473,11 +1473,11 @@ newanim sit pmg660
         endlist
     endnode
     node dummy handconjure
-        parent pmg660
+        parent pmg20
     endnode
     node dummy headconjure
-        parent pmg660
+        parent pmg20
     endnode
-doneanim sit pmg660
+doneanim sit pmg20
 
-donemodel pmg660
+donemodel pmg20

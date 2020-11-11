@@ -2,19 +2,19 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: pfo660
+# model: pfo20
 filedependancy Unknown
-newmodel pfo660
-setsupermodel pfo660 dbh_anims
+newmodel pfo20
+setsupermodel pfo20 dbh_anims
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
-beginmodelgeom pfo660
-node dummy pfo660
+beginmodelgeom pfo20
+node dummy pfo20
   parent NULL
 endnode
 node dummy rootdummy
-  parent pfo660
+  parent pfo20
   position 0.000249023 -0.0325529 1.19227
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.776471 0.878431 0.341176
@@ -332,16 +332,16 @@ node dummy TF3_g01
   wirecolor 0.6 0.894118 0.6
 endnode
 node dummy headconjure
-  parent pfo660
+  parent pfo20
   position 0.0 -0.0278787 2.31815
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.6 0.894118 0.6
 endnode
 node dummy handconjure
-  parent pfo660
+  parent pfo20
   position 0.0 0.278383 1.4067
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.6 0.894118 0.6
 endnode
-endmodelgeom pfo660
-donemodel pfo660
+endmodelgeom pfo20
+donemodel pfo20

@@ -2,19 +2,19 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: pma660
-filedependancy pma660.max
-newmodel pma660
-setsupermodel pma660 dbh_anims
+# model: pma20
+filedependancy pma20.max
+newmodel pma20
+setsupermodel pma20 dbh_anims
 classification Character
 setanimationscale 0.65
 #NWmax GEOM  ASCII
-beginmodelgeom pma660
-node dummy pma660
+beginmodelgeom pma20
+node dummy pma20
   parent NULL
 endnode
 node dummy rootdummy
-  parent pma660
+  parent pma20
   position -0.000405273 0.0200069 1.2072
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.443137 0.52549 0.0235294 
@@ -332,21 +332,21 @@ node dummy TF3_g01
   wirecolor 0.101961 0.694118 0.101961 
 endnode
 node dummy handconjure
-  parent pma660
+  parent pma20
   position 0.00713319 0.236507 1.01452
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.101961 0.694118 0.101961 
 endnode
 node dummy headconjure
-  parent pma660
+  parent pma20
   position -9.15547e-005 -0.103016 1.76282
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.101961 0.694118 0.101961 
 endnode
-endmodelgeom pma660
+endmodelgeom pma20
 
 #NWmax ANIM ASCII
-newanim sitdown pma660
+newanim sitdown pma20
   length 1.16667
   transtime 0.3
   animroot rootdummy
@@ -356,11 +356,11 @@ newanim sitdown pma660
   event 0.466667 snd_footstep
   event 0.2 snd_footstep
   event 0.466667 snd_footstep
-    node dummy pma660
+    node dummy pma20
         parent NULL
     endnode
     node dummy rootdummy
-        parent pma660
+        parent pma20
         positionkey
             0.0 0.0488898 -0.00858382 0.760256
             0.133333 0.00702256 0.126286 0.763734
@@ -1025,24 +1025,24 @@ newanim sitdown pma660
         endlist
     endnode
     node dummy handconjure
-        parent pma660
+        parent pma20
     endnode
     node dummy headconjure
-        parent pma660
+        parent pma20
     endnode
-doneanim sitdown pma660
+doneanim sitdown pma20
 
 
 #NWmax ANIM ASCII
-newanim sit pma660
+newanim sit pma20
   length 2.0
   transtime 0.4
   animroot rootdummy
-    node dummy pma660
+    node dummy pma20
         parent NULL
     endnode
     node dummy rootdummy
-        parent pma660
+        parent pma20
         positionkey
             0.0 -0.000410112 -0.00734685 0.667826
             2.0 -0.000410112 -0.00734685 0.667826
@@ -1409,11 +1409,11 @@ newanim sit pma660
         endlist
     endnode
     node dummy handconjure
-        parent pma660
+        parent pma20
     endnode
     node dummy headconjure
-        parent pma660
+        parent pma20
     endnode
-doneanim sit pma660
+doneanim sit pma20
 
-donemodel pma660
+donemodel pma20

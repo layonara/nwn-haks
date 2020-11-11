@@ -2,19 +2,19 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: pfg660
-filedependancy pfg660.max
-newmodel pfg660
-setsupermodel pfg660 dbh_anims
+# model: pfg20
+filedependancy pfg20.max
+newmodel pfg20
+setsupermodel pfg20 dbh_anims
 classification Character
 setanimationscale 0.64
 #NWmax GEOM  ASCII
-beginmodelgeom pfg660
-node dummy pfg660
+beginmodelgeom pfg20
+node dummy pfg20
   parent NULL
 endnode
 node dummy rootdummy
-  parent pfg660
+  parent pfg20
   position 0.000249023 -0.0325529 0.76818
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.423529 0.0313726 0.533333 
@@ -332,21 +332,21 @@ node dummy TF3_g01
   wirecolor 0.101961 0.694118 0.101961 
 endnode
 node dummy handconjure
-  parent pfg660
+  parent pfg20
   position 6.13188e-007 0.240254 0.983412
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.52549 0.231373 0.0313726 
 endnode
 node dummy headconjure
-  parent pfg660
+  parent pfg20
   position 0.0 -0.147675 1.75554
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.52549 0.231373 0.0313726 
 endnode
-endmodelgeom pfg660
+endmodelgeom pfg20
 
 #NWmax ANIM ASCII
-newanim sitdown pfg660
+newanim sitdown pfg20
   length 1.16667
   transtime 0.3
   animroot rootdummy
@@ -420,11 +420,11 @@ newanim sitdown pfg660
   event 0.466667 snd_footstep
   event 0.2 snd_footstep
   event 0.466667 snd_footstep
-    node dummy pfg660
+    node dummy pfg20
         parent NULL
     endnode
     node dummy rootdummy
-        parent pfg660
+        parent pfg20
         positionkey
             0.0 0.049549 -0.0611436 0.754686
             0.133333 0.00768174 0.0737265 0.758164
@@ -1114,24 +1114,24 @@ newanim sitdown pfg660
         endlist
     endnode
     node dummy handconjure
-        parent pfg660
+        parent pfg20
     endnode
     node dummy headconjure
-        parent pfg660
+        parent pfg20
     endnode
-doneanim sitdown pfg660
+doneanim sitdown pfg20
 
 
 #NWmax ANIM ASCII
-newanim sit pfg660
+newanim sit pfg20
   length 2.0
   transtime 0.4
   animroot rootdummy
-    node dummy pfg660
+    node dummy pfg20
         parent NULL
     endnode
     node dummy rootdummy
-        parent pfg660
+        parent pfg20
         positionkey
             0.0 0.000249065 -0.00364669 0.682796
             2.0 0.000249065 -0.00364669 0.682796
@@ -1510,11 +1510,11 @@ newanim sit pfg660
         endlist
     endnode
     node dummy handconjure
-        parent pfg660
+        parent pfg20
     endnode
     node dummy headconjure
-        parent pfg660
+        parent pfg20
     endnode
-doneanim sit pfg660
+doneanim sit pfg20
 
-donemodel pfg660
+donemodel pfg20

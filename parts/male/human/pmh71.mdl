@@ -1,10 +1,11 @@
-# Exported from NWmax 0.8 b25 at 1/14/2005 4:29:25 PM mdl file
+# Exported from NWmax 0.8 b25 at 1/14/2005 4:29:25 PM
+# mdl file
 #
 #NWmax MODEL ASCII
 # model: pmh71
 filedependancy pmh71.max
 newmodel pmh71
-setsupermodel pmh71 brh_anims
+setsupermodel pmh71 glh_anims
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
@@ -117,7 +118,7 @@ endnode
 node dummy Impact
   parent torso_g
   position -0.0125054 0.10645 0.267087
-  orientation 1.0 0.0 0.0 0.0
+  orientation 1 0 0 0
   wirecolor 0.894118 0.721569 0.6 
 endnode
 node dummy Cloak_g
