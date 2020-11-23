@@ -46,7 +46,9 @@ node trimesh rootdummy
   position -4.17941992e-05 0.0320684984 1.20720005
   orientation 0 0 0 0
   scale 1
+  setfillumcolor 0 0 0
   alpha 1
+  setfillumcolor 0 0 0
 endnode
 node trimesh pelvis_g
   parent rootdummy
@@ -245,7 +247,9 @@ node trimesh pelvis_g
   position 0.00356028997 0.0103382999 0.000206145996
   orientation 0 0 0 0
   scale 1
+  setfillumcolor 0 0 0
   alpha 1
+  setfillumcolor 0 0 0
 endnode
 node trimesh lthigh_g
   parent pelvis_g
@@ -333,7 +337,9 @@ node trimesh lthigh_g
   position -0.108069003 -0.0234425999 -0.182440996
   orientation 0 0 0 0
   scale 1
+  setfillumcolor 0 0 0
   alpha 1
+  setfillumcolor 0 0 0
 endnode
 node trimesh lshin_g
   parent lthigh_g
@@ -410,7 +416,9 @@ node trimesh lshin_g
   position 0.0306218006 -0.0164710004 -0.46093601
   orientation 0 0 0 0
   scale 1
+  setfillumcolor 0 0 0
   alpha 1
+  setfillumcolor 0 0 0
 endnode
 node trimesh rthigh_g
   parent pelvis_g
@@ -498,7 +506,9 @@ node trimesh rthigh_g
   position 0.108070001 -0.0234425999 -0.182440996
   orientation 0 0 0 0
   scale 1
+  setfillumcolor 0 0 0
   alpha 1
+  setfillumcolor 0 0 0
 endnode
 node trimesh rshin_g
   parent rthigh_g
@@ -575,7 +585,9 @@ node trimesh rshin_g
   position -0.0306199994 -0.0164708998 -0.46093601
   orientation 0 0 0 0
   scale 1
+  setfillumcolor 0 0 0
   alpha 1
+  setfillumcolor 0 0 0
 endnode
 node trimesh torso_g
   parent rootdummy
@@ -750,7 +762,9 @@ node trimesh torso_g
   position 0.000405169005 0.0103382999 0.000205994002
   orientation 0 0 0 0
   scale 1
+  setfillumcolor 0 0 0
   alpha 1
+  setfillumcolor 0 0 0
 endnode
 node trimesh rbicep_g
   parent torso_g
@@ -859,7 +873,9 @@ node trimesh rbicep_g
   position 0.201010004 -0.0794902965 0.349985987
   orientation 0 0 0 0
   scale 1
+  setfillumcolor 0 0 0
   alpha 1
+  setfillumcolor 0 0 0
 endnode
 node trimesh rforearm_g
   parent rbicep_g
@@ -947,7 +963,9 @@ node trimesh rforearm_g
   position 0.0390300006 0.0212190002 -0.30192101
   orientation 0 0 0 0
   scale 1
+  setfillumcolor 0 0 0
   alpha 1
+  setfillumcolor 0 0 0
 endnode
 node trimesh lbicep_g
   parent torso_g
@@ -1056,7 +1074,9 @@ node trimesh lbicep_g
   position -0.201004997 -0.0794904009 0.349985987
   orientation 0 0 0 0
   scale 1
+  setfillumcolor 0 0 0
   alpha 1
+  setfillumcolor 0 0 0
 endnode
 node trimesh lforearm_g
   parent lbicep_g
@@ -1144,7 +1164,9 @@ node trimesh lforearm_g
   position -0.0390346982 0.0212190002 -0.30192101
   orientation 0 0 0 0
   scale 1
+  setfillumcolor 0 0 0
   alpha 1
+  setfillumcolor 0 0 0
 endnode
 node trimesh chestmale
   parent torso_g
@@ -1153,7 +1175,7 @@ node trimesh chestmale
   diffuse 1 1 1
   specular 0 0 0
   shininess 13
-  bitmap pmh0_robe008
+  bitmap pmh43_robe008
   verts 29
     0.166397005 -0.159642994 0.406342
     0.235833004 -0.0738179013 0.352212012
@@ -1269,7 +1291,9 @@ node trimesh chestmale
   position -0.000363372994 0.000428561994 -4.77600006e-05
   orientation 0 0 0 0
   scale 1
+  setfillumcolor 0 0 0
   alpha 1
+  setfillumcolor 0 0 0
 endnode
 node skin MHRobe
   parent pmh43_robe008
@@ -1278,7 +1302,7 @@ node skin MHRobe
   diffuse 1 1 1
   specular 0 0 0
   shininess 13
-  bitmap pmh0_robe008
+  bitmap pmh43_robe008
   verts 252
     -0.178184003 0.105336003 0.441044003
     -0.211757004 0.122717999 0.296907008
@@ -2444,6 +2468,7 @@ node skin MHRobe
   position -0.000287770003 -0.0260310005 1.15717006
   orientation 0 0 0 0
   alpha 1
+  setfillumcolor 0 0 0
 endnode
 node skin MHRobe2
   parent pmh43_robe008
@@ -2452,7 +2477,7 @@ node skin MHRobe2
   diffuse 1 1 1
   specular 0 0 0
   shininess 13
-  bitmap pmh0_robe008
+  bitmap pmh43_robe008
   verts 140
     -0.217785001 0.197678 -0.796931982
     -0.13538 0.275040001 -0.796931982
@@ -3047,6 +3072,7 @@ node skin MHRobe2
   position -0.000287770003 -0.0260310005 1.15717006
   orientation 0 0 0 0
   alpha 1
+  setfillumcolor 0 0 0
 endnode
 endmodelgeom pmh43_robe008
 
