@@ -10,7 +10,7 @@ HasHeightTransition=1
 EnvMap=twl02_refl
 Transition=2
 DisplayName=-1
-UnlocalizedName=Wildlands Winter
+UnlocalizedName=[DA] Winter Wildlands
 Border=Clearing
 Default=Clearing
 Floor=Clearing
@@ -19,7 +19,7 @@ Floor=Clearing
 Grass=1
 GrassTextureName=twl02_grass01
 Density=5.0
-Height=1.0
+Height=0.5
 AmbientRed=1.000
 AmbientGreen=1.000
 AmbientBlue=1.000
@@ -103,7 +103,7 @@ Count=0
 Count=0
 
 [TILES]
-Count=175
+Count=179
 
 [TILE0]
 Model=twl02_a04_01
@@ -1314,7 +1314,7 @@ Doors=1
 Sounds=0
 PathNode=A
 Orientation=0
-ImageMap2D=mi_twl02_c04_25
+ImageMap2D=mi_twl02_c05_24
 
 [TILE41DOOR0]
 Type=0
@@ -3883,7 +3883,7 @@ Type=194
 X=0.00
 Y=-1.00
 Z=1.00
-Orientation=180
+Orientation=0
 
 [TILE133]
 Model=twl02_j02_33
@@ -5111,10 +5111,10 @@ Orientation=0
 ImageMap2D=mi_twl02_c12_72
 
 [TILE173DOOR0]
-Type=57
-X=-0.26
-Y=-0.39
-Z=-1.20
+Type=118
+X=-0.24
+Y=0.40
+Z=-0.35
 Orientation=5.0
 
 [TILE174]
@@ -5145,8 +5145,120 @@ PathNode=I
 Orientation=270
 ImageMap2D=mi_twl02_j02_34
 
+[TILE175]
+Model=twl02_c04_09
+WalkMesh=msb01
+TopLeft=Clearing
+TopLeftHeight=0
+TopRight=Clearing
+TopRightHeight=0
+BottomLeft=Clearing
+BottomLeftHeight=0
+BottomRight=Clearing
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=0
+MainLight2=0
+SourceLight1=0
+SourceLight2=0
+AnimLoop1=0
+AnimLoop2=0
+AnimLoop3=0
+Doors=0
+Sounds=0
+PathNode=A
+Orientation=0
+ImageMap2D=mi_twl02_c04_03
+
+[TILE176]
+Model=twl02_c11_04
+WalkMesh=msb01
+TopLeft=Clearing
+TopLeftHeight=0
+TopRight=Clearing
+TopRightHeight=1
+BottomLeft=Clearing
+BottomLeftHeight=0
+BottomRight=Clearing
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=0
+MainLight2=0
+SourceLight1=0
+SourceLight2=0
+AnimLoop1=0
+AnimLoop2=0
+AnimLoop3=0
+Doors=0
+Sounds=0
+PathNode=A
+Orientation=0
+ImageMap2D=mi_twl02_c11_02
+
+[TILE177]
+Model=twl02_c04_33
+WalkMesh=msb01
+TopLeft=Clearing
+TopLeftHeight=0
+TopRight=Clearing
+TopRightHeight=0
+BottomLeft=Clearing
+BottomLeftHeight=0
+BottomRight=Clearing
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=0
+MainLight2=0
+SourceLight1=0
+SourceLight2=0
+AnimLoop1=0
+AnimLoop2=0
+AnimLoop3=0
+Doors=0
+Sounds=0
+PathNode=A
+Orientation=0
+ImageMap2D=mi_twl02_c04_32
+
+[TILE178]
+Model=twl02_d01_32
+WalkMesh=msb01
+TopLeft=Clearing
+TopLeftHeight=0
+TopRight=Clearing
+TopRightHeight=0
+BottomLeft=Clearing
+BottomLeftHeight=0
+BottomRight=Clearing
+BottomRightHeight=0
+Top=Path
+Right=
+Bottom=Path
+Left=
+MainLight1=0
+MainLight2=0
+SourceLight1=0
+SourceLight2=0
+AnimLoop1=0
+AnimLoop2=0
+AnimLoop3=0
+Doors=0
+Sounds=0
+PathNode=A
+Orientation=0
+ImageMap2D=mi_twl02_d01_31
+
 [GROUPS]
-Count=29
+Count=32
 
 [GROUP0]
 Name=House [1x1]
@@ -5198,7 +5310,7 @@ Columns=1
 Tile0=44
 
 [GROUP8]
-Name=Graves [1x1]
+Name=Graves 1 [1x1]
 Rows=1
 Columns=1
 Tile0=58
@@ -5328,3 +5440,9 @@ Name=City Wall Stairs [1x1]
 Rows=1
 Columns=1
 Tile0=167
+
+[GROUP29]
+Name=Graves 2 [1x1]
+Rows=1
+Columns=1
+Tile0=177
