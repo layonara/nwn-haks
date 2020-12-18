@@ -1,0 +1,150 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Thu Dec 03 05:43:35 2020
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel tno01_b20_04
+  classification TILE
+  setsupermodel tno01_b20_04 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom tno01_b20_04
+node dummy tno01_b20_04
+  parent NULL
+endnode
+node light tno01_b20_04ml2
+  parent tno01_b20_04
+  position 1.5 1.5 9
+  orientation 0 0 0 0
+  wirecolor 1 1 1
+  radius 5
+  multiplier 1
+  color 0 0 0
+  ambientonly 0
+  nDynamicType 0
+  affectdynamic 1
+  shadow 0
+  lightpriority 5
+  fadinglight 1
+endnode
+node light tno01_b20_04ml1
+  parent tno01_b20_04
+  position -1.5 -1.5 8.5
+  orientation 0 0 0 0
+  wirecolor 1 1 1
+  radius 14
+  multiplier 1
+  color 0 0 0
+  ambientonly 0
+  nDynamicType 0
+  affectdynamic 1
+  shadow 0
+  lightpriority 5
+  fadinglight 1
+endnode
+node aabb wok
+  parent tno01_b20_04
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 1 1 1
+  bitmap NULL
+  render 0
+  shadow 0
+  verts 4
+    5 5 1.6
+    -5 5 1.6
+    5 -5 1.6
+    -5 -5 1.6
+  faces 2
+    0 1 2 1 0 0 0 17
+    3 2 1 1 0 0 0 17
+  aabb     -5 -5 1.6 5 5 1.6 -1
+    -5 -5 1.6 5 5 1.6 1
+    -5 -5 1.6 5 5 1.6 0
+endnode
+node trimesh ground
+  parent tno01_b20_04
+  position 0 0 1.6
+  orientation 0 0 0 0
+  wirecolor 1 1 1
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 1
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  center 0 0 0
+  bitmap tno01_wtcliff02
+  verts 9
+    0 5 0
+    -5 5 0
+    0 0 0
+    -5 0 0
+    0 -5 0
+    -5 -5 0
+    5 5 0
+    5 0 0
+    5 -5 0
+  faces 8
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+    2 3 4 1 2 3 4 1
+    5 4 3 1 5 4 3 1
+    6 0 7 1 6 0 7 1
+    2 7 0 1 2 7 0 1
+    7 2 8 1 7 2 8 1
+    4 8 2 1 4 8 2 1
+  tverts 9
+    0 1 0
+    -1 1 0
+    0 0 0
+    -1 0 0
+    0 -1 0
+    -1 -1 0
+    1 1 0
+    1 0 0
+    1 -1 0
+endnode
+node trimesh water
+  parent tno01_b20_04
+  position 0 0 4
+  orientation 0 0 0 0
+  wirecolor 1 1 1
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 1
+  alpha 1
+  transparencyhint 1
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 3
+  center 0 0 0
+  bitmap tno01_water01
+  verts 4
+    5 5 0
+    -5 5 0
+    5 -5 0
+    -5 -5 0
+  faces 2
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+  tverts 4
+    0.998047 0.998047 0
+    -0.998047 0.998047 0
+    0.998047 -0.998047 0
+    -0.998047 -0.998047 0
+endnode
+endmodelgeom tno01_b20_04
+donemodel tno01_b20_04
