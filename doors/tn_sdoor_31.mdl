@@ -1,0 +1,175 @@
+# Exported from NWmax 0.8 c00 at 10/29/2019 12:59:16 PM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: tn_sdoor_31
+#local file: M:\BD Tile Fixes\Source Files\Doors\TN_SDOOR_31.max
+filedependancy TN_SDOOR_31.max
+newmodel tn_sdoor_31
+setsupermodel tn_sdoor_31 NULL
+classification Door
+#NWmax GEOM  ASCII
+beginmodelgeom tn_sdoor_31
+node dummy tn_sdoor_31
+  parent NULL
+endnode
+node dummy tn_sdoor_31head
+  parent tn_sdoor_31
+  position 0.0388232 0.00394531 2.59243
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0313726 0.0313726 0.533333 
+endnode
+node dummy tn_sdoor_31hhit
+  parent tn_sdoor_31
+  position 0.0388232 0.00394531 2.22034
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0313726 0.0313726 0.533333 
+endnode
+node dummy tn_sdoor_31impc
+  parent tn_sdoor_31
+  position 0.0388232 0.00394531 1.27816
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0313726 0.0313726 0.533333 
+endnode
+node dummy tn_sdoor_31grnd
+  parent tn_sdoor_31
+  position 0.0388232 0.00394531 0.0401132
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0313726 0.0313726 0.533333 
+endnode
+node trimesh sam
+  parent tn_sdoor_31
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 0.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 1.0 
+  ambient 0.2 0.2 0.2 
+  Diffuse 0.8 0.8 0.8 
+  Specular 0.0 0.0 0.0 
+  shininess 1
+  center undefined
+  bitmap NULL
+  verts 14
+    1.72925 0.68184 3.03143
+    -2.60385 2.6587 2.74284
+    2.44212 -1.66352 -0.72195
+    -3.39446 0.237294 -0.63195
+    -0.721944 -0.108941 -0.673491
+    -0.185579 2.44999 3.58102
+    0.714954 0.862255 2.97293
+    1.72925 0.741836 3.03143
+    -2.60385 2.7187 2.74284
+    2.44212 -1.60352 -0.72195
+    -3.39446 0.29729 -0.63195
+    -0.721944 -0.0489444 -0.673491
+    -0.185579 2.50999 3.58102
+    0.714954 0.922251 2.97293
+  faces 12
+    5 1 4  1  0 0 0  5
+    3 4 1  1  0 0 0  5
+    0 5 6  1  0 0 0  5
+    5 4 6  1  0 0 0  5
+    4 2 6  1  0 0 0  5
+    6 2 0  1  0 0 0  5
+    8 12 11  1  0 0 0  5
+    11 10 8  1  0 0 0  5
+    12 7 13  1  0 0 0  5
+    11 12 13  1  0 0 0  5
+    9 11 13  1  0 0 0  5
+    9 13 7  1  0 0 0  5
+endnode
+endmodelgeom tn_sdoor_31
+
+#NWmax ANIM ASCII
+newanim trans tn_sdoor_31
+  length 0.0333333
+  transtime 0.25
+  animroot tn_sdoor_31
+    node dummy tn_sdoor_31
+        parent NULL
+    endnode
+    node dummy tn_sdoor_31head
+        parent tn_sdoor_31
+    endnode
+    node dummy tn_sdoor_31hhit
+        parent tn_sdoor_31
+    endnode
+    node dummy tn_sdoor_31impc
+        parent tn_sdoor_31
+    endnode
+    node dummy tn_sdoor_31grnd
+        parent tn_sdoor_31
+    endnode
+    node dummy tn_sdoor_31_DWK
+        parent tn_sdoor_31
+    endnode
+    node dummy 31_DWK_dp_closed_02
+        parent tn_sdoor_31_DWK
+    endnode
+    node dummy 31_DWK_dp_closed_01
+        parent tn_sdoor_31_DWK
+    endnode
+    node trimesh 31_DWK_wg_closed
+        parent tn_sdoor_31_DWK
+    endnode
+    node trimesh sam
+        parent tn_sdoor_31
+        alphakey
+            0.0 0.25 
+            0.0333333 0.25 
+        endlist
+    endnode
+doneanim trans tn_sdoor_31
+
+
+#NWmax ANIM ASCII
+newanim default tn_sdoor_31
+  length 0.0333333
+  transtime 0.25
+  animroot tn_sdoor_31
+    node dummy tn_sdoor_31
+        parent NULL
+    endnode
+    node dummy tn_sdoor_31head
+        parent tn_sdoor_31
+    endnode
+    node dummy tn_sdoor_31hhit
+        parent tn_sdoor_31
+    endnode
+    node dummy tn_sdoor_31impc
+        parent tn_sdoor_31
+    endnode
+    node dummy tn_sdoor_31grnd
+        parent tn_sdoor_31
+    endnode
+    node dummy tn_sdoor_31_DWK
+        parent tn_sdoor_31
+    endnode
+    node dummy 31_DWK_dp_closed_02
+        parent tn_sdoor_31_DWK
+    endnode
+    node dummy 31_DWK_dp_closed_01
+        parent tn_sdoor_31_DWK
+    endnode
+    node trimesh 31_DWK_wg_closed
+        parent tn_sdoor_31_DWK
+    endnode
+    node trimesh sam
+        parent tn_sdoor_31
+        alphakey
+            0.0 0.0 
+            0.0333333 0.0 
+        endlist
+    endnode
+doneanim default tn_sdoor_31
+
+donemodel tn_sdoor_31
