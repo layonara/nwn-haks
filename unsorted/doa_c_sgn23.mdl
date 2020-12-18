@@ -8,7 +8,7 @@ beginmodelgeom doa_c_sgn23
 node dummy doa_c_sgn23
   parent null
 endnode
-node emitter chunkywood188
+node emitter chunkywood188.013
   parent doa_c_sgn23
   position  0.00000  0.00000  2.00000
   orientation  0.00000  1.00000  0.00000  0.00000
@@ -58,7 +58,7 @@ node emitter chunkywood188
   inherit_local 0
   inherit_part 0
 endnode
-node trimesh damage74
+node trimesh damage74.007
   parent doa_c_sgn23
   position  0.00000  0.00000  2.00000
   orientation  0.00000  1.00000  0.00000  0.00000
@@ -80,7 +80,7 @@ node trimesh damage74
     0 1 2 1  0 0 0 0
     2 3 0 1  0 0 0 0
 endnode
-node trimesh arm
+node trimesh arm.007
   parent doa_c_sgn23
   position  0.00000  0.05000  2.96000
   orientation  0.00000  1.00000  0.00000  0.00000
@@ -127,7 +127,7 @@ node trimesh arm
     1 0 4 1   9  8 11 0
     4 7 1 1  11 10  9 0
 endnode
-node trimesh sides
+node trimesh sides.007
   parent doa_c_sgn23
   position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
@@ -166,7 +166,7 @@ node trimesh sides
     6 2 7 7  6 7 0 0
     7 2 1 8  0 7 1 0
 endnode
-node trimesh face1
+node trimesh face1.007
   parent doa_c_sgn23
   position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
@@ -191,7 +191,7 @@ node trimesh face1
     0 1 2 1  0 1 2 0
     2 3 0 1  2 3 0 0
 endnode
-node trimesh face2
+node trimesh face2.007
   parent doa_c_sgn23
   position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
@@ -227,10 +227,10 @@ newanim die doa_c_sgn23
   node dummy doa_c_sgn23
     parent null
   endnode
-  node emitter chunkywood188
+  node emitter chunkywood188.013
     parent doa_c_sgn23
   endnode
-  node trimesh damage74
+  node trimesh damage74.007
     parent doa_c_sgn23
     positionkey 2
        0.000 -0.00607  0.18981  0.00000
@@ -240,16 +240,16 @@ newanim die doa_c_sgn23
        0.000  0.00000  0.00000  1.00000  3.14159
     endlist
   endnode
-  node trimesh arm
+  node trimesh arm.007
     parent doa_c_sgn23
   endnode
-  node trimesh sides
+  node trimesh sides.007
     parent doa_c_sgn23
   endnode
-  node trimesh face1
+  node trimesh face1.007
     parent doa_c_sgn23
   endnode
-  node trimesh face2
+  node trimesh face2.007
     parent doa_c_sgn23
   endnode
 doneanim die doa_c_sgn23
