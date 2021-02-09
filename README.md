@@ -20,7 +20,7 @@ Resources that make up the NWN Layonara HAKs. Build instructions are provided be
 ## Building Haks
 You need to clone this repository either from a command line with the following command or using a UI interface for git that you downloaded:
 
-`git clone https://github.com/plenarius/layo-haks`
+`git clone https://github.com/layonara/nwn-haks`
 
 Once that's complete you can build the haks by opening a prompt, `cd` into the newly cloned repository folder and running:
 
