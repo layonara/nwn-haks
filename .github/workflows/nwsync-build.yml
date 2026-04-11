@@ -1,0 +1,19 @@
+name: NWSync Build
+
+on:
+  push:
+    branches: [64bit]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: SSH to leanthar and run build
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.LEANTHAR_SSH_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          echo "${{ secrets.LEANTHAR_KNOWN_HOSTS }}" > ~/.ssh/known_hosts
+          ssh -o BatchMode=yes root@5.161.122.37 '/opt/layonara/nwsync-builder/build.sh'
