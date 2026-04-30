@@ -82,6 +82,14 @@ def make_default_backend() -> DockerExecBackend | None:
     )
 
 
+# HTTP read timeout for action=query and similar one-shot reads. We saw a
+# burst of 14 transient timeouts in the F-G alphabetical run during the
+# ~2,200-page category sync (likely transient backend slowness on Coolify's
+# wiki container under load). 20 s was too tight; 60 s gives plenty of
+# headroom without making genuinely-stuck requests hang forever.
+READ_TIMEOUT = 60
+
+
 class WikiClient:
     def __init__(self, creds: WikiCreds,
                  write_backend: DockerExecBackend | None = None,
@@ -107,7 +115,7 @@ class WikiClient:
     def login(self) -> None:
         r = self._session.get(self._creds.api_url, params={
             "action": "query", "meta": "tokens", "type": "login", "format": "json",
-        }, timeout=20)
+        }, timeout=READ_TIMEOUT)
         r.raise_for_status()
         login_token = r.json()["query"]["tokens"]["logintoken"]
 
@@ -117,7 +125,7 @@ class WikiClient:
             "lgpassword": self._creds.password,
             "lgtoken": login_token,
             "format": "json",
-        }, timeout=20)
+        }, timeout=READ_TIMEOUT)
         r.raise_for_status()
         result = r.json().get("login", {}).get("result")
         if result != "Success":
@@ -126,7 +134,7 @@ class WikiClient:
 
         r = self._session.get(self._creds.api_url, params={
             "action": "query", "meta": "tokens", "format": "json",
-        }, timeout=20)
+        }, timeout=READ_TIMEOUT)
         r.raise_for_status()
         self._csrf = r.json()["query"]["tokens"]["csrftoken"]
 
@@ -149,7 +157,7 @@ class WikiClient:
                 }
                 if cont:
                     params.update(cont)
-                r = self._session.get(self._creds.api_url, params=params, timeout=20)
+                r = self._session.get(self._creds.api_url, params=params, timeout=READ_TIMEOUT)
                 r.raise_for_status()
                 payload = r.json()
                 for img in payload.get("query", {}).get("allimages", []):
@@ -163,7 +171,7 @@ class WikiClient:
         r = self._session.get(self._creds.api_url, params={
             "action": "query", "prop": "revisions", "rvprop": "content", "rvslots": "main",
             "titles": title, "formatversion": "2", "format": "json",
-        }, timeout=20)
+        }, timeout=READ_TIMEOUT)
         r.raise_for_status()
         pages = r.json().get("query", {}).get("pages", [])
         if not pages:
