@@ -69,12 +69,17 @@ def _row_compare(label: str, layo: str, stock: str, highlight: bool) -> str:
 
 
 def render_identical(record_obj, display_fields: list[tuple[str, Callable]],
-                     extra: str = "") -> str:
+                     extra: str = "", categories: list[str] | None = None) -> str:
     """Single-column stat block.
 
     `extra` is wikitext appended after the table (and badge) but before the
     source-attribution note. Use it for sections that don't fit the per-field
     row layout, e.g. a master feat's `== Variants ==` bullet list.
+
+    `categories` (optional list of category names without the `Category:`
+    prefix) are emitted as `[[Category:Name]]` tags inside the autosync
+    block, immediately after the source note. They participate in the
+    block's lifecycle: re-syncs refresh them.
     """
     rows = []
     for label, getter in display_fields:
@@ -84,11 +89,12 @@ def render_identical(record_obj, display_fields: list[tuple[str, Callable]],
         rows.append(_row(label, v))
     body = "{| class=\"wikitable\" style=\"width:100%; max-width:48em;\"\n" + "".join(rows) + "|}\n"
     badge = "<small>''Identical to stock NWN:EE.''</small>"
-    return _wrap(body + "\n" + badge + _join_extra(extra) + "\n\n" + SOURCE_NOTE)
+    return _wrap(body + "\n" + badge + _join_extra(extra) + "\n\n"
+                 + SOURCE_NOTE + _render_categories(categories))
 
 
 def render_custom(record_obj, display_fields: list[tuple[str, Callable]],
-                  extra: str = "") -> str:
+                  extra: str = "", categories: list[str] | None = None) -> str:
     """Single-column stat block with a custom-content badge."""
     rows = []
     for label, getter in display_fields:
@@ -98,11 +104,13 @@ def render_custom(record_obj, display_fields: list[tuple[str, Callable]],
         rows.append(_row(label, v))
     body = "{| class=\"wikitable\" style=\"width:100%; max-width:48em;\"\n" + "".join(rows) + "|}\n"
     badge = "<small>''Custom Layonara content (no stock NWN:EE equivalent).''</small>"
-    return _wrap(body + "\n" + badge + _join_extra(extra) + "\n\n" + SOURCE_NOTE)
+    return _wrap(body + "\n" + badge + _join_extra(extra) + "\n\n"
+                 + SOURCE_NOTE + _render_categories(categories))
 
 
 def render_modified(layo, stock, display_fields: list[tuple[str, Callable]],
-                    deltas: set[str], extra: str = "") -> str:
+                    deltas: set[str], extra: str = "",
+                    categories: list[str] | None = None) -> str:
     """Two-column comparison table; differing rows highlighted, with inline
     word-level diff annotations on the differing cells."""
     rows = []
@@ -127,7 +135,8 @@ def render_modified(layo, stock, display_fields: list[tuple[str, Callable]],
         '<del style="background:#ffc7ce;">removed</del> '
         "words are marked inline within differing cells.''</small>"
     )
-    return _wrap(body + "\n" + legend + _join_extra(extra) + "\n\n" + SOURCE_NOTE)
+    return _wrap(body + "\n" + legend + _join_extra(extra) + "\n\n"
+                 + SOURCE_NOTE + _render_categories(categories))
 
 
 def render_removed(label: str) -> str:
@@ -143,6 +152,24 @@ def _join_extra(extra: str) -> str:
     if not extra:
         return ""
     return "\n\n" + extra.strip()
+
+
+def _render_categories(categories: list[str] | None) -> str:
+    """Render a list of category names as `[[Category:Name]]` tags.
+
+    Each tag goes on its own line for readability when editing the page
+    source. Deduped (preserving first-seen order) so a misconfigured
+    callable returning duplicates doesn't double-tag the page.
+    """
+    if not categories:
+        return ""
+    seen = set()
+    unique = []
+    for c in categories:
+        if c not in seen:
+            seen.add(c)
+            unique.append(c)
+    return "\n\n" + "\n".join(f"[[Category:{c}]]" for c in unique)
 
 
 def _wrap(body: str) -> str:

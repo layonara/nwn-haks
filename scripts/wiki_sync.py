@@ -163,6 +163,7 @@ def _build_blocks_for(entries_layo: dict, entries_stock: dict, display_fields,
                       kind: str,
                       cross_kind_suffixes: dict[tuple[str, str], str] | None = None,
                       extra_render=None,
+                      categories=None,
                       ) -> dict[str, tuple[str, object]]:
     """Return {label: (managed_block_wikitext, layo_record)} for each requested entry.
 
@@ -210,13 +211,16 @@ def _build_blocks_for(entries_layo: dict, entries_stock: dict, display_fields,
         stock_rec = entries_stock.get(label)
         deltas = diff_records(layo_rec, stock_rec, display_fields)
         extra = extra_render(layo_rec, stock_rec) if extra_render else ""
+        cats = categories(layo_rec) if categories else None
         if stock_rec is None:
-            block = render_custom(layo_rec, display_fields, extra=extra)
+            block = render_custom(layo_rec, display_fields,
+                                  extra=extra, categories=cats)
         elif not deltas:
-            block = render_identical(layo_rec, display_fields, extra=extra)
+            block = render_identical(layo_rec, display_fields,
+                                     extra=extra, categories=cats)
         else:
             block = render_modified(layo_rec, stock_rec, display_fields,
-                                    set(deltas), extra=extra)
+                                    set(deltas), extra=extra, categories=cats)
         blocks[label] = (block, layo_rec)
     return blocks
 
@@ -391,7 +395,8 @@ def main() -> int:
                                    filter_terms, skipped_no_name,
                                    collisions, ct.kind,
                                    cross_kind_suffixes=cross_kind_suffixes,
-                                   extra_render=ct.extra_render)
+                                   extra_render=ct.extra_render,
+                                   categories=ct.categories)
         if args.limit:
             blocks = dict(list(blocks.items())[:args.limit])
         blocks_per_kind[ct.kind] = blocks

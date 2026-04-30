@@ -29,6 +29,12 @@ A ContentType describes:
                   comparison/identical/custom table and before the source
                   attribution note. Use for content that doesn't fit a
                   per-field row (e.g. a `== Variants ==` bullet list).
+  categories:     optional callable(layo_record) -> list[str]
+                  MediaWiki category names (no `Category:` prefix) to attach
+                  to the page. Emitted as `[[Category:Name]]` tags inside the
+                  autosync block so they refresh on every sync. Lets the wiki
+                  Special:Categories index automatically reflect the registry
+                  without us having to maintain a separate index page.
   icon_attr:      attribute name on each record that holds the icon resref
                   (None => no icon row in the autosync table)
   tlk_columns:    columns whose values are TLK string references; the stock
@@ -62,6 +68,7 @@ class ContentType:
     xref_link: Optional[Callable] = None
     post_link: Optional[Callable] = None
     extra_render: Optional[Callable] = None
+    categories: Optional[Callable] = None
     icon_attr: Optional[str] = None
     tlk_columns: tuple[str, ...] = field(default_factory=tuple)
     disambig_suffix: str = ""

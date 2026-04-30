@@ -33,6 +33,10 @@ from .masterfeat_record import (
     MASTERFEAT_DISPLAY_FIELDS, load_masterfeats_full,
     link_masterfeat_variants, extra_render_masterfeat,
 )
+from .categories import (
+    spell_categories, feat_categories, skill_categories, race_categories,
+    class_categories, masterfeat_categories,
+)
 
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
@@ -54,6 +58,7 @@ CONTENT_TYPES: list[ContentType] = [
         display_fields=SPELL_DISPLAY_FIELDS,
         loader=load_spells,
         xref_link=link_spell_xrefs,
+        categories=spell_categories,
         icon_attr="icon_resref",
         tlk_columns=("Name", "SpellDesc", "AltMessage"),
         disambig_suffix="Spell",
@@ -67,6 +72,7 @@ CONTENT_TYPES: list[ContentType] = [
         display_fields=SKILL_DISPLAY_FIELDS,
         loader=load_skills,
         xref_link=None,
+        categories=skill_categories,
         icon_attr="icon",
         tlk_columns=("Name", "Description"),
         disambig_suffix="Skill",
@@ -80,6 +86,7 @@ CONTENT_TYPES: list[ContentType] = [
         display_fields=RACE_DISPLAY_FIELDS,
         loader=load_races,
         xref_link=link_race_xrefs,
+        categories=race_categories,
         icon_attr="icon",
         tlk_columns=("Name", "ConverName", "ConverNameLower", "NamePlural",
                      "Description", "Biography"),
@@ -94,6 +101,7 @@ CONTENT_TYPES: list[ContentType] = [
         display_fields=CLASS_DISPLAY_FIELDS,
         loader=load_classes,
         xref_link=None,
+        categories=class_categories,
         icon_attr="icon",
         tlk_columns=("Name", "Plural", "Lower", "Description"),
         disambig_suffix="Class",
@@ -107,6 +115,7 @@ CONTENT_TYPES: list[ContentType] = [
         display_fields=FEAT_DISPLAY_FIELDS,
         loader=load_feats,
         xref_link=link_feat_xrefs,
+        categories=feat_categories,
         icon_attr="icon",
         tlk_columns=("FEAT", "DESCRIPTION"),
         disambig_suffix="Feat",
@@ -126,6 +135,7 @@ CONTENT_TYPES: list[ContentType] = [
         loader=load_masterfeats_full,
         post_link=link_masterfeat_variants,
         extra_render=extra_render_masterfeat,
+        categories=masterfeat_categories,
         icon_attr="icon",
         tlk_columns=("STRREF", "DESCRIPTION"),
         # Master feats win the bare title (no suffix) when no other kind
