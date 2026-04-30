@@ -162,6 +162,7 @@ def _build_blocks_for(entries_layo: dict, entries_stock: dict, display_fields,
                       collisions: list[tuple[str, str, list[str]]],
                       kind: str,
                       cross_kind_suffixes: dict[tuple[str, str], str] | None = None,
+                      extra_render=None,
                       ) -> dict[str, tuple[str, object]]:
     """Return {label: (managed_block_wikitext, layo_record)} for each requested entry.
 
@@ -175,6 +176,11 @@ def _build_blocks_for(entries_layo: dict, entries_stock: dict, display_fields,
     `cross_kind_suffixes[(kind, label)]` is consulted to resolve cross-kind
     title collisions (so e.g. the skill `Heal` lands on `Heal (Skill)` when
     the spell `Heal` already owns the bare title).
+
+    `extra_render(layo_rec, stock_rec_or_none) -> str` is appended inside the
+    autosync block (after the table, before the source note) when supplied.
+    Use for content that doesn't fit the per-field row layout, e.g. a master
+    feat's bullet list of variants.
     """
     suffixes = cross_kind_suffixes or {}
 
@@ -203,12 +209,14 @@ def _build_blocks_for(entries_layo: dict, entries_stock: dict, display_fields,
         label, layo_rec = chosen
         stock_rec = entries_stock.get(label)
         deltas = diff_records(layo_rec, stock_rec, display_fields)
+        extra = extra_render(layo_rec, stock_rec) if extra_render else ""
         if stock_rec is None:
-            block = render_custom(layo_rec, display_fields)
+            block = render_custom(layo_rec, display_fields, extra=extra)
         elif not deltas:
-            block = render_identical(layo_rec, display_fields)
+            block = render_identical(layo_rec, display_fields, extra=extra)
         else:
-            block = render_modified(layo_rec, stock_rec, display_fields, set(deltas))
+            block = render_modified(layo_rec, stock_rec, display_fields,
+                                    set(deltas), extra=extra)
         blocks[label] = (block, layo_rec)
     return blocks
 
@@ -257,6 +265,20 @@ def _link_xrefs(records, layo_id_maps, stock_id_maps, log):
         log.debug("linking xrefs for %s ...", ct.kind)
         ct.xref_link(layo, layo_id_maps)
         ct.xref_link(stock, stock_id_maps)
+
+
+def _run_post_links(records, layo_id_maps, stock_id_maps,
+                    cross_kind_suffixes, log):
+    """Run each ContentType's `post_link` hook AFTER all xref linkers AND
+    the cross-kind disambiguator have finished. Master feats use this to
+    inventory their child feat variants and resolve their wiki page titles."""
+    for ct in CONTENT_TYPES:
+        if ct.post_link is None:
+            continue
+        layo, stock = records[ct.kind]
+        log.debug("running post-link hook for %s ...", ct.kind)
+        ct.post_link(layo, stock, records, layo_id_maps, stock_id_maps,
+                     cross_kind_suffixes)
 
 
 def main() -> int:
@@ -352,6 +374,13 @@ def main() -> int:
                  "(e.g. %s)", n,
                  ", ".join(f"{k[0]}:{k[1]} -> ({s})" for k, s in sample))
 
+    # post_link hooks need both the per-kind xrefs (already done) AND the
+    # cross-kind disambiguator (just computed above). Master feats use this
+    # to bucket their child feat variants and resolve their final page
+    # titles before the variant bullet list is rendered.
+    _run_post_links(records, layo_id_maps, stock_id_maps,
+                    cross_kind_suffixes, log)
+
     # blocks_per_kind[kind] = {label: (block_text, layo_record)}
     blocks_per_kind: dict[str, dict[str, tuple[str, object]]] = {}
     skipped_no_name: list[str] = []
@@ -361,7 +390,8 @@ def main() -> int:
         blocks = _build_blocks_for(layo, stock, ct.display_fields,
                                    filter_terms, skipped_no_name,
                                    collisions, ct.kind,
-                                   cross_kind_suffixes=cross_kind_suffixes)
+                                   cross_kind_suffixes=cross_kind_suffixes,
+                                   extra_render=ct.extra_render)
         if args.limit:
             blocks = dict(list(blocks.items())[:args.limit])
         blocks_per_kind[ct.kind] = blocks

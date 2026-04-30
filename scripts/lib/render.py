@@ -68,8 +68,14 @@ def _row_compare(label: str, layo: str, stock: str, highlight: bool) -> str:
     )
 
 
-def render_identical(record_obj, display_fields: list[tuple[str, Callable]]) -> str:
-    """Single-column stat block."""
+def render_identical(record_obj, display_fields: list[tuple[str, Callable]],
+                     extra: str = "") -> str:
+    """Single-column stat block.
+
+    `extra` is wikitext appended after the table (and badge) but before the
+    source-attribution note. Use it for sections that don't fit the per-field
+    row layout, e.g. a master feat's `== Variants ==` bullet list.
+    """
     rows = []
     for label, getter in display_fields:
         v = getter(record_obj)
@@ -78,10 +84,11 @@ def render_identical(record_obj, display_fields: list[tuple[str, Callable]]) -> 
         rows.append(_row(label, v))
     body = "{| class=\"wikitable\" style=\"width:100%; max-width:48em;\"\n" + "".join(rows) + "|}\n"
     badge = "<small>''Identical to stock NWN:EE.''</small>"
-    return _wrap(body + "\n" + badge + "\n\n" + SOURCE_NOTE)
+    return _wrap(body + "\n" + badge + _join_extra(extra) + "\n\n" + SOURCE_NOTE)
 
 
-def render_custom(record_obj, display_fields: list[tuple[str, Callable]]) -> str:
+def render_custom(record_obj, display_fields: list[tuple[str, Callable]],
+                  extra: str = "") -> str:
     """Single-column stat block with a custom-content badge."""
     rows = []
     for label, getter in display_fields:
@@ -91,11 +98,11 @@ def render_custom(record_obj, display_fields: list[tuple[str, Callable]]) -> str
         rows.append(_row(label, v))
     body = "{| class=\"wikitable\" style=\"width:100%; max-width:48em;\"\n" + "".join(rows) + "|}\n"
     badge = "<small>''Custom Layonara content (no stock NWN:EE equivalent).''</small>"
-    return _wrap(body + "\n" + badge + "\n\n" + SOURCE_NOTE)
+    return _wrap(body + "\n" + badge + _join_extra(extra) + "\n\n" + SOURCE_NOTE)
 
 
 def render_modified(layo, stock, display_fields: list[tuple[str, Callable]],
-                    deltas: set[str]) -> str:
+                    deltas: set[str], extra: str = "") -> str:
     """Two-column comparison table; differing rows highlighted, with inline
     word-level diff annotations on the differing cells."""
     rows = []
@@ -120,7 +127,7 @@ def render_modified(layo, stock, display_fields: list[tuple[str, Callable]],
         '<del style="background:#ffc7ce;">removed</del> '
         "words are marked inline within differing cells.''</small>"
     )
-    return _wrap(body + "\n" + legend + "\n\n" + SOURCE_NOTE)
+    return _wrap(body + "\n" + legend + _join_extra(extra) + "\n\n" + SOURCE_NOTE)
 
 
 def render_removed(label: str) -> str:
@@ -129,6 +136,13 @@ def render_removed(label: str) -> str:
         "and is no longer available in-game. Page kept for reference.''</div>"
     )
     return _wrap(body + "\n\n" + SOURCE_NOTE)
+
+
+def _join_extra(extra: str) -> str:
+    """Pad an extra-content block with surrounding whitespace, or yield ''."""
+    if not extra:
+        return ""
+    return "\n\n" + extra.strip()
 
 
 def _wrap(body: str) -> str:

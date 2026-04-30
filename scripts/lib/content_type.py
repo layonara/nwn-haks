@@ -16,6 +16,19 @@ A ContentType describes:
   xref_link:      optional callable(layo_records, stock_records, all_id_maps)
                   invoked once both sides are loaded so records can resolve
                   cross-2da numeric ids into human-readable names
+  post_link:      optional callable(layo_records, stock_records, all_records,
+                                    layo_id_maps, stock_id_maps,
+                                    cross_kind_suffixes)
+                  invoked AFTER `xref_link` for every kind has run AND the
+                  cross-kind disambiguator is computed. Use this when a kind
+                  needs visibility into other kinds' resolved records (e.g.
+                  master feats inventorying their child feat variants and
+                  resolving their wiki page titles).
+  extra_render:   optional callable(layo_record, stock_record_or_none) -> str
+                  Wikitext appended inside the autosync block, after the
+                  comparison/identical/custom table and before the source
+                  attribution note. Use for content that doesn't fit a
+                  per-field row (e.g. a `== Variants ==` bullet list).
   icon_attr:      attribute name on each record that holds the icon resref
                   (None => no icon row in the autosync table)
   tlk_columns:    columns whose values are TLK string references; the stock
@@ -47,6 +60,8 @@ class ContentType:
     display_fields: list[tuple[str, Callable]]
     loader: Callable
     xref_link: Optional[Callable] = None
+    post_link: Optional[Callable] = None
+    extra_render: Optional[Callable] = None
     icon_attr: Optional[str] = None
     tlk_columns: tuple[str, ...] = field(default_factory=tuple)
     disambig_suffix: str = ""
