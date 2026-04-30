@@ -20,6 +20,16 @@ A ContentType describes:
                   (None => no icon row in the autosync table)
   tlk_columns:    columns whose values are TLK string references; the stock
                   baseline extractor uses these to build a filtered TLK subset
+
+  disambig_suffix:    short label used when a page-title collision with another
+                      kind forces a suffix (e.g. "Skill" -> "Heal (Skill)").
+                      Empty string means "this kind wins the bare title".
+                      Conflicts where multiple kinds want the bare title are
+                      resolved by `disambig_priority` (lowest wins).
+  disambig_priority:  smaller = wins the bare title in cross-kind collisions.
+                      Default order: spell(0) > skill(1) > race(2) > class(3) >
+                      feat(4). Tweak only if you need to override which kind
+                      keeps the canonical name.
 """
 from __future__ import annotations
 
@@ -39,6 +49,8 @@ class ContentType:
     xref_link: Optional[Callable] = None
     icon_attr: Optional[str] = None
     tlk_columns: tuple[str, ...] = field(default_factory=tuple)
+    disambig_suffix: str = ""
+    disambig_priority: int = 100
 
     def get_icon(self, record) -> str:
         """Return the icon resref for `record`, or empty string."""

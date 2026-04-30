@@ -38,6 +38,13 @@ from .class_record import CLASS_DISPLAY_FIELDS, load_classes
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 
 
+# disambig_priority: lowest wins the bare title in cross-kind collisions.
+# Spells take the bare title because they're the most-linked-to / most-iconic
+# content type and almost every wiki cross-reference assumes "Heal" means the
+# spell. Skill is next (also commonly bare-linked). Race/Class only collide
+# with each other on creature-type names where the "race" perspective wins
+# because that's the page players land on. Feat is last because feat names
+# overwhelmingly piggyback on the spell or skill they cast.
 CONTENT_TYPES: list[ContentType] = [
     ContentType(
         kind="spell",
@@ -49,28 +56,21 @@ CONTENT_TYPES: list[ContentType] = [
         xref_link=link_spell_xrefs,
         icon_attr="icon_resref",
         tlk_columns=("Name", "SpellDesc", "AltMessage"),
+        disambig_suffix="Spell",
+        disambig_priority=0,
     ),
     ContentType(
-        kind="feat",
-        template_name="NWN:Feat",
-        layo_2da=REPO_ROOT / "config/2da/feat.2da",
-        stock_2da=REPO_ROOT / "vendor/stock/feat.2da",
-        display_fields=FEAT_DISPLAY_FIELDS,
-        loader=load_feats,
-        xref_link=link_feat_xrefs,
-        icon_attr="icon",
-        tlk_columns=("FEAT", "DESCRIPTION"),
-    ),
-    ContentType(
-        kind="class",
-        template_name="NWN:Class",
-        layo_2da=REPO_ROOT / "config/2da/classes.2da",
-        stock_2da=REPO_ROOT / "vendor/stock/classes.2da",
-        display_fields=CLASS_DISPLAY_FIELDS,
-        loader=load_classes,
+        kind="skill",
+        template_name="NWN:Skill",
+        layo_2da=REPO_ROOT / "config/2da/skills.2da",
+        stock_2da=REPO_ROOT / "vendor/stock/skills.2da",
+        display_fields=SKILL_DISPLAY_FIELDS,
+        loader=load_skills,
         xref_link=None,
         icon_attr="icon",
-        tlk_columns=("Name", "Plural", "Lower", "Description"),
+        tlk_columns=("Name", "Description"),
+        disambig_suffix="Skill",
+        disambig_priority=1,
     ),
     ContentType(
         kind="race",
@@ -83,17 +83,34 @@ CONTENT_TYPES: list[ContentType] = [
         icon_attr="icon",
         tlk_columns=("Name", "ConverName", "ConverNameLower", "NamePlural",
                      "Description", "Biography"),
+        disambig_suffix="Race",
+        disambig_priority=2,
     ),
     ContentType(
-        kind="skill",
-        template_name="NWN:Skill",
-        layo_2da=REPO_ROOT / "config/2da/skills.2da",
-        stock_2da=REPO_ROOT / "vendor/stock/skills.2da",
-        display_fields=SKILL_DISPLAY_FIELDS,
-        loader=load_skills,
+        kind="class",
+        template_name="NWN:Class",
+        layo_2da=REPO_ROOT / "config/2da/classes.2da",
+        stock_2da=REPO_ROOT / "vendor/stock/classes.2da",
+        display_fields=CLASS_DISPLAY_FIELDS,
+        loader=load_classes,
         xref_link=None,
         icon_attr="icon",
-        tlk_columns=("Name", "Description"),
+        tlk_columns=("Name", "Plural", "Lower", "Description"),
+        disambig_suffix="Class",
+        disambig_priority=3,
+    ),
+    ContentType(
+        kind="feat",
+        template_name="NWN:Feat",
+        layo_2da=REPO_ROOT / "config/2da/feat.2da",
+        stock_2da=REPO_ROOT / "vendor/stock/feat.2da",
+        display_fields=FEAT_DISPLAY_FIELDS,
+        loader=load_feats,
+        xref_link=link_feat_xrefs,
+        icon_attr="icon",
+        tlk_columns=("FEAT", "DESCRIPTION"),
+        disambig_suffix="Feat",
+        disambig_priority=4,
     ),
 ]
 

@@ -58,11 +58,55 @@ STOCK_TLK_JSON = REPO_ROOT / "vendor/stock/dialog_subset.json"
 DIFF_DUMP_DIR = Path("/tmp/wiki_sync_diffs")
 
 
-def _page_title(record) -> str:
+def _page_title(record, suffix: str = "") -> str:
     """The wiki page title for a record is its resolved TLK name (the in-game
     name). The 2da LABEL column is just a human-readable mnemonic within the
-    file and must not be used for player-facing routing."""
+    file and must not be used for player-facing routing.
+
+    `suffix` is the disambiguator for this kind when its title collides with
+    another kind's bare title (e.g. "Skill" -> "Heal (Skill)"). Empty when
+    this kind wins the bare title.
+    """
+    if suffix:
+        return f"{record.name} ({suffix})"
     return record.name
+
+
+def _compute_disambig_map(active_types: list, records: dict) -> dict[str, str]:
+    """Build a {kind -> applied_suffix} map for cross-kind title collisions.
+
+    For each bare title, the kind with the lowest disambig_priority wins and
+    keeps the bare title (suffix=""). Every other kind that wants the same
+    title applies its `disambig_suffix`. Within-kind canonicalization (already
+    handled by _pick_canonical) is orthogonal.
+
+    Returns a per-(kind, label) suffix map: suffixes[(kind, label)] = "Skill".
+    Missing entries mean "no suffix" (default).
+    """
+    titles_by_kind: dict[str, dict[str, str]] = {}  # title -> {kind: label}
+    for ct in active_types:
+        layo, _ = records[ct.kind]
+        seen_for_this_kind: set[str] = set()
+        for label, rec in layo.items():
+            if not rec.name or rec.name.lower() == "bad strref":
+                continue
+            t = rec.name
+            if t in seen_for_this_kind:
+                continue
+            seen_for_this_kind.add(t)
+            titles_by_kind.setdefault(t, {})[ct.kind] = label
+
+    suffixes: dict[tuple[str, str], str] = {}
+    by_kind = {ct.kind: ct for ct in active_types}
+    for title, kind_to_label in titles_by_kind.items():
+        if len(kind_to_label) < 2:
+            continue
+        ranked = sorted(kind_to_label.keys(),
+                        key=lambda k: by_kind[k].disambig_priority)
+        for k in ranked[1:]:
+            suffix = by_kind[k].disambig_suffix or k.title()
+            suffixes[(k, kind_to_label[k])] = suffix
+    return suffixes
 
 
 def _label_to_name_distance(label: str, name: str) -> int:
@@ -116,7 +160,9 @@ def _build_blocks_for(entries_layo: dict, entries_stock: dict, display_fields,
                       filter_terms: set[str] | None,
                       skipped_no_name: list[str],
                       collisions: list[tuple[str, str, list[str]]],
-                      kind: str) -> dict[str, tuple[str, object]]:
+                      kind: str,
+                      cross_kind_suffixes: dict[tuple[str, str], str] | None = None,
+                      ) -> dict[str, tuple[str, object]]:
     """Return {label: (managed_block_wikitext, layo_record)} for each requested entry.
 
     `filter_terms` may contain 2da LABELs and/or in-game names; both match.
@@ -125,7 +171,16 @@ def _build_blocks_for(entries_layo: dict, entries_stock: dict, display_fields,
 
     When multiple records resolve to the same page title, the canonical row
     (see _pick_canonical) is kept and the rest are reported in `collisions`.
+
+    `cross_kind_suffixes[(kind, label)]` is consulted to resolve cross-kind
+    title collisions (so e.g. the skill `Heal` lands on `Heal (Skill)` when
+    the spell `Heal` already owns the bare title).
     """
+    suffixes = cross_kind_suffixes or {}
+
+    def title_for(label: str, rec) -> str:
+        return _page_title(rec, suffixes.get((kind, label), ""))
+
     # First pass: filter + skip bad names + group by resolved page title.
     by_title: dict[str, list[tuple[str, object]]] = {}
     for label, layo_rec in entries_layo.items():
@@ -135,7 +190,7 @@ def _build_blocks_for(entries_layo: dict, entries_stock: dict, display_fields,
         if not layo_rec.name or layo_rec.name.lower() == "bad strref":
             skipped_no_name.append(label)
             continue
-        by_title.setdefault(_page_title(layo_rec), []).append((label, layo_rec))
+        by_title.setdefault(title_for(label, layo_rec), []).append((label, layo_rec))
 
     blocks: dict[str, tuple[str, object]] = {}
     for title, candidates in by_title.items():
@@ -284,6 +339,19 @@ def main() -> int:
             log.warning("could not enumerate wiki icon files (%s); rendering all "
                         "[[File:...]] links unconditionally", e)
 
+    # Cross-kind title disambiguation. Computed across ALL CONTENT_TYPES (not
+    # just `active_types`) so that page titles are stable regardless of which
+    # kinds are being synced in this particular run -- the skill `Heal` always
+    # lands on `Heal (Skill)` even if today we're only re-running the skill
+    # pass and the spell pass isn't active.
+    cross_kind_suffixes = _compute_disambig_map(CONTENT_TYPES, records)
+    if cross_kind_suffixes:
+        n = len(cross_kind_suffixes)
+        sample = list(cross_kind_suffixes.items())[:6]
+        log.info("cross-kind title collisions: %d records get a suffix "
+                 "(e.g. %s)", n,
+                 ", ".join(f"{k[0]}:{k[1]} -> ({s})" for k, s in sample))
+
     # blocks_per_kind[kind] = {label: (block_text, layo_record)}
     blocks_per_kind: dict[str, dict[str, tuple[str, object]]] = {}
     skipped_no_name: list[str] = []
@@ -292,7 +360,8 @@ def main() -> int:
         layo, stock = records[ct.kind]
         blocks = _build_blocks_for(layo, stock, ct.display_fields,
                                    filter_terms, skipped_no_name,
-                                   collisions, ct.kind)
+                                   collisions, ct.kind,
+                                   cross_kind_suffixes=cross_kind_suffixes)
         if args.limit:
             blocks = dict(list(blocks.items())[:args.limit])
         blocks_per_kind[ct.kind] = blocks
@@ -324,7 +393,8 @@ def main() -> int:
         ro = WikiClient(creds)
         for ct in active_types:
             for label, (block, record) in blocks_per_kind[ct.kind].items():
-                title = _page_title(record)
+                title = _page_title(record,
+                                    cross_kind_suffixes.get((ct.kind, label), ""))
                 try:
                     existing = ro.get_wikitext(title)
                 except Exception as e:
@@ -384,7 +454,8 @@ def main() -> int:
 
     for ct in active_types:
         for label, (block, record) in blocks_per_kind[ct.kind].items():
-            title = _page_title(record)
+            title = _page_title(record,
+                                cross_kind_suffixes.get((ct.kind, label), ""))
             try:
                 existing = client.get_wikitext(title)
                 if existing is None and args.no_create:
