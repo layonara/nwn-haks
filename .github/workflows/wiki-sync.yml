@@ -7,8 +7,13 @@ name: Wiki Sync
 # below are confirmed in production. Flip the `push:` block on once they are.
 #
 # Prereqs (one-time setup on leanthar):
-#   1. WIKI_BOT_USER + WIKI_BOT_PASSWORD repo secrets (Special:BotPasswords),
-#      with edit + bot rights and 5.161.122.37/32 in "Allowed IP Ranges".
+#   1. LEANTHAR_HOST + LEANTHAR_SSH_KEY repo secrets (the appleboy/ssh-action
+#      uses these to connect as the `layonara` user). No MediaWiki bot
+#      password needed -- writes go through `docker exec edit.php` like the
+#      aragen Discord bot does, because the BotPasswords credential in
+#      Coolify has been stale forever and nobody noticed (the bot's
+#      changelog cog also bypasses the API). See layonara-architecture.mdc
+#      for the full backstory.
 #   2. As user `layonara` on leanthar:
 #        cd /opt/layonara/nwsync-builder/layo-haks
 #        git config --global --add safe.directory $(pwd)
@@ -90,8 +95,11 @@ jobs:
             cd /opt/layonara/nwsync-builder/layo-haks
             git pull --ff-only
 
-            export WIKI_BOT_USER='${{ secrets.WIKI_BOT_USER }}'
-            export WIKI_BOT_PASSWORD='${{ secrets.WIKI_BOT_PASSWORD }}'
+            # Docker-exec write backend; no bot password needed. Container
+            # name is the wiki Coolify deployment (uuid-suffix). Update if
+            # the wiki service is ever redeployed under a new uuid.
+            export WIKI_CONTAINER='y82pthxjr38wth284d78m4cj-033153645823'
+            export WIKI_BOT_USER='Orth'
             export GITHUB_SHA='${{ github.sha }}'
 
             ARGS=(--commit "$GITHUB_SHA")

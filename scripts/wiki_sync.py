@@ -15,9 +15,19 @@ Usage:
     # Restrict to one or more content types:
     python3 scripts/wiki_sync.py --kinds spell,feat
 
-Authentication: WIKI_BOT_USER, WIKI_BOT_PASSWORD env vars (MediaWiki bot
-password from Special:BotPasswords). Optional WIKI_API_URL (defaults to
-https://wiki.layonara.com/api.php).
+Write authentication, in priority order:
+  1. WIKI_CONTAINER  -- shells into the wiki container's maintenance/edit.php
+                        (no MediaWiki bot password needed; this is what the
+                        aragen bot's changelog cog does and what we should
+                        keep using until/unless somebody refreshes the bot
+                        password at https://wiki.layonara.com/Special:BotPasswords).
+                        Optional companion: WIKI_SSH_HOST to proxy via ssh.
+  2. WIKI_BOT_USER + WIKI_BOT_PASSWORD -- classic MediaWiki BotPasswords API
+                        login. Currently broken on production (wrongpassword
+                        in Coolify); this branch exists for future use.
+
+Reads (existing-page fetch + image enumeration) always go through the public
+action=query API and need no auth.
 """
 from __future__ import annotations
 
@@ -39,7 +49,7 @@ from lib.render import (  # noqa: E402
     splice_into_page, diff_records,
 )
 from lib.spell_record import set_known_icon_files  # noqa: E402
-from lib.wiki_client import WikiClient, WikiCreds  # noqa: E402
+from lib.wiki_client import WikiClient, WikiCreds, make_default_backend  # noqa: E402
 
 
 LAYO_TLK_JSON = REPO_ROOT / "layonara.tlk.json"
@@ -337,14 +347,32 @@ def main() -> int:
                  DIFF_DUMP_DIR)
         return 0
 
-    creds = WikiCreds(
-        api_url=os.environ.get("WIKI_API_URL", "https://wiki.layonara.com/api.php"),
-        username=os.environ["WIKI_BOT_USER"],
-        password=os.environ["WIKI_BOT_PASSWORD"],
-    )
-    log.info("logging in to %s as %s ...", creds.api_url, creds.username)
-    client = WikiClient(creds)
-    client.login()
+    backend = make_default_backend()
+    if backend is not None:
+        creds = WikiCreds(
+            api_url=os.environ.get("WIKI_API_URL", "https://wiki.layonara.com/api.php"),
+            username="", password="",
+        )
+        client = WikiClient(creds, write_backend=backend)
+        log.info("write backend: %s (user=%s%s)",
+                 client.write_backend_name, backend.user,
+                 f", via ssh {backend.ssh_host}" if backend.ssh_host else "")
+    else:
+        if not (os.environ.get("WIKI_BOT_USER") and os.environ.get("WIKI_BOT_PASSWORD")):
+            raise SystemExit(
+                "no write path configured. Set either:\n"
+                "  WIKI_CONTAINER (preferred; uses docker exec edit.php like the bot does)\n"
+                "  -- or --\n"
+                "  WIKI_BOT_USER + WIKI_BOT_PASSWORD (MediaWiki BotPasswords API; "
+                "currently broken on production -- password in Coolify is stale)")
+        creds = WikiCreds(
+            api_url=os.environ.get("WIKI_API_URL", "https://wiki.layonara.com/api.php"),
+            username=os.environ["WIKI_BOT_USER"],
+            password=os.environ["WIKI_BOT_PASSWORD"],
+        )
+        client = WikiClient(creds)
+        log.info("write backend: api (logging in as %s)", creds.username)
+        client.login()
 
     n_changed = n_unchanged = n_created = n_errors = 0
 
