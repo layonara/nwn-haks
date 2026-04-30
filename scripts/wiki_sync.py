@@ -227,6 +227,12 @@ def main() -> int:
                          "stub, so the autosync block is the sole source of "
                          "truth. Use with care -- destroys human prose. "
                          "Default: leave existing prose intact above the block.")
+    ap.add_argument("--no-create", action="store_true",
+                    help="only edit pages that already exist on the wiki; "
+                         "skip records whose target page would be created. "
+                         "Useful for staged rollouts where you want to update "
+                         "existing community pages first and decide later "
+                         "which subset of new pages to create.")
     ap.add_argument("-v", "--verbose", action="store_true")
     args = ap.parse_args()
 
@@ -374,13 +380,18 @@ def main() -> int:
         log.info("write backend: api (logging in as %s)", creds.username)
         client.login()
 
-    n_changed = n_unchanged = n_created = n_errors = 0
+    n_changed = n_unchanged = n_created = n_skipped_no_create = n_errors = 0
 
     for ct in active_types:
         for label, (block, record) in blocks_per_kind[ct.kind].items():
             title = _page_title(record)
             try:
                 existing = client.get_wikitext(title)
+                if existing is None and args.no_create:
+                    log.info("[%s] %s: SKIPPED (--no-create; page does not exist)",
+                             ct.kind, title)
+                    n_skipped_no_create += 1
+                    continue
                 clean_header = render_clean_header(
                     ct.template_name, record.name, ct.get_icon(record))
                 new_text = splice_into_page(existing, block,
@@ -407,8 +418,9 @@ def main() -> int:
                 log.error("[%s] %s: ERROR %s", ct.kind, title, e)
                 n_errors += 1
 
-    log.info("done. %d edited, %d created, %d unchanged, %d errors",
-             n_changed, n_created, n_unchanged, n_errors)
+    log.info("done. %d edited, %d created, %d unchanged, %d skipped (no-create), "
+             "%d errors", n_changed, n_created, n_unchanged, n_skipped_no_create,
+             n_errors)
     return 1 if n_errors else 0
 
 
