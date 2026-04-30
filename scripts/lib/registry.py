@@ -136,6 +136,13 @@ CONTENT_TYPES: list[ContentType] = [
         post_link=link_masterfeat_variants,
         extra_render=extra_render_masterfeat,
         categories=masterfeat_categories,
+        # Suppress orphan master feats (rows in masterfeats.2da with zero
+        # feats pointing at them via the MASTERFEAT column). Such rows are
+        # almost always abandoned plans (e.g. LayonaraEpicSpells, row 18)
+        # and rendering a page for them produces an empty Variants section
+        # plus a misleading description that's easy to mistake for a real
+        # master feat hub.
+        skip_when=lambda r: not r.variants,
         icon_attr="icon",
         tlk_columns=("STRREF", "DESCRIPTION"),
         # Master feats win the bare title (no suffix) when no other kind

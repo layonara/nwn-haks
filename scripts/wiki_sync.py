@@ -159,11 +159,13 @@ def _pick_canonical(label_records: list[tuple[str, object]]) -> tuple[str, objec
 def _build_blocks_for(entries_layo: dict, entries_stock: dict, display_fields,
                       filter_terms: set[str] | None,
                       skipped_no_name: list[str],
+                      skipped_orphans: list[str],
                       collisions: list[tuple[str, str, list[str]]],
                       kind: str,
                       cross_kind_suffixes: dict[tuple[str, str], str] | None = None,
                       extra_render=None,
                       categories=None,
+                      skip_when=None,
                       ) -> dict[str, tuple[str, object]]:
     """Return {label: (managed_block_wikitext, layo_record)} for each requested entry.
 
@@ -208,6 +210,9 @@ def _build_blocks_for(entries_layo: dict, entries_stock: dict, display_fields,
         else:
             chosen = candidates[0]
         label, layo_rec = chosen
+        if skip_when is not None and skip_when(layo_rec):
+            skipped_orphans.append(label)
+            continue
         stock_rec = entries_stock.get(label)
         deltas = diff_records(layo_rec, stock_rec, display_fields)
         extra = extra_render(layo_rec, stock_rec) if extra_render else ""
@@ -388,18 +393,24 @@ def main() -> int:
     # blocks_per_kind[kind] = {label: (block_text, layo_record)}
     blocks_per_kind: dict[str, dict[str, tuple[str, object]]] = {}
     skipped_no_name: list[str] = []
+    skipped_orphans: list[tuple[str, str]] = []  # (kind, label)
     collisions: list[tuple[str, str, list[str]]] = []
     for ct in active_types:
         layo, stock = records[ct.kind]
+        kind_orphans: list[str] = []
         blocks = _build_blocks_for(layo, stock, ct.display_fields,
                                    filter_terms, skipped_no_name,
+                                   kind_orphans,
                                    collisions, ct.kind,
                                    cross_kind_suffixes=cross_kind_suffixes,
                                    extra_render=ct.extra_render,
-                                   categories=ct.categories)
+                                   categories=ct.categories,
+                                   skip_when=ct.skip_when)
         if args.limit:
             blocks = dict(list(blocks.items())[:args.limit])
         blocks_per_kind[ct.kind] = blocks
+        for lab in kind_orphans:
+            skipped_orphans.append((ct.kind, lab))
         log.info("  prepared %d %s blocks", len(blocks), ct.kind)
 
     if skipped_no_name:
@@ -407,6 +418,11 @@ def main() -> int:
                     len(skipped_no_name),
                     ", ".join(skipped_no_name[:10]),
                     " ..." if len(skipped_no_name) > 10 else "")
+
+    if skipped_orphans:
+        log.warning("skipped %d orphan records (skip_when predicate): %s",
+                    len(skipped_orphans),
+                    ", ".join(f"[{k}]{lab}" for k, lab in skipped_orphans[:10]))
 
     if collisions:
         log.warning("page-title collisions resolved by canonical-row picking: %d",

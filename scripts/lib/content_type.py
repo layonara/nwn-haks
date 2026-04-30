@@ -35,6 +35,13 @@ A ContentType describes:
                   autosync block so they refresh on every sync. Lets the wiki
                   Special:Categories index automatically reflect the registry
                   without us having to maintain a separate index page.
+  skip_when:      optional callable(layo_record) -> bool
+                  Returning True suppresses page rendering for that record
+                  entirely. Runs AFTER post_link, so any data the post_link
+                  hook attached to the record (e.g. master feat variants)
+                  is visible to the predicate. Use for orphaned records
+                  whose page would have nothing useful to say -- e.g. a
+                  master feat with zero variants pointing at it.
   icon_attr:      attribute name on each record that holds the icon resref
                   (None => no icon row in the autosync table)
   tlk_columns:    columns whose values are TLK string references; the stock
@@ -69,6 +76,7 @@ class ContentType:
     post_link: Optional[Callable] = None
     extra_render: Optional[Callable] = None
     categories: Optional[Callable] = None
+    skip_when: Optional[Callable] = None
     icon_attr: Optional[str] = None
     tlk_columns: tuple[str, ...] = field(default_factory=tuple)
     disambig_suffix: str = ""
