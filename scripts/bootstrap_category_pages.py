@@ -31,9 +31,11 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
+import os
+
 from lib.registry import CONTENT_TYPES
 from lib.tlk import TlkResolver
-from lib.wiki_client import build_wiki_client
+from lib.wiki_client import WikiClient, WikiCreds, make_default_backend
 
 
 # One-line description per category. Anything not in this map gets a
@@ -127,7 +129,19 @@ def main():
         emitted = {n: k for n, k in emitted.items() if n in wanted}
         log.info("filter narrowed to %d categories", len(emitted))
 
-    client = build_wiki_client()
+    backend = make_default_backend()
+    if backend is None:
+        log.error("no write backend configured. Set WIKI_CONTAINER (and "
+                  "optionally WIKI_BOT_USER) for docker-exec mode, the "
+                  "same env vars wiki_sync.py uses.")
+        sys.exit(1)
+    creds = WikiCreds(
+        api_url=os.environ.get("WIKI_API_URL", "https://wiki.layonara.com/api.php"),
+        username="", password="",
+    )
+    client = WikiClient(creds, write_backend=backend)
+    log.info("write backend: %s (user=%s)",
+             client.write_backend_name, backend.user)
     log.info("checking which categories need description pages...")
     missing = _missing_description_pages(client, sorted(emitted))
     log.info("%d of %d categories have no description page",
