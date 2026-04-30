@@ -1,0 +1,141 @@
+name: Wiki Sync
+
+# Pushes 2da/tlk-driven content (spells, feats, classes, races, skills) to
+# wiki.layonara.com. See scripts/wiki_sync.py for the full pipeline.
+#
+# CURRENTLY workflow_dispatch ONLY -- this is intentional until the prereqs
+# below are confirmed in production. Flip the `push:` block on once they are.
+#
+# Prereqs (one-time setup on leanthar):
+#   1. WIKI_BOT_USER + WIKI_BOT_PASSWORD repo secrets (Special:BotPasswords),
+#      with edit + bot rights and 5.161.122.37/32 in "Allowed IP Ranges".
+#   2. As user `layonara` on leanthar:
+#        cd /opt/layonara/nwsync-builder/layo-haks
+#        git config --global --add safe.directory $(pwd)
+#        sudo apt install -y python3-pip python3-venv imagemagick
+#        python3 -m venv ~/.venv-wiki-sync
+#        ~/.venv-wiki-sync/bin/pip install -r scripts/requirements.txt
+#   3. The nwsync builder already maintains both the layo-haks clone and the
+#      stock NWN data tree at /opt/layonara/nwn-data/{nwn,modules}; we reuse
+#      both, so no extra plumbing.
+
+on:
+  workflow_dispatch:
+    inputs:
+      kinds:
+        description: 'Content kinds (comma-separated, e.g. spell,feat). Empty = all'
+        required: false
+        default: ''
+      filter:
+        description: 'Specific entries (comma-separated, e.g. Acid_Fog,Cleave). Empty = all'
+        required: false
+        default: ''
+      dry_run:
+        description: 'Dry-run (render to /tmp/wiki_sync_diffs/, no wiki edits)'
+        required: false
+        default: 'true'
+        type: choice
+        options: ['true', 'false']
+      clear_existing_desc:
+        description: 'Replace existing template desc=/freeform prose with the autosync block'
+        required: false
+        default: 'false'
+        type: choice
+        options: ['true', 'false']
+      upload_icons:
+        description: 'Also run upload_icons.py before the sync (slow; only needed when icons changed)'
+        required: false
+        default: 'false'
+        type: choice
+        options: ['true', 'false']
+
+  # Auto-sync on push to 64bit when relevant data changes. ENABLE BY UNCOMMENTING.
+  # push:
+  #   branches: [64bit]
+  #   paths:
+  #     - 'config/2da/spells.2da'
+  #     - 'config/2da/feat.2da'
+  #     - 'config/2da/masterfeats.2da'
+  #     - 'config/2da/classes.2da'
+  #     - 'config/2da/racialtypes.2da'
+  #     - 'config/2da/skills.2da'
+  #     - 'layonara.tlk.json'
+  #     - 'scripts/**'
+  #     - 'vendor/stock/**'
+
+concurrency:
+  group: wiki-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Run wiki_sync.py on leanthar
+        uses: appleboy/ssh-action@v1
+        env:
+          KINDS: ${{ inputs.kinds }}
+          FILTER: ${{ inputs.filter }}
+          DRY_RUN: ${{ inputs.dry_run || 'true' }}
+          CLEAR_DESC: ${{ inputs.clear_existing_desc || 'false' }}
+        with:
+          host: ${{ secrets.LEANTHAR_HOST }}
+          username: layonara
+          key: ${{ secrets.LEANTHAR_SSH_KEY }}
+          envs: KINDS,FILTER,DRY_RUN,CLEAR_DESC
+          command_timeout: 25m
+          script: |
+            set -euo pipefail
+            cd /opt/layonara/nwsync-builder/layo-haks
+            git pull --ff-only
+
+            export WIKI_BOT_USER='${{ secrets.WIKI_BOT_USER }}'
+            export WIKI_BOT_PASSWORD='${{ secrets.WIKI_BOT_PASSWORD }}'
+            export GITHUB_SHA='${{ github.sha }}'
+
+            ARGS=(--commit "$GITHUB_SHA")
+            [ -n "$KINDS" ]   && ARGS+=(--kinds "$KINDS")
+            [ -n "$FILTER" ]  && ARGS+=(--filter "$FILTER")
+            [ "$DRY_RUN" = "true" ]    && ARGS+=(--dry-run)
+            [ "$CLEAR_DESC" = "true" ] && ARGS+=(--clear-existing-desc)
+
+            ~/.venv-wiki-sync/bin/python scripts/wiki_sync.py "${ARGS[@]}"
+
+  # Bulk icon upload. Manual-only because:
+  #   - stock NWN icons rarely change (only when adding a new content type or
+  #     when Layonara adds custom icon resrefs)
+  #   - one-pass full sweep extracts ~1100 resrefs sequentially -- ~20-25 min
+  #
+  # Runs on leanthar via the same SSH path as the sync job; uses the BIF set
+  # at /opt/layonara/nwn-data/nwn (already maintained for the nwsync builder).
+  # Prereq on leanthar: `sudo apt install -y imagemagick` for `convert`.
+  upload-icons:
+    if: ${{ github.event_name == 'workflow_dispatch' && inputs.upload_icons == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Run upload_icons.py on leanthar
+        uses: appleboy/ssh-action@v1
+        env:
+          KINDS: ${{ inputs.kinds }}
+          DRY_RUN: ${{ inputs.dry_run || 'true' }}
+        with:
+          host: ${{ secrets.LEANTHAR_HOST }}
+          username: layonara
+          key: ${{ secrets.LEANTHAR_SSH_KEY }}
+          envs: KINDS,DRY_RUN
+          command_timeout: 40m
+          script: |
+            set -euo pipefail
+            cd /opt/layonara/nwsync-builder/layo-haks
+            git pull --ff-only
+
+            export NWN_ROOT=/opt/layonara/nwn-data/nwn
+            export NWN_USER=/opt/layonara/nwn-data
+
+            ARGS=()
+            [ -n "$KINDS" ]         && ARGS+=(--kinds "$KINDS")
+            [ "$DRY_RUN" = "true" ] && ARGS+=(--dry-run)
+
+            ~/.venv-wiki-sync/bin/python scripts/upload_icons.py "${ARGS[@]}"
