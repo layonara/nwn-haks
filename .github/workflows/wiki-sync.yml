@@ -1,12 +1,14 @@
 name: Wiki Sync
 
-# Pushes 2da/tlk-driven content (spells, feats, classes, races, skills) to
-# wiki.layonara.com. See scripts/wiki_sync.py for the full pipeline.
+# Pushes 2da/tlk-driven content (spells, feats, classes, races, skills,
+# master feats) to wiki.layonara.com. See scripts/wiki_sync.py for the full
+# pipeline.
 #
-# CURRENTLY workflow_dispatch ONLY -- this is intentional until the prereqs
-# below are confirmed in production. Flip the `push:` block on once they are.
+# Triggers:
+#   - push to 64bit when 2da/tlk/scripts paths change -> auto-sync (DRY_RUN=false)
+#   - workflow_dispatch -> manual run, defaults to dry_run=true for safety
 #
-# Prereqs (one-time setup on leanthar):
+# Prereqs (one-time setup on leanthar, already done as of PR #20):
 #   1. LEANTHAR_HOST + LEANTHAR_SSH_KEY repo secrets (the appleboy/ssh-action
 #      uses these to connect as the `layonara` user). No MediaWiki bot
 #      password needed -- writes go through `docker exec edit.php` like the
@@ -54,19 +56,20 @@ on:
         type: choice
         options: ['true', 'false']
 
-  # Auto-sync on push to 64bit when relevant data changes. ENABLE BY UNCOMMENTING.
-  # push:
-  #   branches: [64bit]
-  #   paths:
-  #     - 'config/2da/spells.2da'
-  #     - 'config/2da/feat.2da'
-  #     - 'config/2da/masterfeats.2da'
-  #     - 'config/2da/classes.2da'
-  #     - 'config/2da/racialtypes.2da'
-  #     - 'config/2da/skills.2da'
-  #     - 'layonara.tlk.json'
-  #     - 'scripts/**'
-  #     - 'vendor/stock/**'
+  # Auto-sync on push to 64bit when relevant data changes. Push runs always
+  # write (DRY_RUN=false); workflow_dispatch defaults to dry_run=true.
+  push:
+    branches: [64bit]
+    paths:
+      - 'config/2da/spells.2da'
+      - 'config/2da/feat.2da'
+      - 'config/2da/masterfeats.2da'
+      - 'config/2da/classes.2da'
+      - 'config/2da/racialtypes.2da'
+      - 'config/2da/skills.2da'
+      - 'layonara.tlk.json'
+      - 'scripts/**'
+      - 'vendor/stock/**'
 
 concurrency:
   group: wiki-sync
@@ -82,7 +85,7 @@ jobs:
         env:
           KINDS: ${{ inputs.kinds }}
           FILTER: ${{ inputs.filter }}
-          DRY_RUN: ${{ inputs.dry_run || 'true' }}
+          DRY_RUN: ${{ github.event_name == 'push' && 'false' || (inputs.dry_run || 'true') }}
           CLEAR_DESC: ${{ inputs.clear_existing_desc || 'false' }}
         with:
           host: ${{ secrets.LEANTHAR_HOST }}
