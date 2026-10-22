@@ -1,0 +1,222 @@
+# Rewritten by cleanmodels
+#MAXMODEL ASCII
+newmodel vps_bugs
+        classification EFFECT
+        setsupermodel vps_bugs null
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom vps_bugs
+    node dummy vps_bugs
+        parent NULL
+    endnode
+    node dummy dummy01
+        parent vps_bugs
+        #part-number 1
+        position 0 0 -0.214821
+        orientation 0 0 1 0
+    endnode
+    node emitter omenemitter01
+        parent dummy01
+        #part-number 2
+        position 0 1.02031 2.13096
+        orientation 1 -0 -0 3.735
+        deadspace 0
+        blastRadius 0
+        blastLength 0
+        xgrid 1
+        ygrid 1
+        spawntype 0
+        update Fountain
+        render Normal
+        blend Normal
+        texture fxpa_dot01
+        twosidedtex 0
+        loop 0
+        renderorder 0
+        p2p 1
+        p2p_sel 0
+        affectedByWind 0
+        m_isTinted 1
+        bounce 0
+        random 0
+        inherit 0
+        inheritvel 0
+        inherit_local 1
+        splat 0
+        inherit_part 0
+        alphaStart 1
+        alphaMid 0
+        alphaEnd 1
+        colorStart 0.0666667 0.0666667 0.0666667
+        colorMid 0 0 0
+        colorEnd 0.0666667 0.0666667 0.0666667
+        sizeStart 0.1
+        sizeMid 0
+        sizeEnd 0.07
+        sizeStart_y 0
+        sizeMid_y 0
+        sizeEnd_y 0
+        birthrate 10
+        lifeExp 2
+        mass 0
+        spread 6.28319
+        particleRot 0
+        velocity 1.5
+        randvel 0.5
+        bounce_co 0
+        blurlength 10
+        fps 0
+        frameStart 0
+        frameEnd 0
+        grav 3
+        drag 1
+        threshold 0
+        combinetime 0
+        percentStart 0
+        percentMid 0
+        percentEnd 0
+        lightningDelay 0
+        lightningRadius 0
+        lightningScale 0
+        p2p_bezier2 0
+        p2p_bezier3 0
+        xsize 0
+        ysize 0
+    endnode
+    node reference omenref01
+        parent omenemitter01
+        #part-number 3
+        position 0.225107 1.14803 -0.0805
+        orientation 1 -0 -0 2.54818
+        refModel fx_ref
+        reattachable 0
+    endnode
+    node trimesh clickbox
+        parent vps_bugs
+        # invisible, but drawn, so the swarm can be clicked (the model is otherwise only an emitter)
+        position 0 0 0
+        orientation 0 0 0 0
+        render 1
+        shadow 0
+        beaming 0
+        alpha 0
+        transparencyhint 1
+        tilefade 0
+        ambient 1 1 1
+        diffuse 1 1 1
+        specular 0 0 0
+        shininess 1
+        bitmap black
+        verts 8
+            -0.75 -0.5 0
+            0.75 -0.5 0
+            0.75 1.75 0
+            -0.75 1.75 0
+            -0.75 -0.5 2.6
+            0.75 -0.5 2.6
+            0.75 1.75 2.6
+            -0.75 1.75 2.6
+        faces 12
+            0 2 1 1 0 0 0 0
+            0 3 2 1 0 0 0 0
+            4 5 6 1 0 0 0 0
+            4 6 7 1 0 0 0 0
+            0 1 5 1 0 0 0 0
+            0 5 4 1 0 0 0 0
+            1 2 6 1 0 0 0 0
+            1 6 5 1 0 0 0 0
+            2 3 7 1 0 0 0 0
+            2 7 6 1 0 0 0 0
+            3 0 4 1 0 0 0 0
+            3 4 7 1 0 0 0 0
+        tverts 1
+            0 0 0
+    endnode
+endmodelgeom vps_bugs
+
+#MAXANIM ASCII
+newanim impact vps_bugs
+        length 0
+        transtime 0
+        animroot vps_bugs
+        node dummy vps_bugs
+            parent NULL
+        endnode
+        node dummy dummy01
+            parent vps_bugs
+            orientationkey 1
+      0 0 0 1 0
+            endlist
+        endnode
+        node emitter omenemitter01
+            parent dummy01
+            birthratekey 1
+      0 10
+            endlist
+        endnode
+        node reference omenref01
+            parent omenemitter01
+        endnode
+doneanim impact vps_bugs
+
+#MAXANIM ASCII
+newanim duration vps_bugs
+        length 1.3
+        transtime 0
+        animroot vps_bugs
+        node dummy vps_bugs
+            parent NULL
+        endnode
+        node dummy dummy01
+            parent vps_bugs
+            orientationkey 5
+      0 0 0 1 0
+      0.266667 0 0 1 1.5708
+      0.533333 0 0 1 3.14159
+      0.866667 0 0 1 4.71239
+      1.2 -1 -0 -0 6.2831807
+            endlist
+        endnode
+        node emitter omenemitter01
+            parent dummy01
+            birthratekey 5
+      0 10
+      0.233333 11
+      1.23333 21
+      1.26667 21
+      1.3 5
+            endlist
+        endnode
+        node reference omenref01
+            parent omenemitter01
+        endnode
+doneanim duration vps_bugs
+
+#MAXANIM ASCII
+newanim cessation vps_bugs
+        length 1
+        transtime 0
+        animroot vps_bugs
+        node dummy vps_bugs
+            parent NULL
+        endnode
+        node dummy dummy01
+            parent vps_bugs
+            orientationkey 3
+      0.233333 0 0 -1 4.71239
+      0.566667 0 0 -1 3.14159
+      0.9 0 0 -1 1.5708
+            endlist
+        endnode
+        node emitter omenemitter01
+            parent dummy01
+            birthratekey 2
+      0 5
+      0.133333 0
+            endlist
+        endnode
+        node reference omenref01
+            parent omenemitter01
+        endnode
+doneanim cessation vps_bugs
+donemodel vps_bugs
